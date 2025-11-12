@@ -1,0 +1,26 @@
+# Problem Log
+
+## Purpose
+This file tracks persistent issues and challenges encountered during development.
+
+Created: November 12, 2025
+
+---
+
+## Issues
+
+### RESOLVED: manua.ls PDF Download Challenge
+**Date**: November 12, 2025  
+**Problem**: manua.ls doesn't provide direct PDF downloads. Site uses pdf2htmlEX to convert PDFs to HTML.
+
+**Attempted Solutions**:
+1. ❌ Direct PDF URL extraction - No PDF files available
+2. ❌ Playwright browser automation - Generated corrupted PDFs (HTML saved as PDF)
+
+**Final Solution**: ✅ Text extraction from ALL pages
+- Extracts content from each page (e.g., ?p=1, ?p=2, ... ?p=126)
+- Preserves formatting and structure
+- Much faster than browser automation
+- Produces clean, searchable text files
+- Successfully tested with 126-page manual → 1,839 lines, 98KB
+

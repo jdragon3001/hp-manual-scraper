@@ -1,0 +1,19 @@
+2025-11-12 12:12:42,099 - __main__ - INFO - Testing Playwright PDF download from: https://www.manua.ls/hp/envy-x360/manual
+2025-11-12 12:12:42,100 - __main__ - INFO - ============================================================
+2025-11-12 12:12:44,191 - __main__ - INFO - Brand: HP
+2025-11-12 12:12:44,192 - __main__ - INFO - Model: ENVY x360
+2025-11-12 12:12:44,192 - __main__ - INFO - Pages: 126
+2025-11-12 12:12:44,192 - __main__ - INFO - URL: https://www.manua.ls/hp/envy-x360/manual
+2025-11-12 12:12:44,192 - __main__ - INFO - 
+Attempting download with Playwright...
+2025-11-12 12:12:44,585 - src.pdf_downloader_playwright - INFO - Launching browser for: HP_ENVY x360_126pages.pdf
+2025-11-12 12:12:45,224 - src.pdf_downloader_playwright - INFO - Loading page: https://www.manua.ls/hp/envy-x360/manual
+2025-11-12 12:12:45,873 - src.pdf_downloader_playwright - INFO - Waiting for viewer to load...
+2025-11-12 12:12:45,995 - src.pdf_downloader_playwright - INFO - Allowing page to render...
+2025-11-12 12:12:48,996 - src.pdf_downloader_playwright - INFO - Printing to PDF: HP_ENVY x360_126pages.pdf
+2025-11-12 12:12:51,171 - src.pdf_downloader_playwright - INFO - Successfully saved: HP_ENVY x360_126pages.pdf
+2025-11-12 12:12:52,189 - __main__ - INFO - 
+Download successful!
+2025-11-12 12:12:52,189 - __main__ - INFO - Brand folder: downloads\laptops\HP
+2025-11-12 12:12:52,190 - __main__ - INFO - PDFs in folder: 1
+2025-11-12 12:12:52,190 - __main__ - INFO -   - HP_ENVY x360_126pages.pdf (1.25 MB)

@@ -1,0 +1,12 @@
+2025-11-12 12:11:04,066 - __main__ - INFO - Testing Playwright PDF download from: https://www.manua.ls/hp/envy-x360/manual
+2025-11-12 12:11:04,067 - __main__ - INFO - ============================================================
+2025-11-12 12:11:05,294 - __main__ - INFO - Brand: HP
+2025-11-12 12:11:05,294 - __main__ - INFO - Model: ENVY x360
+2025-11-12 12:11:05,294 - __main__ - INFO - Pages: 126
+2025-11-12 12:11:05,294 - __main__ - INFO - URL: https://www.manua.ls/hp/envy-x360/manual
+2025-11-12 12:11:05,294 - __main__ - INFO - 
+Attempting download with Playwright...
+2025-11-12 12:11:05,845 - src.pdf_downloader_playwright - INFO - Launching browser for: HP_ENVY x360_126pages.pdf
+2025-11-12 12:11:07,320 - src.pdf_downloader_playwright - INFO - Loading page: https://www.manua.ls/hp/envy-x360/manual
+2025-11-12 12:12:07,430 - src.pdf_downloader_playwright - ERROR - Timeout loading https://www.manua.ls/hp/envy-x360/manual: Timeout 60000ms exceeded.
+2025-11-12 12:12:07,430 - __main__ - ERROR - Download failed

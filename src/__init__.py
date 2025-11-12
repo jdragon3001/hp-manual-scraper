@@ -1,0 +1,4 @@
+"""
+Manual scraper package
+"""
+
