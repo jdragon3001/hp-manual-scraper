@@ -1,0 +1,189 @@
+Brand: HP
+Model: Pavilion X360
+URL: https://www.manua.ls/hp/pavilion-x360/manual
+Total Pages: 89
+============================================================
+
+--- Page 1 ---
+Maintenance and Service Guide
+SUMMARY
+This guide provides information about spare parts, removal and replacement of parts, security, backing up, and more.
+
+--- Page 2 ---
+Legal information
+© Copyright 2022 HP Development Company, 
+L.P.
+AMD is a trademark of Advanced Micro Devices, 
+Inc. Bluetooth is a trademark owned by 
+its proprietor and used by HP Inc. under 
+license. Intel, Core, Iris, Optane, and vPro 
+are trademarks of Intel Corporation or its 
+subsidiaries in the U.S. and/or other countries. 
+MediaTek™ is a trademark of MediaTek Inc. 
+Microsoft and Windows are either registered 
+trademarks or trademarks of Microsoft 
+Corporation in the United States and/or other 
+countries. Realtek™ is a trademark of Realtek 
+Semiconductor Corporation. USB Type-C and 
+USB-C are registered trademarks of USB 
+Implementers Forum. DisplayPort™ and the 
+DisplayPort™ logo are trademarks owned by 
+the Video Electronics Standards Association 
+(VESA®) in the United States and other 
+countries. Miracast and Wi-Fi are registered 
+trademarks of Wi-Fi Alliance®.
+The information contained herein is subject to 
+change without notice. The only warranties for 
+HP products and services are set forth in the 
+express warranty statements accompanying 
+such products and services. Nothing herein 
+should be construed as constituting an 
+additional warranty. HP shall not be liable 
+for technical or editorial errors or omissions 
+contained herein.
+First Edition: April 2022
+Document Part Number: N02753-001
+Product notice
+This guide describes features that are common 
+to most models. Some features may not be 
+available on your computer.
+Not all features are available in all editions 
+or versions of Windows. Systems may 
+require upgraded and/or separately purchased 
+hardware, drivers, software or BIOS update to 
+take full advantage of Windows functionality. 
+Windows is automatically updated, which 
+is always enabled. High-speed internet 
+and Microsoft account required. ISP fees 
+may apply and additional requirements 
+may apply over time for updates. See 
+http://www.windows.com. If your product 
+ships with Windows in S Mode: Windows in 
+S Mode works exclusively with apps from 
+the Microsoft Store within Windows. Certain 
+default settings, features, and apps cannot 
+be changed. Some accessories and apps 
+that are compatible with Windows may not 
+work (including some antivirus, PDF writers, 
+driver utilities, and accessibility apps), and 
+performance may vary, even if you switch out 
+of S Mode. If you switch to Windows, you 
+cannot switch back to S Mode. Learn more at 
+Windows.com/SmodeFAQ.
+To access the latest user guides, go to 
+http://www.hp.com/support, and follow the 
+instructions to nd your product. Then select 
+Manuals.
+Software terms
+By installing, copying, downloading, or 
+otherwise using any software product 
+preinstalled on this computer, you agree to be 
+bound by the terms of the HP End User License 
+Agreement (EULA). If you do not accept these 
+license terms, your sole remedy is to return the 
+entire unused product (hardware and software) 
+within 14 days for a full refund subject to the 
+refund policy of your seller.
+For any further information or to request a 
+full refund of the price of the computer, please 
+contact your seller.
+
+--- Page 3 ---
+Safety warning notice
+Reduce the possibility of heat-related injuries or of overheating the computer by following the practices 
+described.
+WARNING! To reduce the possibility of heat-related injuries or of overheating the computer, do not place 
+the computer directly on your lap or obstruct the computer air vents. Use the computer only on a hard, at 
+surface. Do not allow another hard surface, such as an adjoining optional printer, or a soft surface, such as 
+pillows or rugs or clothing, to block airow. Also, do not allow the AC adapter to come into contact with the 
+skin or a soft surface, such as pillows or rugs or clothing, during operation. The computer and the AC adapter 
+comply with the user-accessible surface temperature limits dened by applicable safety standards.
+iii
+
+--- Page 4 ---
+Table of contents
+1Product description................................................................................................................................................................1
+2Getting to know your computer.............................................................................................................................................5
+Right side ...........................................................................................................................................................................5
+Left side .............................................................................................................................................................................6
+Display ...............................................................................................................................................................................7
+Low blue-light mode (select products only) .............................................................................................................7
+Wake-on-touch (select products only)......................................................................................................................7
+Keyboard area....................................................................................................................................................................9
+Touchpad settings and components .........................................................................................................................9
+Touchpad settings .............................................................................................................................................9
+Adjusting touchpad settings .....................................................................................................................9
+Turning on the touchpad ........................................................................................................................... 9
+Touchpad components ......................................................................................................................................9
+Lights .......................................................................................................................................................................10
+Button and ngerprint reader .................................................................................................................................11
+Special keys .............................................................................................................................................................13
+Front ................................................................................................................................................................................14
+Bottom  ............................................................................................................................................................................14
+Labels...............................................................................................................................................................................15
+Using a SIM card (select products only)...........................................................................................................................17
+Inserting a nano SIM card ........................................................................................................................................17
+3Illustrated parts catalog ......................................................................................................................................................18
+Computer major components..........................................................................................................................................18
+Display assembly subcomponents..................................................................................................................................22
+Miscellaneous parts.........................................................................................................................................................23
+4Removal andreplacement procedures preliminary requirements.....................................................................................25
+Tools required ..................................................................................................................................................................25
+Service considerations.....................................................................................................................................................25
+Plastic parts.............................................................................................................................................................25
+Cables and connectors.............................................................................................................................................25
+Drive handling..........................................................................................................................................................25
+Electrostatic discharge information................................................................................................................................26
+Generating static electricity ....................................................................................................................................26
+Preventing electrostatic damage to equipment.....................................................................................................27
+Personal grounding methods and equipment ........................................................................................................27
+Grounding the work area.........................................................................................................................................28
+Recommended materials and equipment...............................................................................................................28
+iv
+
+--- Page 5 ---
+Cleaning your computer ..................................................................................................................................................29
+Enabling HP Easy Clean (select products only).......................................................................................................29
+Removing dirt and debris from your computer.......................................................................................................29
+Cleaning your computer with a disinfectant ...........................................................................................................30
+Caring for wood veneer (select products only) .......................................................................................................31
+Packaging and transporting guidelines ..........................................................................................................................31
+Accessing support information .......................................................................................................................................31
+5Removal and replacement procedures for authorized service provider parts...................................................................34
+Component replacement procedures..............................................................................................................................34
+Preparation for disassembly ...................................................................................................................................34
+Bottom cover ...........................................................................................................................................................34
+Battery .....................................................................................................................................................................35
+Solid-state drive ......................................................................................................................................................39
+WLAN module ..........................................................................................................................................................41
+WWAN module .........................................................................................................................................................42
+Speakers ..................................................................................................................................................................44
+Touchpad .................................................................................................................................................................45
+Fan ...........................................................................................................................................................................47
+Audio board..............................................................................................................................................................48
+Fingerprint reader....................................................................................................................................................49
+Power connector cable ............................................................................................................................................50
+Heat sink ..................................................................................................................................................................51
+System board...........................................................................................................................................................52
+Display assembly.....................................................................................................................................................56
+Keyboard with top cover..........................................................................................................................................62
+6Using Setup Utility (BIOS) ....................................................................................................................................................64
+Starting Setup Utility (BIOS) ............................................................................................................................................64
+Updating Setup Utility (BIOS) ..........................................................................................................................................64
+Determining the BIOS version .................................................................................................................................64
+Preparing for a BIOS update ....................................................................................................................................65
+Downloading a BIOS update ............................................................................................................................65
+Installing a BIOS update ..................................................................................................................................65
+7Backing up, restoring, and recovering.................................................................................................................................67
+Backing up information and creating recovery media....................................................................................................67
+Using Windows tools for backing up .......................................................................................................................67
+Using the HP Cloud Recovery Download Tool to create recovery media (select products only)............................67
+Restoring and recovering your system ...........................................................................................................................67
+Creating a system restore .......................................................................................................................................68
+Restoring and recovery methods ............................................................................................................................68
+Recovering using HP Recovery media .....................................................................................................................68
+Changing the computer boot order.........................................................................................................................69
+Using HP Sure Recover (select products only) ........................................................................................................69
+8Using HP PC Hardware Diagnostics .....................................................................................................................................70
+Using HP PC Hardware Diagnostics Windows (select products only) .............................................................................70
+v

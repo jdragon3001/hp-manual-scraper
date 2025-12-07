@@ -1,0 +1,1478 @@
+Brand: DELL
+Model: Latitude 5400
+URL: https://www.manua.ls/dell/latitude-5400/manual
+Total Pages: 42
+============================================================
+
+--- Page 1 ---
+Dell Latitude 5400
+Setup and specications guide
+Regulatory Model: P98G
+Regulatory Type: P98G001
+
+--- Page 2 ---
+Notes, cautions, and warnings
+NOTE: A NOTE indicates important information that helps you make better use of your product.
+CAUTION: A CAUTION indicates either potential damage to hardware or loss of data and tells you how to avoid the problem.
+WARNING: A WARNING indicates a potential for property damage, personal injury, or death.
+Revision: A00
+© 2019 Dell Inc. or its subsidiaries. All rights reserved. Dell, EMC, and other trademarks are trademarks of Dell Inc. or its subsidiaries. Other trademarks 
+may be trademarks of their respective owners.
+2019 - 04
+Rev. A00
+
+--- Page 3 ---
+Contents
+1 Set up your computer.....................................................................................................................................5
+2 Create a USB recovery drive for Windows..................................................................................................... 7
+3 Chassis overview........................................................................................................................................... 8
+Display view........................................................................................................................................................................ 8
+Left view..............................................................................................................................................................................9
+Right view........................................................................................................................................................................... 9
+Palmrest view....................................................................................................................................................................10
+Bottom view.......................................................................................................................................................................11
+Keyboard shortcuts........................................................................................................................................................... 11
+4 Technical specications................................................................................................................................13
+System information...........................................................................................................................................................13
+Processor...........................................................................................................................................................................13
+Memory..............................................................................................................................................................................14
+Storage...............................................................................................................................................................................14
+System board connectors................................................................................................................................................14
+Media card-reader............................................................................................................................................................ 15
+Audio.................................................................................................................................................................................. 15
+Video card..........................................................................................................................................................................16
+Camera...............................................................................................................................................................................16
+Communication.................................................................................................................................................................16
+Mobile Broadband............................................................................................................................................................. 17
+Wireless.............................................................................................................................................................................. 17
+Ports and connectors.......................................................................................................................................................17
+Display................................................................................................................................................................................ 17
+Keyboard............................................................................................................................................................................18
+Touchpad........................................................................................................................................................................... 19
+Fingerprint reader—optional........................................................................................................................................... 19
+Operating system..............................................................................................................................................................19
+Battery...............................................................................................................................................................................20
+Power adapter...................................................................................................................................................................21
+Sensor and control specications...................................................................................................................................21
+Dimensions and weight.................................................................................................................................................... 21
+Computer environment................................................................................................................................................... 22
+Security............................................................................................................................................................................. 22
+Security options—Contacted smartcard reader..........................................................................................................23
+Security options—Contactless smartcard reader....................................................................................................... 23
+Security Software............................................................................................................................................................ 25
+5 Software......................................................................................................................................................26
+Downloading drivers........................................................................................................................................................ 26
+Contents
+3
+
+--- Page 4 ---
+6 System setup...............................................................................................................................................27
+Boot menu.........................................................................................................................................................................27
+Navigation keys................................................................................................................................................................ 27
+Boot Sequence.................................................................................................................................................................28
+System setup options......................................................................................................................................................28
+General options.......................................................................................................................................................... 28
+System information....................................................................................................................................................29
+Video.............................................................................................................................................................................31
+Security........................................................................................................................................................................31
+Secure boot................................................................................................................................................................ 32
+Intel Software Guard Extensions..............................................................................................................................33
+Performance...............................................................................................................................................................34
+Power management...................................................................................................................................................34
+POST behavior........................................................................................................................................................... 36
+Manageability............................................................................................................................................................. 36
+Virtualization support.................................................................................................................................................37
+Wireless....................................................................................................................................................................... 37
+Maintenance screen...................................................................................................................................................37
+System logs................................................................................................................................................................ 38
+Updating the BIOS in Windows .....................................................................................................................................38
+Updating BIOS on systems with BitLocker enabled..............................................................................................39
+Updating your system BIOS using a USB ash drive............................................................................................ 39
+System and setup password...........................................................................................................................................40
+Assigning a system setup password........................................................................................................................40
+Deleting or changing an existing system setup password.................................................................................... 40
+7 Getting help.................................................................................................................................................42
+Contacting Dell.................................................................................................................................................................42
+4
+Contents
+
+--- Page 5 ---
+Set up your computer
+1  Connect the power adapter and press the power button.
+NOTE: To conserve battery power, the battery might enter power saving mode.
+2  Finish Windows system setup.
+Follow the on-screen instructions to complete the setup. When setting up, Dell recommends that you:
+• Connect to a network for Windows updates.
+NOTE
+: If connecting to a secured wireless network, enter the password for the wireless network access when 
+prompted.
+• If connected to the internet, sign-in with or create a Microsoft account. If not connected to the internet, create an oine account.
+• On the Support and Protection screen, enter your contact details.
+3  Locate and use Dell apps from the Windows Start menu—Recommended
+Table 1. Locate Dell apps
+Dell apps Details
+Dell Product Registration
+Register your computer with Dell.
+Dell Help & Support
+1
+Set up your computer 5
+
+--- Page 6 ---
+Dell apps Details
+Access help and support for your computer.
+SupportAssist
+Proactively checks the health of your computer’s hardware and 
+software.
+NOTE: Renew or upgrade your warranty by clicking the 
+warranty expiry date in SupportAssist.
+Dell Update
+Updates your computer with critical xes and important device 
+drivers as they become available.
+Dell Digital Delivery
+Download software applications including software that is 
+purchased but not preinstalled on your computer.
+4  Create recovery drive for Windows.
+NOTE
+: It is recommended to create a recovery drive to troubleshoot and x problems that may occur with Windows.
+For more information, see Create a USB recovery drive for Windows.
+6
+Set up your computer
+
+--- Page 7 ---
+Create a USB recovery drive for Windows
+Create a recovery drive to troubleshoot and x problems that may occur with Windows. An empty USB ash drive with a minimum capacity 
+of 16 GB is required to create the recovery drive.
+NOTE: This process may take up to an hour to complete.
+NOTE: The following steps may vary depending on the version of Windows installed. Refer to the Microsoft support site for 
+latest instructions.
+1  Connect the USB ash drive to your computer.
+2  In Windows search, type Recovery.
+3  In the search results, click Create a recovery drive.
+The User Account Control window is displayed.
+4  Click Yes to continue.
+The Recovery Drive window is displayed.
+5  Select Back up system les to the recovery drive and click Next.
+6  Select the USB ash drive and click Next.
+A message appears, indicating that all data in the USB ash drive will be deleted.
+7  Click Create.
+8  Click Finish.
+For more information about reinstalling Windows using the USB recovery drive, see the Troubleshooting section of your product's 
+Service Manual at www.dell.com/support/manuals.
+2
+Create a USB recovery drive for Windows 7
+
+--- Page 8 ---
+Chassis overview
+Topics:
+• Display view
+• Left view
+• Right view
+• Palmrest view
+• Bottom view
+• Keyboard shortcuts
+Display view
+1 Array microphone 2 SafeView shutter
+3 Camera 4 Camera status light
+5 Array microphone 6 LCD panel
+3
+8 Chassis overview
+
+--- Page 9 ---
+7 LED activity light
+Left view
+1 Power connector port 2 USB 3.1 Gen 2 (USB Type-C) port with DisplayPort/
+Thunderbolt (optional)
+3 USB 3.1 Gen 1 4 Smart card reader (optional)
+Right view
+1
+microSD card reader 2 micro-SIM card slot
+3 Headset/ Microphone port 4 USB 3.1 Gen 1 port
+5 USB 3.1 Gen 1 port with PowerShare 6 HDMI port
+7 Network port 8 Wedge-shaped lock slot
+Chassis overview 9
+
+--- Page 10 ---
+Palmrest view
+1 Power button with optional ngerprint 2 Keyboard
+3 Touchpad 4 Trackstick (optional)
+10 Chassis overview
+
+--- Page 11 ---
+Bottom view
+1 Thermal vent 2 Service tag label
+3 Speakers
+Keyboard shortcuts
+NOTE
+: Keyboard characters may dier depending on the keyboard language conguration. Keys that are used for shortcuts 
+remain the same across all language congurations.
+Table 2. List of keyboard shortcuts
+Keys Description
+Fn + Esc
+Toggle Fn-key lock
+Fn + F1
+Mute audio
+Fn + F2
+Decrease volume
+Fn + F3
+Increase volume
+Fn + F4
+Mute microphone
+Chassis overview 11
+
+--- Page 12 ---
+Keys Description
+Fn + F5
+Turn on/o keyboard backlight
+Fn + F6
+Decrease brightness
+Fn + F7
+Increase brightness
+Fn + F8
+Switch to external display
+Fn + F10
+Print screen
+Fn + F11
+Home
+Fn + 12
+End
+Fn + Ctrl
+Open application menu
+12 Chassis overview
+
+--- Page 13 ---
+Technical specications
+NOTE: Oerings may vary by region. The following specications are only those required by law to ship with your computer. For 
+more information about the conguration of your computer, go to Help and Support in your Windows operating system and 
+select the option to view information about your computer.
+System information
+Table 3. System information
+Feature Specications
+Chipset
+Integrated in the processor
+DRAM bus width
+64-bit
+FLASH EPROM
+16/32 MB
+PCIe bus
+Up to Gen3
+External bus frequency
+Up to 8 GT/s
+Processor
+NOTE
+: Processor numbers are not a measure of performance. Processor availability is subject to change and may vary by region/
+country.
+Table 4. Processor specications
+Type UMA Graphics Discrete Graphics
+8th Gen Intel Core i7-8665U 
+processor (8 MB cache, 4 core 
+count/8 threads, 1.9 GHz to 
+4.8 GHz, 15 W TDP, vPro)
+Intel UHD Graphics 620 AMD Radeon 540X
+8th Gen Intel Core i5-8365U 
+processor (6 MB cache, 4 core 
+count/8 threads, 1.6 GHz to 4.1 
+GHz, 15 W TDP, vPro)
+Intel UHD Graphics 620 AMD Radeon 540X
+8th Gen Intel Core i5-8265U 
+processor (6 MB cache, 4 core 
+count/8 threads, 1.6 GHz to 
+3.9 GHz, 15 W TDP)
+Intel UHD Graphics 620 AMD Radeon 540X
+8th Gen Intel Core i3-8145U 
+processor (4 MB cache, 2 core 
+count/4 threads, 2.1 GHz to 
+3.9 GHz, 15 W TDP)
+Intel UHD Graphics 620 NA
+4
+Technical specications 13
+
+--- Page 14 ---
+Memory
+Table 5. Memory specications
+Feature Specications
+Minimum memory conguration
+4 GB
+Maximum memory conguration
+32 GB
+Number of slots
+2 x SoDIMM slots
+Maximum memory supported per slot
+16 GB
+Memory options
+• 4 GB (1 x 4 GB)
+• 8 GB (2 x 4 GB)
+• 8 GB (1 x 8 GB)
+• 16 GB (2 x 8 GB)
+• 16 GB (1 x 16 GB)
+• 32 GB (2 x 16 GB)
+Type
+Dual-channel DDR4
+Speed 2666 MHz Non-ECC SDRAM operates at 2400 MHz with Intel 8
+th 
+Gen processors
+Storage
+Table 6. Storage 
+specications
+Type Form factor Interface Capacity
+PCIe Solid-State Drive M.2 2230 SSD PCIe Gen 3x2 NVMe, up to 32 
+Gbps
+Upto 512 GB
+PCIe Solid-State Drive M.2 2280 SSD PCIe Gen 3x4 NVMe, up to 32 
+Gbps
+Upto 1 TB
+SATA Solid-State Drive M.2 2280 SSD SATA Class 20 Upto 512 GB
+SED PCIe Solid-State Drive M.2 2280 SSD SED PCIe Upto 512 GB
+HDD 2.5 in.
+SATA
+• Upto 1 TB; 5400 RPM
+• Upto 1 TB; 7200 RPM
+System board connectors
+Table 7. System board connectors
+Feature Specications
+M.2 Connectors
+• One M.2 2230 Key-E connector
+• One M.2 2280 Key-E connector
+14 Technical specications
+
+--- Page 15 ---
+Feature Specications
+• One M.2 3042 Key-B connector
+Media card-reader
+Table 8. Media-card reader specications
+Feature Specications
+Type MicroSD-card slot
+Smart card reader slot (optional)
+Supported cards
+• Smart card reader (optional)
+• MicroSD
+Audio
+Table 9. Audio specications
+Feature Specications
+Controller Realtek ALC3204 with Waves MaxxAudio Pro
+Stereo conversion 24-bit DAC (Digital-to-Analog) and ADC (Analog-to-Digital)
+Type HD Audio
+Speakers Two
+Interface Internal:
+• Intel HDA (high-denition audio)
+External:
+• 7.1 channel output via HDMI
+• Digital microphone input on camera module
+• Headset combo jack (stereo headphones/microphone-in)
+Internal speaker amplier Integrated in ALC3204 (Class-D 2 W)
+External volume controls Media-control shortcut keys
+Speaker output: Average: 2 W
+Peak: 2.5 W
+Microphone Digital-array microphones
+Technical specications 15
+
+--- Page 16 ---
+Video card
+Table 10. Video card specications
+Controller Type CPU 
+Dependency
+Graphics 
+memory type
+Capacity External display 
+support
+Maximum 
+resolution
+Intel UHD 
+Graphics 620
+UMA
+• Intel Core 
+i7-8665U 
+CPU (vPro)
+• Intel Core 
+i5-8365U 
+CPU
+• Intel Core 
+i5-8265U 
+CPU
+• Intel Core 
+i3-8145U 
+CPU
+Integrated Shared system 
+memory
+HDMI 1.4b port 4096 x 2304 @24 
+Hz
+AMD Radeon 
+540X
+Discrete NA GDDR5 2 GB N/A N/A
+Camera
+Table 11. Camera 
+specications
+Feature Specications
+Camera Type RGB, HD xed focus
+IR Camera 6 mm IR camera (optional)
+Resolution Still image: HD resolution (1280 x 720)
+Video: HD resolution (1280 x 720) at 30 fps
+Diagonal viewing angle IR: 87 degree
+RGB: 78.6 degree
+Sensor type CMOS sensor technology
+NOTE: The RBG + IR camera is for Windows Hello application only and other applications cannot use it.
+Communication
+Table 12. Communication 
+specications
+Feature Specications
+Network adapter Integrated Connection I219-LM/I219-V 10/100/1000 Mb/s Ethernet 
+(RJ-45)
+16 Technical specications
+
+--- Page 17 ---
+Mobile Broadband
+Table 13. Mobile Broadband
+Specications
+Intel XMM 7360 Global LTE-Advanced
+Wireless
+Table 14. Wireless specications
+Specications
+Intel Dual Band Wireless AC 9560 (802.11ac) 2x2 + Bluetooth 5.0
+Qualcomm QCA61x4A 802.11ac Dual Band (2x2) Wireless Adapter + Bluetooth 4.2
+Intel Wi-Fi 6 AX200 2x2 .11ax 160 MHz + Bluetooth 5.0 (Optional)
+Ports and connectors
+Table 15. Ports and connectors
+Feature Specications
+Memory card reader
+• One MicroSD card reader
+SIM card reader One micro SIM card slot
+USB
+• Three USB 3.1 Gen 1 (Type-A) ports
+• One USB Type-C 3.1 Gen 2 port with DisplayPort/Thunderbolt 
+3(optional)
+Security
+Noble wedge lock slot
+Audio One headset (headphone and microphone combo) port
+Video One HDMI 1.4b port (supports up to 4k @30 Hz)
+Network adapter RJ-45, 10/100/1000, with LED indicator
+Display
+Table 16. Display 
+specications
+Feature Specications
+Type
+• 14 in. HD (1366 x 768), antiglare (16:9), WLED, non-touch, 
+220nits
+• 14 in. FHD Wide viewing angle (1920 x 1080), antiglare (16:9) 
+WLED, non-touch, 220nits
+Technical specications 17
+
+--- Page 18 ---
+Feature Specications
+• 14 in. FHD Wide viewing angle (1920 x 1080), Embedded touch 
+display with truelife, 220nits (optional)
+Height (Active area) 173.95 mm (6.84 in.)
+Width (Active area) 309.4 mm (12.18 in.)
+Diagonal 355.6 mm (14 in.)
+Pixels Per Inch (PPI) 112 (HD)
+157 (FHD)
+Contrast ratio 400:1 (HD)
+700:1 (FHD)
+Luminance/Brightness (typical) 220 Nits
+Refresh rate 60 Hz
+Horizontal viewing angle (min) +/- 40 degrees (HD)
++/- 80 degrees (FHD) (optional)
+Vertical viewing angle (min) 10/30 degrees U/D (HD)
++/- 80 degrees (FHD)(optional)
+Power consumption (max) 2.4 W (HD)
+2.8 W (FHD)
+3.15 W (FHD touch panel)
+Keyboard
+Table 17. Keyboard 
+specications
+Feature Specications
+Number of keys
+• 81 (U.S. and Canada)
+• 82 (UK/Brazil)
+• 85 (Japan)
+Size Full sized
+• X= 19.05 mm (0.75 in.) key pitch
+• Y= 19.05 mm (0.75 in.) key pitch
+Backlit keyboard Optional (backlit and Non-backlit)
+Layout QWERTY
+18 Technical specications
+
+--- Page 19 ---
+Touchpad
+Table 18. Touchpad specications
+Feature Specications
+Resolution 1221 x 661
+Dimensions
+• Width: 101.7 mm (4.00 in.)
+• Height: 55.2 mm (2.17 in.)
+Multi-touch Supports 5-nger multi-touch
+NOTE: For more information about touchpad gestures for 
+Windows 10, see the Microsoft knowledge base article 
+4027871 at support.microsoft.com.
+Fingerprint reader—optional
+Table 19. Fingerprint reader specications
+Feature Specications
+Type FPR in power button
+Sensor technology Capacitive
+Sensor resolution 363 PPI
+Sensor area Diameter: 10 mm
+Operating system
+Table 20. Operating system
+Feature Specications
+Operating systems supported
+• Windows 10 Home (64 bit)
+• Windows 10 Professional (64bit)
+• Ubuntu 18.04 LTS (64 bit)
+• NeoKylin 6.0 SP4 (PRTS)
+Technical specications 19
+
+--- Page 20 ---
+Battery
+Table 21. Battery
+Feature Specications
+Type 3-cell lithium-ion (42 WHr) 
+ExpressCharge
+3-cell lithium-ion (51 WHr) 
+ExpressCharge
+4-cell lithium-ion (68 WHr) 
+ExpressCharge
+Dimension Width
+Depth
+Height
+95.9 mm (3.78 in.)
+181 mm (7.13 in.)
+7.05 mm (0.28 in.)
+Width
+Depth
+Height
+95.9 mm (3.78 in.)
+181 mm (7.13 in.)
+7.05 mm (0.28 in.)
+Width
+Depth
+Height
+95.9 mm (3.78 in.)
+233 mm (9.17 in.)
+7.05 mm (0.28 in.)
+Weight 
+(maximum)
+200 g (0.44 lb) 250 g (0.55 lb) 340 g (0.75 lb)
+Voltage 11.40 VDC 11.40 VDC 7.6 VDC
+Life span 300 discharge/charge cycles 300 discharge/charge cycles 300 discharge/charge cycles 
+(standard pack)
+1000 discharge/charge cycles (LCL 
+pack)
+Charging time 
+when the 
+computer is o 
+(approximate)
+Standard charge 0°C to 50°C: 4 
+hours
+Standard charge 0°C to 50°C: 4 
+hours
+Standard charge 0°C to 50°C: 4 
+hours
+Express Charge
+0°C to 15°C: 4 
+hours
+16°C to 45°C: 2 
+hours
+46°C to 50°C: 3 
+hours
+Express Charge
+0°C to 15°C: 4 
+hours
+16°C to 45°C: 2 
+hours
+46°C to 50°C: 3 
+hours
+Express Charge
+0°C to 15°C: 4 
+hours
+16°C to 45°C: 2 
+hours
+46°C to 50°C: 3 
+hours
+Operating time
+Varies depending on operating 
+conditions and can signicantly 
+reduce under certain power-intensive 
+conditions.
+Varies depending on operating 
+conditions and can signicantly 
+reduce under certain power-intensive 
+conditions.
+Varies depending on operating 
+conditions and can signicantly 
+reduce under certain power-intensive 
+conditions.
+Temperature 
+range: Operating
+Charge: 0°C to 50°C, 32°F to 122°F
+Discharge: 0°C to 60°C, 32°F to 
+139°F
+Charge: 0°C to 50°C (32°F to 
+122°F)
+Discharge: -20°C to 60°C (-40°F to 
+139°F)
+Charge: 0°C to 50°C, 32°F to 122°F
+Discharge: 0°C to 60°C, 32°F to 
+139°F
+Temperature 
+range: Storage
+-20°C to 60°C (-4°F to 140°F) -20°C to 60°C (-40°F to 140°F) -20°C to 60°C (-4°F to 140°F)
+Coin-cell battery
+CR-2032 CR-2032 CR-2032
+20 Technical specications
+
+--- Page 21 ---
+Power adapter
+Table 22. Power adapter specications
+Feature Specications
+Type E5 65 W E5 90 W
+Input Voltage
+100 VAC - 240 VAC 100 VAC - 240 VAC
+Input current (maximum) 1.5 A 1.6 A
+Adapter size Dimensions
+In Inches: 0.87 x 2.60 x 4.17
+In mm: 22 x 66 x 106
+Dimensions
+In Inches: 0.87 x 2.60 x 5.12
+In mm: 22 x 66 x 130
+Barrel 7.4 mm 7.4 mm
+Weight 0.23 kg (0.51 lb) 0.32 kg (0.70 lb)
+Input frequency
+50 Hz to 60 Hz 50 Hz to 60 Hz
+Output current
+3.34 A (continuous) 4.62 A (continuous)
+Rated output voltage
+19.5 VDC 19.5 VDC
+Temperature range (Operating)
+0°C to 40°C (32°F to 104°F) 0°C to 40°C (32°F to 104°F)
+Temperature range (Non-
+Operating)
+-40°C to 70°C (-40°F to 158°F) -40°C to 70°C (-40°F to 158°F)
+Sensor and control specications
+Table 23. Sensor and control 
+specications
+Specications
+1. Free fall sensor on motherboard
+2. Hall Eect Sensor
+Dimensions and weight
+Table 24. Dimensions and weight
+Feature Specications
+Height Front: 19.6 mm (0.77 in.)
+Rear: 20.85 mm (0.82 in.)
+Width 323.05 mm (12.7 in.)
+Technical specications 21
+
+--- Page 22 ---
+Feature Specications
+Depth 216 mm (8.5 in.)
+Weight 1.52 kg (3.36 lb)
+Computer environment
+Airborne contaminant level: G1 as dened by ISA-S71.04-1985
+Table 25. Computer environment
+Operating Storage
+Temperature range
+0°C to 35°C (32°F to 95°F) -40°C to 65°C (-40°F to 149°F)
+Relative humidity (maximum)
+10% to 80% (non-condensing)
+NOTE: Maximum dew point 
+temperature = 26°C
+0% to 95% (non-condensing)
+NOTE: Maximum dew point 
+temperature = 33°C
+Vibration (maximum)
+0.26 GRMS 1.37 GRMS
+Shock (maximum)
+105 G 
+†
+40 G
+‡
+Altitude (maximum)
+-15.2 m to 3048 m (-50 ft to 10,000 ft) -15.2 m to 10,668 m (-50 ft to 35,000 ft)
+* Measured using a random vibration spectrum that simulates user environment.
+† Measured using a 2 ms half-sine pulse when the hard drive is in use.
+‡ Measured using a 2 ms half-sine pulse when the hard-drive head is in parked position.
+Security
+Table 26. Security
+Feature Specications
+Trusted Platform Module (TPM) 2.0 Integrated on the system board
+Firmware TPM Optional
+Windows Hello Support Yes, optional ngerprint on power button
+Optional IR camera
+Cable lock Noble lock
+Dell Smartcard Keyboard Optional
+FIPS 140-2 certication for TPM Yes
+ControlVault 3 Advanced Authentication with FIPS 140-2 Level 3 
+Certication
+Yes, for FPR, SC and CSC/NFC
+Fingerprint Reader Only Touch Fingerprint reader in power button tied to ControlVault 3
+22 Technical specications
+
+--- Page 23 ---
+Feature Specications
+Contacted Smart Card and ControlVault 3 FIPS 201 Smart card reader certication/SIPR
+Security options—Contacted smartcard reader
+Table 27. Contacted smartcard reader
+Title Description Dell ControlVault 3 Smartcard reader
+ISO 7816 -3 Class A Card Support Reader capable of reading 5V powered 
+smartcard
+Yes
+ISO 7816 -3 Class B Card Support Reader capable of reading 3V powered 
+smartcard
+Yes
+ISO 7816 -3 Class C Card support Reader capable of reading 1.8V powered 
+smartcard
+Yes
+ISO 7816-1 Compliant Specication for the reader Yes
+ISO 7816 -2 Compliant Specication for smartcard device physical 
+characteristics (size, location of connection 
+points, etc.)
+Yes
+T=0 support Cards support character level transmission Yes
+T=1 support Cards support block level transmission Yes
+EMVCo Compliant Compliant with EMVCo (for electronic 
+payment standards) smartcard standards as 
+posted to www.emvco.com
+Yes
+EMVCo Certied Formally certied based on EMVCO 
+smartcard standards
+Yes
+PC/SC OS interface Personal Computer/Smart Card 
+specication for integration of hardware 
+readers into personal computer 
+environments
+Yes
+CCID driver compliance Common driver support for Integrated 
+Circuit Card Interface Device for OS level 
+drivers.
+Yes
+Windows Certied Device certied by Micrsoft WHCK Yes
+FIPS 201 (PIV/HSPD-12) Compliant via GSA Device compliant with FIPS 201/PIV/
+HSPD-12 requirements
+Yes
+Security options—Contactless smartcard reader
+Table 28. Contactless smartcard reader
+Title Description Dell ControlVault 3 Contactless Smartcard 
+reader with NFC
+Felica Card Support Reader and software capable of supporting 
+Felica contactless cards
+Yes
+Prox (Proximity) (125kHz) Card support Reader and software capable of supporting 
+Prox/Proximity/125kHz contactless cards
+No
+Technical specications 23
+
+--- Page 24 ---
+Title Description Dell ControlVault 3 Contactless Smartcard 
+reader with NFC
+ISO 14443 Type A Card Support Reader and software capable of supporting 
+ISO 14443 Type A contactless cards
+Yes
+ISO 14443 Type B Card Support Reader and software capable of supporting 
+ISO 14443 Type B contactless cards
+Yes
+ISO/IEC 21481 Reader and software capable of supporting 
+ISO/IEC 21481 compliant contactless cards 
+and tokens
+Yes
+ISO/IEC 18092 Reader and software capable of supporting 
+ISO/IEC 21481 compliant contactless cards 
+and tokens
+Yes
+ISO 15693 Card Support Reader and software capable of supporting 
+ISO15693 contactless cards
+Yes
+NFC Tag Support Supports reading and processing of NFC 
+compliant tag information
+Yes
+NFC Reader Mode Support for NFC Forum Dened Reader 
+mode
+Yes
+NFC Writer Mode Support for NFC Forum Dened Writer 
+mode
+Yes
+NFC Peer-to-Peer Mode Support for NFC Forum Dened Peer to 
+Peer mode
+Yes
+EMVCo Compliant Compliant with EMVCO smartcard 
+standards as posted to www.emvco.com
+Yes
+EMVCo Certied Formally certied based on EMVCO 
+smartcard standards
+Yes
+NFC Proximity OS Interface Enumerates NFP (Near Field Proximity) 
+device for OS to utilize
+Yes
+PC/SC OS interface Personal Computer/Smart Card 
+specication for integration of hardware 
+readers into personal computer 
+environments
+Yes
+CCID driver compliance Common driver support for Integrated 
+Circuit Card Interface Device for OS level 
+drivers
+Yes
+Windows Certied Device certied by Microsoft WHCK Yes
+Dell ControlVault support Device connects to Dell ControlVault for 
+usage and processing
+Yes
+NOTE: 125 Khz proximity cards are not supported.
+Table 29. Supported cards
+Manufacturer Card Supported
+HID jCOP readertest3 A card (14443a) Yes
+1430 1L
+DESFire D8H
+24 Technical specications
+
+--- Page 25 ---
+Manufacturer Card Supported
+iClass (Legacy)
+iClass SEOS
+NXP/Mifare Mifare DESFire 8K White PVC Cards Yes
+Mifare Classic 1K White PVC Cards
+NXP Mifare Classic S50 ISO Card
+G&D idOnDemand - SCE3.2 144K Yes
+SCE6.0 FIPS 80K Dual+ 1 K Mifare
+SCE6.0 nonFIPS 80K Dual+ 1 K Mifare
+SCE6.0 FIPS 144K Dual + 1K Mifare
+SCE6.0 nonFIPS 144K Dual + 1 K Mifare
+SCE7.0 FIPS 144K
+Oberthur idOnDemand - OCS5.2 80K Yes
+ID-One Cosmo 64 RSA D V5.4 T=0 card
+Security Software
+Table 30. Security Software 
+specications
+Specications
+Dell Client Command Suite
+Optional Dell Data Security and Management Software
+• Dell Endpoint Security Suite Enterprise
+• Dell Data Guardian
+• Dell Encryption Enterprise
+• Dell Encryption Personal
+• Dell Threat Defense
+• MozyPro or MozyEnterprise
+• RSA NetWitness Endpoint
+• RSA SecurID Access
+• VMware Workspace ONE
+• Absolute Endpoint Visibility and Control
+Technical specications 25
+
+--- Page 26 ---
+Software
+This chapter details the supported operating systems along with instructions on how to install the drivers.
+Downloading drivers
+1  Turn on the notebook.
+2  Go to Dell.com/support.
+3  Click Product Support, enter the Service Tag of your notebook, and then click Submit.
+NOTE: If you do not have the Service Tag, use the auto detect feature or manually browse for your notebook model.
+4  Click Drivers and Downloads.
+5  Select the operating system installed on your notebook.
+6  Scroll down the page and select the driver to install.
+7  Click Download File to download the driver for your notebook.
+8  After the download is complete, navigate to the folder where you saved the driver le.
+9  Double-click the driver le icon and follow the instructions on the screen.
+5
+26 Software
+
+--- Page 27 ---
+System setup
+CAUTION: Unless you are an expert computer user, do not change the settings in the BIOS Setup program. Certain changes can 
+make your computer work incorrectly.
+NOTE: Before you change BIOS Setup program, it is recommended that you write down the BIOS Setup program screen 
+information for future reference.
+Use the BIOS Setup program for the following purposes:
+• Get information about the hardware installed in your computer, such as the amount of RAM and the size of the hard drive.
+• Change the system conguration information.
+• Set or change a user-selectable option, such as the user password, type of hard drive installed, and enabling or disabling base devices.
+Topics:
+• Boot menu
+• Navigation keys
+• Boot Sequence
+• System setup options
+• Updating the BIOS in Windows 
+• System and setup password
+Boot menu
+Press <F12> when the Dell logo appears to initiate a one-time boot menu with a list of the valid boot devices for the system. Diagnostics 
+and BIOS Setup options are also included in this menu. The devices listed on the boot menu depend on the bootable devices in the system. 
+This menu is useful when you are attempting to boot to a particular device or to bring up the diagnostics for the system. Using the boot 
+menu does not make any changes to the boot order stored in the BIOS.
+The options are:
+• UEFI Boot:
+– Windows Boot Manager
+•
+• Other Options:
+– BIOS Setup
+– BIOS Flash Update
+– Diagnostics
+– Change Boot Mode Settings
+Navigation keys
+NOTE
+: For most of the System Setup options, changes that you make are recorded but do not take eect until you restart the 
+system.
+Keys Navigation
+Up arrow Moves to the previous eld.
+6
+System setup 27
+
+--- Page 28 ---
+Keys Navigation
+Down arrow Moves to the next eld.
+Enter Selects a value in the selected eld (if applicable) or follow the link in the eld.
+Spacebar Expands or collapses a drop-down list, if applicable.
+Tab Moves to the next focus area.
+Esc Moves to the previous page until you view the main screen. Pressing Esc in the main screen displays a message 
+that prompts you to save any unsaved changes and restarts the system.
+Boot Sequence
+Boot Sequence allows you to bypass the System Setup–dened boot device order and boot directly to a specic device (for example: 
+optical drive or hard drive). During the Power-on Self Test (POST), when the Dell logo appears, you can:
+• Access System Setup by pressing F2 key
+• Bring up the one-time boot menu by pressing F12 key
+The one-time boot menu displays the devices that you can boot from including the diagnostic option. The boot menu options are:
+• Removable Drive (if available)
+• STXXXX Drive
+NOTE
+: XXX denotes the SATA drive number.
+• Optical Drive (if available)
+• SATA Hard Drive (if available)
+• Diagnostics
+NOTE
+: Choosing Diagnostics, will display the ePSA diagnostics screen.
+The boot sequence screen also displays the option to access the System Setup screen.
+System setup options
+NOTE
+: Depending on the laptop and its installed devices, the items listed in this section may or may not appear.
+General options
+Table 31. General
+Option Description
+System Information Displays the following information:
+• System Information: Displays BIOS Version, Service Tag, Asset Tag, Ownership Tag, 
+Manufacture Date, Ownership Date, and the Express Service Code.
+• Memory Information: Displays Memory Installed, Memory Available, Memory Speed, Memory 
+Channel Mode, Memory Technology, DIMM A size, and DIMM B size
+• Processor Information: Displays Processor Type, Core Count, Processor ID, Current Clock 
+Speed, Minimum Clock Speed, Maximum Clock Speed, Processor L2 Cache, Processor L3 
+Cache, HT Capable, and 64-Bit Technology.
+• Device Information: Displays Primary HDD, M.2 PCIe SSD-0, LOM MAC Address, Video 
+Controller, Video BIOS Version, Video Memory, Panel type, Native Resolution, Audio 
+Controller, Wi-Fi Device, and Bluetooth Device.
+Battery Information Displays the battery status health and whether the AC adapter is installed.
+28 System setup
+
+--- Page 29 ---
+Option Description
+Boot Sequence Allows you to specify the order in which the computer attempts to nd an operating system from the 
+devices specied in this list.
+UEFI Boot Path Security This option controls whether or not the system will prompt the user to enter the Admin password 
+when booting a UEFI boot path from the F12 Boot Menu.
+• Always, Except Internal HDD—Default
+• Always, Except Internal HDD&PXE
+• Always
+• Never
+Date/Time Allows you to set the date and time settings. Changes to the system date and time take eect 
+immediately.
+.
+System information
+Table 32. System Conguration
+Option Description
+Integrated NIC Allows you to congure the on-board LAN controller.
+• Disabled = The internal LAN is o and not visible to the operating system.
+• Enabled = The internal LAN is enabled.
+• Enabled w/PXE = The internal LAN is enabled (with PXE boot) (selected by default)
+SATA Operation Allows you to congure the operating mode of the integrated hard drive controller.
+• Disabled = The SATA controllers are hidden
+• AHCI = SATA is congured for AHCI mode
+• RAID ON = SATA is congured to support RAID mode (selected by default)
+Drives Allows you to enable or disable the various drives on-board:
+• SATA-2 (enabled by default)
+• M.2 PCIe SSD-0 (enabled by default)
+Smart Reporting This eld controls whether hard drive errors for integrated drives are reported during system startup. 
+The Enable Smart Reporting option is disabled by default.
+USB Conguration Allows you to enable or disable the integrated USB controller for:
+• Enable USB Boot Support
+• Enable External USB Port
+All the options are enabled by default.
+Thunderbolt Adapter 
+Conguration
+This section allows Thunderbolt Adapter Conguration.
+• Thunderbolt-is enabled by default
+• Enable Thunderbolt Boot Support-is disabled
+• No security-is disabled
+• User conguration-enabled by default
+• Secure connect-is disabled
+System setup 29
+
+--- Page 30 ---
+Option Description
+• Display port and USB Only-is disabled
+USB PowerShare
+This option congures the USB PowerShare feature behavior.
+• Enable USB PowerShare - disabled by default
+This feature is intended to allow users to power or charge external devices, such as phones and 
+portable music players, using the stored system battery power through the USN PowerShare port on 
+the notebook, while the notebook is in a sleep state.
+Audio Allows you to enable or disable the integrated audio controller. The option Enable Audio is selected by 
+default.
+• Enable Microphone
+• Enable Internal Speaker
+Both the options are selected by default.
+Keyboard Illumination
+This eld lets you choose the operating mode of the keyboard illumination feature. The keyboard 
+brightness level can be set from 0% to 100%. The options are:
+• Disabled
+• Dim
+• Bright-enabled by default
+Keyboard Backlight Timeout on 
+AC
+The Keyboard Backlight Timeout dims out with AC option. The main keyboard illumination feature is 
+not aected. Keyboard Illumination will continue to support the various illumination levels. This eld 
+has an eect when the backlight is enabled. The options are:
+• 5 sec
+• 10 sec-enabled by default
+• 15 sec
+• 30 sec
+• 1 min
+• 5 min
+• 15 min
+• Never
+Keyboard Backlight Timeout on 
+Battery
+The Keyboard Backlight Timeout dims out with the Battery option. The main keyboard illumination 
+feature is not aected. Keyboard Illumination will continue to support the various illumination levels. 
+This eld has an eect when the backlight is enabled. The options are:
+• 5 sec
+• 10 sec-enabled by default
+• 15 sec
+• 30 sec
+• 1 min
+• 5 min
+• 15 min
+• Never
+Unobtrusive Mode
+• Enable Unobtrusive Mode (disabled by default)
+When enabled pressing Fn+Shift+B will turn o all light and sound emissions in the system.
+Press Fn+Shift+B to resume normal operation.
+30 System setup
+
+--- Page 31 ---
+Option Description
+Miscellaneous Devices
+Allows you to enable or disable the following devices:
+• Enable Camera (enabled by default)
+• Enable Hard Drive Free Fall Protection(enabled by default)
+• Enable Secure Digital (SD) Card (enabled by default)
+• Secure Digital (SD) Card Boot
+• Secure Digital (SD) Card Read-Only Mode
+MAC Address Pass-Through
+• System Unique MAC Address (disabled by default)
+• Integrated NIC 1 MAC Address
+• Disabled
+The feature replaces the external NIC MAC address (in a supported dock or dongle) with the 
+selected MAC address from the system. The default option is to use the Passthrough MAC address.
+Video
+Option Description
+LCD Brightness Allows you to set the display brightness depending up on the power source—On Battery and On AC. The LCD 
+brightness is independent for battery and AC adapter. It can be set using the slider.
+NOTE: The video setting is visible only when a video card is installed into the system.
+Security
+Table 33. Security
+Option Description
+Admin Password Allows you to set, change, and delete the admin password.
+System Password Allows you to set, change, and delete the system password.
+Internal HDD-2 Password This option lets you set, change, or delete the password on the system's internal hard disk drive 
+(HDD).
+Strong Password This option lets you enable or disable strong passwords for the system.
+Password Conguration Allows you to control the minimum and maximum number of characters allowed for a administrative 
+password and the system password. The range of characters is between 4 and 32.
+Password Bypass This option lets you bypass the System (Boot) Password and the internal HDD password prompts 
+during a system restart.
+• Disabled — Always prompt for the system and internal HDD password when they are set. This 
+option is enabled by default.
+• Reboot Bypass — Bypass the password prompts on Restarts (warm boots).
+NOTE: The system will always prompt for the system and internal HDD passwords when 
+powered on from the o state (a cold boot). Also, the system will always prompt for 
+passwords on any module bay HDDs that may be present.
+Password Change This option lets you determine whether changes to the System and Hard Disk passwords are 
+permitted when an administrator password is set.
+Allow Non-Admin Password Changes - This option is enabled by default.
+System setup 31
+
+--- Page 32 ---
+Option Description
+UEFI Capsule Firmware Updates This option controls whether this system allows BIOS updates via UEFI capsule update packages. 
+This option is selected by default. Disabling this option will block BIOS updates from services such as 
+Microsoft Windows Update and Linux Vendor Firmware Service (LVFS)
+TPM 2.0 Security Allows you to control whether the Trusted Platform Module (TPM) is visible to the operating system.
+• TPM On (default)
+• Clear
+• PPI Bypass for Enable Commands
+• PPI Bypass for Disable Commands
+• PPI Bypass for Clear Commands
+• Attestation Enable (default)
+• Key Storage Enable (default)
+• SHA-256 (default)
+Choose any one option:
+• Disabled
+• Enabled (default)
+Absolute This eld lets you Enable, Disable or Permanently Disable the BIOS module interface of the optional 
+Absolute Persistence Module service from Absolute Software.
+• Enabled - This option is selected by default.
+• Disabled
+• Permanently Disabled
+OROM Keyboard Access This option determines whether users are able to enter Option ROM conguration screen via hotkeys 
+during boot.
+• Enabled (default)
+• Disabled
+• One Time Enable
+Admin Setup Lockout Allows you to prevent users from entering Setup when Admin password is set. This option is not set 
+by default.
+Master Password Lockout Allows you to disable master password support Hard Disk passwords need to be cleared before the 
+settings can be changed. This option is not set by default.
+SMM Security Mitigation Allows you to enable or disable additional UEFI SMM Security Mitigation protections. This option is 
+not set by default.
+Secure boot
+Table 34. Secure Boot
+Option Description
+Secure Boot Enable Allows you to enable or disable Secure Boot feature
+• Secure Boot Enable
+Option is not selected.
+Secure Boot Mode Allows you to modify the behavior of Secure Boot to allow evaluation or enforcement of UEFI driver 
+signatures.
+• Deployed Mode (default)
+32 System setup
+
+--- Page 33 ---
+Option Description
+• Audit Mode
+Expert key Management Allows you to manipulate the security key databases only if the system is in Custom Mode. The 
+Enable Custom Mode option is disabled by default. The options are:
+• PK (default)
+• KEK
+• db
+• dbx
+If you enable the Custom Mode, the relevant options for PK, KEK, db, and dbx appear. The 
+options are:
+• Save to File- Saves the key to a user-selected le
+• Replace from File- Replaces the current key with a key from a user-selected le
+• Append from File- Adds a key to the current database from a user-selected le
+• Delete- Deletes the selected key
+• Reset All Keys- Resets to default setting
+• Delete All Keys- Deletes all the keys
+NOTE: If you disable the Custom Mode, all the changes made will be erased and the 
+keys will restore to default settings.
+Intel Software Guard Extensions
+Table 35. Intel Software Guard Extensions
+Option Description
+Intel SGX Enable
+This eld species you to provide a secured environment for 
+running code/storing sensitive information in the context of the 
+main OS.
+Click one of the following options:
+• Disabled
+• Enabled
+• Software controlled—Default
+Enclave Memory Size
+This option sets SGX Enclave Reserve Memory Size
+Click one of the following options:
+• 32 MB
+• 64 MB
+• 128 MB—Default
+System setup 33
+
+--- Page 34 ---
+Performance
+Table 36. Performance
+Option Description
+Multi Core Support
+This eld species whether the process has one or all cores 
+enabled. The performance of some applications improves with the 
+additional cores.
+• All—Default
+• 1
+• 2
+• 3
+Intel SpeedStep
+Allows you to enable or disable the Intel SpeedStep mode of 
+processor.
+• Enable Intel SpeedStep
+This option is set by default.
+C-States Control
+Allows you to enable or disable the additional processor sleep 
+states.
+• C states
+This option is set by default.
+Intel TurboBoost
+Allows you to enable or disable the Intel TurboBoost mode of the 
+processor.
+• Enable Intel TurboBoost
+This option is set by default.
+Hyper-Thread Control
+Allows you to enable or disable the HyperThreading in the 
+processor.
+• Disabled
+• Enabled—Default
+Power management
+Option
+Description
+AC Behavior Allows you to enable or disable the computer from turning on automatically when an AC adapter is connected.
+Default setting: Wake on AC is not selected.
+Enable Intel Speed 
+Shift Technology
+• Enable Intel Speed Shift Technology
+Default setting: Enabled
+Auto On Time Allows you to set the time at which the computer must turn on automatically. The options are:
+• Disabled
+34 System setup
+
+--- Page 35 ---
+Option Description
+• Every Day
+• Weekdays
+• Select Days
+Default setting: Disabled
+USB Wake Support Allows you to enable USB devices to wake the system from Standby.
+NOTE: This feature is only functional when the AC power adapter is connected. If the AC power adapter 
+is removed during Standby, the system setup removes power from all the USB ports to conserve battery 
+power.
+• Enable USB Wake Support
+Wireless Radio 
+Control
+If Enabled, this feature will sense the connection of the system to a wired network and subsequently disable the 
+selected wireless radios (WLAN and/ or WWAN).
+• Control WLAN radio - is disabled
+Wake on LAN Allows you to enable or disable the feature that powers on the computer from the O state when triggered by a 
+LAN signal.
+• Disabled
+• LAN Only
+• LAN with PXE Boot
+Default setting: Disabled
+Block Sleep This option lets you to block entering to sleep in OS environment. When enabled system won't go to sleep.
+Block Sleep - is disabled
+Peak Shift This option enables you to minimize the AC power consumption during the peak power times of day. After you 
+enable this option, your system runs only in battery even if the AC is attached.
+• Enable peak shift—is disabled
+• Set battery threshold (15% to 100%) - 15 % (enabled by default)
+Advanced Battery 
+Charge 
+Conguration
+This option enables you to maximize the battery health. By enabling this option, your system uses the standard 
+charging algorithm and other techniques, during the non work hours to improve the battery health.
+Enable Advanced Battery Charge Mode- is disabled
+Primary Battery 
+Charge 
+Conguration
+Allows you to select the charging mode for the battery. The options are:
+• Adaptive—enabled by default
+• Standard—Fully charges your battery at a standard rate.
+• ExpressCharge—The battery charges over a shorter time using Dell’s fast charging technology.
+• Primarily AC use
+• Custom
+If Custom Charge is selected, you can also congure Custom Charge Start and Custom Charge Stop.
+NOTE: All charging mode may not be available for all the batteries. To enable this option, disable the 
+Advanced Battery Charge Conguration option.
+System setup 35
+
+--- Page 36 ---
+POST behavior
+Option Description
+Adapter Warnings Allows you to enable or disable the system setup (BIOS) warning messages when you use certain power adapters.
+Default setting: Enable Adapter Warnings
+Numlock Enable Allows you to enable the Numlock option when the computer boots.
+Enable Network. This option is enabled by default.
+Fn Lock Options
+Allows you to let hot key combinations Fn + Esc toggle the primary behavior of F1–F12, between their standard 
+and secondary functions. If you disable this option, you cannot toggle dynamically the primary behavior of these 
+keys. The available options are:
+• Fn Lock—enabled by default
+• Lock Mode Disable/Standard—enabled by default
+• Lock Mode Enable/Secondary
+Fastboot Allows you to speed up the boot process by bypassing some of the compatibility steps. The options are:
+• Minimal
+• Thorough—enabled by default
+• Auto
+Extended BIOS 
+POST Time
+Allows you to create an extra preboot delay. The options are:
+• 0 seconds—enabled by default.
+• 5 seconds
+• 10 seconds
+Full Screen Log
+• Enable Full Screen Logo—not enabled
+Warnings and errors
+• Prompt on warnings and errors—enabled by default
+• Continue on warnings
+• Continue on warnings and errors
+Manageability
+Option
+Description
+Intel AMT 
+Capability
+Allows you to provision AMT and MEBx Hotkey function is enabled, during the system boot.
+• Disabled
+• Enabled - by default
+• Restrict MEBx Access
+MEBX Hotkey When enabled Intel AMT can be provisioned using the local provisioning le via a USB storage device.
+36 System setup
+
+--- Page 37 ---
+Option Description
+• Enable USB Provision - disabled by default
+MEBX Hotkey Allows you to specify whether the MEBx Hotkey function should enable, during the system boot.
+• Enable MEBx hotkey—enabled by default
+Virtualization support
+Option Description
+Virtualization This eld species whether a virtual Machine Monitor (VMM) can utilize the conditional hardware capabilities 
+provided by Intel Virtualization Technology.
+Enable Intel Virtualization Technology—enabled by default.
+VT for Direct I/O Enables or disables the Virtual Machine Monitor (VMM) from utilizing the additional hardware capabilities provided 
+by Intel® Virtualization technology for direct I/O.
+Enable VT for Direct I/O - enabled by default.
+Trusted Execution This option species whether a Measured Virtual Machine Monitor (MVMM) can utilize the additional hardware 
+capabilities provided by Intel Trusted Execution Technology. The TPM Virtualization Technology, and the 
+Virtualization technology for direct I/O must be enabled to use this feature.
+Trusted Execution - disabled by default.
+Wireless
+Option 
+Description
+Wireless Device 
+Enable
+Allows you to enable or disable the internal wireless devices.
+• WLAN
+• Bluetooth
+All the options are enabled by default.
+Maintenance screen
+Option
+Description
+Service Tag Displays the Service Tag of your computer.
+Asset Tag Allows you to create a system asset tag if an asset tag is not already set. This option is not set by default.
+BIOS Downgrade This controls ashing of the system rmware to previous revisions. Option 'Allow BIOS downgrade' is enabled by 
+default.
+Data Wipe This eld allows users to erase the data securely from all internal storage devices. Option 'Wipe on Next boot' is not 
+enabled by default. The following is list of devices aected:
+System setup 37
+
+--- Page 38 ---
+Option Description
+• Internal SATA HDD/SSD
+• Internal M.2 SATA SDD
+• Internal M.2 PCIe SSD
+• Internal eMMC
+BIOS Recovery This eld allows you to recover from certain corrupted BIOS conditions from a recover le on the user primary hard 
+drive or an external USB key.
+• BIOS Recovery from Hard Drive—enabled by default
+• Always perform integrity check—disabled by default
+First Power On 
+Date
+This option lets you set Ownership date.
+• Set Ownership Date—disabled by default
+System logs
+Option Description
+BIOS Events Allows you to view and clear the System Setup (BIOS) POST events.
+Thermal Events Allows you to view and clear the System Setup (Thermal) events.
+Power Events Allows you to view and clear the System Setup (Power) events.
+Updating the BIOS in Windows 
+It is recommended to update your BIOS (System Setup), when you replace the system board or if an update is available. For laptops, ensure 
+that your computer battery is fully charged and connected to a power outlet.
+NOTE
+: If BitLocker is enabled, it must be suspended prior to updating the system BIOS, and then re-enabled after the BIOS 
+update is completed.
+1  Restart the computer.
+2  Go to Dell.com/support.
+• Enter the Service Tag or Express Service Code and click Submit.
+• Click Detect Product and follow the instructions on screen.
+3  If you are unable to detect or nd the Service Tag, click Choose from all products.
+4  Choose the Products category from the list.
+NOTE
+: Choose the appropriate category to reach the product page
+5  Select your computer model and the Product Support page of your computer appears.
+6  Click Get drivers and click Drivers and Downloads.
+The Drivers and Downloads section opens.
+7  Click Find it myself.
+8  Click BIOS to view the BIOS versions.
+9  Identify the latest BIOS le and click Download.
+10  Select your preferred download method in the Please select your download method below window, click Download File.
+The File Download window appears.
+11  Click Save to save the le on your computer.
+12  Click Run to install the updated BIOS settings on your computer.
+Follow the instructions on the screen.
+38
+System setup
+
+--- Page 39 ---
+Updating BIOS on systems with BitLocker enabled
+CAUTION: If BitLocker is not suspended before updating the BIOS, the next time you reboot the system it will not recognize the 
+BitLocker key. You will then be prompted to enter the recovery key to progress and the system will ask for this on each reboot. If 
+the recovery key is not known this can result in data loss or an unnecessary operating system re-install. For more information on 
+this subject, see Knowledge Article: https://www.dell.com/support/article/sln153694
+Updating your system BIOS using a USB ash drive
+If the system cannot load into Windows but there is still a need to update the BIOS, download the BIOS le using another system and save 
+it to a bootable USB Flash Drive.
+NOTE: You will need to use a bootable USB Flash drive. Please refer to the following article for further details: https://
+www.dell.com/support/article/us/en/19/sln143196/
+1  Download the BIOS update .EXE le to another system.
+2  Copy the le e.g. O9010A12.EXE onto the bootable USB Flash drive.
+3  Insert the USB Flash drive into the system that requires the BIOS update.
+4  Restart the system and press F12 when the Dell Splash logo appears to display the One Time Boot Menu.
+5  Using arrow keys, select USB Storage Device and click Return.
+6  The system will boot to a Diag C:\> prompt.
+7  Run the le by typing the full lename e.g. O9010A12.exe and press Return.
+8  The BIOS Update Utility will load, follow the instructions on screen.
+Figure 1. DOS BIOS Update Screen
+System setup
+39
+
+--- Page 40 ---
+System and setup password
+Table 37. System and setup password
+Password type Description
+System password Password that you must enter to log on to your system.
+Setup password Password that you must enter to access and make changes to the 
+BIOS settings of your computer.
+You can create a system password and a setup password to secure your computer.
+CAUTION: The password features provide a basic level of security for the data on your computer.
+CAUTION: Anyone can access the data stored on your computer if it is not locked and left unattended.
+NOTE: System and setup password feature is disabled.
+Assigning a system setup password
+You can assign a new System or Admin Password only when the status is in Not Set.
+To enter the system setup, press F2 immediately after a power-on or re-boot.
+1  In the System BIOS or System Setup screen, select Security and press Enter.
+The Security screen is displayed.
+2  Select System/Admin Password and create a password in the Enter the new password eld.
+Use the following guidelines to assign the system password:
+• A password can have up to 32 characters.
+• The password can contain the numbers 0 through 9.
+• Only lower case letters are valid, upper case letters are not allowed.
+• Only the following special characters are allowed: space, (”), (+), (,), (-), (.), (/), (;), ([), (\), (]), (`).
+3  Type the system password that you entered earlier in the Conrm new password eld and click OK.
+4  Press Esc and a message prompts you to save the changes.
+5  Press Y to save the changes.
+The computer reboots.
+Deleting or changing an existing system setup password
+Ensure that the Password Status is Unlocked (in the System Setup) before attempting to delete or change the existing System and/or 
+Setup password. You cannot delete or change an existing System or Setup password, if the Password Status is Locked.
+To enter the System Setup, press F2 immediately after a power-on or reboot.
+1  In the System BIOS or System Setup screen, select System Security and press Enter.
+The System Security screen is displayed.
+2  In the System Security screen, verify that Password Status is Unlocked.
+3  Select System Password, alter or delete the existing system password and press Enter or Tab.
+4  Select Setup Password, alter or delete the existing setup password and press Enter or Tab.
+NOTE
+: If you change the System and/or Setup password, re-enter the new password when prompted. If you delete the 
+System and/or Setup password, conrm the deletion when prompted.
+40 System setup
+
+--- Page 41 ---
+5  Press Esc and a message prompts you to save the changes.
+6  Press Y to save the changes and exit from System Setup.
+The computer reboot.
+System setup 41
+
+--- Page 42 ---
+Getting help
+Contacting Dell
+NOTE: If you do not have an active Internet connection, you can nd contact information on your purchase invoice, packing slip, 
+bill, or Dell product catalog.
+Dell provides several online and telephone-based support and service options. Availability varies by country and product, and some services 
+may not be available in your area. To contact Dell for sales, technical support, or customer service issues:
+1  Go to Dell.com/support.
+2  Select your support category.
+3  Verify your country or region in the Choose a Country/Region drop-down list at the bottom of the page.
+4  Select the appropriate service or support link based on your need.
+7
+42 Getting help
+

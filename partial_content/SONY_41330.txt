@@ -1,0 +1,441 @@
+--- Page 1 ---
+Introduction
+Thank you very much for selecting the Bluetooth
+TM
+ Utility.
+This Help facility will show you how to use the Bluetooth
+TM
+ Utility for configuring Bluetooth
+TM
+ wireless technology devices and how it can be used
+in other convenient ways. 
+We hope that the Help facility will enable you to be able to make full use of the Bluetooth
+TM
+ Utility.
+
+What is Bluetooth
+TM
+ wireless technology?
+
+What you need to know about using Bluetooth
+TM
+ wireless technology
+
+Varieties of Bluetooth
+TM
+ wireless technology devices you can use
+
+Contents of the Bluetooth
+TM
+ Utility 
+Important
+This Help is oriented towards PCs that are compatible with Bluetooth
+TM
+ wireless technology (whether onboard or via installed communications
+cards or adapters), as supported by the Bluetooth
+TM
+ Utility. Some of the described functions may be impossible to use in your operating
+environment.
+The type or configuration of your PC may cause the POWER OFF ([POWER ON]) menu displayed from the Taskbar icon not to appear. In this
+Help, the images and descriptions in the menu displayed from the Taskbar icon are based on the assumption that the POWER OFF (POWER ON)
+function is supported on your PC.
+[Trademark information]
+(C) 2003, 2005 TOSHIBA Corporation All Rights Reserved
+Page 1
+
+--- Page 2 ---
+What is Bluetooth™ wireless technology?
+Bluetooth™ wireless technology is a global standard telecommunications format that enables data to be exchanged wirelessly between personal
+computers, peripheral components, mobile telephones, and other electronic devices.
+Registering devices having onboard Bluetooth™ wireless technology to let them communicate with one another will make it possible for data to be
+readily exchanged between the devices. 
+A maximum of seven Bluetooth™ wireless technology devices may be connected together. By using Bluetooth™ wireless technology to connect
+to a mouse, keyboard, modem, printer, or other device, you can do away with messy cabling and avoid any concerns about space restrictions,
+which will allow you to work more comfortably. 
+Next
+Page 2
+
+--- Page 3 ---
+What you need to know about using Bluetooth™™ wireless technology
+Bluetooth™ wireless technology exchanges data using radio waves.
+The following points are critical in order for Bluetooth devices to be configured and used correctly. 
+
+The devices must be Bluetooth™ wireless technology-compatible
+
+The devices must be close enough to be able to communicate
+
+The devices must be in a connectable state
+
+No other radio wave-emitting devices should be operated nearby
+
+The Bluetooth devices must be switched ON
+The devices must be Bluetooth™ wireless technology-compatible
+The hardware and software used in your PC and other devices must be Bluetooth™ wireless technology compatible.
+Bluetooth™ wireless technology compatible products normally bear the following logo:
+For further details, please refer to your local retailer or consult the product instruction manual. 
+Note
+
+A Bluetooth™ wireless technology communication card, adapter, or other similar device (sold separately) needs to be installed in PCs or
+PDAs (personal digital assistants) that do not have onboard Bluetooth™ wireless technology.
+The Bluetooth™ wireless technology devices must be able to communicate with each other
+Devices situated in locations beyond the reach of the radio waves will not recognize each other, which will make communication impossible.
+In particular, please ensure that your devices are located close enough so that they can communicate with each other before you initially register
+and configure them. 
+Note
+
+PCs have a communication distance restriction of ten meters. Please refer to the instruction manuals for information on the communication
+distance restrictions specific to each device.
+
+Communication interference may occur if any obstructions are located between the devices. Devices may not communicate properly if they
+have been located, for example, on the ground and first floors of a residence, despite their being within the acceptable distance. 
+The devices must be in a connectable state
+The devices must recognize each other in order to be connectable for use.
+In certain devices, simply turning on the power will not produce a connectable state. Moreover, the energy-saving feature may come into effect
+after a certain amount of time, which will prevent the devices from being detected. Please refer to the specific product instruction manual for further
+details. 
+No other radio wave-emitting devices should be operated nearby
+Microwave ovens, wireless LANs, and other radio wave-emitting devices located nearby may affect Bluetooth™ wireless technology
+communication.
+Page 3
+
+--- Page 4 ---
+Please ensure that your devices have been accordingly situated, and that the above devices are not in use when you are operating your Bluetooth
+device.
+The Bluetooth™ wireless technology devices must be switched ON
+Bluetooth™ wireless technology cannot be used if the devices have not been switched ON.
+Some PCs and other components will have a Bluetooth™ wireless technology communication switch that is operated independently from the main
+power. Bluetooth™ wireless technology cannot function if this switch has been turned off. 
+
+Using PCs with onboard Bluetooth™ wireless technology  
+
+When using a Bluetooth™ wireless technology USB adapter or SD card
+Page 4
+
+--- Page 5 ---
+Varieties of Bluetooth
+TM
+ wireless technology devices you can use
+It is important to understand the concepts of "services" and "profiles" in order to determine whether an intended function can be properly utilized
+when you use a Bluetooth
+TM
+ wireless technology device. 
+What is a "profile"?
+Examples of Bluetooth
+TM
+ wireless technology devices include mice and keyboards (input devices), printers (output devices), and wireless modems
+(communication devices). Functions that can be utilized by such devices are called "services." 
+In order for these services to be used reliably, Bluetooth
+TM
+ wireless technology devices are provided with common specifications known as
+"profiles."
+For example, when a PC makes a connection to a device, it obtains the profile of the corresponding device and thereby ascertains which functions
+(services) the device offers. 
+As an example, imagine someone who travels overseas. 
+The traveller is only able to converse properly with their counterpart if both speak a language (English, Japanese, Chinese, etc.) they both
+understand.
+However, no dialogue will occur if they do not share a common language.
+In the above example, the traveller and his/her counterpart correspond to the devices, the languages to the profiles, and the dialogues between the
+two people to the services. The former example refers to a situation where a service can be performed because the devices support a common
+profile, whereas the latter example refers to a situation where a service cannot be performed because a common profile is not supported. 
+In other words, you will be able to use Bluetooth
+TM
+ wireless technology devices that have a profile supported by a PC (the Bluetooth
+TM
+ Utility in
+this case).
+If the profiles belonging to the device are not supported by the PC, the functions corresponding to those profiles will not be able to be utilized.
+Also, a device can only be used if its profiles are supported by the PC. 
+Types of profiles
+The following profiles are supported by the Bluetooth
+TM
+ Utility: 
+Term Definition
+DUN Dial-Up Networking
+Enables you to establish a dial-up Bluetooth
+TM
+ wireless technology connection to the Internet or other networks with a wireless modem station,
+mobile telephone, or similar device.
+FAX FAX
+Enables you to establish a Bluetooth
+TM
+ wireless technology connection with a wireless modem station, mobile telephone, or similar device to send
+or receive a fax. 
+LAP LAN Access Profile
+Page 5
+
+--- Page 6 ---
+Enables you to establish a Bluetooth
+TM
+ wireless technology connection with a LAN access point to access the services of a LAN using PPP.
+SPP Serial Port Profile
+Enables communication with a device through a virtual serial port configured for a Bluetooth
+TM
+ wireless technology connection. This can be used
+for printers and printer adapters with PDAs, using a different method from HCRP or ActiveSync.
+HID Human Interface Device Profile
+Allows connections to wireless mice, keyboards and other input devices.
+HCRP Hardcopy Cable Replacement Profile
+Enables printing with a printer driver.
+FTP File Transfer Profile
+Enables you to browse folders on a wireless device and transfer files to and from the local device.
+OPP Object Push Profile
+Allows business card data to be exchanged with a wireless device.
+A2DP Advanced Audio Distribution Profile
+Allows audio data to be exchanged between wireless headsets and other audio devices, as well as allowing high-quality music playback.
+AVRCP Audio/Video Remote Control Profile
+A/V remote control functions such as play and stop. The Bluetooth
+TM
+ Utility supports remote control operation.
+GAVDP Generic Audio/Video Distribution Profile
+Basic profile used to support A2DP, AVRCP and other protocols.
+HSP Head Set Profile
+Profile used for headsets.
+Allows you to connect to a PC and communicate as well as connect to a mobile telephone.
+PAN Personal Area Networking Profile
+Supports IP base network. Allows connection to an ad-hoc or wired network via an access point.
+BIP Basic Imaging Profile
+Allows image files to be sent and received after having been converted to a size suitable for the destination. In addition to being able to transfer
+image files, the Bluetooth
+TM
+ Utility allows camera shutters to be operated by remote control, as well as other offering other functionalities.
+Page 6
+
+--- Page 7 ---
+Contents of the Bluetooth
+TM
+ Utility 
+The Bluetooth
+TM
+ Utility is a software tool used to configure a variety of settings once a connection has been established between the PC and the
+Bluetooth
+TM
+ wireless technology device. It also facilitates the exchange of files between devices having onboard Bluetooth
+TM
+ wireless technology.
+The Bluetooth
+TM
+ Utility comprises the following six tools. Descriptions are provided for the functions and the supported profiles for the respective
+tools. 
+
+Bluetooth Settings
+
+Bluetooth Manager
+
+Bluetooth Information Exchanger
+
+Remote Camera
+
+Bluetooth Local COM
+
+Wireless File Transfer
+Bluetooth Settings
+This program enables you to easily configure settings when you connect to a Bluetooth
+TM
+ wireless technology device for the first time. The
+function of a configured and registered device is displayed on the main window as a connection icon.
+As a rule, the device will be connected automatically after having been set up; however, a shortcut can be created for a manual connection, if so
+required. 
+Bluetooth Manager
+This program, which appears as a Taskbar icon, monitors and controls the power and operating status of Bluetooth
+TM
+ wireless technology devices.
+It can be used to start the Bluetooth Setup Utility, add a new connection, disconnect from a remote device, and perform other tasks.
+Page 7
+
+--- Page 8 ---
+Note
+
+  The [POWER OFF] ([POWER ON]) menu will only be displayed if the software is supported in your PC's environment. The contents of all of the
+Help menus for the Bluetooth
+TM
+ wireless technology icons in the Tasktray are based on the assumption that the POWER OFF (POWER ON)
+function is supported in your PC's environment. 
+Bluetooth Information Exchanger
+This program enables you to easily transfer files and images to or exchange business card data with a wireless device by selecting the icon of the
+counterpart device, or using the right-click menu in Explorer. The wireless devices to which you are connecting must also support the same service
+functions (FTP and OPP). 
+Related topics
+→"Exchanging files with PCs and PDAs"
+→"Sending images to mobile telephones"
+→"Sending images to PCs or PDAs"
+→"Exchanging business card data with PCs and PDAs"
+Remote Camera
+Once you connect to a Bluetooth
+TM
+ wireless technology-compatible digital camera, you will be able to operate it from the PC side and send captured
+images to the PC.
+Page 8
+
+--- Page 9 ---
+Related topics
+→"Using a Bluetooth
+TM
+ wireless technology-compatible camera"
+Bluetooth Local COM
+This program, which is registered in the Control Panel, can create a virtual COM port for use with the Bluetooth
+TM
+ Utility. If you need to create a
+client COM port with the Bluetooth Setup Utility, it can be created automatically without having to start the program.
+↓
+Related topics
+→"Manually creating a virtual Bluetooth COM port" 
+Wireless File Transfer
+You can send a file wirelessly to another device by right-clicking on the intended file and using the "Sending to Bluetooth Device" menu that
+appears.
+Page 9
+
+--- Page 10 ---
+Related topics
+→"Exchanging files with PCs and PDAs"
+ 
+　
+ 
+Page 10
+
+--- Page 11 ---
+Using the Bluetooth
+TM
+ Utility
+Actual examples of how to establish a connection to a Bluetooth
+TM
+ wireless technology device using the Bluetooth
+TM
+ Utility are described in this
+section.
+Also provided are descriptions of more convenient methods as well as detailed information on the Bluetooth
+TM
+ Utility functions.
+
+Flow of operation
+
+Basic settings
+
+Making the most of your Bluetooth
+TM
+ wireless technology device
+
+Using the features more effectively 
+
+Bluetooth
+TM
+ Utility functions in detail
+Note
+
+The Bluetooth
+TM
+ Utility operates under Windows XP and Windows 2000.
+The descriptions in the examples mainly pertain to operation under Windows XP.
+Windows XP: Microsoft® Windows® XP Operating System
+Windows 2000: Microsoft® Windows® 2000 Operating System 
+ 
+Next
+Page 11
+
+--- Page 12 ---
+Flow of operation
+The procedure below is used to set up Bluetooth
+TM
+ wireless technology devices using the Bluetooth
+TM
+ Utility. 
+Note
+
+It is assumed that the set-up is performed from the [Bluetooth Settings] window.
+     
+: Enter Bluetooth passkey (PIN code), if required by the device.
+: During these stages of the set-up process, the Bluetooth
+TM
+ wireless technology device must be set to Connectability
+mode.
+* Simply turning the power on will activate Connectability mode in certain devices. Please refer to the device
+instruction manual for further details.
+ 
+Next  
+Page 12
+
+--- Page 13 ---
+Basic settings
+Methods for registering new devices using the Bluetooth
+TM
+ Utility shall now be described.
+As an example, a Bluetooth
+TM
+ wireless technology-compatible mouse shall be connected and configured using [Bluetooth Settings].
+[Bluetooth Settings] provides two set-up methods: "Express Mode" and "Custom Mode."
+
+Express Mode
+[Bluetooth Settings] will automatically detect and register services. If several services (profiles) are supported by the device, the service that
+has been set to the highest priority shall be selected and registered.
+Express Mode is normally recommended for device set-up.
+
+Custom Mode
+After having been detected, the services supported by the device are displayed as a list, from which you can select the desired function(s).
+Custom Mode must be used to set up a device if, for example, you wish to use a modem station to send a fax (because in Express Mode, the
+DUN profile will be automatically selected since it has a higher priority than the FAX profile).
+The differences between setting up the same device (a Bluetooth
+TM
+ wireless technology-compatible mouse) using Express Mode and Custom Mode
+are described on the following pages.
+
+Express Mode Set-up
+
+Custom Mode Set-up
+Page 13
+
+--- Page 14 ---
+Express Mode Set-up
+The procedure for setting up the device using Express Mode shall now be described.
+ 
+Starting Bluetooth Settings
+  
+Procedure
+1. Click [Start]→[All Programs]→[Bluetooth]→[Bluetooth Settings].
+(Under Windows 2000, click [Start]→[Programs]→[Bluetooth]→[Bluetooth Settings].) 
+Note
+o
+The same result can be achieved by right-clicking on the Bluetooth
+TM
+ wireless technology icon in the task tray and selecting
+[Bluetooth Settings] from the menu that appears.
+The [Bluetooth Settings] window below will appear when other devices have already been registered.
+Please click the [New Connection] button to open the [Add New Connection Wizard] window. If no devices have been registered yet,
+Page 14
+
+--- Page 15 ---
+please proceed directly to "Detecting Bluetooth
+TM
+ wireless technology Devices." 
+(continued in "Detecting Bluetooth
+TM
+ wireless technology Devices"...) 
+　
+Next  
+Page 15
+
+--- Page 16 ---
+Detecting Bluetooth
+TM
+ wireless technology devices
+Procedure
+　
+ 
+(...continued from previous step)
+The [Add New Connection Wizard (Welcome to the Add New Connection Wizard)] window will appear.
+1. Switch the mouse power ON to make it connectable.
+Please refer to the mouse instruction manual for details on this procedure.
+2. Confirm that [Express Mode] has been selected in the [Add New Connection Wizard (Welcome to the Add New Connection Wizard)]
+window, and click on the [Next] button.
+Searching for devices will start.
+Page 16
+
+--- Page 17 ---
+When the mouse has been detected, the name and address of the device will appear in the [Add New Connection Wizard (Select
+Device)] window.
+Note
+o
+If no device is found, please confirm that the device has been made connectable, and click on the [Update] button.
+A further device search will be performed.
+(→continued in [Detecting Services]...) 
+Next  
+Page 17
+

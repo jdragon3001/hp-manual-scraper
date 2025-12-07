@@ -1,0 +1,537 @@
+Brand: DELL
+Model: Chromebook 11
+URL: https://www.manua.ls/dell/chromebook-11/manual
+Total Pages: 25
+============================================================
+
+--- Page 1 ---
+Dell Chromebook 3100 2-in-1
+Setup and Specications
+
+--- Page 2 ---
+Notes, cautions, and warnings
+NOTE: A NOTE indicates important information that helps you make better use of your product.
+CAUTION: A CAUTION indicates either potential damage to hardware or loss of data and tells you how to avoid the problem.
+WARNING: A WARNING indicates a potential for property damage, personal injury, or death.
+© 2019 Dell Inc. or its subsidiaries. All rights reserved. Dell, EMC, and other trademarks are trademarks of Dell Inc. or its subsidiaries. Other trademarks 
+may be trademarks of their respective owners.
+2019 - 03
+Rev. A00
+
+--- Page 3 ---
+Contents
+1 Chassis overview............................................................................................................................................4
+Front.................................................................................................................................................................................... 4
+Left.......................................................................................................................................................................................5
+Right.................................................................................................................................................................................... 5
+Palmrest.............................................................................................................................................................................. 6
+Bottom.................................................................................................................................................................................7
+2 System information........................................................................................................................................8
+System specications........................................................................................................................................................ 8
+System information......................................................................................................................................................8
+Processor...................................................................................................................................................................... 8
+Memory......................................................................................................................................................................... 9
+Media card-reader........................................................................................................................................................9
+Audio..............................................................................................................................................................................9
+Video card....................................................................................................................................................................10
+Camera.........................................................................................................................................................................10
+World facing camera................................................................................................................................................... 11
+Wireless.........................................................................................................................................................................11
+Ports and connectors..................................................................................................................................................11
+Display.......................................................................................................................................................................... 12
+Keyboard......................................................................................................................................................................12
+Touchpad..................................................................................................................................................................... 13
+Operating system........................................................................................................................................................13
+Battery......................................................................................................................................................................... 13
+Power adapter.............................................................................................................................................................14
+Dimensions and weight.............................................................................................................................................. 14
+Computer environment..............................................................................................................................................15
+Security........................................................................................................................................................................15
+Services and support................................................................................................................................................. 15
+3 Software...................................................................................................................................................... 16
+Operating system..............................................................................................................................................................16
+Chrome OS..................................................................................................................................................................16
+Veried Boot................................................................................................................................................................18
+Disk Partition Map...................................................................................................................................................... 19
+Developer and Recovery mode................................................................................................................................ 20
+Coreboot and U-boot Custom Firmware................................................................................................................ 20
+Chrome vs Chromium OS..........................................................................................................................................21
+View system information..................................................................................................................................................21
+4 Getting help.................................................................................................................................................25
+Contacting Dell.................................................................................................................................................................25
+Contents
+3
+
+--- Page 4 ---
+Chassis overview
+Topics:
+• Front
+• Left
+• Right
+• Palmrest
+• Bottom
+Front
+1 Camera 2 Microphone
+3 Display panel
+1
+4 Chassis overview
+
+--- Page 5 ---
+Left
+1 Power button 2 Power/Battery status indicator
+3 USB Type-C port with Power delivery 4 USB 3.1 Gen 1 port with Powershare
+5 microSD card 6 Headset port
+Right
+1
+Volume button 2 USB 3.1 Gen 1 port
+3 USB Type-C port with Power delivery 4 Wedge-shaped cable lock slot
+Chassis overview 5
+
+--- Page 6 ---
+Palmrest
+1 Microphone (Optional) 2 Camera status light (Optional)
+3 Camera (Optional) 4 Keyboard
+5 Touchpad
+6 Chassis overview
+
+--- Page 7 ---
+Bottom
+1 Service Tag label 2 Speaker
+Chassis overview 7
+
+--- Page 8 ---
+System information
+The system information chapter provides detailed information of your computer.
+System specications
+NOTE: Oerings may vary by region. The following specications are only those required by law to ship with your computer. For 
+more information about the conguration of your computer, go to Help and Support in your Windows operating system and 
+select the option to view information about your computer.
+System information
+Table 1. System information
+Feature Specications
+Chipset
+Integrated in the processor (6 W/4.5 W SDP Gemini Lake - Celeron)
+DRAM bus width
+64-bit
+FLASH EPROM
+16 MB
+PCIe bus
+Internal PCIe
+Processor
+NOTE
+: Processor numbers are not a measure of performance. Processor availability is subject to change and may vary by region/
+country.
+Table 2. Processor specications
+Type UMA Graphics Discrete Graphics
+Intel Celeron N4000 Dual core 
+Processor (6 W TDP, 2 core 
+count/ 2 threads, 4 MB cache, 
+2.6 GHz)
+Intel UHD Graphics 600 No
+2
+8 System information
+
+--- Page 9 ---
+Memory
+Table 3. Memory specications
+Feature Specications
+Minimum memory conguration
+4 GB
+Maximum memory conguration
+8 GB
+Type
+LPDDR4 (On-board memory)
+Speed 2400 MHz
+Storage
+Table 4. Storage specications
+Type Capacity MMC Interface Voltage
+eMMC 32 GB eMMC V5.1 3.3 V
+eMMC 64 GB eMMC V5.1 3.3 V
+Media card-reader
+Table 5. Media-card reader 
+specications
+Feature Specications
+Type One microSD card slot
+Audio
+Table 6. Audio 
+specications
+Feature Specications
+Controller
+Dialog DA7219
+Stereo conversion
+Supported
+Type
+High Denition Audio
+Speakers
+2
+Interface
+12S
+External Interface Digital microphone input on camera module
+System information 9
+
+--- Page 10 ---
+Feature Specications
+Headset combo jack (stereo headphone/microphone-in)
+Internal speaker amplier
+Supported
+External speaker amplier
+MAX98357A
+External volume controls
+Supported
+Speaker output
+• Average - 2 W
+• Peak - 2.5 W
+Subwoofer output
+Not supported
+Microphone
+Supported
+Video card
+Table 7. Video card specications
+Controller Type CPU 
+Dependency
+Graphics 
+memory type
+Capacity External display 
+support
+Maximum 
+resolution
+Intel UHD 
+Graphics 600
+UMA Intel Celeron 
+N4000 Dual core 
+CPU
+Integrated Shared system 
+memory
+Supported via USB 
+Type-C port
+3840 x 2160 @ 
+60Hz
+Camera
+Table 8. Camera 
+specications
+Feature Specications
+Camera type HD xed focus
+Resolution Still image: HD resolution 1280 x 720 (1MP)
+Video: HD resolution 1280 x 720 (1MP)
+Imaging rate Up to 30 frames per second
+Sensor type CMOS sensor technology
+10 System information
+
+--- Page 11 ---
+World facing camera
+Table 9. Camera specications
+Feature Specications
+Camera type HD xed focus
+Resolution Still image: HD resolution 1280 x 720 (8MP)
+Video: HD resolution 1080 (8MP)
+Imaging rate Up to 30 frames per second
+Sensor type CMOS sensor technology
+Diagonal viewing angle 77.3 degrees
+Wireless
+Table 10. Wireless specications
+Specications
+Intel Jeerson Peak 2 CNVi (Integrated Connectivity) M.2 1216 Solder Down Module
+Ports and connectors
+Table 11. Ports and connectors
+Feature Specications
+Memory card reader One microSD card reader
+USB
+• Two USB 3.1 Gen 1 ports
+• Two USB Type-C port with Power delivery
+Security Noble wedge lock slot
+Audio One Universal Jack (Global Headset Jack + microphone + line in 
+support) port
+Video Supported via USB Type C
+System information 11
+
+--- Page 12 ---
+Display
+Table 12. Display specications
+Feature Specications
+Type HD IPS Touchscreen, Wide Viewing Angle, and 187nits min, Gorilla 
+Glass.
+Height (Active area) 144.00 mm
+Width (Active area) 256.125 mm
+Diagonal 293.83 mm
+Pixels Per Inch (PPI) 135
+Contrast ratio (Typical) 800:1
+Luminance/Brightness (typical) 220 nits
+Refresh rate 60 Hz
+Horizontal viewing angle (min) HD +80/- 80 degrees
+Vertical viewing angle (min) HD +80/- 80 degrees
+Power consumption (max) 3.1W
+Keyboard
+Table 13. Keyboard 
+specications
+Feature Specications
+Number of keys
+• 74 (U.S. and Canada)
+• 75 (UK)
+• 76 (Brazil)
+• 78 (Japan)
+Size Full sized
+• X= 19.05 mm (0.75 inches) key pitch
+• Y= 18.05 mm (0.71 inches) key pitch
+Backlit keyboard No
+Layout QWERTY
+12 System information
+
+--- Page 13 ---
+Touchpad
+Table 14. Touchpad specications
+Feature Specications
+Resolution 1229 x 749
+Dimensions
+• X-axis: 99.4 mm (3.91 inches)
+• Y-axis: 54.4 mm (2.14 inches)
+Multi-touch Supports ve ngers
+Operating system
+Table 15. Operating system
+Feature Specications
+Operating systems supported Google Chrome operating system
+Battery
+Table 16. Battery
+Feature Specications
+Type 3-cell lithium-ion (42 WHr)
+Dimension Width
+Depth
+Height
+97.15 mm (3.82 inches)
+184.15 mm (7.25 inches)
+5.90 mm (0.23 inches)
+Weight (maximum) 0.2 kg (0.44 lb)
+Voltage 11.40 VDC
+Life span
+300 discharge / charge cycles
+Operating time
+Varies depending on operating conditions and can signicantly reduce under certain power-
+intensive conditions
+Temperature range: Operating
+0°C to 35°C (32°F to 95°F)
+Temperature range: Storage
+-20°C to 60°C (-4°F to 140°F)
+System information 13
+
+--- Page 14 ---
+Power adapter
+Table 17. Power adapter specications
+Feature Specications (Pecos Type-C 65 W)
+Type
+65 W
+Input Voltage
+100 VAC - 240 VAC
+Input current (maximum)
+1.7 A
+Adapter size Dimensions
+In Inches: 1.1 x 2.01 x 4.41
+In mm: 28 x 51 x 112
+Weight
+0.20 kg (0.44 lbs)
+Input frequency
+50 Hz to 60 Hz
+Output current
+• 20 V/3.25 A (continuous)
+• 15 V/3 A (continuous)
+• 9.0 V/3 A (continuous)
+• 5.0 V/3 A (continuous)
+Rated output voltage
+• 20 VDC
+• 15 VDC
+• 9 VDC
+• 5 VDC
+Temperature range (Operating)
+0°C to 40° C (32°F to 104°F)
+Temperature range (Non-Operating)
+-40°C to 70°C (-40°F to 158°F)
+Dimensions and weight
+Table 18. Dimensions and weight
+Feature Specications
+Height Front: 21.5 mm (0.85 inches)
+Rear: 21.5 mm (0.85 inches)
+Width 303.9 mm (11.96 inches)
+Depth 207.9 mm (8.19 inches)
+Weight 1.41 kg (3.10 lbs)
+14 System information
+
+--- Page 15 ---
+Computer environment
+Table 19. Computer environment
+Operating Storage
+Temperature range
+0°C to 35°C (32°F to 95°F) -40°C to 65°C (-40°F to 149°F)
+Relative humidity (maximum)
+10% to 90% (non-condensing)
+NOTE: Maximum dew point 
+temperature = 26°C
+0% to 95% (non-condensing)
+NOTE: Maximum dew point 
+temperature = 33°C
+Vibration (maximum)
+2 to 600 Hz at 0.66 Grms 2 to 600 Hz at 1.33 Grms
+Shock (maximum)
+160 G with pulse duration of 2 ms 
+( equivalent to 80 in/sec)
+160 G with pulse duration of 2 ms 
+( equivalent to 80 in/sec)
+Altitude (maximum)
+0 m to 3048 m (0 ft to 10,000 ft) 0 m to 10668 m (0 ft to 35,000 ft)
+Security
+Table 20. Security
+Feature Specications
+Trusted Platform Module (TPM) 2.0 No
+Firmware TPM NA
+Cable lock Wedge-shaped lock slot
+Services and support
+Table 21. Services and support 
+specications
+Feature Specications
+1-Year Mail-In Service Standard
+Onsite NBD
+NOTE: Service many be provided by third party. 
+Technician will be dispatched if necessary following 
+phone-based troubleshooting, subject to parts availability, 
+and other terms of service contract.
+Yes
+Warranty Extensions Up to 4 years
+ProSupport Optional
+System information 15
+
+--- Page 16 ---
+Software
+This chapter details the supported operating systems along with instructions on how to install the drivers.
+Topics:
+• Operating system
+• View system information
+Operating system
+This page contains information about the operating system used by the Dell Chromebook 11 (3189)Chromebook 11 (3180)Chromebook 
+5190Chromebook 5190 2-in-1.
+Chrome OS
+Chromebooks are powered by the Google Chrome operating system, based on Google's popular Chrome browser. It has been developed to 
+provide a fast, simple, and more secure computing experience for users who spend most of their time online.
+Key Benets
+• Speed
+• Simplicity
+• Security
+• Updatability
+• Syncronisability
+• High power at low cost
+3
+16 Software
+
+--- Page 17 ---
+• Easy to learn and use
+• Documents, calendar, e-mail, contacts, and tasks available online and oine, and all securely backed-up and synchronised in the cloud.
+• Access to the Chrome web app store
+• Killer web apps
+• The latest Intel Core processors
+• Fun games
+• Built-in support for popular le types and external devices
+For more information about the Chrome OS, please visit the Chrome OS training page.
+Software 17
+
+--- Page 19 ---
+Read Only rmware veries the integrity of Read/Write (R/W) rmware. R/W rmware veries the active Linux kernel. During run time, 
+the kernel veries each block read from disk.
+If a verication step fails and there is no backup option, the machine enters recovery mode.
+The Developer Mode switch turns o veried boot (at the Kernel stage) to enable users to run Chromium OS (or other OS). The BIOS is 
+always veried.
+Disk Partition Map
+ 
+There are two copies of Chrome OS on disk: an active copy and a backup copy. Each copy consists of a kernel partition and a root le 
+system. The backup copy is updated automatically in the background. Users only need to reboot. The partition contains encrypted user 
+data and is also used in the factory for storing test software.
+Software
+19
+
+--- Page 20 ---
+Developer and Recovery mode
+Table 22. Developer and Recovery mode
+Developer Mode Recovery Mode
+• Used to boot without verication.
+• Can be turned on via key combination during boot.
+• Stateful partition is wiped during transitions.
+• Used in the factory to boot test image.
+• Allows a user to reinstall the Chrome OS from a USB key or SD 
+card.
+• Recovery mode is entered if veried boot fails.
+• A user can force recovery mode via a key combination during 
+boot.
+Coreboot and U-boot Custom Firmware
+Coreboot (x86 only)
+• Memory and chipset initialization
+• Open-source, except for MRC binary from Intel.
+U-Boot
+• Performs veried boot
+• Handles recovery and Developer Mode
+• Open source code
+Normal boot is very fast, as it takes less than 1 second to start loading kernel. Chromebook does not boot other operating systems such as 
+Windows or OS X.
+20
+Software
+
+--- Page 21 ---
+Chrome vs Chromium OS
+Table 23. Dierence between Chromium and Chrome OS
+Dierence between Chromium and Chrome OS
+Chromium OS Chrome OS
+• Is an open source project: http://www.chromium.org/
+chromium-os
+• Runs on regular PCs and Chrome devices
+• Is based on Chromium OS
+• Only runs on the Chrome devices with required hardware 
+features (TPM, RO rmware, recovery button, developer 
+switch).
+• Includes additional licensed features such as the Netix plugin, 
+video codecs, and fonts
+View system information
+This page contains all the information about viewing system information for the Dell Chromebook.
+Dell Chromebook 11 (3189) 11 (3180) 5190 5190 2-in-1 does not support Dell BIOS. Hence, there are several ways to check system 
+specications depending on the information you are searching for. The table below lists some of the most commonly used methods to view 
+system information and specications.
+Software
+21
+
+--- Page 22 ---
+Table 24. View system information
+Commands Action and Purpose Screenshot
+Chrome:help View basic OS information.
+Chrome:settings View information such as 
+screen resolution options 
+(Device>Display settings), 
+touchpad, and other basic 
+hardware information.
+22 Software
+
+--- Page 23 ---
+Commands Action and Purpose Screenshot
+Chrome:system View advanced system 
+information such as the Google 
+Chrome version, BIOS 
+information, CPU information, 
+memory information, network 
+status, power supply 
+information, etc.
+Software 23
+
+--- Page 24 ---
+Commands Action and Purpose Screenshot
+Chrome:net-
+internals
+View advanced networking 
+information.
+24 Software
+
+--- Page 25 ---
+Getting help
+Contacting Dell
+NOTE: If you do not have an active Internet connection, you can nd contact information on your purchase invoice, packing slip, 
+bill, or Dell product catalog.
+Dell provides several online and telephone-based support and service options. Availability varies by country and product, and some services 
+may not be available in your area. To contact Dell for sales, technical support, or customer service issues:
+1  Go to Dell.com/support.
+2  Select your support category.
+3  Verify your country or region in the Choose a Country/Region drop-down list at the bottom of the page.
+4  Select the appropriate service or support link based on your need.
+4
+Getting help 25
+

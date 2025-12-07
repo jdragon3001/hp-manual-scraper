@@ -24,3 +24,54 @@ Created: November 12, 2025
 - Produces clean, searchable text files
 - Successfully tested with 126-page manual → 1,839 lines, 98KB
 
+---
+
+### OPEN: Two Different Rendering Methods on manua.ls
+**Date**: December 3, 2025  
+**Problem**: manua.ls uses TWO different rendering methods for manuals:
+
+#### Method 1: HTML Text Rendering (Works with existing scraper)
+- Text is placed in div elements with CSS positioning
+- Class names like `t m0` contain actual readable text
+- Example: HP 14 manual, Dell manuals, most downloaded manuals
+- **Status**: ✅ Working with `text_extractor.py`
+
+#### Method 2: Image + Font Obfuscation (NEEDS OCR)
+- Page rendered as webp background image (`/viewer/90/{file_id}/{page}/bg{page}.webp`)
+- Text overlay uses Private Use Area Unicode characters (`\uea34`, `\uea65`, etc.)
+- Custom font maps these to glyphs, but glyph names are opaque
+- Example: ASUS Vivobook 16 manual
+- **Status**: ⚠️ Requires OCR to extract
+
+**Investigation Files**:
+- `detect_manual_type.py` - Detects which rendering method a manual uses
+- `investigate_page_html.py` - Deep HTML analysis
+- `font_decoder.py` - Attempted font-based decoding (limited success)
+- `ocr_extractor.py` - OCR-based extraction (requires Tesseract)
+
+**Solutions for Image-Based Manuals**:
+1. **Install Tesseract OCR** - Best solution
+   - Download: https://github.com/UB-Mannheim/tesseract/wiki
+   - Run: `python ocr_extractor.py`
+2. **Skip image-based manuals** - Only scrape HTML text manuals
+3. **Cloud OCR API** - Use Google Vision, AWS Textract (requires setup/costs)
+
+**Key Finding**: Most HP, Dell, Lenovo, Acer manuals use HTML text rendering and work fine.
+Some ASUS and other manuals use image rendering. Can detect which type before scraping.
+
+---
+
+### RESOLVED: Robust Extractor with Fallbacks
+**Date**: December 3, 2025  
+**Problem**: Some manuals extract poorly (little/no text) while others work fine.
+
+**Solution**: Created `src/robust_extractor.py` with fallback strategy:
+1. **Primary**: Text extraction via Playwright `.innerText`
+2. **Fallback**: Download page images if text < 50 chars avg per page
+3. **OCR**: If Tesseract installed, run OCR on images
+4. **Backup**: Save images to `{model}_images/` folder for later processing
+
+**Usage**: Scraper now uses `save_manual_robust()` by default.
+
+**Result**: Always get SOMETHING from every manual - either text or images.
+

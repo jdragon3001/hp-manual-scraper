@@ -1,0 +1,3181 @@
+Brand: HP
+Model: Envy 17
+URL: https://www.manua.ls/hp/envy-17/manual
+Total Pages: 96
+============================================================
+
+--- Page 1 ---
+Maintenance and Service Guide
+SUMMARY
+This guide provides maintenance information about such topics as spare parts, removal and replacement of 
+parts, security, and backing up.
+
+--- Page 2 ---
+Legal information
+© Copyright 2023 HP Development 
+Company, L.P.
+AMD is a trademark of Advanced Micro 
+Devices, Inc. Bluetooth is a trademark owned 
+by its proprietor and used by HP Inc. under 
+license. Chrome is a trademark of Google 
+LLC. The terms HDMI, HDMI High-Definition 
+Multimedia Interface, and the HDMI Logo 
+are trademarks or registered trademarks 
+of HDMI Licensing Administrator, Inc. Intel, 
+Core, Iris, and Thunderbolt are trademarks 
+of Intel Corporation or its subsidiaries in the 
+U.S. and/or other countries. Microsoft and 
+Windows are either registered trademarks 
+or trademarks of Microsoft Corporation in 
+the United States and/or other countries. 
+NVIDIA and GeForce RTX are trademarks 
+and/or registered trademarks of NVIDIA 
+Corporation in the U.S. and other countries. 
+NVMe is a registered trademark of NVM 
+Express. PCIe is a US registered trademark 
+of PCI-SIG. Realtek™ is a trademark of 
+Realtek Semiconductor Corporation. USB 
+Type-C is a registered trademark of USB 
+Implementers Forum. DisplayPort™ and the 
+DisplayPort™ logo are trademarks owned by 
+the Video Electronics Standards Association 
+(VESA) in the United States and other 
+countries. Wi-Fi is a registered trademark of 
+Wi-Fi Alliance.
+The information contained herein is subject 
+to change without notice. The only 
+warranties for HP products and services are 
+set forth in the express warranty statements 
+accompanying such products and services. 
+Nothing herein should be construed as 
+constituting an additional warranty. HP shall 
+not be liable for technical or editorial errors 
+or omissions contained herein.
+First Edition: April 2023
+Document Part Number: N52373-001
+Product notice
+This guide describes features that are 
+common to most models. Some features 
+may not be available on your computer.
+Not all features are available in all 
+editions or versions of Windows. Systems 
+may require upgraded and/or separately 
+purchased hardware, drivers, software 
+or BIOS update to take full advantage 
+of Windows functionality. Windows is 
+automatically updated, which is always 
+enabled. High-speed internet and Microsoft 
+account required. ISP fees may apply and 
+additional requirements may apply over time 
+for updates. See 
+http://www.microsoft.com. 
+If your product ships with Windows in S 
+Mode: Windows in S Mode works exclusively 
+with apps from the Microsoft Store within 
+Windows. Certain default settings, features, 
+and apps cannot be changed. Some 
+accessories and apps that are compatible 
+with Windows may not work (including some 
+antivirus, PDF writers, driver utilities, and 
+accessibility apps), and performance may 
+vary, even if you switch out of S Mode. If you 
+switch to Windows, you cannot switch back 
+to S Mode. Learn more at Windows.com/
+SmodeFAQ.
+To access the latest user guides, go to 
+http://www.hp.com/support, and follow the 
+instructions to find your product. Then select 
+Manuals.
+Software terms
+By installing, copying, downloading, or 
+otherwise using any software product 
+preinstalled on this computer, you agree 
+to be bound by the terms of the HP End 
+User License Agreement (EULA). If you 
+do not accept these license terms, your 
+sole remedy is to return the entire unused 
+product (hardware and software) within 14 
+days for a full refund subject to the refund 
+policy of your seller.
+For any further information or to request 
+a full refund of the price of the computer, 
+please contact your seller.
+
+--- Page 3 ---
+Safety warning notice
+Reduce the possibility of heat-related injuries or of overheating the computer by following the practices 
+described.
+WARNING! To reduce the possibility of heat-related injuries or of overheating the computer, do not 
+place the computer directly on your lap or obstruct the computer air vents. Use the computer only on a 
+hard, flat surface. Do not allow another hard surface, such as an adjoining optional printer, or a soft 
+surface, such as pillows or rugs or clothing, to block airflow. Also, do not allow the AC adapter to come 
+into contact with the skin or a soft surface, such as pillows or rugs or clothing, during operation. The 
+computer and the AC adapter comply with the user-accessible surface temperature limits defined by 
+applicable safety standards.
+iii
+
+--- Page 4 ---
+Table of contents
+1  Product description............................................................................................................................................................................................................................. 1
+2  Components........................................................................................................................................................................................................................................... 4
+Locating hardware ....................................................................................................................................................................................................................... 4
+Locating software......................................................................................................................................................................................................................... 4
+Right side ............................................................................................................................................................................................................................................ 4
+Left side................................................................................................................................................................................................................................................ 5
+Display .................................................................................................................................................................................................................................................. 6
+Low blue light mode (select products only)..................................................................................................................................................... 6
+Wake-on-voice (select products only)..................................................................................................................................................................7
+Keyboard area.................................................................................................................................................................................................................................8
+Touchpad .................................................................................................................................................................................................................................8
+Touchpad settings .................................................................................................................................................................................................8
+Adjusting touchpad settings...............................................................................................................................................................8
+Turning on the touchpad ........................................................................................................................................................................ 8
+Touchpad components ...................................................................................................................................................................................... 8
+Lights .......................................................................................................................................................................................................................................... 9
+Special keys.........................................................................................................................................................................................................................10
+Bottom  ............................................................................................................................................................................................................................................... 12
+Labels .................................................................................................................................................................................................................................................. 12
+3  Illustrated parts catalog ..............................................................................................................................................................................................................15
+Computer major components........................................................................................................................................................................................... 15
+Display assembly subcomponents...............................................................................................................................................................................18
+Miscellaneous parts................................................................................................................................................................................................................20
+4  Removal and replacement procedures preliminary requirements.............................................................................................................. 21
+Tools required ................................................................................................................................................................................................................................ 21
+Service considerations.......................................................................................................................................................................................................... 21
+Plastic parts......................................................................................................................................................................................................................... 21
+Cables and connectors............................................................................................................................................................................................... 21
+Drive handling .................................................................................................................................................................................................................... 21
+Electrostatic discharge information............................................................................................................................................................................ 22
+Generating static electricity................................................................................................................................................................................... 22
+iv
+
+--- Page 5 ---
+Preventing electrostatic damage to equipment...................................................................................................................................... 23
+Personal grounding methods and equipment........................................................................................................................................... 23
+Grounding the work area............................................................................................................................................................................................24
+Recommended materials and equipment.....................................................................................................................................................24
+Cleaning your computer....................................................................................................................................................................................................... 25
+Enabling HP Easy Clean (select products only)........................................................................................................................................ 25
+Removing dirt and debris from your computer......................................................................................................................................... 25
+Cleaning your computer with a disinfectant............................................................................................................................................... 26
+Caring for wood veneer (select products only) .........................................................................................................................................27
+Packaging and transporting guidelines......................................................................................................................................................................27
+Accessing support information ......................................................................................................................................................................................28
+5  Removal and replacement procedures for authorized service provider parts.................................................................................30
+Component replacement procedures .......................................................................................................................................................................30
+Preparation for disassembly..................................................................................................................................................................................30
+Bottom cover .....................................................................................................................................................................................................................30
+Battery.................................................................................................................................................................................................................................... 32
+Speakers............................................................................................................................................................................................................................... 33
+Touchpad cable................................................................................................................................................................................................................34
+Touchpad .............................................................................................................................................................................................................................. 35
+Card reader cable ..........................................................................................................................................................................................................36
+Card reader..........................................................................................................................................................................................................................37
+Memory modules............................................................................................................................................................................................................38
+Solid-state drive...............................................................................................................................................................................................................40
+WLAN module.................................................................................................................................................................................................................... 42
+Infrared sensor board cable...................................................................................................................................................................................44
+Infrared sensor board ................................................................................................................................................................................................. 45
+Fan.............................................................................................................................................................................................................................................46
+Display assembly.............................................................................................................................................................................................................47
+System board ....................................................................................................................................................................................................................54
+Heat sink ................................................................................................................................................................................................................................57
+Top cover with keyboard............................................................................................................................................................................................59
+6  Computer Setup (BIOS), TPM, and HP Sure Start .....................................................................................................................................................61
+Using Computer Setup ...........................................................................................................................................................................................................61
+Navigating and selecting in Computer Setup  ...........................................................................................................................................61
+Restoring factory settings in Computer Setup......................................................................................................................................... 62
+Updating the BIOS ......................................................................................................................................................................................................... 62
+Determining the BIOS version ................................................................................................................................................................... 62
+Preparing for a BIOS update.......................................................................................................................................................................62
+Downloading a BIOS update............................................................................................................................................................63
+Installing a BIOS update......................................................................................................................................................................63
+Changing the boot order using the f9 prompt ..........................................................................................................................................63
+TPM BIOS settings (select products only) ..............................................................................................................................................................64
+Using HP Sure Start (select products only).............................................................................................................................................................64
+7  Backing up, restoring, and recovering...............................................................................................................................................................................65
+Backing up information and creating recovery media...................................................................................................................................65
+v
+
+--- Page 6 ---
+Using Windows tools for backing up.................................................................................................................................................................65
+Using the HP Cloud Recovery Download Tool to create recovery media (select products only).........................65
+Restoring and recovering your system......................................................................................................................................................................66
+Creating a system restore  ......................................................................................................................................................................................66
+Restoring and recovery methods.......................................................................................................................................................................66
+Recovering using HP Recovery media............................................................................................................................................................66
+Changing the computer boot order ...................................................................................................................................................................67
+Using HP Sure Recover (select products only)...........................................................................................................................................67
+8  Using HP PC Hardware Diagnostics..................................................................................................................................................................................68
+Using HP PC Hardware Diagnostics Windows (select products only)................................................................................................68
+Using an HP PC Hardware Diagnostics Windows hardware failure ID code.......................................................................68
+Accessing HP PC Hardware Diagnostics Windows..............................................................................................................................68
+Accessing HP PC Hardware Diagnostics Windows from HP Support Assistant.................................................68
+Accessing HP PC Hardware Diagnostics Windows from the Start menu (select products only)............69
+Downloading HP PC Hardware Diagnostics Windows........................................................................................................................69
+Downloading the latest HP PC Hardware Diagnostics Windows version from HP.............................................69
+Downloading the HP PC Hardware Diagnostics Windows from the Microsoft Store.......................................69
+Downloading HP Hardware Diagnostics Windows by product name or number (select products 
+only) ................................................................................................................................................................................................................................70
+Installing HP PC Hardware Diagnostics Windows...................................................................................................................................70
+Using HP PC Hardware Diagnostics UEFI .................................................................................................................................................................70
+Using an HP PC Hardware Diagnostics UEFI hardware failure ID code...................................................................................70
+Starting HP PC Hardware Diagnostics UEFI................................................................................................................................................70
+Starting HP PC Hardware Diagnostics UEFI through HP Hotkey Support software (select products 
+only).............................................................................................................................................................................................................................................71
+Downloading HP PC Hardware Diagnostics UEFI to a USB flash drive.....................................................................................71
+Downloading the latest HP PC Hardware Diagnostics UEFI version..............................................................................72
+Downloading HP PC Hardware Diagnostics UEFI by product name or number (select products 
+only) ................................................................................................................................................................................................................................72
+Using Remote HP PC Hardware Diagnostics UEFI settings (select products only)....................................................................72
+Downloading Remote HP PC Hardware Diagnostics UEFI................................................................................................................72
+Downloading the latest Remote HP PC Hardware Diagnostics UEFI version..........................................................72
+Downloading Remote HP PC Hardware Diagnostics UEFI by product name or number.................................72
+Customizing Remote HP PC Hardware Diagnostics UEFI settings.............................................................................................73
+9  Specifications.....................................................................................................................................................................................................................................74
+Computer specifications......................................................................................................................................................................................................74
+Display specifications.............................................................................................................................................................................................................75
+Solid-state drive specifications .......................................................................................................................................................................................75
+10  Statement of memory volatility............................................................................................................................................................................................77
+Current BIOS steps ...................................................................................................................................................................................................................77
+Nonvolatile memory usage ................................................................................................................................................................................................ 79
+Questions and answers ........................................................................................................................................................................................................80
+Using HP Sure Start (select products only)..............................................................................................................................................................81
+11  Power cord set requirements................................................................................................................................................................................................. 82
+vi
+
+--- Page 7 ---
+Requirements for all countries ........................................................................................................................................................................................ 82
+Requirements for specific countries and regions............................................................................................................................................. 82
+12  Recycling..............................................................................................................................................................................................................................................85
+Index................................................................................................................................................................................................................................................................86
+vii
+
+--- Page 8 ---
+Product description1
+This table provides detailed product information.
+Table 1-1
+Product components and their descriptions
+Category Description
+Product Name HP Envy 17.3 inch Laptop PC
+Processors Intel® Core® i7-13700H 2.4 GHz processor (14 cores, 24 MB L3 cache, 45 W)
+Intel Core i7-1355U 1.7 GHz processor (10 cores, 12 MB L3 cache, 15 W)
+Intel Core i5-13500H 2.6 GHz processor (12 cores 18 MB L3 cache, 45 W)
+Intel Core i5-1335U 1.3 GHz processor (10 cores, 12 MB L3 cache, 15 W)
+Chipset Intel integrated soldered-on-circuit (SoC)
+Graphics controller Intel Iris® Xe
+Display 43.9 cm (17.3 in), liquid crystal display (LCD), ultra high-definition (UHD, 3840 × 2160), antiglare, low blue 
+light (LBL), ultrawide viewing angle (UWVA), DCI-P3, 100% CG, embedded DisplayPort™ (eDP) 1.4 + panel 
+self-refresh2 (PSR2), flat, direct-bonding glass nontouchscreen (nTS) display panel with narrow bezel; 
+typical brightness: 400 nits
+43.9 cm (17.3 in), LCD, full high-definition (FHD, 1920 × 1080), antiglare, light-emitting diode (LED), UWVA, 
+sRGB, 100% CG, eDP 1.2, flat, direct-bonding touchscreen (TS) display panel; typical brightness: 300 nits
+43.9 cm (17.3 in), LCD, FHD (1920 × 1080), antiglare, LED, UWVA, sRGB, 100% CG, eDP 1.2, flat, nTS display 
+panel; typical brightness: 300 nits
+Memory Two memory module slots (small outline dual in-line memory modules (SODIMMs) supporting up to 64 
+GB of RAM in the following configurations:
+● 32 GB (16 × 2)
+● 16 GB (16 × 1) or (8 × 2)
+● 12 GB (8 × 1 + 4 × 1)
+Double data rate (DDR4)-3200
+Storage - solid-state 
+drive
+Support for the following solid-state drives:
+● 1 TB, M.2 2280, Peripheral Component Interconnect Express (PCIe®), Non-Volatile Memory Express 
+(NVMe®), value solid-state drive
+● 512 GB, M.2 2280, PCIe, NVMe, value solid-state drive
+Product description 1
+
+--- Page 9 ---
+Table 1-1 Product components and their descriptions (continued)
+Category Description
+Audio and video Audio brand: BANG and OLUFSEN
+HP support for Far Field Cortana
+HP support for HP Audio Boost 2.0
+Support for dual speakers
+Support for Alexa
+HP True Vision Camera: integrated, 5 MP, USB 2.0, wide field-of-view (WFOV), fixed, infrared (IR)
+Dual-array microphone
+Card reader HP Multi-Format Digital Media Card Reader
+Wireless Wireless Local Area Network (WLAN)
+Intel AX211 Wi-Fi® 6E + Bluetooth® 5.3 M.2 2230 160 MHz CNVi worldwide (WW) WLAN module
+Realtek™ 8852CE Wi-Fi 6E + Bluetooth 5.3 M.2 2230 PCI-e + USB WW WLAN
+Ports Hot plug/unplug and autodetect for correct output to wide-aspect vs. standard-aspect video
+● Audio-out (headphone)/Audio-in (microphone) combo jack
+● High-Definition Multimedia Interface® (HDMI®) port
+● SIM card slot (select products only)
+● Smart card reader (select products only)
+● USB 5 Gbps port
+● USB 5 Gbps port with HP Sleep and Charge
+● USB Type-C® power connector and 5 Gbps ports with HP Sleep and Charge and DisplayPort output 
+(2)
+● USB Type-C power connector and Thunderbolt™ ports with HP Sleep and Charge and DisplayPort 
+output (2)
+Keyboard/pointing 
+devices
+Keyboard: Backlit, island-style, notebook PC keyboard with Clickpad, image sensor, numeric keypad in 
+soft grey finish
+Touchpad
+Clickpad with image sensor
+Multitouch gestures enabled
+Precision touchpad support
+Taps enabled as default
+Power requirements 4 cell, 55 WHr, Long Life, polymer battery
+HP Fast Charge Technology
+90 W, USB Type-C, power factor correction (PFC) AC adapter (straight barrel)
+C5, 1.0 m (3.3 ft), premium power cord with sticker and plug adapter
+2 Chapter 1  Product description
+
+--- Page 10 ---
+Table 1-1 Product components and their descriptions (continued)
+Category Description
+Security Microphone mute
+Privacy camera shutter door
+Trusted Platform Module (TPM) 2.0 - firmware
+Sensors Accelerometer
+Ambient light sensor
+Infrared thermal sensor
+Operating system FreeDOS
+Windows® 11 Home
+Windows 11 Home Single Language
+Windows 11 Pro
+Windows 11 Pro (preinstalled with Windows 10 Pro Downgrade)
+Windows 11 Pro (Windows 11 Enterprise or Windows 10 Enterprise available with a Volume Licensing 
+Agreement)
+Windows 11 Pro Education
+Serviceability End user replaceable part: AC adapter
+Product description 3
+
+--- Page 11 ---
+Components2
+Your computer features top-rated components. This chapter provides details about your components, 
+where they are located, and how they work.
+Locating hardware
+Use these instructions to find out what hardware is installed on your computer.
+■
+Select the Search icon (select products only) in the taskbar, type device manager in the search 
+box, and then select the Device Manager app.
+A list displays all the devices installed on your computer.
+For information about system hardware components and the system BIOS version number, press 
+fn+esc (select products only).
+Locating software
+Use these instructions to find out what software is installed on your computer:
+■
+Right-click the Start button, and then select Apps and Features.
+Right side
+Identify the components on the right side of the computer.
+4
+Chapter 2  Components
+
+--- Page 12 ---
+Table 2-1 Right-side components and their descriptions
+Component Description
+(1) USB Type-C® power connector and 
+Thunderbolt™ ports with HP Sleep and 
+Charge and DisplayPort™ output (2)
+Connect an AC adapter that has a USB Type-C connector, 
+supplying power to the computer and, if needed, charging the 
+computer battery.
+– and –
+Connect USB devices, provide high-speed data transfer, and 
+charge small devices (such as a smartphone), even when the 
+computer is off.
+NOTE: Use a standard USB Type-C charging cable or cable 
+adapter (purchased separately) when charging a small 
+external device.
+– and –
+Connect display devices that have a USB Type-C connector, 
+providing DisplayPort output.
+NOTE: Your computer might also support a Thunderbolt 
+docking station.
+(2) AC adapter and battery light  ● White: The AC adapter is connected and the battery is 
+fully charged.
+● Blinking amber: The AC adapter is disconnected and 
+the battery has reached a low battery level.
+● Amber: The AC adapter is connected and the battery is 
+charging.
+● Off: The battery is not charging.
+(3) HDMI® port  Connects an optional video or audio device, such as a 
+high-definition television, any compatible digital or audio 
+component, or a high-speed High-Definition Multimedia 
+Interface® (HDMI) device.
+(4) USB SuperSpeed port with HP Sleep and 
+Charge 
+Connects a USB device, provides high-speed data transfer, 
+and charges small devices (such as a smartphone), even 
+when the computer is off.
+NOTE: Use a standard USB Type-A charging cable or cable 
+adapter (purchased separately) when charging a small 
+external device.
+Left side
+Identify the components on the left side of the computer.
+Left side
+5
+
+--- Page 13 ---
+Table 2-2 Left-side components and their descriptions
+Component Description
+(1) USB SuperSpeed ports (2) Connect USB devices, provide high-speed data transfer, 
+and (for select products) charge small devices (such as a 
+smartphone) when the computer is on or in Sleep mode.
+NOTE: Use a standard USB Type-A charging cable or cable 
+adapter (purchased separately) when charging a small 
+external device.
+(2) Audio-out (headphone)/Audio-in 
+(microphone) combo jack 
+Connects optional powered stereo speakers, headphones, 
+earbuds, a headset, or a television audio cable. Also 
+connects an optional headset microphone. This jack does 
+not support optional standalone microphones.
+WARNING! To reduce the risk of personal injury, adjust the 
+volume before putting on headphones, earbuds, or a 
+headset. For additional safety information, see the 
+Regulatory, Safety, and Environmental Notices
+.
+To access this guide:
+■
+Select the Search icon in the taskbar, type HP 
+Documentation in the search box, and then select HP 
+Documentation.
+NOTE: When a device is connected to the jack, the 
+computer speakers are disabled.
+(3) Memory card reader  Reads optional memory cards that enable you to store, 
+manage, share, or access information.
+To insert a card:
+1. Hold the card label-side up, with connectors facing the 
+computer.
+2. Insert the card into the memory card reader, and then 
+press in on the card until it is firmly seated.
+To remove a card:
+■
+Press in on the card, and then remove it from the 
+memory card reader.
+Display
+Use the illustration and table to identify the display components.
+Low blue light mode (select products only)
+Your computer display is shipped from the factory in low blue light mode for improved eye comfort and 
+safety. Also, blue light mode automatically adjusts blue light emissions when you are using the computer 
+at night or for reading.
+WARNING! To reduce the risk of serious injury, read the 
+Safety & Comfort Guide
+. It describes proper 
+workstation setup and proper posture, health, and work habits for computer users. The 
+Safety & 
+Comfort Guide
+ also provides important electrical and mechanical safety information. The 
+Safety & 
+Comfort Guide
+ is available on the web at http://www.hp.com/ergo.
+6
+Chapter 2  Components
+
+--- Page 14 ---
+Wake-on-voice (select products only)
+Use the wake-on-voice feature to bring the computer out of the Sleep state quickly.
+To access the wake-on-voice settings, follow these steps:
+1. Select the Search icon in the taskbar, type XiaoWei in the search box, and then select XiaoWei.
+2. When the tool opens, scan the QR code with your mobile device, which takes you to the settings 
+page, where you can select your wake-on-voice features.
+3. Follow the on-screen instructions.
+NOTE: Allow the XiaoWei app to continue running on the computer.
+Table 2-3
+Display components and their descriptions
+Component Description
+(1) Camera lights (2)  On: One or more cameras are in use.
+(2) Internal microphones (2)  Record sound.
+(3) Cameras (2)  Allow you to video chat, record video, and record still images. 
+Some cameras also allow a facial recognition logon to Windows, 
+instead of a password logon.
+NOTE: Camera functions vary depending on the camera 
+hardware and software installed on your product.
+(4) Camera privacy cover By default, the camera lens is uncovered, but you can slide the 
+camera privacy cover to block the camera's view. To use the 
+camera, slide the camera privacy cover in the opposite direction 
+to reveal the lens.
+(5) WLAN antennas* (2)  Send and receive wireless signals to communicate with wireless 
+local area networks (WLANs).
+Wake-on-voice (select products only) 7
+
+--- Page 15 ---
+Table 2-3 Display components and their descriptions (continued)
+Component Description
+*The antennas are not visible from the outside of the computer. For optimal transmission, keep the areas immediately around 
+the antennas free from obstructions.
+For wireless regulatory notices, see the section of the 
+Regulatory, Safety, and Environmental Notices
+ that applies to your 
+country or region.
+To access this guide:
+■
+Select the Search icon in the taskbar, type HP Documentation in the search box, and then select HP Documentation.
+Keyboard area
+Keyboards can vary by language.
+NOTE: The keyboard, including the function keys and power button (select products only), is disabled 
+in stand, tent, and tablet modes. To enable the keyboard, including the power button, change to the 
+clamshell mode.
+Touchpad
+The touchpad settings and components are described here.
+Touchpad settings
+You learn how to adjust the touchpad settings and components here.
+Adjusting touchpad settings
+Use these steps to adjust touchpad settings and gestures.
+1. Select the Search icon (select products only) in the taskbar, type touchpad settings in the 
+search box, and then press enter.
+2. Choose a setting.
+Turning on the touchpad
+Follow these steps to turn on the touchpad.
+1. Select the Search icon (select products only) in the taskbar, type touchpad settings in the 
+search box, and then press enter.
+2. Using an external mouse, click the Touchpad button.
+If you are not using an external mouse, press the Tab key repeatedly until the pointer rests on the 
+touchpad button. Then press the spacebar to select the button.
+Touchpad components
+Use the illustration and table to identify the touchpad components.
+8
+Chapter 2  Components
+
+--- Page 16 ---
+Table 2-4 Touchpad components and their descriptions
+Component Description
+(1) Touchpad zone Reads your finger gestures to move the pointer or activate 
+items on the screen.
+(2) Left touchpad button Functions like the left button on an external mouse.
+(3) Near Field Communications (NFC) tapping 
+area and antenna (select products only)*
+Allows you to wirelessly share information when you tap it 
+with an NFC-enabled device.
+(4) Right touchpad button Functions like the right button on an external mouse.
+*The antennas are not visible from the outside of the computer. For optimal transmission, keep the areas immediately around 
+the antennas free from obstructions.
+For wireless regulatory notices, see the section of the 
+Regulatory, Safety, and Environmental Notices
+ that applies to your 
+country or region.
+To access this guide:
+■
+Select the Search icon (select products only) in the taskbar, type HP Documentation in the search box, and then select 
+HP Documentation.
+Lights
+Identify the lights on the computer.
+Lights
+9
+
+--- Page 17 ---
+Table 2-5 Lights and their descriptions
+Component Description
+(1) Caps lock light  On: Caps lock is on, which switches the key input to all capital 
+letters.
+(2) Mute light  ● On: Computer sound is off.
+● Off: Computer sound is on.
+(3) Microphone mute light  ● On: Microphone is off.
+● Off: Microphone is on.
+(4) Power light  ● On: The computer is on.
+● Blinking (select products only): The computer is in 
+the Sleep state, a power-saving state. The computer 
+shuts off power to the display and other unnecessary 
+components.
+● Off: Depending on your computer model, the computer 
+is off, in Hibernation, or in Sleep. Hibernation is the 
+power-saving state that uses the least amount of power.
+Special keys
+Identify the special keys.
+10
+Chapter 2  Components
+
+--- Page 18 ---
+Table 2-6 Special keys and their descriptions
+Component Description
+(1) esc key  Displays system information when pressed in combination 
+with the fn key.
+(2) fn key  Executes specific functions when pressed in combination 
+with another key.
+(3) Windows key  Opens the Start menu.
+NOTE: Pressing the Windows key again closes the Start 
+menu.
+(4) Action keys  Execute frequently used system functions as defined by the 
+icon symbols on f1 through f12 function keys.
+(5) Power button  ● When the computer is off, press the button briefly to 
+turn on the computer.
+● When the computer is on, press the button briefly to 
+initiate Sleep.
+● When the computer is in the Sleep state, press the 
+button briefly to exit Sleep (select products only).
+● When the computer is in Hibernation, press the button 
+briefly to exit Hibernation.
+IMPORTANT: Pressing and holding down the power button 
+results in the loss of unsaved information.
+If the computer has stopped responding and shutdown 
+procedures are ineffective, press and hold the power button 
+down for at least 10 seconds to turn off the computer.
+To learn more about your power and sleep settings:
+■
+Right-click the Power icon  , and then select Power 
+and sleep settings.
+(6) num lock key  Alternates between the navigational and numeric functions 
+on the integrated numeric keypad.
+Special keys 11
+
+--- Page 19 ---
+Table 2-6 Special keys and their descriptions (continued)
+Component Description
+(7) Integrated numeric keypad  A separate keypad to the right of the alphabet keyboard. 
+When num lock is pressed, the keypad can be used like an 
+external numeric keypad.
+NOTE: If the keypad function is active when the computer is 
+turned off, that function is reinstated when the computer is 
+turned back on.
+Bottom
+Identify the bottom components.
+Table 2-7
+Bottom components and their descriptions
+Component Description
+(1) Speakers (2)  Produce sound.
+(2) Vent  Enables airflow to cool internal components.
+NOTE: The computer fan starts up automatically to 
+cool internal components and prevent overheating. It is 
+normal for the internal fan to cycle on and off during 
+routine operation.
+Labels
+The labels affixed to the computer provide information that you might need when you troubleshoot 
+system problems or travel internationally with the computer. Labels can be in paper form or imprinted on 
+the product.
+IMPORTANT: Check the following locations for the labels described in this section: the bottom of the 
+computer, inside the battery bay, under the service door, on the back of the display, or on the bottom of 
+a tablet kickstand.
+12
+Chapter 2  Components
+
+--- Page 20 ---
+● Service label—Provides important information to identify your computer. When contacting support, 
+you may be asked for the serial number, the product number, or the model number. Locate this 
+information before you contact support.
+Your service label will resemble one of the following examples. Refer to the illustration that most 
+closely matches the service label on your computer.
+Table 2-8 Service label components and their descriptions
+Component
+(1) Serial number
+(2) Product ID
+(3) HP product name
+Table 2-9 Service label components and their descriptions
+Component
+(1) HP product name
+(2) Product ID
+(3) Serial number
+(4) Warranty period
+Labels 13
+
+--- Page 21 ---
+Table 2-10 Service label components and their descriptions
+Component
+(1) HP product name
+(2) Warranty period
+(3) Product ID
+(4) Serial number
+● Regulatory labels—Provide regulatory information about the computer.
+● Wireless certification labels—Provide information about optional wireless devices and the approval 
+markings for the countries or regions in which the devices have been approved for use.
+14
+Chapter 2  Components
+
+--- Page 22 ---
+Illustrated parts catalog3
+Use this table to determine the spare parts that are available for the computer.
+Computer major components
+To identify the computer major components, use this illustration and table.
+NOTE: HP continually improves and changes product parts. For complete and current information 
+about supported parts for your computer, go to http://partsurfer.hp.com, select your country or region, 
+and then follow the on-screen instructions.
+NOTE: Details about your computer, including model, serial number, product key, and length of 
+warranty, are on the service tag at the bottom of your computer.
+Illustrated parts catalog
+15
+
+--- Page 23 ---
+Table 3-1 Computer major component descriptions and part numbers
+Item Component Spare part number
+(1) Display assembly: Display spare parts are available as subcomponents, not as whole units. Display subcomponent 
+spare parts are available. For spare part information, see Display assembly subcomponents on page 18.
+(2) Top cover with keyboard in natural silver finish with touchpad in soft gray finish with backlight 
+(includes backlight cable and keyboard cable)
+N42851-xxx
+For use in country or region: Country code:
+For use in Belgium -A41
+For use in the Czech Republic and Slovakia -FL1
+For use in Denmark, Finland, and Norway -DH1
+For use in France -051
+For use in French Canada -DB1
+For use in Germany -041
+For use in Greece -151
+For use in Hungary -211
+16 Chapter 3  Illustrated parts catalog
+
+--- Page 24 ---
+Table 3-1 Computer major component descriptions and part numbers (continued)
+Item Component Spare part number
+For use in Israel -BB1
+For use in Italy -061
+For use in the Netherlands -B31
+For use in Portugal -131
+For use in Romania -271
+For use in Russia -251
+For use in Saudi Arabia -171
+For use in Slovenia -BA1
+For use in Spain -071
+For use in Switzerland -BG1
+For use in Turkey -141
+For use in Ukraine -BD1
+For use in the United Kingdom -031
+For use in the United States -001
+(3a) System board (includes integrated processor and replacement thermal material):
+Equipped with an Intel i7-1355U processor, an NVIDIA® GeForce RTX® 3050 graphics controller 
+with 4 GB of discrete memory, and the Windows 11 operating system
+N42845-601
+Equipped with an Intel i7-13700H processor, a graphics subsystem with UMA memory, and the 
+Windows 11 operating system
+N42846-001
+Equipped with an Intel i5-13500H processor, a graphics subsystem with UMA memory, and the 
+Windows 11 operating system
+N42847-601
+System Board Repair Support Kit (not illustrated) N54691-888
+System Board Shield Kit (not illustrated) N44298-001
+(3b) I/O bracket N43950-001
+(4a) Infrared sensor board
+NOTE: The infrared sensor board spare part kit does not include the infrared sensor board 
+cable. The infrared sensor board cable is available using spare part number N43952-001.
+N43951-001
+(4b) Infrared sensor board cable N43952-001
+(5) Heat sink (includes captive screws and replacement thermal material):
+For use with system boards equipped with a graphics subsystem with discrete memory N43963-001
+For use with system boards equipped with a graphics subsystem with UMA memory N43964-001
+(6) Fan Kit (includes left and right fans, captive screws, and cable):
+For use with computer models equipped with a graphics subsystem with discrete memory N43961-001
+For use with computer models equipped with a graphics subsystem with UMA memory N43962-001
+(7) WLAN module:
+Intel AX211 Wi-Fi 6E + Bluetooth 5.3 M.2 2230 160 MHz CNVi (WW) WLAN module M53366-005
+Computer major components 17
+
+--- Page 25 ---
+Table 3-1 Computer major component descriptions and part numbers (continued)
+Item Component Spare part number
+Realtek 8852CE Wi-Fi 6E + Bluetooth 5.3 M.2 2230 PCI-e+USB worldwide WW WLAN module N19618-005
+WLAN module cover (not illustrated) L98315-001
+(8a) Solid-state drive:
+1 TB, M.2 2280, PCIe, NVMe value solid-state drive L85370-005
+512 GB, M.2 2280, PCIe, NVMe value solid-state drive L85364-005
+(8b) Solid-state drive shield (not available as a spare part)
+Solid-state drive thermal pads (not illustrated) N43970-001
+(9a) Memory modules (2, SODIMM, DDR4-3200, 1.2 V):
+16 GB L67710-005
+8 GB L46598-005
+4 GB L83673-005
+(9b) Memory module shield (not available as a spare part)
+(10a) Card reader
+NOTE: The card reader spare part kit does not include the card reader cable. The card reader 
+cable is available using spare part number N43957-001.
+N43956-001
+(10b) Card reader cable N43957-001
+(11a) Touchpad
+NOTE: The touchpad spare part kit does not include the touchpad cable. The touchpad cable 
+is available using spare part number N43959-001.
+N43958-001
+(11b) Touchpad cable N43959-001
+(12) Speakers (include cables, left and right speakers, and 4 rubber isolators) N43966-001
+(13) Battery (4 cell, 55 Wr, Li-ion) N55629-005
+(14) Bottom cover (includes rubber feet):
+For use with system boards equipped with a graphics subsystem with discrete memory N43948-001
+For use with system boards equipped with a graphics subsystem with UMA memory N43969-001
+Display assembly subcomponents
+To identify the display assembly subcomponents, use this illustration and table.
+18
+Chapter 3  Illustrated parts catalog
+
+--- Page 26 ---
+Table 3-2 Display component descriptions and part numbers
+Item Component Spare part number
+(1) Display panel assembly:
+For use on computer models equipped with a UHD nTS display panel N42850-001
+For use on computer models equipped with an FHD TS display panel N42848-001
+For use on computer models equipped with an FHD nTS display panel N42849-001
+Display Adhesive Kit (not illustrated) N43969-001
+(2a) Webcam module (includes double-sided adhesive) N43967-001
+(2b) Webcam module cable (includes double-sided adhesive)
+For use on computer models equipped with a TS display panel N43960-001
+For use on computer models equipped with an nTS display panel N43955-001
+(3) Touch control board (includes double-sided adhesive) N44601-001
+(4) Display panel cable:
+For use on computer models equipped with a UHD display panel N43954-001
+Display assembly subcomponents 19
+
+--- Page 27 ---
+Table 3-2 Display component descriptions and part numbers (continued)
+Item Component Spare part number
+For use on computer models equipped with an FHD display panel N43953-001
+(5) Display Hinge Kit (includes display hinge cover and left and right hinges) N43965-001
+(6) WLAN antennas (includes left and right WLAN antenna cables and transceivers and double-
+sided adhesive)
+N43946-001
+(7) Display back cover (includes left and right wireless antenna cables and transceivers) N43947-001
+Miscellaneous parts
+To identify the miscellaneous parts, use this table.
+Table 3-3
+Miscellaneous part descriptions and part numbers
+Component Spare part number
+90 W AC adapter (PFC, USB Type-C, 3-pin, 1.8 m [6.0 ft]) L40893-001
+Adapter:
+HP Elite USB Type-C–to–Multiport adapter L39572-001
+HP HDMI–to–VGA adapter 701943-001
+HP USB Type-C–to–RJ45 adapter M95985-001
+HP USB Type-C–to–USB Type-A adapter 916838-001
+HP USB Type-C–to–VGA adapter 831751-001
+Hub:
+HP Elite USB Type-C MultiPort hub L39572-001
+HP USB Type-C–to–RJ45 adapter // HP USB Type-C–to–USB Type-A hub 916838-001
+HP USB External DV D+-RW Drive 747080-001
+Power cord (C5, 1.5 m [3.3 ft], premium with sticker):
+For use in Denmark L22322-001
+For use in Europe L22321-001
+For use in India L22624-001
+For use in Israel L22323-001
+For use in North America L22319-001
+For use in South Africa L22325-001
+For use in the United Kingdom L22320-001
+Screw Kit N43968-001
+20 Chapter 3  Illustrated parts catalog
+
+--- Page 28 ---
+Removal and replacement procedures 
+preliminary requirements
+4
+Use this information to properly prepare to disassemble and reassemble the computer.
+Tools required
+You need the following tools to complete the removal and replacement procedures:
+● Tweezers
+● Nonconductive, nonmarking pry tool
+● Magnetic Phillips P1 screwdriver
+Service considerations
+The following sections include some of the considerations that you must keep in mind during 
+disassembly and assembly procedures.
+NOTE: As you remove each subassembly from the computer, place the subassembly (and all 
+accompanying screws) away from the work area to prevent damage.
+Plastic parts
+Using excessive force during disassembly and reassembly can damage plastic parts.
+Cables and connectors
+Handle cables with extreme care to avoid damage.
+IMPORTANT: When servicing the computer, be sure that cables are placed in their proper locations 
+during the reassembly process. Improper cable placement can damage the computer.
+Apply only the tension required to unseat or seat the cables during removal and insertion. Handle cables 
+by the connector whenever possible. In all cases, avoid bending, twisting, or tearing cables. Be sure that 
+cables are routed so that they cannot be caught or snagged as you remove or replace parts. Handle flex 
+cables with extreme care; these cables tear easily.
+Drive handling
+Note the following guidelines when handling drives.
+Removal and replacement procedures preliminary requirements
+21
+
+--- Page 29 ---
+IMPORTANT: Drives are fragile components. Handle them with care. To prevent damage to the 
+computer, damage to a drive, or loss of information, observe these precautions:
+● Before removing or inserting a hard drive, shut down the computer. If you are unsure whether 
+the computer is off or in Hibernation, turn the computer on, and then shut it down through the 
+operating system.
+● Before handling a drive, be sure that you are discharged of static electricity. While handling a drive, 
+avoid touching the connector.
+● Before removing an optical drive, be sure that a disc is not in the drive, and be sure that the optical 
+drive tray is closed.
+● Handle drives on surfaces covered with at least 2.54 cm (1 inch) of shock-proof foam.
+● Avoid dropping drives from any height onto any surface.
+● After removing a hard drive or an optical drive, place it in a static-proof bag.
+● Avoid exposing an internal hard drive to products that have magnetic fields, such as monitors or 
+speakers.
+● Avoid exposing a drive to temperature extremes or liquids.
+● If a drive must be mailed, place the drive in a bubble pack mailer or other suitable form of 
+protective packaging, and label the package “FRAGILE.”
+Electrostatic discharge information
+A sudden discharge of static electricity from your finger or other conductor can destroy static-sensitive 
+devices or microcircuitry. Often the spark is neither felt nor heard, but damage occurs. An electronic 
+device exposed to electrostatic discharge (ESD) might not appear to be affected at all and can work 
+perfectly throughout a normal cycle. The device might function normally for a while, but it has been 
+degraded in the internal layers, reducing its life expectancy.
+Networks built into many integrated circuits provide some protection, but in many cases, the discharge 
+contains enough power to alter device parameters or melt silicon junctions.
+IMPORTANT: To prevent damage to the device when you remove or install internal components, 
+observe these precautions:
+● Keep components in their electrostatic-safe containers until you are ready to install them.
+● Before touching an electronic component, discharge static electricity by using the guidelines 
+described in Personal grounding methods and equipment on page 23.
+● Avoid touching pins, leads, and circuitry. Handle electronic components as little as possible.
+● If you remove a component, place it in an electrostatic-safe container.
+Generating static electricity
+Follow these static electricity guidelines:
+● Different activities generate different amounts of static electricity.
+● Static electricity increases as humidity decreases.
+22
+Chapter 4  Removal and replacement procedures preliminary requirements
+
+--- Page 30 ---
+Table 4-1 Static electricity occurrence based on activity and humidity
+Relative humidity
+Event 55% 40% 10%
+Walking across carpet
+Walking across vinyl floor
+Motions of bench worker
+Removing dual in-line packages (DIPs) from plastic tube
+7,500 V
+3,000 V
+400 V
+400 V
+15,000 V
+5,000 V
+800 V
+700 V
+35,000 V
+12,000 V
+6,000 V
+2,000 V
+Removing DIPs from vinyl tray
+Removing DIPs from polystyrene foam
+Removing bubble pack from PCB (printed circuit board)
+Packing PCBs in foam-lined box
+2,000 V
+3,500 V
+7,000 V
+5,000 V
+4,000 V
+5,000 V
+20,000 V
+11,000 V
+11,500 V
+14,500 V
+26,500 V
+21,000 V
+Multiple electric components can be packaged together in plastic tubes, trays, or polystyrene foam.
+NOTE: As little as 700 V of static electricity can degrade a product.
+Preventing electrostatic damage to equipment
+Many electronic components are sensitive to ESD. Circuitry design and structure determine the degree 
+of sensitivity.
+The following packaging and grounding precautions are necessary to prevent static electricity damage 
+to electronic components:
+● To avoid hand contact, transport products in static-safe containers such as tubes, bags, or boxes.
+● Protect all electrostatic parts and assemblies with conductive or approved containers or packaging.
+● Keep electrostatic-sensitive parts in their containers until they arrive at static-free stations.
+● Place items on a grounded surface before removing them from their container.
+● Always be properly grounded when touching a sensitive component or assembly.
+● Avoid contact with pins, leads, or circuitry.
+● Place reusable electrostatic-sensitive parts from assemblies in protective packaging or conductive 
+foam.
+Personal grounding methods and equipment
+Using certain equipment can prevent static electricity damage to electronic components.
+● Wrist straps are flexible straps with a maximum of 1 MΩ ±10% resistance in the ground cords. To 
+provide proper ground, a strap must be worn snug against bare skin. The ground cord must be 
+connected and fit snugly into the banana plug connector on the grounding mat or workstation.
+● You can use heel straps, toe straps, and boot straps at standing workstations. These straps are 
+compatible with most types of shoes or boots. On conductive floors or dissipative floor mats, use 
+them on both feet with a maximum of 1 MΩ ±10% resistance between the operator and ground.
+Preventing electrostatic damage to equipment
+23
+
+--- Page 31 ---
+Table 4-2 Static shielding protection levels
+Static shielding protection levels
+Method Voltage
+Antistatic plastic
+Carbon-loaded plastic
+Metallized laminate
+1,500
+7,500
+15,000
+Grounding the work area
+To prevent static damage at the work area, follow these precautions:
+● Cover the work surface with approved static-dissipative material.
+● Use a wrist strap connected to a properly grounded work surface and use properly grounded tools 
+and equipment.
+● Use static-dissipative mats, foot straps, or air ionizers to give added protection.
+● Handle electrostatic sensitive components, parts, and assemblies by the case or PCB laminate. 
+Handle them only at static-free work areas.
+● Turn off power and input signals before inserting and removing connectors or test equipment.
+● Use fixtures made of static-safe materials when fixtures must directly contact dissipative surfaces.
+● Keep the work area free of nonconductive materials, such as ordinary plastic assembly aids and 
+polystyrene foam.
+● Use conductive field service tools, such as cutters, screwdrivers, and vacuums.
+● Avoid contact with pins, leads, or circuitry.
+Recommended materials and equipment
+HP recommends certain materials and equipment to prevent static electricity:
+● Antistatic tape
+● Antistatic smocks, aprons, or sleeve protectors
+● Conductive bins and other assembly or soldering aids
+● Conductive foam
+● Conductive tabletop workstations with ground cord of 1 MΩ ±10% resistance
+● Static-dissipative table or floor mats with hard tie to ground
+● Field service kits
+● Static awareness labels
+● Wrist straps and footwear straps providing 1 MΩ ±10% resistance
+● Material handling packages
+24
+Chapter 4  Removal and replacement procedures preliminary requirements
+
+--- Page 32 ---
+● Conductive plastic bags
+● Conductive plastic tubes
+● Conductive tote boxes
+● Opaque shielding bags
+● Transparent metallized shielding bags
+● Transparent shielding tubes
+Cleaning your computer
+Cleaning your computer regularly removes dirt and debris so that your device continues to operate at its 
+best. Use the following information to safely clean the external surfaces of your computer.
+Enabling HP Easy Clean (select products only)
+HP Easy Clean helps you to avoid accidental input while you clean the computer surfaces. This software 
+disables devices such as the keyboard, touch screen, and touchpad for a preset amount of time so that 
+you can clean all computer surfaces.
+1. Start HP Easy Clean in one of the following ways:
+● Select the Start menu, and then select HP Easy Clean.
+– or –
+● Select the HP Easy Clean icon in the taskbar.
+– or –
+● Select Start, and then select the HP Easy Clean tile.
+2. Now that your device is disabled for a short period, see Removing dirt and debris from your 
+computer on page 25 for the recommended steps to clean the high-touch, external surfaces 
+on your computer. After you remove the dirt and debris, you can also clean the surfaces with a 
+disinfectant. See Cleaning your computer with a disinfectant on page 26 for guidelines to help 
+prevent the spread of harmful bacteria and viruses.
+Removing dirt and debris from your computer
+Here are the recommended steps to clean dirt and debris from your computer.
+For computers with wood veneer, see Caring for wood veneer (select products only) on page 27.
+1. Wear disposable gloves made of latex (or nitrile gloves, if you are latex-sensitive) when cleaning the 
+surfaces.
+2. Turn off your device and unplug the power cord and other connected external devices. Remove any 
+installed batteries from items such as wireless keyboards.
+CAUTION: To prevent electric shock or damage to components, never clean a product while it is 
+turned on or plugged in.
+Cleaning your computer
+25
+
+--- Page 33 ---
+3. Moisten a microfiber cloth with water. The cloth should be moist, but not dripping wet.
+IMPORTANT: To avoid damaging the surface, avoid abrasive cloths, towels, and paper towels.
+4. Wipe the exterior of the product gently with the moistened cloth.
+IMPORTANT: Keep liquids away from the product. Avoid getting moisture in any openings. If liquid 
+makes its way inside your HP product, it can cause damage to the product. Do not spray liquids 
+directly on the product. Do not use aerosol sprays, solvents, abrasives, or cleaners containing 
+hydrogen peroxide or bleach that might damage the finish.
+5. Start with the display (if applicable). Wipe carefully in one direction, and move from the top of the 
+display to the bottom. Finish with any flexible cables, like power cord, keyboard cable, and USB 
+cables.
+6. Be sure that surfaces have completely air-dried before turning the device on after cleaning.
+7. Discard the gloves after each cleaning. Clean your hands immediately after you remove the gloves.
+See Cleaning your computer with a disinfectant on page 26 for recommended steps to clean the 
+high-touch, external surfaces on your computer to help prevent the spread of harmful bacteria and 
+viruses.
+Cleaning your computer with a disinfectant
+The World Health Organization (WHO) recommends cleaning surfaces, followed by disinfection, as a 
+best practice for preventing the spread of viral respiratory illnesses and harmful bacteria.
+After cleaning the external surfaces of your computer using the steps in Removing dirt and debris from 
+your computer on page 25, Caring for wood veneer (select products only) on page 27, or both, you 
+might also choose to clean the surfaces with a disinfectant. A disinfectant that is within HP’s cleaning 
+guidelines is an alcohol solution consisting of 70% isopropyl alcohol and 30% water. This solution is also 
+known as rubbing alcohol and is sold in most stores.
+Follow these steps when disinfecting high-touch, external surfaces on your computer:
+1. Wear disposable gloves made of latex (or nitrile gloves, if you are latex-sensitive) when cleaning the 
+surfaces.
+2. Turn off your device and unplug the power cord and other connected external devices. Remove any 
+installed batteries from items such as wireless keyboards.
+CAUTION: To prevent electric shock or damage to components, never clean a product while it is 
+turned on or plugged in.
+3. Moisten a microfiber cloth with a mixture of 70% isopropyl alcohol and 30% water. The cloth should 
+be moist, but not dripping wet.
+CAUTION: Do not use any of the following chemicals or any solutions that contain them, including 
+spray-based surface cleaners: bleach, peroxides (including hydrogen peroxide), acetone, ammonia, 
+ethyl alcohol, methylene chloride, or any petroleum-based materials, such as gasoline, paint thinner, 
+benzene, or toluene.
+IMPORTANT: To avoid damaging the surface, avoid abrasive cloths, towels, and paper towels.
+26
+Chapter 4  Removal and replacement procedures preliminary requirements
+
+--- Page 34 ---
+4. Wipe the exterior of the product gently with the moistened cloth.
+IMPORTANT: Keep liquids away from the product. Avoid getting moisture in any openings. If liquid 
+makes its way inside your HP product, it can cause damage to the product. Do not spray liquids 
+directly on the product. Do not use aerosol sprays, solvents, abrasives, or cleaners containing 
+hydrogen peroxide or bleach that might damage the finish.
+5. Start with the display (if applicable). Wipe carefully in one direction, and move from the top of the 
+display to the bottom. Finish with any flexible cables, like power cord, keyboard cable, and USB 
+cables.
+6. Be sure that surfaces have completely air-dried before turning the device on after cleaning. 
+7. Discard the gloves after each cleaning. Clean your hands immediately after you remove the gloves.
+Caring for wood veneer (select products only)
+Your product might feature high-quality wood veneer. As with all natural wood products, proper care is 
+important for best results over the life of the product. Because of the nature of natural wood, you might 
+see unique variations in the grain pattern or subtle variations in color, which are normal.
+● Clean the wood with a dry, static-free microfiber cloth or chamois.
+● Avoid cleaning products containing substances such as ammonia, methylene chloride, acetone, 
+turpentine, or other petroleum-based solvents.
+● Do not expose the wood to sun or moisture for long periods of time.
+● If the wood becomes wet, dry it by dabbing with an absorbent, lint-free cloth.
+● Avoid contact with any substance that might dye or discolor the wood.
+● Avoid contact with sharp objects or rough surfaces that might scratch the wood.
+See Removing dirt and debris from your computer on page 25 for the recommended steps to clean 
+the high-touch, external surfaces on your computer. After you remove the dirt and debris, you can also 
+clean the surfaces with a disinfectant. See Cleaning your computer with a disinfectant on page 26 for 
+sanitizing guidelines to help prevent the spread of harmful bacteria and viruses.
+Packaging and transporting guidelines
+Follow these grounding guidelines when packaging and transporting equipment:
+● To avoid hand contact, transport products in static-safe tubes, bags, or boxes.
+● Protect ESD-sensitive parts and assemblies with conductive or approved containers or packaging.
+● Keep ESD-sensitive parts in their containers until the parts arrive at static-free workstations.
+● Place items on a grounded surface before removing items from their containers.
+● Always be properly grounded when touching a component or assembly.
+● Store reusable ESD-sensitive parts from assemblies in protective packaging or 
+nonconductive foam.
+Caring for wood veneer (select products only)
+27
+
+--- Page 35 ---
+● Use transporters and conveyors made of antistatic belts and roller bushings. Be sure that 
+mechanized equipment used for moving materials is wired to ground and that proper materials 
+are selected to avoid static charging. When grounding is not possible, use an ionizer to dissipate 
+electric charges.
+Accessing support information
+To find the HP support that you need, use this information.
+Table 4-3 Support information locations
+Service consideration Path to access information
+Records of reported failure incidents stored 
+on the computer
+Windows®:
+Preoperating system failures are logged in the BIOS Event Log. To view the BIOS 
+Event Log:
+1. Press the power button.
+2. Immediately and repeatedly press esc when the power button light turns 
+white.
+NOTE: If you do not press esc at the appropriate time, you must restart the 
+computer and again repeatedly press esc when the power button light turns 
+white to access the utility.
+3. Press f10 to enter the BIOS setup.
+4. (On commercial products) Under the Main tab, select BIOS event log, and 
+then select View BIOS Event Log.
+- or -
+(On consumer products) Under the Main tab, select System Log.
+Post-operating system failures are logged in the Event Viewer.
+1. Turn on the computer and allow the operating system to open.
+2. Select the search icon   in the taskbar.
+3. Type Event Viewer, and then press enter.
+4. Select the log from the left panel. Details display in the right panel.
+Chrome™:
+1. Go to support.google.com/chrome.
+2. Search collect Chrome device logs.
+Technical bulletins
+To locate technical bulletins:
+1. Go to www.hp.com.
+2. Place the cursor over Problem solving to display more options.
+3. Select Support & Troubleshooting.
+4. Type the serial number, product number, or product name to go to the 
+product support page.
+5. Select Advisories to view technical bulletins.
+28 Chapter 4  Removal and replacement procedures preliminary requirements
+
+--- Page 36 ---
+Table 4-3 Support information locations (continued)
+Service consideration Path to access information
+Repair professionals To locate repair professionals:
+1. Go to www.hp.com.
+2. Place the cursor over Support resources to display more options.
+3. Select Authorized service providers.
+Component and diagnosis information, 
+failure detection, and required action
+To locate diagnosis information and actions:
+1. Go to http://www.hp.com/go/techcenter/pcdiags.
+2. Select Get Support.
+3. Near the bottom of the window, select Notebook PCs, and then select your 
+location.
+Accessing support information 29
+
+--- Page 37 ---
+Removal and replacement procedures for 
+authorized service provider parts
+5
+This chapter provides removal and replacement procedures for authorized service provider parts.
+IMPORTANT: Only an authorized service provider should access the components described in this 
+chapter. Accessing these parts can damage the computer or void the warranty.
+NOTE: Details about your computer, including model, serial number, product key, and length of 
+warranty, are on the service tag at the bottom of your computer.
+Component replacement procedures
+To remove and replace computer components, use these procedures.
+NOTE: HP continually improves and changes product parts. For complete and current information 
+about supported parts for your computer, go to http://partsurfer.hp.com, select your country or region, 
+and then follow the on-screen instructions.
+You must remove, replace, or loosen as many as 65 screws when you service the parts described in this 
+chapter. Make special note of each screw size and location during removal and replacement.
+Preparation for disassembly
+To remove and replace computer components, use these procedures.
+See Removal and replacement procedures preliminary requirements on page 21 for initial safety 
+procedures.
+1. Turn off the computer. If you are unsure whether the computer is off or in Hibernation, turn the 
+computer on, and then shut it down through the operating system.
+2. Disconnect the power from the computer by unplugging the power cord from the computer. 
+3. Disconnect all external devices from the computer.
+Bottom cover
+To remove the bottom cover, use this procedure and illustration.
+30
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 38 ---
+Table 5-1 Bottom cover descriptions and part numbers
+Description Spare part number
+For use with computer models equipped with a graphics subsystem with discrete memory N43948-001
+For use with computer models equipped with a graphics subsystem with UMA memory N43969-001
+Before removing the bottom cover, prepare the computer for disassembly (see Preparation for 
+disassembly on page 30).
+Remove the bottom cover:
+1. Remove the two Torx5/2.0 × 3.2 screws (1) and three Torx5/2.0 × 8.2 screws (2) that secure the 
+bottom cover to the computer.
+2. Use a nonmarking, nonconductive tool (1) to separate the rear edge of the bottom cover (2) from the 
+computer.
+3. Remove the bottom cover (3) from the computer.
+To replace the bottom cover, reverse the removal procedure.
+Bottom cover
+31
+
+--- Page 39 ---
+Battery
+To remove the battery, use this procedure and illustration.
+Table 5-2 Battery description and part number
+Description Spare part number
+Battery (4 cell, 55 Wr, Li-ion) N55629-005
+WARNING! To avoid personal injury and damage to the product:
+● Do 
+not
+ puncture, twist, or crack the battery.
+● Do 
+not
+ cause an external puncture or rupture to the battery. They can cause a short inside the 
+battery, which can result in battery thermal runaway.
+● Do 
+not
+ handle or touch the battery enclosure with sharp objects such as tweezers or pliers, which 
+might puncture the battery.
+● Do 
+not
+ compress or squeeze the battery case with tools or heavy objects stacked on top of the 
+case. These actions can apply undue force on the battery.
+● Do 
+not
+ touch the connectors with any metallic surface or object, such as metal tools, screws, or 
+coins, which can cause shorting across the connectors.
+Before removing the battery, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+WARNING! To reduce potential safety issues, use only the user-replaceable battery provided with the 
+computer, a replacement battery provided by HP, or a compatible battery purchased from HP.
+IMPORTANT: Removing a battery that is the sole power source for the computer can cause loss of 
+information. To prevent loss of information, save your work or shut down the computer through 
+Windows before you remove the battery.
+Remove the battery:
+1. Remove the five Phillips M2.0 × 2.9 screws (1) that secure the battery to the computer.
+2. Swing the rear edge of the battery (2) up and forward until it rests at an angle.
+32
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 40 ---
+3. Remove the battery (3) by sliding it up and back at an angle.
+To insert the battery, reverse the removal procedure.
+Speakers
+To remove the speakers, use this procedure and illustration.
+Table 5-3
+Speakers description and part number
+Description Spare part number
+Speakers (include cables, left and right speakers, and 4 rubber isolators) N43966-001
+Before removing the speakers, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+Remove the speakers:
+1. Disconnect the speaker cable (1) from the system board.
+The speaker cable connectors may have plastic covers with adhesive to secure the connectors.
+2. Release the speaker cable from the retention clips (2) that are built into the computer.
+3. Release the speaker cable from the retention clips (3) that are built into the touchpad bracket.
+4. Remove the four Phillips M2.0 × 2.4 broad head screws (4) that secure the speakers to the computer.
+5. Remove the speakers (5) from the computer.
+When removing the speakers, make note of the location of the four rubber isolator locations (6). The 
+absence of or damage to these isolators can result in degraded speaker performance.
+Speakers
+33
+
+--- Page 41 ---
+To install the speakers, reverse the removal procedure.
+Touchpad cable
+To remove the touchpad cable, use this procedure and illustration.
+Table 5-4
+Touchpad cable description and part number
+Description Spare part number
+Touchpad cable (includes double-sided adhesive) N43959-001
+Before removing the touchpad cable, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+Remove the touchpad cable:
+1. Release the ZIF connector (1) the touchpad cable is connected to, and then disconnect the 
+touchpad cable from the system board.
+The touchpad cable ZIF connectors may have plastic covers with adhesive to secure the 
+connectors.
+2. Release the ZIF connector (2) the touchpad cable is connected to, and then disconnect the 
+touchpad cable from the touchpad.
+34
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 42 ---
+3. Detach the touchpad cable (3) from the computer. The touchpad cable is attached to the computer 
+with double-sided adhesive.
+4. Remove the touchpad cable.
+To install the touchpad cable, reverse the removal procedure.
+Touchpad
+To remove the touchpad, use this procedure and illustration.
+Table 5-5
+Touchpad description and part number
+Description Spare part number
+Touchpad
+NOTE: The touchpad spare part kit does not include the touchpad cable. The touchpad cable is 
+available using spare part number N43959-001.
+N43958-001
+Before removing the touchpad, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+4. Remove the touchpad cable (see Touchpad cable on page 34).
+Remove the touchpad:
+1. Release the speaker cable from the retention clips (1) that are built into the touchpad bracket.
+2. Remove the three Phillips M2.0 × 2.4 broad head screws (2) that secure the touchpad to the 
+computer.
+3. Remove the four Phillips M2.0 × 2.9 screws (3) that secure the touchpad and touchpad bracket to 
+the computer.
+Touchpad
+35
+
+--- Page 43 ---
+4. Remove the touchpad bracket (4).
+5. Remove the touchpad (5).
+To install the touchpad, reverse the removal procedure.
+Card reader cable
+To remove the card reader cable, use this procedure and illustration.
+Table 5-6
+Card reader cable description and part number
+Description Spare part number
+Card reader board cable N43957-001
+Before removing the card reader cable, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+Remove the card reader cable:
+1. Release the ZIF connector (1) the card reader cable is connected to, and then disconnect the card 
+reader cable from the system board.
+The card reader cable ZIF connectors may have plastic covers with adhesive to secure the 
+connectors.
+2. Release the ZIF connector (2) the card reader cable is connected to, and then disconnect the card 
+reader cable from the card reader.
+36
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 44 ---
+3. Detach the card reader cable (3) from the computer. The card reader board is attached to the 
+computer with doubles-sided adhesive.
+4. Remove the card reader cable.
+To install the card reader cable, reverse the removal procedure.
+Card reader
+To remove the card reader, use this procedure and illustration.
+Table 5-7
+Card reader description and part number
+Description Spare part number
+Card reader
+NOTE: The card reader spare part kit does not include the card reader cable. The card reader cable 
+is available using spare part number N43957-001.
+N43956-001
+Before removing the card reader, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+4. Remove the card reader cable (see Card reader cable on page 36).
+Remove the card reader:
+1. Remove the two Phillips M2.0 × 2.4 broad head screws (1) that secure the card reader to the 
+computer.
+Card reader
+37
+
+--- Page 45 ---
+2. Remove the card reader (2).
+To install the card reader, reverse the removal procedure.
+Memory modules
+To remove the memory modules, use this procedure and illustration.
+Table 5-8
+Memory module descriptions and part numbers
+Description Spare part number
+16 GB (SODIMM, DDR4-3200, 1.2 V) L67710-005
+8 GB (SODIMM, DDR4-3200, 1.2 V) L46598-005
+4 GB (SODIMM, DDR4-3200, 1.2 V) L83673-005
+Before removing the memory modules, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+If you are replacing a memory module, remove the existing memory module:
+38
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 46 ---
+1. Remove the graphite sheet that covers the memory module shield.
+2. Lift and remove the memory module shield from the system board.
+The memory module shield is not available as a spare part.
+When installing the memory module shield, be sure that the edges of the shield fit into all the clips 
+that are built into the system board.
+Memory modules
+39
+
+--- Page 47 ---
+3. Spread the two retention clips outward (1) until the memory module tilts up at a 45° angle, and then 
+remove the module (2). Use the same procedure to remove all memory modules.
+To install a memory module, reverse the removal procedure.
+NOTE: Memory modules are designed with a notch to prevent incorrect insertion.
+Solid-state drive
+To remove the solid-state drive, use this procedure and illustration.
+Table 5-9
+Solid-state drive descriptions and part numbers
+Description Spare part number
+1 TB, M.2 2280, PCIe, NVMe value solid-state drive L85370-005
+512 GB, M.2 2280, PCIe, NVMe value solid-state drive L85364-005
+Before removing the solid-state drive, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+Remove the solid-state drive:
+1. Remove the two Phillips M2.0 × 3.5 screws (1) that secure the solid-state drive shield to the system 
+board.
+2. Lift and remove the solid-state drive shield (2).
+The solid-state drive shield is not available as a spare part.
+40
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 48 ---
+When installing the solid-state drive shield, be sure that the edges of the shield fit into all the clips 
+that are built into the system board.
+3. Inspect the thermal pad on the surfaces of the solid-state drive and the solid-state drive shield 
+each time the shield is removed. If the thermal pad is torn, missing part of the pad, or dirty, 
+thoroughly clean the thermal pad from the surfaces of the solid-state drive and solid-state drive 
+shield. The solid-state drive thermal pad is available in the Miscellaneous Kit, spare part number 
+N43970-001. The following illustration shows the replacement thermal pad locations.
+A graphite sheet is installed on the solid-state drive bottom shield (1). This graphite sheet is not 
+available as a spare part. A thermal pad is used on the solid-state drive top shield (2).
+4. Lift the right edge of the solid-state drive (1) until it rests at an angle.
+Solid-state drive
+41
+
+--- Page 49 ---
+5. Pull the solid-state drive (2) away from the socket to remove it.
+To install the solid-state drive, reverse the removal procedure.
+NOTE: Solid-state drives are designed with a notch to prevent incorrect insertion.
+WLAN module
+To remove the WLAN module, use this procedure and illustration.
+Table 5-10
+WLAN module descriptions and part numbers
+Description Spare part number
+Intel AX211 Wi-Fi 6E + Bluetooth 5.3 M.2 2230 160 MHz CNVi (WW) WLAN module M53366-005
+Realtek 8852CE Wi-Fi 6E + Bluetooth 5.3 M.2 2230 PCI-e+USB worldwide WW WLAN module N19618-005
+IMPORTANT: To prevent an unresponsive system, replace the wireless module only with a wireless 
+module authorized for use in the computer by the governmental agency that regulates wireless 
+devices in your country or region. If you replace the module and then receive a warning message, 
+remove the module to restore device functionality, and then contact technical support.
+Before removing the WLAN module, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+Remove the WLAN module:
+42
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 50 ---
+1. Remove the larger graphite sheet that covers the WLAN module.
+2. Remove the smaller graphite sheet (1) that covers the WLAN module.
+3. Remove the WLAN antenna cover (2) that secures the WLAN antenna cables to the WLAN module.
+4. Carefully disconnect the WLAN antenna cables (3) from the WLAN module.
+NOTE: Computer models have either one or two WLAN antennas. On models with two antennas, 
+the #1 white WLAN antenna cable connects to the WLAN module #1 Main terminal. The #2 black 
+WLAN antenna cable connects to the WLAN module #1 Aux terminal.
+5. Remove the Phillips M2.0 × 3.6 screw (4) that secures the WLAN module to the system board.
+6. Lift the rear edge of the WLAN module (5) until it rests at an angle.
+7. Remove the WLAN module (6) by pulling it away from the socket at an angle.
+WLAN module
+43
+
+--- Page 51 ---
+8. If the WLAN antenna is not connected to the terminal on the WLAN module, install a protective 
+sleeve on the antenna connector, as shown in the following illustration.
+To install the WLAN module, reverse the removal procedure.
+NOTE: WLAN modules are designed with a notch to prevent incorrect insertion.
+Infrared sensor board cable
+To remove the infrared sensor board cable, use this procedure and illustration.
+Table 5-11
+Infrared sensor board cable description and part number
+Description Spare part number
+Infrared sensor board cable N43952-001
+Before removing the infrared sensor board cable, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+Remove the infrared sensor board cable:
+1. Release the ZIF connector (1) the infrared sensor board cable is connected to, and then disconnect 
+the infrared sensor board cable from the system board.
+The infrared sensor board cable ZIF connectors may have plastic covers with adhesive to secure 
+the connectors.
+2. Release the ZIF connector (2) the infrared sensor board cable cable is connected to, and then 
+disconnect the infrared sensor board cable from the infrared sensor board.
+44
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 52 ---
+3. Remove the infrared sensor board cable (3).
+To install the infrared sensor board cable, reverse the removal procedure.
+Infrared sensor board
+To remove the infrared sensor board, use this procedure and illustration.
+Table 5-12
+Infrared sensor board description and part number
+Description Spare part number
+Infrared sensor board
+NOTE: The infrared sensor board spare part kit does not include the infrared sensor board cable. 
+The infrared sensor board cable is available using spare part number N43952-001.
+N43951-001
+Before removing the infrared sensor board, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+4. Remove the infrared sensor board cable (see Infrared sensor board cable on page 44).
+Remove the infrared sensor board:
+1. Remove the Phillips M2.0 × 2.4 broad head screw (1) that secures the infrared sensor board to the 
+computer.
+Infrared sensor board
+45
+
+--- Page 53 ---
+2. Remove the infrared sensor board (2).
+3. Remove the infrared sensor board.
+To install the infrared sensor board, reverse the removal procedure.
+Fan
+To remove the fan, use this procedure and illustration.
+Table 5-13
+Fan descriptions and part numbers
+Description Spare part number
+For use with computer models equipped with a graphics subsystem with discrete memory N43961-001
+For use with computer models equipped with a graphics subsystem with UMA memory N43962-001
+Before removing the fan, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+Remove the fan:
+1. Release the display panel cable from the retention clips (1) that are built into the left fan.
+2. Disconnect the fan cables (2) from the system board.
+3. Remove the four Phillips M2.0 × 4.2 screws (3) that secure the fans to the computer.
+46
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 54 ---
+4. Remove the fans (4).
+To install the fan, reverse the removal procedure.
+Display assembly
+To remove and disassemble the display assembly, use these procedures and illustrations.
+Before removing the display assembly, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+Remove the display assembly:
+1. Release the zero insertion force (ZIF) connector (1) the webcam cable is connected to, and then 
+disconnect the webcam cable from the system board.
+2. Detach the WLAN antenna cover (2) from the WLAN module. The WLAN antenna cover is attached 
+to the WLAN module with double-sided adhesive.
+NOTE: The WLAN antenna cover is available using spare part number L98315-001.
+3. Carefully disconnect the WLAN module antenna cables (3) from the WLAN module.
+NOTE: Computer models have either one or two WLAN module antenna cables. On models with 
+two antenna cables, the #1 white WLAN module antenna cable connects to the WLAN module #1 
+Main terminal. The #2 black WLAN module antenna cable connects to the WLAN module #1 Aux 
+terminal.
+4. Release the webcam cable and the WLAN antenna cables from the retention clips (4) that are built 
+into the computer.
+5. Release the ZIF connector (5) the display panel cable is connected to, and then disconnect the 
+display panel cable from the system board.
+Display assembly
+47
+
+--- Page 55 ---
+6. Release the display panel cable from the retention clips (6) that are built into the computer and the 
+fan.
+7. Remove the six Phillips M2.5 × 5.7 screws that secure the display assembly to the computer.
+8. Swing the top edge of the display assembly (1) away from the computer until it is open to a 
+90-degree angle.
+9. Separate the display assembly (2) from the computer.
+48
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 56 ---
+10. Remove the display assembly (3) from the computer.
+11. To remove the display back cover or any of the internal display components, follow these steps.
+a. Remove the display assembly.
+b. Attach suction cups to the front and back sides of the display assembly, near the upper 
+middle sections. Avoid attaching the suction cup on the front of the display assembly on the 
+webcam.
+c. Use the suction cups to carefully separate the top edge of the display panel assembly from 
+the display back cover
+d. The display panel is secured to the display back cover with tape that is installed under the top 
+corners (1) of the display assembly. To remove the panel, use tweezers to grasp the end of the 
+tape. While turning the tweezers, wrap the tape around the tweezers (2) as you continue to pull 
+Display assembly
+49
+
+--- Page 57 ---
+the tape out (3) from behind the display panel. You must pull the tape multiple times before it is 
+completely removed.
+e. Swing the top edge of the display back cover (1) up and away from the display panel assembly.
+f. Remove the display back cover (2).
+The display back cover is available using spare part number N43947-001 and includes the left 
+and right wireless antenna cables and transceivers.
+12. To remove the hinges:
+a. Remove the display assembly.
+b. Remove the display back cover.
+50
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 58 ---
+c. Remove the six Phillips M2.5 × 3.0 screws (1) that secure the hinges to the display display back 
+cover.
+d. Remove the hinges (2).
+The hinges are available using spare part number N43965-001.
+13. To remove the WLAN antenna:
+a. Remove the display assembly.
+b. Remove the display back cover.
+c. Remove the hinges.
+d. Detach the WLAN antenna transceivers (1) from the display back cover. The WLAN antenna 
+transceivers are attached to the display back cover with double-sided adhesive.
+e. Release the WLAN antenna cables from the routing channels (2) that are built into the display 
+back cover.
+f. Remove the WLAN antennas (3).
+The WLAN antennas are available using spare part number N43946-001.
+Display assembly
+51
+
+--- Page 59 ---
+14. To remove the display panel cable:
+a. Remove the display assembly.
+b. Remove the display back cover.
+c. Release the adhesive support strip (1) that secures the display panel cable to the display panel 
+assembly.
+d. Release the retention bar (2) that secures the display panel cable to the display panel 
+assembly. 
+e. Disconnect the display panel cable (3) from the display panel assembly.
+f. Remove the display panel cable (4) from the display panel assembly.
+The display panel cable is available using spare part numbers N43954-001 (for use on 
+computer models equipped with a UHD display panel) and N43953-001 (for use on computer 
+models equipped with an FHD display panel).
+15. To remove the webcam and cable:
+52
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 60 ---
+a. Remove the display assembly.
+b. Remove the display back cover.
+c. Disconnect the webcam cable (1) from the low insertion force (LIF) connector on the touch 
+control board.
+d. Release the webcam cable from the retention clips (2) that are built into the display panel 
+assembly.
+e. Use a thin, non-conductive tool to separate the left and right sides of the webcam (3) from 
+the display panel assembly. The webcam is attached to the display panel assembly with 
+double-sided adhesive.
+Do not exert pressure on the middle of the webcam. The webcam has a narrow profile and is 
+easily damaged if pressure is exerted on the middle.
+f. Detach the webcam cable (4) from the display assembly. The webcam cable is attached to the 
+display assembly with double-sided adhesive.
+g. Release the ZIF connector the webcam cable is connected to, and then disconnect the 
+webcam cable from the webcam.
+The webcam is available using spare part number N43967-001. The webcam cable isis 
+available using spare part numbers N43960-001 (for use on computer models equipped with a 
+TS display panel) and N43955-001 (for use on computer models equipped with an nTS display 
+panel).
+Display assembly
+53
+
+--- Page 61 ---
+16. To remove the touch control board:
+a. Remove the display assembly.
+b. Remove the display back cover.
+c. Release the conductive tape that covers the top edge of the touch control board.
+d. Disconnect the webcam cable (1) from the LIF connector on the touch control board.
+e. Disconnect the display panel cables (2) from the LIF connectors on the touch control board.
+f. Detach the middle section of the touch control board (3) from the display panel assembly. The 
+touch control board is attached to the display panel assembly with double-sided adhesive.
+Do not exert pressure on the left and right edges of the touch control board. The touch control 
+board has a narrow profile and is easily damaged if pressure is exerted on the left and right 
+edges.
+The touch control board is available using spare part number N44601-001.
+To reassemble and replace the display assembly, reverse the removal procedure.
+System board
+To remove the system board, use these procedures and illustrations.
+Table 5-14
+System board descriptions and part numbers
+Description Spare part number
+The system board spare part kit includes an integrated processor and replacement thermal material.
+Equipped with an Intel i7-1355U processor, an NVIDIA GeForce RTX 3050 graphics controller with 4 GB 
+of discrete memory, and the Windows 11 operating system
+N42845-601
+Equipped with an Intel i7-13700H processor, a graphics subsystem with UMA memory, and the 
+Windows 11 operating system
+N42846-001
+Equipped with an Intel i5-13500H processor, a graphics subsystem with UMA memory, and the 
+Windows 11 operating system
+N42847-601
+System Board Repair Support Kit N54691-888
+54 Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 62 ---
+Before removing the system board, follow these steps:
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+4. Remove the fans (see Fan on page 46).
+When you replace the system board, be sure to remove the following components from the defective 
+system board and install them on the replacement system board:
+● Memory modules (see Memory modules on page 38).
+● Solid-state drive (see Solid-state drive on page 40).
+● WLAN module (see WLAN module on page 42).
+Remove the system board:
+1. Release the ZIF connector (1) the webcam cable is connected to, and then disconnect the webcam 
+cable from the system board.
+2. Detach the WLAN antenna cover (2) from the WLAN module. The WLAN antenna cover is attached 
+to the WLAN module with double-sided adhesive.
+NOTE: The WLAN antenna cover is available using spare part number L98315-001.
+3. Carefully disconnect the WLAN module antenna cables (3) from the WLAN module.
+NOTE: Computer models have either one or two WLAN module antenna cables. On models with 
+two antenna cables, the #1 white WLAN module antenna cable connects to the WLAN module #1 
+Main terminal. The #2 black WLAN module antenna cable connects to the WLAN module #1 Aux 
+terminal.
+4. Disconnect the following cables from the system board:
+● Infrared sensor board ZIF cable (4) (the infrared sensor board cable ZIF connectors may have 
+plastic covers with adhesive to secure the connectors)
+● Card reader ZIF cable (5) (the card reader cable ZIF connectors may have plastic covers with 
+adhesive to secure the connectors)
+● Speaker cable (6) (the speaker cables may have plastic covers with adhesive to secure the 
+connectors)
+● Display panel ZIF cable (7)
+● Backlight ZIF cable (8) (the backlight cable ZIF connectors may have plastic covers with 
+adhesive to secure the connectors)
+● Keyboard ZIF cable (9)
+● Touchpad ZIF cable (10) (the touchpad cable ZIF connectors may have plastic covers with 
+adhesive to secure the connectors)
+System board
+55
+
+--- Page 63 ---
+5. Remove the thirteen Phillips M2.0 × 3.3 screws (1) and the two Phillips M2.0 × 2.9 screws (2) that 
+secure the system board to the computer:
+6. Lift the left side of the system board (1) until it rests at an angle.
+56
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 64 ---
+7. Slide the system board (2) up and to the left at an angle to remove it.
+8. Remove the I/O bracket.
+The I/O bracket is available using spare part number N43950-001.
+To install the system board, reverse the removal procedure.
+Heat sink
+To remove the heat sink, use these procedures and illustrations.
+Table 5-15
+Heat sink descriptions and part numbers
+Description Spare part number
+Heat sink (includes captive screws and replacement thermal material):
+For use with system boards equipped with a graphics subsystem with discrete memory N43963-001
+For use with system boards equipped with a graphics subsystem with UMA memory N43964-001
+Before removing the heat sink, follow these steps:
+Heat sink
+57
+
+--- Page 65 ---
+1. Prepare the computer for disassembly (see Preparation for disassembly on page 30).
+2. Remove the bottom cover (see Bottom cover on page 30).
+3. Remove the battery (see Battery on page 32).
+4. Remove the fans (see Fan on page 46).
+5. Remove the system board (see System board on page 54).
+Remove the heat sink:
+1. Remove the graphite sheet that covers the heat sink.
+2. In the order indicated on the heat sink, loosen the seven Phillips captive screws (1) that secure the 
+heat sink to the system board.
+3. Remove the heat sink (2) from the system board.
+4. Thoroughly clean the thermal material from the surfaces of the heat sink and the system board 
+components each time the heat sink is removed. Replacement thermal material is included with 
+58
+Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 66 ---
+the heat sink and system board spare part kits. The following illustration shows the replacement 
+thermal material locations. 
+Thermal paste is used on the system board processor (1) and on the heat sink area (2) that services 
+it.
+To install the heat sink, reverse the removal procedure.
+Top cover with keyboard
+The top cover with keyboard remains after removing all other spare parts from the computer. In this 
+section, the first table provides the main spare part number for the top cover with keyboard. The second 
+table provides the country codes.
+Table 5-16
+Top cover with keyboard descriptions and part numbers
+Description Spare part number
+Top cover with keyboard in natural silver finish with touchpad in soft gray finish with backlight 
+(includes backlight cable and keyboard cable)
+N42851-xxx
+Table 5-17 Spare part country codes
+For use in country or 
+region
+Country 
+code
+For use in country or 
+region
+Country 
+code
+For use in country or 
+region
+Country 
+code
+Belgium -A41 Israel -BB1 Slovenia -BA1
+The Czech Republic and 
+Slovakia
+-FL1 Italy -061 Spain -071
+Denmark, Finland, and 
+Norway
+-DH1 The Netherlands -B31 Switzerland -BG1
+France -051 Portugal -131 Turkey -141
+French Canada -DB1 Romania -271 Ukraine -BD1
+Germany -041 Russia -251 United Kingdom -031
+Greece -151 Saudi Arabia -171 United States -001
+Top cover with keyboard 59
+
+--- Page 67 ---
+Table 5-17 Spare part country codes (continued)
+For use in country or 
+region
+Country 
+code
+For use in country or 
+region
+Country 
+code
+For use in country or 
+region
+Country 
+code
+Hungary -211
+60 Chapter 5  Removal and replacement procedures for authorized service provider parts
+
+--- Page 68 ---
+Computer Setup (BIOS), TPM, and HP Sure 
+Start
+6
+HP provides several tools to help set up and protect your computer.
+Using Computer Setup
+Computer Setup, or Basic Input/Output System (BIOS), controls communication between all the input 
+and output devices on the system (such as hard drives, display, keyboard, mouse, and printer). Computer 
+Setup includes settings for types of devices installed, the startup sequence of the computer, and 
+amount of system and extended memory.
+NOTE: Use extreme care when making changes in Computer Setup. Errors can prevent the computer 
+from operating properly.
+To start Computer Setup, turn on or restart the computer, and when the HP logo appears, press f10 to 
+enter Computer Setup.
+Navigating and selecting in Computer Setup
+You can navigate and select in Computer Setup using one or more methods.
+● To select a menu or a menu item, use the tab key and the keyboard arrow keys and then press enter, 
+or use a pointing device to select the item.
+● To scroll up and down, select the up arrow or the down arrow in the upper-right corner of the screen, 
+or use the up arrow key or the down arrow key on the keyboard.
+● To close open dialog boxes and return to the main Computer Setup screen, press esc, and then 
+follow the on-screen instructions.
+To exit Computer Setup, choose one of the following methods:
+● To exit Computer Setup menus without saving your changes, select Main, select Ignore Changes 
+and Exit, and then select Yes.
+NOTE: If you are using arrow keys to highlight your choice, you must then press enter.
+● To save your changes and exit Computer Setup menus, select Main, select Save Changes and Exit, 
+and then select Yes.
+NOTE: If you are using arrow keys to highlight your choice, you must then press enter.
+Computer Setup (BIOS), TPM, and HP Sure Start
+61
+
+--- Page 69 ---
+Your changes go into effect when the computer restarts.
+Restoring factory settings in Computer Setup
+To return all settings in Computer Setup to the values that were set at the factory, follow these steps.
+NOTE: Restoring defaults will not change the hard drive mode.
+1. Start Computer Setup. See Using Computer Setup on page 61.
+2. Select Main, select Apply Factory Defaults and Exit, and then select Yes.
+NOTE: If you are using arrow keys to highlight your choice, you must then press enter.
+NOTE: On select products, the selections might display Restore Defaults instead of Apply Factory 
+Defaults and Exit.
+Your changes go into effect when the computer restarts.
+NOTE: Your password settings and security settings are not changed when you restore the factory 
+settings.
+Updating the BIOS
+Updated versions of the BIOS might be available on the HP website. Most BIOS updates on the HP 
+website are packaged in compressed files called 
+SoftPaqs
+.
+Some download packages contain a file named Readme.txt, which contains information regarding 
+installing and troubleshooting the file.
+Determining the BIOS version
+To decide whether you need to update Computer Setup (BIOS), first determine the BIOS version on your 
+computer.
+If you are already in Windows, you can access BIOS version information (also known as 
+ROM date
+ and 
+System BIOS
+) by pressing fn+esc (select products only). Or you can use Computer Setup.
+1. Start Computer Setup. See Using Computer Setup on page 61.
+2. Select Main, and then select System Information.
+3. To exit Computer Setup menus without saving your changes, select Main, select Ignore Changes 
+and Exit, and then select Yes.
+NOTE: If you are using arrow keys to highlight your choice, you must then press enter.
+To check for later BIOS versions, see Preparing for a BIOS update on page 62.
+Preparing for a BIOS update
+Be sure to follow all prerequisites before downloading and installing a BIOS update.
+IMPORTANT: To reduce the risk of damage to the computer or an unsuccessful installation, download 
+and install a BIOS update only when the computer is connected to reliable external power using the AC 
+adapter. Do not download or install a BIOS update while the computer is running on battery power, 
+docked in an optional docking device, or connected to an optional power source. During the download 
+and installation, follow these instructions:
+62
+Chapter 6  Computer Setup (BIOS), TPM, and HP Sure Start
+
+--- Page 70 ---
+Do not disconnect power on the computer by unplugging the power cord from the AC outlet.
+Do not shut down the computer or initiate Sleep.
+Do not insert, remove, connect, or disconnect any device, cable, or cord.
+Downloading a BIOS update
+After you review the prerequisites, you can check for and download BIOS updates.
+1. Select the Search icon in the taskbar, type support in the search box, and then select the HP 
+Support Assistant app.
+– or –
+Select the question mark icon (select products only) in the taskbar.
+2. Select Updates, and then select Check for updates and messages.
+3. Follow the on-screen instructions.
+4. At the download area, follow these steps:
+a. Identify the most recent BIOS update and compare it to the BIOS version currently installed 
+on your computer. Make a note of the date, name, or other identifier. You might need this 
+information to locate the update later, after it has been downloaded to your hard drive.
+b. Follow the on-screen instructions to download your selection to the hard drive.
+Make a note of the path to the location on your hard drive where the BIOS update is 
+downloaded. You will need to access this path when you are ready to install the update.
+NOTE: If you connect your computer to a network, consult the network administrator before 
+installing any software updates, especially system BIOS updates.
+Installing a BIOS update
+BIOS installation procedures vary. Follow any instructions that are displayed on the screen after the 
+download is complete. If no instructions are displayed, follow these steps.
+1. Select the Search icon in the taskbar, type file in the search box, and then select File Explorer.
+2. Select your hard drive designation. The hard drive designation is typically Local Disk (C:).
+3. Using the hard drive path you recorded earlier, open the folder that contains the update.
+4. Double-click the file that has an .exe extension (for example, 
+filename
+.exe).
+The BIOS installation begins.
+5. Complete the installation by following the on-screen instructions.
+NOTE: After a message on the screen reports a successful installation, you can delete the 
+downloaded file from your hard drive.
+Changing the boot order using the f9 prompt
+To dynamically choose a boot device for the current startup sequence, follow these steps.
+Downloading a BIOS update
+63
+
+--- Page 71 ---
+1. Access the Boot Device Options menu:
+● Turn on or restart the computer, and when the HP logo appears, press f9 to enter the Boot 
+Device Options menu.
+2. Select a boot device, press enter, and then follow the on-screen instructions.
+TPM BIOS settings (select products only)
+TPM provides additional security for your computer. You can modify the TPM settings in Computer Setup 
+(BIOS).
+IMPORTANT: Before enabling Trusted Platform Module (TPM) functionality on this system, you must 
+ensure that your intended use of TPM complies with relevant local laws, regulations and policies, and 
+approvals or licenses must be obtained if applicable. For any compliance issues arising from your 
+operation or usage of TPM that violates the previously mentioned requirement, you shall bear all the 
+liabilities wholly and solely. HP will not be responsible for any related liabilities.
+NOTE: If you change the TPM setting to Hidden, TPM is not visible in the operating system.
+To access TPM settings in Computer Setup:
+1. Start Computer Setup. See Using Computer Setup on page 61.
+2. Select Security, select TPM Embedded Security, and then follow the on-screen instructions.
+Using HP Sure Start (select products only)
+Select computer models are configured with HP Sure Start, a technology that monitors the computer's 
+BIOS for attacks or corruption. If the BIOS becomes corrupted or is attacked, HP Sure Start 
+automatically restores the BIOS to its previously safe state, without user intervention.
+HP Sure Start is configured and already enabled so that most users can use the HP Sure Start default 
+configuration. Advanced users can customize the default configuration.
+To access the latest documentation on HP Sure Start, go to http://www.hp.com/support. Select Find your 
+product, and then follow the on-screen instructions.
+64
+Chapter 6  Computer Setup (BIOS), TPM, and HP Sure Start
+
+--- Page 72 ---
+Backing up, restoring, and recovering7
+You can use Windows tools or HP software to back up your information, create a restore point, reset 
+your computer, create recovery media, or restore your computer to its factory state. Performing these 
+standard procedures can return your computer to a working state faster.
+IMPORTANT: If you are performing recovery procedures on a tablet, the tablet battery must be at 
+least 70% charged before you start the recovery process.
+IMPORTANT: For a tablet with a detachable keyboard, connect the tablet to the keyboard base before 
+beginning any recovery process.
+Backing up information and creating recovery media
+These methods of creating recovery media and backups are available on select products only.
+Using Windows tools for backing up
+HP recommends that you back up your information immediately after initial setup. You can do this task 
+either using Windows Backup locally with an external USB flash drive or using online tools.
+NOTE: If computer storage is 32 GB or less, Microsoft® System Restore is disabled by default.
+Using the HP Cloud Recovery Download Tool to create recovery media (select 
+products only)
+You can use the HP Cloud Recovery Download Tool to create HP Recovery media on a bootable USB 
+flash drive.
+For details:
+■
+Go to http://www.hp.com, search for HP Cloud Recovery, and then select the result that matches the 
+type of computer that you have.
+NOTE: If you cannot create recovery media yourself, contact support to obtain recovery discs. Go to 
+http://www.hp.com/support, select your country or region, and then follow the on-screen instructions.
+IMPORTANT: HP recommends that you follow the Restoring and recovery methods on page 66 to 
+restore your computer before you obtain and use the HP recovery discs. Using a recent backup can 
+return your machine to a working state sooner than using the HP recovery discs. After the system is 
+restored, reinstalling all the operating system software released since your initial purchase can be a 
+lengthy process.
+Backing up, restoring, and recovering
+65
+
+--- Page 73 ---
+Restoring and recovering your system
+You have several tools available to recover your system both within and outside of Windows if the 
+desktop cannot load.
+HP recommends that you attempt to restore your system using the Restoring and recovery methods on 
+page 66.
+Creating a system restore
+System Restore is available in Windows. The System Restore software can automatically or manually 
+create restore points, or snapshots, of the system files and settings on the computer at a particular 
+point.
+When you use System Restore, it returns your computer to its state at the time you made the restore 
+point. Your personal files and documents should not be affected.
+Restoring and recovery methods
+After you run the first method, test to see whether the issue still exists before you proceed to the next 
+method, which might now be unnecessary.
+1. Run a Microsoft System Restore.
+2. Run Reset this PC.
+NOTE: The options Remove everything and then Fully clean the drive can take several hours to 
+complete and leave no information on your computer. It is the safest way to reset your computer 
+before you recycle it.
+3. Recover using HP Recovery media. For more information, see Recovering using HP Recovery media 
+on page 66. 
+For more information about the first two methods, see the Get Help app:
+■
+Select the Start button, select All apps, select the Get Help app, and then enter the task you want to 
+perform.
+NOTE: You must be connected to the internet to access the Get Help app.
+Recovering using HP Recovery media
+You can use HP Recovery media to recover the operating system and drivers that were installed at the 
+factory. On select products, you can create recovery media on a bootable USB flash drive using the HP 
+Cloud Recovery Download Tool.
+For details, see Using the HP Cloud Recovery Download Tool to create recovery media (select products 
+only) on page 65.
+NOTE: If you cannot create recovery media yourself, contact support to obtain recovery discs. Go to 
+http://www.hp.com/support, select your country or region, and then follow the on-screen instructions.
+To recover your system:
+■
+Insert the HP Recovery media, and then restart the computer.
+66
+Chapter 7  Backing up, restoring, and recovering
+
+--- Page 74 ---
+NOTE: HP recommends that you follow the Restoring and recovery methods on page 66 to restore 
+your computer before you obtain and use the HP recovery discs. Using a recent backup can return your 
+machine to a working state sooner than using the HP recovery discs. After the system is restored, 
+reinstalling all the operating system software released since your initial purchase can be a lengthy 
+process.
+Changing the computer boot order
+If your computer does not restart using the HP Recovery media, you can change the computer boot 
+order, which is the order of devices listed in BIOS for startup information. You can select an optical drive 
+or a USB flash drive, depending on the location of your HP Recovery media.
+IMPORTANT: For a tablet with a detachable keyboard, connect the tablet to the keyboard base before 
+beginning these steps.
+To change the boot order:
+1. Insert the HP Recovery media.
+2. Access the system Startup menu.
+● For computers or tablets with keyboards attached, turn on or restart the computer or tablet, 
+quickly press esc, and then press f9 for boot options.
+● For tablets without keyboards, turn on or restart the tablet, quickly press and hold the volume 
+up button, and then select f9.
+‒ or –
+Turn on or restart the tablet, quickly press and hold the volume down button, and then select f9.
+3. Select the optical drive or USB flash drive from which you want to boot, and then follow the 
+on-screen instructions.
+Using HP Sure Recover (select products only)
+Select computer models are configured with HP Sure Recover, a PC operating system (OS) recovery 
+solution built into the hardware and software. HP Sure Recover can fully restore the HP OS image 
+without installed recovery software.
+Using HP Sure Recover, an administrator or user can restore the system and install:
+● Latest version of the operating system
+● Platform-specific device drivers
+● Software applications, in the case of a custom image
+To access the latest documentation for HP Sure Recover, go to http://www.hp.com/support. Follow the 
+on-screen instructions to find your product and locate your documentation.
+Changing the computer boot order
+67
+
+--- Page 75 ---
+Using HP PC Hardware Diagnostics8
+You can use the HP PC Hardware Diagnostics utility to determine whether your computer hardware 
+is running properly. The three versions are HP PC Hardware Diagnostics Windows, HP PC Hardware 
+Diagnostics UEFI (Unified Extensible Firmware Interface), and (for select products only) Remote HP PC 
+Hardware Diagnostics UEFI, a firmware feature.
+Using HP PC Hardware Diagnostics Windows (select products 
+only)
+HP PC Hardware Diagnostics Windows is a Windows-based utility that allows you to run diagnostic tests 
+to determine whether the computer hardware is functioning properly. The tool runs within the Windows 
+operating system to diagnose hardware failures.
+If HP PC Hardware Diagnostics Windows is not installed on your computer, you must download and 
+install it. To download HP PC Hardware Diagnostics Windows, see Downloading HP PC Hardware 
+Diagnostics Windows on page 69.
+Using an HP PC Hardware Diagnostics Windows hardware failure ID code
+When HP PC Hardware Diagnostics Windows detects a failure that requires hardware replacement, a 
+24-digit failure ID code is generated for select component tests. For interactive tests, such as keyboard, 
+mouse, or audio and video palette, you must perform troubleshooting steps before you can receive a 
+failure ID.
+■
+You have several options after you receive a failure ID:
+● Select Next to open the Event Automation Service (EAS) page, where you can log the case.
+● Scan the QR code with your mobile device, which takes you to the EAS page, where you can log 
+the case.
+● Select the box next to the 24-digit failure ID to copy your failure code and send it to support.
+Accessing HP PC Hardware Diagnostics Windows
+After HP PC Hardware Diagnostics Windows is installed, you can access it from HP Support Assistant or 
+the Start menu.
+Accessing HP PC Hardware Diagnostics Windows from HP Support Assistant
+After HP PC Hardware Diagnostics Windows is installed, follow these steps to access it from HP Support 
+Assistant:
+68
+Chapter 8  Using HP PC Hardware Diagnostics
+
+--- Page 76 ---
+1. Complete one of the following tasks:
+● Select the Search icon in the taskbar, type support in the search box, and then select the HP 
+Support Assistant app.
+● Select the question mark icon in the taskbar.
+2. Select Fixes & Diagnostics.
+3. Select Run hardware diagnostics, and then select Launch.
+4. When the tool opens, select the type of diagnostic test that you want to run, and then follow the 
+on-screen instructions.
+NOTE: To stop a diagnostic test, select Cancel.
+Accessing HP PC Hardware Diagnostics Windows from the Start menu (select products only)
+After HP PC Hardware Diagnostics Windows is installed, follow these steps to access it from the Start 
+menu:
+1. Select the Start button, and then select All apps.
+2. Select HP PC Hardware Diagnostics Windows.
+3. When the tool opens, select the type of diagnostic test that you want to run, and then follow the 
+on-screen instructions.
+NOTE: To stop a diagnostic test, select Cancel.
+Downloading HP PC Hardware Diagnostics Windows
+The HP PC Hardware Diagnostics Windows downloading instructions are provided in English only. You 
+must use a Windows computer to download this tool because only .exe files are provided.
+Downloading the latest HP PC Hardware Diagnostics Windows version from HP
+To download HP PC Hardware Diagnostics Windows from HP, follow these steps:
+1. Go to http://www.hp.com/go/techcenter/pcdiags. The HP PC Diagnostics home page is displayed.
+2. Select Download HP Diagnostics Windows, and then select the specific Windows diagnostics 
+version to download to your computer or a USB flash drive.
+The tool downloads to the selected location.
+Downloading the HP PC Hardware Diagnostics Windows from the Microsoft Store
+You can download the HP PC Hardware Diagnostics Windows from the Microsoft Store:
+1. Select the Microsoft Store app on your desktop or select the Search icon in the taskbar, and then 
+type Microsoft Store in the search box.
+2. Type HP PC Hardware Diagnostics Windows in the Microsoft Store search box.
+3. Follow the on-screen directions.
+The tool downloads to the selected location.
+Accessing HP PC Hardware Diagnostics Windows from the Start menu (select products only)
+69
+
+--- Page 77 ---
+Downloading HP Hardware Diagnostics Windows by product name or number (select products 
+only)
+You can download HP PC Hardware Diagnostics Windows by product name or number.
+NOTE: For some products, you might have to download the software to a USB flash drive by using the 
+product name or number.
+1. Go to http://www.hp.com/support.
+2. Select Software and Drivers, select your type of product, and then enter the product name or 
+number in the search box that is displayed.
+3. In the Diagnostics section, select Download, and then follow the on-screen instructions to select 
+the specific Windows diagnostics version to be downloaded to your computer or USB flash drive.
+The tool downloads to the selected location.
+Installing HP PC Hardware Diagnostics Windows
+To install HP PC Hardware Diagnostics Windows, navigate to the folder on your computer or the USB 
+flash drive where the .exe file downloaded, double-click the .exe file, and then follow the on-screen 
+instructions.
+Using HP PC Hardware Diagnostics UEFI
+HP PC Hardware Diagnostics Unified Extensible Firmware Interface (UEFI) allows you to run diagnostic 
+tests to determine whether the computer hardware is functioning properly. The tool runs outside the 
+operating system so that it can isolate hardware failures from issues that are caused by the operating 
+system or other software components.
+NOTE: For some products, you must use a Windows computer and a USB flash drive to download and 
+create the HP UEFI support environment because only .exe files are provided. For more information, 
+see Downloading HP PC Hardware Diagnostics UEFI to a USB flash drive on page 71.
+If your PC does not start in Windows, you can use HP PC Hardware Diagnostics UEFI to diagnose 
+hardware issues.
+Using an HP PC Hardware Diagnostics UEFI hardware failure ID code
+When HP PC Hardware Diagnostics UEFI detects a failure that requires hardware replacement, a 24-digit 
+failure ID code is generated.
+For assistance in solving the problem, complete one of these tasks:
+● Select Contact HP, accept the HP privacy disclaimer, and then use a mobile device to scan the 
+failure ID code that appears on the next screen. The HP Customer Support - Service Center 
+page appears with your failure ID and product number automatically filled in. Follow the on-screen 
+instructions.
+● Contact support, and provide the failure ID code.
+Starting HP PC Hardware Diagnostics UEFI
+To start HP PC Hardware Diagnostics UEFI, follow this procedure.
+70
+Chapter 8  Using HP PC Hardware Diagnostics
+
+--- Page 78 ---
+1. Turn on or restart the computer, and quickly press esc.
+2. Press f2.
+The BIOS searches three places for the diagnostic tools, in the following order:
+a. Connected USB flash drive
+NOTE: To download the HP PC Hardware Diagnostics UEFI tool to a USB flash drive, see 
+Downloading the latest HP PC Hardware Diagnostics UEFI version on page 72.
+b. Hard drive
+c. BIOS
+3. When the diagnostic tool opens, select the type of diagnostic test that you want to run, and then 
+follow the on-screen instructions.
+Starting HP PC Hardware Diagnostics UEFI through HP Hotkey Support software 
+(select products only)
+This section describes how to start HP PC Hardware Diagnostics UEFI through HP Hotkey Support 
+software.
+NOTE: You must disable fast boot to access HP PC Hardware Diagnostics UEFI from the HP System 
+Information application. To disable fast boot:
+1. Turn on or restart the computer, and when the HP logo appears, press f10 to enter Computer Setup.
+2. Select Advanced, and then select Boot Options.
+3. Clear Fast Boot.
+4. Select Save Changes and Exit, and then select Yes.
+1. From the Start menu, open the HP System Information Application or enter fn+esc.
+2. In HP System Information screen, select Run System Diagnostics, select Yes to run the application, 
+and then select Restart. 
+IMPORTANT: To prevent loss of data, save your work in all open apps before restarting your computer.
+NOTE: When the restart is complete, the computer will boot to HP PC Hardware Diagnostics UEFI 
+Application. Proceed with the troubleshooting tests.
+Downloading HP PC Hardware Diagnostics UEFI to a USB flash drive
+Downloading HP PC Hardware Diagnostics UEFI to a USB flash drive can be useful in some situations.
+● HP PC Hardware Diagnostics UEFI is not included in the preinstallation image.
+● HP PC Hardware Diagnostics UEFI is not included in the HP Tool partition.
+● The hard drive is damaged.
+NOTE: The HP PC Hardware Diagnostics UEFI downloading instructions are provided in English only, 
+and you must use a Windows computer to download and create the HP UEFI support environment 
+because only .exe files are provided.
+Starting HP PC Hardware Diagnostics UEFI through HP Hotkey Support software (select products only)
+71
+
+--- Page 79 ---
+Downloading the latest HP PC Hardware Diagnostics UEFI version
+To download the latest HP PC Hardware Diagnostics UEFI version to a USB flash drive, follow this 
+procedure:
+1. Go to http://www.hp.com/go/techcenter/pcdiags. The HP PC Diagnostics home page is displayed.
+2. Select Download HP Diagnostics UEFI, and then select Run.
+Downloading HP PC Hardware Diagnostics UEFI by product name or number (select products 
+only)
+You can download HP PC Hardware Diagnostics UEFI by product name or number (select products only) 
+to a USB flash drive.
+NOTE: For some products, you might have to download the software to a USB flash drive by using the 
+product name or number.
+1. Go to http://www.hp.com/support.
+2. Enter the product name or number, select your computer, and then select your operating system.
+3. In the Diagnostics section, follow the on-screen instructions to select and download the specific 
+UEFI Diagnostics version for your computer.
+Using Remote HP PC Hardware Diagnostics UEFI settings 
+(select products only)
+Remote HP PC Hardware Diagnostics UEFI is a firmware (BIOS) feature that downloads HP PC Hardware 
+Diagnostics UEFI to your computer. It can then run the diagnostics on your computer, and it might upload 
+results to a preconfigured server.
+For more information about Remote HP PC Hardware Diagnostics UEFI, go to 
+http://www.hp.com/go/techcenter/pcdiags, and then select Find out more.
+Downloading Remote HP PC Hardware Diagnostics UEFI
+Remote HP PC Hardware Diagnostics UEFI is also available as a SoftPaq that you can download to a 
+server.
+Downloading the latest Remote HP PC Hardware Diagnostics UEFI version
+You can download the latest Remote HP PC Hardware Diagnostics UEFI version to a USB flash drive.
+1. Go to http://www.hp.com/go/techcenter/pcdiags. The HP PC Diagnostics home page is displayed.
+2. Select Download Remote Diagnostics, and then select Run.
+Downloading Remote HP PC Hardware Diagnostics UEFI by product name or number
+You can download Remote HP PC Hardware Diagnostics UEFI by product name or number.
+NOTE: For some products, you might have to download the software by using the product name or 
+number.
+1. Go to http://www.hp.com/support.
+72
+Chapter 8  Using HP PC Hardware Diagnostics
+
+--- Page 80 ---
+2. Select Software and Drivers, select your type of product, enter the product name or number in the 
+search box that is displayed, select your computer, and then select your operating system.
+3. In the Diagnostics section, follow the on-screen instructions to select and download the Remote 
+UEFI version for the product.
+Customizing Remote HP PC Hardware Diagnostics UEFI settings
+Using the Remote HP PC Hardware Diagnostics setting in Computer Setup (BIOS), you can perform 
+several customizations.
+● Set a schedule for running diagnostics unattended. You can also start diagnostics immediately in 
+interactive mode by selecting Execute Remote HP PC Hardware Diagnostics UEFI.
+● Set the location for downloading the diagnostic tools. This feature provides access to the tools 
+from the HP website or from a server that has been preconfigured for use. Your computer does 
+not require the traditional local storage (such as a hard drive or USB flash drive) to run remote 
+diagnostics.
+● Set a location for storing the test results. You can also set the user name and password that you use 
+for uploads.
+● Display status information about the diagnostics runs previously.
+To customize Remote HP PC Hardware Diagnostics UEFI settings, follow these steps:
+1. Turn on or restart the computer, and when the HP logo appears, press f10 to enter Computer Setup.
+2. Select Advanced, and then select Settings.
+3. Make your customization selections.
+4. Select Exit, then select Save Changes and Exit to save your settings.
+Your changes take effect when the computer restarts.
+Customizing Remote HP PC Hardware Diagnostics UEFI settings
+73
+
+--- Page 81 ---
+Specifications9
+This chapter provides specifications for your computer system.
+Computer specifications
+This section provides specifications for your computer. When you travel with your computer, the 
+computer dimensions and weights, as well as input power ratings and operating specifications, provide 
+helpful information.
+Table 9-1
+Computer specifications
+Metric U.S.
+Dimensions
+Width 39.6 cm 15.6 in
+Depth 25.9 cm 10.2 in
+Height (front to back) 1.9 cm 0.8 in
+Weight 2497 g 5.5 lbs
+Input power
+Operating voltage and current 19.5 V DC @ 2.31 A – 45 W
+19.5 V DC @ 3.33 A – 65 W
+19.5 V DC @ 4.62 A – 90 W
+19.5 V DC @ 7.70 A – 150 W
+19.5 V DC @ 10.3 A – 200 W
+Temperature
+Operating 5°C to 35°C 41°F to 95°F
+Nonoperating –20°C to 60°C –4°F to 140°F
+Relative humidity (noncondensing)
+Operating 10% to 90%
+Nonoperating 5% to 95%
+Maximum altitude (unpressurized)
+Operating –15 m to 3,048 m –50 ft to 10,000 ft
+Nonoperating –15 m to 12,192 m –50 ft to 40,000 ft
+74 Chapter 9  Specifications
+
+--- Page 82 ---
+Table 9-1 Computer specifications (continued)
+Metric U.S.
+NOTE: Applicable product safety standards specify thermal limits for plastic surfaces. The device operates well within this 
+range of temperatures.
+Display specifications
+This section provides specifications for your display.
+Table 9-2 Display specifications
+Metric U.S.
+Active diagonal size 40.6 cm 16.0 in
+Resolution 1920 × 1200
+Surface treatment Antiglare
+Brightness 1000 nits
+400 nits
+250 nits
+Viewing angle UWVA
+Backlight WLED + LBL
+Display panel interface eDP 1.2 + PSR
+Solid-state drive specifications
+This section provides specifications for your solid-state drives.
+Table 9-3
+Solid-state drive specifications
+256 GB* 512 GB* 1 TB*
+Dimensions
+Height 1.0 mm 1.0 mm 1.0 mm
+Length 50.8 mm 50.8 mm 50.8 mm
+Width 28.9 mm 28.9 mm 28.9 mm
+Weight < 10 g < 10 g < 10 g
+Interface type PCIe PCIe PCIe
+Ready time, maximum (to not busy) 1.0 ms < 1.0 ms 1.0 ms
+Access times, logical 0.1 ms 0.1 ms 0.1 ms
+Transfer rate
+Sequential read up to 2150 MBps up to 2150 MBps up to 2150 MBps
+Random read Up to 300,000 IOPs Up to 300,000 IOPs Up to 300,000 IOPs
+Sequential write up to 1550 MBps up to 1550 MBps up to 1550 MBps
+Display specifications 75
+
+--- Page 83 ---
+Table 9-3 Solid-state drive specifications (continued)
+256 GB* 512 GB* 1 TB*
+Random write Up to 100,000 IOPs Up to 100,000 IOPs Up to 100,000 IOPs
+Total logical sectors 468,883,296 1,000,215,216 1,500,336,388
+Operating temperature 0°C to 70°C (32°F to 158°F)
+*1 GB = 1 billion bytes when referring to hard drive storage capacity. Actual accessible capacity is less. Actual drive 
+specifications can differ slightly.
+NOTE: Certain restrictions and exclusions apply. Contact support for details.
+76 Chapter 9  Specifications
+
+--- Page 84 ---
+Statement of memory volatility10
+For general information regarding nonvolatile memory in HP business computers, and to restore 
+nonvolatile memory that can contain personal data after the system has been turned off and the hard 
+drive has been removed, use these instructions.
+HP business computer products that use Intel®-based or AMD®-based system boards contain volatile 
+DDR memory. The amount of nonvolatile memory present in the system depends upon the system 
+configuration. Intel-based and AMD-based system boards contain nonvolatile memory subcomponents 
+as originally shipped from HP, with the following assumptions:
+● No subsequent modifications were made to the system.
+● No applications, features, or functionality were added to or installed on the system.
+Following system shutdown and removal of all power sources from an HP business computer system, 
+personal data can remain on volatile system memory (DIMMs) for a finite period of time and also 
+remains in nonvolatile memory. Use the following steps to remove personal data from the computer, 
+including the nonvolatile memory found in Intel-based and AMD-based system boards.
+NOTE: If your tablet has a keyboard base, connect to the keyboard base before beginning steps in this 
+chapter.
+Current BIOS steps
+Use these instructions to restore nonvolatile memory.
+1. Follow these steps to restore the nonvolatile memory that can contain personal data. Restoring 
+or reprogramming nonvolatile memory that does not store personal data is neither necessary nor 
+recommended.
+a. Turn on or restart the computer, and then quickly press esc.
+NOTE: If the system has a BIOS administrator password, type the password at the prompt.
+b. Select Main, select Apply Factory Defaults and Exit, and then select Yes to load defaults. The 
+computer restarts.
+c. During the restart, press esc while the "Press the ESC key for Startup Menu" message is 
+displayed at the bottom of the screen.
+NOTE: If the system has a BIOS administrator password, type the password at the prompt.
+Statement of memory volatility
+77
+
+--- Page 85 ---
+d. Select the Security menu, select Restore Security Settings to Factory Defaults, and then 
+select Yes to restore security level defaults. The computer restarts.
+e. During the restart, press esc while the "Press the ESC key for Startup Menu" message is 
+displayed at the bottom of the screen.
+NOTE: If the system has a BIOS administrator password, type the password at the prompt.
+f. If an asset or ownership tag is set, select the Security menu and scroll down to the Utilities 
+menu. Select System IDs, and then select Asset Tracking Number. Clear the tag, and then 
+make the selection to return to the prior menu.
+g. If a DriveLock password is set, select the Security menu, and scroll down to Hard Drive Utilities 
+under the Utilities menu. Select Hard Drive Utilities, select DriveLock, and then clear the check 
+box for DriveLock password on restart. Select OK to proceed.
+h. Select the Main menu, and then select Reset BIOS Security to factory default. Select Yes at 
+the warning message. The computer restarts.
+i. During the restart, press esc while the "Press the ESC key for Startup Menu" message is 
+displayed at the bottom of the screen.
+NOTE: If the system has a BIOS administrator password, type the password at the prompt.
+j. Select the Main menu, select Apply Factory Defaults and Exit, select Yes to save changes and 
+exit, and then select Shutdown.
+k. Restart the system. If the system has a Trusted Platform Module (TPM), fingerprint reader, or 
+both, one or two prompts will appear—one to clear the TPM and the other to Reset Fingerprint 
+Sensor. Press or tap f1 to accept or f2 to reject.
+l. Remove all power and system batteries for at least 24 hours.
+2. Complete one of the following:
+● Remove and retain the storage drive.
+– or –
+● Clear the drive contents by using a third-party utility designed to erase data from an SSD.
+– or –
+● Clear the contents of the drive by using the following BIOS Setup Secure Erase command 
+option steps:
+NOTE: If you clear data using Secure Erase, you cannot recover it.
+a. Turn on or restart the computer, and then quickly press esc.
+b. Select the Security menu and scroll down to the esc menu.
+c. Select Hard Drive Utilities.
+d. Under Utilities, select Secure Erase, select the hard drive storing the data you want to clear, 
+and then follow the on-screen instructions to continue.
+– or –
+78
+Chapter 10  Statement of memory volatility
+
+--- Page 86 ---
+Clear the contents of the drive using the following Disk Sanitizer commands steps:
+i. Turn on or restart the computer, and then quickly press esc.
+ii. Select the Security menu and scroll down to the Utilities menu.
+iii. Select Hard Drive Utilities.
+iv. Under Utilities, select Disk Sanitizer, select the hard drive with the data that you want to 
+clear, and then follow the on-screen instructions to continue.
+NOTE: The amount of time it takes for Disk Sanitizer to run can take several hours. Plug the 
+computer into an AC outlet before starting.
+Nonvolatile memory usage
+Use this table to troubleshoot nonvolatile memory usage.
+Table 10-1
+Troubleshooting steps for nonvolatile memory usage
+Description Volatility description Storage user data How to erase
+Primary storage device, holds the 
+OS, applications, and application 
+settings
+Non-volatile, 8-256 GB of 
+eMMC or NVMe SSD storage, 
+removable
+Yes
+1
+Follow instructions below 
+under “Erase the Primary 
+Storage Device”
+System memory (RAM), holds 
+transient data during system 
+operation
+Volatile, SODIMM socket. 
+Removable (4 GB/8 GB/16 GB)
+Yes Unplug unit from power
+Permanent system BIOS settings Non-volatile; 16 KB; stored
+No
+2
+Follow instructions below 
+under “Clearing BIOS 
+Settings”
+System boot ROM (BIOS) Non-volatile memory, 128 Mbit 
+(16 MB) socketed, removable
+No Download the latest BIOS 
+for your model from the 
+HP website and follow the 
+instructions to flash the BIOS 
+that are on the website
+RTC (CMOS) RAM Volatile memory, 256 bytes 
+located in AMD embedded 
+System on Chip (SoC)
+No Unplug unit from main power, 
+remove top cover and press 
+Clear CMOS button
+Keyboard/mouse (ROM) Non-volatile, 2 KB embedded in 
+the super I/O controller (SIO2)
+Yes N/A
+Keyboard/mouse (RAM) Volatile, 256 bytes embedded in 
+the super I/O controller (SIO2)
+No Unplug unit from main power
+LOM EEPROM Non-volatile, 2 MB embedded in 
+LAN controller
+No N/A
+Trusted Platform Module (TPM) Non-volatile; 51 KB ROM for 
+firmware and 38 KB system 
+parametric data
+No
+3
+Follow instructions below 
+under “Clearing TPM”
+1
+ Under typical operation, the only user data stored on the primary storage device are preferences for device configuration and 
+settings for connections. However, the administrator can configure the system to allow users to store data locally.
+2
+ Only user data potentially stored in BIOS Settings are the ownership and asset tags, administrator password, and startup 
+password.
+3
+ The Trusted Platform Module may contain encrypted passwords or certificates generated from user or administrator input.
+Nonvolatile memory usage 79
+
+--- Page 87 ---
+Questions and answers
+Use this section to answer your questions about nonvolatile memory.
+1. How can the BIOS settings be restored (returned to factory settings)?
+IMPORTANT: The restore defaults feature does not securely erase any information on your hard 
+drive. See question and answer 6 for steps to securely erase information.
+The restore defaults feature does not reset the Custom Secure Boot keys. See question and 
+answer 7 for information about resetting the keys.
+a. Turn on or restart the computer, and then quickly press esc.
+b. Select Main, and then select Apply Factory Defaults and Exit.
+c. Follow the on-screen instructions.
+d. Select Main, select Save Changes and Exit, and then follow the on-screen instructions.
+2. What is a UEFI BIOS, and how is it different from a legacy BIOS?
+The Unified Extensible Firmware Interface (UEFI) BIOS is an industry-standard software interface 
+between the platform firmware and an operating system (OS). It replaces the older BIOS 
+architecture but supports much of the legacy BIOS functionality.
+Like the legacy BIOS, the UEFI BIOS provides an interface to display the system information and 
+configuration settings and to change the configuration of your computer before an OS is loaded. 
+BIOS provides a secure runtime environment that supports a Graphic User Interface (GUI). In this 
+environment, you can use either a pointing device (touch screen, touchpad, pointing stick, or USB 
+mouse) or the keyboard to navigate and make menu and configuration selections. The UEFI BIOS 
+also contains basic system diagnostics.
+The UEFI BIOS provides functionality beyond that of the legacy BIOS. In addition, the UEFI BIOS 
+works to initialize the computer’s hardware before loading and executing the OS; the runtime 
+environment allows the loading and execution of software programs from storage devices to 
+provide more functionality, such as advanced hardware diagnostics (with the ability to display more 
+detailed system information) and advanced firmware management and recovery software.
+HP has provided options in Computer Setup (BIOS) to allow you to run in legacy BIOS, if required by 
+the operating system. Examples of this requirement would be if you upgrade or downgrade the OS.
+3. Where is the UEFI BIOS located?
+The UEFI BIOS is located on a flash memory chip. You must use a utility to write to the chip.
+4. What kind of configuration data is stored on the DIMM Serial Presence Detect (SPD) memory 
+module? How would this data be written?
+The DIMM SPD memory contains information about the memory module, such as size, serial 
+number, data width, speed and timing, voltage, and thermal information. This information is written 
+by the module manufacturer and stored on an EEPROM. You cannot write to this EEPROM when the 
+memory module is installed in a computer. Third-party tools do exist that can write to the EEPROM 
+when the memory module is not installed in a computer. Various third-party tools are available to 
+read SPD memory.
+5. What is meant by “Restore the nonvolatile memory found in Intel-based system boards”?
+80
+Chapter 10  Statement of memory volatility
+
+--- Page 88 ---
+This message relates to clearing the Real Time Clock (RTC) CMOS memory that contains computer 
+configuration data.
+6. How can the BIOS security be reset to factory defaults and erase the data?
+IMPORTANT: Resetting results in the loss of information.
+These steps do not reset Custom Secure Boot Keys. See question and answer 7 for information 
+about resetting the keys.
+a. Turn on or restart the computer, and then quickly press esc.
+b. Select Main, and then select Reset Security to Factory Defaults.
+c. Follow the on-screen instructions.
+d. Select Main, select Save Changes and Exit, and then follow the on-screen instructions.
+7. How can the Custom Secure Boot Keys be reset?
+Secure Boot is a feature to ensure that only authenticated code can start on a platform. If you 
+enabled Secure Boot and created Custom Secure Boot Keys, disabling Secure Boot does not clear 
+the keys. You must also select to clear the Custom Secure Boot Keys. Use the same Secure Boot 
+access procedure that you used to create the Custom Secure Boot Keys, but select to clear or 
+delete all Secure Boot Keys.
+a. Turn on or restart the computer, and then quickly press esc.
+b. Select the Security menu, select Secure Boot Configuration, and then follow the on-screen 
+instructions.
+c. At the Secure Boot Configuration window, select Secure Boot, select Clear Secure Boot Keys, 
+and then follow the on-screen instructions to continue.
+Using HP Sure Start (select products only)
+Select computer models are configured with HP Sure Start, a technology that continuously monitors 
+your computer's BIOS for attacks or corruption.
+If the BIOS becomes corrupted or is attacked, HP Sure Start restores the BIOS to its previously safe 
+state, without user intervention. Those select computer models ship with HP Sure Start configured and 
+enabled. HP Sure Start is configured and already enabled so that most users can use the HP Sure Start 
+default configuration. Advanced users can customize the default configuration.
+To access the latest documentation on HP Sure Start, go to http://www.hp.com/support.
+Using HP Sure Start (select products only)
+81
+
+--- Page 89 ---
+Power cord set requirements11
+This chapter provides power cord requirements for countries and regions.
+The wide-range input feature of the computer permits it to operate from any line voltage from 100 V AC 
+to 120 V AC, or from 220 V AC to 240 V AC.
+The three-conductor power cord set included with the computer meets the requirements for use in the 
+country or region where the equipment is purchased.
+Power cord sets for use in other countries or regions must meet the requirements of the country and 
+region where the computer is used.
+Requirements for all countries
+These power cord requirements are applicable to all countries and regions.
+● The length of the power cord set must be at least 1.0 m (3.3 ft) and no more than 2.0 m (6.5 ft).
+● All power cord sets must be approved by an acceptable accredited agency responsible for 
+evaluation in the country or region where the power cord set will be used.
+● The power cord sets must have a minimum current capacity of 10 A and a nominal voltage rating of 
+125 V AC or 250 V AC, as required by the power system of each country or region.
+● The appliance coupler must meet the mechanical configuration of an EN 60 320/IEC 320 Standard 
+Sheet C13 connector for mating with the appliance inlet on the back of the computer.
+Requirements for specific countries and regions
+To determine power cord requirements for specific countries and regions, use this table.
+Table 11-1
+Power cord requirements for specific countries and regions
+Country/region Accredited agency Applicable note number
+Argentina IRAM 1
+Australia SAA 1
+Austria OVE 1
+Belgium CEBEC 1
+Brazil ABNT 1
+Canada CSA 2
+82 Chapter 11  Power cord set requirements
+
+--- Page 90 ---
+Table 11-1 Power cord requirements for specific countries and regions (continued)
+Country/region Accredited agency Applicable note number
+Chile IMQ 1
+Denmark DEMKO 1
+Finland FIMKO 1
+France UTE 1
+Germany VDE 1
+India BIS 1
+Israel SII 1
+Italy IMQ 1
+Japan JIS 3
+Netherlands KEMA 1
+New Zealand SANZ 1
+Norway NEMKO 1
+People's Republic of China CCC 4
+Saudi Arabia SASO 7
+Singapore PSB 1
+South Africa SABS 1
+South Korea KTL 5
+Sweden SEMKO 1
+Switzerland SEV 1
+Taiwan BSMI 6
+Thailand TISI 1
+United Kingdom ASTA 1
+United States UL 2
+Requirements for specific countries and regions 83
+
+--- Page 91 ---
+Table 11-1 Power cord requirements for specific countries and regions (continued)
+Country/region Accredited agency Applicable note number
+1. The flexible cord must be Type HO5VV-F, three-conductor, 0.75 mm² conductor size. Power cord set fittings (appliance 
+coupler and wall plug) must bear the certification mark of the agency responsible for evaluation in the country or region 
+where it will be used.
+2. The flexible cord must be Type SVT/SJT or equivalent, No. 18 AWG, three-conductor. The wall plug must be a two-pole 
+grounding type with a NEMA 5-15P (15 A, 125 V AC) or NEMA 6-15P (15 A, 250 V AC) configuration. CSA or C-UL mark. UL file 
+number must be on each element.
+3. The appliance coupler, flexible cord, and wall plug must bear a T mark and registration number in accordance with the 
+Japanese Dentori Law. The flexible cord must be Type VCTF, three-conductor, 0.75 mm² or 1.25 mm² conductor size. The wall 
+plug must be a two-pole grounding type with a Japanese Industrial Standard C8303 (7 A, 125 V AC) configuration.
+4. The flexible cord must be Type RVV, three-conductor, 0.75 mm² conductor size. Power cord set fittings (appliance coupler 
+and wall plug) must bear the CCC certification mark.
+5. The flexible cord must be Type H05VV-F three-conductor, 0.75 mm² conductor size. KTL logo and individual approval number 
+must be on each element. Approval number and logo must be printed on a flag label.
+6. The flexible cord must be Type HVCTF three-conductor, 1.25 mm² conductor size. Power cord set fittings (appliance coupler, 
+cable, and wall plug) must bear the BSMI certification mark.
+7. For 127 V AC, the flexible cord must be Type SVT or SJT 3-conductor, 18 AWG, with plug NEMA 5-15P (15 A, 125 V AC), with 
+UL and CSA or C-UL marks. For 240 V AC, the flexible cord must be Type H05VV-F three-conductor, 0.75 mm² or 1.00 mm² 
+conductor size, with plug BS 1363/A with BSI or ASTA marks.
+84
+Chapter 11  Power cord set requirements
+
+--- Page 92 ---
+Recycling12
+When a nonrechargeable or rechargeable battery has reached the end of its useful life, do not dispose 
+of the battery in general household waste. Follow the local laws and regulations in your area for battery 
+disposal.
+HP encourages customers to recycle used electronic hardware, HP original print cartridges, 
+and rechargeable batteries. For more information about recycling programs, see the HP website at 
+http://www.hp.com/recycle.
+Recycling
+85
+
+--- Page 93 ---
+Index
+A
+AC adapter
+product description 2
+spare part number 20
+AC adapter and battery light, 
+identifying 5
+action key, identifying 11
+adapter, spare part numbers 20
+antenna
+illustrated 20
+removal 51
+spare part number 51
+spare part numbers 20
+audio-out (headphone)/audio-in 
+(microphone) combo jack, 
+identifying 6
+audio, product description 2
+B
+backup, creating 65
+backups 65
+battery
+illustrated 18
+removal 32
+spare part number 18, 32
+BIOS
+determining version 62
+downloading an update 62, 63
+updating 62
+boot order
+changing using the f9 
+prompt 63
+boot order, changing 67
+bottom components 12
+bottom cover
+illustrated 18
+removal 30
+spare part numbers 18, 30
+buttons
+left touchpad 9
+power 11
+right touchpad 9
+C
+camera
+identifying 7
+camera light, identifying 7
+camera privacy cover, 
+identifying 7
+caps lock light 10
+card reader
+illustrated 18
+removal 37
+spare part number 18, 37
+card reader cable
+illustrated 18
+removal 36
+spare part number 18, 36
+card reader, product 
+description 2
+caring for your computer 25
+cautions
+electrostatic discharge 21, 22
+chipset, product description 1
+cleaning your computer 25
+caring for wood veneer 27
+disinfecting 26
+HP Easy Clean 25
+removing dirt and debris 25
+components
+bottom 12
+display 6, 7
+keyboard area 8
+left side 5
+lights 9
+right side 4
+Computer Setup
+navigating and selecting 61
+restoring factory settings 62
+starting 61
+computer specifications 74
+connectors
+power 5
+D
+display
+specifications 74, 75
+Display Adhesive Kit, spare part 
+number 19
+display assembly
+removal 47
+subcomponents 18
+display back cover
+illustrated 20
+removal 49
+spare part number 20, 50
+display components 6, 7
+display panel
+product description 1
+display panel assembly
+illustrated 19
+spare part numbers 19
+display panel cable
+illustrated 19
+removal 52
+spare part numbers 19, 52
+E
+electrostatic discharge (ESD) 21, 
+22
+preventing damage 21-23
+esc key, identifying 11
+F
+fan
+illustrated 17
+removal 46
+spare part numbers 17, 46
+fn key, identifying 11
+G
+graphics controller, product 
+description 1
+grounding methods 21-23
+86
+Index
+
+--- Page 94 ---
+guidelines
+packaging 21, 27
+transporting 21, 27
+workstation 21
+H
+hard drive
+specifications 74
+hardware, locating 4
+HDMI port
+identifying 5
+heat sink
+illustrated 17
+removal 57
+spare part numbers 17, 57
+hinge
+illustrated 20
+removal 50
+spare part number 20, 51
+HP PC Hardware Diagnostics UEFI
+downloading 71
+failure ID code 70
+HP Hotkey Support 
+software 71
+starting 70, 71
+using 70
+HP PC Hardware Diagnostics 
+Windows
+accessing 68, 69
+downloading 69
+failure ID code 68
+installing 70
+using 68
+HP Recovery media
+recovery 66
+HP Sure Recover 67
+HP Sure Start 77, 81
+hub, spare part numbers 20
+I
+I/O bracket
+illustrated 17
+removal 57
+spare part number 17, 57
+illustrated parts catalog 15
+infrared sensor board
+illustrated 17
+spare part number 17
+infrared sensor board cable
+illustrated 17
+removal 44
+spare part number 17, 44
+integrated numeric keypad, 
+identifying 12
+internal microphones, 
+identifying 7
+J
+jacks
+audio-out (headphone)/audio-in 
+(microphone) 6
+K
+keyboard
+product description 2
+keypad, integrated numeric 12
+keys
+action 11
+esc 11
+fn 11
+num lock 11
+Windows 11
+L
+labels
+contents 12
+locations 12
+left side components 5
+lights
+AC adapter and battery 5
+camera 7
+caps lock 10
+microphone mute 10
+mute 10
+power 10
+low blue light mode 6
+M
+memory
+nonvolatile 77
+volatile 77
+memory module
+illustrated 18
+product description 1
+removal 38
+spare part numbers 18, 38
+memory module shield
+illustrated 18
+microphone
+product description 2
+microphone mute light, 
+identifying 10
+model name 1
+mute light, identifying 10
+N
+Near Field Communications (NFC) 
+tapping area and antenna, 
+identifying 9
+nonvolatile memory 77
+num lock key, identifying 11
+O
+operating system, product 
+description 3
+optical drive, spare part 
+number 20
+P
+packaging guidelines 21, 27
+pointing device, product 
+description 2
+ports
+HDMI 5
+USB SuperSpeed 6
+USB SuperSpeed with HP Sleep 
+and Charge 5
+USB Type-C power connector 
+and Thunderbolt port with 
+HP Sleep and Charge and 
+DisplayPort output 5
+ports, product description 2
+power button, identifying 11
+power connector
+identifying 5
+power cord
+requirements for all 
+countries 82
+requirements for specific 
+countries and regions 82
+set requirements 82
+spare part numbers 20
+power light, identifying 10
+power requirements, product 
+description 2
+processor
+product description 1
+product description
+audio 2
+card reader 2
+chipset 1
+display panel 1
+graphics controller 1
+keyboard 2
+memory module 1
+microphone 2
+operating system 3
+pointing device 2
+Index
+87
+
+--- Page 95 ---
+ports 2
+power requirements 2
+processors 1
+product name 1
+security 3
+sensors 3
+serviceability 3
+storage 1
+video 2
+wireless 2
+product name 1
+R
+recovery 65, 66
+discs 66
+media 66
+USB flash drive 66
+recovery media 65
+creating using HP Cloud 
+Recovery Download 
+Tool 65
+creating using Windows 
+tools 65
+Remote HP PC Hardware 
+Diagnostics UEFI settings
+customizing 73
+using 72
+removal and replacement
+procedures 30
+removing personal data from 
+volatile system memory 77
+restoring 65
+restoring and recovery 
+methods 66
+right side components 4
+S
+Screw Kit, spare part number 20
+security, product description 3
+sensors, product description 3
+serviceability, product 
+description 3
+setup utility
+navigating and selecting 61
+restoring factory settings 62
+slots
+memory card reader 6
+microSD memory card 
+reader 6
+software, locating 4
+solid-state drive
+illustrated 18
+removal 40
+spare part numbers 18, 40
+specifications 75
+solid-state drive shield
+illustrated 18
+solid-state drive thermal pads, 
+spare part number 18
+spare part country codes 59
+speaker
+removal 33
+spare part number 33
+speakers 12
+illustrated 18
+spare part number 18
+special keys
+identifying 10
+using 10
+specifications
+computer 74
+display 74, 75
+hard drive 74
+solid-state drive 75
+static electricity 21, 22
+storage
+product description 1
+support information 28
+Sure Start
+using 64
+system board
+illustrated 17
+removal 54
+spare part numbers 17, 54
+System Board Repair Support Kit, 
+spare part number 17
+System Board Shield Kit, spare 
+part number 17
+system memory, removing 
+personal data from volatile 77
+system restore 66
+system restore point, creating 65
+T
+top cover with keyboard
+illustrated 16
+spare part numbers 16, 59
+touch control board
+illustrated 19
+removal 54
+spare part number 19, 54
+touchpad
+illustrated 18
+removal 35
+settings 8
+spare part number 18, 35
+touchpad buttons
+identifying 9
+touchpad cable
+illustrated 18
+removal 34
+spare part number 18, 34
+touchpad settings, adjusting 8
+touchpad zone, identifying 9
+TPM settings 64
+transporting guidelines 21, 27
+U
+USB SuperSpeed port with HP 
+Sleep and Charge, 
+identifying 5
+USB SuperSpeed port, 
+identifying 6
+USB Type-C power connector and 
+Thunderbolt port with HP Sleep 
+and Charge and DisplayPort 
+output, identifying 5
+V
+vents, identifying 12
+video, product description 2
+W
+wake-on-voice 7
+webcam
+removal 52
+webcam cable
+spare part numbers 53
+webcam module
+illustrated 19
+spare part number 19
+webcam module cable
+illustrated 19
+spare part numbers 19
+Windows
+backup 65
+recovery media 65
+system restore point 65
+Windows key, identifying 11
+Windows tools, using 65
+wireless antenna
+illustrated 20
+removal 51
+spare part number 51
+spare part numbers 20
+wireless antennas, identifying 7
+wireless, product description 2
+WLAN antenna
+illustrated 20
+spare part number 51
+spare part numbers 20
+88
+Index
+
+--- Page 96 ---
+WLAN antenna cover
+removal 47, 55
+spare part number 47, 55
+WLAN antennas, identifying 7
+WLAN module
+illustrated 17
+removal 42
+spare part numbers 17, 42
+WLAN module antenna
+removal 51
+WLAN module cover, spare part 
+number 18
+workstation guidelines 21
+Index
+89
+

@@ -1,0 +1,1186 @@
+--- Page 1 ---
+More info:
+E20683
+First Edition / January 2023
+
+--- Page 2 ---
+2
+Notebook PC E-Manual
+COPYRIGHT INFORMATION
+No part of this manual, including the products and software described in it, may be reproduced, 
+transmitted, transcribed, stored in a retrieval system, or translated into any language in any form or by 
+any means, except documentation kept by the purchaser for backup purposes, without the express 
+written permission of ASUSTeK COMPUTER INC. (“ASUS”).
+ASUS PROVIDES THIS MANUAL “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY OR 
+FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL ASUS, ITS DIRECTORS, OFFICERS, EMPLOYEES 
+OR AGENTS BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES 
+(INCLUDING DAMAGES FOR LOSS OF PROFITS, LOSS OF BUSINESS, LOSS OF USE OR DATA, INTERRUPTION 
+OF BUSINESS AND THE LIKE), EVEN IF ASUS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES 
+ARISING FROM ANY DEFECT OR ERROR IN THIS MANUAL OR PRODUCT.
+Products and corporate names appearing in this manual may or may not be registered trademarks or 
+copyrights of their respective companies, and are used only for identication or explanation and to the 
+owners’ benet, without intent to infringe.
+SPECIFICATIONS AND INFORMATION CONTAINED IN THIS MANUAL ARE FURNISHED FOR INFORMATIONAL 
+USE ONLY, AND ARE SUBJECT TO CHANGE AT ANY TIME WITHOUT NOTICE, AND SHOULD NOT BE 
+CONSTRUED AS A COMMITMENT BY ASUS. ASUS ASSUMES NO RESPONSIBILITY OR LIABILITY FOR ANY 
+ERRORS OR INACCURACIES THAT MAY APPEAR IN THIS MANUAL, INCLUDING THE PRODUCTS AND 
+SOFTWARE DESCRIBED IN IT.
+Copyright © 2023 ASUSTeK COMPUTER INC. All Rights Reserved.
+LIMITATION OF LIABILITY
+Circumstances may arise where because of a default on ASUS’ part or other liability, you are entitled to 
+recover damages from ASUS. In each such instance, regardless of the basis on which you are entitled to 
+claim damages from ASUS, ASUS is liable for no more than damages for bodily injury (including death) 
+and damage to real property and tangible personal property; or any other actual and direct damages 
+resulted from omission or failure of performing legal duties under this Warranty Statement, up to the 
+listed contract price of each product.
+ASUS will only be responsible for or indemnify you for loss, damages or claims based in contract, tort or 
+infringement under this Warranty Statement.
+This limit also applies to ASUS’ suppliers and its reseller. It is the maximum for which ASUS, its suppliers, 
+and your reseller are collectively responsible.
+UNDER NO CIRCUMSTANCES IS ASUS LIABLE FOR ANY OF THE FOLLOWING: (1) THIRD-PARTY CLAIMS 
+AGAINST YOU FOR DAMAGES; (2) LOSS OF, OR DAMAGE TO, YOUR RECORDS OR DATA; OR (3) SPECIAL, 
+INCIDENTAL, OR INDIRECT DAMAGES OR FOR ANY ECONOMIC CONSEQUENTIAL DAMAGES (INCLUDING 
+LOST PROFITS OR SAVINGS), EVEN IF ASUS, ITS SUPPLIERS OR YOUR RESELLER IS INFORMED OF THEIR 
+POSSIBILITY.
+SERVICE AND SUPPORT
+Visit our multi-language website at https://www.asus.com/support/.
+MyASUS oers a variety of support features including troubleshooting, products performance 
+optimization, ASUS software integration, and helps you to organize personal desktop and increase 
+storage space. For more details, please visit https://www.asus.com/support/FAQ/1038301/.
+
+--- Page 3 ---
+Notebook PC E-Manual
+3
+Table of Contents
+About this manual ..................................................................................................... 7
+Conventions used in this manual ............................................................................. 8
+Icons .................................................................................................................................... 8
+Typography .......................................................................................................................8
+Safety precautions .....................................................................................................9
+Using your Notebook PC ..............................................................................................9
+Caring for your Notebook PC .....................................................................................10
+Proper disposal ................................................................................................................11
+Battery safety information...........................................................................................12
+Chapter 1: Hardware Setup
+Getting to know your Notebook PC ...................................................................16
+Front View ..........................................................................................................................16
+Bottom View ..................................................................................................................... 22
+Right View..........................................................................................................................24
+Left View.............................................................................................................................25
+Chapter 2: Using your Notebook PC
+Getting started ...........................................................................................................30
+Charge your Notebook PC ...........................................................................................30
+Lift to open the display panel .................................................................................... 33
+Press the power button ................................................................................................ 33
+Using the touchpad ..................................................................................................34
+Using the keyboard ................................................................................................... 41
+Function keys ................................................................................................................... 41
+Hot Keys ............................................................................................................................. 43
+Windows keys ..................................................................................................................43
+Using the numeric keypad .......................................................................................... 44
+
+--- Page 4 ---
+4
+Notebook PC E-Manual
+Chapter 3: Working with Windows
+Starting for the rst time .........................................................................................46
+Start menu ...................................................................................................................47
+Windows apps ............................................................................................................49
+Working with Windows apps ......................................................................................50
+Customizing Windows apps ....................................................................................... 50
+Task view ....................................................................................................................... 52
+Widgets .........................................................................................................................53
+Snap feature ................................................................................................................55
+Snap hotspots .................................................................................................................. 55
+Action Center ..............................................................................................................57
+GameVisual Eyecare ..................................................................................................59
+Setting the OLED display ........................................................................................61
+Setting the Dark Mode ................................................................................................. 61
+Turning o the display when not in use................................................................. 63
+Adjusting display brightness ......................................................................................65
+Auto-hide the taskbar ................................................................................................... 67
+Setting the Dark Mode in Microsoft Oce............................................................ 69
+Other keyboard shortcuts ......................................................................................70
+Connecting to wireless networks ........................................................................72
+Wi-Fi ..................................................................................................................................... 72
+Bluetooth ...........................................................................................................................73
+Airplane mode ................................................................................................................. 74
+Connecting to wired networks .............................................................................75
+Turning your Notebook PC o ..............................................................................77
+Putting your Notebook PC to sleep ....................................................................78
+
+--- Page 5 ---
+Notebook PC E-Manual
+5
+Chapter 4: Power-On Self-Test (POST)
+The Power-On Self-Test (POST) ............................................................................. 80
+Using POST to access BIOS and Troubleshoot......................................................80
+BIOS ................................................................................................................................80
+Accessing BIOS ................................................................................................................80
+Recovering your system ..........................................................................................81
+Performing a recovery option .................................................................................... 82
+Tips and FAQs
+Useful tips for your Notebook PC ........................................................................86
+Hardware FAQs ...........................................................................................................88
+Software FAQs ............................................................................................................. 91
+Appendices
+Federal Communications Commission Interference Statement ................... 94
+FCC RF Exposure Information.....................................................................................95
+FCC RF Caution Statement .......................................................................................... 95
+FCC Wi-Fi 6E Caution Statement ............................................................................... 95
+ISED Wi-Fi 6E Caution Statement (RLAN devices) ...............................................95
+Radio Frequency (RF) Exposure Information ........................................................96
+Informations concernant l'exposition aux fréquences radio (RF) ................. 96
+Caution ............................................................................................................................... 96
+Avertissement ..................................................................................................................96
+Compliance Statement of Innovation, Science and Economic 
+Development Canada (ISED) ...................................................................................... 97
+Déclaration de conformité de Innovation, Sciences et Développement 
+économique Canada (ISED) ........................................................................................97
+Radiation Exposure Statement .................................................................................. 98
+Déclaration d’exposition aux radiations ................................................................. 98
+UL Safety Notices ............................................................................................................99
+Power Safety Requirement ..........................................................................................100
+TV Notices .........................................................................................................................100
+
+--- Page 6 ---
+6
+Notebook PC E-Manual
+Macrovision Corporation Product Notice .............................................................. 100
+Prevention of Hearing Loss ......................................................................................... 100
+Nordic Lithium Cautions (for lithium-ion batteries) ........................................... 101
+Declaration of Compliance for Product Environmental Regulation............. 102
+EU REACH and Article 33 .............................................................................................. 102
+EU RoHS..............................................................................................................................102
+Japan JIS-C-0950 Material Declarations ................................................................. 102
+India RoHS ......................................................................................................................... 102
+Coating Notice .................................................................................................................103
+ASUS Recycling/Takeback Services .......................................................................... 103
+Rechargeable Battery Recycling Service in North America............................. 103
+Vietnam RoHS .................................................................................................................. 103
+Regional notice for Singapore ...................................................................................103
+Ecodesign Directive ....................................................................................................... 104
+EPEAT Registered Products ......................................................................................... 104
+Notices for removable batteries ................................................................................104
+Avis concernant les batteries remplaçables..........................................................104
+Wi-Fi Network Notice ....................................................................................................104
+Simplied EU Declaration of Conformity ...............................................................105
+Simplied UKCA Declaration of Conformity ......................................................... 105
+
+--- Page 7 ---
+Notebook PC E-Manual
+7
+About this manual
+This manual provides information about the hardware and software 
+features of your Notebook PC, organized through the following 
+chapters:
+Chapter 1: Hardware Setup
+This chapter details the hardware components of your Notebook 
+PC.
+Chapter 2: Using your Notebook PC
+This chapter shows you how to use the dierent parts of your 
+Notebook PC.
+Chapter 3: Working with Windows
+This chapter provides an overview of using Windows in your 
+Notebook PC.
+Chapter 4: Power-On Self-Test (POST)
+This chapter shows you how to use POST to change the settings 
+of your Notebook PC.
+Tips and FAQs
+This section presents some recommended tips, hardware FAQs, 
+and software FAQs you can refer to for maintaining and xing 
+common issues with your Notebook PC. 
+Appendices
+This section includes notices and safety statements for your 
+Notebook PC.
+
+--- Page 8 ---
+8
+Notebook PC E-Manual
+Conventions used in this manual
+To highlight key information in this manual, some text are presented as 
+follows:
+IMPORTANT! This message contains vital information that must be 
+followed to complete a task.
+NOTE: This message contains additional information and tips that can 
+help complete tasks.
+WARNING! This message contains important information that must be 
+followed to keep you safe while performing tasks and prevent damage to 
+your Notebook PC’s data and components.
+Typography
+Bold = This indicates a menu or an item that must be selected.
+Italic = This indicates sections that you can refer to in this manual.
+= Use the touchpad.
+= Use the keyboard.
+Icons
+The icons below indicate the devices you can use for completing a 
+series of tasks or procedures on your Notebook PC.
+
+--- Page 9 ---
+Notebook PC E-Manual
+9
+Safety precautions
+Using your Notebook PC
+This Notebook PC should only be used in 
+environments with ambient temperatures between 
+5°C (41°F) and 35°C (95°F).
+Refer to the rating label on the bottom of your 
+Notebook PC and ensure that your power adapter 
+complies with this rating.
+Your Notebook PC can get warm to hot while in use 
+or while charging the battery pack. Do not leave 
+your Notebook PC on your lap or near any part 
+of your body to prevent injury from heat. When 
+working on your Notebook PC, do not place it on 
+surfaces that can block the vents.
+Do not use damaged power cords, accessories, and 
+other peripherals with your Notebook PC.
+While powered on, ensure that you do not carry or 
+cover your Notebook PC with any materials that can 
+reduce air circulation.
+Do not place your Notebook PC on uneven or 
+unstable work surfaces.
+You can send your Notebook PC through x-ray 
+machines (used on items placed on conveyor belts), 
+but do not expose them to magnetic detectors and 
+wands.
+Contact your airline provider to learn about related 
+in-ight services that can be used and restrictions 
+that must be followed when using your Notebook 
+PC in-ight.
+
+--- Page 10 ---
+10
+Notebook PC E-Manual
+Caring for your Notebook PC
+Disconnect the AC power and remove the battery 
+pack (if applicable) before cleaning your Notebook 
+PC. Use a clean cellulose sponge or chamois cloth 
+dampened with warm water or a solution with low 
+concentration of nonabrasive detergent. Remove 
+any extra moisture from your Notebook PC using 
+a dry cloth. Keep any liquids from entering the 
+chassis or keyboard gap to prevent short circuit or 
+corrosion.
+Do not use strong solvents such as alcohol, thinners, 
+benzene, or other chemicals on or near your 
+Notebook PC.
+Do not place objects on top of your Notebook PC.
+Do not expose your Notebook PC to strong 
+magnetic or electrical elds.
+Do not use or expose your Notebook PC near 
+liquids, rain, or moisture.
+Do not expose your Notebook PC to dusty 
+environments.
+
+--- Page 11 ---
+Notebook PC E-Manual
+11
+Proper disposal
+Do not throw your Notebook PC in municipal waste. 
+This product has been designed to enable proper 
+reuse of parts and recycling. The symbol of the 
+crossed out wheeled bin indicates that the product 
+(electrical, electronic equipment and mercury-
+containing button cell battery) should not be 
+placed in municipal waste. Check local regulations 
+for disposal of electronic products.
+Do not throw the battery in municipal waste. The 
+symbol of the crossed out wheeled bin indicates 
+that the battery should not be placed in municipal 
+waste.
+Do not use your Notebook PC near gas leaks.
+Do not place active electronic devices close to 
+your Notebook PC to avoid electromagnetic wave 
+interference to the display panel.
+Do not use this Notebook PC for cryptocurrency 
+mining (consuming a vast amount of electricity and 
+time to gain convertible virtual currency) and/or 
+related activities.
+
+--- Page 12 ---
+12
+Notebook PC E-Manual
+Battery protection
+•  Frequently charging a battery under high voltage may shorten 
+the battery life. To protect the battery, once the battery is fully 
+charged, the system may stop charging when the battery power 
+is between 90% and 100%.
+NOTE: The level at which the battery resumes charging is usually set 
+between 90% and 99%. The actual value may vary by model.
+•  Charging or storing a battery in high ambient temperatures may 
+result in permanent damage to the battery power capacity and 
+rapidly shorten battery life. If the battery temperature is too high, 
+the system may reduce the battery power charging capacity or 
+even stop charging to protect the battery.
+•  Battery power capacity may drop even when your device is 
+powered o and disconnected from the AC power. This is normal 
+as the system still draws a small amount of power from the 
+battery.
+Battery safety information
+
+--- Page 13 ---
+Notebook PC E-Manual
+13
+Standard battery care
+•  If you are not using your device for a long period of time, ensure 
+to charge the battery power to 50% then power o your device 
+and disconnect the AC power adapter. Recharge the battery 
+power to 50% every three months to avoid over-discharging and 
+prevent damage to the battery.
+•  Avoid charging the battery at high voltage for a prolonged period 
+of time to extend the battery life. If you are constantly using AC 
+power for your device, ensure to discharge the battery power 
+to 50% at least once every two weeks. You can also adjust the 
+settings from Battery Health Charging in MyASUS to help extend 
+the battery life.
+•  It is recommended to store your battery at temperatures between 
+5°C (41°F) and 35°C (95°F) with the battery power at 50%. You can 
+also adjust the settings from Battery Health Charging in MyASUS 
+to help extend the battery life.
+•  Do not leave your battery in damp environments. Exposure to 
+damp environments may increase the battery over-discharging 
+rate. Low temperature environment may damage the chemicals 
+inside the battery while high temperature or overheating may 
+result in a risk of explosion.
+•  Do not place your device or battery pack near radiators, replaces, 
+furnaces, heaters, or any sources of heat with temperature 
+exceeding 60°C (140°F). High temperature surrounding 
+environment may result in an explosion or leakage that may 
+cause re.
+
+--- Page 15 ---
+Notebook PC E-Manual
+15
+Chapter 1: 
+Hardware Setup
+
+--- Page 16 ---
+16
+Notebook PC E-Manual
+Getting to know your Notebook PC
+Front View
+NOTE: The keyboard’s layout may vary per region or country. The 
+Notebook view may also vary in appearance depending on the Notebook 
+PC model.
+
+--- Page 17 ---
+Notebook PC E-Manual
+17
+Array microphones
+The array microphones feature echo canceling, noise 
+suppression, and beam forming functions for better voice 
+recognition and audio recording.
+Camera indicator
+The camera indicator lights up when the built-in camera is in use.
+Camera
+The built-in camera allows you to take pictures or record videos 
+using your Notebook PC. 
+Display panel
+This high-denition display panel provides excellent viewing 
+features for photos, videos, and other multimedia les on your 
+Notebook PC.
+
+--- Page 18 ---
+18
+Notebook PC E-Manual
+Status indicators 
+The status indicators help identify the current hardware status of 
+your Notebook PC. 
+  Power indicator
+  The power indicator lights up when the Notebook PC 
+is turned on and blinks slowly when the Notebook 
+PC is in sleep mode.
+ Two-color battery charge indicator 
+  The two-color LED provides a visual indication of the 
+battery’s charge status. Refer to the following table 
+for details:
+
+--- Page 19 ---
+Notebook PC E-Manual
+19
+Color Status
+Solid White The Notebook PC is plugged to 
+a power source and the battery 
+power is 100%.
+Solid Orange The Notebook PC is plugged 
+to a power source, charging its 
+battery, and the battery power 
+is between 0% and 99%.
+Blinking Orange The Notebook PC is running on 
+battery mode and the battery 
+power is less than 10%.
+Lights o The Notebook PC is running on 
+battery mode and the battery 
+power is between 10% to 100%.
+  Drive activity indicator
+  This indicator lights up when your Notebook PC is 
+accessing the internal storage drives.
+
+--- Page 20 ---
+20
+Notebook PC E-Manual
+Capital lock indicator
+This indicator lights up when the capital lock function is 
+activated. Using capital lock allows you to type capitalized letters 
+(such as A, B, C) using your Notebook PC’s keyboard.
+Power button
+Press the power button to turn your Notebook PC on or o. You 
+can also use the power button to put your Notebook PC to sleep 
+or hibernate mode and wake it up from sleep or hibernate mode.
+In the event that your Notebook PC becomes unresponsive, 
+press and hold the power button for at least ten (10) seconds 
+until your Notebook PC shuts down.
+Numeric keypad
+The numeric keypad toggles between these two functions: for 
+numeric input and as pointer direction keys.
+NOTE: For more details, refer to the Using the numeric keypad 
+section in this manual.
+
+--- Page 21 ---
+Notebook PC E-Manual
+21
+Keyboard
+The keyboard provides full-sized QWERTY keys with a 
+comfortable travel depth for typing. It also enables you to use 
+the function keys, allows quick access to Windows, and controls 
+other multimedia functions.
+NOTE: The keyboard layout diers by model or territory.
+Touchpad
+The touchpad allows the use of multi-gestures to navigate 
+onscreen, providing an intuitive user experience. It also simulates 
+the functions of a regular mouse.
+NOTE: For more details, refer to the Using the touchpad section in 
+this manual.
+
+--- Page 22 ---
+22
+Notebook PC E-Manual
+Bottom View
+NOTE: The bottom view may vary in appearance depending on model.
+WARNING! Your Notebook PC can get warm to hot while in use or while 
+charging the battery pack. Do not leave your Notebook PC on your lap or 
+near any part of your body to prevent injury from heat. When working on 
+your Notebook PC, do not place it on surfaces that can block the vents.
+IMPORTANT!
+•  Battery time varies by usage and by the specications for this 
+Notebook PC. The battery pack cannot be disassembled.
+•  Purchase components from authorized retailers to ensure maximum 
+compatibility and reliability. Consult an ASUS service center or 
+authorized retailers for product service or assistance on proper 
+disassembly or assembly of the product.
+
+--- Page 23 ---
+Notebook PC E-Manual
+23
+Air vents
+The air vents allow cool air to enter and warm air to exit the 
+Notebook PC.
+WARNING! Ensure that paper, books, clothing, cables, or other 
+objects do not block any of the air vents or else overheating may 
+occur.
+Audio speakers
+The built-in audio speakers allow you to hear audio straight from 
+your Notebook PC. Audio features are software-controlled.
+Bottom cover
+This cover protects the reserved spaces in your Notebook PC for 
+the removable SSD (M.2 2280 slot) and RAM (Random Access 
+Memory) modules.
+NOTE:
+•  For more details, refer to the Service Manual on our multi-
+language website at https://www.asus.com/support/.
+•  The M.2 2280 slot does not support M.2 SATA SSD.
+
+--- Page 24 ---
+24
+Notebook PC E-Manual
+Right View
+USB 3.2 Gen 2 port
+The USB 3.2 (Universal Serial Bus 3.2) Gen 2 port provides a 
+transfer rate of up to 10 Gbit/s and is backward compatible to 
+USB 2.0.
+Air vents
+The air vents allow cool air to enter and warm air to exit the 
+Notebook PC.
+WARNING! Ensure that paper, books, clothing, cables, or other 
+objects do not block any of the air vents or else overheating may 
+occur.
+
+--- Page 25 ---
+Notebook PC E-Manual
+25
+Left View
+Air vents
+The air vents allow cool air to enter and warm air to exit the 
+Notebook PC.
+WARNING! Ensure that paper, books, clothing, cables, or other 
+objects do not block any of the air vents or else overheating may 
+occur.
+Power (DC) input port 
+Insert the bundled power adapter into this port to charge the 
+battery pack and supply power to your Notebook PC.
+WARNING! The adapter may become warm to hot while in use. 
+Do not cover the adapter and keep it away from your body while 
+it is connected to a power source.
+IMPORTANT! Use only the bundled power adapter to charge 
+the battery pack and supply power to your Notebook PC.
+
+--- Page 26 ---
+26
+Notebook PC E-Manual
+LAN port
+Insert the network cable into this port to connect to a local area 
+network.
+HDMI output port
+This port allows you to send audio and video signals from your 
+Notebook PC to an HDMI-compatible device using an HDMI 
+cable.
+Thunderbolt™ 4 port
+The Thunderbolt™ 4 port is compatible with USB Type-C® 
+standards, and provides a transfer rate of up to 40 Gbit/s for 
+Thunderbolt™ 4 devices. Connect your Notebook PC to a 
+DisplayPort, VGA, DVI, or HDMI external display and experience 
+high-resolution display features via Intel® Thunderbolt™ 
+technology. 
+NOTE: Transfer rate of this port may vary per model.
+
+--- Page 27 ---
+Notebook PC E-Manual
+27
+USB 3.2 Gen 2 Type-C®/DisplayPort/ 
+Power Delivery combo port
+The USB 3.2 (Universal Serial Bus 3.2) Gen 2 Type-C® port 
+provides a transfer rate of up to 10 Gbit/s and is backward 
+compatible to USB 2.0. Use a USB Type-C® adapter to connect 
+your Notebook PC to an external display. Connect a power 
+source rated 20V/5A to charge the battery pack and supply 
+power to your Notebook PC.
+NOTE: Transfer rate of this port may vary per model.
+WARNING! The adapter may become warm to hot while in use. 
+Do not cover the adapter and keep it away from your body while 
+it is connected to a power source.
+IMPORTANT!
+•  It may take longer to fully charge your Notebook PC 
+through a low-voltage power source.
+•  To prevent any damage, use only power sources rated 
+20V/5A to charge your Notebook PC with the USB Power 
+Delivery combo port. For more information, consult an 
+ASUS service center for assistance.
+Headphone/Headset/Microphone jack
+This port allows you to connect amplied speakers or 
+headphones. You can also use this port to connect your headset 
+or an external microphone.
+
+--- Page 29 ---
+Notebook PC E-Manual
+29
+Chapter 2: 
+Using your Notebook PC
+
+--- Page 30 ---
+30
+Notebook PC E-Manual
+Charge the Notebook PC for 3 hours before using it in 
+battery mode for the rst time.
+NOTE: The power adapter may vary in appearance, depending on models 
+and your region.
+Charge your Notebook PC
+A.  Connect the AC power cord to the AC/DC adapter.
+B.  Connect the DC power connector into your Notebook PC’s power 
+(DC) input port. 
+C.  Plug the AC power adapter into a 100V~240V power source.
+Getting started
+
+--- Page 31 ---
+Notebook PC E-Manual
+31
+IMPORTANT! 
+AC/DC power adapter information:
+•  Input voltage: 100-240Vac 
+•  Input frequency: 50-60Hz
+•  Rating output current: 14A (280W) / 16.5A (330W)
+•  Rating output voltage: 20V (280W) / 20V (330W)
+USB Power Delivery power adapter* information:
+•  Input voltage: 100-240Vac 
+•  Input frequency: 50-60Hz
+•  Rating output current: 5A (100W)
+•  Rating output voltage: 20V 
+* On selected models
+
+--- Page 32 ---
+32
+Notebook PC E-Manual
+IMPORTANT!
+•  Locate the input/output rating label on your Notebook PC and 
+ensure that it matches the input/output rating information on your 
+power adapter. Some Notebook PC models may have multiple rating 
+output currents based on the available SKU.
+•  Ensure that your Notebook PC is connected to the power adapter 
+before turning it on for the rst time. Always plug the power cord 
+into a wall socket without using any extension cords. For your safety, 
+connect this device to a properly grounded electrical outlet only.
+•  The socket outlet must be easily accessible and near your Notebook 
+PC.
+•  To disconnect your Notebook PC from its main power supply, unplug 
+your Notebook PC from the power socket.
+WARNING!
+Read the following precautions for your Notebook PC’s battery:
+•  Only ASUS-authorized technicians should remove the battery inside 
+the device (for non-removable battery only).
+•  The battery used in this device may present a risk of re or chemical 
+burn if removed or disassembled.
+•  Follow the warning labels for your personal safety.
+•  Risk of explosion if battery is replaced by an incorrect type.
+•  Do not dispose of in re.
+•  Never attempt to short-circuit your Notebook PC’s battery.
+•  Never attempt to disassemble and reassemble the battery 
+(for non-removable battery only).
+•  Discontinue usage if leakage is found.
+•  The battery and its components must be recycled or disposed of 
+properly.
+•  Keep the battery and other small components away from children.
+
+--- Page 33 ---
+Notebook PC E-Manual
+33
+Lift to open the display panel
+Press the power button
+NOTE: For better heat dissipation, we recommend that you open the 
+display panel to at least 60 degrees while in use.
+
+--- Page 34 ---
+34
+Notebook PC E-Manual
+Using the touchpad
+Moving the pointer
+You can tap anywhere on the touchpad to activate its pointer, then slide 
+your nger on the touchpad to move the pointer onscreen.
+Slide horizontally
+Slide vertically
+Slide diagonally
+
+--- Page 35 ---
+Notebook PC E-Manual
+35
+One-nger gestures
+Tap/Double-tap
+•  Tap an app to select it.
+•  Double-tap an app to launch it.
+Drag and drop
+Double-tap an item, then slide the same nger without lifting it o the 
+touchpad. To drop the item to its new location, lift your nger from the 
+touchpad.
+
+--- Page 36 ---
+36
+Notebook PC E-Manual
+Left-click Right-click
+•  Click an app to select it.
+•  Double-click an app to 
+launch it.
+Click this button to open the right-
+click menu.
+NOTE: The areas inside the dotted line represent the locations of the left 
+mouse button and the right mouse button on the touchpad. 
+Two-nger gestures
+Tap
+Tap two ngers on the touchpad to simulate the right-click function.
+
+--- Page 37 ---
+Notebook PC E-Manual
+37
+Two-nger scroll (up/down) Two-nger scroll (left/right)
+Slide two ngers to scroll up or 
+down.
+Slide two ngers to scroll left or 
+right.
+Zoom out Zoom in
+Bring together your two ngers 
+on the touchpad.
+Spread apart your two ngers on 
+the touchpad.
+
+--- Page 38 ---
+38
+Notebook PC E-Manual
+Drag and drop
+Select an item then press and hold the left button. Using your other 
+nger, slide on the touchpad to drag the item, lift your nger o the 
+button to drop the item.
+Three-nger gestures
+Tap
+Tap three ngers on the touchpad to launch the function you selected 
+in Settings.
+
+--- Page 39 ---
+Notebook PC E-Manual
+39
+Swipe left/Swipe right
+If you opened multiple apps, swipe three ngers left or right to switch 
+between these apps.
+Swipe up Swipe down
+Swipe up to see an overview of all 
+the apps currently opened.
+Swipe down to show the desktop.
+
+--- Page 40 ---
+40
+Notebook PC E-Manual
+Four-nger gestures
+Tap
+Tap four ngers on the touchpad to launch the function you selected 
+in Settings.
+
+--- Page 41 ---
+Notebook PC E-Manual
+41
+Function keys
+The function keys on your Notebook PC’s keyboard can trigger the 
+following commands:
+Using the keyboard
+Turns the speaker on or o
+Decreases brightness for the backlit keyboard
+Increases brightness for the backlit keyboard
+Toggles the Aura lighting eect
+Toggles the fan mode
+Activates screen capture tool
+Decreases display brightness
+Increases display brightness
+Toggles the display mode
+NOTE: Ensure that the second display is connected 
+to your Notebook PC.
+
+--- Page 42 ---
+42
+Notebook PC E-Manual
+Enables or disables the touchpad
+Puts the Notebook PC into Sleep mode
+Turns Airplane mode on or o
+NOTE: When enabled, the Airplane mode disables 
+all wireless connectivity.
+Displays the drop-down menu
+Simulates the page up key
+Simulates the page down key
+Simulates the home key
+Simulates the end key
+Enables or disables the Windows key lock
+
+--- Page 43 ---
+Notebook PC E-Manual
+43
+Hot Keys
+Turns the speaker volume down
+Turns the speaker volume up
+Turns the microphone on or o
+Toggles the fan mode
+Opens the Armoury Crate application
+Each programmable Hot Key can play the recorded macro or the 
+assigned function. You may program your Hot Keys via the Armoury 
+Crate app, or press the Hot Key to trigger the following default 
+commands: 
+Windows keys
+There are two special Windows keys on your Notebook PC’s keyboard 
+used as below:
+Launches the Start menu
+ or  Displays the drop-down menu
+
+--- Page 44 ---
+44
+Notebook PC E-Manual
+Using the numeric keypad
+NOTE: The numeric keypad layout may dier by model or territory but the 
+usage procedures remain the same.
+A numeric keypad is available on selected Notebook PC models. You can 
+use this keypad for numeric input or as pointer direction keys.
+Press   to toggle between using the keypad as 
+number keys or as pointer direction keys.
+
+--- Page 45 ---
+Notebook PC E-Manual
+45
+Chapter 3: 
+Working with Windows
+
+--- Page 46 ---
+46
+Notebook PC E-Manual
+Starting for the rst time
+When you start your Notebook PC for the rst time, a series of screens 
+appear to guide you in conguring your Windows operating system.
+To start your Notebook PC for the rst time:
+1.  Press the power button on your Notebook PC. Wait for a few 
+minutes until the setup screen appears.
+2.  From the setup screen, pick your region and a language to use on 
+your Notebook PC.
+3.  Carefully read the License Agreement. Select Accept.
+4.  Follow the onscreen instructions to congure the following basic 
+items:
+• Personalize
+•  Get online
+• Settings
+•  Your account
+5.  After conguring the basic items, Windows proceeds to install 
+your apps and preferred settings. Ensure that your Notebook PC 
+is kept powered on during the setup process.
+6.  Once the setup process is complete, the Desktop appears.
+NOTE: The screenshots in this chapter are for reference only.
+
+--- Page 47 ---
+Notebook PC E-Manual
+47
+Start menu
+The Start menu is the main gateway to your Notebook PC’s programs, 
+Windows apps, folders, and settings.
+You can use the Start menu to do these common activities:
+•  Start programs or Windows apps
+•  Open commonly used programs or Windows apps
+•  Adjust Notebook PC settings
+•  Get help with the Windows operating system
+•  Turn o your Notebook PC
+•  Log o from Windows or switch to a dierent user account
+Change account settings, lock, or 
+sign out from your account
+Launch the Start menu
+Launch Task view
+Shut down, restart, or put 
+your Notebook PC to sleep
+Launch an app from the taskbar
+Launch an app from the Start menu
+Launch Search
+Launch Widgets
+
+--- Page 48 ---
+48
+Notebook PC E-Manual
+Launching the Start menu
+Position your mouse pointer over the Start icon   on 
+your desktop then click it.
+Press the Windows logo key   on your keyboard.
+Opening programs from the Start menu
+One of the most common uses of the Start menu is opening programs 
+installed on your Notebook PC.
+Position your mouse pointer over the program then 
+click to launch it.
+Use the arrow keys to browse through the programs. 
+Press   to launch it.
+NOTE: Select All apps to display a full list of programs and folders on your 
+Notebook PC in alphabetical order.
+
+--- Page 49 ---
+Notebook PC E-Manual
+49
+Windows apps
+These are apps pinned on the Start menu and displayed in tiled-format 
+for easy access.
+NOTE: Some Windows apps require signing in to your Microsoft account 
+before they are fully launched.
+
+--- Page 50 ---
+50
+Notebook PC E-Manual
+Working with Windows apps
+Customizing Windows apps
+You can move, unpin, or pin apps to the taskbar from the Start menu 
+using the following steps:
+Launching Windows apps from the Start menu
+Position your mouse pointer over the app then click to 
+launch it.
+Use the arrow keys to browse through the apps. Press 
+ to launch an app.
+Moving apps
+Position your mouse pointer over the app, then drag 
+and drop the app to a new location.
+Unpinning apps
+Position your mouse pointer over the app and right-click 
+it, then click Unpin from Start.
+Use the arrow keys to navigate to the app.  
+Press   or   (on selected models), then 
+select Unpin from Start.
+
+--- Page 51 ---
+Notebook PC E-Manual
+51
+Pinning apps to the taskbar
+Position your mouse pointer over the app and right-click 
+it, then click Pin to taskbar.
+Use the arrow keys to navigate to the app.  
+Press   or   (on selected models), then 
+select Pin to taskbar.
+Pinning more apps to the Start menu
+From All apps, position your mouse pointer over the 
+app you want to add to the Start menu and right-click it, 
+then click Pin to Start.
+From All apps, press   or   (on selected 
+models) on the app that you want to add to the Start 
+menu, then select Pin to Start.
+
+--- Page 52 ---
+52
+Notebook PC E-Manual
+Task view
+Quickly switch between opened apps and programs using the Task view 
+feature, you can also use Task view to switch between desktops.
+Launching Task view
+Position your mouse pointer over the   icon on the 
+taskbar and click it.
+Press   on your keyboard.
+
+--- Page 53 ---
+Notebook PC E-Manual
+53
+Widgets
+You can launch Widgets for quick access of important info.
+Launching Widgets
+Position your mouse pointer over the   icon on the 
+taskbar and click it.
+Press   on your keyboard.
+
+--- Page 54 ---
+54
+Notebook PC E-Manual
+Customizing Widgets
+Click/Tap the   icon, then select Manage interests to 
+change the content that shows up in the Widgets.
+
+--- Page 55 ---
+Notebook PC E-Manual
+55
+Snap feature
+The Snap feature displays apps side-by-side, allowing you to work or 
+switch between apps.
+Snap hotspots
+You can drag and drop apps to these hotspots to snap them into place.
+
+--- Page 56 ---
+56
+Notebook PC E-Manual
+Using Snap
+1.  Launch the app you wish to snap.
+2.  Drag the title bar of your app and drop the app to 
+the edge of the screen to snap.
+3.  Launch another app and repeat the above steps to 
+snap another app.
+1.  Launch the app you wish to snap.
+2.  Press and hold the   key, then use the arrow 
+keys to snap the app.
+3.  Launch another app and repeat the above steps to 
+snap another app.
+
+--- Page 57 ---
+Notebook PC E-Manual
+57
+Action Center
+Action Center consolidates notications from apps and presents a single 
+place where you can interact with them. It also has a really useful Quick 
+Actions section.
+Launching Quick Actions
+Position your mouse pointer over the status icons on the 
+taskbar and click it.
+Press   on your keyboard.
+
+--- Page 58 ---
+58
+Notebook PC E-Manual
+Launching Notications
+Position your mouse pointer over the date and time on 
+the taskbar and click it.
+Press   on your keyboard.
+
+--- Page 59 ---
+Notebook PC E-Manual
+59
+GameVisual Eyecare
+ROG GameVisual ensures that all ROG display panels show identical and 
+accurate colors. You may select Eyecare or other color modes to adjust 
+display settings.
+  Eyecare Mode: Compliant with TÜV Rheinland Low Blue Light 
+(Software Solution) Certication. The Eyecare mode will reduce 
+blue light emission by up to 30%, protecting your eyes from the 
+panel’s blue light. To enable Eyecare Mode, go to ROG Armoury 
+Crate > GameVisual and select Eyecare mode.
+Low blue light technology helps reduce blue light emission and 
+improve eye discomfort.
+NOTE: TÜV Low Blue Light certied panels are only available on selected 
+models.
+Please refer to the following tips to alleviate eye strain:
+•  Take some time away from the display if working for long hours. 
+It is advised to take short breaks (at least 5 minutes) after around 
+1 hour of continuous working at the computer. Taking short and 
+frequent breaks is more eective than a long break.
+•  To minimize eye strain and eye dryness, rest your eyes periodically 
+by focusing on objects that are far away.
+
+--- Page 60 ---
+60
+Notebook PC E-Manual
+If eye strain persists, please consult a physician.
+•  Repeat the following exercises to reduce eye strain:
+  (1) Look up and down repeatedly
+  (2) Slowly roll your eyes
+  (3) Move your eyes diagonally
+High energy blue light may lead to eye strain and AMD (Age-Related 
+Macular Degeneration). Blue light Filter reduces 30% (max.) harmful 
+blue light to avoid CVS (Computer Vision Syndrome).
+Flicker-free technology eliminates the primary cause of monitor icker 
+and prevents eye strain.
+Your Notebook PC is fully compliant with TÜV Rheinland Flicker Free 
+Certication when HDR is enabled (default).
+NOTE: TÜV Flicker-free certied panels are only available on selected 
+models.
+
+--- Page 61 ---
+Notebook PC E-Manual
+61
+Setting the OLED display
+To ensure the most out of your OLED display (on selected models), 
+there are several settings that we recommend. These settings help to 
+optimize the visual experience, maximize battery life, and extend the 
+lifespan of your ASUS Notebook PC.
+Setting the Dark Mode
+The Dark Mode is enabled by default. To check or adjust the settings:
+1.  Launch the Start menu.
+2. Click/Tap Settings and select Personalization.
+
+--- Page 62 ---
+62
+Notebook PC E-Manual
+3.  Select the Colors tab to view the options.
+
+--- Page 63 ---
+Notebook PC E-Manual
+63
+Turning o the display when not in use
+Ensure to set your display to turn o automatically when not in use. To 
+check or adjust the settings:
+1.  Launch the Start menu.
+2. Click/Tap Settings and select System.
+
+--- Page 64 ---
+64
+Notebook PC E-Manual
+3.  Select the Power & battery tab to view the options.
+
+--- Page 65 ---
+Notebook PC E-Manual
+65
+Adjusting display brightness
+It is recommended to enable animated dark-background screensaver 
+and avoid setting your OLED display at maximum brightness to extend 
+the lifespan of your OLED display. To check or adjust the settings:
+1.  Launch the Start menu.
+2. Click/Tap Settings and select Personalization.
+
+--- Page 66 ---
+66
+Notebook PC E-Manual
+3.  Select the Lock screen tab and then select Screen saver to view 
+the options.
+
+--- Page 67 ---
+Notebook PC E-Manual
+67
+Auto-hide the taskbar
+To avoid displaying the taskbar on your OLED display for prolonged 
+time, ensure to auto-hide the taskbar. To adjust the settings:
+1.  Launch the Start menu.
+2. Click/Tap Settings and select Personalization.
+
+--- Page 68 ---
+68
+Notebook PC E-Manual
+3.  Select the Taskbar tab and then enable Automatically hide the 
+taskbar.
+
+--- Page 69 ---
+Notebook PC E-Manual
+69
+1.  Launch a Microsoft Oce application, and then click/tap File > 
+Account.
+2. Select Dark Gray under Oce Theme. The theme will be applied 
+to all the Microsoft applications.
+Setting the Dark Mode in Microsoft Oce
+
+--- Page 70 ---
+70
+Notebook PC E-Manual
+Other keyboard shortcuts
+Using the keyboard, you can also use the following shortcuts to help 
+you launch applications and navigate Windows.
+Launches Start menu
+Launches Action Center
+Launches the desktop
+Launches the File Explorer
+Launches Settings
+Launches Connect panel
+Activates the Lock screen
+Minimizes all currently active windows
+
+--- Page 71 ---
+Notebook PC E-Manual
+71
+Launches Search
+Launches Project panel
+Opens the Run window
+Opens Accessibility
+Opens the context menu of the Start button
+Launches the magnier icon and zooms in 
+your screen
+Zooms out your screen
+
+--- Page 72 ---
+72
+Notebook PC E-Manual
+Connecting to wireless networks
+Wi-Fi
+Access emails, surf the Internet, and share applications via social 
+networking sites using your Notebook PC’s Wi-Fi connection.
+IMPORTANT! Airplane mode disables this feature. Ensure that Airplane 
+mode is turned o before enabling the Wi-Fi connection of your 
+Notebook PC.
+Connecting Wi-Fi
+Connect your Notebook PC to a Wi-Fi network by using the following 
+steps:
+1. Launch Action Center from the taskbar.
+2.  Click/Tap the Wi-Fi icon to enable Wi-Fi.
+3.  Select an access point from the list of available Wi-Fi 
+connections.
+4. Select Connect to start the network connection.
+NOTE: You may be prompted to enter a security key to 
+activate the Wi-Fi connection.
+
+--- Page 73 ---
+Notebook PC E-Manual
+73
+1. Launch Settings from the Start menu.
+2. Select Bluetooth & devices > Add device to search 
+for Bluetooth-enabled devices.
+3.  Select a device from the list to pair your Notebook 
+PC with the device.
+NOTE: For some Bluetooth-enabled devices, you may be 
+prompted to key in the passcode of your Notebook PC.
+Bluetooth
+Use Bluetooth to facilitate wireless data transfers with other Bluetooth-
+enabled devices.
+IMPORTANT! Airplane mode disables this feature. Ensure that Airplane 
+mode is turned o before enabling the Bluetooth connection of your 
+Notebook PC.
+Pairing with other Bluetooth-enabled devices
+You need to pair your Notebook PC with other Bluetooth-enabled 
+devices to enable data transfers. Connect your devices by using the 
+following steps:
+
+--- Page 74 ---
+74
+Notebook PC E-Manual
+Airplane mode
+Airplane mode disables wireless communication, allowing you to use 
+your Notebook PC safely while in-ight.
+NOTE: Contact your airline provider to learn about related in-ight 
+services that can be used and restrictions that must be followed when 
+using your Notebook PC in-ight.
+Turning Airplane mode on/o
+1. Launch Action Center from the taskbar.
+2.  Click/Tap the Airplane mode icon to enable or 
+disable Airplane mode.
+

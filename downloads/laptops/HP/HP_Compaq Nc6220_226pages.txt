@@ -1,0 +1,102 @@
+Brand: HP
+Model: Compaq Nc6220
+URL: https://www.manua.ls/hp/compaq-nc6220/manual
+Total Pages: 226
+============================================================
+
+--- Page 1 ---
+Maintenance and Service 
+Guide
+HP Compaq nc6220 and nc6230 
+Notebook PC
+Document Part Number: 371035-003
+February 2006
+This guide is a troubleshooting reference used for maintaining 
+and servicing the computer. It provides comprehensive 
+information on identifying computer features, components, and 
+spare parts; troubleshooting computer problems; and performing 
+computer disassembly procedures.
+
+--- Page 2 ---
+© Copyright 2006 Hewlett-Packard Development Company, L.P.
+Microsoft and Windows are U.S. registered trademarks of Microsoft 
+Corporation. Intel, Celeron, and Pentium are trademarks or registered 
+trademarks of Intel Corporation or its subsidiaries in the United States and 
+other countries. Bluetooth is a trademark owned by its proprietor and used 
+by Hewlett-Packard Company under license. SD Logo is a trademark of its 
+proprietor.
+The information contained herein is subject to change without notice. The 
+only warranties for HP products and services are set forth in the express 
+warranty statements accompanying such products and services. Nothing 
+herein should be construed as constituting an additional warranty. HP shall 
+not be liable for technical or editorial errors or omissions contained herein.
+Maintenance and Service Guide
+HP Compaq nc6220 and nc6230 Notebook PC
+Third Edition February 2006
+First Edition February 2005
+Document Part Number: 371035-003
+
+--- Page 3 ---
+Maintenance and Service Guide iii
+Contents
+1 Product Description
+1.1 Features . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1–2
+1.2 Resetting the Computer. . . . . . . . . . . . . . . . . . . . . . .  1–4
+1.3 Power Management. . . . . . . . . . . . . . . . . . . . . . . . . .  1–5
+1.4 External Components  . . . . . . . . . . . . . . . . . . . . . . . .  1–6
+1.5 Design Overview. . . . . . . . . . . . . . . . . . . . . . . . . . .  1–22
+2 Troubleshooting
+2.1 Computer Setup. . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2–1
+2.2 Troubleshooting Flowcharts . . . . . . . . . . . . . . . . . . .  2–5
+3 Software Update and Recovery
+3.1 Software Updates  . . . . . . . . . . . . . . . . . . . . . . . . . . .  3–1
+3.2 System Recovery. . . . . . . . . . . . . . . . . . . . . . . . . . . .  3–6
+
+--- Page 4 ---
+iv Maintenance and Service Guide
+Contents
+4 Illustrated Parts Catalog
+4.1 Serial Number Location  . . . . . . . . . . . . . . . . . . . . . .  4–1
+4.2 Computer Major Components. . . . . . . . . . . . . . . . . .  4–2
+4.3 Miscellaneous Plastics Kit  . . . . . . . . . . . . . . . . . . .  4–12
+4.4 Miscellaneous Cable Kit . . . . . . . . . . . . . . . . . . . . .  4–14
+4.5 Mass Storage Devices . . . . . . . . . . . . . . . . . . . . . . .  4–16
+4.6 Miscellaneous (Not Illustrated). . . . . . . . . . . . . . . .  4–17
+4.7 Sequential Part Number Listing . . . . . . . . . . . . . . .  4–20
+5 Removal and Replacement Preliminaries
+5.1 Tools Required  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5–1
+5.2 Service Considerations . . . . . . . . . . . . . . . . . . . . . . .  5–2
+5.3 Preventing Damage to Removable Drives  . . . . . . . .  5–3
+5.4 Preventing Electrostatic Damage  . . . . . . . . . . . . . . .  5–4
+5.5 Packaging and Transporting Precautions  . . . . . . . . .  5–5
+5.6 Workstation Precautions . . . . . . . . . . . . . . . . . . . . . .  5–6
+5.7 Grounding Equipment and Methods . . . . . . . . . . . . .  5–6
+
+--- Page 5 ---
+Contents
+Maintenance and Service Guide v
+6 Removal and Replacement Procedures
+6.1 Serial Number . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–2
+6.2 Disassembly Sequence Chart  . . . . . . . . . . . . . . . . . .  6–3
+6.3 Preparing the Computer for Disassembly . . . . . . . . .  6–5
+6.4 Hard Drive. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–7
+6.5 Computer Feet. . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–11
+6.6 Bluetooth Board  . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–12
+6.7 MultiBay II Device . . . . . . . . . . . . . . . . . . . . . . . . .  6–13
+6.8 External Memory Module . . . . . . . . . . . . . . . . . . . .  6–14
+6.9 Keyboard. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–16
+6.10 Switch Cover. . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–20
+6.11 LED Board  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–22
+6.12 TPM Security Module. . . . . . . . . . . . . . . . . . . . . .  6–23
+6.13 Fan. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–24
+6.14 Heat Sink. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–25
+6.15 Processor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–28
+6.16 Modem Board . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–30
+6.17 Internal Memory Module  . . . . . . . . . . . . . . . . . . .  6–31
+6.18 TouchPad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–32
+6.19 Mini PCI Communications Module  . . . . . . . . . . .  6–34
+6.20 Display Assembly . . . . . . . . . . . . . . . . . . . . . . . . .  6–36
+6.21 Top Cover . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–38
+6.22 Serial Connector Module  . . . . . . . . . . . . . . . . . . .  6–42
+6.23 Audio Board  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–44
+6.24 System Board  . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6–48

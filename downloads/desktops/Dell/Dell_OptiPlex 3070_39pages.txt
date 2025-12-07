@@ -1,0 +1,787 @@
+================================================================================
+DELL OPTIPLEX 3070 MANUAL
+================================================================================
+
+PDF manual | · 39 pages | English
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Manual
+View the manual for the Dell OptiPlex 3070 here, for free. This manual comes under the category desktops and has been rated by 4 people with an average of a 9.9.
+
+This manual is available in the following languages: English. Do you have a question about the Dell OptiPlex 3070 or do you need help?
+Ask your question here
+
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS:
+
+  Page   3: Dell OptiPlex 3070 Tower Setup and Specifications
+  Page   5: Set up your computer
+  Page   7: Chassis
+  Page   7: Front view
+  Page   8: Tower computer view
+  Page   8: Back view
+  Page   9: System specifications
+  Page   9: Chipset
+  Page  10: Processor
+  Page  12: Memory
+  Page  13: Intel Optane Memory
+  Page  13: Storage
+  Page  14: Audio and speakers
+  Page  15: Graphics and Video Controller
+  Page  15: Communications – Wireless
+  Page  16: Communications – Integrated
+  Page  16: External ports and connectors
+  Page  17: System board connector maximum add-in card allowable dimensions
+  Page  17: Operating system
+  Page  18: Power
+  Page  19: System dimensions - physical
+  Page  20: Regulatory and Environmental Compliance
+  Page  21: System setup
+  Page  21: Boot menu
+  Page  21: Navigation keys
+  Page  22: System setup options
+  Page  22: General options
+  Page  23: System information
+  Page  24: Video screen options
+  Page  24: Security
+  Page  25: Secure boot options
+  Page  26: Intel Software Guard Extensions options
+  Page  27: Performance
+  Page  27: Power management
+  Page  28: Post behavior
+  Page  29: Manageability
+  Page  29: Virtualization support
+  Page  29: Wireless options
+  Page  30: Maintenance
+  Page  30: System logs
+  Page  30: Advanced configuration
+  Page  31: Updating the BIOS in Windows
+  Page  31: Updating BIOS on systems with BitLocker enabled
+  Page  31: Updating your system BIOS using a USB flash drive
+  Page  32: Updating the Dell BIOS in Linux and Ubuntu environments
+  Page  32: Flashing the BIOS from the F12 One-Time boot menu
+  Page  35: System and setup password
+  Page  35: Assigning a system setup password
+  Page  36: Deleting or changing an existing system setup password
+  Page  37: Software
+  Page  37: Downloading drivers
+  Page  37: System device drivers
+  Page  37: Serial IO driver
+  Page  37: Security drivers
+  Page  38: USB drivers
+  Page  38: Network adapter drivers
+  Page  38: Realtek Audio
+  Page  38: Storage controller
+  Page  39: Getting help
+  Page  39: Contacting Dell
+
+--------------------------------------------------------------------------------
+
+MANUAL CONTENT:
+
+================================================================================
+PAGE 2
+================================================================================
+NOTE:A NOTE indicates important information that helps you make better use of your product.
+CAUTION:A CAUTION indicates either potential damage to hardware or loss of data and tells you how to avoid the problem.
+© 2019 Dell Inc. or its subsidiaries. All rights reserved.Dell, EMC, and other trademarks are trademarks of Dell Inc. or its subsidiaries. Other trademarks
+
+================================================================================
+PAGE 3
+================================================================================
+1 Set up your computer.....................................................................................................................................5
+2 Chassis..........................................................................................................................................................7
+Front view...........................................................................................................................................................................7
+Tower computer view........................................................................................................................................................8
+Back view......................................................................................................................................................................8
+3 Systemspecications....................................................................................................................................9
+Chipset................................................................................................................................................................................9
+Processor.....................................................................................................................................................................10
+Memory..............................................................................................................................................................................12
+Intel Optane Memory.......................................................................................................................................................13
+Storage...............................................................................................................................................................................13
+Audio and speakers...........................................................................................................................................................14
+Graphics and Video Controller........................................................................................................................................15
+Communications – Wireless............................................................................................................................................15
+Communications – Integrated.........................................................................................................................................16
+External ports and connectors........................................................................................................................................16
+System board connector maximum add-in card allowable dimensions......................................................................17
+Operating system..............................................................................................................................................................17
+Power.................................................................................................................................................................................18
+System dimensions - physical.........................................................................................................................................19
+Regulatory and Environmental Compliance..................................................................................................................20
+4 System setup...............................................................................................................................................21
+Boot menu.........................................................................................................................................................................21
+Navigation keys.................................................................................................................................................................21
+System setup options......................................................................................................................................................22
+General options..........................................................................................................................................................22
+System information....................................................................................................................................................23
+Video screen options.................................................................................................................................................24
+Security.......................................................................................................................................................................24
+Secure boot options..................................................................................................................................................25
+Intel Software Guard Extensions options................................................................................................................26
+Performance...............................................................................................................................................................27
+Power management...................................................................................................................................................27
+Post behavior..............................................................................................................................................................28
+Manageability.............................................................................................................................................................29
+Virtualization support................................................................................................................................................29
+Wireless options.........................................................................................................................................................29
+Maintenance...............................................................................................................................................................30
+System logs................................................................................................................................................................30
+Advancedconguration............................................................................................................................................30
+3
+
+================================================================================
+PAGE 4
+================================================================================
+Updating the BIOS in Windows .....................................................................................................................................31
+Updating BIOS on systems with BitLocker enabled...............................................................................................31
+Updating your system BIOS using a USBashdrive.............................................................................................31
+Updating the Dell BIOS in Linux and Ubuntu environments.................................................................................32
+Flashing the BIOS from the F12 One-Time boot menu.........................................................................................32
+System and setup password...........................................................................................................................................35
+Assigning a system setup password........................................................................................................................35
+Deleting or changing an existing system setup password....................................................................................36
+5 Software......................................................................................................................................................37
+Downloading drivers.........................................................................................................................................................37
+System device drivers................................................................................................................................................37
+Serial IO driver............................................................................................................................................................37
+Security drivers...........................................................................................................................................................37
+USB drivers.................................................................................................................................................................38
+Network adapter drivers...........................................................................................................................................38
+Realtek Audio..............................................................................................................................................................38
+Storage controller......................................................................................................................................................38
+6 Getting help.................................................................................................................................................39
+Contacting Dell.................................................................................................................................................................39
+4
+
+================================================================================
+PAGE 5
+================================================================================
+NOTE:If you ordered your computer with a discrete graphics card, the HDMI and the display ports on the back panel of
+1
+
+================================================================================
+PAGE 7
+================================================================================
+This chapter illustrates the multiple chassis views along with the ports and connectors and also explains the FN hot key combinations.
+2
+
+================================================================================
+PAGE 9
+================================================================================
+NOTE:Oeringsmay vary by region. The followingspecicationsare only those required by law to ship with your computer. For
+more information about thecongurationof your computer, go to Help and Support in your Windows operating system and
+3
+
+================================================================================
+PAGE 10
+================================================================================
+NOTE:Global Standard Products (GSP) are a subset of Dell’s relationship products that are managed for availability and
+synchronized transitions on a worldwide basis. They ensure the same platform is available for purchase globally. This allows
+customers to reduce the number ofcongurationsmanaged on a worldwide basis, thereby reducing their costs. They also enable
+companies to implement global IT standards by locking inspecicproductcongurationsworldwide.
+Device Guard (DG) and Credential Guard (CG) are the new security features that are only available on Windows 10 Enterprise today.
+Device Guard is a combination of enterprise-related hardware and software security features that, whenconguredtogether, will lock a
+Credential Guard uses virtualization-based security to isolate secrets (credentials) so that only privileged system software can access them.
+Unauthorized access to these secrets can lead to credential theft attacks. Credential Guard prevents these attacks by protecting NTLM
+NOTE:Processor numbers are not a measure of performance. Processor availability subject to change and may vary by region/
+xx
+xx
+xx
+x
+xx
+xx
+xx
+xx
+xx
+
+================================================================================
+PAGE 11
+================================================================================
+xx
+xx
+xx
+x
+x
+xx
+xx
+
+================================================================================
+PAGE 12
+================================================================================
+NOTE:Memory modules should be installed in pairs of matched memory size, speed, and technology. If the memory modules are
+not installed in matched pairs, the computer will continue to operate, but with a slight reduction in performance. The entire
+DIMM CapacitiesUp to 16 GBUp to 16 GBUp to 16 GB
+32 GB DDR4, 2666 MHz, (2 x 16 GB)YesYesYes
+16 GB DDR4, 2666 MHz, (1 x 16 GB)YesYesYes
+16 GB DDR4, 2666 MHz, (2 x 8 GB)YesYesYes
+8 GB DDR4, 2666 MHz, (1 x 8 GB)YesYesYes
+8 GB DDR4, 2666 MHz, (2 x 4 GB)YesYesYes
+4 GB DDR4, 2666 MHz, (1 x 4 GB)YesYesYes
+
+================================================================================
+PAGE 13
+================================================================================
+NOTE:Intel Optane memory cannot replace DRAM entirely. However, these two memory technologies complement each other
+Hard Drive Bay Supported (Internal)1x3.5”/2x2.5”1x3.5" or 1x2.5"1x2.5"
+Hard Drives Supported 3.5”/2.5” (maximum)1/21/10/1
+M.2 Socket 3 (for SATA / NVMe SSD)111
+
+================================================================================
+PAGE 14
+================================================================================
+NOTE:2.5 Inch Solid State Drives are only available as a secondary storage option and can only be paired with a M.2 Solid State
+Audio enhancement softwareWave MaxxAudioPro (Standard)
+
+================================================================================
+PAGE 15
+================================================================================
+NOTE:Tower supports Full Height (FH) cards and Small Form Factor supports lowprole(LP) cards.
+4.1
+Yes
+Yes
+Yes
+Yes
+Yes
+
+================================================================================
+PAGE 16
+================================================================================
+NOTE:Tower supports Full Height (FH) cards and Small Form Factor supports LowProle(LP) cards. See chassis diagrams
+2.0b
+Universal Audio Jack1 Front1 Front1 Front
+
+================================================================================
+PAGE 17
+================================================================================
+version v19H1 at time of launch, and this version will determine the N-2 versions that are initiallyqualiedfor
+releases during device production and forveyears post-production, including both fall and spring releases
+
+================================================================================
+PAGE 18
+================================================================================
+This website also includes a matrix of other platformsqualiedonspecicversions of Windows 10.
+NOTE:These form factors utilize a moreecientActive Power Factor Correction (APFC) power supply. Dell recommends only
+Universal Power Supplies (UPS) based on Sine Wave output for APFC PSUs, not an approximation of a Sine Wave, Square Wave,
+or quasi-Square Wave. If you have questions, please contact the manufacturer toconrmthe output type.
+1
+AC input frequency47 Hz/63 Hz47 Hz/63 Hz47 Hz/63 Hz
+NA
+@
+@
+load
+NA
+@
+@
+load
+87%
+70%NANA70%NANANA
+Power Supply Fan60 mm*25 mm60 mm*25 mmNA
+
+================================================================================
+PAGE 19
+================================================================================
+1
+NOTE
+:System Weight and Shipping Weight is based on a typicalcongurationand may vary based on PCconguration.A
+typicalcongurationincludes: integrated graphics, one hard drive, one optical drive.
+Chassis Weight (lb / kg)17.49 / 7.9311.57 / 5.262.60/1.18
+Height (inch / cm)13.8 / 3511.42 / 297.2/18.2
+Width (inch / cm)6.1 / 15.43.65 / 9.261.4/3.6
+Depth (inch / cm)10.8 / 27.411.50 / 29.27/17.8
+Height (inch / cm)13.19 / 33.510.38 / 26.45.2 / 13.3
+Width (inch / cm)19.4 / 49.419.2 / 48.79.4 / 23.8
+Depth (inch / cm)15.5 / 39.415.5 / 39.419.6 / 49.8
+
+================================================================================
+PAGE 20
+================================================================================
+Product related conformity assessment and regulatory authorizations including Product Safety, Electromagnetic Compatibility (EMC),
+Ergonomics, and Communication Devices relevant to this product may be viewed at www.dell.com/regulatory_compliance. The Regulatory
+Details of Dell's environmental stewardship program to conserve product energy consumption, reduce or eliminate materials for disposal,
+prolong product life span and provideeectiveand convenient equipment recovery solutions may be viewed at www.dell.com/environment.
+Product related conformity assessment, regulatory authorizations, and information encompassing Environmental, Energy Consumption,
+Noise Emissions, Product Materials Information, Packaging, Batteries, and Recycling relevant to this product may be viewed by clicking the
+Yes
+Yes
+PCR)
+Yes
+the limitsdenedin DellspecicationENV0199 - BFR/CFR/PVC-
+Yes
+
+================================================================================
+PAGE 21
+================================================================================
+Press <F12> when the Dell logo appears to initiate a one-time boot menu with a list of the valid boot devices for the system. Diagnostics
+and BIOS Setup options are also included in this menu. The devices listed on the boot menu depend on the bootable devices in the system.
+This menu is useful when you are attempting to boot to a particular device or to bring up the diagnostics for the system. Using the boot
+•
+NOTE
+:For most of the System Setup options, changes that you make are recorded but do not takeeectuntil you restart the
+EnterSelects a value in the selectedeld(if applicable) or follow the link in theeld.
+4
+
+================================================================================
+PAGE 22
+================================================================================
+EscMoves to the previous page until you view the main screen. Pressing Esc in the main screen displays a message
+NOTE:Depending on the and its installed devices, the items listed in this section may or may not appear.
+Ownership Date, Manufacture Date,and theExpress Service Code.
+Boot SequenceAllows you to specify the order in which the computer attempts tondan operating system from the
+Date/TimeAllows you to set the date and time settings. Changes to the system date and time takeeect
+.
+22
+
+================================================================================
+PAGE 23
+================================================================================
+SATA OperationAllows you tocongurethe operating mode of the integrated hard drive controller.
+•RAID ON= SATA isconguredto support RAID mode (selected by default)
+Smart ReportingThiseldcontrols whether hard drive errors for integrated drives are reported during system startup.
+USBCongurationAllows you to enable or disable the integrated USB controller for:
+Front USBCongurationAllows you to enable or disable the front USB ports. All the ports are enabled by default.
+Rear USBCongurationAllows you to enable or disable the rear USB ports. All the ports are enabled by default.
+AudioAllows you to enable or disable the integrated audio controller. The optionEnable Audiois selected
+Dust Filter MaintenanceAllows you to enable or disable BIOS messages for maintaining the optional dustlterinstalled in your
+computer. BIOS will generate a pre-boot reminder to clean or replace the dustlterbased on the
+
+================================================================================
+PAGE 24
+================================================================================
+PasswordCongurationAllows you to control the minimum and maximum number of characters allowed for a administrative
+•Disabled— Always prompt for the system and internal HDD password when they are set. This
+UEFI Capsule Firmware UpdatesThis option controls whether this system allows BIOS updates via UEFI capsule update packages.
+
+================================================================================
+PAGE 25
+================================================================================
+AbsoluteThiseldlets you Enable, Disable or Permanently Disable the BIOS module interface of the optional
+SMM Security MitigationAllows you to enable or disable additional UEFI SMM Security Mitigation protections. This option is
+
+================================================================================
+PAGE 26
+================================================================================
+•db
+If you enable theCustom Mode, the relevant options forPK, KEK, db, and dbxappear. The
+•Save to File- Saves the key to a user-selectedle
+•Replace from File- Replaces the current key with a key from a user-selectedle
+•Append from File- Adds a key to the current database from a user-selectedle
+
+================================================================================
+PAGE 28
+================================================================================
+This option is set toPowerOby default.
+Allows you to enable or disable Intel Speed Shift Technology support. The optionEnable Intel Speed
+(hour:minutes:seconds). Change the startup time by typing the values in the time and AM/PMelds.
+NOTE:This feature does not work if you turnoyour computer using the switch on a
+USB Wake SupportAllows you to enable the USB devices to wake the computer from standby mode. The option "Enable
+Wake on LAN/WWANThis option allows the computer to power up from theostate when triggered by a special LAN
+•Disabled- Does not allows the system to power on by special LAN signals when it receives a
+•LANorWLAN- Allows the system to be powered on by special LAN or wireless LAN signals.
+•LAN with PXE Boot- A wakeup packet sent to the system in either the S4 or S5 state, that will
+
+================================================================================
+PAGE 29
+================================================================================
+Full Screen LogoThis option will display full screen logo if your image match screen resolution. The option Enable Full
+This optionspecieswhether a Virtual Machine Monitor (VMM) can utilize the additional hardware
+
+================================================================================
+PAGE 30
+================================================================================
+BIOS Recovery from Hard Drive—This option is set by default. Allows you to recover the corrupted BIOS
+First Power On DateAllows you the set Ownership date. The optionSet Ownership Dateis not set by default.
+
+================================================================================
+PAGE 31
+================================================================================
+NOTE:If BitLocker is enabled, it must be suspended prior to updating the system BIOS, and then re-enabled after the BIOS
+•Enter theService TagorExpress Service Codeand clickSubmit.
+3If you are unable to detect orndthe Service Tag, clickChoose from all products.
+5Select your computer model and theProduct Supportpage of your computer appears.
+6ClickGet driversand clickDrivers and Downloads.
+10Select your preferred download method in thePlease select your download method belowwindow, clickDownload File.
+11ClickSaveto save theleon your computer.
+:If BitLocker is not suspended before updating the BIOS, the next time you reboot the system it will not recognize the
+BitLocker key. You will then be prompted to enter the recovery key to progress and the system will ask for this on each reboot. If
+the recovery key is not known this can result in data loss or an unnecessary operating system re-install. For more information on
+If the system cannot load into Windows but there is still a need to update the BIOS, download the BIOSleusing another system and save
+NOTE
+:You will need to use a bootable USB Flash drive. Please refer to the following article for further details:https://
+5Using arrow keys, selectUSB Storage Deviceand click Return.
+31
+
+================================================================================
+PAGE 32
+================================================================================
+7Run theleby typing the fulllenamee.g. O9010A12.exe and press Return.
+If you want to update the system BIOS in a Linux environment such as Ubuntu, seehttps://www.dell.com/support/article/us/en/19/
+Updating your system BIOS using a BIOS update .exelecopied to a FAT32 USB key and booting from the F12 one time boot menu.
+You can run the BIOS updatelefrom Windows using a bootable USB key or you can also update the BIOS from the F12 One-Time boot
+Most Dell systems built after 2012 have this capability and you canconrmby booting your system to the F12 One-Time Boot Menu to see
+if BIOS FLASH UPDATE is listed as a boot option for your system. If the option is listed, then the BIOS supports this BIOS update option.
+NOTE
+:Only systems with BIOS Flash Update option in the F12 One-Time Boot Menu can use this function.
+•BIOS executablelethat you downloaded from the Dell Support website and copied to the root of the USB key
+32
+
+================================================================================
+PAGE 33
+================================================================================
+CAUTION:Do not powerothe system during the BIOS update process. Poweringothe system could make the system fail to
+1From a powerostate, insert the USB key where you copied theashinto a USB port of the system .
+2Power on the system and press the F12 key to access the One-Time Boot Menu, Highlight BIOS Update using the mouse or arrow
+3The Biosashmenu will open then click theFlash fromle.
+33
+
+================================================================================
+PAGE 34
+================================================================================
+5Once theleis selected, Double click theashtargetle,then press submit .
+34
+
+================================================================================
+PAGE 35
+================================================================================
+CAUTION:Anyone can access the data stored on your computer if it is not locked and left unattended.
+You can assign a newSystem or Admin Passwordonly when the status is inNot Set.
+1In theSystem BIOSorSystem Setupscreen, selectSecurityand press Enter.
+2SelectSystem/Admin Passwordand create a password in theEnter the new passwordeld.
+35
+
+================================================================================
+PAGE 36
+================================================================================
+3Type the system password that you entered earlier in theConrmnew passwordeldand clickOK.
+Ensure that thePassword Statusis Unlocked (in the System Setup) before attempting to delete or change the existing System and/or
+Setup password. You cannot delete or change an existing System or Setup password, if thePassword Statusis Locked.
+1In theSystem BIOSorSystem Setupscreen, selectSystem Securityand press Enter.
+2In theSystem Securityscreen, verify thatPassword StatusisUnlocked.
+3SelectSystem Password, alter or delete the existing system password and press Enter or Tab.
+4SelectSetup Password, alter or delete the existing setup password and press Enter or Tab.
+NOTE:If you change the System and/or Setup password, re-enter the new password when prompted. If you delete the
+36
+
+================================================================================
+PAGE 37
+================================================================================
+3ClickProduct Support, enter the Service Tag of your , and then clickSubmit.
+NOTE:If you do not have the Service Tag, use the auto detect feature or manually browse for your model.
+5
+
+================================================================================
+PAGE 38
+================================================================================
+38
+
+================================================================================
+PAGE 39
+================================================================================
+NOTE:If you do not have an active Internet connection, you canndcontact information on your purchase invoice, packing slip,
+Dell provides several online and telephone-based support and service options. Availability varies by country and product, and some services
+3Verify your country or region in theChoose a Country/Regiondrop-down list at the bottom of the page.
+6
+
+--------------------------------------------------------------------------------
+
+SPECIFICATIONS:
+
+General
+----------------------------------------
+  Brand........................................ Dell
+  Model........................................ OptiPlex 3070 | VK8D8
+  Product...................................... desktop
+  EAN.......................................... 0818262902600, 0818262987317, 0818263031583, 0818263055039, 0818263225807, 0818263299303, 0818263673882, 0818263729350, 0818263867397, 0818263941769, 0818264008263, 0818264056257, 0818264122839, 0818264164372, 0818264283776, 0818264385647, 0818264438992, 0818271004753, 0818271455098, 0818275270840, 0818275326493, 0818275377129, 0818275386879, 0818275387784, 0818275389979, 0818275415418, 0818275423543, 0818275453649, 0818275571978, 0818275580659, 0818275591785, 0818275637599, 0818275673634, 0818275675539, 0818275689758, 0818275704482, 0818275710261, 0818275711787, 0818275722899, 0818275735158, 0818275741111, 0818275745973, 0818275771422, 0818275779657, 0818275781483, 0818275797958, 0818275834950, 0818275844591, 0818279622331, 0818283347411, 0818283443519, 0818283471673, 0818283543912, 0818283727664, 0818285106221, 0818285496674, 0818285514453, 0818285700658, 0818285705363, 0884116341062, 0884116341079, 0884116341093, 0884116341109, 0884116341116, 0884116341123, 0884116341130, 0884116341147, 0884116341154, 0884116341161, 0884116341178, 0884116341185, 0884116341192, 0884116341208, 0884116341215, 0884116341222, 0884116341239, 0884116341246, 0884116341253, 0884116341260, 0884116341277, 0884116341284, 0884116341291, 0884116341307, 0884116341314, 0884116341321, 0884116341338, 0884116341345, 0884116341352, 0884116341376, 0884116345145, 0884116355656, 0884116355663, 0884116355670, 3540260175881, 5397184298794
+  Language..................................... English
+  Filetype..................................... User manual (PDF), Installation Guide (PDF)
+
+Processor
+----------------------------------------
+  Processor model.............................. i5-9500
+  Processor family............................. Intel® Core™ i5
+  Processor cores.............................. 6
+  Processor frequency.......................... 3 GHz
+  Processor boost frequency.................... 4.4 GHz
+  Processor cache type......................... Smart Cache
+  Thermal Design Power (TDP)................... 65 W
+  Processor cache.............................. 9 MB
+  Number of processors installed............... 1
+  Processor manufacturer....................... Intel
+  Processor lithography........................ 14 nm
+  Processor socket............................. LGA 1151 (Socket H4)
+  System bus rate.............................. 8 GT/s
+  Processor threads............................ 6
+  PCI Express slots version.................... 3.0
+  Processor operating modes.................... 64-bit
+  Tjunction.................................... 100 °C
+  PCI Express configurations................... 1x8+2x4, 1x16, 2x8
+  Maximum number of PCI Express lanes.......... 16
+  Maximum internal memory supported by processor 128 GB
+  Memory types supported by processor.......... DDR4-SDRAM
+  Memory clock speeds supported by processor... 2666 MHz
+  Memory bandwidth supported by processor (max) 41.6 GB/s
+
+Graphics
+----------------------------------------
+  On-board graphics card....................... Yes
+  On-board graphics card model................. Intel® UHD Graphics 630
+  Discrete graphics card....................... No
+  Discrete graphics card model................. Not available
+  On-board graphics card base frequency........ 350 MHz
+  On-board graphics card dynamic frequency (max) 1100 MHz
+  On-board graphics card ID.................... 0x3E92
+  Maximum on-board graphics card memory........ 64 GB
+  Number of displays supported (on-board graphics) 3
+  On-board graphics card DirectX version....... 12.0
+  On-board graphics card OpenGL version........ 4.5
+
+Software
+----------------------------------------
+  Operating system installed................... Windows 10 Pro
+  Operating system architecture................ 64-bit
+  Operating system language.................... Multilingual
+  Trial software............................... Microsoft Office
+
+Performance
+----------------------------------------
+  Motherboard chipset.......................... Intel® H370
+  Product type................................. PC
+  Audio chip................................... Realtek ALC3234
+  Audio system................................. Waves MaxxAudio Pro
+  Password protection.......................... Yes
+
+Memory
+----------------------------------------
+  Maximum internal memory...................... 32 GB
+  Internal memory type......................... DDR4-SDRAM
+  Memory slots................................. 2x DIMM
+  Memory clock speed........................... 2666 MHz
+  Memory layout (slots x size)................. 1 x 8 GB
+  Internal memory.............................. 8 GB
+
+Network
+----------------------------------------
+  Ethernet LAN................................. Yes
+  Ethernet LAN data rates...................... 10,100,1000 Mbit/s
+  Cabling technology........................... 10/100/1000Base-T(X)
+  Wi-Fi........................................ -
+
+Storage
+----------------------------------------
+  Card reader integrated....................... -
+  Optical drive type........................... DVD-RW
+  Storage media................................ SSD
+  Total storage capacity....................... 128 GB
+  Number of SSDs installed..................... 1
+  SSD capacity................................. 128 GB
+  Total SSDs capacity.......................... 128 GB
+  SSD form factor.............................. M.2
+  SSD interface................................ PCI Express
+  Number of storage drives installed........... 1
+
+Ports & interfaces
+----------------------------------------
+  USB 2.0 ports quantity....................... 4
+  USB 3.2 Gen 1 (3.1 Gen 1) Type-A ports quantity 4
+  USB 3.2 Gen 1 (3.1 Gen 1) Type-C ports quantity 0
+  USB 3.2 Gen 2 (3.1 Gen 2) Type-A ports quantity 0
+  USB 3.2 Gen 2 (3.1 Gen 2) Type-C ports quantity 0
+  VGA (D-Sub) ports quantity................... 0
+  Thunderbolt 3 ports quantity................. 0
+  DVI port..................................... No
+  HDMI version................................. 1.4
+  HDMI ports quantity.......................... 1
+  DisplayPort version.......................... 1.2
+  DisplayPorts quantity........................ 1
+  Ethernet LAN (RJ-45) ports................... 1
+  Microphone in................................ No
+  Headphone outputs............................ 0
+  Line-out..................................... Yes
+  Combo headphone/mic port..................... Yes
+  On/off button................................ Yes
+
+Expansion slots
+----------------------------------------
+  PCI Express x16 slots........................ 1
+  PCI Express x1 slots......................... 1
+
+Design
+----------------------------------------
+  Chassis type................................. SFF
+  Product color................................ Black
+  Placement supported.......................... Horizontal/Vertical
+  Cable lock slot.............................. Yes
+  Cable lock slot type......................... Kensington
+  Volume....................................... 7.8 L
+
+Power
+----------------------------------------
+  Power supply................................. 200 W
+
+Weight & dimensions
+----------------------------------------
+  Width........................................ 92.6 mm
+  Depth........................................ 292 mm
+  Height....................................... 290 mm
+  Weight....................................... 5260 g
+  Package width................................ 487 mm
+  Package depth................................ 394 mm
+  Package weight............................... 6450 g
+  Package height............................... 264 mm
+
+Packaging content
+----------------------------------------
+  Power cord included.......................... Yes
+  Mouse included on selected markets only...... Yes
+  Keyboard included on selected markets only... Yes
+  Manual....................................... Yes
+
+Other features
+----------------------------------------
+  Optical drives quantity...................... 1
+
+Display
+----------------------------------------
+  Display included............................. No
+
+Processor special features
+----------------------------------------
+  Supported instruction sets................... AVX 2.0, SSE4.1, SSE4.2
+  Intel® Identity Protection Technology (Intel® IPT) Yes
+  Intel® Hyper Threading Technology (Intel® HT Technology) No
+  Intel® Turbo Boost Technology................ 2.0
+  Intel® Quick Sync Video Technology........... Yes
+  Intel® InTru™ 3D Technology.................. Yes
+  Intel® Clear Video HD Technology (Intel® CVT HD) Yes
+  Intel® AES New Instructions (Intel® AES-NI).. Yes
+  Enhanced Intel SpeedStep Technology.......... Yes
+  Execute Disable Bit.......................... Yes
+  Idle States.................................. Yes
+  Thermal Monitoring Technologies.............. Yes
+  Intel Trusted Execution Technology........... Yes
+  Scalability.................................. 1S
+  CPU configuration (max)...................... 1
+  Intel VT-x with Extended Page Tables (EPT)... Yes
+  Embedded options available................... No
+  Intel TSX-NI................................. Yes
+  Intel® Secure Key............................ Yes
+  Thermal solution specification............... PCG 2015C
+  Intel 64..................................... Yes
+  Intel Stable Image Platform Program (SIPP)... Yes
+  Intel® OS Guard.............................. Yes
+  Intel Virtualization Technology for Directed I/O (VT-d) Yes
+  Intel Clear Video Technology................. Yes
+  Intel Software Guard Extensions (Intel SGX).. Yes
+  Intel Virtualization Technology (VT-x)....... Yes
+  Processor package size....................... 37.5 x 37.5 mm
+  Processor ARK ID............................. 134895
+
+Logistics data
+----------------------------------------
+  Harmonized System (HS) code.................. 84715000
+
+--------------------------------------------------------------------------------
+
+FREQUENTLY ASKED QUESTIONS:
+
+Q1: What is the processor family of the Dell OptiPlex 3070?
+A1: The processor family of the Dell OptiPlex 3070 is Intel® Core™ i5. This means that it belongs to a mid-range line of processors from Intel, offering a good balance between performance and affordability for everyday computing tasks.
+
+Q2: How many processor cores does the Dell OptiPlex 3070 have?
+A2: The Dell OptiPlex 3070 has 6 processor cores. This indicates that the desktop is capable of handling tasks that require multitasking and can provide a smoother and more efficient performance compared to processors with fewer cores.
+
+Q3: What is the processor frequency of the Dell OptiPlex 3070?
+A3: The processor frequency of the Dell OptiPlex 3070 is 3 GHz. This denotes the base clock speed of the processor, which determines the overall speed and responsiveness of the system. A higher frequency generally indicates faster performance for tasks that are not heavily multi-threaded.
+
+Q4: Does the Dell OptiPlex 3070 have an on-board graphics card?
+A4: Yes, the Dell OptiPlex 3070 has an on-board graphics card. This means that the desktop is equipped with integrated graphics capabilities, which can handle basic graphical tasks such as web browsing, video streaming, and light gaming. However, for more demanding graphics-intensive applications, it may be advisable to consider a separate dedicated graphics card.
+
+Q5: What is the maximum internal memory that the Dell OptiPlex 3070 can support?
+A5: The Dell OptiPlex 3070 can support a maximum internal memory of 32 GB. Having a higher maximum memory capacity allows users to run memory-intensive applications or multiple tasks simultaneously without experiencing performance bottlenecks. It provides versatility and future-proofing for the system's memory requirements.
+
+Q6: How do I set up the Dell OptiPlex 3070 Tower?
+A6: To set up the Dell OptiPlex 3070 Tower, follow these steps:
+1. Connect the keyboard and mouse to the computer.
+2. Connect the computer to your network using a cable or connect to a wireless network.
+3. Connect the display to the computer. If you have a discrete graphics card, make sure to connect the display to the ports on the graphics card.
+4. Connect the power cable to the computer.
+5. Press the power button to turn on the computer.
+6. Follow the instructions on the screen to complete the Windows setup process. This may include connecting to a network and signing in to your Microsoft account or creating a new account.
+7. Locate Dell apps on your computer.
+By following these steps, you will be able to successfully set up your Dell OptiPlex 3070 Tower.
+
+Q7: What are the specifications of the Dell OptiPlex 3070 Tower?
+A7: The specifications of the Dell OptiPlex 3070 Tower are as follows:
+- Chipset: H370
+- Memory: The amount of RAM installed in the computer.
+- Intel Optane Memory: Optional memory technology that can improve system performance.
+- Storage: The type and capacity of the storage devices in the computer.
+- Audio and speakers: The audio capabilities of the computer.
+- Graphics and Video Controller: The graphics processing unit (GPU) and video controller in the computer.
+- Communications - Wireless: The wireless networking capabilities of the computer.
+- Communications - Integrated: The integrated networking capabilities of the computer.
+- External ports and connectors: The available ports and connectors on the computer.
+- System board connector maximum add-in card allowable dimensions: The maximum dimensions for add-in cards that can be installed on the system board.
+- Operating system: The pre-installed operating system on the computer.
+- Power: The power supply and power consumption of the computer.
+- System dimensions - physical: The physical dimensions of the computer.
+- Regulatory and Environmental Compliance: Compliance with regulatory and environmental standards.
+Please note that the specific details of each specification may vary depending on the configuration of your computer.
+
+Q8: How do I ensure regulatory and environmental compliance for the Dell OptiPlex 3070 Tower?
+A8: To ensure regulatory and environmental compliance for the Dell OptiPlex 3070 Tower, follow these steps:
+1. Visit the Dell website at www.dell.com/regulatory_compliance to view the product-related conformity assessment and regulatory authorizations. This includes information on product safety, electromagnetic compatibility (EMC), ergonomics, and communication devices.
+2. Access the Regulatory Datasheet for the Dell OptiPlex 3070 Tower at http://www.dell.com/regulatory_compliance. This document provides detailed information on regulatory compliance for the product.
+3. Visit the Dell website at www.dell.com/environment to learn about Dell's environmental stewardship program. This program focuses on conserving product energy consumption, reducing or eliminating materials for disposal, prolonging product lifespan, and providing equipment recovery solutions.
+4. Click on the "Design for Environment" link on the webpage to access information on environmental aspects such as energy consumption, noise emissions, product materials, packaging, batteries, and recycling.
+5. Note that the Dell OptiPlex 3070 Tower is TCO 5.0 Certified, indicating compliance with specific environmental and ergonomic requirements.
+By following these steps, you can ensure regulatory and environmental compliance for your Dell OptiPlex 3070 Tower.
+
+Q9: How do I ensure Energy Star compliance for the Dell OptiPlex 3070 Tower?
+A9: To ensure Energy Star compliance for the Dell OptiPlex 3070 Tower, follow these steps:
+1. Verify that the Dell OptiPlex 3070 Tower is Energy Star 7.0/7.1 compliant. This compliance ensures that the computer meets energy efficiency standards set by Energy Star for both Windows and Ubuntu operating systems.
+2. Use an Active Power Factor Correction (APFC) power supply for the Dell OptiPlex 3070 Tower. Dell recommends using Universal Power Supplies (UPS) with a Sine Wave output for APFC power supplies, as they provide a more efficient and stable power source.
+3. Check the power supply specifications of the Dell OptiPlex 3070 Tower. The power supply should meet the EPA Bronze or EPA Platinum standards, depending on the form factor of the computer. The wattage, AC input voltage range, AC input current, AC input frequency, AC holdup time, average efficiency, typical efficiency, and DC parameters should all be within the specified ranges.
+By following these steps, you can ensure Energy Star compliance for your Dell OptiPlex 3070 Tower, which helps reduce energy consumption and promotes environmental sustainability.
+
+Q10: What are the anticipated required criteria for EPEAT revision for the Dell OptiPlex 3070 Tower?
+A10: The anticipated required criteria for EPEAT revision for the Dell OptiPlex 3070 Tower are as follows:
+- Minimum 2% Post-Consumer Recycled (PCR) plastics as standard in the product.
+- Higher level % Post-Consumer Recycled (PCR) plastics in the product, depending on the product type. For DT, Workstations, and Thin Clients, the requirement is 10%. For Integrated Desktop Computers (AIO), the requirement is 15%.
+- BFR/PVC Free specification: The system complies with the limits defined in Dell specification ENV0199 - BFR/CFR/PVC-Free Specification.
+These criteria are part of the anticipated requirements for the EPEAT (Electronic Product Environmental Assessment Tool) revision, which focuses on promoting environmentally friendly practices in electronic products.
+Please note that these criteria are subject to change and may vary depending on the specific EPEAT revision and regional regulations.
+
+Q11: What is the BFR/PVC Free specification for the Dell OptiPlex 3070 Tower?
+A11: The BFR/PVC Free specification for the Dell OptiPlex 3070 Tower is as follows:
+- The system complies with the limits defined in Dell specification ENV0199 - BFR/CFR/PVC-Free Specification.
+- The specification ensures that the system does not contain brominated flame retardants (BFRs) and polyvinyl chloride (PVC) materials, which are harmful to the environment.
+- This compliance promotes the use of alternative materials that are more environmentally friendly.
+By adhering to the BFR/PVC Free specification, Dell aims to reduce the environmental impact of the OptiPlex 3070 Tower and promote sustainable practices in the manufacturing and disposal of electronic products.
+
+Q12: What is the weight of the Dell OptiPlex 3070?
+A12: The Dell OptiPlex 3070 has a weight of 5260 g.
+
+Q13: What is the height of the Dell OptiPlex 3070?
+A13: The Dell OptiPlex 3070 has a height of 290 mm.
+
+Q14: What is HDMI?
+A14: HDMI stands for High-Definition Multimedia Interface. An HDMI cable is used to transport audio and video signals between devices.
+
+Q15: What is the width of the Dell OptiPlex 3070?
+A15: The Dell OptiPlex 3070 has a width of 92.6 mm.
+
+Q16: What is the depth of the Dell OptiPlex 3070?
+A16: The Dell OptiPlex 3070 has a depth of 292 mm.
+
+Q17: What does the download speed on the internet depend on?
+A17: The download speed on the internet depends on the type of connection you have. If you have a 25 Mb/s connection this means that theoretically you should be able to download 25 MB per second.
+
+Q18: How do I clean my keyboard?
+A18: Hold the keyboard upside down and use a can of compressed air to blow away the dirt. The keys can even be cleaned with a damp cloth.
+
+Q19: Is the manual of the Dell OptiPlex 3070 available in English?
+A19: Yes, the manual of the Dell OptiPlex 3070 is available in English .

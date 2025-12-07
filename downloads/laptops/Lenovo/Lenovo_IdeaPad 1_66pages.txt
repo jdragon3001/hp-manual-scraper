@@ -1,0 +1,1013 @@
+Brand: LENOVO
+Model: Ideapad 1
+URL: https://www.manua.ls/lenovo/ideapad-1/manual
+Total Pages: 66
+============================================================
+
+--- Page 1 ---
+IdeaPad Series 1  
+Hardware Maintenance Manual
+
+--- Page 2 ---
+First Edition (September 2021)
+© Copyright Lenovo 2021.
+
+--- Page 3 ---
+Contents
+About this manual .  .  .  .  .  .  .  .  .  .  .  . iii
+Chapter 1.  Safety information .  .  .  .  .  . 1
+General safety .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  1
+Electrical safety .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  1
+Safety inspection guide .  .  .  .  .  .  .  .  .  .  .  .  .  2
+Handling devices that are sensitive to electrostatic  
+discharge .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  3
+Grounding requirements .  .  .  .  .  .  .  .  .  .  .  .  4
+Safety notices (multilingual translations) .  .  .  .  .  .  4
+Chapter 2.  General checkout .  .  .  .  .  21
+What to do first .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  21
+CRU list .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  22
+Chapter 3.  Identifying FRUs .  .  .  .  .  .  23
+Locate FRUs and CRUs .  .  .  .  .  .  .  .  .  .  .  23
+Chapter 4.  Removing a FRU or  
+CRU .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  27
+Service tools .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  27
+General guidelines.  .  .  .  .  .  .  .  .  .  .  .  .  .  27
+Remove the lower case .  .  .  .  .  .  .  .  .  .  .  .  28
+Remove the battery pack .  .  .  .  .  .  .  .  .  .  .  29
+Remove the memory .  .  .  .  .  .  .  .  .  .  .  .  .  32
+Remove the 2242 solid-state drive (for selected  
+models) .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  33
+Remove the 2280 solid-state drive (for selected  
+models) .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  34
+Remove the speakers .  .  .  .  .  .  .  .  .  .  .  .  35
+Remove the coin-cell battery.  .  .  .  .  .  .  .  .  .  36
+Remove the Wi-Fi card .  .  .  .  .  .  .  .  .  .  .  .  37
+Remove the heat sink .  .  .  .  .  .  .  .  .  .  .  .  38
+Remove the fan .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  39
+Remove the DC-in cable .  .  .  .  .  .  .  .  .  .  .  40
+Remove the I/O board .  .  .  .  .  .  .  .  .  .  .  .  42
+Remove the I/O board (without fingerprint  
+board) .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  43
+Remove the fingerprint reader (for selected  
+models) .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  45
+Remove the system board.  .  .  .  .  .  .  .  .  .  .  46
+Use a Golden Key U1 tool to flash-write key id 
+information .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  47
+Remove the upper case.  .  .  .  .  .  .  .  .  .  .  .  47
+Remove the LCD bezel .  .  .  .  .  .  .  .  .  .  .  .  49
+Remove the hinge cover .  .  .  .  .  .  .  .  .  .  .  49
+Remove the LCD module .  .  .  .  .  .  .  .  .  .  .  50
+Remove the hinges .  .  .  .  .  .  .  .  .  .  .  .  .  51
+Remove the microphone rubbers .  .  .  .  .  .  .  .  53
+Remove the EDP cable .  .  .  .  .  .  .  .  .  .  .  .  53
+Remove the camera module .  .  .  .  .  .  .  .  .  .  54
+Trademarks .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  lvii
+© Copyright Lenovo 2021 i
+
+--- Page 4 ---
+ii IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 5 ---
+About this manual
+This manual contains service and reference information for the following Lenovo products.
+Model name
+Machine type (MT)
+IdeaPad 1 14ADA7
+82R0
+IdeaPad 1 14ADA7 Ua
+IdeaPad 1 14ALC7
+82R3 
+IdeaPad 1 14ALC7 1
+IdeaPad 1 14ALC7 2
+IdeaPad 14 ALC7 
+IdeaPad 1 14AMN7
+82VF
+IdeaPad 1 14AMN7 Ua
+IdeaPad 1 14AMN7 Ub
+IdeaPad 1 14AMN7 Uc
+IdeaPad 1 14IAU7
+82QC
+IdeaPad 1 14IAU7 1
+IdeaPad 1 14IAU7 2
+IdeaPad 14 IAU7
+IdeaPad 1 14IGL7
+82V6IdeaPad 1 14IGL7 1
+IdeaPad 1 14IGL7 2
+IdeaPad 1 14IJL7
+82LV
+IdeaPad 1 14IJL7 Ua
+IdeaPad 1 15ADA7
+82R1
+IdeaPad 1 15ADA7 Ua
+IdeaPad 1 15ALC7
+82R4
+IdeaPad 1 15ALC7 1
+IdeaPad 1 15ALC7 2
+IdeaPad 15 ALC7
+IdeaPad 1 15AMN7
+82VG, 82X5
+IdeaPad 1 15AMN7 Ua
+IdeaPad 1 15AMN7 Ub
+IdeaPad 1 15AMN7 Uc
+IdeaPad 1 15IAU7
+82QD
+IdeaPad 1 15IAU7 1
+IdeaPad 1 15IAU7 2
+IdeaPad 15 IAU7
+© Copyright Lenovo 2021 iii
+
+--- Page 6 ---
+Model name Machine type (MT)
+IdeaPad 1 15IGL7
+82V7IdeaPad 1 15IGL7 1
+IdeaPad 1 15IGL7 2
+IdeaPad 1 15IJL7
+82LX
+IdeaPad 1 15IJL7 Ua
+Important: 
+•  This manual is intended only for trained service technicians who are familiar with Lenovo products.
+•  Before servicing a Lenovo product, be sure to read all the information under Chapter 1 “Safety 
+information” on page 1.
+iv
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 7 ---
+Chapter 1. Safety information
+This chapter presents the following safety information that you need to be familiar with before you service a 
+Lenovo notebook computer.
+General safety
+Follow these rules to ensure general safety:
+•  Observe good housekeeping in the area of the machines during and after maintenance.
+•  When lifting any heavy object:  
+1.  Make sure that you can stand safely without slipping.
+2.  Distribute the weight of the object equally between your feet.
+3.  Use a slow lifting force. Never move suddenly or twist when you attempt to lift.
+4.  Lift by standing or by pushing up with your leg muscles; this action removes the strain from the 
+muscles in your back. Do not attempt to lift any object that weighs more than 16 kg (35 lb) or that you 
+think is too heavy for you.
+•  Do not perform any action that causes hazards to the customer, or that makes the equipment unsafe.
+•  Before you start the machine, make sure that other service technicians and the customer's personnel are 
+not in a hazardous position.
+•  Place removed covers and other parts in a safe place, away from all personnel, while you are servicing the 
+machine.
+•  Keep your tool case away from walk areas so that other people will not trip over it.
+•  Do not wear loose clothing that can be trapped in the moving parts of a machine. Make sure that your 
+sleeves are fastened or rolled up above your elbows. If your hair is long, fasten it.
+•  Insert the ends of your necktie or scarf inside clothing or fasten it with a non-conductive clip, about 8 
+centimeters (3 inches) from the end.
+•  Do not wear jewelry, chains, metal-frame eyeglasses, or metal fasteners for your clothing.  
+Attention: Metal objects are good electrical conductors.
+•  Wear safety glasses when you are hammering, drilling, soldering, cutting wire, attaching springs, using 
+solvents, or working in any other conditions that might be hazardous to your eyes.
+•  After service, reinstall all safety shields, guards, labels, and ground wires. Replace any safety device that 
+is worn or defective.
+•  Reinstall all covers correctly before returning the machine to the customer.
+•  Fan louvers on the machine help to prevent overheating of internal components. Do not obstruct fan 
+louvers or cover them with labels or stickers.
+Electrical safety
+Observe the following rules when working on electrical equipment.
+Important: Use only approved tools and test equipment. Some hand tools have handles covered with a soft 
+material that does not insulate you when working with live electrical currents.Many customers have, near 
+their equipment, rubber floor mats that contain small conductive fibers to decrease electrostatic discharges. 
+Do not use this type of mat to protect yourself from electrical shock.
+•  Find the room emergency power-off (EPO) switch, disconnecting switch, or electrical outlet. If an electrical 
+accident occurs, you can then operate the switch or unplug the power cord quickly.
+•  Do not work alone under hazardous conditions or near equipment that has hazardous voltages.
+•  Disconnect all power before:  
+–  Performing a mechanical inspection
+–  Working near power supplies
+© Copyright Lenovo 2021 1
+
+--- Page 8 ---
+–  Removing or installing main units
+•  Before you start to work on the machine, unplug the power cord. If you cannot unplug it, ask the customer 
+to power-off the wall box that supplies power to the machine, and to lock the wall box in the off position.
+•  If you need to work on a machine that has exposed electrical circuits, observe the following precautions:  
+–  Ensure that another person, familiar with the power-off controls, is near you.  
+Attention: Another person must be there to switch off the power, if necessary.
+–  Use only one hand when working with powered-on electrical equipment; keep the other hand in your 
+pocket or behind your back.  
+Attention: An electrical shock can occur only when there is a complete circuit. By observing the above 
+rule, you may prevent a current from passing through your body.
+–  When using testers, set the controls correctly and use the approved probe leads and accessories for 
+that tester.
+–  Stand on suitable rubber mats (obtained locally, if necessary) to insulate you from grounds such as 
+metal floor strips and machine frames.
+Observe the special safety precautions when you work with very high voltages; Instructions for these 
+precautions are in the safety sections of maintenance information. Use extreme care when measuring high 
+voltages.
+•  Regularly inspect and maintain your electrical hand tools for safe operational condition.
+•  Do not use worn or broken tools and testers.
+•  Never assume that power has been disconnected from a circuit. First, check that it has been powered off.
+•  Always look carefully for possible hazards in your work area. Examples of these hazards are moist floors, 
+non-grounded power extension cables, power surges, and missing safety grounds.
+•  Do not touch live electrical circuits with the reflective surface of a plastic dental mirror. The surface is 
+conductive; such touching can cause personal injury and machine damage.
+•  Do not service the following parts with the power on when they are removed from their normal operating 
+places in a machine:  
+–  Power supply units
+–  Pumps
+–  Blowers and fans
+–  Motor generators
+–  Similar units as listed above
+This practice ensures correct grounding of the units.
+•  If an electrical accident occurs:  
+–  Use caution; do not become a victim yourself.
+–  Switch off power.
+–  Send another person to get medical aid.
+Safety inspection guide
+The purpose of this inspection guide is to assist you in identifying potentially unsafe conditions. As each 
+machine was designed and built, required safety items were installed to protect users and service 
+technicians from injury. This guide addresses only those items. You should use good judgment to identify 
+potential safety hazards due to attachment of non-Lenovo features or options not covered by this inspection 
+guide.
+If any unsafe conditions are present, you must determine how serious the apparent hazard could be and 
+whether you can continue without first correcting the problem.
+Consider these conditions and the safety hazards they present:  
+•  Electrical hazards, especially primary power (primary voltage on the frame can cause serious or fatal 
+electrical shock)
+•  Explosive hazards, such as a damaged cathode ray tube (CRT) face or a bulging capacitor
+•  Mechanical hazards, such as loose or missing hardware
+2
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 9 ---
+To determine whether there are any potentially unsafe conditions, use the following checklist at the 
+beginning of every service task. Begin the checks with the power off, and the power cord disconnected.
+Checklist:
+1.  Check exterior covers for damage (loose, broken, or sharp edges).
+2.  Power off the computer. Disconnect the power cord.
+3.  Check the power cord for: 
+a.  A third-wire ground connector in good condition. Use a meter to measure third-wire ground 
+continuity for 0.1 ohm or less between the external ground pin and the frame ground.
+b.  The power cord should be the authorized type specified for your computer. Go to: 
+http:// 
+www.lenovo.com/serviceparts-lookup
+c.  Insulation must not be frayed or worn.
+4.  Check for cracked or bulging batteries.
+5.  Remove the cover.
+6.  Check for any obvious non-Lenovo alterations. Use good judgment as to the safety of any non-Lenovo 
+alterations.
+7.  Check inside the unit for any obvious unsafe conditions, such as metal filings, contamination, water or 
+other liquids, or signs of fire or smoke damage.
+8.  Check for worn, frayed, or pinched cables.
+9.  Check that the power-supply cover fasteners (screws or rivets) have not been removed or tampered 
+with.
+Handling devices that are sensitive to electrostatic discharge
+Any computer part containing transistors or integrated circuits (ICs) should be considered sensitive to 
+electrostatic discharge (ESD). ESD damage can occur when there is a difference in charge between objects. 
+Protect against ESD damage by equalizing the charge so that the machine, the part, the work mat, and the 
+person handling the part are all at the same charge.
+Notes: 
+1.  Use product-specific ESD procedures when they exceed the requirements noted here.
+2.  Make sure that the ESD protective devices you use have been certified (ISO 9000) as fully effective.
+When handling ESD-sensitive parts:
+•  Keep the parts in protective packages until they are inserted into the product.
+•  Avoid contact with other people.
+•  Wear a grounded wrist strap against your skin to eliminate static on your body.
+•  Prevent the part from touching your clothing. Most clothing is insulative and retains a charge even when 
+you are wearing a wrist strap.
+•  Use a grounded work mat to provide a static-free work surface. The mat is especially useful when 
+handling ESD-sensitive devices.
+•  Select a grounding system, such as those listed below, to provide protection that meets the specific 
+service requirement.  
+Note: The use of a grounding system to guard against ESD damage is desirable but not necessary.
+–  Attach the ESD ground clip to any frame ground, ground braid, or green-wire ground.
+–  When working on a double-insulated or battery-operated system, use an ESD common ground or 
+reference point. You can use coax or connector-outside shells on these systems.
+–  Use the round ground prong of the ac plug on ac-operated computers.
+Chapter 1. Safety information 3
+
+--- Page 10 ---
+Grounding requirements
+Electrical grounding of the computer is required for operator safety and correct system function. Proper 
+grounding of the electrical outlet can be verified by a certified electrician. 
+Safety notices (multilingual translations)
+The safety notices in this section are provided in the following languages: 
+•  English
+•  Arabic
+•  Brazilian Portuguese
+•  French
+•  German
+•  Hebrew
+•  Japanese
+•  Korean
+•  Spanish
+•  Traditional Chinese
+DANGER
+DANGER
+DANGER
+4 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 11 ---
+DANGER
+DANGER
+DANGER
+DANGER
+DANGER
+Chapter 1. Safety information 5
+
+--- Page 12 ---
+6 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 13 ---
+PERIGO
+PERIGO
+PERIGO
+Chapter 1. Safety information 7
+
+--- Page 14 ---
+PERIGO
+PERIGO
+PERIGO
+PERIGO
+PERIGO
+8
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 15 ---
+DANGER
+DANGER
+DANGER
+DANGER
+Chapter 1. Safety information 9
+
+--- Page 16 ---
+DANGER
+DANGER
+DANGER
+DANGER
+VORSICHT
+10 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 17 ---
+VORSICHT
+VORSICHT
+VORSICHT
+VORSICHT
+Chapter 1. Safety information 11
+
+--- Page 18 ---
+VORSICHT
+VORSICHT
+VORSICHT
+12 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 19 ---
+Chapter 1. Safety information 13
+
+--- Page 20 ---
+14 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 21 ---
+Chapter 1. Safety information 15
+
+--- Page 22 ---
+16 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 23 ---
+Chapter 1. Safety information 17
+
+--- Page 24 ---
+18 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 25 ---
+Chapter 1. Safety information 19
+
+--- Page 26 ---
+20 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 27 ---
+Chapter 2. General checkout
+This chapter contains the following topics:
+Before you go to the checkout instructions, ensure that you read the following important notes.
+Important notes:
+•  Only certified trained personnel should service the computer.
+•  Before replacing any FRU, read the entire page on removing and replacing FRUs.
+•  Be extremely careful during such write operations as copying, saving, or formatting. Drives in the computer 
+that you are servicing sequence might have been altered. If you select an incorrect drive, data or programs might be 
+overwritten.
+•  Replace a FRU only with another FRU of the correct model. When you replace a FRU, make sure that the model 
+of the machine and the FRU part number are correct by referring to the FRU parts list.
+•  A FRU should not be replaced because of a single, unreproducible failure. Single failures can occur for a variety 
+of reasons that have nothing to do with a hardware defect, such as cosmic radiation, electrostatic discharge, or 
+software errors. Consider replacing a FRU only when a problem recurs. If you suspect that a FRU is defective, clear 
+the error log and run the test again. If the error does not recur, do not replace the FRU.
+•  Be careful not to replace a nondefective FRU.
+What to do first
+When you return a FRU, you must include the following information in the parts exchange form or parts return 
+form that you attach to it:
+1.  Name and phone number of service technician
+2.  Date of service
+3.  Date on which the machine failed
+4.  Date of purchase
+5.  Failure symptoms, error codes appearing on the display, and beep symptoms
+6.  Procedure index and page number in which the failing FRU was detected
+7.  Failing FRU name and part number
+8.  Machine type, model number, and serial number
+9.  Customer's name and address
+Note: During the warranty period, the customer may be responsible for repair costs if the computer damage 
+was caused by misuse, accident, modification, unsuitable physical or operating environment, or improper 
+maintenance by the customer. Following is a list of some common items that are not covered under warranty 
+and some symptoms that might indicate that the system was subjected to stress beyond normal use.
+Before checking problems with the computer, determine whether the damage is covered under the warranty 
+by referring to the following list:
+The following are not covered under warranty:
+•  LCD panel cracked from the application of excessive force or from being dropped
+•  Scratched (cosmetic) parts
+•  Distortion, deformation, or discoloration of the cosmetic parts
+•  Plastic parts, latches, pins, or connectors that have been cracked or broken by excessive force
+•  Damage caused by liquid spilled into the system
+© Copyright Lenovo 2021 21
+
+--- Page 28 ---
+•  Damage caused by the improper insertion of a personal-computer card (PC card) or the installation of an 
+incompatible card
+•  Improper disc insertion or use of an external optical drive
+•  Fuses blown by attachment of a non-supported device
+•  Forgotten computer password (making the computer unusable)
+•  Sticky keys caused by spilling a liquid onto the keyboard
+•  Use of an incorrect ac power adapter on laptop products
+The following symptoms might indicate damage caused by non-warranted activities:
+•  Missing parts might be a symptom of unauthorized service or modification.
+•  Check for obvious damage to a hard disk drive. If the spindle of a hard disk drive becomes noisy, the hard 
+disk drive might have been dropped or subject to excessive force.
+CRU list
+Table 1.  Model: 14–inch models (Machine type: 82R0, 82R3, 82QC, 82LV, and 82VF)
+CRU
+Type
+ac power adapter  self-service
+power cord self-service
+Table 2.  Model: 15–inch models (Machine type: 82R1, 82R4, 82QD, 82LX, and 82VG)
+CRU
+Type
+ac power adapter  self-service
+power cord self-service
+22 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 29 ---
+Chapter 3. Identifying FRUs
+Locate FRUs and CRUs
+The exploded illustrations help Lenovo service technicians identify FRUs or CRUs that they may need to 
+replace when servicing a customer’s computer.
+Figure 1. Exploded view
+Table 3.  FRU (CRU) categories
+No.
+FRU (CRU) category
+1
+Upper case
+2
+Heat sink
+3
+System fan
+4
+I/O board
+5
+Fingerprint reader*
+6
+Battery pack
+© Copyright Lenovo 2021 23
+
+--- Page 30 ---
+Table 3. FRU (CRU) categories (continued)
+7
+Lower case
+8
+Speakers
+9
+Coin-cell battery
+10
+System board
+11
+Wi-Fi card mylar
+12
+Wi-Fi card
+13
+Memory
+14
+2242 solid-state drive*
+15
+2242 solid-state drive bracket*
+16
+2280 solid-state drive*
+17
+DC-in cable
+18
+Screw kit
+* For selected models
+Figure 2. LCD exploded view
+Table 4.  FRU (CRU) categories
+No. FRU (CRU) category
+1
+LCD cover
+2
+LCD bezel
+24 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 31 ---
+Table 4. FRU (CRU) categories (continued)
+3
+LCD module
+4
+EDP cable
+5
+Hinges
+6
+Hinge cover
+7
+Microphone rubbers
+8
+Camera module
+9
+Removable tapes
+Chapter 3. Identifying FRUs 25
+
+--- Page 32 ---
+26 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 33 ---
+Chapter 4. Removing a FRU or CRU
+Service tools
+The following table lists tools for servicing Lenovo computers. Tools with a cross mark are needed for serving 
+the product models as described by this publication. Prepare them before you service the product.
+Table 5.  Service tools
+Service tool and consumable
+Model applicability
+Screw driver (Phillips head) (PH1/PH01)
+X
+Screw driver (Torx head) (T5) X
+Screw driver (Torx head) (T30)
+Pry tool 1 X
+Tweezers (conductive)
+X
+Tweezers (isolated)
+Suction cup
+Hexagonal socket
+Silicone grease
+Acetate tape  X
+Polyamide tape
+Mylar tape X
+Electrical tape
+Double-sided tape
+Conductive tape
+Eraser
+Heat gun
+Brown brush
+Notes: 
+•  T30 screw drivers are used to service the new Intel Xeon CPUs.
+•  Hexagonal sockets are used to remove antenna connectors.
+•  Silicone grease is applied to the CPU and heatsink surfaces to eliminate air gaps.
+General guidelines
+When removing or replacing a FRU, ensure that you observe the following general guidelines:
+1.  Do not try to service any computer unless you have been trained and certified. An untrained person runs 
+the risk of damaging parts.
+2.  Begin by removing any FRUs that have to be removed before replacing the failing FRU. Any such FRUs 
+are listed at the beginning of each FRU replacement procedure. Remove them in the order in which they 
+are listed.
+© Copyright Lenovo 2021 27
+
+--- Page 34 ---
+3.  Follow the correct sequence in the steps for removing a FRU, as shown in the illustrations by the 
+numbers in square callouts.
+4.  When removing a FRU, move it in the direction as shown by the arrow in the illustration. 
+5.  To install a new FRU in place, perform the removal procedure in reverse and follow any notes that 
+pertain to replacement.
+6.  When replacing a FRU, carefully retain and reuse all screws.
+7.  When replacing the base cover, reapply all labels that come with the replacement base cover. If some 
+original labels are not included with the replacement base cover, peal them off from the original base 
+cover and paste them on the replacement base cover. 
+DANGER
+Before removing any FRU or CRU, shut down the computer and unplug all power cords from 
+electrical outlets.
+Attention: After replacing a FRU, do not turn on the computer until you have ensured that all screws, 
+springs, and other small parts are in place and none are loose inside the computer. Verify this by shaking the 
+computer gently and listening for rattling sounds. Metallic parts or metal flakes can cause electrical short 
+circuits.
+Attention: The system board is sensitive to and can be damaged by ESD. Before touching it, establish 
+personal grounding by touching a ground point with one hand or by using an ESD strap (P/N 6405959).
+Remove the lower case
+Make sure the computer has been shut down before servicing the computer.
+Step 1.  Place the computer upside down on a flat surface.
+Step 2.  Remove nine screws for 14–inch models, or remove ten screws for 15–inch models. Then, pry up 
+the latches and remove the lower case. 
+Figure 3. Remove nine screws for 14–inch models
+28 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 35 ---
+Screw specifications   Number of screws  
+M2 x L5.5  9 
+Figure 4. Remove ten screws for 15–inch models
+Screw specifications  
+Number of screws  
+M2 x L5.5  10 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Lower case
+Remove the battery pack
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernail to pull the connector to unplug it. Do not pull the cable. 
+Chapter 4. Removing a FRU or CRU 29
+
+--- Page 36 ---
+Figure 5. Disconnect the battery pack cable for 14–inch models
+Figure 6. Disconnect the battery pack cable for 15–inch models
+Step 2.  Remove five screws for 14–inch models or six screws for 15–inch models and then remove the 
+battery pack. 
+30
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 37 ---
+Figure 7. Remove five screws and the battery pack for 14–inch models
+Screw specifications  Number of screws 
+M2 x L4 
+5 
+Figure 8. Remove six screws and the battery pack for 15–inch models
+Screw specifications 
+Number of screws 
+M2 x L4  6 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Battery pack
+Chapter 4. Removing a FRU or CRU 31
+
+--- Page 38 ---
+Remove the memory
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable from the system board. Then, remove one screw, and the 2242 
+solid-state drive bracket. 
+Attention: Use your fingernail to pull the connector to unplug it. Do not pull the cable.
+Figure 9. Disconnect the battery pack cable
+Step 2.  Open the latches and remove the memory. 
+Figure 10. Remove the memory
+32 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 39 ---
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Memory
+Remove the 2242 solid-state drive (for selected models)
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable from the system board. Then, remove tow screw and the 2242 
+solid-state drive bracket. 
+Attention: Use your fingernail to pull the connector to unplug it. Do not pull the cable.
+Figure 11. Disconnect cables and remove screws and 2242 solid-state drive bracket
+Screw specifications  Number of screws 
+M2 x L2.5  2 
+Step 2.  Remove the 2242 solid-state drive by pulling it away from the slot. 
+Chapter 4. Removing a FRU or CRU 33
+
+--- Page 40 ---
+Figure 12. Remove the 2242 solid-state drive
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+2242 solid-state drive
+Remove the 2280 solid-state drive (for selected models)
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable from the system board. Then, remove one screw. 
+Figure 13. Disconnect the cable of the 2280 solid-state drive
+34 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 41 ---
+Screw specifications  Number of screws 
+M2 x L2.5  1 
+Step 2.  Remove the 2280 solid-state drive by pulling it away from the slot. 
+Figure 14. Remove the 2280 solid-state drive
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+2280 solid-state drive
+Remove the speakers
+Make sure the following FRUs (CRUs) have been removed. 
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable and the speaker connector from the system board. 
+Chapter 4. Removing a FRU or CRU 35
+
+--- Page 42 ---
+Figure 15. Disconnect cables
+Step 2.  Carefully remove the speakers. 
+Figure 16. Remove speakers
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Speaker
+Remove the coin-cell battery
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+“Remove the I/O board” on page 42
+36
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 43 ---
+Step 1.  Disconnect the battery pack cable and coin-cell battery cable from the system board. Then, 
+remove the coin-cell battery. 
+Figure 17. Disconnect cables and remove the coin-cell battery
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Coin-cell battery
+Remove the Wi-Fi card
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable and the Wi-Fi card cable from the system board.  
+Figure 18. Disconnect cables
+Chapter 4. Removing a FRU or CRU 37
+
+--- Page 44 ---
+Step 2.  Remove one screw, and then remove the Wi-Fi card. 
+Figure 19. Remove the Wi-Fi card
+Screw specifications  Number of screws 
+M2 x L2.5  1 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Wi-Fi card
+Remove the heat sink
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable from the system board.  
+Attention: Use your fingernail to pull the connector to unplug it. Do not pull the cable. 
+38
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 45 ---
+Figure 20. Disconnect the battery pack cable
+Step 2.  Loosen three screws and remove the heat sink. 
+Figure 21. Loosen three screws and remove the heat sink
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Heat sink
+Remove the fan
+Make sure the following FRUs (or CRUs) have been removed. 
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable and the fan cable from the system board. 
+Chapter 4. Removing a FRU or CRU 39
+
+--- Page 46 ---
+Figure 22. Disconnect cables
+Step 2.  Remove two screws and then remove the fan. 
+Figure 23. Remove two screws and the fan
+Screw specifications 
+Number of screws 
+M2 x L4  2 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Fan
+Remove the DC-in cable
+Make sure the following FRUs (or CRUs) have been removed. 
+40
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 47 ---
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable and the fan cable from the system board. Then, remove three 
+screws and open the right hinge. 
+Figure 24. Disconnect cables
+Screw specifications 
+Number of screws 
+M2 x L4  1 
+M2.5 x L4.5  2 
+Step 2.  Disconnect the DC-in connector and remove the DC-in cable. 
+Figure 25. Disconnect and remove the DC-in cable
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Chapter 4. Removing a FRU or CRU 41
+
+--- Page 48 ---
+DC-in cable
+Remove the I/O board
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable, the I/O board cable, and fingerprint board cable from the 
+system board. Then, remove four screws 
+Figure 26. Disconnect cables and remove four screws
+Screw specifications 
+Number of screws 
+M2 x L4  1 
+M2.5 x L4.5  3 
+Step 2.  Open the left hinge and remove the I/O board. 
+42
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 49 ---
+Figure 27. Open the left hinge and remove the I/O board
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+I/O board
+Remove the I/O board (without fingerprint board)
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable and I/O board cable from the system board. Then, remove four 
+screws. 
+Chapter 4. Removing a FRU or CRU 43
+
+--- Page 50 ---
+Figure 28. Disconnect cables and remove four screws
+Screw specifications  Number of screws 
+M2 x L4  1 
+M2.5 x L4.5  3 
+Step 2.  Open the left hinge and remove the I/O board. 
+Figure 29. Open the left hinge and remove the I/O board
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+I/O board
+44
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 51 ---
+Remove the fingerprint reader (for selected models)
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+“Remove the I/O board” on page 42
+“Remove the I/O board (without fingerprint board)” on page 43
+Step 1.  Remove the fingerprint reader. 
+Figure 30. Disconnect cables and remove four screws
+Step 2.  Remove the fingerprint reader cable from the reader. 
+Figure 31. Remove the I/O board
+Chapter 4. Removing a FRU or CRU 45
+
+--- Page 52 ---
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Fingerprint reader
+Remove the system board
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+“Remove the memory” on page 32
+“Remove the 2242 solid-state drive (for selected models)” on page 33
+“Remove the 2280 solid-state drive (for selected models)” on page 34
+“Remove the Wi-Fi card” on page 37
+“Remove the heat sink” on page 38
+“Remove the fan” on page 39
+Step 1.  Disconnect the CMOS battery connector, keyboard light cable connector, speaker connector, 
+touchpad cable connector, I/O board cable connector, dc-in cable connector from the system 
+board. 
+Figure 32. Disconnect cables
+Step 2.  Remove three screws and open the left hinge. Then, remove the system board. 
+46
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 53 ---
+Figure 33. Remove the system board
+Screw specifications  Number of screws 
+M2 x L4  1 
+M2.5 x L4.5  2 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+System board
+Use a Golden Key U1 tool to flash-write key id information
+After replacing the system board and re-assembling the computer, use a pre-made Golden Key U1 tool to 
+start the computer and flash-write the serial number (SN), machine type (MT), product name (PN), and UUID 
+to the new system board. 
+The Golden Key U1 tool is prepared by running the U1 Update software on a FAT32-formatted USB thumb 
+drive. Go to 
+http://support.lenovo.com/us/en/solutions/HT506954 for detailed instructions on how to create 
+and use a Goldern Key U1 tool. 
+Remove the upper case
+Make sure the following FRUs (CRUs) have been removed. 
+“Remove the lower case” on page 28
+Step 1.  Disconnect the battery pack cable. Then, remove six screws. 
+Chapter 4. Removing a FRU or CRU 47
+
+--- Page 54 ---
+Figure 34. Disconnect the battery pack cable and remove six screws
+Screw specifications  Number of screws 
+M2 x L4  1 
+M2.5 x L4.5 
+5 
+Step 2. 
+Rotate the upper case to a degree less than 90º and remove the upper case. 
+Figure 35. Remove the upper case
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Upper case
+48
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 55 ---
+Remove the LCD bezel
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+“Remove the upper case” on page 47
+“Remove the hinge cover” on page 49
+Step 1.  Remove two screws. Then, remove the LCD bezel. 
+Figure 36. Remove the LCD bezel
+Screw specifications  Number of screws 
+M2 x L4  2 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+LCD bezel
+Remove the hinge cover
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+“Remove the upper case” on page 47
+Step 1.  Remove the hinge cover. 
+Chapter 4. Removing a FRU or CRU 49
+
+--- Page 56 ---
+Figure 37. Remove the hinge cover
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Hinge cover
+Remove the LCD module
+Make sure the following FRUs (CRUs) have been removed. 
+“Remove the lower case” on page 28
+“Remove the upper case” on page 47
+“Remove the hinge cover” on page 49
+“Remove the LCD bezel” on page 49
+Step 1.  Pull out two removable tapes and lift the LCD module. 
+50
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 57 ---
+Figure 38. Pull out removable tapes and lift the LCD module
+Step 2.  Peel off the mylar tape and disconnect the camera cable and EDP cable from the LCD module. 
+Then, remove the LCD module. 
+Figure 39. Rotate the LCD module and remove six screws
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+LCD module
+Remove the hinges
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+“Remove the upper case” on page 47
+Chapter 4. Removing a FRU or CRU 51
+
+--- Page 58 ---
+“Remove the hinge cover” on page 49
+Step 1.  Remove eight screws. 
+Figure 40. Remove eight screws
+Screw specifications 
+Number of screws 
+M2.5 x L4.5  8 
+Step 2.  Remove the hinges. 
+Figure 41. Remove the hinges
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Hinge
+52
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 59 ---
+Remove the microphone rubbers
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+“Remove the upper case” on page 47
+“Remove the hinge cover” on page 49
+“Remove the LCD bezel” on page 49
+“Remove the LCD module” on page 50
+Step 1.  Remove the microphone rubbers. 
+Figure 42. Disconnect cables and remove four screws
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Microphone rubber
+Remove the EDP cable
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+“Remove the upper case” on page 47
+“Remove the hinge cover” on page 49
+“Remove the LCD bezel” on page 49
+“Remove the LCD module” on page 50
+Step 1.  Disconnect the camera cable. 
+Chapter 4. Removing a FRU or CRU 53
+
+--- Page 60 ---
+Figure 43. Disconnect cables and remove four screws
+Step 2.  Remove the EDP cable. 
+Figure 44. Remove the EDP cable
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+EDP cable
+Remove the camera module
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 28
+“Remove the upper case” on page 47
+“Remove the hinge cover” on page 49
+54
+IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 61 ---
+“Remove the LCD bezel” on page 49
+“Remove the LCD module” on page 50
+“Remove the microphone rubbers” on page 53
+Step 1.  Disconnect the camera connector and remove the camera. 
+Figure 45. Disconnect the camera connector and remove the camera
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement part:
+Camera module
+Chapter 4. Removing a FRU or CRU 55
+
+--- Page 62 ---
+56 IdeaPad Series 1 Hardware Maintenance Manual
+
+--- Page 63 ---
+Trademarks
+LENOVO and the LENOVO logo are trademarks of Lenovo.
+All other trademarks are the property of their respective owners. © 2021 Lenovo.
+

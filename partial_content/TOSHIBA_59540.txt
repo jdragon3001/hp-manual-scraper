@@ -1,0 +1,1843 @@
+--- Page 1 ---
+computers.toshiba-europe.com
+User’s Manual
+P300/P300D Series
+
+--- Page 2 ---
+User’s Manual ii
+P300/P300D Series
+Copyright
+© 2008 by TOSHIBA Corporation. All rights reserved. Under the copyright 
+laws, this manual cannot be reproduced in any form without the prior 
+written permission of TOSHIBA. No patent liability is assumed, with respect 
+to the use of the information contained herein. 
+Toshiba P300/P300D Series Portable Personal Computer User's Manual 
+First edition February 2008 
+Ownership and copyright of music, video, computer programs, databases, 
+etc. are protected by the copyright laws. These copyrighted materials may 
+be copied for private use at home only. If, beyond the limitation above, you 
+copy (including to transform data formats) or modify these materials, 
+transfer them or distribute them via the Internet without approval of 
+copyright owners, you may be subject to claims for compensation for 
+damage and/or criminal penalties due to infringements of copyrights or 
+personal rights. Please remember to observe the copyright laws when you 
+use this product to copy the copyrighted works or perform other actions.
+Please note that you may infringe the owner's rights protected by the 
+copyright laws if you use the screen mode switching functions (e.g. Wide 
+mode, Wide Zoom mode, etc.) of this product to display enlarged 
+images/video at coffee shops or hotels for the purposes of profits or 
+providing these to the public.
+Disclaimer 
+This manual has been validated and reviewed for accuracy. The 
+instructions and descriptions it contains are accurate for the P300/P300D 
+Series Portable Personal Computer at the time of this manual’s production. 
+However, succeeding computers and manuals are subject to change 
+without notice. TOSHIBA assumes no liability for damages incurred directly 
+or indirectly from errors, omissions or discrepancies between the computer 
+and the manual. 
+Trademarks 
+Microsoft, Windows and Windows Vista are either registered trademarks or 
+trademarks of Microsoft Corporation.
+DirectX, AcriveDesktop, DirectShow, and Windows Media are registered 
+trademarks of Microsoft Corporation.
+Intel, Intel Core, Celeron, Centrino and Pentium are trademarks or 
+registered trademarks of Intel Corporation.
+This product incorporates copyright protection technology that is protected 
+by U.S. patents and other intellectual property rights. Use of this copyright 
+protection technology must be authorized by Macrovision, and is intended 
+for home and other limited viewing uses only unless otherwise authorized 
+by Macrovision. Reverse engineering or disassembly is prohibited.
+
+--- Page 3 ---
+User’s Manual iii
+P300/P300D Series
+AMD, the AMD Arrow logo, AMD Athlon, AMD Turion, Radeon, and 
+combinations thereof, ATI Mobility Radeon are trademarks of Advanced 
+Micro Devices, Inc.
+Adobe and Photoshop are either registered trademarks or trademarks of 
+Adobe Systems Incorporated.
+Bluetooth is a registered trademark owned by its proprietor and used by 
+TOSHIBA under license.
+ConfigFree is a trademark of TOSHIBA Corporation.
+The HD DVD Logo is a trademark of DVD Format/Logo Licensing 
+Corporation.
+DVD MovieFactory is a trademark of the Ulead Systems, Inc.
+BizCard is a trademark of NewSoft Technology Corporation.
+Dolby is a registered trademark of Dolby Laboratories.
+ExpressCard is a trademark of PCMCIA.
+HDMI, the HDMI logo and High-Definition Multimedia Interface are 
+trademarks or registered trademarks of HDMI Licensing LLC.
+Labelflash is a trademark of YAMAHA CORPORATION.
+Memory Stick, Memory Stick PRO, and i.LINK are registered trademarks 
+and i.LINK is a trademark of SonyCorporation.
+MultiMediaCard and MMC are trademarks of MultiMediaCard Association.
+Photo CD is a trademark of Eastman Kodak.
+Secure Digital and SD are trademarks of SD Card Association.
+xD-Picture Card is a trademark of Fuji Photo Film, Co., Ltd.
+Wi-Fi is a registered trademark of the Wi-Fi Alliance.
+Other trademarks and registered trademarks not listed above may be used 
+in this manual.
+Safety lnstructions
+Use the following safety guidelines to help protect yourself and your 
+computer.
+When Using Your Computer 
+■ Do not attempt to service the computer yourself. Always follow 
+installation instructions closely.
+■ Do not carry a battery in your pocket, purse, or other container where 
+metal objects (such as car keys) could short-circuit the battery 
+terminals. The resulting excessive current follow can cause extremely 
+high temperatures and may result in damage from burns.
+Do not operate your portable computer for an extended period of time with 
+the base resting directly on your body. With extended operation, heat can 
+potentially build up in the base. Allowing sustained contact with the skin 
+could cause discomfort or, eventually, a burn.
+
+--- Page 4 ---
+User’s Manual iv
+P300/P300D Series
+■ Be sure that nothing rests on your AC adapter's power cable and that 
+the cable is not located where it can be tripped over or stepped on.
+■ Place the AC adapter in a ventilated area, such as a desk top or on the 
+floor, when you use it to run the computer or to charge the battery. Do 
+not cover the AC adapter with papers or other items that will reduce 
+cooling; also, do not use the AC adapter while it is inside a carrying 
+case.
+■ Use only the AC adapter and batteries that are approved for use with 
+this computer. Use of another type of battery or AC adapter may risk fire 
+or explosion.
+■ Before you connect the computer to a power source, ensure that the 
+voltage rating of the AC adapter matches that of the available power 
+source. 115V/60 Hz in most of North and South America and some Far 
+Eastern countries such as Taiwan. 100 V/50 Hz in eastern Japan and 
+100 V/60 Hz in westem Japan. 230 V/50 Hz in most of Europe, the 
+Middle East, and the Far East.
+■ If you use an extension cable with your AC adapter, ensure that the total 
+ampere rating of the products plugged in to the extension cable does 
+not exceed the ampere rating of the extension cable.
+■ To remove power form the computer, turn it off, remove the battery, and 
+disconnect the AC adapter from the electrical outlet.
+■ To help avoid the potential hazard of electric shock, do not connect or 
+disconnect any cables or perform maintenance or reconfiguration of this 
+product during an electrical storm.
+■ When setting up the computer for work, place it on a level surface.
+EU Declaration of Conformity
+CE compliance
+This product is labelled with the CE Mark in accordance with Radio 
+Equipment and Telecommunications Terminal Equipment Directive 
+1999/5/EC which includes the compliance to the Electromagnetic 
+Compatibility Directive 2004/108/EC and the Low Voltage Directive 
+2006/95/EC.
+CE Marking is the responsibility of TOSHIBA EUROPE GmbH, 
+Hammfelddamm 8, 41460 Neuss, Germany, phone +49-(0)-2131-158-01.
+For a copy of the related CE Declaration of Conformity please refer to the 
+following website: http://epps.toshiba-teg.com.
+
+--- Page 5 ---
+User’s Manual v
+P300/P300D Series
+This product and the supplied accessories are designed to observe the 
+required EMC (Electromagnetic Compatibility) standards. However, 
+Toshiba cannot guarantee that this product still observes these EMC 
+standards if accessories or cables not manufactured/distributed by Toshiba 
+are connected or implemented. To avoid in general EMC problems, the 
+following advice should be observed:
+■ Only CE marked accessories should be connected/implemented
+■ Only the best shielded data cables should be connected
+Working environment
+This product was designed to fulfill the EMC (Electromagnetic 
+Compatibility) requirements for "residential, commercial and light industry 
+environments". The following environment is not approved:
+In the following environments the use of this product can be restricted: 
+■ Industrial Environments (e.g. environments where a mains voltage of 
+380V three-phase is being used).
+■ Medical Environments: This product is not certified as a medical 
+product according to the Medical Product Directive 93/42/EEC, but can 
+be used in office areas where the use is not restricted. Please disable 
+the wireless LAN or Bluetooth hardware in such areas as long this 
+feature is not official supported by the operator of the related medical 
+facility.
+■ Vehicle Environments: Please read the operator's manual of the vehicle 
+manufacturer for further restrictions of use.
+■ Aircraft Environments: Please follow the advices of the flight personnel 
+regarding restrictions of use.
+Any consequences resulting from the use of this product in working 
+environments that are not approved or the use is restricted are not the 
+responsibility of Toshiba Corporation. The consequences of the use of this 
+product in those working environments may be:
+■ Interference with other devices or machines in the nearby surrounding 
+area
+■ Malfunction of, or data loss from, this product caused by disturbances 
+generated by other devices or machines in the nearby surrounding area
+Furthermore, for general safety reasons, the use of this product in 
+environments with explosive atmospheres is not permitted.
+
+--- Page 6 ---
+User’s Manual vi
+P300/P300D Series
+Modem warning notice
+Conformity Statement
+The equipment has been approved to [Council Decision 98/482/EC - "TBR 
+21"] for pan-European single terminal connection to the Public Switched 
+Telephone Network (PSTN).
+However, due to differences between the individual PSTNs provided in 
+different countries/regions the approval does not, of itself, give an 
+unconditional assurance of successful operation on every PSTN network 
+termination point.
+In the event of problems, you should contact your equipment supplier in the 
+first instance.
+Network Compatibility Statement
+This product is designed to work with, and is compatible with the following 
+networks. It has been tested to and found to conform with the additional 
+requirements conditional in EG 201 121.
+Specific switch settings or software setup are required for each network, 
+please refer to the relevant sections of the user guide for more details.
+The hookflash (timed break register recall) function is subject to separate 
+national type approvals. It has not been tested for conformity to national 
+type regulations, and no guarantee of successful operation of that specific 
+function on specific national networks can be given.
+GOST
+Germany ATAAB AN005, AN006, AN007, AN009, AN010 and 
+DE03, 04, 05, 08, 09,12,14,17
+Greece ATAAB AN005, AN006 and GR01, 02, 03, 04
+Portugal ATAAB AN001, 005, 006, 007, 011 and P03, 04, 08, 
+10
+Spain ATAAB AN005, 007, 012, and ES01
+Switzerland ATAAB AN002
+All other 
+countries/regions
+ATAAB AN003, 004
+
+--- Page 7 ---
+User’s Manual vii
+P300/P300D Series
+ENERGY STAR
+®
+ Program
+Your computer model may be ENERGY STAR
+®
+ Compliant. If the model 
+you purchased is compliant, it is labeled with the ENERGY STAR
+®
+ logo on 
+the computer and the following information applies.TOSHIBA is a partner in 
+the Environmental Protection Agency’s (EPA) ENERGY STAR
+®
+ Program 
+and has designed this computer to meet the latest ENERGY STAR
+®
+ 
+guidelines for energy efficiency. Your computer ships with the power 
+management options preset to a configuration that will provide the most 
+stable operating environment and optimum system performance for both 
+AC power and battery modes. To conserve energy, your computer is set to 
+enter the low-power Sleep mode which shuts down the system and display 
+within 15 minutes of inactivity in AC power mode. TOSHIBA recommends 
+that you leave this and other energy saving features active, so that your 
+computer will operate at its maximum energy efficiency. You can wake the 
+computer from Sleep mode by pressing the power button.Products that 
+earn the ENERGY STAR
+®
+ prevent greenhouse gas emissions by meeting 
+strict energy efficiency guidelines set by the US EPA and the EU 
+Commission. According to the EPA, a computer meeting the new ENERGY 
+STAR
+®
+ specifications will use between 20% and 50% less energy 
+depending on how it is used.Visit http://www.eu-energystar.org or 
+http://www.energystar.gov for more information regarding the ENERGY 
+STAR Program.
+Following information is only for EU-member states:
+The symbol indicates that this product may not be treated as 
+household waste. Please ensure this product is properly 
+disposed as inappropriate waste handling of this product may 
+cause potential hazards to the environment and human health. 
+For more detailed information about recycling of this product, 
+please contact your local city office, your household waste 
+disposal service or the shop where you purchased the product.
+Optical disc drive safety instructions 
+This symbol may not be displayed depending on the country and region 
+where you purchased.
+Be sure to check the international precautions at the end of this section.
+
+--- Page 8 ---
+User’s Manual viii
+P300/P300D Series
+Hitach-LG Data Storage
+DVD Super Multi GSA-T40F/GSA-T40N
+■ The DVD Super Multi drive employs a laser system. To ensure proper 
+use of this product, please read this instruction manual carefully and 
+retain for future reference. Should the unit ever require maintenance, 
+contact an authorized service location. 
+■ Use of controls, adjustments or the performance of procedures other 
+than those specified may result in hazardous radiation exposure. 
+■ To prevent direct exposure to the laser beam, do not try to open the 
+enclosure.
+
+--- Page 9 ---
+User’s Manual ix
+P300/P300D Series
+Panasonic
+DVD Super Multi UJ-870B
+■ The DVD Super Multi drive employs a laser system. To ensure proper 
+use of this product, please read this instruction manual carefully and 
+retain for future reference. Should the unit ever require maintenance, 
+contact an authorized service location. 
+■ Use of controls, adjustments or the performance of procedures other 
+than those specified may result in hazardous radiation exposure. 
+■ To prevent direct exposure to the laser beam, do not try to open the 
+enclosure.
+
+--- Page 10 ---
+User’s Manual x
+P300/P300D Series
+Pioneer
+DVD Super Multi DVR-KD08
+■ The DVD Super Multi drive employs a laser system. To ensure proper 
+use of this product, please read this instruction manual carefully and 
+retain for future reference. Should the unit ever require maintenance, 
+contact an authorized service location. 
+■ Use of controls, adjustments or the performance of procedures other 
+than those specified may result in hazardous radiation exposure. 
+■ To prevent direct exposure to the laser beam, do not try to open the 
+enclosure.
+
+--- Page 11 ---
+User’s Manual xi
+P300/P300D Series
+TOSHIBA SAMSUNG STORAGE TECHNOLOGY
+CD-RW/DVD-ROM Drive TS-L462D
+■ The CD-RW/DVD-ROM drive employs a laser system. To ensure 
+proper use of this product, please read this instruction manual carefully 
+and retain for future reference. Should the unit ever require 
+maintenance, contact an authorized service location. 
+■ Use of controls, adjustments or the performance of procedures other 
+than those specified may result in hazardous radiation exposure. 
+■ To prevent direct exposure to the laser beam, do not try to open the 
+enclosure.
+
+--- Page 12 ---
+User’s Manual xii
+P300/P300D Series
+TOSHIBA SAMSUNG STORAGE TECHNOLOGY
+8x slim DVD Writable Drive TS-L632H
+■ This DVD writable drive employ a laser system to ensure proper use of 
+this product, please read this instruction manual carefully and retainfor 
+future reference. Should the unit ever require maintenance, contact an 
+authorized service location-see service procedure.
+■ Use of controls or adjustments or the performance of procedures other 
+than those specified herein may result in hazardous radiation 
+exposure.
+■ To prevent direct exposure to laser beam, do not try to open the 
+enclosure.
+
+--- Page 13 ---
+User’s Manual xiii
+P300/P300D Series
+TOSHIBA 
+HD DVD-ROM Drive SD-L802B
+■ This HD DVD-ROM drive employ a laser system to ensure proper use 
+of this product, please read this instruction manual carefully and retain 
+for future reference. Should the unit ever require maintenance, contact 
+an authorized service location-see service procedure.
+■ Use of controls or adjustments or the performance of procedures other 
+than those specified herein may result in hazardous radiation 
+exposure.
+■ To prevent direct exposure to laser beam, do not try to open the 
+enclosure.
+
+--- Page 14 ---
+User’s Manual xiv
+P300/P300D Series
+TOSHIBA
+HD DVD-RW Drive SD-L912A
+■ This DVD writable drive employ a laser system to ensure proper use of 
+this product, please read this instruction manual carefully and retain for 
+future reference. Should the unit ever require maintenance, contact an 
+authorized service location-see service procedure.
+■ Use of controls or adjustments or the performance of procedures other 
+than those specified herein may result in hazardous radiation 
+exposure.
+■ To prevent direct exposure to laser beam, do not try to open the 
+enclosure.
+
+--- Page 15 ---
+User’s Manual xv
+P300/P300D Series
+International Precautions 
+CAUTION: This appliance contains a laser 
+system and is classified as a "CLASS 1 
+LASER PRODUCT." To use this model 
+properly, read the instruction manual 
+carefully and keep this manual for your 
+future reference. In case of any trouble 
+with this model, please contact your 
+nearest "AUTHORIZED service station." 
+To prevent direct exposure to the laser 
+beam, do not try to open the enclosure. 
+VORSICHT: Dieses Gerät enthält ein 
+Laser-System und ist als 
+"LASERSCHUTZKLASSE 1 PRODUKT" 
+klassifiziert. Für den richtigen Gebrauch 
+dieses Modells lesen Sie bitte die 
+Bedienungsanleitung sorgfältig durch und 
+bewahren diese bitte als Referenz auf. 
+Falls Probleme mit diesem Modell 
+auftreten, benachrichtigen Sie bitte die 
+nächste "autorisierte Service-Vertretung". 
+Um einen direkten Kontakt mit dem 
+Laserstrahl zu vermeiden darf das Gerät 
+nicht geöffnet werden. 
+ADVARSEL: Denne mærking er anbragt 
+udvendigt på apparatet og indikerer, at 
+apparatet arbejder med laserstråler af 
+klasse 1, hviket betyder, at der anvendes 
+laserstrlier af svageste klasse, og at man 
+ikke på apparatets yderside kan bilve 
+udsat for utilladellg kraftig stråling. 
+APPARATET BOR KUN ÅBNES AF 
+FAGFOLK MED SÆRLIGT KENDSKAB 
+TIL APPARATER MED LASERSTRÅLER! 
+Indvendigt i apparatet er anbragt den her 
+gengivne advarselsmækning, som advarer 
+imod at foretage sådanne indgreb i 
+apparatet, at man kan komme til at udsatte 
+sig for laserstråling.
+
+--- Page 16 ---
+User’s Manual xvi
+P300/P300D Series
+Important Notice
+Copyrighted works including, but not limited to music, video, computer 
+program, databases are protected by copyright laws. Unless specifically 
+permitted under applicable copyright laws, you cannot copy, modify, assign, 
+transmit or otherwise dispose of any copyrighted work with the consent of 
+the owner of the copyright. Please take notice that unauthorized copying, 
+modification, assignment, transmission and disposition may be subject to 
+claims for damages and penalties.
+■ Avoid using a telephone (other than a cordless type) during an electrical 
+storm. There may be a remote risk of electric shock from lightning.
+■ Do not use the telephone to report a gas leak in the vicinity of the leak.
+■ Use only the power cord indicated in this manual.
+■ Replace only with the same or equivalent type battery recommended by 
+the manufacturer.
+■ Dispose of used batteries according to the manufacturer's instructions.
+TOSHIBA assumes no liability for any damage in such case.
+OBS! Apparaten innehåller 
+laserkomponent som avger laserstråining 
+överstigande gränsen för laserklass 1. 
+VAROITUS. Suojakoteloa si saa avata. 
+Laite sisältää laserdiodin, joka lähetää 
+näkymätöntä silmilie vaarallista 
+lasersäteilyä. 
+CAUTION: USE OF CONTROLS OR 
+ADJUSTMENTS OR PERFORMANCE OF 
+PROCEDURES OTHER THAN THOSE 
+SPECIFIED IN THE OWNER’S MANUAL 
+MAY RESULT IN HAZARDOUS 
+RADIATION EXPOSURE. 
+VORSICHT: DIE VERWENDUNG VON 
+ANDEREN STEUERUNGEN ODER 
+EINSTELLUNGEN ODER DAS 
+DURCHFÜHREN VON ANDEREN 
+VORGÄNGEN ALS IN DER 
+BEDIENUNGSANLEITUNG 
+BESCHRIEBEN KÖNNEN 
+GEFÄHRLICHE 
+STRAHLENEXPOSITIONEN ZUR FOLGE 
+HABEN. 
+Use only the battery pack that came with the computer or an optional 
+battery pack. Use of wrong battery could damage your computer.
+
+--- Page 17 ---
+User’s Manual xvii
+P300/P300D Series
+General Precautions
+TOSHIBA computers are designed to optimize safety, minimize strain and 
+withstand the rigors of portability. However, certain precautions should be 
+observed to further reduce the risk of personal injury or damage to the 
+computer.
+Be certain to read the general precautions below and to note the cautions 
+included in the text of the manual.
+Creating a computer-friendly environment
+Place the computer on a flat surface that is large enough for the computer 
+and any other items you are using, such as a printer.
+Leave enough space around the computer and other equipment to provide 
+adequate ventilation. Otherwise, they may overheat.
+To keep your computer in prime operating condition, protect your work area 
+from:
+■ Dust, moisture, and direct sunlight.
+■ Equipment that generates a strong electromagnetic field, such as 
+stereo speakers (other than speakers that are connected to the 
+computer) or speakerphones.
+■ Rapid changes in temperature or humidity and sources of temperature 
+change such as air conditioner vents or heaters.
+■ Extreme heat, cold, or humidity.
+■ Liquids and corrosive chemicals.
+Stress injury
+Carefully read the Instruction Manual for Safety and Comfort. It contains 
+information on the prevention of stress injuries to your hands and wrists 
+that can be caused by extensive keyboard use. Chapter 3, Getting Started, 
+also includes information on work space design, posture and lighting that 
+can help reduce physical stress.
+
+--- Page 18 ---
+User’s Manual xviii
+P300/P300D Series
+Heat injury
+■ Avoid prolonged physical contact with the computer. If the computer is 
+used for long periods, its surface can become very warm. While the 
+temperature will not feel hot to the touch, if you maintain physical 
+contact with the computer for a long time, for example if you rest the 
+computer on your lap or if you keep your hands on the palm rest, your 
+skin might suffer a low-heat injury.
+■ If the computer has been used for a long time, avoid direct contact with 
+the metal plate supporting the various interface ports as this can 
+become hot.
+■ The surface of the AC adaptor can become hot when in use but this 
+condition does not indicate a malfunction. If you need to transport the 
+AC adaptor, you should disconnect it and let it cool before moving it.
+■ Do not lay the AC adaptor on a material that is sensitive to heat as the 
+material could become damaged.
+Pressure or impact damage
+Do not apply heavy pressure to the computer or subject it to any form of 
+strong impact as this can damage the computer's components or otherwise 
+cause it to malfunction.
+ExpressCard overheating
+Some PC and ExpressCards can become hot during prolonged use which 
+may result in errors or instability in the operation of the device in question. 
+In addition, you should also be careful when you remove a PC or 
+ExpressCard that has been used for a long time.
+Mobile phones
+Please be aware that the use of mobile phones can interfere with the audio 
+system. The operation of the computer will not be impaired in any way, but 
+it is recommended that a minimum distance of 30cm is maintained between 
+the computer and a mobile phone that is in use.
+Instruction Manual for Safety and Comfort
+All important information on the safe and proper use of this computer is 
+described in the enclosed Instruction Manual for Safety and Comfort. Be 
+sure to read it before using the computer.
+
+--- Page 19 ---
+User’s Manual xix
+P300/P300D Series
+Table of Contents
+Chapter 1 Introduction
+Equipment checklist. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1-1
+Features. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1-2
+Special features  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1-12
+TOSHIBA Value Added Package . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1-13
+Utilities and Applications. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1-14
+Options  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1-17
+Chapter 2 The Grand Tour
+Front with the display closed  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2-1
+Left side . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2-3
+Right side  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2-4
+Backside . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2-5
+Underside  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2-5
+Front with the display open. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2-6
+Optical Disc Drive. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2-8
+AC adaptor  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2-13
+Remote controller (Provided with some models) . . . . . . . . . . . . . .  2-14
+Chapter 3 Getting Started
+Installing the battery pack . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3-1
+Connecting the AC adaptor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3-2
+Opening the display . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3-4
+Turning on the power . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3-4
+Windows Vista™ setup  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3-5
+Turning off the power. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3-5
+Restarting the computer  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3-9
+System Recovery Options and Restoring 
+the pre-installed Software . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3-9
+
+--- Page 20 ---
+User’s Manual xx
+P300/P300D Series
+Chapter 4
+Operating Basics
+Using the TouchPad . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-1
+Using the fingerprint sensor (FingerPrint sensor
+is provided with some models) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-2
+USB Sleep and Charge function . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-9
+Using the Web Camera. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-10
+Using the microphone . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-12
+Using the optical disc drive. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-12
+Writing CD/DVD with the DVD Super Multi drive 
+or HD DVD-ROM drive supporting DVD±R DL . . . . . . . . . . . . . . . . .  4-17
+Writing CD/DVD/HD DVDs on HD DVD-RW drives. . . . . . . . . . . . . .  4-20
+TOSHIBA Disc Creator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-25
+Data Verification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-26
+Video  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-26
+When using Ulead DVD MovieFactory® for TOSHIBA  . . . . . . . . . .  4-26
+Media care . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-29
+Modem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-30
+Using the FM tuner . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-33
+Wireless communications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-33
+LAN  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-36
+Cleaning the computer. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-37
+Moving the computer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4-37
+Chapter 5 The Keyboard
+Typewriter keys. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5-1
+F1 ... F12 function keys  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5-2
+Soft keys: Fn key combinations . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5-2
+Hot keys. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5-2
+Windows® special keys. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5-4
+Generating ASCII characters. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5-4
+Chapter 6 Power and Power-Up Modes
+Power conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6-1
+Power indicators. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6-2
+Battery types. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6-3
+Care and use of the battery pack  . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6-4
+Replacing the battery pack . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6-10
+Starting the computer by password . . . . . . . . . . . . . . . . . . . . . . . . .  6-12
+Power-up modes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6-12
+Panel power off/on . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6-13
+System Auto Off . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6-13
+Chapter 7 HW Setup
+Accessing HW Setup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  7-1
+HW Setup Window . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  7-1
+
+--- Page 21 ---
+User’s Manual xxi
+P300/P300D Series
+Chapter 8
+Optional Devices
+ExpressCard . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8-1
+SD/SDHC/MMC/MEMORY STICK/MEMORY STICK PRO/xD 
+Memory cards . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8-3
+Memory expansion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8-6
+Additional battery pack  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8-9
+Additional AC adaptor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8-9
+External monitor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8-9
+Television  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8-10
+HDMI (optional) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8-11
+i.LINK (IEEE1394) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8-12
+Security lock . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8-14
+Chapter 9 Troubleshooting
+Problem solving process. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  9-1
+Hardware and system checklist  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  9-3
+TOSHIBA support . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  9-20
+Appendix A Specifications
+Appendix B Display Controller and Modes
+Appendix C Wireless LAN
+Appendix D AC Power Cord and Connectors
+Appendix E Legal Footnotes
+Appendix F If your computer is stolen
+Glossary
+Index
+
+--- Page 22 ---
+User’s Manual xxii
+P300/P300D Series
+Preface
+Congratulations on your purchase of the P300/P300D Series computer. 
+This powerful notebook computer provides excellent expansion capability, 
+including multimedia devices, and it is designed to provide years of reliable, 
+high-performance computing. 
+This manual tells you how to set up and begin using your P300/P300D 
+Series computer. It also provides detailed information on configuring your 
+computer, basic operations and care, using optional devices and 
+troubleshooting. 
+If you are a new user of computers or if you’re new to portable computing, 
+first read over the Introduction and The Grand Tour chapters to familiarize 
+yourself with the computer's features, components and accessory devices. 
+Then read Getting Started for step-by-step instructions on setting up your 
+computer. 
+If you are an experienced computer user, please continue reading the 
+preface to learn how this manual is organized, then become acquainted 
+with this manual by browsing through its pages. Be sure to look over the 
+Specifications section of the Introduction, to learn about features that are 
+uncommon or unique to the computer. If you are going to install 
+ExpressCards or connect external devices such as a monitor, be sure to 
+read Chapter 8, Optional Devices. 
+Manual contents
+This manual is composed of the following nine chapters, five appendixes, a 
+glossary and an index. 
+Chapter 1, Introduction, is an overview of the computer's features, 
+capabilities, and options. 
+Chapter 2, The Grand Tour, identifies the components of the computer and 
+briefly explains how they function. 
+Chapter 3, Getting Started, provides a quick overview of how to begin 
+operating your computer and gives tips on safety and designing your work 
+area. 
+Chapter 4, Operating Basics, includes instructions on using the following 
+devices: TouchPad, Sound System, optical media drives, modem, wireless 
+communication and LAN. It also provides tips on care of the computer, and 
+CD/DVDs.
+
+--- Page 23 ---
+User’s Manual xxiii
+P300/P300D Series
+Chapter 5, The Keyboard, describes special keyboard functions including 
+hot keys. 
+Chapter 6, Power and Power-Up Modes, gives details on the computer's 
+power resources and battery save modes. 
+Chapter 7, HW Setup explains how to configure the computer using the 
+HW Setup program.
+Chapter 8, Optional Devices, describes the optional hardware available. 
+Chapter 9, Troubleshooting, provides helpful information on how to perform 
+some diagnostic tests, and suggests courses of action if the computer 
+doesn’t seem to be working properly. 
+The Appendices provide technical information about your computer. 
+The Glossary defines general computer terminology and includes a list of 
+acronyms used in the text. 
+The Index quickly directs you to the information contained in this manual. 
+Conventions 
+This manual uses the following formats to describe, identify, and highlight 
+terms and operating procedures. 
+Abbreviations 
+On first appearance, and whenever necessary for clarity, abbreviations are 
+enclosed in parenthesis following their definition. For example: Read Only 
+Memory (ROM). Acronyms are also defined in the Glossary. 
+Icons
+Icons identify ports, dials, and other parts of your computer. The indicator 
+panel also uses icons to identify the components it is providing information 
+on. 
+Keys
+The keyboard keys are used in the text to describe many computer 
+operations. A distinctive typeface identifies the key top symbols as they 
+appear on the keyboard. For example, Enter identifies the Enter key. 
+Key operation
+Some operations require you to simultaneously use two or more keys. We 
+identify such operations by the key top symbols separated by a plus sign 
+(+). For example, Ctrl + C means you must hold down Ctrl and at the same 
+time press C. If three keys are used, hold down the first two and at the 
+same time press the third.
+
+--- Page 24 ---
+User’s Manual xxiv
+P300/P300D Series
+Display
+Messages
+Messages are used in this manual to bring important information to your 
+attention. Each type of message is identified as shown below. 
+Terminology
+This term is defined in this document as follows:
+ABC When procedures require an action such as 
+clicking an icon or entering text, the icon’s name 
+or the text you are to type in is represented in the 
+type face you see to the left.
+ABC
+Names of windows or icons or text generated by 
+the computer that appears on its display screen is 
+presented in the type face you see to the left. 
+Pay attention! A caution informs you that improper use of equipment or 
+failure to follow instructions may cause data loss or damage your 
+equipment. 
+Please read. A note is a hint or advice that helps you make best use of 
+your equipment. 
+Indicates a potentially hazardous situation, which could result in death or 
+serious injury, if you do not follow instructions. 
+Start The word "Start" refers to the   button in 
+Microsoft
+®
+ Windows Vista™.
+
+--- Page 25 ---
+User’s Manual 1-1
+Introduction
+Chapter 1
+Introduction
+This chapter provides an equipment checklist, and it identifies the 
+computer's features, options and accessories. 
+Equipment checklist
+Carefully unpack your computer. Save the box and packing materials for 
+future use. 
+Hardware
+Check to make sure you have all the following items: 
+■ P300/P300D Series Portable Personal Computer 
+■ Universal AC adaptor and power cord 
+■ Modular cable for modem (provided with some models)
+Software
+Microsoft
+®
+ Windows Vista™
+The following software is preinstalled: 
+■ Microsoft
+®
+ Windows Vista™
+■ Microsoft Internet Explorer
+■ TOSHIBA Value Added Package
+■ TOSHIBA Hardware Setup
+■ TOSHIBA Supervisor Password
+■ TOSHIBA Assist
+■ TOSHIBA ConfigFree
+■ TOSHIBA DVD PLAYER*
+Some of the features described in this manual may not function properly if 
+you use an operating system that was not pre-installed by TOSHIBA. 
+It is necessary to install the battery to use this computer. Refer to Installing 
+the battery pack section in Chapter 3, Getting Started.
+
+--- Page 26 ---
+User’s Manual 1-2
+Introduction
+■ TOSHIBA HD DVD PLAYER* (HD DVD model only)
+■ TOSHIBA FingerPrint Utility *(FingerPrint support model only)
+■ TOSHIBA SD Memory Utilities
+■ TOSHIBA Disc Creator
+■ TOSHIBA Face Recognition*
+■ TOSHIBA Acoustic Silencer
+■ Ulead Movie Factory
+®
+ for TOSHIBA*
+■ Presto! BizCard 5 *(Provided with some models)
+■ Online Manual(optional)
+Other software may be preinstalled dependant on the model purchased.
+* The availability of this software is dependent on the model you purchased.
+Documentation
+■ P300/P300D Series Personal Computer User’s Manual 
+■ P300/P300D Series Quickstart
+■ Warranty Information
+■ Instruction Manual for Safety and Comfort
+Features
+Please visit your region’s web site for the configuration details of the model 
+that you have purchased.
+Processor 
+If any of the items are missing or damaged, contact your dealer 
+immediately.
+Built-in  Depend on the model you purchased.
+Please visit your region's website for the 
+configuration details of the model that you have 
+purchased.
+Chipset Depend on the model you purchased.
+■ Mobile Intel
+®
+ PM965/GM965/GL960 Express 
+Chipset
+or
+■ AMD RS690M Chipset
+
+--- Page 27 ---
+User’s Manual 1-3
+Introduction
+Memory
+Slots PC2-5300 (PM965/GM965/RS690M)/PC2-4200 
+(GL960) 512 MB, 1024 MB or 2048 MB. Up to 
+2 GB memory module can be installed in the 
+memory slot for a maximum of 4 GB 
+(PM965/GM965/M690G), 2 GB (GL960) system 
+memory total, depending on the model you 
+purchased.
+Main Memory 
+Disclaimer
+Part of the main system memory may be used by 
+the graphics system for graphics performance 
+and therefore reduce the amount of main system 
+memory available for other computing activities. 
+The amount of main system memory allocated to 
+support graphics may vary depending on the 
+graphics system, applications utilized, system 
+memory size and other factors. For PC's 
+configured with 4 GB of system memory, the full 
+system memory space for computing activities will 
+be considerably less and will vary by model and 
+system configuration.
+If your computer is configured with two 2 GB memory modules, the 
+memory might be displayed as approximately 3 GB only (depending on the 
+computer's hardware specifications). 
+This is correct because the operating system usually displays the available 
+memory instead of the physical memory (RAM) built into the computer. 
+Various system components (like the video adapter's GPU and PCI 
+devices like Wireless LAN, etc.) require their own memory space. Since a 
+32-bit operating system cannot address more than 4 GB of memory these 
+system resources overlap the physical memory. It is a technical limitation 
+that the overlapped memory is not available to the operating system. 
+Even though some tools might display the actual physical memory built 
+into your computer, the memory available to the operating system will still 
+be approximately 3 GB only.
+
+--- Page 28 ---
+User’s Manual 1-4
+Introduction
+Power
+Video RAM Depending on the model you purchased.
+Mobile Intel
+®
+ GM965 Express Chipset/Mobile 
+Intel
+®
+ GL960 Express Chipset model:
+Video RAM capacity shares with main memory, 
+and the proportion depends on Dynamic Video 
+Memory Technology.
+Mobile Intel
+®
+ GM965 Express Chipset/Mobile 
+Intel
+®
+ PM965 Express Chipset model in graphic 
+chip by ATI Mobility Radeon™ HD 3470:
+External 64/128/256 MB.
+Mobile Intel
+®
+ GM965 Express Chipset/Mobile 
+Intel
+®
+ PM965 Express Chipset model in graphic 
+chip by ATI Mobility Radeon™ HD 3650:
+External 256/512 MB.
+AMD M690G Chipset Chipset model:
+Video RAM capacity shares with main memory, 
+and the proportion depends on ATI 
+HyperMemory(TM).
+AMD M690G Chipset model in graphic chip by 
+ATI Mobility Radeon™ HD 3470:
+External 64/128/256 MB.
+AMD M690G Chipset model in graphic chip by 
+ATI Mobility Radeon™ HD 3650:
+External 256/512 MB.
+Battery Pack  Your computer is powered by a rechargeable 
+lithium-ion battery pack.
+RTC Battery  The internal RTC battery backs up the Real Time 
+Clock and calendar. 
+AC Adaptor  The universal AC adaptor provides power to the 
+system and recharges the batteries when they 
+are low. It comes with a detachable power cord. 
+Because it is universal, it can receive a range of 
+AC voltage from 100 to 240 volts; however, the 
+output current varies among different models. 
+Using the wrong model can damage your 
+computer. Refer to the AC adaptor section in 
+Chapter 2, The Grand Tour.
+
+--- Page 29 ---
+User’s Manual 1-5
+Introduction
+Disks
+Hard disk Disclaimer 1 Gigabyte (GB) means 10
+9
+ = 1,000,000,000 
+bytes using powers of 10. The computer 
+operating system, however, reports storage 
+capacity using powers of 2 for the definition of 
+1GB = 2
+30
+ = 1,073,741,824 bytes, and therefore 
+shows less storage capacity. Available storage 
+capacity will also be less if the product includes 
+one or more pre-installed operating systems, 
+such as Microsoft Operating System and/or pre-
+installed software applications, or media content. 
+Actual formatted capacity may vary.
+Hard disk Drive  Depend on the model you purchased. 
+■ 120 GB
+■ 160 GB
+■ 200 GB
+■ 250 GB
+■ 320 GB
+■ 400 GB
+■ 500 GB
+Other hard disk drives may be introduced in the 
+future. 
+Computers in this series can be configured with a fixed optical media drive. 
+The available optical media drives are described below.
+
+--- Page 30 ---
+User’s Manual 1-6
+Introduction
+DVD Super Multi drive 
+(Supporting DVD±R 
+DL)
+Some models are equipped with a full-size DVD 
+Super Multi drive module that lets you record data 
+to rewritable CD/DVDs as well as run either 12cm 
+(4.72") or 8cm (3.15") CD/DVDs without using an 
+adaptor. It reads DVD-ROM's at maximum 
+8 speed and CD-ROM's at maximum 24 speed. It 
+writes CD-R's at up to 24 speed, CD-RW's at up 
+to 16 speed, DVD-R's at maximum 8 speed, 
+DVD-RW's at maximum 6 speed. DVD+R's at 
+maximum 8 speed, DVD+RW's at maximum 
+8 speed, DVD+R(DL) discs at maximum 4 speed 
+and DVD-R(DL) discs at maximun 4 speed.
+DVD-RAM at maximum 5 speed.
+■ DVD-ROM
+■ DVD-Video
+■ DVD-R
+■ DVD-RW
+■ DVD+R
+■ DVD+RW
+■ DVD-RAM
+■ DVD+R DL
+■ DVD-R DL
+■ CD-DA
+■ CD-Text
+■ Photo CD (single/multi-session)
+■ CD-ROM Mode 1, Mode 2
+■ CD-ROMXA Mode 2 (Form1, Form2)
+■ Enhanced CD (CD-EXTRA)
+■ CD-G (Audio CD only)
+■ Addressing Method 2
+
+--- Page 31 ---
+User’s Manual 1-7
+Introduction
+HD DVD-ROM Some models are equipped with a full-size HD 
+DVDROM drive module that lets you run CD's or 
+DVD's without using an adaptor. The drive reads 
+DVD-ROM's at a maximum 8x speed and 
+CD-ROM's at a maximum 24x speed, and HD 
+DVD's at a maximum 1x speed and writes CD-R's 
+at up to 16x speed, CD-RW's at up to 10x speed, 
+DVD-R's and DVD+R's at up to 4x speed, 
+DVDRW's and DVD+RW's at up to 4x speed, 
+DVD-R (Dual layer) at up to 2x speed, DVD+R 
+(Double Layer) at up to 2.4x speed and 
+DVD-RAM at up to 3x speed, and supports the 
+following formats:
+■ CD-R 
+■ CD-RW
+■ DVD-ROM
+■ DVD-Video
+■ CD-DA 
+■ CD-Text
+■ Photo CD (single/multi-session)
+■ CD-ROM Mode 1, Mode 2
+■ CD-ROM XA Mode 2 (Form1, Form2)
+■ Enhanced CD (CD-EXTRA)
+■ Addressing Method 2
+■ DVD-R
+■ DVD-R (Dual Layer)
+■ DVD-RW
+■ DVD+R
+■ DVD+R (Double Layer)
+■ DVD+RW
+■ DVD-RAM
+■ HD DVD-ROM
+
+--- Page 32 ---
+User’s Manual 1-8
+Introduction
+HD DVD-RW drive Some models are equipped with a full-size HD 
+DVD-R drive module that lets you run CD's or 
+DVD's without using an adaptor. The drive reads 
+DVD-ROM's at a maximum 8x speed and 
+CD-ROM's at a maximum 24x speed, and HD 
+DVD's at a maximum 1x speed and writes CD-R's 
+at up to 16x speed, CD-RW's at up to 4x speed, 
+DVD-R's and DVD+R's at up to 4x speed, 
+DVDRW's and DVD+RW's at up to 4x speed, 
+DVD-R (Dual layer) at up to 2x speed, DVD+R 
+(Double Layer) at up to 2.4x speed and 
+DVD-RAM at up to 3x speed, HD DVD-R and HD 
+DVD-RW at up to 1x speed, and supports the 
+following formats:
+■ CD-R
+■ CD-RW
+■ DVD-ROM 
+■ DVD-Video
+■ CD-DA 
+■ CD-Text
+■ CD-DA 
+■ CD-Text
+■ Photo CD (single/multi-session)
+■ CD-ROM Mode 1, Mode 2
+■ CD-ROM Mode 1, Mode 2
+■ CD-ROM XA Mode 2 (Form1, Form2)
+■ Enhanced CD (CD-EXTRA)
+■ Addressing Method 2
+■ DVD-R
+■ DVD-R (Dual Layer)
+■ DVD-RW
+■ DVD+R
+■ DVD+R (Double Layer)
+■ DVD+RW
+■ DVD-RAM
+■ HD DVD-ROM
+■ HD DVD-R
+■ HD DVD-RW
+
+--- Page 33 ---
+User’s Manual 1-9
+Introduction
+Display 
+The computer's LCD panel supports high-resolution video graphics. The 
+screen can be set at a wide range of viewing angles for maximum comfort 
+and readability. 
+Keyboard 
+Pointing Device 
+Ports 
+Built-In  17" WXGA+ 16 M colors, with the following 
+resolution: 1440 horizontal × 900 vertical pixels
+Graphics Controller  Graphics controller maximizes display 
+performance. Refer to Display Controller and 
+Modes section in Appendix B, Display Controller 
+and Modes for more information. 
+Built-In  TOSHIBA Vista keyboard, 104 keys or 105 keys 
+with numeric keypad, compatible with IBM 
+enhanced keyboard, dedicated cursor control,  
+and   keys. Refer to Chapter 5, The Keyboard, 
+for details. 
+Built-In TouchPad  A TouchPad and control buttons in the palm rest 
+enable control of the on-screen pointer and 
+scrolling of windows. 
+External Monitor  This 15-pin port lets you connect an external 
+video display.
+HDMI This HDMI jack allows you to connect external 
+display/audio devices. (Provided with some 
+models)
+Universal Serial Bus 
+(USB 2.0)
+The computer has Universal Serial Bus ports that 
+comply with the USB 2.0 standard, which enables 
+data transfer speeds 40 times faster than the 
+USB 1.1 standard. (The ports also support 
+USB 1.1.) 
+i.LINK (IEEE1394a) This port enables high-speed data transfer 
+directly from external devices such as digital 
+video cameras.
+TV Out The 4-pin S-Video port is compatible with PAL or 
+NTSC TV standard, supporting Macrovision 7.02 
+copy protection.
+Infrared receiver 
+window
+This window receives signals from the remote 
+control which is provided with your computer.
+
+--- Page 34 ---
+User’s Manual 1-10
+Introduction
+Slots
+Multimedia
+Communications 
+ExpressCard  The ExpressCard expansion slot that can 
+accommodate two standard module formats; an 
+ExpressCard/34 module and an ExpressCard/54 
+module. An ExpressCard module is a small add-
+in card technology based on the PCI Express and 
+Universal Serial Bus (USB) interfaces.
+Multiple Digital Media 
+Card Slot
+Supports SD/SDHC memory card, MMC, 
+MEMORY STICK, MEMORY STICK PRO and xD 
+Picture card.
+Web Camera Record/Send still or video images with this 
+integrated webcam.
+(provided with some models)
+Sound System  A Windows
+®
+ Sound System that provides 
+speakers as well as jacks for an external 
+microphone and headphones. 
+Headphone (S/P DIF) 
+jack
+This jack outputs analog audio signals. This jack 
+can be used also as S/P DIF jack and enables 
+connection of optical digital correspondence 
+apparatus.
+Microphone Jack  A 3.5 mm mini microphone jack enables 
+connection of a three-conductor mini jack for 
+monaural microphone input. 
+Modem  The internal modem feature is not available on all 
+models. Where present, it provides capability for 
+data and fax communication. It supports V.90 
+(V.92). The speed of data transfer and fax 
+communication depends on the analog telephone 
+line conditions. The computer has a modem jack 
+for connection to a telephone line. Both V.90 and 
+V.92 are supported only in the USA, Canada, 
+Australia. V.90 is available in other regions. 
+(Provided with some models)
+LAN  The computer is equipped with a LAN card that 
+supports Fast Ethernet LAN (100 Mbit/s, 
+100BASE-TX) or Gigabit Ethernet LAN (1 Gbit/s, 
+1000BASE-T). It is preinstalled as a standard 
+device in some markets. 
+(depending on model you purchased)
+
+--- Page 35 ---
+User’s Manual 1-11
+Introduction
+Security
+Wireless LAN  Where present, it supports the A,B,G and draft N 
+standards but it is compatible with other LAN 
+systems based on Direct Sequence Spread 
+Spectrum/Orthogonal Frequency Division 
+Multiplexing radio technology that complies with 
+the IEEE 802.11 Standard. 
+■ Automatic Transmit Rate Select mechanism in 
+the transmit range of 54, 48, 36, 24, 18, 12, 
+9 and 6 Mbit/s. (IEEE 802.11a/g) 
+■ Automatic Transmit Rate Select mechanism in 
+the transmit range of 11, 5.5, 2 and 1 Mbit/s. 
+(IEEE 802.11b)
+■ Roaming over multiple channels 
+■ Card Power Management 
+■ Wired Equivalent Privacy (WEP) data 
+encryption, based on 128 bit encryption 
+algorithm. 
+■ Advanced Encryption Standard (AES) data 
+encryption, based on 128 bit encryption 
+algorithm. 
+Bluetooth Some computers in this series are equipped with 
+Bluetooth functions. Bluetooth wireless 
+technology eliminates the need for cables 
+between electronic devices such as computers 
+and printers. Bluetooth provides fast, reliable, and 
+secure wireless communication in a small space. 
+(Provided with some models)
+Wireless 
+Communication 
+Switch
+This switch turns the Wireless LAN and Bluetooth 
+function on and off.
+(Provided with some models)
+Security lock slot Connects an optional security lock to anchor the 
+computer to a desk or other large object.
+Password Power-on password protection
+HDD password protection
+Two level password architecture
+Fingerprint authentication (not available on all 
+models)
+
+--- Page 36 ---
+User’s Manual 1-12
+Introduction
+Special features
+The following features are either unique to TOSHIBA computers or are 
+advanced features, which make the computer more convenient to use. 
+Hot Keys  Key combinations let you quickly modify the 
+system configuration directly from the keyboard 
+without running a system configuration program. 
+Instant Security The hot key function Fn + F1 blanks the screen 
+and disables the computer, providing data 
+security. 
+Display Automatic 
+Power Off 
+*1
+This feature automatically cuts off power to the 
+internal display when there is no keyboard input 
+for a specified time. Power is restored when any 
+key is pressed. 
+This can be specified in the Power Options.
+HDD Automatic Power 
+Off 
+*1
+This feature automatically cuts off power to the 
+hard disc drive when it is not accessed for a 
+specified time. Power is restored when the hard 
+disc is accessed. 
+This can be specified in the Power Options.
+System Automatic 
+Sleep 
+Mode/Hibernation 
+*1
+This feature automatically shuts down the system 
+into Sleep Mode or Hibernation Mode when there 
+is no input or hardware access for a specified 
+time. 
+This can be specified in the Power Options.
+Intelligent Power 
+Supply 
+*1
+A microprocessor in the computer's intelligent 
+power supply detects the battery’s charge and 
+calculates the remaining battery capacity. It also 
+protects electronic components from abnormal 
+conditions, such as voltage overload from an 
+AC adaptor. 
+This can be specified in the Power Options.
+Battery Save Mode 
+*1
+This feature lets you save battery power.
+This can be specified in the Power Options.
+Panel Power On/Off 
+*1
+This feature turns power to the computer off when 
+the display panel is closed and turns it back on 
+when the panel is opened.
+This can be specified in the Power Options.
+Low Battery 
+Automatic 
+Hibernation 
+*1
+When battery power is exhausted to the point that 
+computer operation cannot be continued, the 
+system automatically enters Hibernation Mode 
+and shuts down.
+This can be specified in the Power Options.
+
+--- Page 37 ---
+User’s Manual 1-13
+Introduction
+TOSHIBA Value Added Package
+This section describes the TOSHIBA Component features pre-installed on 
+the computer.
+Hibernation  This feature lets you turn off the power without 
+exiting from your software. The contents of main 
+memory are saved to the hard disk so that when 
+you turn on the power again, you can continue 
+working right where you left off. Refer to the 
+Turning off the power section in Chapter 3, 
+Getting Started, for details. 
+Sleep Mode  If you have to interrupt your work, you can turn off 
+the power without exiting from your software. 
+Data is maintained in the computer's main 
+memory so that when you turn on the power 
+again, you can continue working right where you 
+left off. 
+*1 Click , Control Panel, System and Maintenance, and then click 
+Power Options.
+TOSHIBA Power 
+Saver
+TOSHIBA Power Saver provides you with the 
+features of more various power supply 
+managements.
+TOSHIBA Zooming 
+Utility
+This utility allows you to enlarge or reduce the 
+icon size on the Windows Desktop, or the zoom 
+factor associated with specific supported 
+applications.
+TOSHIBA PC 
+Diagnostic Tool
+The TOSHIBA PC Diagnostic Tool will display 
+basic system configuration information and allow 
+the functionality of some of the computer's built-in 
+hardware devices to be tested.
+TOSHIBA Flash Cards This utility supports the following functions.
+■ Hot key function
+■ TOSHIBA utility launcher function
+TOSHIBA 
+Components 
+Common Driver
+TOSHIBA Components Common Driver contains 
+the module required for the utility which TOSHIBA 
+offers.
+
+--- Page 38 ---
+User’s Manual 1-14
+Introduction
+Utilities and Applications
+This section describes pre-installed utilities and tells how to start them. For 
+details on operations, refer to each utility’s online manual, help files or 
+readme.txt files. 
+TOSHIBA 
+Accessibility
+The TOSHIBA Accessibility utility provides 
+support to movement impaired users when they 
+need to use the TOSHIBA Hot-key functions. In 
+use, the utility allows you to make the Fn key 
+"sticky", that is you can press it once, release it, 
+and then press one of the "F" keys in order to 
+access its specific function. When set, the Fn key 
+will remain active until another key is pressed.
+TOSHIBA Button 
+Support
+This utility controls the 
+button operation of the 
+computer. 
+The starting application from the button can be 
+changed.
+TOSHIBA Assist  TOSHIBA Assist is a graphical user interface that 
+provides easy access to help and services. 
+HW Setup  This program lets you customize your hardware 
+settings according to the way you work with your 
+computer and the peripherals you use. To start 
+the utility, double click the TOSHIBA Assist on 
+your desktop, select OPTIMIZE tab, and click 
+TOSHIBA Hardware Settings.
+Power On Password Two levels of password security, supervisor and 
+user, are available to prevent unauthorized 
+access to your computer.
+To register a supervisor password, double click 
+the TOSHIBA Assist on your desktop select the 
+SECURE tab and start the Supervisor password 
+utility.
+To set a user password, select the SECURE tab 
+on TOSHIBA Assist, then start the User 
+password utility. On the Password tab you can 
+register a user password.
+TOSHIBA Disc 
+Creator
+You can create discs in several formats including 
+audio CDs that can be played on a standard 
+stereo CD player and data discs to store the files 
+and folders on your hard disk drive. This software 
+can be used on a model with a CD-RW/DVD-
+ROM drive, DVD Super Multi drive, HD DVD 
+drive.
+
+--- Page 39 ---
+User’s Manual 1-15
+Introduction
+TOSHIBA DVD-RAM 
+Utility
+TOSHIBA DVD-RAM Utility has a Physical 
+Format function and Write-Protect function to 
+DVD-RAM.
+This utility is contained in the TOSHIBA Disc 
+Creator setup module.
+To run TOSHIBA DVD-RAM Utility, click  , select 
+All Programs, TOSHIBA, CD&DVD 
+Applications, and then click DVD-RAM Utility.
+CD/DVD Drive 
+Acoustic Silencer
+This utility allows you to configure the read speed 
+of the CD drive. You can either configure Normal 
+Mode, which operates the drive at its maximum 
+speed for quick data access, or Quiet Mode, 
+whcih runs at single speed for CD audio and 
+which can lessen operational noise. It is 
+ineffective in DVD mode. 
+Ulead DVD 
+MovieFactory
+®
+ for 
+TOSHIBA
+(Depending on 
+configuration)
+You can edit digital video and make a DVD-Video 
+and support Label Flash function.
+The availability of Label Flash function depends on the model you 
+purchased.
+FingerPrint utility
+(Depending on 
+configuration)
+This product has a fingerprint utility installed for 
+the purpose of enrolling and recognizing 
+fingerprints. (depending on the model purchased.) 
+By enrolling the ID and password to the fingerprint 
+authentication device, it is no longer necessary to 
+input the password from the keyboard. Just by 
+swiping the finger against the fingerprint sensor, 
+the following functions will be enabled:
+■ Log-on to Windows and access a security 
+enabled homepage through IE (Internet 
+Explorer).
+■ Files and folders can be encrypted/decrypted 
+and third party access to them prevented.
+■ Disable the password-protected screensaver 
+when returning from power-saving (Sleep) 
+mode.
+■ System boot authentication and Single Touch 
+Boot feature.
+■ Power on Security and Single Sign On 
+feature.
+
+--- Page 40 ---
+User’s Manual 1-16
+Introduction
+TOSHIBA DVD 
+PLAYER
+(Depending on 
+configuration)
+The DVD PLAYER is used to play DVD Video. It 
+has an on-screen interface and functions. 
+TOSHIBA HD DVD 
+PLAYER
+(Depending on 
+configuration) 
+The HD DVD PLAYER is used to play HD DVD 
+Video. It has an on-screen interface and 
+functions. (Provided with some models)
+TOSHIBA ConfigFree  ConfigFree is a suite of utilities to allow easy 
+control of communication devices and network 
+connections. ConfigFree also allows you to find 
+communication problems and create profiles for 
+easy switching between location and 
+communication networks. 
+To run ConfigFree, click  , select All Programs, 
+TOSHIBA, Networking and then click 
+ConfigFree. 
+TOSHIBA Face 
+Recognition
+(Depending on 
+configuration)
+TOSHIBA Face Recognition uses a face 
+verification library to verify the face data of users 
+when they log in to Windows. If the verification is 
+successful, the user will be logged into Windows 
+automatically. The user can thus avoid having to 
+enter a password or the like, which makes the 
+login process easier.
+Presto! BizCard 5
+(Depending on 
+configuration)
+Presto! BizCard keeps track of names, 
+companies, mailing addresses, phone/fax 
+numbers, e-mail addresses, and more. Simply 
+scan your business cards and Presto! BizCard 
+automatically saves the data and image for each 
+card. Different viewing modes are available for 
+easy searching, editing, creating, and sorting. You 
+can share information with desktop organizers, 
+contact managers, personal information 
+managers (PIMs), and personal digital assistants 
+(PDAs). You can also print ID badges, mailing 
+labels, and stickers.
+
+--- Page 41 ---
+User’s Manual 1-17
+Introduction
+Options
+You can add a number of options to make your computer even more 
+powerful and convenient to use. Refer to Chapter 8 Optional Devices, for 
+details. The following options are available: 
+Windows Mobility 
+Center
+This section describes the Windows Mobility 
+Center. Mobility Center is a utility for accessing 
+several mobile PC settings quickly in one window. 
+A maximum of eight tiles are prepared as the 
+operating system default. Two additional tiles are 
+also added to your Mobility Center.
+Installing the "TOSHIBA Extended Tiles for 
+Windows Mobility Center" package will add the 
+following functions.
+■ Lock Computer:
+Lock your computer without turning it off. This 
+has the same function as the Lock button at 
+the bottom of the right pane of the start menu.
+■ TOSHIBA Assist:
+Open the TOSHIBA Assist if it is already 
+installed in your computer.
+Memory expansion  Two memory modules can be installed in this 
+computer.
+Use only PC5300* compatible DDRII memory modules. See your 
+TOSHIBA dealer for details.
+* The availability of DDRII depends on the model you purchased.
+Battery pack  An additional battery pack can be purchased from 
+your TOSHIBA dealer. Use it as a spare to 
+increase your computer operating time.
+AC Adaptor If you use your computer at more than one site 
+frequently, it may be convenient to purchase an 
+additional AC adaptor for each site so you will not 
+have to carry the adaptor with you.
+
+--- Page 42 ---
+User’s Manual 2-1
+The Grand Tour
+Chapter 2
+The Grand Tour
+This chapter identifies the various components of your computer. Become 
+familiar with each component before you operate the computer. 
+Front with the display closed 
+The following figure shows the computer's front with its display panel in the 
+closed position. 
+Front of the computer with display closed
+on
+off
+Wireless 
+Activity 
+LED
+Wireless 
+Communication 
+Switch
+Multiple 
+Digital Media 
+Card Slot
+DC in 
+LED
+Power 
+LED
+Disk 
+LED
+Battery 
+LED
+Multiple Digital 
+Media Card Slot LED
+Volume 
+Dial 
+Microphone 
+Jack
+Headphone 
+(S/P DIF) 
+jack
+Infrared 
+Receiver 
+Window
+Wireless 
+Communication 
+Switch
+The Wireless Communication Switch turns on the 
+wireless networking transceiver.
+Set the switch to off in airplanes and hospitals. Check the wireless activity 
+indicator. It will stop glowing when the wireless communication function is 
+off.
+DC IN LED The DC IN LED indicates the computer is 
+connected to the AC adaptor and it is plugged into 
+an AC power source.
+
+--- Page 43 ---
+User’s Manual 2-2
+The Grand Tour
+Power LED The Power indicator glows blue when the 
+computer is on. If you select Sleep Mode from 
+Turn Off Computer, this indicator flashes orange 
+(one second on, two seconds off) while the 
+computer enters Sleep Mode. 
+Battery LED The Battery indicator shows the condition of the 
+battery's charge: Blue indicates a full charge, 
+orange indicates that the battery is charging and 
+flashing orange indicates a low battery charge. 
+Refer to Chapter 6, Power and Power-Up Modes. 
+Disk LED Disk LED indicates that the hard disk drive or 
+optical disc drive is being accessed.
+Multiple Digital Media 
+Card Slot LED
+Multiple Digital Media Card Slot LED lights up 
+when the Multiple Digital Media Card Slot is 
+accessed.
+(Provided with some models)
+Wireless Activity LED Indicates whether the wireless LAN or Bluetooth 
+is active or not.
+(Provided with some models)
+Infrared Receiver 
+Window
+An infrared receiver window is provided with 
+some models. This is a sensor window that 
+receives signals from the remote control which is 
+provided with your computer.
+Multiple Digital Media 
+Card Slot
+Supports SD/SDHC memory card, MMC, 
+MEMORY STICK, MEMORY STICK PRO and xD 
+Picture card.
+Microphone Jack A 3.5 mm mini microphone jack enables 
+connection of a three-conductor mini jack for 
+monaural microphone input.
+Headphone (S/P DIF) 
+jack
+This jack outputs analog audio signals. This jack 
+can be used also as S/P DIF jack and enables 
+connection of optical digital correspondence 
+apparatus.
+Volume Dial Use this dial to adjust the volume of the stereo 
+speakers or headphones.
+
+--- Page 44 ---
+User’s Manual 2-3
+The Grand Tour
+Left side
+The following figure shows the computer's left side. 
+The left side of the computer
+Cooling VentsExternal Monitor 
+Port
+Universal Serial 
+Bus (USB 2.0) 
+i.LINK 
+(IEEE 1394a) 
+Port
+LAN 
+Jack
+TV Out 
+Port
+HDMI 
+port
+Express 
+Card Slot
+External Monitor Port This 15-pin port lets you connect an external 
+video display. 
+Cooling Vents Cooling vents help prevent the CPU from 
+overheating. 
+Do not block the cooling vents. Also ensure that foreign objects are kept 
+out of the vents as items such as pins or similar objects, which can 
+damage the computer's circuitry. 
+Universal Serial Bus 
+(USB 2.0) 
+Universal Serial Bus port which comply to the 
+USB 2.0 standard, are provided. The ports with 
+the icon ( ) has USB Sleep and Charge function.
+ExpressCard Slot This slot allows you to insert an ExpressCard. An 
+ExpressCard is a small, modular add-in card 
+technology based on PCI Express and the 
+Universal Serial Bus (USB) interface. The max. 
+transmission rate is 2.5 Gbps. ExpressCard/34 
+and ExpressCard/54 types are supported.
+TV Out Port Connect a 4-pin S- video cable into this connector 
+in order to output either an NTSC or PAL 
+television signal.
+HDMI port This port allows you to connect digitally to an 
+HDTV or home theater receiver.
+(Provided with some models)
+LAN Jack This jack lets you connect to a LAN. The adaptor 
+has built-in support for Fast Ethernet LAN or Giga 
+bit Ethernet. (Depend on the model you 
+purchased). Refer to Chapter 4, Operating 
+Basics, for details.
+
+--- Page 45 ---
+User’s Manual 2-4
+The Grand Tour
+Right side
+The following figure shows the computer's right side. 
+The right side of the computer
+* The figure shows Modem Jack.
+i.LINK (IEEE1394a) 
+Port
+This port allows you to connect an external 
+device, such as a digital video camera, for 
+highspeed data transfer.
+(Provided with some models)
+USB 
+Ports
+Emergency 
+Eject Hole
+Modem Jack or 
+FM Antenna 
+Jack*
+ODD 
+Indicator
+Eject 
+Button
+Security 
+Lock
+DC in 19V 
+Jack
+ODD Indicator The ODD indicator glows amber when the 
+computer accesses the optical disc drive.
+Eject Button Press this button to open the ODD tray.
+Security Lock A security cable attaches to this port. The optional 
+security cable anchors your computer to a desk or 
+other large object to deter theft.
+Universal Serial Bus 
+(USB 2.0) ports
+Universal Serial Bus port which comply to the 
+USB 2.0 standard, are provided. The ports with 
+the icon ( ) has USB Sleep and Charge function.
+Modem Jack  The modem jack allows you to use a modular 
+cable to connect the modem directly to a 
+telephone line. 
+(Depends on the model you purchased.)
+■ In case of a lightning storm, unplug the 
+modem cable from the telephone jack.
+■ Do not connect the modem to a digital 
+telephone line. A digital line will damage the 
+modem.
+FM Antenna Jack A jack enables the connection of FM antenna.
+(Depends on the model you purchased.)
+Emergency Eject Hole In the event that the disc drive becomes 
+inexplicably locked or stops responding press this 
+button to force a manual ejection of the ODD tray.
+
+--- Page 46 ---
+User’s Manual 2-5
+The Grand Tour
+Backside
+The following figure shows the computer's back panel. 
+The backside of the computer
+Underside
+The following figure shows the underside of the computer. Make sure the 
+display is closed before turning over your computer. 
+The underside of the computer
+DC IN 19V Jack The AC adaptor connects to this socket. Use only 
+the model of AC adaptor that comes with the 
+computer. Using the wrong adaptor can damage 
+your computer. 
+Battery Pack 
+Battery 
+Release 
+Latch
+Cooling 
+Vents
+Battery Pack 
+Lock
+Hard Disk 
+Cover
+Memory Module 
+and Wireless 
+LAN Cover 
+Cooling Vents Cooling vents help prevent the CPU from 
+overheating.
+Memory Module and 
+Wireless LAN Cover 
+This cover protects two memory module sockets- 
+one or two modules are pre-installed. Refer to the 
+Memory expansion section in Chapter 8, Optional 
+Devices.
+
+--- Page 47 ---
+User’s Manual 2-6
+The Grand Tour
+Front with the display open
+This section shows the front of the computer with the display open. Refer to 
+the appropriate illustration for details. To open the display, lift the front of the 
+display. Position the display at a comfortable viewing angle. 
+The front of the computer with the display open
+* Provided with some models.
+Hard Disk Cover This cover protects the hard disk.
+Battery Pack Lock Slide this lock to prepare the battery pack for 
+removal. 
+Battery Pack  The battery pack powers the computer when the 
+AC adaptor is not connected. For detailed 
+information on the battery pack, refer to 
+Chapter 6, Power and Power-Up Modes. 
+Battery Release Latch Slide and hold this latch to release the battery 
+pack for removal. For detailed information on 
+removing the battery pack, refer to Chapter 6, 
+Power and Power-Up Modes 
+Display
+Screen
+TouchPad
+Speaker
+TouchPad 
+Control Buttons
+Web 
+Camera*
+Fingerprint 
+Sensor*
+Power Button*
+Mute Button or LED On/Off Button*
+CD/ DVD Button*
+Play/Pause Button*
+Stop Button*
+Previous Button*
+Next Button*
+Speaker
+Web Camera 
+LED*
+Built-in 
+microphone*
+Please handle your computer carefully to avoid scratching or damaging the 
+surface.
+
+--- Page 48 ---
+User’s Manual 2-7
+The Grand Tour
+Speakers The speakers emit sound generated by your 
+software as well as audio alarms, such as low 
+battery condition, generated by the system.
+Display Screen The LCD displays high-contrast text and graphics. 
+Refer to Appendix B, Display Controller and 
+Modes. When the computer operates on the 
+AC adaptor the display screen’s image will be 
+somewhat brighter than when it operates on 
+battery power. The lower brightness level is 
+intended to save battery power. 
+Web Camera LED Web Camera LED indicates web camera is 
+working or not. (Provided with some models)
+Web Camera Take your picture or send your image to web 
+contacts. (Provided with some models)
+Built-in microphone The Microphone is used with the Web Camera to 
+talk to other Web Camera users and to record 
+messages on windows media.
+Power Button Turns the computer on and off and puts it into 
+Hibernation mode and wakes it up from Sleep 
+mode.
+Mute Button or LED 
+On/Off Button
+Depending on the model you purchased, press 
+this button to mute the volume or to switch the 
+illumination of the TouchPad, brand logo and 
+buttons on or off.
+CD/ DVD Button Pressing this button will launch an application 
+program that allows for playing of CDs or DVDs. 
+The application that is launched differs by model: 
+Windows Media Player/TOSHIBA DVD 
+PLAYER/TOSHIBA HD DVD PLAYER. 
+(Provided with some models)
+Play/Pause Button Press this button to begin playing an audio CD, a 
+DVD movie or digital audio file. This button also 
+acts as a Pause button. 
+(Provided with some models)
+Stop Button Stops playing of the CD, DVD or digital audio. 
+(Provided with some models)
+Previous Button Skips backwards to the previous track, chapter or 
+digital file. Refer to Chapter 4, Operating Basics, 
+for details.
+(Provided with some models)
+Next Button Skips forward to the next track, chapter or digital 
+file. Refer to Chapter 4, Operating Basics, for 
+details.
+(Provided with some models)
+

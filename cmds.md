@@ -81,3 +81,47 @@ cat logs/scraper_latest.log
 python -c "from src.pdf_extractor import extract_pdf_url; print(extract_pdf_url('https://www.manua.ls/hp/envy-x360/manual'))"
 ```
 
+## Manual Type Detection (Added Dec 2025)
+
+Some manuals on manua.ls use image rendering instead of HTML text.
+These require OCR to extract content.
+
+### Detect Manual Rendering Type
+```bash
+python detect_manual_type.py
+```
+This will show if a manual uses:
+- `html_text` - Works with existing scraper
+- `image` - Requires OCR (Tesseract)
+
+### Deep HTML Investigation  
+```bash
+python investigate_page_html.py
+```
+Analyzes page structure, font encoding, and text elements.
+
+### Font Decoder Analysis
+```bash
+python font_decoder.py
+```
+Attempts to decode custom font mappings (limited success).
+
+## OCR Extraction (For Image-Based Manuals)
+
+### Prerequisites - Install Tesseract OCR
+1. Download from: https://github.com/UB-Mannheim/tesseract/wiki
+2. Run the installer
+3. Verify: `tesseract --version`
+
+### Run OCR Extractor
+```bash
+python ocr_extractor.py
+```
+Downloads page images and extracts text via OCR.
+
+### Comprehensive Evaluation
+```bash
+python comprehensive_evaluation.py
+```
+Tests multiple extraction methods on a single manual.
+

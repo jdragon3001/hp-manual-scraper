@@ -1,0 +1,1666 @@
+2025-11-12 13:43:35,668 - __main__ - INFO - Starting scraper for: laptops, desktops
+2025-11-12 13:43:35,669 - src.scraper - INFO - ==================================================
+2025-11-12 13:43:35,669 - src.scraper - INFO - Starting manua.ls scraper
+2025-11-12 13:43:35,669 - src.scraper - INFO - ==================================================
+2025-11-12 13:43:35,670 - src.scraper - INFO - 
+Processing category: laptops
+2025-11-12 13:43:35,670 - src.scraper - INFO - --------------------------------------------------
+2025-11-12 13:43:35,670 - src.scraper - INFO - Starting scrape of laptops from https://www.manua.ls/computers-and-accessories/laptops
+2025-11-12 13:43:36,731 - src.scraper - INFO - Found 6 pages for https://www.manua.ls/computers-and-accessories/laptops
+2025-11-12 13:43:36,731 - src.scraper - INFO - Will scrape 6 pages for laptops
+2025-11-12 13:43:36,732 - src.scraper - INFO - Scraping page 1/6
+2025-11-12 13:43:36,911 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/laptops
+2025-11-12 13:43:37,913 - src.scraper - INFO - Scraping page 2/6
+2025-11-12 13:43:38,437 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/laptops?page=2
+2025-11-12 13:43:39,438 - src.scraper - INFO - Scraping page 3/6
+2025-11-12 13:43:40,770 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/laptops?page=3
+2025-11-12 13:43:41,771 - src.scraper - INFO - Scraping page 4/6
+2025-11-12 13:43:43,153 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/laptops?page=4
+2025-11-12 13:43:44,155 - src.scraper - INFO - Scraping page 5/6
+2025-11-12 13:43:44,694 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/laptops?page=5
+2025-11-12 13:43:45,695 - src.scraper - INFO - Scraping page 6/6
+2025-11-12 13:43:46,207 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/laptops?page=6
+2025-11-12 13:43:47,208 - src.scraper - INFO - Found total of 600 manuals for laptops
+2025-11-12 13:43:47,208 - src.scraper - INFO - 600 new manuals to download for laptops
+2025-11-12 13:43:47,210 - src.scraper - INFO - Starting download of 600 laptops manuals
+2025-11-12 13:43:49,653 - src.text_extractor - INFO - Extracting text from: HP_15_164pages.txt
+2025-11-12 13:43:49,769 - src.text_extractor - INFO - Extracting text from: HP_Chromebook x360_73pages.txt
+2025-11-12 13:43:49,982 - src.text_extractor - INFO - Extracting text from: Asus_VivoBook 15_118pages.txt
+2025-11-12 13:43:50,044 - src.text_extractor - INFO - Extracting text from: HP_ENVY x360_126pages.txt
+2025-11-12 13:43:50,059 - src.text_extractor - INFO - Extracting text from: HP_Pavilion 15_166pages.txt
+2025-11-12 13:43:51,440 - src.text_extractor - INFO - Extracting 164 pages of content...
+2025-11-12 13:43:51,683 - src.text_extractor - INFO - Extracting 73 pages of content...
+2025-11-12 13:43:52,178 - src.text_extractor - INFO - Extracting 118 pages of content...
+2025-11-12 13:43:52,527 - src.text_extractor - INFO - Extracting 126 pages of content...
+2025-11-12 13:43:52,669 - src.text_extractor - INFO - Extracting 166 pages of content...
+2025-11-12 13:45:05,628 - src.text_extractor - INFO - Successfully saved: HP_Chromebook x360_73pages.txt (78190 chars)
+2025-11-12 13:45:08,566 - src.text_extractor - INFO - Extracting text from: HP_Envy 17_96pages.txt
+2025-11-12 13:45:10,199 - src.text_extractor - INFO - Extracting 96 pages of content...
+2025-11-12 13:45:45,551 - src.text_extractor - INFO - Successfully saved: HP_ENVY x360_126pages.txt (98462 chars)
+2025-11-12 13:45:46,590 - src.text_extractor - INFO - Successfully saved: Asus_VivoBook 15_118pages.txt (38761 chars)
+2025-11-12 13:45:48,015 - src.text_extractor - INFO - Extracting text from: Acer_Aspire Go 15_81pages.txt
+2025-11-12 13:45:49,449 - src.text_extractor - INFO - Extracting 81 pages of content...
+2025-11-12 13:45:49,498 - src.text_extractor - INFO - Extracting text from: Acer_Aspire 3_123pages.txt
+2025-11-12 13:45:51,068 - src.text_extractor - INFO - Extracting 123 pages of content...
+2025-11-12 13:46:31,768 - src.text_extractor - INFO - Successfully saved: HP_15_164pages.txt (138840 chars)
+2025-11-12 13:46:34,334 - src.text_extractor - INFO - Extracting text from: HP_15s_88pages.txt
+2025-11-12 13:46:35,796 - src.text_extractor - INFO - Extracting 88 pages of content...
+2025-11-12 13:46:46,454 - src.text_extractor - INFO - Successfully saved: HP_Pavilion 15_166pages.txt (145348 chars)
+2025-11-12 13:46:48,963 - src.text_extractor - INFO - Extracting text from: HP_Victus 15_81pages.txt
+2025-11-12 13:46:50,506 - src.text_extractor - INFO - Extracting 81 pages of content...
+2025-11-12 13:46:50,673 - src.text_extractor - INFO - Successfully saved: HP_Envy 17_96pages.txt (98487 chars)
+2025-11-12 13:46:53,209 - src.text_extractor - INFO - Extracting text from: Asus_TUF Gaming F15_110pages.txt
+2025-11-12 13:46:54,842 - src.text_extractor - INFO - Extracting 110 pages of content...
+2025-11-12 13:47:01,631 - src.text_extractor - INFO - Successfully saved: Acer_Aspire Go 15_81pages.txt (22921 chars)
+2025-11-12 13:47:04,095 - src.text_extractor - INFO - Extracting text from: Asus_ZenBook 14_116pages.txt
+2025-11-12 13:47:05,530 - src.text_extractor - INFO - Extracting 116 pages of content...
+2025-11-12 13:47:52,881 - src.text_extractor - INFO - Successfully saved: Acer_Aspire 3_123pages.txt (54622 chars)
+2025-11-12 13:47:55,317 - src.text_extractor - INFO - Extracting text from: HP_Compaq nx4800_238pages.txt
+2025-11-12 13:47:56,658 - src.text_extractor - INFO - Extracting 238 pages of content...
+2025-11-12 13:47:56,812 - src.text_extractor - INFO - Successfully saved: HP_15s_88pages.txt (64431 chars)
+2025-11-12 13:47:59,488 - src.text_extractor - INFO - Extracting text from: Lenovo_IdeaPad Flex 5_98pages.txt
+2025-11-12 13:48:01,070 - src.text_extractor - INFO - Extracting 98 pages of content...
+2025-11-12 13:48:03,792 - src.text_extractor - INFO - Successfully saved: HP_Victus 15_81pages.txt (96134 chars)
+2025-11-12 13:48:06,336 - src.text_extractor - INFO - Extracting text from: Acer_Aspire 5_86pages.txt
+2025-11-12 13:48:07,942 - src.text_extractor - INFO - Extracting 86 pages of content...
+2025-11-12 13:48:35,608 - src.text_extractor - INFO - Successfully saved: Asus_TUF Gaming F15_110pages.txt (37955 chars)
+2025-11-12 13:48:38,240 - src.text_extractor - INFO - Extracting text from: HP_EliteBook 840 G3_216pages.txt
+2025-11-12 13:48:40,116 - src.text_extractor - INFO - Extracting 216 pages of content...
+2025-11-12 13:48:50,996 - src.text_extractor - INFO - Successfully saved: Asus_ZenBook 14_116pages.txt (36563 chars)
+2025-11-12 13:48:53,543 - src.text_extractor - INFO - Extracting text from: Asus_VivoBook S15_110pages.txt
+2025-11-12 13:48:55,047 - src.text_extractor - INFO - Extracting 110 pages of content...
+2025-11-12 13:49:31,651 - src.text_extractor - INFO - Successfully saved: Lenovo_IdeaPad Flex 5_98pages.txt (23452 chars)
+2025-11-12 13:49:35,408 - src.text_extractor - INFO - Extracting text from: Acer_Nitro 5_92pages.txt
+2025-11-12 13:49:36,937 - src.text_extractor - INFO - Extracting 92 pages of content...
+2025-11-12 13:49:37,893 - src.text_extractor - INFO - Successfully saved: Acer_Aspire 5_86pages.txt (41163 chars)
+2025-11-12 13:49:40,537 - src.text_extractor - INFO - Extracting text from: Sony_Vaio VGN-TZ1RXN_213pages.txt
+2025-11-12 13:49:41,913 - src.text_extractor - INFO - Extracting 213 pages of content...
+2025-11-12 13:50:48,603 - src.text_extractor - INFO - Successfully saved: Asus_VivoBook S15_110pages.txt (38930 chars)
+2025-11-12 13:50:51,517 - src.text_extractor - INFO - Extracting text from: Asus_TUF Gaming A15_110pages.txt
+2025-11-12 13:50:53,265 - src.text_extractor - INFO - Extracting 110 pages of content...
+2025-11-12 13:51:09,568 - src.text_extractor - INFO - Successfully saved: Acer_Nitro 5_92pages.txt (26188 chars)
+2025-11-12 13:51:12,525 - src.text_extractor - INFO - Extracting text from: Acer_Chromebook 315_33pages.txt
+2025-11-12 13:51:14,221 - src.text_extractor - INFO - Extracting 33 pages of content...
+2025-11-12 13:51:30,709 - src.text_extractor - INFO - Successfully saved: HP_Compaq nx4800_238pages.txt (40172 chars)
+2025-11-12 13:51:33,684 - src.text_extractor - INFO - Extracting text from: LG_Gram 17Z90T_186pages.txt
+2025-11-12 13:51:35,350 - src.text_extractor - INFO - Extracting 186 pages of content...
+2025-11-12 13:51:48,026 - src.text_extractor - INFO - Successfully saved: Acer_Chromebook 315_33pages.txt (27095 chars)
+2025-11-12 13:51:50,689 - src.text_extractor - INFO - Extracting text from: MSI_GE76 Raider_62pages.txt
+2025-11-12 13:51:52,189 - src.text_extractor - INFO - Extracting 62 pages of content...
+2025-11-12 13:52:39,090 - src.text_extractor - INFO - Successfully saved: HP_EliteBook 840 G3_216pages.txt (182377 chars)
+2025-11-12 13:52:39,981 - src.text_extractor - INFO - Successfully saved: Asus_TUF Gaming A15_110pages.txt (37757 chars)
+2025-11-12 13:52:41,474 - src.text_extractor - INFO - Extracting text from: Acer_Aspire Lite 15_68pages.txt
+2025-11-12 13:52:42,567 - src.text_extractor - INFO - Extracting text from: Sony_Vaio VGN-TX630P_738pages.txt
+2025-11-12 13:52:42,774 - src.text_extractor - INFO - Extracting 68 pages of content...
+2025-11-12 13:52:44,472 - src.text_extractor - INFO - Extracting 738 pages of content...
+2025-11-12 13:52:51,190 - src.text_extractor - INFO - Successfully saved: MSI_GE76 Raider_62pages.txt (21325 chars)
+2025-11-12 13:52:53,592 - src.text_extractor - INFO - Successfully saved: Sony_Vaio VGN-TZ1RXN_213pages.txt (153613 chars)
+2025-11-12 13:52:53,823 - src.text_extractor - INFO - Extracting text from: HP_ProBook 4331s_152pages.txt
+2025-11-12 13:52:55,038 - src.text_extractor - INFO - Extracting 152 pages of content...
+2025-11-12 13:52:56,094 - src.text_extractor - INFO - Extracting text from: HP_14_146pages.txt
+2025-11-12 13:52:57,679 - src.text_extractor - INFO - Extracting 146 pages of content...
+2025-11-12 13:53:41,506 - src.text_extractor - INFO - Successfully saved: Acer_Aspire Lite 15_68pages.txt (18862 chars)
+2025-11-12 13:53:44,351 - src.text_extractor - INFO - Extracting text from: HP_Pavilion x360_89pages.txt
+2025-11-12 13:53:45,869 - src.text_extractor - INFO - Extracting 89 pages of content...
+2025-11-12 13:54:20,219 - src.text_extractor - INFO - Successfully saved: LG_Gram 17Z90T_186pages.txt (103370 chars)
+2025-11-12 13:54:22,706 - src.text_extractor - INFO - Extracting text from: Lenovo_ThinkPad X230_322pages.txt
+2025-11-12 13:54:24,167 - src.text_extractor - INFO - Extracting 322 pages of content...
+2025-11-12 13:55:12,790 - src.text_extractor - INFO - Successfully saved: HP_ProBook 4331s_152pages.txt (109786 chars)
+2025-11-12 13:55:15,072 - src.text_extractor - INFO - Successfully saved: HP_14_146pages.txt (132675 chars)
+2025-11-12 13:55:15,311 - src.text_extractor - INFO - Extracting text from: Asus_TUF Gaming A16_108pages.txt
+2025-11-12 13:55:15,976 - src.text_extractor - INFO - Successfully saved: HP_Pavilion x360_89pages.txt (91648 chars)
+2025-11-12 13:55:16,749 - src.text_extractor - INFO - Extracting 108 pages of content...
+2025-11-12 13:55:17,722 - src.text_extractor - INFO - Extracting text from: Asus_VivoBook 16_114pages.txt
+2025-11-12 13:55:18,607 - src.text_extractor - INFO - Extracting text from: Sony_VAIO VPCCA15FG_167pages.txt
+2025-11-12 13:55:19,289 - src.text_extractor - INFO - Extracting 114 pages of content...
+2025-11-12 13:55:20,221 - src.text_extractor - INFO - Extracting 167 pages of content...
+2025-11-12 13:57:03,186 - src.text_extractor - INFO - Successfully saved: Asus_TUF Gaming A16_108pages.txt (42564 chars)
+2025-11-12 13:57:05,875 - src.text_extractor - INFO - Extracting text from: Lenovo_ThinkPad T14_137pages.txt
+2025-11-12 13:57:07,459 - src.text_extractor - INFO - Extracting 137 pages of content...
+2025-11-12 13:57:16,849 - src.text_extractor - INFO - Successfully saved: Asus_VivoBook 16_114pages.txt (36431 chars)
+2025-11-12 13:57:19,887 - src.text_extractor - INFO - Extracting text from: Asus_VivoBook Flip 14_120pages.txt
+2025-11-12 13:57:21,595 - src.text_extractor - INFO - Extracting 120 pages of content...
+2025-11-12 13:58:04,526 - src.text_extractor - INFO - Successfully saved: Sony_VAIO VPCCA15FG_167pages.txt (121046 chars)
+2025-11-12 13:58:07,663 - src.text_extractor - INFO - Extracting text from: HP_Stream 11_91pages.txt
+2025-11-12 13:58:09,333 - src.text_extractor - INFO - Extracting 91 pages of content...
+2025-11-12 13:59:22,938 - src.text_extractor - INFO - Successfully saved: Lenovo_ThinkPad T14_137pages.txt (43414 chars)
+2025-11-12 13:59:25,471 - src.text_extractor - INFO - Successfully saved: Asus_VivoBook Flip 14_120pages.txt (52844 chars)
+2025-11-12 13:59:25,558 - src.text_extractor - INFO - Extracting text from: HP_246 G3_148pages.txt
+2025-11-12 13:59:27,342 - src.text_extractor - INFO - Extracting 148 pages of content...
+2025-11-12 13:59:28,272 - src.text_extractor - INFO - Extracting text from: Asus_X451CA_114pages.txt
+2025-11-12 13:59:30,022 - src.text_extractor - INFO - Extracting 114 pages of content...
+2025-11-12 13:59:40,908 - src.text_extractor - INFO - Successfully saved: HP_Stream 11_91pages.txt (62551 chars)
+2025-11-12 13:59:43,747 - src.text_extractor - INFO - Extracting text from: Sony_Vaio VGN-FS115M_140pages.txt
+2025-11-12 13:59:45,081 - src.text_extractor - INFO - Extracting 140 pages of content...
+2025-11-12 14:00:00,970 - src.text_extractor - INFO - Successfully saved: Lenovo_ThinkPad X230_322pages.txt (77393 chars)
+2025-11-12 14:00:04,893 - src.text_extractor - INFO - Extracting text from: Lenovo_IdeaPad 1_66pages.txt
+2025-11-12 14:00:06,634 - src.text_extractor - INFO - Extracting 66 pages of content...
+2025-11-12 14:01:10,225 - src.text_extractor - INFO - Successfully saved: Lenovo_IdeaPad 1_66pages.txt (25395 chars)
+2025-11-12 14:01:12,936 - src.text_extractor - INFO - Extracting text from: MSI_Thin GF63_80pages.txt
+2025-11-12 14:01:14,424 - src.text_extractor - INFO - Extracting 80 pages of content...
+2025-11-12 14:01:19,441 - src.text_extractor - INFO - Successfully saved: Asus_X451CA_114pages.txt (46363 chars)
+2025-11-12 14:01:22,302 - src.text_extractor - INFO - Extracting text from: Lenovo_IdeaPad G565_70pages.txt
+2025-11-12 14:01:23,875 - src.text_extractor - INFO - Extracting 70 pages of content...
+2025-11-12 14:01:50,099 - src.text_extractor - INFO - Successfully saved: Sony_Vaio VGN-FS115M_140pages.txt (112140 chars)
+2025-11-12 14:01:52,717 - src.text_extractor - INFO - Extracting text from: HP_Elitebook 840 G5_123pages.txt
+2025-11-12 14:01:54,418 - src.text_extractor - INFO - Extracting 123 pages of content...
+2025-11-12 14:01:54,792 - src.text_extractor - INFO - Successfully saved: HP_246 G3_148pages.txt (156117 chars)
+2025-11-12 14:01:57,694 - src.text_extractor - INFO - Extracting text from: Acer_Predator Helios Neo 16_108pages.txt
+2025-11-12 14:01:59,138 - src.text_extractor - INFO - Extracting 108 pages of content...
+2025-11-12 14:02:33,598 - src.text_extractor - INFO - Successfully saved: Lenovo_IdeaPad G565_70pages.txt (44650 chars)
+2025-11-12 14:02:35,360 - src.text_extractor - INFO - Successfully saved: MSI_Thin GF63_80pages.txt (23173 chars)
+2025-11-12 14:02:36,662 - src.text_extractor - INFO - Extracting text from: HP_Spectre x360_120pages.txt
+2025-11-12 14:02:38,566 - src.text_extractor - INFO - Extracting text from: Huawei_Matebook 13_283pages.txt
+2025-11-12 14:02:38,652 - src.text_extractor - INFO - Extracting 120 pages of content...
+2025-11-12 14:02:40,091 - src.text_extractor - INFO - Extracting 283 pages of content...
+2025-11-12 14:03:39,512 - src.text_extractor - INFO - Successfully saved: Acer_Predator Helios Neo 16_108pages.txt (30382 chars)
+2025-11-12 14:03:41,893 - src.text_extractor - INFO - Extracting text from: Asus_ROG Strix G16_112pages.txt
+2025-11-12 14:03:43,364 - src.text_extractor - INFO - Extracting 112 pages of content...
+2025-11-12 14:03:52,690 - src.text_extractor - INFO - Successfully saved: HP_Elitebook 840 G5_123pages.txt (79928 chars)
+2025-11-12 14:03:55,238 - src.text_extractor - INFO - Extracting text from: Huawei_MateBook 14_205pages.txt
+2025-11-12 14:03:56,671 - src.text_extractor - INFO - Extracting 205 pages of content...
+2025-11-12 14:04:11,728 - src.text_extractor - INFO - Successfully saved: Sony_Vaio VGN-TX630P_738pages.txt (40033 chars)
+2025-11-12 14:04:14,435 - src.text_extractor - INFO - Extracting text from: HP_Omen 16_100pages.txt
+2025-11-12 14:04:15,734 - src.text_extractor - INFO - Extracting 100 pages of content...
+2025-11-12 14:04:35,737 - src.text_extractor - INFO - Successfully saved: HP_Spectre x360_120pages.txt (94034 chars)
+2025-11-12 14:04:38,216 - src.text_extractor - INFO - Extracting text from: Lenovo_IdeaPad D330_44pages.txt
+2025-11-12 14:04:39,519 - src.text_extractor - INFO - Extracting 44 pages of content...
+2025-11-12 14:05:17,104 - src.text_extractor - INFO - Successfully saved: Lenovo_IdeaPad D330_44pages.txt (18543 chars)
+2025-11-12 14:05:17,597 - src.text_extractor - INFO - Successfully saved: Asus_ROG Strix G16_112pages.txt (35599 chars)
+2025-11-12 14:05:19,826 - src.text_extractor - INFO - Extracting text from: Asus_VivoBook 17_106pages.txt
+2025-11-12 14:05:20,218 - src.text_extractor - INFO - Extracting text from: HP_EliteBook 8470p_173pages.txt
+2025-11-12 14:05:21,448 - src.text_extractor - INFO - Extracting 106 pages of content...
+2025-11-12 14:05:21,896 - src.text_extractor - INFO - Extracting 173 pages of content...
+2025-11-12 14:05:40,703 - src.text_extractor - INFO - Successfully saved: HP_Omen 16_100pages.txt (83325 chars)
+2025-11-12 14:05:43,378 - src.text_extractor - INFO - Extracting text from: HP_Pavilion dv7_181pages.txt
+2025-11-12 14:05:45,867 - src.text_extractor - INFO - Extracting 181 pages of content...
+2025-11-12 14:07:04,650 - src.text_extractor - INFO - Successfully saved: Asus_VivoBook 17_106pages.txt (40530 chars)
+2025-11-12 14:07:07,103 - src.text_extractor - INFO - Extracting text from: Sony_Vaio VGN-FS215MR_206pages.txt
+2025-11-12 14:07:08,409 - src.text_extractor - INFO - Extracting 206 pages of content...
+2025-11-12 14:07:08,917 - src.text_extractor - INFO - Successfully saved: Huawei_Matebook 13_283pages.txt (95236 chars)
+2025-11-12 14:07:09,545 - src.text_extractor - INFO - Successfully saved: Huawei_MateBook 14_205pages.txt (112712 chars)
+2025-11-12 14:07:11,495 - src.text_extractor - INFO - Extracting text from: Getac_B360 G3 Plus_100pages.txt
+2025-11-12 14:07:12,126 - src.text_extractor - INFO - Extracting text from: Lenovo_Thinkpad E14_142pages.txt
+2025-11-12 14:07:12,986 - src.text_extractor - INFO - Extracting 100 pages of content...
+2025-11-12 14:07:13,710 - src.text_extractor - INFO - Extracting 142 pages of content...
+2025-11-12 14:08:15,864 - src.text_extractor - INFO - Successfully saved: HP_EliteBook 8470p_173pages.txt (148541 chars)
+2025-11-12 14:08:18,517 - src.text_extractor - INFO - Extracting text from: Acer_Aspire A15_99pages.txt
+2025-11-12 14:08:19,809 - src.text_extractor - INFO - Extracting 99 pages of content...
+2025-11-12 14:08:39,501 - src.text_extractor - INFO - Successfully saved: Getac_B360 G3 Plus_100pages.txt (49656 chars)
+2025-11-12 14:08:42,353 - src.text_extractor - INFO - Extracting text from: Sony_Vaio PCG-FR215M_148pages.txt
+2025-11-12 14:08:43,701 - src.text_extractor - INFO - Extracting 148 pages of content...
+2025-11-12 14:08:47,268 - src.text_extractor - INFO - Successfully saved: HP_Pavilion dv7_181pages.txt (141066 chars)
+2025-11-12 14:08:49,812 - src.text_extractor - INFO - Extracting text from: HP_245 G6_106pages.txt
+2025-11-12 14:08:51,282 - src.text_extractor - INFO - Extracting 106 pages of content...
+2025-11-12 14:09:29,328 - src.text_extractor - INFO - Successfully saved: Lenovo_Thinkpad E14_142pages.txt (62359 chars)
+2025-11-12 14:09:31,872 - src.text_extractor - INFO - Extracting text from: Acer_Predator Helios 18 AI_115pages.txt
+2025-11-12 14:09:33,170 - src.text_extractor - INFO - Extracting 115 pages of content...
+2025-11-12 14:09:48,221 - src.text_extractor - INFO - Successfully saved: Acer_Aspire A15_99pages.txt (110131 chars)
+2025-11-12 14:09:50,595 - src.text_extractor - INFO - Extracting text from: Asus_X541_110pages.txt
+2025-11-12 14:09:52,041 - src.text_extractor - INFO - Extracting 110 pages of content...
+2025-11-12 14:10:02,132 - src.text_extractor - INFO - Successfully saved: Sony_Vaio VGN-FS215MR_206pages.txt (142646 chars)
+2025-11-12 14:10:04,489 - src.text_extractor - INFO - Extracting text from: Dell_Inspiron 3482_105pages.txt
+2025-11-12 14:10:06,075 - src.text_extractor - INFO - Extracting 105 pages of content...
+2025-11-12 14:10:17,068 - src.text_extractor - INFO - Successfully saved: HP_245 G6_106pages.txt (72450 chars)
+2025-11-12 14:10:19,508 - src.text_extractor - INFO - Extracting text from: HP_ZBook Ultra G1a_97pages.txt
+2025-11-12 14:10:20,984 - src.text_extractor - INFO - Extracting 97 pages of content...
+2025-11-12 14:10:52,178 - src.text_extractor - INFO - Successfully saved: Sony_Vaio PCG-FR215M_148pages.txt (101624 chars)
+2025-11-12 14:10:54,781 - src.text_extractor - INFO - Extracting text from: HP_Pavilion g6_126pages.txt
+2025-11-12 14:10:56,219 - src.text_extractor - INFO - Extracting 126 pages of content...
+2025-11-12 14:11:12,322 - src.text_extractor - INFO - Successfully saved: Acer_Predator Helios 18 AI_115pages.txt (28339 chars)
+2025-11-12 14:11:14,775 - src.text_extractor - INFO - Extracting text from: Asus_ROG Strix G18_106pages.txt
+2025-11-12 14:11:16,324 - src.text_extractor - INFO - Extracting 106 pages of content...
+2025-11-12 14:11:26,507 - src.text_extractor - INFO - Successfully saved: Asus_X541_110pages.txt (37693 chars)
+2025-11-12 14:11:29,362 - src.text_extractor - INFO - Extracting text from: Acer_Aspire 3 15_74pages.txt
+2025-11-12 14:11:30,938 - src.text_extractor - INFO - Extracting 74 pages of content...
+2025-11-12 14:11:47,581 - src.text_extractor - INFO - Successfully saved: HP_ZBook Ultra G1a_97pages.txt (112451 chars)
+2025-11-12 14:11:47,734 - src.text_extractor - INFO - Successfully saved: Dell_Inspiron 3482_105pages.txt (83250 chars)
+2025-11-12 14:11:49,979 - src.text_extractor - INFO - Extracting text from: HP_CQ56-108SL_110pages.txt
+2025-11-12 14:11:50,459 - src.text_extractor - INFO - Extracting text from: Lenovo_ThinkPad E16 Gen 1_108pages.txt
+2025-11-12 14:11:51,465 - src.text_extractor - INFO - Extracting 110 pages of content...
+2025-11-12 14:11:51,939 - src.text_extractor - INFO - Extracting 108 pages of content...
+2025-11-12 14:12:38,085 - src.text_extractor - INFO - Successfully saved: Acer_Aspire 3 15_74pages.txt (20703 chars)
+2025-11-12 14:12:40,541 - src.text_extractor - INFO - Extracting text from: Dell_Inspiron 3782_102pages.txt
+2025-11-12 14:12:42,020 - src.text_extractor - INFO - Extracting 102 pages of content...
+2025-11-12 14:12:50,911 - src.text_extractor - INFO - Successfully saved: Asus_ROG Strix G18_106pages.txt (37432 chars)
+2025-11-12 14:12:54,208 - src.text_extractor - INFO - Extracting text from: HP_EliteBook 840 G1_192pages.txt
+2025-11-12 14:12:55,880 - src.text_extractor - INFO - Extracting 192 pages of content...
+2025-11-12 14:12:57,581 - src.text_extractor - INFO - Successfully saved: HP_Pavilion g6_126pages.txt (98603 chars)
+2025-11-12 14:13:00,408 - src.text_extractor - INFO - Extracting text from: HP_Elitebook 840 G6_122pages.txt
+2025-11-12 14:13:01,894 - src.text_extractor - INFO - Extracting 122 pages of content...
+2025-11-12 14:13:27,661 - src.text_extractor - INFO - Successfully saved: Lenovo_ThinkPad E16 Gen 1_108pages.txt (25343 chars)
+2025-11-12 14:13:30,237 - src.text_extractor - INFO - Extracting text from: Acer_Aspire One AOD257_1810pages.txt
+2025-11-12 14:13:31,693 - src.text_extractor - INFO - Extracting 1810 pages of content...
+2025-11-12 14:13:38,452 - src.text_extractor - INFO - Successfully saved: HP_CQ56-108SL_110pages.txt (86870 chars)
+2025-11-12 14:13:41,226 - src.text_extractor - INFO - Extracting text from: Samsung_N640CP214K_120pages.txt
+2025-11-12 14:13:42,864 - src.text_extractor - INFO - Extracting 120 pages of content...
+2025-11-12 14:14:23,957 - src.text_extractor - INFO - Successfully saved: Dell_Inspiron 3782_102pages.txt (90203 chars)
+2025-11-12 14:14:26,537 - src.text_extractor - INFO - Extracting text from: Acer_Swift 3_86pages.txt
+2025-11-12 14:14:27,946 - src.text_extractor - INFO - Extracting 86 pages of content...
+2025-11-12 14:15:02,477 - src.text_extractor - INFO - Successfully saved: HP_Elitebook 840 G6_122pages.txt (96915 chars)
+2025-11-12 14:15:05,130 - src.text_extractor - INFO - Extracting text from: Acer_Aspire Lite 16_68pages.txt
+2025-11-12 14:15:06,501 - src.text_extractor - INFO - Extracting 68 pages of content...
+2025-11-12 14:15:33,944 - src.text_extractor - INFO - Successfully saved: Samsung_N640CP214K_120pages.txt (41677 chars)
+2025-11-12 14:15:36,642 - src.text_extractor - INFO - Extracting text from: Sony_Vaio VGN-FE590P_738pages.txt
+2025-11-12 14:15:38,023 - src.text_extractor - INFO - Extracting 738 pages of content...
+2025-11-12 14:15:50,500 - src.text_extractor - INFO - Successfully saved: Acer_Swift 3_86pages.txt (35683 chars)
+2025-11-12 14:15:53,363 - src.text_extractor - INFO - Extracting text from: HP_Pavilion DV6_176pages.txt
+2025-11-12 14:15:54,874 - src.text_extractor - INFO - Extracting 176 pages of content...
+2025-11-12 14:16:06,748 - src.text_extractor - INFO - Successfully saved: Acer_Aspire Lite 16_68pages.txt (18738 chars)
+2025-11-12 14:16:09,430 - src.text_extractor - INFO - Extracting text from: Acer_Swift Go 14_88pages.txt
+2025-11-12 14:16:10,923 - src.text_extractor - INFO - Extracting 88 pages of content...
+2025-11-12 14:16:13,260 - src.text_extractor - INFO - Successfully saved: HP_EliteBook 840 G1_192pages.txt (148105 chars)
+2025-11-12 14:16:15,957 - src.text_extractor - INFO - Extracting text from: HP_Elitebook 840 G7_112pages.txt
+2025-11-12 14:16:17,349 - src.text_extractor - INFO - Extracting 112 pages of content...
+2025-11-12 14:17:31,890 - src.text_extractor - INFO - Successfully saved: Acer_Swift Go 14_88pages.txt (26143 chars)
+2025-11-12 14:17:34,703 - src.text_extractor - INFO - Extracting text from: Sony_Vaio VGN-TX690P_738pages.txt
+2025-11-12 14:17:36,089 - src.text_extractor - INFO - Extracting 738 pages of content...
+2025-11-12 14:17:58,129 - src.text_extractor - INFO - Successfully saved: HP_Elitebook 840 G7_112pages.txt (82132 chars)
+2025-11-12 14:18:01,246 - src.text_extractor - INFO - Extracting text from: HP_Probook 430 G8_146pages.txt
+2025-11-12 14:18:02,742 - src.text_extractor - INFO - Extracting 146 pages of content...
+2025-11-12 14:18:51,752 - src.text_extractor - INFO - Successfully saved: HP_Pavilion DV6_176pages.txt (148582 chars)
+2025-11-12 14:18:54,644 - src.text_extractor - INFO - Extracting text from: MSI_Stealth 18 Mercedes AMG_80pages.txt
+2025-11-12 14:18:56,002 - src.text_extractor - INFO - Extracting 80 pages of content...
+2025-11-12 14:20:09,218 - src.text_extractor - INFO - Successfully saved: MSI_Stealth 18 Mercedes AMG_80pages.txt (14794 chars)
+2025-11-12 14:20:11,832 - src.text_extractor - INFO - Extracting text from: Samsung_N640_120pages.txt
+2025-11-12 14:20:13,400 - src.text_extractor - INFO - Extracting 120 pages of content...
+2025-11-12 14:20:27,406 - src.text_extractor - INFO - Successfully saved: HP_Probook 430 G8_146pages.txt (123189 chars)
+2025-11-12 14:20:30,327 - src.text_extractor - INFO - Extracting text from: Lenovo_IdeaPad 3_106pages.txt
+2025-11-12 14:20:32,150 - src.text_extractor - INFO - Extracting 106 pages of content...
+2025-11-12 14:22:11,908 - src.text_extractor - INFO - Successfully saved: Samsung_N640_120pages.txt (42170 chars)
+2025-11-12 14:22:14,679 - src.text_extractor - INFO - Extracting text from: Dell_Inspiron 15_141pages.txt
+2025-11-12 14:22:16,632 - src.text_extractor - INFO - Extracting 141 pages of content...
+2025-11-12 14:22:27,854 - src.text_extractor - INFO - Successfully saved: Lenovo_IdeaPad 3_106pages.txt (45882 chars)
+2025-11-12 14:22:30,291 - src.text_extractor - INFO - Extracting text from: MSI_Thin 15_80pages.txt
+2025-11-12 14:22:31,982 - src.text_extractor - INFO - Extracting 80 pages of content...
+2025-11-12 14:23:46,086 - src.text_extractor - INFO - Successfully saved: MSI_Thin 15_80pages.txt (14700 chars)
+2025-11-12 14:23:48,989 - src.text_extractor - INFO - Extracting text from: Acer_Nitro 16S_95pages.txt
+2025-11-12 14:23:50,343 - src.text_extractor - INFO - Extracting 95 pages of content...
+2025-11-12 14:24:39,829 - src.text_extractor - INFO - Successfully saved: Dell_Inspiron 15_141pages.txt (66801 chars)
+2025-11-12 14:24:42,979 - src.text_extractor - INFO - Extracting text from: Acer_Swift X 14 OLED_90pages.txt
+2025-11-12 14:24:44,338 - src.text_extractor - INFO - Extracting 90 pages of content...
+2025-11-12 14:25:14,438 - src.text_extractor - INFO - Successfully saved: Acer_Nitro 16S_95pages.txt (29380 chars)
+2025-11-12 14:25:17,450 - src.text_extractor - INFO - Extracting text from: HP_Chromebook 14a_73pages.txt
+2025-11-12 14:25:18,969 - src.text_extractor - INFO - Extracting 73 pages of content...
+2025-11-12 14:26:03,446 - src.text_extractor - INFO - Successfully saved: Acer_Swift X 14 OLED_90pages.txt (26798 chars)
+2025-11-12 14:26:06,137 - src.text_extractor - INFO - Extracting text from: Lenovo_Yoga 7i_64pages.txt
+2025-11-12 14:26:07,634 - src.text_extractor - INFO - Extracting 64 pages of content...
+2025-11-12 14:26:29,835 - src.text_extractor - INFO - Successfully saved: HP_Chromebook 14a_73pages.txt (78380 chars)
+2025-11-12 14:26:32,217 - src.text_extractor - INFO - Extracting text from: Dell_Latitude 7420_85pages.txt
+2025-11-12 14:26:33,653 - src.text_extractor - INFO - Extracting 85 pages of content...
+2025-11-12 14:26:59,345 - src.text_extractor - INFO - Successfully saved: Lenovo_Yoga 7i_64pages.txt (19108 chars)
+2025-11-12 14:27:02,109 - src.text_extractor - INFO - Extracting text from: Acer_Aspire One Happy 2_1810pages.txt
+2025-11-12 14:27:03,497 - src.text_extractor - INFO - Extracting 1810 pages of content...
+2025-11-12 14:27:19,587 - src.text_extractor - INFO - Successfully saved: Sony_Vaio VGN-FE590P_738pages.txt (456780 chars)
+2025-11-12 14:27:22,208 - src.text_extractor - INFO - Extracting text from: HP_EliteBook 8460p_163pages.txt
+2025-11-12 14:27:23,826 - src.text_extractor - INFO - Extracting 163 pages of content...
+2025-11-12 14:27:59,590 - src.text_extractor - INFO - Successfully saved: Dell_Latitude 7420_85pages.txt (62775 chars)
+2025-11-12 14:28:02,178 - src.text_extractor - INFO - Extracting text from: HP_OMEN 15_102pages.txt
+2025-11-12 14:28:03,888 - src.text_extractor - INFO - Extracting 102 pages of content...
+2025-11-12 14:29:25,203 - src.text_extractor - INFO - Successfully saved: Sony_Vaio VGN-TX690P_738pages.txt (457345 chars)
+2025-11-12 14:29:27,973 - src.text_extractor - INFO - Extracting text from: HP_EliteBook 1030 G1_96pages.txt
+2025-11-12 14:29:29,566 - src.text_extractor - INFO - Extracting 96 pages of content...
+2025-11-12 14:29:45,880 - src.text_extractor - INFO - Successfully saved: HP_OMEN 15_102pages.txt (82709 chars)
+2025-11-12 14:29:48,459 - src.text_extractor - INFO - Extracting text from: Asus_Vivobook Go 15_106pages.txt
+2025-11-12 14:29:49,887 - src.text_extractor - INFO - Extracting 106 pages of content...
+2025-11-12 14:30:07,731 - src.text_extractor - INFO - Successfully saved: HP_EliteBook 8460p_163pages.txt (137942 chars)
+2025-11-12 14:30:10,706 - src.text_extractor - INFO - Extracting text from: Asus_ZenBook Duo_126pages.txt
+2025-11-12 14:30:12,465 - src.text_extractor - INFO - Extracting 126 pages of content...
+2025-11-12 14:31:03,329 - src.text_extractor - INFO - Successfully saved: HP_EliteBook 1030 G1_96pages.txt (83336 chars)
+2025-11-12 14:31:05,871 - src.text_extractor - INFO - Extracting text from: HP_EliteBook 8570p_193pages.txt
+2025-11-12 14:31:07,310 - src.text_extractor - INFO - Extracting 193 pages of content...
+2025-11-12 14:31:25,374 - src.text_extractor - INFO - Successfully saved: Asus_Vivobook Go 15_106pages.txt (40603 chars)
+2025-11-12 14:31:28,051 - src.text_extractor - INFO - Extracting text from: Dell_Latitude 5400_42pages.txt
+2025-11-12 14:31:29,541 - src.text_extractor - INFO - Extracting 42 pages of content...
+2025-11-12 14:32:11,807 - src.text_extractor - INFO - Successfully saved: Asus_ZenBook Duo_126pages.txt (38294 chars)
+2025-11-12 14:32:13,574 - src.text_extractor - INFO - Successfully saved: Dell_Latitude 5400_42pages.txt (35579 chars)
+2025-11-12 14:32:14,683 - src.text_extractor - INFO - Extracting text from: Sony_Vaio PCG-FR285M_112pages.txt
+2025-11-12 14:32:16,405 - src.text_extractor - INFO - Extracting 112 pages of content...
+2025-11-12 14:32:16,464 - src.text_extractor - INFO - Extracting text from: Asus_ROG Zephyrus G14_110pages.txt
+2025-11-12 14:32:18,156 - src.text_extractor - INFO - Extracting 110 pages of content...
+2025-11-12 14:34:03,178 - src.text_extractor - INFO - Successfully saved: Asus_ROG Zephyrus G14_110pages.txt (37543 chars)
+2025-11-12 14:34:05,785 - src.text_extractor - INFO - File already exists: HP_ENVY x360_126pages.txt
+2025-11-12 14:34:07,250 - src.text_extractor - INFO - Successfully saved: Sony_Vaio PCG-FR285M_112pages.txt (62289 chars)
+2025-11-12 14:34:07,398 - src.text_extractor - INFO - File already exists: Asus_VivoBook 15_118pages.txt
+2025-11-12 14:34:08,963 - src.text_extractor - INFO - File already exists: HP_Chromebook x360_73pages.txt
+2025-11-12 14:34:10,112 - src.text_extractor - INFO - File already exists: HP_15_164pages.txt
+2025-11-12 14:34:10,810 - src.text_extractor - INFO - File already exists: HP_Pavilion 15_166pages.txt
+2025-11-12 14:34:11,966 - src.text_extractor - INFO - File already exists: HP_Envy 17_96pages.txt
+2025-11-12 14:34:12,302 - src.text_extractor - INFO - File already exists: Acer_Aspire Go 15_81pages.txt
+2025-11-12 14:34:13,699 - src.text_extractor - INFO - File already exists: Acer_Aspire 3_123pages.txt
+2025-11-12 14:34:13,823 - src.text_extractor - INFO - File already exists: HP_15s_88pages.txt
+2025-11-12 14:34:15,226 - src.text_extractor - INFO - File already exists: HP_Victus 15_81pages.txt
+2025-11-12 14:34:15,467 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming F15_110pages.txt
+2025-11-12 14:34:16,686 - src.text_extractor - INFO - File already exists: Asus_ZenBook 14_116pages.txt
+2025-11-12 14:34:16,869 - src.text_extractor - INFO - File already exists: HP_Compaq nx4800_238pages.txt
+2025-11-12 14:34:18,064 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad Flex 5_98pages.txt
+2025-11-12 14:34:18,360 - src.text_extractor - INFO - File already exists: Acer_Aspire 5_86pages.txt
+2025-11-12 14:34:19,672 - src.text_extractor - INFO - File already exists: HP_EliteBook 840 G3_216pages.txt
+2025-11-12 14:34:19,997 - src.text_extractor - INFO - File already exists: Asus_VivoBook S15_110pages.txt
+2025-11-12 14:34:20,178 - src.text_extractor - INFO - Successfully saved: HP_EliteBook 8570p_193pages.txt (174924 chars)
+2025-11-12 14:34:21,241 - src.text_extractor - INFO - File already exists: Acer_Nitro 5_92pages.txt
+2025-11-12 14:34:21,532 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TZ1RXN_213pages.txt
+2025-11-12 14:34:22,691 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming A15_110pages.txt
+2025-11-12 14:34:22,995 - src.text_extractor - INFO - File already exists: Acer_Chromebook 315_33pages.txt
+2025-11-12 14:34:23,032 - src.text_extractor - INFO - File already exists: LG_Gram 17Z90T_186pages.txt
+2025-11-12 14:34:24,178 - src.text_extractor - INFO - File already exists: MSI_GE76 Raider_62pages.txt
+2025-11-12 14:34:24,587 - src.text_extractor - INFO - File already exists: Acer_Aspire Lite 15_68pages.txt
+2025-11-12 14:34:24,899 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TX630P_738pages.txt
+2025-11-12 14:34:25,656 - src.text_extractor - INFO - File already exists: HP_ProBook 4331s_152pages.txt
+2025-11-12 14:34:26,124 - src.text_extractor - INFO - File already exists: HP_14_146pages.txt
+2025-11-12 14:34:26,583 - src.text_extractor - INFO - File already exists: HP_Pavilion x360_89pages.txt
+2025-11-12 14:34:27,170 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad X230_322pages.txt
+2025-11-12 14:34:27,614 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming A16_108pages.txt
+2025-11-12 14:34:28,031 - src.text_extractor - INFO - File already exists: Asus_VivoBook 16_114pages.txt
+2025-11-12 14:34:28,755 - src.text_extractor - INFO - File already exists: Sony_VAIO VPCCA15FG_167pages.txt
+2025-11-12 14:34:29,234 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad T14_137pages.txt
+2025-11-12 14:34:29,722 - src.text_extractor - INFO - File already exists: Asus_VivoBook Flip 14_120pages.txt
+2025-11-12 14:34:30,353 - src.text_extractor - INFO - File already exists: HP_Stream 11_91pages.txt
+2025-11-12 14:34:30,796 - src.text_extractor - INFO - File already exists: HP_246 G3_148pages.txt
+2025-11-12 14:34:31,322 - src.text_extractor - INFO - File already exists: Asus_X451CA_114pages.txt
+2025-11-12 14:34:31,696 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FS115M_140pages.txt
+2025-11-12 14:34:32,401 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad 1_66pages.txt
+2025-11-12 14:34:32,850 - src.text_extractor - INFO - File already exists: MSI_Thin GF63_80pages.txt
+2025-11-12 14:34:33,306 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad G565_70pages.txt
+2025-11-12 14:34:34,096 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G5_123pages.txt
+2025-11-12 14:34:34,255 - src.text_extractor - INFO - File already exists: Acer_Predator Helios Neo 16_108pages.txt
+2025-11-12 14:34:35,095 - src.text_extractor - INFO - File already exists: HP_Spectre x360_120pages.txt
+2025-11-12 14:34:35,780 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G16_112pages.txt
+2025-11-12 14:34:35,812 - src.text_extractor - INFO - File already exists: Huawei_Matebook 13_283pages.txt
+2025-11-12 14:34:36,711 - src.text_extractor - INFO - File already exists: Huawei_MateBook 14_205pages.txt
+2025-11-12 14:34:37,182 - src.text_extractor - INFO - File already exists: HP_Omen 16_100pages.txt
+2025-11-12 14:34:37,243 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad D330_44pages.txt
+2025-11-12 14:34:38,386 - src.text_extractor - INFO - File already exists: Asus_VivoBook 17_106pages.txt
+2025-11-12 14:34:38,903 - src.text_extractor - INFO - File already exists: HP_EliteBook 8470p_173pages.txt
+2025-11-12 14:34:39,092 - src.text_extractor - INFO - File already exists: HP_Pavilion dv7_181pages.txt
+2025-11-12 14:34:39,881 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FS215MR_206pages.txt
+2025-11-12 14:34:40,249 - src.text_extractor - INFO - File already exists: Getac_B360 G3 Plus_100pages.txt
+2025-11-12 14:34:40,725 - src.text_extractor - INFO - File already exists: Lenovo_Thinkpad E14_142pages.txt
+2025-11-12 14:34:41,462 - src.text_extractor - INFO - File already exists: Acer_Aspire A15_99pages.txt
+2025-11-12 14:34:41,667 - src.text_extractor - INFO - File already exists: Sony_Vaio PCG-FR215M_148pages.txt
+2025-11-12 14:34:42,406 - src.text_extractor - INFO - File already exists: HP_245 G6_106pages.txt
+2025-11-12 14:34:42,897 - src.text_extractor - INFO - File already exists: Acer_Predator Helios 18 AI_115pages.txt
+2025-11-12 14:34:43,132 - src.text_extractor - INFO - File already exists: Asus_X541_110pages.txt
+2025-11-12 14:34:43,858 - src.text_extractor - INFO - File already exists: Dell_Inspiron 3482_105pages.txt
+2025-11-12 14:34:44,426 - src.text_extractor - INFO - File already exists: HP_ZBook Ultra G1a_97pages.txt
+2025-11-12 14:34:44,726 - src.text_extractor - INFO - File already exists: HP_Pavilion g6_126pages.txt
+2025-11-12 14:34:45,619 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G18_106pages.txt
+2025-11-12 14:34:45,949 - src.text_extractor - INFO - File already exists: Acer_Aspire 3 15_74pages.txt
+2025-11-12 14:34:46,262 - src.text_extractor - INFO - File already exists: HP_CQ56-108SL_110pages.txt
+2025-11-12 14:34:47,058 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad E16 Gen 1_108pages.txt
+2025-11-12 14:34:47,341 - src.text_extractor - INFO - File already exists: Dell_Inspiron 3782_102pages.txt
+2025-11-12 14:34:48,036 - src.text_extractor - INFO - File already exists: HP_EliteBook 840 G1_192pages.txt
+2025-11-12 14:34:48,732 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G6_122pages.txt
+2025-11-12 14:34:48,778 - src.text_extractor - INFO - Extracting text from: Acer_Aspire One AOD257_1810pages.txt
+2025-11-12 14:34:49,663 - src.text_extractor - INFO - File already exists: Samsung_N640CP214K_120pages.txt
+2025-11-12 14:34:50,168 - src.text_extractor - INFO - Extracting 1810 pages of content...
+2025-11-12 14:34:50,430 - src.text_extractor - INFO - File already exists: Acer_Swift 3_86pages.txt
+2025-11-12 14:34:51,216 - src.text_extractor - INFO - File already exists: Acer_Aspire Lite 16_68pages.txt
+2025-11-12 14:34:51,879 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FE590P_738pages.txt
+2025-11-12 14:34:52,931 - src.text_extractor - INFO - File already exists: HP_Pavilion DV6_176pages.txt
+2025-11-12 14:34:53,532 - src.text_extractor - INFO - File already exists: Acer_Swift Go 14_88pages.txt
+2025-11-12 14:34:54,496 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G7_112pages.txt
+2025-11-12 14:34:55,065 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TX690P_738pages.txt
+2025-11-12 14:34:56,358 - src.text_extractor - INFO - File already exists: HP_Probook 430 G8_146pages.txt
+2025-11-12 14:34:56,594 - src.text_extractor - INFO - File already exists: MSI_Stealth 18 Mercedes AMG_80pages.txt
+2025-11-12 14:34:58,201 - src.text_extractor - INFO - File already exists: Samsung_N640_120pages.txt
+2025-11-12 14:34:58,689 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad 3_106pages.txt
+2025-11-12 14:34:59,871 - src.text_extractor - INFO - File already exists: Dell_Inspiron 15_141pages.txt
+2025-11-12 14:35:00,268 - src.text_extractor - INFO - File already exists: MSI_Thin 15_80pages.txt
+2025-11-12 14:35:01,246 - src.text_extractor - INFO - File already exists: Acer_Nitro 16S_95pages.txt
+2025-11-12 14:35:01,762 - src.text_extractor - INFO - File already exists: Acer_Swift X 14 OLED_90pages.txt
+2025-11-12 14:35:02,792 - src.text_extractor - INFO - File already exists: HP_Chromebook 14a_73pages.txt
+2025-11-12 14:35:03,199 - src.text_extractor - INFO - File already exists: Lenovo_Yoga 7i_64pages.txt
+2025-11-12 14:35:04,366 - src.text_extractor - INFO - File already exists: Dell_Latitude 7420_85pages.txt
+2025-11-12 14:35:04,502 - src.text_extractor - INFO - Extracting text from: Acer_Aspire One Happy 2_1810pages.txt
+2025-11-12 14:35:05,828 - src.text_extractor - INFO - Extracting 1810 pages of content...
+2025-11-12 14:35:06,125 - src.text_extractor - INFO - File already exists: HP_EliteBook 8460p_163pages.txt
+2025-11-12 14:35:07,911 - src.text_extractor - INFO - File already exists: HP_OMEN 15_102pages.txt
+2025-11-12 14:35:09,725 - src.text_extractor - INFO - File already exists: HP_EliteBook 1030 G1_96pages.txt
+2025-11-12 14:35:11,251 - src.text_extractor - INFO - File already exists: Asus_Vivobook Go 15_106pages.txt
+2025-11-12 14:35:12,882 - src.text_extractor - INFO - File already exists: Asus_ZenBook Duo_126pages.txt
+2025-11-12 14:35:14,236 - src.text_extractor - INFO - File already exists: HP_EliteBook 8570p_193pages.txt
+2025-11-12 14:35:15,586 - src.text_extractor - INFO - File already exists: Dell_Latitude 5400_42pages.txt
+2025-11-12 14:35:17,148 - src.text_extractor - INFO - File already exists: Sony_Vaio PCG-FR285M_112pages.txt
+2025-11-12 14:35:18,749 - src.text_extractor - INFO - File already exists: Asus_ROG Zephyrus G14_110pages.txt
+2025-11-12 14:35:20,449 - src.text_extractor - INFO - File already exists: HP_ENVY x360_126pages.txt
+2025-11-12 14:35:21,916 - src.text_extractor - INFO - File already exists: Asus_VivoBook 15_118pages.txt
+2025-11-12 14:35:23,392 - src.text_extractor - INFO - File already exists: HP_Chromebook x360_73pages.txt
+2025-11-12 14:35:24,909 - src.text_extractor - INFO - File already exists: HP_15_164pages.txt
+2025-11-12 14:35:26,453 - src.text_extractor - INFO - File already exists: HP_Pavilion 15_166pages.txt
+2025-11-12 14:35:28,029 - src.text_extractor - INFO - File already exists: HP_Envy 17_96pages.txt
+2025-11-12 14:35:29,466 - src.text_extractor - INFO - File already exists: Acer_Aspire Go 15_81pages.txt
+2025-11-12 14:35:31,216 - src.text_extractor - INFO - File already exists: Acer_Aspire 3_123pages.txt
+2025-11-12 14:35:32,840 - src.text_extractor - INFO - File already exists: HP_15s_88pages.txt
+2025-11-12 14:35:34,396 - src.text_extractor - INFO - File already exists: HP_Victus 15_81pages.txt
+2025-11-12 14:35:35,822 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming F15_110pages.txt
+2025-11-12 14:35:37,406 - src.text_extractor - INFO - File already exists: Asus_ZenBook 14_116pages.txt
+2025-11-12 14:35:38,874 - src.text_extractor - INFO - File already exists: HP_Compaq nx4800_238pages.txt
+2025-11-12 14:35:40,463 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad Flex 5_98pages.txt
+2025-11-12 14:35:41,892 - src.text_extractor - INFO - File already exists: Acer_Aspire 5_86pages.txt
+2025-11-12 14:35:43,349 - src.text_extractor - INFO - File already exists: HP_EliteBook 840 G3_216pages.txt
+2025-11-12 14:35:45,000 - src.text_extractor - INFO - File already exists: Asus_VivoBook S15_110pages.txt
+2025-11-12 14:35:46,396 - src.text_extractor - INFO - File already exists: Acer_Nitro 5_92pages.txt
+2025-11-12 14:35:47,679 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TZ1RXN_213pages.txt
+2025-11-12 14:35:49,064 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming A15_110pages.txt
+2025-11-12 14:35:50,633 - src.text_extractor - INFO - File already exists: Acer_Chromebook 315_33pages.txt
+2025-11-12 14:35:52,014 - src.text_extractor - INFO - File already exists: LG_Gram 17Z90T_186pages.txt
+2025-11-12 14:35:53,452 - src.text_extractor - INFO - File already exists: MSI_GE76 Raider_62pages.txt
+2025-11-12 14:35:54,757 - src.text_extractor - INFO - File already exists: Acer_Aspire Lite 15_68pages.txt
+2025-11-12 14:35:56,473 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TX630P_738pages.txt
+2025-11-12 14:35:57,717 - src.text_extractor - INFO - File already exists: HP_ProBook 4331s_152pages.txt
+2025-11-12 14:35:59,190 - src.text_extractor - INFO - File already exists: HP_14_146pages.txt
+2025-11-12 14:36:00,869 - src.text_extractor - INFO - File already exists: HP_Pavilion x360_89pages.txt
+2025-11-12 14:36:02,359 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad X230_322pages.txt
+2025-11-12 14:36:03,645 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming A16_108pages.txt
+2025-11-12 14:36:05,143 - src.text_extractor - INFO - File already exists: Asus_VivoBook 16_114pages.txt
+2025-11-12 14:36:06,775 - src.text_extractor - INFO - File already exists: Sony_VAIO VPCCA15FG_167pages.txt
+2025-11-12 14:36:08,559 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad T14_137pages.txt
+2025-11-12 14:36:10,597 - src.text_extractor - INFO - File already exists: Asus_VivoBook Flip 14_120pages.txt
+2025-11-12 14:36:12,125 - src.text_extractor - INFO - File already exists: HP_Stream 11_91pages.txt
+2025-11-12 14:36:14,115 - src.text_extractor - INFO - File already exists: HP_246 G3_148pages.txt
+2025-11-12 14:36:15,861 - src.text_extractor - INFO - File already exists: Asus_X451CA_114pages.txt
+2025-11-12 14:36:17,415 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FS115M_140pages.txt
+2025-11-12 14:36:19,055 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad 1_66pages.txt
+2025-11-12 14:36:20,671 - src.text_extractor - INFO - File already exists: MSI_Thin GF63_80pages.txt
+2025-11-12 14:36:22,310 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad G565_70pages.txt
+2025-11-12 14:36:23,810 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G5_123pages.txt
+2025-11-12 14:36:25,297 - src.text_extractor - INFO - File already exists: Acer_Predator Helios Neo 16_108pages.txt
+2025-11-12 14:36:27,348 - src.text_extractor - INFO - File already exists: HP_Spectre x360_120pages.txt
+2025-11-12 14:36:29,005 - src.text_extractor - INFO - File already exists: Huawei_Matebook 13_283pages.txt
+2025-11-12 14:36:30,491 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G16_112pages.txt
+2025-11-12 14:36:31,969 - src.text_extractor - INFO - File already exists: Huawei_MateBook 14_205pages.txt
+2025-11-12 14:36:33,413 - src.text_extractor - INFO - File already exists: HP_Omen 16_100pages.txt
+2025-11-12 14:36:34,824 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad D330_44pages.txt
+2025-11-12 14:36:36,465 - src.text_extractor - INFO - File already exists: Asus_VivoBook 17_106pages.txt
+2025-11-12 14:36:38,362 - src.text_extractor - INFO - File already exists: HP_EliteBook 8470p_173pages.txt
+2025-11-12 14:36:39,935 - src.text_extractor - INFO - File already exists: HP_Pavilion dv7_181pages.txt
+2025-11-12 14:36:41,557 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FS215MR_206pages.txt
+2025-11-12 14:36:43,074 - src.text_extractor - INFO - File already exists: Getac_B360 G3 Plus_100pages.txt
+2025-11-12 14:36:44,630 - src.text_extractor - INFO - File already exists: Lenovo_Thinkpad E14_142pages.txt
+2025-11-12 14:36:46,390 - src.text_extractor - INFO - File already exists: Acer_Aspire A15_99pages.txt
+2025-11-12 14:36:47,933 - src.text_extractor - INFO - File already exists: Sony_Vaio PCG-FR215M_148pages.txt
+2025-11-12 14:36:49,713 - src.text_extractor - INFO - File already exists: HP_245 G6_106pages.txt
+2025-11-12 14:36:51,166 - src.text_extractor - INFO - File already exists: Acer_Predator Helios 18 AI_115pages.txt
+2025-11-12 14:36:52,753 - src.text_extractor - INFO - File already exists: Asus_X541_110pages.txt
+2025-11-12 14:36:54,688 - src.text_extractor - INFO - File already exists: Dell_Inspiron 3482_105pages.txt
+2025-11-12 14:36:56,397 - src.text_extractor - INFO - File already exists: HP_ZBook Ultra G1a_97pages.txt
+2025-11-12 14:36:58,148 - src.text_extractor - INFO - File already exists: HP_Pavilion g6_126pages.txt
+2025-11-12 14:36:59,796 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G18_106pages.txt
+2025-11-12 14:37:01,437 - src.text_extractor - INFO - File already exists: Acer_Aspire 3 15_74pages.txt
+2025-11-12 14:37:03,043 - src.text_extractor - INFO - File already exists: HP_CQ56-108SL_110pages.txt
+2025-11-12 14:37:04,513 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad E16 Gen 1_108pages.txt
+2025-11-12 14:37:06,142 - src.text_extractor - INFO - File already exists: Dell_Inspiron 3782_102pages.txt
+2025-11-12 14:37:07,847 - src.text_extractor - INFO - File already exists: HP_EliteBook 840 G1_192pages.txt
+2025-11-12 14:37:09,537 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G6_122pages.txt
+2025-11-12 14:37:10,900 - src.text_extractor - INFO - Extracting text from: Acer_Aspire One AOD257_1810pages.txt
+2025-11-12 14:37:12,178 - src.text_extractor - INFO - Extracting 1810 pages of content...
+2025-11-12 14:39:00,969 - src.text_extractor - ERROR - Error extracting page 763: HTTPSConnectionPool(host='www.manua.ls', port=443): Read timed out. (read timeout=30)
+2025-11-12 14:40:00,183 - src.text_extractor - INFO - Successfully saved: Acer_Aspire One AOD257_1810pages.txt (576603 chars)
+2025-11-12 14:40:02,891 - src.text_extractor - INFO - File already exists: Samsung_N640CP214K_120pages.txt
+2025-11-12 14:40:04,636 - src.text_extractor - INFO - File already exists: Acer_Swift 3_86pages.txt
+2025-11-12 14:40:06,213 - src.text_extractor - INFO - File already exists: Acer_Aspire Lite 16_68pages.txt
+2025-11-12 14:40:07,828 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FE590P_738pages.txt
+2025-11-12 14:40:09,620 - src.text_extractor - INFO - File already exists: HP_Pavilion DV6_176pages.txt
+2025-11-12 14:40:11,314 - src.text_extractor - INFO - File already exists: Acer_Swift Go 14_88pages.txt
+2025-11-12 14:40:13,018 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G7_112pages.txt
+2025-11-12 14:40:14,833 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TX690P_738pages.txt
+2025-11-12 14:40:16,467 - src.text_extractor - INFO - File already exists: HP_Probook 430 G8_146pages.txt
+2025-11-12 14:40:18,001 - src.text_extractor - INFO - File already exists: MSI_Stealth 18 Mercedes AMG_80pages.txt
+2025-11-12 14:40:19,640 - src.text_extractor - INFO - File already exists: Samsung_N640_120pages.txt
+2025-11-12 14:40:21,764 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad 3_106pages.txt
+2025-11-12 14:40:23,550 - src.text_extractor - INFO - File already exists: Dell_Inspiron 15_141pages.txt
+2025-11-12 14:40:25,088 - src.text_extractor - INFO - File already exists: MSI_Thin 15_80pages.txt
+2025-11-12 14:40:26,677 - src.text_extractor - INFO - File already exists: Acer_Nitro 16S_95pages.txt
+2025-11-12 14:40:28,341 - src.text_extractor - INFO - File already exists: Acer_Swift X 14 OLED_90pages.txt
+2025-11-12 14:40:30,012 - src.text_extractor - INFO - File already exists: HP_Chromebook 14a_73pages.txt
+2025-11-12 14:40:31,447 - src.text_extractor - INFO - File already exists: Lenovo_Yoga 7i_64pages.txt
+2025-11-12 14:40:32,899 - src.text_extractor - INFO - File already exists: Dell_Latitude 7420_85pages.txt
+2025-11-12 14:40:34,288 - src.text_extractor - INFO - Extracting text from: Acer_Aspire One Happy 2_1810pages.txt
+2025-11-12 14:40:35,487 - src.text_extractor - INFO - Extracting 1810 pages of content...
+2025-11-12 14:54:03,029 - src.text_extractor - INFO - Successfully saved: Acer_Aspire One Happy 2_1810pages.txt (573877 chars)
+2025-11-12 14:54:05,656 - src.text_extractor - INFO - File already exists: HP_EliteBook 8460p_163pages.txt
+2025-11-12 14:54:07,278 - src.text_extractor - INFO - File already exists: HP_OMEN 15_102pages.txt
+2025-11-12 14:54:08,971 - src.text_extractor - INFO - File already exists: HP_EliteBook 1030 G1_96pages.txt
+2025-11-12 14:54:10,541 - src.text_extractor - INFO - File already exists: Asus_Vivobook Go 15_106pages.txt
+2025-11-12 14:54:11,948 - src.text_extractor - INFO - File already exists: Asus_ZenBook Duo_126pages.txt
+2025-11-12 14:54:13,604 - src.text_extractor - INFO - File already exists: HP_EliteBook 8570p_193pages.txt
+2025-11-12 14:54:15,188 - src.text_extractor - INFO - File already exists: Dell_Latitude 5400_42pages.txt
+2025-11-12 14:54:16,640 - src.text_extractor - INFO - File already exists: Sony_Vaio PCG-FR285M_112pages.txt
+2025-11-12 14:54:18,193 - src.text_extractor - INFO - File already exists: Asus_ROG Zephyrus G14_110pages.txt
+2025-11-12 14:54:20,177 - src.text_extractor - INFO - File already exists: HP_ENVY x360_126pages.txt
+2025-11-12 14:54:21,837 - src.text_extractor - INFO - File already exists: Asus_VivoBook 15_118pages.txt
+2025-11-12 14:54:23,338 - src.text_extractor - INFO - File already exists: HP_Chromebook x360_73pages.txt
+2025-11-12 14:54:25,359 - src.text_extractor - INFO - File already exists: HP_15_164pages.txt
+2025-11-12 14:54:27,244 - src.text_extractor - INFO - File already exists: HP_Pavilion 15_166pages.txt
+2025-11-12 14:54:29,297 - src.text_extractor - INFO - File already exists: HP_Envy 17_96pages.txt
+2025-11-12 14:54:30,921 - src.text_extractor - INFO - File already exists: Acer_Aspire Go 15_81pages.txt
+2025-11-12 14:54:33,348 - src.text_extractor - INFO - File already exists: Acer_Aspire 3_123pages.txt
+2025-11-12 14:54:35,065 - src.text_extractor - INFO - File already exists: HP_15s_88pages.txt
+2025-11-12 14:54:36,927 - src.text_extractor - INFO - File already exists: HP_Victus 15_81pages.txt
+2025-11-12 14:54:38,487 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming F15_110pages.txt
+2025-11-12 14:54:40,190 - src.text_extractor - INFO - File already exists: Asus_ZenBook 14_116pages.txt
+2025-11-12 14:54:41,739 - src.text_extractor - INFO - File already exists: HP_Compaq nx4800_238pages.txt
+2025-11-12 14:54:43,540 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad Flex 5_98pages.txt
+2025-11-12 14:54:45,251 - src.text_extractor - INFO - File already exists: Acer_Aspire 5_86pages.txt
+2025-11-12 14:54:47,056 - src.text_extractor - INFO - File already exists: HP_EliteBook 840 G3_216pages.txt
+2025-11-12 14:54:48,613 - src.text_extractor - INFO - File already exists: Asus_VivoBook S15_110pages.txt
+2025-11-12 14:54:50,246 - src.text_extractor - INFO - File already exists: Acer_Nitro 5_92pages.txt
+2025-11-12 14:54:51,832 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TZ1RXN_213pages.txt
+2025-11-12 14:54:53,229 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming A15_110pages.txt
+2025-11-12 14:54:54,952 - src.text_extractor - INFO - File already exists: Acer_Chromebook 315_33pages.txt
+2025-11-12 14:54:56,479 - src.text_extractor - INFO - File already exists: LG_Gram 17Z90T_186pages.txt
+2025-11-12 14:54:58,247 - src.text_extractor - INFO - File already exists: MSI_GE76 Raider_62pages.txt
+2025-11-12 14:54:59,942 - src.text_extractor - INFO - File already exists: Acer_Aspire Lite 15_68pages.txt
+2025-11-12 14:55:01,585 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TX630P_738pages.txt
+2025-11-12 14:55:03,073 - src.text_extractor - INFO - File already exists: HP_ProBook 4331s_152pages.txt
+2025-11-12 14:55:04,526 - src.text_extractor - INFO - File already exists: HP_14_146pages.txt
+2025-11-12 14:55:06,386 - src.text_extractor - INFO - File already exists: HP_Pavilion x360_89pages.txt
+2025-11-12 14:55:08,054 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad X230_322pages.txt
+2025-11-12 14:55:09,475 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming A16_108pages.txt
+2025-11-12 14:55:11,003 - src.text_extractor - INFO - File already exists: Asus_VivoBook 16_114pages.txt
+2025-11-12 14:55:12,638 - src.text_extractor - INFO - File already exists: Sony_VAIO VPCCA15FG_167pages.txt
+2025-11-12 14:55:14,524 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad T14_137pages.txt
+2025-11-12 14:55:16,323 - src.text_extractor - INFO - File already exists: Asus_VivoBook Flip 14_120pages.txt
+2025-11-12 14:55:17,922 - src.text_extractor - INFO - File already exists: HP_Stream 11_91pages.txt
+2025-11-12 14:55:19,454 - src.text_extractor - INFO - File already exists: HP_246 G3_148pages.txt
+2025-11-12 14:55:21,075 - src.text_extractor - INFO - File already exists: Asus_X451CA_114pages.txt
+2025-11-12 14:55:22,361 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FS115M_140pages.txt
+2025-11-12 14:55:24,158 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad 1_66pages.txt
+2025-11-12 14:55:25,745 - src.text_extractor - INFO - File already exists: MSI_Thin GF63_80pages.txt
+2025-11-12 14:55:27,580 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad G565_70pages.txt
+2025-11-12 14:55:29,249 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G5_123pages.txt
+2025-11-12 14:55:30,877 - src.text_extractor - INFO - File already exists: Acer_Predator Helios Neo 16_108pages.txt
+2025-11-12 14:55:32,726 - src.text_extractor - INFO - File already exists: HP_Spectre x360_120pages.txt
+2025-11-12 14:55:34,435 - src.text_extractor - INFO - File already exists: Huawei_Matebook 13_283pages.txt
+2025-11-12 14:55:36,084 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G16_112pages.txt
+2025-11-12 14:55:37,657 - src.text_extractor - INFO - File already exists: Huawei_MateBook 14_205pages.txt
+2025-11-12 14:55:39,086 - src.text_extractor - INFO - File already exists: HP_Omen 16_100pages.txt
+2025-11-12 14:55:40,792 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad D330_44pages.txt
+2025-11-12 14:55:42,830 - src.text_extractor - INFO - File already exists: Asus_VivoBook 17_106pages.txt
+2025-11-12 14:55:44,467 - src.text_extractor - INFO - File already exists: HP_EliteBook 8470p_173pages.txt
+2025-11-12 14:55:46,058 - src.text_extractor - INFO - File already exists: HP_Pavilion dv7_181pages.txt
+2025-11-12 14:55:47,502 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FS215MR_206pages.txt
+2025-11-12 14:55:48,930 - src.text_extractor - INFO - File already exists: Getac_B360 G3 Plus_100pages.txt
+2025-11-12 14:55:50,539 - src.text_extractor - INFO - File already exists: Lenovo_Thinkpad E14_142pages.txt
+2025-11-12 14:55:52,059 - src.text_extractor - INFO - File already exists: Acer_Aspire A15_99pages.txt
+2025-11-12 14:55:53,837 - src.text_extractor - INFO - File already exists: Sony_Vaio PCG-FR215M_148pages.txt
+2025-11-12 14:55:55,595 - src.text_extractor - INFO - File already exists: HP_245 G6_106pages.txt
+2025-11-12 14:55:56,958 - src.text_extractor - INFO - File already exists: Acer_Predator Helios 18 AI_115pages.txt
+2025-11-12 14:55:58,805 - src.text_extractor - INFO - File already exists: Asus_X541_110pages.txt
+2025-11-12 14:56:00,589 - src.text_extractor - INFO - File already exists: Dell_Inspiron 3482_105pages.txt
+2025-11-12 14:56:02,263 - src.text_extractor - INFO - File already exists: HP_ZBook Ultra G1a_97pages.txt
+2025-11-12 14:56:03,873 - src.text_extractor - INFO - File already exists: HP_Pavilion g6_126pages.txt
+2025-11-12 14:56:05,240 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G18_106pages.txt
+2025-11-12 14:56:06,702 - src.text_extractor - INFO - File already exists: Acer_Aspire 3 15_74pages.txt
+2025-11-12 14:56:08,494 - src.text_extractor - INFO - File already exists: HP_CQ56-108SL_110pages.txt
+2025-11-12 14:56:10,164 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad E16 Gen 1_108pages.txt
+2025-11-12 14:56:11,828 - src.text_extractor - INFO - File already exists: Dell_Inspiron 3782_102pages.txt
+2025-11-12 14:56:13,508 - src.text_extractor - INFO - File already exists: HP_EliteBook 840 G1_192pages.txt
+2025-11-12 14:56:15,193 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G6_122pages.txt
+2025-11-12 14:56:16,429 - src.text_extractor - INFO - File already exists: Acer_Aspire One AOD257_1810pages.txt
+2025-11-12 14:56:18,063 - src.text_extractor - INFO - File already exists: Samsung_N640CP214K_120pages.txt
+2025-11-12 14:56:19,836 - src.text_extractor - INFO - File already exists: Acer_Swift 3_86pages.txt
+2025-11-12 14:56:21,452 - src.text_extractor - INFO - File already exists: Acer_Aspire Lite 16_68pages.txt
+2025-11-12 14:56:23,155 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FE590P_738pages.txt
+2025-11-12 14:56:24,817 - src.text_extractor - INFO - File already exists: HP_Pavilion DV6_176pages.txt
+2025-11-12 14:56:26,437 - src.text_extractor - INFO - File already exists: Acer_Swift Go 14_88pages.txt
+2025-11-12 14:56:27,891 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G7_112pages.txt
+2025-11-12 14:56:29,295 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TX690P_738pages.txt
+2025-11-12 14:56:30,795 - src.text_extractor - INFO - File already exists: HP_Probook 430 G8_146pages.txt
+2025-11-12 14:56:32,391 - src.text_extractor - INFO - File already exists: MSI_Stealth 18 Mercedes AMG_80pages.txt
+2025-11-12 14:56:34,275 - src.text_extractor - INFO - File already exists: Samsung_N640_120pages.txt
+2025-11-12 14:56:36,154 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad 3_106pages.txt
+2025-11-12 14:56:37,735 - src.text_extractor - INFO - File already exists: Dell_Inspiron 15_141pages.txt
+2025-11-12 14:56:39,044 - src.text_extractor - INFO - File already exists: MSI_Thin 15_80pages.txt
+2025-11-12 14:56:40,613 - src.text_extractor - INFO - File already exists: Acer_Nitro 16S_95pages.txt
+2025-11-12 14:56:42,325 - src.text_extractor - INFO - File already exists: Acer_Swift X 14 OLED_90pages.txt
+2025-11-12 14:56:44,116 - src.text_extractor - INFO - File already exists: HP_Chromebook 14a_73pages.txt
+2025-11-12 14:56:45,847 - src.text_extractor - INFO - File already exists: Lenovo_Yoga 7i_64pages.txt
+2025-11-12 14:56:47,400 - src.text_extractor - INFO - File already exists: Dell_Latitude 7420_85pages.txt
+2025-11-12 14:56:48,858 - src.text_extractor - INFO - File already exists: Acer_Aspire One Happy 2_1810pages.txt
+2025-11-12 14:56:50,626 - src.text_extractor - INFO - File already exists: HP_EliteBook 8460p_163pages.txt
+2025-11-12 14:56:52,374 - src.text_extractor - INFO - File already exists: HP_OMEN 15_102pages.txt
+2025-11-12 14:56:54,112 - src.text_extractor - INFO - File already exists: HP_EliteBook 1030 G1_96pages.txt
+2025-11-12 14:56:55,734 - src.text_extractor - INFO - File already exists: Asus_Vivobook Go 15_106pages.txt
+2025-11-12 14:56:57,223 - src.text_extractor - INFO - File already exists: Asus_ZenBook Duo_126pages.txt
+2025-11-12 14:56:58,753 - src.text_extractor - INFO - File already exists: HP_EliteBook 8570p_193pages.txt
+2025-11-12 14:57:00,258 - src.text_extractor - INFO - File already exists: Dell_Latitude 5400_42pages.txt
+2025-11-12 14:57:01,571 - src.text_extractor - INFO - File already exists: Sony_Vaio PCG-FR285M_112pages.txt
+2025-11-12 14:57:03,065 - src.text_extractor - INFO - File already exists: Asus_ROG Zephyrus G14_110pages.txt
+2025-11-12 14:57:05,040 - src.text_extractor - INFO - File already exists: HP_ENVY x360_126pages.txt
+2025-11-12 14:57:06,977 - src.text_extractor - INFO - File already exists: Asus_VivoBook 15_118pages.txt
+2025-11-12 14:57:08,579 - src.text_extractor - INFO - File already exists: HP_Chromebook x360_73pages.txt
+2025-11-12 14:57:10,172 - src.text_extractor - INFO - File already exists: HP_15_164pages.txt
+2025-11-12 14:57:11,889 - src.text_extractor - INFO - File already exists: HP_Pavilion 15_166pages.txt
+2025-11-12 14:57:13,429 - src.text_extractor - INFO - File already exists: HP_Envy 17_96pages.txt
+2025-11-12 14:57:14,937 - src.text_extractor - INFO - File already exists: Acer_Aspire Go 15_81pages.txt
+2025-11-12 14:57:16,772 - src.text_extractor - INFO - File already exists: Acer_Aspire 3_123pages.txt
+2025-11-12 14:57:18,455 - src.text_extractor - INFO - File already exists: HP_15s_88pages.txt
+2025-11-12 14:57:20,027 - src.text_extractor - INFO - File already exists: HP_Victus 15_81pages.txt
+2025-11-12 14:57:21,798 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming F15_110pages.txt
+2025-11-12 14:57:23,558 - src.text_extractor - INFO - File already exists: Asus_ZenBook 14_116pages.txt
+2025-11-12 14:57:25,218 - src.text_extractor - INFO - File already exists: HP_Compaq nx4800_238pages.txt
+2025-11-12 14:57:26,844 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad Flex 5_98pages.txt
+2025-11-12 14:57:28,581 - src.text_extractor - INFO - File already exists: Acer_Aspire 5_86pages.txt
+2025-11-12 14:57:30,273 - src.text_extractor - INFO - File already exists: HP_EliteBook 840 G3_216pages.txt
+2025-11-12 14:57:31,919 - src.text_extractor - INFO - File already exists: Asus_VivoBook S15_110pages.txt
+2025-11-12 14:57:33,678 - src.text_extractor - INFO - File already exists: Acer_Nitro 5_92pages.txt
+2025-11-12 14:57:35,292 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TZ1RXN_213pages.txt
+2025-11-12 14:57:36,878 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming A15_110pages.txt
+2025-11-12 14:57:38,523 - src.text_extractor - INFO - File already exists: Acer_Chromebook 315_33pages.txt
+2025-11-12 14:57:39,899 - src.text_extractor - INFO - File already exists: LG_Gram 17Z90T_186pages.txt
+2025-11-12 14:57:41,543 - src.text_extractor - INFO - File already exists: MSI_GE76 Raider_62pages.txt
+2025-11-12 14:57:43,260 - src.text_extractor - INFO - File already exists: Acer_Aspire Lite 15_68pages.txt
+2025-11-12 14:57:45,193 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TX630P_738pages.txt
+2025-11-12 14:57:46,867 - src.text_extractor - INFO - File already exists: HP_ProBook 4331s_152pages.txt
+2025-11-12 14:57:48,627 - src.text_extractor - INFO - File already exists: HP_14_146pages.txt
+2025-11-12 14:57:50,399 - src.text_extractor - INFO - File already exists: HP_Pavilion x360_89pages.txt
+2025-11-12 14:57:51,951 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad X230_322pages.txt
+2025-11-12 14:57:53,467 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming A16_108pages.txt
+2025-11-12 14:57:55,016 - src.text_extractor - INFO - File already exists: Asus_VivoBook 16_114pages.txt
+2025-11-12 14:57:56,538 - src.text_extractor - INFO - File already exists: Sony_VAIO VPCCA15FG_167pages.txt
+2025-11-12 14:57:58,168 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad T14_137pages.txt
+2025-11-12 14:57:59,766 - src.text_extractor - INFO - File already exists: Asus_VivoBook Flip 14_120pages.txt
+2025-11-12 14:58:01,442 - src.text_extractor - INFO - File already exists: HP_Stream 11_91pages.txt
+2025-11-12 14:58:03,332 - src.text_extractor - INFO - File already exists: HP_246 G3_148pages.txt
+2025-11-12 14:58:05,023 - src.text_extractor - INFO - File already exists: Asus_X451CA_114pages.txt
+2025-11-12 14:58:06,519 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FS115M_140pages.txt
+2025-11-12 14:58:08,330 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad 1_66pages.txt
+2025-11-12 14:58:09,860 - src.text_extractor - INFO - File already exists: MSI_Thin GF63_80pages.txt
+2025-11-12 14:58:11,318 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad G565_70pages.txt
+2025-11-12 14:58:12,842 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G5_123pages.txt
+2025-11-12 14:58:14,357 - src.text_extractor - INFO - File already exists: Acer_Predator Helios Neo 16_108pages.txt
+2025-11-12 14:58:16,144 - src.text_extractor - INFO - File already exists: HP_Spectre x360_120pages.txt
+2025-11-12 14:58:17,819 - src.text_extractor - INFO - File already exists: Huawei_Matebook 13_283pages.txt
+2025-11-12 14:58:19,450 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G16_112pages.txt
+2025-11-12 14:58:21,069 - src.text_extractor - INFO - File already exists: Huawei_MateBook 14_205pages.txt
+2025-11-12 14:58:22,711 - src.text_extractor - INFO - File already exists: HP_Omen 16_100pages.txt
+2025-11-12 14:58:24,156 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad D330_44pages.txt
+2025-11-12 14:58:26,188 - src.text_extractor - INFO - File already exists: Asus_VivoBook 17_106pages.txt
+2025-11-12 14:58:27,914 - src.text_extractor - INFO - File already exists: HP_EliteBook 8470p_173pages.txt
+2025-11-12 14:58:29,699 - src.text_extractor - INFO - File already exists: HP_Pavilion dv7_181pages.txt
+2025-11-12 14:58:31,136 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FS215MR_206pages.txt
+2025-11-12 14:58:33,585 - src.text_extractor - INFO - File already exists: Getac_B360 G3 Plus_100pages.txt
+2025-11-12 14:58:35,348 - src.text_extractor - INFO - File already exists: Lenovo_Thinkpad E14_142pages.txt
+2025-11-12 14:58:37,064 - src.text_extractor - INFO - File already exists: Acer_Aspire A15_99pages.txt
+2025-11-12 14:58:38,635 - src.text_extractor - INFO - File already exists: Sony_Vaio PCG-FR215M_148pages.txt
+2025-11-12 14:58:40,420 - src.text_extractor - INFO - File already exists: HP_245 G6_106pages.txt
+2025-11-12 14:58:42,025 - src.text_extractor - INFO - File already exists: Acer_Predator Helios 18 AI_115pages.txt
+2025-11-12 14:58:43,620 - src.text_extractor - INFO - File already exists: Asus_X541_110pages.txt
+2025-11-12 14:58:45,342 - src.text_extractor - INFO - File already exists: Dell_Inspiron 3482_105pages.txt
+2025-11-12 14:58:46,924 - src.text_extractor - INFO - Successfully saved: Acer_Aspire One AOD257_1810pages.txt (576603 chars)
+2025-11-12 14:58:46,945 - src.text_extractor - INFO - File already exists: HP_ZBook Ultra G1a_97pages.txt
+2025-11-12 14:58:48,844 - src.text_extractor - INFO - File already exists: HP_Pavilion g6_126pages.txt
+2025-11-12 14:58:49,741 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G18_106pages.txt
+2025-11-12 14:58:50,769 - src.text_extractor - INFO - File already exists: Acer_Aspire 3 15_74pages.txt
+2025-11-12 14:58:51,780 - src.text_extractor - INFO - File already exists: HP_CQ56-108SL_110pages.txt
+2025-11-12 14:58:52,378 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad E16 Gen 1_108pages.txt
+2025-11-12 14:58:53,369 - src.text_extractor - INFO - File already exists: Dell_Inspiron 3782_102pages.txt
+2025-11-12 14:58:54,044 - src.text_extractor - INFO - File already exists: HP_EliteBook 840 G1_192pages.txt
+2025-11-12 14:58:54,970 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G6_122pages.txt
+2025-11-12 14:58:55,553 - src.text_extractor - INFO - File already exists: Acer_Aspire One AOD257_1810pages.txt
+2025-11-12 14:58:56,555 - src.text_extractor - INFO - File already exists: Samsung_N640CP214K_120pages.txt
+2025-11-12 14:58:57,031 - src.text_extractor - INFO - File already exists: Acer_Swift 3_86pages.txt
+2025-11-12 14:58:58,159 - src.text_extractor - INFO - File already exists: Acer_Aspire Lite 16_68pages.txt
+2025-11-12 14:58:58,408 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FE590P_738pages.txt
+2025-11-12 14:58:59,493 - src.text_extractor - INFO - Successfully saved: Acer_Aspire One Happy 2_1810pages.txt (576609 chars)
+2025-11-12 14:58:59,800 - src.text_extractor - INFO - File already exists: HP_Pavilion DV6_176pages.txt
+2025-11-12 14:59:00,020 - src.text_extractor - INFO - File already exists: Acer_Swift Go 14_88pages.txt
+2025-11-12 14:59:01,389 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G7_112pages.txt
+2025-11-12 14:59:01,444 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TX690P_738pages.txt
+2025-11-12 14:59:02,350 - src.text_extractor - INFO - File already exists: HP_Probook 430 G8_146pages.txt
+2025-11-12 14:59:02,979 - src.text_extractor - INFO - File already exists: MSI_Stealth 18 Mercedes AMG_80pages.txt
+2025-11-12 14:59:03,050 - src.text_extractor - INFO - File already exists: Samsung_N640_120pages.txt
+2025-11-12 14:59:04,288 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad 3_106pages.txt
+2025-11-12 14:59:04,396 - src.text_extractor - INFO - File already exists: MSI_Thin 15_80pages.txt
+2025-11-12 14:59:04,954 - src.text_extractor - INFO - File already exists: Dell_Inspiron 15_141pages.txt
+2025-11-12 14:59:05,751 - src.text_extractor - INFO - File already exists: Acer_Nitro 16S_95pages.txt
+2025-11-12 14:59:06,214 - src.text_extractor - INFO - File already exists: Acer_Swift X 14 OLED_90pages.txt
+2025-11-12 14:59:06,520 - src.text_extractor - INFO - File already exists: HP_Chromebook 14a_73pages.txt
+2025-11-12 14:59:07,583 - src.text_extractor - INFO - File already exists: Lenovo_Yoga 7i_64pages.txt
+2025-11-12 14:59:07,739 - src.text_extractor - INFO - File already exists: Dell_Latitude 7420_85pages.txt
+2025-11-12 14:59:07,844 - src.text_extractor - INFO - File already exists: Acer_Aspire One Happy 2_1810pages.txt
+2025-11-12 14:59:09,189 - src.text_extractor - INFO - File already exists: HP_EliteBook 8460p_163pages.txt
+2025-11-12 14:59:09,480 - src.text_extractor - INFO - File already exists: HP_OMEN 15_102pages.txt
+2025-11-12 14:59:09,663 - src.text_extractor - INFO - File already exists: HP_EliteBook 1030 G1_96pages.txt
+2025-11-12 14:59:10,650 - src.text_extractor - INFO - File already exists: Asus_Vivobook Go 15_106pages.txt
+2025-11-12 14:59:10,871 - src.text_extractor - INFO - File already exists: Asus_ZenBook Duo_126pages.txt
+2025-11-12 14:59:11,381 - src.text_extractor - INFO - File already exists: HP_EliteBook 8570p_193pages.txt
+2025-11-12 14:59:12,703 - src.text_extractor - INFO - File already exists: Dell_Latitude 5400_42pages.txt
+2025-11-12 14:59:13,005 - src.text_extractor - INFO - File already exists: Sony_Vaio PCG-FR285M_112pages.txt
+2025-11-12 14:59:13,312 - src.text_extractor - INFO - File already exists: Asus_ROG Zephyrus G14_110pages.txt
+2025-11-12 14:59:14,531 - src.text_extractor - INFO - File already exists: HP_ENVY x360_126pages.txt
+2025-11-12 14:59:14,602 - src.text_extractor - INFO - File already exists: Asus_VivoBook 15_118pages.txt
+2025-11-12 14:59:15,320 - src.text_extractor - INFO - File already exists: HP_Chromebook x360_73pages.txt
+2025-11-12 14:59:16,218 - src.text_extractor - INFO - File already exists: HP_15_164pages.txt
+2025-11-12 14:59:16,350 - src.text_extractor - INFO - File already exists: HP_Pavilion 15_166pages.txt
+2025-11-12 14:59:17,121 - src.text_extractor - INFO - File already exists: HP_Envy 17_96pages.txt
+2025-11-12 14:59:17,873 - src.text_extractor - INFO - File already exists: Acer_Aspire Go 15_81pages.txt
+2025-11-12 14:59:18,086 - src.text_extractor - INFO - File already exists: Acer_Aspire 3_123pages.txt
+2025-11-12 14:59:18,807 - src.text_extractor - INFO - File already exists: HP_15s_88pages.txt
+2025-11-12 14:59:19,617 - src.text_extractor - INFO - File already exists: HP_Victus 15_81pages.txt
+2025-11-12 14:59:19,747 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming F15_110pages.txt
+2025-11-12 14:59:20,577 - src.text_extractor - INFO - File already exists: Asus_ZenBook 14_116pages.txt
+2025-11-12 14:59:21,156 - src.text_extractor - INFO - File already exists: HP_Compaq nx4800_238pages.txt
+2025-11-12 14:59:21,508 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad Flex 5_98pages.txt
+2025-11-12 14:59:22,455 - src.text_extractor - INFO - File already exists: Acer_Aspire 5_86pages.txt
+2025-11-12 14:59:22,634 - src.text_extractor - INFO - File already exists: HP_EliteBook 840 G3_216pages.txt
+2025-11-12 14:59:23,377 - src.text_extractor - INFO - File already exists: Asus_VivoBook S15_110pages.txt
+2025-11-12 14:59:23,996 - src.text_extractor - INFO - File already exists: Acer_Nitro 5_92pages.txt
+2025-11-12 14:59:24,121 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TZ1RXN_213pages.txt
+2025-11-12 14:59:25,100 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming A15_110pages.txt
+2025-11-12 14:59:25,532 - src.text_extractor - INFO - File already exists: Acer_Chromebook 315_33pages.txt
+2025-11-12 14:59:25,563 - src.text_extractor - INFO - File already exists: LG_Gram 17Z90T_186pages.txt
+2025-11-12 14:59:26,461 - src.text_extractor - INFO - File already exists: MSI_GE76 Raider_62pages.txt
+2025-11-12 14:59:26,930 - src.text_extractor - INFO - File already exists: Acer_Aspire Lite 15_68pages.txt
+2025-11-12 14:59:27,552 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TX630P_738pages.txt
+2025-11-12 14:59:27,881 - src.text_extractor - INFO - File already exists: HP_ProBook 4331s_152pages.txt
+2025-11-12 14:59:28,303 - src.text_extractor - INFO - File already exists: HP_14_146pages.txt
+2025-11-12 14:59:29,018 - src.text_extractor - INFO - File already exists: HP_Pavilion x360_89pages.txt
+2025-11-12 14:59:29,401 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad X230_322pages.txt
+2025-11-12 14:59:29,661 - src.text_extractor - INFO - File already exists: Asus_TUF Gaming A16_108pages.txt
+2025-11-12 14:59:30,475 - src.text_extractor - INFO - File already exists: Asus_VivoBook 16_114pages.txt
+2025-11-12 14:59:30,990 - src.text_extractor - INFO - File already exists: Sony_VAIO VPCCA15FG_167pages.txt
+2025-11-12 14:59:31,225 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad T14_137pages.txt
+2025-11-12 14:59:32,063 - src.text_extractor - INFO - File already exists: Asus_VivoBook Flip 14_120pages.txt
+2025-11-12 14:59:32,554 - src.text_extractor - INFO - File already exists: HP_Stream 11_91pages.txt
+2025-11-12 14:59:32,804 - src.text_extractor - INFO - File already exists: HP_246 G3_148pages.txt
+2025-11-12 14:59:33,783 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FS115M_140pages.txt
+2025-11-12 14:59:34,281 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad 1_66pages.txt
+2025-11-12 14:59:34,521 - src.text_extractor - INFO - File already exists: Asus_X451CA_114pages.txt
+2025-11-12 14:59:35,273 - src.text_extractor - INFO - File already exists: MSI_Thin GF63_80pages.txt
+2025-11-12 14:59:35,769 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad G565_70pages.txt
+2025-11-12 14:59:36,125 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G5_123pages.txt
+2025-11-12 14:59:36,541 - src.text_extractor - INFO - File already exists: Acer_Predator Helios Neo 16_108pages.txt
+2025-11-12 14:59:37,294 - src.text_extractor - INFO - File already exists: HP_Spectre x360_120pages.txt
+2025-11-12 14:59:37,532 - src.text_extractor - INFO - File already exists: Huawei_Matebook 13_283pages.txt
+2025-11-12 14:59:37,973 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G16_112pages.txt
+2025-11-12 14:59:38,784 - src.text_extractor - INFO - File already exists: Huawei_MateBook 14_205pages.txt
+2025-11-12 14:59:38,834 - src.text_extractor - INFO - File already exists: HP_Omen 16_100pages.txt
+2025-11-12 14:59:39,395 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad D330_44pages.txt
+2025-11-12 14:59:40,431 - src.text_extractor - INFO - File already exists: Asus_VivoBook 17_106pages.txt
+2025-11-12 14:59:40,484 - src.text_extractor - INFO - File already exists: HP_EliteBook 8470p_173pages.txt
+2025-11-12 14:59:40,877 - src.text_extractor - INFO - File already exists: HP_Pavilion dv7_181pages.txt
+2025-11-12 14:59:41,783 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FS215MR_206pages.txt
+2025-11-12 14:59:41,845 - src.text_extractor - INFO - File already exists: Getac_B360 G3 Plus_100pages.txt
+2025-11-12 14:59:42,245 - src.text_extractor - INFO - File already exists: Lenovo_Thinkpad E14_142pages.txt
+2025-11-12 14:59:43,141 - src.text_extractor - INFO - File already exists: Acer_Aspire A15_99pages.txt
+2025-11-12 14:59:43,244 - src.text_extractor - INFO - File already exists: Sony_Vaio PCG-FR215M_148pages.txt
+2025-11-12 14:59:43,648 - src.text_extractor - INFO - File already exists: HP_245 G6_106pages.txt
+2025-11-12 14:59:44,557 - src.text_extractor - INFO - File already exists: Acer_Predator Helios 18 AI_115pages.txt
+2025-11-12 14:59:44,578 - src.text_extractor - INFO - File already exists: Asus_X541_110pages.txt
+2025-11-12 14:59:45,115 - src.text_extractor - INFO - File already exists: Dell_Inspiron 3482_105pages.txt
+2025-11-12 14:59:46,044 - src.text_extractor - INFO - File already exists: HP_ZBook Ultra G1a_97pages.txt
+2025-11-12 14:59:46,169 - src.text_extractor - INFO - File already exists: HP_Pavilion g6_126pages.txt
+2025-11-12 14:59:46,565 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G18_106pages.txt
+2025-11-12 14:59:47,472 - src.text_extractor - INFO - File already exists: Acer_Aspire 3 15_74pages.txt
+2025-11-12 14:59:47,690 - src.text_extractor - INFO - File already exists: HP_CQ56-108SL_110pages.txt
+2025-11-12 14:59:47,988 - src.text_extractor - INFO - File already exists: Lenovo_ThinkPad E16 Gen 1_108pages.txt
+2025-11-12 14:59:48,900 - src.text_extractor - INFO - File already exists: Dell_Inspiron 3782_102pages.txt
+2025-11-12 14:59:49,125 - src.text_extractor - INFO - File already exists: HP_EliteBook 840 G1_192pages.txt
+2025-11-12 14:59:49,628 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G6_122pages.txt
+2025-11-12 14:59:50,350 - src.text_extractor - INFO - File already exists: Acer_Aspire One AOD257_1810pages.txt
+2025-11-12 14:59:50,541 - src.text_extractor - INFO - File already exists: Samsung_N640CP214K_120pages.txt
+2025-11-12 14:59:51,198 - src.text_extractor - INFO - File already exists: Acer_Swift 3_86pages.txt
+2025-11-12 14:59:51,991 - src.text_extractor - INFO - File already exists: Acer_Aspire Lite 16_68pages.txt
+2025-11-12 14:59:52,212 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-FE590P_738pages.txt
+2025-11-12 14:59:52,923 - src.text_extractor - INFO - File already exists: HP_Pavilion DV6_176pages.txt
+2025-11-12 14:59:53,665 - src.text_extractor - INFO - File already exists: Acer_Swift Go 14_88pages.txt
+2025-11-12 14:59:53,759 - src.text_extractor - INFO - File already exists: HP_Elitebook 840 G7_112pages.txt
+2025-11-12 14:59:54,688 - src.text_extractor - INFO - File already exists: Sony_Vaio VGN-TX690P_738pages.txt
+2025-11-12 14:59:55,153 - src.text_extractor - INFO - File already exists: HP_Probook 430 G8_146pages.txt
+2025-11-12 14:59:55,459 - src.text_extractor - INFO - File already exists: MSI_Stealth 18 Mercedes AMG_80pages.txt
+2025-11-12 14:59:56,361 - src.text_extractor - INFO - File already exists: Samsung_N640_120pages.txt
+2025-11-12 14:59:56,607 - src.text_extractor - INFO - File already exists: Lenovo_IdeaPad 3_106pages.txt
+2025-11-12 14:59:56,972 - src.text_extractor - INFO - File already exists: Dell_Inspiron 15_141pages.txt
+2025-11-12 14:59:57,798 - src.text_extractor - INFO - File already exists: MSI_Thin 15_80pages.txt
+2025-11-12 14:59:58,026 - src.text_extractor - INFO - File already exists: Acer_Nitro 16S_95pages.txt
+2025-11-12 14:59:58,218 - src.text_extractor - INFO - File already exists: Acer_Swift X 14 OLED_90pages.txt
+2025-11-12 14:59:59,121 - src.text_extractor - INFO - File already exists: HP_Chromebook 14a_73pages.txt
+2025-11-12 14:59:59,378 - src.text_extractor - INFO - File already exists: Lenovo_Yoga 7i_64pages.txt
+2025-11-12 14:59:59,633 - src.text_extractor - INFO - File already exists: Dell_Latitude 7420_85pages.txt
+2025-11-12 15:00:00,436 - src.text_extractor - INFO - File already exists: Acer_Aspire One Happy 2_1810pages.txt
+2025-11-12 15:00:00,971 - src.text_extractor - INFO - File already exists: HP_EliteBook 8460p_163pages.txt
+2025-11-12 15:00:01,300 - src.text_extractor - INFO - File already exists: HP_OMEN 15_102pages.txt
+2025-11-12 15:00:02,083 - src.text_extractor - INFO - File already exists: HP_EliteBook 1030 G1_96pages.txt
+2025-11-12 15:00:02,280 - src.text_extractor - INFO - File already exists: Asus_Vivobook Go 15_106pages.txt
+2025-11-12 15:00:02,976 - src.text_extractor - INFO - File already exists: Asus_ZenBook Duo_126pages.txt
+2025-11-12 15:00:03,571 - src.text_extractor - INFO - File already exists: HP_EliteBook 8570p_193pages.txt
+2025-11-12 15:00:03,815 - src.text_extractor - INFO - File already exists: Dell_Latitude 5400_42pages.txt
+2025-11-12 15:00:04,382 - src.text_extractor - INFO - File already exists: Sony_Vaio PCG-FR285M_112pages.txt
+2025-11-12 15:00:04,823 - src.text_extractor - INFO - File already exists: Asus_ROG Zephyrus G14_110pages.txt
+2025-11-12 15:00:59,558 - src.text_extractor - INFO - Successfully saved: Acer_Aspire One AOD257_1810pages.txt (576603 chars)
+2025-11-12 15:03:57,699 - src.text_extractor - INFO - Successfully saved: Acer_Aspire One Happy 2_1810pages.txt (576609 chars)
+2025-11-12 15:03:58,703 - src.scraper - INFO - Completed laptops: 600 successful, 0 failed
+2025-11-12 15:03:58,705 - src.scraper - INFO - 
+Processing category: desktops
+2025-11-12 15:03:58,705 - src.scraper - INFO - --------------------------------------------------
+2025-11-12 15:03:58,706 - src.scraper - INFO - Starting scrape of desktops from https://www.manua.ls/computers-and-accessories/desktops
+2025-11-12 15:03:59,431 - src.scraper - INFO - Found 6 pages for https://www.manua.ls/computers-and-accessories/desktops
+2025-11-12 15:03:59,431 - src.scraper - INFO - Will scrape 6 pages for desktops
+2025-11-12 15:03:59,432 - src.scraper - INFO - Scraping page 1/6
+2025-11-12 15:03:59,602 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/desktops
+2025-11-12 15:04:00,603 - src.scraper - INFO - Scraping page 2/6
+2025-11-12 15:04:01,069 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/desktops?page=2
+2025-11-12 15:04:02,070 - src.scraper - INFO - Scraping page 3/6
+2025-11-12 15:04:02,591 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/desktops?page=3
+2025-11-12 15:04:03,592 - src.scraper - INFO - Scraping page 4/6
+2025-11-12 15:04:04,034 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/desktops?page=4
+2025-11-12 15:04:05,035 - src.scraper - INFO - Scraping page 5/6
+2025-11-12 15:04:05,540 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/desktops?page=5
+2025-11-12 15:04:06,542 - src.scraper - INFO - Scraping page 6/6
+2025-11-12 15:04:07,012 - src.scraper - INFO - Found 100 manual links on https://www.manua.ls/computers-and-accessories/desktops?page=6
+2025-11-12 15:04:08,013 - src.scraper - INFO - Found total of 600 manuals for desktops
+2025-11-12 15:04:08,013 - src.scraper - INFO - 600 new manuals to download for desktops
+2025-11-12 15:04:08,013 - src.scraper - INFO - Starting download of 600 desktops manuals
+2025-11-12 15:04:09,738 - src.text_extractor - INFO - Extracting text from: HP_All-in-One 22__57pages.txt
+2025-11-12 15:04:09,850 - src.text_extractor - INFO - Extracting text from: HP_ProDesk 600 G4_130pages.txt
+2025-11-12 15:04:10,069 - src.text_extractor - INFO - Extracting text from: HP_Pavilion TP01_70pages.txt
+2025-11-12 15:04:10,109 - src.text_extractor - INFO - Extracting text from: HP_Compaq Elite 8300_356pages.txt
+2025-11-12 15:04:10,199 - src.text_extractor - INFO - Extracting text from: HP_ENVY TE01_57pages.txt
+2025-11-12 15:04:11,098 - src.text_extractor - INFO - Extracting 57 pages of content...
+2025-11-12 15:04:11,255 - src.text_extractor - INFO - Extracting 130 pages of content...
+2025-11-12 15:04:11,560 - src.text_extractor - INFO - Extracting 70 pages of content...
+2025-11-12 15:04:11,734 - src.text_extractor - INFO - Extracting 356 pages of content...
+2025-11-12 15:04:11,751 - src.text_extractor - INFO - Extracting 57 pages of content...
+2025-11-12 15:05:00,290 - src.text_extractor - INFO - Successfully saved: HP_ENVY TE01_57pages.txt (70780 chars)
+2025-11-12 15:05:02,805 - src.text_extractor - INFO - Extracting text from: Sony_VPCL218FG_180pages.txt
+2025-11-12 15:05:03,378 - src.text_extractor - INFO - Successfully saved: HP_All-in-One 22__57pages.txt (55968 chars)
+2025-11-12 15:05:04,097 - src.text_extractor - INFO - Extracting 180 pages of content...
+2025-11-12 15:05:05,936 - src.text_extractor - INFO - Extracting text from: HP_EliteDesk 800 G3_165pages.txt
+2025-11-12 15:05:07,468 - src.text_extractor - INFO - Extracting 165 pages of content...
+2025-11-12 15:05:19,488 - src.text_extractor - INFO - Successfully saved: HP_Pavilion TP01_70pages.txt (82997 chars)
+2025-11-12 15:05:22,123 - src.text_extractor - INFO - Extracting text from: Acer_Aspire C24_52pages.txt
+2025-11-12 15:05:23,594 - src.text_extractor - INFO - Extracting 52 pages of content...
+2025-11-12 15:06:08,019 - src.text_extractor - INFO - Successfully saved: HP_ProDesk 600 G4_130pages.txt (92768 chars)
+2025-11-12 15:06:10,872 - src.text_extractor - INFO - Extracting text from: Dell_OptiPlex 7040 - Mini Tower_53pages.txt
+2025-11-12 15:06:12,343 - src.text_extractor - INFO - Extracting 53 pages of content...
+2025-11-12 15:06:13,040 - src.text_extractor - INFO - Successfully saved: Acer_Aspire C24_52pages.txt (17892 chars)
+2025-11-12 15:06:15,555 - src.text_extractor - INFO - Extracting text from: HP_Omen 25L_70pages.txt
+2025-11-12 15:06:16,871 - src.text_extractor - INFO - Extracting 70 pages of content...
+2025-11-12 15:07:03,603 - src.text_extractor - INFO - Successfully saved: Dell_OptiPlex 7040 - Mini Tower_53pages.txt (49762 chars)
+2025-11-12 15:07:05,909 - src.text_extractor - INFO - Extracting text from: Acer_Aspire TC-1785_45pages.txt
+2025-11-12 15:07:07,358 - src.text_extractor - INFO - Extracting 45 pages of content...
+2025-11-12 15:07:20,408 - src.text_extractor - INFO - Successfully saved: HP_Omen 25L_70pages.txt (82244 chars)
+2025-11-12 15:07:22,885 - src.text_extractor - INFO - Extracting text from: HP_EliteDesk 800 G4_147pages.txt
+2025-11-12 15:07:24,402 - src.text_extractor - INFO - Extracting 147 pages of content...
+2025-11-12 15:07:45,981 - src.text_extractor - INFO - Successfully saved: Acer_Aspire TC-1785_45pages.txt (16025 chars)
+2025-11-12 15:07:47,631 - src.text_extractor - INFO - Successfully saved: HP_EliteDesk 800 G3_165pages.txt (134157 chars)
+2025-11-12 15:07:48,402 - src.text_extractor - INFO - Extracting text from: HP_Pavilion Gaming TG01_57pages.txt
+2025-11-12 15:07:49,435 - src.text_extractor - INFO - Successfully saved: Sony_VPCL218FG_180pages.txt (125884 chars)
+2025-11-12 15:07:49,693 - src.text_extractor - INFO - Extracting 57 pages of content...
+2025-11-12 15:07:50,104 - src.text_extractor - INFO - Extracting text from: Acer_Aspire C27_49pages.txt
+2025-11-12 15:07:51,513 - src.text_extractor - INFO - Extracting 49 pages of content...
+2025-11-12 15:07:51,804 - src.text_extractor - INFO - Extracting text from: Acer_Aspire XC-840_49pages.txt
+2025-11-12 15:07:53,139 - src.text_extractor - INFO - Extracting 49 pages of content...
+2025-11-12 15:08:35,944 - src.text_extractor - INFO - Successfully saved: Acer_Aspire XC-840_49pages.txt (18769 chars)
+2025-11-12 15:08:38,539 - src.text_extractor - INFO - Extracting text from: Dell_Pro Max Tower T2 FCT2250_139pages.txt
+2025-11-12 15:08:39,983 - src.text_extractor - INFO - Extracting 139 pages of content...
+2025-11-12 15:08:40,423 - src.text_extractor - INFO - Successfully saved: Acer_Aspire C27_49pages.txt (27372 chars)
+2025-11-12 15:08:41,989 - src.text_extractor - INFO - Successfully saved: HP_Pavilion Gaming TG01_57pages.txt (62574 chars)
+2025-11-12 15:08:42,875 - src.text_extractor - INFO - Extracting text from: Dell_OptiPlex 7050_89pages.txt
+2025-11-12 15:08:44,470 - src.text_extractor - INFO - Extracting 89 pages of content...
+2025-11-12 15:08:44,497 - src.text_extractor - INFO - Extracting text from: Acer_Aspire Z3-605_2736pages.txt
+2025-11-12 15:08:45,946 - src.text_extractor - INFO - Extracting 2736 pages of content...
+2025-11-12 15:09:50,025 - src.text_extractor - INFO - Successfully saved: HP_EliteDesk 800 G4_147pages.txt (115516 chars)
+2025-11-12 15:09:52,713 - src.text_extractor - INFO - Extracting text from: Dell_XPS 8960_86pages.txt
+2025-11-12 15:09:54,862 - src.text_extractor - INFO - Extracting 86 pages of content...
+2025-11-12 15:10:09,195 - src.text_extractor - INFO - Successfully saved: HP_Compaq Elite 8300_356pages.txt (256236 chars)
+2025-11-12 15:10:11,901 - src.text_extractor - INFO - Extracting text from: Lenovo_IdeaCentre 3_122pages.txt
+2025-11-12 15:10:13,396 - src.text_extractor - INFO - Extracting 122 pages of content...
+2025-11-12 15:10:18,788 - src.text_extractor - INFO - Successfully saved: Dell_OptiPlex 7050_89pages.txt (70000 chars)
+2025-11-12 15:10:21,534 - src.text_extractor - INFO - Extracting text from: HP_Slim S01_79pages.txt
+2025-11-12 15:10:23,090 - src.text_extractor - INFO - Extracting 79 pages of content...
+2025-11-12 15:10:51,765 - src.text_extractor - INFO - Successfully saved: Dell_Pro Max Tower T2 FCT2250_139pages.txt (77287 chars)
+2025-11-12 15:10:54,803 - src.text_extractor - INFO - Extracting text from: HP_EliteDesk 800 G1 SFF_62pages.txt
+2025-11-12 15:10:56,649 - src.text_extractor - INFO - Extracting 62 pages of content...
+2025-11-12 15:11:27,490 - src.text_extractor - INFO - Successfully saved: Dell_XPS 8960_86pages.txt (75346 chars)
+2025-11-12 15:11:30,295 - src.text_extractor - INFO - Extracting text from: HP_Pavilion p7_33pages.txt
+2025-11-12 15:11:31,813 - src.text_extractor - INFO - Extracting 33 pages of content...
+2025-11-12 15:11:37,980 - src.text_extractor - INFO - Successfully saved: HP_Slim S01_79pages.txt (89967 chars)
+2025-11-12 15:11:40,407 - src.text_extractor - INFO - Extracting text from: Packard_Bell iMedia_56pages.txt
+2025-11-12 15:11:41,726 - src.text_extractor - INFO - Extracting 56 pages of content...
+2025-11-12 15:11:59,411 - src.text_extractor - INFO - Successfully saved: HP_EliteDesk 800 G1 SFF_62pages.txt (40015 chars)
+2025-11-12 15:12:01,543 - src.text_extractor - INFO - Successfully saved: HP_Pavilion p7_33pages.txt (32410 chars)
+2025-11-12 15:12:02,246 - src.text_extractor - INFO - Extracting text from: Dell_OptiPlex 7020_159pages.txt
+2025-11-12 15:12:03,702 - src.text_extractor - INFO - Extracting 159 pages of content...
+2025-11-12 15:12:04,235 - src.text_extractor - INFO - Extracting text from: HP_Z420_198pages.txt
+2025-11-12 15:12:05,969 - src.text_extractor - INFO - Extracting 198 pages of content...
+2025-11-12 15:12:06,315 - src.text_extractor - INFO - Successfully saved: Lenovo_IdeaCentre 3_122pages.txt (21707 chars)
+2025-11-12 15:12:09,240 - src.text_extractor - INFO - Extracting text from: Dell_OptiPlex 5060_80pages.txt
+2025-11-12 15:12:10,792 - src.text_extractor - INFO - Extracting 80 pages of content...
+2025-11-12 15:12:30,991 - src.text_extractor - INFO - Successfully saved: Packard_Bell iMedia_56pages.txt (21488 chars)
+2025-11-12 15:12:33,728 - src.text_extractor - INFO - Extracting text from: Acer_Aspire TC-885_52pages.txt
+2025-11-12 15:12:35,246 - src.text_extractor - INFO - Extracting 52 pages of content...
+2025-11-12 15:13:23,586 - src.text_extractor - INFO - Successfully saved: Acer_Aspire TC-885_52pages.txt (27509 chars)
+2025-11-12 15:13:26,177 - src.text_extractor - INFO - Extracting text from: HP_Pavilion p6_64pages.txt
+2025-11-12 15:13:27,655 - src.text_extractor - INFO - Extracting 64 pages of content...
+2025-11-12 15:13:30,291 - src.text_extractor - INFO - Successfully saved: Dell_OptiPlex 5060_80pages.txt (60605 chars)
+2025-11-12 15:13:33,021 - src.text_extractor - INFO - Extracting text from: Dell_OptiPlex 7070_37pages.txt
+2025-11-12 15:13:34,528 - src.text_extractor - INFO - Extracting 37 pages of content...
+2025-11-12 15:14:08,487 - src.text_extractor - INFO - Successfully saved: Dell_OptiPlex 7070_37pages.txt (44712 chars)
+2025-11-12 15:14:11,165 - src.text_extractor - INFO - Extracting text from: Lenovo_Thinkcentre M700 Tiny_170pages.txt
+2025-11-12 15:14:12,539 - src.text_extractor - INFO - Extracting 170 pages of content...
+2025-11-12 15:14:28,148 - src.text_extractor - INFO - Successfully saved: HP_Pavilion p6_64pages.txt (63250 chars)
+2025-11-12 15:14:30,766 - src.text_extractor - INFO - Extracting text from: HP_EliteDesk 800 G5_151pages.txt
+2025-11-12 15:14:32,259 - src.text_extractor - INFO - Extracting 151 pages of content...
+2025-11-12 15:14:51,689 - src.text_extractor - INFO - Successfully saved: Dell_OptiPlex 7020_159pages.txt (115457 chars)
+2025-11-12 15:14:54,449 - src.text_extractor - INFO - Extracting text from: HP_Compaq Elite 8000_284pages.txt
+2025-11-12 15:14:55,964 - src.text_extractor - INFO - Extracting 284 pages of content...
+2025-11-12 15:15:21,996 - src.text_extractor - INFO - Successfully saved: HP_Z420_198pages.txt (170427 chars)
+2025-11-12 15:15:24,348 - src.text_extractor - INFO - Extracting text from: Lenovo_A100_32pages.txt
+2025-11-12 15:15:25,768 - src.text_extractor - INFO - Extracting 32 pages of content...
+2025-11-12 15:15:53,811 - src.text_extractor - INFO - Successfully saved: Lenovo_A100_32pages.txt (14666 chars)
+2025-11-12 15:15:56,387 - src.text_extractor - INFO - Extracting text from: HP_Omen 30L_60pages.txt
+2025-11-12 15:15:57,704 - src.text_extractor - INFO - Extracting 60 pages of content...
+2025-11-12 15:16:45,922 - src.text_extractor - INFO - Successfully saved: Lenovo_Thinkcentre M700 Tiny_170pages.txt (32924 chars)
+2025-11-12 15:16:48,317 - src.text_extractor - INFO - Extracting text from: HP_Pavilion 23_79pages.txt
+2025-11-12 15:16:49,646 - src.text_extractor - INFO - Extracting 79 pages of content...
+2025-11-12 15:16:50,596 - src.text_extractor - INFO - Successfully saved: HP_Omen 30L_60pages.txt (59264 chars)
+2025-11-12 15:16:50,721 - src.text_extractor - INFO - Successfully saved: HP_EliteDesk 800 G5_151pages.txt (115412 chars)
+2025-11-12 15:16:53,224 - src.text_extractor - INFO - Extracting text from: HP_ProDesk 600 G3_150pages.txt
+2025-11-12 15:16:53,651 - src.text_extractor - INFO - Extracting text from: HP_EliteDesk 800 G2_178pages.txt
+2025-11-12 15:16:54,587 - src.text_extractor - INFO - Extracting 150 pages of content...
+2025-11-12 15:16:55,231 - src.text_extractor - INFO - Extracting 178 pages of content...
+2025-11-12 15:17:59,754 - src.text_extractor - INFO - Successfully saved: HP_Pavilion 23_79pages.txt (74503 chars)
+2025-11-12 15:18:02,409 - src.text_extractor - INFO - Extracting text from: HP_Pavilion 570_57pages.txt
+2025-11-12 15:18:03,891 - src.text_extractor - INFO - Extracting 57 pages of content...
+2025-11-12 15:18:58,679 - src.text_extractor - INFO - Successfully saved: HP_Pavilion 570_57pages.txt (67426 chars)
+2025-11-12 15:19:01,315 - src.text_extractor - INFO - Extracting text from: HP_ProDesk 600 G1 SFF_63pages.txt
+2025-11-12 15:19:02,795 - src.text_extractor - INFO - Extracting 63 pages of content...
+2025-11-12 15:19:12,604 - src.text_extractor - INFO - Successfully saved: HP_ProDesk 600 G3_150pages.txt (112276 chars)
+2025-11-12 15:19:15,115 - src.text_extractor - INFO - Extracting text from: Dell_Pro Micro QCM1250_133pages.txt
+2025-11-12 15:19:16,468 - src.text_extractor - INFO - Extracting 133 pages of content...
+2025-11-12 15:19:38,210 - src.text_extractor - INFO - Successfully saved: HP_Compaq Elite 8000_284pages.txt (241927 chars)
+2025-11-12 15:19:40,789 - src.text_extractor - INFO - Extracting text from: HP_Pavilion 590_57pages.txt
+2025-11-12 15:19:42,041 - src.text_extractor - INFO - Successfully saved: HP_EliteDesk 800 G2_178pages.txt (128448 chars)
+2025-11-12 15:19:42,191 - src.text_extractor - INFO - Extracting 57 pages of content...
+2025-11-12 15:19:44,524 - src.text_extractor - INFO - Extracting text from: Dell_OptiPlex 7060_51pages.txt
+2025-11-12 15:19:45,893 - src.text_extractor - INFO - Extracting 51 pages of content...
+2025-11-12 15:20:02,589 - src.text_extractor - INFO - Successfully saved: HP_ProDesk 600 G1 SFF_63pages.txt (35375 chars)
+2025-11-12 15:20:05,227 - src.text_extractor - INFO - Extracting text from: Dell_Precision 5820_92pages.txt
+2025-11-12 15:20:06,727 - src.text_extractor - INFO - Extracting 92 pages of content...
+2025-11-12 15:20:25,203 - src.text_extractor - INFO - Successfully saved: HP_Pavilion 590_57pages.txt (67594 chars)
+2025-11-12 15:20:28,130 - src.text_extractor - INFO - Extracting text from: HP_TouchSmart 520_129pages.txt
+2025-11-12 15:20:29,586 - src.text_extractor - INFO - Extracting 129 pages of content...
+2025-11-12 15:20:30,053 - src.text_extractor - INFO - Successfully saved: Dell_OptiPlex 7060_51pages.txt (25180 chars)
+2025-11-12 15:20:32,916 - src.text_extractor - INFO - Extracting text from: Asus_CN60_32pages.txt
+2025-11-12 15:20:34,235 - src.text_extractor - INFO - Extracting 32 pages of content...
+2025-11-12 15:21:01,937 - src.text_extractor - INFO - Successfully saved: Asus_CN60_32pages.txt (19162 chars)
+2025-11-12 15:21:04,714 - src.text_extractor - INFO - Extracting text from: Acer_Aspire XC-830_52pages.txt
+2025-11-12 15:21:06,214 - src.text_extractor - INFO - Extracting 52 pages of content...
+2025-11-12 15:21:27,620 - src.text_extractor - INFO - Successfully saved: Dell_Pro Micro QCM1250_133pages.txt (83265 chars)
+2025-11-12 15:21:30,065 - src.text_extractor - INFO - Extracting text from: HP_ProDesk 600 G5_130pages.txt
+2025-11-12 15:21:31,414 - src.text_extractor - INFO - Extracting 130 pages of content...
+2025-11-12 15:21:33,521 - src.text_extractor - INFO - Successfully saved: Dell_Precision 5820_92pages.txt (69290 chars)
+2025-11-12 15:21:36,281 - src.text_extractor - INFO - Extracting text from: HP_Z620_161pages.txt
+2025-11-12 15:21:37,957 - src.text_extractor - INFO - Extracting 161 pages of content...
+2025-11-12 15:21:55,812 - src.text_extractor - INFO - Successfully saved: Acer_Aspire XC-830_52pages.txt (25745 chars)
+2025-11-12 15:21:58,639 - src.text_extractor - INFO - Extracting text from: HP_Compaq 6005 Pro_259pages.txt
+2025-11-12 15:22:00,109 - src.text_extractor - INFO - Extracting 259 pages of content...
+2025-11-12 15:22:37,896 - src.text_extractor - INFO - Successfully saved: HP_TouchSmart 520_129pages.txt (95389 chars)
+2025-11-12 15:22:40,435 - src.text_extractor - INFO - Extracting text from: HP_Victus 15L_64pages.txt
+2025-11-12 15:22:41,762 - src.text_extractor - INFO - Extracting 64 pages of content...
+2025-11-12 15:23:25,821 - src.text_extractor - INFO - Successfully saved: HP_ProDesk 600 G5_130pages.txt (99488 chars)
+2025-11-12 15:23:28,590 - src.text_extractor - INFO - Extracting text from: HP_Compaq Pro 6300_240pages.txt
+2025-11-12 15:23:30,014 - src.text_extractor - INFO - Extracting 240 pages of content...
+2025-11-12 15:23:38,015 - src.text_extractor - INFO - Successfully saved: HP_Victus 15L_64pages.txt (80609 chars)
+2025-11-12 15:23:40,755 - src.text_extractor - INFO - Extracting text from: HP_Omni 120_52pages.txt
+2025-11-12 15:23:42,182 - src.text_extractor - INFO - Extracting 52 pages of content...
+2025-11-12 15:24:15,900 - src.text_extractor - INFO - Successfully saved: HP_Z620_161pages.txt (132677 chars)
+2025-11-12 15:24:18,290 - src.text_extractor - INFO - Extracting text from: HP_Pro Mini 400 G9_121pages.txt
+2025-11-12 15:24:19,641 - src.text_extractor - INFO - Extracting 121 pages of content...
+2025-11-12 15:24:29,153 - src.text_extractor - INFO - Successfully saved: HP_Omni 120_52pages.txt (39548 chars)
+2025-11-12 15:24:31,850 - src.text_extractor - INFO - Extracting text from: Acer_Aspire TC-780_52pages.txt
+2025-11-12 15:24:33,421 - src.text_extractor - INFO - Extracting 52 pages of content...
+2025-11-12 15:25:27,658 - src.text_extractor - INFO - Successfully saved: Acer_Aspire TC-780_52pages.txt (27677 chars)
+2025-11-12 15:25:30,105 - src.text_extractor - INFO - Extracting text from: Lenovo_Legion T5_112pages.txt
+2025-11-12 15:25:31,440 - src.text_extractor - INFO - Extracting 112 pages of content...
+2025-11-12 15:26:09,913 - src.text_extractor - INFO - Successfully saved: HP_Compaq 6005 Pro_259pages.txt (244578 chars)
+2025-11-12 15:26:12,853 - src.text_extractor - INFO - Extracting text from: HP_EliteDesk 705 G1_246pages.txt
+2025-11-12 15:26:14,321 - src.text_extractor - INFO - Extracting 246 pages of content...
+2025-11-12 15:26:14,528 - src.text_extractor - INFO - Successfully saved: HP_Pro Mini 400 G9_121pages.txt (107823 chars)
+2025-11-12 15:26:17,168 - src.text_extractor - INFO - Extracting text from: HP_Compaq Pro 6300 SFF_104pages.txt
+2025-11-12 15:26:18,681 - src.text_extractor - INFO - Extracting 104 pages of content...
+2025-11-12 15:27:10,379 - src.text_extractor - INFO - Successfully saved: Lenovo_Legion T5_112pages.txt (29103 chars)
+2025-11-12 15:27:13,079 - src.text_extractor - INFO - Extracting text from: Acer_Veriton X2732G_46pages.txt
+2025-11-12 15:27:14,359 - src.text_extractor - INFO - Extracting 46 pages of content...
+2025-11-12 15:27:20,828 - src.text_extractor - INFO - Successfully saved: HP_Compaq Pro 6300_240pages.txt (187173 chars)
+2025-11-12 15:27:23,309 - src.text_extractor - INFO - Extracting text from: HP_EliteDesk 800 65W G4 Mini_116pages.txt
+2025-11-12 15:27:24,792 - src.text_extractor - INFO - Extracting 116 pages of content...
+2025-11-12 15:27:52,328 - src.text_extractor - INFO - Successfully saved: HP_Compaq Pro 6300 SFF_104pages.txt (90676 chars)
+2025-11-12 15:27:55,110 - src.text_extractor - INFO - Extracting text from: Asus_G11CD_52pages.txt
+2025-11-12 15:27:55,628 - src.text_extractor - INFO - Successfully saved: Acer_Veriton X2732G_46pages.txt (17225 chars)
+2025-11-12 15:27:56,508 - src.text_extractor - INFO - Extracting 52 pages of content...
+2025-11-12 15:27:58,202 - src.text_extractor - INFO - Extracting text from: HP_ProDesk 400 G1_126pages.txt
+2025-11-12 15:27:59,768 - src.text_extractor - INFO - Extracting 126 pages of content...
+2025-11-12 15:28:46,983 - src.text_extractor - INFO - Successfully saved: Asus_G11CD_52pages.txt (26519 chars)
+2025-11-12 15:28:49,505 - src.text_extractor - INFO - Extracting text from: HP_Pavilion 500_50pages.txt
+2025-11-12 15:28:50,978 - src.text_extractor - INFO - Extracting 50 pages of content...
+2025-11-12 15:29:11,989 - src.text_extractor - INFO - Successfully saved: HP_EliteDesk 800 65W G4 Mini_116pages.txt (88874 chars)
+2025-11-12 15:29:15,468 - src.text_extractor - INFO - Extracting text from: Lenovo_IdeaCentre AIO 520_107pages.txt
+2025-11-12 15:29:16,824 - src.text_extractor - INFO - Extracting 107 pages of content...
+2025-11-12 15:29:32,088 - src.text_extractor - INFO - Successfully saved: HP_Pavilion 500_50pages.txt (48355 chars)
+2025-11-12 15:29:34,846 - src.text_extractor - INFO - Extracting text from: Asus_ROG Strix G16CHR_58pages.txt
+2025-11-12 15:29:36,268 - src.text_extractor - INFO - Extracting 58 pages of content...
+2025-11-12 15:30:01,605 - src.text_extractor - INFO - Successfully saved: HP_ProDesk 400 G1_126pages.txt (150659 chars)
+2025-11-12 15:30:02,557 - src.text_extractor - INFO - Successfully saved: HP_EliteDesk 705 G1_246pages.txt (231396 chars)
+2025-11-12 15:30:04,062 - src.text_extractor - INFO - Extracting text from: HP_Z240_106pages.txt
+2025-11-12 15:30:05,143 - src.text_extractor - INFO - Extracting text from: Dell_XPS 8930_142pages.txt
+2025-11-12 15:30:05,522 - src.text_extractor - INFO - Extracting 106 pages of content...
+2025-11-12 15:30:06,596 - src.text_extractor - INFO - Extracting 142 pages of content...
+2025-11-12 15:30:25,864 - src.text_extractor - INFO - Successfully saved: Asus_ROG Strix G16CHR_58pages.txt (17723 chars)
+2025-11-12 15:30:28,571 - src.text_extractor - INFO - Extracting text from: HP_ProDesk 600 G2_146pages.txt
+2025-11-12 15:30:30,082 - src.text_extractor - INFO - Extracting 146 pages of content...
+2025-11-12 15:30:53,295 - src.text_extractor - INFO - Successfully saved: Lenovo_IdeaCentre AIO 520_107pages.txt (21533 chars)
+2025-11-12 15:30:55,755 - src.text_extractor - INFO - Extracting text from: HP_Prodesk 400 G5_125pages.txt
+2025-11-12 15:30:57,033 - src.text_extractor - INFO - Extracting 125 pages of content...
+2025-11-12 15:31:49,218 - src.text_extractor - INFO - Successfully saved: HP_Z240_106pages.txt (97271 chars)
+2025-11-12 15:31:51,875 - src.text_extractor - INFO - Extracting text from: Lenovo_ThinkCentre 8215_530pages.txt
+2025-11-12 15:31:53,144 - src.text_extractor - INFO - Extracting 530 pages of content...
+2025-11-12 15:32:18,653 - src.text_extractor - INFO - Successfully saved: Dell_XPS 8930_142pages.txt (57674 chars)
+2025-11-12 15:32:21,153 - src.text_extractor - INFO - Extracting text from: HP_Z240 SFF_60pages.txt
+2025-11-12 15:32:22,662 - src.text_extractor - INFO - Extracting 60 pages of content...
+2025-11-12 15:32:44,862 - src.text_extractor - INFO - Successfully saved: HP_Prodesk 400 G5_125pages.txt (90199 chars)
+2025-11-12 15:32:47,577 - src.text_extractor - INFO - Extracting text from: Dell_OptiPlex 7010_60pages.txt
+2025-11-12 15:32:49,627 - src.text_extractor - INFO - Extracting 60 pages of content...
+2025-11-12 15:32:55,020 - src.text_extractor - INFO - Successfully saved: HP_ProDesk 600 G2_146pages.txt (121383 chars)
+2025-11-12 15:32:57,835 - src.text_extractor - INFO - Extracting text from: Dell_OptiPlex 990_103pages.txt
+2025-11-12 15:32:59,504 - src.text_extractor - INFO - Extracting 103 pages of content...
+2025-11-12 15:33:21,607 - src.text_extractor - INFO - Successfully saved: HP_Z240 SFF_60pages.txt (60118 chars)
+2025-11-12 15:33:24,465 - src.text_extractor - INFO - Extracting text from: HP_Pro 3335_226pages.txt
+2025-11-12 15:33:25,891 - src.text_extractor - INFO - Extracting 226 pages of content...
+2025-11-12 15:33:47,242 - src.text_extractor - INFO - Successfully saved: Dell_OptiPlex 7010_60pages.txt (45339 chars)
+2025-11-12 15:33:49,977 - src.text_extractor - INFO - Extracting text from: HP_Pro 3330 Microtower_226pages.txt
+2025-11-12 15:33:51,408 - src.text_extractor - INFO - Extracting 226 pages of content...
+2025-11-12 15:34:36,597 - src.text_extractor - INFO - Successfully saved: Dell_OptiPlex 990_103pages.txt (51906 chars)
+2025-11-12 15:34:39,135 - src.text_extractor - INFO - Extracting text from: Dell_OptiPlex 7040 SFF_54pages.txt
+2025-11-12 15:34:40,684 - src.text_extractor - INFO - Extracting 54 pages of content...
+2025-11-12 15:35:32,617 - src.text_extractor - INFO - Successfully saved: Dell_OptiPlex 7040 SFF_54pages.txt (42138 chars)
+2025-11-12 15:35:35,245 - src.text_extractor - INFO - Extracting text from: Dell_OptiPlex 5070_37pages.txt
+2025-11-12 15:35:36,882 - src.text_extractor - INFO - Extracting 37 pages of content...
+2025-11-12 15:36:12,083 - src.text_extractor - INFO - Successfully saved: Dell_OptiPlex 5070_37pages.txt (44000 chars)
+2025-11-12 15:36:14,953 - src.text_extractor - INFO - Extracting text from: Alienware_Aurora Ryzen Edition R14_97pages.txt
+2025-11-12 15:36:16,244 - src.text_extractor - INFO - Extracting 97 pages of content...
+2025-11-12 15:36:50,000 - src.text_extractor - INFO - Successfully saved: HP_Pro 3335_226pages.txt (157915 chars)
+2025-11-12 15:36:52,562 - src.text_extractor - INFO - Extracting text from: HP_EliteDesk 705 G4_153pages.txt
+2025-11-12 15:36:54,056 - src.text_extractor - INFO - Extracting 153 pages of content...
+2025-11-12 15:37:33,069 - src.text_extractor - INFO - Successfully saved: HP_Pro 3330 Microtower_226pages.txt (168173 chars)
+2025-11-12 15:37:35,636 - src.text_extractor - INFO - Extracting text from: HP_Z440_132pages.txt
+2025-11-12 15:37:37,386 - src.text_extractor - INFO - Extracting 132 pages of content...
+2025-11-12 15:37:44,617 - src.text_extractor - INFO - Successfully saved: Alienware_Aurora Ryzen Edition R14_97pages.txt (91958 chars)
+2025-11-12 15:37:47,166 - src.text_extractor - INFO - Extracting text from: Lenovo_ThinkCentre M715q_64pages.txt
+2025-11-12 15:37:48,619 - src.text_extractor - INFO - Extracting 64 pages of content...
+2025-11-12 15:38:48,488 - src.text_extractor - INFO - Successfully saved: Lenovo_ThinkCentre M715q_64pages.txt (26624 chars)
+2025-11-12 15:38:51,083 - src.text_extractor - INFO - Extracting text from: Lenovo_ThinkCentre M710q_80pages.txt
+2025-11-12 15:38:52,721 - src.text_extractor - INFO - Extracting 80 pages of content...
+2025-11-12 15:39:09,354 - src.text_extractor - INFO - Successfully saved: HP_EliteDesk 705 G4_153pages.txt (113582 chars)
+2025-11-12 15:39:11,872 - src.text_extractor - INFO - Extracting text from: Acer_Aspire XC-603_28pages.txt
+2025-11-12 15:39:13,347 - src.text_extractor - INFO - Extracting 28 pages of content...
+2025-11-12 15:39:40,706 - src.text_extractor - INFO - Successfully saved: Acer_Aspire XC-603_28pages.txt (21353 chars)
+2025-11-12 15:39:43,359 - src.text_extractor - INFO - Extracting text from: HP_Pavilion 24_60pages.txt
+2025-11-12 15:39:44,710 - src.text_extractor - INFO - Successfully saved: HP_Z440_132pages.txt (156567 chars)
+2025-11-12 15:39:44,813 - src.text_extractor - INFO - Extracting 60 pages of content...
+2025-11-12 15:39:47,539 - src.text_extractor - INFO - Extracting text from: MSI_Cubi 5_34pages.txt
+2025-11-12 15:39:49,093 - src.text_extractor - INFO - Extracting 34 pages of content...
+2025-11-12 15:39:57,001 - src.text_extractor - INFO - Successfully saved: Lenovo_ThinkCentre 8215_530pages.txt (162100 chars)
+2025-11-12 15:39:59,389 - src.text_extractor - INFO - Extracting text from: HP_ProDesk 600 G6_140pages.txt
+2025-11-12 15:40:00,782 - src.text_extractor - INFO - Extracting 140 pages of content...
+2025-11-12 15:40:08,450 - src.text_extractor - INFO - Successfully saved: Lenovo_ThinkCentre M710q_80pages.txt (26955 chars)
+2025-11-12 15:40:11,315 - src.text_extractor - INFO - Extracting text from: HP_Z6 G4_112pages.txt
+2025-11-12 15:40:12,680 - src.text_extractor - INFO - Extracting 112 pages of content...
+2025-11-12 15:40:20,735 - src.text_extractor - INFO - Successfully saved: MSI_Cubi 5_34pages.txt (22407 chars)
+2025-11-12 15:40:23,289 - src.text_extractor - INFO - Extracting text from: HP_EliteDesk 705 G3_153pages.txt
+2025-11-12 15:40:24,816 - src.text_extractor - INFO - Extracting 153 pages of content...
+2025-11-12 15:40:41,114 - src.text_extractor - INFO - Successfully saved: HP_Pavilion 24_60pages.txt (76865 chars)
+2025-11-12 15:40:43,844 - src.text_extractor - INFO - Extracting text from: Acer_Predator G3-710_52pages.txt
+2025-11-12 15:40:45,191 - src.text_extractor - INFO - Extracting 52 pages of content...
+2025-11-12 15:41:29,410 - src.text_extractor - INFO - Successfully saved: Acer_Predator G3-710_52pages.txt (17453 chars)
+2025-11-12 15:41:31,837 - src.text_extractor - INFO - Extracting text from: HP_ENVY TouchSmart 23_79pages.txt
+2025-11-12 15:41:33,265 - src.text_extractor - INFO - Extracting 79 pages of content...
+2025-11-12 15:41:56,515 - src.text_extractor - INFO - Successfully saved: HP_Z6 G4_112pages.txt (97483 chars)
+2025-11-12 15:41:59,289 - src.text_extractor - INFO - Extracting text from: HP_Pavilion Slimline s5_33pages.txt
+2025-11-12 15:42:00,663 - src.text_extractor - INFO - Extracting 33 pages of content...
+2025-11-12 15:42:03,082 - src.text_extractor - INFO - Successfully saved: HP_ProDesk 600 G6_140pages.txt (101208 chars)
+2025-11-12 15:42:05,800 - src.text_extractor - INFO - Extracting text from: Acer_Aspire XC-780_52pages.txt
+2025-11-12 15:42:07,347 - src.text_extractor - INFO - Extracting 52 pages of content...
+2025-11-12 15:42:28,219 - src.text_extractor - INFO - Successfully saved: HP_Pavilion Slimline s5_33pages.txt (24640 chars)
+2025-11-12 15:42:30,780 - src.text_extractor - INFO - Extracting text from: Lenovo_IdeaCentre A530_73pages.txt
+2025-11-12 15:42:32,077 - src.text_extractor - INFO - Extracting 73 pages of content...
+2025-11-12 15:42:38,308 - src.text_extractor - INFO - Successfully saved: HP_EliteDesk 705 G3_153pages.txt (115217 chars)
+2025-11-12 15:42:41,125 - src.text_extractor - INFO - Extracting text from: HP_ProDesk 490 G2_52pages.txt
+2025-11-12 15:42:42,422 - src.text_extractor - INFO - Extracting 52 pages of content...
+2025-11-12 15:42:43,458 - src.text_extractor - INFO - Successfully saved: HP_ENVY TouchSmart 23_79pages.txt (79962 chars)
+2025-11-12 15:42:46,233 - src.text_extractor - INFO - Extracting text from: HP_ProDesk 400 G7_136pages.txt
+2025-11-12 15:42:47,640 - src.text_extractor - INFO - Extracting 136 pages of content...
+2025-11-12 15:42:55,863 - src.text_extractor - INFO - Successfully saved: Acer_Aspire XC-780_52pages.txt (26056 chars)
+2025-11-12 15:42:58,534 - src.text_extractor - INFO - Extracting text from: Samsung_NP20_122pages.txt
+2025-11-12 15:42:59,842 - src.text_extractor - INFO - Extracting 122 pages of content...
+2025-11-12 15:43:32,247 - src.text_extractor - INFO - Successfully saved: HP_ProDesk 490 G2_52pages.txt (64140 chars)
+2025-11-12 15:43:34,801 - src.text_extractor - INFO - Extracting text from: Dell_OptiPlex 3070_39pages.txt
+2025-11-12 15:43:36,249 - src.text_extractor - INFO - Extracting 39 pages of content...
+2025-11-12 15:43:36,550 - src.text_extractor - INFO - Successfully saved: Lenovo_IdeaCentre A530_73pages.txt (16490 chars)
+2025-11-12 15:43:39,329 - src.text_extractor - INFO - Extracting text from: HP_Z840_132pages.txt
+2025-11-12 15:43:40,998 - src.text_extractor - INFO - Extracting 132 pages of content...
+2025-11-12 15:44:12,071 - src.text_extractor - INFO - Successfully saved: Dell_OptiPlex 3070_39pages.txt (52638 chars)
+2025-11-12 15:44:15,154 - src.text_extractor - INFO - Extracting text from: HP_ProDesk 600 G1_296pages.txt
+2025-11-12 15:44:16,854 - src.text_extractor - INFO - Extracting 296 pages of content...
+2025-11-12 15:44:48,858 - src.text_extractor - INFO - Successfully saved: Samsung_NP20_122pages.txt (59706 chars)
+2025-11-12 15:44:51,419 - src.text_extractor - INFO - Extracting text from: Asus_NUC 13 Pro_51pages.txt
+2025-11-12 15:44:52,483 - src.text_extractor - INFO - Successfully saved: HP_ProDesk 400 G7_136pages.txt (122243 chars)
+2025-11-12 15:44:52,687 - src.text_extractor - INFO - Extracting 51 pages of content...
+2025-11-12 15:44:55,121 - src.text_extractor - INFO - File already exists: HP_Pavilion TP01_70pages.txt
+2025-11-12 15:44:56,640 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G4_130pages.txt
+2025-11-12 15:44:57,954 - src.text_extractor - INFO - File already exists: HP_All-in-One 22__57pages.txt
+2025-11-12 15:44:59,631 - src.text_extractor - INFO - File already exists: HP_ENVY TE01_57pages.txt
+2025-11-12 15:45:01,428 - src.text_extractor - INFO - File already exists: HP_Compaq Elite 8300_356pages.txt
+2025-11-12 15:45:02,952 - src.text_extractor - INFO - File already exists: Sony_VPCL218FG_180pages.txt
+2025-11-12 15:45:04,494 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G3_165pages.txt
+2025-11-12 15:45:06,047 - src.text_extractor - INFO - File already exists: Acer_Aspire C24_52pages.txt
+2025-11-12 15:45:07,599 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7040 - Mini Tower_53pages.txt
+2025-11-12 15:45:08,949 - src.text_extractor - INFO - File already exists: HP_Omen 25L_70pages.txt
+2025-11-12 15:45:10,375 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-1785_45pages.txt
+2025-11-12 15:45:11,976 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G4_147pages.txt
+2025-11-12 15:45:13,441 - src.text_extractor - INFO - File already exists: HP_Pavilion Gaming TG01_57pages.txt
+2025-11-12 15:45:15,026 - src.text_extractor - INFO - File already exists: Acer_Aspire C27_49pages.txt
+2025-11-12 15:45:16,636 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-840_49pages.txt
+2025-11-12 15:45:18,305 - src.text_extractor - INFO - File already exists: Dell_Pro Max Tower T2 FCT2250_139pages.txt
+2025-11-12 15:45:19,944 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7050_89pages.txt
+2025-11-12 15:45:21,308 - src.text_extractor - INFO - Extracting text from: Acer_Aspire Z3-605_2736pages.txt
+2025-11-12 15:45:22,677 - src.text_extractor - INFO - Extracting 2736 pages of content...
+2025-11-12 15:45:38,647 - src.text_extractor - INFO - Successfully saved: Asus_NUC 13 Pro_51pages.txt (33267 chars)
+2025-11-12 15:45:41,296 - src.text_extractor - INFO - File already exists: Dell_XPS 8960_86pages.txt
+2025-11-12 15:45:42,910 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre 3_122pages.txt
+2025-11-12 15:45:44,535 - src.text_extractor - INFO - File already exists: HP_Slim S01_79pages.txt
+2025-11-12 15:45:46,154 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G1 SFF_62pages.txt
+2025-11-12 15:45:47,495 - src.text_extractor - INFO - Successfully saved: HP_Z840_132pages.txt (155579 chars)
+2025-11-12 15:45:47,763 - src.text_extractor - INFO - File already exists: HP_Pavilion p7_33pages.txt
+2025-11-12 15:45:49,218 - src.text_extractor - INFO - File already exists: Packard_Bell iMedia_56pages.txt
+2025-11-12 15:45:50,365 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7020_159pages.txt
+2025-11-12 15:45:51,165 - src.text_extractor - INFO - File already exists: HP_Z420_198pages.txt
+2025-11-12 15:45:52,121 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 5060_80pages.txt
+2025-11-12 15:45:52,860 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-885_52pages.txt
+2025-11-12 15:45:53,788 - src.text_extractor - INFO - File already exists: HP_Pavilion p6_64pages.txt
+2025-11-12 15:45:54,461 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7070_37pages.txt
+2025-11-12 15:45:55,265 - src.text_extractor - INFO - File already exists: Lenovo_Thinkcentre M700 Tiny_170pages.txt
+2025-11-12 15:45:55,999 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G5_151pages.txt
+2025-11-12 15:45:56,983 - src.text_extractor - INFO - File already exists: HP_Compaq Elite 8000_284pages.txt
+2025-11-12 15:45:57,316 - src.text_extractor - INFO - File already exists: Lenovo_A100_32pages.txt
+2025-11-12 15:45:58,281 - src.text_extractor - INFO - File already exists: HP_Omen 30L_60pages.txt
+2025-11-12 15:45:58,841 - src.text_extractor - INFO - File already exists: HP_Pavilion 23_79pages.txt
+2025-11-12 15:45:59,782 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G2_178pages.txt
+2025-11-12 15:46:00,194 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G3_150pages.txt
+2025-11-12 15:46:01,337 - src.text_extractor - INFO - File already exists: HP_Pavilion 570_57pages.txt
+2025-11-12 15:46:01,942 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G1 SFF_63pages.txt
+2025-11-12 15:46:02,956 - src.text_extractor - INFO - File already exists: Dell_Pro Micro QCM1250_133pages.txt
+2025-11-12 15:46:03,852 - src.text_extractor - INFO - File already exists: HP_Pavilion 590_57pages.txt
+2025-11-12 15:46:04,708 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7060_51pages.txt
+2025-11-12 15:46:05,770 - src.text_extractor - INFO - File already exists: Dell_Precision 5820_92pages.txt
+2025-11-12 15:46:06,509 - src.text_extractor - INFO - File already exists: HP_TouchSmart 520_129pages.txt
+2025-11-12 15:46:07,551 - src.text_extractor - INFO - File already exists: Asus_CN60_32pages.txt
+2025-11-12 15:46:08,518 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-830_52pages.txt
+2025-11-12 15:46:09,127 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G5_130pages.txt
+2025-11-12 15:46:10,210 - src.text_extractor - INFO - File already exists: HP_Z620_161pages.txt
+2025-11-12 15:46:10,712 - src.text_extractor - INFO - File already exists: HP_Compaq 6005 Pro_259pages.txt
+2025-11-12 15:46:11,533 - src.text_extractor - INFO - File already exists: HP_Victus 15L_64pages.txt
+2025-11-12 15:46:12,334 - src.text_extractor - INFO - File already exists: HP_Compaq Pro 6300_240pages.txt
+2025-11-12 15:46:13,238 - src.text_extractor - INFO - File already exists: HP_Omni 120_52pages.txt
+2025-11-12 15:46:14,208 - src.text_extractor - INFO - File already exists: HP_Pro Mini 400 G9_121pages.txt
+2025-11-12 15:46:15,031 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-780_52pages.txt
+2025-11-12 15:46:15,980 - src.text_extractor - INFO - File already exists: Lenovo_Legion T5_112pages.txt
+2025-11-12 15:46:16,417 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G1_246pages.txt
+2025-11-12 15:46:17,782 - src.text_extractor - INFO - File already exists: Acer_Veriton X2732G_46pages.txt
+2025-11-12 15:46:17,791 - src.text_extractor - INFO - File already exists: HP_Compaq Pro 6300 SFF_104pages.txt
+2025-11-12 15:46:19,327 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 65W G4 Mini_116pages.txt
+2025-11-12 15:46:19,572 - src.text_extractor - INFO - File already exists: Asus_G11CD_52pages.txt
+2025-11-12 15:46:20,766 - src.text_extractor - INFO - File already exists: HP_ProDesk 400 G1_126pages.txt
+2025-11-12 15:46:20,970 - src.text_extractor - INFO - File already exists: HP_Pavilion 500_50pages.txt
+2025-11-12 15:46:22,366 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre AIO 520_107pages.txt
+2025-11-12 15:46:22,483 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G16CHR_58pages.txt
+2025-11-12 15:46:23,916 - src.text_extractor - INFO - File already exists: Dell_XPS 8930_142pages.txt
+2025-11-12 15:46:23,954 - src.text_extractor - INFO - File already exists: HP_Z240_106pages.txt
+2025-11-12 15:46:25,575 - src.text_extractor - INFO - File already exists: HP_Prodesk 400 G5_125pages.txt
+2025-11-12 15:46:25,626 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G2_146pages.txt
+2025-11-12 15:46:27,180 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre 8215_530pages.txt
+2025-11-12 15:46:27,408 - src.text_extractor - INFO - File already exists: HP_Z240 SFF_60pages.txt
+2025-11-12 15:46:29,092 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7010_60pages.txt
+2025-11-12 15:46:29,238 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 990_103pages.txt
+2025-11-12 15:46:30,734 - src.text_extractor - INFO - File already exists: HP_Pro 3335_226pages.txt
+2025-11-12 15:46:31,064 - src.text_extractor - INFO - File already exists: HP_Pro 3330 Microtower_226pages.txt
+2025-11-12 15:46:32,332 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7040 SFF_54pages.txt
+2025-11-12 15:46:32,641 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 5070_37pages.txt
+2025-11-12 15:46:34,038 - src.text_extractor - INFO - File already exists: Alienware_Aurora Ryzen Edition R14_97pages.txt
+2025-11-12 15:46:34,150 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G4_153pages.txt
+2025-11-12 15:46:35,741 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre M715q_64pages.txt
+2025-11-12 15:46:35,830 - src.text_extractor - INFO - File already exists: HP_Z440_132pages.txt
+2025-11-12 15:46:37,240 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre M710q_80pages.txt
+2025-11-12 15:46:37,586 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-603_28pages.txt
+2025-11-12 15:46:38,665 - src.text_extractor - INFO - File already exists: HP_Pavilion 24_60pages.txt
+2025-11-12 15:46:39,444 - src.text_extractor - INFO - File already exists: MSI_Cubi 5_34pages.txt
+2025-11-12 15:46:40,344 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G6_140pages.txt
+2025-11-12 15:46:41,278 - src.text_extractor - INFO - File already exists: HP_Z6 G4_112pages.txt
+2025-11-12 15:46:41,979 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G3_153pages.txt
+2025-11-12 15:46:42,858 - src.text_extractor - INFO - File already exists: Acer_Predator G3-710_52pages.txt
+2025-11-12 15:46:43,338 - src.text_extractor - INFO - File already exists: HP_ENVY TouchSmart 23_79pages.txt
+2025-11-12 15:46:44,297 - src.text_extractor - INFO - File already exists: HP_Pavilion Slimline s5_33pages.txt
+2025-11-12 15:46:45,041 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-780_52pages.txt
+2025-11-12 15:46:45,900 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre A530_73pages.txt
+2025-11-12 15:46:46,546 - src.text_extractor - INFO - File already exists: HP_ProDesk 490 G2_52pages.txt
+2025-11-12 15:46:47,241 - src.text_extractor - INFO - File already exists: HP_ProDesk 400 G7_136pages.txt
+2025-11-12 15:46:47,974 - src.text_extractor - INFO - File already exists: Samsung_NP20_122pages.txt
+2025-11-12 15:46:48,770 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 3070_39pages.txt
+2025-11-12 15:46:49,755 - src.text_extractor - INFO - File already exists: HP_Z840_132pages.txt
+2025-11-12 15:46:50,703 - src.text_extractor - INFO - Extracting text from: HP_ProDesk 600 G1_296pages.txt
+2025-11-12 15:46:51,194 - src.text_extractor - INFO - File already exists: Asus_NUC 13 Pro_51pages.txt
+2025-11-12 15:46:52,382 - src.text_extractor - INFO - Extracting 296 pages of content...
+2025-11-12 15:46:52,825 - src.text_extractor - INFO - File already exists: HP_Pavilion TP01_70pages.txt
+2025-11-12 15:46:54,102 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G4_130pages.txt
+2025-11-12 15:46:55,653 - src.text_extractor - INFO - File already exists: HP_All-in-One 22__57pages.txt
+2025-11-12 15:46:57,203 - src.text_extractor - INFO - File already exists: HP_ENVY TE01_57pages.txt
+2025-11-12 15:46:58,689 - src.text_extractor - INFO - File already exists: HP_Compaq Elite 8300_356pages.txt
+2025-11-12 15:47:00,036 - src.text_extractor - INFO - File already exists: Sony_VPCL218FG_180pages.txt
+2025-11-12 15:47:01,536 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G3_165pages.txt
+2025-11-12 15:47:03,030 - src.text_extractor - INFO - File already exists: Acer_Aspire C24_52pages.txt
+2025-11-12 15:47:04,648 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7040 - Mini Tower_53pages.txt
+2025-11-12 15:47:06,158 - src.text_extractor - INFO - File already exists: HP_Omen 25L_70pages.txt
+2025-11-12 15:47:07,778 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-1785_45pages.txt
+2025-11-12 15:47:09,218 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G4_147pages.txt
+2025-11-12 15:47:10,693 - src.text_extractor - INFO - File already exists: HP_Pavilion Gaming TG01_57pages.txt
+2025-11-12 15:47:12,213 - src.text_extractor - INFO - File already exists: Acer_Aspire C27_49pages.txt
+2025-11-12 15:47:13,609 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-840_49pages.txt
+2025-11-12 15:47:14,983 - src.text_extractor - INFO - File already exists: Dell_Pro Max Tower T2 FCT2250_139pages.txt
+2025-11-12 15:47:16,736 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7050_89pages.txt
+2025-11-12 15:47:18,310 - src.text_extractor - INFO - Extracting text from: Acer_Aspire Z3-605_2736pages.txt
+2025-11-12 15:47:19,729 - src.text_extractor - INFO - Extracting 2736 pages of content...
+2025-11-12 15:48:07,301 - src.text_extractor - INFO - Successfully saved: Acer_Aspire Z3-605_2736pages.txt (298935 chars)
+2025-11-12 15:48:10,021 - src.text_extractor - INFO - File already exists: Dell_XPS 8960_86pages.txt
+2025-11-12 15:48:11,663 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre 3_122pages.txt
+2025-11-12 15:48:13,128 - src.text_extractor - INFO - File already exists: HP_Slim S01_79pages.txt
+2025-11-12 15:48:14,702 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G1 SFF_62pages.txt
+2025-11-12 15:48:16,297 - src.text_extractor - INFO - File already exists: HP_Pavilion p7_33pages.txt
+2025-11-12 15:48:17,702 - src.text_extractor - INFO - File already exists: Packard_Bell iMedia_56pages.txt
+2025-11-12 15:48:19,571 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7020_159pages.txt
+2025-11-12 15:48:21,274 - src.text_extractor - INFO - File already exists: HP_Z420_198pages.txt
+2025-11-12 15:48:22,808 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 5060_80pages.txt
+2025-11-12 15:48:24,434 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-885_52pages.txt
+2025-11-12 15:48:25,927 - src.text_extractor - INFO - File already exists: HP_Pavilion p6_64pages.txt
+2025-11-12 15:48:27,430 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7070_37pages.txt
+2025-11-12 15:48:28,819 - src.text_extractor - INFO - File already exists: Lenovo_Thinkcentre M700 Tiny_170pages.txt
+2025-11-12 15:48:30,353 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G5_151pages.txt
+2025-11-12 15:48:32,094 - src.text_extractor - INFO - File already exists: HP_Compaq Elite 8000_284pages.txt
+2025-11-12 15:48:33,753 - src.text_extractor - INFO - File already exists: Lenovo_A100_32pages.txt
+2025-11-12 15:48:35,184 - src.text_extractor - INFO - File already exists: HP_Omen 30L_60pages.txt
+2025-11-12 15:48:36,790 - src.text_extractor - INFO - File already exists: HP_Pavilion 23_79pages.txt
+2025-11-12 15:48:38,180 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G2_178pages.txt
+2025-11-12 15:48:39,707 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G3_150pages.txt
+2025-11-12 15:48:41,140 - src.text_extractor - INFO - File already exists: HP_Pavilion 570_57pages.txt
+2025-11-12 15:48:42,693 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G1 SFF_63pages.txt
+2025-11-12 15:48:44,332 - src.text_extractor - INFO - File already exists: Dell_Pro Micro QCM1250_133pages.txt
+2025-11-12 15:48:45,909 - src.text_extractor - INFO - File already exists: HP_Pavilion 590_57pages.txt
+2025-11-12 15:48:47,293 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7060_51pages.txt
+2025-11-12 15:48:49,060 - src.text_extractor - INFO - File already exists: Dell_Precision 5820_92pages.txt
+2025-11-12 15:48:50,696 - src.text_extractor - INFO - File already exists: HP_TouchSmart 520_129pages.txt
+2025-11-12 15:48:52,039 - src.text_extractor - INFO - File already exists: Asus_CN60_32pages.txt
+2025-11-12 15:48:53,610 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-830_52pages.txt
+2025-11-12 15:48:55,220 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G5_130pages.txt
+2025-11-12 15:48:56,828 - src.text_extractor - INFO - File already exists: HP_Z620_161pages.txt
+2025-11-12 15:48:58,285 - src.text_extractor - INFO - File already exists: HP_Compaq 6005 Pro_259pages.txt
+2025-11-12 15:48:59,782 - src.text_extractor - INFO - File already exists: HP_Victus 15L_64pages.txt
+2025-11-12 15:49:01,470 - src.text_extractor - INFO - File already exists: HP_Compaq Pro 6300_240pages.txt
+2025-11-12 15:49:02,785 - src.text_extractor - INFO - File already exists: HP_Omni 120_52pages.txt
+2025-11-12 15:49:04,331 - src.text_extractor - INFO - File already exists: HP_Pro Mini 400 G9_121pages.txt
+2025-11-12 15:49:05,856 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-780_52pages.txt
+2025-11-12 15:49:07,398 - src.text_extractor - INFO - File already exists: Lenovo_Legion T5_112pages.txt
+2025-11-12 15:49:08,904 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G1_246pages.txt
+2025-11-12 15:49:10,505 - src.text_extractor - INFO - File already exists: HP_Compaq Pro 6300 SFF_104pages.txt
+2025-11-12 15:49:11,812 - src.text_extractor - INFO - File already exists: Acer_Veriton X2732G_46pages.txt
+2025-11-12 15:49:13,203 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 65W G4 Mini_116pages.txt
+2025-11-12 15:49:14,808 - src.text_extractor - INFO - File already exists: Asus_G11CD_52pages.txt
+2025-11-12 15:49:16,486 - src.text_extractor - INFO - File already exists: HP_ProDesk 400 G1_126pages.txt
+2025-11-12 15:49:17,726 - src.text_extractor - INFO - Successfully saved: HP_ProDesk 600 G1_296pages.txt (239204 chars)
+2025-11-12 15:49:17,879 - src.text_extractor - INFO - File already exists: HP_Pavilion 500_50pages.txt
+2025-11-12 15:49:19,469 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre AIO 520_107pages.txt
+2025-11-12 15:49:20,219 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G16CHR_58pages.txt
+2025-11-12 15:49:21,217 - src.text_extractor - INFO - File already exists: HP_Z240_106pages.txt
+2025-11-12 15:49:21,542 - src.text_extractor - INFO - File already exists: Dell_XPS 8930_142pages.txt
+2025-11-12 15:49:22,840 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G2_146pages.txt
+2025-11-12 15:49:22,963 - src.text_extractor - INFO - File already exists: HP_Prodesk 400 G5_125pages.txt
+2025-11-12 15:49:24,453 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre 8215_530pages.txt
+2025-11-12 15:49:24,625 - src.text_extractor - INFO - File already exists: HP_Z240 SFF_60pages.txt
+2025-11-12 15:49:26,126 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7010_60pages.txt
+2025-11-12 15:49:26,453 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 990_103pages.txt
+2025-11-12 15:49:27,760 - src.text_extractor - INFO - File already exists: HP_Pro 3335_226pages.txt
+2025-11-12 15:49:28,477 - src.text_extractor - INFO - File already exists: HP_Pro 3330 Microtower_226pages.txt
+2025-11-12 15:49:29,531 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7040 SFF_54pages.txt
+2025-11-12 15:49:30,234 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 5070_37pages.txt
+2025-11-12 15:49:31,038 - src.text_extractor - INFO - File already exists: Alienware_Aurora Ryzen Edition R14_97pages.txt
+2025-11-12 15:49:31,594 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G4_153pages.txt
+2025-11-12 15:49:32,722 - src.text_extractor - INFO - File already exists: HP_Z440_132pages.txt
+2025-11-12 15:49:33,038 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre M715q_64pages.txt
+2025-11-12 15:49:34,286 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre M710q_80pages.txt
+2025-11-12 15:49:34,647 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-603_28pages.txt
+2025-11-12 15:49:35,828 - src.text_extractor - INFO - File already exists: HP_Pavilion 24_60pages.txt
+2025-11-12 15:49:36,084 - src.text_extractor - INFO - File already exists: MSI_Cubi 5_34pages.txt
+2025-11-12 15:49:37,206 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G6_140pages.txt
+2025-11-12 15:49:37,621 - src.text_extractor - INFO - File already exists: HP_Z6 G4_112pages.txt
+2025-11-12 15:49:38,517 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G3_153pages.txt
+2025-11-12 15:49:38,998 - src.text_extractor - INFO - File already exists: Acer_Predator G3-710_52pages.txt
+2025-11-12 15:49:39,878 - src.text_extractor - INFO - File already exists: HP_ENVY TouchSmart 23_79pages.txt
+2025-11-12 15:49:40,452 - src.text_extractor - INFO - File already exists: HP_Pavilion Slimline s5_33pages.txt
+2025-11-12 15:49:41,424 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-780_52pages.txt
+2025-11-12 15:49:41,961 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre A530_73pages.txt
+2025-11-12 15:49:42,852 - src.text_extractor - INFO - File already exists: HP_ProDesk 490 G2_52pages.txt
+2025-11-12 15:49:43,400 - src.text_extractor - INFO - File already exists: HP_ProDesk 400 G7_136pages.txt
+2025-11-12 15:49:44,289 - src.text_extractor - INFO - File already exists: Samsung_NP20_122pages.txt
+2025-11-12 15:49:45,063 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 3070_39pages.txt
+2025-11-12 15:49:46,106 - src.text_extractor - INFO - File already exists: HP_Z840_132pages.txt
+2025-11-12 15:49:46,919 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G1_296pages.txt
+2025-11-12 15:49:47,659 - src.text_extractor - INFO - File already exists: Asus_NUC 13 Pro_51pages.txt
+2025-11-12 15:49:48,715 - src.text_extractor - INFO - File already exists: HP_Pavilion TP01_70pages.txt
+2025-11-12 15:49:49,140 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G4_130pages.txt
+2025-11-12 15:49:50,264 - src.text_extractor - INFO - File already exists: HP_All-in-One 22__57pages.txt
+2025-11-12 15:49:50,601 - src.text_extractor - INFO - File already exists: HP_ENVY TE01_57pages.txt
+2025-11-12 15:49:52,355 - src.text_extractor - INFO - File already exists: HP_Compaq Elite 8300_356pages.txt
+2025-11-12 15:49:52,368 - src.text_extractor - INFO - File already exists: Sony_VPCL218FG_180pages.txt
+2025-11-12 15:49:54,150 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G3_165pages.txt
+2025-11-12 15:49:54,231 - src.text_extractor - INFO - File already exists: Acer_Aspire C24_52pages.txt
+2025-11-12 15:49:55,918 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7040 - Mini Tower_53pages.txt
+2025-11-12 15:49:55,958 - src.text_extractor - INFO - File already exists: HP_Omen 25L_70pages.txt
+2025-11-12 15:49:57,448 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-1785_45pages.txt
+2025-11-12 15:49:57,812 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G4_147pages.txt
+2025-11-12 15:49:58,801 - src.text_extractor - INFO - File already exists: HP_Pavilion Gaming TG01_57pages.txt
+2025-11-12 15:49:59,606 - src.text_extractor - INFO - File already exists: Acer_Aspire C27_49pages.txt
+2025-11-12 15:50:00,454 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-840_49pages.txt
+2025-11-12 15:50:01,332 - src.text_extractor - INFO - File already exists: Dell_Pro Max Tower T2 FCT2250_139pages.txt
+2025-11-12 15:50:02,251 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7050_89pages.txt
+2025-11-12 15:50:02,968 - src.text_extractor - INFO - File already exists: Acer_Aspire Z3-605_2736pages.txt
+2025-11-12 15:50:04,063 - src.text_extractor - INFO - File already exists: Dell_XPS 8960_86pages.txt
+2025-11-12 15:50:04,365 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre 3_122pages.txt
+2025-11-12 15:50:05,755 - src.text_extractor - INFO - File already exists: HP_Slim S01_79pages.txt
+2025-11-12 15:50:05,881 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G1 SFF_62pages.txt
+2025-11-12 15:50:07,223 - src.text_extractor - INFO - File already exists: HP_Pavilion p7_33pages.txt
+2025-11-12 15:50:07,347 - src.text_extractor - INFO - File already exists: Packard_Bell iMedia_56pages.txt
+2025-11-12 15:50:08,674 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7020_159pages.txt
+2025-11-12 15:50:08,896 - src.text_extractor - INFO - File already exists: HP_Z420_198pages.txt
+2025-11-12 15:50:10,173 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 5060_80pages.txt
+2025-11-12 15:50:10,475 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-885_52pages.txt
+2025-11-12 15:50:11,827 - src.text_extractor - INFO - File already exists: HP_Pavilion p6_64pages.txt
+2025-11-12 15:50:11,977 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7070_37pages.txt
+2025-11-12 15:50:13,360 - src.text_extractor - INFO - File already exists: Lenovo_Thinkcentre M700 Tiny_170pages.txt
+2025-11-12 15:50:13,481 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G5_151pages.txt
+2025-11-12 15:50:14,983 - src.text_extractor - INFO - File already exists: Lenovo_A100_32pages.txt
+2025-11-12 15:50:15,050 - src.text_extractor - INFO - File already exists: HP_Compaq Elite 8000_284pages.txt
+2025-11-12 15:50:16,284 - src.text_extractor - INFO - File already exists: HP_Omen 30L_60pages.txt
+2025-11-12 15:50:16,388 - src.text_extractor - INFO - File already exists: HP_Pavilion 23_79pages.txt
+2025-11-12 15:50:17,942 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G3_150pages.txt
+2025-11-12 15:50:17,954 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G2_178pages.txt
+2025-11-12 15:50:19,674 - src.text_extractor - INFO - File already exists: HP_Pavilion 570_57pages.txt
+2025-11-12 15:50:19,724 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G1 SFF_63pages.txt
+2025-11-12 15:50:21,157 - src.text_extractor - INFO - File already exists: Dell_Pro Micro QCM1250_133pages.txt
+2025-11-12 15:50:21,334 - src.text_extractor - INFO - File already exists: HP_Pavilion 590_57pages.txt
+2025-11-12 15:50:22,433 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7060_51pages.txt
+2025-11-12 15:50:22,870 - src.text_extractor - INFO - File already exists: Dell_Precision 5820_92pages.txt
+2025-11-12 15:50:24,120 - src.text_extractor - INFO - File already exists: HP_TouchSmart 520_129pages.txt
+2025-11-12 15:50:24,400 - src.text_extractor - INFO - File already exists: Asus_CN60_32pages.txt
+2025-11-12 15:50:25,667 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-830_52pages.txt
+2025-11-12 15:50:25,834 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G5_130pages.txt
+2025-11-12 15:50:27,097 - src.text_extractor - INFO - File already exists: HP_Z620_161pages.txt
+2025-11-12 15:50:27,404 - src.text_extractor - INFO - File already exists: HP_Compaq 6005 Pro_259pages.txt
+2025-11-12 15:50:28,438 - src.text_extractor - INFO - File already exists: HP_Victus 15L_64pages.txt
+2025-11-12 15:50:28,847 - src.text_extractor - INFO - File already exists: HP_Compaq Pro 6300_240pages.txt
+2025-11-12 15:50:29,714 - src.text_extractor - INFO - File already exists: HP_Omni 120_52pages.txt
+2025-11-12 15:50:30,339 - src.text_extractor - INFO - File already exists: HP_Pro Mini 400 G9_121pages.txt
+2025-11-12 15:50:31,298 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-780_52pages.txt
+2025-11-12 15:50:31,771 - src.text_extractor - INFO - File already exists: Lenovo_Legion T5_112pages.txt
+2025-11-12 15:50:32,799 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G1_246pages.txt
+2025-11-12 15:50:33,353 - src.text_extractor - INFO - File already exists: HP_Compaq Pro 6300 SFF_104pages.txt
+2025-11-12 15:50:34,421 - src.text_extractor - INFO - File already exists: Acer_Veriton X2732G_46pages.txt
+2025-11-12 15:50:34,588 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 65W G4 Mini_116pages.txt
+2025-11-12 15:50:36,034 - src.text_extractor - INFO - File already exists: Asus_G11CD_52pages.txt
+2025-11-12 15:50:36,259 - src.text_extractor - INFO - File already exists: HP_ProDesk 400 G1_126pages.txt
+2025-11-12 15:50:37,357 - src.text_extractor - INFO - File already exists: HP_Pavilion 500_50pages.txt
+2025-11-12 15:50:37,741 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre AIO 520_107pages.txt
+2025-11-12 15:50:38,824 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G16CHR_58pages.txt
+2025-11-12 15:50:39,302 - src.text_extractor - INFO - File already exists: HP_Z240_106pages.txt
+2025-11-12 15:50:40,180 - src.text_extractor - INFO - File already exists: Dell_XPS 8930_142pages.txt
+2025-11-12 15:50:40,995 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G2_146pages.txt
+2025-11-12 15:50:41,711 - src.text_extractor - INFO - File already exists: HP_Prodesk 400 G5_125pages.txt
+2025-11-12 15:50:42,509 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre 8215_530pages.txt
+2025-11-12 15:50:43,306 - src.text_extractor - INFO - File already exists: HP_Z240 SFF_60pages.txt
+2025-11-12 15:50:44,205 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7010_60pages.txt
+2025-11-12 15:50:45,012 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 990_103pages.txt
+2025-11-12 15:50:45,754 - src.text_extractor - INFO - File already exists: HP_Pro 3335_226pages.txt
+2025-11-12 15:50:46,759 - src.text_extractor - INFO - File already exists: HP_Pro 3330 Microtower_226pages.txt
+2025-11-12 15:50:47,179 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7040 SFF_54pages.txt
+2025-11-12 15:50:48,260 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 5070_37pages.txt
+2025-11-12 15:50:48,576 - src.text_extractor - INFO - File already exists: Alienware_Aurora Ryzen Edition R14_97pages.txt
+2025-11-12 15:50:49,548 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G4_153pages.txt
+2025-11-12 15:50:50,264 - src.text_extractor - INFO - File already exists: HP_Z440_132pages.txt
+2025-11-12 15:50:51,131 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre M715q_64pages.txt
+2025-11-12 15:50:51,941 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre M710q_80pages.txt
+2025-11-12 15:50:52,860 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-603_28pages.txt
+2025-11-12 15:50:53,499 - src.text_extractor - INFO - File already exists: HP_Pavilion 24_60pages.txt
+2025-11-12 15:50:54,617 - src.text_extractor - INFO - File already exists: MSI_Cubi 5_34pages.txt
+2025-11-12 15:50:54,751 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G6_140pages.txt
+2025-11-12 15:50:55,916 - src.text_extractor - INFO - File already exists: HP_Z6 G4_112pages.txt
+2025-11-12 15:50:56,233 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G3_153pages.txt
+2025-11-12 15:50:57,273 - src.text_extractor - INFO - File already exists: Acer_Predator G3-710_52pages.txt
+2025-11-12 15:50:57,580 - src.text_extractor - INFO - File already exists: HP_ENVY TouchSmart 23_79pages.txt
+2025-11-12 15:50:58,712 - src.text_extractor - INFO - File already exists: HP_Pavilion Slimline s5_33pages.txt
+2025-11-12 15:50:59,062 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-780_52pages.txt
+2025-11-12 15:50:59,996 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre A530_73pages.txt
+2025-11-12 15:51:00,603 - src.text_extractor - INFO - File already exists: HP_ProDesk 490 G2_52pages.txt
+2025-11-12 15:51:01,469 - src.text_extractor - INFO - File already exists: HP_ProDesk 400 G7_136pages.txt
+2025-11-12 15:51:02,135 - src.text_extractor - INFO - File already exists: Samsung_NP20_122pages.txt
+2025-11-12 15:51:03,003 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 3070_39pages.txt
+2025-11-12 15:51:03,695 - src.text_extractor - INFO - File already exists: HP_Z840_132pages.txt
+2025-11-12 15:51:04,712 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G1_296pages.txt
+2025-11-12 15:51:04,921 - src.text_extractor - INFO - File already exists: Asus_NUC 13 Pro_51pages.txt
+2025-11-12 15:51:06,272 - src.text_extractor - INFO - File already exists: HP_Pavilion TP01_70pages.txt
+2025-11-12 15:51:06,391 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G4_130pages.txt
+2025-11-12 15:51:07,639 - src.text_extractor - INFO - File already exists: HP_All-in-One 22__57pages.txt
+2025-11-12 15:51:07,928 - src.text_extractor - INFO - File already exists: HP_ENVY TE01_57pages.txt
+2025-11-12 15:51:09,045 - src.text_extractor - INFO - File already exists: HP_Compaq Elite 8300_356pages.txt
+2025-11-12 15:51:09,406 - src.text_extractor - INFO - File already exists: Sony_VPCL218FG_180pages.txt
+2025-11-12 15:51:10,737 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G3_165pages.txt
+2025-11-12 15:51:10,900 - src.text_extractor - INFO - File already exists: Acer_Aspire C24_52pages.txt
+2025-11-12 15:51:12,341 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7040 - Mini Tower_53pages.txt
+2025-11-12 15:51:12,467 - src.text_extractor - INFO - File already exists: HP_Omen 25L_70pages.txt
+2025-11-12 15:51:12,695 - src.text_extractor - INFO - Successfully saved: HP_ProDesk 600 G1_296pages.txt (239204 chars)
+2025-11-12 15:51:14,122 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G4_147pages.txt
+2025-11-12 15:51:14,345 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-1785_45pages.txt
+2025-11-12 15:51:15,198 - src.text_extractor - INFO - File already exists: HP_Pavilion Gaming TG01_57pages.txt
+2025-11-12 15:51:15,490 - src.text_extractor - INFO - File already exists: Acer_Aspire C27_49pages.txt
+2025-11-12 15:51:15,651 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-840_49pages.txt
+2025-11-12 15:51:16,683 - src.text_extractor - INFO - File already exists: Dell_Pro Max Tower T2 FCT2250_139pages.txt
+2025-11-12 15:51:16,896 - src.text_extractor - INFO - File already exists: Acer_Aspire Z3-605_2736pages.txt
+2025-11-12 15:51:17,015 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7050_89pages.txt
+2025-11-12 15:51:18,120 - src.text_extractor - INFO - File already exists: Dell_XPS 8960_86pages.txt
+2025-11-12 15:51:18,440 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre 3_122pages.txt
+2025-11-12 15:51:18,759 - src.text_extractor - INFO - File already exists: HP_Slim S01_79pages.txt
+2025-11-12 15:51:19,852 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G1 SFF_62pages.txt
+2025-11-12 15:51:20,072 - src.text_extractor - INFO - File already exists: HP_Pavilion p7_33pages.txt
+2025-11-12 15:51:20,145 - src.text_extractor - INFO - File already exists: Packard_Bell iMedia_56pages.txt
+2025-11-12 15:51:21,548 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7020_159pages.txt
+2025-11-12 15:51:21,868 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 5060_80pages.txt
+2025-11-12 15:51:21,901 - src.text_extractor - INFO - File already exists: HP_Z420_198pages.txt
+2025-11-12 15:51:23,127 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-885_52pages.txt
+2025-11-12 15:51:23,581 - src.text_extractor - INFO - File already exists: HP_Pavilion p6_64pages.txt
+2025-11-12 15:51:23,601 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7070_37pages.txt
+2025-11-12 15:51:24,535 - src.text_extractor - INFO - File already exists: Lenovo_Thinkcentre M700 Tiny_170pages.txt
+2025-11-12 15:51:25,232 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G5_151pages.txt
+2025-11-12 15:51:25,491 - src.text_extractor - INFO - File already exists: HP_Compaq Elite 8000_284pages.txt
+2025-11-12 15:51:26,245 - src.text_extractor - INFO - File already exists: Lenovo_A100_32pages.txt
+2025-11-12 15:51:26,642 - src.text_extractor - INFO - File already exists: HP_Omen 30L_60pages.txt
+2025-11-12 15:51:27,011 - src.text_extractor - INFO - File already exists: HP_Pavilion 23_79pages.txt
+2025-11-12 15:51:27,779 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G2_178pages.txt
+2025-11-12 15:51:28,513 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G3_150pages.txt
+2025-11-12 15:51:28,833 - src.text_extractor - INFO - File already exists: HP_Pavilion 570_57pages.txt
+2025-11-12 15:51:29,613 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G1 SFF_63pages.txt
+2025-11-12 15:51:29,867 - src.text_extractor - INFO - File already exists: Dell_Pro Micro QCM1250_133pages.txt
+2025-11-12 15:51:30,559 - src.text_extractor - INFO - File already exists: HP_Pavilion 590_57pages.txt
+2025-11-12 15:51:31,212 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7060_51pages.txt
+2025-11-12 15:51:31,542 - src.text_extractor - INFO - File already exists: Dell_Precision 5820_92pages.txt
+2025-11-12 15:51:32,299 - src.text_extractor - INFO - File already exists: HP_TouchSmart 520_129pages.txt
+2025-11-12 15:51:32,758 - src.text_extractor - INFO - File already exists: Asus_CN60_32pages.txt
+2025-11-12 15:51:33,220 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-830_52pages.txt
+2025-11-12 15:51:33,817 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G5_130pages.txt
+2025-11-12 15:51:34,322 - src.text_extractor - INFO - File already exists: HP_Z620_161pages.txt
+2025-11-12 15:51:34,807 - src.text_extractor - INFO - File already exists: HP_Compaq 6005 Pro_259pages.txt
+2025-11-12 15:51:35,340 - src.text_extractor - INFO - File already exists: HP_Victus 15L_64pages.txt
+2025-11-12 15:51:35,913 - src.text_extractor - INFO - File already exists: HP_Compaq Pro 6300_240pages.txt
+2025-11-12 15:51:36,247 - src.text_extractor - INFO - File already exists: HP_Omni 120_52pages.txt
+2025-11-12 15:51:36,898 - src.text_extractor - INFO - File already exists: HP_Pro Mini 400 G9_121pages.txt
+2025-11-12 15:51:37,381 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-780_52pages.txt
+2025-11-12 15:51:37,774 - src.text_extractor - INFO - File already exists: Lenovo_Legion T5_112pages.txt
+2025-11-12 15:51:38,597 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G1_246pages.txt
+2025-11-12 15:51:38,875 - src.text_extractor - INFO - File already exists: HP_Compaq Pro 6300 SFF_104pages.txt
+2025-11-12 15:51:39,341 - src.text_extractor - INFO - File already exists: Acer_Veriton X2732G_46pages.txt
+2025-11-12 15:51:40,206 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 65W G4 Mini_116pages.txt
+2025-11-12 15:51:40,404 - src.text_extractor - INFO - File already exists: Asus_G11CD_52pages.txt
+2025-11-12 15:51:41,185 - src.text_extractor - INFO - File already exists: HP_ProDesk 400 G1_126pages.txt
+2025-11-12 15:51:42,032 - src.text_extractor - INFO - File already exists: HP_Pavilion 500_50pages.txt
+2025-11-12 15:51:42,054 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre AIO 520_107pages.txt
+2025-11-12 15:51:42,801 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G16CHR_58pages.txt
+2025-11-12 15:51:43,793 - src.text_extractor - INFO - File already exists: Dell_XPS 8930_142pages.txt
+2025-11-12 15:51:43,855 - src.text_extractor - INFO - File already exists: HP_Z240_106pages.txt
+2025-11-12 15:51:44,312 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G2_146pages.txt
+2025-11-12 15:51:45,362 - src.text_extractor - INFO - File already exists: HP_Prodesk 400 G5_125pages.txt
+2025-11-12 15:51:45,461 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre 8215_530pages.txt
+2025-11-12 15:51:45,703 - src.text_extractor - INFO - File already exists: HP_Z240 SFF_60pages.txt
+2025-11-12 15:51:46,972 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7010_60pages.txt
+2025-11-12 15:51:47,160 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 990_103pages.txt
+2025-11-12 15:51:47,243 - src.text_extractor - INFO - File already exists: HP_Pro 3335_226pages.txt
+2025-11-12 15:51:48,475 - src.text_extractor - INFO - File already exists: HP_Pro 3330 Microtower_226pages.txt
+2025-11-12 15:51:48,981 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7040 SFF_54pages.txt
+2025-11-12 15:51:49,013 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 5070_37pages.txt
+2025-11-12 15:51:50,124 - src.text_extractor - INFO - File already exists: Alienware_Aurora Ryzen Edition R14_97pages.txt
+2025-11-12 15:51:50,407 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G4_153pages.txt
+2025-11-12 15:51:50,711 - src.text_extractor - INFO - File already exists: HP_Z440_132pages.txt
+2025-11-12 15:51:51,663 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre M715q_64pages.txt
+2025-11-12 15:51:51,818 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre M710q_80pages.txt
+2025-11-12 15:51:52,429 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-603_28pages.txt
+2025-11-12 15:51:53,246 - src.text_extractor - INFO - File already exists: HP_Pavilion 24_60pages.txt
+2025-11-12 15:51:53,400 - src.text_extractor - INFO - File already exists: MSI_Cubi 5_34pages.txt
+2025-11-12 15:51:53,948 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G6_140pages.txt
+2025-11-12 15:51:54,933 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G3_153pages.txt
+2025-11-12 15:51:54,965 - src.text_extractor - INFO - File already exists: HP_Z6 G4_112pages.txt
+2025-11-12 15:51:55,491 - src.text_extractor - INFO - File already exists: Acer_Predator G3-710_52pages.txt
+2025-11-12 15:51:56,477 - src.text_extractor - INFO - File already exists: HP_Pavilion Slimline s5_33pages.txt
+2025-11-12 15:51:56,578 - src.text_extractor - INFO - File already exists: HP_ENVY TouchSmart 23_79pages.txt
+2025-11-12 15:51:57,179 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-780_52pages.txt
+2025-11-12 15:51:58,011 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre A530_73pages.txt
+2025-11-12 15:51:58,172 - src.text_extractor - INFO - File already exists: HP_ProDesk 490 G2_52pages.txt
+2025-11-12 15:51:58,726 - src.text_extractor - INFO - File already exists: HP_ProDesk 400 G7_136pages.txt
+2025-11-12 15:51:59,584 - src.text_extractor - INFO - File already exists: Samsung_NP20_122pages.txt
+2025-11-12 15:51:59,829 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 3070_39pages.txt
+2025-11-12 15:52:00,589 - src.text_extractor - INFO - File already exists: HP_Z840_132pages.txt
+2025-11-12 15:52:01,392 - src.text_extractor - INFO - File already exists: Asus_NUC 13 Pro_51pages.txt
+2025-11-12 15:52:01,470 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G1_296pages.txt
+2025-11-12 15:52:02,383 - src.text_extractor - INFO - File already exists: HP_Pavilion TP01_70pages.txt
+2025-11-12 15:52:02,973 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G4_130pages.txt
+2025-11-12 15:52:03,175 - src.text_extractor - INFO - File already exists: HP_All-in-One 22__57pages.txt
+2025-11-12 15:52:04,117 - src.text_extractor - INFO - File already exists: HP_ENVY TE01_57pages.txt
+2025-11-12 15:52:04,699 - src.text_extractor - INFO - File already exists: HP_Compaq Elite 8300_356pages.txt
+2025-11-12 15:52:04,834 - src.text_extractor - INFO - File already exists: Sony_VPCL218FG_180pages.txt
+2025-11-12 15:52:05,766 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G3_165pages.txt
+2025-11-12 15:52:06,415 - src.text_extractor - INFO - File already exists: Acer_Aspire C24_52pages.txt
+2025-11-12 15:52:06,486 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7040 - Mini Tower_53pages.txt
+2025-11-12 15:52:07,423 - src.text_extractor - INFO - File already exists: HP_Omen 25L_70pages.txt
+2025-11-12 15:52:07,765 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-1785_45pages.txt
+2025-11-12 15:52:08,311 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G4_147pages.txt
+2025-11-12 15:52:09,185 - src.text_extractor - INFO - File already exists: HP_Pavilion Gaming TG01_57pages.txt
+2025-11-12 15:52:09,284 - src.text_extractor - INFO - File already exists: Acer_Aspire C27_49pages.txt
+2025-11-12 15:52:09,868 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-840_49pages.txt
+2025-11-12 15:52:10,682 - src.text_extractor - INFO - File already exists: Dell_Pro Max Tower T2 FCT2250_139pages.txt
+2025-11-12 15:52:10,876 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7050_89pages.txt
+2025-11-12 15:52:11,141 - src.text_extractor - INFO - File already exists: Acer_Aspire Z3-605_2736pages.txt
+2025-11-12 15:52:12,079 - src.text_extractor - INFO - File already exists: Dell_XPS 8960_86pages.txt
+2025-11-12 15:52:12,368 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre 3_122pages.txt
+2025-11-12 15:52:12,637 - src.text_extractor - INFO - File already exists: HP_Slim S01_79pages.txt
+2025-11-12 15:52:13,589 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G1 SFF_62pages.txt
+2025-11-12 15:52:13,940 - src.text_extractor - INFO - File already exists: HP_Pavilion p7_33pages.txt
+2025-11-12 15:52:14,024 - src.text_extractor - INFO - File already exists: Packard_Bell iMedia_56pages.txt
+2025-11-12 15:52:15,100 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7020_159pages.txt
+2025-11-12 15:52:15,463 - src.text_extractor - INFO - File already exists: HP_Z420_198pages.txt
+2025-11-12 15:52:15,771 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 5060_80pages.txt
+2025-11-12 15:52:16,703 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-885_52pages.txt
+2025-11-12 15:52:16,912 - src.text_extractor - INFO - File already exists: HP_Pavilion p6_64pages.txt
+2025-11-12 15:52:17,128 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7070_37pages.txt
+2025-11-12 15:52:18,080 - src.text_extractor - INFO - File already exists: Lenovo_Thinkcentre M700 Tiny_170pages.txt
+2025-11-12 15:52:18,370 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G5_151pages.txt
+2025-11-12 15:52:18,672 - src.text_extractor - INFO - File already exists: HP_Compaq Elite 8000_284pages.txt
+2025-11-12 15:52:19,549 - src.text_extractor - INFO - File already exists: Lenovo_A100_32pages.txt
+2025-11-12 15:52:19,697 - src.text_extractor - INFO - File already exists: HP_Omen 30L_60pages.txt
+2025-11-12 15:52:20,051 - src.text_extractor - INFO - File already exists: HP_Pavilion 23_79pages.txt
+2025-11-12 15:52:21,046 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 G2_178pages.txt
+2025-11-12 15:52:21,179 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G3_150pages.txt
+2025-11-12 15:52:21,485 - src.text_extractor - INFO - File already exists: HP_Pavilion 570_57pages.txt
+2025-11-12 15:52:22,631 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G1 SFF_63pages.txt
+2025-11-12 15:52:22,718 - src.text_extractor - INFO - File already exists: Dell_Pro Micro QCM1250_133pages.txt
+2025-11-12 15:52:22,854 - src.text_extractor - INFO - File already exists: HP_Pavilion 590_57pages.txt
+2025-11-12 15:52:24,078 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7060_51pages.txt
+2025-11-12 15:52:24,474 - src.text_extractor - INFO - File already exists: Dell_Precision 5820_92pages.txt
+2025-11-12 15:52:24,539 - src.text_extractor - INFO - File already exists: HP_TouchSmart 520_129pages.txt
+2025-11-12 15:52:25,368 - src.text_extractor - INFO - File already exists: Asus_CN60_32pages.txt
+2025-11-12 15:52:26,098 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G5_130pages.txt
+2025-11-12 15:52:26,145 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-830_52pages.txt
+2025-11-12 15:52:27,036 - src.text_extractor - INFO - File already exists: HP_Z620_161pages.txt
+2025-11-12 15:52:27,772 - src.text_extractor - INFO - File already exists: HP_Victus 15L_64pages.txt
+2025-11-12 15:52:27,845 - src.text_extractor - INFO - File already exists: HP_Compaq 6005 Pro_259pages.txt
+2025-11-12 15:52:28,755 - src.text_extractor - INFO - File already exists: HP_Compaq Pro 6300_240pages.txt
+2025-11-12 15:52:29,243 - src.text_extractor - INFO - File already exists: HP_Omni 120_52pages.txt
+2025-11-12 15:52:29,447 - src.text_extractor - INFO - File already exists: HP_Pro Mini 400 G9_121pages.txt
+2025-11-12 15:52:30,424 - src.text_extractor - INFO - File already exists: Acer_Aspire TC-780_52pages.txt
+2025-11-12 15:52:30,526 - src.text_extractor - INFO - File already exists: Lenovo_Legion T5_112pages.txt
+2025-11-12 15:52:30,956 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G1_246pages.txt
+2025-11-12 15:52:31,948 - src.text_extractor - INFO - File already exists: Acer_Veriton X2732G_46pages.txt
+2025-11-12 15:52:32,040 - src.text_extractor - INFO - File already exists: HP_Compaq Pro 6300 SFF_104pages.txt
+2025-11-12 15:52:32,279 - src.text_extractor - INFO - File already exists: HP_EliteDesk 800 65W G4 Mini_116pages.txt
+2025-11-12 15:52:33,293 - src.text_extractor - INFO - File already exists: Asus_G11CD_52pages.txt
+2025-11-12 15:52:33,591 - src.text_extractor - INFO - File already exists: HP_ProDesk 400 G1_126pages.txt
+2025-11-12 15:52:33,725 - src.text_extractor - INFO - File already exists: HP_Pavilion 500_50pages.txt
+2025-11-12 15:52:34,609 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre AIO 520_107pages.txt
+2025-11-12 15:52:34,812 - src.text_extractor - INFO - File already exists: Asus_ROG Strix G16CHR_58pages.txt
+2025-11-12 15:52:35,451 - src.text_extractor - INFO - File already exists: HP_Z240_106pages.txt
+2025-11-12 15:52:36,182 - src.text_extractor - INFO - File already exists: Dell_XPS 8930_142pages.txt
+2025-11-12 15:52:36,312 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G2_146pages.txt
+2025-11-12 15:52:36,829 - src.text_extractor - INFO - File already exists: HP_Prodesk 400 G5_125pages.txt
+2025-11-12 15:52:37,601 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre 8215_530pages.txt
+2025-11-12 15:52:37,866 - src.text_extractor - INFO - File already exists: HP_Z240 SFF_60pages.txt
+2025-11-12 15:52:38,441 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7010_60pages.txt
+2025-11-12 15:52:39,335 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 990_103pages.txt
+2025-11-12 15:52:39,339 - src.text_extractor - INFO - File already exists: HP_Pro 3335_226pages.txt
+2025-11-12 15:52:40,580 - src.text_extractor - INFO - File already exists: HP_Pro 3330 Microtower_226pages.txt
+2025-11-12 15:52:41,141 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 5070_37pages.txt
+2025-11-12 15:52:41,141 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 7040 SFF_54pages.txt
+2025-11-12 15:52:42,142 - src.text_extractor - INFO - File already exists: Alienware_Aurora Ryzen Edition R14_97pages.txt
+2025-11-12 15:52:42,610 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G4_153pages.txt
+2025-11-12 15:52:42,748 - src.text_extractor - INFO - File already exists: HP_Z440_132pages.txt
+2025-11-12 15:52:43,640 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre M715q_64pages.txt
+2025-11-12 15:52:43,921 - src.text_extractor - INFO - File already exists: Lenovo_ThinkCentre M710q_80pages.txt
+2025-11-12 15:52:44,361 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-603_28pages.txt
+2025-11-12 15:52:45,162 - src.text_extractor - INFO - File already exists: HP_Pavilion 24_60pages.txt
+2025-11-12 15:52:45,393 - src.text_extractor - INFO - File already exists: MSI_Cubi 5_34pages.txt
+2025-11-12 15:52:45,873 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G6_140pages.txt
+2025-11-12 15:52:46,744 - src.text_extractor - INFO - File already exists: HP_Z6 G4_112pages.txt
+2025-11-12 15:52:46,772 - src.text_extractor - INFO - File already exists: HP_EliteDesk 705 G3_153pages.txt
+2025-11-12 15:52:47,306 - src.text_extractor - INFO - File already exists: Acer_Predator G3-710_52pages.txt
+2025-11-12 15:52:48,150 - src.text_extractor - INFO - File already exists: HP_ENVY TouchSmart 23_79pages.txt
+2025-11-12 15:52:48,158 - src.text_extractor - INFO - File already exists: HP_Pavilion Slimline s5_33pages.txt
+2025-11-12 15:52:48,922 - src.text_extractor - INFO - File already exists: Acer_Aspire XC-780_52pages.txt
+2025-11-12 15:52:49,755 - src.text_extractor - INFO - File already exists: Lenovo_IdeaCentre A530_73pages.txt
+2025-11-12 15:52:49,928 - src.text_extractor - INFO - File already exists: HP_ProDesk 490 G2_52pages.txt
+2025-11-12 15:52:50,634 - src.text_extractor - INFO - File already exists: HP_ProDesk 400 G7_136pages.txt
+2025-11-12 15:52:51,446 - src.text_extractor - INFO - File already exists: Samsung_NP20_122pages.txt
+2025-11-12 15:52:51,610 - src.text_extractor - INFO - File already exists: Dell_OptiPlex 3070_39pages.txt
+2025-11-12 15:52:52,521 - src.text_extractor - INFO - File already exists: HP_Z840_132pages.txt
+2025-11-12 15:52:53,118 - src.text_extractor - INFO - File already exists: Asus_NUC 13 Pro_51pages.txt
+2025-11-12 15:52:53,355 - src.text_extractor - INFO - File already exists: HP_ProDesk 600 G1_296pages.txt
+2025-11-12 16:20:12,670 - src.text_extractor - INFO - Successfully saved: Acer_Aspire Z3-605_2736pages.txt (298935 chars)
+2025-11-12 16:21:57,507 - src.text_extractor - INFO - Successfully saved: Acer_Aspire Z3-605_2736pages.txt (298935 chars)
+2025-11-12 16:21:58,512 - src.scraper - INFO - Completed desktops: 600 successful, 0 failed
+2025-11-12 16:21:58,513 - src.scraper - INFO - ==================================================
+2025-11-12 16:21:58,513 - src.scraper - INFO - Scraper completed!
+2025-11-12 16:21:58,513 - src.scraper - INFO - ==================================================

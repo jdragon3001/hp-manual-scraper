@@ -1,0 +1,1695 @@
+--- Page 1 ---
+LG EASY GUIDE
+NOTEBOOK
+17Z90T/17ZB90T Series
+www.lg.com
+Copyright © 202
+5 LG Electronics Inc. All rights reserved.
+
+--- Page 2 ---
+Instruction/Safety Information
+Using LG Easy Guide, LG Troubleshooting
+LG Electronics Inc. provides LG Easy Guide  (User's Guide) and LG Troubleshooting  (Troubleshooting Guide) to users for 
+their easy and convenient use of the product.
+• Select the Start button [ ] > [All apps] and run [LG Easy Guide]  or [LG Troubleshooting].
+Information/Precautions Before Using
+Before reading LG Easy Guide, first check the following information.
+• This LG Easy Guide  has been written for the Windows 11 operating system.
+•
+The screen and menu configurations may differ from this manual depending on the status of the Windows and 
+software update.
+•
+Representative images are used in LG Easy Guide. Product purchased may differ in appearance and color.
+•
+LG Easy Guide  includes instruction about optional products. There may be information about products you did not 
+purchase.
+•
+The contents of LG Easy Guide  are subject to change without prior notice.
+•
+Use, duplication, or reproduction of any part of LG Easy Guide  without prior permission from LG Electronics Inc. is 
+strictly prohibited.
+•
+LG Electronics Inc. does not provide warranty for data loss. In order to minimize damage from data loss, please make 
+backup copies of important data.
+•
+The optical disk drive (DVD, CD-ROM, etc.) is optional and may not be provided upon purchasing the product.
+Safety Precaution Notations
+The below symbols are to inform you of dangers and safety concerns that you must be aware of. Read the symbol-
+indicated instructions with caution to avoid any possible mishap.
+2
+
+--- Page 3 ---
+!
+Warning:
+Appears in the case of noncompliance with the instruction that may cause serious physical damage or fatal 
+injuries.
+!
+Caution:
+Appears in the case of noncompliance with the instruction that may cause minor damage to the body or the 
+machine.
+Text Notations
+The symbols below are used to display information required to use the product. Familiarize yourself with the instructions 
+marked by the symbols to ensure proper operation of the product.
+Tip:
+Indicates that the following information is added to help the user utilize the machine more conveniently.
+Option:
+The Option symbol indicates that the concerned device is not included in the product package and thus has to be 
+purchased separately, or the device may not be applied to the user's machine depending on model type.
+Manufacturer and Copyright
+Manufacturer and Copyright represent the logo and trademark of the manufacturer, and bear no relationship to the 
+functions supported by the product.
+•
+Microsoft™, MS™, WinPE™, and Windows®  are the registered trademarks of Microsoft Corporation™.
+•
+USB Type-C®  and USB-C®  are registered trademarks of USB Implementers Forum. USB 2.0 Type-C™  is a trademark 
+of USB Implementers Forum.
+•
+Intel®  and Intel®  logo, Intel®  Core™, Thunderbolt™  and Thunderbolt™  logo, Intel®  Unison™  and Intel®  Unison™ 
+logo are trademarks or registered trademarks of Intel and/or subsidiaries in the United States and/or other countries.
+•
+Manufactured under license from Dolby Laboratories. Dolby, Dolby Atmos and the double-D symbol are registered 
+trademarks of Dolby Laboratories Licensing Corporation.
+•
+NVMe™  is a trademark of NVM Express, Inc
+•
+Wi-Fi®  is a registered trademark of Wi-Fi Alliance Corporation.
+• The Bluetooth®  word mark and logos are registered trademarks owned by the Bluetooth SIG, Inc. and any use of such 
+marks by LG Electronics is under license. Other trademarks and trade names are those of their respective owners.
+• Google, Android, Google Play, Google Play logo, and other marks are the trademarks of Google LLC.
+•
+iPhone is the trademark of Apple Inc. registered in U.S.A. and other countries. App Store is the service mark of Apple 
+Inc.
+•
+DisplayPort™  and DisplayPort™  logo are trademarks owned by the Video Electronics Standards Association (VESA®) 
+in the United States and other countries.
+3
+
+--- Page 4 ---
+LG logo is a registered trademark of LG Electronics Inc.
+microSD®  and the microSD logo are trademarks or registered trademarks of SD-3C, LLC.
+The terms HDMI, HDMI High-Definition Multimedia Interface, HDMI Trade Dress and the HDMI Logos 
+are trademarks or registered trademarks of HDMI Licensing Administrator, Inc.
+LG Easy Guide  may contain undetectable errors despite our dedicated efforts to provide users with reliable information. 
+We ask for your understanding.
+The illustrated figures in LG Easy Guide  may differ in appearance with the actual products.
+Unauthorized reproduction or duplication of any part of LG Easy Guide  is strictly prohibited.
+LG Electronics Inc. reserves the right to modify any part of this manual for quality purposes, without prior notice.
+Copyright (C) 2025 LG Electronics Inc. Digitalmate Co., LTD
+Country of Origin China
+Manufacturer LG Electronics Inc.
+Open Source Software Notice Information
+To obtain the source code that is contained in this product, under GPL, LGPL, MPL, and other open source licenses that 
+have the obligation to disclose source code, and to access all referred license terms, copyright notices and other relevant 
+documents please visit https://opensource.lge.com.
+LG Electronics will also provide open source code to you on CD-ROM for a charge covering the cost of performing such 
+distribution (such as the cost of media, shipping, and handling) upon email request to opensource@lge.com.
+This offer is valid to anyone in receipt of this information for a period of three years after our last shipment of this 
+product.
+System Protection Feature
+If the system becomes too hot, the system protection feature automatically stops recharging and switches the power 
+mode to Hibernate or Off.
+The PC system has to cool down before it can be reactivated.
+Information on Hard Drive/Memory Capacity
+Information on Hard Drive (HDD, SSD, eMMC) Capacity
+The hard drive capacity shown by Windows is lower than that stated by the hard drive manufacturer due to a difference in 
+calculation.
+4
+
+--- Page 5 ---
+Manufacturer Hard drive manufacturers use a decimal definition of 1 KB = 1,000 Bytes.
+100 GB Storage Device (HDD, SSD, eMMC): 100,000 MB / 1,000 Bytes = 100 GB
+Windows Windows use the binary definition of 1 KB = 1,024 Bytes.
+100 GB Storage Device (HDD, SSD, eMMC): 100,000 MB / 1,024 Bytes = 97.6 GB
+RAM Capacity
+RAM capacity shown by Windows may be lower than the actual capacity because the PC uses shared memory for BIOS and 
+the integrated graphics card.
+Due to BIOS using shared memory, 1,024 MB RAM may be reported as 1,022 MB or slightly less.
+If the PC has integrated graphics card, 1,024 MB RAM may be reported as 1,022 MB or less than 1,000 MB.
+Symbols
+Refers to alternating current (AC).
+Refers to direct current (DC).
+Refers to class II equipment.
+Refers to stand-by.
+Refers to “ON” (power).
+Refers to dangerous voltage.
+Adjusting Volume (earphone/headphone and speakers)
+Before using the earphone/headphone and speakers, check if the volume is too high.
+!
+Caution:
+To prevent hearing damage, do not use in high volume for a long term.
+Important Safety Precautions
+Please use the machine in the proper environment to extend the machine's lifespan. Use the machine in a safe and stable 
+place.
+The warranty does not cover any damage resulting from reckless use or use in undesirable environments.
+5
+
+--- Page 6 ---
+Product Installation/Usage Precautions
+!
+Caution:
+Place the machine in a safe place so it does not fall.
+• If dropped, the machine may be damaged or cause an injury.
+Use the product in a clean, dust-free environment.
+• Otherwise, the system may not function properly.
+Do not place any objects within 6 inches of the PC.
+• Lack of ventilation may overheat the PC from inside and put users at risk of burn injuries.
+Do not store or use the PC near a magnetic object (i.e. a bag with a magnetic object, a diary, a 
+wallet, a memo board, high-powered speakers, a bracelet, or etc.).
+• Otherwise, the storage device (HDD, SSD, eMMC) and the system may be damaged, and the 
+system may fail to operate properly.
+Do not use the PC on a bag with magnetic objects attached to it.
+•
+Otherwise, the storage device and the system may be damaged, and the system may fail to 
+operate properly.
+Operate the product where there is no electromagnetic interference.
+• Keep a proper distance between the PC and electronic appliances such as radios or speakers 
+that generate strong magnetic fields.
+•
+Otherwise, data may be lost from the storage device (HDD, SSD, eMMC) or the screen color 
+may be damaged.
+Do not connect a key-phone line to a wired LAN port.
+• A fire may occur or the product may get damaged.
+If the screen is damaged, do not touch it with your hands.
+• Contact the call center as it may cause an injury.
+Be careful not to pinch your fingers in the connecting (hinge) part of the PC when opening or 
+closing the PC, as it may lead to injury.
+• This may lead to bodily injury.
+6
+
+--- Page 7 ---
+!
+Do not leave any objects such as a pen between the keyboard and the screen.
+• You might break the screen by unwittingly closing the PC with a foreign object remaining on 
+the keyboard.
+Do not tap or scratch the screen with a sharp object.
+• It may cause impairment.
+Ensure the power is off before closing the PC.
+• The product may catch fire, be broken or deformed due to temperature rise.
+Do not impose excessive force on the screen or drop it.
+• The screen may be damaged.
+Do not lean the screen backward too much. Do not apply too much force to the screen.
+• The screen or the moving parts may be damaged.
+To clean the screen, use designated agents and soft cloth and rub the screen in one direction.
+• Too much force may damage the screen.
+When handling PC parts, follow the instructions in the manual.
+• Otherwise, the product may get damaged.
+Install a vaccine program on your PC and do not download illegal programs nor access any cor
+ruptive web site such as those pushing pornographic contents.
+• The system may be infected and impaired.
+Do not insert devices other than designated ones in the ports.
+• Otherwise, the product may get damaged.
+Do not press the eject button while the optical disk drive (CD/DVD/Blu-ray)  is running.
+• An error may occur or the disc may be ejected, causing injury.
+7
+
+--- Page 8 ---
+!
+Do not use a damaged optical disc (CD/DVD/Blu-ray).
+• Otherwise, the product may get damaged or cause physical injury.
+Avoid using a wireless LAN connection within the 16 foot radius of a microwave or plasma lamp. 
+If you have to use wireless LAN and a plasma bulb within the range, do so between channels 11 
+and 13.
+• The transmission rate may drop even if the connection is made.
+Turn off the PC if you are not going to use it for an extended period of time.
+• It may overheat the battery.
+Make sure that the memory cover is securely closed before turning on the PC.
+• Do not use the machine when the memory cover is open. It may damage the machine.
+Please use parts certified by LG Electronics Inc.
+• Otherwise, a fire or product damage may occur.
+If there is a problem with peripheral devices, contact the call center.
+• The product may get damaged.
+Handle devices and parts of the machine with care.
+• The product may get damaged.
+Do not drop any part or device of the machine while disassembling it.
+• If dropped, it may be damaged and cause an injury.
+!
+Warning:
+Dispose of the desiccating agent and plastic wrap properly.
+• The desiccating agent and plastic wrap may cause suffocation.
+8
+
+--- Page 9 ---
+!
+Do not use the machine in damp places like a laundry room or bathroom.
+• Moisture may cause a glitch or electric shock.
+•
+Please use the machine within the appropriate temperature range (50 °F to 95 °F) and hu
+midity range (20 % RH to 80 % RH).
+Clean the PC with a proper agent and dry it completely before using it again.
+• If the PC is wet while used, an electric shock or fire may occur.
+When lightning flashes in your area, disconnect the power, wired LAN and other connections.
+• An electric shock or fire may occur.
+Do not leave a cup or other containers filled with watery substance near the PC.
+• In the case that liquid goes inside the PC, a fire or electric shock may occur.
+If you have dropped or damaged the PC, disconnect the power and contact the call center for a 
+safety check.
+• If a damaged PC is used continuously, an electric shock or fire may occur.
+Do not put a lit candle or live cigarette on the PC.
+• A fire may occur.
+If you detect or smell smoke from the PC, stop use immediately and disconnect the power 
+source before contacting the call center.
+• A fire may occur.
+As the adapter can be hot, do not touch it with bare skin while using it.
+• Extended period of exposure may cause burn.
+The bottom of the PC gets hot when the system is in operation. Do not touch or put it on your 
+lap.
+• Extended period of exposure may cause burn.
+Do not play PC games excessively.
+• Playing a PC game for an extended period of time may cause a mental disorder. It may also 
+inflict physical impairments on the elderly and children.
+9
+
+--- Page 10 ---
+!
+Do not put your finger or an object into PC ports.
+• An injury or electric shock may occur.
+Ask one of our engineers to run a safety check after your computer has been repaired.
+• Otherwise, an electric shock or fire may occur.
+For minors, we recommend a program that blocks access to illegal or pornographic web sites.
+• Minors' exposure to adult-only contents may inflict psychological instability or even trauma. 
+Take extra precaution for your children if the whole family is using this machine.
+Keep the machine away from heat-emitting devices such as a heater.
+• The product may get deformed or catch on fire.
+Prevent children from thrusting their finger into the optical disk drive (CD/DVD/Blu-ray)  tray.
+• The finger may be stuck in the tray and injured.
+Do not block the ventilation hole with any object.
+• Otherwise, an electric shock may occur.
+When upgrading your PC, turn off the power and disconnect the power cable, battery, and LAN.
+• There is a risk of electric shock or fire and the product may be damaged.
+When you upgrade the PC, ensure that children will not swallow any parts including bolts.
+• If a child swallows a nut, he or she may suffocate.
+•
+In that case, seek emergency help immediately.
+Do not disassemble or modify the machine arbitrarily.
+• There is a risk of electric shock and the product may be no longer covered by the warranty.
+If you dissemble the PC, connect the power after reassembly is done.
+• There is a risk of electric shock or product damage, if you touch the disassembled PC.
+10
+
+--- Page 11 ---
+!
+Do not put in metal items such as coins, hair pin or other irons or inflammables such as paper or 
+matches. Especially, ensure that children will not do so.
+• There is a risk of product damage, fire, or electric shock.
+•
+If any foreign substance gets in the product, unplug the product and contact the call center.
+Product Storage/Transportation Precautions
+!
+Caution:
+Before carrying the machine, turn off the power and disconnect all the cables.
+• Otherwise, you may trip over the wire, damaging the PC and sustaining an injury.
+Do not carry the machine with the PC open.
+• Otherwise, the product may get damaged.
+Protect the machine from any shock while carrying it.
+• System damage or an injury may result.
+Carry the product in a bag designed for it.
+• Carrying it in another type of bag may result in product damage.
+Do not put any heavy object on the PC.
+• There is the risk of malfunction. If the object were to fall, it may cause an injury or damage 
+the machine.
+!
+Warning:
+During air travel, follow the directions of flight attendants.
+• Using the PC during flight may cause an aircraft accident.
+When leaving the machine in a car, avoid exposure to direct sunlight.
+• The product may get deformed or catch on fire due to a temperature rise.
+11
+
+--- Page 12 ---
+!
+Do not put any heavy object on the power cable and adapter, and avoid damage from impacts.
+• A malfunction or fire may occur.
+Do not leave the powered-on PC in a space without enough ventilation (i.e. bags) for an extend
+ed or repeated time.
+• The battery may overheat and cause a fire.
+Battery and Adapter Precautions
+!
+Warning:
+When the PC is not used for an extended period of time, keep the battery level at about 50 %.
+• Do not leave the product with discharged battery for an extended period of time. It may 
+damage the battery.
+Charge the battery only with the provided instrument.
+• Otherwise, the battery may be damaged presenting a risk of fire.
+Do not throw or disassemble the battery.
+• The resulting damage may cause an injury, explosion, or fire.
+Use batteries certified and acknowledged by LG Electronics Inc.
+• Otherwise, an explosion or fire may occur.
+Prevent the battery from being in contact with any metallic object like a car ignition key or a pa
+per clip.
+• Otherwise, this may cause damage to the battery, a fire or burn due to overheat in the bat
+tery.
+Keep the battery away from heat.
+• Otherwise, an explosion or fire may occur.
+Do not short-circuit the battery.
+• Otherwise, it may explode.
+12
+
+--- Page 13 ---
+!
+Do not dispose of a spent or backup (standby) battery arbitrarily.
+• It may explode or cause a fire.
+•
+Disposal methods may differ by country and region. Dispose of spent batteries in accordance 
+with the laws and safety rules of the country and region you reside in.
+If you find leakage or smell bad odor from the battery, remove the battery and contact the call 
+center.
+• It may explode or cause a fire.
+Do not store in places with temperatures above 140 °F and high humidity (in cars or saunas).
+• It may explode or cause a fire.
+Keep the battery out of the reach of children or pets.
+• If damaged, it may cause an injury.
+Keep the battery from being pierced by a sharp object or chewed by pets.
+• It may explode or cause a fire.
+Do not put the battery in water.
+• Otherwise, the battery may be damaged or explode.
+Do not use the PC on top of carpet, blanket or bed. Also, do not put the adapter under the blan
+ket.
+• This may cause a malfunction, fire or burn due to overheat in the PC and adapter.
+Read the battery usage precautions carefully before use.
+• The battery should be stored indoors and used and stored in accordance with the usage 
+method described in the user manual.
+Connect the power plug properly by pushing it to the end.
+• If a contact failure occurs, it may cause product damage or fire.
+Do not bend the power cable for adapter too much or get stamped by a sharp object.
+• The wires inside the cable may break and cause electric shock or fire.
+13
+
+--- Page 15 ---
+!
+Ensure that the battery pack is locked to the machine after installation.
+• Otherwise, the battery may be damaged.
+Other Safety Precautions
+!
+Caution:
+Handle the machine with care to prevent loss of data from the storage device (HDD, SSD, 
+eMMC).
+• Since the storage device is fragile, you need to back up your important data frequently.
+•
+The manufacturer is not responsible for any storage device data loss caused by a user's mis
+take.
+Damage to the storage device (HDD, SSD, eMMC) and data loss may occur when:
+• External shocks are inflicted on the machine while disassembling or installing it.
+•
+The machine is reset (i.e. restarted) or turned on again after a power outage while the stor
+age device is operating.
+•
+The PC is infected with a virus, tainting the data irrecoverably.
+•
+Abrupt turning-off of the PC can damage the PC.
+• If the product is moved, shaken or exposed to external shock while the storage device is run
+ning, file damage or bad sectors may occur.
+To minimize data loss resulting from storage device damage (HDD, SSD, eMMC), frequently back 
+up important data.
+• The manufacturer is not responsible for any data loss.
+We do not refund or replace a product that malfunctions due to the installation or use of an op
+erating system other than the one provided by LG Electronics Inc.
+• Some software applications may not work properly in other operating systems. Such malfunc
+tions are not covered by the warranty.
+15
+
+--- Page 16 ---
+ENERGY STAR®
+ENERGY STAR®
+ENERGY STAR®  Specifications
+• LG Electronics Inc. participates in ENERGY STAR®  and the energy efficiency of this product com
+plies with the specifications of ENERGY STAR®.
+•
+ENERGY STAR®  is a set of regulations that encourages manufacturers of electronic devices to 
+create more energy efficient products.
+•
+The energy consumption of this product was decreased along with the cost. Also, it helps pre
+serve natural resources.
+•
+The PC is set to switch to Modern Standby after 5 minutes of inactivity.
+•
+To leave sleep mode, click a mouse button or press any key on the keyboard.
+Power Management Options
+The power management options of this PC is configured as follows.
+Tip:
+The settings of the power management options may be changed upon Windows update.
+•
+Turn off the display:  Turns off the screen when you don't use the PC for a set period of time.
+!
+Warning:
+The screen is set to never turn off, which uses more power and results in higher carbon emissions.
+16
+
+--- Page 17 ---
+• Put the computer to sleep:  Switches to the Sleep mode when you don't use the PC for a set period of time.
+!
+Warning:
+Sleep is set to Never, which uses more power and results in higher carbon emissions.
+Regulatory Notices
+UK Notice
+ENGLISH
+•
+Hereby, LG Electronics declares that the radio equipment type PC is in compliance with the relevant statutory 
+requirements. The full text of the UK declaration of conformity is available at the following internet address:
+http://www.lg.com/global/support/cedoc/cedoc#
+The use of the 5150-5350 MHz and 5945-6425 MHz band (if applicable) is restricted to indoor use only. This 
+restriction exists in the United Kingdom (UK).
+European Union Notice
+ENGLISH
+•
+Hereby, LG Electronics declares that the radio equipment type PC is in compliance with Directive 2014/53/EU.
+The full text of the EU declaration of conformity is available at the following internet address:
+http://www.lg.com/global/support/cedoc/cedoc#
+The use of the 5150-5350 MHz and 5945-6425 MHz band (if applicable) is restricted to indoor use only.
+This restriction exists in Belgium (BE), Bulgaria (BG), Czech Republic (CZ), Denmark (DK), Germany (DE), Estonia 
+(EE), Ireland (IE), Greece (EL), Spain (ES), France (FR), Croatia (HR), Italy (IT), Cyprus (CY), Latvia (LV), Lithuania (LT), 
+Luxembourg (LU), Hungary (HU), Malta (MT), Netherlands (NL), Austria (AT), Poland (PL), Portugal (PT), Romania 
+(RO), Slovenia (SI), Slovakia (SK), Finland (FI), Sweden (SE), Northern Ireland (UK(NI)), Switzerland (CH), Iceland (IS), 
+Liechtenstein (LI) and Norway (NO).
+ESPAÑOL
+•
+Por la presente, LG Electronics declara que el tipo de equipo de radio ordenador cumple con la Directiva 2014/53/UE.
+El texto completo de la declaración de conformidad con la legislación de la Unión Europea está disponible en el 
+siguiente sitio web:
+17
+
+--- Page 18 ---
+http://www.lg.com/global/support/cedoc/cedoc#
+Las bandas de 5150-5350 MHz y 5945-6425 MHz (si procede) solo pueden utilizarse en interiores.
+Esta restricción existe en Bélgica (BE), Bulgaria (BG), República Checa (CZ), Dinamarca (DK), Alemania (DE), Estonia 
+(EE), Irlanda (IE), Grecia (EL), España (ES), Francia (FR), Croacia (HR), Italia (IT), Chipre (CY), Letonia (LV), Lituania 
+(LT), Luxemburgo (LU), Hungría (HU), Malta (MT), Países Bajos (NL), Austria (AT), Polonia (PL), Portugal (PT), Rumanía 
+(RO), Eslovenia (SI), Eslovaquia (SK), Finlandia (FI), Suecia (SE), Irlanda del Norte (UK(NI)), Suiza (CH), Islandia (IS), 
+Liechtenstein (LI) y Noruega (NO).
+CATALÀ
+• Mitjançant aquest escrit, LG Electronics declara que l'equip de ràdio d'aquest ordinador compleix amb la Directiva 
+2014/53/UE.
+El text complet de la declaració de conformitat de la UE està disponible a l'adreça d'Internet següent:
+http://www.lg.com/global/support/cedoc/cedoc#
+L'ús de les bandes de 5150-5350 MHz i 5945-6425 MHz (si escau) està restringit exclusivament a l'ús en interiors. 
+Aquesta restricció existeix a Bèlgica (BE), Bulgària (BG), República Txeca (CZ), Dinamarca (DK), Alemanya (DE), Estònia 
+(EE), Irlanda (IE), Grècia (EL), Espanya (ES), França (FR), Croàcia (HR), Itàlia (IT), Xipre (CY), Letònia (LV), Lituània 
+(LT), Luxemburg (LU), Hongria (HU), Malta (MT), Països Baixos (NL), Àustria (AT), Polònia (PL), Portugal (PT), Romania 
+(RO), Eslovènia (SI), Eslovàquia (SK), Finlàndia (FI), Suècia (SE), Irlanda del Nord (UK(NI)), Suïssa (CH), Islàndia (IS), 
+Liechtenstein (LI) i Noruega (NO).
+PORTUGUÊS
+•
+Pela presente, a LG Electronics declara que o computador tipo equipamento de rádio está em conformidade com a 
+Diretiva 2014/53/UE.
+O texto integral da declaração de conformidade da UE está disponível no seguinte endereço da Internet:
+http://www.lg.com/global/support/cedoc/cedoc#
+A utilização da banda de 5150-5350 MHz e 5945-6425 MHz (se aplicável) está restrita à utilização em interiores.
+Esta restrição existe na Bélgica (BE), Bulgária (BG), Republica Checa (CZ), Dinamarca (DK), Alemanha (DE), Estónia 
+(EE), Irlanda (IE), Grécia (EL), Espanha (ES), França (FR), Croácia (HR), Itália (IT), Chipre (CY), Letónia (LV), Lituânia 
+(LT), Luxemburgo (LU), Hungria (HU), Malta (MT), Holanda (NL), Áustria (AT), Polónia (PL), Portugal (PT), Romania 
+(RO), Eslovénia (SI), Eslováquia (SK), Finlândia (FI), Suécia (SE), Irlanda do Norte (UK(NI)), Suíça (CH), Islândia (IS), 
+Liechtenstein (LI) e Noruega (NO).
+POLSKI
+•
+Niniejszym firma LG Electronics oświadcza, że komputer wykorzystujący sprzęt radiowy jest zgodny z dyrektywą 
+2014/53/UE.
+Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym:
+http://www.lg.com/global/support/cedoc/cedoc#
+Pasmo 5150–5350 MHz i 5945–6425 MHz (jeśli ma zastosowanie) jest ograniczone tylko do użytku wewnątrz 
+pomieszczeń.
+Ograniczenie to występuje w Belgii (BE), Bułgarii (BG), Republice Czeskiej (CZ), Danii (DK), Niemczech (DE), Estonii 
+(EE), Irlandii (IE), Grecji (EL), Hiszpanii (ES), Francji (FR), Chorwacji (HR), we Włoszech (IT), na Cyprze (CY), na Łotwie 
+(LV), na Litwie (LT), w Luksemburgu (LU), na Węgrzech (HU), na Malcie (MT), w Holandii (NL), Austrii (AT), Polsce 
+(PL), Portugalii (PT), Rumunii (RO), Słowenii (SI), Słowacji (SK), Finlandii (FI), Szwecji (SE), Irlandii Północnej (UK(NI)), 
+Szwajcarii (CH), na Islandii (IS), w Liechtensteinie (LI) i Norwegii (NO).
+ITALIANO
+•
+Con la presente, LG Electronics dichiara che l’apparecchiatura radio tipo PC è conforme con la Direttiva 2014/53/UE.
+Il testo completo della Dichiarazione di conformità UE è disponibile al seguente indirizzo Internet:
+http://www.lg.com/global/support/cedoc/cedoc#
+18
+
+--- Page 19 ---
+L’uso della banda 5.150-5.350 MHz e 5.945-6.425 MHz (se applicabile) è limitata al solo uso in ambienti interni.
+La presente restrizione esiste in Belgio (BE), Bulgaria (BG), Repubblica Ceca (CZ), Danimarca (DK), Germania (DE), 
+Estonia (EE), Irlanda (IE), Grecia (EL), Spagna (ES), Francia (FR), Croazia (HR), Italia (IT), Cipro (CY), Lettonia (LV), 
+Lituania (LT), Lussemburgo (LU), Ungheria (HU), Malta (MT), Paesi Bassi (NL), Austria (AT), Polonia (PL), Portogallo 
+(PT), Romania (RO), Slovenia (SI), Slovacchia (SK), Finlandia (FI), Svezia (SE), Irlanda del Nord (UK(NI)), Svizzera (CH), 
+Islanda (IS), Liechtenstein (LI) e Norvegia (NO).
+DEUTSCH
+• Hiermit erklärt LG Electronics, dass das Funkgerät vom Typ PC der EU-Richtlinie 2014/53/EU entspricht.
+Der vollständige Text der EU-Konformitätserklärung steht zur Verfügung unter folgender Internetadresse:
+http://www.lg.com/global/support/cedoc/cedoc#
+Die Frequenzbänder im Bereich 5150 - 5350 MHz und 5945 - 6425 Mhz (soweit vorhanden) dürfen nur im 
+Innenbereich benutzt werden.
+Diese Einschränkung besteht in Belgien (BE), Bulgarien (BG), Tschechien (CZ), Dänemark (DK), Deutschland (DE), 
+Estland (EE), Irland (IE), Griechenland (EL), Spanien (ES), Frankreich (FR), Kroatien (HR), Italien (IT), Zypern (CY), 
+Lettland (LV), Litauen (LT), Luxemburg (LU), Ungarn (HU), Malta (MT), Niederlande (NL), Österreich (AT), Polen (PL), 
+Portugal (PT), Rumänien (RO), Slowenien (SI), Slowakei (SK), Finnland (FI), Schweden (SE), Nordirland (UK(NI)), Schweiz 
+(CH), Island (IS), Liechtenstein (LI) und Norwegen (NO).
+MAGYAR
+•
+LG Electronics igazolja, hogy a PC típusú rádióberendezés megfelel a 2014/53/EU irányelvnek.
+Az EU-megfelelőségi nyilatkozat teljes szövege elérhető a következő internetes címen:
+http://www.lg.com/global/support/cedoc/cedoc#
+Az 5150-5350 MHz és a 5945-6425 MHz sáv használata (ha alkalmazható) csak beltéri használatra korlátozódik.
+Ez a korlátozás Belgiumban (BE), Bulgáriában (BG), a Cseh Köztársaságban (CZ), Dániában (DK), Németországban 
+(DE), Észtországban (EE), Írországban (IE), Görögországban (EL), Spanyolországban (ES), Franciaországban (FR), 
+Horvátországban (HR), Olaszországban (IT), Cipruson (CY), Lettországban (LV), Litvániában (LT), Luxemburgban (LU), 
+Magyarországon (HU), Máltán (MT), Hollandiában (NL), Ausztriában (AT), Lengyelországban (PL), Portugáliában (PT), 
+Romániában (RO), Szlovéniában (SI), Szlovákiában (SK), Finnországban (FI), Svédországban (SE), Észak-Írországban 
+(UK(NI)), Svájcban (CH), Izlandon (IS), Liechtensteinban (LI) és Norvégiában (NO) érvényes.
+NEDERLANDS
+•
+Hierbij verklaar ik, LG Electronics, dat het type radioapparatuur PC conform is met Richtlijn 2014/53/EU.
+De volledige tekst van de EU-conformiteitsverklaring kan worden geraadpleegd op het volgende internetadres:
+http://www.lg.com/global/support/cedoc/cedoc#
+De 5150-5350 MHz- en 5945-6425 MHz-band kunnen (indien van toepassing) alleen binnenshuis worden gebruikt.
+Deze beperking geldt voor België (BE), Bulgarije (BG), Tsjechië (CZ), Denemarken (DK), Duitsland (DE), Estland (EE), 
+Ierland (IE), Griekenland (EL), Spanje (ES), Frankrijk (FR), Kroatië (HR), Italië (IT), Cyprus (CY), Letland (LV), Litouwen 
+(LT), Luxemburg (LU), Hongarije (HU), Malta (MT), Nederland (NL), Oostenrijk (AT), Polen (PL), Portugal (PT), Roemenië 
+(RO), Slovenië (SI), Slowakije (SK), Finland (FI), Zweden (SE), Noord-Ierland (UK(NI)), Zwitserland (CH), IJsland (IS), 
+Liechtenstein (LI) en Noorwegen (NO).
+ROMÂNĂ
+•
+Prin prezenta, LG Electronics declară că tipul de echipamente radio al computerului personal (PC) este în conformitate 
+cu Directiva 2014/53/UE.
+Textul integral al declarației UE de conformitate este disponibil la următoarea adresă internet:
+http://www.lg.com/global/support/cedoc/cedoc#
+Utilizarea benzii de 5150 - 5350 MHz și a celei de 5945 - 6425 MHz (dacă este cazul) este restricționată doar la 
+interior.
+19
+
+--- Page 20 ---
+Aceste restricţii există în: Belgia (BE), Bulgaria (BG), Republica Cehă (CZ), Danemarca (DK), Germania (DE), Estonia 
+(EE), Irlanda (IE), Grecia (EL), Spania (ES), Franţa (FR), Croaţia (HR), Italia (IT), Cipru (CY), Letonia (LV), Lituania (LT), 
+Luxemburg (LU), Ungasria (HU), Malta (MT), Olanda (NL), Austria (AT), Polonia (PL), Portugalia (PT), România (RO), 
+Slovenia (SI), Slovacia (SK), Finlanda (FI), Suedia (SE), Irlanda de Nord (UK(NI)), Elveţia (CH), Islanda (IS), Liechtenstein 
+(LI) şi Norvegia (NO).
+FRANÇAIS
+• Par la présente, LG Electronics déclare que l’équipement radio de type PC est en conformité avec la Directive 2014/53/
+EU.
+Le texte intégral de la déclaration de conformité UE est disponible à l’adresse suivante:
+http://www.lg.com/global/support/cedoc/cedoc#
+L’utilisation des bandes de fréquences 5 150 - 5 350 MHz et 5 945 - 6 425 MHz (le cas échéant) est limitée à un 
+usage en intérieur.
+Cette restriction existe en Belgique (BE), Bulgarie (BG), République Tchèque (CZ), Danemark (DK), Allemagne (DE), 
+Estonie (EE), Irlande (IE), Grèce (EL), Espagne (ES), France (FR), Croatie (HR), Italie (IT), Chypre (CY), Lettonie (LV), 
+Lituanie (LT), Luxembourg (LU), Hongrie (HU), Malte (MT), Pays-Bas (NL), Autriche (AT), Pologne (PL), Portugal (PT), 
+Roumanie (RO), Slovénie (SI), Slovaquie (SK), Finlande (FI), Suède (SE), Irlande du Nord (UK(NI)), Suisse (CH), Islande 
+(IS), Liechtenstein (LI) et Norvège (NO).
+DANSK
+•
+Hermed erklærer LG Electronics, at radioudstyrstypen PC er i overensstemmelse med direktiv 2014/53/EU.
+Den fulde tekst af EU-overensstemmelseserklæringen er tilgængelig på følgende internetadresse:
+http://www.lg.com/global/support/cedoc/cedoc#
+Brugen af 5150-5350 MHz- og 5945-6425 MHz-båndet er kun forbeholdt indendørs brug.
+Denne begrænsning gælder i Belgien (BE), Bulgarien (BG), Tjekkiet (CZ), Danmark (DK), Tyskland (DE), Estland (EE), 
+Irland (IE), Grækenland (EL), Spanien (ES), Frankrig (FR), Kroatien (HR), Italien (IT), Cypern (CY), Letland (LV), Litauen 
+(LT), Luxembourg (LU), Ungarn (HU), Malta (MT), Holland (NL), Østrig (AT), Polen (PL), Portugal (PT), Rumænien (RO), 
+Slovenien (SI), Slovakiet (SK), Finland (FI), Sverige (SE), Nordirland (UK(NI)), Schweiz (CH), Island (IS), Liechtenstein 
+(LI) og Norge (NO).
+SUOMI
+•
+Täten LG Electronics vakuuttaa, että radiolaitetyyppi PC on direktiivin 2014/53/EU mukainen.
+Tämän EU-yhdenmukaisuusjulistuksen koko teksti löytyy seuraavasta Internet-osoitteesta:
+http://www.lg.com/global/support/cedoc/cedoc#
+Taajuusalueen 5 150 – 5 350 MHz ja 5 945 – 6 425 MHz (jos sovellettavissa) käyttö on sallittua vain sisätiloissa.
+Tämä rajoitus on havaittu Belgia (BE), Bulgaria (BG), Tšekin tasavalta (CZ), Tanska (DK), Saksa (DE), Viro (EE), Irlanti 
+(IE), Kreikka (EL), Espanja (ES), Ranska (FR), Kroatia (HR), Italia (IT), Kypros (CY), Latvia (LV), Liettua (LT), Luxemburg 
+(LU), Unkari (HU), Malta (MT), Alankomaat (NL), Itävalta (AT), Puola (PL), Portugali (PT), Romania (RO), Slovenia (SI), 
+Slovakia (SK), Suomi (FI), Ruotsi (SE), Pohjois-Irlanti (UK(NI)), Sveitsi (CH), Islanti (IS), Liechtenstein (LI) ja Norja (NO).
+NORSK
+•
+LG Electronics erklærer herved at radioutstyret av typen PC er i samsvar med Direktiv 2014/53/EU.
+Den fullstendige teksten til EU-samsvarserklæringen er tilgjengelig hos følgende internettadresse:
+http://www.lg.com/global/support/cedoc/cedoc#
+Bruken av 5150–5350 MHz og 5945–6425 MHz-båndet (hvis aktuelt) er begrenset til innendørs bruk.
+Denne begrensningen finnes i Belgia (BE), Bulgaria (BG), Tsjekkia (CZ), Danmark (DK), Tyskland (DE), Estland (EE), 
+Irland (IE), Hellas (EL), Spania (ES), Frankrike (FR), Kroatia (HR), Italia (IT), Kypros (CY), Latvia (LV), Litauen (LT), 
+20
+
+--- Page 21 ---
+Luxembourg (LU), Ungarn (HU), Malta (MT), Nederland (NL), Østerrike (AT), Polen (PL), Portugal (PT), Romania (RO), 
+Slovenia (SI), Slovakia (SK), Finland (FI), Sverige (SE), Nord-Irland (UK(NI)), Sveits (CH), Island (IS), Liechtenstein (LI) 
+og Norge (NO).
+SVENSKA
+• Härmed intygar LG Electronics att radioutrustningstypen PC är i överensstämmelse med direktiv 2014/53/EU.
+Den fullständiga texten av EU-försäkran om överensstämmelse finns på följande Internetadress:
+http://www.lg.com/global/support/cedoc/cedoc#
+5 150 – 5 350 MHz- och 5 945 – 6 425 MHz-bandet får bara användas inomhus.
+Denna begränsning existerar i Belgien (BE), Bulgarien (BG), Tjeckiska Republiken (CZ), Danmark (DK), Tyskland (DE), 
+Estland (EE), Irland (IE), Grekland (EL), Spanien (ES), Frankrike (FR), Kroatien (HR), Italien (IT), Cypern (CY), Lettland 
+(LV), Litauen (LT), Luxemburg (LU), Ungern (HU), Malta (MT), Nederländerna (NL), Österrike (AT), Polen (PL), Portugal 
+(PT), Rumänien (RO), Slovenien (SI), Slovakien (SK), Finland (FI), Sverige (SE), Nordirland (UK(NI)), Schweiz (CH), Island 
+(IS), Liechtenstein (LI) och Norge (NO).
+CE RF Radiation Exposure Statement:
+Caution This equipment complies with European RF radiation exposure limits for SAR (Specific Absorption Rate). This 
+transmitter must not be co-located or operating in conjunction with any other antenna or transmitter.
+External Power Supply Information
+1 Manufacturer’s name or trade mark, commercial reg
+istration number and address
+Manufacturer;  LG Electronics Inc.
+Commercial registration number;  107-86-14075
+Address;  LG Twin Towers, 128 Yeoui-daero, Yeongde
+ungpo-gu, Seoul, 07336, Korea
+2 Model identifier LP65WGC20P-EK, LP65WGC20S-EK, ADT-65DSU-
+D03-2
+3 Input voltage (V) 100-240
+4 Input AC frequency (Hz) 50-60
+5 Output voltage (V) 5.0 9.0 15.0 20.0
+6 Output current (A) 3.0 3.0 3.0 3.25
+7 Output power (W) 15.0 27.0 45.0 65.0
+8 Average active efficiency (%) 81.39 86.62 87.73 88.00
+9 Efficiency at low load (10 %) (%) 81.30 83.78 83.29 82.20
+10 No-load power consumption (W) 0.1 0.1 0.1 0.21
+1 English: Manufacturer’s name or trade mark, commercial registration number and address
+21
+
+--- Page 22 ---
+Català: Nom del fabricant o marca, número de registre mercantil i adreça
+Danish: Producentens navn eller varemærke, andelsregisternummer og adresse
+Dutch: Naam of handelsmerk van de fabrikant, handelsregisternummer en adres
+Finnish: Valmistajan nimi tai tavaramerkki, kaupparekisterinumero ja osoite
+French: Raison sociale ou marque déposée, numéro d’enregistrement au registre du commerce et adresse du 
+fabricant
+German: Name oder Handelsmarke des Herstellers, Handelsregisternummer und Anschrifte
+Hungarian: A gyártó neve vagy védjegye, cégjegyzékszáma és címe
+Italian: Nome o marchio del fabbricante, numero di iscrizione nel registro delle imprese e indirizzo del fabbri
+cante
+Polish: Nazwa lub znak towarowy producenta, numer rejestru handlowego i adres
+Protuguese: Marca comercial ou nome, número de registo comercial e endereço do fabricante
+Romanian: Denumirea producătorului sau marca comercială, numărul de înregistrare la Registrul Comerțului și 
+adresa
+Spanish: Nombre o marca, número del registro mercantil y dirección del fabricante
+Swedish: Tillverkarens namn eller varumärke, organisationsnummer och adress
+Norwegian: Produsentens navn, kommersielt registreringsnummer og adresse
+2 English: Model identifier
+Català: Identificador del model
+Danish: Modellens identifikationskode
+Dutch: Typeaanduiding
+Finnish: Mallitunniste
+French: Référence du modèle
+German: Modellkennung
+Hungarian: Modellazonosító
+Italian: Identificativo del modello
+Polish: Identyfikator modelu
+Protuguese: Identificador do modelo
+Romanian: Identificator de model
+Spanish: Identificador del modelo
+Swedish: Modellbeteckning
+Norwegian: Modellidentifikator
+3 English: Input voltage
+Català: Tensió d'entrada
+Danish: Indgangsspænding
+Dutch: Voedingsspanning
+Finnish: Ottojännite
+French: Tension d’entrée
+German: Eingangsspannung
+22
+
+--- Page 23 ---
+Hungarian: Bemenő feszültség
+Italian: Tensione di ingresso
+Polish: Napięcie wejściowe
+Protuguese: Tensão de entrada
+Romanian: Tensiune de intrare
+Spanish: Tensión de entrada
+Swedish: Ingående spänning
+Norwegian: Inngangsspenning
+4 English: Input AC frequency
+Català: Freqüència d'entrada de CA
+Danish: Inputvekselstrømsfrekvens
+Dutch: Voedingsfrequentie
+Finnish: Tuloverkkotaajuus
+French: Fréquence du CA d’entrée
+German: Eingangswechselstromfre-quenz
+Hungarian: Bemenő váltóáram frekvenciája
+Italian: Frequenza di ingresso CA
+Polish: Wejściowa częstotliwość prądu przemiennego
+Protuguese: Frequência da alimentação de CA
+Romanian: Frecvența c.a. de intrare
+Spanish: Frecuencia de la CA de entrada
+Swedish: Ingående frekvens (växelström)
+Norwegian: Vekselstrømfrekvens inngang
+5 English: Output voltage
+Català: Tensió de sortida
+Danish: Udgangsspænding
+Dutch: Uitgangsspanning
+Finnish: Antojännite
+French: Tension de sortie
+German: Ausgangsspannung
+Hungarian: Kimenő feszültség
+Italian: Tensione di uscita
+Polish: Napięcie wyjściowe
+Protuguese: Tensão de saída
+Romanian: Tensiune de ieșire
+Spanish: Tensión de salida
+Swedish: Utgående spänning
+Norwegian: Utgangsspenning
+23
+
+--- Page 24 ---
+6 English: Output current
+Català: Corrent de sortida
+Danish: Udgangsstrømsstyrke
+Dutch: Uitgangsstroom
+Finnish: Antovirta
+French: Courant de sortie
+German: Ausgangsstrom
+Hungarian: Kimenő áramerősség
+Italian: Corrente di uscita
+Polish: Prąd wyjściowy
+Protuguese: Corrente de saída
+Romanian: Curent de ieșire
+Spanish: Intensidad de salida
+Swedish: Utgående ström
+Norwegian: Utgangsstrøm
+7 English: Output power
+Català: Potència de sortida
+Danish: Udgangseffekt
+Dutch: Uitgangsvermogen
+Finnish: Antoteho
+French: Puissance de sortie
+German: Ausgangsleistung
+Hungarian: Kimenő teljesítmény
+Italian: Potenza di uscita
+Polish: Moc wyjściowa
+Protuguese: Potência de saída
+Romanian: Putere de ieșire
+Spanish: Potencia de salida
+Swedish: Utgående effekt
+Norwegian: Utgangseffekt
+8 English: Average active efficiency
+Català: Eficiència mitjana en actiu
+Danish: Gennemsnitlig effektivitet i aktiv tilstand
+Dutch: Gemiddelde actieve efficiëntie
+Finnish: Aktiivitilan keskimääräinen hyötysuhde
+French: Rendement moyen en mode actif
+German: Durchschnittliche Effizienz im Betrieb
+Hungarian: Aktív üzemmódban mért átlagos hatásfok
+24
+
+--- Page 25 ---
+Italian: Rendimento medio in modo attivo
+Polish: Średnia sprawność podczas pracy
+Protuguese: Eficiência média no modo ativo
+Romanian: Randament mediu în mod activ
+Spanish: Eficiencia media en activo
+Swedish: Genomsnittlig verkningsgrad i aktivt läge
+Norwegian: Gjennomsnittlig aktiv effektivitet
+9 English: Efficiency at low load (10 %)
+Català: Eficiència a baixa càrrega (10 %)
+Danish: Effektivitet ved lav belastning (10 %)
+Dutch: Efficiëntie bij lage belasting (10 %)
+Finnish: Hyötysuhde alhaisella kuormituksella (10 %)
+French: Rendement à faible charge (10 %)
+German: Effizienz bei geringer Last (10 %)
+Hungarian: Hatásfok alacsony (10 %-os) terhelésnél
+Italian: Rendimento a basso carico (10 %)
+Polish: Sprawność przy niskim obciążeniu (10 %)
+Protuguese: Eficiência a carga baixa (10%)
+Romanian: Randamentul la sarcină redusă (10 %)
+Spanish: Eficiencia a baja carga (10 %).
+Swedish: Verkningsgrad vid låg last (10 %)
+Norwegian: Effektivitet ved lav belastning (10 %)
+10 English: No-load power consumption
+Català: Consum d’energia en buit
+Danish: Effektforbrug i nullast-tilstand
+Dutch: Energieverbruik in niet-belaste toestand
+Finnish: Kuormittamattoman tilan tehonkulutus
+French: Consommation électrique hors charge
+German: Leistungsaufnahme bei Nulllast
+Hungarian: Üresjárási üzemmódban mért energiafogyasztás
+Italian: Potenza assorbita nella condizione a vuoto
+Polish: Zużycie energii w stanie bez obciążenia
+Protuguese: Consumo energético em vazio
+Romanian: Puterea absorbită în regim fără sarcină
+Spanish: Consumo eléctrico en vacío
+Swedish: Elförbrukning vid noll-last
+Norwegian: Strømforbruk uten belastning
+25
+
+--- Page 26 ---
+USA
+FCC Notice (For USA)
+This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to Part 15 of 
+the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential 
+installation. This equipment generates, uses, and can radiate radio frequency energy and, if not installed and used in 
+accordance with the instructions, may cause harmful interference to radio communications.
+However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause 
+harmful interference to radio or television reception, which can be determined by turning the equipment off and on, the 
+user is encouraged to try to correct the interference by one or more of the following measures:
+•
+Reorient or relocate the receiving antenna.
+•
+Increase the separation between the equipment and the receiver.
+•
+Connect the equipment to an outlet on a circuit different from that to which the receiver is connected.
+•
+Consult the dealer or an experienced radio/TV technician for help.
+This device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions:
+(1) this device may not cause harmful interference and
+(2) this device must accept any interference received, including interference that may cause undesired operation.
+Any changes or modifications in construction of this device which are not expressly approved by the party responsible for 
+compliance could void the user’s authority to operate the equipment.
+FCC Radio Frequency Interference Requirements (for UNII devices)
+High power radars are allocated as primary users of the 5.25 to 5.35 GHz and 5.65 to 5.85 GHz bands. These radar 
+stations can cause interference with and/or damage this device. This device cannot be co-located with any other 
+transmitter.
+FCC/IC Radio Frequency Exposure
+The available scientific evidence does not show that any health problems are associated with using low power wireless 
+devices. There is no proof, however, that these low power wireless devices are absolutely safe. Low power Wireless 
+devices emit low levels of radio frequency energy (RF) in the microwave range while being used. Whereas high levels 
+of RF can produce health effects (by heating tissue), exposure to low level RF that does not produce heating effects 
+causes no known adverse health effects. Many studies of low level RF exposures have not found any biological effects. 
+Some studies have suggested that some biological effects might occur, but such findings have not been confirmed by 
+additional research. This device have been tested and found to comply with FCC/IC radiation exposure limits set forth for 
+an uncontrolled environment and meets the FCC radio frequency (RF) Exposure Guidelines in Supplement C to OET65 and 
+RSS-102 of the IC radio frequency (RF) Exposure rules(<1.6W/kg).
+Operation of transmitters in the 5.925-7.125 GHz band is prohibited for control of or communications with unmanned 
+aircraft systems.
+CANADA
+ENGLISH
+26
+
+--- Page 27 ---
+Industry Canada Statement (For Canada)
+[For having wireless function (WLAN, Bluetooth,...)]
+This device contains licence-exempt transmitter(s)/receiver(s) that comply with Innovation, Science and Economic 
+Development Canada’s licence-exempt RSS(s). Operation is subject to the following two conditions:
+(1) This device may not cause interference.
+(2) This device must accept any interference, including interference that may cause undesired operation of the device.
+FCC/IC Radio Frequency Exposure
+The available scientific evidence does not show that any health problems are associated with using low power wireless 
+devices. There is no proof, however, that these low power wireless devices are absolutely safe. Low power Wireless 
+devices emit low levels of radio frequency energy (RF) in the microwave range while being used. Whereas high levels 
+of RF can produce health effects (by heating tissue), exposure to low level RF that does not produce heating effects 
+causes no known adverse health effects. Many studies of low level RF exposures have not found any biological effects. 
+Some studies have suggested that some biological effects might occur, but such findings have not been confirmed by 
+additional research. This device have been tested and found to comply with FCC/IC radiation exposure limits set forth for 
+an uncontrolled environment and meets the FCC radio frequency (RF) Exposure Guidelines in Supplement C to OET65 and 
+RSS-102 of the IC radio frequency (RF) Exposure rules(<1.6W/kg).
+WARNING
+[For product having the wireless function using 5 GHz frequency bands]
+(1) the device for operation in the band 5150–5250 MHz is only for indoor use to reduce the potential for harmful 
+interference to co-channel mobile satellite systems;
+(2) for devices with detachable antenna(s), the maximum antenna gain permitted for devices in the bands 5250-5350 MHz 
+and 5470-5725 MHz shall be such that the equipment still complies with the e.i.r.p. limit;
+(3) for devices with detachable antenna(s), the maximum antenna gain permitted for devices in the band 5725-5850 MHz 
+shall be such that the equipment still complies with the e.i.r.p. limits as appropriate; and
+(4) [for devices operating in the band 5250-5350 MHz having an e.i.r.p. greater than 200 mW] antenna type(s), antenna 
+models(s), and worst-case tilt angle(s) necessary to remain compliant with the e.i.r.p. elevation mask requirement set forth 
+in section 6.2.2.3 of RSS-247 shall be clearly indicated.
+Users should also be advised that high-power radars are allocated as primary users (i.e. priority users) of the bands 
+5250-5350 MHz and 5650-5850 MHz and that these radars could cause interference and/or damage to LE-LAN devices.
+[For product having the wireless function using 6 GHz frequency bands]
+(1) Devices shall not be used for control of or communications with unmanned aircraft systems.
+(2) Devices shall not be used on oil platforms.
+(3) Devices shall not be used on aircraft, except for the low-power indoor access points, indoor subordinate devices, 
+low-power client devices, and very low-power devices operating in the 5925-6425 MHz band, that may be used on large 
+aircraft as defined in the Canadian Aviation Regulations, while flying above 3,048 meters (10,000 feet).
+(4) Devices shall not be used on automobiles.
+(5) Devices shall not be used on trains.
+(6) Devices shall not be used on maritime vessels.
+FRANÇAIS (CANADA)
+Avis d’Industrie Canada
+[Pour la fonction sans fil (WLAN, Bluetooth, etc.)]
+L’émetteur/récepteur exempt de licence contenu dans le présent appareil est conforme aux CNR d’Innovation, Sciences et 
+Développement économique Canada applicables aux appareils radio exempts de licence. L’exploitation est autorisée aux 
+deux conditions suivantes :
+(1) L’appareil ne doit pas produire de brouillage;
+27
+
+--- Page 28 ---
+(2) L’appareil doit accepter tout brouillage radioélectrique subi, même si le brouillage est susceptible d’en compromettre le 
+fonctionnement.
+Exposition aux radiofréquences FCC/IC
+Selon les preuves scientifiques disponibles, aucun problème de santé n’est associé à l’utilisation d’appareils sans fil 
+de faible puissance. Rien ne prouve cependant que ces appareils sont absolument sans danger. Lorsqu’ils sont utilisés, 
+les appareils sans fil de faible puissance émettent de faibles niveaux d’énergie radiofréquence (RF) dans la gamme des 
+hyperfréquences. Bien que les niveaux élevés de radiofréquence puissent avoir un effet sur la santé (réchauffement des 
+tissus), l’exposition à de faibles niveaux n’ayant pas d’effet thermique n’a aucun impact négatif connu sur la santé.
+De nombreuses études sur l’exposition aux radiofréquences de faible niveau n’ont révélé aucun effet biologique. Certaines 
+d’entre elles ont sous-entendu qu’il pourrait y avoir de tels effets, mais leurs résultats n’ont pas été confirmés par des 
+recherches supplémentaires. Les modèles suivants ont été testés et se sont avérés conformes aux limites d’exposition aux 
+rayonnements définies par la FCC et IC pour l’environnement non contrôlé; ils répondent aux règles sur l’exposition aux 
+rayonnements RF (radiofréquence) de la FCC et à celles de la norme RSS-102 d’IC.
+AVERTISSEMENTS
+[Pour les produits ayant la fonction sans fil utilisant des bandes de fréquences de 5 GHz]
+(1) les dispositifs fonctionnant dans la bande de 5 150 à 5 250 MHz sont réservés uniquement pour une utilisation à 
+l’intérieur afin de réduire les risques de brouillage préjudiciable aux systèmes de satellites mobiles utilisant les mêmes 
+canaux;
+(2) pour les dispositifs munis d’antennes amovibles, le gain maximal d’antenne permis pour les dispositifs utilisant les 
+bandes de 5 250 à 5 350 MHz et de 5 470 à 5 725 MHz doit être conforme à la limite de la p.i.r.e;
+(3) pour les dispositifs munis d’antennes amovibles, le gain maximal d’antenne permis (pour les dispositifs utilisant la 
+bande de 5 725 à 5 850 MHz) doit être conforme à la limite de la p.i.r.e. spécifiée, selon le cas;
+(4) [pour des dispositifs fonctionnant dans la bande de 5 250 à 5 350 MHz ayant une p.i.r.e. de plus de 200 mW] , les 
+types d’antennes (s’il y en a plusieurs), les numéros de modèle de l’antenne et les pires angles d’inclinaison nécessaires 
+pour rester conforme à l’exigence de la p.i.r.e. applicable au masque d’élévation, énoncée à la CNR-247 section 6.2.2.3, 
+doivent être clairement indiqués.
+Les utilisateurs doivent également savoir que les radars de grande puissance sont attribués en tant qu’utilisateurs 
+principaux (c’est-à-dire les utilisateurs prioritaires) des bandes de 5 250 à 5 350 MHz et de 5 650 à 5 850 MHz et que 
+ces radars peuvent causer des interférences avec les appareils LE-LAN et/ou les endommager.
+[Pour les produits ayant la fonction sans fil utilisant des bandes de fréquences de 6 GHz]
+(1) Les dispositifs ne doivent pas servir à contrôler ni à communiquer avec des systèmes d’aéronefs sans pilote.
+(2) Les dispositifs ne doivent pas être utilisés sur des plates-formes pétrolières.
+(3) Les dispositifs ne doivent pas être utilisés à bord des aéronefs, sauf pour les points d’accès intérieurs de faible 
+puissance, les dispositifs subordonnés intérieurs, les dispositifs clients de faible puissance et les dispositifs de très faible 
+puissance dans la bande 5 925-6 425 MHz, autorisés à bord des grands aéronefs, comme défini par le Règlement de 
+l’aviation canadien, lors des vols au-dessus de 3 048 m (10 000 pieds).
+(4) Les dispositifs ne doivent pas être utilisés sur des automobiles.
+(5) Les dispositifs ne doivent pas être utilisés sur des trains.
+(6) Les dispositifs ne doivent pas être utilisés sur des navires maritimes.
+Australia/New Zealand Notice
+Exposure to radio frequency energy
+Radio wave exposure and Specific Absorption Rate (SAR) information
+This product has been designed to comply with applicable safety requirements for exposure to radio waves. These 
+requirements are based on scientific guidelines that include safety margins designed to assure the safety of all persons, 
+regardless of age and health
+28
+
+--- Page 29 ---
+• The equipment complies with the RF Exposure Requirement 1999/519/EC, Council Recommendation of 12 July 1999 on 
+the limitation of exposure of the general public to electromagnetic fields from 0 Hz to 300 GHz.
+•
+The SAR limit recommended by the International Commission on Non-Ionizing Radiation Protection (ICNIRP) is 2 W/kg 
+averaged over 10g of tissue.
+•
+The highest SAR value for this model on the body is less than 2W/kg (10g)
+RF Radiation Exposure Statement
+The use of the 5,150 - 5,350 MHz and 5,945 - 6,425 MHz band (if applicable) is restricted to indoor use only. This 
+restriction exists in the countries Australia (AU) and New Zealand (NZ). (For Wi-Fi/Bluetooth built-in model or Wi-Fi built-
+in model)
+Brazil Notice
+Este equipamento não tem direito à proteção contra interferência prejudicial e não pode causar interferência em sistemas 
+devidamente autorizados.
+Para mais informações, consulte o site da Anatel: https://www.gov.br/anatel/pt-br
+GREEN MARK (for Japan)
+本製品は、日本工業規格（JIS C0950:2008）における｢電気•電子機器の特定の
+化学物質の含有表示方法｣（通稱J－Moss）の規定する特定化学物質の含有率
+が基準値以下に管理された製品あるため、J-Moss グリーンマークを表示していま
+す。
+特定の化学物質（鉛、水銀、カドミウム、六価クロム、PBB、PBDE）の含有につ
+いての情報は下記Webサイトをご覧下さい。
+Webサイト： http://www.lg.com/jp/eco/eco-product#jMoss
+EPEAT
+“EPEAT registered where applicable/supported. EPEAT registration varies by 
+country - see
+www.epeat.net  for registration status by country.”
+UKRAINE only
+Обмеження України на наявність небезпечних речовин
+Устаткування відповідає вимогам технічного регламету щодо обмеженного використання небезпечних речовин в 
+електричному і електронному обладнанні.
+29
+
+--- Page 30 ---
+Ukraine Restriction of Hazardous Substances
+The equipment complies with requirements of the Technical Regulation, in terms of restrictions for the use of certain 
+dangerous substances in electrical and electronic equipment.
+PACKING INFORMATION (CUSTOMS UNION)
+РУССКИЙ
+•
+Символ «петля Мебиуса» указывает на возможность утилизации упаковки. Символ может быть дополнен 
+обозначением материала упаковки в виде цифрового и/или буквенного обозначения.
+ҚАЗАҚША
+•
+Символ қаптаманы жою мүмкіндігін көрсетеді. Символ сандық код және/немесе әріп белгілері түріндегі қаптама 
+материалының белгісімен толықтырылуы мүмкін.
+SAFETY REGULATION NOTICE
+Battery
+ENGLISH
+•
+Risk of fire or explosion if the battery is replaced by an incorrect type.
+•
+Replacement of a battery with an incorrect type that can defeat a safeguard (for example, in the case of some lithium 
+battery types).
+•
+Disposal of a battery into fire or a hot oven, or mechanically crushing or cutting of a battery, that can result in an 
+explosion.
+•
+Leaving a battery in an extremely high temperature surrounding environment that can result in an explosion or the 
+leakage of flammable liquid or gas.
+•
+A battery subjected to extremely low air pressure that may result in an explosion or the leakage of flammable liquid or 
+gas.
+•
+Do not store or transport at pressures lower than 11.6 kPa (1.68 psi) and at above 15 000 m (49212.5 feet) altitude.
+DANSK
+•
+Risiko for brand eller eksplosion, hvis batteriet udskiftes med en forkert type.
+• Udskiftning af et batteri med en forkert type, der kan omgå en sikring (f.eks. i tilfælde af nogle lithiumbatterityper).
+•
+Bortskaffelse af et batteri ved ild eller en varm ovn, eller mekanisk knusning eller skæring i et batteri, dette kan 
+resultere i en eksplosion.
+•
+At efterlade et batteri i omgivelser med ekstrem høj temperatur, det kan resultere i en eksplosion eller lækage af 
+brændbar væske eller gas.
+•
+Et batteri udsat for ekstremt lavt lufttryk, det kan resultere i en eksplosion eller lækage af brændbar væske eller gas.
+•
+Må ikke opbevares eller transporteres ved tryk lavere end 11,6 kPa og over 15.000 meters højde.
+SUOMI
+30
+
+--- Page 31 ---
+• Tulen ja räjähdyksen mahdollisuus, jos akku vaihdetaan vääränlaiseen akkuun.
+•
+Vääränlaisen akun asennus voi ohittaa turvamekanismit (esimerkiksi joissain litium-akuissa).
+•
+Akun hävittäminen tuleen tai kuumaan uuniin, tai akun mekaaninen tuhoaminen tai leikkaaminen, voivat johtaa 
+räjähdykseen.
+•
+Akun jättäminen äärimmäisen korkean lämpötilan ympäristöön voi johtaa räjähdykseen tai helposti syttyvän nesteen tai 
+kaasun vuotoon.
+•
+Äärimmäisen matalalle ilmanpaineelle altistettu akku voi johtaa räjähdykseen tai helposti syttyvän nesteen tai kaasun 
+vuotoon.
+•
+Älä säilö tai siirrä alle 11,6 kPa ilmanpaineissa tai yli 15 000 m korkeudessa.
+NORSK
+•
+Det er fare for brann eller eksplosjon i tilfelle batteriet byttes ut med en feil type.
+•
+Utskifting av et batteri med en feil type som kan beseire en sikring (for eksempel når det gjelder noen typer 
+litiumbatterier).
+•
+Avhending av et batteri i brann eller en varm ovn, eller mekanisk knusing eller kutting av et batteri, som kan føre til en 
+eksplosjon.
+•
+Å etterlate et batteri i omgivelser med ekstremt høy temperatur som kan resultere i en eksplosjon eller lekkasje av 
+brennbar væske eller gass.
+•
+Et batteri som er utsatt for ekstremt lavt lufttrykk kan resultere i en eksplosjon eller lekkasje av brennbar væske eller 
+gass.
+•
+Produktet må aldri oppbevares eller transporteres ved trykk lavere enn 11,6 kPa og over 15000 m høyde.
+SVENSKA
+• Risk för brand eller explosion om batteriet byts ut mot fel typ.
+•
+Byte av ett batteri mot en felaktig typ som kan motverka ett skydd (till exempel för vissa litiumbatterityper).
+•
+Kassering av ett batteri i eld eller en het ugn, eller att krossa eller klippa sönder ett batteri mekaniskt, kan leda till en 
+explosion.
+•
+Att lämna ett batteri i en omgivning med extremt hög temperatur som kan leda till en explosion, eller läckage av 
+brandfarlig vätska eller gas.
+•
+Ett batteri som utsätts för extremt lågt lufttryck kan leda till en explosion eller läckage av brandfarlig vätska eller gas.
+•
+Förvara eller transportera inte vid tryck under 11,6 kPa och på över 15 000 m höjd.
+ESPAÑOL
+•
+Existe riesgo de explosión si se cambia la batería por una de un tipo incorrecto.
+•
+Sustitución de la batería por un tipo de batería incorrecto que puede anular los mecanismos de seguridad (por ejemplo, 
+en el caso de algunos tipo de batería de litio).
+•
+Colocación de una batería en el fuego o un horno caliente, o aplastamiento o corte mecánicos de una batería, que 
+pueden provocar una explosión.
+•
+Colocación de una batería en un entorno con una temperatura extremadamente alta que puede provocar una explosión 
+o la fuga de líquido o gas inflamable.
+•
+Una batería sometida a una presión del aire extremadamente baja que puede provocar una explosión o la fuga de 
+líquido o gas inflamable.
+• No almacenar ni transportar a una presión inferior a 11,6 kPa ni a una altitud superior a 15 000 m.
+CATALÀ
+31
+
+--- Page 32 ---
+• En cas de substituir la bateria per un model inadequat, hi ha risc d'incendi o d'explosió.
+•
+La substitució de la bateria per un model inadequat pot anul·lar la garantia (per exemple, en el cas d'alguns tipus de 
+bateries de liti).
+•
+Si llenceu una bateria al foc o a un forn calent, o si la tritureu o talleu de manera mecànica, podeu provocar una 
+explosió.
+• Si deixeu la bateria sotmesa a una temperatura extremadament alta, es pot produir una explosió o la fuita de líquid o 
+gas inflamable.
+•
+Deixar una bateria sotmesa a una pressió d'aire extremadament baixa, podria provocar una explosió o la fuita de líquid 
+o gas inflamable.
+•
+No l'emmagatzemeu ni transporteu a pressions inferiors a 11,6 kPa ni a altituds superiors a 15 000 m.
+PORTUGUÊS
+•
+Risco de incêndio ou explosão se a bateria for substituída por uma do tipo incorreto.
+•
+A substituição da bateria por uma do tipo incorreto pode desativar um sistema de segurança (por exemplo, no caso de 
+algumas baterias de lítio).
+•
+A eliminação de uma bateria no fogo ou num forno quente ou o esmagamento ou corte mecânico de uma bateria pode 
+resultar numa explosão.
+•
+Deixar uma bateria num ambiente de temperatura extremamente alta pode resultar numa explosão ou na fuga de 
+líquidos ou gases inflamáveis.
+•
+Uma bateria sujeita a pressão de ar extremamente baixa poderá resultar numa explosão ou na fuga de líquidos ou 
+gases inflamáveis.
+•
+Não armazene nem transporte a pressões inferiores a 11,6 kPa e acima de 15.000 m de altitude.
+POLSKI
+•
+Ryzyko pożaru lub wybuchu w przypadku wymiany baterii na niewłaściwy typ.
+•
+Wymiana baterii na niewłaściwy typ może spowodować ominięcie zabezpieczeń (np. w przypadku niektórych typów 
+baterii litowych).
+•
+Wrzucenie baterii do ognia lub gorącego piekarnika lub mechaniczne zmiażdżenie albo przecięcie baterii może 
+spowodować wybuch.
+•
+Pozostawienie baterii w środowisku o bardzo wysokiej temperaturze może spowodować wybuch lub wyciek łatwopalnej 
+cieczy lub gazu.
+•
+Narażenie baterii na bardzo niskie ciśnienie powietrza może spowodować wybuch lub wyciek łatwopalnej cieczy lub 
+gazu.
+•
+Nie przechowywać ani transportować przy ciśnieniu niższym niż 11,6 kPa lub na wysokości powyżej 15.000 m.
+ITALIANO
+•
+Rischio di incendio o esplosione se la batteria viene sostituita con una di tipo non corretto.
+•
+La sostituzione della batteria con una di tipo non corretto può compromettere la sicurezza (ad esempio nel caso di 
+alcune batterie al litio).
+•
+Lo smaltimento delle batterie nel fuoco o in un forno caldo, o lo schiacciamento meccanico o il taglio delle batterie può 
+provocare un’esplosione.
+•
+L’esposizione delle batterie ad ambienti circostanti con temperature estremamente alte può causare un’esplosione o la 
+fuoriuscita di liquidi o gas infiammabili.
+•
+L’esposizione delle batterie a pressioni dell’aria estremamente basse può causare un’esplosione o la fuoriuscita di 
+liquidi o gas infiammabili.
+•
+Non conservare o trasportare a pressioni inferiori a 11,6 kPa e ad altitudini superiori a 15.000 m.
+32
+
+--- Page 33 ---
+DEUTSCH
+• Wird die Batterie durch einen anderen, falschen Typ ersetzt, besteht Explosions- und Brandgefahr.
+•
+Wird die Batterie durch eine anderen, falschen Typ ersetzt, kann möglicherweise die Sicherung deaktiviert werden (das 
+ist zum Beispiel bei einigen Lithium-Batterien der Fall).
+•
+Wird eine Batterie entsorgt, indem Sie in einen Ofen geworfen wird oder mechanisch zerstört oder zerschnitten wird, 
+besteht Explosionsgefahr.
+• Wird die Batterie in einer Umgebung unter extrem heißer Temperatur belassen, besteht Explosionsgefahr oder es kann 
+entflammbare Flüssigkeit oder entflammbares Gas austreten.
+•
+Wird die Batterie extrem niedrigem Luftdruck ausgesetzt, besteht Explosionsgefahr oder es kann entflammbare 
+Flüssigkeit oder entflammbares Gas austreten.
+•
+Nicht bei einem Druck tiefer als 11,6 kPa oder in über 15 000 m Höhe über dem Meeresspiegel lagern oder 
+transportieren.
+MAGYAR
+•
+Tűz- vagy robbanásveszély, ha az akkumulátort nem megfelelő típusúra cserélik.
+•
+Az akkumulátor cseréje nem megfelelő típusúra, amely védelmet jelenthet (például néhány lítium elemtípus esetében).
+•
+Az elemek tűzben vagy forró sütőben való megsemmisítése, vagy az elemek mechanikus összetörése vagy elvágása 
+robbanást okozhat.
+•
+Ha akkumulátort rendkívül magas hőmérsékletű környezetben hagyja, az robbanást vagy gyúlékony folyadék vagy gáz 
+szivárgását okozhatja.
+•
+Ha az akkumulátor rendkívül alacsony légnyomásnak van kitéve, az robbanást vagy gyúlékony folyadék vagy gáz 
+szivárgását okozhatja.
+•
+Ne tárolja és ne szállítsa 11,6 kPa-nál alacsonyabb nyomáson és 15 000 m magasság felett.
+NEDERLANDS
+•
+Brand- of explosiegevaar als de batterij wordt vervangen door een onjuist type.
+•
+Het vervangen van de batterij door een batterij van het foute type, kan een veiligheid uitschakelen (bijvoorbeeld bij 
+enkele types van lithiumbatterijen).
+•
+Een batterij in een vuur of een hete oven werpen of een batterij verpletteren of snijden, kan leiden tot een explosie.
+•
+Een batterij achterlaten in een omgeving met een extreem hoge temperatuur, kan leiden tot een explosie of het lekken 
+van brandbare vloeistof of gas.
+•
+Een batterij blootstellen aan een extreem lage luchtdruk, kan leiden tot een explosie of het lekken van brandbare 
+vloeistof of gas.
+•
+Niet bewaren of vervoeren bij een druk lager dan 11,6 kPa en een hoogte van meer dan 15.000 m.
+ROMÂNĂ
+•
+Risc de explozie dacă bateria este înlocuită cu un tip incorect.
+•
+Înlocuirea unei baterii cu un tip incorect care poate depăși o protecție (de exemplu, în cazul unor tipuri de baterii litiu).
+•
+Eliminarea unei baterii în foc sau cuptor încins, prin zdrobire mecanică sau tăiere poate conduce la o explozie.
+•
+Lăsarea unei baterii într-un mediu înconjurător cu o temperatură extrem de ridicată poate conduce la o explozie sau la 
+scurgere de lichid sau gaz inflamabil.
+•
+O baterie supusă unei presiuni a aerului extrem de scăzută poate rezulta în scurgere de lichid sau gaz inflamabil.
+•
+Nu stocați și nu transportați la presiuni mai mici de 11,6 kPa și la mai mult de 15000 m altitudine.
+FRANÇAIS
+33
+
+--- Page 34 ---
+• Risque d’incendie ou d’explosion si la batterie est remplacée par une batterie d’un type incorrect.
+•
+Le remplacement par une batterie d’un type incorrect peut annuler un dispositif de sécurité (par exemple, dans le cas 
+de certaines batteries au lithium).
+•
+Éliminer une batterie dans le feu ou un four chaud, l’écraser mécaniquement ou la couper peut provoquer une 
+explosion.
+• Laisser une batterie dans un environnement à très haute température peut provoquer une explosion ou une fuite de 
+liquide ou de gaz inflammable.
+•
+Laisser une batterie à une pression extrêmement basse peut provoquer une explosion ou une fuite de liquide ou de gaz 
+inflammable.
+•
+Ne pas stocker ni transporter à des pressions inférieures à 11,6 kPa et à une altitude supérieure à 15 000 m.
+FRANÇAIS (CANADA)
+•
+Risque d’incendie ou d’explosion si la batterie est remplacée par un type incorrect.
+•
+Remplacement d’une batterie par un type incorrect qui peut faire échouer un dispositif de protection (par exemple, 
+dans le cas de certains types de batteries au lithium).
+•
+Élimination d’une batterie dans un feu ou un four chaud, ou écrasement ou découpe mécanique d’une batterie qui 
+peuvent entraîner une explosion.
+•
+Laisser une batterie dans un environnement extrêmement chaud qui peut entraîner une explosion ou une fuite de 
+liquide ou de gaz inflammable.
+•
+Une batterie soumise à une pression d’air extrêmement basse qui peut entraîner une explosion ou une fuite de liquide 
+ou de gaz inflammable.
+•
+Ne pas stocker ni transporter à des pressions inférieures à 11,6 kPa et à plus de 15 000 m d’altitude.
+
+             -
+                   -
+   
+
+                -
+                     -
+                  -
+ 15000       11.6           -
+Australia Notice
+ENGLISH
+•
+The appliance is not intended for use by young children or infirm persons without supervision
+•
+Young Children should be supervised to ensure that do not play with appliance
+•
+If the appliance is supplied from a cord extension set or an electrical portable outlet device.
+•
+The cord extension set on electrical portable outlet device must be positioned so that it is not subject to splashing or 
+ingress of moisture
+34
+
+--- Page 35 ---
+WEEE
+ENGLISH  (UK, Ireland)
+Disposal of your old appliance
+1.
+This crossed-out wheeled bin symbol indicates that waste electrical and electronic products (WEEE) should be 
+disposed of separately from the municipal waste stream.
+2.
+Old electrical products can contain hazardous substances so correct disposal of your old appliance will help prevent 
+potential negative consequences for the environment and human health. Your old appliance may contain reusable 
+parts that could be used to repair other products, and other valuable materials that can be recycled to conserve 
+limited resources.
+3.
+You can take your appliance either to the shop where you purchased the product, or contact your local government 
+waste office for details of your nearest authorised WEEE collection point. For the most up to date information for 
+your country please see www.lg.com/global/recycling
+БЪЛГАРСКИ  (Bulgaria)
+Изхвърляне на стария уред
+1.
+Символът със зачертания контейнер показва, че отпадъците от електрическо и електронно оборудване 
+(ОЕЕО) трябва да се изхвърлят отделно от битовите отпадъци.
+2.
+Старите електрически продукти могат да съдържат опасни вещества и правилното изхвърляне на Вашия 
+уред ще помогне за предотвратяване на негативните последствия за околната среда и човешкото здраве. 
+Вашият стар уред може да съдържа части за многократна употреба, които биха могли да бъдат използвани 
+за ремонт на други продукти, както и други ценни материали, които могат да бъдат рециклирани с цел 
+запазване на ограничените ресурси.
+3.
+Можете да занесете Вашия уред или в магазина, от който сте го закупили или можете да се свържете с 
+местния държавен офис за отпадъците, за да получите информация за най-близкия разрешен ОЕЕО пункт за 
+събиране на отпадъци. За най-актуална информация от Вашата държава, моля, погледнете тук: www.lg.com/
+global/recycling
+HRVATSKI  (Croatia)
+Zbrinjavanje starog uređaja
+1.
+Ovaj simbol prekrižene kante za smeće na kotačićima označava kako se otpadni električni i električni proizvodi 
+(WEEE) moraju zbrinjavati odvojeno od komunalnog otpada.
+2.
+Dotrajali električni proizvodi mogu sadržavati opasne tvari stoga će ispravno zbrinjavanje vaših dotrajalih uređaja 
+pomoći u sprječavanju potencijalnih negativnih posljedica na okoliš i ljudsko zdravlje. Vaš dotrajao uređaj može 
+sadržavati dijelove koji se mogu ponovo iskoristiti za popravak drugih proizvoda te druge vrijedne materijale koji se 
+mogu reciklirati i tako sačuvati ograničene resurse.
+3.
+Ovisno o razini smetnje / štete i dobi stavke, stari proizvodi mogu se popraviti za više radnog života koji će spriječiti 
+izbjeći otpada. Proizvodi koji nisu prikladni za ponovnu uporabu može se reciklirati da se oporavim vrijedne resurse i 
+pomoći da se smanji globalno potrošnju novih sirovina.
+4.
+Uređaj možete odnijeti u trgovinu u kojoj ste kupili proizvod ili možete kontaktirati ured za zbrinjavanje otpada kod 
+vaših mjesnih nadležnih tijela te od njih saznati više informacija o najbližem ovlaštenom WEEE sabirnom centru. Za 
+najnovije informacije iz svoje države pogledajte internetske stranice www.lg.com/global/recycling
+35
+
+--- Page 36 ---
+ČESKY  (Czech)
+Likvidace starého přístroje
+1. Tento symbol přeškrtnutého koše značí, že odpad z elektrických a elektronických výrobků (WEEE) je nutné 
+likvidovat odděleně od linky komunálního odpadu.
+2. Staré elektrické výrobky mohou obsahovat nebezpečné látky, takže správná likvidace starých přístrojů pomůže 
+zabránit potenciálním negativním důsledkům pro životní prostředí a lidské zdraví. Staré přístroje mohou obsahovat 
+znovu použitelné díly, které lze použít k opravě dalších výrobků a další cenné materiály, které lze recyklovat a šetřit 
+tak omezené zdroje.
+3. Spotřebič můžete zanést buď do obchodu, kde jste ho zakoupili nebo se obrátit na místní správu komunálních 
+odpadů, kde získáte podrobné informace o autorizovaném sběrném místě WEEE. Pro poslední aktuální informace z 
+vaší země si prosím prostudujte web www.lg.com/global/recycling
+DANSK  (Denmark)
+Bortskaffelse af dit gamle apparat
+1. Dette symbol med en affaldsspand med kryds over angiver at elektrisk og elektronisk affald (WEEE) skal 
+bortskaffes og genbruges korrekt, adskilt fra kommunens husholdningsaffald.
+2. Gamle elektriske produkter kan indeholde farlige stoffer, så når du bortskaffer dit gamle apparat på korrekt vis, 
+hjælper du med at forhindre mulige negative konsekvenser for miljø og mennesker. Dit gamle apparat kan indeholde 
+dele som kan genbruges, fx til at reparere andre produkter, eller værdifulde materialer som kan genbruges og 
+derved begrænse spild af værdifulde ressourcer.
+3. Du kan enten tage apparatet til den butik hvor du købte det, eller kontakte dit lokale affaldskontor angående 
+oplysninger om det nærmeste, autoriserede WEEE-samlepunkt. Find de sidste nye oplysninger for dit land på 
+www.lg.com/global/recycling
+SUOMI  (Finland)
+Vanhan laitteesi hävittäminen
+1. Tämä ylirastitettu jäteastian merkki ilmaisee, että sähkö- ja elektronikkalaitteiden jätteet (WEEE) tulee pitää 
+erillään kotitalousjätteestä ja viedä kunnalliseen kierrätyskeskukseen.
+2. Vanhat sähkötuotteet voivat pitää sisällään vaarallisia aineita, joten loppuun käytetyn laitteen oikea hävittäminen 
+ehkäisee ympäristö- ja terveyshaittoja. Vanha laitteesi saattaa pitää sisällään uudelleen käytettäviä osia, joita 
+voidaan käyttää korjaamaan muita tuotteita, sekä arvokkaita materiaaleja, joita voidaan kierrättää rajoitettujen 
+resurssien säästämiseksi.
+3. Voit viedä laitteesi joko liikkeeseen, josta hankit tuotteen, tai ottaa yhteyttä paikallishallintosi ympäristötoimistoon 
+koskien lähintä valtuutettua WEEE -keräyspistettä. Kaikkein viimeisimmät tiedot koskien maatasi, ks. osoitteessa 
+www.lg.com/global/recycling
+FRANÇAIS  (France)
+Recyclage de votre ancien appareil
+1. Ce symbole de poubelle barrée d’une croix indique que votre équipement électrique et électronique (EEE) ne doit 
+pas être jeté avec les ordures ménagères. Il doit faire l’objet d’un tri et d’une collecte sélective séparée.
+2. Les équipements électriques que vous jetez peuvent contenir des substances dangereuses. Il est donc important 
+de les jeter de façon appropriée afin d’éviter des impacts négatifs sur l’environnement et la santé humaine. 
+L’équipement que vous jetez peut également contenir des pièces réutilisables pour la réparation d’autres produits 
+ainsi que des matériaux précieux pouvant être recyclés pour préserver les ressources de la planète.
+3. Vous pouvez rapporter votre appareil au commerçant qui vous l’a vendu ou contacter votre collectivité locale pour 
+connaitre les points de collecte de votre EEE. Vous trouverez également des informations à jour concernant votre 
+pays en allant sur www.quefairedemesdechets.fr
+NEDERLANDS  (Netherlands)
+Verwijdering van uw oude apparaat
+36
+
+--- Page 37 ---
+1. Dit symbool van de doorgekruiste vuilnisbak geeft aan dat afgedankte elektrische en elektronische producten 
+(WEEE) afzonderlijk van het huishoudelijke afval moeten worden verwijderd.
+2. Oude elektrische producten kunnen gevaarlijke stoffen bevatten, dus een juiste verwijdering van uw oude apparaat 
+helpt bij het voorkomen van mogelijke negatieve gevolgen voor het milieu en de volksgezondheid. Uw oude apparaat 
+kan herbruikbare onderdelen bevatten die kunnen worden gebruikt voor het repareren van andere producten, en 
+andere waardevolle materialen die kunnen worden gerecycled voor het behoud van beperkte grondstoffen.
+3. U kunt uw apparaat meenemen naar de winkel waar u het product heeft gekocht, of u kunt contact opnemen 
+met uw plaatselijke afvalverwerking instantie voor de gegevens van uw dichtstbijzijnde geautoriseerde WEEE-
+verzamelpunt. Voor de meest recente informatie voor uw land verwijzen wij u naar www.lg.com/global/recycling
+DEUTSCH  (Germany)
+Entsorgung Ihrer Altgeräte
+1. Das durchgestrichene Symbol eines fahrbaren Abfallbehälters weist darauf hin, dass Elektro- und Elektronik- 
+Produkte (WEEE) getrennt vom Hausmüll entsorgt werden müssen. Bitte entsorgen Sie Altgeräte getrennt von 
+anderem Abfall und bringen Sie diese zu einer ausgewiesenen Sammelstelle für das Recycling von elektrischen 
+und elektronischen Geräten. Falls die Geräte Batterien oder Lampen enthalten, die vom Endverbraucher ohne 
+Beschädigung leicht entnommen werden können, trennen Sie diese bitte vor der Entsorgung von den Hauptgeräten, 
+es sei denn, Sie möchten, dass die alten Geräte wiederverwendet werden (alte Batterien und Lampen werden 
+getrennt gesammelt). Bitte beachten Sie auch, dass Sie persönlich dafür verantwortlich sind, personenbezogene 
+Daten auf dem Gerät zu löschen, bevor Sie Ihre Geräte entsorgen.
+2. Alte elektrische Produkte können gefährliche Substanzen enthalten, die eine korrekte Entsorgung dieser Altgeräte 
+erforderlich machen, um schädliche Auswirkungen auf die Umwelt und die menschliche Gesundheit zu vermeiden. 
+Ihre ausgedienten Geräte können wiederverwendbare Teile enthalten, mit denen möglicherweise andere Produkte 
+repariert werden können, aber auch sonstige wertvolle Materialien enthalten, die zur Schonung knapper Ressourcen 
+recycelt werden können.
+3. Sie können Ihr Gerät entweder in den Laden zurückbringen, in dem Sie das Produkt ursprünglich erworben haben 
+oder Sie kontaktieren Ihre Gemeindeabfallstelle für Informationen über die nächstgelegene autorisierte WEEE 
+Sammelstelle. Bitte beachten Sie, dass einige* Vertreiber verpflichtet sind :
+• bei der Abgabe eines neuen Elektro- oder Elektronikgerätes an einen Endnutzer ein Altgerät des Endnutzers der 
+gleichen Geräteart unentgeltlich zurückzunehmen, und
+•
+Altgeräte, die in keiner äußeren Abmessung größer als 25 Zentimeter sind, im Einzelhandelsgeschäft oder in 
+unmittelbarer Nähe hierzu unentgeltlich zurückzunehmen;
+Wenn Offline oder Online Händler Neugeräte an Privathaushalte liefern, sind sie verpflichtet, Altgeräte direkt 
+bei diesen abzuholen oder Rückgabemöglichkeiten in zumutbarer Entfernung anzubieten. Daher empfehlen wir 
+Ihnen sich für weitere Informationen an Ihren Händler zu wenden.
+4.
+LG Electronic Deutschland GmbH ist ordnungsgemäß als Hersteller in Deutschland registriert. Damit trägt 
+LG deutschlandweit zur Sammlung von Elektro- und Elektronik-Altgeräten bei, die Sie in kommunalen 
+Getrenntsammelstellen abgeben. Die aktuellsten Informationen finden Sie unter:
+www.lg.com/global/recycling oder https://www.lg.com/de/support/altgeraete-rueckgabe.
+* Vertreiber mit einer Verkaufsfläche für Elektro- und Elektronikgeräte von mindestens 400 Quadratmetern sowie 
+Vertreiber von Lebensmitteln mit einer Gesamtverkaufsfläche von mindestens 800 Quatratmetern, die Elektro- und 
+Elektronikgeräte anbieten
+ΕΛΛΗΝΙΚΑ  (Greece)
+Απόρριψη της παλιάς σας συσκευής
+1.
+Αυτό το διαγραμμένο σύμβολο του τροχοφόρου κάδου υποδεικνύει ότι τα απόβλητα ηλεκτρικών και ηλεκτρονικών 
+προϊόντων (ΑΗΗΕ) πρέπει να απορρίπτονται χωριστά από τα γενικά οικιακά απορρίμματα.
+2.
+Τα παλιά ηλεκτρικά προϊόντα μπορεί να περιέχουν επικίνδυνες ουσίες και ως εκ τούτου η σωστή απόρριψη 
+της παλιάς σας συσκευής αποτρέπει ενδεχόμενες αρνητικές συνέπειες για το περιβάλλον και την ανθρώπινη 
+υγεία. Η παλιά σας συσκευή μπορεί να περιέχει επαναχρησιμοποιήσιμα ανταλλακτικά που θα μπορούσαν να 
+37
+
+--- Page 38 ---
+χρησιμοποιηθούν για την επισκευή άλλων προϊόντων, καθώς και άλλα υλικά αξίας που μπορούν να ανακυκλωθούν 
+για εξοικονόμηση των περιορισμένων φυσικών πόρων.
+3. Μπορείτε να πάτε τη συσκευή σας, είτε στο κατάστημα από το οποίο αγοράσατε το προϊόν, ή να επικοινωνήσετε 
+το τοπικό γραφείο απορριμμάτων για λεπτομέρειες σχετικά με το πλησιέστερο εγκεκριμένο σημείο συλλογής 
+ΑΗΗΕ (Απόβλητα Ηλεκτρικών και Ηλεκτρονικών Συσκευών). Για τις πιο πρόσφατες πληροφορίες για τη χώρα σας 
+επισκεφθείτε τη διεύθυνση www.lg.com/global/recycling
+MAGYAR  (Hungary)
+A régi készülék ártalmatlanítása
+1. A leselejtezett elektromos és elektronikai termékeket a háztartási hulladéktól elkülönítve kell begyűjteni, a 
+jogszabályok által kijelölt módon és helyen.
+2. Régi készülékeinek megfelelő leselejtezése segíthet megelőzni az esetleges egészségre vagy környezetre ártalmas 
+hatásokat.
+3. Ha további információra van szüksége régi készülékeinek leselejtezésével kapcsolatban, lépjen kapcsolatba velünk a 
+szelektalok.hu oldalon ahol tájékoztatjuk Önt visszavételi, átvételi, gyűjtési és kezelési kötelezettségeinkről.
+ITALIANO  (Italy)
+Smaltimento delle apparecchiature obsolete
+1. Tutte le apparecchiature elettriche ed elettroniche, contrassegnate da questo simbolo (“bidone della spazzatura 
+barrato da una croce”), devono essere raccolte e smaltite separatamente rispetto agli altri rifiuti urbani misti 
+mediante impianti di raccolta specifici installati da enti pubblici o dalle autorità locali. Si ricorda che gli utenti finali 
+domestici possono consegnare gratuitamente le apparecchiature elettriche ed elettroniche a fine vita presso il 
+punto vendita all’atto dell’acquisto di una nuova apparecchiatura equivalente. Gli utenti finali domestici possono 
+inoltre consegnare gratuitamente apparecchiature elettriche ed elettroniche di piccolissime dimensioni (non 
+eccedenti i 25 cm) a fine vita direttamente presso un punto vendita a ciò abilitato, senza obbligo di acquistare una 
+apparecchiatura nuova di tipo equivalente. Si prega di informarsi previamente presso il punto vendita prescelto circa 
+tale ultima modalità di conferimento dell’apparecchiatura a fine vita.
+2. Il corretto smaltimento dell'unità obsoleta contribuisce a prevenire possibili conseguenze negative sulla salute degli 
+individui e sull'ambiente. Una gestione responsabile del fine vita delle apparecchiature elettriche ed elettroniche da 
+parte degli utenti contribuisce al riutilizzo, al riciclaggio ed al recupero sostenibile dei prodotti obsoleti e dei relativi 
+materiali.
+3. Per informazioni più dettagliate sullo smaltimento delle apparecchiature obsolete, contattare l'ufficio del comune 
+di residenza, il servizio di smaltimento rifiuti o il punto vendita in cui è stato acquistato il prodotto. (www.lg.com/
+global/recycling)
+NORSK  (Norway)
+Avhending av gamle apparater
+1. Dette symbolet av en utkrysset avfallsdunk indikerer at kassert elektronikk og elektroniske produkter (WEEE) skal 
+kastes separat fra husholdningsavfall og leveres til den kommunale resirkuleringen.
+2. Gamle elektriske produkter kan inneholde farlige stoffer, så korrekt avfallshåndtering av det gamle apparatet 
+bidrar til å hindre potensielt negative konsekvenser for miljøet og andres helse. Gamle apparater kan inneholde 
+gjenbrukbare deler som kan brukes til å reparere andre produkter og andre verdifulle materialer som kan 
+resirkuleres for å bevare begrensede ressurser.
+3. Du kan bringe apparatet enten til butikken der du kjøpte produktet, eller ta kontakt med den lokale myndighetens 
+avfallskontor for informasjon om nærmeste autoriserte innsamlingspunkt for el-avfall (WEEE-avfall). For den mest 
+oppdaterte informasjonen for ditt land, gå til www.lg.com/global/recycling.
+POLSKI  (Poland)
+Utylizacja starego urządzenia
+38
+
+--- Page 39 ---
+1. Symbol przekreślonego pojemnika na odpady na kółkach oznacza, że produkty elektryczne lub elektroniczne (WEEE) 
+należy zutylizować poza obiegiem odpadów komunalnych.
+2. Stare produkty elektroniczne mogą zawierać niebezpieczne substancje. Właściwa utylizacja starego urządzenia 
+pozwoli uniknąć potencjalnych negatywnych skutków dla środowiska i zdrowia. Stare urządzenie może zawierać 
+części wielokrotnego użytku, które mogą zostać wykorzystane do naprawy innych produktów lub inne wartościowe 
+materiały, które można przetworzyć, aby oszczędzać zasoby naturalne.
+3. Urządzenie można oddać do sklepu, w którym zostało kupione lub skontaktować się z lokalnym urzędem gospodarki 
+odpadami, aby uzyskać informacje o najbliższym punkcie zbiórki WEEE. Aby uzyskać aktualne informacje z 
+zakresu gospodarki odpadami obowiązującej w danym kraju, należy odwiedzić stronę http://www.lg.com/global/
+sustainability/environment/take-back-recycling/global-network-europe (plik PDF : “For more information about how 
+to recycle LG products in your country”.
+PORTUGUÊS  (Portugal)
+Eliminação do seu aparelho usado
+1. Este símbolo de um caixote do lixo com rodas e linhas cruzadas sobrepostas indica que os resíduos de produtos 
+elétricos e eletrónicos (REEE) devem ser eliminados separadamente do lixo doméstico.
+2. Os produtos elétricos usados podem conter substâncias perigosas, pelo que, a eliminação correta do seu aparelho 
+usado pode contribuir para evitar potenciais consequências negativas para o ambiente e saúde humana. O seu 
+aparelho usado pode conter peças reutilizáveis que podem ser usadas para reparar outros produtos e outros 
+materiais úteis que podem ser reciclados para preservar os recursos limitados.
+3. Pode levar o seu aparelho à loja onde o adquiriu, ou contactar a sua entidade local de recolha e tratamento de 
+resíduos para obter mais informações relativas ao ponto de recolha de REEE autorizado mais próximo. Para obter 
+informações mais atualizadas relativas ao seu país, visite www.lg.com/global/recycling
+ROMÂNĂ  (Romania)
+Eliminarea aparatului vechi
+1. Simbolul de pubelă indică faptul că deșeurile de echipamente electrice și electronice (DEEE) trebuie eliminate 
+separat de celelalte deșeuri.
+2. Produsele electrice și electronice vechi conțin substanțe periculoase. Astfel, prin eliminarea corespunzătoare veți 
+contribui la prevenirea deteriorării mediului înconjurător și al sănătății umane. Este posibil ca dispozitivul dvs. vechi 
+să conțină piese componente care pot fi folosite pentru repararea altor produse sau materiale importante ce pot fi 
+reciclate în scopul economisirii resurselor limitate.
+3. Dispozitivul vechi poate fi returnat magazinului de unde a fost achiziționat sau puteți contacta firma responsabilă 
+pentru eliminarea deșeurilor în scopul aflării locației unității autorizate pentru reciclarea deșeurilor electrice și 
+electronice (WEEE). Pentru informații mereu actualizate și referitoare la țara dvs. vă rugăm să vizitați pagina web 
+www.lg.com/global/recycling.
+SRPSKI  (Serbia)
+Odlaganje starog aparata
+1. Оvaj simbol precrtana kanta za smeće pokazuje da električni i elektronski otpad (WEEE) treba da se odlaže 
+odvojeno od običnog komunalnog otpada.
+2. Stari električni aparati mogu da sadrže otrovne supstance, tako da će pravilno odlaganje Vašeg starog aparata 
+pomoći sprečavanju pojave negativnih posledica po životnu sredinu i zdravlje ljudi. Vaš stari aparat može da sadrži 
+delove za višekratnu upotrebu koji se mogu koristiti za zamenu drugih proizvoda i druge vredne materijale koji se 
+mogu reciklirati radi očuvanja ograničenih resursa.
+3. Vaš aparat možete da odnesete u radnju gde ste ga kupili ili da kontaktirate lokalnu vladinu kancelariju za otpad 
+kako biste dobili informaciju o najbližoj autorizovanoj WEEE stanici za odlaganje ovog otpada. Za najnovije 
+informacije za Vašu zemlju, molimo Vas da pogledate web stranicu www.lg.com/global/recycling.
+SLOVENČINA  (Slovakia)
+Zneškodnenie starého spotrebiča
+39
+
+--- Page 40 ---
+1. Tento symbol prečiarknutého odpadkového koša na kolieskach znamená, že odpad z elektrických a elektronických 
+zariadení (WEEE) musí byť zneškodnený samostatne od komunálneho odpadu.
+2. Staré elektrické produkty môžu obsahovať nebezpečné latky, preto správne zneškodnenie vášho starého spotrebiča 
+pomôže zabrániť potenciálnym negatívnym dopadom na prostredie a ľudské zdravie. Váš starý spotrebič môže 
+obsahovať diely, ktoré možno opätovne použiť na opravu iných produktov, a iné cenné materiály, ktoré možno 
+recyklovať s cieľom chrániť obmedzené zdroje.
+3. Svoj spotrebič môžete zaniesť do predajne, kde ste produkt zakúpili, alebo sa môžete obrátiť na oddelenie odpadov 
+miestnej samosprávy a požiadať o informácie o najbližšom zbernom mieste odpadu z elektrických a elektronických 
+zariadení (WEEE). Najnovšie informácie platné pre vašu krajinu nájdete na stránke www.lg.com/global/recycling
+SLOVENŠČINA  (Slovenia)
+Odstranjevanje vaše stare naprave
+1. Prečrtan simbol smetnjaka opozarja, da je treba odpadne električne in elektronske izdelke (OEEI) odstranjevati 
+ločeno od ostalih komunalnih odpadkov.
+2. Odpadni električni izdelki lahko vsebujejo nevarne snovi, zato s pravilnim odstranjevanjem stare naprave prispevate 
+k preprečevanju morebitnih negativnih vplivov na okolje in zdravje ljudi. Vaša stara naprava lahko vsebuje dele, ki jih 
+je mogoče uporabiti za popravilo drugih izdelkov, in druge dragocene materiale, ki jih je mogoče reciklirati in s tem 
+ohraniti omejene vire.
+3. Svojo napravo lahko odnesete v trgovino, kjer ste jo kupili, ali pa se glede podrobnosti o najbližjem pooblaščenem 
+zbirnem mestu za odpadno električno in elektronsko opremo obrnite na lokalno komunalno podjetje. Za najnovejše 
+informacije za svojo državo si oglejte www.lg.com/global/recycling.
+ESPAÑOL  (Spain)
+Símbolo para marcar AEE
+1. El símbolo del contenedor de basura tachado con un aspa indica que la recogida separada de aparatos eléctricos y 
+electrónicos (AEE) debe realizarse de manera separada.
+2. Los productos eléctricos antiguos pueden contener sustancias peligrosas de modo que la correcta eliminación del 
+antiguo aparato ayudará a evitar posibles consecuencias negativas para el medio ambiente y para la salud humana. 
+El antiguo aparato puede contener piezas reutilizables que podrían utilizarse para reparar otros productos y otros 
+materiales valiosos que pueden reciclarse para conservar los recursos limitados.
+3. Este producto contiene pilas y/o acumuladores. Siempre que no sea necesaria la intervención de un profesional 
+cualificado para ello, y antes del depósito final del producto en las instalaciones de recogida selectiva, usted debe 
+extraer las pilas y acumuladores de forma segura y separadamente para su adecuada gestión.
+4. Puede llevar el aparato a cualquiera de los centros autorizados para su recogida. Para obtener la información más 
+actualizada para su país por favor visite www.lg.com/global/recycling
+CATALÀ  (Spain)
+Eliminació de l'aparell vell
+1. Aquest símbol d'un contenidor amb rodes ratllat amb una creu indica que els residus de productes elèctrics i 
+electrònics (RAEE) han d'eliminar-se per separat dels residus urbans.
+2. Els productes elèctrics vells poden contenir substàncies perilloses, per la qual cosa elimineu de forma correcta el 
+vostre aparell vell per evitar possibles efectes negatius en el medi ambient i en la salut de les persones. L'aparell 
+vell pot contenir peces reutilitzables que es poden fer servir per reparar altres productes, a més d'altres materials 
+valuosos que es poden reciclar per preservar els recursos limitats.
+3. Podeu portar l'aparell a la botiga on el vau comprar o contactar amb l'oficina de reciclatge de l'administració local 
+perquè us indiquin el punt de recollida RAEE autoritzat més pròxim. Per obtenir la informació més actualitzada del 
+vostre país, consulteu www.lg.com/global/recycling
+SVENSKA  (Sweden)
+Bortskaffning av den gamla produkten
+40
+
+--- Page 41 ---
+1. Den överkorsade soptunnesymbolen indikerar att elektroniskt och elektriskt avfall (WEEE) ska sorteras separat 
+från hushållsavfallet och lämnas in till en av kommunen anvisad plats för återvinning.
+2. Kasserade elektroniska och elektriska produkter kan innehålla farliga substanser, korrekt avfallshantering av 
+produkten förhindrar negativa konsekvenser för miljön och den mänskliga hälsan. Din gamla produkt kan även 
+innehålla återanvändningsbara delar som kan användas för att reparera andra produkter samt innehålla värdefulla 
+ämnen som kan återvinnas för att spara jordens resurser.
+3. Du kan ta din gamla produkt till butiken där du köpte den eller kontakta din kommun för information om närmaste 
+WEEE-uppsamlingsställe. För att få den senaste informationen för ditt land, gå till www.lg.com/global/recycling
+РУССКИЙ  (Russia)
+Утилизация старого оборудования
+1. Этот перечеркнутый символ мусорной корзины указывает на то, что отработанные электрические и 
+электронные изделия (WEEE) следует утилизировать отдельно от бытовых отходов.
+2. Старые электрические изделия могут содержать опасные вещества, поэтому правильная утилизация старой 
+техники поможет предотвратить возможные негативные последствия для окружающей среды и здоровья 
+человека. Старая техника может содержать детали, которые могут быть повторно использованы для 
+ремонта других изделий, а также другие ценные материалы, которые можно переработать, чтобы сохранить 
+ограниченные ресурсы.
+3. Вы можете отнести свое устройство в магазин, где оно был приобретено, либо связаться с органами 
+местного самоуправления для получения подробных сведений о ближайшем пункте приема отходов 
+электрического и электронного оборудования (WEEE). Для получения актуальной информации относительно 
+вашей страны обращайтесь по адресу: www.lg.com/global/recycling
+TÜRKÇE  (Türkiye)
+Eski cihazınızın atılması
+1. Tüm elektrikli ve elektronik atıklar, devlet ya da yerel yetkililer tarafından belirlenen toplama merkezlerinde ayrı 
+olarak imha edilmelidir. Atık eletrikli ve elektronik aletler belediyeler tarafından kurulan toplama noktalarına teslim 
+edilmeli veya aldığınız yeni ürünü satıcınız adresinize teslim ederken, satıcınızdan atık elektrikli ve elektronik 
+aletinizi teslim almasını istemelisiniz.
+2. Atık ürünün doğru imhası çevre ve insan sağlığı üzerindeki potansiyel olumsuz sonuçların engellenmesine yardımcı 
+olacaktır.
+3. Bu işareti içeren ürünler tehlikeli madde içerebilir. Ürünler içerisindeki tehlikeli maddeler çevre kirlenmesine veya 
+yaralanma/ölüme sebebiyet verebilir.
+4. AEEE Yönetmeliğine Uygundur.
+5. Eski ürününüzün imhası hakkında daha fazla bilgi için lütfen belediyeniz ya da ürünü aldığınız mağaza ile iletişime 
+geçiniz. (www.lg.com/global/recycling)
+УКРАЇНСЬКА  (Ukraine)
+Утилізація старого обладнання
+1. Цей перекреслений символ сміттєвого кошика вказує, що відпрацьовані електричні та електронні вироби 
+(WEEE) потрібно утилізувати окремо від побутових відходів.
+2. Старі електричні вироби можуть містити небезпечні речовини, тому правильна утилізація старого обладнання 
+допоможе запобігти можливим негативним наслідкам для навколишнього середовища та здоров’я людини. 
+Старе обладнання може містити деталі, які можуть бути використані повторно для ремонту інших виробів, а 
+також інші цінні матеріали, які можливо переробити, щоб зберегти обмежені ресурси.
+3. Ви можете віднести свій прилад в магазин, де його було придбано, або зв’язатися з органами місцевого 
+самоврядування, щоб отримати докладні відомості про найближчий пункт прийому відходів електричного та 
+електронного обладнання (WEEE). Щоб отримати найсвіжішу інформацію щодо вашої країни, звертайтеся за 
+адресою: www.lg.com/global/recycling
+ҚАЗАҚША  (Kazakhstan)
+41
+
+--- Page 42 ---
+Ескі жабдықты жою және қайта өңдеу
+1. Сызылған қоқыс белгісі, пайдаланылған электр өнімдерін (WEEE өнімдері) тұрмыстық қалдықтардан бөлек 
+тастау керектігін көрсетеді.
+2. Ескі электр бұйымдарында қауіпті заттар болуы мүмкін, сондықтан ескі жабдықты дұрыс тастау қоршаған 
+ортаға және адам денсаулығына жағымсыз салдардың алдын алуға көмектеседі. Сіздің ескі құрылғыңызда 
+басқа өнімдерді жөндеуге қолданылатын қайта пайдалануға болатын бөлшектер, сондай-ақ шектеулі 
+ресурстарды үнемдеу үшін қайта өңдеуге болатын басқа құнды материалдар болуы мүмкін.
+3. Сіз өзіңіздің құрылғыңызды өнімді сатып алған дүкенге апара аласыз немесе WEEE-дің ең жақын уәкілетті 
+жинау орны туралы білу үшін жергілікті муниципалды қалдықтарды басқару кеңсесіне жүгіне аласыз. Сіздің 
+еліңіз үшін ең соңғы ақпаратты www.lg.com/global/recycling сайтына қарауға болады.
+EESTI  (Estonian)
+Vana seadme hävitamine
+1. Läbikriipsutatud ristiga prügikasti sümbol tähendab, et elektri- ja elektroonikaseadmete (WEEE) jäätmed tuleb 
+kõrvaldada olmeprügist eraldi.
+2. Vanad elektriseadmed võivad sisaldada ohtlikke koostisosi, seega aitab prügi nõuetekohane hävitamine vältida 
+võimalikku negatiivset mõju loodusele ja inimeste tervisele. Teie kasutatud seade võib sisaldada taaskasutatavaid 
+osi, millega saab parandada teisi seadmeid ning muid väärtuslikke materjale, mida saab taaskasutada, et säilitada 
+piiratud ressursse.
+3. Saate viia oma seadme kas kauplusse, kust see on ostetud või võtta ühendust kohaliku prügiveo ettevõttega, et 
+saada lisainfot oma lähima WEEE jäätmete kogumiskoha kohta. Kõige ajakohasemat infot oma riigi kohta vaadake 
+www.lg.com/global/recycling
+LATVIEŠU  (Latvian)
+Jūsu vecās ierīces likvidēšana
+1. Šis simbols – pārsvītrota atkritumu tvertne uz riteņiem – norāda, ka elektrisko un elektronisko iekārtu atkritumi 
+(EEIA) jāutilizē atsevišķi no sadzīves atkritumu plūsmas.
+2. Veci elektriskie izstrādājumi var saturēt bīstamas vielas, tādēļ jūsu vecās ierīces pareiza utilizācija palīdzēs novērst 
+iespējamās negatīvās sekas videi un cilvēka veselībai. Jūsu vecā ierīce var saturēt vairākkārt izmantojamas detaļas, 
+kuras var izmantot citu izstrādājumu remontam, un citus vērtīgus materiālus, kurus var pārstrādāt, tādējādi 
+saglabājot ierobežotus resursus.
+3. Jūs varat aiznest ierīci vai nu uz veikalu, kurā šo izstrādājumu iegādājieties, vai sazināties ar vietējās pašvaldības 
+atkritumu savākšanas iestādi un uzzināt sīkāku informāciju par tuvāko oficiālo EEIA savākšanas punktu. Jaunāko 
+informāciju par savu valsti skatiet vietnē www.lg.com/global/recycling.
+LIETUVIŲ K.  (Lithuanian)
+Seno prietaiso utilizavimas
+1. Išbrauktos šiukšlių dėžės simbolis rodo, kad elektros ir elektronikos įrangos atliekas (EEĮA) reiktų utilizuoti atskirai 
+nuo buitinių atliekų.
+2. Senoje elektrinėje įrangoje gali būti pavojingų medžiagų, taigi tinkamas seno prietaiso utilizavimas padės 
+apsisaugoti nuo galimų neigiamų pasekmių aplinkai ir žmonių sveikatai. Jūsų sename prietaise gali būti dalių, kurias 
+galima panaudoti dar kartą taisant kitą įrangą, ir kitų vertingų medžiagų, kurias galima perdirbti siekiant tausoti 
+ribotus išteklius.
+3. Savo prietaisą galite nugabenti į parduotuvę, kurioje jį įsigijote, arba kreipkitės į vietos valdžios atliekų tarnybą 
+ir sužinokite, kur yra artimiausia EEĮA surinkimo vieta. Norėdami gauti daugiau informacijos apie savo šalies 
+reikalavimus, apsilankykite www.lg.com/global/recycling.
+42
+

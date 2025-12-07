@@ -1,0 +1,1696 @@
+Brand: LENOVO
+Model: Ideapad Flex 5
+URL: https://www.manua.ls/lenovo/ideapad-flex-5/manual
+Total Pages: 98
+============================================================
+
+--- Page 1 ---
+Hardware Maintenance Manual
+IdeaPad Flex 5i (14″, 8), IdeaPad Flex 5 (14″, 8), IdeaPad Flex 5i (16″, 
+8) and IdeaPad Flex 5 (16″, 8)
+
+--- Page 2 ---
+First Edition (December 2022)
+© Copyright Lenovo 2022.
+
+--- Page 3 ---
+Contents
+About this manual .  .  .  .  .  .  .  .  .  .  .  . iii
+Chapter 1.  Safety information .  .  .  .  .  . 1
+General safety .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  1
+Electrical safety .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  1
+Safety inspection guide .  .  .  .  .  .  .  .  .  .  .  .  .  2
+Handling devices that are sensitive to electrostatic  
+discharge .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  3
+Grounding requirements .  .  .  .  .  .  .  .  .  .  .  .  4
+Safety notices (multilingual translations) .  .  .  .  .  .  4
+Chapter 2.  General checkout .  .  .  .  .  19
+What to do first .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  19
+CRU list .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  20
+Chapter 3.  Identifying FRUs  
+(CRUs)  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  23
+Locate FRUs and CRUs .  .  .  .  .  .  .  .  .  .  .  23
+Chapter 4.  Removing a FRU or  
+CRU .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  33
+Service tools .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  33
+General guidelines.  .  .  .  .  .  .  .  .  .  .  .  .  .  33
+Removal procedure for IdeaPad Flex 5 14IRU8 and 
+IdeaPad Flex 5 14ABR8.  .  .  .  .  .  .  .  .  .  .  .  35
+Remove the lower case .  .  .  .  .  .  .  .  .  .  35
+Remove the battery pack .  .  .  .  .  .  .  .  .  36
+Remove the solid-state drive (SSD) .  .  .  .  .  37
+Remove the Wi-Fi card .  .  .  .  .  .  .  .  .  .  38
+Remove the heat sink.  .  .  .  .  .  .  .  .  .  .  39
+Remove the fan .  .  .  .  .  .  .  .  .  .  .  .  .  40
+Remove the I/O board .  .  .  .  .  .  .  .  .  .  41
+Remove the I/O board cable .  .  .  .  .  .  .  .  42
+Remove the fingerprint board module .  .  .  .  43
+Remove the speakers.  .  .  .  .  .  .  .  .  .  .  44
+Remove the antenna .  .  .  .  .  .  .  .  .  .  .  45
+Remove the touchpad cable .  .  .  .  .  .  .  .  46
+Remove the system board .  .  .  .  .  .  .  .  .  46
+Remove the touchpad .  .  .  .  .  .  .  .  .  .  49
+Remove the LCD unit .  .  .  .  .  .  .  .  .  .  .  50
+Remove the upper case .  .  .  .  .  .  .  .  .  .  52
+Disassemble the LCD unit .  .  .  .  .  .  .  .  .  53
+Removal procedure for IdeaPad Flex 5 16IRU8 and 
+IdeaPad Flex 5 16ABR8.  .  .  .  .  .  .  .  .  .  .  .  60
+Remove the lower case .  .  .  .  .  .  .  .  .  .  60
+Remove the battery pack .  .  .  .  .  .  .  .  .  61
+Remove the solid-state drive (SSD) module .  .  62
+Remove the Wi-Fi card .  .  .  .  .  .  .  .  .  .  64
+Remove the heat sink.  .  .  .  .  .  .  .  .  .  .  65
+Remove the fan .  .  .  .  .  .  .  .  .  .  .  .  .  65
+Remove the I/O board .  .  .  .  .  .  .  .  .  .  66
+Remove the I/O board cable .  .  .  .  .  .  .  .  67
+Remove the fingerprint board module .  .  .  .  68
+Remove the speakers.  .  .  .  .  .  .  .  .  .  .  69
+Remove the antenna .  .  .  .  .  .  .  .  .  .  .  70
+Remove the touchpad cable .  .  .  .  .  .  .  .  71
+Remove the touchpad .  .  .  .  .  .  .  .  .  .  72
+Remove the system board .  .  .  .  .  .  .  .  .  73
+Remove the LCD unit .  .  .  .  .  .  .  .  .  .  .  76
+Remove the upper case .  .  .  .  .  .  .  .  .  .  77
+Disassemble the LCD unit .  .  .  .  .  .  .  .  .  78
+Appendix A.  Label locations.  .  .  .  .  .  87
+Trademarks .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  lxxxix
+© Copyright Lenovo 2022 i
+
+--- Page 5 ---
+About this manual
+This manual contains service and reference information for the following Lenovo products.
+Machine
+Machine type (MT)
+IdeaPad Flex 5 14IRU8 82Y0
+IdeaPad Flex 5 14ABR8 82XX
+IdeaPad Flex 5 16IRU8 82Y1
+IdeaPad Flex 5 16ABR8 82XY
+Important: 
+•  This manual is intended only for trained service technicians who are familiar with Lenovo products.
+•  Before servicing a Lenovo product, be sure to read all the information under Chapter 1 “Safety 
+information” on page 1.
+© Copyright Lenovo 2022 iii
+
+--- Page 7 ---
+Chapter 1. Safety information
+This chapter presents the following safety information that you need to be familiar with before you service a 
+Lenovo notebook computer.
+General safety
+Follow these rules to ensure general safety:
+•  Observe good housekeeping in the area of the machines during and after maintenance.
+•  When lifting any heavy object:  
+1.  Make sure that you can stand safely without slipping.
+2.  Distribute the weight of the object equally between your feet.
+3.  Use a slow lifting force. Never move suddenly or twist when you attempt to lift.
+4.  Lift by standing or by pushing up with your leg muscles; this action removes the strain from the 
+muscles in your back. Do not attempt to lift any object that weighs more than 16 kg (35 lb) or that you 
+think is too heavy for you.
+•  Do not perform any action that causes hazards to the customer, or that makes the equipment unsafe.
+•  Before you start the machine, make sure that other service technicians and the customer's personnel are 
+not in a hazardous position.
+•  Place removed covers and other parts in a safe place, away from all personnel, while you are servicing the 
+machine.
+•  Keep your tool case away from walk areas so that other people will not trip over it.
+•  Do not wear loose clothing that can be trapped in the moving parts of a machine. Make sure that your 
+sleeves are fastened or rolled up above your elbows. If your hair is long, fasten it.
+•  Insert the ends of your necktie or scarf inside clothing or fasten it with a non-conductive clip, about 8 
+centimeters (3 inches) from the end.
+•  Do not wear jewelry, chains, metal-frame eyeglasses, or metal fasteners for your clothing.  
+Attention: Metal objects are good electrical conductors.
+•  Wear safety glasses when you are hammering, drilling, soldering, cutting wire, attaching springs, using 
+solvents, or working in any other conditions that might be hazardous to your eyes.
+•  After service, reinstall all safety shields, guards, labels, and ground wires. Replace any safety device that 
+is worn or defective.
+•  Reinstall all covers correctly before returning the machine to the customer.
+•  Fan louvers on the machine help to prevent overheating of internal components. Do not obstruct fan 
+louvers or cover them with labels or stickers.
+Electrical safety
+Observe the following rules when working on electrical equipment.
+Important: Use only approved tools and test equipment. Some hand tools have handles covered with a soft 
+material that does not insulate you when working with live electrical currents.Many customers have, near 
+their equipment, rubber floor mats that contain small conductive fibers to decrease electrostatic discharges. 
+Do not use this type of mat to protect yourself from electrical shock.
+•  Find the room emergency power-off (EPO) switch, disconnecting switch, or electrical outlet. If an electrical 
+accident occurs, you can then operate the switch or unplug the power cord quickly.
+•  Do not work alone under hazardous conditions or near equipment that has hazardous voltages.
+•  Disconnect all power before:  
+–  Performing a mechanical inspection
+–  Working near power supplies
+© Copyright Lenovo 2022 1
+
+--- Page 8 ---
+–  Removing or installing main units
+•  Before you start to work on the machine, unplug the power cord. If you cannot unplug it, ask the customer 
+to power-off the wall box that supplies power to the machine, and to lock the wall box in the off position.
+•  If you need to work on a machine that has exposed electrical circuits, observe the following precautions:  
+–  Ensure that another person, familiar with the power-off controls, is near you.  
+Attention: Another person must be there to switch off the power, if necessary.
+–  Use only one hand when working with powered-on electrical equipment; keep the other hand in your 
+pocket or behind your back.  
+Attention: An electrical shock can occur only when there is a complete circuit. By observing the above 
+rule, you may prevent a current from passing through your body.
+–  When using testers, set the controls correctly and use the approved probe leads and accessories for 
+that tester.
+–  Stand on suitable rubber mats (obtained locally, if necessary) to insulate you from grounds such as 
+metal floor strips and machine frames.
+Observe the special safety precautions when you work with very high voltages; Instructions for these 
+precautions are in the safety sections of maintenance information. Use extreme care when measuring high 
+voltages.
+•  Regularly inspect and maintain your electrical hand tools for safe operational condition.
+•  Do not use worn or broken tools and testers.
+•  Never assume that power has been disconnected from a circuit. First, check that it has been powered off.
+•  Always look carefully for possible hazards in your work area. Examples of these hazards are moist floors, 
+non-grounded power extension cables, power surges, and missing safety grounds.
+•  Do not touch live electrical circuits with the reflective surface of a plastic dental mirror. The surface is 
+conductive; such touching can cause personal injury and machine damage.
+•  Do not service the following parts with the power on when they are removed from their normal operating 
+places in a machine:  
+–  Power supply units
+–  Pumps
+–  Blowers and fans
+–  Motor generators
+–  Similar units as listed above
+This practice ensures correct grounding of the units.
+•  If an electrical accident occurs:  
+–  Use caution; do not become a victim yourself.
+–  Switch off power.
+–  Send another person to get medical aid.
+Safety inspection guide
+The purpose of this inspection guide is to assist you in identifying potentially unsafe conditions. As each 
+machine was designed and built, required safety items were installed to protect users and service 
+technicians from injury. This guide addresses only those items. You should use good judgment to identify 
+potential safety hazards due to attachment of non-Lenovo features or options not covered by this inspection 
+guide.
+If any unsafe conditions are present, you must determine how serious the apparent hazard could be and 
+whether you can continue without first correcting the problem.
+Consider these conditions and the safety hazards they present:  
+•  Electrical hazards, especially primary power (primary voltage on the frame can cause serious or fatal 
+electrical shock)
+•  Explosive hazards, such as a damaged cathode ray tube (CRT) face or a bulging capacitor
+•  Mechanical hazards, such as loose or missing hardware
+2
+Hardware Maintenance Manual
+
+--- Page 9 ---
+To determine whether there are any potentially unsafe conditions, use the following checklist at the 
+beginning of every service task. Begin the checks with the power off, and the power cord disconnected.
+Checklist:
+1.  Check exterior covers for damage (loose, broken, or sharp edges).
+2.  Power off the computer. Disconnect the power cord.
+3.  Check the power cord for: 
+a.  A third-wire ground connector in good condition. Use a meter to measure third-wire ground 
+continuity for 0.1 ohm or less between the external ground pin and the frame ground.
+b.  The power cord should be the authorized type specified for your computer. Go to: 
+http:// 
+www.lenovo.com/serviceparts-lookup
+c.  Insulation must not be frayed or worn.
+4.  Check for cracked or bulging batteries.
+5.  Remove the cover.
+6.  Check for any obvious non-Lenovo alterations. Use good judgment as to the safety of any non-Lenovo 
+alterations.
+7.  Check inside the unit for any obvious unsafe conditions, such as metal filings, contamination, water or 
+other liquids, or signs of fire or smoke damage.
+8.  Check for worn, frayed, or pinched cables.
+9.  Check that the power-supply cover fasteners (screws or rivets) have not been removed or tampered 
+with.
+Handling devices that are sensitive to electrostatic discharge
+Any computer part containing transistors or integrated circuits (ICs) should be considered sensitive to 
+electrostatic discharge (ESD). ESD damage can occur when there is a difference in charge between objects. 
+Protect against ESD damage by equalizing the charge so that the machine, the part, the work mat, and the 
+person handling the part are all at the same charge.
+Notes: 
+1.  Use product-specific ESD procedures when they exceed the requirements noted here.
+2.  Make sure that the ESD protective devices you use have been certified (ISO 9000) as fully effective.
+When handling ESD-sensitive parts:
+•  Keep the parts in protective packages until they are inserted into the product.
+•  Avoid contact with other people.
+•  Wear a grounded wrist strap against your skin to eliminate static on your body.
+•  Prevent the part from touching your clothing. Most clothing is insulative and retains a charge even when 
+you are wearing a wrist strap.
+•  Use a grounded work mat to provide a static-free work surface. The mat is especially useful when 
+handling ESD-sensitive devices.
+•  Select a grounding system, such as those listed below, to provide protection that meets the specific 
+service requirement.  
+Note: The use of a grounding system to guard against ESD damage is desirable but not necessary.
+–  Attach the ESD ground clip to any frame ground, ground braid, or green-wire ground.
+–  When working on a double-insulated or battery-operated system, use an ESD common ground or 
+reference point. You can use coax or connector-outside shells on these systems.
+–  Use the round ground prong of the ac plug on ac-operated computers.
+Chapter 1. Safety information 3
+
+--- Page 10 ---
+Grounding requirements
+Electrical grounding of the computer is required for operator safety and correct system function. Proper 
+grounding of the electrical outlet can be verified by a certified electrician. 
+Safety notices (multilingual translations)
+The safety notices in this section are provided in the following languages: 
+•  English
+•  Arabic
+•  Brazilian Portuguese
+•  French
+•  German
+•  Hebrew
+•  Japanese
+•  Korean
+•  Spanish
+•  Traditional Chinese
+DANGER
+DANGER
+DANGER
+DANGER
+4
+Hardware Maintenance Manual
+
+--- Page 11 ---
+DANGER
+DANGER
+DANGER
+DANGER
+Chapter 1. Safety information 5
+
+--- Page 13 ---
+PERIGO
+PERIGO
+PERIGO
+PERIGO
+PERIGO
+Chapter 1. Safety information 7
+
+--- Page 14 ---
+PERIGO
+PERIGO
+PERIGO
+DANGER
+DANGER
+DANGER
+8 Hardware Maintenance Manual
+
+--- Page 15 ---
+DANGER
+DANGER
+DANGER
+DANGER
+DANGER
+VORSICHT
+Chapter 1. Safety information 9
+
+--- Page 16 ---
+VORSICHT
+VORSICHT
+VORSICHT
+VORSICHT
+VORSICHT
+10
+Hardware Maintenance Manual
+
+--- Page 17 ---
+VORSICHT
+VORSICHT
+Chapter 1. Safety information 11
+
+--- Page 19 ---
+Chapter 1. Safety information 13
+
+--- Page 21 ---
+Chapter 1. Safety information 15
+
+--- Page 23 ---
+Chapter 1. Safety information 17
+
+--- Page 25 ---
+Chapter 2. General checkout
+This chapter contains the following topics:
+Before you go to the checkout instructions, ensure that you read the following important notes.
+Important notes:
+•  Only certified trained personnel should service the computer.
+•  Before replacing any FRU, read the entire page on removing and replacing FRUs.
+•  Be extremely careful during such write operations as copying, saving, or formatting. Drives in the 
+computer that you are servicing sequence might have been altered. If you select an incorrect drive, data or 
+programs might be overwritten.
+•  Replace an FRU only with another FRU of the correct model. When you replace an FRU, make sure 
+that the model of the machine and the FRU part number are correct by referring to the FRU parts list.
+•  An FRU should not be replaced because of a single, unreproducible failure. Single failures can occur 
+for a variety of reasons that have nothing to do with a hardware defect, such as cosmic radiation, 
+electrostatic discharge, or software errors. Consider replacing an FRU only when a problem recurs. If you 
+suspect that an FRU is defective, clear the error log and run the test again. If the error does not recur, do 
+not replace the FRU.
+•  Be careful not to replace a nondefective FRU.
+What to do first
+When you return an FRU, you must include the following information in the parts exchange form or parts 
+return form that you attach to it:
+1.  Name and phone number of service technician
+2.  Date of service
+3.  Date on which the machine failed
+4.  Date of purchase
+5.  Failure symptoms, error codes appearing on the display, and beep symptoms
+6.  Procedure index and page number in which the failing FRU was detected
+7.  Failing FRU name and part number
+8.  Machine type, model number, and serial number
+9.  Customer's name and address
+Note: During the warranty period, the customer may be responsible for repair costs if the computer damage 
+was caused by misuse, accident, modification, unsuitable physical or operating environment, or improper 
+maintenance by the customer. Following is a list of some common items that are not covered under warranty 
+and some symptoms that might indicate that the system was subjected to stress beyond normal use.
+Before checking problems with the computer, determine whether the damage is covered under the warranty 
+by referring to the following list:
+The following are not covered under warranty:
+•  LCD panel cracked from the application of excessive force or from being dropped
+•  Scratched (cosmetic) parts
+•  Distortion, deformation, or discoloration of the cosmetic parts
+•  Plastic parts, latches, pins, or connectors that have been cracked or broken by excessive force
+© Copyright Lenovo 2022 19
+
+--- Page 26 ---
+•  Damage caused by liquid spilled into the system
+•  Damage caused by the improper insertion of a personal-computer card (PC card) or the installation of an 
+incompatible card
+•  Improper disc insertion or use of an external optical drive
+•  Fuses blown by attachment of a non-supported device
+•  Forgotten computer password (making the computer unusable)
+•  Sticky keys caused by spilling a liquid onto the keyboard
+•  Use of an incorrect ac power adapter on laptop products
+The following symptoms might indicate damage caused by non-warranted activities:
+•  Missing parts might be a symptom of unauthorized service or modification.
+•  Check for obvious damage to a hard disk drive. If the spindle of a hard disk drive becomes noisy, the hard 
+disk drive might have been dropped or subject to excessive force.
+CRU list
+Table 1.  Model: IdeaPad Flex 5 14IRU8 (MT: 82Y0)
+CRU
+Type
+ac power adapter  self-service
+Power cord  self-service
+Lenovo Digital Pen* self-service
+Lenovo pen holder* self-service
+Table 2.  Model: IdeaPad Flex 5 14ABR8 (MT: 82XX)
+CRU
+Type
+ac power adapter  self-service
+Power cord  self-service
+Lenovo Digital Pen* self-service
+Lenovo pen holder* self-service
+Table 3.  Model: IdeaPad Flex 5 16IRU8 (MT: 82Y1)
+CRU
+Type
+ac power adapter  self-service
+Power cord  self-service
+Lenovo Digital Pen* self-service
+Lenovo pen holder* self-service
+Table 4.  Model: IdeaPad Flex 5 16ABR8 (MT: 82XY)
+CRU
+Type
+ac power adapter  self-service
+Power cord  self-service
+Lenovo Digital Pen* self-service
+Lenovo pen holder* self-service
+20 Hardware Maintenance Manual
+
+--- Page 27 ---
+* for selected models
+Chapter 2. General checkout 21
+
+--- Page 29 ---
+Chapter 3. Identifying FRUs (CRUs) 
+Locate FRUs and CRUs
+The exploded illustrations help Lenovo service technicians identify FRUs or CRUs that they may need to 
+replace when servicing a customer’s computer.
+© Copyright Lenovo 2022 23
+
+--- Page 30 ---
+Figure 1. IdeaPad Flex 5 14IRU8 and IdeaPad Flex 5 14ABR8 exploded view
+24 Hardware Maintenance Manual
+
+--- Page 31 ---
+Table 5.  FRU (CRU) categories
+No.
+FRU (CRU) category
+1
+LCD module 
+Note: The LCD module as a whole is not an FRU, it contains FRUs as its components.
+2
+Upper case
+3
+Fingerprint board bracket
+4
+Fingerprint board
+5
+Fingerprint board cable
+6
+I/O board
+7
+I/O board cable
+8
+Heat sink
+9
+Fan
+10
+Antenna
+11
+Speakers 
+12
+Battery pack
+13
+Lower case
+Tape
+Rubber
+Foil
+14
+Wi-Fi card
+15
+Solid-state drive (SSD) bracket 
+Note: The SSD bracket is used to lock the screw for the 2242 SSD.
+16
+2242 Solid-state drive (SSD)
+17
+2280 Solid-state drive (SSD)
+18
+Solid-state drive (SSD) thermal pad
+19
+Solid-state drive (SSD) mylar
+20
+System board
+21
+Touchpad cable
+22
+Touchpad
+a
+Power cord
+b
+ac power adapter
+d
+Screw kit
+Chapter 3. Identifying FRUs (CRUs)  25
+
+--- Page 32 ---
+Figure 2. IdeaPad Flex 5 14IRU8 and IdeaPad Flex 5 14ABR8 LCD unit - exploded view
+26 Hardware Maintenance Manual
+
+--- Page 33 ---
+Table 6.  FRU categories for the LCD unit
+No.
+FRU (CRU) category
+1
+LCD cover
+2
+Hinges
+3
+Camera cable
+4
+Camera
+5
+Microphone rubbers
+6
+Camera privacy shutter
+7
+Removable tape
+8
+EDP cable
+9
+LCD panel
+10
+Hinge cover
+11
+Sensor board
+12
+Touch panel cable
+Chapter 3. Identifying FRUs (CRUs)  27
+
+--- Page 34 ---
+Figure 3. IdeaPad Flex 5 16IRU8 and IdeaPad Flex 5 16ABR8 exploded view
+28 Hardware Maintenance Manual
+
+--- Page 35 ---
+Table 7.  FRU (CRU) categories
+No.
+FRU (CRU) category
+1
+LCD module 
+Note: The LCD module as a whole is not an FRU, it contains FRUs as its components.
+2
+Upper case
+3
+Fingerprint board bracket
+4
+Fingerprint board
+5
+Fingerprint board cable
+6
+I/O board
+7
+I/O board cable
+8
+Heat sink
+9
+Fan
+10
+Antenna
+11
+Speakers 
+12
+Battery pack
+13
+Lower case
+Tape
+Rubber
+Foil
+14
+Wi-Fi card
+15
+Solid-state drive (SSD) bracket 
+Note: The SSD bracket is used to lock the screw for the 2242 SSD.
+16
+2242 Solid-state drive (SSD)
+17
+2280 Solid-state drive (SSD)
+18
+Solid-state drive (SSD) thermal pad
+19
+System board
+20
+Touchpad cable
+21
+Touchpad
+a
+Power cord
+b
+ac power adapter
+d
+Screw kit
+Chapter 3. Identifying FRUs (CRUs)  29
+
+--- Page 36 ---
+Figure 4. IdeaPad Flex 5 16IRU8 and IdeaPad Flex 5 16ABR8 LCD unit — exploded view
+30 Hardware Maintenance Manual
+
+--- Page 37 ---
+Table 8.  FRU categories for the LCD unit
+No.
+FRU (CRU) category
+1
+LCD cover
+2
+Hinges
+3
+Camera cable
+4
+Camera
+5
+Microphone rubbers
+6
+Camera privacy shutter
+7
+Removable tape
+8
+EDP cable
+9
+LCD panel
+10
+Hinge cover
+11
+Sensor board
+12
+Touch panel cable
+Chapter 3. Identifying FRUs (CRUs)  31
+
+--- Page 39 ---
+Chapter 4. Removing a FRU or CRU
+Service tools
+The following table lists tools for servicing Lenovo computers. Tools with a cross mark are needed for serving 
+the product models as described by this publication. Prepare them before you service the product.
+Table 9.  Service tools
+Service tool and consumable
+Model applicability
+Screw driver (Phillips head) (PH1/PH0)
+X
+Screw driver (Torx head) (T5) X
+Screw driver (Torx head) (T30)
+Pry tool 1 X
+Tweezers (conductive)
+X
+Tweezers (isolated)
+Suction cup
+Hexagonal socket
+Silicone grease
+Acetate tape  X
+Polyamide tape
+Mylar tape
+Electrical tape
+Double-sided tape
+Conductive tape
+Eraser
+Heat gun
+Brown brush
+Notes: 
+•  T30 screw drivers are used to service the new Intel Xeon CPUs.
+•  Hexagonal sockets are used to remove antenna connectors.
+•  Silicone grease is applied to the CPU and heatsink surfaces to eliminate air gaps.
+General guidelines
+When removing or replacing an FRU, ensure that you observe the following general guidelines:
+1.  Do not try to service any computer unless you have been trained and certified. An untrained person runs 
+the risk of damaging parts.
+2.  Begin by removing any FRUs that have to be removed before replacing the failing FRU. Any such FRUs 
+are listed at the beginning of each FRU replacement procedure. Remove them in the order in which they 
+are listed.
+© Copyright Lenovo 2022 33
+
+--- Page 40 ---
+3.  Follow the correct sequence in the steps for removing an FRU, as shown in the illustrations by the 
+numbers in square callouts.
+4.  When removing an FRU, move it in the direction as shown by the arrow in the illustration. 
+5.  To install a new FRU in place, perform the removal procedure in reverse and follow any notes that 
+pertain to replacement.
+6.  When replacing an FRU, carefully retain and reuse all screws.
+7.  When replacing the base cover, reapply all labels that come with the replacement base cover. If some 
+original labels are not included with the replacement base cover, peel them off from the original base 
+cover and paste them on the replacement base cover. 
+DANGER
+Before removing any FRU or CRU, shut down the computer and unplug all power cords from 
+electrical outlets.
+Attention: After replacing an FRU, do not turn on the computer until you have ensured that all screws, 
+springs, and other small parts are in place and none are loose inside the computer. Verify this by shaking the 
+computer gently and listening for rattling sounds. Metallic parts or metal flakes can cause electrical short 
+circuits.
+Attention: The system board is sensitive to and can be damaged by ESD. Before touching it, establish 
+personal grounding by touching a ground point with one hand or by using an ESD strap (P/N 6405959).
+34
+Hardware Maintenance Manual
+
+--- Page 41 ---
+Removal procedure for IdeaPad Flex 5 14IRU8 and IdeaPad Flex 5 
+14ABR8
+Remove the lower case
+Make sure the computer has been shut down before servicing the computer.
+Step 1.  Place the computer upside down on a flat surface.
+Step 2.  Remove nine screws. 
+Figure 5. Remove nine screws
+Screw specifications  
+Number of screws  
+1  M2 x L7 
+5 
+2  M2 x L4  4 
+Step 3.  Pry up the latches and then remove the lower case. 
+Chapter 4. Removing a FRU or CRU 35
+
+--- Page 42 ---
+Figure 6. Pry up the latches and remove the lower case
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Lower case
+Remove the battery pack
+Make sure the following FRU (or CRU) has been removed.  
+“Remove the lower case” on page 35
+Step 1.  Disconnect the battery pack cable from the system board. Remove three screws then remove the 
+battery pack. 
+Figure 7. Remove five screws and remove the battery pack
+Screw specifications 
+Number of screws 
+M2 x L3.5  3 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Battery pack
+36
+Hardware Maintenance Manual
+
+--- Page 43 ---
+Remove the solid-state drive (SSD)
+Make sure the following FRU (or CRU) has been removed.  
+“Remove the lower case” on page 35
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Remove one screw. Remove the SSD and SSD bracket by pulling it away from the slot. 
+Figure 8. Remove the SSD and SSD bracket
+Screw specifications 
+Number of screws 
+M3.5 x L0.4  1 
+Step 3.  Remove one screw then remove the SSD bracket. 
+Figure 9. Remove the SSD bracket
+Screw specifications  Number of screws  
+1 
+Step 4.  Remove the SSD thermal pad. 
+Chapter 4. Removing a FRU or CRU 37
+
+--- Page 44 ---
+Figure 10. Remove the SSD thermal pad
+Step 5.  Remove the SSD mylar. 
+Figure 11. Remove the SSD mylar
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Solid-state drive (SSD)
+Solid-state drive (SSD) bracket
+Solid-state drive (SSD) thermal pad
+Solid-state drive (SSD) mylar
+Remove the Wi-Fi card
+Make sure the following FRU (or CRU) has been removed.  
+“Remove the lower case” on page 35
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Peel off the pieces of tape. 
+38
+Hardware Maintenance Manual
+
+--- Page 45 ---
+Figure 12. Peel off the pieces of tape
+Step 3.  Detach the main and auxiliary antenna cable connectors. Remove one screw and then remove the 
+Wi-Fi card by pulling it away from the slot. 
+Figure 13. Remove the Wi-Fi card
+Screw specifications 
+Number of screws 
+M2 x L3.5  1 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Wi-Fi card
+Remove the heat sink
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 35
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Remove three screws then remove the heat sink. 
+Chapter 4. Removing a FRU or CRU 39
+
+--- Page 46 ---
+Figure 14. Remove the heat sink
+Screw specifications 
+Number of screws 
+M2 x L4  3 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Heat sink
+Remove the fan
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 60
+“Remove the heat sink” on page 65
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Disconnect the fan cable from the system board then remove three screws. Remove the fan. 
+Figure 15. Remove the fan
+40 Hardware Maintenance Manual
+
+--- Page 47 ---
+Screw specifications  Number of screws 
+M2 x L3.5  3 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Fan
+Remove the I/O board
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 35
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Remove three screws then open the right hinge. 
+Figure 16. Open the right hinge
+Screw specifications 
+Number of screws 
+M2.5 x L5  2 
+M2 x L5  1 
+Step 3.  Disconnect the I/O board cable from the I/O board. Remove one screw then remove the I/O board. 
+Chapter 4. Removing a FRU or CRU 41
+
+--- Page 48 ---
+Figure 17. Remove the I/O board
+Screw specifications 
+Number of screws 
+M2 x L3.5  1 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+I/O board
+Remove the I/O board cable
+Make sure the following FRU (or CRU) has been removed.  
+“Remove the lower case” on page 35
+“Remove the battery pack” on page 36
+“Remove the fan” on page 40
+“Remove the heat sink” on page 39
+Step 1.  Disconnect the I/O board cable from the I/O board and system board. Remove the I/O board cable. 
+42
+Hardware Maintenance Manual
+
+--- Page 49 ---
+Figure 18. Remove the I/O board cable
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+I/O board cable
+Remove the fingerprint board module
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 60
+“Remove the battery pack” on page 61
+Step 1.  Remove one screw then remove the fingerprint board bracket. 
+Figure 19. Remove the fingerprint board bracket
+Screw specifications 
+Number of screws 
+M2 x L2  1 
+Step 2.  Disconnect the fingerprint board cable from the fingerprint board and system board. Remove the 
+fingerprint board cable. 
+Chapter 4. Removing a FRU or CRU 43
+
+--- Page 50 ---
+Figure 20. Remove the fingerprint board cable
+Step 3.  Remove fingerprint board. 
+Figure 21. Remove fingerprint board
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Fingerprint board bracket
+Fingerprint board cable
+Fingerprint board
+Remove the speakers
+Make sure the following FRU (CRU) has been removed. 
+“Remove the lower case” on page 35
+“Remove the battery pack” on page 36
+Step 1.  Disconnect the speaker cable from the system board and release the speaker cable from the cable 
+guide. Remove the speakers. 
+44
+Hardware Maintenance Manual
+
+--- Page 51 ---
+Figure 22. Remove the speakers
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Speakers
+Remove the antenna
+Make sure the following FRU (CRU) has been removed. 
+“Remove the lower case” on page 35
+“Remove the battery pack” on page 36
+Step 1.  Peel off the piece of tape then detach the main and auxiliary antenna cable connectors. 
+Figure 23. Detach the main and auxiliary antenna cable connectors
+Step 2.  Release the antenna from the cable guide. Remove the antenna. 
+Chapter 4. Removing a FRU or CRU 45
+
+--- Page 52 ---
+Figure 24. Remove the antenna
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Antenna
+Remove the touchpad cable
+Make sure the following FRUs (CRUs) have been removed. 
+“Remove the lower case” on page 35
+“Remove the battery pack” on page 36
+Step 1.  Disconnect the touchpad cable from the touchpad and system board. Remove touchpad cable. 
+Figure 25. Remove touchpad cable
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Touchpad cable
+Remove the system board
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 35
+“Remove the battery pack” on page 36
+46
+Hardware Maintenance Manual
+
+--- Page 53 ---
+“Remove the solid-state drive (SSD)” on page 37
+“Remove the Wi-Fi card” on page 38
+“Remove the heat sink” on page 39
+“Remove the fan” on page 40
+Step 1.  Remove the two pieces of tape. 
+Figure 26. Remove the two pieces of tape
+Step 2.  Remove four screws then open left hinge. 
+Figure 27. Open left hinge
+Screw specifications  Number of screws 
+M2.5 x L5  2 
+M2 x L5  2 
+Step 3.  Disconnect cables connected to the system board. 
+Chapter 4. Removing a FRU or CRU 47
+
+--- Page 54 ---
+Figure 28. Disconnect cables connected to the system board
+Step 4.  Remove two screws and then remove the system board. 
+Figure 29. Remove the system board
+Screw specifications  Number of screws 
+M2 x L3.5  2 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+System board
+Use a Golden Key U1 tool to flash-write key id information
+After replacing the system board and re-assembling the computer, use a pre-made Golden Key U1 tool to 
+start the computer and flash-write the serial number (SN), machine type (MT), product name (PN), and UUID 
+to the new system board. 
+48
+Hardware Maintenance Manual
+
+--- Page 55 ---
+The Golden Key U1 tool is prepared by running the U1 Update software on a FAT32-formatted USB thumb 
+drive. Go to 
+http://support.lenovo.com/us/en/solutions/HT506954 for detailed instructions on how to create 
+and use a Goldern Key U1 tool. 
+Remove the touchpad
+Make sure the following FRUs (CRUs) have been removed. 
+“Remove the lower case” on page 35
+“Remove the battery pack” on page 36
+“Remove the solid-state drive (SSD)” on page 37
+“Remove the Wi-Fi card” on page 38
+“Remove the heat sink” on page 39
+“Remove the fan” on page 40
+“Remove the touchpad cable” on page 46
+“Remove the system board” on page 46
+Step 1.  Remove the fingerprint board cable. 
+Note: For details, see “Remove the fingerprint board module” on page 43.
+Step 2.  Peel off the pieces of tape. 
+Figure 30. Peel off the pieces of tape
+Step 3.  Remove two screws. 
+Chapter 4. Removing a FRU or CRU 49
+
+--- Page 56 ---
+Figure 31. Remove two screws
+Screw specifications 
+Number of screws 
+M1.2 x L1.7  2 
+Step 4.  Remove the touchpad. 
+Figure 32. Remove the touchpad
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Touchpad
+Remove the LCD unit
+Make sure the following FRU (CRU) has been removed. 
+“Remove the lower case” on page 35
+“Remove the heat sink” on page 39
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Remove the four pieces of tape. 
+50
+Hardware Maintenance Manual
+
+--- Page 57 ---
+Figure 33. Remove the four pieces of tape
+Step 3.  Release the touch panel cable and EDP cable from the cable guide then disconnect cables 
+connected to the system board. 
+Figure 34. Disconnect cables connected to the system board
+Step 4.  Rotate the LCD unit to an angle of more than 90 degrees and place the computer on a flat surface 
+as shown. Remove seven screws and then remove the LCD unit.  
+Chapter 4. Removing a FRU or CRU 51
+
+--- Page 58 ---
+Figure 35. Remove seven screws and remove the LCD unit
+Screw specifications 
+Number of screws 
+M2.5 x L5  4 
+M2 x L5  3 
+Remove the upper case
+Make sure the following FRUs (CRUs) have been removed. 
+“Remove the lower case” on page 35
+“Remove the battery pack” on page 36
+“Remove the solid-state drive (SSD)” on page 37
+“Remove the Wi-Fi card” on page 38
+“Remove the heat sink” on page 39
+“Remove the fan” on page 40
+“Remove the I/O board” on page 41
+“Remove the I/O board cable” on page 42
+“Remove the fingerprint board module” on page 43
+“Remove the speakers” on page 44
+“Remove the antenna” on page 45
+“Remove the touchpad cable” on page 46
+“Remove the system board” on page 46
+“Remove the LCD unit” on page 50
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Upper case
+52
+Hardware Maintenance Manual
+
+--- Page 59 ---
+Disassemble the LCD unit
+The LCD unit as a whole is not an FRU. Instead, it contains FRUs as its components. Before disassembling 
+the LCD unit, make sure it has been detached from the upper case.
+Remove the hinge cover
+Make sure the following unit has been removed. 
+“Disassemble the LCD unit” on page 53
+Step 1.  Remove the hinge cover. 
+Figure 36. Remove the hinge cover
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Hinge cover
+Remove the LCD panel and EDP cable
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 53
+“Remove the hinge cover” on page 53
+Step 1.  Remove the piece of tape. 
+Chapter 4. Removing a FRU or CRU 53
+
+--- Page 60 ---
+Figure 37. Remove the piece of tape
+Step 2.  Detach the two cable connectors. Remove three screws. 
+Figure 38. Remove three screws
+Screw specifications  Number of screws 
+M2 x L3.5  3 
+Step 3.  Remove the two pieces of removable tape with tweezers and then remove the LCD panel. 
+54
+Hardware Maintenance Manual
+
+--- Page 61 ---
+Figure 39. Remove the LCD panel
+Step 4.  Turn the LCD panel over. Peel off tape then disconnect the EDP cable from the LCD panel. 
+Figure 40. Peel off tape then disconnect the EDP cable from the LCD panel
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+LCD panel
+Removable tape
+EDP cable
+Remove the microphone rubbers
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 53
+“Remove the hinge cover” on page 53
+“Remove the LCD panel and EDP cable” on page 53
+Step 1.  Remove the microphone rubbers. 
+Chapter 4. Removing a FRU or CRU 55
+
+--- Page 62 ---
+Figure 41. Remove the microphone rubbers
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Microphone rubbers
+Removable tape
+Remove the camera privacy shutter
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 53
+“Remove the hinge cover” on page 53
+“Remove the LCD panel and EDP cable” on page 53 “Remove the camera” on page 57
+Step 1.  Remove the camera privacy shutter. 
+Figure 42. Remove the camera privacy shutter
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Camera privacy shutter
+Remove the hinges
+Make sure the following FRUs (CRUs) have been removed. 
+56
+Hardware Maintenance Manual
+
+--- Page 63 ---
+“Disassemble the LCD unit” on page 53
+“Remove the hinge cover” on page 53
+“Remove the LCD panel and EDP cable” on page 53
+Step 1.  Remove six screws and then remove the hinges. 
+Figure 43. Remove six screws and remove the hinges
+Screw specifications 
+Number of screws 
+M2.5 x L3  6 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Hinges
+Remove the camera
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 53
+“Remove the hinge cover” on page 53
+“Remove the LCD panel and EDP cable” on page 53
+Step 1.  Disconnect the camera cable from the camera board and then remove the camera. 
+Chapter 4. Removing a FRU or CRU 57
+
+--- Page 64 ---
+Figure 44. Disconnect the camera cable from the camera board and remove the camera
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Camera
+Removable tape
+Remove the camera cable
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 53
+“Remove the hinge cover” on page 53
+“Remove the LCD panel and EDP cable” on page 53 “Remove the camera” on page 57
+Step 1.  Detach the camera cable connectors then remove the camera cable. 
+Figure 45. Detach the camera cable connectors then remove the camera cable
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Camera cable
+Removable tape
+58
+Hardware Maintenance Manual
+
+--- Page 65 ---
+Remove the touch panel cable and sensor board
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 53
+“Remove the hinge cover” on page 53
+“Remove the LCD panel and EDP cable” on page 53 “Remove the camera” on page 57
+Step 1.  Peel off the tape. 
+Figure 46. Peel off the tape
+Step 2.  Detach the touch panel cable connector then remove the touch panel cable with sensor board. 
+Figure 47. Remove the touch panel cable with sensor board
+Step 3.  Disconnect the touch panel cable from the sensor board. 
+Chapter 4. Removing a FRU or CRU 59
+
+--- Page 66 ---
+Figure 48. Disconnect the touch panel cable from the sensor board
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Touch panel cable
+Sensor board
+Removable tape
+Remove the LCD cover
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 53
+“Remove the hinge cover” on page 53
+“Remove the LCD panel and EDP cable” on page 53
+“Remove the microphone rubbers” on page 55
+“Remove the camera privacy shutter” on page 56
+“Remove the hinges” on page 56
+“Remove the camera” on page 57
+“Remove the camera cable” on page 58
+“Remove the touch panel cable and sensor board” on page 59
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+LCD cover
+Removal procedure for IdeaPad Flex 5 16IRU8 and IdeaPad Flex 5 
+16ABR8
+Remove the lower case
+Make sure the computer has been shut down before servicing the computer.
+Step 1.  Place the computer upside down on a flat surface.
+Step 2.  Remove nine screws. 
+60
+Hardware Maintenance Manual
+
+--- Page 67 ---
+Figure 49. Remove nine screws
+Screw specifications   Number of screws  
+1  M2 x L8.5 
+5 
+2  M2 x L4  4 
+Step 3.  Pry up the latches and then remove the lower case. 
+Figure 50. Pry up the latches and remove the lower case
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Lower case
+Remove the battery pack
+Make sure the following FRU (or CRU) has been removed.  
+“Remove the lower case” on page 60
+Step 1.  Disconnect the battery pack cable from the system board. 
+Chapter 4. Removing a FRU or CRU 61
+
+--- Page 68 ---
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Remove three screws then remove the battery pack. 
+Figure 51. Remove the battery pack
+Screw specifications 
+Number of screws 
+M2 x L3.5  3 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Battery pack
+Remove the solid-state drive (SSD) module
+Make sure the following FRU (or CRU) has been removed.  
+“Remove the lower case” on page 60
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Remove one screw. Remove the SSD and SSD bracket by pulling it away from the slot. 
+Figure 52. Remove the SSD and SSD bracket
+62 Hardware Maintenance Manual
+
+--- Page 69 ---
+Screw specifications  Number of screws 
+M2 x L2  1 
+Step 3.  Remove one screw then remove the SSD bracket. 
+Figure 53. Remove the SSD bracket
+Screw specifications 
+Number of screws  
+1 
+Step 4.  Remove the SSD thermal pad. 
+Figure 54. Remove the SSD thermal pad
+Step 5.  Remove the SSD mylar. 
+Figure 55. Remove the SSD mylar
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Chapter 4. Removing a FRU or CRU 63
+
+--- Page 70 ---
+SSD
+SSD bracket
+SSD thermal pad
+SSD mylar
+Remove the Wi-Fi card
+Make sure the following FRU (or CRU) has been removed.  
+“Remove the lower case” on page 60
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Peel off the pieces of tape. 
+Figure 56. Peel off the pieces of tape
+Step 3.  Detach the main and auxiliary antenna cable connectors. Remove one screw and then remove the 
+Wi-Fi card by pulling it away from the slot. 
+Figure 57. Remove the Wi-Fi card
+Screw specifications 
+Number of screws 
+M2 x L2  1 
+64
+Hardware Maintenance Manual
+
+--- Page 71 ---
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Wi-Fi card
+Remove the heat sink
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 60
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Remove three screws then remove the heat sink. 
+Figure 58. Remove the heat sink
+Screw specifications  Number of screws 
+M2 x L4  3 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Heat sink
+Remove the fan
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 60
+“Remove the heat sink” on page 65
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Release the fan cable from the cable guide. Remove four screws and then remove the fans. 
+Chapter 4. Removing a FRU or CRU 65
+
+--- Page 72 ---
+Figure 59. Remove four screws and then remove the fans
+Screw specifications  Number of screws 
+M2 x L3  4 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Fan
+Remove the I/O board
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 60
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Remove four screws then open the right hinge. 
+66
+Hardware Maintenance Manual
+
+--- Page 73 ---
+Figure 60. Open the right hinge
+Screw specifications  Number of screws 
+M2.5 x L6  3 
+M2 x L5  1 
+Step 3.  Disconnect the I/O board cable from the I/O board. Remove the I/O board. 
+Figure 61. Remove the I/O board
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+I/O board
+Remove the I/O board cable
+Make sure the following FRU (or CRU) has been removed.  
+“Remove the lower case” on page 60
+Chapter 4. Removing a FRU or CRU 67
+
+--- Page 74 ---
+“Remove the heat sink” on page 65
+“Remove the fan” on page 65
+Step 1.  Disconnect the I/O board cable from the I/O board and system board. Remove the I/O board cable. 
+Figure 62. Remove the I/O board cable
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+I/O board cable
+Remove the fingerprint board module
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 60
+“Remove the battery pack” on page 61
+Step 1.  Remove one screw then remove the fingerprint board bracket. 
+Figure 63. Remove the fingerprint board bracket
+Screw specifications 
+Number of screws 
+M2 x L2  1 
+68
+Hardware Maintenance Manual
+
+--- Page 75 ---
+Step 2.  Disconnect the fingerprint board cable from the fingerprint board and system board. Remove the 
+fingerprint board cable. 
+Figure 64. Remove the fingerprint board cable
+Step 3.  Remove fingerprint board. 
+Figure 65. Remove fingerprint board
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Fingerprint board bracket
+Fingerprint board cable
+Fingerprint board
+Remove the speakers
+Make sure the following FRU (CRU) has been removed. 
+“Remove the lower case” on page 60
+“Remove the fan” on page 65
+“Remove the heat sink” on page 65
+Chapter 4. Removing a FRU or CRU 69
+
+--- Page 76 ---
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Remove the two pieces of tape. 
+Figure 66. Remove the two pieces of tape
+Step 3.  Disconnect the speaker cable from the system board and release the speaker cable from the cable 
+guide. Remove the speakers. 
+Figure 67. Remove the speakers
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Speakers
+Remove the antenna
+Make sure the following FRU (CRU) has been removed. 
+“Remove the lower case” on page 60
+70
+Hardware Maintenance Manual
+
+--- Page 77 ---
+“Remove the battery pack” on page 61
+Step 1.  Peel off two pieces of tape. 
+Figure 68. Peel off two pieces of tape
+Step 2.  Detach the main and auxiliary antenna cable connectors. Release the antenna from the cable 
+guide. Remove the antenna.  
+Figure 69. Remove the antenna
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Antenna
+Remove the touchpad cable
+Make sure the following FRUs (CRUs) have been removed. 
+“Remove the lower case” on page 60
+“Remove the battery pack” on page 61
+Step 1.  Disconnect the touchpad cable from the touchpad and system board. Remove touchpad cable. 
+Chapter 4. Removing a FRU or CRU 71
+
+--- Page 78 ---
+Figure 70. Remove touchpad cable
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Touchpad cable
+Remove the touchpad
+Make sure the following FRUs (CRUs) have been removed. 
+“Remove the lower case” on page 60
+“Remove the battery pack” on page 61
+“Remove the solid-state drive (SSD) module” on page 62
+“Remove the Wi-Fi card” on page 64
+“Remove the heat sink” on page 65
+“Remove the fan” on page 65
+“Remove the touchpad cable” on page 71
+“Remove the system board” on page 73
+Step 1.  Remove the fingerprint board cable. 
+Note: For details, see “Remove the fingerprint board module” on page 68.
+Step 2.  Remove the two pieces of tape. 
+Figure 71. Remove the two pieces of tape
+72 Hardware Maintenance Manual
+
+--- Page 79 ---
+Step 3.  Remove two screws. 
+Figure 72. Remove two screws
+Screw specifications  Number of screws 
+M1.2 x L1.7  2 
+Step 4.  Remove the touchpad. 
+Figure 73. Remove the touchpad
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Touchpad
+Remove the system board
+Make sure the following FRUs (or CRUs) have been removed.  
+“Remove the lower case” on page 60
+“Remove the battery pack” on page 61
+“Remove the solid-state drive (SSD) module” on page 62
+“Remove the Wi-Fi card” on page 64
+“Remove the heat sink” on page 65
+“Remove the fan” on page 65
+Chapter 4. Removing a FRU or CRU 73
+
+--- Page 80 ---
+Step 1.  Remove the two pieces of tape. 
+Figure 74. Remove the two pieces of tape
+Step 2.  Remove five screws then open left hinge. 
+Figure 75. Open left hinge
+Screw specifications  Number of screws 
+M2.5 x L6  3 
+M2 x L5  2 
+Step 3.  Disconnect cables connected to the system board. 
+74
+Hardware Maintenance Manual
+
+--- Page 81 ---
+Figure 76. Disconnect cables connected to the system board
+Step 4.  Remove three screws and then remove the system board. 
+Figure 77. Remove the system board
+Chapter 4. Removing a FRU or CRU 75
+
+--- Page 82 ---
+Screw specifications  Number of screws 
+M2 x L3.5  2 
+M2 x L2  1 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+System board
+Use a Golden Key U1 tool to flash-write key id information
+After replacing the system board and re-assembling the computer, use a pre-made Golden Key U1 tool to 
+start the computer and flash-write the serial number (SN), machine type (MT), product name (PN), and UUID 
+to the new system board. 
+The Golden Key U1 tool is prepared by running the U1 Update software on a FAT32-formatted USB thumb 
+drive. Go to 
+http://support.lenovo.com/us/en/solutions/HT506954 for detailed instructions on how to create 
+and use a Goldern Key U1 tool. 
+Remove the LCD unit
+Make sure the following FRU (CRU) has been removed. 
+“Remove the lower case” on page 60
+“Remove the fan” on page 65
+“Remove the heat sink” on page 65
+Step 1.  Disconnect the battery pack cable from the system board. 
+Attention: Use your fingernails to pull the connector to unplug it. Do not pull the cable.
+Step 2.  Remove a piece of tape. 
+Figure 78. Remove a piece of tape
+Step 3.  Disconnect LCD cable connected to the system board. 
+76
+Hardware Maintenance Manual
+
+--- Page 83 ---
+Figure 79. Disconnect LCD cable connected to the system board
+Step 4.  Rotate the LCD unit to an angle of more than 90 degrees and place the computer on a flat surface 
+as shown. Remove nine screws and then remove the LCD unit.  
+Figure 80. Remove nine screws and remove the LCD unit
+Screw specifications  Number of screws 
+M2.5 x L6  6 
+M2 x L5  3 
+Remove the upper case
+Make sure the following FRUs (CRUs) have been removed. 
+“Remove the lower case” on page 60
+“Remove the battery pack” on page 61
+“Remove the solid-state drive (SSD) module” on page 62
+“Remove the Wi-Fi card” on page 64
+Chapter 4. Removing a FRU or CRU 77
+
+--- Page 84 ---
+“Remove the heat sink” on page 65
+“Remove the fan” on page 65
+“Remove the I/O board” on page 66
+“Remove the I/O board cable” on page 67
+“Remove the fingerprint board module” on page 68
+“Remove the speakers” on page 69
+“Remove the antenna” on page 70
+“Remove the touchpad cable” on page 71
+“Remove the touchpad” on page 72
+“Remove the system board” on page 73
+“Remove the LCD unit” on page 76
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Upper case
+Disassemble the LCD unit
+The LCD unit as a whole is not an FRU. Instead, it contains FRUs as its components. Before disassembling 
+the LCD unit, make sure it has been detached from the upper case.
+Remove the hinge cover
+Make sure the following unit has been removed. 
+“Disassemble the LCD unit” on page 78
+Step 1.  Remove the hinge cover. 
+Figure 81. Remove the hinge cover
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Hinge cover
+Remove the LCD panel and EDP cable
+Make sure the following FRUs (CRUs) have been removed. 
+78
+Hardware Maintenance Manual
+
+--- Page 85 ---
+“Disassemble the LCD unit” on page 78
+“Remove the hinge cover” on page 78
+Step 1.  Remove the piece of tape. 
+Figure 82. Remove the piece of tape
+Step 2.  Detach the two cable connectors. Remove three screws. 
+Figure 83. Remove three screws
+Screw specifications 
+Number of screws 
+M2 x L3.5  3 
+Step 3.  Remove the two pieces of removable tape with tweezers and then remove the LCD panel. 
+Chapter 4. Removing a FRU or CRU 79
+
+--- Page 86 ---
+Figure 84. Remove the LCD panel
+Step 4.  Turn the LCD panel over. Peel off tape then disconnect the EDP cable from the LCD panel. 
+Figure 85. Peel off tape then disconnect the EDP cable from the LCD panel
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+LCD panel
+Removable tape
+EDP cable
+Remove the microphone rubbers
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 78
+“Remove the hinge cover” on page 78
+“Remove the LCD panel and EDP cable” on page 78
+Step 1.  Remove the microphone rubbers. 
+80
+Hardware Maintenance Manual
+
+--- Page 87 ---
+Figure 86. Remove the microphone rubbers
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Microphone rubbers
+Removable tape
+Remove the camera privacy shutter
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 78
+“Remove the hinge cover” on page 78
+“Remove the LCD panel and EDP cable” on page 78 “Remove the camera” on page 82
+Step 1.  Remove the camera privacy shutter. 
+Figure 87. Remove the camera privacy shutter
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Camera privacy shutter
+Remove the hinges
+Make sure the following FRUs (CRUs) have been removed. 
+Chapter 4. Removing a FRU or CRU 81
+
+--- Page 88 ---
+“Disassemble the LCD unit” on page 78
+“Remove the hinge cover” on page 78
+“Remove the LCD panel and EDP cable” on page 78
+Step 1.  Remove six screws and then remove the hinges. 
+Figure 88. Remove six screws and remove the hinges
+Screw specifications 
+Number of screws 
+M2.5 x L3  6 
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Hinges
+Remove the camera
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 78
+“Remove the hinge cover” on page 78
+“Remove the LCD panel and EDP cable” on page 78
+Step 1.  Disconnect the camera cable from the camera board and then remove the camera. 
+82
+Hardware Maintenance Manual
+
+--- Page 89 ---
+Figure 89. Disconnect the camera cable from the camera board and remove the camera
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Camera
+Removable tape
+Remove the camera cable
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 78
+“Remove the hinge cover” on page 78
+“Remove the LCD panel and EDP cable” on page 78 “Remove the camera” on page 82
+Step 1.  Detach the camera cable connectors then remove the camera cable. 
+Figure 90. Detach the camera cable connectors then remove the camera cable
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part numbers of the following 
+replacement parts:
+Camera cable
+Removable tape
+Chapter 4. Removing a FRU or CRU 83
+
+--- Page 90 ---
+Remove the touch panel cable and sensor board
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 78
+“Remove the hinge cover” on page 78
+“Remove the LCD panel and EDP cable” on page 78 “Remove the camera” on page 82
+Step 1.  Peel off the tape. 
+Figure 91. Peel off the tape
+Step 2.  Detach the touch panel cable connector then remove the touch panel cable with sensor board. 
+Figure 92. Remove the touch panel cable with sensor board
+Step 3.  Disconnect the touch panel cable from the sensor board. 
+84
+Hardware Maintenance Manual
+
+--- Page 91 ---
+Figure 93. Disconnect the touch panel cable from the sensor board
+Go to https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+Touch panel cable
+Sensor board
+Removable tape
+Remove the LCD cover
+Make sure the following FRUs (CRUs) have been removed. 
+“Disassemble the LCD unit” on page 78
+“Remove the hinge cover” on page 78
+“Remove the LCD panel and EDP cable” on page 78
+“Remove the microphone rubbers” on page 80
+“Remove the camera privacy shutter” on page 81
+“Remove the hinges” on page 81
+“Remove the camera” on page 82
+“Remove the camera cable” on page 83
+“Remove the touch panel cable and sensor board” on page 84
+Go to 
+https://support.lenovo.com/partslookup to look up the Lenovo part number of the following replacement 
+part:
+LCD cover
+Chapter 4. Removing a FRU or CRU 85
+
+--- Page 93 ---
+Appendix A. Label locations
+Figure 94. Label layout on the back side of the base cover
+Labels attached to the base cover are country/region specific. Make sure to apply the appropriate labels to 
+the replacement base cover.
+Table 10.  All base cover labels
+Label Label name
+Applied country/region
+Label dimensions 
+a
+Rating label Worldwide 66 mm x 24 mm
+b
+Rating print label Worldwide 43 mm x 24 mm
+c
+Rating label
+P.R.China & India
+43 mm x 24 mm
+d
+Rating print label
+P.R.China & India
+43 mm x 24 mm
+e
+GML label
+All 16.1 mm x 22.5 mm
+f
+Country label
+Belarus 40 mm x 8 mm
+g
+Vietnam 10 mm x 9 mm
+h
+Argentina 68 mm x 6 mm
+I
+TW vision warning label 70 mm x 10 mm
+j
+KCC label
+43 mm x 24 mm
+k
+Indonesia postel label 15 mm x 10 mm
+l
+Indonesia rating label 26 mm x 10 mm
+m
+WL/BT label
+Israel 32 mm x 10 mm
+© Copyright Lenovo 2022 87
+
+--- Page 94 ---
+Table 10. All base cover labels (continued)
+n
+Brazil 35 mm x 15 mm
+o
+South Africa
+20 mm x 10 mm
+p
+US/ CA/ TW/ CA_Group
+32 mm x 10 mm
+88 Hardware Maintenance Manual
+
+--- Page 95 ---
+Trademarks
+LENOVO and the LENOVO logo are trademarks of Lenovo.
+All other trademarks are the property of their respective owners. © 2022 Lenovo.
+

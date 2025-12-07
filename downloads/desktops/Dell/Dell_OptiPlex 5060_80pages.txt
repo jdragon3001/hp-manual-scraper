@@ -1,0 +1,892 @@
+================================================================================
+DELL OPTIPLEX 5060 MANUAL
+================================================================================
+
+PDF manual | · 80 pages | English
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Manual
+View the manual for the Dell OptiPlex 5060 here, for free. This manual comes under the category desktops and has been rated by 1 people with an average of a 5.1.
+
+This manual is available in the following languages: English. Do you have a question about the Dell OptiPlex 5060 or do you need help?
+Ask your question here
+
+--------------------------------------------------------------------------------
+
+MANUAL CONTENT:
+
+================================================================================
+PAGE 2
+================================================================================
+NOTE:ANOTEindicatesimportantinformationthathelpsyoumakebetteruseofyourproduct.
+CAUTION:ACAUTIONindicateseitherpotentialdamagetohardwareorlossofdataandtellsyouhowtoavoid
+©2018-2019DellInc.oritssubsidiaries.Allrightsreserved.Dell,EMC,andothertrademarksaretrademarksofDellInc.orits
+
+================================================================================
+PAGE 3
+================================================================================
+Chapter1:Workingonyourcomputer...........................................................................................6
+Safetyinstructions..............................................................................................................................................................6
+Turningoffyourcomputer—Windows10...................................................................................................................6
+Beforeworkinginsideyourcomputer.............................................................................................................................7
+Afterworkinginsideyourcomputer................................................................................................................................7
+Chapter2:Technologyandcomponents........................................................................................8
+Processors.............................................................................................................................................................................8
+DDR4.......................................................................................................................................................................................8
+USBfeatures........................................................................................................................................................................9
+USBType-C.........................................................................................................................................................................11
+HDMI2.0..............................................................................................................................................................................13
+AdvantagesofDisplayPortoverUSBType-C............................................................................................................14
+Chapter3:Removingandinstallingcomponents..........................................................................15
+Recommendedtools..........................................................................................................................................................15
+Screwsizelist.....................................................................................................................................................................15
+Towermotherboardlayout..............................................................................................................................................16
+Sidecover............................................................................................................................................................................17
+Removingsidecover...................................................................................................................................................17
+Installingsidecover.....................................................................................................................................................18
+Bezel......................................................................................................................................................................................18
+Removingfrontbezel..................................................................................................................................................18
+Installingfrontbezel....................................................................................................................................................19
+Frontpaneldoor................................................................................................................................................................20
+Openingfrontpaneldoor..........................................................................................................................................20
+Closingfrontpaneldoor.............................................................................................................................................21
+Harddriveassembly—3.5-inchand2.5-inch.............................................................................................................22
+Removing3.5–inchharddriveassembly...............................................................................................................22
+Removing3.5–inchharddrivefromtheharddrivebracket.............................................................................23
+Installingthe3.5–inchharddriveintotheharddrivebracket.........................................................................24
+Installing3.5–inchharddriveassembly.................................................................................................................24
+Removingthe2.5–inchharddriveassembly........................................................................................................26
+Removingthe2.5–inchdrivefromthedrivebracket........................................................................................26
+Installingthe2.5–inchharddriveintotheharddrivebracket.........................................................................27
+Installingthe2.5-inchdriveassembly.....................................................................................................................27
+Opticaldrive.......................................................................................................................................................................28
+Removingopticaldrive...............................................................................................................................................28
+Installingopticaldrive.................................................................................................................................................30
+M.2PCIeSSD...................................................................................................................................................................32
+RemovingM.2SSD....................................................................................................................................................32
+InstallingM.2SSD.......................................................................................................................................................33
+SDcardreader...................................................................................................................................................................34
+RemovingSDcardreader..........................................................................................................................................34
+
+================================================================================
+PAGE 4
+================================================================================
+InstallingSDcardreader............................................................................................................................................35
+Memorymodule.................................................................................................................................................................36
+Removingmemorymodule........................................................................................................................................36
+Installingmemorymodule..........................................................................................................................................37
+Expansioncard...................................................................................................................................................................38
+RemovingPCIeexpansioncard................................................................................................................................38
+InstallingPCIeexpansioncard..................................................................................................................................39
+OptionalVGAmodule.......................................................................................................................................................40
+RemovingoptionalVGAmodule...............................................................................................................................40
+InstallingoptionalVGAmodule..................................................................................................................................41
+Powersupplyunit..............................................................................................................................................................42
+RemovingpowersupplyunitorPSU......................................................................................................................42
+InstallingpowersupplyunitorPSU........................................................................................................................44
+Intrusionswitch.................................................................................................................................................................46
+Removingintrusionswitch........................................................................................................................................46
+Installingintrusionswitch..........................................................................................................................................47
+Powerbutton.....................................................................................................................................................................48
+Removingpowerbutton............................................................................................................................................48
+Installingpowerbutton..............................................................................................................................................50
+Speaker................................................................................................................................................................................52
+Removingspeaker.......................................................................................................................................................52
+Installingspeaker.........................................................................................................................................................53
+Coincellbattery................................................................................................................................................................54
+Removingcoincellbattery........................................................................................................................................54
+Installingthecoincellbattery..................................................................................................................................55
+Heatsinkfan......................................................................................................................................................................56
+Removingheatsinkfan.............................................................................................................................................56
+Installingheatsinkfan................................................................................................................................................57
+Heatsink............................................................................................................................................................................58
+Removingheatsink.....................................................................................................................................................58
+Installingheatsink.......................................................................................................................................................59
+Processor............................................................................................................................................................................60
+Removingprocessor...................................................................................................................................................60
+Installingprocessor......................................................................................................................................................61
+Systemfan..........................................................................................................................................................................62
+Removingsystemfan.................................................................................................................................................62
+Installingsystemfan...................................................................................................................................................64
+Systemboard.....................................................................................................................................................................66
+Removingsystemboard............................................................................................................................................66
+Installingthesystemboard.......................................................................................................................................69
+Chapter4:Troubleshooting.........................................................................................................72
+EnhancedPre-BootSystemAssessment—ePSAdiagnostics.............................................................................72
+RunningtheePSADiagnostics.................................................................................................................................72
+Power-SupplyUnitBuilt-inSelf-Test..........................................................................................................................73
+Diagnostics..........................................................................................................................................................................73
+Diagnosticerrormessages..............................................................................................................................................74
+Systemerrormessages....................................................................................................................................................77
+Recoveringtheoperatingsystem..................................................................................................................................78
+Real-TimeClock(RTCReset)........................................................................................................................................78
+4
+
+================================================================================
+PAGE 5
+================================================================================
+Backupmediaandrecoveryoptions.............................................................................................................................78
+WiFipowercycle................................................................................................................................................................78
+Chapter5:Gettinghelp...............................................................................................................80
+ContactingDell..................................................................................................................................................................80
+
+================================================================================
+PAGE 6
+================================================================================
+•
+Usethefollowingsafetyguidelinestoprotectyourcomputerfrompotentialdamageandtoensureyourpersonalsafety.Unless
+●
+NOTE:Disconnectallpowersourcesbeforeopeningthecomputercoverorpanels.Afteryoufinishworkinginsidethe
+NOTE:Beforeworkinginsideyourcomputer,readthesafetyinformationthatshippedwithyourcomputer.Foradditional
+safetybestpracticesinformation,seetheRegulatoryComplianceHomepageatwww.Dell.com/regulatory_compliance
+CAUTION:Manyrepairsmayonlybedonebyacertifiedservicetechnician.Youshouldonlyperform
+CAUTION:Toavoidelectrostaticdischarge,groundyourselfbyusingawristgroundingstraporbyperiodically
+CAUTION:Handlecomponentsandcardswithcare.Donottouchthecomponentsorcontactsonacard.Holda
+CAUTION:Whenyoudisconnectacable,pullonitsconnectororonitspull-tab,notonthecableitself.Some
+NOTE:Thecolorofyourcomputerandcertaincomponentsmayappeardifferentlythanshowninthisdocument.
+1
+
+================================================================================
+PAGE 7
+================================================================================
+NOTE:Ensurethatthecomputerandallattacheddevicesareturnedoff.Ifyourcomputerandattacheddevicesdidnot
+2.Ensurethatyourworksurfaceisflatandcleantopreventthecomputercoverfrombeingscratched.
+CAUTION:Todisconnectanetworkcable,firstunplugthecablefromyourcomputerandthenunplugthe
+NOTE:Toavoidelectrostaticdischarge,groundyourselfbyusingawristgroundingstraporbyperiodicallytouchingan
+Afteryoucompleteanyreplacementprocedure,ensurethatyouconnectanyexternaldevices,cards,andcablesbeforeturning
+4.Ifrequired,verifythatthecomputerworkscorrectlybyrunningePSAdiagnostics.
+7
+
+================================================================================
+PAGE 8
+================================================================================
+NOTE:Theclockspeedandperformancevariesdependingontheworkloadandothervariables.Totalcacheupto8MB
+DDR4
+DDR4(doubledataratefourthgeneration)memoryisahigher-speedsuccessortotheDDR2andDDR3technologiesandallows
+memoryiskeyeddifferentlyfrombothSDRAMandDDRtopreventtheuserfrominstallingthewrongtypeofmemoryintothe
+DDR4needs20percentlessorjust1.2volts,comparedtoDDR3whichrequires1.5voltsofelectricalpowertooperate.DDR4
+insertionedgebutthenotchlocationontheDDR4isslightlydifferent,topreventthemodulefrombeinginstalledintoan
+2
+
+================================================================================
+PAGE 9
+================================================================================
+doesnotturnon.Troubleshootforpossiblememoryfailurebytryingknowngoodmemorymodulesinthememoryconnectorson
+UniversalSerialBus,orUSB,wasintroducedin1996.Itdramaticallysimplifiedtheconnectionbetweenhostcomputersand
+1
+
+================================================================================
+PAGE 10
+================================================================================
+Foryears,theUSB2.0hasbeenfirmlyentrenchedasthedefactointerfacestandardinthePCworldwithabout6billion
+devicessold,andyettheneedformorespeedgrowsbyeverfastercomputinghardwareandevergreaterbandwidthdemands.
+TheUSB3.0/USB3.1Gen1finallyhastheanswertotheconsumers'demandswithatheoretically10timesfasterthanits
+●Increasedmaximumbuspowerandincreaseddevicecurrentdrawtobetteraccommodatepower-hungrydevices
+Currently,thereare3speedmodesdefinedbythelatestUSB3.0/USB3.1Gen1specification.TheyareSuper-Speed,Hi-Speed
+Full-SpeedUSBmode,commonlyknownasUSB2.0and1.1respectively,theslowermodesstilloperateat480Mbpsand12Mbps
+●AnadditionalphysicalbusthatisaddedinparallelwiththeexistingUSB2.0bus(refertothepicturebelow).
+●USB2.0previouslyhadfourwires(power,ground,andapairfordifferentialdata);USB3.0/USB3.1Gen1addsfourmore
+fortwopairsofdifferentialsignals(receiveandtransmit)foracombinedtotalofeightconnectionsintheconnectorsand
+●USB3.0/USB3.1Gen1utilizesthebidirectionaldatainterface,ratherthanUSB2.0'shalf-duplexarrangement.Thisgivesa
+Withtoday'severincreasingdemandsplacedondatatransferswithhigh-definitionvideocontent,terabytestoragedevices,
+10
+
+================================================================================
+PAGE 11
+================================================================================
+real-worldmaximum.Similarly,USB3.0/USB3.1Gen1connectionswillneverachieve4.8Gbps.Wewilllikelyseeareal-world
+experience.WhereUSBvideowasbarelytolerablepreviously(bothfromamaximumresolution,latency,andvideocompression
+perspective),it'seasytoimaginethatwith5-10timesthebandwidthavailable,USBvideosolutionsshouldworkthatmuch
+better.Single-linkDVIrequiresalmost2Gbpsthroughput.Where480Mbpswaslimiting,5Gbpsismorethanpromising.Withits
+promised4.8Gbpsspeed,thestandardwillfinditswayintosomeproductsthatpreviouslyweren'tUSBterritory,likeexternal
+ThegoodnewsisthatUSB3.0/USB3.1Gen1hasbeencarefullyplannedfromthestarttopeacefullyco-existwithUSB2.0.
+Firstofall,whileUSB3.0/USB3.1Gen1specifiesnewphysicalconnectionsandthusnewcablestotakeadvantageofthe
+higherspeedcapabilityofthenewprotocol,theconnectoritselfremainsthesamerectangularshapewiththefourUSB2.0
+contactsintheexactsamelocationasbefore.Fivenewconnectionstocarryreceiveandtransmitteddataindependentlyare
+Windows8/10willbebringingnativesupportforUSB3.1Gen1controllers.ThisisincontrasttopreviousversionsofWindows,
+subsequentServicePackorupdate.ItisnotoutofthequestiontothinkthatfollowingasuccessfulreleaseofUSB3.0/USB3.1
+Gen1supportinWindows7,SuperSpeedsupportwouldtrickledowntoVista.Microsofthasconfirmedthisbystatingthatmost
+USBType-Cisanew,tinyphysicalconnector.TheconnectoritselfcansupportvariousexcitingnewUSBstandardslikeUSB3.1
+USBType-Cisanewconnectorstandardthatisverysmall.ItisaboutathirdthesizeofanoldUSBType-Aplug.Thisis
+protocolsusing“alternatemodes,”whichallowsyoutohaveadaptersthatcanoutputHDMI,VGA,DisplayPort,orothertypes
+devicesoftenuseaUSBconnectiontocharge.AUSB2.0connectionprovidesupto2.5wattsofpower—that'llchargeyour
+11
+
+================================================================================
+PAGE 12
+================================================================================
+phone,butthat'saboutit.Alaptopmightrequireupto60watts,forexample.TheUSBPowerDeliveryspecificationupsthis
+powerdeliveryto100watts.It'sbi-directional,soadevicecaneithersendorreceivepower.Andthispowercanbetransferred
+Thiscouldspelltheendofallthoseproprietarylaptopchargingcables,witheverythingchargingviaastandardUSBconnection.
+Youcouldchargeyourlaptopfromoneofthoseportablebatterypacksyouchargeyoursmartphonesandotherportabledevices
+fromtoday.Youcouldplugyourlaptopintoanexternaldisplayconnectedtoapowercable,andthatexternaldisplaywould
+chargeyourlaptopasyouuseditasanexternaldisplay—allviatheonelittleUSBType-Cconnection.Tousethis,thedevice
+andthecablehavetosupportUSBPowerDelivery.JusthavingaUSBType-Cconnectiondoesn'tnecessarilymeantheydo.
+USB3.1isanewUSBstandard.USB3'stheoreticalbandwidthis5Gbps,whileUSB3.1'sis10Gbps.That'sdoublethe
+bandwidth,asfastasafirst-generationThunderboltconnector.USBType-Cisn'tthesamethingasUSB3.1.USBType-Cisjust
+aconnectorshape,andtheunderlyingtechnologycouldjustbeUSB2orUSB3.0.Infact,Nokia'sN1AndroidtabletusesaUSB
+Type-Cconnector,butunderneathit'sallUSB2.0—notevenUSB3.0.However,thesetechnologiesarecloselyrelated.
+Thunderboltisahardwareinterfacethatcombinesdata,video,audio,andpowerinasingleconnection.Thunderboltcombines
+PCIExpress(PCIe)andDisplayPort(DP)intooneserialsignal,andadditionallyprovidesDCpower,allinonecable.Thunderbolt
+1andThunderbolt2usethesameconnectorasminiDP(DisplayPort)toconnecttoperipherals,whileThunderbolt3usesaUSB
+deliveringthefastest,mostversatileconnectiontoanydock,displayordatadevicelikeanexternalharddrive.Thunderbolt3
+1.Thunderbolt,USB,DisplayPortandpoweronUSBType-Conasinglecable(featuresvarybetweendifferentproducts)
+12
+
+================================================================================
+PAGE 13
+================================================================================
+HDMI(High-DefinitionMultimediaInterface)isanindustry-supported,uncompressed,all-digitalaudio/videointerface.HDMI
+compatibledigitalaudioand/orvideomonitor,suchasadigitalTV(DTV).TheintendedapplicationsforHDMITVs,andDVD
+players.Theprimaryadvantageiscablereductionandcontentprotectionprovisions.HDMIsupportsstandard,enhanced,or
+●HDMIEthernetChannel-Addshigh-speednetworkingtoanHDMIlink,allowinguserstotakefulladvantageoftheir
+●AudioReturnChannel-AllowsanHDMI-connectedTVwithabuilt-intunertosendaudiodata"upstream"toasurround
+●3D-Definesinput/outputprotocolsformajor3Dvideoformats,pavingthewayfortrue3Dgamingand3Dhometheater
+●ContentType-Real-timesignalingofcontenttypesbetweendisplayandsourcedevices,enablingaTVtooptimizepicture
+●AdditionalColorSpaces-Addssupportforadditionalcolormodelsusedindigitalphotographyandcomputergraphics
+●4KSupport-Enablesvideoresolutionsfarbeyond1080p,supportingnext-generationdisplaysthatwillrivaltheDigital
+●HDMIMicroConnector-Anew,smallerconnectorforphonesandotherportabledevices,supportingvideoresolutionsup
+●AutomotiveConnectionSystem-Newcablesandconnectorsforautomotivevideosystems,designedtomeettheunique
+●QualityHDMItransfersuncompresseddigitalaudioandvideoforthehighest,crispestimagequality.
+●Low-costHDMIprovidesthequalityandfunctionalityofadigitalinterfacewhilealsosupportinguncompressedvideo
+●AudioHDMIsupportsmultipleaudioformatsfromstandardstereotomultichannelsurroundsound
+●HDMIcombinesvideoandmultichannelaudiointoasinglecable,eliminatingthecost,complexity,andconfusionofmultiple
+●HDMIsupportscommunicationbetweenthevideosource(suchasaDVDplayer)andtheDTV,enablingnewfunctionality
+13
+
+================================================================================
+PAGE 15
+================================================================================
+•
+1
+WLAN
+1
+1
+3
+
+================================================================================
+PAGE 16
+================================================================================
+M3X3
+2
+2
+9
+3
+16
+
+================================================================================
+PAGE 17
+================================================================================
+17
+
+================================================================================
+PAGE 18
+================================================================================
+18
+
+================================================================================
+PAGE 19
+================================================================================
+19
+
+================================================================================
+PAGE 20
+================================================================================
+20
+
+================================================================================
+PAGE 21
+================================================================================
+21
+
+================================================================================
+PAGE 22
+================================================================================
+22
+
+================================================================================
+PAGE 23
+================================================================================
+23
+
+================================================================================
+PAGE 24
+================================================================================
+a.Pullonesideoftheharddrivebrackettodisengagethepinsonthebracketfromtheslotsontheharddrive[1].
+a.Aligntheharddrivetothesideoftheharddrivebracket,andpulltheotherendtabstoinsertthepinsonthebracket
+24
+
+================================================================================
+PAGE 25
+================================================================================
+25
+
+================================================================================
+PAGE 26
+================================================================================
+a.Disconnecttheharddrivedataandpowercablesfromtheconnectorsonthe2.5-inchharddrive[1].
+b.Pressthebluetabsoftheassemblyonbothsides[2]andpulltheharddriveassemblyoutofthesystem[3].
+a.Pullonesideofthedrivebrackettodisengagethepinsonthebracketfromtheslotsonthedrive[1].
+26
+
+================================================================================
+PAGE 27
+================================================================================
+a.Aligntheharddrivetothesideoftheharddrivebracket,andpulltheotherendtabstoinsertthepinsonthebracket
+b.Connecttheharddrivedataandpowercablestotheconnectorsonthe2.5-inchharddrive[2].
+27
+
+================================================================================
+PAGE 28
+================================================================================
+a.Disconnecttheopticaldrivedatacableandpowercablefromtheconnectorsontheopticaldrive[1].
+28
+
+================================================================================
+PAGE 29
+================================================================================
+29
+
+================================================================================
+PAGE 30
+================================================================================
+30
+
+================================================================================
+PAGE 31
+================================================================================
+e.Connecttheopticaldrivedatacableandpowercabletotheconnectorsontheopticaldrive[2].
+31
+
+================================================================================
+PAGE 32
+================================================================================
+32
+
+================================================================================
+PAGE 33
+================================================================================
+33
+
+================================================================================
+PAGE 34
+================================================================================
+34
+
+================================================================================
+PAGE 35
+================================================================================
+35
+
+================================================================================
+PAGE 36
+================================================================================
+36
+
+================================================================================
+PAGE 37
+================================================================================
+37
+
+================================================================================
+PAGE 39
+================================================================================
+b.SecurethePCIeexpansioncardbypushingthecardretentionlatchuntilitclicksintoplace.
+NOTE:Thisstepisapplicableonlyfortheconnectorwithcardretentionlatch,otherwise,skipthisstep.
+
+================================================================================
+PAGE 40
+================================================================================
+40
+
+================================================================================
+PAGE 41
+================================================================================
+1.Toremovethemetalbracketasshownbelow,insertaflatheadscrewdriverintheholeofthebracket[1],pushthebracket
+2.InserttheVGAmoduleintoitsslotfromtheinsideofyourcomputer[1]andconnecttheVGAcabletotheconnectoronthe
+41
+
+================================================================================
+PAGE 42
+================================================================================
+42
+
+================================================================================
+PAGE 43
+================================================================================
+43
+
+================================================================================
+PAGE 44
+================================================================================
+a.InsertthePSUintothePSUslotandslideittowardsthebackofthesystemuntilitclicksintoplace[1].
+44
+
+================================================================================
+PAGE 45
+================================================================================
+45
+
+================================================================================
+PAGE 46
+================================================================================
+46
+
+================================================================================
+PAGE 47
+================================================================================
+47
+
+================================================================================
+PAGE 48
+================================================================================
+c.Pressthereleasetabsusingaplasticscribeandslidethepowerbuttonoutfromthefrontofthesystem[3].
+48
+
+================================================================================
+PAGE 49
+================================================================================
+49
+
+================================================================================
+PAGE 50
+================================================================================
+1.Insertthepowerswitchintotheslotfromthefrontofthecomputerandpressituntilitclicksintoplace.
+50
+
+================================================================================
+PAGE 51
+================================================================================
+51
+
+================================================================================
+PAGE 52
+================================================================================
+52
+
+================================================================================
+PAGE 53
+================================================================================
+53
+
+================================================================================
+PAGE 54
+================================================================================
+54
+
+================================================================================
+PAGE 55
+================================================================================
+1.Holdthecoincellbatterywiththe"+"signfacingupandslideitunderthesecuringtabsatthepositivesideofthe
+55
+
+================================================================================
+PAGE 56
+================================================================================
+56
+
+================================================================================
+PAGE 57
+================================================================================
+57
+
+================================================================================
+PAGE 59
+================================================================================
+1.Alignthescrewsoftheheatsinkwiththeholdersonthesystemboardandplacetheheatsinkontheprocessor[1].
+59
+
+================================================================================
+PAGE 60
+================================================================================
+a.Releasethesocketleverbypushingtheleverdownandoutfromunderthetabontheprocessorshield[1].
+
+================================================================================
+PAGE 61
+================================================================================
+1.Placetheprocessoronthesocketsuchthattheslotsontheprocessoralignwiththesocketkeys[1].
+61
+
+================================================================================
+PAGE 62
+================================================================================
+62
+
+================================================================================
+PAGE 63
+================================================================================
+63
+
+================================================================================
+PAGE 64
+================================================================================
+5.Stretchthegrommetsandslidethesystemfantowardthecomputeruntilitlocksintoplace[2].
+64
+
+================================================================================
+PAGE 65
+================================================================================
+65
+
+================================================================================
+PAGE 66
+================================================================================
+66
+
+================================================================================
+PAGE 67
+================================================================================
+67
+
+================================================================================
+PAGE 68
+================================================================================
+68
+
+================================================================================
+PAGE 69
+================================================================================
+2.Lowerthesystemboardintothecomputeruntiltheconnectorsatthebackofthesystemboardalignwiththeslotsonthe
+69
+
+================================================================================
+PAGE 70
+================================================================================
+5.Alignthecableswiththepinsonconnectorsonthesystemboardandconnectthefollowingcablestothesystemboard:
+70
+
+================================================================================
+PAGE 71
+================================================================================
+71
+
+================================================================================
+PAGE 72
+================================================================================
+•
+withtheBIOSandislaunchedbytheBIOSinternally.Theembeddedsystemdiagnosticsprovidesasetofoptionsforparticular
+●Runthoroughteststointroduceadditionaltestoptionstoprovideextrainformationaboutthefaileddevice(s)
+NOTE:Sometestsforspecificdevicesrequireuserinteraction.Alwaysensurethatyouarepresentatthecomputer
+3.Inthebootmenuscreen,useUp/DownarrowkeytoselecttheDiagnosticsoptionandthenpressEnter.
+TheEnhancedPre-bootSystemAssessmentwindowdisplays,listingalldevicesdetectedinthecomputer.
+5.Torunadiagnostictestonaspecificdevice,pressEscandclickYestostopthediagnostictest.
+or
+4
+
+================================================================================
+PAGE 73
+================================================================================
+Built-inSelf-Test(BIST)helpsdetermineifthepower-supplyunitisworking.Torunself-testdiagnosticsonthepower-supply
+unitofadesktoporall-in-onecomputer,seetheknowledgebasearticle000125179atwww.dell.com/support.
+appropriatelybeforethebootprocessbegins.IfthecomputerpassesthePOST,thecomputercontinuestostartinanormal
+mode.However,ifthecomputerfailsthePOST,thecomputeremitsaseriesofLEDcodesduringthestart-up.ThesystemLED
+
+================================================================================
+PAGE 78
+================================================================================
+DellSupportAssistOSRecoveryisastandalonetoolthatispreinstalledinallDellcomputersinstalledwithWindowsoperating
+system.Itconsistsoftoolstodiagnoseandtroubleshootissuesthatmayoccurbeforeyourcomputerbootstotheoperating
+system.Itenablesyoutodiagnosehardwareissues,repairyourcomputer,backupyourfiles,orrestoreyourcomputertoits
+YoucanalsodownloaditfromtheDellSupportwebsitetotroubleshootandfixyourcomputerwhenitfailstobootintotheir
+FormoreinformationabouttheDellSupportAssistOSRecovery,seeDellSupportAssistOSRecoveryUser'sGuideat
+www.dell.com/serviceabilitytools.ClickSupportAssistandthen,clickSupportAssistOSRecovery.
+StarttheRTCresetwiththesystempoweredoffandconnectedtoACpower.Pressandholdthepowerbuttonfor20seconds.
+multipleoptionsforrecoveringWindowsoperatingsystemonyourDellPC.Formoreinformation.seeDellWindowsBackup
+78
+
+================================================================================
+PAGE 80
+================================================================================
+NOTE:IfyoudonothaveanactiveInternetconnection,youcanfindcontactinformationonyourpurchaseinvoice,packing
+Dellprovidesseveralonlineandtelephone-basedsupportandserviceoptions.Availabilityvariesbycountryandproduct,and
+someservicesmaynotbeavailableinyourarea.TocontactDellforsales,technicalsupport,orcustomerserviceissues:
+3.VerifyyourcountryorregionintheChooseaCountry/Regiondrop-downlistatthebottomofthepage.
+5
+
+--------------------------------------------------------------------------------
+
+SPECIFICATIONS:
+
+General
+----------------------------------------
+  Brand........................................ Dell
+  Model........................................ OptiPlex 5060 | FKHCR
+  Product...................................... desktop
+  EAN.......................................... 0800100231676, 0800100231775, 0800100231911, 0800100232253, 0800100232291, 0800100232307, 0800100320486, 0818239834392, 0818240612378, 0818241526100, 0818242867226, 0818263505015, 0818275331718, 0818275684197, 0884116297895, 0884116297901, 0884116297918, 0884116297925, 0884116297932, 0884116297949, 0884116297956, 0884116297963, 0884116297970, 0884116297987, 0884116297994, 0884116298007, 0884116298014, 0884116298021, 0884116298038, 0884116299226, 0884116299233, 0884116319054, 0884116319061
+  Language..................................... English
+  Filetype..................................... User manual (PDF)
+
+Processor
+----------------------------------------
+  Number of processors installed............... 1
+  Processor family............................. Intel® Core™ i5
+  Processor cores.............................. 6
+  Processor boost frequency.................... 4.1 GHz
+  Processor threads............................ 6
+  Processor cache.............................. 9 MB
+  Processor model.............................. i5-8500
+  Processor frequency.......................... 3 GHz
+  Processor lithography........................ 14 nm
+  Processor socket............................. LGA 1151 (Socket H4)
+  System bus rate.............................. 8 GT/s
+  PCI Express slots version.................... 3.0
+  Processor operating modes.................... 64-bit
+  Tjunction.................................... 100 °C
+  Bus type..................................... DMI3
+  PCI Express configurations................... 1x16, 1x8+2x4, 2x8
+  Thermal Design Power (TDP)................... 65 W
+  Processor codename........................... Coffee Lake
+  Maximum number of PCI Express lanes.......... 16
+  Maximum internal memory supported by processor 64 GB
+  Memory types supported by processor.......... DDR4-SDRAM
+  Memory clock speeds supported by processor... 2666 MHz
+  Memory bandwidth supported by processor (max) 41.6 GB/s
+  ECC supported by processor................... No
+  Processor manufacturer....................... Intel
+
+Memory
+----------------------------------------
+  Internal memory type......................... DDR4-SDRAM
+  Maximum internal memory...................... 64 GB
+  Memory slots................................. 4x DIMM
+  Non-ECC...................................... Yes
+  Internal memory.............................. 8 GB
+  Memory channels.............................. Dual-channel
+
+Storage
+----------------------------------------
+  Card reader integrated....................... -
+  Total storage capacity....................... 500 GB
+  Storage media................................ HDD
+  Number of storage drives installed........... 1
+  Number of HDDs installed..................... 1
+  HDD capacity................................. 500 GB
+  Optical drive type........................... DVD±RW
+
+Network
+----------------------------------------
+  Ethernet LAN................................. Yes
+  Ethernet LAN data rates...................... 10,100,1000 Mbit/s
+  Cabling technology........................... 10/100/1000Base-T(X)
+  Wi-Fi standards.............................. 802.11a, Wi-Fi 5 (802.11ac), 802.11b, 802.11g, Wi-Fi 4 (802.11n)
+  Wi-Fi........................................ No
+  Top Wi-Fi standard........................... Wi-Fi 5 (802.11ac)
+
+Ports & interfaces
+----------------------------------------
+  USB 2.0 ports quantity....................... 4
+  USB 3.2 Gen 1 (3.1 Gen 1) Type-A ports quantity 5
+  USB 3.2 Gen 2 (3.1 Gen 2) Type-C ports quantity 1
+  USB 3.2 Gen 1 (3.1 Gen 1) Type-C ports quantity 0
+  USB 3.2 Gen 2 (3.1 Gen 2) Type-A ports quantity 0
+  PowerShare................................... Yes
+  Number of USB ports with PowerShare support.. 2
+  Thunderbolt 3 ports quantity................. 0
+  VGA (D-Sub) ports quantity................... 0
+  DVI port..................................... No
+  HDMI ports quantity.......................... 0
+  DisplayPorts quantity........................ 2
+  Ethernet LAN (RJ-45) ports................... 1
+  Microphone in................................ -
+  Headphone outputs............................ 1
+  Line-out..................................... Yes
+  Combo headphone/mic port..................... Yes
+  On/off button................................ Yes
+
+Design
+----------------------------------------
+  Chassis type................................. SFF
+  Product color................................ Black
+  Placement supported.......................... Horizontal/Vertical
+  Cable lock slot.............................. Yes
+  Cable lock slot type......................... Kensington
+
+Performance
+----------------------------------------
+  Product type................................. PC
+  Motherboard chipset.......................... Intel Q370
+  Audio chip................................... Realtek ALC3234
+  Password protection.......................... Yes
+
+Software
+----------------------------------------
+  Drivers included............................. Yes
+  Operating system installed................... Windows 10 Pro
+  Operating system architecture................ 64-bit
+
+Processor special features
+----------------------------------------
+  Intel® Optane™ Memory Ready.................. Yes
+  Supported instruction sets................... AVX 2.0, SSE4.1, SSE4.2
+  Intel® Identity Protection Technology (Intel® IPT) Yes
+  Intel® Hyper Threading Technology (Intel® HT Technology) No
+  Intel® Turbo Boost Technology................ 2.0
+  Intel® Quick Sync Video Technology........... Yes
+  Intel® InTru™ 3D Technology.................. Yes
+  Intel® Clear Video HD Technology (Intel® CVT HD) Yes
+  Intel® AES New Instructions (Intel® AES-NI).. Yes
+  Enhanced Intel SpeedStep Technology.......... Yes
+  Execute Disable Bit.......................... Yes
+  Idle States.................................. Yes
+  Thermal Monitoring Technologies.............. Yes
+  Intel Trusted Execution Technology........... Yes
+  Scalability.................................. 1S
+  CPU configuration (max)...................... 1
+  Intel Enhanced Halt State.................... Yes
+  Intel® Clear Video Technology for Mobile Internet Devices (Intel CVT for MID) Yes
+  Intel VT-x with Extended Page Tables (EPT)... Yes
+  Embedded options available................... Yes
+  Intel TSX-NI................................. Yes
+  Intel® Secure Key............................ Yes
+  Thermal solution specification............... PCG 2015C
+  Intel 64..................................... Yes
+  Intel Stable Image Platform Program (SIPP)... Yes
+  Intel® OS Guard.............................. Yes
+  Intel Virtualization Technology for Directed I/O (VT-d) Yes
+  Intel Clear Video Technology................. Yes
+  Intel Software Guard Extensions (Intel SGX).. Yes
+  Intel Virtualization Technology (VT-x)....... Yes
+  Processor package size....................... 37.5 x 37.5 mm
+  Conflict-Free processor...................... Yes
+  Processor ARK ID............................. 129939
+  Intel Identity Protection Technology version. 1.00
+  Intel Secure Key Technology version.......... 1.00
+  Intel Stable Image Platform Program (SIPP) version 1.00
+  Intel TSX-NI version......................... 1.00
+
+Power
+----------------------------------------
+  Power supply................................. 200 W
+
+Weight & dimensions
+----------------------------------------
+  Width........................................ 92.6 mm
+  Height....................................... 292 mm
+  Depth........................................ 290 mm
+  Weight....................................... 5260 g
+
+Display
+----------------------------------------
+  Display included............................. No
+
+Packaging content
+----------------------------------------
+  Power cord included.......................... Yes
+  Manual....................................... Yes
+
+Graphics
+----------------------------------------
+  On-board graphics card....................... Yes
+  On-board graphics card model................. Intel® UHD Graphics 630
+  Discrete graphics card....................... No
+  Discrete graphics card model................. Not available
+  On-board graphics card base frequency........ 350 MHz
+  On-board graphics card dynamic frequency (max) 1100 MHz
+  On-board graphics card ID.................... 0x3E92
+  Maximum on-board graphics card memory........ 64 GB
+  Number of displays supported (on-board graphics) 3
+  On-board graphics card DirectX version....... 12.0
+  On-board graphics card OpenGL version........ 4.5
+  On-board graphics card family................ Intel® UHD Graphics
+
+Other features
+----------------------------------------
+  Optical drives quantity...................... 1
+
+--------------------------------------------------------------------------------
+
+FREQUENTLY ASKED QUESTIONS:
+
+Q1: Can the Dell OptiPlex 5060 support up to 64 GB of internal memory?
+A1: Yes, the Dell OptiPlex 5060 can support up to 64 GB of internal memory. This means it has ample memory capacity for multitasking and running resource-intensive applications.
+
+Q2: Does the Dell OptiPlex 5060 have non-ECC memory?
+A2: Yes, the Dell OptiPlex 5060 has non-ECC memory. This means it does not have error-checking and correcting capability, but it can be more affordable compared to ECC memory.
+
+Q3: Does the Dell OptiPlex 5060 have Ethernet LAN connectivity?
+A3: Yes, the Dell OptiPlex 5060 has Ethernet LAN connectivity. This means it can be easily connected to a wired network for fast and reliable internet access.
+
+Q4: How many USB 2.0 ports does the Dell OptiPlex 5060 have?
+A4: The Dell OptiPlex 5060 has 4 USB 2.0 ports. This provides flexibility for connecting peripherals and accessories that are compatible with USB 2.0.
+
+Q5: Does the Dell OptiPlex 5060 have USB 3.2 Gen 1 Type-C ports?
+A5: No, the Dell OptiPlex 5060 does not have USB 3.2 Gen 1 Type-C ports. This means it does not have the latest USB-C technology for faster data transfer speeds and reversible connector.
+
+Q6: How do I troubleshoot if the USB ports on my Dell OptiPlex 5060 desktop are not working?
+A6: To troubleshoot if the USB ports on your Dell OptiPlex 5060 desktop are not working, follow these steps:
+1. Ensure that your computer and all attached devices are turned off. If they did not automatically turn off when you shut down your operating system, press and hold the power button for about 6 seconds to turn them off.
+2. Before working inside your computer, make sure to follow the safety instructions provided in the manual. Also, ensure that your work surface is flat and clean to prevent scratching the computer cover.
+3. Disconnect all network cables from the computer. To do this, unplug the cable from your computer first, and then unplug it from the network device.
+4. Disconnect your computer and all attached devices from their electrical outlets.
+5. Press and hold the power button while the computer is unplugged to ground the system board. This helps to avoid electrostatic discharge.
+6. After working inside your computer or completing any replacement procedure, reconnect any external devices, cards, and cables before turning on your computer.
+7. Connect any telephone or network cables to your computer. To connect a network cable, first plug it into the network device and then plug it into the computer.
+8. Connect your computer and all attached devices to their electrical outlets.
+9. Turn on your computer and check if the USB ports are now working properly.
+By following these steps, you can troubleshoot USB port issues on your Dell OptiPlex 5060 desktop.
+
+Q7: What should I do if my Dell OptiPlex 5060 desktop does not power on?
+A7: If your Dell OptiPlex 5060 desktop does not power on, follow these steps to troubleshoot the issue:
+1. Ensure that the computer is properly connected to a power source and that the power cable is securely plugged in.
+2. Check if there is power in the electrical outlet by plugging in another device or using a different power cable.
+3. Verify that the power supply unit (PSU) switch, located at the back of the computer, is turned on.
+4. Press and hold the Fn key on your keyboard while pressing the power button. Release both buttons and observe if the computer powers on.
+5. If the computer still does not power on, repeat steps 3-7. This involves disconnecting all external devices, removing and reseating the memory modules, and checking for any loose connections.
+6. Run the built-in self-test (BIST) on the power supply unit. Refer to the Dell support website for instructions on how to perform this test.
+7. If the computer fails the power-on self-test (POST), observe the LED codes emitted during startup. Refer to the manual for a table of LED patterns and their corresponding meanings.
+By following these steps, you can troubleshoot power-related issues with your Dell OptiPlex 5060 desktop.
+
+Q8: How can I resolve issues with the display when connecting an external monitor to my Dell OptiPlex 5060 desktop using HDMI 2.0?
+A8: To resolve display issues when connecting an external monitor to your Dell OptiPlex 5060 desktop using HDMI 2.0, follow these steps:
+1. Ensure that both ends of the HDMI cable are securely connected to the HDMI ports on your Dell OptiPlex 5060 desktop and the external monitor.
+2. Check if the external monitor is powered on and set to the correct input source. Use the monitor's menu or buttons to select the HDMI input.
+3. Verify that the HDMI cable is in good condition and not damaged. Try using a different HDMI cable if available.
+4. On your Dell OptiPlex 5060 desktop, press the Windows key + P to open the display settings. Select the appropriate display mode, such as "Extend" or "Duplicate," depending on your preference.
+5. Adjust the display resolution settings on your computer to match the recommended resolution of the external monitor. Right-click on the desktop, select "Display settings," and choose the desired resolution.
+6. Update the graphics driver on your Dell OptiPlex 5060 desktop. Visit the Dell support website, enter your computer's service tag, and download the latest graphics driver for your system.
+7. Restart your computer and the external monitor to apply the changes.
+By following these steps, you can troubleshoot and resolve display issues when connecting an external monitor to your Dell OptiPlex 5060 desktop using HDMI 2.0.
+
+Q9: What steps should I take if my Dell OptiPlex 5060 desktop is not recognizing the DDR4 memory modules?
+A9: To troubleshoot if your Dell OptiPlex 5060 desktop is not recognizing the DDR4 memory modules, follow these steps:
+1. Ensure that the DDR4 memory modules you are using are compatible with the Dell OptiPlex 5060 desktop. Check the specifications of the memory modules and compare them with the supported memory types mentioned in the manual.
+2. Make sure that the memory modules are properly installed in the memory module sockets. Align the notch on the memory module with the tab on the memory module connector and insert the memory module into the socket. Press the memory module until the retention tabs click into place.
+3. If the memory modules are already installed, try removing and reseating them. Follow the instructions provided in the manual to safely remove and install the memory modules.
+4. Check for any physical damage or debris on the memory modules or the memory module sockets. Clean the contacts on the memory modules and the sockets using a soft, lint-free cloth if necessary.
+5. If you have multiple memory modules installed, try testing them one at a time. Remove all but one memory module and see if the system recognizes it. Repeat this process for each memory module to identify if any specific module is causing the issue.
+By following these steps, you can troubleshoot and resolve issues with DDR4 memory recognition on your Dell OptiPlex 5060 desktop.
+
+Q10: How do I troubleshoot if the processor performance of my Dell OptiPlex 5060 desktop is slower than expected?
+A10: To troubleshoot if the processor performance of your Dell OptiPlex 5060 desktop is slower than expected, follow these steps:
+1. Check the CPU usage in the Task Manager or Activity Monitor to see if any specific processes are consuming a high amount of CPU resources. Close any unnecessary applications or processes that are using excessive CPU power.
+2. Ensure that your computer is not overheating. Check the CPU temperature using a hardware monitoring tool and make sure it is within the normal operating range. Clean the cooling vents and ensure proper airflow around the computer.
+3. Update the BIOS and drivers for your Dell OptiPlex 5060 desktop. Visit the Dell support website, enter your computer's service tag, and download the latest BIOS and driver updates. Install them following the provided instructions.
+4. Scan your computer for malware or viruses using a reliable antivirus software. Malware or viruses can significantly impact the performance of your computer. Perform a full system scan and remove any detected threats.
+5. Adjust the power settings on your computer to ensure that the processor is not being limited by power-saving features. Set the power plan to "High Performance" to maximize the processor performance.
+6. If the issue persists, consider upgrading the processor or adding more RAM to improve overall system performance. Consult the manual or contact Dell support for compatible upgrade options.
+By following these steps, you can troubleshoot and improve the processor performance of your Dell OptiPlex 5060 desktop.
+
+Q11: What is the weight of the Dell OptiPlex 5060?
+A11: The Dell OptiPlex 5060 has a weight of 5260 g.
+
+Q12: What is the height of the Dell OptiPlex 5060?
+A12: The Dell OptiPlex 5060 has a height of 292 mm.
+
+Q13: What is HDMI?
+A13: HDMI stands for High-Definition Multimedia Interface. An HDMI cable is used to transport audio and video signals between devices.
+
+Q14: What is the width of the Dell OptiPlex 5060?
+A14: The Dell OptiPlex 5060 has a width of 92.6 mm.
+
+Q15: What is the depth of the Dell OptiPlex 5060?
+A15: The Dell OptiPlex 5060 has a depth of 290 mm.
+
+Q16: What does the download speed on the internet depend on?
+A16: The download speed on the internet depends on the type of connection you have. If you have a 25 Mb/s connection this means that theoretically you should be able to download 25 MB per second.
+
+Q17: How do I clean my keyboard?
+A17: Hold the keyboard upside down and use a can of compressed air to blow away the dirt. The keys can even be cleaned with a damp cloth.
+
+Q18: Is the manual of the Dell OptiPlex 5060 available in English?
+A18: Yes, the manual of the Dell OptiPlex 5060 is available in English .

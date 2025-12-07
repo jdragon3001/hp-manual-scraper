@@ -1,0 +1,292 @@
+Brand: DELL
+Model: Precision M6800
+URL: https://www.manua.ls/dell/precision-m6800/manual
+Total Pages: 83
+============================================================
+
+--- Page 1 ---
+Dell Precision Mobile Workstation M6800
+Owner's Manual
+Regulatory Model: P30F
+Regulatory Type: P30F001
+
+--- Page 2 ---
+Notes, Cautions, and Warnings
+NOTE: A NOTE indicates important information that helps you make better use of your computer.
+CAUTION: A CAUTION indicates either potential damage to hardware or loss of data and tells you how to avoid the 
+problem.
+WARNING: A WARNING indicates a potential for property damage, personal injury, or death.
+© 2013 Dell Inc. All Rights Reserved.
+Trademarks used in this text: Dell
+™
+, the DELL logo, Dell Precision
+™
+, Precision ON
+™
+,ExpressCharge
+™
+, Latitude
+™
+, 
+Latitude ON
+™
+, OptiPlex
+™
+, Venue
+™
+, Vostro
+™
+, and Wi-Fi Catcher
+™
+ are trademarks of Dell Inc. Intel
+®
+, Pentium
+®
+, Xeon
+®
+, 
+Core
+™
+, Atom
+™
+, Centrino
+®
+, and Celeron
+®
+ are registered trademarks or trademarks of Intel Corporation in the U.S. and 
+other countries. AMD
+®
+ is a registered trademark and AMD Opteron
+™
+, AMD Phenom
+™
+, AMD Sempron
+™
+, AMD Athlon
+™
+, 
+ATI Radeon
+™
+, and ATI FirePro
+™
+ are trademarks of Advanced Micro Devices, Inc. Microsoft
+®
+, Windows
+®
+, MS-DOS
+®
+, 
+Windows Vista
+®
+, the Windows Vista start button, and Office Outlook
+®
+ are either trademarks or registered trademarks of 
+Microsoft Corporation in the United States and/or other countries. Blu-ray Disc
+™
+ is a trademark owned by the Blu-ray 
+Disc Association (BDA) and licensed for use on discs and players. The Bluetooth
+®
+ word mark is a registered trademark 
+and owned by the Bluetooth
+®
+ SIG, Inc. and any use of such mark by Dell Inc. is under license. Wi-Fi
+®
+ is a registered 
+trademark of Wireless Ethernet Compatibility Alliance, Inc.
+
+--- Page 3 ---
+Contents
+1 Working on Your Computer....................................................................................................... 7
+Before Working Inside Your Computer.....................................................................................................................7
+Recommended Tools................................................................................................................................................ 8
+Turning Off Your Computer....................................................................................................................................... 8
+After Working Inside Your Computer........................................................................................................................9
+2 Removing and Installing Components................................................................................... 11
+System Overview....................................................................................................................................................11
+Inside view — backInside view — front..........................................................................................................11
+Removing the Secure Digital (SD) Card..................................................................................................................12
+Installing the SD Card.............................................................................................................................................12
+Removing the ExpressCard.....................................................................................................................................13
+Installing the ExpressCard......................................................................................................................................13
+Removing the Battery............................................................................................................................................. 13
+Installing the Battery.............................................................................................................................................. 14
+Removing the Micro Subscriber Identity Module (SIM) Card................................................................................14
+Installing the Micro Subscriber Identity Module (SIM) Card................................................................................. 15
+Removing the Base Cover.......................................................................................................................................15
+Installing the Base Cover........................................................................................................................................16
+Removing the Wireless Local Area Network (WLAN) Card................................................................................... 16
+Installing the Wireless Local Area Network (WLAN) Card.................................................................................... 17
+Removing Wireless Wide Area Network (WWAN) Card (Optional).......................................................................17
+Installing the Wireless Wide Area Network (WWAN) Card (Optional)..................................................................17
+Removing the Optical Drive.................................................................................................................................... 17
+Installing the Optical Drive..................................................................................................................................... 19
+Removing the Primary Hard Drive.......................................................................................................................... 19
+Installing the Primary Hard Drive............................................................................................................................20
+Removing the Secondary Hard Drive..................................................................................................................... 21
+Installing the Secondary Hard Drive.......................................................................................................................21
+Removing the Coin-Cell Battery..............................................................................................................................22
+Installing the Coin-Cell Battery...............................................................................................................................22
+Removing the Processor Fan..................................................................................................................................22
+Installing the Processor Fan...................................................................................................................................23
+Removing the Video-Card Fan................................................................................................................................ 23
+Installing the Video-Card Fan................................................................................................................................. 24
+Removing the Keyboard Trim..................................................................................................................................24
+Installing the Keyboard Trim...................................................................................................................................25
+Removing the Keyboard..........................................................................................................................................26
+
+--- Page 4 ---
+Installing the Keyboard...........................................................................................................................................28
+Removing the Primary Memory.............................................................................................................................. 29
+Installing the Primary Memory............................................................................................................................... 29
+Removing the Secondary Memory......................................................................................................................... 30
+Installing the Secondary Memory.......................................................................................................................... 30
+Removing the Display Bezel................................................................................................................................... 31
+Installing the Display Bezel.....................................................................................................................................32
+Removing the Camera.............................................................................................................................................33
+Installing the Camera..............................................................................................................................................33
+Removing the Display Panel................................................................................................................................... 33
+Installing the Display Panel.................................................................................................................................... 36
+Removing the Palmrest...........................................................................................................................................36
+Installing the Palmrest............................................................................................................................................41
+Removing the ExpressCard Module........................................................................................................................42
+Installing the ExpressCard Module.........................................................................................................................43
+Removing The Heat Sink.........................................................................................................................................43
+Installing the Heat Sink...........................................................................................................................................44
+Removing the Processor.........................................................................................................................................44
+Installing the Processor..........................................................................................................................................45
+Removing The Video-Card Heat Sink......................................................................................................................45
+Installing the Video-Card Heat Sink........................................................................................................................46
+Removing the Video Card....................................................................................................................................... 47
+Installing the Video Card.........................................................................................................................................47
+Removing the Input/Output (I/O) Board.................................................................................................................. 48
+Installing the I/O Board...........................................................................................................................................48
+Removing the Display Assembly.............................................................................................................................49
+Installing the Display Assembly..............................................................................................................................51
+Removing the Hinge Cover..................................................................................................................................... 51
+Installing the Hinge Cover.......................................................................................................................................52
+Removing the System Board...................................................................................................................................52
+Installing the System Board....................................................................................................................................54
+Removing the Power-Connector Port.....................................................................................................................55
+Installing the Power Connector Port...................................................................................................................... 55
+Removing the Switch Board................................................................................................................................... 56
+Installing the Switch Board.................................................................................................................................... 56
+3 System Setup.............................................................................................................................57
+Boot Sequence....................................................................................................................................................... 57
+Navigation Keys......................................................................................................................................................57
+System Setup Options.............................................................................................................................................58
+Updating the BIOS ................................................................................................................................................. 68
+System and Setup Password..................................................................................................................................68
+
+--- Page 5 ---
+Assigning a System Password and Setup Password...................................................................................... 69
+Deleting or Changing an Existing System and/or Setup Password..................................................................69
+4 Diagnostics.................................................................................................................................71
+Enhanced Pre-Boot System Assessment (ePSA) Diagnostics...............................................................................71
+5 Troubleshooting Your Computer.............................................................................................73
+Device Status Lights............................................................................................................................................... 73
+Battery Status Lights.............................................................................................................................................. 74
+6 Specifications............................................................................................................................75
+Technical Specification..........................................................................................................................................75
+7 Contacting Dell.......................................................................................................................... 83
+Contacting Dell....................................................................................................................................................... 83
+
+--- Page 7 ---
+1
+Working on Your Computer
+Before Working Inside Your Computer
+Use the following safety guidelines to help protect your computer from potential damage and to help to ensure your 
+personal safety. Unless otherwise noted, each procedure included in this document assumes that the following 
+conditions exist:
+• You have performed the steps in Working on Your Computer.
+• You have read the safety information that shipped with your computer.
+• A component can be replaced or--if purchased separately--installed by performing the removal procedure in 
+reverse order.
+WARNING: Before working inside your computer, read the safety information that shipped with your computer. For 
+additional safety best practices information, see the Regulatory Compliance Homepage at www.dell.com/
+regulatory_compliance 
+CAUTION: Many repairs may only be done by a certified service technician. You should only perform 
+troubleshooting and simple repairs as authorized in your product documentation, or as directed by the online or 
+telephone service and support team. Damage due to servicing that is not authorized by Dell is not covered by your 
+warranty. Read and follow the safety instructions that came with the product.
+CAUTION: To avoid electrostatic discharge, ground yourself by using a wrist grounding strap or by periodically 
+touching an unpainted metal surface, such as a connector on the back of the computer.
+CAUTION: Handle components and cards with care. Do not touch the components or contacts on a card. Hold a 
+card by its edges or by its metal mounting bracket. Hold a component such as a processor by its edges, not by its 
+pins.
+CAUTION: When you disconnect a cable, pull on its connector or on its pull-tab, not on the cable itself. Some 
+cables have connectors with locking tabs; if you are disconnecting this type of cable, press in on the locking tabs 
+before you disconnect the cable. As you pull connectors apart, keep them evenly aligned to avoid bending any 
+connector pins. Also, before you connect a cable, ensure that both connectors are correctly oriented and aligned.
+NOTE: The color of your computer and certain components may appear differently than shown in this document.
+To avoid damaging your computer, perform the following steps before you begin working inside the computer.
+1. Ensure that your work surface is flat and clean to prevent the computer cover from being scratched.
+2. Turn off your computer (see Turning Off Your Computer).
+3. If the computer is connected to a docking device (docked) such as the optional Media Base or Battery Slice, 
+undock it.
+CAUTION: To disconnect a network cable, first unplug the cable from your computer and then unplug the 
+cable from the network device.
+4. Disconnect all network cables from the computer.
+5. Disconnect your computer and all attached devices from their electrical outlets.
+7
+
+--- Page 8 ---
+6. Close the display and turn the computer upside-down on a flat work surface.
+NOTE: To avoid damaging the system board, you must remove the main battery before you service the 
+computer.
+7. Remove the main battery.
+8. Turn the computer top-side up.
+9. Open the display.
+10. Press the power button to ground the system board.
+CAUTION: To guard against electrical shock, always unplug your computer from the electrical outlet before 
+opening the display.
+CAUTION: Before touching anything inside your computer, ground yourself by touching an unpainted metal 
+surface, such as the metal at the back of the computer. While you work, periodically touch an unpainted metal 
+surface to dissipate static electricity, which could harm internal components.
+11. Remove any installed ExpressCards or Smart Cards from the appropriate slots.
+Recommended Tools
+The procedures in this document may require the following tools:
+• Small flat-blade screwdriver
+• #0 Phillips screwdriver
+• #1 Phillips screwdriver
+• Small plastic scribe
+• Flash BIOS update program CD
+Turning Off Your Computer
+CAUTION: To avoid losing data, save and close all open files and exit all open programs before you turn off your 
+computer.
+1. Shut down the operating system:
+– In Windows 8:
+* Using a touch-enabled device:
+a. Swipe in from the right edge of the screen, opening the Charms menu and select Settings.
+b. Select the   and then select Shut down
+* Using a mouse:
+a. Point to upper-right corner of the screen and click Settings. 
+b.
+Click the   and select Shut down.
+– In Windows 7:
+1.
+Click Start .
+2. Click Shut Down.
+or
+8
+
+--- Page 9 ---
+1. Click Start .
+2. Click the arrow in the lower-right corner of the Start menu as shown below, and then click Shut 
+Down..
+2. Ensure that the computer and all attached devices are turned off. If your computer and attached devices did not 
+automatically turn off when you shut down your operating system, press and hold the power button for about 4 
+seconds to turn them off.
+After Working Inside Your Computer
+After you complete any replacement procedure, ensure you connect any external devices, cards, and cables before 
+turning on your computer.
+CAUTION: To avoid damage to the computer, use only the battery designed for this particular Dell computer. Do not 
+use batteries designed for other Dell computers.
+1. Connect any external devices, such as a port replicator, battery slice, or media base, and replace any cards, such 
+as an ExpressCard.
+2. Connect any telephone or network cables to your computer.
+CAUTION: To connect a network cable, first plug the cable into the network device and then plug it into the 
+computer.
+3. Replace the battery.
+4. Connect your computer and all attached devices to their electrical outlets.
+5. Turn on your computer.
+9

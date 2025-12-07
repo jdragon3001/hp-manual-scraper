@@ -1,0 +1,413 @@
+================================================================================
+LENOVO IDEACENTRE AIO 520 MANUAL
+================================================================================
+
+PDF manual | · 107 pages | English
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Manual
+View the manual for the Lenovo IdeaCentre AIO 520 here, for free. This manual comes under the category desktops and has been rated by 1 people with an average of a 8.
+
+This manual is available in the following languages: English. Do you have a question about the Lenovo IdeaCentre AIO 520 or do you need help?
+Ask your question here
+
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS:
+
+  Page   7: Chapter 1. About this manual
+  Page   7: Important Safety Information
+  Page   9: Chapter 2. Safety information
+  Page   9: General safety
+  Page   9: Electrical safety
+  Page  11: Safety inspection guide
+  Page  11: Handling electrostatic discharge-sensitive devices
+  Page  12: Grounding requirements
+  Page  12: Safety notices
+  Page  15: Chapter 3. General information
+  Page  15: Specifications
+  Page  17: Chapter 4. General Checkout
+  Page  19: Chapter 5. Using the Setup Utility
+  Page  19: Starting the Lenovo BIOS Setup Utility program
+  Page  19: Viewing and changing settings
+  Page  19: Using passwords
+  Page  21: Enabling or disabling a device
+  Page  22: Selecting a startup device
+  Page  23: Exiting the Lenovo BIOS Setup Utility program
+  Page  25: Chapter 6. Symptom-to-FRU Index
+  Page  25: Hard disk drive boot error
+  Page  25: Power Supply Problems
+  Page  26: POST error codes
+  Page  26: Undetermined problems
+  Page  27: Chapter 7. Locating connectors, controls and components
+  Page  37: Chapter 8. Replacing hardware
+  Page  37: General information
+  Page  38: Replacing the keyboard and mouse
+  Page  38: Replacing the adapter
+  Page  39: Removing the stand base
+  Page  39: Removing the rear cover
+  Page  43: Replacing the camera
+  Page  44: Replacing the heat-sink
+  Page  45: Replacing the CPU
+  Page  48: Replacing the hard disk drive
+  Page  49: Replacing the system fan
+  Page  50: Replacing the optical drive
+  Page  51: Replacing the memory module
+  Page  53: Replacing the solid state drive
+  Page  53: Replacing the Wi-Fi card
+  Page  54: Replacing the side USB board
+  Page  55: Replacing the motherboard
+  Page  57: Removing the stand holder
+  Page  57: Replacing the Microphone module
+  Page  58: Replacing the speaker system
+  Page  59: Replacing the LCD panel module
+  Page  63: Chapter 9. FRU lists
+  Page 107: Chapter 10. General information
+  Page 107: Additional Service Information
+
+--------------------------------------------------------------------------------
+
+MANUAL CONTENT:
+
+================================================================================
+PAGE 5
+================================================================================
+iii
+
+================================================================================
+PAGE 7
+================================================================================
+1
+
+================================================================================
+PAGE 9
+================================================================================
+3
+
+================================================================================
+PAGE 10
+================================================================================
+•Neverassumethatpowerhasbeendisconnectedfromacircuit.First,checkthatithasbeenpoweredoff.
+
+================================================================================
+PAGE 14
+================================================================================
+1
+2
+
+================================================================================
+PAGE 15
+================================================================================
+9
+
+================================================================================
+PAGE 17
+================================================================================
+11
+
+================================================================================
+PAGE 19
+================================================================================
+2.PressandholdtheF1keythenturnonthecomputer.WhentheLenovoBIOSSetupUtilityprogramis
+13
+
+================================================================================
+PAGE 20
+================================================================================
+2.FromtheSecuritymenu,selectSetAdministratorPasswordandpresstheEnterkey.
+3.Thepassworddialogboxwillbedisplayed.TypethepasswordthenpresstheEnterkey.
+4.Re-typethepasswordtoconﬁrm,thenpresstheEnterkey.Ifyoutypedthepasswordcorrectly,
+2.FromtheSecuritymenu,selectSetAdministratorPasswordandpresstheEnterkey.
+3.Thepassworddialogboxwillbedisplayed.TypethecurrentpasswordthenpresstheEnterkey.
+4.Typethenewpassword,thenpresstheEnterkey.Re-typethepasswordtoconﬁrmthenewpassword.
+1.FromtheSecuritymenu,selectSetAdministratorPasswordandpresstheEnterkey.
+2.Thepassworddialogboxwillbedisplayed.TypethecurrentpasswordandpresstheEnterkey.
+3.TodeleteanAdministratorPassword,leaveeachnewpasswordlineitemblank,thenpresstheEnter
+
+================================================================================
+PAGE 21
+================================================================================
+2.FromtheSecuritymenu,selectSetPower-OnPasswordandpresstheEnterkey.
+3.Thepassworddialogboxwillbedisplayed.Typethepassword,thenpresstheEnterkey.
+2.FromtheSecuritymenu,selectSetPower-OnPasswordandpresstheEnterkey.
+3.Thepassworddialogboxwillbedisplayed.TypethecurrentpasswordthenpresstheEnterkey.
+4.Typethenewpassword,thenpresstheEnterkey.Re-typethepasswordtoconﬁrmthenewpassword.
+1.FromtheSecuritymenu,selectSetPower-OnPasswordandpresstheEnterkey.
+2.Thepassworddialogboxwillbedisplayed.TypethecurrentpasswordandpresstheEnterkey.
+3.TodeletethePower-OnPassword,leaveeachnewpasswordlineitemblank,thenpressEnter.ASetup
+TheDevicesoptionsisusedtoenableordisableuseraccesstothefollowingdevices:
+USBFunctionsSelectwhethertoenableordisableUSB(UniversalSerial
+OnboardEthernetControllerorLANBootAgentSelectwhethertoenableordisabletheOnboardEthernet
+onboardPXE(PrebootExecutionEnvironment).
+SelectUSBSetup,presstheEnterkey,thenselectUSBFunctions.
+
+================================================================================
+PAGE 22
+================================================================================
+SelectATADeviceSetup,presstheEnterkey,thenselectSATAMode.
+SelectAudioSetup,presstheEnterkey,thenselectOnboardAudioController.
+SelectNetworkSetup,presstheEnterkey,thenselectOnboardEthernetSupportorLANBoot
+4.SelectDisabledorEnabledandpresstheEnterkey.
+a.Ifyoudonotwanttosavethesettings,selectDiscardchangesandExitfromthemenu.
+2.PressandholdtheF12keythenturnonthecomputer.WhentheStartupDeviceMenuappears,
+Note:IftheStartupDeviceMenudoesnotdisplayusingthesesteps,repeatedlypressandreleasethe
+3.Use↑and↓arrowstoselectthedesiredstartupdevicefromtheStartupDeviceMenuandpress
+Note:SelectingastartupdevicefromtheStartupDeviceMenudoesnotpermanentlychangethe
+3.PresstheEnterkey,andselectthedevicesforthePrimaryBootSequence.Readtheinformation
+4.Use↑and↓arrowstoselectadevice.Usethe<+>or<->keystomoveadeviceupordown.Usethe
+
+================================================================================
+PAGE 23
+================================================================================
+a.Ifyoudonotwanttosavethesettings,selectDiscardchangesandExitfromthemenu.
+Afteryouﬁnishviewingorchangingsettings,presstheEsckeytoreturntotheLenovoBIOSSetupUtility
+programmainmenu.YoumighthavetopresstheEsckeyseveraltimes.Dooneofthefollowing:
+•Ifyouwanttosavethenewsettings,selectSavechangesandExitfromthemenu.WhentheSave&
+resetwindowshows,selecttheYesbutton,andthenpresstheEnterkeytoexittheLenovoBIOS
+•Ifyoudonotwanttosavethesettings,selectDiscardchangesandExitfromthemenu.Whenthe
+ResetWithoutSavingwindowshows,selecttheYesbutton,andthenpresstheEnterkeytoexitthe
+
+================================================================================
+PAGE 25
+================================================================================
+19
+
+================================================================================
+PAGE 26
+================================================================================
+correctlyandthatcertainoptionsareset.ThisseriesoftestsiscalledthePower-OnSelf-Test,orPOST.
+operationinStartupandsettheoptiontoEnabled.The
+20ideacentreAll-In-One520(22&24inch)ComputerHardwareMaintenanceManual
+
+================================================================================
+PAGE 27
+================================================================================
+21
+
+================================================================================
+PAGE 28
+================================================================================
+2.Opticaldrive（Optional）4.Cableclip
+
+================================================================================
+PAGE 29
+================================================================================
+AIO520-22IKL/AIO520-22IKU/AIO520-22AST
+AIO520-24IKL/AIO520-24IKU/AIO520-24AST
+Chapter7.Locatingconnectors,controlsandcomponents23
+
+================================================================================
+PAGE 31
+================================================================================
+Chapter7.Locatingconnectors,controlsandcomponents25
+
+================================================================================
+PAGE 33
+================================================================================
+Chapter7.Locatingconnectors,controlsandcomponents27
+
+================================================================================
+PAGE 34
+================================================================================
+1718
+28ideacentreAll-In-One520(22&24inch)ComputerHardwareMaintenanceManual
+
+================================================================================
+PAGE 35
+================================================================================
+6789
+1011
+151617
+45678
+1617
+Chapter7.Locatingconnectors,controlsandcomponents29
+
+================================================================================
+PAGE 37
+================================================================================
+Attention:Donotremovethecomputercoverorattemptanyrepairbeforereadingthe“Importantsafetyinformation”
+31
+
+================================================================================
+PAGE 47
+================================================================================
+Step7.Holdingthesidesofthemicroprocessorwithyourﬁngers,removetheprotectivecover1that
+2
+
+================================================================================
+PAGE 52
+================================================================================
+a.Positionthenewmemorymoduleoverthememoryslot.Ensurethatthenotch2onthe
+memorymodulealignscorrectlywiththeslotkey1inthememorysocket.Pressthememory
+
+================================================================================
+PAGE 63
+================================================================================
+57
+
+================================================================================
+PAGE 65
+================================================================================
+FAN
+
+================================================================================
+PAGE 69
+================================================================================
+SSD
+SP
+
+================================================================================
+PAGE 70
+================================================================================
+PAD
+
+================================================================================
+PAGE 72
+================================================================================
+FAN
+
+================================================================================
+PAGE 77
+================================================================================
+SSD
+PAD
+
+================================================================================
+PAGE 80
+================================================================================
+FAN
+
+================================================================================
+PAGE 84
+================================================================================
+PAD
+
+================================================================================
+PAGE 87
+================================================================================
+FAN
+
+================================================================================
+PAGE 90
+================================================================================
+SSD
+
+================================================================================
+PAGE 91
+================================================================================
+SP
+PAD
+
+================================================================================
+PAGE 93
+================================================================================
+FAN
+
+================================================================================
+PAGE 97
+================================================================================
+SSD
+SP
+PAD
+
+================================================================================
+PAGE 100
+================================================================================
+FAN
+
+================================================================================
+PAGE 105
+================================================================================
+PAD
+
+================================================================================
+PAGE 107
+================================================================================
+101
+
+--------------------------------------------------------------------------------
+
+SPECIFICATIONS:
+
+General
+----------------------------------------
+  Brand........................................ Lenovo
+  Model........................................ IdeaCentre AIO 520 | IDEACENTRE AIO 520-22IKU
+  Product...................................... desktop
+  Language..................................... English
+  Filetype..................................... User manual (PDF), Quickstart Guide (PDF)
+
+--------------------------------------------------------------------------------
+
+FREQUENTLY ASKED QUESTIONS:
+
+Q1: How can I replace the hard drive in the Lenovo IdeaCentre AIO 520 desktop?
+A1: To replace the hard drive in the Lenovo IdeaCentre AIO 520 desktop, follow these steps:
+1. Turn off the computer and wait for 3 to 5 minutes to let it cool down.
+2. Place the computer face-down on a soft, flat surface.
+3. Remove any media from the drives and shut down the operating system.
+4. Unplug all power cords from electrical outlets.
+5. Disconnect all cables attached to the computer, including power cords and input/output (I/O) cables.
+6. Remove the stand base and the rear cover of the computer.
+7. Pull the hard drive and bracket to the left and lift them up.
+8. Disconnect the signal cable from the hard drive.
+9. Remove the four screws that secure the hard drive to the bracket.
+10. Install the new hard drive by lining it up with the bracket and securing it with four screws.
+11. Connect the data and power cables to the new hard drive.
+12. Slide the hard drive and bracket back into position.
+13. Reattach the rear cover and stand base.
+Please note that these steps are provided as a general guide and may vary slightly depending on the specific model of the Lenovo IdeaCentre AIO 520 desktop.
+
+Q2: Why is my Lenovo IdeaCentre AIO 520 desktop not turning on?
+A2: If your Lenovo IdeaCentre AIO 520 desktop is not turning on, you can try the following steps to troubleshoot the issue:
+1. Check the power supply: Ensure that the power cord is securely plugged into the electrical outlet and the back of the computer. If using a power strip, make sure it is turned on.
+2. Test the power button: Press and hold the power button for at least 10 seconds to completely power off the computer. Then, press the power button again to turn it on.
+3. Check the display: Make sure the monitor is properly connected to the computer and turned on. If using multiple displays, try disconnecting all but one and see if the computer turns on.
+4. Reset the power settings: Unplug the power cord from the back of the computer and wait for about 30 seconds. Then, plug it back in and try turning on the computer.
+5. Check for hardware issues: If none of the above steps work, there may be a hardware issue. It is recommended to contact Lenovo support or a qualified technician for further assistance.
+Please note that these steps are general troubleshooting suggestions and may not resolve all possible issues.
+
+Q3: How do I clean the screen of my Lenovo IdeaCentre AIO 520 desktop?
+A3: To clean the screen of your Lenovo IdeaCentre AIO 520 desktop, follow these steps:
+1. Turn off the computer and unplug the power cord from the electrical outlet.
+2. Use a soft, lint-free cloth, such as a microfiber cloth, to gently wipe the screen in a circular motion. Avoid using paper towels or rough materials that may scratch the screen.
+3. If there are stubborn stains or fingerprints, dampen the cloth with water or a screen cleaning solution specifically designed for electronic devices. Do not spray the solution directly onto the screen; instead, apply it to the cloth and then wipe the screen.
+4. Be careful not to apply excessive pressure while cleaning to avoid damaging the screen.
+5. For hard-to-reach areas, such as the edges of the screen or around the bezel, use a soft brush or a cotton swab lightly dampened with the cleaning solution.
+6. Once the screen is clean, allow it to air dry or use a dry cloth to gently remove any remaining moisture.
+7. Plug the power cord back into the electrical outlet and turn on the computer.
+Remember to regularly clean the screen to maintain optimal display quality and prevent buildup of dirt or smudges.
+
+Q4: What should I do if the audio is not working on my Lenovo IdeaCentre AIO 520 desktop?
+A4: If the audio is not working on your Lenovo IdeaCentre AIO 520 desktop, you can try the following steps to troubleshoot the issue:
+1. Check the volume: Ensure that the volume is not muted or set to a very low level. Adjust the volume using the volume control buttons on the keyboard or the volume settings in the operating system.
+2. Test the speakers: Connect a pair of headphones or external speakers to the audio jack on the computer to check if the sound is working through them. If the sound is audible, the issue may be with the built-in speakers.
+3. Update audio drivers: Open the Device Manager in the operating system and expand the "Sound, video, and game controllers" category. Right-click on the audio device and select "Update driver." Follow the on-screen instructions to update the audio drivers.
+4. Restart the computer: Sometimes, a simple restart can resolve audio issues. Restart the computer and check if the sound is working after the restart.
+5. Perform a system restore: If the audio issue started recently, you can try restoring the computer to a previous point in time when the audio was working fine. Open the System Restore utility and follow the prompts to restore the system.
+If none of these steps resolve the audio issue, it is recommended to contact Lenovo support or a qualified technician for further assistance.
+
+Q5: How can I upgrade the RAM in my Lenovo IdeaCentre AIO 520 desktop?
+A5: To upgrade the RAM in your Lenovo IdeaCentre AIO 520 desktop, follow these steps:
+1. Turn off the computer and unplug the power cord from the electrical outlet.
+2. Locate the RAM compartment on the back or side of the computer. It is usually secured with screws or a latch.
+3. Remove the screws or release the latch to open the RAM compartment.
+4. Carefully remove the existing RAM modules by pushing the retaining clips on the sides outward. The modules will pop up at an angle, allowing you to remove them.
+5. Take the new RAM modules and align the notch on the module with the key in the RAM slot. Insert the module at an angle and press it down until the retaining clips snap into place.
+6. Close the RAM compartment and secure it with the screws or latch.
+7. Plug the power cord back into the electrical outlet and turn on the computer.
+8. Check the system information or use diagnostic software to verify that the new RAM is recognized and functioning properly.
+Please note that it is important to use compatible RAM modules and follow the manufacturer's guidelines for maximum supported RAM capacity and module specifications.
+
+Q6: What is HDMI?
+A6: HDMI stands for High-Definition Multimedia Interface. An HDMI cable is used to transport audio and video signals between devices.
+
+Q7: What does the download speed on the internet depend on?
+A7: The download speed on the internet depends on the type of connection you have. If you have a 25 Mb/s connection this means that theoretically you should be able to download 25 MB per second.
+
+Q8: How do I clean my keyboard?
+A8: Hold the keyboard upside down and use a can of compressed air to blow away the dirt. The keys can even be cleaned with a damp cloth.
+
+Q9: Is the manual of the Lenovo IdeaCentre AIO 520 available in English?
+A9: Yes, the manual of the Lenovo IdeaCentre AIO 520 is available in English .

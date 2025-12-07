@@ -1,0 +1,1791 @@
+--- Page 1 ---
+Dell Pro 16 Plus
+PB16250
+Owner's Manual
+Regulatory Model: P135F
+Regulatory Type: P135F001
+January 2025
+Rev. A00
+
+--- Page 2 ---
+Notes, cautions, and warnings
+NOTE: A NOTE indicates important information that helps you make better use of your product.
+CAUTION: A CAUTION indicates either potential damage to hardware or loss of data and tells you how to avoid 
+the problem.
+WARNING: A WARNING indicates a potential for property damage, personal injury, or death.
+© 2025 Dell Inc. or its subsidiaries. All rights reserved. Dell Technologies, Dell, and other trademarks are trademarks of Dell Inc. or its 
+subsidiaries. Other trademarks may be trademarks of their respective owners.
+
+--- Page 3 ---
+Chapter 1: Views of Dell Pro 16 Plus...............................................................................................7
+Right........................................................................................................................................................................................7
+Left..........................................................................................................................................................................................7
+Front....................................................................................................................................................................................... 8
+Top.......................................................................................................................................................................................... 9
+Bottom..................................................................................................................................................................................10
+Service Tag..........................................................................................................................................................................10
+Battery-charge status light.............................................................................................................................................. 11
+Chapter 2: Set up your Dell Pro 16 Plus........................................................................................ 12
+Chapter 3: Specifications of Dell Pro 16 Plus................................................................................14
+Dimensions and weight..................................................................................................................................................... 14
+Processor............................................................................................................................................................................. 14
+Chipset................................................................................................................................................................................. 15
+Operating system...............................................................................................................................................................15
+Memory................................................................................................................................................................................ 15
+External ports and slots....................................................................................................................................................16
+Internal slots........................................................................................................................................................................16
+Wireless module..................................................................................................................................................................16
+WWAN module....................................................................................................................................................................17
+Audio..................................................................................................................................................................................... 18
+Storage................................................................................................................................................................................. 18
+Keyboard.............................................................................................................................................................................. 19
+Keyboard shortcuts of Dell Pro 16 Plus.................................................................................................................. 19
+Camera..................................................................................................................................................................................21
+Touchpad............................................................................................................................................................................. 21
+Fingerprint reader (optional).......................................................................................................................................... 22
+Power adapter....................................................................................................................................................................22
+Power adapter requirements (for computers that are shipped with 3-cell, 45 Wh battery)................... 23
+Power adapter requirements (for computers that are shipped with 3-cell, 55 Wh battery)................... 23
+Battery................................................................................................................................................................................. 24
+Power requirements (for computers shipped with 3-cell, 45 Wh battery)...................................................26
+Display.................................................................................................................................................................................. 26
+GPU—Integrated.............................................................................................................................................................. 27
+Hardware security............................................................................................................................................................. 27
+Smart-card reader.............................................................................................................................................................28
+Contactless smart-card reader................................................................................................................................ 28
+Contacted smart-card reader................................................................................................................................... 31
+Operating and storage environment.............................................................................................................................32
+Dell Optimizer..................................................................................................................................................................... 32
+Chapter 4: Working inside your computer....................................................................................34
+Safety instructions............................................................................................................................................................34
+Contents
+Contents 3
+
+--- Page 4 ---
+Before working inside your computer.....................................................................................................................34
+Safety precautions...................................................................................................................................................... 35
+Electrostatic discharge—ESD protection............................................................................................................. 35
+ESD Field Service kit ................................................................................................................................................. 36
+Transporting sensitive components........................................................................................................................ 37
+After working inside your computer........................................................................................................................37
+BitLocker............................................................................................................................................................................. 37
+Recommended tools......................................................................................................................................................... 37
+Screw list.............................................................................................................................................................................38
+Major components of Dell Pro 16 Plus......................................................................................................................... 39
+Chapter 5: Removing and installing Customer Replaceable Units (CRUs).................................... 42
+SIM card tray......................................................................................................................................................................42
+Removing the SIM card tray (optional)................................................................................................................. 42
+Installing the SIM card tray (optional)....................................................................................................................43
+Base cover.......................................................................................................................................................................... 44
+Removing the base cover..........................................................................................................................................44
+Installing the base cover............................................................................................................................................ 47
+Battery................................................................................................................................................................................. 49
+Rechargeable Li-ion battery precautions...............................................................................................................49
+Removing the battery.................................................................................................................................................49
+Installing the battery................................................................................................................................................... 51
+Wireless Wide Area Network (WWAN) card.............................................................................................................. 52
+Removing the 5G WWAN card................................................................................................................................ 52
+Installing the 5G WWAN Card .................................................................................................................................54
+Solid State Drive (SSD)...................................................................................................................................................55
+Removing the M.2 2230 SSD...................................................................................................................................55
+Installing the M.2 2230 SSD..................................................................................................................................... 56
+Removing the M.2 2280 SSD................................................................................................................................... 57
+Installing the M.2 2280 SSD..................................................................................................................................... 58
+Speakers..............................................................................................................................................................................59
+Removing the speakers..............................................................................................................................................59
+Installing the speakers................................................................................................................................................60
+Fan........................................................................................................................................................................................ 62
+Removing the fan........................................................................................................................................................ 62
+Installing the fan.......................................................................................................................................................... 62
+Chapter 6: Removing and installing Field Replaceable Units (FRUs)............................................ 64
+Display assembly................................................................................................................................................................64
+Removing the display assembly............................................................................................................................... 64
+Installing the display assembly................................................................................................................................. 66
+Display bezel.......................................................................................................................................................................69
+Removing the display bezel ..................................................................................................................................... 69
+Installing the display bezel.........................................................................................................................................75
+Display panel....................................................................................................................................................................... 76
+Removing the display panel.......................................................................................................................................76
+Installing the display panel.........................................................................................................................................78
+Display hinge cap................................................................................................................................................................81
+Removing the display hinge cap............................................................................................................................... 81
+4
+Contents
+
+--- Page 5 ---
+Installing the display hinge cap.................................................................................................................................82
+Display cable....................................................................................................................................................................... 84
+Removing the display cable.......................................................................................................................................84
+Installing the display cable.........................................................................................................................................84
+Camera module..................................................................................................................................................................85
+Removing the camera module..................................................................................................................................85
+Installing the camera module.................................................................................................................................... 86
+Display back cover............................................................................................................................................................ 87
+Removing the display back cover............................................................................................................................ 87
+Installing the display back cover.............................................................................................................................. 88
+Smart-card reader.............................................................................................................................................................89
+Removing the smart-card reader............................................................................................................................ 89
+Installing the smart-card reader............................................................................................................................... 91
+USH daughter board.........................................................................................................................................................92
+Removing the USH Daughter Board....................................................................................................................... 92
+Installing the USH Daughter Board ........................................................................................................................93
+Heat sink..............................................................................................................................................................................95
+Removing the heat-sink.............................................................................................................................................95
+Installing the heat-sink assembly.............................................................................................................................96
+System board..................................................................................................................................................................... 97
+Removing the system board..................................................................................................................................... 97
+Installing the system board....................................................................................................................................... 99
+USB-C connector module.............................................................................................................................................. 101
+Removing the USB- C connector module............................................................................................................ 101
+Installing the USB-C Connector Module.............................................................................................................. 102
+Power button with optional fingerprint reader.........................................................................................................103
+Removing the power button with an optional fingerprint reader...................................................................103
+Installing the power button with an optional fingerprint reader.....................................................................104
+I/O board........................................................................................................................................................................... 105
+Removing the I/O board.......................................................................................................................................... 105
+Installing the I/O daughter board...........................................................................................................................107
+Keyboard............................................................................................................................................................................108
+Removing the keyboard........................................................................................................................................... 108
+Installing the keyboard.............................................................................................................................................. 110
+Palm-rest assembly..........................................................................................................................................................112
+Removing the palm-rest assembly......................................................................................................................... 112
+Installing the palm-rest assembly............................................................................................................................113
+Chapter 7: Software................................................................................................................... 116
+Operating system............................................................................................................................................................. 116
+Drivers and downloads.................................................................................................................................................... 116
+Chapter 8: BIOS Setup............................................................................................................... 117
+Entering BIOS Setup program....................................................................................................................................... 117
+Navigation keys................................................................................................................................................................. 117
+F12 One Time Boot menu................................................................................................................................................117
+View Advanced Setup options...................................................................................................................................... 118
+View Service options....................................................................................................................................................... 118
+System Setup options..................................................................................................................................................... 118
+Contents
+5
+
+--- Page 6 ---
+Updating the BIOS...........................................................................................................................................................139
+Updating the BIOS in Windows.............................................................................................................................. 139
+Updating the BIOS in Linux and Ubuntu.............................................................................................................. 140
+Updating the BIOS using the USB drive in Windows........................................................................................ 140
+Updating the BIOS from the One-Time boot menu.......................................................................................... 140
+System and setup password..........................................................................................................................................141
+Assigning a System Setup password..................................................................................................................... 141
+Deleting or changing an existing system password or setup password....................................................... 142
+Clearing system and setup passwords....................................................................................................................... 142
+Chapter 9: Troubleshooting....................................................................................................... 143
+Handling swollen rechargeable Li-ion batteries........................................................................................................143
+Locating the Service Tag or Express Service Code of your Dell computer ..................................................... 143
+Dell SupportAssist Pre-boot System Performance Check diagnostics.............................................................. 144
+Running the SupportAssist Pre-Boot System Performance Check.............................................................. 144
+Built-in self-test (BIST)..................................................................................................................................................144
+(Motherboard Built-In Self-Test) M-BIST........................................................................................................... 144
+Logical Built-in Self-test (L-BIST).........................................................................................................................145
+LCD Built-in Self-Test (LCD-BIST)....................................................................................................................... 145
+System-diagnostic lights................................................................................................................................................146
+Recovering the operating system................................................................................................................................ 147
+Real-Time Clock (RTC Reset)...................................................................................................................................... 147
+Backup media and recovery options........................................................................................................................... 148
+Network power cycle......................................................................................................................................................148
+Drain flea power (perform hard reset)....................................................................................................................... 148
+Chapter 10: Getting help and contacting Dell............................................................................. 150
+6
+Contents
+
+--- Page 7 ---
+Views of Dell Pro 16 Plus
+Right
+1. microSD-card slot
+Reads from and writes to the microSD-card.
+2. nano SIM-card slot (optional)
+Insert a SIM card to connect to a mobile broadband network.
+NOTE: Availability of the SIM card slot depends on the region and configuration ordered.
+3. Global headset jack 
+Connect headphones or a headset (headphone and microphone combo).
+4. USB 3.2 Gen 1 port with PowerShare
+Connect devices such as external storage devices and printers. It provides data transfer speeds up to 5 Gbps.
+PowerShare enables you to charge your USB devices even when your computer is turned off.
+NOTE:
+ If your computer is turned off or in a hibernate state, you must connect the power adapter to charge your 
+devices using the PowerShare port. You must enable this feature in the BIOS setup program.
+5. Security-cable slot (wedge-shaped)
+Connect a security cable to prevent unauthorized movement of your computer.
+Left
+1. HDMI 2.1 TMDS port 
+Connect to a TV, external display, or another HDMI-in enabled device. Provides video and audio output.
+2. USB 3.2 Gen 1 port 
+Connect devices such as external storage devices and printers.
+It provides data transfer speeds up to 5 Gbps.
+1
+Views of Dell Pro 16 Plus 7
+
+--- Page 8 ---
+3. Thunderbolt 4.0 with Power Delivery
+Supports USB4, DisplayPort 2.1, Thunderbolt 4 and also enables you to connect to an external display using a display adapter. 
+Provides data transfer rates of up to 40 Gbps for USB4 and Thunderbolt 4.
+NOTE: You can connect a Dell Docking Station to one of the Thunderbolt 4 ports. For more information, search in the 
+Knowledge Base Resource at Dell Support Site.
+NOTE: A USB Type-C to DisplayPort adapter (sold separately) is required to connect a DisplayPort device.
+NOTE: USB4 is backward compatible with USB 3.2, USB 2.0, and Thunderbolt 3.
+NOTE: Thunderbolt 4 supports two 4K displays or one 8K display.
+4. Battery-status light
+Battery-status light indicates the battery-charge status.
+● White-Battery is charging.
+● Solid yellow-Battery charge is low.
+● Blinking yellow-Battery charge is critical.
+● Off—Battery is fully charged.
+5. Smart-card reader slot (optional)
+Using smart card provides authentication in corporate networks.
+Front
+1. Left microphone 
+Provides digital sound input for audio recording and voice calls.
+8
+Views of Dell Pro 16 Plus
+
+--- Page 9 ---
+2. IR Sensor (optional) 
+Sensor detects the absence of the user and locks the computer for securing the computer and reducing power consumption.
+3. Infrared emitter (optional)
+The infrared emitter emits infrared light, which enables the infrared camera to sense and track motion.
+4. Camera 
+A camera enables you to video chat, capture photos, and record videos.
+5. Camera-status light 
+Turns on when the camera is in use.
+6. Right microphone 
+Provides digital sound input for audio recording and voice calls.
+7. Ambient-light sensor (optional) 
+The sensor detects the ambient light and automatically adjusts the display brightness.
+Top
+1. Power button with optional fingerprint reader
+Press to turn on the computer if it is turned off, in sleep state, or in hibernate state.
+When the computer is turned on, press the power button to put the computer into sleep state; press and hold the power 
+button to force shut-down the computer.
+NOTE: You can customize the power-button behavior in Windows.
+Views of Dell Pro 16 Plus 9
+
+--- Page 10 ---
+NOTE: The power-status light on the power button is available only on computers without the fingerprint reader. 
+Computers that are shipped with the fingerprint reader that is integrated on the power button will not have the 
+power-status light on the power button.
+2. Touchpad 
+Move your finger on the touchpad to move the mouse pointer. Tap to left-click and two fingers tap to right-click.
+Bottom
+1. Speakers 
+Provide audio output.
+2. Service Tag label 
+The Service Tag is a unique alphanumeric identifier that enables Dell service technicians to identify the hardware 
+components in your computer and access warranty information.
+Service Tag
+The service tag is a unique alphanumeric identifier that allows Dell service technicians to identify the hardware components in 
+your computer and access warranty information.
+10
+Views of Dell Pro 16 Plus
+
+--- Page 11 ---
+Battery-charge status light
+The following table lists the battery-charge status light of your Dell Pro 16 Plus.
+Table 1. 
+Battery charge and status light behavior
+Power source LED behavior System power state Battery charge level
+AC adapter Off S0 or S5 Fully charged
+AC adapter Solid white S0 or S5 < Fully charged
+Battery Off S0 or S5 11-100%
+Battery Solid amber (590+/-3 nm) S0 or S5 < 10%
+● S0 (ON): Computer is turned on.
+● S4 (Hibernate): The computer consumes the least power in the Hibernate state than in the ON or OFF state. The computer 
+is almost in the OFF state. The context data is written to a storage device, allowing you to resume from where you left when 
+the computer is turned on.
+● S5 (OFF): The computer is in a shutdown state.
+Views of Dell Pro 16 Plus
+11
+
+--- Page 12 ---
+Set up your Dell Pro 16 Plus
+About this task
+NOTE: The images in this document may differ from your computer depending on the configuration you ordered.
+Steps
+1. Connect the power adapter and press the power button.
+Figure 1. Connect the power adapter and press the power button.
+NOTE:
+ The battery may go into power-saving mode during shipment to conserve charge on the battery. Ensure that the 
+power adapter is connected to your computer when it is turned on for the first time.
+2. Finish the operating system setup.
+For Ubuntu:
+Follow the on-screen instructions to complete the setup. For more information about installing and configuring Ubuntu, 
+search in the Knowledge Base Resource at Dell Support Site.
+For Windows:
+Follow the on-screen instructions to complete the setup. When setting up, it is recommended that you:
+● Connect to a network for Windows updates.
+NOTE:
+ If connecting to a secured wireless network, enter the password for the wireless network access when 
+prompted.
+● If connected to the Internet, sign-in with an existing Microsoft account or create a new account. If not connected to the 
+Internet, create an offline account.
+● On the Support and Protection screen, enter your contact details.
+3. Locate and use Dell apps from the Windows Start menu—Recommended.
+2
+12 Set up your Dell Pro 16 Plus
+
+--- Page 13 ---
+Table 2. Locate Dell apps
+Resources Description
+Dell Product Registration
+Register your computer with Dell.
+Dell Help & Support
+Access help and support for your computer.
+SupportAssist
+SupportAssist proactively and predictively identifies hardware and software issues on your 
+computer and automates the engagement process with Dell Technical support. It also addresses 
+performance and stabilization issues, prevents security threats, monitors and detects hardware 
+failures. For more information, see SupportAssist for Home PCs User's Guide at 
+Dell Support Site.
+NOTE: In SupportAssist, click the warranty expiry date to renew or upgrade your warranty.
+Dell Command Update
+Updates your computer with critical fixes and latest device drivers as they become available. For 
+more information about using Dell Command Update, see the product guides and third-party license 
+documents at 
+Dell Support Site.
+Dell Digital Delivery
+Download software applications, which are purchased but not preinstalled on your computer. For 
+more information about using Dell Digital Delivery, search in the Knowledge Base Resource at Dell 
+Support Site.
+Set up your Dell Pro 16 Plus 13
+
+--- Page 14 ---
+Specifications of Dell Pro 16 Plus
+Dimensions and weight
+The following table lists the height, width, depth, and weight of your Dell Pro 16 Plus.
+Table 3. Dimensions and weight
+Description Values
+Height:
+Front height
+0.78 in. (19.85 mm)
+Rear height
+0.81 in. (20.55 mm)
+Maximum Height 0.84 in. (21.35 mm)
+Width
+14.09 in. (358.00 mm)
+Depth
+9.89 in. (251.40 mm)
+Starting weight
+NOTE: The weight of your computer depends on the 
+configuration that is offered.
+4.06 lb (1.84 kg) - minimum
+Processor
+The following table lists the details of the processors that are supported in your Dell Pro 16 Plus.
+Table 4. 
+Processor
+Description Option one Option two Option three Option four Option five
+Processor type
+Intel Core Ultra 5 
+226V
+Intel Core Ultra 5 
+236V
+Intel Core Ultra 5 
+238V
+Intel Core Ultra 7 
+266V
+Intel Core Ultra 7 
+268V
+Processor wattage
+24 W 24 W 24 W 24 W 24 W
+Processor core 
+count
+8 8 8 8 8
+Processor thread 
+count
+8 8 8 8 8
+Processor speed
+up to 4.50 GHz 4.70 GHz up to 4.70 GHz up to 5.00 GHz up to 5.00 GHz
+Processor cache
+8 MB 8 MB 8 MB 12 MB 12 MB
+Integrated graphics
+Intel Arc Graphics Intel Arc Graphics Intel Arc Graphics Intel Arc Graphics Intel Arc Graphics
+3
+14 Specifications of Dell Pro 16 Plus
+
+--- Page 15 ---
+Chipset
+The following table lists the details of the chipset that is supported in your Dell Pro 16 Plus.
+Table 5. Chipset
+Description Values
+Chipset
+Integrated in the processor
+Processor
+Intel Core Ultra 5/7
+DRAM bus width
+64-bit
+Flash EPROM
+64 MB
+PCIe bus
+Up to Gen5
+Operating system
+Your Dell Pro 16 Plus supports the following operating systems:
+● Windows 11 24H2
+● Windows 11 23H2
+● Ubuntu Linux 24.04
+NOTE:
+ Windows 10 22H2 is only for computers downgraded by end users from Windows 11. Support by Dell technologies is 
+subjected to the Microsoft Windows 10 End of Support plan.
+Memory
+The following table lists the memory specifications of your Dell Pro 16 Plus.
+Table 6. 
+Memory specifications
+Description Values
+Memory slots
+Memory on Package
+NOTE: The memory is integrated in the processor and is 
+not upgradable.
+Memory type
+LPDDR5X
+Memory speed
+8533 MT/s
+Maximum memory configuration
+32 GB
+Minimum memory configuration
+16 GB
+Memory configurations supported
+● 16 GB: LPDDR5X, 8533 MT/s
+● 32 GB: LPDDR5X, 8533 MT/s
+Specifications of Dell Pro 16 Plus 15
+
+--- Page 16 ---
+External ports and slots
+The following table lists the external ports and slots of your Dell Pro 16 Plus.
+Table 7. External ports and slots
+Description Values
+USB ports
+● Two Thunderbolt 4 port with DisplayPort Alt Mode/USB 
+Type-C/USB4/Power Delivery
+●
+NOTE: You can connect a Dell Docking Station to this 
+port. For more information, search in the Knowledge 
+Base Resource at Dell Support Site.
+●
+One USB 3.2 Gen 1 port with PowerShare
+● One USB 3.2 Gen 1 port
+Audio port
+Global headset jack
+Video port(s)
+One HDMI 2.1 TMDS port
+Media-card reader
+One smart card reader slot (optional)
+Power-adapter port
+Supported through USB-C
+Security-cable slot
+One wedge-shaped security slot
+SIM-card slot
+Nano-SIM card slot (optional)
+SD-card slot One micro-SD card slot
+Internal slots
+The following table lists the internal slots of your Dell Pro 16 Plus.
+Table 8. 
+Internal slots
+Description Values
+M.2
+● One M.2 2230 or M.2 2280 solid state drive slot
+● One M.2 3052 for WWAN slot (optional)
+NOTE: To learn more about the features of different 
+types of M.2 cards, search in the Knowledge Base 
+Resource at Dell Support Site.
+Wireless module
+The following table lists the Wireless Local Area Network (WLAN) module that is supported on your Dell Pro 16 Plus.
+Table 9. 
+Wireless module specifications
+Description Values
+Model number
+Intel Wi-Fi 7 BE201
+Transfer rate
+Up to 5760 Mbps
+Frequency bands supported
+2.40 GHz/5 GHz/6 GHz
+16 Specifications of Dell Pro 16 Plus
+
+--- Page 17 ---
+Table 9. Wireless module specifications(continued)
+Description Values
+Wireless standards
+● WiFi 802.11a/b/g
+● Wi-Fi 4 (WiFi 802.11n)
+● Wi-Fi 5 (WiFi 802.11ac)
+● Wi-Fi 6E (WiFi 802.11ax)
+● Wi-Fi 7 (WiFi 802.11be)
+Encryption
+● 64-bit/128-bit WEP
+● AES-CCMP
+● TKIP
+Bluetooth wireless card
+Bluetooth 5.4
+WWAN module
+The following table lists the Wireless Wide Area Network (WWAN) module that is supported in your Dell Pro 16 Plus. 
+NOTE: The WWAN module is available only on certain configurations and in certain regions.
+NOTE: Availability of the eSIM feature on this module depends your region.
+NOTE: For instructions on how to setup SIM or eSIM connections on your computer, see the SIM/eSIM Setup Guide for 
+Windows available with your product documentation at Dell Support Site.
+Table 10. WWAN module specifications
+Description Values
+Model number DW5933e MediaTek T700 Global 5G Modem
+Form factor M.2 3052 Key-B
+Host interface PCIe Gen3
+Network standard NR FR1(Sub6) FDD/TDD, LTE FDD/TDD, WCDMA/HSPA+, 
+GPS/GLONASS/Galileo/BDS/QZSS
+Transfer data rate
+SA: DL 4.67Gbps/ UL 1.25Gbps
+NSA: DL 3.74Gbps/ UL 835Mbps
+LTE: DL 1.6Gbps (CAT19)/ UL 211Mbps
+UMTS: DL384 kbps/ UL 384 kbps
+DL DC-HSPA+:42 Mbps (CAT24)/ UL 11.5 Mbps (CAT7)
+Operating frequency bands
+● LTE (1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 
+29, 30, 32, 34, 38, 39, 40, 41, 42, 43, 46, 66, 71)
+● NR (1, 2, 3, 5, 7, 8, 20, 25, 28, 38, 40, 41, 48, 66, 71, 77, 
+78, 79)
+● HSPA+ (1, 2, 4, 5, 8)
+Power supply DC 3.135 V to 4.4 V, Typical 3.3 V
+SIM card Supported through external SIM slot
+NOTE: The availability of eSIM functionality embedded on 
+the module is dependent on the region and specific carrier 
+requirements.
+eSIM with dual SIM (DSSA) Supported
+Antenna diversity Supported
+Specifications of Dell Pro 16 Plus 17
+
+--- Page 18 ---
+Table 10. WWAN module specifications(continued)
+Description Values
+Radio on/off Supported
+Wake On Wireless Supported
+Temperature
+● Normal operating temprature: -10°C to + 55°C
+● Extended operating temprature: -40°C to +85°C
+● Storage temperature: –60°C to +100°C
+Antenna connector
+● WWAN TX0 & PRX Connector × 1
+● WWAN DRX Combined GPS Connector × 1
+● WWAN MIMO PRX Connector × 1
+● WWAN TX1 & MIMO DRX Connector × 1
+● 4x4 MIMO Antenna x2
+NOTE: For instructions to find your computer's International Mobile Equipment Identity (IMEI) number, search in the 
+Knowledge Base Resource at Dell Support Site.
+Audio
+The following table lists the audio specifications of your Dell Pro 16 Plus.
+Table 11. 
+Audio specifications
+Description Values
+Audio controller
+Cirrus Logic CS42L43
+Stereo conversion
+Supported
+Internal audio interface
+Soundwire Interface
+External audio interface
+Global Headset Jack
+Number of speakers
+Two
+Internal-speaker amplifier
+Not supported
+External volume controls
+Keyboard shortcut controls
+Speaker output:
+Average
+2 W
+Peak
+2.5 W
+Microphone
+Dual-array microphones
+Storage
+This section lists the storage options on your Dell Pro 16 Plus.
+The availability of eSIM functionality that is embedded on the moduledepends the region and specific carrier requirements.
+18
+Specifications of Dell Pro 16 Plus
+
+--- Page 19 ---
+Table 12. Storage specifications
+Storage type Interface type Capacity
+M.2 2280 solid state drive, Self-
+encrypting drive, TLC
+Gen 4 PCIe NVMe up to 64 Gbps 1 TB
+M.2 2280 solid state drive, Self-
+encrypting drive, TLC
+Gen 4 PCIe NVMe up to 64 Gbps 2 TB
+M.2 2230 solid state drive, TLC Gen 4 PCIe NVMe up to 64 Gbps 1 TB
+M.2 2230 solid state drive, TLC Gen 4 PCIe NVMe up to 64 Gbps 512 GB
+M.2 2230 solid state drive, QLC Gen 4 PCIe NVMe up to 64 Gbps 512 GB
+M.2 2230 solid state drive, TLC Gen 4 PCIe NVMe up to 64 Gbps 256 GB
+Keyboard
+The following table lists the keyboard specifications of your Dell Pro 16 Plus.
+Table 13. Keyboard specifications
+Description Values
+Keyboard type
+● Standard backlit keyboard
+● Standard non-backlit keyboard
+Keyboard layout
+QWERTY
+Number of keys
+● United States and Canada: 99 keys
+● United Kingdom: 100 keys
+● Japan: 103 keys
+Keyboard size
+X=19.05 mm key pitch
+Y=18.05 mm key pitch
+Keyboard shortcuts
+Some keys on your keyboard have two symbols on them. 
+These keys can be used to type alternate characters or to 
+perform secondary functions. To type the alternate character, 
+press Shift and the desired key. To perform secondary 
+functions, press Fn and the desired key.
+NOTE: You can define the primary behavior of the 
+function keys (F1–F12) changing Function Key Behavior 
+in the BIOS setup program.
+NOTE: If Copilot in Windows is not available on your 
+computer, pressing the Copilot key launches Windows 
+search. For more information about Copilot in Windows, 
+search in the Knowledge Base Resource at the Dell 
+Support site.
+Keyboard shortcuts of Dell Pro 16 Plus
+NOTE:
+ Keyboard characters may differ depending on the keyboard language configuration. Keys that are used for shortcuts 
+remain the same across all language configurations.
+Specifications of Dell Pro 16 Plus 19
+
+--- Page 20 ---
+Some keys on your keyboard have two symbols on them. These keys can be used to type alternate characters or to perform 
+secondary functions. The symbol that is shown on the lower part of the key refers to the character that is typed out when the 
+key is pressed. If you press shift and the key, the symbol that is shown on the upper part of the key is typed out. For example, if 
+you press 2, 2 is typed out; if you press Shift + 2, @ is typed out.
+The keys F1-F12 at the top row of the keyboard are function keys for multimedia control, as indicated by the icon on the key. 
+Press the function key to enable the task represented by the icon. For example, pressing F1 mutes the audio (see the table 
+below).
+However, if the function keys F1-F12 are needed for specific software applications, multimedia functionality can be disabled by 
+pressing 
+Fn + Esc. Later, multimedia control can be invoked by pressing Fn and the respective function key. For example, mute 
+audio by pressing Fn + F1.
+NOTE: You can also define the primary behavior of the function keys (F1–F12) by changing Function Key Behavior in the 
+BIOS setup program.
+Table 14. Function key primary behavior
+Function key Primary behavior
+F1 Mute or unmute audio
+F2 Decrease volume
+F3 Increase volume
+F4 Mute or unmute microphone
+F5 Change the brightness of backlit keyboard (for backlit keyboard only)
+F6 Decrease display brightness
+F7 Increase display brightness
+F8 Switch to external display
+F9 Not applicable
+F10 Print screen
+F11 Home
+F12 End
+The Fn key is also used with selected keys on the keyboard to invoke secondary functions.
+Table 15. 
+Secondary behavior
+Function key Secondary behavior
+Fn + F1 Operating system and application-specific F1 behavior
+Fn + F2 Operating system and application-specific F2 behavior
+Fn + F3 Operating system and application-specific F3 behavior
+Fn + F4 Operating system and application-specific F4 behavior
+Fn + F5 Operating system and application-specific F5 behavior
+Fn + F6 Operating system and application-specific F6 behavior
+Fn + F7 Operating system and application-specific F7 behavior
+Fn + F8 Operating system and application-specific F8 behavior
+Fn + F9 Operating system and application-specific F9 behavior
+Fn + F10 Operating system and application-specific F10 behavior
+Fn + F11 Operating system and application-specific F11 behavior
+Fn + F12 Operating system and application-specific F12 behavior
+Fn + Copilot Operating system Context menu behavior.
+20 Specifications of Dell Pro 16 Plus
+
+--- Page 21 ---
+Table 15. Secondary behavior(continued)
+Function key Secondary behavior
+Fn + Esc Toggle Function key lock
+Fn + PgUp (cursor up) Scroll up the document or page
+Fn + PgDn (cursor down) Scroll down the document or page
+Camera
+The following table lists the camera specifications of your Dell Pro 16 Plus.
+Table 16. Camera specifications
+Description Values
+Number of cameras
+One
+Camera type
+There are 3 camera options:
+● RGB camera
+● RGB + IR camera
+● MIPI + IR camera
+Camera location
+Front camera
+Camera sensor type
+CMOS sensor technology
+Camera resolution:
+Still image
+● 2.07 megapixels
+● 5.20 megapixels
+Video
+● 1920 x 1080 at 30 fps
+● 2560 x 1440 at 30 fps
+Infrared camera resolution:
+Still image
+0.23 megapixels
+Video
+640 x 360 at 15 fps
+Diagonal viewing angle:
+Camera
+● 80.20 degrees
+● 91.20 degrees
+Infrared camera
+86.60 degrees
+Touchpad
+The following table lists the touchpad specifications of your Dell Pro 16 Plus. 
+Table 17. 
+Touchpad specifications
+Description Values
+Touchpad resolution:
+>=300 dpi
+Touchpad dimensions:
+Specifications of Dell Pro 16 Plus 21
+
+--- Page 22 ---
+Table 17. Touchpad specifications(continued)
+Description Values
+Horizontal
+125 mm (4.92 in.)
+Vertical
+88 mm (3.46 in.)
+Touchpad gestures For more information about the touchpad gestures that are 
+available on:
+● Windows, see the Microsoft Knowledge Base article at 
+Microsoft Support Site.
+● Ubuntu, see Ubuntu Support Site.
+Fingerprint reader (optional)
+The following table lists the specifications of the optional fingerprint-reader of your Dell Pro 16 Plus.
+Table 18. Fingerprint reader specifications
+Description Values
+Sensor technology
+Trans-capacitive sensing
+Sensor resolution
+500/363 dpi
+Sensor pixel size
+● X: 108 / 76
+● Y: 88 / 100
+Power adapter
+The following table lists the power adapter specifications of your Dell Pro 16 Plus.
+Table 19. 
+Power-adapter specifications
+Description Option one Option two Option three
+Type
+60 W adapter, USB-C 65 W adapter, USB-C 100 W adapter, USB-C
+Power-adapter dimensions:
+Height
+22 mm (0.87 in.) 28 mm (1.1 in.) 26.5 mm (1.04 in.)
+Width
+55 mm (2.16 in.) 51 mm (2.01 in.) 60 mm (2.36 in.)
+Depth
+66 mm (2.60 in.) 112 mm (4.41 in.) 122 mm (4.80 in.)
+Input voltage
+100 VAC–240 VAC 100 VAC–240 VAC 100 VAC–240 VAC
+Input frequency
+50 Hz x 60 Hz 50 Hz to 60 Hz 50 Hz to 60 Hz
+Input current (maximum)
+1.70 A 1.70 A 1.70 A
+Output current (continuous)
+● 20 V/3 A (continuous)
+● 15 V/3 A (continuous)
+● 9.0 V/3 A (continuous)
+● 5.0 V/3 A (continuous)
+● 20 V/3.25 A (continuous)
+● 15 V/3 A (continuous)
+● 9 V/3 A (continuous)
+● 5 V/3 A (continuous)
+● 20 V/5 A (continuous)
+● 15 V/3 A (continuous)
+● 9.0 V/3 A (continuous)
+● 5.0 V/3 A (continuous)
+Rated output voltage
+20 VDC/15 VDC/9 VDC/5 
+VDC
+20 VDC/15 VDC/9 VDC/5 
+VDC
+20 VDC/15 VDC/9 VDC/5 
+VDC
+22 Specifications of Dell Pro 16 Plus
+
+--- Page 23 ---
+Table 19. Power-adapter specifications(continued)
+Description Option one Option two Option three
+Temperature range:
+Operating
+0°C to 40°C (32°F to 104°F) 0°C to 40°C (32°F to 104°F) 0°C to 35°C (32°F to 95°F)
+Storage
+-20°C to 70°C (-4°F to 
+158°F)
+-40°C to 70°C (-40°F to 
+158°F)
+-40°C to 70°C (-40°F to 
+158°F)
+CAUTION: Operating and storage temperature ranges may differ among components, so operating or storing 
+the device outside these ranges may impact the performance of specific components.
+Power adapter requirements (for computers that are shipped with 
+3-cell, 45 Wh battery)
+This section contains the power adapter requirements for the Dell Pro 16 Plus.
+NOTE: If you did not purchase the Dell-branded power adapter that is recommended for your computer, ensure that the 
+power adapter you use meets the following requirements:
+Table 20. Power adapter requirements for Dell Pro 16 Plus
+Description Value
+Power that is required from a power adapter to achieve 
+optimal performance.
+65 W
+Power that is required to charge the computer at a slower 
+speed.
+NOTE: A warning message may appear informing you 
+about the use of a lower-powered adapter and slower 
+charging speed.
+Less than 60 W
+Minimum power that is required from a power adapter to 
+operate the computer and charge the battery.
+NOTE: A warning message appears informing you about 
+the use of a lower-powered adapter and slower charging 
+speed.
+27 W
+USB Power Delivery (PD) fast charging Supported
+ExpressCharge mode 1. 45 Whr battery needs a 65 W AC adapter to achieve 
+Express Charge.
+NOTE: Ensure that the computer is connected to a 65 W 
+power adapter for this feature to be supported.
+NOTE: ExpressCharge mode must also be enabled in 
+the BIOS Setup screen by selecting Power > Battery 
+Configuration > ExpressCharge, then pressing Enter.
+Power adapter requirements (for computers that are shipped with 
+3-cell, 55 Wh battery)
+This section contains the power adapter requirements for the Dell Pro 16 Plus.
+NOTE:
+ If you did not purchase the Dell-branded power adapter that is recommended for your computer, ensure that the 
+power adapter you use meets the following requirements:
+Specifications of Dell Pro 16 Plus 23
+
+--- Page 24 ---
+Table 21. Power adapter requirements for Dell Pro 16 Plus
+Description Value
+Power that is required from a power adapter to achieve 
+optimal performance.
+100 W
+Power that is required to charge the computer at a slower 
+speed.
+NOTE: A warning message may appear informing you 
+about the use of a lower-powered adapter and slower 
+charging speed.
+Less than 60 W
+Minimum power that is required from a power adapter to 
+operate the computer and charge the battery.
+NOTE: A warning message appears informing you about 
+the use of a lower-powered adapter and slower charging 
+speed.
+27 W
+USB Power Delivery (PD) fast charging Supported
+ExpressCharge mode 1. 55 Whr battery needs a 100 W AC adapter to achieve 
+Express Charge.
+NOTE: Ensure that the computer is connected to a 100 W 
+power adapter for this feature to be supported.
+NOTE: ExpressCharge mode must also be enabled in 
+the BIOS Setup screen by selecting Power > Battery 
+Configuration > ExpressCharge, then pressing Enter.
+Battery
+The following table lists the battery specifications of your Dell Pro 16 Plus.
+Table 22. 
+Battery specifications
+Description Option one Option two Option three Option four
+Battery type
+3-cell, 45 
+Wh, ExpressCharge, 
+ExpressCharge Boost
+3-cell, 55 
+Wh, ExpressCharge, 
+ExpressCharge Boost
+3-cell, 45 Wh, 
+Long Life Cycle, 
+ExpressCharge
+3-cell, 55 Wh, 
+Long Cycle Life, 
+ExpressCharge
+Battery voltage
+11.25 V 11.70 VDC 11.25 VDC 11.70 VDC
+Battery weight (minimum)
+0.20 Kg (0.44 lb) 0.22 kg (0.48 lb) 0.20 kg (0.44 lb) 0.22 kg (0.48 lb)
+Battery dimensions:
+Height
+72.80 mm (2.83 in.) 72.80 mm (2.83 in.) 72.80 mm (2.83 in.) 
+display
+72.80 mm (2.83 in.)
+Width
+254.80 mm (10.03 in.) 254.80 mm (10.03 in.) 254.80 mm (10.03 in.) 254.80 mm (10.03 
+in.)
+Depth
+6.30 mm (0.25 in.) 6.3 mm (0.25 in.) 6.3 mm (0.25 in.) 6.3 mm (0.25 in.)
+Temperature range:
+Operatin
+g
+0°C to 45°C (32°F 
+to 113°F)
+0°C to 45°C (32°F to 
+113°F)
+0°C to 60°C (32°F 
+to 140°F)
+0°C to 60°C (32°F 
+to 140°F)
+Storage
+–20°C to 65°C (-4°F 
+to 149°F)
+–20°C to 65°C (-4°F 
+to 149°F)
+–20°C to 60°C (-4°F 
+to 140°F)
+–20°C to 60°C 
+(-4°F to 140°F)
+24 Specifications of Dell Pro 16 Plus
+
+--- Page 25 ---
+Table 22. Battery specifications(continued)
+Description Option one Option two Option three Option four
+Battery operating time Varies depending 
+on operating 
+conditions and can 
+significantly reduce 
+under certain power-
+intensive conditions.
+Varies depending 
+on operating 
+conditions and can 
+significantly reduce 
+under certain power-
+intensive conditions.
+Varies depending 
+on operating 
+conditions and can 
+significantly reduce 
+under certain power-
+intensive conditions.
+Varies depending 
+on operating 
+conditions and can 
+significantly reduce 
+under certain power-
+intensive conditions.
+Battery charging time 
+(approximate)
+NOTE: Control the 
+charging time, duration, 
+start and end time, and so 
+on using the Dell Power 
+Manager application. For 
+more information about 
+Dell Power Manager, 
+search in the Knowledge 
+Base Resource at Dell 
+Support Site.
+Standard charge/
+Predominately AC 
+User Charge 
+Method:
+● 0°C to15°C 
+maximum 
+allowable charge 
+time from 0% to 
+100% RSOC is 4 
+hours
+● 16°C to 
+45°C maximum 
+allowable charge 
+time from 0% to 
+100% RSOC is 3 
+hours
+Express Charge 
+Method :
+● 16°C to 
+45°C maximum 
+allowable charge 
+time from 0% to 
+60% RSOC is 1 
+hours
+● 16°C to 
+45°C maximum 
+allowable charge 
+time from 0% to 
+100% RSOC is 2 
+hours
+Express Charge 
+Boost charge 
+Method :
+● 16°C to 
+45°C maximum 
+allowable charge 
+time from 0% to 
+35% RSOC is 20 
+min
+Standard charge/
+Predominately AC 
+User Charge 
+Method:
+● 0°C to 15°C 
+maximum allowable 
+charge time from 
+0% to 100% RSOC 
+is 4 hours
+● 16°C to 45°C 
+maximum allowable 
+charge time from 
+0% to 100% RSOC 
+is 3 hours
+Express Charge 
+Method :
+● 16°C to 45°C 
+maximum allowable 
+charge time from 
+0% to 60% RSOC 
+is 1 hours
+● 16°C to 45°C 
+maximum allowable 
+charge time from 
+0% to 100% RSOC 
+is 2 hours
+Express Charge 
+Boost charge 
+Method :
+● 16°C to 45°C 
+maximum allowable 
+charge time from 
+0% to 35% RSOC 
+is 20 min
+Standard charge/
+Predominately AC 
+User Charge 
+Method:
+● 0°C to 
+15°C maximum 
+allowable charge 
+time from 0% to 
+100% RSOC is 4 
+hours
+● 16°C to 
+45°C maximum 
+allowable charge 
+time from 0% to 
+100% RSOC is 3 
+hours
+Express Charge 
+Method :
+● 16°C to 
+45°C maximum 
+allowable charge 
+time from 0% to 
+60% RSOC is 1 
+hours
+● 16°C to 
+45°C maximum 
+allowable charge 
+time from 0% to 
+100% RSOC is 2 
+hours
+Standard charge/
+Predominately AC 
+User Charge 
+Method:
+● 0°C to 
+15°C maximum 
+allowable charge 
+time from 0% to 
+100% RSOC is 4 
+hours
+● 16°C to 
+45°C maximum 
+allowable charge 
+time from 0% to 
+100% RSOC is 3 
+hours
+Express Charge 
+Method :
+● 16°C to 
+45°C maximum 
+allowable charge 
+time from 0% to 
+60% RSOC is 1 
+hours
+● 16°C to 
+45°C maximum 
+allowable charge 
+time from 0% to 
+100% RSOC is 2 
+hours
+Coin-cell battery
+No No No No
+CAUTION: Operating and storage temperature ranges may differ among components, so operating or storing 
+the device outside these ranges may impact the performance of specific components.
+CAUTION: Dell recommends that you charge the battery regularly for optimal power consumption. If your 
+battery charge is completely depleted, connect the power adapter, turn on your computer, and then restart 
+your computer to reduce the power consumption.
+Specifications of Dell Pro 16 Plus 25
+
+--- Page 26 ---
+Power requirements (for computers shipped with 3-cell, 45 Wh 
+battery)
+NOTE: The information in this section is applicable to the European Union (EU) countries.
+Figure 2. Pictogram for 45Wh battery
+The power that is delivered by the charger must be between a minimum of 27 Watts that is required by the radio equipment, 
+and a maximum of 59 Watts in order to achieve the maximum charging speed.
+This computer supports USB Power Delivery (PD) fast charging.
+Display
+The following table lists the display specifications of your Dell Pro 16 Plus.
+Table 23. 
+Display specifications
+Description Option one Option two Option three
+Display type
+16-inch Full High Definition 
+Plus (FHD+)
+16-inch Full High Definition 
+Plus(FHD+)
+16-inch Quad High Definition 
+Plus (QHD+)
+Touch options
+No Yes No
+Display-panel technology
+In Plane Switching (IPS), 
+WLED
+In Plane Switching (IPS), 
+WLED
+In Plane Switching (IPS), 
+WLED
+Display-panel dimensions 
+(active area):
+Height
+215.42 mm (8.48 in.) 215.42 mm (8.48 in.) 215.42 mm (8.48 in.)
+Width
+344.68 mm (13.57 in.) 344.68 mm (13.57 in.) 344.68 mm (13.57 in.)
+Diagonal
+406.46 mm (16.00 in.) 406.46 mm (16.00 in.) 406.46 mm (16.00 in.)
+Display-panel native 
+resolution
+1920 x 1200 1920 x 1200 2560 x 1600
+Luminance (typical)
+300 nits 300 nits 300 nits
+Megapixels
+16.20 16.20 1064
+Color gamut
+45% NTSC 45 % NTSC 100% SRGB
+Pixels Per Inch (PPI)
+142 ppi 142 ppi 189 ppi
+Contrast ratio (typical)
+1000:1 1000:01 1200:01
+26 Specifications of Dell Pro 16 Plus
+
+--- Page 27 ---
+Table 23. Display specifications(continued)
+Description Option one Option two Option three
+Response time (maximum)
+35 ms 35 ms 35 ms
+Refresh rate
+60 Hz 60 Hz 120 Hz
+Horizontal view angle
++/- 80 degrees(min) +/- 80 degrees(min) +/- 80 degrees(min)
+Vertical view angle
++/- 80 degrees(min) +/- 80 degrees(min) +/- 80 degrees(min)
+Pixel pitch
+0.18 mm x 0.18 mm 0.18 x 0.18 mm 0.13 x 0.13 mm
+Power consumption 
+(maximum)
+4.45 W 5.6 W 4 W
+Anti-glare vs glossy finish
+Anti-glare Anti-glare Anti-glare
+GPU—Integrated
+The following table lists the specifications of the integrated Graphics Processing Unit (GPU) supported by your Dell Pro 16 Plus.
+Table 24. GPU—Integrated
+Controller Memory size Processor
+Intel Arc Graphics Shared system memory Intel Core Ultra 5/7
+Hardware security
+The following table lists the hardware security of your Dell Pro 16 Plus.
+Table 25. 
+Hardware security 
+Hardware security
+Trusted Platform Module (TPM) 2.0 discrete
+FIPS 140-2 certification for TPM
+TCG Certification for TPM (Trusted Computing Group)
+Finger Print Reader in Power Button available with ControlVault 3 Plus
+ControlVault 3 Plus Advanced Authentication with FIPS 140-3 Level 3 Certification
+Contacted Smart Card and ControlVault 3 Plus
+Contactless Smart Card, NFC, and ControlVault 3 Plus
+SED SSD NVMe, SSD, and hard drive (Opal and non-Opal) per SDL
+FIPS 201 Full Scan FPR and ControlVault 3 Plus
+Specifications of Dell Pro 16 Plus 27
+
+--- Page 28 ---
+Smart-card reader
+Contactless smart-card reader
+This section lists the contactless smart-card reader specifications of your Dell Pro 16 Plus. This module is only available in 
+computers shipped with Smart-card readers.
+Table 26. Contactless smart-card reader specifications
+Title Description Dell ControlVault 3 Plus Contactless 
+smart-card reader with NFC
+Felica Card Support Reader and software capable of 
+supporting Felica contactless cards
+Yes
+Prox (Proximity) (125 kHz) Card support Reader and software capable of 
+supporting Prox /Proximity/125 kHz 
+contactless cards
+No
+ISO 14443 Type A Card Support Reader and software capable of 
+supporting ISO 14443 Type A contactless 
+cards
+Yes
+ISO 14443 Type B Card Support Reader and software capable of 
+supporting ISO 14443 Type B contactless 
+cards
+Yes
+ISO/IEC 21481 Reader and software capable of 
+supporting ISO/IEC 21481 compliant 
+contactless cards and tokens
+Yes
+ISO/IEC 18092 Reader and software capable of 
+supporting ISO/IEC 21481 compliant 
+contactless cards and tokens
+Yes
+ISO 15693 Card Support Reader and software capable of 
+supporting ISO15693 contactless cards
+Yes
+NFC Tag Support Supports reading and processing of 
+NFC-compliant tag information
+Yes
+NFC Reader Mode Support for NFC Forum Defined Reader 
+mode
+Yes
+NFC Writer Mode Support for NFC Forum Defined Writer 
+mode
+Yes
+NFC Peer-to-Peer Mode Support for NFC Forum Defined Peer to 
+Peer mode
+Yes
+NFC Proximity OS Interface Enumerates NFP (Near Field Proximity) 
+device for operating system to use
+Yes
+PC/SC operating system interface Personal Computer/Smart Card 
+specification for integration of hardware 
+readers into personal computer 
+environments
+Yes
+CCID driver compliance Common driver support for Integrated 
+Circuit Card Interface Device for 
+operating system level drivers
+Yes
+Dell ControlVault support The device connects to Dell ControlVault 
+for usage and processing
+Yes
+NOTE: 125 Khz proximity cards are not supported.
+28 Specifications of Dell Pro 16 Plus
+
+--- Page 29 ---
+Table 27. Contactless card types supported
+Interface Card type Supported functionality
+NFC Forum (Microsoft Proximity 
+Device)
+Type 1 tag Read/Write NDEF
+Type 2 tag Read/Write NDEF
+Type 3 tag Read/Write NDEF
+Type 4 tag Read/Write NDEF
+Type 5 tag Read/Write NDEF
+P2P Exchange NDEF
+RFID (Microsoft Smartcard Device) ISO14443A Read UUID and APDU Exchange 
+(ISO7816)
+ISO14443B Read UUID and APDU Exchange 
+(ISO7816)
+Sony FeliCa Read UUID only
+Legacy iClass (ISO15693) Read UUID only
+Mifare Classic Read UUID only
+Low Frequency (125 KHz ) Not supported
+Table 28. Supported cards
+Manufacturer Card
+HID jCOP readertest3 A card (14443a)
+1430 1L
+DESFire D8H
+DESFIRE 4K Standard - 1450NGGNN
+iClass 16K/16 - 2002PGGMN
+iClass SR 16K/16 - 2002HPGGMN
+iCLASS 2K tag
+iCLASS GP - 2003 PGGMN
+iClass Clamshell - 2080PMSMV
+iClass Prox 16K/16 - 2022BGGMNN
+Mifare M1P 1430 NGGNN
+iclass Prox 2020BGGMNM
+DesFire D8P 1456CSGMN
+iCLASS MIFARE Px GM49Y 2623BNPGGBNAB
+iCLASS MIFARE Px 8M1L
+iClass SEOS JW 5006PGGMN
+Crescendo iCLASS Px G8H
+iCLASS Seos IY
+SEOS JMC4 J1Y 5806VNG1NNN4
+SEOS Key FOB 5266PNNA
+SEOS Clamshell 5656PMSAV
+SEOS + Prox 5106RGGMNN
+Specifications of Dell Pro 16 Plus 29
+
+--- Page 30 ---
+Table 28. Supported cards(continued)
+Manufacturer Card
+SEOS + DESFire 5906PNG1ANN7
+SEOS iClass 5006PGGMN7
+Seos Essential + Prox 551PPGGANN
+iCLASS 2K 2000PGGMN
+iCLASS 2K 3000PGGMN
+MIFARE DESFire 3700CPGGAN
+iCLASS DP
+DESFire 1Y
+NXP/Mifare Mifare DESFire 8K White PVC card
+Mifare Classic 1K White PVC card
+NXP Mifare Classic S50 ISO card
+Mifare DESFire 2K
+Mifare Plus S 2K/4K
+Mifare Plus X 4K
+G&D idOnDemand - SCE3.2 144K
+SCE6.0 FIPS 80K Dual + 1K Mifare
+SCE6.0 nonFIPS 80K Dual + 1K Mifare
+SCE6.0 FIPS 144K Dual + 1K Mifare
+SCE6.0 nonFIPS 144K Dual + 1K Mifare
+SCE7.0 FIPS 144K
+Oberthur idOnDemand - OCS5.2 80K
+ID-One Cosmo 64 RSA D V5.4 T = 0 card
+ID-One Cosmo 128K V5.5 card
+Gemalto TOP DL GX4 144K card
+Sony Felica RC-S962
+Felica RC-S965
+Felica RC-S966
+PIVKey C910 PKI
+NIST PIV1
+IDENTIV PIV programmed cards
+uTrust
+Transport cards Oyster (London) MIFARE DESFire
+T-Money (Korea)
+Octopus Card (Hong Kong)
+SUICA (Japan)
+30 Specifications of Dell Pro 16 Plus
+
+--- Page 31 ---
+Table 29. Qualified NFC tags
+NFC tag Supported
+Tap and do - NFC Forum Type 1 Tag - Topaz 512 
+(BCM920203)
+Yes
+Tap and do - NFC Forum Type 1 Tag - Topaz 512 
+(BCM20203T512)
+Yes
+Tap and do - NFC Forum Type 1 Tag - Topaz (BCM20203T96) Yes
+Tap and do - NFC Forum Type 2 Tag - Mifare UltraLight Yes
+Tap and do - NFC Forum Type 2 Tag - Mifare UltraLight C Yes
+Tap and do - NFC Forum Type 2 Tag - NTAG203 Yes
+Tap and do - NFC Forum Type 3 Tag - FeliCa Lite RC-S965 Yes
+Tap and do - NFC Forum Type 3 Tag - FeliCa RC-S962 Yes
+Tap and do - NFC Forum Type 4 Tag - Mifare DESFire 
+EV1Card 2K
+Yes
+Tap and do - NFC Forum Type 4 Tag - Mifare DESFire 
+EV1Card 4K
+Yes
+Tap and do - NFC Forum Type 4 Tag - Mifare DESFire 
+EV1Card 8K
+Yes
+Tap and do - ISO 15693 - Tag-it Plus Yes
+HID I-code ISO card Yes
+Contacted smart-card reader
+The following table lists the contacted smart-card reader specifications of your Dell Pro 16 Plus.
+Table 30. 
+Contacted smart-card reader specifications
+Title Description Dell ControlVault 3 Plus Contacted 
+smart-card reader
+ISO 7816-3 Class A Card Support Reader capable of reading 5 V powered 
+smart card
+Yes
+ISO 7816-3 Class B Card Support Reader capable of reading 3 V powered 
+smart card
+Yes
+ISO 7816-3 Class C Card support Reader capable of reading 1.8 V powered 
+smart card
+Yes
+T = 0 support Cards support character level 
+transmission
+Yes
+T = 1 support Cards support block level transmission Yes
+EMVCo Certified Formally certified based on EMVCo 
+smart card standards
+Yes
+PC/SC operating system interface Personal Computer/Smart Card 
+specification for integration of hardware 
+readers into personal computer 
+environments
+Yes
+CCID driver compliance Common driver support for Integrated 
+Circuit Card Interface Device for 
+operating system level drivers
+Yes
+Specifications of Dell Pro 16 Plus 31
+
+--- Page 32 ---
+Table 30. Contacted smart-card reader specifications(continued)
+Title Description Dell ControlVault 3 Plus Contacted 
+smart-card reader
+Windows Certified Certified by the Windows Hardware 
+Certification program
+Yes
+FIPS 201 (PIV/HSPD-12) Compliant Device compliant with FIPS 201/PIV/
+HSPD-12 requirements
+Yes
+ISO 7816-1 Compliant Specification for the physical 
+characteristics of integrated circuit 
+cards with contacts
+Yes
+ISO 7816-2 Compliant Specification for the dimensions and 
+location of the contacts
+Yes
+ISO 7816-3 Compliant Specification for electrical interface and 
+transmission protocols
+Yes
+ISO 7816-4 Compliant Specification for organization, security, 
+and commands for interchange
+Yes
+Dell ControlVault support The device connects to Dell ControlVault 
+for usage and processing
+Yes
+Operating and storage environment
+This table lists the operating and storage specifications of your Dell Pro 16 Plus.
+Airborne contaminant level: G1 as defined by ISA-S71.04-1985
+Table 31. 
+Computer environment
+Description Operating Storage
+Temperature range
+0°C to 35°C (32°F to 95°F) -40°C to 65°C (-40°F to 149°F)
+Relative humidity (maximum)
+10% to 90% (non-condensing) 0% to 95% (non-condensing)
+Vibration (maximum)
+*
+0.66 GRMS 1.30 GRMS
+Shock (maximum)
+110 G† 160 G†
+Altitude range
+-15.2 m to 3048 m (4.64 ft to 5518.4 ft) -15.2 m to 10668 m (4.64 ft to 19234.4 
+ft)
+CAUTION: Operating and storage temperature ranges may differ among components, so operating or storing 
+the device outside these ranges may impact the performance of specific components.
+* Measured using a random vibration spectrum that simulates the user environment.
+† Measured using a 2 ms half-sine pulse.
+Dell Optimizer
+Dell Optimizer is an AI-based software application that allows you to customize your computer settings for power and battery, 
+and more.
+For Dell Pro 16 Plus with Dell Optimizer, you can:
+● Extend the battery life of your computer with Intelligent Battery Extender and Dynamic Charge.
+● Tune the performance, power consumption, cooling, and fan noise with selectable thermal modes.
+● Access and secure your computer depending on your physical presence.
+32
+Specifications of Dell Pro 16 Plus
+
+--- Page 33 ---
+● Download and redeem the apps that are purchased with your computer.
+For more information about configuring and using these features, search for Dell Optimizer at the Dell Support Site.
+Specifications of Dell Pro 16 Plus 33
+
+--- Page 34 ---
+Working inside your computer
+Safety instructions
+Use the following safety guidelines to protect your computer from potential damage and to ensure your personal safety. Unless 
+otherwise noted, each procedure in this document assumes that you have read the safety information that shipped with your 
+computer.
+WARNING: Before working inside your computer, read the safety information that is shipped with your 
+computer. For more safety best practices, see Dell Regulatory Compliance Home Page.
+WARNING: Disconnect your computer from all power sources before opening the computer cover or panels. 
+After you finish working inside the computer, replace all covers, panels, and screws before connecting your 
+computer to an electrical outlet.
+CAUTION: To avoid damaging the computer, ensure that the work surface is flat, dry, and clean.
+CAUTION: You should only perform troubleshooting and repairs as authorized or directed by the Dell technical 
+support team. Damage due to servicing that is not authorized by Dell is not covered by your warranty. See the 
+safety instructions that are shipped with the product or at Dell Regulatory Compliance Home Page.
+CAUTION: Before touching anything inside your computer, ground yourself by touching an unpainted metal 
+surface, such as the metal at the back of the computer. While you work, periodically touch an unpainted metal 
+surface to dissipate static electricity which could harm internal components.
+CAUTION: To avoid damaging the components and cards, handle them by their edges, and avoid touching the 
+pins and the contacts.
+CAUTION: When you disconnect a cable, pull it by its connector or its pull tab, not the cable itself. Some cables 
+have connectors with locking tabs or thumbscrews that you must disengage before disconnecting the cable. 
+When disconnecting cables, keep them evenly aligned to avoid bending the connector pins. When connecting 
+cables, ensure that the connector on the cable is correctly oriented and aligned with the port.
+CAUTION: Press and eject any installed card from the media-card reader.
+CAUTION: Exercise caution when handling rechargeable Li-ion batteries in laptops. Swollen batteries should not 
+be used and should be replaced and disposed properly.
+Before working inside your computer
+Steps
+1. Save and close all open files and exit all open applications.
+2. Shut down your computer. For Windows operating system, click Start >   Power > Shut down.
+NOTE: If you are using a different operating system, see the documentation of your operating system for instructions.
+3. Turn off all the attached peripherals.
+4. Disconnect your computer from the electrical outlets.
+5. Disconnect all attached network devices and peripherals, such as keyboard, mouse, and monitor from your computer.
+6. Remove any media card and optical drive from your computer, if applicable.
+7. To clean the air vents, use a soft brush and move vertically.
+4
+34 Working inside your computer
+
+--- Page 35 ---
+NOTE: Do not remove the base cover or use any blower to clean the vents.
+8. Enter the Service Mode.
+Service Mode
+Service Mode is used to cut off power without disconnecting the battery cable from the system board before conducting 
+repairs in the computer.
+CAUTION: If you are unable to turn on the computer to put it into Service Mode, proceed to disconnect the 
+battery cable. To disconnect the battery cable, follow the steps in Removing the battery.
+NOTE: Ensure that your computer is shut down and the power adapter is disconnected.
+a. Press and hold the B key and the power button for 3 seconds or until the Dell logo appears on the screen.
+b. Press any key to continue.
+c. If the power adapter is not disconnected, a message prompting you to disconnect the power adapter appears on the 
+screen. Disconnect the power adapter and then press any key to enter into the Service Mode. The Service Mode process 
+automatically skips the following step if the Owner Tag of the computer is not set up in advance by the user.
+d. When the ready-to-proceed message appears on the screen, press any key to proceed. The computer emits three short 
+beeps and shuts down immediately.
+The computer shuts down and enters the Service Mode.
+Safety precautions
+This section details the primary steps to be followed before performing any disassembly instructions.
+Observe the following safety precautions before you perform any installation or break-fix procedures involving disassembly or 
+reassembly:
+● Turn off the computer and all attached peripherals.
+● Disconnect the computer from AC power.
+● Disconnect all network cables and peripherals from the computer.
+● Use an ESD field service kit when working inside any to avoid electrostatic discharge (ESD) damage.
+● Place the removed component on an anti-static mat after removing it from the computer.
+● Wear shoes with nonconductive rubber soles to reduce the chance of getting electrocuted.
+● Unplugging, pressing, and holding the power button for 15 seconds should discharge residual power in the system board.
+Standby power
+Dell products with standby power must be unplugged before you open the back cover. Systems that are equipped with standby 
+power are powered while turned off. The internal power enables the computer to be remotely turned on (Wake-on-LAN) and 
+suspended into a sleep mode and has other advanced power management features.
+Bonding
+Bonding is a method for connecting two or more grounding conductors to the same electrical potential. This is done by using 
+a field service electrostatic discharge (ESD) kit. When connecting a bonding wire, ensure that it is connected to bare metal 
+and never to a painted or nonmetal surface. Ensure that the wrist strap is secure and in full contact with your skin. Remove all 
+jewelry, watches, bracelets, or rings before grounding yourself and the equipment.
+Electrostatic discharge—ESD protection
+ESD is a major concern when you handle electronic components, especially sensitive components such as expansion cards, 
+processors, memory modules, and system boards. A slight charge can damage circuits in ways that may not be obvious, such 
+as intermittent problems or a shortened product life span. As the industry pushes for lower power requirements and increased 
+density, ESD protection is an increasing concern.
+Two recognized types of ESD damage are catastrophic and intermittent failures.
+Working inside your computer
+35
+
+--- Page 36 ---
+● Catastrophic – Catastrophic failures represent approximately 20 percent of ESD-related failures. The damage causes 
+an immediate and complete loss of device functionality. An example of catastrophic failure is a memory module that has 
+received a static shock and immediately generates a "No POST/No Video" symptom with a beep code that is emitted for 
+missing or nonfunctional memory.
+● Intermittent – Intermittent failures represent approximately 80 percent of ESD-related failures. The high rate of 
+intermittent failures means that most of the time when damage occurs, it is not immediately recognizable. The memory 
+module receives a static shock, but the tracing is merely weakened and does not immediately produce outward symptoms 
+that are related to the damage. The weakened trace may take weeks or months to melt, and in the meantime may cause 
+degradation of memory integrity, intermittent memory errors, and so on.
+Intermittent failures that are also called latent or "walking wounded" are difficult to detect and troubleshoot.
+Perform the following steps to prevent ESD damage:
+● Use a wired ESD wrist strap that is properly grounded. Wireless anti-static straps do not provide adequate protection. 
+Touching the chassis before handling parts does not ensure adequate ESD protection on parts with increased sensitivity to 
+ESD damage.
+● Handle all static-sensitive components in a static-safe area. If possible, use anti-static floor pads and workbench pads.
+● When unpacking a static-sensitive component from its shipping carton, do not remove the component from the anti-static 
+packing material until you are ready to install the component. Before unwrapping the anti-static packaging, use the anti-
+static wrist strap to discharge the static electricity from your body. For more information about the wrist strap and ESD 
+wrist strap tester, see Components of an ESD Field Service Kit.
+● Before transporting a static-sensitive component, place it in an anti-static container or packaging.
+ESD Field Service kit
+The unmonitored field service kit is the most commonly used service kit. Each Field Service kit includes three main components: 
+anti-static mat, wrist strap, and bonding wire.
+CAUTION:
+ It is critical to keep ESD-sensitive devices away from internal parts that are insulated and often 
+highly charged, such as plastic heat sink casings.
+Working Environment
+Before deploying the ESD Field Service kit, assess the situation at the customer location. For example, deploying the kit for a 
+server environment is different than for a desktop or laptop environment. Servers are typically installed in a rack within a data 
+center; desktops or laptops are typically placed on office desks or cubicles. Always look for a large open flat work area that 
+is free of clutter and large enough to deploy the ESD kit with additional space to accommodate the type of computer that is 
+being repaired. The workspace should also be free of insulators that can cause an ESD event. On the work area, insulators such 
+as styrofoam and other plastics should always be moved at least 12 inches or 30 centimeters away from sensitive parts before 
+physically handling any hardware components.
+ESD Packaging
+All ESD-sensitive devices must be shipped and received in static-safe packaging. Metal, static-shielded bags are preferred. 
+However, you should always return the damaged component using the same ESD bag and packaging that the new part arrived 
+in. The ESD bag should be folded over and taped shut and all the same foam packing material should be used in the original box 
+that the new part arrived in. ESD-sensitive devices should be removed from packaging only at an ESD-protected work surface, 
+and parts should never be placed on top of the ESD bag because only the inside of the bag is shielded. Always place parts in 
+your hand, on the anti-static mat, in the computer, or inside an ESD bag.
+Components of an ESD Field Service kit
+The components of an ESD Field Service kit are:
+● Anti-Static Mat – The anti-static mat is dissipative and parts can be placed on it during service procedures. When using an 
+anti-static mat, your wrist strap should be snug and the bonding wire should be connected to the anti-static mat and to any 
+bare metal on the computer being worked on. Once deployed properly, service parts can be removed from the ESD bag and 
+placed directly on the anti-static mat. ESD-sensitive items are safe in your hand, on the anti-static mat, in the computer, or 
+inside an ESD bag.
+● Wrist Strap and Bonding Wire – The wrist strap and bonding wire can be either directly connected between your wrist 
+and bare metal on the hardware if the anti-static mat is not required, or connect to the anti-static mat to protect hardware 
+36
+Working inside your computer
+
+--- Page 37 ---
+that is temporarily placed on the mat. The physical connection of the wrist strap and bonding wire between your skin, the 
+anti-static mat, and the hardware is known as bonding. Use only Field Service kits with a wrist strap, anti-static mat, and 
+bonding wire. Never use wireless wrist straps. Always be cautious that the internal wires of a wrist strap are prone to 
+damage from normal wear and tear, and must be checked regularly with a wrist strap tester in order to avoid accidental ESD 
+hardware damage. It is recommended to test the wrist strap and bonding wire at least once per week.
+● ESD Wrist Strap Tester – The wires inside an ESD strap are prone to damage over time. When using an unmonitored kit, it 
+is a best practice to regularly test the strap prior to each service, and at a minimum, test once per week. A wrist strap tester 
+is the best method for doing this test. To perform the test, plug the bonding-wire of the wrist-strap into the tester while it 
+is strapped to your wrist and push the button to test. A green LED is lit if the test is successful; a red LED is lit and an alarm 
+sounds if the test fails.
+NOTE: It is recommended to always use the traditional wired ESD grounding wrist strap and protective anti-static mat 
+when servicing Dell products. In addition, it is critical to keep sensitive parts separate from all insulator parts while servicing 
+the computer.
+Transporting sensitive components
+When transporting ESD sensitive components such as replacement parts or parts to be returned to Dell, it is critical to place 
+these parts in anti-static bags for safe transport.
+After working inside your computer
+About this task
+CAUTION: Leaving stray or loose screws inside your computer may severely damage your computer.
+Steps
+1. Replace all screws and ensure that no stray screws remain inside your computer.
+2. Connect any external devices, peripherals, or cables you removed before working on your computer.
+3. Replace any media cards, disks, or any other parts that you removed before working on your computer.
+4. Connect your computer to their electrical outlets.
+NOTE: To exit service mode, ensure to connect the AC adapter to the power-adapter port on your computer.
+5. Press the power button to turn on the computer.
+BitLocker
+CAUTION:
+ If BitLocker is not suspended before updating the BIOS, the Bitlocker key is not recognized the next 
+time you reboot the computer. You will then be prompted to enter the recovery key to progress, and the system 
+displays a prompt for the recovery key on each reboot. If the recovery key is not known, this can result in data 
+loss or an operating system reinstall. For more information, see Knowledge Article: updating the BIOS on Dell 
+systems with BitLocker enabled.
+The installation of the following components triggers BitLocker:
+● Hard disk drive or solid-state drive
+● System board
+Recommended tools
+The procedures in this document may require the following tools:
+● Phillips screwdriver #0/#1
+● Plastic scribe
+● Flat head slotted screwdriver (<4 mm)
+Working inside your computer
+37
+
+--- Page 38 ---
+Screw list
+NOTE: When removing screws from a component, it is recommended to note the screw type and the quantity of screws, 
+and then place them in a screw storage box. This is to ensure that the correct number of screws and correct screw type is 
+restored when the component is replaced.
+NOTE: Some computers have magnetic surfaces. Ensure that the screws are not left attached to such surfaces when 
+replacing a component.
+NOTE: Screw color may vary depending on the configuration ordered.
+Table 32. Screw list
+Component Screw type Quantity Screw image
+Base cover Captive screws
+8
+Battery
+M2x4
+Captive screws
+1
+4
+Wireless card M2x2.5
+1
+5G WWAN-card bracket M1.6x3.2
+1
+Solid state drive bracket M2x3 2
+M.2 2230 Solid state drive M2x4
+1
+M.2 2280 Solid state drive M2x4
+1
+Fan M2x4
+3
+Speaker M1.6x3 4
+Heat sink Captive screw 4
+Display-cable bracket M2x2.5
+2
+System board
+M2x2.5
+M2x3
+3
+8
+Type-C bracket M2x3.5
+2
+Power button
+NOTE: Applicable to 
+computer shipped both with 
+and without a fingerprint 
+reader
+M2x2
+2
+38 Working inside your computer
+
+--- Page 39 ---
+Table 32. Screw list(continued)
+Component Screw type Quantity Screw image
+I/O Board M1.2x1.4 6
+Keyboard M2x2.2
+32
+Smart-card reader M2x2 4
+Display-cable bracket M2x3
+2
+Fingerprint-reader bracket M2x3
+1
+Display panel M1.6x1.4
+2
+Display hinges M2.5x5
+6
+Hinge cap M2.5x3.5
+2
+Major components of Dell Pro 16 Plus
+The following image shows the major components of Dell Pro 16 Plus.
+Working inside your computer
+39
+
+--- Page 40 ---
+Figure 3. Major components of your Dell Pro 16 Plus
+1. Base cover
+2. Battery
+40
+Working inside your computer
+
+--- Page 41 ---
+3. M.2 2230/M.2 2280 SSD shield
+4. M.2 2230 SSD
+5. Heat sink
+6. System board
+7. Smart-card reader (optional)
+8. Keyboard
+9. Speakers
+10. Palm-rest assembly
+11. Display bezel
+12. USH module
+13. Power button
+14. I/O board
+15. Fan
+16. 5G WWAN card
+17. Keyboard support frame
+18. 5G WWAN-card shield
+19. Battery support bracket
+NOTE: Dell provides a list of components and their part numbers for the original system configuration purchased. These 
+parts are available according to warranty coverage purchased by the customer. Contact your Dell sales representative for 
+purchase options.
+Working inside your computer 41
+
+--- Page 42 ---
+Removing and installing Customer 
+Replaceable Units (CRUs)
+The replaceable components in this chapter are Customer Replaceable Units (CRUs).
+CAUTION: Customers can replace only the Customer Replaceable Units (CRUs) following the safety precautions 
+and replacement procedures.
+NOTE: The images in this document may differ from your computer depending on the configuration you ordered.
+SIM card tray
+Removing the SIM card tray (optional)
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+NOTE: The procedure for SIM card tray removal is only applicable for computers that are shipped with a WWAN module.
+CAUTION: Removing the SIM card when the computer is turned on can cause data loss or damage to the card. 
+Ensure that your computer is turned off or the network connections are disabled.
+About this task
+The following images indicate the location of the SIM card tray and provide a visual representation of the removal procedure.
+5
+42 Removing and installing Customer Replaceable Units (CRUs)
+

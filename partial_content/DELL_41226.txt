@@ -1,0 +1,1030 @@
+--- Page 1 ---
+XPS 17 9720
+Service Manual
+Regulatory Model: P92F
+Regulatory Type: P92F003
+February 2023
+Rev. A02
+
+--- Page 2 ---
+Notes, cautions, and warnings
+NOTE: A NOTE indicates important information that helps you make better use of your product.
+CAUTION: A CAUTION indicates either potential damage to hardware or loss of data and tells you how to avoid
+the problem.
+WARNING: A WARNING indicates a potential for property damage, personal injury, or death.
+© 2022-2023 Dell Inc. or its subsidiaries. All rights reserved. Dell Technologies, Dell, and other trademarks are trademarks of Dell Inc. or its
+subsidiaries. Other trademarks may be trademarks of their respective owners.
+
+--- Page 3 ---
+Chapter 1: Working inside your computer...................................................................................... 5
+Safety instructions.............................................................................................................................................................. 5
+Before working inside your computer.......................................................................................................................5
+Safety precautions........................................................................................................................................................ 6
+Electrostatic discharge—ESD protection............................................................................................................... 6
+ESD field service kit ..................................................................................................................................................... 7
+Transporting sensitive components.......................................................................................................................... 8
+After working inside your computer..........................................................................................................................8
+BitLocker..........................................................................................................................................................................8
+Chapter 2: Removing and installing components........................................................................... 9
+Recommended tools........................................................................................................................................................... 9
+Screw list............................................................................................................................................................................... 9
+Major components of XPS 17 9720............................................................................................................................... 10
+Base cover........................................................................................................................................................................... 12
+Removing the base cover...........................................................................................................................................12
+Installing the base cover.............................................................................................................................................13
+Battery..................................................................................................................................................................................15
+Lithium-ion battery precautions............................................................................................................................... 15
+Removing the battery................................................................................................................................................. 16
+Installing the battery....................................................................................................................................................17
+Memory modules................................................................................................................................................................ 17
+Removing the memory module..................................................................................................................................17
+Installing the memory module....................................................................................................................................18
+M.2 solid-state drive.........................................................................................................................................................20
+Removing the M.2 2230 solid-state drive............................................................................................................. 20
+Installing the M.2 2230 solid-state drive............................................................................................................... 20
+Removing the M.2 2280 solid-state drive..............................................................................................................21
+Installing the M.2 2280 solid-state drive............................................................................................................... 22
+Fan........................................................................................................................................................................................ 23
+Removing the left fan.................................................................................................................................................23
+Installing the left fan...................................................................................................................................................24
+Removing the right fan.............................................................................................................................................. 25
+Installing the right fan................................................................................................................................................ 26
+Heat sink..............................................................................................................................................................................27
+Removing the heat sink (for computers shipped with integrated graphics)................................................ 27
+Installing the heat sink (for computers shipped with integrated graphics card).........................................28
+Removing the heat sink (for computers shipped with discrete graphics card)...........................................29
+Installing the heat sink (for computers shipped with discrete graphics)...................................................... 30
+Audio daughter-board....................................................................................................................................................... 31
+Removing the audio daughter-board.......................................................................................................................31
+Installing the audio daughter-board........................................................................................................................ 32
+Display assembly................................................................................................................................................................33
+Removing the display assembly............................................................................................................................... 33
+Contents
+Contents 3
+
+--- Page 4 ---
+Installing the display assembly..................................................................................................................................36
+System board..................................................................................................................................................................... 38
+System board callouts................................................................................................................................................ 38
+Removing the system board..................................................................................................................................... 38
+Installing the system board....................................................................................................................................... 40
+Antenna................................................................................................................................................................................43
+Removing the antenna............................................................................................................................................... 43
+Installing the antenna................................................................................................................................................. 44
+Palm-rest and keyboard assembly................................................................................................................................ 46
+Palm-rest and keyboard assembly...........................................................................................................................46
+Chapter 3: Drivers and downloads............................................................................................... 48
+Chapter 4: BIOS setup.................................................................................................................49
+BIOS overview................................................................................................................................................................... 49
+Entering BIOS setup program........................................................................................................................................ 49
+Navigation keys..................................................................................................................................................................49
+One time boot menu.........................................................................................................................................................50
+System setup options.......................................................................................................................................................50
+Updating the BIOS.............................................................................................................................................................61
+Updating the BIOS in Windows.................................................................................................................................61
+Updating the BIOS using the USB drive in Windows.......................................................................................... 61
+Updating the BIOS from the F12 One-Time boot menu.....................................................................................62
+System and setup password...........................................................................................................................................62
+Assigning a system setup password....................................................................................................................... 63
+Deleting or changing an existing system setup password.................................................................................63
+Clearing CMOS settings.................................................................................................................................................. 64
+Clearing BIOS (System Setup) and System passwords.......................................................................................... 64
+Chapter 5: Troubleshooting.........................................................................................................65
+Handling swollen Lithium-ion batteries........................................................................................................................ 65
+Dell SupportAssist Pre-boot System Performance Check diagnostics............................................................... 65
+Running the SupportAssist Pre-Boot System Performance Check................................................................66
+Built-in self-test (BIST)................................................................................................................................................... 66
+M-BIST...........................................................................................................................................................................66
+LCD Power rail test (L-BIST)................................................................................................................................... 67
+LCD Built-in Self Test (BIST)................................................................................................................................... 67
+System diagnostic lights.................................................................................................................................................. 67
+Real-Time Clock (RTC Reset)........................................................................................................................................68
+Recovering the operating system................................................................................................................................. 69
+Backup media and recovery options.............................................................................................................................69
+WiFi power cycle............................................................................................................................................................... 69
+Drain residual flea power (perform hard reset)......................................................................................................... 69
+Chapter 6: Getting help and contacting Dell.................................................................................71
+4
+Contents
+
+--- Page 5 ---
+Working inside your computer
+Safety instructions
+Use the following safety guidelines to protect your computer from potential damage and to ensure your personal safety. Unless
+otherwise noted, each procedure included in this document assumes that you have read the safety information that shipped
+with your computer.
+WARNING: Before working inside your computer, read the safety information that is shipped with your
+computer. For more safety best practices, see the Regulatory Compliance home page at www.dell.com/
+regulatory_compliance.
+WARNING: Disconnect your computer from all power sources before opening the computer cover or panels.
+After you finish working inside the computer, replace all covers, panels, and screws before connecting your
+computer to an electrical outlet.
+CAUTION: To avoid damaging the computer, ensure that the work surface is flat, dry, and clean.
+CAUTION: To avoid damaging the components and cards, handle them by their edges, and avoid touching the
+pins and the contacts.
+CAUTION: You should only perform troubleshooting and repairs as authorized or directed by the Dell technical
+assistance team. Damage due to servicing that is not authorized by Dell is not covered by your warranty. See the
+safety instructions that is shipped with the product or at www.dell.com/regulatory_compliance.
+CAUTION: Before touching anything inside your computer, ground yourself by touching an unpainted metal
+surface, such as the metal at the back of the computer. While you work, periodically touch an unpainted metal
+surface to dissipate static electricity which could harm internal components.
+CAUTION: When you disconnect a cable, pull it by its connector or its pull tab, not the cable itself. Some cables
+have connectors with locking tabs or thumbscrews that you must disengage before disconnecting the cable.
+When disconnecting cables, keep them evenly aligned to avoid bending the connector pins. When connecting
+cables, ensure that the ports and the connectors are correctly oriented and aligned.
+CAUTION: Press and eject any installed card from the media-card reader.
+CAUTION: Exercise caution when handling Lithium-ion batteries in laptops. Swollen batteries should not be used
+and should be replaced and disposed properly.
+NOTE: The color of your computer and certain components may appear differently than shown in this document.
+Before working inside your computer
+About this task
+NOTE: The images in this document may differ from your computer depending on the configuration you ordered.
+Steps
+1. Save and close all open files and exit all open applications.
+2. Shut down your computer. For Windows operating system, click Start >   Power > Shut down.
+1
+Working inside your computer 5
+
+--- Page 6 ---
+NOTE: If you are using a different operating system, see the documentation of your operating system for shut-down
+instructions.
+3. Disconnect your computer and all attached devices from their electrical outlets.
+4. Disconnect all attached network devices and peripherals, such as keyboard, mouse, and monitor from your computer.
+CAUTION: To disconnect a network cable, first unplug the cable from your computer and then unplug the
+cable from the network device.
+5. Remove any media card and optical disc from your computer, if applicable.
+Safety precautions
+The safety precautions chapter details the primary steps to be taken before performing any disassembly instructions.
+Observe the following safety precautions before you perform any installation or break/fix procedures involving disassembly or
+reassembly:
+● Turn off the system and all attached peripherals.
+● Disconnect the system and all attached peripherals from AC power.
+● Disconnect all network cables, telephone, and telecommunications lines from the system.
+● Use an ESD field service kit when working inside any notebook to avoid electrostatic discharge (ESD) damage.
+● After removing any system component, carefully place the removed component on an anti-static mat.
+● Wear shoes with non-conductive rubber soles to reduce the chance of getting electrocuted.
+Standby power
+Dell products with standby power must be unplugged before you open the case. Systems that incorporate standby power are
+essentially powered while turned off. The internal power enables the system to be remotely turned on (wake on LAN) and
+suspended into a sleep mode and has other advanced power management features.
+Unplugging, pressing and holding the power button for 15 seconds should discharge residual power in the system board.
+Bonding
+Bonding is a method for connecting two or more grounding conductors to the same electrical potential. This is done through
+the use of a field service electrostatic discharge (ESD) kit. When connecting a bonding wire, ensure that it is connected to bare
+metal and never to a painted or non-metal surface. The wrist strap should be secure and in full contact with your skin, and
+ensure that you remove all jewelry such as watches, bracelets, or rings prior to bonding yourself and the equipment.
+Electrostatic discharge—ESD protection
+ESD is a major concern when you handle electronic components, especially sensitive components such as expansion cards,
+processors, memory DIMMs, and system boards. Very slight charges can damage circuits in ways that may not be obvious, such
+as intermittent problems or a shortened product life span. As the industry pushes for lower power requirements and increased
+density, ESD protection is an increasing concern.
+Due to the increased density of semiconductors used in recent Dell products, the sensitivity to static damage is now higher than
+in previous Dell products. For this reason, some previously approved methods of handling parts are no longer applicable.
+Two recognized types of ESD damage are catastrophic and intermittent failures.
+● Catastrophic – Catastrophic failures represent approximately 20 percent of ESD-related failures. The damage causes
+an immediate and complete loss of device functionality. An example of catastrophic failure is a memory DIMM that has
+received a static shock and immediately generates a "No POST/No Video" symptom with a beep code emitted for missing or
+nonfunctional memory.
+● Intermittent – Intermittent failures represent approximately 80 percent of ESD-related failures. The high rate of
+intermittent failures means that most of the time when damage occurs, it is not immediately recognizable. The DIMM
+receives a static shock, but the tracing is merely weakened and does not immediately produce outward symptoms related to
+the damage. The weakened trace may take weeks or months to melt, and in the meantime may cause degradation of memory
+integrity, intermittent memory errors, etc.
+6
+Working inside your computer
+
+--- Page 7 ---
+The more difficult type of damage to recognize and troubleshoot is the intermittent (also called latent or "walking wounded")
+failure.
+Perform the following steps to prevent ESD damage:
+● Use a wired ESD wrist strap that is properly grounded. The use of wireless anti-static straps is no longer allowed; they do not
+provide adequate protection. Touching the chassis before handling parts does not ensure adequate ESD protection on parts
+with increased sensitivity to ESD damage.
+● Handle all static-sensitive components in a static-safe area. If possible, use anti-static floor pads and workbench pads.
+● When unpacking a static-sensitive component from its shipping carton, do not remove the component from the anti-static
+packing material until you are ready to install the component. Before unwrapping the anti-static packaging, ensure that you
+discharge static electricity from your body.
+● Before transporting a static-sensitive component, place it in an anti-static container or packaging.
+ESD field service kit
+The unmonitored Field Service kit is the most commonly used service kit. Each Field Service kit includes three main components:
+anti-static mat, wrist strap, and bonding wire.
+Components of an ESD field service kit
+The components of an ESD field service kit are:
+● Anti-Static Mat – The anti-static mat is dissipative and parts can be placed on it during service procedures. When using an
+anti-static mat, your wrist strap should be snug and the bonding wire should be connected to the mat and to any bare metal
+on the system being worked on. Once deployed properly, service parts can be removed from the ESD bag and placed directly
+on the mat. ESD-sensitive items are safe in your hand, on the ESD mat, in the system, or inside a bag.
+● Wrist Strap and Bonding Wire – The wrist strap and bonding wire can be either directly connected between your wrist
+and bare metal on the hardware if the ESD mat is not required, or connected to the anti-static mat to protect hardware that
+is temporarily placed on the mat. The physical connection of the wrist strap and bonding wire between your skin, the ESD
+mat, and the hardware is known as bonding. Use only Field Service kits with a wrist strap, mat, and bonding wire. Never
+use wireless wrist straps. Always be aware that the internal wires of a wrist strap are prone to damage from normal wear
+and tear, and must be checked regularly with a wrist strap tester in order to avoid accidental ESD hardware damage. It is
+recommended to test the wrist strap and bonding wire at least once per week.
+● ESD Wrist Strap Tester – The wires inside of an ESD strap are prone to damage over time. When using an unmonitored
+kit, it is a best practice to regularly test the strap prior to each service call, and at a minimum, test once per week. A
+wrist strap tester is the best method for doing this test. If you do not have your own wrist strap tester, check with your
+regional office to find out if they have one. To perform the test, plug the wrist-strap's bonding-wire into the tester while it is
+strapped to your wrist and push the button to test. A green LED is lit if the test is successful; a red LED is lit and an alarm
+sounds if the test fails.
+● Insulator Elements – It is critical to keep ESD sensitive devices, such as plastic heat sink casings, away from internal parts
+that are insulators and often highly charged.
+● Working Environment – Before deploying the ESD Field Service kit, assess the situation at the customer location. For
+example, deploying the kit for a server environment is different than for a desktop or portable environment. Servers are
+typically installed in a rack within a data center; desktops or portables are typically placed on office desks or cubicles. Always
+look for a large open flat work area that is free of clutter and large enough to deploy the ESD kit with additional space to
+accommodate the type of system that is being repaired. The workspace should also be free of insulators that can cause an
+ESD event. On the work area, insulators such as Styrofoam and other plastics should always be moved at least 12 inches or
+30 centimeters away from sensitive parts before physically handling any hardware components
+● ESD Packaging – All ESD-sensitive devices must be shipped and received in static-safe packaging. Metal, static-shielded
+bags are preferred. However, you should always return the damaged part using the same ESD bag and packaging that the
+new part arrived in. The ESD bag should be folded over and taped shut and all the same foam packing material should be
+used in the original box that the new part arrived in. ESD-sensitive devices should be removed from packaging only at an
+ESD-protected work surface, and parts should never be placed on top of the ESD bag because only the inside of the bag is
+shielded. Always place parts in your hand, on the ESD mat, in the system, or inside an anti-static bag.
+● Transporting Sensitive Components – When transporting ESD sensitive components such as replacement parts or parts
+to be returned to Dell, it is critical to place these parts in anti-static bags for safe transport.
+Working inside your computer
+7
+
+--- Page 8 ---
+ESD protection summary
+It is recommended to use the traditional wired ESD grounding wrist strap and protective anti-static mat at all times when
+servicing Dell products. In addition, it is critical to keep sensitive parts separate from all insulator parts while performing service
+and that they use anti-static bags for transporting sensitive components.
+Transporting sensitive components
+When transporting ESD sensitive components such as replacement parts or parts to be returned to Dell, it is critical to place
+these parts in anti-static bags for safe transport.
+After working inside your computer
+About this task
+NOTE: Leaving stray or loose screws inside your computer may severely damage your computer.
+Steps
+1. Replace all screws and ensure that no stray screws remain inside your computer.
+2. Connect any external devices, peripherals, or cables you removed before working on your computer.
+3. Replace any media cards, discs, or any other parts that you removed before working on your computer.
+4. Connect your computer and all attached devices to their electrical outlets.
+5. Turn on your computer.
+BitLocker
+CAUTION:
+ If BitLocker is not suspended before updating the BIOS, the next time you reboot the system it
+will not recognize the BitLocker key. You will then be prompted to enter the recovery key to progress, and
+the system will ask for this on each reboot. If the recovery key is not known this can result in data loss or
+an unnecessary operating system reinstall. For more information about this subject, see Knowledge Article:
+updating the BIOS on Dell systems with BitLocker enabled.
+The installation of the following components triggers BitLocker:
+● Hard disk drive or solid state drive
+● System board
+8
+Working inside your computer
+
+--- Page 9 ---
+Removing and installing components
+NOTE: The images in this document may differ from your computer depending on the configuration you ordered.
+Recommended tools
+The procedures in this document may require the following tools:
+● Phillips screwdriver #0
+● Phillips screwdriver #1
+● Torx #5 (T5) screwdriver
+● Plastic scribe
+Screw list
+NOTE: When removing screws from a component, it is recommended to note the screw type, the quantity of screws, and
+then place them in a screw storage box. This is to ensure that the correct number of screws and correct screw type is
+restored when the component is replaced.
+NOTE: Some computers have magnetic surfaces. Ensure that the screws are not left attached to such surfaces when
+replacing a component.
+NOTE: Screw color may vary with the configuration ordered.
+Table 1. Screw list 
+Component Screw type Quantity Screw image
+Base cover M2x4 8
+Battery M2x4 7
+Solid-state drives M2x4 2
+Right fan
+● M2x4
+● M1.6x4
+● 2
+● 1
+●
+●
+Left fan
+● M2x4
+● M1.6x4
+● 2
+● 1
+●
+●
+Heat sink (Integrated graphics) Captive 4
+Heat sink (Discrete graphics) Captive 7
+2
+Removing and installing components 9
+
+--- Page 10 ---
+Table 1. Screw list (continued)
+Component Screw type Quantity Screw image
+I/O board M2x4 3
+Display-assembly cable holder M2x4 2
+Left hinge M2.5x6 3
+Right hinge M2.5x6 3
+Type-C connector bracket M2x4 4
+Wireless card bracket M2x4 1
+System board M2x4 3
+Antennas M2x2 8
+Major components of XPS 17 9720
+The following image shows the major components of XPS 17 9720.
+10
+Removing and installing components
+
+--- Page 11 ---
+1. Base cover 2. Battery
+3. Solid-state drive thermal bracket (SSD2) 4. M.2 2230 solid-state drive (SSD2)
+5. Right fan 6. Display-cable bracket
+Removing and installing components 11
+
+--- Page 12 ---
+7. USB Type-C port bracket 8. System board
+9. Memory module 10. Left antenna
+11. Palm-rest and keyboard assembly 12. Display assembly
+13. Right antenna 14. M.2 2280 solid-state drive (SSD1)
+15. Solid-state drive thermal bracket (SSD1) 16. I/O board
+17. USB Type-C port bracket 18. Left fan
+19. Heat sink
+NOTE: Dell provides a list of components and their part numbers for the original system configuration purchased. These
+parts are available according to warranty coverages purchased by the customer. Contact your Dell sales representative for
+purchase options.
+Base cover
+Removing the base cover
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+About this task
+The following images indicate the location of the base cover and provide a visual representation of the removal procedure.
+12
+Removing and installing components
+
+--- Page 13 ---
+CAUTION: Only use a plastic scribe to disengage and release the clips with the prying motion along the edges of
+the base cover. Do NOT use your fingers.
+Steps
+1. Remove the eight Torx T5 screws (M2x4) that secure the base cover to the palm-rest and keyboard assembly.
+2. Starting from the bottom-left corner, use a plastic scribe to pry the base cover in the direction of the arrows to release the
+base cover from the palm-rest and keyboard assembly.
+3. Firmly hold the left side and the right side of the base cover and remove the base cover from the palm-rest and keyboard
+assembly.
+Installing the base cover
+Prerequisites
+About this task
+The following images indicate the location of the base cover and provide a visual representation of the installation procedure.
+Removing and installing components
+13
+
+--- Page 14 ---
+14 Removing and installing components
+
+--- Page 15 ---
+Steps
+1. Align the screw holes on the base cover with the screw holes on the palm-rest and keyboard assembly, and then snap the
+base cover into place.
+2. Replace the eight Torx T5 screws (M2x4) to secure the base cover to the palm-rest and keyboard assembly.
+Next steps
+1. Follow the procedure in After working inside your computer.
+Battery
+Lithium-ion battery precautions
+CAUTION:
+● Exercise caution when handling Lithium-ion batteries.
+● Discharge the battery completely before removing it. Disconnect the AC power adapter from the system and
+operate the computer solely on battery power—the battery is fully discharged when the computer no longer
+turns on when the power button is pressed.
+● Do not crush, drop, mutilate, or penetrate the battery with foreign objects.
+● Do not expose the battery to high temperatures, or disassemble battery packs and cells.
+● Do not apply pressure to the surface of the battery.
+Removing and installing components 15
+
+--- Page 16 ---
+● Do not bend the battery.
+● Do not use tools of any kind to pry on or against the battery.
+● Ensure any screws during the servicing of this product are not lost or misplaced, to prevent accidental
+puncture or damage to the battery and other system components.
+● If the battery gets stuck inside your computer as a result of swelling, do not try to release it as puncturing,
+bending, or crushing a lithium-ion battery can be dangerous. In such an instance, contact Dell technical
+support for assistance. See www.dell.com/contactdell.
+● Always purchase genuine batteries from www.dell.com or authorized Dell partners and resellers.
+● Swollen batteries should not be used and should be replaced and disposed properly. For guidelines on how to
+handle and replace swollen Lithium-ion batteries, see Handling swollen Lithium-ion batteries.
+Removing the battery
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the base cover.
+NOTE: Disconnecting the battery cable, removing the battery, or draining the flea power clears the CMOS and resets
+the BIOS settings on your computer.
+NOTE: After your computer is reassembled and powered on, it prompts for the Real Time Clock (RTC) reset. When
+the RTC reset cycle occurs, the computer restarts several times and then an error message is displayed– "Time of
+day not set". Enter the BIOS when this error appears and set the date and time on your computer to resume normal
+functionality.
+About this task
+The following image indicates the location of the battery and provides a visual representation of the removal procedure.
+Steps
+1. Disconnect the battery cable from the system board.
+2. Turn your computer over and press the power button for 5 seconds to drain the flea power.
+16
+Removing and installing components
+
+--- Page 17 ---
+3. Remove the seven screws (M2x4) that secure the solid-state drive thermal bracket and the battery to the palm-rest and
+keyboard assembly.
+4. Lift the battery off the palm-rest and keyboard assembly.
+Installing the battery
+Prerequisites
+About this task
+The following image indicates the location of the battery and provides a visual representation of the installation procedure.
+Steps
+1. Align the screw hole on each solid-state drive thermal bracket with the respective screw hole on the palm-rest and keyboard
+assembly.
+2. Replace the seven (M2x4) screws to secure the battery to the palm-rest and keyboard assembly.
+3. Connect the battery cable to the system board.
+Next steps
+1. Install the base cover.
+2. Follow the procedure in After working inside your computer.
+Memory modules
+Removing the memory module
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the base cover.
+Removing and installing components
+17
+
+--- Page 18 ---
+About this task
+The following image indicates the location of the memory modules and provides a visual representation of the removal
+procedure.
+Steps
+1. Lift the Mylar that covers the memory module.
+2. Use your fingertips to carefully spread apart the securing-clips on each end of the memory-module slot until the memory
+module pops up.
+3. Slide and remove the memory module from the memory-module slot.
+NOTE: Repeat step 1 to step 3 to remove any other memory modules installed in your computer.
+Installing the memory module
+Prerequisites
+About this task
+The following image indicates the location of the memory modules and provides a visual representation of the installation
+procedure.
+18
+Removing and installing components
+
+--- Page 19 ---
+Steps
+1. Lift the Mylar that covers the memory-module slot.
+2. Align the notch on the memory module with the tab on the memory-module slot.
+3. Slide the memory module firmly at an angle, into the memory-module slot.
+4. Press the memory module down until it clicks into place.
+NOTE: If you do not hear the click, remove the memory module and reinstall it.
+NOTE: Repeat step 1 to step 4 to remove any other memory modules installed in your computer.
+Next steps
+1. Install the base cover.
+2. Follow the procedure in After working inside your computer.
+Removing and installing components
+19
+
+--- Page 20 ---
+M.2 solid-state drive
+Removing the M.2 2230 solid-state drive
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the base cover.
+3. Remove the battery.
+About this task
+NOTE: This laptop support M.2 2230 solid-state drive or M.2 2280 solid-state drive in both SSD slots.
+The following image indicates the location of the M.2 2230 solid-state drive and provides a visual representation of the removal
+procedure.
+Steps
+1. Remove the single (M2x4) screw that secures the solid-state drive thermal bracket and the solid-state drive to the system
+board.
+2. Lift the solid-state drive thermal bracket off the system board.
+3. Slide and lift the solid-state drive off the solid-state drive slot.
+Installing the M.2 2230 solid-state drive
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE: This laptop support M.2 2230 solid-state drive or M.2 2280 solid-state drive in both SSD slots.
+20 Removing and installing components
+
+--- Page 21 ---
+NOTE: Install the solid-state drive mounting bracket, if it is not installed.
+The following image indicates the location of the M.2 2230 solid-state drive and provides a visual representation of the
+installation procedure.
+Steps
+1. Align the notch on the solid-state drive with the tab on the solid-state drive slot.
+2. Slide the solid-state drive into the solid-state drive slot.
+3. Using the alignment post, place the solid-state drive thermal bracket over the solid-state drive.
+4. Align the screw hole on the solid-state drive thermal bracket with the screw hole on the system board.
+5. Replace the screw (M2x4) that secures the solid-state drive thermal bracket and the solid-state drive to the system board.
+Next steps
+1. Install the battery.
+2. Install the base cover.
+3. Follow the procedure in After working inside your computer.
+Removing the M.2 2280 solid-state drive
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the base cover.
+3. Remove the battery.
+About this task
+NOTE: This laptop support M.2 2230 solid-state drive or M.2 2280 solid-state drive in both SSD slots.
+The following image indicates the location of the M.2 2280 solid-state drive and provides a visual representation of the removal
+procedure.
+Removing and installing components
+21
+
+--- Page 22 ---
+Steps
+1. Remove the single (M2x4) screw that secures the solid-state drive thermal bracket and the solid-state drive to the system
+board.
+2. Lift the solid-state drive thermal bracket off the system board.
+3. Slide and lift the solid-state drive off the solid-state drive slot.
+Installing the M.2 2280 solid-state drive
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE: This laptop support M.2 2230 solid-state drive or M.2 2280 solid-state drive in both SSD slots.
+NOTE: Install the solid-state drive mounting bracket, if it is not installed.
+The following image indicates the location of the M.2 2280 solid-state drive and provides a visual representation of the
+installation procedure.
+22
+Removing and installing components
+
+--- Page 23 ---
+Steps
+1. Align the notch on the solid-state drive with the tab on the solid-state drive slot.
+2. Slide the solid-state drive into the solid-state drive slot.
+3. Using the alignment post, place the solid-state drive thermal bracket over the solid-state drive.
+4. Align the screw hole on the solid-state drive thermal bracket with the screw hole on the system board.
+5. Replace the single (M2x4) screw that secures the solid-state drive thermal bracket and the solid-state drive to the system
+board.
+Next steps
+1. Install the battery.
+2. Install the base cover.
+3. Follow the procedure in After working inside your computer.
+Fan
+Removing the left fan
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the base cover.
+About this task
+The following image indicates the location of the left fan and provides a visual representation of the removal procedure.
+Removing and installing components
+23
+
+--- Page 24 ---
+Steps
+1. Remove the two (M2x4) screws and the single (M1.6x4) screw that secure the fan (FAN1) to the system board and
+palm-rest and keyboard assembly.
+CAUTION: Do not hold the fan assembly at the center, as it may damage the center bearing.
+2. Disconnect the fan cable from the system board.
+3. Lift the fan (FAN1) off the palm-rest and keyboard assembly.
+Installing the left fan
+Prerequisites
+About this task
+The following images indicate the location of the left fan and provides a visual representation of the installation procedure.
+24
+Removing and installing components
+
+--- Page 25 ---
+Steps
+1. Connect the fan cable to the system board.
+2. Align the screw holes on the fan (FAN1) with the screw holes on the system board and palm-rest and keyboard assembly.
+3. Replace the two (M2x4) screws and the single (M1.6x4) screw to secure the fan (FAN1) to the system board and palm-rest
+and keyboard assembly.
+Next steps
+1. Install the base cover.
+2. Follow the procedure in After working inside your computer.
+Removing the right fan
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the base cover.
+About this task
+The following image indicates the location of the right fan and provides a visual representation of the removal procedure.
+Removing and installing components
+25
+
+--- Page 26 ---
+Steps
+1. Remove the two (M2x4) screws and the single (M1.6x4) screw that secure the fan (FAN2) to the system board and
+palm-rest and keyboard assembly.
+CAUTION: Do not hold the fan assembly at the center, as it may damage the center bearing.
+2. Disconnect the fan cable from the system board.
+3. Lift the fan (FAN2) off the palm-rest and keyboard assembly.
+Installing the right fan
+Prerequisites
+About this task
+The following image indicates the location of the right fan and provides a visual representation of the installation procedure.
+26
+Removing and installing components
+
+--- Page 27 ---
+Steps
+1. Align the screw holes on the fan (FAN2) with the screw holes on the system board and palm-rest and keyboard assembly.
+2. Replace the two (M2x4) screws and the single (M1.6x4) screw to secure the fan (FAN2) to the system board and palm-rest
+and keyboard assembly.
+3. Connect the fan cable to the system board.
+Next steps
+1. Install the base cover.
+2. Follow the procedure in After working inside your computer.
+Heat sink
+Removing the heat sink (for computers shipped with integrated
+graphics)
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+CAUTION:
+ For maximum cooling of the processor, do not touch the heat transfer areas on the heat sink. The
+oils in your skin can reduce the heat transfer capability of the thermal grease.
+NOTE: The heat sink may become hot during normal operation. Allow sufficient time for the heat sink to cool before you
+touch it.
+2. Remove the base cover.
+About this task
+The following image indicates the location of the heat sink and provides a visual representation of the removal procedure.
+Removing and installing components
+27
+
+--- Page 28 ---
+Steps
+1. In reverse sequential order (4 > 3 > 2 > 1), as indicated by the numbers on the heat sink, loosen the four captive screws that
+secure the heat sink to the system board.
+2. Lift the heat sink off the system board.
+Installing the heat sink (for computers shipped with integrated
+graphics card)
+Prerequisites
+CAUTION: Incorrect alignment of the heat sink can damage the system board and the processor.
+NOTE: If either the system board or the heat sink is replaced, use the thermal pad or thermal paste provided in the kit to
+ensure that there is thermal conductivity.
+About this task
+The following image indicates the location of the heat sink and provides a visual representation of the installation procedure.
+28
+Removing and installing components
+
+--- Page 29 ---
+Steps
+1. Align the screw holes on the heat sink with the screw holes on the system board.
+2. In sequential order (1 > 2 > 3 > 4), as indicated by the numbers on the heat sink, tighten the four captive screws to secure
+the heat sink to the system board.
+Next steps
+1. Install the base cover.
+2. Follow the procedure in After working inside your computer.
+Removing the heat sink (for computers shipped with discrete
+graphics card)
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+CAUTION:
+ For maximum cooling of the processor, do not touch the heat transfer areas on the heat sink. The
+oils in your skin can reduce the heat transfer capability of the thermal grease.
+NOTE: The heat sink may become hot during normal operation. Allow sufficient time for the heat sink to cool before you
+touch it.
+2. Remove the base cover.
+About this task
+The following image indicates the location of the heat sink and provides a visual representation of the removal procedure.
+Removing and installing components
+29
+
+--- Page 30 ---
+Steps
+1. Loosen the seven captive screws in reverse sequential order (7 > 6 > 5 > 4 > 3 > 2 > 1) as indicated by the numbers on the
+heat sink.
+2. Lift the heat sink off the system board.
+Installing the heat sink (for computers shipped with discrete
+graphics)
+Prerequisites
+CAUTION: Incorrect alignment of the heat sink can damage the system board and the processor.
+NOTE: If either the system board or the heat sink is replaced, use the thermal pad or thermal paste provided in the kit to
+ensure that there is thermal conductivity.
+About this task
+The following image indicates the location of the heat sink and provides a visual representation of the installation procedure.
+30
+Removing and installing components
+
+--- Page 31 ---
+Steps
+1. Align the screw holes on the heat sink with the screw holes on the system board.
+2. In sequential order (1 > 2 > 3 > 4 > 5 > 6 > 7), as indicated by the numbers on the heat sink, tighten the seven captive
+screws to secure the heat sink to the system board.
+Next steps
+1. Install the base cover.
+2. Follow the procedure in After working inside your computer.
+Audio daughter-board
+Removing the audio daughter-board
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the base cover.
+About this task
+The following image indicates the location of the audio daughter-board and provides a visual representation of the removal
+procedure.
+Removing and installing components
+31
+
+--- Page 32 ---
+Steps
+1. Remove the three (M2x4) screws that secure the audio daughter-board to the palm-rest and keyboard assembly.
+2. Lift the audio daughter-board off the palm-rest and keyboard assembly.
+Installing the audio daughter-board
+Prerequisites
+About this task
+The following image indicates the location of the audio daughter-board and provides a visual representation of the installation
+procedure.
+32
+Removing and installing components
+
+--- Page 33 ---
+Steps
+1. Align the screw hole on the audio daughter-board with the screw hole on the palm-rest and keyboard assembly.
+2. Replace the three (M2x4) screws that secure the audio daughter-board to the palm-rest and keyboard assembly.
+Next steps
+1. Install the base cover.
+2. Follow the procedure in After working inside your computer.
+Display assembly
+Removing the display assembly
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the base cover.
+About this task
+The following images indicate the location of the display assembly and provide a visual representation of the removal procedure.
+Removing and installing components
+33
+
+--- Page 34 ---
+34 Removing and installing components
+
+--- Page 35 ---
+Steps
+1. Remove the two (M2x4) screws that secure the display-cable bracket to the system board.
+2. Lift the display-cable bracket off the system board.
+3. Disconnect the camera connector and the display connector from the system board.
+4. Remove the three (M2.5x6) screws that secure the left display hinge to the palm-rest and keyboard assembly.
+5. Remove the three (M2.5x6) screws that secure the right display hinge to the palm-rest and keyboard assembly.
+6. Push the left and the right hinges back to free them from the palm-rest and keyboard assembly.
+7. Slide the palm-rest and keyboard assembly from the display assembly.
+8. After performing all the above steps, you are left with the display assembly.
+Removing and installing components
+35
+
+--- Page 36 ---
+Installing the display assembly
+Prerequisites
+About this task
+The following images indicate the location of the display assembly and provide a visual representation of the installation
+procedure.
+36
+Removing and installing components
+
+--- Page 37 ---
+Steps
+1. Slide the palm-rest and keyboard assembly under the display hinges.
+2. Fold back the hinges and align the screw holes on the palm-rest assembly with the screw holes on the display hinges.
+3. Replace the three (M2.5x6) screws to secure the left display hinge to the system board and the palm-rest and keyboard
+assembly.
+4. Replace the three (M2.5x6) screws to secure the right display hinge to the system board and the palm-rest and keyboard
+assembly.
+5. Connect the display cable and the camera cable to the connectors on the system board.
+6. Align the screw holes on the display-cable bracket with the screw holes on the system board.
+7. Replace the two (M2x4) screws to secure the display-cable bracket to the palm-rest and keyboard assembly.
+NOTE: Apply gentle torque when tightening the two (M2x4) screws to avoid damaging the screw threads.
+Next steps
+1. Install the base cover.
+2. Follow the procedure in After working inside your computer.
+Removing and installing components
+37
+
+--- Page 38 ---
+System board
+System board callouts
+1.
+Power-button cable
+2. Right fan cable
+3. Right speaker cable
+4. Keyboard cable
+5. Antenna cables
+6. Left speaker cable
+7. Left fan cable
+8. Display cable and camera cable
+Removing the system board
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+NOTE:
+ The Service Tag of your computer is stored in the system board. Enter the Service Tag in the BIOS setup
+program after you replace the system board.
+NOTE: Replacing the system board removes any changes that you have made to the BIOS using the BIOS setup
+program. Make the appropriate changes again after you replace the system board.
+NOTE: Before disconnecting the cables from the system board, note the location of the connectors so that you can
+reconnect the cables correctly after you replace the system board.
+2. Remove the base cover.
+3. Remove the battery.
+4. Remove the memory module.
+5. Remove the M.2 2230 solid-state drive.
+6. Remove the M.2 2280 solid-state drive.
+7. Remove the heat sink (for systems shipped with integrated graphics) or the heat sink (for systems shipped with discrete
+graphics).
+8. Remove the left fan.
+9. Remove the right fan.
+10. Remove the audio daughter-board.
+About this task
+The following images indicate the location of the system board and provide a visual representation of the removal procedure.
+38
+Removing and installing components
+
+--- Page 39 ---
+Removing and installing components 39
+
+--- Page 40 ---
+Steps
+1. Remove the two (M2x4) screws that secure the display-cable bracket to the system board.
+2. Lift the display-cable bracket off the system board.
+3. Disconnect the camera connector and the display connector from the system board.
+4. Remove the two (M2x4) screws from the left USB Type-C port bracket and lift it off the system.
+5. Open the latch and disconnect the power-button cable from the system board.
+6. Disconnect the left speaker cable from the system board.
+7. Disconnect the keyboard cable from the system board.
+8. Remove the two (M2x4) screws from the right USB Type-C port bracket and lift it off the system.
+9. Remove the single (M2x4) screw from the wireless antenna bracket and lift it off the system.
+10. Disconnect the antenna cables from the wireless module on the system board.
+11. Disconnect the right speaker cable from the system board.
+12. Remove the three screws (M2x4) that secure the system board to the palm-rest and keyboard assembly.
+13. Lift the system board off the palm-rest and keyboard assembly.
+Installing the system board
+Prerequisites
+NOTE:
+ The Service Tag of your computer is stored in the system board. Enter the Service Tag in the BIOS setup program
+after you replace the system board.
+40 Removing and installing components
+
+--- Page 41 ---
+NOTE: Replacing the system board removes any changes that you have made to the BIOS using the BIOS setup program.
+Make the appropriate changes again after you replace the system board.
+About this task
+The following images indicate the location of the system board and provide a visual representation of the installation procedure.
+Removing and installing components 41
+
+--- Page 42 ---
+Steps
+1. Align the screw holes on the system board with the screw holes on the palm-rest and keyboard assembly.
+2. Replace the three (M2x4) screws to secure the system board to the palm-rest and keyboard assembly.
+3. Connect the antenna cables to the wireless module.
+The following table provides the antenna-cable color scheme for the wireless card that is supported by your computer.
+Table 2. Antenna-cable color scheme 
+Connectors on the
+wireless card
+Antenna-cable color Silkscreen marking
+Main White MAIN △ (white triangle)
+Auxiliary Black AUX ▲ (black triangle)
+4. Connect the right speaker cable to the connector on the system board.
+5. Place the wireless antenna bracket on the wireless module and install the single (M2x4) screw to secure it to the system
+board.
+6. Place the right USB Type-C port bracket on the USB ports and install the single (M2x4) screw to secure it to the system
+board.
+7. Connect the left speaker cable to the connector on the system board.
+8. Connect the power-button cable to the connector on the system board and close the latch to secure the cable.
+9. Connect the keyboard cable to the system board and close the latch to secure the cable.
+10. Place the left USB Type-C port bracket on the USB ports and install the single (M2x4) screw to secure it to the system
+board.
+11. Connect the display cable and the camera cable to the system board.
+12. Place the display-cable bracket over the display and camera cable and replace the two screws (M2x4) to secure it to the
+system board.
+42
+Removing and installing components
+
+--- Page 43 ---
+Next steps
+1. Install the audio daughter-board.
+2. Install the left fan.
+3. Install the right fan.
+4. Install the heat sink (for systems shipped with integrated graphics) or the heat sink (for systems shipped with discrete
+graphics).
+5. Install the M.2 2280 solid-state drive.
+6. Install the M.2 2230 solid-state drive.
+7. Install the memory module.
+8. Install the battery.
+9. Install the base cover.
+10. Follow the procedure in After working inside your computer.
+Antenna
+Removing the antenna
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+NOTE: The Service Tag of your computer is stored in the system board. Enter the Service Tag in the BIOS setup
+program after you replace the system board.
+NOTE: Replacing the system board removes any changes that you have made to the BIOS using the BIOS setup
+program. Make the appropriate changes again after you replace the system board.
+NOTE: Before disconnecting the cables from the system board, note the location of the connectors so that you can
+reconnect the cables correctly after you replace the system board.
+2. Remove the base cover.
+3. Remove the battery.
+4. Remove the memory module.
+5. Remove the M.2 2230 solid-state drive.
+6. Remove the M.2 2280 solid-state drive.
+7. Remove the heat sink (for systems shipped with integrated graphics) or the heat sink (for systems shipped with discrete
+graphics).
+NOTE:
+ The system board can be removed or installed together with the heat sink attached. This simplifies the
+procedure and avoids breaking the thermal bond between the system board and the heat sink.
+8. Remove the left fan.
+9. Remove the right fan.
+10. Remove the audio daughter-board.
+11. Remove the display assembly.
+12. Remove the system board.
+About this task
+The following image indicates the location of the antennas and provides a visual representation of the removal procedure.
+Removing and installing components
+43
+
+--- Page 44 ---
+Steps
+1. Remove the four (M2x2) screws that secure the right antenna to the palm-rest and keyboard assembly.
+2. Remove the four (M2x2) screws that secure the left antenna to the palm-rest and keyboard assembly.
+3. Peel off the tapes that secure the antenna cable to the palm-rest and keyboard assembly.
+4. Note the routing of the antenna cables along the routing guides on the palm-rest and keyboard assembly.
+5. Remove the antenna cable from the routing guides on the palm-rest and keyboard assembly.
+6. Lift the left and the right antenna, along with its cables, off the palm-rest and keyboard assembly.
+Installing the antenna
+Prerequisites
+About this task
+The following image indicates the location of the antennas and provides a visual representation of the installation procedure.
+44
+Removing and installing components
+
+--- Page 45 ---
+Steps
+1. Place the antennas into the slots on the palm-rest and keyboard assembly.
+2. Route the antenna cable through the routing guides on the palm-rest and keyboard assembly.
+NOTE: Route the antenna cable under the Keyboard FFC.
+3. Adhere the tapes that secure the antenna cable to the palm-rest and keyboard assembly.
+4. Align the screw holes on the right antenna with the screw holes on the palm-rest and keyboard assembly.
+5. Replace the four (M2x2) screws that secure the right antenna to the palm-rest and keyboard assembly.
+6. Align the screw holes on the left antenna with the screw holes on the palm-rest and keyboard assembly.
+7. Replace the four (M2x2)screws that secure the left antenna to the palm-rest and keyboard assembly.
+Next steps
+1. Install the system board.
+2. Install the display assembly.
+3. Install the audio daughter-board.
+4. Install the left fan.
+5. Install the right fan.
+6. Install the heat sink (for systems shipped with integrated graphics) or the heat sink (for systems shipped with discrete
+graphics).
+Removing and installing components
+45
+
+--- Page 46 ---
+NOTE: The system board can be removed or installed together with the heat sink attached. This simplifies the
+procedure and avoids breaking the thermal bond between the system board and the heat sink.
+7. Install the M.2 2280 solid-state drive.
+8. Install the M.2 2230 solid-state drive.
+9. Install the memory module.
+10. Install the battery.
+11. Install the base cover.
+12. Follow the procedure in After working inside your computer.
+Palm-rest and keyboard assembly
+Palm-rest and keyboard assembly
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+NOTE: The Service Tag of your computer is stored in the system board. Enter the Service Tag in the BIOS setup
+program after you replace the system board.
+NOTE: Replacing the system board removes any changes that you have made to the BIOS using the BIOS setup
+program. Make the appropriate changes again after you replace the system board.
+NOTE: Before disconnecting the cables from the system board, note the location of the connectors so that you can
+reconnect the cables correctly after you replace the system board.
+2. Remove the base cover.
+3. Remove the battery.
+4. Remove the memory module.
+5. Remove the M.2 2230 solid-state drive.
+6. Remove the M.2 2280 solid-state drive.
+7. Remove the heat sink (for systems shipped with integrated graphics) or the heat sink (for systems shipped with discrete
+graphics).
+8. Remove the left fan.
+9. Remove the right fan.
+10. Remove the audio daughter-board.
+11. Remove the display assembly.
+12. Remove the system board.
+13. Remove the antennas.
+About this task
+The following image indicates the palm-rest and keyboard assembly and provides a visual representation of the removal
+procedure.
+46
+Removing and installing components
+
+--- Page 47 ---
+After performing the steps in the pre-requisites, you are left with the palm-rest and keyboard assembly.
+Next steps
+1. Install the antennas.
+2. Install the system board.
+3. Install the display assembly.
+4. Install the audio daughter-board.
+5. Install the left fan.
+6. Install the right fan.
+7. Install the heat sink (for systems shipped with integrated graphics) or the heat sink (for systems shipped with discrete
+graphics).
+8. Install the M.2 2280 solid-state drive.
+9. Install the M.2 2230 solid-state drive.
+10. Install the memory module.
+11. Install the battery.
+12. Install the base cover.
+13. Follow the procedure in After working inside your computer.
+Removing and installing components
+47
+
+--- Page 48 ---
+Drivers and downloads
+When troubleshooting, downloading or installing drivers it is recommended that you read the Dell Knowledge Based article,
+Drivers and Downloads FAQ 000123347.
+3
+48 Drivers and downloads
+

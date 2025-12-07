@@ -1,0 +1,1168 @@
+================================================================================
+HP PRODESK 400 G5 MANUAL
+================================================================================
+
+PDF manual | · 125 pages | English
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Manual
+View the manual for the HP Prodesk 400 G5 here, for free. This manual comes under the category desktops and has been rated by 3 people with an average of a 9.7.
+
+This manual is available in the following languages: English. Do you have a question about the HP Prodesk 400 G5 or do you need help?
+Ask your question here
+
+--------------------------------------------------------------------------------
+
+MANUAL CONTENT:
+
+================================================================================
+PAGE 2
+================================================================================
+L.P.
+
+================================================================================
+PAGE 3
+================================================================================
+WARNING!Text setoin this manner indicates that failure to follow directions could result in bodily harm or
+CAUTION:Text setoin this manner indicates that failure to follow directions could result in damage to
+NOTE:Text setoin this manner provides important supplemental information.
+iii
+
+================================================================================
+PAGE 5
+================================================================================
+1  Product features .......................................................................................................................................................................................1
+Standardcongurationfeatures ............................................................................................................................................1
+Front panel components .........................................................................................................................................................2
+Rear panel components ..........................................................................................................................................................3
+2  Illustrated parts catalog ........................................................................................................................................................................... 4
+Serial number location ............................................................................................................................................................. 4
+Computer major components ................................................................................................................................................4
+Miscellaneous parts .................................................................................................................................................................7
+3  Routine care, SATA drive guidelines, and disassembly preparation ...............................................................................................22
+Electrostatic discharge information ....................................................................................................................................22
+Generating static ...............................................................................................................................................22
+Preventing electrostatic damage to equipment ........................................................................................... 23
+Personal grounding methods and equipment .............................................................................................. 23
+Grounding the work area .................................................................................................................................. 23
+Recommended materials and equipment ..................................................................................................... 24
+Operating guidelines .............................................................................................................................................................. 24
+Routine care ............................................................................................................................................................................25
+General cleaning safety precautions ..............................................................................................................25
+Cleaning the computer case ............................................................................................................................25
+Cleaning the keyboard ......................................................................................................................................25
+Cleaning the monitor ........................................................................................................................................26
+Cleaning the mouse ..........................................................................................................................................26
+Service considerations ..........................................................................................................................................................26
+Tools and software requirements ..................................................................................................................26
+Screws .................................................................................................................................................................26
+Cables and connectors .....................................................................................................................................27
+Hard Drives .........................................................................................................................................................27
+Lithium coin cell battery ...................................................................................................................................27
+SMART ATA drives ...................................................................................................................................................................27
+4  Removal and replacement procedures ..............................................................................................................................................28
+Preparation for disassembly ................................................................................................................................................28
+Access panel ...........................................................................................................................................................................29
+Optical drive ............................................................................................................................................................................30
+v
+
+================================================================================
+PAGE 6
+================================================================================
+Front bezel ..............................................................................................................................................................................31
+Drive cage ................................................................................................................................................................................32
+Hard drives ..............................................................................................................................................................................33
+Memory card reader ..............................................................................................................................................................35
+WLAN module .........................................................................................................................................................................36
+Memory module .....................................................................................................................................................................37
+Speaker ....................................................................................................................................................................................38
+Power supply ..........................................................................................................................................................................39
+Fan shroud ............................................................................................................................................................................... 40
+Fan-sink ...................................................................................................................................................................................41
+Processor .................................................................................................................................................................................42
+Serial connector module .......................................................................................................................................................44
+System board .......................................................................................................................................................................... 45
+5  Computer Setup (F10) Utility ................................................................................................................................................................48
+Computer Setup (F10) Utilities ............................................................................................................................................48
+Using Computer Setup (F10) Utilities .............................................................................................................49
+Computer Setup–Main ......................................................................................................................................50
+Computer Setup—Security .............................................................................................................................. 52
+Computer Setup—Advanced ........................................................................................................................... 54
+Recovering theCongurationSettings ...............................................................................................................................59
+6  Troubleshooting without diagnostics .................................................................................................................................................60
+Safety and comfort ................................................................................................................................................................60
+Before you call for technical support ..................................................................................................................................60
+Helpful hints ............................................................................................................................................................................61
+Solving general problems .....................................................................................................................................................62
+Solving power problems .......................................................................................................................................................65
+Solving hard drive problems ................................................................................................................................................66
+Solving media card reader problems ..................................................................................................................................68
+Solving display problems ......................................................................................................................................................69
+Solving audio problems ........................................................................................................................................................73
+Solving printer problems ......................................................................................................................................................75
+Solving keyboard and mouse problems ............................................................................................................................. 76
+Solving hardware installation problems ............................................................................................................................. 78
+Solving network problems .................................................................................................................................................... 79
+Solving memory problems ...................................................................................................................................................82
+Solving USBashdrive problems ........................................................................................................................................ 83
+Solving front panel component problems .........................................................................................................................84
+Solving Internet access problems .......................................................................................................................................84
+Solving software problems ..................................................................................................................................................85
+vi
+
+================================================================================
+PAGE 7
+================================================================================
+7  POST error messages and diagnostic front panel LEDs and audible codes .................................................................................86
+POST numeric codes and text messages ...........................................................................................................................86
+Interpreting system validation diagnostic front panel LEDs and audible codes .......................................................... 91
+8  Password security and resetting CMOS ..............................................................................................................................................93
+Resetting CMOS and/or the password jumper ..................................................................................................................94
+Changing a Setup or Power-on password .........................................................................................................................96
+Deleting a Setup or Power-on password ...........................................................................................................................96
+9  Using HP PC Hardware Diagnostics (UEFI) .......................................................................................................................................... 97
+Downloading HP PC Hardware Diagnostics (UEFI) to a USB device ...............................................................................98
+10  System backup and recovery .............................................................................................................................................................99
+Backing up, restoring, and recovering ................................................................................................................................99
+Creating recovery media and backups ...........................................................................................................99
+Using Windows tools ......................................................................................................................................101
+Restore and recovery .....................................................................................................................................101
+Recovering using HP Recovery Manager ................................................................................102
+Appendix A  Battery replacement ..........................................................................................................................................................104
+Appendix B  Statement of memory volatility .......................................................................................................................................107
+Current BIOS steps ............................................................................................................................................................... 107
+Nonvolatile memory usage ................................................................................................................................................109
+Questions and answers ......................................................................................................................................................111
+Using HP Sure Start .............................................................................................................................................................112
+Appendix C  Power cord set requirements ...........................................................................................................................................113
+General requirements .........................................................................................................................................................113
+Japanese power cord requirements .................................................................................................................................113
+Country-specicrequirements ..........................................................................................................................................114
+vii
+
+================================================================================
+PAGE 8
+================================================================================
+Appendix DSpecications......................................................................................................................................................................115
+Index ...........................................................................................................................................................................................................116
+viii
+
+================================================================================
+PAGE 10
+================================================================================
+Drivecongurationmay vary by model. Some models have a bezel blank covering the slim optical drive bay.
+(1)Slim optical drive (select products only)(4)Audio-out (headphone)/Audio-in (microphone)
+NOTE:When a device is plugged into the combo jack, a dialog box is displayed. Select the type of device that is connected.
+
+================================================================================
+PAGE 11
+================================================================================
+(3)Audio-out jack for powered audio device(7)USB SuperSpeed ports (2)
+NOTE:When a graphics card is installed in one of the system board slots, the video connectors on the graphics card and/or the
+integrated graphics on the system board may be used. Thespecicgraphics card installed and softwarecongurationwill determine the
+
+================================================================================
+PAGE 13
+================================================================================
+8-GB
+4-GB
+
+================================================================================
+PAGE 14
+================================================================================
+512-GB, M2 2280, peripheral component interconnect express (PCIe3×4) solid-state drive with secure seal (SS) and triple-level cell (TLC)
+
+================================================================================
+PAGE 30
+================================================================================
+CAUTION:When the computer is plugged into an AC power source, voltage is always applied to the system
+A sudden discharge of static electricity from yourngeror other conductor can destroy static-sensitive devices
+electrostatic discharge (ESD) may not appear to beaectedat all and can work perfectly throughout a normal
+The following table shows how humidityaectsthe electrostatic voltage levels generated bydierentactivities.
+●Dierentactivities generatedierentamounts of static electricity.
+
+================================================================================
+PAGE 31
+================================================================================
+●To avoid hand contact, transport products in static-safe containers such as tubes, bags, or boxes.
+●Protect all electrostatic-sensitive parts and assemblies with conductive or approved containers
+●Keep electrostatic-sensitive parts in their containers until they arrive at static-free stations.
+●Place reusable electrostatic-sensitive parts from assemblies in protective packaging or conductive foam.
+●Wrist strapsareexiblestraps with a maximum of one-megohm ± 10% resistance in the ground cords. To
+●Heel straps/Toe straps/Boot strapscan be used at standing workstations and are compatible with most
+types of shoes or boots. On conductiveoorsor dissipativeoormats, use them on both feet with a
+●Cover the work surface with approved static-dissipative material. Provide a wrist strap connected to
+●Handle electrostatic-sensitive components, parts, and assemblies by the case or PCB laminate. Handle
+●Turnopower and input signals before inserting and removing connectors or test equipment.
+●Usexturesmade of static-safe materials whenxturesmust directly contact dissipative surfaces.
+●Keep work area free of non-conductive materials such as ordinary plastic assembly aids and Styrofoam.
+●Useeldservice tools, such as cutters, screwdrivers, and vacuums, that are conductive.
+
+================================================================================
+PAGE 32
+================================================================================
+●
+●Keep the computer away from excessive moisture, direct sunlight, and extremes of heat and cold.
+●Operate the computer on a sturdy, level surface. Leave a 10.2 cm (4-inch) clearance on all vented sides of
+●Never restrict theairowinto the computer by blocking any vents or air intakes. Do not place the keyboard,
+with the keyboard feet down, directly against the front of the desktop unit as this also restrictsairow.
+●Occasionally clean the air vents on all vented sides of the computer. Lint, dust, and other foreign matter can
+block the vents and limit theairow.Be sure to unplug the computer before cleaning the air vents.
+●Do not stack computers on top of each other or place computers so near each other that they are subject
+●If the computer is to be operated within a separate enclosure, intake and exhaust ventilation must be
+●Install or enable power management functions of the operating system or other software, including
+
+================================================================================
+PAGE 33
+================================================================================
+2.Never immerse any parts in water or cleaning solutions; apply any liquids to a clean cloth and then use
+Follow all safety precautions inGeneral cleaning safety precautions on page 25before cleaning the computer.
+●For stronger stains, use a mild dishwashing liquid diluted with water. Rinse well by wiping the surface with a
+●For stubborn stains, use isopropyl (rubbing) alcohol. No rinsing is needed; alcohol will evaporate quickly
+●Occasionally clean the air vents on the computer. Lint and other foreign matter can block the vents and
+Follow all safety precautions inGeneral cleaning safety precautions on page 25before cleaning the keyboard.
+To clean the tops of the keys or the keyboard body, follow the procedures described inCleaning the computer
+When cleaning debris from under the keys, review all rules inGeneral cleaning safety precautions on page 25
+CAUTION:Use safety glasses equipped with side shields before attempting to clean debris from under
+●Canned, pressurized air may be used to clean debris from under the keys. Caution should be used as too
+●If you want to remove a key, use a specially designed key puller to prevent damage to the keys. This tool is
+
+================================================================================
+PAGE 34
+================================================================================
+CAUTION:Never remove a wide, level key (like the space bar) from the keyboard. If these keys are
+●Cleaning under a key may be done with a swab moistened with isopropyl alcohol and then squeezed out.
+bersor dirt inconnedareas. Allow the parts to air dry before reassembly.
+●Wipe the monitor screen with a towelette designed for cleaning monitors or with a clean cloth moistened
+●To clean the monitor body follow the procedures inCleaning the computer case on page 25.
+●Clean the mouse ball byrstremoving the retaining plate and the ball from the housing. Pull out any debris
+●To clean the mouse body, follow the procedures inCleaning the computer case on page 25.
+be ofdierentlengths. If an incorrect screw is used during the reassembly process, it can damage the unit. HP
+CAUTION:Metric screws have a blacknish.U.S. screws have a silvernishand are used on hard drives only.
+CAUTION:As each subassembly is removed from the computer, it should be placed away from the work area to
+
+================================================================================
+PAGE 35
+================================================================================
+Most cables used throughout the unit areat,exiblecables. These cables must be handled with care to avoid
+CAUTION:When servicing this computer, ensure that cables are placed in their proper location during
+●If a drive must be mailed, place the drive in a bubble-pack mailer or other suitable protective packaging and
+●Do not remove hard drives from the shipping package for storage. Keep hard drives in their protective
+●If you are inserting or removing a hard drive, turnothe computer. Do not remove a hard drive while
+●Before handling a drive, ensure that you are discharged of static electricity. While handling a drive, avoid
+●Avoid exposing a hard drive to liquids, temperature extremes, or products that have magneticeldssuch
+WARNING!This computer contains a lithium battery. There is a risk ofreand chemical burn if the battery is
+handled improperly. Do not disassemble, crush, puncture, short external contacts, dispose in water orre,or
+NOTE:Batteries, battery packs, and accumulators should not be disposed of together with general household
+
+================================================================================
+PAGE 36
+================================================================================
+WARNING!Voltage is always present on the system board when the computer is plugged into an active
+SeeRoutine care, SATA drive guidelines, and disassembly preparation on page 22for initial safety procedures.
+2.Remove all removable media, such as compact discs or USBashdrives, from the computer.
+3.Turnothe computer properly through the operating system, then turnoany external devices.
+NOTE:During disassembly, label each cable as you remove it, noting its position and routing. Keep all screws
+
+================================================================================
+PAGE 37
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+4.Use the access panel release handle(2)to pull the access panel back.
+
+================================================================================
+PAGE 38
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+3.Disconnect the optical drive SATA cable(1)from the back of the optical drive.
+4.Disconnect the optical drive power cable(2)from the back of the optical drive.
+
+================================================================================
+PAGE 39
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+3.Detach the four clips(1)on the top edge of the front bezel from the tabs on the computer chassis.
+4.Swing the top edge of the front cover(2)away from the computer chassis.
+
+================================================================================
+PAGE 40
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+8.Lift the right side of the drive cage(2)until it rests at an angle.
+
+================================================================================
+PAGE 41
+================================================================================
+9.Slide the drive cage(2)up and to the right at an angle and remove it.
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+4.If it is necessary to remove the top hard drive from the drive cage, remove the four Torx-15 M3.0×9.0
+
+================================================================================
+PAGE 42
+================================================================================
+6.If it is necessary to remove the bottom hard drive from the drive cage, remove the four Torx-15 M3.0×9.0
+
+================================================================================
+PAGE 43
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+3.Remove the front bezel (seeFront bezel on page 31).
+2.Disconnect the memory card reader cable(1)from the system board.
+3.Remove the Torx-15 M3.0×9.0 screw(2)that secures the memory card reader to the computer chassis.
+4.Slide the memory card reader(3)back into the computer chassis, and then remove the memory
+
+================================================================================
+PAGE 44
+================================================================================
+CAUTION:To prevent an unresponsive system, replace the wireless module only with a wireless module
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+3.Remove the front bezel (seeFront bezel on page 31).
+1.Disconnect the WLAN antenna cables(1)from the terminals on the WLAN module.
+NOTE:The WLAN antenna cable labeled "1/MAIN" connects to the WLAN module "Main" terminal. The
+2.Remove the Phillips M2.0×3.5 screw(2)that secures the WLAN module to the computer chassis. (The
+3.Remove the WLAN module(3)by pulling the module away from the slot at an angle.
+
+================================================================================
+PAGE 45
+================================================================================
+CAUTION:You must disconnect the power cord and wait approximately 30 seconds for the power to drain
+these procedures, ensure that you are discharged of static electricity bybrieytouching a grounded
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+2.Remove the front bezel (seeFront bezel on page 31).
+Reverse this procedure to install a memory module.Recongurethe computer, if necessary.
+
+================================================================================
+PAGE 46
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+3.Remove the front bezel (seeFront bezel on page 31).
+3.Release the speaker cable(2)from the retention clip built into the computer chassis.
+4.Remove the two Phillips M2.0×5.5 screws(3)that secure the speaker to the computer chassis.
+5.Slide the speaker(4)back into the computer chassis, and then remove the speaker.
+
+================================================================================
+PAGE 47
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+3.Remove the front bezel (seeFront bezel on page 31).
+2.Disconnect the power supply P1(1), P2(2), and P3(3)cables from the system board.
+3.Release the power supply P3 cable from the retention clips built into the fan shroud(4).
+4.Remove the four Torx-15 M3.0×9.0 screws(5)that secure the power supply to the computer chassis.
+6.Slide the power supply forward(7), and then remove the power supply.
+
+================================================================================
+PAGE 48
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+3.Remove the front bezel (seeFront bezel on page 31).
+3.Release the power supply P3 cable from the retention clips built into the fan shroud(2).
+
+================================================================================
+PAGE 49
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+2.Remove the access panel (seeAccess panel on page 29), and then remove the following components:
+2.Loosen the four slotted Torx-15 captive screws(2)that secure the fan-sink to the computer chassis.
+
+================================================================================
+PAGE 50
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28), and then remove the
+2.Remove the access panel (seeAccess panel on page 29), and then remove the following components:
+1.Depress the processor release lever(1), and then slide the lever to the right until it clears the locking clip.
+2.Swing the processor release lever(2)up and back as far as it will go.
+3.Swing the processor retention bracket(3)up and back as far as it will go.
+
+================================================================================
+PAGE 51
+================================================================================
+CAUTION:When installing the processor, the gold triangle(1)on the processor must be aligned with
+the triangle icon(2)embossed on the system board. Failure to follow this caution can result in damage to
+
+================================================================================
+PAGE 52
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+2.Remove the access panel (seeAccess panel on page 29), and then remove the following components:
+1.Disconnect the serial connector module cable(1)from the system board.
+2.Remove the two 3/16-in. screw locks(2)that secure the serial connector module to the computer chassis.
+
+================================================================================
+PAGE 53
+================================================================================
+1.Prepare the computer for disassembly (seePreparation for disassembly on page 28).
+2.Remove the access panel (seeAccess panel on page 29), and then remove the following components:
+NOTE:When replacing the system board, be sure that the processor (seeProcessor on page 42) is
+
+================================================================================
+PAGE 54
+================================================================================
+4.Remove the eight Torx-15 M3.0×9.0 screws that secure the system board to the computer chassis.
+5.Swing the top edge of the lower cage(1)away from the computer chassis.
+7.Lift the front edge of the system board(1)until it rests at an angle.
+
+================================================================================
+PAGE 55
+================================================================================
+8.Remove the system board(2)by sliding the front edge up and forward at an angle.
+
+================================================================================
+PAGE 56
+================================================================================
+●View the systemconguration,including settings for processor, graphics, memory, audio, storage,
+●Modify the boot order of bootable devices such as hard drives, optical drives, or USBashmedia devices.
+●Enter the Asset Tag or propertyidenticationnumber assigned by the company to this computer.
+●Enable the power-on password prompt during system restarts (warm boots) as well as during power-on.
+●Establish an administrator password that controls access to the Computer Setup (F10) Utility and
+●Establish minimum requirements for valid passwords, including length and required types of characters.
+●Secure integrated I/O functionality, including the serial, USB, or audio, or embedded NIC, so that they
+●Congurefeatures such as Secure Boot, power management, virtualization support, and language and
+●Replicate the system setup by saving systemcongurationinformation on a USB device and restoring it on
+●Enable or disable DriveLock security or securely erase a hard drive (when supported by drive).
+
+================================================================================
+PAGE 57
+================================================================================
+2.Repeatedly pressF10when the monitor light turns green to access the utility.
+You can also pressEscto a menu that allows you to accessdierentoptions available at startup, including
+NOTE:If you do not pressF10at the appropriate time, you must restart the computer and again
+3.A choice of four headings appears in the Computer Setup Utilities menu: Main, Security, Advanced, and
+NOTE:Selecting UEFI Drivers restarts the computer into the 3rd party option ROM management
+4.Use the arrow (left and right) keys to select the appropriate heading. Use the arrow (up and down) keys to
+select the option you want, then pressEnter. To return to the Computer Setup Utilities menu, pressEsc.
+5.To apply and save changes, selectMain>Save Changes and Exit.
+●If you have made changes that you do not want applied, selectIgnore Changes and Exit.
+●To restore settings from the Advanced and Main menus to original values, selectApply Factory
+●To restore settings from the Advanced and Main menus to those previously saved bySave Custom
+Defaults, selectApply Custom Defaults and Exit. If no custom defaults have been saved, then factory
+NOTE:Settings in theSecuritymenu are notmodiedbyApply Defaults. Those values are reset by
+Restore Security Settings to Defaultat the bottom of theSecuritymenu.
+CAUTION:Do NOT turn the computer power OFF while the BIOS is saving the Computer Setup (F10) changes
+because the settings could become corrupted. It is safe to turnothe computer only after exiting the F10
+
+================================================================================
+PAGE 58
+================================================================================
+NOTE:Support forspecicComputer Setup options may vary depending on the hardwareconguration.
+System InformationLists all information in following list ifAdvanced System Informationis selected. Lists smaller subset ifBasic
+System DiagnosticsIf the hard drive has the HP Advanced Diagnostics installed, the application will launch. If HP Advanced
+Update System BIOSLets you update the system BIOS from www.hp.com or another network server, from a removable USB drive,
+
+================================================================================
+PAGE 59
+================================================================================
+server) and allowscongurationof a periodic check for updates, including policies for:
+application included in BIOS Softpaqs at www.hp.com will copy the BIOSleto the correct location on
+Saves systemcongurationto a formatted USBashmedia device.
+Restores systemcongurationfrom a USBashmedia device.
+Save Custom DefaultsSaves the current systemcongurationsettings as the custom default set.
+Exit
+Restores the factory systemcongurationsettings to the computer after rebooting. Does not apply to
+Save Changes and ExitSaves changes to current systemconguration,exits Computer Setup, and reboots.
+
+================================================================================
+PAGE 60
+================================================================================
+NOTE:Support forspecicComputer Setup options may vary depending on the hardwareconguration.
+NOTE:If the password is set, it is required to change Computer Setup options, update the BIOS, and make
+Select to reset the TPM to an unowned state. After the TPM is cleared, it is also turnedo.To
+CAUTION:Clearing the TPM resets it to factory defaults and turns ito.You will lose all created keys
+
+================================================================================
+PAGE 61
+================================================================================
+DriveLockAllows you to assign or modify a master or user password for hard drives. When this feature is enabled,
+NOTE:This selection will only appear when at least one drive that supports the DriveLock feature is
+CAUTION:Be sure to document the DriveLock password. Losing a DriveLock password will render a drive
+Once a hard drive has been erased with a program that utilizes Secure Erasermwarecommands, nole
+NOTE:Windows 10 systems are generally not formatted to include an MBR. Instead they use GUID Partition
+NOTE:Most operating systems control access to the MBR of the current bootable disk; the BIOS cannot
+CAUTION:Restoring a previously saved MBR after a disk utility or operating system hasmodiedthe MBR,
+
+================================================================================
+PAGE 62
+================================================================================
+Lets you disable the cover sensor orcongurewhat action is taken if the computer cover was removed.
+NOTE:Notify useralerts the user with a POST error on therstboot after the sensor detects removal of
+the cover. If the password is set,Administrator Passwordrequires that the password be entered to boot
+NOTE:Support forspecicComputer Setup options may vary depending on the hardwareconguration.
+Display LanguageLets you select the language of the menus in F10 Setup and the keyboard layout.
+Scheduled Power-OnThis feature wakes the system up from a poweredostate at aspecieddate and time.
+Boot OptionsSelect the devices that the computer can boot from, as well as other options, including:
+●Startup Menu Delay(sec). Enabling this feature will add auser-specieddelay to the POST process. One
+purpose for the delay is to provide additional time to activate hotkeys such asEscfor the Startup Menu
+■Powero—causesthe computer to remain poweredowhen power is restored.
+■Previous state—causes the computer to power on automatically as soon as power is restored, if
+NOTE:If the system isconguredto ‘Power On from Keyboard Ports’ (see Power Management
+●Audio Alerts During Boot. Default is enabled. When disabled, most audible beeps from errors, warnings,
+
+================================================================================
+PAGE 63
+================================================================================
+Specify the order of attached hard drives. Thersthard drive in the order will have priority in the boot
+NOTE:MS-DOS drive lettering assignments may not apply after a non-MS-DOS operating system has
+To bootone timefrom a device other than the default devicespeciedin Boot Order, restart the computer
+and pressEsc(to access the Startup menu) and thenF9(Boot Menu), or onlyF9(skipping the Startup menu)
+the arrow keys to select the preferred bootable device and pressEnter. The computer then boots from
+Legacy Support – Lets you turnoall legacy support on the computer, including booting to DOS, running
+resistant to maliciousmodicationfrom preboot to full OS booting, preventingrmwareattacks. UEFI and
+Windows Secure Boot only allow code signed by pre-approved digitalcerticatesto run during thermware
+Default is ‘Legacy Support Enable and Secure Boot Disable’ for non-Windowscongurations.Default is
+Controls the virtualization features of the processor. Changing this setting requires turning the computero
+
+================================================================================
+PAGE 64
+================================================================================
+Controls the virtualization features of the processor. Changing this setting requires turning the computero
+Lets you either disable the Wake On LAN feature, orcongurewhere the computer boots, including
+the operating system and does notaectthe error or warning beeps during POST. Default is enabled.
+Clear to disable the integrated microphone. This does notaectdevices plugged into audio jacks. Default is
+
+================================================================================
+PAGE 65
+================================================================================
+can be moved todierentports. The ports disabled by the BIOS will remain disabled until the system is
+Option ROM Launch PolicyThese policies control whether Legacy Option ROMs or UEFI drivers are loaded. Default is ‘All legacy’ for non-
+
+================================================================================
+PAGE 66
+================================================================================
+When enabled, this feature allows a key press to power on the system when it iso(S5 state). If using a USB
+UncongureAMT on next boot(Do Not Apply/Apply). Default is ‘Do Not Apply’.
+ShowUncongureMEConrmationPrompt(enable/disable). Default is enabled.
+
+================================================================================
+PAGE 67
+================================================================================
+This method of recovery requires that yourstperform theSave to Removable Mediacommand with
+the Computer Setup (F10) Utility beforeRestoreis needed. (SeeComputer Setup–Main on page 50in
+TheSave to Removable Mediaoption creates alenamed HPSETUP.TXT on an inserted USBashmedia
+device. Thislecan be edited to change the settings on Restore. An asterisk (*) marks the selected option for a
+NOTE:It is recommended that you save anymodiedcomputercongurationsettings to a USBashmedia
+To restore theconguration,insert the USBashmedia device with the savedcongurationand perform
+theRestore from Removable Mediacommand with the Computer Setup (F10) Utility. (SeeComputer Setup–Main
+
+================================================================================
+PAGE 68
+================================================================================
+NOTE:For information onspecicerror messages that may appear on the screen during Power-On Self-Test
+(POST) at startup, refer toPOST error messages and diagnostic front panel LEDs and audible codes on page 86.
+WARNING!Misuse of the computer or failure to establish a safe and comfortable work environment may result
+in discomfort or serious injury. Refer to theSafety & Comfort Guideathttp://www.hp.com/ergofor more
+●Run the hard drive self-test in Computer Setup. Refer toComputer Setup (F10) Utility on page 48for more
+●Check the Power LED on the front of the computer to see if it isashingred. Theashinglights are error
+codes that will help you diagnose the problem. Refer toPOST error messages and diagnostic front panel
+●If the screen is blank, plug the monitor into adierentvideo port on the computer if one is available. Or,
+●If you are working on a network, plug another computer with adierentcable into the network connection.
+●If you recently added new hardware, remove the hardware and see if the computer functions properly.
+●If you recently installed new software, uninstall the software and see if the computer functions properly.
+●Boot the computer to the Safe Mode to see if it will boot without all of the drivers loaded. When booting
+●Refer to the comprehensive online technical support athttp://www.hp.com/support.
+●Refer toHelpful hintson page 61in this guide.
+Access HP Instant Support Professional Edition at:http://www.hp.com/go/ispe.
+Access the Business Support Center (BSC) athttp://www.hp.com/go/bizsupportfor the latest online support
+information, software and drivers, proactivenotication,and worldwide community of peers and HP experts.
+
+================================================================================
+PAGE 69
+================================================================================
+●Write down the computer serial number, product ID number, and monitor serial number before calling.
+●Restore the system from the Recovery Disc Set that you created or restore the system to its original
+CAUTION:Restoring the system will erase all data on the hard drive. Be sure to back up all datalesbefore
+NOTE:For sales information and warranty upgrades (Care Packs), call your local authorized service provider or
+●Check that the voltage select switch (some models) is set to the appropriate voltage for your region (115V
+●Check the Power LED on the front of the computer to see if it isashingred. Theashinglights are error
+codes that will help you diagnose the problem. Refer toPOST error messages and diagnostic front panel
+●Press and hold any key. If the system beeps, then the keyboard should be operating correctly.
+●Wake the computer by pressing any key on the keyboard or pressing the power button. If the system
+●Recongurethe computer after installing a non-plug and play expansion board or other option. SeeSolving
+●Be sure that all the needed device drivers have been installed. For example, if you are using a printer, you
+
+================================================================================
+PAGE 70
+================================================================================
+●If you have installed an operating system other than the factory-installed operating system, check to be
+●If the system has multiple video sources (embedded, PCI, or PCI-Express adapters) installed (embedded
+CAUTION:When the computer is plugged into an AC power source, there is always voltage applied to
+WARNING!When the computer is plugged into an AC power source, voltage is always applied to the system
+Software control of the power switch is not functional.1.Press and hold the power button for at least four seconds
+
+================================================================================
+PAGE 71
+================================================================================
+System volume may be set low or muted.1.Check the Computer Setup settings to make sure the internal
+Processor is too hot.1.Make sureairowto the computer is not blocked. Leave a
+
+================================================================================
+PAGE 72
+================================================================================
+b.On theStartuptab of the SystemCongurationUtility,
+Computer poweredoautomatically and the Power LEDashesred four times and then white two times.
+OR
+
+================================================================================
+PAGE 73
+================================================================================
+OR
+Computer poweredoautomatically and the Power LEDashesred two times, once every second, followed by a two second pause, and
+the computer beeps two times. (Beeps stop afterfthiteration but LEDs continueashing.)Computer poweredoautomatically and
+OR
+
+================================================================================
+PAGE 74
+================================================================================
+Power LEDashesred four times, once every second, followed by a two second pause, and the computer beeps four times. (Beeps stop
+afterfthiteration but LEDs continueashing.)Computer poweredoautomatically and the Power LEDashesred three times and then
+Power failure (power supply is overloaded).1.If equipped with a voltage selector, check that the voltage
+Hard disk has bad sectors or has failed.1.Typefilein the taskbar search box, and then selectFile
+expandThis PC, right-click on a drive, selectProperties, and
+then select theToolstab. UnderError checkingclickCheck.
+Either the directory structure is bad or there is a problem with ale.Typefilein the taskbar search box, and then selectFile Explorer
+
+================================================================================
+PAGE 75
+================================================================================
+selected for the device's SATA port inAdvanced>Port Options.
+Drive responds slowly immediately after power-up.Run Computer Setup and increase the POST Delay inAdvanced>
+ROM.
+Systemlesmissing or not properly installed.1.Insert bootable media and restart the computer.
+3.Install systemlesfor the appropriate operating system.
+Bootable hard drive is not listedrstin the Boot Order.Run the Computer Setup utility and selectAdvanced>Boot Options
+2.Run the Computer Setup utility and ensureDevice Availableis
+
+================================================================================
+PAGE 76
+================================================================================
+Program in use has stopped responding to commands.1.Use the task manager to close programs that do not respond.
+
+================================================================================
+PAGE 77
+================================================================================
+The computer’s software is used to safely eject the card.Typefilein the taskbar search box, and then selectFile Explorer
+After installing the media card reader and booting to Windows, the reader and the inserted cards are not recognized by the computer.
+The inserted media card has boot capability.1.If you do not want to boot from the media card, remove it
+
+================================================================================
+PAGE 78
+================================================================================
+1.In Control Panel, selectCategoryfrom theView bylist, then
+Monitor isconguredto use an input that is not active.Use the monitor's on-screen menu controls to select the input that
+Blank screen and the power LEDashesRedvetimes, once every second, followed by a two second pause, and the computer beepsve
+Blank screen and the power LEDashesRed six times, once every second, followed by a two second pause, and the computer beeps six
+
+================================================================================
+PAGE 79
+================================================================================
+Blank screen and the power LEDashesRed seven times, once every second, followed by a two second pause, and the computer beeps
+seven times. (Beeps stop afterfthiteration but LEDs continueashing.)
+
+================================================================================
+PAGE 80
+================================================================================
+3.Click theBoottab, selectSafe bootand then clickOK.
+Fuzzy focus; streaking, ghosting, or shadowingeects;horizontal scrolling lines; faint vertical bars; or unable to center the picture on
+
+================================================================================
+PAGE 81
+================================================================================
+Fuzzy focus; streaking, ghosting, or shadowingeects;horizontal scrolling lines; faint vertical bars; or unable to center the picture on
+The font you are using does not support that particular symbol.Use the Character Map to locate and select the appropriate symbol.
+Software volume control is turned down or muted.Double-click theSpeakericon on the taskbar, then make sure that
+Audio is hidden in Computer Setup.Enable the audio in Computer Setup:Advanced>Built-in Device
+
+================================================================================
+PAGE 82
+================================================================================
+Internal speaker is disabled in Computer Setup.Enable the internal speaker in Computer Setup. SelectAdvanced>
+The application is set to use adierentaudio device than speakers.Some graphics cards support audio over the DisplayPort connection
+Some applications can select which audio output device is used.Make sure the application has selected the correct audio device.
+
+================================================================================
+PAGE 83
+================================================================================
+The application is set to use adierentaudio device than speakers.Some graphics cards support audio over the DisplayPort connection
+Some applications can select which audio output device is used.Make sure the application has selected the correct audio device.
+The correct printer drivers for the application are not installed.1.Install the correct printer driver for the application.
+
+================================================================================
+PAGE 84
+================================================================================
+Printer memory may be overloaded.Reset the printer by turning itofor one minute, then turn it back
+on.
+A wireless keyboard/mouse is not working correctly. Symptoms include lagging mouse movement, jumpy mouse/keyboard, or no function
+
+================================================================================
+PAGE 85
+================================================================================
+1.Press theCtrlandEsckeys at the same time (or press
+theWindows logokey) to display theStartmenu.
+2.Use thearrowkeys to scroll to and select the power icon at
+3.Use thearrowkeys to selectShut Down, and then pressEnter.
+
+================================================================================
+PAGE 86
+================================================================================
+You may need torecongurethe computer when you add or remove hardware, such as an additional drive or
+conguresthe computer. If you install a non-plug and play device, you mustrecongurethe computer after
+completing installation of the new hardware. In Windows, use theAdd Hardware Wizardand follow
+WARNING!When the computer is plugged into an AC power source, voltage is always applied to the system
+Power switch of new external device is not turned on.Turnothe computer, turn on the external device, then turn on
+resourceconict.You can also use Computer Setup torecongure
+USB ports on the computer are disabled in Computer Setup.Run the Computer Setup utility and ensure thatDevice availableis
+the computer. Beeps andashingLEDs are codes forspecic
+
+================================================================================
+PAGE 87
+================================================================================
+Memory is installed incorrectly or is bad.CAUTION:To avoid damage to the DIMMs or the system board,
+NOTE:The network status light is supposed toashwhen there is network activity.
+
+================================================================================
+PAGE 88
+================================================================================
+NOTE:The network status light is supposed toashwhen there is network activity.
+The network controller is notconguredfor this computer.Select theNetwork and Sharing Centericon in theControl Paneland
+
+================================================================================
+PAGE 89
+================================================================================
+Thelescontaining the network drivers are corrupted.Reinstall the network drivers using the Windows recovery tools.
+The network controller is notconguredproperly.Verify Network Connectivity, that a DHCP Server is present, and that
+
+================================================================================
+PAGE 90
+================================================================================
+CAUTION:Power may still be supplied to the DIMMs when the computer is turnedo(depending on
+NOTE:The memory count will beaectedbycongurationswith the Management Engine (ME) enabled. The
+download, decompress, and execute the MErmwarefor Out-of-Band (OOB), third-party data storage, and other
+A memory module is not installed in the DIMM1 or XMM1 socket.Ensure that a memory module is installed in the DIMM1 or XMM1
+
+================================================================================
+PAGE 91
+================================================================================
+Power LEDashesRedvetimes, once every second, followed by a two second pause, and the computer beepsvetimes. (Beeps stop
+If you encounter USBashdrive problems, common causes and solutions are listed in the following table.
+The drive letter after the last physical drive is not available.Change the default drive letter for theashdrive in Windows.
+The device was not properly seated before power-up.Ensure the device is fully inserted into the USB port before applying
+Removable Media Boot is disabled in the Computer Setup utility.Run the Computer Setup utility and enable booting to removable
+
+================================================================================
+PAGE 92
+================================================================================
+USB ports on the computer are disabled in Computer Setup.Run the Computer Setup utility and ensure that the USB ports are
+set toEnabledinSecurity>USB Security.
+Internet Service Provider (ISP) account is not set up properly.Verify Internet settings or contact your ISP for assistance.
+IP address is notconguredproperly.Contact your ISP for the correct IP address.
+is useful for having the browser remember somespecic
+
+================================================================================
+PAGE 93
+================================================================================
+3.In theBrowsing historysection, click theDeletebutton.
+●The application was not installed orconguredcorrectly.
+●If you have installed an operating system other than the factory-installed operating system, check to be
+Congurationlesare corrupt.If possible, save all data, close all programs, and restart
+
+================================================================================
+PAGE 94
+================================================================================
+Messages Enabled mode during POST, press any key (exceptF10,F11, orF12). The default mode is POST
+NOTE:For more information on Computer Setup, seeComputer Setup (F10) Utility on page 48.
+003-System Board FailureDMA or timers.1.Clear CMOS. (SeePassword security and
+005-Real-Time Clock Power LossInvalid time or date incongurationmemory.Reset the date and time underControl Panel
+
+================================================================================
+PAGE 95
+================================================================================
+008–Microcode Patch ErrorProcessor is not supported by the BIOS.1.Upgrade BIOS to proper version.
+00D-Setup Error during MEBx ExecutionMEBx selection or exit resulted in a setup failure.1.Reboot the computer.
+
+================================================================================
+PAGE 96
+================================================================================
+up.
+2E4-DIMMCongurationWarningThe current memorycongurationis not
+300–CongurationChange WarningThe storage devicecongurationwill be updated
+
+================================================================================
+PAGE 97
+================================================================================
+400-Serial Port A AddressConictDetectedBoth external and internal serial ports are
+401-Serial Port B AddressConictDetectedBoth external and internal serial ports are
+402-Serial Port C AddressConictDetectedBoth external and internal serial ports are
+403-Serial Port D AddressConictDetectedBoth external and internal serial ports are
+
+================================================================================
+PAGE 98
+================================================================================
+o.
+801-Keyboard or System Unit ErrorKeyboard failure.1.Reconnect the keyboard with computer
+N/A
+904-SATA Cabling ErrorOne or more SATA devices are improperly
+devices, use SATA 0 and SATA 1. For three
+devices, use SATA 0, SATA 1, and SATA 2.
+90Chapter 7   POST error messages and diagnostic front panel LEDs and audible codes
+
+================================================================================
+PAGE 99
+================================================================================
+910–Filter WarningAirowlteris dirty.Replace theairowlter.
+If an error is detected,specicpatterns of long and short blinks, accompanied by long and short beeps (where
+
+================================================================================
+PAGE 100
+================================================================================
+●Beep error code sequences occur for therst5 iterations of the pattern and then stop.
+●Blink error code sequences continue until the computer is unplugged or the power button is pressed.
+
+================================================================================
+PAGE 101
+================================================================================
+If you forget one or both passwords, you can clear all passwords by poweringothe system, opening the cover,
+The computer’scongurationmemory (CMOS) stores information about the computer’sconguration.
+CAUTION:Resetting the CMOS with power removed will reset the BIOS settings to factory defaults. It may be
+needed later. Back up can be performed in Computer Setup or using theBiosCongUtilitytool available from
+www.hp.com. SeeComputer Setup (F10) Utility on page 48for information on backing up the BIOS settings.
+Resetting CMOS resets BIOS settings to default, but does not clear the passwords oraectany of the other
+CAUTION:Stringent security is a mode where there is no physical bypass of the password function. If enabled,
+removing the password jumper will be ignored. To enable this mode, change the security settingClear Password
+and command a password reset for aspecicallyidentiedunit under the direction of the owner. This scenario
+To prevent needing a customer service event to restore access to the system, record yourcongured
+NOTE:You will receive POST error messages after clearing CMOS and rebooting advising you thatconguration
+CAUTION:It is important to back up the computer CMOS settings before resetting them in case they are needed
+later. Back up is easily done through Computer Setup. SeeComputer Setup (F10) Utility on page 48for
+93
+
+================================================================================
+PAGE 102
+================================================================================
+If you forget one or both passwords, you can clear all passwords by poweringothe system, opening the cover,
+CAUTION:Resetting the CMOS with power removed will reset the BIOS settings to factory defaults. It may be
+needed later. Back up can be performed in Computer Setup or using theBiosCongUtilitytool available from
+www.hp.com. SeeComputer Setup (F10) Utility on page 48for information on backing up the BIOS settings.
+Resetting CMOS resets BIOS settings to default, but does not clear the passwords oraectany of the other
+CAUTION:Stringent security is a mode where there is no physical bypass of the password function. If enabled,
+removing the password jumper will be ignored. To enable this mode, change the security settingClear Password
+and command a password reset for aspecicallyidentiedunit under the direction of the owner. This scenario
+To prevent needing a customer service event to restore access to the system, record yourcongured
+NOTE:You will receive POST error messages after clearing CMOS and rebooting advising you thatconguration
+
+================================================================================
+PAGE 103
+================================================================================
+1.Shut down the operating system properly, then turnothe computer and any external devices, and
+2.With the power cord disconnected, press the power button again to drain the system of any residual power.
+WARNING!To reduce the risk of personal injury from electrical shock and/or hot surfaces, be sure to
+CAUTION:When the computer is plugged in, the power supply always has voltage applied to the system
+board even when the unit is turnedo.Failure to disconnect the power cord can result in damage to
+beginning these procedures, ensure that you are discharged of static electricity bybrieytouching a
+NOTE:The password jumper is blue so that it can be easilyidentied.
+8.Plug in the computer and turn on power. Allow the operating system to start. This clears the current
+
+================================================================================
+PAGE 104
+================================================================================
+3.When the key icon appears, type your current password, a slash (/) or alternate delimiter character, your
+3.When the key icon appears, type your current password, a slash (/) or alternate delimiter character, your
+
+================================================================================
+PAGE 105
+================================================================================
+HP PC Hardware Diagnostics is aUniedExtensible Firmware Interface (UEFI) that allows you to run diagnostic
+NOTE:To download the HP PC Hardware Diagnostics (UEFI) tool to a USB drive, seeDownloading HP
+3.When the diagnostic tool opens, select the type of diagnostic test you want to run, and then follow the on-
+97
+
+================================================================================
+PAGE 106
+================================================================================
+NOTE:The HP PC Hardware Diagnostics (UEFI) download instructions are provided in English only, and you
+must use a Windows computer to download and create the HP UEFI support environment because only .exeles
+1.Go tohttp://www.hp.com/go/techcenter/pcdiags. The HP PC Diagnostics home page is displayed.
+2.In the HP PC Hardware Diagnostics section, click theDowloadlink, and then selectRun.
+1.Go tohttp://www.hp.com/support, and then select your country. The HP Support page is displayed. .
+5.In theDiagnosticsection, follow the on-screen instructions to select and download the UEFI version you
+
+================================================================================
+PAGE 107
+================================================================================
+▲Typehelpin the taskbar search box, and then selectHelp and Support.
+●Use HP Recovery Manager to create HP Recovery media after you successfully set up the computer. This
+on page 100. For information on the recovery options that are available using the recovery media, see
+●Use Windows tools to create system restore points and create backups of personal information.
+
+================================================================================
+PAGE 108
+================================================================================
+●If your computer does not list the Windows partition and the Recovery partition, you can obtain recovery
+media for your system from support. See theWorldwide Telephone Numbersbooklet included with
+the computer. You can alsondcontact information on the HP website. Go tohttp://www.hp.com/support,
+see
+●If your computer does list the Recovery partition and the Windows partition, you can use HP Recovery
+the original operating system and software programs that were installed at the factory and thencongures
+○Only one set of recovery media can be created. Handle these recovery tools carefully, and keep them
+○To create recovery discs, your computer must have an optical drive with DVD writer capability, and
+○If your computer does not include an integrated optical drive with DVD writer capability, but you
+from HP. See theWorldwide Telephone Numbersbooklet included with the computer. You can alsond
+contact information on the HP website. Go tohttp://www.hp.com/support, select your country or
+○Be sure that the computer is connected to AC power before you begin creating the recovery media.
+○If necessary, you can exit the program before you havenishedcreating all of the recovery DVDs. HP
+Recovery Manager willnishburning the current DVD. The next time you start HP Recovery Manager,
+1.Typerecoveryin the taskbar search box, and then selectHP Recovery Manager.
+2.SelectCreate recovery media, and then follow the on-screen instructions.
+If you ever need to recover the system, seeRecovering using HP Recovery Manager on page 102.
+
+================================================================================
+PAGE 109
+================================================================================
+▲Typehelpin the taskbar search box, and then select Help and Support.
+●Windowsoersseveral options for restoring from backup, refreshing the computer, and resetting
+▲Typehelpin the taskbar search box, and then selectHelp and Support.
+●If you need to correct a problem with a preinstalled application or driver, use the Reinstall drivers and/ or
+▲Typerecoveryin the taskbar search box, selectHP Recovery Manager, selectReinstall drivers
+●If you want to recover the Windows partition to original factory content, you can choose the System
+more information, seeRecovering using HP Recovery Manager on page 102. If you have not already
+created recovery media, seeCreating HP Recovery media (select products only) on page 100.
+●On select products, if you want to recover the computer's original factory partition and content, or if you
+●On select products, if you want to remove the recovery partition to reclaim hard drive space, HP Recovery
+For more information, seeRemoving the HP Recovery partition (select products only) on page 103.
+
+================================================================================
+PAGE 110
+================================================================================
+(select products only). If you have not already created recovery media, seeCreating HP Recovery media (select
+●HP Recovery Manager recovers only software that was installed at the factory. For software not provided
+IMPORTANT:Recovery through HP Recovery Manager should be used as analattempt to correct
+●HP Recovery media must be used if the computer hard drive fails. If you have not already created recovery
+media, seeCreating HP Recovery media (select products only) on page 100.
+●To use the Factory Reset option (select products only), you must use HP Recovery media. If you have not
+already created recovery media, seeCreating HP Recovery media (select products only) on page 100.
+●If your computer does not allow the creation of HP Recovery media or if the HP Recovery media does not
+work, you can obtain recovery media for your system from support. See theWorldwide Telephone Numbers
+booklet included with the computer. You can alsondcontact information from the HP website. Go to
+http://www.hp.com/support, select your country or region, and follow the on-screen instructions.
+IMPORTANT:HP Recovery Manager does not automatically provide backups of your personal data. Before
+NOTE:Only the options available for your computer display when you start the recovery process.
+●System Recovery—Reinstalls the original operating system, and thenconguresthe settings for
+●Factory Reset—Restores the computer to its original factory state by deleting all information from the hard
+recovery USBashdrive. This type of recovery can be used only if the hard drive is still working.
+1.Typerecoveryin the taskbar search box, selectRecovery Manager, and then selectHP Recovery
+.
+Pressf11while the computer boots, or press and holdf11as you press the power button.
+2.SelectTroubleshootfrom the boot options menu.
+3.SelectRecovery Manager, and then follow the on-screen instructions.
+
+================================================================================
+PAGE 111
+================================================================================
+NOTE:If the computer does not automatically restart in HP Recovery Manager, change the computer boot
+Restart the computer, quickly pressesc, and then pressf9for boot options.
+3.Select the optical drive or USBashdrive from which you want to boot.
+IMPORTANT:After you remove the HP Recovery partition, you will not be able to perform System Recovery or
+HP Recovery media; seeCreating HP Recovery media (select products only) on page 100.
+NOTE:The Remove Recovery Partition option is only available on products that support this function.
+1.Typerecoveryin the taskbar search box, and then selectHP Recovery Manager.
+2.SelectRemove Recovery Partition, and then follow the on-screen instructions.
+
+================================================================================
+PAGE 112
+================================================================================
+WARNING!The computer contains an internal lithium manganese dioxide battery. There is a risk ofreand
+CAUTION:Before replacing the battery, it is important to back up the computer CMOS settings. When
+beginning these procedures, ensure that you are discharged of static electricity bybrieytouching a grounded
+NOTE:The lifetime of the lithium battery can be extended by plugging the computer into a live AC wall socket.
+batteries. For more information about recycling programs, go tohttp://www.hp.com/recycle.
+2.Remove all removable media, such as compact discs or USBashdrives, from the computer.
+3.Turnothe computer properly through the operating system, then turnoany external devices.
+CAUTION:Regardless of the power-on state, voltage is always present on the system board as long as
+NOTE:On some computer models, it may be necessary to remove an internal component to gain access
+7.Depending on the type of battery holder on the system board, complete the following instructions to
+
+================================================================================
+PAGE 113
+================================================================================
+b.Slide the replacement battery into position, positive side up. The battery holder automatically secures
+a.To release the battery from its holder, squeeze the metal clamp that extends above one edge of
+b.To insert the new battery, slide one edge of the replacement battery under the holder’s lip with
+a.Pull back on the clip(1)that is holding the battery in place, and remove the battery(2).
+105
+
+================================================================================
+PAGE 114
+================================================================================
+NOTE:After the battery has been replaced, use the following steps to complete this procedure.
+10.Reset the date and time, your passwords, and any special system setups using Computer Setup.
+
+================================================================================
+PAGE 115
+================================================================================
+The amount of nonvolatile memory present in the system depends upon the systemconguration.Intel-based
+assuming that no subsequentmodicationshave been made to the system and assuming that no applications,
+can remain on volatile system memory (DIMMs) for aniteperiod of time and will also remain in nonvolatile
+1.Follow steps (a) through (l) below to restore the nonvolatile memory that can contain personal data.
+b.SelectMain, selectApply Factory Defaults and Exit, and then selectYesto load defaults.
+d.Select theSecuritymenu, selectRestore Security Settings to Factory Defaults, and then selectYesto
+f.If an asset or ownership tag is set, select theSecuritymenu and scroll down to theUtilitiesmenu.
+SelectSystem IDs, and then selectAsset Tracking Number. Clear the tag, and then make the selection
+g.If a DriveLock password is set, select theSecuritymenu, and scroll down toHard Drive Utilitiesunder
+theUtilitiesmenu. SelectHard Drive Utilities, selectDriveLock, then uncheck the checkbox for
+
+================================================================================
+PAGE 116
+================================================================================
+h.Select theMainmenu, and then selectReset BIOS Security to factory default. ClickYesat the warning
+j.Select theMainmenu, selectApply Factory Defaults and Exit, selectYesto save changes and exit, and
+k.Reboot the system. If the system has a Trusted Platform Module (TPM) and/orngerprintreader, one
+●Clear the drive contents by using a third party utility designed to erase data from a solid-state drive.
+a.Turn on or restart the computer, and then pressescwhile the "Press the ESC key for Startup Menu"
+b.Select theSecuritymenu and scroll down to theUtilitiesmenu.
+d.UnderUtilities, selectSecure Erase, select the hard drive storing the data you want to clear, and then
+
+================================================================================
+PAGE 117
+================================================================================
+DOS.
+data
+
+================================================================================
+PAGE 119
+================================================================================
+IMPORTANT:Restore defaults does not securely erase any data on your hard drive. See question and
+a.Turn on or restart the computer, and then pressescwhile the “Press the ESC key for Startup Menu”
+b.SelectMain, and then selectRestore defaults.
+d.SelectMain, selectSave Changes and Exit, and then follow the on-screen instructions.
+TheUniedExtensible Firmware Interface (UEFI) BIOS is an industry-standard software interface between
+the platformrmwareand an operating system (OS). It is a replacement for the older BIOS architecture, but
+congurationsettings and to change thecongurationof your computer before an OS is loaded. BIOS
+to navigate and make menu andcongurationselections. The UEFI BIOS also contains basic system
+4.What kind ofcongurationdata is stored on the DIMM Serial Presence Detect (SPD) memory board? How
+
+================================================================================
+PAGE 120
+================================================================================
+a.Turn on or restart the computer, and then pressescwhile the “Press the ESC key for Startup Menu”
+b.SelectMain, and then selectReset BIOS Security to Factory Default.
+d.SelectMain, selectSave Changes and Exit, and then follow the on-screen instructions.
+a.Turn on or restart the computer, and then pressescwhile the “Press the ESC key for Startup Menu”
+b.Select theSecuritymenu, selectSecure BootConguration, and then follow the on-screen
+c.At theSecure BootCongurationwindow, selectSecure Boot, selectClear Secure Boot Keys, and then
+Select computer models areconguredwith HP Sure Start, a technology that continuously monitors your
+Startconguredand enabled. HP Sure Start isconguredand already enabled so that most users can use the HP
+Sure Start defaultconguration.The defaultcongurationcan be customized by advanced users.
+To access the latest documentation on HP Sure Start, go tohttp://www.hp.com/support, and select your country.
+SelectDrivers & Downloads, and then follow the on-screen instructions.
+
+================================================================================
+PAGE 121
+================================================================================
+1.The power cord must be approved by an acceptable accredited agency responsible for evaluation in
+2.The power cord set must have a minimum current capacity of 10A (7A Japan only) and a nominal voltage
+2
+WARNING!Do not operate this product with a damaged power cord set. If the power cord set is damaged in any
+
+================================================================================
+PAGE 122
+================================================================================
+OVE
+CEBC
+CSA
+IMQ
+METI
+SETI
+UTE
+VDE
+SEV
+BSI
+UL
+2
+plug) must bear thecerticationmark of the agency responsible for evaluation in the country where it will be used.
+2.Theexiblecord must be Type SVT or equivalent, No. 18 AWG, 3-conductor. The wall plug must be a two-pole grounding type with
+3.Appliance coupler,exiblecord, and wall plug must bear a “T” mark and registration number in accordance with the Japanese
+2
+
+================================================================================
+PAGE 123
+================================================================================
+NOTE:Operating temperature is derated 1.0° C per 300 m (1000 ft) to 3000 m (10,000 ft) above sea level; no direct sustained
+sunlight. Maximum rate of change is 10° C/Hr. The upper limit may be limited by the type and number of options installed.
+1
+1
+This system utilizes an active power factor corrected power supply. This allows the system to pass the CE mark requirements for use in
+the countries of the European Union. The active power factor corrected power supply also has the addedbenetof not requiring an input
+115
+
+================================================================================
+PAGE 124
+================================================================================
+A
+B
+C
+CMOS
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+
+================================================================================
+PAGE 125
+================================================================================
+N
+O
+P
+40
+R
+S
+T
+U
+V
+W
+
+--------------------------------------------------------------------------------
+
+SPECIFICATIONS:
+
+General
+----------------------------------------
+  Brand........................................ HP
+  Model........................................ Prodesk 400 G5 | MPC_HP_PCDESKTOPSANDALLINONESIT_RSG_21102020_001
+  Product...................................... desktop
+  Language..................................... English
+  Filetype..................................... User manual (PDF), Use and Care Manual (PDF), Safety instructions (PDF), Datasheet (PDF)
+
+--------------------------------------------------------------------------------
+
+FREQUENTLY ASKED QUESTIONS:
+
+Q1: How do I connect my HP Prodesk 400 G5 to a wireless network?
+A1: To connect to a wireless network, ensure that your desktop has a compatible Wi-Fi card. Click on the network icon in the system tray (located near the clock) and select the desired network. If it is a secured network, enter the passphrase or password when prompted. Alternatively, you can access the network settings in the Control Panel to manage or troubleshoot wireless connectivity.
+
+Q2: How do I connect additional monitors to my HP Prodesk 400 G5 desktop?
+A2: To connect additional monitors, you need to ensure that your graphics card has sufficient ports. Use the appropriate video cables to connect the monitors to the available ports on the back of the desktop. You can extend or duplicate the display using the display settings on your operating system.
+
+Q3: How do I upgrade the RAM on my HP Prodesk 400 G5?
+A3: To upgrade the RAM, first, turn off your desktop and unplug it from the power source. Open the side panel by removing screws or levers, and locate the RAM slots on the motherboard. Gently remove the existing RAM sticks by pressing the retention clips, and firmly insert the new RAM sticks into the empty slots. Make sure the modules are aligned correctly before closing the side panel.
+
+Q4: How do I optimize the power settings on my HP Prodesk 400 G5?
+A4: To optimize power settings, click on the Start menu, then open the Control Panel. Search for "Power Options" and select it. From there, you can choose power plans or customize advanced settings. Adjust settings such as screen timeout, sleep mode, and hibernation to suit your preferences and energy-saving needs.
+
+Q5: How do I troubleshoot booting issues on my HP Prodesk 400 G5?
+A5: If your desktop fails to boot, first, check if all cables are properly connected and if there is power going to the system. Make sure the monitor is also powered on. If the issue persists, try clearing the CMOS by removing the small battery on the motherboard, waiting a few seconds, and then reinserting it. If the problem continues, consult the manufacturer's website or contact technical support for further assistance.
+
+Q6: What is HDMI?
+A6: HDMI stands for High-Definition Multimedia Interface. An HDMI cable is used to transport audio and video signals between devices.
+
+Q7: What does the download speed on the internet depend on?
+A7: The download speed on the internet depends on the type of connection you have. If you have a 25 Mb/s connection this means that theoretically you should be able to download 25 MB per second.
+
+Q8: How do I clean my keyboard?
+A8: Hold the keyboard upside down and use a can of compressed air to blow away the dirt. The keys can even be cleaned with a damp cloth.
+
+Q9: Is the manual of the HP Prodesk 400 G5 available in English?
+A9: Yes, the manual of the HP Prodesk 400 G5 is available in English .

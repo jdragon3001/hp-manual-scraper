@@ -32,11 +32,15 @@ Create a comprehensive scraper to download all laptop and desktop manuals from m
 
 ### 4. ⏳ Deployment and Monitoring (CURRENT STEP)
 Substeps:
+- [x] Set up conda environment 'manual-scraper'
+- [x] Install all dependencies (requests, beautifulsoup4, lxml, playwright, aiohttp, tqdm)
+- [x] Install Playwright Chromium browser
+- [x] Verify all modules import successfully
 - [ ] Run full scrape for laptops (15,193+ manuals)
 - [ ] Run full scrape for desktops (5,111+ manuals)
 - [ ] Monitor for errors
 - [ ] Handle any edge cases
-- [ ] Verify downloaded PDFs
+- [ ] Verify extracted text files
 
 **Ready to run**: `python scraper.py`
 
@@ -56,4 +60,14 @@ Substeps:
 - **2025-11-12**: Tested successfully - 1,839 lines, 98KB, ~84 seconds for 126-page manual
 - **2025-11-12**: Updated scraper to use text extraction method
 - **2025-11-12**: ✅ Ready for full scraping operation with text extraction
+- **2025-11-12**: Created conda environment 'manual-scraper' with Python 3.11
+- **2025-11-12**: Installed all dependencies: requests, beautifulsoup4, lxml, playwright, aiohttp, tqdm
+- **2025-11-12**: Installed Playwright Chromium browser (120.0.6099.28)
+- **2025-11-12**: Verified all modules import successfully
+- **2025-11-12**: Starting full scrape for both laptops and desktops (est. 13-16 hours)
+- **2025-11-12**: ⚠ ISSUE: First run only got 600/20,304 manuals (6 pages instead of 152)
+- **2025-11-12**: Fixed pagination detection: changed ?page= to ?p= 
+- **2025-11-12**: Hardcoded correct page counts: 151 pages (laptops), 51 pages (desktops)
+- **2025-11-12**: ✅ Fixed scraper will now get all ~20,200 manuals (15,193 laptops + 5,111 desktops)
+- **2025-11-12**: Restarting full scrape with corrected pagination
 

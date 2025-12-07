@@ -10,7 +10,8 @@ from tqdm import tqdm
 import config
 from src.utils import setup_logging, load_progress, save_progress
 from src.pdf_extractor import extract_manual_info
-from src.text_extractor import save_manual_text
+from src.playwright_text_extractor import save_manual_text_playwright
+from src.robust_extractor import save_manual_robust
 
 logger = setup_logging(__name__)
 
@@ -68,34 +69,39 @@ class ManualscrScraper:
         Returns:
             Total number of pages
         """
+        # Hardcoded page counts based on known totals
+        # Laptops: 15,193 manuals / 100 per page = 152 pages (rounded to 151)
+        # Desktops: 5,111 manuals / 100 per page = 52 pages (rounded to 51)
+        if 'laptops' in category_url:
+            logger.info(f"Using hardcoded 151 pages for laptops (15,193 manuals)")
+            return 151
+        elif 'desktops' in category_url:
+            logger.info(f"Using hardcoded 51 pages for desktops (5,111 manuals)")
+            return 51
+        
+        # Fallback to dynamic detection if needed
         try:
+            import re
             response = self.session.get(category_url, timeout=config.TIMEOUT)
             response.raise_for_status()
             
             soup = BeautifulSoup(response.content, 'lxml')
             
-            # Find pagination links
-            pagination = soup.find_all('a', href=lambda x: x and '?page=' in x)
+            # Find pagination links (uses ?p= not ?page=)
+            pagination = soup.find_all('a', href=lambda x: x and '?p=' in x)
             
             max_page = 1
             for link in pagination:
                 href = link.get('href')
-                if '?page=' in href:
+                if '?p=' in href:
                     try:
-                        page_num = int(href.split('?page=')[-1].split('&')[0])
-                        max_page = max(max_page, page_num)
+                        # Extract page number from ?p=NUMBER
+                        match = re.search(r'\?p=(\d+)', href)
+                        if match:
+                            page_num = int(match.group(1))
+                            max_page = max(max_page, page_num)
                     except ValueError:
                         pass
-            
-            # Also check for page number indicators in text
-            page_links = soup.find_all(text=lambda x: x and x.strip().isdigit())
-            for text in page_links:
-                try:
-                    page_num = int(text.strip())
-                    if page_num > max_page and page_num < 1000:  # Sanity check
-                        max_page = page_num
-                except ValueError:
-                    pass
             
             logger.info(f"Found {max_page} pages for {category_url}")
             return max_page
@@ -125,7 +131,7 @@ class ManualscrScraper:
         
         # Get manual links from each page
         for page in range(1, total_pages + 1):
-            page_url = f"{category_url}?page={page}" if page > 1 else category_url
+            page_url = f"{category_url}?p={page}" if page > 1 else category_url
             logger.info(f"Scraping page {page}/{total_pages}")
             
             manual_links = self.get_manual_links_from_page(page_url)
@@ -142,13 +148,14 @@ class ManualscrScraper:
         
         return new_links
     
-    def download_manual_wrapper(self, manual_url: str, category: str) -> bool:
+    def download_manual_wrapper(self, manual_url: str, category: str, use_robust: bool = True) -> bool:
         """
         Wrapper to extract info and download a manual as text
         
         Args:
             manual_url: URL of the manual page
             category: 'laptops' or 'desktops'
+            use_robust: Use robust extractor with fallbacks (default True)
         
         Returns:
             True if successful
@@ -164,8 +171,12 @@ class ManualscrScraper:
             # Add URL to manual_info for text extraction
             manual_info['url'] = manual_url
             
-            # Save manual as text (much faster than PDF via browser automation)
-            success = save_manual_text(manual_info, category, format='txt')
+            # Try robust extractor first (with image fallback)
+            if use_robust:
+                success = save_manual_robust(manual_info, category, format='txt')
+            else:
+                # Fall back to original Playwright extractor
+            success = save_manual_text_playwright(manual_info, category, format='txt')
             
             if success:
                 # Update progress

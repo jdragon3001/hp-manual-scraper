@@ -1,0 +1,715 @@
+================================================================================
+ASUS NUC 13 PRO MANUAL
+================================================================================
+
+PDF manual | · 51 pages | English
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Manual
+View the manual for the Asus NUC 13 Pro here, for free. This manual comes under the category desktops and has been rated by 1 people with an average of a 7.7.
+
+This manual is available in the following languages: English. Do you have a question about the Asus NUC 13 Pro or do you need help?
+Ask your question here
+
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS:
+
+  Page  14: 1 Product Description
+  Page  14: 1.1 Overview
+  Page  14: 1.1.1 Summary of Mini PC SKUs
+  Page  14: 1.1.2 Summary of Standard Kit and Board SKUs
+  Page  15: 1.1.3 Summary of Embedded Kit and Board SKUs
+  Page  16: 1.1.4 Feature Summary Kits
+  Page  20: 2 Product Layout
+  Page  20: 2.1 Board Layout
+  Page  20: 2.1.1 Board Layout (Bottom)
+  Page  22: 2.1.2 Board Layout (Top)
+  Page  23: 2.1.3 Front Panel
+  Page  23: 2.1.4 Back Panel
+  Page  24: 2.1.5 Chassis Expandability Options
+  Page  25: 2.1.6 Block Diagram
+  Page  26: 3 Feature Descriptions
+  Page  26: 3.1 Graphics Subsystem
+  Page  26: 3.1.1 Intel® Iris® Xe Graphics
+  Page  27: 3.1.2 Display Emulation
+  Page  28: 3.2 SATA Interface
+  Page  28: 3.3 Real-Time Clock Subsystem
+  Page  29: 3.4 LAN Subsystem
+  Page  29: 3.4.1 RJ-45 LAN Connector with Integrated LEDs
+  Page  29: 3.5 Hardware Management Subsystem
+  Page  29: 3.5.1 Fan Monitoring
+  Page  29: 3.5.2 System States and Power States
+  Page  32: 4 Technical Reference
+  Page  32: 4.1 Connectors and Headers
+  Page  32: 4.1.1 Signal Tables for the Connectors and Headers
+  Page  42: 4.2 Mechanical Considerations
+  Page  42: 4.2.1 Chassis Images
+  Page  44: 4.2.2 Form Factor
+  Page  45: 4.3 Thermal Considerations
+  Page  46: 4.4 Reliability
+  Page  46: 4.5 Environmental
+  Page  48: 5 Overview of BIOS Features
+  Page  48: 5.1 Introduction
+  Page  48: 5.2 BIOS Updates
+  Page  48: 5.2.1 BIOS Recovery
+  Page  48: 5.3 Boot Options
+  Page  49: 5.3.1 Boot Device Selection During Post
+  Page  49: 5.3.2 Power Button Menu
+  Page  50: 5.4 Hard Disk Drive Password Security Feature
+  Page  51: 5.5 BIOS Security Features
+  Page  20: Figure 1. Major Board Components (Bottom) with Pin 1 Indicators
+  Page  22: Figure 2. Major Board Components (Top)
+  Page  23: Figure 3. Front Panel Connectors
+  Page  23: Figure 4. Back Panel Connectors
+  Page  24: Figure 5. Back Panel Faceplate
+  Page  25: Figure 6. Block Diagram
+  Page  29: Figure 7. LAN Connector LED Locations
+  Page  36: Figure 8. Connection Diagram for Front Panel Header (2.0 mm Pitch)
+  Page  38: Figure 9. Location of the BIOS Security Jumper
+  Page  41: Figure 10. Connection Diagram for the Internal Power Supply Connector
+  Page  42: Figure 11. Tall Chassis Image Front
+  Page  42: Figure 12. Slim Chassis Image Front
+  Page  43: Figure 13. Tall Chassis Image Back Panel
+  Page  43: Figure 14. Slim Chassis Image Back Panel
+  Page  44: Figure 15. Board Dimensions
+  Page  45: Figure 16. Board Height Dimensions
+  Page  16: Table 1. Feature Summary
+  Page  19: Table 2. Additional Features
+  Page  21: Table 3. Components Shown in Figure 1
+  Page  22: Table 4. Components Shown in Figure 2
+  Page  29: Table 5. LAN Connector LED States
+  Page  30: Table 6. Systems States
+  Page  31: Table 7. Wake-up Devices and Events
+  Page  32: Table 8. SATA Combined Data/Power Header
+  Page  32: Table 9. Internal USB 2.0 Header (1.25 mm pitch)
+  Page  33: Table 10. M.2 2280 Module (Mechanical Key M) Connector
+  Page  34: Table 11. M.2 2230 Module (Mechanical Key E) Connector
+  Page  35: Table 12. M.2 2242 Module (Mechanical Key B) Connector
+  Page  36: Table 13. Front Panel Header (2.0 mm Pitch)
+  Page  37: Table 14. States for a One-Color Power LED
+  Page  37: Table 15. States for a Dual-Color Power LED
+  Page  38: Table 16. BIOS Security Jumper Settings
+  Page  40: Table 17. Fan Header Current Capability
+  Page  41: Table 18. Internal Power Supply Connector Pins
+  Page  46: Table 19. Environmental Specifications
+  Page  48: Table 20. Acceptable Drives/Media Type for BIOS Recovery
+  Page  49: Table 21. Power Button Menu Options
+  Page  50: Table 22. Master Key and User Hard Disk Drive Password Functions
+  Page  51: Table 23. Supervisor and User Password Functions
+
+--------------------------------------------------------------------------------
+
+MANUAL CONTENT:
+
+================================================================================
+PAGE 1
+================================================================================
+ASUS NUC Boards NUC13AN andNUC13LC may contain design defects or errors knownas errata that may cause the product to deviate from
+published specifications. Currentcharacterized errata, if any, are documented in ASUS NUC Board NUC13AN / NUC13LC Specification Update.
+
+================================================================================
+PAGE 2
+================================================================================
+1.0
+Nopart of this manual, including the products and software described in it, may be reproduced, transmitted,
+
+================================================================================
+PAGE 4
+================================================================================
+NUC13AN/NUC13LC.Some features are only available on certain SKUs.
+engineers and technicianswho need this level of information. It is specificallynotintended for
+1
+2
+3
+4
+5
+
+================================================================================
+PAGE 5
+================================================================================
+#
+*
+
+================================================================================
+PAGE 6
+================================================================================
+1
+1
+1
+1
+1
+1
+1.The AA number is found on a small label on the component side of the board.
+
+================================================================================
+PAGE 9
+================================================================================
+1Product Description...............................................................................................15
+1.1Overview......................................................................................................................................................15
+1.1.1Summary of Mini PC SKUs.................................................................................................15
+1.1.2Summary of Standard Kit and Board SKUs..................................................................15
+1.1.3Summary of Embedded Kit and Board SKUs..............................................................16
+1.1.4Feature Summary Kits..........................................................................................................17
+2Product Layout........................................................................................................21
+2.1Board Layout..............................................................................................................................................21
+2.1.1Board Layout (Bottom)........................................................................................................21
+2.1.2Board Layout (Top)...............................................................................................................23
+2.1.3Front Panel...............................................................................................................................24
+2.1.4Back Panel................................................................................................................................24
+2.1.5Chassis Expandability Options.........................................................................................25
+2.1.6Block Diagram.........................................................................................................................26
+3Feature Descriptions.............................................................................................27
+3.1Graphics Subsystem................................................................................................................................27
+3.1.1Intel® Iris® Xe Graphics.....................................................................................................27
+3.1.2Display Emulation..................................................................................................................28
+3.2SATA Interface...........................................................................................................................................29
+3.3Real-Time Clock Subsystem................................................................................................................29
+3.4LAN Subsystem.........................................................................................................................................30
+3.4.1RJ-45 LAN Connector with Integrated LEDs.............................................................30
+3.5Hardware Management Subsystem..................................................................................................30
+3.5.1Fan Monitoring.......................................................................................................................30
+3.5.2System States and Power States......................................................................................30
+4TechnicalReference..............................................................................................33
+4.1Connectors and Headers......................................................................................................................33
+4.1.1Signal Tables for the Connectors and Headers..........................................................33
+4.2Mechanical Considerations..................................................................................................................43
+4.2.1Chassis Images........................................................................................................................43
+4.2.2Form Factor..............................................................................................................................45
+4.3Thermal Considerations.........................................................................................................................46
+4.4Reliability......................................................................................................................................................47
+4.5Environmental............................................................................................................................................47
+5Overview of BIOS Features..................................................................................49
+5.1Introduction................................................................................................................................................49
+5.2BIOS Updates............................................................................................................................................49
+
+================================================================================
+PAGE 10
+================================================================================
+5.2.1BIOS Recovery........................................................................................................................49
+5.3Boot Options..............................................................................................................................................49
+5.3.1Boot Device Selection During Post................................................................................50
+5.3.2Power Button Menu..............................................................................................................50
+5.4Hard Disk Drive Password Security Feature..................................................................................51
+5.5BIOS Security Features..........................................................................................................................52
+5.6BIOS Error Messages..............................................................................................................................53
+Figure 1. Major Board Components (Bottom) with Pin 1 Indicators.........................................................21
+Figure 2. Major Board Components (Top).........................................................................................................23
+Figure 3.  Front Panel Connectors........................................................................................................................24
+Figure 4.  Back Panel Connectors.........................................................................................................................24
+Figure 5. Back Panel Faceplate.............................................................................................................................25
+Figure 6.  Block Diagram...........................................................................................................................................26
+Figure 7.  LAN Connector LED Locations..........................................................................................................30
+Figure 8.  Connection Diagram for Front Panel Header (2.0 mm Pitch)...............................................37
+Figure 9.  Location of the BIOS Security Jumper............................................................................................39
+Figure 10.  Connection Diagram for the Internal Power Supply Connector........................................42
+Figure 11. Tall Chassis Image Front.......................................................................................................................43
+Figure 12. Slim Chassis Image Front.....................................................................................................................43
+Figure 13. Tall Chassis Image Back Panel...........................................................................................................44
+Figure 14. Slim Chassis Image Back Panel.........................................................................................................44
+Figure 15. Board Dimensions...................................................................................................................................45
+Figure 16. Board Height Dimensions....................................................................................................................46
+Table 1.  Feature Summary.......................................................................................................................................17
+Table 2. Additional Features...................................................................................................................................20
+Table 3. Components Shown in Figure 1.........................................................................................................22
+Table 4.  Components Shown in Figure 2..........................................................................................................23
+Table 5.  LAN Connector LED States..................................................................................................................30
+Table 6.  Systems States............................................................................................................................................31
+Table 7.  Wake-up Devicesand Events...............................................................................................................32
+Table 8.  SATA Combined Data/Power Header...............................................................................................33
+Table 9. Internal USB 2.0 Header(1.25 mm pitch)..........................................................................................33
+Table 10. M.2 2280 Module (Mechanical Key M)Connector....................................................................34
+Table 11.  M.2 2230 Module (Mechanical KeyE) Connector......................................................................35
+Table 12. M.2 2242 Module (Mechanical KeyB) Connector.......................................................................36
+Table 13.  Front Panel Header (2.0 mm Pitch)..................................................................................................37
+Table 14.  States for a One-Color Power LED...................................................................................................38
+
+================================================================================
+PAGE 11
+================================================================================
+Table 15.  States for a Dual-Color Power LED..................................................................................................38
+Table 16.  BIOS Security Jumper Settings..........................................................................................................39
+Table 17.  Fan Header Current Capability...........................................................................................................41
+Table 18. Internal Power Supply Connector Pins............................................................................................42
+Table 19.  Environmental Specifications.............................................................................................................47
+Table 20. Acceptable Drives/Media Typefor BIOS Recovery...................................................................49
+Table 21. Power Button Menu Options...............................................................................................................50
+Table 22. Master Key and User HardDisk Drive Password Functions....................................................51
+Table 23. Supervisor and User Password Functions......................................................................................52
+Table 24. BIOS Error Messages..............................................................................................................................53
+
+================================================================================
+PAGE 13
+================================================================================
+n/a
+n/a
+TPM
+WW
+1
+WW
+1
+-
+-
+N/A
+-
+WW
+1
+WW
+1
+N/A
+WW
+1
+-
+-
+N/A
+-
+-
+-
+N/A
+-
+1
+2
+
+================================================================================
+PAGE 14
+================================================================================
+TPM
+WW
+1
+N/A
+WW
+1
+WW
+1
+N/A
+WW
+1
+-
+N/A
+-
+-
+N/A
+-
+1
+
+================================================================================
+PAGE 15
+================================================================================
+ASUS NUC Boards, Kits, and Mini PCsNUC13AN/NUC13LCStandard productshavea
+th
+•Intel® Core™i7-1370P Processor with Intel® vPro® Technology
+•Intel® Core™i5-1350P Processorwith Intel® vPro® Technology
+13
+th
+•Intel® Core™i7-1370PE Processorwith Intel® vPro® Technology
+•Intel® Core™i5-1350PE Processor with Intel® vPro® Technology
+•Support for up to 64 GB of system memory with two SO-DIMMs using 32 GB memory
+More information about tested memory can be found athttps://www.asus.com/support/
+•Supports up to quad 4K60Hz displays(2 x DP/Type C + 2 xHDMI 2.1 TMDS)
+•Supports a single 8K60Hz panel, supportedby joining two pipes over a single port
+•Four display pipes–supporting blending, color adjustments, scaling, and dithering
+
+================================================================================
+PAGE 16
+================================================================================
+1
+To obtain drivers visithttps://www.asus.com/support/Download-Center/
+•Single-port integrated multi-gigabit (up to 2.5G)–standard IEEE 802.3 Ethernet
+†
+•15W(5V/3A), 7.5W (5V/1.5A) port bus power on NUC13LC
+†
+2 x USB 4 ports via Type C/Thunderbolt™(onback panel,shared with Thunderbolt™as
+
+================================================================================
+PAGE 17
+================================================================================
+TPM
+•Core i5, Core i5 vPro, Core i7, and Core i7 vPro ship with a 120W20V adapter
+DC
+DC
+1
+
+================================================================================
+PAGE 20
+================================================================================
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+
+================================================================================
+PAGE 21
+================================================================================
+A
+B
+C
+D
+
+================================================================================
+PAGE 22
+================================================================================
+A
+B
+C
+D
+A
+B
+C
+D
+E
+†
+F
+†
+†
+G
+†
+
+================================================================================
+PAGE 23
+================================================================================
+rd
+party expandability dongles are available fromhttps://gorite.comand a
+rd
+
+================================================================================
+PAGE 25
+================================================================================
+th
+•Direct3D* 9 Video API (DXVA2), Direct3D11 Video API, Direct3D12 Video API, Intel Media
+•Intel® Iris® Xe Graphics supports full HW accelerated video decoding for
+th
+•Intel® Iris® Xe Graphics supports full HW accelerated video encoding for
+•Direct3D* 9 Video API (DXVA2), Direct3D* 11 Video API, OneVPL,MFT (Media Foundation
+th
+•High performance high quality flexible encoder for video editing and video archiving, lower-
+1.Resolution support is subject to memory bandwidth availability
+2.Single 8K at 60 Hz display, supported bymonitors that accept dual DP input for tiled screen
+
+================================================================================
+PAGE 26
+================================================================================
+th
+th
+•DirectX*12.1support
+†
+•“Virtual display emulation”: provides a 1280x1024 virtual display when no displays are
+•“Persistent display emulation”: emulates that both displays are always connected to the
+•When “Persistent display emulation” is enabled another drop-down menu
+▪“Block boot” (default selection): the BIOS will display a warning message
+▪“Countdown”: the BIOS will display a warning messagewith options and
+
+================================================================================
+PAGE 27
+================================================================================
+The clock is accurate to13 minutes/year at 25 ºC with 3.3 VSB applied via the power supply 5V
+equivalent one. Figure 2 on page23shows the location of the battery.
+
+================================================================================
+PAGE 28
+================================================================================
+A
+B
+
+================================================================================
+PAGE 29
+================================================================================
+FullOn:CPU operating. Individual devices may be shut to save power. The different
+
+================================================================================
+PAGE 30
+================================================================================
+3.5.2.1Wake-up Devices and Events
+1
+1
+1
+1
+2.Will not wake from Deep S4/S5.USB S4/S5 Power is controlled by BIOS. USB S5 wake is controlled by BIOS. USB S4
+
+================================================================================
+PAGE 31
+================================================================================
+connectors or headers to power devices external to the computer’s chassis.A fault in the load
+Pin
+Pin
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Pin
+1
+5 V
+1
+2
+3
+D +
+4
+1
+
+================================================================================
+PAGE 32
+================================================================================
+Table10.M.2 2280Module (Mechanical Key M) Connector
+Pin
+Pin
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+8
+N/C
+9
+6
+N/C
+7
+4
+5
+2
+3
+1
+
+================================================================================
+PAGE 33
+================================================================================
+Pin
+Pin
+9
+6
+7
+4
+5
+2
+3
+1
+
+================================================================================
+PAGE 34
+================================================================================
+Pin
+Pin
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+N/C
+9
+6
+N/C
+7
+4
+5
+2
+3
+1
+
+================================================================================
+PAGE 35
+================================================================================
+4.1.1.1Front Panel Header(2.0 mm Pitch)
+Pin
+Pin
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Key
+
+================================================================================
+PAGE 36
+================================================================================
+pull the SW_ON# pin to ground for at least 50 ms tosignal the power supply toswitch on or off (the
+
+================================================================================
+PAGE 37
+================================================================================
+Table16describes the jumper settings for the threemodes: normal, lockdown,and configuration.
+1-2
+2-3
+
+================================================================================
+PAGE 38
+================================================================================
+NOTEAfter using the MEBX Reset, a“CMOS battery failure” warning will occur during the next
+CAUTIONCaremust be taken to avoid inadvertent shorting of the bottom cover screw to the
+
+================================================================================
+PAGE 39
+================================================================================
+NOTEExternal power voltage, 12-20 (±5%)V DC, is dependent on the type of power
+•External Power Supply–the board can be poweredthrough a 12-20 V DC connector on the
+•Internal Power Supply–the board can alternativelybe powered via the internal12-20 V DC 2x
+
+================================================================================
+PAGE 40
+================================================================================
+1,2
+3,4
+GND
+
+================================================================================
+PAGE 43
+================================================================================
+104.1 millimeters (front to back) by 101.6 millimeters (side to side).
+
+================================================================================
+PAGE 44
+================================================================================
+instructions presented in this document will result in a system withadequate thermal performance.
+
+================================================================================
+PAGE 45
+================================================================================
+o
+0C to +50C (Local ambient temperature insidethe chassis)
+N/A
+N/A
+N/A
+9
+
+================================================================================
+PAGE 46
+================================================================================
+before attempting to power on the board.The operating and non-operating environment must avoidcondensing
+
+================================================================================
+PAGE 47
+================================================================================
+Memory (SPI Flash) and can be updated through multiple methods (see Section5.2). The SPI Flash
+Update and Recovery Instructions. All BIOS update files for ASUS NUCs are available onDownload
+recovery methods and instructions can be found atBIOS Update and Recovery Instructions.
+Yes
+Yes
+Yes
+NOTESupported file systems for BIOS recovery: NTFS (sparse, compressed, or encrypted
+
+================================================================================
+PAGE 48
+================================================================================
+NOTEThe network can be selected as a boot device. This selection allows booting from the
+3.The Power Button LED will be white color for the first 3 seconds. After 3 seconds, switch Power
+4.User releases the power button before the 4-second shutdownoverride.
+
+================================================================================
+PAGE 49
+================================================================================
+NOTEAs implemented on the ASUS NUC13AN / NUC13LC board, the hard disk drive
+
+================================================================================
+PAGE 50
+================================================================================
+•The Supervisor password givesunrestricted access to view and change all the Setup
+•The User password gives restricted access to view and change Setup options in the BIOS
+•If only the Supervisor password is set, pressing the <Enter> key at the passwordprompt of
+•If both the Supervisor andUser passwords are set, users can enter either the Supervisor or
+•Setting the User password restricts who can boot the computer. The password prompt will
+•For enhanced security, use different passwords for the Supervisor and User passwords.
+•Valid password charactersare A-Z, a-z, 0-9, and special characters. Passwords may be up
+•To clear a set password, enter a blank password after entering the existing password.
+N/A
+
+--------------------------------------------------------------------------------
+
+SPECIFICATIONS:
+
+General
+----------------------------------------
+  Brand........................................ Asus
+  Model........................................ NUC 13 Pro
+  Product...................................... desktop
+  Language..................................... English
+  Filetype..................................... User manual (PDF)
+
+--------------------------------------------------------------------------------
+
+FREQUENTLY ASKED QUESTIONS:
+
+Q1: How can I resolve overheating issues with my ASUS NUC 13 Pro?
+A1: To resolve overheating issues, ensure that the NUC is placed in a well-ventilated area. Check that all air vents are not blocked. Regularly clean the vents and fans to prevent dust buildup, which can impair cooling. It is also advisable to check the fan speed settings in the BIOS and adjust them if necessary to improve cooling efficiency.
+
+Q2: What should I do if my ASUS NUC 13 Pro is not booting?
+A2: If your ASUS NUC 13 Pro is not booting, first ensure that all external devices are disconnected. Check if the power supply is properly connected, and try using a different power outlet or power supply if available. Listen for any beep codes or error messages during startup, which may indicate specific hardware issues. You may also try resetting the BIOS settings to default using the BIOS setup.
+
+Q3: Why isn't my ASUS NUC 13 Pro recognizing additional RAM?
+A3: Ensure that the RAM modules are fully seated in the memory slots and that they are compatible with the system. The ASUS NUC 13 Pro supports DDR4 2400/2666/3200 MHz SO-DIMMs. Refer to the system specifications to ensure that the total memory does not exceed the supported limit. If problems persist, try using a single RAM module to identify if any particular module is faulty.
+
+Q4: How can I troubleshoot display issues on my ASUS NUC 13 Pro?
+A4: If you are experiencing display issues, check the HDMI and DisplayPort connections to ensure they are secure. Verify that the display settings in the BIOS are configured correctly. If you are using multiple displays, ensure that they are configured properly in the operating system settings. Updating your graphics drivers may also resolve display problems.
+
+Q5: What should I check if my ASUS NUC 13 Pro is not connecting to Wi-Fi?
+A5: Ensure that the Wi-Fi antenna is properly connected and positioned. Verify that the Wi-Fi is enabled in the BIOS settings. Check if the correct drivers for the Intel Wi-Fi card (M.2 2230) are installed and up to date. Make sure that the Wi-Fi network settings are configured correctly on your operating system.
+
+Q6: What is HDMI?
+A6: HDMI stands for High-Definition Multimedia Interface. An HDMI cable is used to transport audio and video signals between devices.
+
+Q7: What does the download speed on the internet depend on?
+A7: The download speed on the internet depends on the type of connection you have. If you have a 25 Mb/s connection this means that theoretically you should be able to download 25 MB per second.
+
+Q8: How do I clean my keyboard?
+A8: Hold the keyboard upside down and use a can of compressed air to blow away the dirt. The keys can even be cleaned with a damp cloth.
+
+Q9: Is the manual of the Asus NUC 13 Pro available in English?
+A9: Yes, the manual of the Asus NUC 13 Pro is available in English .

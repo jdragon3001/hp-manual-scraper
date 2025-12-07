@@ -1,0 +1,21 @@
+Searching for PDF download links...
+
+Found 0 potential PDF links:
+
+
+Searching for PDF URLs in script tags...
+Found 2 scripts mentioning 'pdf'
+  [["ShallowReactive",1],{"data":2,"state":730,"once":910,"_errors":911,"serverRendered":84,"path":913},["ShallowReactive",3],{"chevron.down":4,"$fnMLu3EFdwh9crLZWrtI8k_Dv2xKaqrgzYjVP3Ek8F0Y":6,"$fXcOc7...
+  window.__NUXT__={};window.__NUXT__.config={public:{i18n:{baseUrl:"",defaultLocale:"",rootRedirect:"",redirectStatusCode:302,skipSettingLocaleOnNavigate:false,locales:[{domain:"www.handleidi.ng",code:"...
+
+
+Searching raw HTML for PDF URLs...
+Found 2 PDF URLs in source:
+  https://www.pdf
+
+
+Checking common download endpoints...
+  https://www.manua.ls/download/asus/vivobook-16 - Status: 404, Content-Type: text/html;charset=utf-8
+  https://www.manua.ls/asus/vivobook-16/download - Status: 200, Content-Type: text/html;charset=utf-8
+  https://www.manua.ls/asus/vivobook-16/manual.pdf - Status: 200, Content-Type: text/html;charset=utf-8
+  https://www.manua.ls/api/manual/asus/vivobook-16/pdf - Status: 404, Content-Type: text/html; charset=UTF-8

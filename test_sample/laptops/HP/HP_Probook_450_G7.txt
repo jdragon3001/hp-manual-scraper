@@ -1,0 +1,318 @@
+================================================================================
+HP PROBOOK 450 G7 MANUAL
+================================================================================
+
+Source: https://www.manua.ls/hp/probook-450-g7/manual
+Total Pages: 108
+Pages Extracted: 10
+Total Characters: 23183
+
+--------------------------------------------------------------------------------
+
+MANUAL CONTENT:
+
+
+================================================================================
+PAGE 1
+================================================================================
+Maintenance and Service Guide
+HP ProBook 450 G7 Notebook PC
+IMPORTANT! This document is intended for HP authorized service 
+providers only.
+
+================================================================================
+PAGE 2
+================================================================================
+© Copyright 2019 HP Development Company, 
+L.P.
+AMD is a trademark of Advanced Micro Devices, 
+Inc. Bluetooth is a trademark owned by its 
+proprietor and used by HP Inc. under license. 
+Intel, Celeron, Core, Pentium, and Thunderbolt 
+are trademarks of Intel Corporation or its 
+subsidiaries in the U.S. and/or other countries. 
+NVIDIA, CUDA, GeForce, NVIDIA GPU Boost, and 
+Optimus are trademarks and/or registered 
+trademarks of NVIDIA Corporation in the U.S. 
+and other countries. SDHC, SDXC, and microSD 
+are trademarks or registered trademarks of 
+SD-3C in the United States, other countries or 
+both. Windows is either a registered trademark 
+or trademark of Microsoft Corporation in the 
+United States and/or other countries. 
+DisplayPort™ and the DisplayPort™ logo are 
+trademarks owned by the Video Electronics 
+Standards Association (VESA®) in the United 
+States and other countries. Miracast is a 
+registered trademark of Wi-Fi Alliance.
+The information contained herein is subject to 
+change without notice. The only warranties for 
+HP products and services are set forth in the 
+express warranty statements accompanying 
+such products and services. Nothing herein 
+should be construed as constituting an 
+additional warranty. HP shall not be liable for 
+technical or editorial errors or omissions 
+contained herein.
+First Edition: October 2019
+Document Part Number: L76353-001
+Product notice
+This guide describes features that are common 
+to most models. Some features may not be 
+available on your computer.
+Not all features are available in all editions or 
+versions of Windows. Systems may require 
+upgraded and/or separately purchased 
+hardware, drivers, software or BIOS update to 
+take full advantage of Windows functionality. 
+Windows 10 is automatically updated, which is 
+always enabled. ISP fees may apply and 
+additional requirements may apply over time 
+for updates. Go to http://www.microsoft.com 
+for details.
+To access the latest user guides, go to 
+http://www.hp.com/support, and follow the 
+instructions to nd your product. Then select 
+User Guides.
+Software terms
+By installing, copying, downloading, or 
+otherwise using any software product 
+preinstalled on this computer, you agree to be 
+bound by the terms of the HP End User License 
+Agreement (EULA). If you do not accept these 
+license terms, your sole remedy is to return the 
+entire unused product (hardware and software) 
+within 14 days for a full refund subject to the 
+refund policy of your seller.
+For any further information or to request a full 
+refund of the price of the computer, please 
+contact your seller.
+
+================================================================================
+PAGE 3
+================================================================================
+Safety warning notice
+WARNING! To reduce the possibility of heat-related injuries or of overheating the computer, do not place 
+the computer directly on your lap or obstruct the computer air vents. Use the computer only on a hard, at 
+surface. Do not allow another hard surface, such as an adjoining optional printer, or a soft surface, such as 
+pillows or rugs or clothing, to block airow. Also, do not allow the AC adapter to contact the skin or a soft 
+surface, such as pillows or rugs or clothing, during operation. The computer and the AC adapter comply with 
+the user-accessible surface temperature limits dened by applicable safety standards.
+iii
+
+================================================================================
+PAGE 4
+================================================================================
+iv   Safety warning notice
+
+================================================================================
+PAGE 5
+================================================================================
+Table of contents
+1  Product description .......................................................................................................................................  1
+2  Components .................................................................................................................................................. 7
+Right ....................................................................................................................................................................... 7
+Left .........................................................................................................................................................................  9
+Display .................................................................................................................................................................  10
+Keyboard area ...................................................................................................................................................... 11
+Touchpad ...........................................................................................................................................  11
+Lights ................................................................................................................................................. 12
+Button, speakers, and ngerprint sensor ......................................................................................... 13
+Special keys .......................................................................................................................................  14
+Hot keys (select products only) ......................................................................................................... 15
+Bottom .................................................................................................................................................................  15
+Labels ................................................................................................................................................................... 16
+3  Illustrated parts catalog ..............................................................................................................................  17
+Computer major components .............................................................................................................................. 17
+Display components ............................................................................................................................................  20
+Cable Kit ...............................................................................................................................................................  22
+Bracket Kit ............................................................................................................................................................ 23
+Mass storage devices ........................................................................................................................................... 24
+Miscellaneous parts ............................................................................................................................................. 25
+4  Removal and replacement procedures preliminary requirements ....................................................................  28
+Tools required ......................................................................................................................................................  28
+Service considerations ......................................................................................................................................... 28
+Plastic parts ....................................................................................................................................... 28
+Cables and connectors ......................................................................................................................  28
+Drive handling ...................................................................................................................................  29
+Workstation guidelines .....................................................................................................................  29
+Electrostatic discharge information .................................................................................................................... 29
+Generating static electricity .............................................................................................................. 30
+Preventing electrostatic damage to equipment ............................................................................... 30
+Personal grounding methods and equipment .................................................................................. 31
+Grounding the work area ................................................................................................................... 31
+Recommended materials and equipment ........................................................................................  31
+v
+
+================================================================================
+PAGE 6
+================================================================================
+Packaging and transporting guidelines ..............................................................................................................  32
+5  Removal and replacement procedures for authorized service provider parts .................................................... 33
+Component replacement procedures .................................................................................................................. 33
+Preparation for disassembly ............................................................................................................. 33
+Battery Safe mode ............................................................................................................................  33
+Bottom cover .....................................................................................................................................  34
+SIM card .............................................................................................................................................  35
+Battery ............................................................................................................................................... 36
+Memory modules ............................................................................................................................... 37
+WLAN/Bluetooth combo card ............................................................................................................ 39
+WWAN module ................................................................................................................................... 41
+M.2 solid-state drive .........................................................................................................................  43
+Hard drive ..........................................................................................................................................  44
+Speaker assembly .............................................................................................................................  46
+Fan .....................................................................................................................................................  47
+Heat sink ............................................................................................................................................ 48
+USB board .......................................................................................................................................... 51
+Battery connector board ...................................................................................................................  53
+Touchpad assembly ........................................................................................................................... 54
+Fingerprint sensor assembly ............................................................................................................  55
+Card reader board .............................................................................................................................. 56
+RTC battery ........................................................................................................................................  58
+System board ....................................................................................................................................  59
+Display assembly ............................................................................................................................... 62
+Power connector cable ...................................................................................................................... 71
+Keyboard/top cover ........................................................................................................................... 72
+6  Computer Setup (BIOS), TPM, and HP Sure Start .............................................................................................  73
+Using Computer Setup ......................................................................................................................................... 73
+Starting Computer Setup ..................................................................................................................  73
+Navigating and selecting in Computer Setup ...................................................................................  73
+Restoring factory settings in Computer Setup .................................................................................  73
+Updating the BIOS .............................................................................................................................  74
+Determining the BIOS version ......................................................................................... 74
+Downloading a BIOS update ...........................................................................................  74
+Changing the boot order using the f9 prompt ..................................................................................  75
+TPM BIOS settings (select products only) ...........................................................................................................  75
+Using HP Sure Start (select products only) .........................................................................................................  76
+vi
+
+================================================================================
+PAGE 7
+================================================================================
+7  Using HP PC Hardware Diagnostics ................................................................................................................  77
+Using HP PC Hardware Diagnostics Windows (select products only) .................................................................  77
+Downloading HP PC Hardware Diagnostics Windows ....................................................................... 77
+Downloading the latest HP PC Hardware Diagnostics Windows version ....................... 78
+Downloading HP Hardware Diagnostics Windows by product name or number 
+(select products only) .....................................................................................................  78
+Installing HP PC Hardware Diagnostics Windows ............................................................................. 78
+Using HP PC Hardware Diagnostics UEFI .............................................................................................................  78
+Starting HP PC Hardware Diagnostics UEFI ....................................................................................... 79
+Downloading HP PC Hardware Diagnostics UEFI to a USB ash drive .............................................. 79
+Downloading the latest HP PC Hardware Diagnostics UEFI version ..............................  79
+Downloading HP PC Hardware Diagnostics UEFI by product name or number 
+(select products only) .....................................................................................................  80
+Using Remote HP PC Hardware Diagnostics UEFI settings (select products only) .............................................  80
+Downloading Remote HP PC Hardware Diagnostics UEFI ................................................................. 80
+Downloading the latest Remote HP PC Hardware Diagnostics UEFI version ................. 80
+Downloading Remote HP PC Hardware Diagnostics UEFI by product name or 
+number ............................................................................................................................ 80
+Customizing Remote HP PC Hardware Diagnostics UEFI settings .................................................... 80
+8  Backing up, restoring, and recovering ...........................................................................................................  82
+Backing up information and creating recovery media ........................................................................................  82
+Using Windows tools .........................................................................................................................  82
+Using the HP Cloud Recovery Download Tool to create recovery media (select products only) .....  82
+Restoring and recovery ........................................................................................................................................ 83
+Restoring, resetting, and refreshing using Windows tools ..............................................................  83
+Recovering using HP Recovery media ............................................................................................... 83
+Changing the computer boot order ................................................................................................... 83
+Using HP Sure Recover (select products only) .................................................................................. 84
+9  Specications .............................................................................................................................................. 85
+Computer specications ...................................................................................................................................... 85
+39.6 cm (15.6 in) display specications .............................................................................................................. 86
+Hard drive specications .....................................................................................................................................  86
+Solid-state drive specications ........................................................................................................................... 87
+10  Statement of memory volatility .................................................................................................................. 88
+Nonvolatile memory usage .................................................................................................................................  90
+Questions and answers .......................................................................................................................................  92
+Using HP Sure Start (select models only) ............................................................................................................ 93
+vii
+
+================================================================================
+PAGE 8
+================================================================================
+11  Power cord set requirements ......................................................................................................................  94
+Requirements for all countries ............................................................................................................................ 94
+Requirements for specic countries and regions ................................................................................................ 95
+12  Recycling ..................................................................................................................................................  97
+Index .............................................................................................................................................................  98
+viii
+
+================================================================================
+PAGE 9
+================================================================================
+1 Product description
+Table 1-1  Product components and their descriptions
+Category Description
+Product Name HP ProBook 450 G7 Notebook PC
+Processors 10th generation, Intel® processor (15 W)
+Core™ i7-10510U, 1.8 GHz/4.9 GHz, quad core turbo, 8 MB L3 cache; Intel UHD Graphics 620
+Core i5-10210U, 1.6 GHz/4.2 GHz, quad core turbo, 6 MB L3 cache; Intel UHD Graphics 620
+Core i3-10110U, 2.1 GHz/4.1 GHz, dual core turbo, 4 MB L3 cache; Intel UHD Graphics 620
+Pentium™ 6405U, 2.4 GHz, dual core, 2 MB L3 cache; Intel UHD Graphics
+Celeron™ 5205U, 1.9 GHz, dual core, 2 MB L3 cache; Intel UHD Graphics
+Graphics Supports HD decode, DX12, HDMI 1.4 up to 4 K @ 30 Hz, HDCP 2.3 via DisplayPort™ up to 4 K @ 60 Hz
+Integrated Intel UMA Graphics
+Intel UHD Graphics 620 (Core processors)
+Intel UHD Graphics (Pentium and Celeron processors)
+Supports 3 independent displays when on the HP USB-C Dock G4; Max resolution = 4 K @ 30Hz 
+(DisplayPort 1) or 4 K @ 30 Hz (DisplayPort 2)
+Supports 3 independent displays when on the HP Thunderbolt™ Dock 120 W (using USB-C); Max resolution 
+= 4 K @ 30 Hz (DisplayPort 1) or 4 K @ 30 Hz (DisplayPort 2)
+Discrete graphics memory
+NVIDIA® GeForce® MX250 with 2 GB of dedicated video memory
+NVIDIA GeForce MX130 with 2 GB of dedicated video memory
+Supports CUDA™, Optimus™, PhysX™, NVIDIA GPU Boost™ 2.0
+Panel 39.6 cm (15.6 in), LED backlight, antiglare, nontouch
+High denition (HD) (1366 × 768), SVA, 45% CG, eDP, slim, 220 nits
+HD, SVA, 45% CG, eDP, slim, 220 nits, with HD camera
+HD, SVA, 45% CG, eDP, slim, 220 nits, with HD + IR camera
+HD, SVA, 45% CG, eDP, slim, 220 nits, with HD camera, for use in models with WWAN
+Full high denition (FHD) (1920 × 1080), UWVA, 45% CG, eDP, slim, 250 nits
+FHD, UWVA, 45% CG, eDP, slim, 250 nits, with HD camera
+FHD, UWVA, 45% CG, eDP, slim, 250 nits, with HD + IR camera
+FHD, UWVA, 45% CG, eDP, slim, 250 nits, with HD camera, for use in models with WWAN
+FHD, UWVA, 72% CG, eDP + PSR, at, 1000 nits, privacy, with HD camera
+FHD, UWVA, 72% CG, eDP + PSR, at, 1000 nits, privacy, with HD + IR camera
+1
+
+================================================================================
+PAGE 10
+================================================================================
+Table 1-1  Product components and their descriptions (continued)
+Category Description
+39.6 cm (15.6 in), LED backlight, antiglare, touch screen
+FHD, UWVA, 45% CG, eDP, slim, 250 nits, with HD camera, Touch-on Panel (TOP)
+FHD, UWVA, 45% CG, eDP, slim, 250 nits, with HD camera, Touch-on Panel (TOP) for use in models with 
+WWAN
+Memory Two customer-accessible memory module slots supporting up to 32 GB of RAM
+Supports dual-channel memory
+PC4-2666, DDR4 SODIMMs
+Supports the following congurations:
+● 32768 MB (16384 × 2; dual channel)
+● 16384 MB (16384 × 1)
+● 12288 MB (8192 + 4096)
+● 8192 MB (8192 × 1) or (4096 × 2)
+● 4096 MB (4096 × 1)
+Primary storage Supports the following SATA, 7 mm, 2.5 inch hard drive:
+● 1 TB, 5400 rpm
+● 500 GB, 7200 rpm
+Primary M.2 storage Supports the following M.2 2280 solid-state drives:
+● 512 GB, PCIe, NVMe, TLC
+● 512 GB, PCIe, NVMe, value
+● 512 GB QLC + 32 GB Optane™ memory
+● 256 GB, PCIe, NVMe, value
+● 256 GB QLC + 16 GB Optane memory
+● 128 GB, SATA, TLC
+Fixed optical drive Supports external USB drive via power port
+Audio/Visual Audio controls
+Integrated dual-array microphone
+Integrated mono microphone
+Integrated camera (720p HD) (select models only)
+Integrated camera (720p HD + IR) (select models only)
+Camera privacy cover
+Supports WDR (Wide Dynamic Range)
+Audio-out (headphone)/audio-in (microphone) combo jack
+RJ-45 (network) Realtek RTL8111HSH-CG 10/100/1000
+Supports S3/S4/S5 wake on LAN with embedded NIC
+2 Chapter 1   Product description

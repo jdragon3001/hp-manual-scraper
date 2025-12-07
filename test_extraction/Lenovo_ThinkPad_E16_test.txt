@@ -1,0 +1,168 @@
+================================================================================
+LENOVO THINKPAD E16 GEN 1 MANUAL
+================================================================================
+
+Total Pages: 108
+Pages Extracted: 5
+Total Characters: 7507
+
+--------------------------------------------------------------------------------
+
+MANUAL CONTENT:
+
+
+================================================================================
+PAGE 1
+================================================================================
+ThinkPad E14 Gen 5 / ThinkPad E16 Gen 1  
+Hardware Maintenance Manual
+
+================================================================================
+PAGE 2
+================================================================================
+First Edition (April 2023)
+© Copyright Lenovo 2023. 
+LIMITED AND RESTRICTED RIGHTS NOTICE: If data or software is delivered pursuant to a General Services 
+Administration “GSA” contract, use, reproduction, or disclosure is subject to restrictions set forth in Contract No. GS- 
+35F-05925.
+
+================================================================================
+PAGE 3
+================================================================================
+Contents
+About this manual .  .  .  .  .  .  .  .  .  .  .  . iii
+Chapter 1.  Safety information .  .  .  .  .  . 1
+General safety .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  1
+Electrical safety .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  1
+Safety inspection guide .  .  .  .  .  .  .  .  .  .  .  .  .  3
+Handling devices that are sensitive to electrostatic  
+discharge .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  3
+Grounding requirements .  .  .  .  .  .  .  .  .  .  .  .  4
+Safety notices (multilingual translations) .  .  .  .  .  .  4
+Chapter 2.  Important service  
+information .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  19
+Strategy for replacing FRUs .  .  .  .  .  .  .  .  .  .  19
+Strategy for replacing a solid-state drive .  .  .  19
+How to use error message .  .  .  .  .  .  .  .  .  20
+Strategy for replacing FRUs for CTO, special-bid, 
+and standard models.  .  .  .  .  .  .  .  .  .  .  .  .  20
+Product definition .  .  .  .  .  .  .  .  .  .  .  .  20
+FRU identification .  .  .  .  .  .  .  .  .  .  .  .  20
+Chapter 3.  General checkout .  .  .  .  .  21
+What to do first .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  21
+Checkout guide .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  22
+Diagnosing problems .  .  .  .  .  .  .  .  .  .  .  22
+Quick test programs .  .  .  .  .  .  .  .  .  .  .  23
+UEFI diagnostic program .  .  .  .  .  .  .  .  .  23
+Bootable diagnostic programs .  .  .  .  .  .  .  24
+Power system checkout .  .  .  .  .  .  .  .  .  .  .  24
+Checking the ac power adapter .  .  .  .  .  .  .  25
+Checking the built-in battery and operational  
+charging .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  25
+Checking the coin-cell battery .  .  .  .  .  .  .  25
+Chapter 4.  Related service  
+information .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  27
+Reset or restore Windows .  .  .  .  .  .  .  .  .  .  .  27
+Passwords.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  27
+Power-on password .  .  .  .  .  .  .  .  .  .  .  27
+NVMe passwords .  .  .  .  .  .  .  .  .  .  .  .  27
+Supervisor password .  .  .  .  .  .  .  .  .  .  .  28
+System management password.  .  .  .  .  .  .  28
+How to remove the power-on password .  .  .  29
+How to remove the NVMe password .  .  .  .  .  29
+How to remove the system management  
+password .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  29
+Power management .  .  .  .  .  .  .  .  .  .  .  .  .  30
+Sleep mode .  .  .  .  .  .  .  .  .  .  .  .  .  .  30
+Hibernation mode .  .  .  .  .  .  .  .  .  .  .  .  30
+Symptom-to-FRU index .  .  .  .  .  .  .  .  .  .  .  31
+Numeric error codes .  .  .  .  .  .  .  .  .  .  .  32
+Error messages .  .  .  .  .  .  .  .  .  .  .  .  .  33
+Beep errors.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  33
+No-beep symptoms .  .  .  .  .  .  .  .  .  .  .  35
+LCD-related symptoms .  .  .  .  .  .  .  .  .  .  36
+Intermittent problems .  .  .  .  .  .  .  .  .  .  .  37
+Undetermined problems .  .  .  .  .  .  .  .  .  37
+Chapter 5.  Special keys .  .  .  .  .  .  .  .  39
+Chapter 6.  Locations .  .  .  .  .  .  .  .  .  41
+Locating computer controls and connectors .  .  .  41
+Front view .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  41
+Side view .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  43
+Locating FRUs and CRUs .  .  .  .  .  .  .  .  .  .  .  46
+Major FRUs and CRUs .  .  .  .  .  .  .  .  .  .  47
+LCD FRUs and CRUs .  .  .  .  .  .  .  .  .  .  .  51
+Miscellaneous parts .  .  .  .  .  .  .  .  .  .  .  53
+Connector and cable guide .  .  .  .  .  .  .  .  53
+Looking up FRU information .  .  .  .  .  .  .  .  .  .  56
+Chapter 7.  FRU replacement  
+notices .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  57
+Service tool kit .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  57
+Screw notices .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  57
+Retaining serial numbers .  .  .  .  .  .  .  .  .  .  .  58
+Restoring the serial number of the system  
+unit .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  58
+Retaining the UUID.  .  .  .  .  .  .  .  .  .  .  .  59
+Reading or writing the ECA information .  .  .  .  59
+Chapter 8.  Removing or replacing a  
+FRU.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  61
+General guidelines.  .  .  .  .  .  .  .  .  .  .  .  .  .  61
+Before servicing the computer .  .  .  .  .  .  .  .  .  61
+Disabling the built-in battery .  .  .  .  .  .  .  .  61
+1010 Base cover assembly .  .  .  .  .  .  .  .  .  .  62
+1020 Built-in battery .  .  .  .  .  .  .  .  .  .  .  .  .  65
+1030 Memory module and memory module  
+bracket .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  65
+1040 M.2 solid-state drive .  .  .  .  .  .  .  .  .  .  .  66
+1050 Speaker assembly .  .  .  .  .  .  .  .  .  .  .  67
+1060 Wireless LAN card .  .  .  .  .  .  .  .  .  .  .  68
+1070 Thermal fan assembly .  .  .  .  .  .  .  .  .  .  69
+1080 I/O board and I/O board cable .  .  .  .  .  .  .  71
+© Copyright Lenovo 2023 i
+
+================================================================================
+PAGE 4
+================================================================================
+1090 Power button with or without fingerprint reader and 
+fingerprint reader cable .  .  .  .  .  .  .  .  .  .  .  .  74
+1100 Coin-cell battery .  .  .  .  .  .  .  .  .  .  .  .  75
+1110 Trackpad and trackpad cable .  .  .  .  .  .  .  76
+1120 System board .  .  .  .  .  .  .  .  .  .  .  .  .  78
+1130 LCD unit .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  82
+1140 LCD bezel assembly.  .  .  .  .  .  .  .  .  .  .  86
+1150 LCD panel and elastic adhesive tapes .  .  .  .  87
+1160 LCD hinges .  .  .  .  .  .  .  .  .  .  .  .  .  .  90
+1170 Camera and microphone rubber(for selected  
+models) .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  91
+1180 eDP cable assembly .  .  .  .  .  .  .  .  .  .  .  93
+1190 Wireless LAN antenna assembly (for selected 
+models) .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  93
+1200 LCD cover assembly.  .  .  .  .  .  .  .  .  .  .  94
+Appendix A.  Notices .  .  .  .  .  .  .  .  .  .  97
+Appendix B.  Abbreviation table .  .  .  .  99
+ii ThinkPad E14 Gen 5 / ThinkPad E16 Gen 1 Hardware Maintenance Manual
+
+================================================================================
+PAGE 5
+================================================================================
+About this manual
+This manual contains service and reference information for the following products:
+Product name
+Machine type (MT)
+ThinkPad E14 Gen 5 21JK, 21JL, 21JR, and 21JS
+ThinkPad E16 Gen 1 21JN, 21JQ, 21JT, and 21JU
+ThinkPad R14 Gen 5
+21JM
+ThinkPad E14 Gen 5, ThinkPad R14 Gen 5 and ThinkPad E16 Gen 1 might be shipped with different 
+microprocessors, namely Intel
+® 
+and Advanced Micro Devices (AMD). Hereby Intel models and AMD models 
+are used to distinguish computer models with different microprocessors.
+Use this manual along with the advanced diagnostic tests to troubleshoot problems.
+Important: 
+•  This manual is intended only for trained service technicians who are familiar with products. Use this 
+manual along with the advanced diagnostic tests to troubleshoot problems effectively. 
+•  Depending on the model, some hardware configuration and software programs might not be available on 
+the computer. Some statements in this manual might not be applicable to the computer.
+•  Before servicing a product, be sure to read all the information under Chapter 1 “Safety information” on 
+page 1 and Chapter 2 “Important service information” on page 19.
+© Copyright Lenovo 2023 iii
