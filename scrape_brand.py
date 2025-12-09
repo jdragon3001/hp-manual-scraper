@@ -28,7 +28,8 @@ URL_CACHE_FILE = "manual_urls_cache.json"
 PAGES_PER_CHUNK = 25          # Check every N pages
 PAGES_BEFORE_RESTART = 50     # Restart browser more frequently (was 100)
 MAX_SECONDS_PER_PAGE = 3      # If a page takes longer than this, something's wrong
-DELAY_BETWEEN_PAGES = (0.3, 0.5)
+DELAY_BETWEEN_PAGES = (0.2, 0.4)  # Minimal delay - site throttles us anyway
+PAGE_LOAD_TIMEOUT = 5000      # 5 seconds max for page load (was 10000)
 
 # Retry settings
 MAX_RETRIES = 3
@@ -93,12 +94,41 @@ class BrowserManager:
         self.pages_since_restart = 0
     
     def launch(self, playwright):
-        """Launch browser"""
-        self.browser = playwright.chromium.launch(headless=True)
-        self.context = self.browser.new_context(
-            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        """Launch browser with stealth settings"""
+        self.browser = playwright.chromium.launch(
+            headless=True,
+            args=[
+                '--disable-blink-features=AutomationControlled',  # Hide automation
+                '--disable-dev-shm-usage',
+                '--no-sandbox',
+                '--disable-web-security',
+            ]
         )
+        self.context = self.browser.new_context(
+            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            viewport={'width': 1920, 'height': 1080},
+            locale='en-US',
+            timezone_id='America/New_York',
+            permissions=[],
+            extra_http_headers={
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'DNT': '1',
+                'Connection': 'keep-alive',
+                'Upgrade-Insecure-Requests': '1'
+            }
+        )
+        
+        # Hide webdriver property
         self.page = self.context.new_page()
+        self.page.set_default_timeout(5000)  # 5 second timeout for all operations
+        self.page.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined
+            });
+        """)
+        
         self.pages_since_restart = 0
         return self.page
     
@@ -122,6 +152,25 @@ class BrowserManager:
         self.page = None
         self.pages_since_restart = 0
 
+def check_manual_type(page, manual_url):
+    """Quick check to see if manual is accessible and what type it is"""
+    try:
+        page.goto(manual_url, wait_until='domcontentloaded', timeout=15000)
+        time.sleep(1)
+        
+        # Check if viewer-page exists (HTML text rendering)
+        has_viewer = page.query_selector('.viewer-page') is not None
+        
+        # Check if there's a background image (image-based rendering)
+        has_bg_img = page.evaluate('''() => {
+            const imgs = Array.from(document.querySelectorAll('img'));
+            return imgs.some(img => img.src.includes('/bg') || img.src.includes('.webp'));
+        }''')
+        
+        return {'accessible': True, 'has_viewer': has_viewer, 'has_bg_img': has_bg_img}
+    except Exception as e:
+        return {'accessible': False, 'error': str(e)[:50]}
+
 def extract_manual_chunked(browser_mgr, manual_url, start_page=1):
     """
     Extract pages from a manual with page-count based restart.
@@ -130,7 +179,13 @@ def extract_manual_chunked(browser_mgr, manual_url, start_page=1):
     page = browser_mgr.page
     try:
         try:
-            page.goto(manual_url, wait_until='domcontentloaded', timeout=12000)
+            response = page.goto(manual_url, wait_until='domcontentloaded', timeout=10000)
+            
+            # Check if URL redirected (manual doesn't exist)
+            if page.url != manual_url and not page.url.startswith(manual_url):
+                print(f"REDIRECT (manual removed) ", end="", flush=True)
+                return None, 0, 0, False  # Don't retry, it's gone
+                
         except Exception as e:
             print(f"LOAD_ERR ", end="", flush=True)
             return None, 0, 0, True
@@ -175,24 +230,67 @@ def extract_manual_chunked(browser_mgr, manual_url, start_page=1):
             try:
                 page_url = f"{manual_url}?p={page_num}"
                 
-                # Aggressive timeout - if page doesn't load in 6s, skip it
+                # DEBUG: Log before goto
+                import sys
+                sys.stderr.write(f"\n[DEBUG p{page_num}] Starting goto...")
+                sys.stderr.flush()
+                
+                # Timeout for page load
                 try:
-                    page.goto(page_url, wait_until='domcontentloaded', timeout=6000)
-                except:
+                    page.goto(page_url, wait_until='domcontentloaded', timeout=PAGE_LOAD_TIMEOUT)
+                    sys.stderr.write(f" goto OK")
+                    sys.stderr.flush()
+                except Exception as e:
+                    sys.stderr.write(f" goto FAIL: {str(e)[:30]}")
+                    sys.stderr.flush()
                     consecutive_fails += 1
-                    if consecutive_fails >= 3:
-                        print(f"[timeout@{page_num}] ", end="", flush=True)
+                    print(f"[T{page_num}] ", end="", flush=True)  # T = timeout
+                    if consecutive_fails >= 3:  # Bail out after 3 timeouts
+                        print(f"[3timeouts@{page_num}] ", end="", flush=True)
                         needs_restart = True
                         break
                     continue
                 
                 time.sleep(random.uniform(*DELAY_BETWEEN_PAGES))
                 
+                sys.stderr.write(f" extracting...")
+                sys.stderr.flush()
+                
                 try:
-                    page.wait_for_selector('.viewer-page', timeout=3000)
-                    text = page.eval_on_selector('.viewer-page', '(el) => el.innerText')
-                except:
+                    # Try multiple selectors in case the page structure differs
+                    text = None
+                    try:
+                        page.wait_for_selector('.viewer-page', timeout=3000)
+                        sys.stderr.write(f" selector OK")
+                        sys.stderr.flush()
+                        # Set page timeout for evaluation
+                        page.set_default_timeout(3000)
+                        text = page.eval_on_selector('.viewer-page', '(el) => el.innerText')
+                        sys.stderr.write(f" eval OK")
+                        sys.stderr.flush()
+                    except:
+                        # Fallback: try getting all text from body
+                        sys.stderr.write(f" fallback...")
+                        sys.stderr.flush()
+                        try:
+                            page.set_default_timeout(3000)
+                            text = page.evaluate('() => document.body.innerText')
+                            sys.stderr.write(f" fallback OK")
+                            sys.stderr.flush()
+                        except:
+                            sys.stderr.write(f" fallback FAIL")
+                            sys.stderr.flush()
+                            pass
+                    
+                    sys.stderr.write(f" done\n")
+                    sys.stderr.flush()
+                    
+                    if not text:
+                        consecutive_fails += 1
+                        continue
+                except Exception as e:
                     consecutive_fails += 1
+                    print(f"[EvalErr:{str(e)[:20]}] ", end="", flush=True)
                     continue
                 
                 if text and len(text.strip()) > 30:
@@ -201,6 +299,8 @@ def extract_manual_chunked(browser_mgr, manual_url, start_page=1):
                     consecutive_fails = 0
                 else:
                     consecutive_fails += 1
+                    if page_num % 10 == 0:  # Log every 10th empty page
+                        print(f"[E{page_num}] ", end="", flush=True)  # E = empty
                 
                 # Check if this page took too long (browser might be getting sluggish)
                 page_time = time.time() - page_start_time
@@ -398,9 +498,16 @@ def scrape_brand(brand_name):
                     del partial[url]
                 print(f"✓ ({len(full_content):,}ch, {total_pages}pg, {elapsed:.1f}s)", flush=True)
             else:
-                stats["failed"] += 1
-                retry_queue.append((manual, 0))
-                print(f"✗ EMPTY - queued for retry ({elapsed:.1f}s)", flush=True)
+                # Check if manual was redirected (doesn't exist) vs failed extraction
+                if not needs_restart and last_page == 0:
+                    # Manual was redirected - mark as done to skip it
+                    progress["done"].append(url)
+                    print(f"✗ SKIPPED (manual removed from site) ({elapsed:.1f}s)", flush=True)
+                else:
+                    # Extraction failed - queue for retry
+                    stats["failed"] += 1
+                    retry_queue.append((manual, 0))
+                    print(f"✗ EMPTY - queued for retry ({elapsed:.1f}s)", flush=True)
             
             # Update progress
             progress["partial"] = partial
@@ -414,8 +521,8 @@ def scrape_brand(brand_name):
                 time.sleep(1)
                 browser_mgr.launch(p)
             
-            # Random delay between manuals (longer to avoid rate limiting)
-            time.sleep(random.uniform(2, 5))
+            # Delay between manuals
+            time.sleep(random.uniform(1, 3))
             
             # Stats every 25 manuals
             if i % 25 == 0:
