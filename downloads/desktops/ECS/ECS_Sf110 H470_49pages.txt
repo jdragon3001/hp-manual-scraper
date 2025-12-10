@@ -1,0 +1,1712 @@
+Brand: ECS
+Model: Sf110 H470
+URL: https://www.manua.ls/ecs/sf110-h470/manual
+Total Pages: 49
+============================================================
+
+--- Page 2 ---
+Preface
+                                                                                                                                                                                                                        i
+Preface
+Copyright
+This publication, including all photographs, illustrations and software, is protected
+under international copyright laws, with all rights reserved. Neither this manual, nor
+any of the material contained herein, may be reproduced without written consent of
+the author.
+Version 1.0
+Disclaimer
+The information in this document is subject to change without notice. The
+manufacturer makes no representations or warranties with respect to the contents
+hereof and specifically disclaims any implied warranties of merchantability or fitness
+for any particular purpose. The manufacturer reserves the right to revise this
+publication and to make changes from time to time in the content hereof without
+obligation of the manufacturer to notify any person of such revision or changes.
+Federal Communications Commission (FCC)
+This equipment has been tested and found to comply with the limits for a Class B
+digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to
+provide reasonable protection against harmful interference in a residential installa-
+tion. This equipment generates, uses, and can radiate radio frequency energy and, if
+not installed and used in accordance with the instructions, may cause harmful inter-
+ference to radio communications. However, there is no guarantee that interference
+will not occur in a particular installation. If this equipment does cause harmful
+interference to radio or television reception, which can be determined by turning the
+equipment off and on, the user is encouraged to try to correct the interference by one
+or more of the following measures:
+• Reorient or relocate the receiving antenna
+• Increase the separation between the equipment and the receiver
+• Connect the equipment onto an outlet on a circuit different from that to
+which the receiver is connected
+• Consult the dealer or an experienced radio/TV technician for help
+Trademark Recognition
+Windows
+®
+ 10 are registered trademarks of Microsoft Corp.
+Other product names used in this manual are the properties of their respective
+owners and are acknowledged.
+Any changes or modifications not expressly approved by the grantee of this device
+could void the user’s authority to operate the equipment. This equipment complies
+with FCC radiation exposure limits set forth for an uncontrolled environment. This
+equipment should be installed and operated with minimum distance 20cm between
+the radiator & your body.
+
+--- Page 3 ---
+ii
+Preface
+Canadian Department of Communications
+This class B digital apparatus meets all requirements of the Canadian Interference-
+causing Equipment Regulations.
+Cet appareil numérique de la classe B respecte toutes les exigences du Réglement sur
+le matériel brouilieur du Canada.
+Declaration of Conformity
+This device complies with part 15 of the FCC rules. Operation is subject to the
+following conditions:
+• This device may not cause harmful interference, and
+• This device must accept any interference received, including interfer-
+ence that may cause undesired operation
+CE Statements
+This device complies with the essential requirements of the Radio Equipment Direc-
+tive (RED)-2014/53/EU.
+This device is restricted for indoor use only when operating under 5150 MHz to 5350
+MHz of frequency range. All operation modes:
+2.4GHz: 802.11b, 802.11g, 802.11n (HT20), 802.11n (HT40), Bluetooth
+5GHz: 802.11a, 802.11ac (VHT20), 802.11ac (VHT40), 802.11ac (VHT80)
+The frequency, mode and the maximum transmitted power in EU are listed below:
+AT BE BG CH CY CZ DE DK EE
+EL ES FI FR HR HU IE IS IT
+LI LT LU LV MT NL NO PL PT
+RO SE SI SK T R U K
+IntelWireless‐AC3165NGW IntelWireless‐AC9462NGW IntelWireless‐AC9560NGW
+2412‐2472MHz 15.0dBM 15.0dBM 15.0dBM
+5150‐5250MHz 18.5dBM 18.5dBM 18.5dBM
+5250‐5350MHz 18.8dBM 18.8dBM 18.8dBM
+5470‐5725MHz 20.0dBM 20.0dBM 20.0dBM
+5725‐5850MHz X 9.0dBM 10.0dBM
+The terms HDMI, HDMI High-Definition Multimedia Interface, and the HDMI
+Logo are trademarks or registered trademarks of HDMI Licensing Administrator,
+Inc.
+
+--- Page 4 ---
+Preface
+                                                                                                                                                                                                                        iii
+Safety Instructions
+Your system is designed and tested to meet the latest standards of safety for informa-
+tion technology equipment. However, to ensure your safety, it is important that you
+read the following safety instructions.
+Setting up your system
+• Read and follow all instructions in the documentation before you oper-
+ate your system.
+• Do not use this product near water or a heated source such as a
+radiator.
+• Set up the system on a stable surface.
+• Openings on the chassis are for ventilation. Do not block or cover these
+openings. Make sure you leave plenty of space around the system for
+ventilation. Never insert objects of any kind into the ventilation open-
+ings.
+• Use this product in environments with ambient temperatures between
+0°C and 40°C.
+• If you use an extension cord, make sure that the total ampere rating of
+the devices plugged into the extension cord does not exceed its am-
+pere rating.
+• Only technicians are allowed to open the chassis, please contact with
+your vendor/supplier for any technical support.
+Attention during use
+• Do not step on the power cord or let anything rest on top of it.
+• Do not spill water or any other liquid on your system.
+• When the system is turned OFF, a small amount of electrical current still
+flows. Always unplug all power, modem, and network cables from the
+power outlets before cleaning the system.
+• If you encounter the following technical problems with the product,
+unplug the power cord and contact a qualified service technician or
+your retailer.
+• The power cord or plug is damaged.
+• Liquid has been spilled into the system.
+• The system does not function properly even if you follow the
+operating instructions.
+• The system was dropped or the cabinet is damaged.
+• The system performance changes
+The warranty does not apply to products that have been disassembled by
+users
+
+--- Page 5 ---
+iv
+Preface
+Safety cautions and warnings
+Product disposal notice
+IMPORTANT:
+This symbol if the crossed out wheeled bin indicates that the product
+(electrical and electronic equipment) should not be placed in munici-
+pal waste. Check local regulations for disposal of electronic products.
+Nordic Lithium Cautions (for lithium-ion batteries)
+CAUTION:
+Danger of explosoin if battery is incorrectly replace only with the same
+or equivalent type recommended by the manufacturer. Dispose of used
+batteries according to the manufacturer’s instructions.
+Product disposal notice
+1. Do not place this product underneath heavy loads or in an unstable
+position.
+2. Do not use or expose this product around magnetic fields as mag-
+netic interference may affect the performance of the product.
+3. Do not expose this product to high levels of direct sunlight, high-
+humidity or wet conditions.
+4. Do not block the air vents to this product or impede the airflow in
+any way.
+Elitegroup Computer Systems Co., Ltd
+No.239, Sec.2, Tiding Blvd., Taipei, Taiwan 11493
++886-2-2162-1177
+Manufactured by
+
+--- Page 6 ---
+v
+TT
+TT
+T
+ABLE OF CONTENTSABLE OF CONTENTS
+ABLE OF CONTENTSABLE OF CONTENTS
+ABLE OF CONTENTS
+Preface                       i
+Chapter 1 1
+Introducing the PC 1
+Introduction......................................................................................1
+Specification......................................................................................2
+Front and Rear I/O............................................................................3
+Packing Contents..............................................................................5
+Chapter 3   9
+Using BIOS 9
+About the Setup Utility.................................................................. 9
+The Standard Configuration................................................9
+Entering the Setup Utility......................................................9
+Resetting the Default CMOS Values...................................10
+Using BIOS......................................................................................10
+BIOS Navigation Keys.......................................................11
+Main Menu ........................................................................12
+Advanced Menu.................................................................13
+   Chipset Menu.....................................................................26
+  Tweak Menu.......................................................................29
+Security Menu....................................................................30
+Boot Menu..........................................................................31
+Exit Menu...........................................................................32
+  Updating the BIOS.............................................................33
+Chapter 2
+ 7 7
+ 7 7
+ 7
+System Quick Installtion..................................................................7
+Installing  the PC 7
+Chapter 4     
+ 35 35
+ 35 35
+ 35
+Using the Software                           35
+About the Software DVD-ROM/CD-ROM.................................35
+Auto-installing under Windows 10.............................................35
+Running Setup....................................................................36
+Manual Installation........................................................................38
+ECS Utility Software (Intelligent EZ Utility) ..............................38
+
+--- Page 7 ---
+vi
+Chapter 5                                                                                                     
+3939
+3939
+39
+Trouble Shooting           39
+                    Start up problems during assembly...............................................39
+                   Start up problems after prolong use............................................40
+                    Maintenance and care tips............................................
+................40
+    
+                Basic Troubleshooting Flowchart................................................41
+
+--- Page 8 ---
+1
+Introducing the PC
+Chapter 1
+Introducing the PC
+Introduction
+Thank you for choosing this 1.1L case of great performance and with stylish and
+flexible design.
+Supports LGA1200 Socket for Intel
+®
+ 10
+th
+ processor and a dimension of 205mm (H)*
+176mm (D)* 33mm (W), 1.1L SFF provides the features of low power consumption
+(working with a 90/120Watt power adaptor), and space saving. The chipset is Intel
+®
+H470, supporting up to 32 GB of system memory with DDR4 2666 (i3/i5 CPU) /
+2933 (i7/i9 CPU) memory SO-DIMM, 2.5” SATA III HDD, 4 independent displays,
+Intel TXT.
+Note:
+ID design may vary.
+CPU TDP 35W
+CPU TDP 65W
+
+--- Page 9 ---
+2
+Introducing the PC
+Specification
+• CPU TDP 35W: 19V/4.74A, 90W power adaptor
+• CPU TDP 65W: 19V/6.32A, 120W power adaptor
+Chipset
+CPU Support
+Graphics
+Storage
+Adapter
+Kensington lock
+Memory
+Front Panel
+OS Support
+• Intel
+®
+ H470
+• Supports Intel
+®
+ 10
+th
+ Gen processors with TDP 35W or
+65W max
+• Intel
+®
+ HD graphics from CPU
+• Supports 4K resolution and DX12 for Intel
+®
+ 10
+th
+        processor
+• Supports 1 x 2.5” SATA III HDD
+• 4 x USB 3.2 Gen1x1 ports
+• 1 x 10/100/1000 LAN RJ45
+• 1 x COM port (optional)
+• 1 x HDMI port
+• 1 x D-Sub port
+• 2 x DP ports
+• 1 x DC-IN
+• Supported
+• 2 x SO-DIMM DDR4 2666 (i3/i5 CPU) / 2933 (i7/i9 CPU)
+MHz, up to 32 GB, Dual-channel
+• 2 x USB 3.2 Gen 2x1 ports
+• 1 x USB 3.2 Gen 2x1 Type-C port
+• 1 x MIC-IN
+• 1 x Line-out
+• 1 x Power button
+• Hardware Compatible with Windows 10 / Linux
+Rear Panel
+• Realtek Gigabit LANLAN
+• Supports Intel
+®
+ AC9462, 802.11ac, 1x1, BT 5Wifi
+• 1 x HDMI port
+• 1 x D-Sub port
+• 2 x DP ports
+(MAX.3 Video Outputs)
+Video Output
+Dimensions (mm) • 205mm * 176mm * 33mm
+Expansion
+• 1 x M.2 slot
+         - Supports 2280 SATA, PCIe and Optane SSD
+
+--- Page 10 ---
+3
+Introducing the PC
+Front and Rear I/O
+4. USB 3.2 Gen 2x1 Type-C
+   port
+The USB 3.2 Gen 2x1 Type-C port is used for   de-
+vices with USB Type-C.
+5. Headphone Jack Connecting Headphone.
+6. Mic In Jack Connecting Microphone.
+1. Power Button with
+     LED
+Press the prower button to turn the system on and
+off.
+2.  HDD LED
+This is the HDD LED light.
+3. USB 3.2 Gen 2x1 ports
+The USB 3.2 Gen 2x1 ports are used for devices with
+USB, such as mouse, keyboard, printer, scanner.
+
+--- Page 11 ---
+4
+Introducing the PC
+CPU TDP 35W CPU TDP 65W
+13. DP Ports
+Connecting display devices to the DP ports.
+12. D-SUB Connector
+8. Kensington Lock
+This is the security lock.
+10. COM Port (optional)
+Connecting a device with COM port.
+9. LAN
+Connecting the Network.
+11. HDMI Port Connecting a display device to the HDMI port.
+Connecting VGA Monitor.
+7. USB 3.2 Gen 1x1 ports
+Connecting USB 3.2 Gen 1x1 ports compatible
+devices.
+14. DC Jack
+It is used for power adapter.
+
+--- Page 12 ---
+5
+Introducing the PC
+Packing Contents
+NOTE: Please contact us immediately if any of the items is damaged or
+missing. (Memory, SSD, CPU and HDD are required to be purchased
+additionally.)
+ Driver DVD
+ Quick Installation Guide
+ Stand
+ Power 90W
+VESA Mount
+CPU TDP 35W CPU TDP 65W
+ Power 120W
+35W cooler 65W cooler
+
+--- Page 14 ---
+7
+Installing the PC
+Chapter 2
+Installing the PC
+System Quick Installation
+1. Connecting HDMI device.
+2. Connecting VGA Monitor. (D-SUB Connector)
+3. The USB connectors are used for attaching USB devices, such as mouse, keyboard,
+printer, scanner and other USB-compatible devices.
+
+--- Page 15 ---
+8
+Installing the PC
+7. Connecting Power. (DC jack)
+5. Connecting the Microphone. (Microphone Jack)
+4. Attaching Ethernet cable here. (LAN Connector)
+6. Connecting Speaker or Headphone. (Headphone Jack)
+
+--- Page 16 ---
+9
+Using BIOS
+About the Setup Utility
+The computer uses the latest “American Megatrends Inc. ” BIOS with support for
+Windows Plug and Play. The CMOS chip on the motherboard contains the ROM
+setup instructions for configuring the motherboard BIOS.
+The BIOS (Basic Input and Output System) Setup Utility displays the system’s
+configuration status and provides you with options to set system parameters. The
+parameters are stored in battery-backed-up CMOS RAM that saves this information
+when the power is turned off. When the system is turned back on, the system is
+configured with the values you stored in CMOS.
+The BIOS Setup Utility enables you to configure:
+• Hard drives, diskette drives and peripherals
+• Video display type and display options
+• Password protection from unauthorized use
+• Power Management features
+The settings made in the Setup Utility affect how the computer performs. Before
+using the Setup Utility, ensure that you understand the Setup Utility options.
+This chapter provides explanations for Setup Utility options.
+The Standard Configuration
+A standard configuration has already been set in the Setup Utility. However, we
+recommend that you read this chapter in case you need to make any changes in the
+future.
+This Setup Utility should be used:
+• when changing the system configuration
+• when a configuration error is detected and you are prompted to make
+changes to the Setup Utility
+• when trying to resolve IRQ conflicts
+• when making changes to the Power Management configuration
+• when changing the password or making other changes to the Security
+Setup
+Entering the Setup Utility
+When you power on the system, BIOS enters the Power-On Self Test (POST)
+routines. POST is a series of built-in diagnostics performed by the BIOS. After the
+POST routines are completed, the following message appears:
+Press DEL to enter SETUP
+Chapter 3
+Using BIOS
+
+--- Page 17 ---
+10
+Using BIOS
+Using BIOS
+When you start the Setup Utility, the main menu appears. The main menu of the
+Setup Utility displays a list of the options that are available. A highlight indicates
+which option is currently selected. Use the cursor arrow keys to move the highlight
+to other options. When an option is highlighted, execute the option by pressing
+<Enter>.
+Some options lead to pop-up dialog boxes that prompt you to verify that you wish to
+execute that option. Other options lead to dialog boxes that prompt you for
+information.
+Press the delete key to access BIOS Setup Utility.
+Resetting the Default CMOS Values
+When powering on for the first time, the POST screen may show a “CMOS Settings
+Wrong” message. This standard message will appear following a clear CMOS data at
+factory by the manufacturer. You simply need to Load Default Settings to reset the
+default CMOS values.
+Note: Changes to system hardware such as different CPU, memories, etc. may also
+trigger this message.
+BIOS Information
+System Language [English]
+System Date [Sun 12/22/2019]
+System Time [19:32:12]
+BIOS Version                                                  19.12.19
+Choose the system default
+language
+Main      Advanced      Chipset      Tweak      Security     Boot      Exit
+
++/-: Change Opt.
+Enter : Select
+           F1: General Help
+: Select Screen
+          F2: Previous Values
+           F3: Optimized Defaults
+    F4: Save & Exit
+ESC: Exit
+
+: Select Item
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 18 ---
+11
+Using BIOS
+For the purpose of better product maintenance, the manufacture reserves
+the right to change the BIOS items presented in this manual. The BIOS
+setup screens shown in this chapter are for reference only and may differ
+from the actual BIOS. Please visit the manufacture’s website for updated
+manual.
+The default BIOS setting for this motherboard apply for most conditions
+with optimum performance. We do not suggest users change the default
+values in the BIOS setup and take no responsibility to any damage
+caused by changing the BIOS settings.
+BIOS Navigation Keys
+The BIOS navigation keys are listed below:
+Some options (marked with a triangle
+ 
+
+
+) lead to submenus that enable you to change
+the values for the option. Use the cursor arrow keys to scroll through the items in the
+submenu.
+In this manual, default values are enclosed in parenthesis. Submenu items are denoted
+by a triangle 
+
+
+.
+KEY FUNCTION
+           Scrolls through the items on a menu
++/-      Change Opt.
+F2
+F3
+F1
+ESC
+ 
+Enter
+F4
+Exit the current menu
+General Help
+Select
+Previous Value
+Optimized Defaults
+Save & Exit
+
+--- Page 19 ---
+12
+Using BIOS
+System Date & Time
+The Date and Time items show the current date and time on the computer. If you are
+running a Windows OS, these items are automatically updated whenever you make
+changes to the Windows Date and Time Properties utility.
+When you enter the BIOS Setup program, the main menu appears, giving you an
+overview of the basic system information. Select an item and press <Enter> to
+display the submenu.
+Main Menu
+System Language (English)
+This item is used to set system language.
+BIOS Information
+System Language [English]
+System Date [Sun 12/22/2019]
+System Time [19:32:12]
+BIOS Version                                                  19.12.19
+Choose the system default
+language
+Main      Advanced      Chipset      Tweak      Security     Boot      Exit
+
++/-: Change Opt.
+Enter : Select
+           F1: General Help
+: Select Screen
+          F2: Previous Values
+           F3: Optimized Defaults
+    F4: Save & Exit
+ESC: Exit
+
+: Select Item
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 20 ---
+13
+Using BIOS
+Onboard LAN Controller (Enabled)
+Use these items to enable or disable Onboard LAN controller.
+LAN Configuration
+Onboard LAN Controller [Enabled]
+Enabled/Disabled Onboard
+LAN Controller
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+
+
+ LAN Configuration
+The item in the menu shows the LAN-related information that the BIOS
+automatically detects.
+Press <Esc> to return to the Advanced Menu page.
+Main      Advanced      Chipset      Tweak      Security     Boot      Exit
+ LAN Configuration
+ PC Health Status
+ Power Management Setup
+ ACPI Settings
+ CPU Configuration
+ SATA Configuration
+ USB Configuration
+ Super IO Configuration
+ DASH Configuration
+ Trusted Computing
+ Intel (R) Rapid Storage Technology
+ Realtek PCIe GBE Family Controller (MAC :00:E0:4C:68:00:01)
+LAN Configuration Parameters
+Advanced Menu
+This page sets up more advanced information about your system. Handle this page
+with caution. Any changes can affect the operation of your computer.
+Main      Advanced      Chipset      Tweak      Security     Boot      Exit
+
++/-: Change Opt.
+Enter : Select
+           F1: General Help
+: Select Screen
+          F2: Previous Values
+           F3: Optimized Defaults
+    F4: Save & Exit
+ESC: Exit
+
+: Select Item
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 21 ---
+14
+Using BIOS
+
+
+ PC Health Status
+This motherboard supports hardware monitoring, this item lets you monitor the
+parameters for critical voltage, temperatures and fan speeds.
+     PC Health Status
+     CPU Temperature (DTS) 44
+      System Temperature 35
+O
+C
+     CPU Fan Speed 1448 RPM
+     Core Voltage 0.948V
+    DIMM Voltage 1.155V
+     +12V 12.011V
+     +5V 5.123V
+     +3.3V 3.215V
+     TCC Activation Temperature (DTS) 100
+Advanced
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+         • CPU Temperature (DTS)
+         • System Temperature
+         • CPU Fan Speed
+         • Core Voltage
+         • DIMM Voltage
+         • +12V
+         • +5V
+         • +3.3V
+System Component Characteristics
+These items display the monitoring of the overall inboard hardware health events,
+such as System temperature, CPU & DIMM voltage, CPU & System fan speed...
+etc.
+Press <Esc> to return to the Advanced Menu page.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 22 ---
+15
+Using BIOS
+Aptio Setup Utility - Copyright (C) 2010 American Megatrends, Inc.
+
+
+ Power Management Setup
+This page sets up some parameters for system power management operation.
+Power Management Setup
+Resume By RING [Disabled]
+Resume By PME [Disabled]
+Resume By USB [Disabled]
+Resume By RTC Alarm [Disabled]
+EUP Function [Enabled]
+About Resume by Ring
+          F1: General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2: Previous Values
+          F3: Optimized Defaults
+          F4: Save & Exit
+          ESC: Exit
+Resume By PME (Disabled)
+The system can be turned off with a software command. If you enable this item, the
+system can automatically resume if there is an incoming call on the PCI Modem or
+PCI/PCIE LAN card. You must use an ATX power supply in order to use this feature.
+Use this item to do wake-up action if inserting the PCI/PCIE card.
+Resume By USB (Disabled)
+This item allows you to enable/disable the USB device wakeup function from S3
+mode.
+Resume on RING (Disabled)
+The system can be turned off with a software command. If you enable this item, the
+system can automatically resume if there is an incoming call on the Modem. You
+must use an ATX power supply in order to use this feature.
+Resume By RTC Alarm (Disabled)
+The system can be turned off with a software command. If you enable this item, the
+system can automatically resume at a fixed time based on the system’s RTC
+(realtimeclock). Use the items below this one to set the date and time of the
+wake-up alarm. You must use an ATX power supply in order to use this feature.
+Advanced
+EUP Function (Enabled)
+This item allows user to enable or disable EUP support.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+Press <Esc> to return to the Advanecd Menu page.
+
+--- Page 23 ---
+16
+Using BIOS
+ACPI Sleep State (S3(Suspend to RAM))
+This item allows user to enter the ACPI S3 (Suspend toRAM) Sleep State (default).
+ACPI Settings
+ACPI Sleep State [S3 (Suspend to RAM)]
+Select the highest ACPI sleep
+state the system will enter
+when the SUSPEND button is
+pressed.
+Advanced
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+
+
+ ACPI Settings
+The item in the menu shows the highest ACPI sleep state when the system enters
+suspend.
+Press <Esc> to return to the Advanced Menu page.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 24 ---
+17
+Using BIOS
+
+
+ CPU Configuration
+This item in the menu shows the information of the CPU.
+CPU Configuration
+Intel(R) Core(TM) i3-10300 CPU @ 3.70GHz
+Processor Speed 3700 MHz
+ID                                                                      0xA0650
+Microcode Revision                         BE
+Number of Processors                                  4Cores (s) / 8Thread (s)
+VMX                                                  Supported
+SMX/TXT                                                  Not Supported
+Hyper-threading                                              [Enabled]
+Active Processor Cores                                [All]
+Limit CPUID Maximum [Disabled]
+Intel (VMX) Virtualization Technology           [Enabled]
+Package C State limit                                    [AUTO]
+Enhanced Halt (C1E)                                     [Enabled]
+Intel (R) Speed Shift Technology [Enabled]
+Software Guard Extension (SGX)                  [Software Controlled]
+Advanced
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+Enabled for windows XP and Linx
+(OS optimized for Hyper-Threading
+Technology) and Disabled for other
+OS (OS not optimized for Hyper-
+Threading Technology). When
+disabled only one thread per enabled
+core is enabled.
+Intel(R) Core(TM) i3-10300 CPU @ 3.70GHz
+This is display-only field and displays the information of the CPU installed in your
+computer.
+ID (0xA0650)
+This item shows the processor ID.
+Microcode Revision (BE)
+This item shows the Microcode version.
+Numbers of Processors (4Core(s)/8Thread(s))
+This item shows the core number of the processor.
+VMX (Supported)
+This item shows the computer supports VMX.
+Active Processor Cores (All)
+Use this item to control the number of active processor cores.
+SMX/TXT (Not supported)
+This item shows the computer supports SMX/TXT or not.
+Hyper-threading (Enabled)
+This item only available when the chipset supports Hyper-threading and you are
+using a Hyper-threading CPU.
+Limit CPUID Maximum (Disabled)
+Use this item to enable or disable the maximum CPUID value limit, you can enable
+this item to prevent the system from “rebooting” when trying to install Windows
+NT4.0.
+Processor Speed (3700 MHz)
+This item shows the CPU speed.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 25 ---
+18
+Using BIOS
+Intel (VMX) Vitualization Technology (Enabled)
+When disabled, a VMM cannot utilize the additional hardware capabilities provided
+by Vandor Pool Technology.
+Package C State limit (AUTO)
+Use this item to set package C state limit.
+Enhanced Halt (C1E) (Enabled)
+Use this item to enable or disable the Enhanced C1 state.
+Intel (R) Speed Shift Technology (Enabled)
+Use this item to enable or disable the Intel(R) Speed Shift Technology.
+Software Guard Extensions (SGX) (Software Controlled)
+Use this item to enable or disable Intel software guard extensions platform.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 26 ---
+19
+Using BIOS
+
+
+ SATA Configuration
+This item in the menu shows the mode of serial ATA configuration options.
+SATA Configuration
+SATA Mode [Intel RST with Premium...]
+SATA Port1
+Not Present
+M.2
+Not Present
+Advanced
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+Determines how SATA controller(s)
+operate.
+SATA Mode (Intel RST with Premium...)
+Use this item to select SATA mode.
+SATA Port 1/M.2 (Not Present)
+This motherboard supports one SATA channels and one M.2 channel, each channel
+allows one SATA/M.2 device to be installed. Use these items to configure each device
+on the SATA/M.2 channel.
+Spin Up Device (Disabled)
+Use this item to enable or disable the spin up device.
+External SATA (Disabled)
+Use this item to enable or disable the external SATA.
+Press <Esc> to return to the Advanced Menu page.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 27 ---
+20
+Using BIOS
+
+
+ USB Configuration
+Use this item to show the information of USB configuration.
+Legacy USB Support (Enabled)
+Use this item to enable or disable support for legacy USB devices.
+USB Configuration
+All USB Devices [Enabled]
+Legacy USB Support [Enabled]
+Enables Legacy USB support.
+AUTO option disables legacy
+support if no USB devices are
+connected. DISABLE option will
+keep USB devices available only
+for EFI applications.
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+Advanced
+All USB Devices (Enabled)
+Use this item to enable or disable all USB devices.
+Press <Esc> to return to the Advanced Menu page.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 28 ---
+21
+Using BIOS
+
+
+ Super IO Configuration
+Use this item to show the information of the Super IO Configuration.
+Super IO Chip (IT8733)
+This item shows the information of the super IO chip.
+Serial Port 1 Configuration
+Scroll to this item and press <Enter> to view the following screen:
+Serial Port (Enabled)
+This item allows you to enable or disable serial port.
+Device Settings (IO=3F8h; IRQ=4)
+This item shows the information of the device settings.
+Change Settings (Auto)
+Use this item to change device settings.
+Serial Port 1 Configuration
+Serial Port [Enabled]
+Device Settings IO=3F8h; IRQ=4;
+Enable or Disable Serial Port
+(COM)
+  Change Settings   [Auto]
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+Advanced
+EC Firmware Build Date (08/21/2019)
+This item shows the information of the EC Firmware build date.
+     Super IO Configuration
+     Super IO Chip IT8733
+      EC Firmware Version 0.02
+      EC Firmware Build Date 08/21/2019
+Serial Port 1  Configutation
+Set Parameters of Serial Port
+1 (COMA)
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+Advanced
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 29 ---
+22
+Using BIOS
+Press <Esc> to return to the Super IO Configuration page.
+Press <Esc> to return to the Advanced Menu page.
+    DASH Configuration
+The item enables or disables the DASH function of LOM (Lan on motherboard).
+DASH Function [Enabled]
+This item enables or disables the DASH function of LOM (Lan on motherboard)
+
+DASH Configuration
+DASH Function                            [Enabled]
+     Advanced
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 30 ---
+23
+Using BIOS
+
+
+ Trusted Computing
+Use this item to show the information of trusted computing configuration.
+TPM20 Device Found
+Firmware Version:                                              500.14
+Vendor:                                                               INTC
+TPM Support       [Enabled]
+Active PCR banks       SHA256
+Available PCR banks       SHA-1, SHA256
+SHA-1 PCR Bank       [Disabled]
+SHA256 PCR Bank       [Enabled]
+Pending operation      [None]
+Platform Hierarchy       [Enabled]
+Storage Hierarchy       [Enabled]
+Endorsement Hierarchy       [Enabled]
+TPM2.0 UEFI Spec Version      [TCG_2]
+Physical Presence Spec Version      [1.3]
+TPM 2.0 InterfaceType                              [CRB]
+PH Randomization                               [Enabled]
+Disable Block Sid                               [Disabled]
+Enables or Disables BIOS
+support for security device.
+O.S. will not show Security
+Device. TCG EFI protocol and
+INT1A interface will not be
+available.
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+Advanced
+Pending operation (None)
+Schedule an Operation for the Security Device. NOTE: Your Computer will reboot
+during restart in order to change State of Security Device.
+TPM20 Device Found Vendor (INTC)
+This item shows the information of TPM20 device found vendor.
+Firmware Version (500.14)
+This item shows the information of firmware version.
+TPM Support (Enabled)
+Use this item to enable or disable the TPM support. O.S. will not show TPM. Reset
+of platform is required.
+Active PCR banks (SHA256)
+Use this item to show the Active PCR banks.
+Available PCR banks (SHA-1, SHA256)
+Use this item to show the Available PCR banks.
+SHA-1 PCR Bank (Disabled)
+Use this item to enable or disable the SHA-1 PCR bank.
+SHA256 PCR Bank (Enabled)
+Use this item to enable or disable the SHA256 PCR bank.
+Platform Hierarchy (Enabled)
+Use this item to enable or disable the platform hierarchy.
+Storage Hierarchy (Enabled)
+Use this item to enable or disable the storage hierarchy.
+Endorsement Hierarchy (Enabled)
+Use this item to enable or disable the Endorsement Hierarchy.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 31 ---
+24
+Using BIOS
+Intel (R) RST 17.8.0.4460 RAID Driver
+No disks conneted to system
+    Advanced
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+     Intel (R) Rapid Storage Technology
+Use this item to show the information of Intel (R) Rapid Storage Technology.
+
+Intel (R) RST 17.8.0.4460 RAID Driver
+This item shows the information of intel RST RAID Driver.
+Press <Esc> to return to the Advanced Menu page.
+TPM2.0 UEFI Spec Version (TCG_2
+)
+Use this item to show the TPM2.0 UEFI Spec Version.
+TPM 20 InterfaceType (CRB)
+Use this item to show the TPM 20 InterfaceType.
+Physical Presence Spec Version (1.3)
+Use this item to show Physical Presence Spec Version.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+PH Randomization (Enabled)
+This item enables or disables platform hierarchy randomization.
+Disable Block Sid (Disabled)
+This item enables or disables override to allow SID authentication in TCG storage
+device.
+
+--- Page 32 ---
+25
+Using BIOS
+Driver Information
+Driver Name :                                            Realtek UEFI UNDI Dri...
+Driver Version :                                           2.049
+Driver Released Date :                                2019/06/17
+Device Information
+Device Name :                                             Realtek PCIe GBE Fami...
+PCI Slot :                                                     02 : 00 :01
+MAC Address :                                            00 : E0 : 4C : 68 : 00 : 01
+Patent Information
+This product is covered by one or
+US6 , 570 , 884 ,   US6 , 115 , 776 , and  US6 ,
+RealManage Setup
+    Advanced
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+     Realtek PCIe GBE Family Controller (MAC :00:E0:4C:68:00:04)
+Use this item to show the information of Driver, Device and Patent.
+
+Press <Esc> to return to the Advanced Menu page.
+
+Realtek RealManage Setup
+RealManage Setup
+    Advanced
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+RealManage Setup
+Use this item to configure DASH (Desktop and Mobile Architecture for System Hard-
+ware) setting. DASH is a web services-based standard that can support both in-band
+and out-of-band management.
+
+Configure DASH (Desktop and
+Mobile Architecture for System
+Hardware) setting. DASH is a web
+services-based standard that can
+support both in-band and out-of-
+band management.
+RealManage Setup
+Scroll to this item and press <Enter> to view the following screen:
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 33 ---
+26
+Using BIOS
+The chipset menu items allow you to change the settings for the North Bridge
+chipset, South Bridge chipset and other system.
+Chipset Menu
+System Agent (SA) Parameters
+System Agent Configuration
+PCH Configuration
+ME Configuration
+
+
+Main     Advanced    Chipset      Tweak      Security     Boot      Exit
+
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+
+Resume from LAN1 Help
+System Agent Configuration
+Scroll to this item and press <Enter> and view the following screen:
+System Agent Configuration
+IGD Memory [64M]
+DVMT/FIXED Memory [256M]
+
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+Chipset
+Select DVMT 5.0 Pre-Allocated
+(Fixed) Graphics Memory size
+used by the Internal Graphics Device.
+IGD Memory (64M)
+This item shows the information of the IGD (Internal Graphics Device) memory
+(32M, 64M, 128M, 256M, or 512M).
+DVMT/FIXED Memory (256M)
+When set to Fixed Mode, the graphics driver will reserve a fixed position of the
+system memory as graphics memory, according to system and graphics
+requirements. This item shows the information of the DVMT memory (128M,
+256M, or MAX).
+Press <Esc> to return to the Chipset Menu page.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 34 ---
+27
+Using BIOS
+PCH Configuration
+Scroll to this item and press <Enter> and view the following screen:
+PCH Configuration
+Restore AC Power Loss [Power Off]
+Audio Configuration
+HD Audio                          [Enabled]
+Case Open Warning [Disabled]
+Chassis Opened [No]
+
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+HD Audio (Enabled)
+Use this item to enable or disable Azalia HD Audio.
+Restore AC Power Loss (Power Off)
+This item enables your computer to automatically restart or return to its operating
+status (Power Off, Power On or Last State).
+Chipset
+Select AC power state when power
+is re-applied after a power failure.
+Case Open Warning (Disabled)
+This item enables or disables the warning if the case is opened up, and the item below
+indicates the current status of the case.
+Chassis Opened (No)
+This item indicates whether the case has been opened.
+Press <Esc> to return to the Chipset Menu page.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 35 ---
+28
+Using BIOS
+ME Configuration
+Scroll to this item and press <Enter> and view the following screen:
+Management Engine Technology Configuration
+ME Control [Enabled]
+TPM Device Selection                                  [PTT]
+ME FW Version                           14.0.30.1100
+
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+Chipset
+Enable/Disable ME Firmware
+ME Control (Enabled)
+Use this item to enable or disable the ME Firmware.
+ME FW Version (14.0.30.1100)
+This item shows the ME FW version.
+Press <Esc> to return to the Chipset Menu page.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+TPM Device Selection (PTT)
+Use this item to select TPM device: PTT or dTPM. PTT-Enables PTT in SkuMgr.
+dTPM1.2-Disables PTT in SkuMgr Warning! PTT/dTPM will be disabled and all data
+saved on it will be lost.
+
+--- Page 36 ---
+29
+Using BIOS
+This page enables you to set the clock speed and system bus for your system. The
+clock speed and system bus are determined by the kind of processor you have
+installed in your system.
+Tweak Menu
+Tweak
+Intel(R) Core(TM) i3-10300 CPU @ 3.70GHz
+Processor Speed 3700 MHz
+Memory Frequency  2133 MHz
+Total Memory 16384 MB
+EIST                                                                [Enabled]
+Turbo Boost                                                    [Enabled]
+
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+    Main      Advanced      Chipset      Tweak      Security     Boot      Exit
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+Intel(R) Core(TM) i3-10300 CPU @ 3.70GHz
+This is display-only field and displays the information of the CPU installed in your
+computer.
+Processor Speed (3700 MHz)
+This item shows the CPU speed.
+Total Memory (16384 MB)
+This item shows the total momery of DDR4.
+Memory Frequency (2133 MHz)
+This item shows the memory frequency.
+EIST (Enabled)
+This item allows users to enable or disable the EIST (Enhanced Intel SpeedStep
+Technology).
+Turbo Boost (Enabled)
+This item allows users to enable or disable turbo boost.
+
+--- Page 37 ---
+30
+Using BIOS
+This page enables you to set setup administrator and password.
+Security Menu
+Set Administrator Password
+Administrator Password
+System Mode state Setup
+Secure Boot state Not Active
+Secure Boot [Enabled]
+Secure Boot Mode [Standard]
+
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+    Main      Advanced      Chipset      Tweak     Security      Boot      Exit
+Administrator Password Status (Not Install)
+This item shows adiministrator password installed or not.
+User Password Status (Not Install)
+This item shows user password installed or not.
+System Mode state (Setup)
+This item shows system mode setup or not.
+Secure Boot state (Not Active)
+This item allows you to enable or disable the secure boot state.
+Secure Boot (Enabled)
+This item is used to control the secure boot flow, it is possible only if system runs in
+User mode.
+Secure Boot Mode (Standard)
+This item is used to select the secure boot mode.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 38 ---
+31
+Using BIOS
+This page enables you to set the keyboard NumLock state and devices boot sequence.
+Boot Menu
+Bootup NumLock State (On)
+This item determines if the NumLock key is active or inactive at system start-up
+time.
+Quiet Boot (Enabled)
+This item enables or disables quiet boot option.
+Launch Storage OpROM (Enabled)
+Use this item to enable or disable the Storage OpROM.
+Launch PXE OpROM (Disabled)
+Use this item to enable or disable the PXE OpROM.
+Boot mode Select (UEFI)
+Use this item to select boot mode.
+Fast Boot (Disabled)
+This item enables or disables boot with initialization of a minimal set of device
+required to launch active boot option. Has no effect for BBS boot options.
+    Main      Advanced      Chipset      Tweak      Security     Boot    Exit
+
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+Boot Configuration
+Launch PXE OpROM [Disabled]
+Launch Storage OpROM [Enabled]
+Fast Boot [Disabled]
+Bootup NumLock State [On]
+Quiet Boot [Enabled]
+Update System BIOS [Disabled]
+Boot mode select [UEFI]
+FIXED BOOT ORDER Priorities
+Boot Option #1 [Hard Disk]
+Boot Option #2 [NVME]
+Boot Option #3 [CD/DVD]
+Boot Option #4 [USB Floppy]
+Boot Option #5 [USB CD/DVD]
+Boot Option #6 [USB Hard Disk]
+Boot Option #7 [USB Key]
+Boot Option #8 [Network]
+Boot Option #9 [Other Device]
+Update System BIOS (Disabled)
+This item enables or disables to update system BIOS.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+Boot Option #1 /2 /3 /4 /5 /6 /7 /8 /9
+These items show the boot priorities.
+
+--- Page 39 ---
+32
+Using BIOS
+This page enables you to exit system setup after saving or without saving the
+changes.
+Exit Menu
+Save Changes and Exit
+This item enables you to save the changes that you have made and exit.
+Discard Changes and Exit
+This item enables you to discard any changes that you have made and exit.
+Save Changes and Exit
+Discard Changes and Exit
+Save Changes and Reset
+Discard Changes and Reset
+Save Options
+Save Changes
+Discard Changes
+Restore Defaults
+Save as User Defaults
+Restore User Defaults
+Boot Override
+    Main      Advanced      Chipset      Tweak      Security     Boot    Exit
+Exit system setup after saving
+the changes.
+
+          F1:General Help
++/-  : Change Opt.
+Enter : Select
+
+:Select Screen
+:Select Item
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
+Boot Override
+Use this item to select the boot device.
+Save Changes and Reset
+This item enables you to save the changes that you have made and reset.
+Save Options
+This item enables you to save the options that you have made.
+Save Changes
+This item enables you to save the changes that you have made.
+Discard Changes
+This item enables you to discard any changes that you have made.
+Restore Defaults
+This item enables you to restore the system defaults.
+Save as User Defaults
+This item enables you to save the changes that you have made as user defaults.
+Restore User Defaults
+This item enables you to restore user defaults.
+Discard Changes and Reset
+This item enables you to discard any changes that you have made and reset.
+Aptio Setup - American Megatrends International, LLC.
+                                Ver.  2.21.1277. Copyright (C) 2019 American Megatrends International, LLC.
+
+--- Page 40 ---
+33
+Using BIOS
+Updating the BIOS
+You can download and install updated BIOS for this motherboard from the
+manufacturer’s Web site. New BIOS provides support for new peripherals,
+improvements in performance, or fixes for known bugs. Install new BIOS as follows:
+1 If your motherboard has a BIOS protection jumper, change the setting to
+allow BIOS flashing.
+2 If your motherboard has an item called Firmware Write Protect in
+Advanced BIOS features, disable it. (Firmware Write Protect prevents
+BIOS from being overwritten.)
+3 Prepare a bootable device or create a bootable system disk. (Refer to
+Windows online help for information on creating a bootable system
+disk.)
+4 Download the Flash Utility and new BIOS file from the manufacturer’s
+Web site. Copy these files to the bootable device.
+5 Turn off your computer and insert the bootable device in your
+computer. (You might need to run the Setup Utility and change the boot
+priority items on the Advanced BIOS Features Setup page, to force
+your computer to boot from the bootable device first.)
+6 At the C:\ or A:\ prompt, type the Flash Utility program name and the file
+name of the new BIOS and then press <Enter>. Example: AFUDOS.EXE
+040706.ROM
+7 When the installation is complete, remove the bootable device from the
+computer and restart your computer. If your motherboard has a Flash
+BIOS jumper, reset the jumper to protect the newly installed BIOS from
+being overwritten. The computer will restart automatically.
+
+--- Page 42 ---
+35
+Using the Software
+Chapter 4
+Using the Software
+The auto-install DVD-ROM makes it easy for you to install the drivers and software.
+The support software DVD-ROM disc loads automatically under Windows 10. When
+you insert the DVD-ROM disc in the DVD-ROM drive, the auto-run feature will auto-
+matically bring up the installation screen. The screen has four buttons on it: Setup,
+Utilities,  Browse CD and Exit.
+Auto-installing under Windows 10
+Displays the path for all
+software and drivers
+available on the disk.
+Open Windows Explorer
+and show the contents
+of the support disk.
+Click “Exit” button to
+close the Auto-Setup
+window.
+Browse CD:
+Click the “Setup”
+button to select and
+run the software
+installation program.
+Click the  “ Utilities”
+button to select and
+install ECS Intelligent
+Utility.
+Information:
+
+--- Page 43 ---
+36
+Using the Software
+Follow these instructions to install device drivers and software for the
+motherboard:
+The following screens are examples only. The screens and driver lists will be
+different according to the motherboard you are installing.
+1. Click Setup. The installation program begins:
+Running Setup
+The motherboard identification is located in the upper left-hand corner.
+2. Click Next. The following screen appears:
+3. Check the box next to the items you want to install. The default options are recommended.
+
+--- Page 44 ---
+37
+Using the Software
+5. Follow the instructions on the screen to install the items.
+Drivers and software are automatically installed in sequence. Follow the
+onscreen instructions, confirm commands and allow the computer to
+restart a few times to complete the installation.
+Windows 10 will appear below UAC (User Account Control) message after
+the system restart. You must select “Yes” to install the next driver. Continue
+this process to complete the drivers installation.
+
+--- Page 45 ---
+38
+Using the Software
+If the auto-install DVD-ROM does not work on your system, you can still install
+drivers through the file manager for your OS (for example, Windows Explorer). 
+Look
+for the chipset and motherboard model, and then browse to the directory and path
+to begin installing the drivers. Most drivers have a setup program (SETUP.EXE) that
+automatically detects your operating system before installation. Other drivers have
+the setup program located in the operating system subfolder.
+Manual Installation
+ECS Utility Software (Intelligent EZ Utility)
+ECS Intelligent EZ Utility provides friendly interfaces under Windows O.S, which makes
+your computing more easily and conveniently.
+If the driver you want to install does not have a setup program, browse to the
+operating system subfolder and locate the readme text file (README.TXT or
+README.DOC) for information on installing the driver or software for your operating
+system.
+These software(s) are subject to change at anytime without prior notice. Please
+refer to the support disk for available software.
+
+--- Page 46 ---
+39
+Trouble Shooting
+Chapter 5
+Trouble Shooting
+Start up problems during assembly
+After assembling the PC for the first time you may experience some start up
+problems. Before calling for technical support or returning for warranty, this chapter
+may help to address some of the common questions using some basic troubleshooting
+tips.
+a) System does not power up and the fans are not running.
+1.Disassemble the PC to remove the VGA adaptor card, DDR memory, LAN, USB
+and other peripherals including keyboard and mouse. Leave only the motherboard,
+CPU with CPU cooler and power supply connected. Turn on again to see if the
+CPU and power supply fans are running.
+2. Make sure to remove any unused screws or other metal objects such as screwdrivers
+from the inside PC case. This is to prevent damage from short circuit.
+3. Check the CPU FAN connector is connected to the motherboard.
+4. For Intel platforms check the pins on the CPU socket for damage or bent. A bent
+pin may cause failure to boot and sometimes permanent damage from short circuit.
+5. Check the 19V power connector is connected to the motherboard.
+6. Check that the 19V power is fully inserted into the motherboard connectors.
+Make sure the latches of the cable and connector are locked into place.
+b) Power is on,   fans are running but there is no display
+1. Make sure the monitor is turned on and the monitor cable is properly connected
+to the PC.
+2. Check the VGA adapter card (if applicable) is inserted properly.
+3. Listen for beep sounds. If you are using internal PC speaker make sure it is
+connected.
+   a. continuous 3 short beeps :  memory not detected
+   b. 1 long beep and 8 short beeps : VGA not detected
+
+--- Page 47 ---
+40
+Trouble Shooting
+c) The PC suddenly shuts down while booting up.
+1. The CPU may experience overheating so it will shutdown to protect itself.
+Ensure the CPU fan is working properly.
+2. From the BIOS setting, try to disable the Smartfan function to let the fan run at
+default speed. Doing a Load Optimised Default will also disable the Smartfan.
+Your computer, like any electrical appliance, requires proper care and maintenance.
+Here are some basic PC care tips to help prolong the life of the motherboard and
+keep it running as best as it can.
+1. Keep your computer in a well ventilated area. Leave some space between
+   the PC and the wall for sufficient airflow.
+2. Keep your computer in a cool dry place. Avoid dusty areas, direct sunlight
+Start up problems after prolong use
+After a prolong period of use your PC may experience start up problems again.
+This may be caused by breakdown of devices connected to the motherboard such as
+HDD, CPU fan, etc. The following tips may help to revive the PC or identify the
+cause of failure.
+1. Clear the CMOS values using the CLR_CMOS jumper. Refer to CLR_CMOS
+jumper in Chapter 2 for Checking Jumper Settings in this user manual. When
+completed, follow up with a Load Optimised Default in the BIOS setup.
+2. Check the system fan for dust. Long term accumulation of dust will reduce its
+effectiveness to cool the processor. Clean the cooler or replace a new one if
+necessary.
+3. Remove the hard drive or DDR memory to determine which of these component
+may be at fault.
+Maintenance and care tips
+   and areas of high moisture content.
+3. Routinely clean the CPU cooler fan to remove dust and hair.
+4. In places of hot and humid weather you should turn on your computer once
+   every other week to circulate the air and prevent damage from humidity.
+5. Add more memory to your computer if possible. This not only speeds up the
+   system but also reduces the loading of your hard drive to prolong its life span.
+6. If possible, ensure the power cord has an earth ground pin directly from the
+   wall outlet. This will reduce voltage fluctuation that may damage sensitive devices.
+
+--- Page 48 ---
+Power  Bu
+on  is  pressed 
+but PC fails to start. 
+Yes 
+Check if Power Supply 
+Unit
+(PSU) is working
+oN
+oN
+Any Beep sound
+oN
+CLR CMOS and check 
+if CPU 12V power   
+is connected 
+Restart the PC 
+Problem with PSU or board?   
+If board problem -> contact RMA   
+AC power cord is plu ed gg
+  and PSU switch is turned on? 
+Yes 
+Board problem   
+-> contact RMA 
+oN
+- If 3 short beeps: 
+DIMM memory not properly 
+inserted or memory failure 
+- If 1 long beep and 8 short beeps: 
+VGA not detected 
+Yes 
+Yes 
+Halt at POST screen
+Yes 
+LR CMOC S and  art.   rest
+If fail, contact RMA 
+Yes 
+oN
+Peripheral device issue 
+- HDD problem. 
+- CMOS setup error, 
+dnee  to CLRCMOS. 
+System fail to start or unstable 
+a
+er modify BIOS se
+ng. 
+CLR C OS M and restart 
+Turn on PSU switch   
+or connect to wall socket 
+and restart. 
+oN
+Check if monitor h  as
+dis
+play
+Check if monitor
+as display 
+41
+

@@ -1,0 +1,5386 @@
+Brand: IBM
+Model: Thinkpad T30
+URL: https://www.manua.ls/ibm/thinkpad-t30/manual
+Total Pages: 168
+============================================================
+
+--- Page 1 ---
+IBM Mobile Systems
+ThinkPad Computer
+Hardware Maintenance Manual
+February 2003
+This manual supports:
+ThinkPad T30 (MT 2366/2367)
+ThinkPad Dock (MT 2631)
+
+
+--- Page 2 ---
+Note
+Before using this information and the product it
+supports, be sure to read the general information
+under “Notices” on page 162.
+Second Edition (February 2003)
+The following paragraph does not apply to the United
+Kingdom or any country where such provisions are
+inconsistent with local law:
+INTERNATIONAL BUSINESS MACHINES CORPORATION
+PROVIDES THIS PUBLICATION “AS IS” WITHOUT ANY
+WARRANTY OF ANY KIND, EITHER EXPRESS OR
+IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE
+LIMITED WARRANTIES OF MERCHANTABILITY OR
+FITNESS FOR A PARTICULAR PURPOSE. Some states
+do not allow disclaimer or express or implied warranties in
+certain transactions; therefore, this statement may not
+apply to you.
+This publication could include technical inaccuracies or
+typographical errors. Changes are periodically made to the
+information herein; these changes will be incorporated in
+new editions of the publication. IBM may make
+improvements or changes to the products or the programs
+described in this publication at any time.
+It is possible that this publication may contain references
+to, or information about, IBM products (machines and
+programs), programming, or services that are not
+announced in your country. Such references or information
+must not be construed to mean that IBM intends to
+announce such IBM products, programming, or services in
+your country.
+Requests for technical information about IBM products
+should be made to your IBM authorized dealer or your IBM
+marketing representative.
+© Copyright International Business Machines
+Corporation 2003. All rights reserved.
+US Government Users Restricted Rights – Use, duplication
+or disclosure restricted by GSA ADP Schedule Contract
+with IBM Corp.
+
+--- Page 3 ---
+Contents
+About this manual ...........1
+Introduction .............3
+Important service information .........3
+Strategy for replacing FRUs ........3
+How to use error messages ........4
+Diskette compatibility matrix .........4
+Safety notices: multilingual translations ......4
+Safety information............16
+General safety............16
+Electrical safety ...........17
+Safety inspection guide .........18
+Handling devices that are sensitive to electorostatic
+discharge ............19
+Grounding requirements .........20
+Laser compliance statement.........21
+General descriptions ..........25
+Read this first .............25
+What to do first ...........25
+Related service information .........27
+Service web site ...........27
+Restoring the preloaded system ......27
+Passwords .............29
+Power management ..........31
+Checkout guide ............35
+Testing the computer ..........35
+Detecting system information with PC-Doctor. . . 37
+Power system checkout .........38
+ThinkPad T30.............41
+Product overview ............43
+Specifications ............43
+Status indicators ...........45
+FRU tests .............47
+Fn key combinations ..........49
+Symptom-to-FRU index ..........50
+Numeric error codes ..........50
+Error messages ...........53
+Beep symptoms ...........54
+LCD-related symptoms .........55
+Intermittent problems ..........56
+Undetermined problems .........56
+FRU replacement notices .........57
+Screw notices ............57
+Retaining serial numbers.........58
+Removing and replacing a FRU........60
+1010 Battery pack...........61
+1020 Ultrabay Plus device ........62
+1030 Hard-disk drive ..........63
+© Copyright IBM Corp. 2003
+iii
+
+--- Page 4 ---
+1040 Shock absorber..........65
+1050 Backup battery ..........67
+1060 DIMM ............69
+1070 Mini PCI adapter .........71
+1080 Communication daughter card (CDC) . . . 74
+1090 Keyboard ...........77
+1100 Fan assembly ..........81
+1110CPU.............85
+1120 Keyboard bezel ..........87
+1130 Hinge cover ...........92
+1140 LCD assembly ..........94
+1150 PC Card slot assembly .......100
+1160 Speaker assembly ........101
+1170 Hard-disk drive slot ........102
+1180 Ultrabay Plus guide rail and microphone
+cable .............103
+1190 System board ..........106
+1200 Bluetooth antenna louver assembly . . . 110
+1210 I/O card............111
+2010 LCD front bezel .........114
+2020 Inverter card ..........115
+2030 LCD panel and LCD cable assembly . . . 117
+2040 Antenna assembly, hinges, and LCD cover 120
+3010 ThinkPad Dock PCI cover ......125
+3020 ThinkPad Dock top cover ......127
+Locations ..............132
+Front view ............132
+Rear view.............134
+Bottom view ............135
+Parts list ..............136
+T30 series model matrix ........136
+Overall .............139
+LCD FRUs ............149
+Keyboard .............153
+Recovery CDs ...........154
+AC adapters ............156
+Miscellaneous parts ..........156
+Optional FRUs ...........159
+Common parts list ..........160
+Notices ..............162
+Trademarks ............162
+iv ThinkPad T30 (MT 2366, 2367)
+
+--- Page 5 ---
+About this manual
+This manual contains service and reference information for
+IBM ThinkPad T30 (MT2366, 2367), and ThinkPad Dock
+(MT2631) products. Use this manual along with the
+advanced diagnostic tests to troubleshoot problems.
+The manual is divided into sections as follows:
+v The common sections provide general information,
+guidelines, and safety information required in servicing
+computers.
+v The product-specific section includes service, reference,
+and product-specific parts information.
+Important
+This manual is intended for trained service
+personnel who are familiar with ThinkPad products.
+Use this manual along with the advanced diagnostic
+tests to troubleshoot problems effectively.
+Before servicing an IBM ThinkPad product, be sure
+to review the safety information under “Safety
+notices: multilingual translations” on page 4, “Safety
+information” on page 16, and “Laser compliance
+statement” on page 21.
+© Copyright IBM Corp. 2003 1
+
+--- Page 7 ---
+Introduction
+Important service information
+Important
+BIOS and device driver fixes are
+customer-installable. The BIOS and device drivers
+are posted on the IBM support site
+http://www.ibm.com/pc/support
+Advise customers to contact the PC Company
+HelpCenter at 800-772-2227 if they need assistance
+in obtaining or installing any diskette fixes.
+Customers in Canada should call IBM HelpPC at
+800-565-3344 for assistance or download
+information.
+Strategy for replacing FRUs
+Before replacing parts
+Make sure that all diskette fixes are installed before
+replacing any FRUs listed in this manual.
+Use the following strategy to prevent unnecessary expense
+for replacing and servicing FRUs:
+v If you are instructed to replace a FRU but the
+replacement does not correct the problem, reinstall
+the original FRU before you continue.
+v Some computers have both a processor board and a
+system board. If you are instructed to replace either the
+processor board or the system board, and replacing one
+of them does not correct the problem, reinstall that
+board, and then replace the other one.
+v If an adapter or device consists of more than one FRU,
+any of the FRUs may be the cause of the error. Before
+replacing the adapter or device, remove the FRUs, one
+by one, to see if the symptoms change. Replace only
+the FRU that changed the symptoms.
+Attention: The setup configuration on the computer you
+are servicing may have been customized. Running
+Automatic Configuration may alter the settings. Note the
+current configuration settings (using the View Configuration
+option); then, when service has been completed, verify that
+those settings remain in effect.
+© Copyright IBM Corp. 2003
+3
+
+--- Page 8 ---
+Strategy for replacing a hard-disk drive
+Always try to run a low-level format before replacing a
+hard-disk drive.
+Attention: The drive startup sequence in the computer
+you are servicing may have been changed. Be extremely
+careful during write operations such as copying, saving, or
+formatting. If you select an incorrect drive, data or
+programs can be overwritten.
+How to use error messages
+Use the error codes displayed on the screen to diagnose
+failures. If more than one error code is displayed, begin the
+diagnosis with the first error code. Whatever causes the
+first error code may also cause false error codes. If no
+error code is displayed, see if the error symptom is listed
+in the Symptom-to-FRU Index for the computer you are
+servicing.
+Diskette compatibility matrix
+The compatibility of each of the drives with the diskettes
+for it is as follows:
+Diskette
+drive
+Diskette
+capacity
+Compatibility
+3.5-inch 1.0 MB Read and write
+2.0 MB Read and write
+4.0 MB Not compatible
+Safety notices: multilingual translations
+In this manual, safety notices appear in English with a
+page number reference to the appropriate multilingual,
+translated safety notice found in this section.
+The following safety notices are provided in English,
+French, German, Hebrew, Italian, and Spanish.
+Important service information
+4 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 9 ---
+Safety notice 1
+Before the computer is powered-on after FRU
+replacement, make sure all screws, springs, and other
+small parts are in place and are not left loose inside
+the computer. Verify this by shaking the computer and
+listening for rattling sounds. Metallic parts or metal
+flakes can cause electrical shorts.
+Avant de remettre l’ordinateur sous tension après
+remplacement d’une unité en clientèle, vérifiez que
+tous les ressorts, vis et autres pièces sont bien en
+place et bien fixées. Pour ce faire, secouez l’unité et
+assurez-vous qu’aucun bruit suspect ne se produit. Des
+pièces métalliques ou des copeaux de métal pourraient
+causer un court-circuit.
+Bevor nach einem FRU-Austausch der Computer
+wieder angeschlossen wird, muß sichergestellt werden,
+daß keine Schrauben, Federn oder andere Kleinteile
+fehlen oder im Gehäuse vergessen wurden. Der
+Computer muß geschüttelt und auf Klappergeräusche
+geprüft werden. Metallteile oder-splitter können
+Kurzschlüsse erzeugen.
+Prima di accendere l’elaboratore dopo che é stata
+effettuata la sostituzione di una FRU, accertarsi che
+tutte le viti, le molle e tutte le altri parti di piccole
+dimensioni siano nella corretta posizione e non siano
+sparse all’interno dell’elaboratore. Verificare ciò
+scuotendo l’elaboratore e prestando attenzione ad
+eventuali rumori; eventuali parti o pezzetti metallici
+possono provocare cortocircuiti pericolosi.
+Antes de encender el sistema despues de sustituir una
+FRU, compruebe que todos los tornillos, muelles y
+demás piezas pequeñas se encuentran en su sitio y no
+se encuentran sueltas dentro del sistema.
+Compruébelo agitando el sistema y escuchando los
+posibles ruidos que provocarían. Las piezas metálicas
+pueden causar cortocircuitos eléctricos.
+Safety notices
+Introduction 5
+
+--- Page 10 ---
+Safety notice 2
+DANGER
+Some standby batteries contain a small amount of
+nickel and cadmium. Do not disassemble a standby
+battery, recharge it, throw it into fire or water, or
+short-circuit it. Dispose of the battery as required
+by local ordinances or regulations. Use only the
+battery in the appropriate parts listing. Use of an
+incorrect battery can result in ignition or explosion
+of the battery.
+Certaines batteries de secours contiennent du
+nickel et du cadmium. Ne les démontez pas, ne les
+rechargez pas, ne les exposez ni au feu ni à l’eau.
+Ne les mettez pas en court-circuit. Pour les mettre
+au rebut, conformez-vous à la réglementation en
+vigueur. Lorsque vous remplacez la pile de
+sauvegarde ou celle de l’horloge temps réel, veillez
+à n’utiliser que les modèles cités dans la liste de
+pièces détachées adéquate. Une batterie ou une
+pile inappropriée risque de prendre feu ou
+d’exploser.
+Die Bereitschaftsbatterie, die sich unter dem
+Diskettenlaufwerk befindet, kann geringe Mengen
+Nickel und Cadmium enthalten. Sie darf nur durch
+die Verkaufsstelle oder den IBM Kundendienst
+ausgetauscht werden. Sie darf nicht zerlegt,
+wiederaufgeladen, kurzgeschlossen, oder Feuer
+oder Wasser ausgesetzt werden. Die Batterie kann
+schwere Verbrennungen oder Verätzungen
+verursachen. Bei der Entsorgung die örtlichen
+Bestimmungen für Sondermüll beachten. Beim
+Ersetzen der Bereitschafts-oder Systembatterie nur
+Batterien des Typs verwenden, der in der
+Ersatzteilliste aufgeführt ist. Der Einsatz falscher
+Batterien kann zu Entzündung oder Explosion
+führen.
+(continued)
+Safety notices
+6 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 11 ---
+(continuation of safety notice 2)
+Alcune batterie di riserva contengono una piccola
+quantità di nichel e cadmio. Non smontarle,
+ricaricarle, gettarle nel fuoco o nell’acqua né
+cortocircuitarle. Smaltirle secondo la normativa in
+vigore (DPR 915/82, successive disposizioni e
+disposizioni locali). Quando si sostituisce la
+batteria dell’RTC (real time clock) o la batteria di
+supporto, utilizzare soltanto i tipi inseriti
+nell’appropriato Catalogo parti. L’impiego di una
+batteria non adatta potrebbe determinare l’incendio
+ol’esplosione della batteria stessa.
+Algunas baterías de reserva contienen una
+pequeña cantidad de níquel y cadmio. No las
+desmonte, ni recargue, ni las eche al fuego o al
+agua ni las cortocircuite. Deséchelas tal como
+dispone la normativa local. Utilice sólo baterías que
+se encuentren en la lista de piezas. La utilización
+de una batería no apropiada puede provocar la
+ignición o explosión de la misma.
+Safety notices
+Introduction 7
+
+--- Page 12 ---
+Safety notice 3
+DANGER
+The battery pack contains small amounts of nickel.
+Do not disassemble it, throw it into fire or water, or
+short-circuit it. Dispose of the battery pack as
+required by local ordinances or regulations. Use
+only the battery in the appropriate parts listing
+when replacing the battery pack. Use of an
+incorrect battery can result in ignition or explosion
+of the battery.
+La batterie contient du nickel. Ne la démontez pas,
+ne l’exposez ni au feu ni à l’eau. Ne la mettez pas
+en court-circuit. Pour la mettre au rebut,
+conformez-vous à la réglementation en vigueur.
+Lorsque vous remplacez la batterie, veillez à
+n’utiliser que les modèles cités dans la liste de
+pièces détachées adéquate. En effet, une batterie
+inappropriée risque de prendre feu ou d’exploser.
+Akkus enthalten geringe Mengen von Nickel. Sie
+dürfen nicht zerlegt, wiederaufgeladen,
+kurzgeschlossen, oder Feuer oder Wasser
+ausgesetzt werden. Bei der Entsorgung die
+örtlichen Bestimmungen für Sondermüll beachten.
+Beim Ersetzen der Batterie nur Batterien des Typs
+verwenden, der in der Ersatzteilliste aufgeführt ist.
+Der Einsatz falscher Batterien kann zu Entzündung
+oder Explosion führen.
+(continued)
+Safety notices
+8 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 13 ---
+(continuation of safety notice 3)
+La batteria contiene piccole quantità di nichel. Non
+smontarla, gettarla nel fuoco o nell’acqua né
+cortocircuitarla. Smaltirla secondo la normativa in
+vigore (DPR 915/82, successive disposizioni e
+disposizioni locali). Quando si sostituisce la
+batteria, utilizzare soltanto i tipi inseriti
+nell’appropriato Catalogo parti. L’impiego di una
+batteria non adatta potrebbe determinare l’incendio
+ol’esplosione della batteria stessa.
+Las baterías contienen pequeñas cantidades de
+níquel. No las desmonte, ni recargue, ni las eche al
+fuego o al agua ni las cortocircuite. Deséchelas tal
+como dispone la normativa local. Utilice sólo
+baterías que se encuentren en la lista de piezas al
+sustituir la batería. La utilización de una bateríano
+apropiada puede provocar la ignición o explosión
+de la misma.
+Safety notices
+Introduction 9
+
+--- Page 14 ---
+Safety notice 4
+DANGER
+The lithium battery can cause a fire, an explosion,
+or a severe burn. Do not recharge it, remove its
+polarized connector, disassemble it, heat it above
+100°C (212°F), incinerate it, or expose its cell
+contents to water. Dispose of the battery as
+required by local ordinances or regulations. Use
+only the battery in the appropriate parts listing. Use
+of an incorrect battery can result in ignition or
+explosion of the battery.
+La pile de sauvegarde contient du lithium. Elle
+présente des risques d’incendie, d’explosion ou de
+brûlures graves. Ne la rechargez pas, ne retirez pas
+son connecteur polarisé et ne la démontez pas. Ne
+l’exposez pas à une temperature supérieure à
+100°C, ne la faites pas brûler et n’en exposez pas
+le contenu à l’eau. Mettez la pile au rebut
+conformément à la réglementation en vigueur. Une
+pile inappropriée risque de prendre feu ou
+d’exploser.
+Die Systembatterie ist eine Lithiumbatterie. Sie
+kann sich entzünden, explodieren oder schwere
+Verbrennungen hervorrufen. Batterien dieses Typs
+dürfen nicht aufgeladen, zerlegt, über 100 C erhitzt
+oder verbrannt werden. Auch darf ihr Inhalt nicht
+mit Wasser in Verbindung gebracht oder der zur
+richtigen Polung angebrachte Verbindungsstecker
+entfernt werden. Bei der Entsorgung die örtlichen
+Bestimmungen für Sondermüll beachten. Beim
+Ersetzen der Batterie nur Batterien des Typs
+verwenden, der in der Ersatzteilliste aufgeführt ist.
+Der Einsatz falscher Batterien kann zu Entzündung
+oder Explosion führen.
+(continued)
+Safety notices
+10 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 15 ---
+(continuation of safety notice 4)
+La batteria di supporto e una batteria al litio e puo
+incendiarsi, esplodere o procurare gravi ustioni.
+Evitare di ricaricarla, smontarne il connettore
+polarizzato, smontarla, riscaldarla ad una
+temperatura superiore ai 100 gradi centigradi,
+incendiarla o gettarla in acqua. Smaltirla secondo
+la normativa in vigore (DPR 915/82, successive
+disposizioni e disposizioni locali). L’impiego di una
+batteria non adatta potrebbe determinare l’incendio
+ol’esplosione della batteria stessa.
+La batería de repuesto es una batería de litio y
+puede provocar incendios, explosiones o
+quemaduras graves. No la recargue, ni quite el
+conector polarizado, ni la desmonte, ni caliente por
+encima de los 100°C (212°F), ni la incinere ni
+exponga el contenido de sus celdas al agua.
+Deséchela tal como dispone la normativa local.
+Safety notices
+Introduction 11
+
+--- Page 16 ---
+Safety notice 5
+If the LCD breaks and the fluid from inside the LCD
+gets into your eyes or on your hands, immediately
+wash the affected areas with water for at least 15
+minutes. Seek medical care if any symptoms from the
+fluid are present after washing.
+Si le panneau d’affichage à cristaux liquides se brise et
+que vous recevez dans les yeux ou sur les mains une
+partie du fluide, rincez-les abondamment pendant au
+moins quinze minutes. Consultez un médecin si des
+symptômes persistent après le lavage.
+Die Leuchtstoffröhre im LCD-Bildschirm enthält
+Quecksilber. Bei der Entsorgung die örtlichen
+Bestimmungen für Sondermüll beachten. Der
+LCD-Bildschirm besteht aus Glas und kann zerbrechen,
+wenn er unsachgemäß behandelt wird oder der
+Computer auf den Boden fällt. Wenn der Bildschirm
+beschädigt ist und die darin befindliche Flüssigkeit in
+Kontakt mit Haut und Augen gerät, sollten die
+betroffenen Stellen mindestens 15 Minuten mit Wasser
+abgespült und bei Beschwerden anschließend ein Arzt
+aufgesucht werden.
+Nel caso che caso l’LCD si dovesse rompere ed il
+liquido in esso contenuto entrasse in contatto con gli
+occhi o le mani, lavare immediatamente le parti
+interessate con acqua corrente per almeno 15 minuti;
+poi consultare un medico se i sintomi dovessero
+permanere.
+Si la LCD se rompe y el fluido de su interior entra en
+contacto con sus ojos o sus manos, lave
+inmediatamente las áreas afectadas con agua durante
+15 minutos como mínimo. Obtenga atención medica si
+se presenta algúnsíntoma del fluido despues de
+lavarse.
+Safety notices
+12 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 17 ---
+Safety notice 6
+DANGER
+To avoid shock, do not remove the plastic cover
+that protects the lower part of the inverter card.
+Afin d’éviter tout risque de choc électrique, ne
+retirez pas le cache en plastique protégeant la
+partie inférieure de la carte d’alimentation.
+Aus Sicherheitsgründen die Kunststoffabdeckung,
+die den unteren Teil der Spannungswandlerplatine
+umgibt, nicht entfernen.
+Per evitare scosse elettriche, non rimuovere la
+copertura in plastica che avvolge la parte inferiore
+della scheda invertitore.
+Para evitar descargas, no quite la cubierta de
+plástico que rodea la parte baja de la tarjeta
+invertida.
+Safety notices
+Introduction 13
+
+--- Page 18 ---
+Safety notice 7
+DANGER
+Though the main batteries have low voltage, a
+shorted or grounded battery can produce enough
+current to burn personnel or combustible materials.
+Bien que le voltage des batteries principales soit
+peu élevé, le court-circuit ou la mise à la masse
+d’une batterie peut produire suffisamment de
+courant pour brûler des matériaux combustibles ou
+causer des brûlures corporelles graves.
+Obwohl Hauptbatterien eine niedrige Spannung
+haben, können sie doch bei Kurzschluß oder
+Erdung genug Strom abgeben, um brennbare
+Materialien zu entzünden oder Verletzungen bei
+Personen hervorzurufen.
+Sebbene le batterie di alimentazione siano a basso
+voltaggio, una batteria in corto circuito o a massa
+può fornire corrente sufficiente da bruciare
+materiali combustibili o provocare ustioni ai tecnici
+di manutenzione.
+Aunque las baterías principales tienen un voltaje
+bajo, una batería cortocircuitada o con contacto a
+tierra puede producir la corriente suficiente como
+para quemar material combustible o provocar
+quemaduras en el personal.
+Safety notices
+14 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 19 ---
+Safety notice 8
+DANGER
+Before removing any FRU, power off the computer,
+unplug all power cords from electrical outlets,
+remove the battery pack, and then disconnect any
+interconnecting cables.
+Avant de retirer une unité remplaçable en clientèle,
+mettez le système hors tension, débranchez tous
+les cordons d’alimentation des socles de prise de
+courant, retirez la batterie et déconnectez tous les
+cordons d’interface.
+Die Stromzufuhr muß abgeschaltet, alle Stromkabel
+aus der Steckdose gezogen, der Akku entfernt und
+alle Verbindungskabel abgenommen sein, bevor
+eine FRU entfernt wird.
+Prima di rimuovere qualsiasi FRU, spegnere il
+sistema, scollegare dalle prese elettriche tutti i cavi
+di alimentazione, rimuovere la batteria e poi
+scollegare i cavi di interconnessione.
+Antes de quitar una FRU, apague el sistema,
+desenchufe todos los cables de las tomas de
+corriente eléctrica, quite la bateríay,a
+continuación, desconecte cualquier cable de
+conexión entre dispositivos.
+Safety notices
+Introduction 15
+
+--- Page 20 ---
+Safety information
+The following section presents the safety information that
+you need to be familiar with before servicing an IBM
+mobile computer.
+General safety
+Follow these rules to ensure general safety:
+v Observe good housekeeping in the area of the
+machines during and after maintenance.
+v When lifting any heavy object:
+1. Ensure you can stand safely without slipping.
+2. Distribute the weight of the object equally between
+your feet.
+3. Use a slow lifting force. Never move suddenly or
+twist when you attempt to lift.
+4. Lift by standing or by pushing up with your leg
+muscles; this action removes the strain from the
+muscles in your back. Do not attempt to lift any
+object that weighs more than 16 kg (35 lb) or objects
+that you think are too heavy for you.
+v Do not perform any action that causes hazards to the
+customer, or that makes the equipment unsafe.
+v Before you start the machine, ensure that other service
+representatives and the customer’s personnel are not in
+a hazardous position.
+v Place removed covers and other parts in a safe place,
+away from all personnel, while you are servicing the
+machine.
+v Keep your toolcase away from walk areas so that other
+people will not trip over it.
+v Do not wear loose clothing that can be trapped in the
+moving parts of a machine. Make sure that your sleeves
+are fastened or rolled up above your elbows. If your hair
+is long, fasten it.
+v Insert the ends of your necktie or scarf inside clothing or
+fasten it with a nonconductive clip, approximately 8
+centimeters (3 inches) from the end.
+v Do not wear jewelry, chains, metal-frame eyeglasses, or
+metal fasteners for your clothing.
+Attention: Metal objects are good electrical
+conductors.
+v Wear safety glasses when you are hammering, drilling,
+soldering, cutting wire, attaching springs, using solvents,
+or working in any other conditions that might be
+hazardous to your eyes.
+Safety information
+16 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 21 ---
+v After service, reinstall all safety shields, guards, labels,
+and ground wires. Replace any safety device that is
+worn or defective.
+v Reinstall all covers correctly before returning the
+machine to the customer.
+Electrical safety
+Observe the following rules when working on electrical
+equipment.
+Important
+Use only approved tools and test equipment. Some
+hand tools have handles covered with a soft
+material that does not insulate you when working
+with live electrical currents.
+Many customers have, near their equipment, rubber
+floor mats that contain small conductive fibers to
+decrease electrostatic discharges. Do not use this
+type of mat to protect yourself from electrical shock.
+v Find the room emergency power-off (EPO) switch,
+disconnecting switch, or electrical outlet. If an electrical
+accident occurs, you can then operate the switch or
+unplug the power cord quickly.
+v Do not work alone under hazardous conditions or near
+equipment that has hazardous voltages.
+v Disconnect all power before:
+– Performing a mechanical inspection
+– Working near power supplies
+– Removing or installing main units
+v Before you start to work on the machine, unplug the
+power cord. If you cannot unplug it, ask the customer to
+power-off the wall box that supplies power to the
+machine and to lock the wall box in the off position.
+v If you need to work on a machine that has exposed
+electrical circuits, observe the following precautions:
+– Ensure that another person, familiar with the
+power-off controls, is near you.
+Attention: Another person must be there to switch
+off the power, if necessary.
+– Use only one hand when working with powered-on
+electrical equipment; keep the other hand in your
+pocket or behind your back.
+Attention: An electrical shock can occur only when
+there is a complete circuit. By observing the above
+rule, you may prevent a current from passing through
+your body.
+Safety information
+Introduction 17
+
+--- Page 22 ---
+– When using testers, set the controls correctly and
+use the approved probe leads and accessories for
+that tester.
+– Stand on suitable rubber mats (obtained locally, if
+necessary) to insulate you from grounds such as
+metal floor strips and machine frames.
+Observe the special safety precautions when you work
+with very high voltages; these instructions are in the
+safety sections of maintenance information. Use
+extreme care when measuring high voltages.
+v Regularly inspect and maintain your electrical hand tools
+for safe operational condition.
+v Do not use worn or broken tools and testers.
+v Never assume that power has been disconnected from
+a circuit. First, check that it has been powered off.
+v Always look carefully for possible hazards in your work
+area. Examples of these hazards are moist floors,
+nongrounded power extension cables, power surges,
+and missing safety grounds.
+v Do not touch live electrical circuits with the reflective
+surface of a plastic dental mirror. The surface is
+conductive; such touching can cause personal injury and
+machine damage.
+v Do not service the following parts with the power on
+when they are removed from their normal operating
+places in a machine:
+– Power supply units
+– Pumps
+– Blowers and fans
+– Motor generators
+and similar units. (This practice ensures correct
+grounding of the units.)
+v If an electrical accident occurs:
+– Use caution; do not become a victim yourself.
+– Switch off power.
+– Send another person to get medical aid.
+Safety inspection guide
+The purpose of this inspection guide is to assist you in
+identifying potentially unsafe conditions. As each machine
+was designed and built, required safety items were
+installed to protect users and service personnel from injury.
+This guide addresses only those items. You should use
+good judgment to identify potential safety hazards due to
+attachment of non-IBM features or options not covered by
+this inspection guide.
+Safety information
+18 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 23 ---
+If any unsafe conditions are present, you must determine
+how serious the apparent hazard could be and whether
+you can continue without first correcting the problem.
+Consider these conditions and the safety hazards they
+present:
+v Electrical hazards, especially primary power (primary
+voltage on the frame can cause serious or fatal
+electrical shock)
+v Explosive hazards, such as a damaged CRT face or a
+bulging capacitor
+v Mechanical hazards, such as loose or missing hardware
+To determine whether there are any potentially unsafe
+conditions, use the following checklist at the beginning of
+every service task. Begin the checks with the power off,
+and the power cord disconnected.
+Checklist:
+1. Check exterior covers for damage (loose, broken, or
+sharp edges).
+2. Power-off the computer. Disconnect the power cord.
+3. Check the power cord for:
+a. A third-wire ground connector in good condition.
+Use a meter to measure third-wire ground
+continuity for 0.1 ohm or less between the external
+ground pin and frame ground.
+b. The power cord should be the type specified in the
+parts list.
+c. Insulation must not be frayed or worn.
+4. Remove the cover.
+5. Check for any obvious non-IBM alterations. Use good
+judgment as to the safety of any non-IBM alterations.
+6. Check inside the unit for any obvious unsafe
+conditions, such as metal filings, contamination, water
+or other liquids, or signs of fire or smoke damage.
+7. Check for worn, frayed, or pinched cables.
+8. Check that the power-supply cover fasteners (screws
+or rivets) have not been removed or tampered with.
+Handling devices that are sensitive to
+electorostatic discharge
+Any computer part containing transistors or integrated
+circuits (ICs) should be considered sensitive to electrostatic
+discharge (ESD.) ESD damage can occur when there is a
+difference in charge between objects. Protect against ESD
+Safety information
+Introduction 19
+
+--- Page 24 ---
+damage by equalizing the charge so that the machine, the
+part, the work mat, and the person handling the part are all
+at the same charge.
+Notes
+1. Use product-specific ESD procedures when they
+exceed the requirements noted here.
+2. Make sure that the ESD protective devices you
+use have been certified (ISO 9000) as fully
+effective.
+When handling ESD-sensitive parts:
+v Keep the parts in protective packages until they are
+inserted into the product.
+v Avoid contact with other people.
+v Wear a grounded wrist strap against your skin to
+eliminate static on your body.
+v Prevent the part from touching your clothing. Most
+clothing is insulative and retains a charge even when
+you are wearing a wrist strap.
+v Use the black side of a grounded work mat to provide a
+static-free work surface. The mat is especially useful
+when handling ESD-sensitive devices.
+v Select a grounding system, such as those listed below,
+to provide protection that meets the specific service
+requirement.
+Note
+The use of a grounding system is desirable but
+not required to protect against ESD damage.
+– Attach the ESD ground clip to any frame ground,
+ground braid, or green-wire ground.
+– Use an ESD common ground or reference point
+when working on a double-insulated or
+battery-operated system. You can use coax or
+connector-outside shells on these systems.
+– Use the round ground-prong of the AC plug on
+AC-operated computers.
+Grounding requirements
+Electrical grounding of the computer is required for
+operator safety and correct system function. Proper
+grounding of the electrical outlet can be verified by a
+certified electrician.
+Safety information
+20 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 25 ---
+Laser compliance statement
+Some IBM Personal Computer models are equipped from
+the factory with an optical storage device such as a
+CD-ROM drive or a DVD-ROM drive. They are also sold
+separately as options. The drive is certified in the U.S. to
+conform to the requirements of the Department of Health
+and Human Services 21 Code of Federal Regulations
+(DHHS 21 CFR) Subchapter J for Class 1 laser products.
+Elsewhere, the drive is certified to conform to the
+requirements of the International Electrotechnical
+Commission (IEC) 825 and CENELEC EN 60 825 for
+Class 1 laser products.
+Laser compliance statement
+Introduction 21
+
+--- Page 26 ---
+When a CD-ROM drive, DVD drive or the other laser
+product is installed, note the following:
+CAUTION:
+Opening the CD-ROM drive, DVD-ROM drive or the other
+optical storage device could result in exposure to
+hazardous laser radiation. There are no serviceable parts
+inside those drives. Do not open.
+Use of controls or adjustments or performance of
+procedures other than those specified herein might
+result in hazardous radiation exposure.
+O uso de controles, ajustes ou desempenho de
+procedimentos diferentes daqueles aqui
+especificados pode resultar em perigosa exposição
+à radiação.
+Pour éviter tout risque d’exposition au rayon laser,
+respectez les consignes de réglage et d’utilisation
+des commandes, ainsi que les procédures décrites.
+Werden Steuer- und Einstellelemente anders als
+hier festgesetzt verwendet, kann gefährliche
+Laserstrahlung auftreten.
+L’utilizzo di controlli, regolazioni o l’esecuzione di
+procedure diverse da quelle specificate possono
+provocare l’esposizione a.
+El uso de controles o ajustes o la ejecuciónde
+procedimientos distintos de los aquí especificados
+puede provocar la exposición a radiaciones
+peligrosas.
+Laser compliance statement
+22 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 27 ---
+Some CD-ROM drives, DVD-ROM drives, or other optical
+storage devices contain an embedded Class 3A or Class
+3B laser diode. Note the following:
+DANGER
+Emits visible and invisible laser radiation when
+open. Do not stare into the beam, do not view
+directly with optical instruments, and avoid direct
+exposure to the beam.
+Radiação por raio laser ao abrir. Não olhe fixo no
+feixe de luz, não olhe diretamente por meio de
+instrumentos óticos e evite exposição direta com o
+feixe de luz.
+Rayonnement laser si carter ouvert. Évitez de fixer
+le faisceau, de le regarder directement avec des
+instruments optiques, ou de vous exposer au
+rayon.
+Laserstrahlung bei geöffnetem Gerät. Nicht direkt
+oder über optische Instrumente in den Laserstrahl
+sehen und den Strahlungsbereich meiden.
+Kinyitáskor lézersugár!Nenézzen bele se szabad
+szemmel, se optikai eszközökkel. Kerülje a
+sugárnyalábbal valóérintkezést !.
+Aprendo l’unità vengono emesse radiazioni laser.
+Non fissare il fascio, non guardarlo direttamente
+con strumenti ottici e evitare l’esposizione diretta al
+fascio.
+Radiaciónláser al abrir. No mire fijamente ni
+examine con instrumental óptico el haz de luz.
+Evite la exposición directa al haz.
+Laser compliance statement
+Introduction 23
+
+--- Page 28 ---
+Laser compliance statement
+24 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 29 ---
+General descriptions
+This chapter includes descriptions for any ThinkPad model
+that has the PC-Doctor DOS diagnostics program. Some
+descriptions might not apply to your particular computer.
+Read this first
+Before you go to the checkout guide, be sure to read this
+section.
+Important notes
+v Only certified trained personnel should
+service the computer.
+v Read the entire FRU removal and replacement
+page before replacing any FRU.
+v Use new nylon-coated screws when you
+replace FRUs.
+v Be extremely careful during such write
+operations as copying, saving, or formatting.
+Drives in the computer that you are servicing
+sequence might have been altered. If you select
+an incorrect drive, data or programs might be
+overwritten.
+v Replace FRUs only for the correct model.
+When you replace a FRU, make sure the model
+of the machine and the FRU part number are
+correct by referring to the FRU parts list.
+v A FRU should not be replaced because of a
+single, unreproducible failure. Single failures
+can occur for a variety of reasons that have
+nothing to do with a hardware defect, such as
+cosmic radiation, electrostatic discharge, or
+software errors. Consider replacing a FRU only
+when a problem recurs. If you suspect that a
+FRU is defective, clear the error log and run the
+test again. If the error does not recur, do not
+replace the FRU.
+v Be careful not to replace a nondefective FRU.
+What to do first
+When you do return a FRU, you must include the following
+information in the parts exchange form or parts return form
+that you attach to it:
+__ 1. Name and phone number of servicer
+__ 2. Date of service
+__ 3. Date on which the machine failed
+© Copyright IBM Corp. 2003
+25
+
+--- Page 30 ---
+__ 4. Date of purchase
+__ 5. Failure symptoms, error codes appearing on the
+display, and beep symptoms
+__ 6. Procedure index and page number in which the
+failing FRU was detected
+__ 7. Failing FRU name and part number
+__ 8. Machine type, model number, and serial number
+__ 9. Customer’s name and address
+Note for warranty:
+During the warranty period, the customer may be
+responsible for repair costs if the computer damage was
+caused by misuse, accident, modification, unsuitable
+physical or operating environment, or improper
+maintenance by the customer. The following list provides
+some common items that are not covered under warranty
+and some symptoms that might indicate that the system
+was subjected to stress beyond normal use.
+Before checking problems with the computer, determine
+whether the damage is covered under the warranty by
+referring to the following:
+The following are not covered under warranty:
+v LCD panel cracked from the application of excessive
+force or from being dropped
+v Scratched (cosmetic) parts
+v Distortion, deformation, or discoloration of the cosmetic
+parts
+v Cracked or broken plastic parts, broken latches, broken
+pins, or broken connectors caused by excessive force
+v Damage caused by liquid spilled into the system
+v Damage caused by the improper insertion of a PC Card
+or the installation of an incompatible card
+v Damage caused by foreign material in the diskette drive
+v Diskette drive damage caused by pressure on the
+diskette drive cover or by the insertion of a diskette with
+multiple labels
+v Damaged or bent diskette eject button
+v Fuses blown by attachment of a nonsupported device
+v Forgotten computer password (making the computer
+unusable)
+v Sticky keys caused by spilling a liquid onto the keyboard
+The following symptoms might indicate damage
+caused by nonwarranted activities:
+v Missing parts might be a symptom of unauthorized
+service or modification.
+v If the spindle of a hard-disk drive becomes noisy, it may
+have been subjected to excessive force, or dropped.
+Read this first
+26 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 31 ---
+Related service information
+This section provides information about the following:
+v “Service web site”
+v “Restoring the preloaded system”
+v “Passwords” on page 29
+v “Power management” on page 31
+Service web site
+When the latest maintenance diskette and the system
+program service diskette become available, a notice will be
+posted on http://www.ibm.com/pc/partner/infotips
+Restoring the preloaded system
+If the data on a hard-disk drive is damaged or accidentally
+erased, you can restore the software that was shipped with
+the computer. This software includes the pre-installed
+operating system, applications, and device drivers.
+To restore the pre-installed software, you can use either
+the Product Recovery program or a recovery CD.
+Ordering the recovery CD
+When the hard-disk drive is replaced because of a
+failure, no Product Recovery program is on the new
+hard disk. In this case, you must use the Product
+Recovery CD for the computer. Order the recovery
+CD and the hard-disk drive at the same time so that
+you can recover the new hard-disk drive with the
+pre-installed software when they arrive. For
+information on which CD to order, see “Recovery
+CDs” on page 154
+The Product Recovery program is in the service partition, a
+section of the hard-disk drive that is not displayed by
+Windows Explorer.
+Attention: All of the files on the primary hard-disk
+partition (usually drive C) will be lost in the recovery
+process. Be sure to back up copies of the files you have
+saved on your drive C before you begin.
+Product Recovery program
+Note: The recovery process might take up to 2 hours.
+To use the Product Recovery program to restore the
+pre-installed software, do the following:
+1. Save all files and shut down the desktop.
+2. Turn off the computer.
+Related service information
+General descriptions 27
+
+--- Page 32 ---
+3. Turn on the computer. If you are using Windows XP,
+three messages (F1, F11, and F12) appear on the
+screen for a few seconds. One of them is “Press F11
+to invoke the IBM Product Recovery program”.
+While the message is displayed, quickly press F11.
+4. From the list displayed on the screen, select the
+operating system you want to recover.
+5. Select the recovery options you want, and follow the
+instructions on the screen.
+6. When the Product Recovery program finishes running,
+the computer will restart with the pre-installed operating
+system, drivers, and software.
+Using the recovery CD
+To create the service partition and install the preloaded
+system from the recovery CD, do the following:
+To create the service partition:
+1. Erase all partitions on the hard-disk drive, using FDISK
+or a similar application.
+2. Boot with the recovery CD (and the boot diskette if
+required.)
+3. Following message is displayed: “Your computer
+originally included a Product Recovery program ...
+Reinstall the Product Recovery program? (Y/N) [ ]”.
+Note: If the hard-disk drive contains any partitions, you
+do not receive this message; go to step 1.
+4. Press Y key. The service partition is created and
+loaded with the Product Recovery program files.
+Note: If you do not want to create the service partition,
+press N key, and then go to step 8.
+5. At next window, press Enter to continue.
+v The service partition is created. The system
+automatically reboots during this process.
+v The recovery process copies some files to the
+service partition, and PKUNZIPs others.
+v Follow the prompts. You may be prompted to
+change CDs.
+v When the process is complete, the system reboots.
+Continue to step 6 to install preloaded system.
+Install preloaded system from CD:
+6. Boot with the recovery CD (and the boot diskette if
+required.)
+7. If the hard-disk drive is blank, the following message
+is displayed: “Your computer originally included a
+Related service information
+28 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 33 ---
+Product Recovery program ... Reinstall the
+Product Recovery program? (Y/N) [ ]”.
+v To install the service partition, go to step 4.
+v To preload the hard-disk drive without installing the
+service partition, press N key.
+8. If you get a message asking which operating system
+to install, select the proper operating system and
+press Enter.
+9. A message is displayed: “Full Recovery:”. Press
+Enter to select.
+10. On each of the next three windows, press the Y key.
+11. Follow the prompts to complete the recovery.
+Passwords
+As many as three passwords may be needed for any
+ThinkPad computer: the power-on password (POP), the
+hard-disk password (HDP), and the supervisor password
+(SVP).
+If any of these passwords has been set, a prompt for it
+appears on the screen whenever the computer is turned
+on. The computer does not start until the password is
+entered.
+Exception: If only an SVP is installed, the password
+prompt does not appear when the operating
+system is booted.
+Power-on password:
+A power-on password (POP) protects the system from
+being powered on by an unauthorized person. The
+password must be entered before an operating system can
+be booted.
+Hard-disk password:
+There are two hard-disk passwords (HDPs):
+v User HDP—for the user
+v Master HDP—for the system administrator, who can use
+it to get access to the hard disk even if the user has
+changed the user HDP
+Note: There are two modes for the HDP: User only and
+Master + User. The Master + User mode requires
+two HDPs; the system administrator enters both in
+the same operation. The system administrator then
+provides the user HDP to the system user.
+Related service information
+General descriptions 29
+
+--- Page 34 ---
+Attention: If the user HDP has been forgotten, check
+whether a master HDP has been set. If it has, it can be
+used for access to the hard-disk drive. If no master HDP is
+available, IBM does not provide any services to reset
+either the user or the master HDP, or to recover data from
+the hard-disk drive. The hard-disk drive can be replaced
+for a scheduled fee.
+Supervisor password:
+A supervisor password (SVP) protects the system
+information stored in the IBM BIOS Setup Utility. The SVP
+must be entered in order to get access to the IBM BIOS
+Setup Utility and make changes to system configuration
+settings.
+Attention: If the SVP has been forgotten and cannot be
+made available to the servicer, there is no service
+procedure to reset the password. The system board must
+be replaced for a scheduled fee.
+How to remove the power-on password
+To remove a POP that you have forgotten, do the
+following:
+(A) If no SVP has been set:
+1. Turn off the computer.
+2. Remove the battery pack.
+For how to remove the battery pack, see “1010 Battery
+pack” on page 61.
+3. Remove the backup battery.
+For how to remove the backup battery, see “1050
+Backup battery” on page 67.
+4. Turn on the computer and wait until the POST ends.
+After the POST ends, the password prompt does not
+appear. The POP has been removed.
+5. Reinstall the backup battery and the battery pack.
+(B) If an SVP has been set and is known by the servicer:
+1. Turn on the computer; then, while the “To interrupt
+normal startup, press the blue Access IBM button”
+message is displayed at the lower-left of the screen,
+press the Access IBM button.
+2. Enter the SVP. Select Start setup utility.
+3. Select Security, using the cursor keys to move down
+the menu.
+4. Select Password.
+5. Select Power-On Password.
+6. At the Enter Current Password field, enter the SVP.
+Related service information
+30 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 35 ---
+7. When the Enter New Password field opens, leave it
+blank and press Enter twice.
+8. In the Changes have been saved window, press Enter.
+9. Press F10; then, in the Setup confirmation window,
+select Yes .
+How to remove the hard-disk password
+Attention: If User only mode is selected and the user
+HDP has been forgotten and cannot be made available to
+the servicer, IBM does not provide any services to reset
+the user HDPs or to recover data from the hard-disk drive.
+The hard-disk drive can be replaced for a scheduled fee.
+To remove a user HDP that has been forgotten, when the
+SVP and the master HDP are known, do the following:
+1. Turn on the computer; then, while the “To interrupt
+normal startup, press the blue Access IBM button”
+message is displayed at the lower-left of the screen,
+press the Access IBM button.
+2. Enter the SVP. Select Start setup utility.
+3. Select Security, using the cursor keys to move down
+the menu.
+4. Select Password.
+5. Select Hard-disk x password, where x is the letter of
+the hard-disk drive. A pop-up window opens.
+6. Select Master HDP.
+7. Enter the master HDP; then leave the New Password
+field blank and press Enter twice.
+8. Press F10.
+9. Select Yes in the Setup Configuration window.
+Both user HDP and master HDP will have been
+removed.
+Power management
+To reduce power consumption, the computer has three
+power management modes: screen blank, standby, and
+hibernation.
+Notes
+v Screen blank mode is called standby mode in
+Windows NT.
+v Standby mode is called suspend mode in
+Windows NT.
+Screen blank mode
+Screen blank mode has three variants, as follows:
+Related service information
+General descriptions 31
+
+--- Page 36 ---
+1. If you press Fn+F3, or the time set on the “LCD off
+timer” in IBM BIOS Setup Utility expires,
+v The LCD backlight turns off.
+v The hard-disk drive motor stops.
+v The speaker is muted.
+2. If you are using the ACPI operating system and you
+press Fn+F3,
+v The LCD backlight turns off.
+v The hard-disk drive motor stops.
+3. If the time set on the “Turn off monitor” timer in the
+operating system expires,
+v The LCD backlight turns off.
+To end screen blank mode and resume normal operation,
+press any key.
+Standby mode
+When the computer enters standby mode, the following
+events occur in addition to what occurs in screen blank
+mode:
+v The LCD is powered off.
+v The hard-disk drive is powered off.
+v The CPU stops.
+To enter standby mode, press Fn+F4.
+Note: You can change the action of Fn+F4, if you are
+using the ACPI operating system.
+In certain circumstances, the computer goes into standby
+mode automatically:
+v If a “suspend time” has been set on the timer, and the
+user does not do any operation with the keyboard, the
+TrackPoint, the hard disk, the parallel connector, or the
+diskette drive within that time.
+v If the battery indicator blinks orange, indicating that the
+battery power is low. (Alternatively, if Hibernate when
+battery becomes low has been selected in the “Power
+Management Properties” window, the computer goes
+into hibernation mode.)
+Note for the APM operating system:
+Even if you do not set the low-battery alarm, the charge
+indicator notifies you when the battery is low, and then the
+computer enters the power-saving mode automatically.
+This default low-battery behavior is independent of the
+operating system; so if you have set the low-battery alarm,
+the computer may not do what you specified. It chooses
+either your setting or the default setting, whichever is
+appropriate.
+Related service information
+32 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 37 ---
+If you are using the ACPI operating system, only the
+low-battery alarm is available.
+To cause the computer to return from standby mode and
+resume operation, do one of the following:
+v Press the Fn key.
+v Open the LCD cover.
+v Turn on the power switch.
+Also, the computer automatically returns from standby
+mode and resumes operation in either of the following
+events:
+v The ring indicator (RI) is signaled by a serial device or a
+PC Card device (Windows 2000 does not support the
+ring indicator (RI) resume by PC Card device.)
+v The time set on the resume timer elapses. In Windows
+98, the Scheduled Tasks setting takes priority over the
+Resume on timer selection in the “Power Management
+Properties” window.
+Note: The computer does not accept any input
+immediately after it enters standby mode. Wait a
+few seconds before taking any action to reenter
+operation mode.
+Hibernation mode
+Note for Windows NT
+If you are using Windows NT in NTFS format, you
+cannot create a hibernation file. If you want to use
+hibernation mode, you will need to reinstall Windows
+NT with FAT format.
+Note for OS/2
+If you are using OS/2 in the default format, HPFS,
+you cannot create a hibernation file. If you want to
+use hibernation mode, you will need to reinstall
+OS/2 with FAT format.
+In hibernation mode, the following occurs:
+v The system status, RAM, VRAM, and setup data are
+stored on the hard disk.
+v The system is powered off.
+Note: If the computer enters the hibernation mode while it
+is docked to the docking station, do not undock it
+from the docking station before resuming normal
+operation. If you do undock it and then try to
+Related service information
+General descriptions 33
+
+--- Page 38 ---
+resume normal operation, you will get an error
+message, and you will have to restart the system.
+To cause the computer to enter hibernation mode, do any
+of the following:
+v Press the Fn+F12 keys.
+v If you are using the APM operating system and have set
+the mode to Power switch mode [Hibernation], turn
+off the power switch.
+v If you are using the ACPI operating system and have
+defined one of the following actions as the event that
+causes the system to go into hibernation mode, perform
+that action.
+– Closing the lid.
+– Pressing the power button.
+– Pressing Fn+F4 keys.
+Also, the computer goes into hibernation mode
+automatically in either of the following conditions:
+v If a “hibernation time” has been set on the timer, and the
+user does not do any operation with the keyboard, the
+TrackPoint, the hard-disk drive, the parallel connector, or
+the diskette drive within that time.
+v If the timer conditions are satisfied in suspend mode.
+v If you are using the APM operating system and have set
+the mode to Hibernate when battery becomes low,
+and the battery charge becomes critically low.
+When the power is turned on, the computer returns from
+hibernation mode and resumes operation. The hibernation
+file in the boot record on the hard-disk drive is read, and
+system status is restored from the hard-disk drive.
+Related service information
+34 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 39 ---
+Checkout guide
+Use the following procedures as a guide in identifying and
+correcting problems with the ThinkPad computer.
+Note: The diagnostic tests are intended to test only IBM
+products. The use of non-IBM products, prototype
+cards, or modified options can lead to false
+indications of errors and invalid system responses.
+1. Identify the failing symptoms in as much detail as
+possible.
+2. Verify the symptoms. Try to re-create the failure by
+running the diagnostic test or by repeating the
+operation.
+Testing the computer
+The ThinkPad computer has a test program called
+PC-Doctor
+®
+DOS (hereafter called PC-Doctor.) You can
+detect errors by running the diagnostics test included in
+PC-Doctor. This section is an overview of the procedure.
+For details that depend on model-unique functions, refer to
+“Product overview” on page 43.
+For some possible configurations of the computer,
+PC-Doctor might not run correctly. To avoid this problem,
+you need to initialize the computer setup by use of the IBM
+BIOS Setup Utility before you run PC-Doctor. On the IBM
+BIOS Setup Utility screen, press F9, Enter, F10, and then
+Enter.
+Note: When you initialize the computer configuration,
+some devices are disabled, such as the serial port.
+If you test one of these devices, you will need to
+enable it by using PS2.EXE.
+PC-Doctor cannot be used to test a device that is in the
+docking station, even if the computer supports the docking
+station. To test a USB device, connect it to the USB
+connector of the computer. To test the Ultrabay device,
+install it in the Ultrabay Plus slot of the computer.
+To run the test, do as follows:
+Note: In the following procedure, you can select an item
+not only with the arrow keys, but also with the
+TrackPoint. Instead of pressing Enter, click the left
+button.
+1. Insert the PC-Doctor disk into the diskette drive; then
+power on the computer.
+If the computer cannot be powered on, go to “Power
+system checkout” on page 38, and check the power
+sources.
+Checkout guide
+General descriptions 35
+
+--- Page 40 ---
+If an error code appears, go to “Symptom-to-FRU
+index” on page 50.
+On the first screen, select the model and press Enter.
+Follow the instructions on the screen.
+2. The main panel of PC-Doctor appears.
+3. Select Diagnostics with the arrow keys, and press
+Enter.
+A pull-down menu appears. (Its exact form depends on
+the model.)
+The options on the test menu are as follows:
+Diagnostics Interactive Tests
+v Run Normal Test
+v Run Quick Test
+v CPU/Coprocessor
+v Systemboard
+v Video Adapter
+v Serial Ports
+v Parallel Ports
+v Fixed Disks
+v Diskette Drives
+v Other Devices
+v ZIP Drive
+v LS-120/240 Drive
+v Communication
+v Wireless LAN
+v Memory Test – Full
+v Memory Test – Quick
+v Keyboard
+v Video
+v Internal Speaker
+v Mouse
+v Diskette
+v System Load
+v CD-ROM/DVD Test
+v Intel Wireless Radio
+Notes:
+v In the Keyboard test in Interactive Tests, the Fn key
+is scanned only once. Each key should be held down
+for at least 2 seconds; otherwise, it cannot be sensed.
+v Video Adapter test supports only the LCD display on
+the ThinkPad computer. Before running PC-Doctor
+DOS, detach the external monitor.
+v To test ZIP Drive or LS-120/240 Drive, each media is
+needed to be inserted before start testing.
+v To test Digital Signature Chip, the chip must be
+enabled.
+v When Legacy Floppy Drives is enabled in the IBM
+BIOS Setup Utility, Diskette Drives test is activated
+even if no legacy diskette drive is attached to the
+ThinkPad computer.
+Checkout guide
+36 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 41 ---
+Diagnostics
+Quit
+Interactive Tests
+Hardware Info
+Utility F1=Help
+Run Quick Test
+Run Normal Test
+Systemboard
+CPU/Coprocessor
+Video Adapter
+Serial Ports
+Diskette Drives
+Fixed Disks
+Parallel Ports
+Other Devices
+Use the cursor keys and ESC to move in menus. Press ENTER to select.
+PC-DOCTOR 2.0 Copyright 2001 PC-Doctor, Inc. All Rights Reserved.
+ZIP Drive
+LS-120/240 Drive
+Communication
+Wireless LAN
+Memory Test - Full
+Memory Test - Quick
+4. Run the applicable function test.
+5. Follow the instructions on the screen. If there is a
+problem, PC-Doctor shows messages describing it.
+6. To exit the test, select Quit — Exit Diag.
+To cancel the test, press Esc.
+Note: After executing PC-Doctor, check the system
+time/date and reset them if needed.
+Detecting system information with
+PC-Doctor
+PC-Doctor can detect the following system information:
+Hardware Info
+v System Configuration
+v Memory Contents
+v Physical Disk Drives
+v Logical Disk Drives
+v VGA Information
+v IDE Drive Info
+v PCI Information
+v PNPISA Info
+v SMBIOS Info
+v VESA LCD Info
+Utility
+v Run External Tests
+v Surface Scan Hard Disk
+v Benchmark System
+v DOS Shell
+v Tech Support Form
+v Battery Rundown
+v View Test Log
+v Print Log
+v Save Log
+v Full Erase Hard Drive
+v Quick Erase Hard Drive
+Checkout guide
+General descriptions 37
+
+--- Page 42 ---
+Power system checkout
+To verify a symptom, do the following:
+1. Power off the computer.
+2. Remove the battery pack.
+3. Connect the ac adapter.
+4. Check that power is supplied when you power on the
+computer.
+5. Power off the computer.
+6. Disconnect the ac adapter and install the charged
+battery pack.
+7. Check that the battery pack supplies power when you
+power on the computer.
+If you suspect a power problem, see the appropriate one
+of the following power supply checkouts:
+v “Checking the ac adapter”
+v “Checking operational charging” on page 39
+v “Checking the battery pack” on page 39
+v “Checking the backup battery” on page 40
+Checking the ac adapter
+You are here because the computer fails only when the ac
+adapter is used:
+v If the power problem occurs only when the port
+replicator is used, replace the port replicator.
+v If the power-on indicator does not turn on, check the
+power cord of the ac adapter for correct continuity and
+installation.
+v If the computer does not charge during operation, go to
+″Checking operational charging.″
+To check the ac adapter, do the following:
+1. Unplug the ac adapter cable from the computer.
+2. Measure the output voltage at the plug of the ac
+adapter cable. See the following figure:
+2
+1
+(16-10V)
+Pin Voltage (V dc)
+1 +15.5 to +17.0
+2 Ground
+3. If the voltage is not correct, replace the ac adapter.
+4. If the voltage is acceptable, do the following:
+v Replace the system board.
+v If the problem persists, go to “Product overview” on
+page 43.
+Note: Noise from the ac adapter does not always indicate
+a defect.
+Checkout guide
+38 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 43 ---
+Checking operational charging
+To check whether the battery charges properly during
+operation, use a discharged battery pack or a battery pack
+that has less than 50% of the total power remaining when
+installed in the computer.
+Perform operational charging. If the battery status indicator
+or icon does not turn on, remove the battery pack and let it
+return to room temperature. Reinstall the battery pack. If
+the charge indicator or icon still does not turn on, replace
+the battery pack.
+If the charge indicator still does not turn on, replace the
+system board. Then reinstall the battery pack. If it is still
+not charged, go to the next section.
+Checking the battery pack
+Battery charging does not start until the Power Meter
+shows that less than 95% of the total power remains;
+under this condition the battery pack can charge to 100%
+of its capacity. This protects the battery pack from being
+overcharged or from having a shortened life.
+To check the status of your battery, move your cursor to
+the Power Meter icon in the icon tray of the Windows
+taskbar and wait for a moment (but do not click), and the
+percentage of battery power remaining is displayed. To get
+detailed information about the battery, double-click the
+Power Meter icon.
+Note: If the battery pack becomes hot, it may not be able
+to charge. Remove it from the computer and leave it
+at room temperature for a while. After it cools down,
+reinstall and recharge it.
+To check the battery pack, do the following:
+1. Power off the computer.
+2. Remove the battery pack and measure the voltage
+between battery terminals 1 (+) and 5 (−). See the
+following figure:
+2
+3
+4
+5(-)
+1(+)
+Terminal Voltage (V dc)
+1 + 0 to + 12.6
+5 Ground (−)
+3. If the voltage is less than +11.0 V dc, the battery pack
+has been discharged.
+Checkout guide
+General descriptions 39
+
+--- Page 44 ---
+Note: Recharging will take at least 3 hours, even if the
+indicator does not turn on.
+If the voltage is still less than +11.0 V dc after
+recharging, replace the battery.
+4. If the voltage is more than +11.0 V dc, measure the
+resistance between battery terminals 4 and 5. The
+resistance must be 4 to 30 K .
+If the resistance is not correct, replace the battery
+pack. If the resistance is correct, replace the system
+board.
+Checking the backup battery
+Do the following:
+1. Power off the computer, and unplug the ac adapter
+from it.
+2. Turn the computer upside down.
+3. Remove the battery pack (see “1010 Battery pack” on
+page 61).
+4. Remove the backup battery (see “Checking the battery
+pack” on page 39).
+5. Measure the voltage of the backup battery. See the
+following figure.
+Red (+)
+Black (-)
+Wire Voltage (V dc)
+Red +2.5 to +3.2
+Black Ground
+v If the voltage is correct, replace the system board.
+v If the voltage is not correct, replace the backup battery.
+v If the backup battery discharges quickly after
+replacement, replace the system board.
+Checkout guide
+40 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 45 ---
+ThinkPad T30
+Product overview ............43
+Specifications ............43
+Status indicators ...........45
+FRU tests .............47
+Fn key combinations ..........49
+Symptom-to-FRU index ..........50
+Numeric error codes ..........50
+Error messages ...........53
+Beep symptoms ...........54
+LCD-related symptoms .........55
+Intermittent problems ..........56
+Undetermined problems .........56
+FRU replacement notices .........57
+Screw notices ............57
+Retaining serial numbers.........58
+Restoring the serial number of the system unit 58
+Retaining the UUID .........58
+Removing and replacing a FRU........60
+1010 Battery pack...........61
+1020 Ultrabay Plus device ........62
+1030 Hard-disk drive ..........63
+1040 Shock absorber..........65
+1050 Backup battery ..........67
+1060 DIMM ............69
+1070 Mini PCI adapter .........71
+1080 Communication daughter card (CDC) . . . 74
+Modem daughter card (MDC) ......74
+Bluetooth daughter card (BDC) ......75
+1090 Keyboard ...........77
+1100 Fan assembly ..........81
+1110CPU.............85
+1120 Keyboard bezel ..........87
+1130 Hinge cover ...........92
+1140 LCD assembly ..........94
+1150 PC Card slot assembly .......100
+1160 Speaker assembly ........101
+1170 Hard-disk drive slot ........102
+1180 Ultrabay Plus guide rail and microphone
+cable .............103
+1190 System board ..........106
+1200 Bluetooth antenna louver assembly . . . 110
+1210 I/O card............111
+2010 LCD front bezel .........114
+2020 Inverter card ..........115
+2030 LCD panel and LCD cable assembly . . . 117
+2040 Antenna assembly, hinges, and LCD cover 120
+3010 ThinkPad Dock PCI cover ......125
+3020 ThinkPad Dock top cover ......127
+Locations ..............132
+Front view ............132
+© Copyright IBM Corp. 2003
+41
+
+--- Page 46 ---
+Rear view.............134
+Bottom view ............135
+Parts list ..............136
+T30 series model matrix ........136
+Overall .............139
+LCD FRUs ............149
+14.1-in. XGA TFT .........150
+14.1-in. SXGA+ TFT ........152
+Keyboard .............153
+Recovery CDs ...........154
+For Windows 2000 .........154
+For Windows XP professional ......155
+AC adapters ............156
+Miscellaneous parts ..........156
+Optional FRUs ...........159
+Ultrabay Plus devices ........159
+Other optional FRUs ........159
+Common parts list ..........160
+Tools .............160
+Power cords (system) ........160
+Power cords (ThinkPad Dock) ......161
+Notices ..............162
+Trademarks ............162
+42 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 47 ---
+Product overview
+This section presents the following product-unique
+information:
+v “Specifications”
+v “Status indicators” on page 45
+v “FRU tests” on page 47
+v “Fn key combinations” on page 49
+Specifications
+The following table lists the specifications of the ThinkPad
+T30 series:
+Feature Description
+Processor v Mobile Intel
+®
+Pentium
+®
+4 processor - M
+1.6 GHz, L2 512 KB cache
+v Mobile Intel
+®
+Pentium
+®
+4 processor - M
+1.7 GHz, L2 512 KB cache
+v Mobile Intel
+®
+Pentium
+®
+4 processor - M
+1.8 GHz, L2 512 KB cache
+v Mobile Intel
+®
+Pentium
+®
+4 processor - M
+1.9 GHz, L2 512 KB cache
+v Mobile Intel
+®
+Pentium
+®
+4 processor - M
+2.0 GHz, L2 512 KB cache
+v Mobile Intel
+®
+Pentium
+®
+4 processor - M
+2.2 GHz, L2 512 KB cache
+v Mobile Intel
+®
+Pentium
+®
+4 processor - M
+2.4 GHz, L2 512 KB cache
+Bus architecture v 400MHz PSB
+v HUB link
+v PCI bus
+v LPC bus
+v 266MHz DDR SDRAM (PC2100)
+Memory (standard) v 256 MB DDR SDRAM SO DIMM
+(PC2100) card × 1
+v 512 MB DDR SDRAM SO DIMM
+(PC2100) card × 1
+Memory (optional) v 128 MB DDR SDRAM SO DIMM
+(PC2100) card
+v 256 MB DDR SDRAM SO DIMM
+(PC2100) card
+v 512 MB DDR SDRAM SO DIMM
+(PC2100)
+(maximum of 1024 MB)
+Graphic memory v 16 MB DDR SDRAM (on the system
+board)
+CMOS RAM v 242 bytes
+(continued)
+Product overview
+ThinkPad T30 43
+
+--- Page 48 ---
+Feature Description
+Hard-disk drive v 20.0 GB, 4200 rpm, 2.5-inch, IDE
+interface
+v 40.0 GB, 4200 rpm, 2.5-inch, IDE
+interface
+v 40.0 GB, 5400 rpm, 2.5-inch, IDE
+interface
+v 60.0 GB, 4200 rpm, 2.5-inch, IDE
+interface
+v 60.0 GB, 5400 rpm, 2.5-inch, IDE
+interface (option for none UltraNav
+models)
+Display v 14.1-inch, 16M colors, XGA (1024 × 768
+resolution) TFT color LCD
+v 14.1-inch, 16M colors, SXGA+ (1400 ×
+1050 resolution) TFT color LCD
+I/O port v External monitor connector
+v Stereo headphone jack
+v Infrared port
+v Stereo line-in jack
+v Monaural microphone jack
+v Parallel connector
+v Docking connector
+v RJ11 connector
+v RJ45 connector
+v Serial connector
+v TV-out connector
+v Universal serial bus (USB) connector × 2
+Internal modem v 56.6 Kbps
+Audio v Internal stereo speakers
+v Software control volume
+Infrared transfer v IrDA 1.1
+Mini PCI adapter v Mini PCI Type-IIIa IBM High Rate
+Wireless LAN Mini-PCI Card Adapter with
+Modem II
+v Mini PCI Type-IIIa Cisco Aironet Wireless
+802.11b
+PC Card v One Type-III
+v Two Type-II
+Communication
+daughter card
+(CDC)
+v V.90 modem daughter card (MDC)
+v Bluetooth daughter card (BDC)
+AC adapter v 72-watt type
+Ultrabay Plus
+device (standard)
+v CD-RW drive
+v DVD drive
+v CD-RW/DVD combo drive
+Preinstalled
+operating system
+Windows 2000
+Windows XP Professional
+Product overview
+44 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 49 ---
+Status indicators
+The system status indicators show the status of the
+computer, as follows:
+9
+1 32
+8 2 4567
+Indicator Meaning
+1 Bluetooth
+status
+Green: Bluetooth is operational. This
+indicator is on when the Bluetooth is
+on and not in suspend mode.
+2 Battery
+status
+Green: The battery is in use and has enough
+power. The ac adapter has charged
+the battery completely.
+Blinking green:
+The battery is being charged, but still
+has enough power to operate. (At
+regular intervals, the indicator light
+turns off briefly.)
+Orange: The battery is being charged, but the
+battery power is still low.
+Blinking orange:
+The battery needs to be charged.
+When the indicator starts blinking
+orange, the computer beeps three
+times.
+(continued)
+Product overview
+ThinkPad T30 45
+
+--- Page 50 ---
+Indicator Meaning
+3 Standby
+status
+Green: The computer is in standby mode.
+Blinking green:
+The computer is entering standby
+mode or hibernation mode, or is
+resuming normal operation.
+4 Power on Green: The computer is on and ready to use.
+This indicator stays lit whenever the
+computer is on and is not in standby
+mode.
+5 Scroll lock Green: Scroll Lock mode is enabled. The
+arrow keys can be used as
+screen-scroll function keys. The
+cursor cannot be moved with the
+arrow keys. Not all application
+programs support this function. To
+enable or disable Scroll Lock mode,
+press the ScrLk key.
+6 Caps lock Green: Caps Lock mode is enabled. To
+enable or disable Caps Lock mode,
+press the Caps Lock key.
+7 Num lock Green: The numeric keypad on the keyboard
+is enabled. To enable or disable the
+keypad, press and hold the Shift key,
+and press the NumLk (ScrLk) key.
+8 Drive in
+use
+Green: Data is being read from or written to
+the hard-disk drive, the diskette drive,
+or the drive in the Ultrabay Plus
+device. When this indicator is on, do
+not put the computer into standby
+mode or turn off the computer.
+Note: Do not move the system while the green
+drive-in-use light is on. Sudden physical shock
+could cause drive errors.
+9 Ultrabay
+status
+Green: An Ultrabay Plus device is installed
+and in use.
+Blinking green:
+An Ultrabay Plus device is in the
+process of being detached.
+Turn off: An Ultrabay Plus device is ready to
+be attached or detached.
+Note: If you are using Windows 2000, the
+Ultrabay status indicator does not blink while an
+Ultrabay Plus device is being detached. Instead,
+a message box pops up when the process is
+completed; then the indicator turns off.
+Product overview
+46 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 51 ---
+FRU tests
+The following table shows the test for each FRU.
+FRU Applicable test
+System board 1. Diagnostics --> CPU/Coprocessor
+2. Diagnostics --> Systemboard
+Power Diagnostics --> Other Devices --> IBM AC
+Adapter, IBM Battery 1 (IBM Battery 2)
+LCD unit 1. Diagnostics --> Video Adapter
+2. Interactive Tests --> Video
+Modem or
+Modem
+daughter card
+1. Make sure the modem is set up correctly.
+2. Replace the modem jack and the modem
+card in turn, and run the following tests in
+Diagnostics --> Communication:
+a. Lucent Soft Modem Loopback
+b. Lucent Soft Modem Dialtone
+Audio 1. Interactive Tests --> Internal Speaker
+2. Diagnostics --> Other Devices --> Analog
+Devices AC97 CODEC Test
+Speaker Interactive Tests --> Internal Speaker
+PC Card slots Diagnostics --> Systemboard --> PCMCIA,
+PCMCIA External Loop
+Keyboard 1. Diagnostics --> Systemboard -->
+Keyboard
+2. Interactive Tests --> Keyboard
+TrackPoint or
+pointing device
+If the TrackPoint does not work, check the
+configuration in the ThinkPad Configuration
+program. If the TrackPoint is disabled, select
+Automatic to enable it.
+After you use the TrackPoint, the pointer may
+drift on the screen for a short time. This drift
+can occur when a slight, steady pressure is
+applied to the TrackPoint pointer. This symptom
+is not a hardware problem. If the pointer stops
+after a short time, no service action is
+necessary.
+If enabling the TrackPoint does not correct the
+problem, continue with the following:
+v Interactive Tests --> Mouse
+Hard-disk drive Diagnostics --> Fixed Disks
+Diskette drive 1. Diagnostics --> Diskette Drives
+2. Interactive Tests --> Diskette
+(continued)
+Product overview
+ThinkPad T30 47
+
+--- Page 52 ---
+FRU Applicable test
+CD-ROM or
+DVD drive
+1. Diagnostics --> Other Devices -->
+CD-ROM/DVD
+2. Interactive Tests --> CD-ROM/DVD Test
+Memory 1. If two DIMMs are installed, remove one of
+them and run Diagnostics --> Memory
+Test—Quick.
+2. If the problem does not recur, return the
+DIMM to its place, remove the other one,
+and run the test again.
+3. If the test does not detect the error, run
+Diagnostics --> Memory Test—Full.
+Fan 1. Turn on the computer and check the air
+turbulence at the louver near the PC Card
+slot.
+2. Run Diagnostics --> Other Devices -->
+IBM Fan.
+Touch Pad If the Touch Pad does not work, check the
+configuration in the ThinkPad Configuration
+program. If the Touch Pad is disabled, select
+Automatic to enable it. If enabling the Touch
+Pad does not correct the problem, continue with
+the following:
+v Interactive Tests --> Mouse
+Product overview
+48 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 53 ---
+Fn key combinations
+The following table shows the function of each combination
+of Fn with a function key.
+Key
+combination
+Description
+Fn+F1 Reserved.
+Fn+F2 Reserved.
+Fn+F3 Turn off the LCD display, leaving the screen
+blank. To turn the LCD display on again, press
+any key or the TrackPoint stick.
+Fn+F4 Put the computer in standby mode. To return to
+normal operation, press the Fn key
+independently, without pressing a function key.
+Note: In Windows 2000 and Windows XP, this
+combination of buttons functions as a sleep
+button. The setting can be changed so that
+pressing it puts the computer into hibernation
+mode or even shuts the computer down.
+Fn+F5 Reserved.
+Fn+F6 Reserved.
+Fn+F7 Switch between the computer display and an
+external monitor (CRT). If an external monitor is
+attached, computer output is displayed in the
+following three patterns by turns:
+v CRT display
+v Computer display + CRT display
+v Computer display
+Fn+F8 Switch the computer screen size between
+expanded and normal mode if the computer
+display image is smaller than the physical
+display.
+Note: This function is not supported in
+Windows 2000 and Windows XP.
+Fn+F9 Reserved.
+Fn+F10 Reserved.
+Fn+F11 Reserved.
+Fn+F12 Put the computer into hibernation mode. To
+return to normal operation, press the power
+button for less than four seconds.
+Note: In Windows 2000 and Windows XP, you
+can use Fn+F12 for hibernation only if the IBM
+PM device driver has been installed on the
+computer.
+Fn+PgUp Turn the ThinkLight on or off.
+Fn+Home The computer display becomes brighter.
+Fn+End The computer display becomes less bright.
+Fn+Spacebar Enable the FullScreen Magnifier function.
+Product overview
+ThinkPad T30 49
+
+--- Page 54 ---
+Symptom-to-FRU index
+The symptom-to-FRU index in this section lists symptoms
+and errors and their possible causes. The most likely
+cause is listed first, in boldface type.
+Note: Do the FRU replacement or other actions in the
+sequence shown in the column headed “FRU or
+action, in sequence.” If replacing a FRU does not
+solve the problem, put the original part back in the
+computer. Do not replace a nondefective FRU.
+This index can also help you determine, during regular
+servicing, what FRUs are likely to need to be replaced
+next.
+A numeric error is displayed for each error detected in
+POST or system operation. In the displays, n can be any
+number.
+If no numeric code is displayed, check the narrative
+descriptions of symptoms. If the symptom is not described
+there, go to “Intermittent problems” on page 56.
+Note
+For an IBM device not supported by diagnostic
+codes in the ThinkPad notebook computers, see the
+manual for that device.
+Numeric error codes
+Symptom or error FRU or action, in sequence
+0175
+Bad CRC1, stop POST
+task—The EEPROM checksum
+is not correct.
+System board.
+0176
+System Security—The system
+has been tampered with.
+1. Run IBM BIOS Setup
+Utility, and then save
+current setting by
+pressing F10.
+2. System board.
+0187
+EAIA data access error—The
+access to EEPROM is failed.
+System board.
+0188
+Invalid RFID serialization
+information area or bad
+CRC2—The EEPROM
+checksum is not correct.
+System board.
+Symptom-to-FRU index
+50 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 55 ---
+Symptom or error FRU or action, in sequence
+0189
+Invalid RFID configuration
+information area—The
+EEPROM checksum is not
+correct.
+System board.
+0190
+Critical low-battery error
+1. Charge the battery pack.
+2. Battery pack.
+0191
+System Security—Invalid
+Remote Change requested.
+1. Run IBM BIOS Setup
+Utility, and then save
+current setting by
+pressing F10.
+2. System board.
+0192
+System Security—IBM
+Embedded Security hardware
+tamper detected.
+System board.
+0197
+Invalid remote change
+requested.
+The remote configuration for
+the security chip has failed.
+Confirm the operation and try
+again.
+0199
+System Security—IBM Security
+password retry count exceeded.
+1. Run IBM BIOS Setup
+Utility, and then save
+current setting by
+pressing F10.
+2. System board.
+01C8
+More than one modem devices
+are found. Remove one of
+them. Press <Esc> to continue.
+1. Remove either a Mini PCI
+modem card or an modem
+daughter card; or press
+Esc to ignore the warning
+message.
+2. System board.
+01C9
+More than one Ethernet devices
+are found. Remove one of
+them. Press <Esc> to continue.
+1. Remove the Ethernet
+device that you installed;
+or press Esc to ignore the
+warning message.
+2. System board.
+0200
+Hard disk error—The hard disk
+is not working.
+1. Reseat the hard-disk
+drive.
+2. Load Setup Defaults in IBM
+BIOS Setup Utility.
+3. Hard-disk drive.
+4. System board.
+021x
+Keyboard error
+Run interactive tests of the
+keyboard and the auxiliary
+input device.
+0220
+Monitor type error—Monitor
+type does not match the one
+specified in CMOS.
+Load Setup Defaults in IBM
+BIOS Setup Utility.
+0230
+Shadow RAM error—Shadow
+RAM fails at offset nnnn.
+System board.
+Symptom-to-FRU index
+ThinkPad T30 51
+
+--- Page 56 ---
+Symptom or error FRU or action, in sequence
+0231
+System RAM error—System
+RAM fails at offset nnnn.
+1. DIMM.
+2. System board.
+0232
+Extended RAM
+error—Extended RAM fails at
+offset nnnn.
+1. DIMM.
+2. System board.
+0250
+System battery error—System
+battery is dead.
+Replace the backup battery
+and run IBM BIOS Setup
+Utility to reset the time and
+date.
+0251
+System CMOS checksum
+bad—Default configuration
+used.
+Replace the backup battery
+and run IBM BIOS Setup
+Utility to reset the time and
+date.
+0252
+Password checksum bad—The
+password is cleared.
+Reset the password by
+running IBM BIOS Setup
+Utility.
+0260
+System timer error
+1. Replace the backup
+battery and run IBM BIOS
+Setup Utility to reset the
+time and date.
+2. System board.
+0270
+Real time clock error
+1. Replace the backup
+battery and run IBM BIOS
+Setup Utility to reset the
+time and date.
+2. System board.
+0271
+Date and time error—Neither
+the date nor the time is set in
+the computer.
+Run IBM BIOS Setup Utility to
+reset the time and date.
+0280
+Previous boot
+incomplete—Default
+configuration used.
+1. Load “Setup Default” in
+IBM BIOS Setup Utility.
+2. DIMM.
+3. System board.
+02B2
+Incorrect drive A type
+1. Diskette drive.
+2. External FDD cable.
+3. I/O card.
+02F4
+EISA CMOS not writable
+1. Load Setup Defaults in
+IBM BIOS Setup Utility.
+2. Replace the backup battery.
+3. System board.
+02F5
+DMA test failed
+1. DIMM.
+2. System board.
+02F6
+Software NMI failed
+1. DIMM.
+2. System board.
+02F7
+Fail-safe timer NMI failed
+1. DIMM.
+2. System board.
+Symptom-to-FRU index
+52 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 57 ---
+Symptom or error FRU or action, in sequence
+1802
+Unauthorized network card is
+plugged in—Power off and
+remove the miniPCI network
+card.
+1. Remove Mini PCI network
+card.
+2. System board.
+Error messages
+Symptom or error FRU or action, in sequence
+Device address conflict. 1. Load “Setup Defaults” in
+IBM BIOS Setup Utility.
+2. Backup battery.
+3. System board.
+Allocation error for device. 1. Load “Setup Defaults” in
+IBM BIOS Setup Utility.
+2. Backup battery.
+3. System board.
+Failing bits: nnnn. 1. DIMM.
+2. System board.
+Invalid system configuration
+data.
+1. DIMM.
+2. System board.
+I/O device IRQ conflict. 1. Load “Setup Defaults” in
+IBM BIOS Setup Utility.
+2. Backup battery.
+3. System board.
+Operating system not found. 1. Check that the operating
+system has no failure and is
+installed correctly.
+2. Enter IBM BIOS Setup
+Utility and see whether
+the hard-disk drive and
+the diskette drive are
+properly identified.
+3. Reseat the hard-disk drive.
+4. Reinstall the operating
+system.
+5. Diskette drive.
+6. Hard-disk drive.
+7. System board.
+Hibernation error. 1. Restore the system
+configuration to what it
+was before the computer
+entered hibernation mode.
+2. If memory size has been
+changed, re-create the
+hibernation file.
+Fan error. Fan.
+Thermal sensing error. System board.
+Symptom-to-FRU index
+ThinkPad T30 53
+
+--- Page 58 ---
+Beep symptoms
+Symptom or error FRU or action, in sequence
+One beep and a blank,
+unreadable, or flashing LCD.
+1. Reseat the LCD
+connector.
+2. LCD assembly.
+3. External CRT.
+4. System board.
+One long and two short beeps,
+and a blank or unreadable
+LCD.
+1. System board.
+2. LCD assembly.
+3. DIMM.
+Two short beeps with error
+codes.
+POST error. See “Numeric
+error codes” on page 50.
+Two short beeps and a blank
+screen.
+1. System board.
+2. DIMM.
+Three short beeps, pause,
+three more short beeps, and
+one short beep.
+1. DIMM.
+2. System board
+One short beep, pause, three
+short beeps, pause, three more
+short beeps, and one short
+beep.
+Only cursor appears. Reinstall operating system.
+Four cycles of four short beeps
+and a blank screen.
+System board (IBM security
+chip)
+Five short beeps and a blank
+screen.
+System board
+Symptom-to-FRU index
+54 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 59 ---
+LCD-related symptoms
+Important
+The TFT LCD for the notebook computer contains
+many thin-film transistors (TFTs). A small number of
+dots that are missing, discolored, or always lighted
+is characteristic of TFT LCD technology, but
+excessive pixel problems can cause viewing
+concerns. The LCD should be replaced if the
+number of missing, discolored, or lighted dots in any
+background is:
+v XGA: 8 or more bright dots, 8 or more dark dots,
+or a total of 9 or more bright and dark dots.
+v SXGA+: 11 or more bright dots, 13 or more dark
+dots, or a total of 16 or more bright and dark
+dots.
+Note: A bright dot means a pixel is always on
+(white or color.) A dark dot means a pixel is
+always off (black color.)
+Symptom or error FRU or action, in sequence
+No beep, power-on indicator
+on, and a blank LCD during
+POST.
+System board.
+v LCD backlight not working.
+v LCD too dark.
+v LCD brightness cannot be
+adjusted.
+v LCD contrast cannot be
+adjusted.
+1. Reseat the LCD
+connectors.
+2. LCD assembly.
+3. System board.
+v LCD screen unreadable.
+v Characters missing pixels.
+v Screen abnormal.
+v Wrong color displayed.
+1. See important note for
+“LCD-related symptoms.”
+2. Reseat all LCD connectors.
+3. LCD assembly.
+4. System board.
+Horizontal or vertical lines
+displayed on LCD.
+LCD assembly.
+Symptom-to-FRU index
+ThinkPad T30 55
+
+--- Page 60 ---
+Intermittent problems
+Intermittent system hang problems can be due to a variety
+of causes that have nothing to do with a hardware defect,
+such as cosmic radiation, electrostatic discharge, or
+software errors. FRU replacement should be considered
+only when a problem recurs.
+When analyzing an intermittent problem, do the following:
+1. Run the diagnostic test for the system board in loop
+mode at least 10 times.
+2. If no error is detected, do not replace any FRUs.
+3. If any error is detected, replace the FRU shown by the
+FRU code. Rerun the test to verify that no more errors
+exist.
+Undetermined problems
+You are here because the diagnostic tests did not identify
+which adapter or device failed, wrong devices are installed,
+a short circuit is suspected, or the system is inoperative.
+Follow these procedures to isolate the failing FRU (do not
+isolate FRUs that have no defects).
+Verify that all attached devices are supported by the
+computer.
+Verify that the power supply being used at the time of the
+failure is operating correctly. (See “Power system
+checkout” on page 38.)
+1. Power off the computer.
+2. Visually check each FRU for damage. Replace any
+damaged FRU.
+3. Remove or disconnect all of the following devices:
+a. Non-IBM devices
+b. Devices attached to the port replicator
+c. Printer, mouse, and other external devices
+d. Battery pack
+e. Hard-disk drive
+f. External diskette drive
+g. DIMM
+h. CD-ROM and diskette drive in the Ultrabay
+i. PC Cards
+4. Power on the computer.
+5. Determine whether the problem has changed.
+6. If the problem does not recur, reconnect the removed
+devices one at a time until you find the failing FRU.
+7. If the problem remains, replace the following FRUs one
+at a time (do not replace a nondefective FRU):
+a. System board
+b. LCD assembly
+Symptom-to-FRU index
+56 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 61 ---
+FRU replacement notices
+This section contains notices related to removing and
+replacing parts. Read this section carefully before replacing
+any FRU.
+Screw notices
+Loose screws can cause a reliability problem. In IBM
+ThinkPad computer, this problem is addressed with special
+nylon-coated screws that have the following characteristics:
+v They maintain tight connections.
+v They do not easily come loose, even with shock or
+vibration.
+v They are harder to tighten.
+v They should be used only once.
+Do the following when you service this machine:
+v Keep the screw kit (for the P/N, see “Miscellaneous
+parts” on page 156) in your tool bag.
+v Always use new screws.
+v Use a torque screwdriver if you have one.
+Tighten screws as follows:
+v Plastic to plastic
+Turn an additional 90 degrees after the screw head
+touches the surface of the plastic part:
+90 degrees more
+(Cross-section)
+v Logic card to plastic
+Turn an additional 180 degrees after the screw head
+touches the surface of the logic card:
+180 degrees more
+(Cross-section)
+v Torque driver
+If you have a torque driver, refer to the “Torque” column
+for each step.
+FRU replacement notices
+ThinkPad T30 57
+
+--- Page 62 ---
+v Make sure you use the correct screw. If you have a
+torque screwdriver, tighten all screws firmly to the torque
+shown in the table. Never use a screw that you
+removed. Use a new one. Make sure the screws are
+tightened firmly.
+Retaining serial numbers
+This section includes the following descriptions:
+v “Restoring the serial number of the system unit”
+v “Retaining the UUID”
+Restoring the serial number of the system
+unit
+When the computer was manufactured, the EEPROM on
+the system board was loaded with the serial numbers of
+the system and all major components. These numbers
+need to remain the same throughout the life of the
+computer.
+If you replace the system board, you must restore the
+serial number of the system unit to its original value.
+Before replacing the system board, save the original serial
+number by doing the following:
+1. Install the ThinkPad Hardware Maintenance Diskette
+Version 1.62, and restart the computer.
+2. From the main menu, select 1. Set System
+Identification.
+3. Select 2. Read S/N data from EEPROM.
+The serial number for each device is displayed. Write
+down the serial number of the system unit, designated as
+follows:
+20: System unit serial number
+After you have replaced the system board, restore the
+serial number by doing the following:
+1. Install the ThinkPad Hardware Maintenance Diskette
+Version 1.62 and restart the computer.
+2. From the main menu, select 1. Set System
+Identification.
+3. Select 1. Add S/N data from EEPROM.
+Follow the instructions on the screen.
+Note: The serial number of the system unit is written on
+the label attached on the bottom of the computer.
+Retaining the UUID
+The Universally Unique Identifier (UUID) is a 128-bit
+number uniquely assigned to your computer at production
+FRU replacement notices
+58 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 63 ---
+and stored in the EEPROM of your system board. The
+algorithm that generates the number is designed to provide
+unique IDs until the year A.D. 3400. No two computers in
+the world have the same number.
+When you replace the system board, you must set the
+UUID on the new system board as follows:
+1. Install the ThinkPad Hardware Maintenance Diskette
+Version 1.62, and restart the computer.
+2. From the main menu, select 4. Assign UUID.
+A new UUID is created and written. If a valid UUID
+already exists, it is not overwritten.
+FRU replacement notices
+ThinkPad T30 59
+
+--- Page 64 ---
+Removing and replacing a FRU
+This section presents directions and drawings for use in
+removing and replacing a FRU. Be sure to observe the
+following general rules:
+1. Do not try to service any computer unless you have
+been trained and certified. An untrained person runs
+the risk of damaging parts.
+2. Before replacing any FRU, review “FRU replacement
+notices” on page 57.
+3. Begin by removing any FRUs that have to be removed
+before the failing FRU. Any such FRUs are listed at the
+top of the page. Remove them in the order in which
+they are listed.
+4. Follow the correct sequence in the steps for removing
+the FRU, as indicated in the drawings by the numbers
+in square callouts.
+5. When turning a screw to replace a FRU, turn it in the
+direction indicated by the arrow in the drawing.
+6. When removing the FRU, move it in the direction
+indicated by the arrow in the drawing.
+7. To put the new FRU in place, reverse the removal
+procedure and follow any notes that pertain to
+replacement. For information about connecting and
+arranging internal cables, see “Locations” on page 132.
+8. When replacing a FRU, use the correct screw as
+shown in the procedures.
+DANGER
+Attention: Before the computer is powered on after FRU
+replacement, make sure that all screws, springs, and other
+small parts are in place and are not loose inside the
+computer. Verify this by shaking the computer gently and
+listening for rattling sounds. Metallic parts or metal flakes
+can cause electrical short circuits.
+Attention: The system board is sensitive to, and can be
+damaged by, electrostatic discharge. Before touching it,
+establish personal grounding by touching a ground point
+with one hand or by using an electrostatic discharge (ESD)
+strap (P/N 6405959).
+Before removing any FRU, power off the computer,
+unplug all power cords from electrical outlets,
+remove the battery pack, and then disconnect any
+interconnecting cables.
+Removing and replacing a FRU
+60 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 65 ---
+1010 Battery pack
+DANGER
+1
+2
+The use only the battery in the parts listing for your
+computer. Use of an incorrect battery can result in
+ignition or explosion of the battery.
+Removing and replacing a FRU
+ThinkPad T30 61
+
+--- Page 66 ---
+1020 Ultrabay Plus device
+Note
+Any of Ultrabay Plus devices can be installed into
+the Ultrabay Plus of the computer. The procedure
+for installing and removing is the same for every
+Ultrabay Plus device. For devices supported, see
+“Optional FRUs” on page 159.
+Note: When you release the switch in step 1, the lever
+pops out. Pull the lever a little in step 2 to release
+the device from the bay.
+1
+2
+3
+Removing and replacing a FRU
+62 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 67 ---
+1030 Hard-disk drive
+Attention
+v Do not drop or apply any shock to the
+hard-disk drive. The hard-disk drive is sensitive
+to physical shock. Improper handling can cause
+damage and permanent loss of data.
+v Before removing the drive, have the user make a
+backup copy of all the information on the drive if
+possible.
+v Never remove the drive while the system is
+operating or is in suspend mode.
+For access, remove this FRU:
+v “1010 Battery pack” on page 61
+1
+Note: The hard disk is attached to the cover.
+Step Screw (quantity)
+1 HDD screw (1) or security screw (1)
+Note: Use a 2.5-mm Allen wrench to remove the security screw.
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 63
+
+--- Page 68 ---
+2
+3
+4
+3
+When installing: Make sure that the hard-disk connector
+is firmly attached.
+Removing and replacing a FRU
+64 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 69 ---
+1040 Shock absorber
+For access, remove this FRU:
+v “1010 Battery pack” on page 61
+1. Insert the tip of the tool vertically between the shock
+absorber and the base cover, as indicated by arrow
+a.
+2. Slightly push the tool into the gap, as shown in 1.
+3. Gently pry the shock absorber loose from the dent as
+shown in 2 and 3.
+2
+a
+1
+3
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 65
+
+--- Page 70 ---
+When installing: Attach the new shock absorber, aligning
+the two claws on the bottom side of the
+shock absorber with the small bumps on
+the surface of the base cover. Insert one
+claw into the dent first 1, and then
+push the other side 2 until it snaps.
+Make sure that the shock absorber is
+firmly fixed in the base cover and does
+not move easily.
+1
+2
+Removing and replacing a FRU
+66 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 71 ---
+1050 Backup battery
+DANGER
+For access, remove this FRU:
+v “1010 Battery pack” on page 61
+1
+3
+2
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (1) 0.392 Nm
+(4 kgfcm)
+When installing: Make sure that the battery connector is
+firmly attached, and then secure the
+screw.
+The use only the battery in the parts listing for your
+computer. Use of an incorrect battery can result in
+ignition or explosion of the battery.
+Removing and replacing a FRU
+ThinkPad T30 67
+
+--- Page 72 ---
+Cable routing: When attaching the backup battery to the
+holder, route the battery cable as in the
+following figure.
+Removing and replacing a FRU
+68 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 73 ---
+1060 DIMM
+For access, remove this FRU:
+v “1010 Battery pack” on page 61
+Note: Loosen the screw 1, but do not remove it.
+2
+1
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 69
+
+--- Page 74 ---
+3
+3
+4
+When installing: With the notched end of the DIMM
+toward the socket, insert the DIMM into
+the socket, and then press it firmly. Pivot
+the DIMM until it snaps into place. Make
+sure that the card is firmly fixed in the
+slot and does not move easily.
+Removing and replacing a FRU
+70 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 75 ---
+1070 Mini PCI adapter
+For access, remove this FRU:
+v “1010 Battery pack” on page 61
+Note: Loosen the screws 1, but do not remove them.
+2
+1
+The following illustrations for step 3 to step 8 show the
+combination of the Mini PCI combo card and Bluetooth
+daughter card (BDC).
+Note: Some models do not have Mini PCI guide 3. For
+those models, skip step 3 of removal procedure.
+3
+4
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 71
+
+--- Page 76 ---
+Antenna cables 5a and 5b are for the wireless LAN
+feature, and 7 is for the modem feature. This slot also
+supports a Mini PCI wireless LAN card. In case of you are
+servicing the ThinkPad computer with the Mini PCI
+wireless LAN card, skip the step 7 because the card
+does not have the connector on the Mini PCI wireless LAN
+card.
+Note: When unplugging the antenna jack, do not pull the
+cable; it might snap. Unplug the jack by pulling a
+tab with your fingers.
+MAIN
+AUX
+5a
+5b
+5a
+5b
+When installing: Plug the gray antenna cable with the tab
+marked “MAIN” (5a) into jack J1, and
+the black antenna cable with the tab
+marked “AUX” (5b) into jack J2.
+(continued)
+Removing and replacing a FRU
+72 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 77 ---
+Some Mini PCI Cards do not have the modem function.
+For those cards, skip step 7 because there is no modem
+connector on it.
+7
+8
+6
+6
+When installing: With the notched end of the card toward
+the socket, insert the card into the
+socket, and then press it firmly. Pivot the
+card until it snaps into place. Make sure
+that the card is firmly fixed in the slot
+and does not move easily.
+Removing and replacing a FRU
+ThinkPad T30 73
+
+--- Page 78 ---
+1080 Communication daughter card
+(CDC)
+For access, remove this FRU:
+v “1010 Battery pack” on page 61
+Note: Loosen the screws 1, but do not remove them.
+2
+1
+Modem daughter card (MDC)
+3 3
+Step Screw (quantity) Torque
+3 CDC screw (2) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+74 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 79 ---
+4
+5
+6
+When installing: Make sure that connectors 4 and 6
+are firmly attached.
+Bluetooth daughter card (BDC)
+Following illustrations show the combination of the Mini
+PCI combo card and the BDC.
+3 3
+Step Screw (quantity) Torque
+3 CDC screw (2) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 75
+
+--- Page 80 ---
+5
+4
+6
+When installing: Make sure that connector 5 is firmly
+attached.
+Note: When unplugging the Bluetooth antenna jack, do
+not pull the cable; it might snap. Unplug the jack by
+pulling a tab with your fingers.
+7
+When installing: Make sure that connector 7 is firmly
+attached.
+Removing and replacing a FRU
+76 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 81 ---
+1090 Keyboard
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1060 DIMM” on page 69
+1
+Step Screw (quantity) Torque
+1 M2.5 × 16 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 77
+
+--- Page 82 ---
+2
+3
+4
+In step 5, pull the keyboard a little in the direction of the
+arrow, and then detach the connector 6.
+5
+6
+Removing and replacing a FRU
+78 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 83 ---
+When installing: Install the keyboard, following the
+directions below.
+1. Attach the connector. (Step 6 in the removal
+procedure.)
+2. Make sure that the keyboard edges, shown in the
+figure as (A) and (B), are under the frame.
+(A)
+(B)
+3. Press the keys indicated by arrows to latch the
+keyboard firmly in place.
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 79
+
+--- Page 84 ---
+4. To make sure that the front side of the keyboard is
+housed firmly, gently press the keys with your thumbs
+and try to slide the keyboard towards you.
+5. Secure the keyboard from the bottom of the computer,
+using the new screws provided with the keyboard.
+Removing and replacing a FRU
+80 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 85 ---
+1100 Fan assembly
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1060 DIMM” on page 69
+v “1090 Keyboard” on page 77
+Remove the keyboard CRU insulator before removing the
+fan assembly.
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 81
+
+--- Page 86 ---
+1
+1
+2
+4
+2
+3
+Step Screw (quantity) Torque
+1 M2 × 16 mm, nylon-coated (3) 0.245 Nm
+(2.5 kgfcm)
+When installing: Make sure that the connector 4 is
+firmly attached.
+Note
+For the following models, apply thermal grease on
+the part indicated by arrow a.
+v 2366-all except FBx, JBx, M6x, M7x
+v 2367-all except FBx
+a
+Removing and replacing a FRU
+82 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 87 ---
+Note
+When you replace the system board, I/O card, CPU
+or the base cover for the following models, you
+need to stick new thermal sheet as shown in the
+following procedure.
+v 2366-FBx, JBx, M6x, M7x
+v 2367-FBx
+1. Peel the cover sheet (square) off 1. Then stick the
+thermal sheet to fit to the guide line on the fan
+assembly 2.
+2
+1
+2. Rub over the cover sheet with your finger to stick the
+thermal sheet to the fan well 3.
+3
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 83
+
+--- Page 88 ---
+3. Peel the cover sheet (rectangle) 3 in the direction of
+arrow b. Do not pull the cover sheet (rectangle)
+upward (a) to avoid the thermal rubber comes off
+with the sheet.
+4
+a b
+If some part of the thermal rubber came off with the
+cover sheet, stick the cover sheet on the fan assembly
+again aligning the cracked position. Then rub over the
+cover sheet with your finger well and remove the sheet
+again.
+Removing and replacing a FRU
+84 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 89 ---
+1110 CPU
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1060 DIMM” on page 69
+v “1090 Keyboard” on page 77
+v “1100 Fan assembly” on page 81
+Note: There are two types of CPU socket. Confirm the
+socket type of the computer first.
+Rotate the head of the screw (A) in the direction of the
+arrow 1 to release the lock; then remove the CPU.
+1
+A
+1'
+A'
+Removing and replacing a FRU
+ThinkPad T30 85
+
+--- Page 90 ---
+When installing: Place the CPU on the CPU socket (1),
+and then rotate the head of the screw
+(A) in the direction of arrow 2 to
+secure the CPU.
+1
+2
+A
+2'
+A'
+1'
+Removing and replacing a FRU
+86 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 91 ---
+1120 Keyboard bezel
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1060 DIMM” on page 69
+v “1090 Keyboard” on page 77
+Remove the keyboard CRU insulator before removing the
+keyboard bezel.
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 87
+
+--- Page 92 ---
+1
+1
+2
+2
+2
+2
+2
+Step Screw (quantity) Torque
+1 M2.5 × 16 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+2 M2.5 × 4.8 mm, nylon-coated (5) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+88 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 93 ---
+If the ThinkPad computer you are servicing has the touch
+pad, detach the connector a before removing the screws.
+3
+4
+5
+5
+3
+a
+Step Screw (quantity) Torque
+3 M2.5 × 16 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+4 M2 × 16 mm, nylon-coated (2) 0.245 Nm
+(2.5 kgfcm)
+5 M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+When installing: If the ThinkPad computer you are
+servicing has the touch pad, make sure
+that the connector a is firmly attached.
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 89
+
+--- Page 94 ---
+Pull the corner of the base cover indicated by arrow 6 to
+unlatch the claw a.
+6
+a
+In step 7, make sure that all of the claws (b)onthe
+front side of the computer are detached, and then remove
+the keyboard bezel in the direction of arrow 8.
+8
+7
+b b b b b b
+Removing and replacing a FRU
+90 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 95 ---
+When installing the keyboard bezel, do the following:
+1. Attach the keyboard bezel to the computer, aligning the
+three dents of the bezel with the hinges and the
+projection.
+2. Make sure that all of the claws on the front side of the
+computer (b in removal step 6) are firmly attached.
+3. Make sure that the claw on the bottom side of the
+bezel is firmly attached.
+4. Attach the connector firmly if the ThinkPad computer
+features the touch pad, and then secure the screws.
+Removing and replacing a FRU
+ThinkPad T30 91
+
+--- Page 96 ---
+1130 Hinge cover
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1060 DIMM” on page 69
+v “1090 Keyboard” on page 77
+v “1120 Keyboard bezel” on page 87
+1
+Step Screw (quantity) Torque
+1 M2.5 × 15 mm, nylon-coated (1) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+92 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 97 ---
+2
+When installing: Attach the hinge cover, aligning the two
+projections a on the rear side with the
+two small square holes of the base
+cover.
+aa
+Removing and replacing a FRU
+ThinkPad T30 93
+
+--- Page 98 ---
+1140 LCD assembly
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1060 DIMM” on page 69
+v “1070 Mini PCI adapter” on page 71
+v “1080 Communication daughter card (CDC)” on page 74
+v “1090 Keyboard” on page 77
+v “1120 Keyboard bezel” on page 87
+v “1130 Hinge cover” on page 92
+1
+1
+a
+a
+1
+1
+Some models may not have screw caps a.
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (4) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+94 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 99 ---
+2
+When installing: Make sure that the connector 2 is
+firmly attached.
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 95
+
+--- Page 100 ---
+4
+4
+4
+3
+When installing: Make sure that the antenna cables are
+firmly routed as shown in the figure.
+(continued)
+Removing and replacing a FRU
+96 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 101 ---
+5
+5
+Step Screw (quantity) Torque
+5 M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 97
+
+--- Page 102 ---
+6
+6
+Removing and replacing a FRU
+98 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 103 ---
+When installing: Make sure that the antenna cables are
+routed along the cable holder as shown
+in this figure, and then attach the LCD
+assembly to the base cover by securing
+the screws.
+Removing and replacing a FRU
+ThinkPad T30 99
+
+--- Page 104 ---
+1150 PC Card slot assembly
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1060 DIMM” on page 69
+v “1090 Keyboard” on page 77
+v “1120 Keyboard bezel” on page 87
+2
+1
+1
+Step Screw (quantity) Torque
+1 M2 × 16 mm, nylon-coated (4) 0.245 Nm
+(2.5 kgfcm)
+When installing: Make sure that the connector of the PC
+card slot is firmly attached, and then
+secure the screws.
+Removing and replacing a FRU
+100 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 105 ---
+1160 Speaker assembly
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1090 Keyboard” on page 77
+v “1120 Keyboard bezel” on page 87
+1
+2
+Step Screw (quantity) Torque
+1 M2.5 × 16 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+Removing and replacing a FRU
+ThinkPad T30 101
+
+--- Page 106 ---
+1170 Hard-disk drive slot
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1090 Keyboard” on page 77
+v “1120 Keyboard bezel” on page 87
+v “1160 Speaker assembly” on page 101
+2
+1
+1
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+Removing and replacing a FRU
+102 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 107 ---
+1180 Ultrabay Plus guide rail and
+microphone cable
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1060 DIMM” on page 69
+v “1070 Mini PCI adapter” on page 71
+v “1080 Communication daughter card (CDC)” on page 74
+v “1090 Keyboard” on page 77
+v “1100 Fan assembly” on page 81
+v “1110 CPU” on page 85
+v “1120 Keyboard bezel” on page 87
+v “1130 Hinge cover” on page 92
+v “1140 LCD assembly” on page 94
+1
+1
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 103
+
+--- Page 108 ---
+The microphone cable is attached to the Ultrabay Plus
+guide rail. Remove the Ultrabay Plus guide rail first, and
+then detach the microphone cable.
+2
+Step Screw (quantity) Torque
+2 M2.5 × 4.8 mm, nylon-coated (1) 0.392 Nm
+(4 kgfcm)
+Detach the connector 3, and then lift the left side of the
+Ultrabay Plus guide rail slightly (4). Then remove the
+Ultrabay Plus guide rail in the direction of arrow 5.
+5
+4
+3
+(continued)
+Removing and replacing a FRU
+104 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 109 ---
+Cable routing: When installing, route the microphone
+cable along the cable guide, and attach
+the connector of the microphone cable.
+Removing and replacing a FRU
+ThinkPad T30 105
+
+--- Page 110 ---
+1190 System board
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1060 DIMM” on page 69
+v “1070 Mini PCI adapter” on page 71
+v “1080 Communication daughter card (CDC)” on page 74
+v “1090 Keyboard” on page 77
+v “1100 Fan assembly” on page 81
+v “1110 CPU” on page 85
+v “1120 Keyboard bezel” on page 87
+v “1130 Hinge cover” on page 92
+v “1140 LCD assembly” on page 94
+v “1150 PC Card slot assembly” on page 100
+v “1160 Speaker assembly” on page 101
+v “1170 Hard-disk drive slot” on page 102
+v “1180 Ultrabay Plus guide rail and microphone cable” on
+page 103
+There are two types of system board FRU for the
+ThinkPad T30 series, as follows:
+v System board with IBM security chip (bottom view)
+Note: The security chip a is embedded on the bottom
+side of the system board.
+a
+Removing and replacing a FRU
+106 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 111 ---
+v System board without IBM security chip (bottom view)
+Begin by checking the FRU number of the system board,
+and be sure to use the correct system board FRU for the
+computer. For the FRU numbers, see “Parts list” on
+page 136.
+Important
+If the ThinkPad computer you are servicing has the
+security chip, mind the following:
+v Do not remove the security chip from the
+system board. If the security chip is removed by
+accident, reinstall it on the system board
+immediately. Then make sure that it is firmly fixed
+on the system board and does not move easily.
+v The security chip cannot be used with any other
+system board.
+v The system board cannot be used with other
+security chip.
+v The system board cannot be used without the
+security chip.
+v When you return the defective system board
+FRU, you must check whether the security chip is
+firmly attached to the system board. If it is not
+embedded, it may not be covered under warranty.
+Removing and replacing a FRU
+ThinkPad T30 107
+
+--- Page 112 ---
+2
+1
+When installing: Make sure that the connectors 1 and
+2 are firmly attached.
+3
+4
+Step Screw (quantity) Torque
+3 M2.5 × 4.8 mm, nylon-coated (1) 0.392 Nm
+(4 kgfcm)
+Removing and replacing a FRU
+108 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 113 ---
+When installing:
+v Attach the system board so that the two small
+projections on the base cover fit into the holes a
+provided, and then secure the screw.
+v Make sure that you fastened the connector b firmly to
+the under side of the system board.
+b
+a
+a
+Removing and replacing a FRU
+ThinkPad T30 109
+
+--- Page 114 ---
+1200 Bluetooth antenna louver
+assembly
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1060 DIMM” on page 69
+v “1070 Mini PCI adapter” on page 71
+v “1080 Communication daughter card (CDC)” on page 74
+v “1090 Keyboard” on page 77
+v “1100 Fan assembly” on page 81
+v “1110 CPU” on page 85
+v “1120 Keyboard bezel” on page 87
+v “1130 Hinge cover” on page 92
+v “1140 LCD assembly” on page 94
+v “1150 PC Card slot assembly” on page 100
+v “1160 Speaker assembly” on page 101
+v “1170 Hard-disk drive slot” on page 102
+v “1180 Ultrabay Plus guide rail and microphone cable” on
+page 103
+v “1190 System board” on page 106
+a
+1
+2
+1
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+When installing: Route the Bluetooth antenna cable to fit
+firmly inside the cable guides on the
+base cover as shown in the figure a.
+Removing and replacing a FRU
+110 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 115 ---
+1210 I/O card
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1060 DIMM” on page 69
+v “1070 Mini PCI adapter” on page 71
+v “1080 Communication daughter card (CDC)” on page 74
+v “1090 Keyboard” on page 77
+v “1100 Fan assembly” on page 81
+v “1110 CPU” on page 85
+v “1120 Keyboard bezel” on page 87
+v “1130 Hinge cover” on page 92
+v “1140 LCD assembly” on page 94
+v “1150 PC Card slot assembly” on page 100
+v “1160 Speaker assembly” on page 101
+v “1170 Hard-disk drive slot” on page 102
+v “1180 Ultrabay Plus guide rail and microphone cable” on
+page 103
+v “1190 System board” on page 106
+3
+3
+3
+2
+1
+1
+a
+Some models may not have screw caps a.
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (1) 0.392 Nm
+(4 kgfcm)
+2 M2.5 × 4.8 mm, nylon-coated (3)
+3 Hex stud (6)
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 111
+
+--- Page 116 ---
+Detach the connector 4, and then release the cables
+from the cable guides 5 of the holder.
+4
+5
+5
+When installing: Route the cables as shown in this figure
+and make sure that the connector 4 is
+firmly attached.
+6
+(continued)
+Removing and replacing a FRU
+112 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 117 ---
+Lift the front side of the I/O card slightly 7 to release the
+guide hole a of the card , and then remove the card in
+the direction of the arrow 8.
+7
+8
+a
+Cable routing: When installing the I/O card, make sure
+that you have attached the cable
+connector and the cable holder firmly as
+shown in the figure. Otherwise you will not
+be able to install the system board
+properly.
+Removing and replacing a FRU
+ThinkPad T30 113
+
+--- Page 118 ---
+2010 LCD front bezel
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1050 Backup battery” on page 67
+v “1070 Mini PCI adapter” on page 71
+v “1080 Communication daughter card (CDC)” on page 74
+v “1030 Hard-disk drive” on page 63
+v “1090 Keyboard” on page 77
+v “1120 Keyboard bezel” on page 87
+v “1130 Hinge cover” on page 92
+v “1140 LCD assembly” on page 94
+After removing screws 1 and 2, detach all of the
+latches 3 to 6 in order.
+5
+4
+3
+7
+1
+6
+2
+2
+Step Screw (quantity) Torque
+1 M2 × 4.8 mm, nylon-coated (1) 0.245 Nm
+(2.5 kgfcm)
+2 M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+When installing: Make sure that all of the latches of the
+LCD front bezel are firmly attached to
+the LCD cover.
+Removing and replacing a FRU
+114 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 119 ---
+2020 Inverter card
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1050 Backup battery” on page 67
+v “1070 Mini PCI adapter” on page 71
+v “1080 Communication daughter card (CDC)” on page 74
+v “1030 Hard-disk drive” on page 63
+v “1090 Keyboard” on page 77
+v “1120 Keyboard bezel” on page 87
+v “1130 Hinge cover” on page 92
+v “1140 LCD assembly” on page 94
+v “2010 LCD front bezel” on page 114
+Note
+When you replace the inverter card, check the base
+brightness of the LCD panel that is used with the
+new inverter card, and use the correct inverter card
+FRU for that base brightness. For more details
+about the combination of the inverter card FRU and
+the LCD panel FRU, see “LCD FRUs” on page 149.
+3
+1
+2
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 115
+
+--- Page 120 ---
+Note: Bluetooth button cover a is attached on the
+inverter card when it is shipped. For models do not
+have the Bluetooth features, remove the button
+cover first, and then install the new inverter card.
+a
+When installing: Make sure that connectors 2 and 3
+are firmly attached.
+Cable routing: When replacing the inverter card, route
+the connector cable as in the following
+figure:
+Removing and replacing a FRU
+116 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 121 ---
+2030 LCD panel and LCD cable
+assembly
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1050 Backup battery” on page 67
+v “1070 Mini PCI adapter” on page 71
+v “1080 Communication daughter card (CDC)” on page 74
+v “1030 Hard-disk drive” on page 63
+v “1090 Keyboard” on page 77
+v “1120 Keyboard bezel” on page 87
+v “1130 Hinge cover” on page 92
+v “1140 LCD assembly” on page 94
+v “2010 LCD front bezel” on page 114
+v “2020 Inverter card” on page 115
+Important
+LCD panel FRUs for the ThinkPad T30 series are
+supplied by different vendors and differ in resolution
+and base brightness. When you order and replace
+the LCD panel FRU, note the following:
+v The LCD panel FRU must be used with the
+inverter card corresponding to the base
+brightness.
+v Replace the new LCD panel FRU with one from
+the same vendor, and having the same resolution
+and base brightness as the defective LCD panel.
+v If no LCD panel FRU with the same base
+brightness as the defective LCD panel is
+available, use an “LCD panel and inverter kit”
+from the same vendor, with the same resolution.
+v For more details about the FRU numbers or the
+combination of the LCD panel FRU and the
+inverter card FRU, see “LCD FRUs” on page 149.
+Removing and replacing a FRU
+ThinkPad T30 117
+
+--- Page 122 ---
+1
+1
+1
+1
+Step Screw (quantity) Torque
+1 M2 × 5.7 mm, nylon-coated (4) 0.245 Nm
+(2.5 kgfcm)
+4
+5
+2
+3
+(continued)
+Removing and replacing a FRU
+118 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 123 ---
+6
+6
+When installing the LCD panel, do the following:
+v Place the FPC connector under the black antenna
+cable.
+v Make sure that the antenna cables are firmly routed to
+fit to the cable guides of the LCD cover.
+v Make sure that the antenna cables are not pinched
+under the LCD panel.
+Removing and replacing a FRU
+ThinkPad T30 119
+
+--- Page 124 ---
+2040 Antenna assembly, hinges, and
+LCD cover
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 61
+v “1020 Ultrabay Plus device” on page 62
+v “1030 Hard-disk drive” on page 63
+v “1050 Backup battery” on page 67
+v “1070 Mini PCI adapter” on page 71
+v “1080 Communication daughter card (CDC)” on page 74
+v “1090 Keyboard” on page 77
+v “1120 Keyboard bezel” on page 87
+v “1130 Hinge cover” on page 92
+v “1140 LCD assembly” on page 94
+v “2010 LCD front bezel” on page 114
+v “2020 Inverter card” on page 115
+v “2030 LCD panel and LCD cable assembly” on page 117
+1
+1
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+120 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 125 ---
+2
+2
+3
+Removing and replacing a FRU
+ThinkPad T30 121
+
+--- Page 126 ---
+To install the antenna assembly, do as follows:
+1. Attach the antenna assembly to the hinge, aligning the
+screw hole and the claws a with the edge of the
+hinge.
+Note: Attach the gray cable (MAIN) to the left side and
+the black cable (AUX) to the right side of the
+LCD cover.
+1
+2
+2
+a
+2. Place the antenna assembly on the LCD cover.
+(continued)
+Removing and replacing a FRU
+122 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 127 ---
+3. Make sure that the antenna assembly and hinges are
+firmly attached; there are some projections (b, c)
+on the LCD cover to fix the antenna assembly into
+place. And then, route the gray cable as in this figure.
+b
+c
+3
+3
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 123
+
+--- Page 128 ---
+4. Route the black cable as in figures 4 and 5.
+4
+4
+5
+5. Secure the antenna assembly and hinges with screws
+to the LCD cover.
+Removing and replacing a FRU
+124 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 129 ---
+3010 ThinkPad Dock PCI cover
+Before replacing the PCI cover:
+There are two types of ThinkPad Dock, as follows:
+v ThinkPad Dock: FRU no. 08N1546 (PCI cover: FRU no.
+05K6246)
+v ThinkPad Dock with extension plate: FRU no. 08N1537
+(PCI cover: FRU no. 08N7317)
+Confirm the FRU no. of the ThinkPad Dock first and
+choose the proper PCI cover FRU for the ThinkPad Dock
+you are servicing.
+Removing and replacing a FRU
+ThinkPad T30 125
+
+--- Page 130 ---
+Note: The following illustration shows how to remove the
+PCI cover of ThinkPad Dock (FRU no. 08N1546).
+Do the same to remove the PCI cover of ThinkPad
+Dock with extension plate (FRU no. 08N1537).
+1
+2
+1
+(Bottom view)
+Removing and replacing a FRU
+126 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 131 ---
+3020 ThinkPad Dock top cover
+Note
+This section is only for the ThinkPad Dock (FRU no.
+08N1546). The top cover and screw kit for ThinkPad
+Dock (FRU no. 12P4143) is not available for the
+ThinkPad Dock with extension plate (FRU no.
+08N1537) .
+1
+(Rear view)
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm (2) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad T30 127
+
+--- Page 132 ---
+2
+2
+2
+(Bottom view)
+Step Screw (quantity) Torque
+2 M2.5 × 4.8 mm (8) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+128 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 133 ---
+Make sure that the system lock key A is set to the Unlock
+position. Release the front latches in step 3, and then
+remove the top cover 4. For step 5, see the inside
+view, shown in the circle.
+5
+4
+3
+A
+Removing and replacing a FRU
+ThinkPad T30 129
+
+--- Page 134 ---
+When replacing the top cover, do the following:
+v Make sure that the springs are placed correctly.
+v Make sure that the device release lever is seated
+correctly.
+(continued)
+Removing and replacing a FRU
+130 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 135 ---
+v Make sure that the release button works correctly.
+Removing and replacing a FRU
+ThinkPad T30 131
+
+--- Page 136 ---
+Locations
+Front view
+1 Bluetooth on-off switch (for some models)
+2 Bluetooth status indicator (for some models)
+3 Power status indicators
+4 Power switch
+5 Infrared port
+6 Ultrabay Plus
+Note: The Ultrabay Plus accepts several
+storage devices, such as a DVD drive, a
+CD-RW drive, or a DVD/CD-RW combo
+drive, and also accepts an Ultrabay Plus
+carrier.
+7 Ultrabay Plus device eject lever
+8 Ultrabay Plus latch
+9 Ultrabay Plus status indicator
+10 Built-in microphone
+11 TrackPoint pointing stick
+12 TrackPoint buttons
+13 Touch pad buttons
+14 Touch pad
+15 UltraNav
+16 ThinkPad button
+17 Volume control buttons
+18 System status indicators
+Locations
+132 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 137 ---
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+16
+15
+17
+18
+Locations
+ThinkPad T30 133
+
+--- Page 138 ---
+Rear view
+1 Security keyhole
+2 AC power connector
+3 Video-out connector
+4 Universal serial bus (USB) connectors
+5 Ethernet connector
+6 Modem connector
+7 External-monitor connector
+8 Parallel connector
+9 Serial connector
+10 Power status indicators
+11 Bluetooth status indicator (for some models)
+23456789
+1
+10
+11
+Locations
+134 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 139 ---
+Bottom view
+1 Battery pack
+2 Shock absorber
+3 Battery pack latches
+4 DIMM slots
+5 Docking connector
+6 Mini PCI card and communication daughter card
+slots
+7 PC Card slots
+8 PC Card eject buttons
+9 Stereo headphone jack
+10 Stereo line-in jack
+11 Microphone jack
+12 Hard-disk drive
+13 LCD latches
+14 Built-in stereo speakers
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+13
+13
+14
+12
+Locations
+ThinkPad T30 135
+
+--- Page 140 ---
+Parts list
+T30 series model matrix
+The T30 series includes several models. The following
+table summarizes the characteristics of each model, to
+help you determine which FRU in the part list meets your
+need.
+Model CDC Mini PCI
+adapter
+LCD Bay
+device
+CPU
+T30 (memory, 256 MB; video memory, 16 MB; HDD, 20 GB)
+2366-21x, 61x
+TP
+MDC — 14.1-in.
+XGA with
+antenna
+DVD-
+ROM
+N1.6G
+2366-23x, 63x
+2367-21x, 61x
+TP
+2367-23x, 63x
+2366-D1x, H1x
+TP
+DVD/
+CD-RW
+2366-E2x, K2x
+*1 TP
+BDC 802.11b/
+Modem
+CD-RW
+2366-N6x, R6x MDC — DVD/
+CD-RW
+N1.8G
+2366-66x
+TP
+DVD-
+ROM
+N1.9G
+2366-68x
+2367-66x
+TP
+2367-68x
+2367-67x — 802.11b/
+Modem
+T30 (memory, 256 MB; video memory, 16 MB; HDD, 40 GB 4200
+rpm)
+2366-B1x
+TP
+— 802.11b/
+Modem
+14.1-in.
+XGA with
+antenna
+DVD/
+CD-RW
+N1.6G
+2366-P6x MDC — N1.8G
+2366-41x, 81x,
+C1x, G1x
+TP
+DVD-
+ROM
+2366-43x, 83x
+2366-42x, 82x
+*1 TP
+— 802.11b/
+Modem
+2366-44x, 84x
+*1
+2366-45x, 85x
+*1 TP
+MDC 802.11b
+(CISCO)
+2367-41x, 81x
+TP
+—
+(continued)
+Parts list
+136 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 141 ---
+Model CDC Mini PCI
+adapter
+LCD Bay
+device
+CPU
+T30 (memory, 256 MB; video memory, 16 MB; HDD, 40 GB 4200
+rpm)
+2367-43x, 83x MDC — 14.1-in.
+XGA with
+antenna
+DVD-
+ROM
+N1.8G
+2367-42x, 82x
+*1 TP
+— 802.11b/
+Modem
+2367-44x, 84x
+*1
+T30 (memory, 256 MB; video memory, 16 MB; HDD, 40 GB 5400
+rpm)
+2366-F1x, J1x
+*1 *2 TP
+MDC — 14.1-in.
+SXGA+
+with
+antenna
+DVD/
+CD-RW
+N1.8G
+2366-51x, 91x
+*1 TP
+2366-F2x, J2x
+*1 *2 TP
+BDC 802.11b/
+Modem
+2366-52x, 92x
+*1 TP
+2366-L2x
+*1 TP
+—
+2366-E7x, K7x
+*1 TP
+BDC 14.1-in.
+XGA with
+antenna
+N1.9G
+2366-86x, C6x
+TP
+MDC — DVD-
+ROM
+N2.0G
+2366-88x
+*1
+2366-87x
+*1 TP
+— 802.11b/
+Modem
+2366-89x
+*1
+2366-8Ax
+*1 TP
+MDC 802.11
+(CISCO)
+2366-B2x — 802.11b/
+Modem
+DVD/
+CD-RW
+2366-N7x, R7x MDC —
+2367-86x
+TP
+DVD-
+ROM
+2367-87x
+*1
+— 802.11b/
+Modem
+2367-89x
+2367-88x MDC —
+T30 (memory, 256 MB, video memory. 16 MB; HDD, 60 GB 4200
+rpm)
+2366-56x, 96x
+*1 TP
+MDC — 14.1-in.
+SXGA+
+with
+antenna
+DVD/
+CD-RW
+N2.0G
+2366-5Ax, 9Ax
+*1 *2 TP
+2366-57x, 97x,
+9Cx
+*1 TP
+BDC 802.11b/
+Modem
+2366-5Bx, 9Bx,
+J4x
+*1 *2 TP
+(continued)
+Parts list
+ThinkPad T30 137
+
+--- Page 142 ---
+Model CDC Mini PCI
+adapter
+LCD Bay
+device
+CPU
+T30 (memory, 256 MB; video memory, 16 MB; HDD, 40 GB 4200
+rpm)
+2366-FBx
+*1 TP
+— 802.11b/
+Modem
+14.1-in.
+XGA with
+antenna
+DVD/
+CD-RW
+N2.2G
+2367-FBx
+*1 TP
+T30 (memory, 256 MB; video memory, 16 MB;)
+2366-M6x
+*1 TP
+— 802.11b/
+Modem
+14.1-in.
+XGA with
+antenna
+— N2.2G
+2366-M7x
+*1 TP
+14.1-in.
+SXGA+
+with
+antenna
+N2.4G
+T30 (memory, 256 MB; video memory, 16 MB; HDD, 60 GB 4200
+rpm)
+2366-JBx
+*1 TP
+— 802.11b/
+Modem
+14.1-in.
+SXGA+
+with
+antenna
+DVD/
+CD-RW
+N2.4G
+N xxx G: Mobile Intel
+®
+Pentium
+®
+4 processor - M xxx GHz
+*1: models featuring security chip
+*2: models with 512 MB base memory
+TP: models featuring touch pad
+Parts list
+138 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 143 ---
+Overall
+1
+2
+4
+3
+5
+20
+15
+10
+7
+8
+1112
+c
+a
+d
+9
+13
+14
+25
+16
+19
+17
+18
+6
+21
+24
+e
+f
+27
+28
+22
+23
+b
+26
+Parts list
+ThinkPad T30 139
+
+--- Page 144 ---
+v Each FRU is available for all types or models, unless
+specific types or models are given.
+v The parts marked with asterisks are CRUs (customer
+replaceable units.)
+v FRUs marked with OP are also available as optional
+FRUs.
+No. FRU P/N
+a-f See “Miscellaneous parts” on page 156.
+1 LCD unit (see “LCD FRUs” on page 149).
+2 Keyboard bezel assembly without touch pad
+v 2366-x3x except x3K, A3U, M3U, M3J
+v 2366-x4x except x4K, A4U, M4U, M4J
+v 2366-x8x except x8K
+v 2366-x9x except x9K
+v 2367-x3x except x3K
+v 2367-x4x except x4K
+v 2367-x9x except x9K
+46L4777
+v 2366-x3K, x4K, x8K, x9K except J4K
+v 2367-x3K, x4K, x8K, x9K
+46P2580
+Keyboard bezel assembly with touch pad
+v 2366-x1x except x1K
+v 2366-x2x except x2K
+v 2366-x5x except x5K
+v 2366-x6x except x6K
+v 2366-x7x except x7K
+v 2366-A3U, A4U, A6U, A7U, M3U, M3J,
+M4U, M4J, xAx, xBx, xGx
+v 2367-x1x except x1K
+v 2367-x2x except x2K
+v 2367-x6x except x6K
+v 2367-x7x except x7K
+46L4781
+v 2366-x1K, x2K, x5K, x6K, x7K, and J4K
+v 2367-x1K, x2K, x6K, x7K
+46L6591
+3 Diskette drive (TEAC) OP
+v 2366-xxB, xxC, xxE, xxH, xxJ, xxT
+08K6906*
+Diskette drive (SONY) OP
+v 2366-xxB, xxC, xxE, xxH, xxJ, xxT
+08K9607*
+CD-RW (TEAC) OP
+v 2366-E2x, K2x
+27L4297*
+DVD drive 8x (HITACHI) OP
+v 2366-21x, 23x, 41x, 42x, 43x, 44x, 45x,
+61x, 63x, 66x, 67x, 68x, 81x, 82x, 83x, 84x,
+85x, 86x, 87x, 88x, 89x, 8Ax, 8Gx, C1x,
+C6x, G1x
+v 2367-all
+27L4355*
+(continued)
+Parts list
+140 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 145 ---
+No. FRU P/N
+3 DVD drive 8x (MKE) LW
+v 2366-21x, 23x, 61x, 63x, 66x, 67x, 68x,
+41x, 42x, 43x, 44x, 45x, 81x, 82x, 83x, 84x,
+85x, 86x, 87x, 88x, 89x, 8Ax, 8Gx, C1x,
+C6x, G1x
+v 2367-all
+27L4351*
+DVD/CD-RW combo drive (KME) OP
+v 2366-51x, 52x, 91x, 92x B1x, D1x, F1x,
+F2x, H1x, J1x, J2x, L2x
+27L4359*
+DVD/CD-RW combo drive (TEAC)
+v 2366-51x, 52x, 91x, 92x B1x, D1x, F1x,
+F2x, H1x, J1x, J2x, L2x
+08K9785*
+DVD/CD-RW combo drive (KME)
+v 2366-56x, 57x, 5Ax, 5Bx, 96x, 97x, 9Ax,
+9Bx, E7x, K7x, N6x, R6x, P6x
+v 2366-J4x, B2x, N7x, R7x
+08K9818*
+DVD/CD-RW combo drive (HDLS) OP
+v 2366-56x, 57x, 5Ax, 5Bx, 96x, 97x, 9Ax,
+9Bx, E7x, K7x, N6x, R6x, P6x
+v 2366-J4x, B2x, N7x, R7x
+08K9820*
+DVD/CD-RW combo drive (HDLS) OP
+v 2366-FBx, JBx
+v 2367-FBx
+08K9868*
+For optional Ultrabay Plus devices, see “Optional FRUs”
+on page 159.
+4 Ultrabay Plus guide rail assembly 46L4757
+5 Microphone cable assembly 02K6210
+6 Communication daughter card (CDC)
+Modem daughter card (MDC) AMBIT
+v 2366-21x, 23x, 41x, 43x, 45x, 51x, 56x,
+5Ax, 61x, 63x, 66x, 68x, 81x, 83x, 85x,
+86x, 88x, 8Ax, 8Gx, 91x, 96x, 9Ax, A1x,
+A2x, A3x, A4x, A5x, A6x, C1x, C6x, D1x,
+F1x, H1x, J1x, G1x, M1x, M2x, M3x, M4x,
+N6x, R6x, P6x
+v 2366-N7x, R7x
+v 2367-21x, 23x, 41x, 43x, 61x, 63x, 66x,
+68x, 81x, 83x, 86x, 88x
+26P8256*
+Bluetooth daughter card (BDC)
+v 2366-52x, 57x, 5Bx, 92x, 97x, 9Bx, A7x,
+E2x, E7x, F2x, J2x, K2x, K7x, M5x
+v 2366-J4x
+12P3872
+7 Spacer, I/O card 46L4799
+8 I/O card assembly 91P7213
+(continued)
+Parts list
+ThinkPad T30 141
+
+--- Page 146 ---
+No. FRU P/N
+9 Cover, Mini PCI adapter slot
+v 2366-all except FBx, FJx, M6x, M7x
+v 2367-all except FBx
+46L4775*
+Cover, Mini PCI adapter slot
+v 2366-FBx, FJx, M6x, M7x
+v 2367-FBx
+91P8911*
+10 Battery pack, Li-Ion (6 cell) 2.2 Ah
+PANASONIC OP
+v all models except xxJ
+02K7037*
+models xxJ OP 02K7038*
+Battery pack, Li-Ion (6 cell) 2.2 Ah SANYO
+OP
+v all models except xxJ
+02K7072*
+models xxJ OP 02K7073*
+For optional battery packs, see “Optional FRUs” on
+page 159.
+11 Backup battery 02K6572*
+12 Shock absorber 46P2625*
+13 Cover, DIMM slot 46L4774*
+14 Speaker assembly 02K6206
+15 Base cover assembly for 2366
+WW
+v 2366-23x except 23C, 23K, 23T
+v 2366-41x except 41C, 41K, 41T
+v 2366-43x except 43C, 43K, 43T
+v 2366-51x except 51C, 51K, 51T
+v 2366-61x except 61C, 61K, 61T
+v 2366-63x except 63C, 63K, 63T
+v 2366-81x except 81C, 81K, 81T
+v 2366-83x except 83C, 83K, 83T
+v 2366-91x except 91C, 91K, 91T
+v 2366-A1x, A2x, A3x, A4x, A5x, A6x, C1x,
+D1x, G1x, H1x
+v 2366-56x except 56C, 56K, 56T
+v 2366-5Ax except 5AK
+v 2366-66x except 66C, 66K, 66T
+v 2366-68x except 68C, 68K, 68T
+v 2366-86x except 86C, 86K, 86T
+v 2366-88x except 88C, 88K, 88T
+v 2366-96x except 96C, 96K, 96T
+v 2366-9Ax except 9AK
+v 2366-C6T
+v 2366-M1x, M2x, M3x, M4x, N6x, R6x, P6x
+v 2366-N7x, R7x
+91P8503
+(continued)
+Parts list
+142 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 147 ---
+No. FRU P/N
+15 Base cover assembly for 2366
+WW (wireless)
+v 2366-42x except 42C, 42K, 42T
+v 2366-44x except 44C, 44K, 44T
+v 2366-82x except 82C, 82K, 82T
+v 2366-84x except 84C, 84K, 84T
+v 2366-B1x, L2x
+v 2366-67x except 67C, 67K, 67T
+v 2366-87x except 87C, 87K, 87T
+v 2366-89x except 89C, 89K, 89T
+v 2366-FBx except FBC, FBK, FBT
+v 2366-JBx except JBC, JBK, JBT
+v 2366-B2x, M6x, M7x
+91P8504
+WW (CISCO wireless)
+v 2366-45x except 45C
+v 2366-85x, except 85C
+v 2366-8Ax except 8AC, 8AK, 8AT
+v 2366-8Gx
+91P8505
+WW wireless (BDC+Hopkins)
+v 2366-52x except 52C, 52T
+v 2366-92x except 92C, 92T
+v 2366-A7x, E2x, K2x
+v 2366-57x except 57C, 57K, 57T
+v 2366-5Bx except 5BK
+v 2366-97x except 97C, 97K, 97T
+v 2366-9Bx except 9BK
+v 2366-E7x, K7x, M5x
+91P8506
+China
+v 2366-2xC, 4xC, 5xC, 6xC, 8xC, 9xC
+v 2366-56C, 57C, 66C, 68C, 86C, 87C, 88C,
+89C, 8AC, 96C, 97C
+v 2366-FBC, JBC
+91P8511
+Korea
+v 2366-2xK, 4xK, 6xK, 8xK, FxK, JxK
+v 2366-66K, 68K, 86K, 87K, 88K, 89K, 8AK
+v 2366-FBK, JBK
+91P8510
+Taiwan
+v 2366-2xT, 6xT, 41T, 43T, 51T 81T, 83T, 91T
+v 2366-56T, 66T, 68T, 86T, 88T, 96T, C6T
+91P8507
+Taiwan (wireless)
+v 2366-42T, 44T, 52T, 82T, 84T, 92T
+v 2366-87T, 89T
+v 2366-FBT, JBT
+91P8508
+Taiwan wireless (BDC+Hopkins)
+v 2366-52T, 92T
+v 2366-57T, 97T
+91P8509
+Taiwan wireless (CISCO wireless)
+v 2366-8AT
+91P8519
+Saudi Arabia (CISCO wireless)
+v 2366-xxG
+91P8512
+(continued)
+Parts list
+ThinkPad T30 143
+
+--- Page 148 ---
+No. FRU P/N
+15 Base cover assembly for 2367
+WW
+v 2367-23x except 23C, 23K, 23T
+v 2367-41x except 41C, 41K, 41T
+v 2367-43x except 43C, 43K, 43T
+v 2367-61x except 61C, 61K, 61T
+v 2367-63x except 63C, 63K, 63T
+v 2367-81x except 81C, 81K, 81T
+v 2367-83x except 83C, 83K, 83T
+v 2367-66x except 66C, 66K, 66T
+v 2367-68x except 68C, 68K, 68T
+v 2367-86x except 86C, 86K, 86T
+v 2367-88x except 88C, 88K, 88T
+91P8513
+WW (wireless)
+v 2367-42x except 42C, 42K, 42T
+v 2367-44x except 44C, 44K, 44T
+v 2367-82x except 82C, 82K, 82T
+v 2367-84x except 84C, 84K, 84T
+v 2367-87x except 87C, 87K, 87T
+v 2367-89x except 89C, 89K, 89T
+v 2367-FBx except FBC, FBK, FBT
+91P8514
+China
+v 2367-21C, 23C, 41C, 43C, 51C, 61C, 63C,
+81C, 83C, 91C
+v 2367-66C, 68C, 86C, 87C, 88C, 89C
+v 2367-FBC
+91P8518
+Korea
+v 2367-2xK, 6xK, 41K, 43K, 44K, 81K, 83K,
+84K
+v 2367-66K, 68K, 86K, 87K, 88K, 89K
+v 2367-FBK
+91P8517
+Taiwan
+v 2367-2xT, 6xT, 41T, 43T, 81T, 83T
+v 2367-66T, 68T, 86T, 88T
+v 2367-FBT
+91P8515
+Taiwan (wireless)
+v 2367-42T, 44T, 52T, 82T, 84T, 92T
+v 2367-87T, 89T
+91P8516
+16 Louver Bluetooth antenna assembly 2
+v 2366-52x, 92x, A7x, E2x, F2x, J2x, K2x
+v 2366-57x, 5Bx, 97x, 9Bx, E7x, K7x, M5x
+v 2366-J4x
+46P3042
+(continued)
+Parts list
+144 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 149 ---
+No. FRU P/N
+16 Louver assembly 2
+v 2366-21x, 23x, 41x, 42x, 43x, 44x, 45x,
+51x, 61x, 63x, 81x, 82x, 83x, 84x, 85x, 91x,
+A1x, A2x, A3x, A4x, A5x, A6x, B1x, C1x,
+D1x, F1x, G1x, H1x, J1x, L2x
+v 2366-5Ax, 66x, 67x, 68x, 86x, 87x, 88x,
+89x, 8Gx, 9Ax, M1x, M2x, M3x, M4x, N6x,
+R6x, P6x
+v 2366-B2x, N7x, R7x, FBx, JBx, M6x, M7x
+v 2367-21x, 23x, 41x, 42x, 43x, 44x, 61x,
+63x, 81x, 82x, 83x, 84x
+v 2367-56x, 66x, 68x, 86x, 87x, 88x, 89x,
+8Ax, 96x, C6x
+v 2367-FBx
+46P3041
+17 256-MB DDR SDRAM SO DIMM (PC2100)
+OP
+v 2366-all except 5Ax, 5Bx, 9Ax, 9Bx, F1x,
+F2x, J1x, J2x
+v 2367-all
+10K0031*
+512-MB DDR SDRAM SO DIMM (PC2100)
+OP
+v 2366-all except 5Ax, 5Bx, 9Ax, 9Bx, F1x,
+F2x, J1x, J2x
+10K0033*
+18 IBM High Rate Wireless LAN Mini-PCI Adapter
+China OP
+v 2366-42C, 44C, 52C, 57C, 82C, 84C, 87C,
+89C, 92C, 97C
+26P8313
+WW (except China)
+v 2366-42x, 44x, 52x, 57x, 5Bx, 67x, 82x,
+84x, 87x, 89x, 92x, 97x, 9Bx, A7x, B1x,
+E7x, E2x, F2x, J2x, K2x, K7x, L2x, M5x
+except xxC
+v 2366-B2x, FBx, JBx, M6x, M7x
+v 2367-42x, 44x, 82x, 84x, 87x, 89x except
+xxC
+v 2367-FBx
+26P8442
+WW 2 (except China) OP
+v 2366-42x, 44x, 52x, 57x, 5Bx, 67x, 82x,
+84x, 87x, 89x, 92x, 97x, 9Bx, A7x, B1x,
+E2x, E7x, F2x, J2x, K2x, K7x, L2x, M5x
+except xxC
+v 2366-B2x, FBx, JBx, M6x, M7x
+v 2367-42x, 44x, 82x, 84x, 87x, 89x except
+xxC
+v 2367-FBx
+26P8437
+(continued)
+Parts list
+ThinkPad T30 145
+
+--- Page 150 ---
+No. FRU P/N
+18 Cisco Aironet Wireless 802.11b Mini-PCI by IBM
+NA
+v 2366-45A, 45B, 45F, 45H, 45U, 45M, 85A,
+85B, 85F, 85H, 85U, 85M, 8AA, 8AB, 8AF,
+8AH, 8AU
+26P8319
+China
+v 2366-45C, 85C, 8AC
+26P8325
+EMEA
+v 2366-45G, 85G, 8AG, 8GA
+26P8321
+Japan
+v 2366-45J, 85J, 8AJ
+26P8323
+NA OP
+v 2366-45A, 45B, 45F, 45H, 45U, 45M, 85A,
+85B, 85F, 85H, 85U, 85M, 8AA, 8AB, 8AF,
+8AH, 8AU
+26P8435
+EMEA 2 OP
+v 2366-45G, 85G, 8AG, 8GA
+26P8367
+Japan 2 OP
+v 2366-45J, 85J, 8AJ
+26P8369
+China 2 OP
+v 2366-45C, 85C, 8AC
+26P8371
+19 System board assembly for Pentium 4
+v 2366-21x, 23x, 41x, 43x, 61x, 63x, 81x,
+83x, A1x, A3x, A5x, B1x, C1x, D1x, G1x,
+H1x
+v 2367-21x, 23x, 41x, 43x, 61x, 63x, 81x,
+83x
+26P8205
+System board assembly for Pentium 4 with
+security chip
+v 2366-42x, 44x, 45x, 51x, 52x, 82x, 84x,
+85x, 91x, 92x, A2x, A4x, A6x, A7x, E2x,
+F1x, F2x, J1x, J2x, K2x, L2x
+v 2367-42x, 44x, 82x, 84x
+26P8328
+System board assembly 2 for Pentium 4
+v 2366-66x, 68x, 86x, 88x, C6x, M1x, M3x
+v 2367-66x, 68x, 86x, 88x
+91P7211
+System board assembly 2 for Pentium 4 with
+security chip
+v 2366-56x, 57x, 5Ax, 5Bx, 67x, 87x, 89x,
+8Ax, 8Gx, 96x, 97x, 9Ax, 9Bx, B2x, E7x,
+K7x, M2x, M4x, M5x, N6x, N7x, R6x, R7x,
+P6x, FBx, J4x, JBx, M6x, M7x
+v 2367-87x, 89x, FBx
+91P7212
+20 CPU assembly, Pentium 4 (1.6 GHz)
+v 2366-21x, 23x, 61x, 63x, A1x, A2x, B1x,
+D1x, E2x, H1x, K2x
+v 2367-21x, 23x, 61x, 63x
+26P8242
+(continued)
+Parts list
+146 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 151 ---
+No. FRU P/N
+20 CPU assembly, Pentium 4 (1.8 GHz)
+v 2366-41x, 42x, 43x, 44x, 45x, 51x, 52x,
+81x, 82x, 83x, 84x, 85x, 91x, 92x, A3x,
+A4x, A5x, A6x, A7x, C1x, F1x, F2x, G1x,
+J1x, J2x, L2x, N6x, R6x, P6x
+v 2367-41x, 42x, 43x, 44x, 81x, 82x, 83x,
+84x
+26P8327
+CPU assembly, Pentium 4 (1.9 GHz)
+v 2366-66x, 67x, 68x, E7x, K7x
+v 2367-66x, 68x
+26P8431
+CPU assembly, Pentium 4 (2.0 GHz)
+v 2366-56x, 57x, 5Ax, 5Bx, 86x, 87x, 88x,
+89x, 8Ax, 8Gx, 96x, 97x, 9Ax, 9Bx, C6x,
+M1x, M2x, M3x, M4x, M5x
+v 2366-J4x, B2x, N7x, R7x
+v 2367-86x, 87x, 88x, 89x
+26P8432
+CPU assembly, Pentium 4 (2.2 GHz)
+v 2366-FBx, M6x
+v 2367-FBx
+91P7209
+CPU assembly, Pentium 4 (2.4 GHz)
+v 2366-JBx, M7x
+91P7210
+21 Hard-disk guide rail assembly 46L4768
+22 PC card slot 46L4749
+23 Fan
+v 2366-21x, 23x, 41x, 42x, 43x, 44x, 45x,
+51x, 52x, 61x, 63x, 81x, 83x, 82x, 84x, 85x,
+91x, 92x, A1x, A2x, A3x, A4x, A5x, A6x,
+A7x, B1x, C1x, D1x, E2x, F1x, F2x, G1x,
+H1x, J1x, J2x, K2x, L2x,
+v 2367-21x, 23x, 41x, 42x, 43x, 44x, 61x,
+63x, 81x, 82x, 83x, 84x
+46L4753
+Fan 2
+v 2366-56x, 57x, 5Ax, 5Bx, 66x, 67x, 68x,
+86x, 87x, 88x, 89x, 8Ax, 8Gx, 96x, 97x,
+9Ax, 9Bx, C6x, E7x, K7x, M1x, M2x, M3x,
+M4x, M5x, N6x, R6x, P6x
+v 2366-J4x, B2x, N7x, R7x
+v 2367-66x, 68x, 86x, 87x, 88x, 89x
+46P3132
+Fan
+v 2366-FBx, JBx, M6x, M7x
+v 2367-FBx
+91P8908
+24 Hard-disk drive (20 GB) 9.5 mm 4200 rpm,
+HITACHI
+v 2366-21x, 23x, 61x, 63x, 66x, 67x, 68x,
+D1x, E2x, H1x, K2x, N6x, R6x
+v 2367-21x, 23x, 61x, 63x, 66x, 68x
+08K9533*
+Hard-disk drive (20 GB) 9.5 mm 4200 rpm,
+IBM STD OP
+v 2366-21x, 23x, 61x, 63x, 66x, 67x, 68x,
+D1x, E2x, H1x, K2x, N6x, R6x
+v 2367-21x, 23x, 61x, 63x, 66x, 68x
+27L4286*
+(continued)
+Parts list
+ThinkPad T30 147
+
+--- Page 152 ---
+No. FRU P/N
+24 Hard-disk drive (20 GB) 9.5 mm 4200 rpm,
+FUJITSU
+v 2366-21x, 23x, 61x, 63x, 66x, 67x, 68x,
+D1x, E2x, H1x, K2x, N6x, R6x
+v 2367-21x, 23x, 61x, 63x, 66x, 68x
+27L4385*
+Hard-disk drive (40 GB) 9.5 mm 4200 rpm,
+HITACHI
+v 2366-41x, 42x, 43x, 44x, 45x, 81x, 82x,
+83x, 84x, 85x, B1x, C1x, G1x
+v 2367-41x, 42x, 43x, 44x, 81x, 82x, 83x,
+84x
+08K9767*
+Hard-disk drive (40 GB) 9.5 mm 4200 rpm,
+IBM STD
+v 2366-41x, 42x, 43x, 44x, 45x, 81x, 82x,
+83x, 84x, 85x, B1x, C1x, G1x
+v 2367-41x, 42x, 43x, 44x, 81x, 82x, 83x,
+84x
+08K9683*
+Hard-disk drive (40 GB) 9.5 mm 5400 rpm,
+TOSHIBA
+v 2366-51x, 52x, 91x, 92x, F1x, F2x, J1x,
+J2x, L2x
+08K9758*
+Hard-disk drive (40 GB) 9.5 mm 5400 rpm,
+IBM STD
+v 2366-51x, 52x, 86x, 87x, 88x, 89x, 8Ax,
+8Gx, 91x, 92x, C6x, E7x, F1x, F2x, J1x,
+J2x, K7x, L2x, P6x
+v 2366-B2x, N7x, R7x, FBx
+v 2367-86x, 87x, 88x, 89x
+v 2367-FBx
+27L4384*
+Hard-disk drive (40 GB) 9.5 mm 5400 rpm,
+HITACHI
+v 2366-51x, 52x, 86x, 87x, 88x, 89x, 8Ax,
+8Gx, 91x, 92x, C6x, E7x, F1x, F2x, J1x,
+J2x, K7x, L2x, P6x
+v 2366-B2x, N7x, R7x, FBx
+v 2367-86x, 87x, 88x, 89x
+v 2367-FBx
+08K9834*
+Hard-disk drive (60 GB) 9.5 mm 4200 rpm,
+HITACHI
+v 2366-56x, 57x, 5Ax, 5Bx, 96x, 97x, 9Ax,
+9Bx
+v 2366-J4x, JBx
+08K9833*
+For optional hard-disk drive, see “Optional FRUs” on
+page 159.
+25 Cover, hard-disk drive 46L4795*
+26 Keyboard* (see “Keyboard” on page 153.)
+27 Pointing stick cap 26P9212
+28 Hinge cover 46L4793
+— Telephone cable (SAN TAI) 27L0700*
+— Video cable 27L0531*
+— Recovery CD (see “Recovery CDs” on page 154.)
+— AC adapter (see “AC adapters” on page 156.)
+Parts list
+148 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 153 ---
+LCD FRUs
+5
+6
+8
+2
+1
+3
+4
+7
+Supplier/
+Resolution
+Base
+brightness
+LCD panel
+PPN
+LCD panel
+FRU no.
+(6)
+LCD panel
+and
+inverter kit
+FRU no.
+(7)
+LG/XGA 200nit 11P8218 11P8222 N/A
+150nit 11P8288 11P8293 11P8259
+LG/SXGA+ 200nit 11P8219 11P8223 N/A
+150nit 11P8290 11P8295 11P8307
+SAMSUNG/
+XGA
+200nit 11P8269 11P8272 N/A
+150nit 11P8289 11P8294 11P8306
+SAMSUNG/
+SXGA+
+200nit 11P8270 11P8273 N/A
+150nit 1P8291 11P8296 46L2370
+Parts list
+ThinkPad T30 149
+
+--- Page 154 ---
+14.1-in. XGA TFT
+No. FRU P/N
+1 LCD cover kit 14.1-in. (all models except xxK) 46L3014
+models xxK 46L3015
+2 Hinges 46L4814
+3 LCD cable assembly 14.1 XGA
+v 2366-21x, 23x, 41x, 42x, 43x, 44x, 45x,
+61x, 63x, 66x, 67x, 68x, 81x, 82x, 83x,
+84x, 85x, 86x, 87x, 88x, 89x, 8Ax, 8Gx,
+A1x, A2x, A3x, A4x, B1x, C1x, C6x, D1x,
+E2x, E7x, G1x, H1x, K2x, K7x, M1x, M2x,
+N6x, R6x, P6x
+v 2366-B2x, N7x, R7x, FBx, M6x
+v 2367-all
+27L0705
+4 Antenna assembly for wireless LAN 46L4820
+5 Inverter card assembly for 150nit LCD except
+for 2366-FBx, JBx, M6x, M7x, 2367-FBx
+26P8412
+Inverter card assembly for 200nit LCD 26P8411
+Inverter card assembly for 150nit LCD
+v 2366-FBx, JBx, M6x, M7x
+v 2367-FBx
+91P7147
+6 LCD panel 14.1-in. XGA (LG)
+v 2366-21x, 23x, 41x, 42x, 43x, 44x, 45x,
+61x, 63x, 66x, 67x, 68x, 81x, 82x, 83x,
+84x, 85x, 86x, 87x, 88x, 89x, 8Ax, 8Gx,
+A1x, A2x, A3x, A4x, B1x, C1x, C6x, D1x,
+E2x, E7x, G1x, H1x, K2x, K7x, M1x, M2x,
+N6x, R6x, P6x
+v 2367-all
+11P8222
+LCD panel 14.1-in. XGA (SAMSUNG)
+v 2366-21x, 23x, 41x, 42x, 43x, 44x, 45x,
+61x, 63x, 66x, 67x, 68x, 81x, 82x, 83x,
+84x, 85x, 86x, 87x, 88x, 89x, 8Ax, 8Gx,
+A1x, A2x, A3x, A4x, B1x, C1x, C6x, D1x,
+E2x, E7x, G1x, H1x, K2x, K7x, M1x, M2x,
+N6x, R6x, P6x
+v 2367-all
+11P8272
+LCD panel 14.1-in. XGA (SAMSUNG) 150nit
+v 2366-21x, 23x, 41x, 42x, 43x, 44x, 45x,
+61x, 63x, 66x, 67x, 68x, 81x, 82x, 83x,
+84x, 85x, 86x, 87x, 88x, 89x, 8Ax, 8Gx,
+A1x, A2x, A3x, A4x, B1x, C1x, C6x, D1x,
+E2x, E7x, G1x, H1x, K2x, K7x, M1x, M2x,
+N6x, R6x, P6x
+v 2366-B2x, N7x, R7x, FBx, M6x
+v 2367-all
+11P8294
+(continued)
+Parts list
+150 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 155 ---
+No. FRU P/N
+6 LCD panel 14.1-in. XGA (LG) 150nit
+v 2366-21x, 23x, 41x, 42x, 43x, 44x, 45x,
+61x, 63x, 66x, 67x, 68x, 81x, 82x, 83x,
+84x, 85x, 86x, 87x, 88x, 89x, 8Ax, 8Gx,
+A1x, A2x, A3x, A4x, B1x, C1x, C6x, D1x,
+E2x, E7x, G1x, H1x, K2x, K7x, M1x, M2x,
+N6x, R6x, P6x
+v 2366-B2x, N7x, R7x, FBx, M6x
+v 2367-all
+11P8293
+7 LCD panel/Inverter kit - 14.1-in. XGA (LG)
+150nit
+v 2366-21x, 23x, 41x, 42x, 43x, 44x, 45x,
+61x, 63x, 66x, 67x, 68x, 81x, 82x, 83x,
+84x, 85x, 86x, 87x, 88x, 89x, 8Ax, 8Gx,
+A1x, A2x, A3x, A4x, B1x, C1x, C6x, D1x,
+E2x, E7x, G1x, H1x, K2x, K7x, M1x, M2x,
+N6x, R6x, P6x
+v 2366-B2x, N7x, R7x, FBx, M6x
+v 2367-all
+11P8359
+LCD panel/Inverter kit - 14.1-in. XGA
+(SAMSUNG) 150nit
+v 2366-21x, 23x, 41x, 42x, 43x, 44x, 45x,
+61x, 63x, 66x, 67x, 68x, 81x, 82x, 83x,
+84x, 85x, 86x, 87x, 88x, 89x, 8Ax, 8Gx,
+A1x, A2x, A3x, A4x, B1x, C1x, C6x, D1x,
+E2x, E7x, G1x, H1x, K2x, K7x, M1x, M2x,
+N6x, R6x, P6x
+v 2366-B2x, N7x, R7x, FBx, M6x
+v 2367-all
+11P8306
+8 Clear plate 46P3018
+Parts list
+ThinkPad T30 151
+
+--- Page 156 ---
+14.1-in. SXGA+ TFT
+No. FRU P/N
+1 LCD cover kit 14.1-in. (all models except xxK) 46L3014
+models xxK 46L3015
+2 Hinges 46L4814
+3 LCD cable assembly 14.1 SXGA+
+v 2366-51x, 52x, 56x, 57x, 5Ax, 5Bx, 91x,
+92x, 96x, 97x, 9Ax, 9Bx, A5x, A6x, A7x,
+F1x, F2x, J1x, J2x, L2x, M3x, M4x, M5x
+v 2366-JBx, M7x
+27L0707
+4 Antenna assembly for wireless LAN 46L4820
+5 Inverter card assembly for 150nit LCD except
+for 2366-FBx, JBx, M6x, M7x, 2367-FBx
+26P8412
+Inverter card assembly for 200nit LCD 26P8411
+Inverter card assembly for 150nit LCD
+v 2366-FBx, JBx, M6x, M7x
+v 2367-FBx
+91P7147
+6 LCD panel 14.1-in. SXGA+ (LG)
+v 2366-51x, 52x, 56x, 57x, 5Ax, 5Bx, 91x,
+92x, 96x, 97x, 9Ax, 9Bx, A5x, A6x, A7x,
+F1x, F2x, J1x, J2x, L2x, M3x, M4x, M5x
+11P8223
+LCD panel 14.1-in. SXGA+ (SAMSUNG)
+v 2366-51x, 52x, 56x, 57x, 5Ax, 5Bx, 91x,
+92x, 96x, 97x, 9Ax, 9Bx, A5x, A6x, A7x,
+F1x, F2x, J1x, J2x, L2x, M3x, M4x, M5x
+11P8273
+LCD panel 14.1-in. SXGA+ (LG) 150nit
+v 2366-51x, 52x, 56x, 57x, 5Ax, 5Bx, 91x,
+92x, 96x, 97x, 9Ax, 9Bx, A5x, A6x, A7x,
+F1x, F2x, J1x, J2x, L2x, M3x, M4x, M5x
+v 2366-JBx, M7x
+11P8295
+LCD panel 14.1-in. SXGA+ (SAMSUNG)
+150nit
+v 2366-51x, 52x, 56x, 57x, 5Ax, 5Bx, 91x,
+92x, 96x, 97x, 9Ax, 9Bx, A5x, A6x, A7x,
+F1x, F2x, J1x, J2x, L2x, M3x, M4x, M5x
+v 2366-JBx, M7x
+11P8296
+7 LCD panel/Inverter kit - 14.1-in. SXGA+ (LG)
+150nit
+v 2366-51x, 52x, 56x, 57x, 5Ax, 5Bx, 91x,
+92x, 96x, 97x, 9Ax, 9Bx, A5x, A6x, A7x,
+F1x, F2x, J1x, J2x, L2x, M3x, M4x, M5x
+v 2366-JBx, M7x
+11P8307
+LCD panel/Inverter kit - 14.1-in. SXGA+
+(SAMSUNG) 150nit
+v 2366-51x, 52x, 56x, 57x, 5Ax, 5Bx, 91x,
+92x, 96x, 97x, 9Ax, 9Bx, A5x, A6x, A7x,
+F1x, F2x, J1x, J2x, L2x, M3x, M4x, M5x
+v 2366-JBx, M7x
+46L2370
+Parts list
+152 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 157 ---
+Keyboard
+Language P/N (NMB) P/N (ALPS)
+Arabic 08K4691* 08K4720*
+Belgian 08K4686* 08K4715*
+Chinese, Traditional 08K4688* 08K4717*
+Czech 08K4692* 08K4721*
+Danish 08K4679* 08K4708*
+Dutch 08K4676* 08K4705*
+English, U.K. 08K4672* 08K4701*
+English, U.S. 08K4670* 08K4699*
+French, Canadian 08K4673* 08K4702*
+French, European 08K4675* 08K4704*
+German 08K4674* 08K4703*
+Greek 08K4694* 08K4732*
+Hungarian 08K4693* 08K4722*
+Hebrew 08K4690* 08K4719*
+Italian 08K4680* 08K4709*
+Japanese 08K4671* 08K4700*
+Korean 08K4685* 08K4714*
+Norwegian 08K4678* 08K4707*
+Polish 08K4696* 08K4725*
+Portuguese 08K4683* 08K4712*
+Russian 08K4689* 08K4718*
+Slovak 08K4695* 08K4724*
+Slovenian 08K4697* 08K4726*
+Spanish, European 08K4681* 08K4710*
+Spanish, Latin American 08K4684* 08K4713*
+Swedish or Finnish 08K4677* 08K4706*
+Swiss 08K4682* 08K4711*
+Thai 08K4698* 08K4727*
+Turkish 08K4687* 08K4716*
+Parts list
+ThinkPad T30 153
+
+--- Page 158 ---
+Recovery CDs
+For Windows 2000
+Language P/N
+Arabic 01R5373*
+Chinese, Simplified 67P4704*
+Chinese, Traditional 67P4702*
+Chinese, Traditional (Hong Kong S.A.R.) 67P4706*
+Czech 01R5374*
+Danish 01R5364*
+Dutch 01R5371*
+English, U.K. 01R5362*
+English, U.S. 01R5361*
+Finnish 01R5370*
+French 01R5365*
+German 01R5366*
+Greek 01R5378*
+Hebrew 01R5375*
+Hungarian 01R5379*
+Italian 01R5369*
+Japanese 62P8915*
+Norwegian 01R5372*
+Polish 01R5376*
+Portuguese 01R5363*
+Russian 01R5380*
+Spanish 01R5367*
+Swedish 01R5368*
+Turkish 01R5377*
+Parts list
+154 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 159 ---
+For Windows XP professional
+Language P/N
+Arabic 01R5433*
+Chinese, Simplified 67P4705*
+Chinese, Traditional 67P4703*
+Chinese, Traditional (Hong Kong S.A.R.) 67P4707*
+Czech 01R5434*
+Danish 01R5424*
+Dutch 01R5431*
+English, U.K. 01R5422*
+English, U.S. 01R6864*
+Finnish 01R5430*
+French 01R5425*
+German 01R5426*
+Greek 01R5438*
+Hebrew 01R5435*
+Hungarian 01R5439*
+Italian 01R5429*
+Japanese 62P8918*
+Norwegian 01R5432*
+Polish 01R5436*
+Portuguese 01R5423*
+Russian 01R5440*
+Spanish 01R5427*
+Swedish 01R5428*
+Turkish 01R5437*
+Parts list
+ThinkPad T30 155
+
+--- Page 160 ---
+AC adapters
+FRU P/N
+2-pin (72 W), ASTEC (models xxF, xxJ, xxP, xxS,
+xxU, xxX) OP
+02K6756*
+2-pin (72 W), DELTA (models xxF, xxJ, xxP, xxS,
+xxU, xxX) OP
+02K6753*
+2-pin (72 W), SANKEN (models xxF, xxJ, xxP, xxS,
+xxU, xxX) OP
+02K6757*
+3-pin (72W), ASTEC (models xxA, xxC, xxG, xxH,
+xxK, xxM, xxT) OP
+02K6751*
+3-pin (72W), DELTA (models xxA, xxC, xxG, xxH,
+xxK, xxM, xxT) OP
+02K6754*
+Miscellaneous parts
+FRU P/N
+Screw kit (including nylon-coated screws):
+v M3.0 × 2.8 mm, flat head (4)
+v M2.5 × 16.0 mm, flat head (9)
+v M2.5 × 4.8 mm, flat head (33)
+v M2.0 × 16.0 mm, pan head (1)
+v M2.0 × 4.0 mm, small head (7)
+v CDC screw (4)
+v HDD screw, M3.0 × 11.0 mm(1)
+v Hex stud, D-sub (6)
+v Security screw (1)
+v Screw caps (3)
+v Screw caps (not painted) (2)
+v Screw caps, oval (6)
+v Screw caps (rear) (2)
+v Screw caps USB (3)
+46L6594
+System miscellaneous parts:
+v (a) Cable, RJ11 to docking connector (system
+board)
+v (c) Backup battery holder
+v (d) Louver bracket
+v (e) Insulator, keyboard CRU
+v (b) DC jack cable
+v Easy button cover
+v MiniPCI guide
+v Logo (large)
+v Thermal grease
+v Screw caps
+Note: Italicized letters in parentheses are
+references to the exploded view on page 139.
+46L5037
+(continued)
+Parts list
+156 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 161 ---
+FRU P/N
+Base miscellaneous parts 1:
+v Lens, IR
+v Cover, Mini PCI adapter
+v Shield sheet
+v Spring, PC Card slot lid
+v Spring, docking lid
+v Lid, docking (front)
+v Lid, docking (rear)
+v Rubber foot (front)
+v Rubber foot (rear)
+v DIMM plate
+v ESD plate, CPU
+v ESD plate, docking
+v Insulator on base cover A
+v Insulator on base cover B
+v Cu plate
+v Thermal rubber 1
+v Thermal rubber 2
+v Thermal sponge 1
+v Thermal sponge 2
+v Latch, battery lock
+v Knob, battery lock
+v Spring, battery lock
+v Label, danger, for backup battery
+v Landing pad
+v Thermal grease
+v Screw caps
+46L6593
+System board miscellaneous parts 1:
+v CDC studs
+v Insulator, PC Card slot
+v Insulator, battery latch
+v Security chip spacer
+v Insulator, docking latch
+v Insulator, CPU
+v Insulator, hard-disk drive bottom
+v (f) Cable holder
+v Form, docking connector A
+v Form, docking connector B
+v Thermal rubber (large)
+v Thermal rubber (small)
+v Insulator for fan
+v Shock rubber spacer
+v Thermal grease
+v Screw caps
+Note: Italicized letters in parentheses are
+references to the exploded view on page 139.
+46L6595
+(continued)
+Parts list
+ThinkPad T30 157
+
+--- Page 162 ---
+FRU P/N
+Base miscellaneous parts 2:
+v Lens, IR
+v Cover, Mini PCI adapter
+v Shield sheet
+v Spring, PC Card slot lid
+v Spring, docking lid
+v Lid, docking (front)
+v Lid, docking (rear)
+v Rubber foot (front)
+v Rubber foot (rear)
+v DIMM plate
+v ESD plate, CPU
+v ESD plate, docking
+v Insulator on base cover A
+v Insulator on base cover B
+v Cu plate
+v Thermal rubber 1
+v Thermal rubber 2
+v Thermal sponge 1
+v Thermal sponge 2
+v Latch, battery lock
+v Knob, battery lock
+v Spring, battery lock
+v Label, danger, for backup battery
+v Landing pad
+v Thermal grease
+v Screw caps, USB
+v Screw caps
+62P4049
+System board miscellaneous parts 2:
+v CDC studs
+v Insulator, PC Card slot
+v Insulator, battery latch
+v Security chip spacer
+v Insulator, docking latch
+v Insulator, CPU
+v Insulator, hard-disk drive bottom
+v (f) Cable holder
+v Form, docking connector A
+v Form, docking connector B
+v Form, fan (large)
+v Form, fan (small)
+v Form, fan blade
+v Insulator for fan
+v Shock rubber spacer
+v Screw caps
+Note: Italicized letters in parentheses are
+references to the exploded view on page 139.
+62P4050
+Parts list
+158 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 163 ---
+Optional FRUs
+Ultrabay Plus devices
+FRU P/N
+SuperDisk drive, LS-240 (MKE) 08K9615*
+2nd HDD adapter 08K6067*
+Ultrabay Plus battery, Li-Ion (SANYO) (excepting
+-xxJ, xxE)
+02K6817*
+Ultrabay Plus battery, Li-Ion (SANYO) (for -xxJ, xxE) 02K6818*
+Ultrabay Plus device carrier 26P9388*
+Ultrabay Plus numeric keypad 19K2056*
+Ultrabay Plus cradle for WorkPad c500 series 26P9389*
+Other optional FRUs
+FRU P/N
+Hard-disk drive (60 GB) 5400 rpm 08K9700*
+UltraPort camera 02K5153*
+IBM tripod 08K6449*
+UltraPort adapter and connector cover 08K6105*
+USB cable attachment 08K6108*
+USB cable 27L0542*
+Bluetooth UltraPort module 09N9813*
+ThinkPad Dock 08N1546*
+PCI cover 05K6246*
+ThinkPad Dock with extension plate 08N1537*
+PCI cover 08N7317*
+Top cover and screw kit for ThinkPad Dock 12P4143*
+ThinkPad Port Replicator 08N1536*
+Multiple battery charger 02K6642*
+Diskette drive cable 27L0525*
+Conversion adapter for diskette drive cable 08K6360*
+Diskette drive (TEAC) 08K9606*
+Diskette drive (SONY) 08K9607*
+Parts list
+ThinkPad T30 159
+
+--- Page 164 ---
+Common parts list
+Tools
+Tool P/N
+Triconnector wrap plug 72X8546
+PC test card 35G4703
+Audio wrap cable 66G5180
+USB parallel test cable 05K2580
+Screwdriver kit 95F3598
+Torque screwdriver 05K4695
+5 mm socket wrench 05K4694
+Screwdriver 27L8126
+ThinkPad hardware maintenance diskette version
+1.62
+Note: Download the file from the following Web site:
+http://www.ibm.com/pc/partner/infotips
+—
+Power cords (system)
+IBM power cords for a specific country or region are
+usually available only in that country or region:
+For 2-pin power cords:
+Region P/N
+Canada, U.S. 13H5264*
+Japan 13H5273*
+Argentina 36L8870*
+For 3-pin power cords:
+Region P/N
+Australia, New Zealand 76H3514*
+Taiwan, Thailand 76H3516*
+Italy 76H3530*
+Denmark 76H3520*
+U.K., China (Hong Kong S.A.R.) 76H3524*
+European countries 76H3518*
+India, South Africa 76H3522*
+Israel 76H3532*
+Korea 76H3535*
+China (P.R.C.) (other than Hong Kong S.A.R.) 02K0539*
+Switzerland 76H3528*
+Parts list
+160 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 165 ---
+Power cords (ThinkPad Dock)
+IBM power cords for a specific country or region are
+usually available only in that country or region:
+For 3-pin power cords:
+Region P/N CRU
+ID
+Argentina 36L8868 *
+Australia, New Zealand 75H8988
+Canada, Thailand, U.S. 75H8989
+Denmark 75H8992
+European countries 75H8990
+India, South Africa 75H8993
+Israel 75H8999
+Italy 75H8998
+Japan 75H8996
+Korea 76H3536
+China (P.R.C.) (other than Hong Kong S.A.R) 02K0540
+Switzerland 75H8997
+U.K. 75H8994
+Parts list
+ThinkPad T30 161
+
+--- Page 166 ---
+Notices
+References in this publication to IBM products, programs,
+or services do not imply that IBM intends to make these
+available in all countries in which IBM operates. Any
+reference to an IBM product, program, or service is not
+intended to state or imply that only that IBM product,
+program, or service may be used. Any functionally
+equivalent product, program, or service that does not
+infringe any of the intellectual property rights of IBM may
+be used instead of the IBM product, program, or service.
+The evaluation and verification of operation in conjunction
+with other products, except those expressly designated by
+IBM, are the responsibility of the user.
+IBM may have patents or pending patent applications
+covering subject matter in this document. The furnishing of
+this document does not give you any license to these
+patents. You can send license inquiries, in writing, to the
+IBM Director of Licensing, IBM Corporation, 500 Columbus
+Avenue, Thornwood, NY 10594, U.S.A.
+Trademarks
+The following terms are trademarks of the IBM Corporation
+in the United States or other countries or both:
+Asset ID
+IBM
+OS/2
+ThinkLight
+ThinkPad
+TrackPoint
+Ultrabay
+UltraPort
+UltraNav
+Microsoft, Windows, and Windows NT are trademarks of
+Microsoft Corporation in the United States and/or other
+countries.
+Intel, Pentium, and SpeedStep are trademarks of Intel
+Corporation in the United States and/or other countries.
+(For a complete list of Intel trademarks, see the legal
+information on http://www.intel.com/)
+Other company, product, or service names may be the
+trademarks or service marks of others.
+Notices
+162 ThinkPad T30 (MT 2366, 2367)
+
+--- Page 168 ---
+
+Part Number: 92P1840
+Printed in U.S.A.
+(1P) P/N: 92P1840
+

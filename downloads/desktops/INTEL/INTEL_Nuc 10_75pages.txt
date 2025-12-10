@@ -1,0 +1,3429 @@
+Brand: INTEL
+Model: Nuc 10
+URL: https://www.manua.ls/intel/nuc-10/manual
+Total Pages: 75
+============================================================
+
+--- Page 1 ---
+Intel® NUC Products 
+NUC10i3FN/NUC10i5FN/ 
+NUC10i7FN 
+Technical Product Specification 
+Regulatory Models:  NUC10FNK (Slim Kit/Mini PC) 
+  NUC10FNH (Tall Kit/Mini PC) 
+  NUC10FNB (Board) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Aug 2020 
+Rev 002
+
+--- Page 2 ---
+ii 
+Intel NUC Products NUC10i3FN, NUC10i5FN and NUC10i7FN may contain design defects or errors known as errata that may cause the product to 
+deviate from published specifications.  Current characterized errata, if any, are documented in Intel NUC Products 
+NUC10i3FN/NUC10i5FN/NUC10i7FN Specification Update. 
+Revision History 
+Revision 
+Revision History 
+Date 
+001 
+First release of Intel NUC Products NUC10i3FN/NUC10i5FN/NUC10i7FN Technical 
+Product Specification 
+Nov 2019 
+002 
+Updated Common Notations table; corrected “PCH” in Feature Summary; 
+corrected USB front panel ports 
+Aug 2020 
+ 
+ 
+ 
+ 
+ 
+ 
+Disclaimer 
+This product specification applies to only the standard Intel NUC Board, Kit or System with BIOS identifier 
+FNCML357.86A. 
+INFORMATION IN THIS DOCUMENT IS PROVIDED IN CONNECTION WITH INTEL
+®
+ PRODUCTS. NO LICENSE, EXPRESS OR 
+IMPLIED, BY ESTOPPEL OR OTHERWISE, TO ANY INTELLECTUAL PROPERTY RIGHTS IS GRANTED BY THIS DOCUMENT. 
+EXCEPT AS PROVIDED IN INTEL’S TERMS AND CONDITIONS OF SALE FOR SUCH PRODUCTS, INTEL ASSUMES NO 
+LIABILITY WHATSOEVER, AND INTEL DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTY, RELATING TO SALE AND/OR 
+USE OF INTEL PRODUCTS INCLUDING LIABILITY OR WARRANTIES RELATING TO FITNESS FOR A PARTICULAR PURPOSE, 
+MERCHANTABILITY, OR INFRINGEMENT OF ANY PATENT, COPYRIGHT OR OTHER INTELLECTUAL PROPERTY RIGHT. 
+UNLESS OTHERWISE AGREED IN WRITING BY INTEL, THE INTEL PRODUCTS ARE NOT DESIGNED NOR INTENDED FOR 
+ANY APPLICATION IN WHICH THE FAILURE OF THE INTEL PRODUCT COULD CREATE A SITUATION WHERE PERSONAL 
+INJURY OR DEATH MAY OCCUR.  
+All Intel NUC Boards are evaluated as Information Technology Equipment (I.T.E.) for use in personal computers (PC) for 
+installation in homes, offices, schools, computer rooms, and similar locations. The suitability of this product for other PC 
+or embedded non-PC applications or other environments, such as medical, industrial, alarm systems, test equipment, etc. 
+may not be supported without further evaluation by Intel. 
+Intel Corporation may have patents or pending patent applications, trademarks, copyrights, or other intellectual property 
+rights that relate to the presented subject matter. The furnishing of documents and other materials and information does 
+not provide any license, express or implied, by estoppel or otherwise, to any such patents, trademarks, copyrights, or 
+other intellectual property rights. 
+Intel may make changes to specifications and product descriptions at any time, without notice. 
+Designers must not rely on the absence or characteristics of any features or instructions marked “reserved” or 
+“undefined.” Intel reserves these for future definition and shall have no responsibility whatsoever for conflicts or 
+incompatibilities arising from future changes to them. 
+Intel processor numbers are not a measure of performance. Processor numbers differentiate features within each 
+processor family, not across different processor families: Go to:   
+Learn About Intel
+®
+ Processor Numbers 
+Intel NUC may contain design defects or errors known as errata, which may cause the product to deviate from published 
+specifications. Current characterized errata are available on request. 
+Contact your local Intel sales office or your distributor to obtain the latest specifications before placing your product 
+order. 
+Intel, the Intel logo, Intel NUC and Intel Core are trademarks of Intel Corporation in the U.S. and/or other countries. 
+* Other names and brands may be claimed as the property of others.  
+Copyright © 2020 Intel Corporation.  All rights reserved.
+
+--- Page 3 ---
+Board Identification Information 
+ 
+iii 
+Note: For this Technical Product Specification, the use of Intel NUC Products 
+NUC10i3FN/NUC10i5FN/NUC10i7FN refers to Intel NUC 10 Performance Kit NUC10i3FNH, 
+Intel NUC 10 Performance Kit NUC10i5FNH, Intel NUC 10 Performance Kit NUC10i7FNH, Intel 
+NUC 10 Performance Kit NUC10i3FNK, Intel NUC 10 Performance Kit NUC10i5FNK, Intel NUC 
+10 Performance Kit NUC10i7FNK, Intel NUC 10 Performance Mini PC NUC10i3FNKx, Intel NUC 
+10 Performance Mini PC NUC10i5FNKx, Intel NUC 10 Performance Mini PC NUC10i7FNKx, Intel 
+NUC 10 Performance Mini PC NUC10i3FNHx, Intel NUC 10 Performance Mini PC NUC10i5FNHx, 
+Intel NUC 10 Performance Mini PC NUC10i7FNHx, and Intel NUC Boards NUC10i3FNB, 
+NUC10i5FNB and NUC10i7FNB. 
+Board Identification Information 
+Basic Intel® NUC Board NUC10i3FNB Identification Information 
+AA Revision 
+BIOS Revision 
+Notes 
+K51826-xxx 
+FNCML357.vvvv.yyyy.dddd.tttt 
+1,2,3 
+Notes: 
+1.  Where, v = version, y = year, d = date, t = time 
+2.   The AA number is found on a small label on the SO-DIMM sockets. 
+3.  The Intel® Core™ i3-10110U processor is used on this AA revision consisting of the following component: 
+Device 
+Stepping 
+S-Spec Numbers 
+Intel Core i3-10110U 
+V0 
+SRGL0 
+ 
+Basic Intel® NUC Board NUC10i5FNB Identification Information 
+AA Revision 
+BIOS Revision 
+Notes 
+K51825-xxx 
+FNCML357.vvvv.yyyy.dddd.tttt 
+1,2,3 
+Notes: 
+1.  Where, v = version, y = year, d = date, t = time 
+2.  The AA number is found on a small label on the SO-DIMM sockets. 
+3.  The Intel® Core™ i5-10210U processor is used on this AA revision consisting of the following component: 
+Device 
+Stepping 
+S-Spec Numbers 
+Intel Core i5-10210U 
+V0 
+SRGKY 
+ 
+Basic Intel® NUC Board NUC10i7FNB Identification Information 
+AA Revision 
+BIOS Revision 
+Notes 
+K51823-xxx 
+FNCML357.vvvv.yyyy.dddd.tttt 
+1,2,3 
+Notes: 
+1.  Where, v = version, y = year, d = date, t = time 
+2.  The AA number is found on a small label on the SO-DIMM sockets. 
+3.  The Intel® Core™ i7-10710U processor is used on this AA revision consisting of the following component: 
+Device 
+Stepping 
+S-Spec Numbers 
+Intel Core i7-10710U 
+A0 
+SRGP2
+
+--- Page 4 ---
+Product Identification Information 
+ 
+iv 
+Product Identification Information  
+Intel® NUC Products NUC10i3FN/NUC10i5FN/NUC10i7FN Identification Information 
+Product Name 
+Intel® NUC 
+Board 
+Differentiating Features 
+NUC10i3FNK 
+NUC10i3FNB 
+K51826-xxx 
+Kit with power adapter, “Intel® NUC 10 Performance kit” 
+NUC10i3FNH 
+HDD-capable kit with power adapter, “Intel® NUC 10 Performance kit” 
+NUC10i3FNHF6 
+HDD kit with power adapter, 16GB Intel® Optane™ Module, 1TB HDD, 
+4GB DDR4-2666 SDRAM
+[1]
+, “Intel® NUC 10 Performance Mini PC” 
+NUC10i3FNHFA 
+HDD kit with power adapter, 16GB Intel® Optane™ Module, 1TB HDD, 
+4GB DDR4-2666 SDRAM
+[1]
+, Microsoft Windows 10 Home, “Intel® NUC 
+10 Performance Mini PC, a Mini PC with Windows 10” 
+NUC10i3FNHJA 
+HDD kit with power adapter, 16GB Intel® Optane™ Module, 1TB HDD, 
+8GB DDR4-2666 SDRAM
+[1]
+, Microsoft Windows 10 Home, “Intel® NUC 
+10 Performance Mini PC, a Mini PC with Windows 10” 
+NUC10i5FNK 
+NUC10i5FNB 
+K51825-xxx 
+Kit with power adapter, “Intel® NUC 10 Performance kit” 
+NUC10i5FNKP6 
+HDD kit with power adapter, 256GB SSD, 8GB DDR4-2666 SDRAM
+[1]
+, 
+“Intel® NUC 10 Performance Mini PC” 
+NUC10i5FNKPA 
+HDD kit with power adapter, 256GB SSD, 8GB DDR4-2666 SDRAM
+[1]
+, 
+Microsoft Windows 10 Home, “Intel® NUC 10 Performance Mini PC, a 
+Mini PC with Windows 10” 
+NUC10i5FNH 
+HDD-capable kit with power adapter, “Intel® NUC 10 Performance kit” 
+NUC10i5FNHCA 
+HDD kit with power adapter, 1TB HDD, 256GB SSD, 8GB DDR4-2666 
+SDRAM
+[1]
+, Microsoft Windows 10 Home, “Intel® NUC 10 Performance 
+Mini PC, a Mini PC with Windows 10” 
+NUC10i5FNHF6 
+HDD kit with power adapter, 16GB Intel® Optane™ Module, 1TB HDD, 
+4GB DDR4-2666 SDRAM
+[1]
+, “Intel® NUC 10 Performance Mini PC” 
+NUC10i5FNHJA 
+HDD kit with power adapter, 16GB Intel® Optane™ Module, 1TB HDD, 
+8GB DDR4-2666 SDRAM
+[1]
+, Microsoft Windows 10 Home, “Intel® NUC 
+10 Performance Mini PC, a Mini PC with Windows 10” 
+NUC10i7FNK 
+NUC10i7FNB 
+K51823-xxx 
+Kit with power adapter, “Intel® NUC 10 Performance kit” 
+NUC10i7FNKP6 
+HDD kit with power adapter, 256GB SSD, 8GB DDR4-2666 SDRAM
+[1]
+, 
+“Intel® NUC 10 Performance Mini PC” 
+NUC10i7FNKPA 
+HDD kit with power adapter, 256GB SSD, 8GB DDR4-2666 SDRAM
+[1]
+, 
+Microsoft Windows 10 Home, “Intel® NUC 10 Performance Mini PC, a 
+Mini PC with Windows 10” 
+NUC10i7FNH 
+HDD-capable kit with power adapter, “Intel® NUC 10 Performance kit” 
+NUC10i7FNHAA 
+HDD kit with power adapter, 1TB HDD, 256GB SSD, 16GB DDR4-2666 
+SDRAM
+[1]
+, Microsoft Windows 10 Home, “Intel® NUC 10 Performance 
+Mini PC, a Mini PC with Windows 10” 
+NUC10i7FNHC6 
+HDD kit with power adapter, 1TB HDD, 256GB SSD, 8GB DDR4-2666 
+SDRAM
+[1]
+, Microsoft Windows 10 Home, “Intel® NUC 10 Performance, 
+a Mini PC with Windows 10” 
+NUC10i7FNHJA 
+HDD kit with power adapter, 16GB Intel® Optane™ Module, 1TB HDD, 
+8GB DDR4-2666 SDRAM
+[1]
+, Microsoft Windows 10 Home, “Intel® NUC 
+10 Performance Mini PC, a Mini PC with Windows 10” 
+Notes: 
+The maximum supported memory speed of the Intel NUC Board NUC10i[x]FNB is 2666 MHz.
+
+--- Page 5 ---
+Preface 
+ 
+v 
+Specification Changes or Clarifications 
+The table below indicates the Specification Changes or Specification Clarifications that apply to 
+the Intel NUC Products NUC10i3FN, NUC10i5FN and NUC10i7FN.   
+Specification Changes or Clarifications 
+Date 
+Type of Change 
+Description of Changes or Clarifications 
+ 
+ 
+ 
+ 
+ 
+ 
+Errata 
+Current characterized errata, if any, are documented in a separate Specification Update.  See 
+http://www.intel.com/content/www/us/en/nuc/overview.html for the latest documentation. 
+Preface 
+This Technical Product Specification (TPS) specifies the board layout, components, connectors, 
+power and environmental requirements, and the BIOS for Intel® NUC Board NUC10i3FNB, Intel® 
+NUC Board NUC10i5FNB and Intel® NUC Board NUC10i7FNB.    
+Intended Audience 
+The TPS is intended to provide detailed, technical information about Intel® NUC Board 
+NUC10i3FNB, Intel® NUC Board NUC10i5FNB and Intel® NUC Board NUC10i7FNB and its 
+components to the vendors, system integrators, and other engineers and technicians who need 
+this level of information.  It is specifically not intended for general audiences. 
+What This Document Contains 
+Chapter 
+Description  
+1 
+A description of the features and hardware used on Intel NUC Board NUC10i3FNB, Intel 
+NUC Board NUC10i5FNB and Intel NUC Board NUC10i7FNB 
+2 
+A map of the resources of the Intel NUC Board 
+3 
+The features supported by the BIOS Setup program 
+4 
+A description of the BIOS error messages, beep codes, and POST codes 
+5 
+A description of the Intel NUC kit NUC10i3FN[x], Intel NUC kit NUC10i5FN[x] and Intel NUC 
+kit NUC10i7FN[x] features
+
+--- Page 6 ---
+Preface 
+ 
+vi 
+Typographical Conventions 
+This section contains information about the conventions used in this specification.  Not all these 
+symbols and abbreviations appear in all specifications of this type. 
+Notes, Cautions, and Warnings 
+ 
+NOTE 
+Notes call attention to important information. 
+  CAUTION 
+Cautions are included to help you avoid damaging hardware or losing data.
+
+--- Page 7 ---
+Preface 
+ 
+vii 
+Other Common Notation 
+ 
+# 
+Used after a signal name to identify an active-low signal (such as USBP0#) 
+GB 
+Gigabyte (1,073,741,824 bytes) 
+Gb 
+Gigabit (1,073,741,824 bits) 
+GBps 
+Gigabytes per second 
+Gbps 
+Gigabits per second 
+KB 
+Kilobyte (1024 bytes) 
+Kb 
+Kilobit (1024 bits) 
+KBps 
+1000 bytes per second 
+Kbps 
+1000 bits per second 
+MB 
+Megabyte (1,048,576 bytes) 
+Mb 
+Megabit (1,048,576 bits) 
+MBps 
+Megabytes per second 
+Mbps 
+Megabits per second 
+TDP 
+Thermal Design Power 
+Xxh 
+An address or data value ending with a lowercase h indicates a hexadecimal value. 
+x.x V 
+Volts.  Voltages are DC unless otherwise specified. 
+* 
+This symbol is used to indicate third-party brands and names that are the property of their respective 
+owners.
+
+--- Page 8 ---
+Contents 
+ 
+viii 
+Contents   
+Revision History ............................................................................................................... ii 
+Disclaimer .................................................................................................................................................................. ii 
+Board Identification Information ..................................................................................................................... iii 
+Product Identification Information ................................................................................................................. iv 
+Errata ............................................................................................................................................................................ v 
+Preface ............................................................................................................................... v 
+Intended Audience ................................................................................................................................................. v 
+What This Document Contains ......................................................................................................................... v 
+Typographical Conventions .............................................................................................................................. vi 
+Contents ......................................................................................................................... viii 
+1  Product Description .................................................................................................. 1 
+1.1  Overview ......................................................................................................................................................... 1 
+1.1.1  Feature Summary ..................................................................................................................... 1 
+1.1.2  Board Layout (Top) .................................................................................................................. 3 
+1.1.3  Board Layout (Bottom) ........................................................................................................... 4 
+1.1.4  Block Diagram ............................................................................................................................ 6 
+1.2  Online Support ............................................................................................................................................. 7 
+1.3  Processor ........................................................................................................................................................ 2 
+1.4  System Memory ........................................................................................................................................... 2 
+1.5  Processor Graphics Subsystem ............................................................................................................. 3 
+1.5.1  Integrated Graphics ................................................................................................................. 3 
+1.6  USB .................................................................................................................................................................... 6 
+1.7  SATA Interface .............................................................................................................................................. 6 
+1.7.1  AHCI Mode ................................................................................................................................... 7 
+1.7.2  Intel® Rapid Storage Technology / SATA RAID ............................................................ 7 
+1.7.3  Intel® Next Generation Storage Acceleration ................................................................ 7 
+1.8  Thunderbolt 3 ............................................................................................................................................... 8 
+1.9  Real-Time Clock Subsystem ................................................................................................................... 8 
+1.10  Audio Subsystem ........................................................................................................................................ 8 
+1.10.1  Audio Subsystem Software .................................................................................................. 9 
+1.11  LAN Subsystem ............................................................................................................................................ 9 
+1.11.1  Intel® I219V Gigabit Ethernet Controller ........................................................................ 9 
+1.11.2  LAN Subsystem Software ................................................................................................... 10 
+1.11.3  RJ-45 LAN Connector with Integrated LEDs .............................................................. 10 
+1.11.4  Wireless Network Module .................................................................................................. 11 
+1.12  Hardware Management Subsystem ................................................................................................. 11 
+1.12.1  Hardware Monitoring ........................................................................................................... 11
+
+--- Page 9 ---
+Contents 
+ 
+ix 
+1.12.2  Fan Monitoring ........................................................................................................................ 11 
+1.12.3  Thermal Solution ................................................................................................................... 11 
+1.13  Power Management ................................................................................................................................ 12 
+1.13.1  ACPI ............................................................................................................................................. 12 
+1.13.2  Hardware Support ................................................................................................................. 15 
+1.13.3  Microsoft Modern Standby Support .............................................................................. 18 
+1.14  Intel Platform Security Technologies .............................................................................................. 18 
+1.14.1  Intel® Virtualization Technology ...................................................................................... 18 
+1.14.2  Intel® Platform Trust Technology ................................................................................... 19 
+2  Technical Reference ............................................................................................... 20 
+2.1  Memory Resources .................................................................................................................................. 20 
+2.1.1  Addressable Memory ........................................................................................................... 20 
+2.2  Connectors and Headers....................................................................................................................... 20 
+2.2.1  Front Panel Connectors ...................................................................................................... 21 
+2.2.2  Back Panel Connectors ....................................................................................................... 21 
+2.2.3  Headers and Connectors (Top) ........................................................................................ 22 
+2.2.4  Connectors and Headers (Bottom) ................................................................................. 23 
+2.3  BIOS Security Jumper ............................................................................................................................ 33 
+2.4  Mechanical Considerations .................................................................................................................. 35 
+2.4.1  Form Factor .............................................................................................................................. 35 
+2.4.2  Weights & Dimensions......................................................................................................... 36 
+2.5  Electrical Considerations ...................................................................................................................... 36 
+2.5.1  Power Supply Considerations .......................................................................................... 36 
+2.5.2  Fan Header Current Capability ......................................................................................... 36 
+2.6  Thermal Considerations ........................................................................................................................ 37 
+2.7  Reliability ..................................................................................................................................................... 42 
+2.8  Environmental ........................................................................................................................................... 42 
+3  Overview of BIOS Features ................................................................................... 43 
+3.1  Introduction ................................................................................................................................................ 43 
+3.2  BIOS Flash Memory Organization ..................................................................................................... 43 
+3.3  System Management BIOS (SMBIOS) .............................................................................................. 43 
+3.4  Legacy USB Support ............................................................................................................................... 43 
+3.5  BIOS Updates ............................................................................................................................................. 44 
+3.5.1  Language Support ................................................................................................................. 44 
+3.6  BIOS Recovery ........................................................................................................................................... 45 
+3.7  Boot Options .............................................................................................................................................. 46 
+3.7.1  Network Boot........................................................................................................................... 46 
+3.7.2  Booting Without Attached Devices (Headless).......................................................... 46 
+3.7.3  Changing the Default Boot Device during POST ...................................................... 46 
+3.7.4  Power Button Menu .............................................................................................................. 47 
+3.8  Hard Disk Drive Password Security Feature .................................................................................. 48 
+3.9  BIOS Security Features .......................................................................................................................... 49
+
+--- Page 10 ---
+Contents 
+ 
+x 
+4  Error Messages and Blink Codes ......................................................................... 50 
+4.1  Front-panel Power LED Blink Codes ................................................................................................ 50 
+4.2  BIOS Error Messages ............................................................................................................................... 50 
+5  Intel NUC Kit Features ........................................................................................... 51 
+5.1  Chassis Front Panel Features .............................................................................................................. 51 
+5.2  Chassis Rear Panel Features ................................................................................................................ 53 
+5.3  VESA Bracket Installation ..................................................................................................................... 55
+
+--- Page 11 ---
+Contents 
+ 
+xi 
+Figures 
+Figure 1.  Major Board Components (Top) .......................................................................................................... 3 
+Figure 2.  Major Board Components (Bottom) ................................................................................................... 4 
+Figure 3.  Block Diagram .............................................................................................................................................. 6 
+Figure 4.  Memory Channel and SO-DIMM Configuration............................................................................. 2 
+Figure 5.  4-Pin 3.5 mm (1/8 inch) Audio Jack Pin Out .................................................................................. 9 
+Figure 6.  LAN Connector LED Locations........................................................................................................... 10 
+Figure 7.  Thermal Solution and Fan Header ................................................................................................... 12 
+Figure 8.  Location of the Standby Power LED ............................................................................................... 17 
+Figure 9.  Front Panel Connectors ........................................................................................................................ 21 
+Figure 10.  Back Panel Connectors ...................................................................................................................... 21 
+Figure 11.  Headers and Connectors (Top) ....................................................................................................... 22 
+Figure 12.  Connectors and Headers (Bottom) ............................................................................................... 23 
+Figure 13.  Connection Diagram for Front Panel Header (2.0 mm Pitch) ............................................ 29 
+Figure 14.  Connection Diagram for the Internal USB 2.0 Single-Port Header (1.25 mm Pitch) 31 
+Figure 15.  Location of the CIR Sensor ............................................................................................................... 31 
+Figure 16.  Location of the BIOS Security Jumper ........................................................................................ 33 
+Figure 17.  Board Dimensions ................................................................................................................................ 35 
+Figure 18.  Board Height Dimensions ................................................................................................................. 36 
+Figure 19.  Localized High Temperature Zones ............................................................................................. 38 
+Figure 20.  Installation Area of Thermal Pad for Intel NUC Kits .............................................................. 39 
+Figure 21.  Installation area of Thermal Pad for Intel NUC Kits 
+NUC10i3FNH/NUC10i5FNH/NUC10i7FNH ............................................................................................. 40 
+Figure 22. Intel NUC Kit NUC10i3FNH/NUC10i5FNH/NUC10i7FNH Features – Front .................. 51 
+Figure 23. Intel NUC Kit NUC10i3FNK/NUC10i5FNK/NUC10i7FNK Features – Front ................... 52 
+Figure 24. Intel NUC Kit NUC10i3FNH/NUC10i5FNH/NUC10i7FNH Features – Rear .................... 53 
+Figure 25. Intel NUC Kit NUC10i3FNK/NUC10i5FNK/NUC10i7FNK Features – Rear ..................... 54 
+Figure 26. VESA Bracket Installation ................................................................................................................... 55 
+ 
+Tables 
+Table 1.  Feature Summary ........................................................................................................................................ 1 
+Table 2.  Components Shown in Figure 1 ............................................................................................................ 3 
+Table 3.  Components Shown in Figure 2 ............................................................................................................ 5 
+Table 4.  Supported Memory Configurations ..................................................................................................... 2 
+Table 5.  DisplayPort Multi-Streaming Resolutions ......................................................................................... 4 
+Table 6.  Multiple Display Configuration Maximum Resolutions ............................................................... 5 
+Table 7.  Audio Formats Supported by the HDMI and USB Type C Interfaces..................................... 5 
+Table 8.  LAN Connector LED States ................................................................................................................... 10 
+Table 9.  Effects of Pressing the Power Switch ............................................................................................... 13 
+Table 10.  Power States and Targeted System Power ................................................................................. 14 
+Table 11.  Wake-up Devices and Events ........................................................................................................... 15 
+Table 12.  Headers and Connectors Shown in Figure 11 ........................................................................... 22 
+Table 13.  Connectors and Headers Shown in Figure 12 ........................................................................... 24
+
+--- Page 12 ---
+Contents 
+ 
+xii 
+Table 14.  SATA Data/Power Connector (0.5 mm pitch ZIF) ..................................................................... 25 
+Table 15.  Single-Port Internal USB 2.0 Header (1.25 mm pitch) ........................................................... 25 
+Table 16.  M.2 2280 Module (key type M) Connector .................................................................................. 25 
+Table 17.  Digital Microphone (DMICS) Array Connector (1.25 mm Pitch).......................................... 26 
+Table 18.  RGB LED Connector (1.25 mm Pitch) ............................................................................................ 27 
+Table 19.  CEC Header (1.25 mm pitch) ............................................................................................................. 27 
+Table 20. USB Type C Connector ......................................................................................................................... 28 
+Table 21.  Front Panel Header (2.0 mm Pitch) ................................................................................................ 28 
+Table 22.  States for a One-Color Power LED ................................................................................................. 29 
+Table 23.  States for a Dual-Color Power LED ................................................................................................ 29 
+Table 24.  SDXC Card Reader Connector .......................................................................................................... 30 
+Table 25. HDMI CEC expected behavior ............................................................................................................ 32 
+Table 26.  RGB LED Options ................................................................................................................................... 32 
+Table 27.  BIOS Security Jumper Settings ........................................................................................................ 34 
+Table 28. Select Weights ......................................................................................................................................... 36 
+Table 29. Select Chassis Dimensions ................................................................................................................. 36 
+Table 30.  Fan Header Current Capability ......................................................................................................... 36 
+Table 31.  Thermal Considerations for Components ................................................................................... 41 
+Table 32.  Tcontrol Values for Components ................................................................................................... 41 
+Table 33.  Environmental Specifications ........................................................................................................... 42 
+Table 34.  Acceptable Drives/Media Types for BIOS Recovery ............................................................... 45 
+Table 35.  Boot Device Menu Options ................................................................................................................ 46 
+Table 36.  Master Key and User Hard Drive Password Functions ........................................................... 48 
+Table 37.  Supervisor and User Password Functions................................................................................... 49 
+Table 38.  Front-panel Power LED Blink Codes ............................................................................................. 50 
+Table 39.  BIOS Error Messages ............................................................................................................................ 50 
+Table 40.  Components Shown in Figure 22 ................................................................................................... 51 
+Table 41.  Components Shown in Figure 23 ................................................................................................... 52 
+Table 42.  Components Shown in Figure 24 ................................................................................................... 53 
+Table 43.  Components Shown in Figure 25 ................................................................................................... 54
+
+--- Page 13 ---
+Product Description 
+ 
+1 
+1  Product Description 
+1.1  Overview 
+1.1.1  Feature Summary 
+Table 1 summarizes the major features of Intel® NUC Board NUC10i3FNB, Intel® NUC Board 
+NUC10i5FNB and Intel® NUC Board NUC10i7FNB. 
+Table 1.  Feature Summary 
+Form Factor 
+4.0 inches by 4.0 inches (101.60 millimeters by 101.60 millimeters) 
+Processor 
+(one of 3 models) 
+•  A soldered-down 10th generation Intel® Core™ i3-10110U dual-core processor with a 
+maximum 25 W TDP, 2.1 GHz base, 4.1 GHz Turbo, 4 threads 
+• Intel® UHD Graphics 
+• 4 MB Intel® Smart Cache 
+• Integrated memory controller 
+• Integrated PCH 
+•  A soldered-down 10th generation Intel® Core™ i5-10210U quad-core processor with a 
+maximum 25 W TDP, 1.6 GHz base, 4.2 GHz Turbo, 8 threads 
+• Intel® UHD Graphics 
+• 6 MB Intel® Smart Cache 
+• Integrated memory controller 
+• Integrated PCH 
+•  A soldered-down 10th generation Intel® Core™ i7-10710U six-core processor with a 
+maximum 25 W TDP, 1.1 GHz base, 4.7 GHz Turbo, 12 threads 
+• Intel® UHD Graphics 
+• 12MB Intel® Smart Cache 
+• Integrated memory controller 
+• Integrated PCH 
+Memory
+†
+  
+•  Two 260-pin 1.2 V DDR4 SDRAM Small Outline Dual Inline Memory Module (SO-DIMM) 
+sockets 
+•  Support for DDR4 2666 MHz SO-DIMMs 
+•  Support for 8 Gb and 16 Gb memory technology
+†
+ 
+•  Support for up to 64 GB of system memory with two SO-DIMMs using 16 Gb memory 
+technology
+†
+ 
+•  Support for non-ECC memory 
+•  Support for 1.2 V low voltage JEDEC memory only 
+Note: 2 Gb and 4 Gb memory technology (SDRAM Density) is not compatible 
+Graphics 
+•  Integrated graphics support for processors with Intel® Graphics Technology: 
+•  One High Definition Multimedia Interface* (HDMI*) v2.0b back panel connector 
+•  One DisplayPort signal via USB Type C back panel connector 
+Audio 
+•  Intel® High Definition (Intel
+®
+ HD) Audio via the HDMI and USB Type C interfaces through 
+the processor 
+•  Realtek HD Audio via a stereo microphone/headphone 3.5 mm jack on the front panel 
+•  Quad digital microphone array (DMICS) connector (internal) 
+Storage 
+•  SATA ports: 
+One SATA 6.0 Gbps port (black) for 2.5“ storage device 
+•  One SATA 6.0 Gbps port is reserved for an M.2 storage module supporting M.2 2242  
+and M.2 2280 (key type M) modules 
+Note: Supports key type M (PCI Express* x4 and SATA) 
+continued
+
+--- Page 14 ---
+Product Description 
+ 
+2 
+Table 1.  Feature Summary (continued) 
+Peripheral Interfaces 
+•  USB 3.1 (Gen 2/10 Gbps) Type C ports: 
+•  One port is implemented via the external front panel Type C connector 
+•  One port is implemented via the external back panel Type C connector 
+•  USB 3.1 (Gen 2/10 Gbps) Type A ports: 
+•  One port is implemented via the external front panel connectors (blue) 
+•  Two ports are implemented via the external back panel connectors (blue)  
+•  USB 2.0 ports: 
+•  Two ports via two single-port internal 1x4 1.25 mm pitch headers (white) 
+•  One port is reserved for the NGFF 1216 Wireless module Bluetooth capability 
+•  Consumer Infrared (CIR) 
+Expansion Capabilities 
+•  One M.2 connector supporting M.2 2242 and M.2 2280 (key type M) modules 
+•  One Standard SDXC slot 
+•  One Thunderbolt™ 3 via back panel USB Type C connector 
+BIOS 
+•  Intel
+®
+ BIOS resident in the Serial Peripheral Interface (SPI) Flash device 
+•  Support for Advanced Configuration and Power Interface (ACPI), Plug and Play, System 
+Management BIOS (SMBIOS), and Modern Standby 
+Instantly Available PC 
+Technology 
+•  Suspend to RAM support 
+•  Wake on PCI Express, LAN, front panel, CIR, and USB ports 
+•  Microsoft Modern Standby 
+LAN  
+Gigabit (10/100/1000 Mbps) LAN subsystem using the Intel® I219V Gigabit Ethernet 
+Controller 
+Hardware Monitor 
+Subsystem 
+Hardware monitoring subsystem, based on an embedded controller, including: 
+•  Voltage sense to detect out of range power supply voltages 
+•  Thermal sense to detect out of range thermal values  
+•  One processor fan header 
+•  Fan sense input used to monitor fan activity 
+•  Fan speed control 
+Wireless 
+•  Intel® Wi-Fi 6 AX201, 802.11ax, Dual Band, 2x2 Wi-Fi + Bluetooth 5 
+•  Maximum Transfer speed up to 2.4 Gbps 
+•  Next Generation Form Factor (NGFF) 12x16 soldered-down package 
+•  Supports OFDMA, 1024QAM, Target Wake Time (TWT) and spatial reuse 
+†
+Note: Please refer to Table 4.  Supported Memory Configurationsfor additional information about supported memory 
+configurations.
+
+--- Page 15 ---
+Product Description 
+ 
+3 
+1.1.2  Board Layout (Top) 
+Figure 1 shows the location of the major components on the top-side of Intel NUC Board 
+NUC10i3FNB, Intel NUC Board NUC10i5FNB and Intel NUC Board NUC10i7FNB. 
+ 
+Figure 1.  Major Board Components (Top) 
+ 
+NOTE 
+Actual thermal solution may differ from picture. 
+ 
+Table 2 lists the components identified in Figure 1.   
+ 
+Table 2.  Components Shown in Figure 1 
+Item from Figure 1 
+Description 
+A 
+Thermal solution 
+B 
+Processor fan header 
+C 
+Coin Cell Battery 
+D 
+SDXC Card Reader
+
+--- Page 16 ---
+Product Description 
+ 
+4 
+1.1.3  Board Layout (Bottom) 
+Figure 2 shows the location of the major components on the bottom-side of Intel NUC Board 
+NUC10i3FNB, Intel NUC Board NUC10i5FNB and Intel NUC Board NUC10i7FNB. 
+ 
+Figure 2.  Major Board Components (Bottom)
+
+--- Page 17 ---
+Product Description 
+ 
+5 
+Table 3.  Components Shown in Figure 2 
+Item from Figure 2 
+ 
+Description 
+A 
+DC Input Jack 
+B 
+HDMI connector 
+C 
+LAN connector 
+D 
+Dual USB 3.1 ports (blue) 
+E 
+Digital Microphones (DMICs) header  
+F 
+Front Panel header 
+G 
+Coin Cell Battery connector 
+H 
+RGB LED header 
+I 
+Intel® Wi-Fi 6 + Bluetooth 5 AX201 module 
+J 
+Standby LED 
+K 
+M.2 connector (key type M) for 2242 and 2280 modules 
+L 
+Single-port USB 2.0 header (1.25 mm pitch) 
+M 
+Consumer Infrared (CIR) sensor 
+N 
+HDD Activity LED 
+O 
+Single-port USB 2.0 header (1.25 mm pitch) 
+P 
+Front panel USB 3.1 Type-C connector (charging) 
+Q 
+SATA HDD connector (0.5 mm pitch) 
+R 
+Front panel USB 3.1 connector (blue) 
+S 
+BIOS security header & jumper 
+T 
+Front panel stereo microphone/headphone jack 
+U 
+Front panel power button 
+V 
+Consumer electronics control (CEC) header 
+W 
+DDR4 SO-DIMM1 socket 
+X 
+DDR4 SO-DIMM2 socket
+
+--- Page 18 ---
+Product Description 
+ 
+6 
+1.1.4  Block Diagram 
+Figure 3 is a block diagram of the major functional areas of the board.   
+ 
+Figure 3.  Block Diagram
+
+--- Page 19 ---
+Online Support 
+ 
+7 
+1.2  Online Support 
+To find information about…  
+Visit this Intel web site: 
+Intel NUC Board NUC10i3FNB, Intel NUC 
+Board NUC10i5FNB, and Intel NUC 
+Board NUC10i7FNB 
+http://www.intel.com/NUC 
+Intel NUC Support 
+http://www.intel.com/NUCSupport 
+Available configurations for Intel NUC 
+Board NUC10i3FNB, Intel NUC Board 
+NUC10i5FNB and Intel NUC Board 
+NUC10i7FNB 
+http://ark.intel.com 
+Intel® NUC 10 Performance kit - 
+NUC10i3FNH 
+https://www.intel.com/content/www/us/en/support/products/195506.html 
+Intel® NUC 10 Performance kit - 
+NUC10i3FNHF 
+https://www.intel.com/content/www/us/en/support/products/195499.html 
+Intel® NUC 10 Performance kit - 
+NUC10i3FNK 
+https://www.intel.com/content/www/us/en/support/products/195503.html 
+Intel® NUC 10 Performance kit - 
+NUC10i5FNH 
+https://www.intel.com/content/www/us/en/support/products/189239.html 
+Intel® NUC 10 Performance kit - 
+NUC10i5FNHF 
+https://www.intel.com/content/www/us/en/support/products/195504.html 
+Intel® NUC 10 Performance kit - 
+NUC10i5FNHJ 
+https://www.intel.com/content/www/us/en/support/products/189234.html 
+Intel® NUC 10 Performance kit - 
+NUC10i5FNK 
+https://www.intel.com/content/www/us/en/support/products/195507.html 
+Intel® NUC 10 Performance kit - 
+NUC10i5FNKP 
+https://www.intel.com/content/www/us/en/support/products/195500.html 
+Intel® NUC 10 Performance kit - 
+NUC10i7FNH 
+https://www.intel.com/content/www/us/en/support/products/188811.html 
+Intel® NUC 10 Performance kit - 
+NUC10i7FNHC 
+https://www.intel.com/content/www/us/en/support/products/188810.html 
+Intel® NUC 10 Performance kit - 
+NUC10i7FNK 
+https://www.intel.com/content/www/us/en/support/products/188808.html 
+Intel® NUC 10 Performance kit - 
+NUC10i7FNKP 
+https://www.intel.com/content/www/us/en/support/products/188809.html 
+Intel® NUC 10 Performance Mini PC - 
+NUC10i3FNHFA 
+https://www.intel.com/content/www/us/en/support/products/195501.html 
+Intel® NUC 10 Performance Mini PC - 
+NUC10i3FNHJA 
+https://www.intel.com/content/www/us/en/support/products/195502.html 
+Intel® NUC 10 Performance Mini PC - 
+NUC10i5FNHCA 
+https://www.intel.com/content/www/us/en/support/products/189235.html 
+Intel® NUC 10 Performance Mini PC - 
+NUC10i5FNHJA 
+https://www.intel.com/content/www/us/en/support/products/195498.html 
+Intel® NUC 10 Performance Mini PC - 
+NUC10i5FNKPA 
+https://www.intel.com/content/www/us/en/support/products/195505.html 
+Intel® NUC 10 Performance Mini PC - 
+NUC10i7FNHAA 
+https://www.intel.com/content/www/us/en/support/products/188813.html 
+Intel® NUC 10 Performance Mini PC - 
+NUC10i7FNHJA 
+https://www.intel.com/content/www/us/en/support/products/188814.html 
+Intel® NUC 10 Performance Mini PC - 
+NUC10i7FNKPA 
+https://www.intel.com/content/www/us/en/support/products/188812.html
+
+--- Page 20 ---
+Online Support 
+ 
+8 
+Tested memory, compatible peripherals 
+and components 
+http://compatibleproducts.intel.com/ 
+Integration information 
+http://www.intel.com/NUCSupport 
+Processor datasheet 
+http://ark.intel.com 
+Regulatory documentation 
+https://www.intel.com/content/www/us/en/support/articles/000055305.html 
+ 
+ 
+  CAUTION 
+Disconnect the attached power cord before you open or service the device.
+
+--- Page 21 ---
+Online Support 
+ 
+2 
+1.3  Processor 
+One of the following: 
+A soldered-down 10th generation Intel® Core™ i3-10110U dual-core processor with up to a 
+maximum 25 W TDP (if thermal margin is available). 
+•  2.10 GHz base frequency, 4.10 GHz turbo frequency, 4 threads 
+•  4 MB Intel® Smart Cache 
+•  Intel® UHD Graphics 
+•  Integrated memory controller 
+•  Integrated PCH 
+A soldered-down 10th generation Intel® Core™ i5-10210U quad-core processor with up to a 
+maximum 25 W TDP (if thermal margin is available). 
+•  1.60 GHz base frequency, 4.20 GHz turbo frequency, 8 threads 
+•  6 MB Intel® Smart Cache 
+•  Intel® UHD Graphics 
+•  Integrated memory controller 
+•  Integrated PCH 
+A soldered-down 10th generation Intel® Core™ i7-10710U six-core processor with up to a 
+maximum 25 W TDP (if thermal margin is available). 
+•  1.10 GHz base frequency, 4.70 GHz turbo frequency, 12 threads 
+•  12 MB Intel® Smart Cache 
+•  Intel® UHD Graphics 
+•  Integrated memory controller 
+•  Integrated PCH 
+ 
+NOTE 
+There are specific requirements for providing power to the processor.  Refer to Section 2.5.1 on 
+page 36 for information on power supply requirements. 
+1.4  System Memory 
+ 
+The board has two 260-pin SO-DIMM sockets and supports the following memory features: 
+•  1.2 V DDR4 SDRAM SO-DIMMs with gold plated contacts 
+•  Two independent memory channels with interleaved mode support 
+•  Unbuffered, single-sided or double-sided SO-DIMMs 
+•  64 GB maximum total system memory (with 16 Gb memory technology).  Refer to Section 
+2.1.1 on page 20 for information on the total amount of addressable memory. 
+•  Minimum recommended total system memory:  4096 MB  
+•  Non-ECC SO-DIMMs 
+•  Serial Presence Detect 
+•  DDR4 2666 MHz SDRAM SO-DIMMs 
+•  Supports 8 Gb and 16 Gb memory technology (SDRAM density)
+
+--- Page 22 ---
+System Memory 
+ 
+2 
+ 
+NOTE 
+To be fully compliant with all applicable DDR SDRAM memory specifications, the board should be 
+populated with SO-DIMMs that support the Serial Presence Detect (SPD) data structure.  This 
+allows the BIOS to read the SPD data and program the chipset to accurately configure memory 
+settings for optimum performance.  If non-SPD memory is installed, the BIOS will attempt to 
+correctly configure the memory settings, but performance and reliability may be impacted or the 
+SO-DIMMs may not function under the determined frequency. 
+ 
+ 
+NOTE 
+Intel NUC Boards NUC10i3FNB, NUC10i5FNB and NUC10i7FNB support only 8 Gb and 16 Gb 
+memory technologies (also referred to as “SDRAM density”). Table 4 lists the supported SO-DIMM 
+configurations. 
+Table 4.  Supported Memory Configurations 
+SO-DIMM 
+Capacity 
+SDRAM 
+Density 
+SDRAM Organization 
+ 
+Ranks 
+Number of SDRAM Devices 
+4096 MB 
+8 Gbit 
+512 M x16 
+1 
+4 
+8192 MB 
+8 Gbit 
+1024 M x8 
+1 
+8 
+8192 MB 
+16 Gbit 
+1024 M x16 
+1 
+4 
+16384 MB 
+8 Gbit 
+1024 M X8 
+2 
+16 
+16384 MB 
+16 Gbit 
+2048 M X8 
+1 
+8 
+32768 MB 
+16 Gbit 
+2048 M x8 
+2 
+16 
+ 
+For information about…  
+Refer to: 
+Tested Memory  
+http://compatibleproducts.intel.com/ 
+ 
+Figure 4 illustrates the memory channel and SO-DIMM configuration. 
+ 
+Figure 4.  Memory Channel and SO-DIMM Configuration
+
+--- Page 23 ---
+Processor Graphics Subsystem 
+ 
+3 
+1.5  Processor Graphics Subsystem 
+The Intel NUC Boards NUC10i3FNB, NUC10i5FNB and NUC10i7FNB support graphics through 
+Intel UHD Graphics. 
+1.5.1  Integrated Graphics 
+The board supports integrated graphics via the processor. 
+1.5.1.1  Intel® Ultra High Definition (Intel® UHD) Graphics 
+The Intel UHD graphics controller features the following: 
+•  9
+th
+-Generation Low Power (Gen 9 LP) architecture supports up to 48 Execution 
+Units (EUs) 
+•  API support 
+Direct3D* 2015, Direct3D 11.2, Direct3D 11.1, Direct3D 9, Direct3D 10, Direct2D  
+OpenGL* 4.5 support 
+OpenCL* 2.1 , OpenCL 2.0, OpenCL 1.2 support 
+•  Next Generation Intel® Clear Video Technology HD support is a collection of video playback 
+and enhancement features that improve the end user’s viewing experience  
+•  Encode/transcode HD content  
+•  Playback of high definition content including Blu-ray* disc  
+•  Superior image quality with sharper, more colorful images  
+•  Direct3D* 9 Video Acceleration (DXVA2) support 
+•  Direct3D11 Video support 
+•  Full AVC/VC1/MPEG2/HEVC/VP8/VP9/JPEG hardware-accelerated video decode 
+•  Full AVC/MPEG2/HEVC/VP8/JPEG hardware-accelerated video encode 
+•  Intel UHD Graphics with Advanced Hardware Video Transcoding (Intel® Quick Sync Video)  
+ 
+NOTES 
+Intel Quick Sync Video is enabled by an appropriate software application. 
+HDMI 2.0b is enabled by LSPCON (DP 1.2 to HDMI 2.0b protocol converter); Stereo 3D (S3D) 
+technology is not supported. 
+HDMI 2.0b supports High Dynamic Range (HDR) and 10-bit sampling. HDR requires use of 
+appropriate software and display hardware.  
+1.5.1.2  Video Memory Allocation 
+Intel® Dynamic Video Memory Technology (DVMT) is a method for dynamically allocating system 
+memory for use as graphics memory to balance 2D/3D graphics and system performance. If your 
+computer is configured to use DVMT, graphics memory is allocated based on system 
+requirements and application demands (up to the configured maximum amount). When memory 
+is no longer needed by an application, the dynamically allocated portion of memory is returned to 
+the operating system for other uses.
+
+--- Page 24 ---
+Processor Graphics Subsystem 
+ 
+4 
+1.5.1.3  High Definition Multimedia Interface* (HDMI*) 
+HDMI is supported through a MegaChips MCDP2800-BCT DisplayPort 1.2a to HDMI 2.0b Level 
+Shifter/Protocol Converter (LSPCON). The HDMI port supports standard, enhanced, or high 
+definition video, plus multi-channel digital audio on a single cable.  The port is compatible with all 
+ATSC and DVB HDTV standards and supports eight full range channels at 24-bit/192 kHz audio of 
+lossless audio formats. The maximum supported resolution is 4096 x 2160 @ 60 Hz, 24bpp.  The 
+HDMI port is compliant with the HDMI 2.0b specification.  
+For information about  
+Refer to 
+HDMI technology 
+http://www.hdmi.org  
+1.5.1.4  DisplayPort* via USB Type-C 
+DisplayPort is a digital communication interface that utilizes differential signaling to achieve a 
+high bandwidth bus interface designed to support connections between PCs and monitors, 
+projectors, and TV displays.  DisplayPort is suitable for display connections between consumer 
+electronics devices such as high definition optical disc players, set top boxes, and TV displays.  
+The maximum supported resolution is 4096 x 2304 @ 60 Hz, 24bpp.  DisplayPort via USB Type C 
+connector is compliant with the DisplayPort 1.2 specification.   
+DisplayPort output supports Multi-Stream Transport (MST) which allows for multiple 
+independent video streams (daisy-chain connection with multiple monitors) over a single 
+DisplayPort.  This will require the use of displays that support DisplayPort 1.2 and allow for this 
+feature.  
+ 
+ 
+For information about  
+Refer to 
+DisplayPort technology 
+http://www.displayport.org  
+ 
+1.5.1.4.1  DisplayPort 1.2 Multi-Stream Transport Daisy-Chaining 
+Table 5 lists the maximum resolutions available when using DisplayPort 1.2 Multi-Stream 
+Transport. 
+Table 5.  DisplayPort Multi-Streaming Resolutions 
+DisplayPort Usage Models 
+Monitor 1 
+Monitor 2 
+Monitor 3 
+3 Monitors 
+(using daisy-chained DP 
+monitors with MST support) 
+1920 x 1200 @ 60 Hz 
+1920 x 1080 @ 60 Hz 
+1920 x 1080 @ 60 Hz 
+2 Monitors 
+2560 x 1600 @ 60 Hz 
+2560 x 1600 @ 60 Hz 
+ 
+3 Monitors 
+(with DisplayPort 1.2 hub) 
+1920 x 1080 @ 60 Hz 
+1920 x 1080 @ 60 Hz 
+1920 x 1080 @ 60 Hz
+
+--- Page 25 ---
+Processor Graphics Subsystem 
+ 
+5 
+1.5.1.5  Multiple DisplayPort and HDMI Configurations   
+Multiple DisplayPort and HDMI configurations feature the following: 
+•  Single HDMI 2.0b with 4K @ 60 Hz support 
+•  Single DisplayPort 1.2 with 4K @ 60 Hz support via USB Type C connector 
+•  Two independent displays with 4K @ 60 Hz support 
+⎯  HDMI and DisplayPort via USB Type C 
+•  Three independent displays with 4K support 
+⎯  One HDMI 4096 x 2160 @ 60 Hz  
+⎯  Two DisplayPort 4096 x 2304 @ 30 Hz via USB Type C using DisplayPort Multi-Stream 
+Transport capability 
+Table 6.  Multiple Display Configuration Maximum Resolutions 
+Single Display 
+HDMI 
+Single Display 
+DisplayPort via 
+USB Type C 
+Dual Display 
+USB Type C and HDMI 
+Triple Display 
+USB Type C and HDMI 
+4096 x 2160 @ 60 Hz 
+4096 x 2304 @ 60 Hz 
+4096 x 2304 @ 60 Hz 
+(USB Type C/DP) 
+4096 x 2160  @ 60 Hz 
+(HDMI) 
+4096 x 2304 @ 30 Hz (USB Type C/DP MST) 
+4096 x 2304 @ 30 Hz (USB Type C/DP MST) 
+4096 x 2160  @ 60 Hz (HDMI) 
+Note: Higher resolutions may be achievable but only at lower refresh rates 
+ 
+For information about  
+Refer to 
+Multiple display maximum 
+resolutions 
+https://www-
+ssl.intel.com/content/www/us/en/processors/core/CoreTechnicalResources.html 
+(Generic link) 
+1.5.1.6  High-bandwidth Digital Content Protection (HDCP) 
+HDCP is the technology for protecting high definition content against unauthorized copy or 
+interception between a source (computer, digital set top boxes, etc.) and the sink (panels, 
+monitor, and TVs). The processor supports HDCP 1.4/2.3 for 4k Premium content protection over 
+wired displays (USB Type C and HDMI). 
+1.5.1.7  Integrated Audio Provided by the HDMI and USB Type C Interfaces 
+The HDMI and USB Type C interfaces from the processor support audio. The processor supports 
+two High Definition audio streams on two digital ports simultaneously (the DMA controllers are in 
+PCH). The integrated audio processing (DSP) is performed by the PCH. 
+Table 7 shows the specific audio technologies supported by the processor.  
+Table 7.  Audio Formats Supported by the HDMI and USB Type C Interfaces 
+Audio Formats 
+HDMI 
+USB Type C 
+AC3 – Dolby* Digital 
+Yes 
+Yes 
+Dolby Digital Plus 
+Yes 
+Yes 
+DTS-HD* 
+Yes 
+Yes 
+LPCM, 192kHz/24-bit, 8-channel 
+Yes 
+Yes 
+Dolby True HD, DTS-HD Master Audio* (Lossless Blu-ray Disc Audio 
+Format) 
+Yes 
+Yes
+
+--- Page 26 ---
+USB / SATA Interface 
+ 
+6 
+1.6  USB 
+The USB port arrangement is as follows: 
+•  USB 3.1 Gen 2 (10 Gbps) Type C ports (maximum power is 15W for the first connected device; 
+4.5W for the second connected device): 
+One port is implemented via the external front panel Type C connector 
+One port is implemented via the external back panel Type C connector 
+•  USB 3.1 Gen 2 (10 Gbps) Type A ports (maximum current is 900 mA for each port): 
+One port is implemented with external front panel connector (blue) 
+Two ports are implemented with external back panel connectors (blue)  
+•  USB 2.0 ports (maximum current is 500 mA for each port of the white header (1 A total): 
+Two ports via two single-port internal 1x4 1.25 mm pitch headers (white) 
+One port is reserved for the M.2 2230 Wireless module 
+All the USB ports are high-speed, full-speed, and low-speed capable. 
+ 
+NOTE 
+Computer systems that have an unshielded cable attached to a USB port may not meet FCC 
+Class B requirements, even if no device is attached to the cable.  Use a shielded cable that meets 
+the requirements for full-speed devices.  
+ 
+ 
+For information about  
+Refer to 
+The location of the USB connectors on the back panel 
+Figure 9, page 21 
+The location of the front panel USB headers 
+Figure 2, page 4 
+1.7  SATA Interface 
+The board provides the following SATA interfaces: 
+•  SATA ports: 
+One SATA 6.0 Gbps port for 2.5” storage device 
+•  One SATA 6.0 Gbps port is reserved for an M.2 storage module supporting M.2 2242 and 
+M.2 2280 (key type M) modules 
+The PCH provides independent SATA ports with a theoretical maximum transfer rate of 6 Gbps.  A 
+point-to-point interface is used for host to device connections.
+
+--- Page 27 ---
+SATA Interface 
+ 
+7 
+1.7.1  AHCI Mode 
+The board supports AHCI storage mode. 
+ 
+NOTE 
+In order to use AHCI mode, AHCI must be enabled in the BIOS. Microsoft* Windows* 10 includes 
+the necessary AHCI drivers without the need to install separate AHCI drivers during the operating 
+system installation process; however, it is always good practice to update the AHCI drivers to the 
+latest available by Intel. 
+1.7.2  Intel® Rapid Storage Technology / SATA RAID 
+The PCH supports Intel® Rapid Storage Technology, providing both AHCI and integrated RAID 
+functionality. The RAID capability provides high-performance RAID 0 and 1 functionality on all 
+SATA ports. Other RAID features include hot spare support and SMART alerting. Software 
+components include an Option ROM for pre-boot configuration and boot functionality, a 
+Microsoft Windows compatible driver, and a user interface for configuration and management of 
+the RAID capability of the PCH.   
+ 
+NOTE 
+Intel Rapid Storage Technology / SATA RAID is only supported if an M.2 SATA SSD module is used 
+with the onboard SATA interface. RAID is not available when using M.2 PCIe SSD module and 
+onboard SATA interface.  
+1.7.3  Intel® Next Generation Storage Acceleration 
+Intel® Next Generation Storage Acceleration with Intel® Optane™ Technology is a disk caching 
+solution that can provide improved computer system performance with improved power savings. It 
+allows configuration of a computer system with the advantage of having HDDs for maximum 
+storage capacity and with Intel® Optane™ Technology for improved system performance. 
+ 
+For information about  
+Refer to 
+Intel® Optane™ Technology 
+http://www.intel.com/content/www/us/en/architecture-and-
+technology/non-volatile-memory.html 
+ 
+NOTE 
+In order to use supported RAID and Intel Next Generation Storage Acceleration with Intel® 
+Optane™ Technology features, you must first enable RAID in the BIOS.
+
+--- Page 28 ---
+Thunderbolt 3 / Real-Time Clock Subsystem / Audio Subsystem 
+ 
+8 
+1.8  Thunderbolt 3 
+The boards support Thunderbolt™ 3 with up to 40 Gbps of data throughput, one 4k (60Hz) 
+monitor output, USB3.1 (Gen 2) connection and charging capabilities up to 5V at 3A or 9v at 2A 
+via the back-panel USB Type C connector.  Item A in Figure 10 shows the location of the rear 
+panel USB Type C port. 
+ 
+For information about  
+Refer to 
+Compatible Thunderbolt™ 3 devices 
+ 
+Thunderbolt™ 3 information 
+https://www.intel.com/content/www/us/en/support/article
+s/000027966.html 
+http://www.intel.com/Thunderbolt 
+ 
+1.9  Real-Time Clock Subsystem 
+A coin-cell battery (CR2032) powers the real-time clock and CMOS memory.  When the computer 
+is not plugged into a wall socket, the battery has an estimated life of three years.  When the 
+computer is plugged in, the standby current from the power supply extends the life of the battery.  
+The clock is accurate to  13 minutes/year at 25 ºC with 3.3 VSB applied via the power supply 5 V 
+STBY rail. 
+ 
+NOTE 
+If the battery and AC power fail, date and time values will be reset and the user will be notified 
+during the POST. 
+When the voltage drops below a certain level, the BIOS Setup program settings stored in CMOS 
+RAM (for example, the date and time) might not be accurate.  Replace the battery with an 
+equivalent one.  Figure 1 on page 3 shows the location of the battery. 
+ 
+CAUTION 
+Risk of explosion if the battery is replaced with an incorrect type. Batteries should be recycled 
+where possible. Disposal of used batteries must be in accordance with local environmental 
+regulations. 
+1.10  Audio Subsystem 
+The audio subsystem supports the following features:  
+•  Digital microphone array (DMICS) connectors (internal) 
+•  Analog line-out/Analog Headphone/Analog Microphone (front panel jack)  
+•  Support for 44.1 kHz/48 kHz/96 kHz/192 kHz sample rates on all analog inputs 
+•  Front Panel Audio Jack Support (see Figure 5 for 3.5 mm audio jack pin out): 
+Speakers only (Stereo) 
+Headphones only (Stereo) 
+Microphone only (mono) 
+Combo Headphone (Stereo)/Microphone (mono)
+
+--- Page 29 ---
+Audio Subsystem / LAN Subsystem 
+ 
+9 
+ 
+Pin Number 
+Pin Name 
+Description 
+1 
+Tip 
+Left Audio Out 
+2 
+Ring 
+Right Audio Out 
+3 
+Ring 
+Common/Ground 
+4 
+Sleeve 
+Audio In/MIC 
+Figure 5.  4-Pin 3.5 mm (1/8 inch) Audio Jack Pin Out 
+ NOTE
+ 
+The analog circuit of the front panel audio connector is designed to power headphones or 
+amplified speakers only. Poor audio quality occurs if passive (nonamplified) speakers are 
+connected to this output. 
+1.10.1  Audio Subsystem Software 
+Audio software and drivers are available from Intel’s web site. 
+ 
+For information about  
+Refer to 
+Obtaining Audio software and drivers 
+http://downloadcenter.intel.com 
+1.11  LAN Subsystem 
+The LAN subsystem consists of the following: 
+•  Intel I219V Gigabit Ethernet Controller (10/100/1000 Mbps) 
+•  RJ-45 LAN connector with integrated status LEDs 
+Additional features of the LAN subsystem include: 
+•  CSMA/CD protocol engine 
+•  LAN connect interface between the Processor and the LAN controller 
+•  Power management capabilities 
+ACPI technology support 
+LAN wake capabilities 
+•  LAN subsystem software 
+ 
+1.11.1  Intel® I219V Gigabit Ethernet Controller 
+The Intel I219V Gigabit Ethernet Controller supports the following features: 
+•  Compliant with the 1 Gbps Ethernet 802.3, 802.3u, 802.3z, 802.3ab specifications  
+•  Multi-speed operation: 10/100/1000 Mbps  
+•  Full-duplex operation at 10/100/1000 Mbps; Half-duplex operation at 10/100 Mbps  
+•  Flow control support compliant with the 802.3X specification as well as the specific operation 
+of asymmetrical flow control defined by 802.3z
+
+--- Page 30 ---
+LAN Subsystem / Power Management 
+ 
+10 
+•  VLAN support compliant with the 802.3q specification 
+•  Supports Jumbo Frames (up to 9 kB)  
+IEEE 1588 supports (Precision Time Protocol) 
+•  MAC address filters: perfect match unicast filters, multicast hash filtering, broadcast filter, and 
+promiscuous mode 
+•  Preboot eXecution Environment (PXE): support in both Legacy and UEFI modes. Requires a 
+preconfigured PXE server infrastructure. 
+ 
+1.11.2  LAN Subsystem Software 
+LAN software and drivers are available from Intel’s web site. 
+ 
+For information about  
+Refer to 
+Obtaining LAN software and drivers 
+http://downloadcenter.intel.com 
+ 
+1.11.3  RJ-45 LAN Connector with Integrated LEDs 
+Two LEDs are built into the RJ-45 LAN connector (shown in Figure 6).   
+ 
+Item 
+Description 
+A 
+Link LED (Green) 
+B 
+Data Rate LED (Green/Yellow) 
+Figure 6.  LAN Connector LED Locations 
+Table 8 describes the LED states when the board is powered up and the LAN subsystem is 
+operating. 
+Table 8.  LAN Connector LED States 
+LED 
+LED Color 
+LED State 
+Condition 
+Link 
+Green 
+Off 
+LAN link is not established. 
+On 
+LAN link is established. 
+Blinking 
+LAN activity is occurring. 
+Data Rate 
+Green/Yellow 
+Off 
+10 Mbps data rate is selected. 
+Green 
+100 Mbps data rate is selected. 
+Yellow 
+1000 Mbps data rate is selected.
+
+--- Page 31 ---
+Audio Subsystem / LAN Subsystem 
+ 
+11 
+1.11.4  Wireless Network Module 
+The Intel® Wi-Fi 6 AX201 module provides hi-speed wireless connectivity with the following 
+capabilities: 
+•  Compliant with IEEE 802.11a/b/g/n/ac/ax, 802.11d, 802.11e, 802.11h, 802.11i, 802.11w, 
+802.11r, 802.11k specifications  
+•  Wi-Fi CERTIFIED* a/b/g/n/ac with wave 2 features, WMM*, WMM-PS*, WPA*, WPA2*, WPS2* 
+•  Maximum bandwidth of 2.4 Gbps  
+•  Dual Mode Bluetooth® 5 
+•  Downlink MU-MIMO 
+•  2x2: two Transmit and two Receive streams 
+•  160 MHz channels (2.4 GHz, 5 GHz) 
+•  Supports new features such as OFDMA, 1024QAM, Target Wake Time (TWT), spatial reuse 
+•  Seamless roaming between access points 
+•  OS support for Microsoft Windows* 10, Linux* 
+•  Wi-Fi Direct* encryption and authentication (Microsoft Windows only): WPA2-PSK, AES-CCMP 
+•  Wi-Fi Miracast* as Source, Protected Management Frames 
+•  Security Features 
+•  Security methods: WPA*, WPA2*, and WPA3* (pending OS support) 
+•  Authentication protocols: 802.1X, EAP-TLS, EAP-TTLS, PEAPv0 (EAP-SIM, EAP-AKA PAP, 
+EAP-AKA’), MS-CHAPv2 
+•  Encryption: 64-bit and 128-bit WEP, TKIP, 128-bit AES-CCMP, 256-bit AES-GCMP 
+ 
+For information about  
+Refer to 
+Obtaining WLAN software and drivers 
+http://downloadcenter.intel.com 
+Full Specifications 
+http://intel.com/wireless 
+1.12  Hardware Management Subsystem 
+The board has several hardware management features, including thermal and voltage monitoring. 
+ 
+1.12.1  Hardware Monitoring  
+The hardware monitoring and fan control subsystem is based on an ITE Tech. IT5571 embedded 
+controller, which supports the following: 
+•  Processor and system ambient temperature monitoring 
+•  Chassis fan speed monitoring 
+•  Voltage monitoring of CPU IO Vcc (+Vccio), Memory Vcc (V_SM), CPU IN Vcc (+Vccp)  
+•  SMBus interface 
+1.12.2  Fan Monitoring 
+Fan monitoring can be implemented using third-party software.   
+1.12.3  Thermal Solution 
+Figure 7 shows the location of the thermal solution and processor fan header.
+
+--- Page 32 ---
+LAN Subsystem / Power Management 
+ 
+12 
+ 
+Item 
+Description 
+A 
+Thermal solution  
+B 
+Processor fan header 
+Figure 7.  Thermal Solution and Fan Header 
+ 
+1.13  Power Management 
+Power management is implemented at several levels, including: 
+•  Software support through Advanced Configuration and Power Interface (ACPI) 
+•  Hardware support: 
+Power Input 
+Instantly Available PC technology 
+LAN wake capabilities 
+Wake from USB  
+WAKE# signal wake-up support 
+Wake from S5 
+Wake from CIR 
++5 V Standby Power Indicator LED 
+•  Microsoft* Modern Standby* (ACPI Low Power S0 Idle) support   
+1.13.1  ACPI 
+ACPI gives the operating system direct control over the power management and Plug and Play 
+functions of a computer.  The use of ACPI with this board requires an operating system that 
+provides full ACPI support.  ACPI features include:
+
+--- Page 33 ---
+Power Management 
+ 
+13 
+•  Plug and Play (including bus and device enumeration) 
+•  Power management control of individual devices, add-in boards (some add-in boards may 
+require an ACPI-aware driver), video displays, and hard disk drives 
+•  Methods for achieving less than 15-watt system operation in the power-on/standby 
+sleeping state 
+•  A Soft-off feature that enables the operating system to power-off the computer 
+•  Support for multiple wake-up events (see Table 11 on page 15) 
+•  Support for a front panel power and sleep mode switch   
+ 
+Table 9 lists the system states based on how long the power switch is pressed, depending on how 
+ACPI is configured with an ACPI-aware operating system. 
+Table 9.  Effects of Pressing the Power Switch 
+If the system is in this state… 
+…and the power switch is pressed for 
+…the system enters this state  
+Off 
+(ACPI G2/G5 – Soft off) 
+Less than four seconds 
+Power-on 
+(ACPI G0 – working state) 
+On 
+(ACPI G0 – working state) 
+Less than four seconds 
+Soft-off/Standby 
+(ACPI G1 – sleeping state) 
+Note
+ 
+On 
+(ACPI G0 – working state) 
+More than six seconds 
+Fail safe power-off 
+(ACPI G2/G5 – Soft off) 
+Sleep 
+(ACPI G1 – sleeping state) 
+Less than four seconds 
+Wake-up 
+(ACPI G0 – working state) 
+Sleep  
+(ACPI G1 – sleeping state) 
+More than six seconds 
+Power-off 
+(ACPI G2/G5 – Soft off) 
+Note:  Depending on power management settings in the operating system.
+
+--- Page 34 ---
+Power Management 
+ 
+14 
+1.13.1.1  System States and Power States 
+Under ACPI, the operating system directs all system and device power state transitions.  The 
+operating system puts devices in and out of low-power states based on user preferences and 
+knowledge of how devices are being used by applications.  Devices that are not being used can be 
+turned off.  The operating system uses information from applications and user settings to put the 
+system as a whole into a low-power state. 
+Table 10 lists the power states supported by the board along with the associated system power 
+targets.  See the ACPI specification for a complete description of the various system and power 
+states. 
+Table 10.  Power States and Targeted System Power 
+ 
+Global States 
+ 
+Sleeping States 
+Processor 
+States 
+ 
+Device States 
+Targeted System  
+Power 
+(Note 1)
+ 
+G0 – working 
+state 
+S0 – working 
+C0 – working 
+D0 – working state. 
+Full power > 30 W 
+G1 – sleeping 
+state 
+S3 – Suspend to RAM.  
+Context saved to 
+RAM. 
+No power 
+D3 – no power 
+except for wake-up 
+logic. 
+Power < 5 W  
+(Note 2)
+ 
+G1 – sleeping 
+state 
+S4 – Suspend to disk.  
+Context saved to disk. 
+No power 
+D3 – no power 
+except for wake-up 
+logic. 
+Power < 5 W  
+(Note 2)
+ 
+G2/S5 
+S5 – Soft off.  Context 
+not saved.  Cold boot 
+is required. 
+No power 
+D3 – no power 
+except for wake-up 
+logic. 
+Power < 5 W  
+(Note 2)
+ 
+G3 – mechanical 
+off 
+AC power is 
+disconnected 
+from the 
+computer. 
+No power to the 
+system. 
+No power 
+D3 – no power for 
+wake-up logic, 
+except when 
+provided by battery 
+or external source. 
+No power to the system.  
+Service can be performed 
+safely. 
+Notes: 
+1.  Total system power is dependent on the system configuration, including add-in boards and peripherals powered by 
+the system chassis’ power supply. 
+2.  Dependent on the standby power consumption of wake-up devices used in the system.
+
+--- Page 35 ---
+Power Management 
+ 
+15 
+1.13.1.2  Wake-up Devices and Events 
+Table 11 lists the devices or specific events that can wake the computer from specific states. 
+Table 11.  Wake-up Devices and Events 
+Devices/events that wake up the system… 
+…from this sleep state 
+Comments 
+Power switch 
+S0iX, S3, S4, S5
+1
+ 
+ 
+RTC alarm 
+S0iX, S3, S4, S5
+1
+ 
+Monitor to remain in sleep state 
+LAN  
+S3, S4, S5
+1, 3
+ 
+“S5 WOL after G3” supported; monitor to 
+remain in sleep state 
+USB 
+S0iX, S3, S4, S5
+1, 2, 3
+ 
+Wake from S4, S5 controlled by BIOS 
+option (not after G3) 
+WAKE# (PCIe) 
+S0iX, S3, S4
+1
+ 
+Via WAKE; monitor to remain in sleep 
+state 
+Consumer IR 
+S0iX, S3, S4, S5
+1, 3
+ 
+Will not wake when in Deep S4/S5 sleep 
+state 
+Bluetooth 
+N/A 
+Wake from Bluetooth is not supported 
+On-board microphones 
+S0iX 
+Wake on Voice using “Hardware Keyword 
+Spotting” 
+Notes: 
+1.  S4 implies operating system support only. 
+2.  Will not wake from Deep S4/S5.  USB S4/S5 Power is controlled by BIOS. USB S5 wake is controlled by BIOS. USB S4 
+wake is controlled by OS driver, not just BIOS option. 
+3.  Windows 10 Fast startup will block wake from LAN, USB, and CIR from S5. 
+ 
+NOTE 
+The use of these wake-up events from an ACPI state requires an operating system that provides 
+full ACPI support.  In addition, software, drivers, and peripherals must fully support ACPI wake 
+events. 
+ 
+1.13.2  Hardware Support 
+The boards provide several power management hardware features, including: 
+•  Wake from Power Button signal 
+•  Instantly Available PC technology 
+•  LAN wake capabilities 
+•  Wake from USB (not after G3) 
+•  WAKE# signal wake-up support on PCIe 
+•  Wake from S5 
+•  Wake from CIR 
+•  +5 V Standby Power Indicator LED 
+ 
+NOTE 
+The use of Wake from USB from an ACPI state requires an operating system that provides full 
+ACPI support.
+
+--- Page 36 ---
+Power Management 
+ 
+16 
+1.13.2.1  Power Input 
+When resuming from an AC power failure, the computer returns to the power state it was in 
+before power was interrupted (on or off).  The computer’s response can be set using the Last 
+Power State feature in the BIOS Setup program’s Boot menu.   
+1.13.2.2  Instantly Available PC Technology 
+Instantly Available PC technology enables the board to enter the ACPI S3 (Suspend-to-RAM) 
+sleep-state.  While in the S3 sleep-state, the computer will appear to be off (the power supply is 
+only supplying Standby power, and the front panel LED will be amber or secondary color if dual 
+colored, or off if single colored.)  When signaled by a wake-up device or event, the system quickly 
+returns to its last known wake state.  Table 11 on page 15 lists the devices and events that can 
+wake the computer from the S3 state. 
+The use of Instantly Available PC technology requires operating system support and drivers for 
+any installed M.2 add-in card. 
+1.13.2.3  LAN Wake Capabilities 
+LAN wake capabilities enable remote wake-up of the computer through a network.  The LAN 
+subsystem monitors network traffic at the Media Independent Interface.  Upon detecting a Magic 
+Packet* frame, the LAN subsystem asserts a wake-up signal that powers up the computer. 
+1.13.2.4  Wake from USB 
+USB bus activity wakes the computer from an ACPI S3 state (not after G3). 
+ 
+NOTE 
+Wake from USB requires the use of a USB peripheral that supports Wake from USB. 
+1.13.2.5  WAKE# Signal Wake-up Support 
+When the WAKE# signal on the PCI Express bus is asserted, the computer wakes from an ACPI S3 
+or S4 state. 
+1.13.2.6  Wake from S5 
+When the RTC Date and Time is set in the BIOS, the computer will automatically wake from an 
+ACPI S5 state. 
+1.13.2.7  Wake from Consumer IR 
+CIR activity wakes the computer from an ACPI S3, S4, or S5 state. 
+1.13.2.8  +5 V Standby Power Indicator LED 
+The standby power indicator LED shows that power is still present even when the computer 
+appears to be off.  Figure 8 shows the location of the standby power LED.
+
+--- Page 37 ---
+Power Management 
+ 
+17 
+  CAUTION 
+If AC power has been switched off and the standby power indicator is still lit, disconnect the power 
+cord before installing or removing any devices connected to the board.  Failure to do so could 
+damage the board and any attached devices. 
+ 
+Figure 8.  Location of the Standby Power LED
+
+--- Page 38 ---
+Power Management 
+ 
+18 
+1.13.3  Microsoft Modern Standby Support 
+Intel NUC Products NUC10i3FN/NUC10i5FN/NUC10i7FN support Windows* 10 Modern Standby, 
+Microsoft’s implementation of ACPI low power S0 idle (aka, S0iX). This allows the system to 
+reduce power consumption and only wake when necessary, as for system maintenance tasks or 
+user intervention. Modern Standby is required for Wake-on-Voice capability. 
+ 
+NOTES 
+You cannot switch between ACPI S3 and Modern Standby. Standby power model switching is only 
+supported with a complete operating system reinstallation.  Switching from one standby power 
+model to another will prevent the proper functioning of sleep states. 
+Updating BIOS or resetting BIOS to defaults will preserve the current standby power model. 
+ 
+For information about  
+Refer to 
+Microsoft Modern Standby 
+https://docs.microsoft.com/en-us/windows-
+hardware/design/device-experiences/modern-standby  
+Intel ACPI Low Power S0 Idle 
+http://www.uefi.org/sites/default/files/resources/Intel_ACPI_Low_
+Power_S0_Idle.pdf  
+ 
+1.14  Intel Platform Security Technologies 
+Intel platform security technologies provides tools and resources to help the user protect their 
+information by creating a safer computing environment. 
+ 
+NOTE 
+Software with security capability is required to take advantage of Intel platform security 
+technologies. 
+1.14.1    Intel® Virtualization Technology 
+Intel Virtualization Technology (Intel® VT) is a hardware-assisted technology that, when 
+combined with software-based virtualization solutions, provides maximum system utilization by 
+consolidating multiple environments into a single server or client. 
+ 
+NOTE 
+A processor with Intel VT does not guarantee that virtualization will work on your system. Intel VT 
+requires a computer system with a chipset, BIOS, enabling software and/or operating system, 
+device drivers, and applications designed for this feature. 
+ 
+For information about  
+Refer to 
+Intel Virtualization Technology 
+http://www.intel.com/technology/virtualization/technology.htm
+
+--- Page 39 ---
+Platform Security 
+ 
+19 
+1.14.2  Intel® Platform Trust Technology 
+Intel® Platform Trust Technology (Intel® PTT) is a platform functionality for credential storage and 
+key management. Intel® PTT supports Microsoft* BitLocker* Drive Encryption for hard drive 
+encryption and supports all Microsoft requirements for firmware Trusted Platform Module (fTPM) 
+2.0 for client computers. 
+ 
+NOTE 
+Support for fTPM version 2.0 requires a UEFI-enabled operating system, such as Microsoft* 
+Windows* 10. 
+  CAUTION 
+BIOS recovery using the BIOS security jumper clears Intel® Platform Trust Technology (Intel® PTT) 
+keys. These keys will not be restored after the BIOS recovery. Disable HDD encryption like 
+BitLocker and other uses of data encryption and authentication before using BIOS recovery. 
+ 
+For information about  
+Refer to 
+Intel Platform Trust Technology 
+http://www.intel.com/content/dam/www/public/us/en/documents
+/white-papers/enterprise-security-platform-trust-technology-
+white-paper.pdf
+
+--- Page 40 ---
+Technical Reference 
+ 
+20 
+2  Technical Reference 
+2.1  Memory Resources 
+2.1.1  Addressable Memory 
+The board utilizes a maximum of 64 GB of addressable system memory.  Typically, the address 
+space that is allocated for PCI Conventional bus add-in cards, PCI Express configuration space, 
+BIOS (SPI Flash device), and chipset overhead resides above the top of DRAM (total system 
+memory).  On a system that has 64 GB of system memory installed, it is not possible to use all of 
+the installed memory due to system address space being allocated for other system critical 
+functions.  These functions include the following: 
+•  BIOS/SPI Flash device (64 Mb) 
+•  Local APIC (19 MB) 
+•  Direct Media Interface (40 MB) 
+•  PCI Express configuration space (256 MB) 
+•  PCH base address registers PCI Express ports (up to 256 MB) 
+•  Memory-mapped I/O that is dynamically allocated for M.2 add-in cards (256 MB) 
+•  Integrated graphics shared memory (up to 512 MB; 64 MB by default) 
+The board provides the capability to reclaim the physical memory overlapped by the memory 
+mapped I/O logical address space.  The board remaps physical memory from the top of usable 
+DRAM boundary to the 4 GB boundary to an equivalent sized logical address range located just 
+above the 4 GB boundary.  All installed system memory can be used when there is no overlap of 
+system addresses.   
+2.2  Connectors and Headers 
+  CAUTION 
+Only the following connectors and headers have overcurrent protection:  back panel and front 
+panel USB. 
+The other internal connectors and headers are not overcurrent protected and should connect only 
+to devices inside the computer’s chassis, such as fans and internal peripherals.  Do not use these 
+connectors or headers to power devices external to the computer’s chassis.  A fault in the load 
+presented by the external devices could cause damage to the computer, the power cable, and the 
+external devices themselves. 
+Furthermore, improper connection of USB header single wire connectors may eventually overload 
+the overcurrent protection and cause damage to the board.
+
+--- Page 41 ---
+Technical Reference 
+ 
+21 
+This section describes the board’s connectors and headers.  The connectors and headers can be 
+divided into these groups: 
+•  Front panel I/O connectors 
+•  Back panel I/O connectors 
+ 
+2.2.1  Front Panel Connectors 
+Figure 9 shows the location of the front panel connectors for the board. 
+ 
+Item 
+Description 
+A 
+Front panel power button and LED 
+B 
+Front panel Stereo 
+microphone/headphone jack 
+C 
+USB 3.1 (Gen 2) Type A port (blue) 
+D 
+USB 3.1 (Gen 2) Type C port 
+E 
+HDD LED 
+F 
+CIR 
+Figure 9.  Front Panel Connectors 
+2.2.2  Back Panel Connectors 
+Figure 10 shows the location of the back-panel connectors for the board. 
+ 
+Item 
+Description 
+A 
+USB 3.1 (Gen 2) Type C port 
+(Thunderbolt) 
+B 
+USB 3.1 (Gen 2) Type A ports (blue) 
+C 
+LAN 
+D 
+HDMI 2.0b connector 
+E 
+19 V DC power input jack 
+Figure 10.  Back Panel Connectors
+
+--- Page 42 ---
+Technical Reference 
+ 
+22 
+2.2.3  Headers and Connectors (Top) 
+Figure 11 shows the location of the headers and connectors on the top-side of the board. 
+ 
+Figure 11.  Headers and Connectors (Top) 
+Table 12 lists the headers and connectors identified in Figure 11.   
+ 
+Table 12.  Headers and Connectors Shown in Figure 11 
+Item from Figure 11 
+Description 
+A 
+Processor fan header 
+B 
+SDXC card reader
+
+--- Page 43 ---
+Technical Reference 
+ 
+23 
+2.2.4  Connectors and Headers (Bottom) 
+Figure 12 shows the locations of the connectors and headers on the bottom-side of the board. 
+ 
+Figure 12.  Connectors and Headers (Bottom)
+
+--- Page 44 ---
+Technical Reference 
+ 
+24 
+Table 13 lists the connectors and headers identified in Figure 12.   
+ 
+Table 13.  Connectors and Headers Shown in Figure 12 
+Item from 
+Figure 12 
+ 
+Description 
+A 
+Digital microphone array connector 
+B 
+Front panel header 
+C 
+Coin battery connector 
+D 
+RGB LED connector  
+E 
+M.2 connector (key type M) for 2242 and 2280 modules  
+F 
+Front panel single-port USB 2.0 header (1.25 mm pitch)  
+G 
+Front panel single-port USB 2.0 header (1.25 mm pitch) 
+H 
+SATA data/power connector (0.5 mm pitch ZIF) 
+I 
+BIOS security jumper 
+J 
+Consumer electronics control (CEC) header
+
+--- Page 45 ---
+Technical Reference 
+ 
+25 
+2.2.4.1  Signal Tables for the Connectors and Headers 
+ 
+Table 14.  SATA Data/Power Connector (0.5 mm pitch ZIF) 
+Pin 
+Signal Name 
+Pin 
+Signal Name 
+1 
++5 V 
+2 
++5 V 
+3 
++5 V 
+4 
++5 V 
+5 
+NC 
+6 
+NC 
+7 
+NC 
+8 
+DEVSLP 
+9 
+GND 
+10 
+GND 
+11 
+SATA_RX_P 
+12 
+SATA_RX_N 
+13 
+GND 
+14 
+SATA_TX_N 
+15 
+SATA_TX_P 
+16 
+GND 
+ 
+NOTE 
+Connector is Entery 6700K-J16N-00L, FPC 16 pin 0.5mm pitch SMT. 
+ 
+ 
+Table 15.  Single-Port Internal USB 2.0 Header (1.25 mm pitch) 
+Pin 
+Signal Name 
+Pin 
+Signal Name 
+1 
++5 V DC 
+2 
+D- 
+3 
+D+ 
+4 
+Ground 
+See section 2.2.4.7 for more information on USB 2.0 headers. 
+ 
+NOTE 
+Connector is Molex part number 53398-0471, 1.25 mm pitch PicoBlade header, surface mount, 
+vertical, lead-free, 4 circuits. 
+ 
+Table 16.  M.2 2280 Module (key type M) Connector 
+Pin 
+Signal Name 
+Pin 
+Signal Name 
+74 
+3.3V 
+75 
+GND 
+72 
+3.3V 
+73 
+GND 
+70 
+3.3V 
+71 
+GND 
+68 
+SUSCLK(32kHz) (O)(0/3.3V) 
+69 
+PEDET (NC-PCIe/GND-SATA) 
+66 
+Connector Key 
+67 
+N/C 
+64 
+Connector Key 
+65 
+Connector Key 
+62 
+Connector Key 
+63 
+Connector Key 
+60 
+Connector Key 
+61 
+Connector Key 
+58 
+N/C 
+59 
+Connector Key 
+56 
+N/C 
+57 
+GND 
+continued
+
+--- Page 46 ---
+Technical Reference 
+ 
+26 
+Table 16.  M.2 2280 Module (key type M) Connector (continued) 
+Pin 
+Signal Name 
+Pin 
+Signal Name 
+54 
+PEWAKE# (I/O)(0/3.3V) or N/C 
+55 
+REFCLKP 
+52 
+CLKREQ# (I/O)(0/3.3V) or N/C 
+53 
+REFCLKN 
+50 
+PERST# (O)(0/3.3V) or N/C 
+51 
+GND 
+48 
+N/C 
+49 
+PETp0/SATA-A+ 
+46 
+N/C 
+47 
+PETn0/SATA-A- 
+44 
+N/C 
+45 
+GND 
+42 
+N/C 
+43 
+PERp0/SATA-B- 
+40 
+N/C 
+41 
+PERn0/SATA-B+ 
+38 
+DEVSLP (O) 
+39 
+GND 
+36 
+N/C 
+37 
+PETp1 
+34 
+N/C 
+35 
+PETn1 
+32 
+N/C 
+33 
+GND 
+30 
+N/C 
+31 
+PERp1 
+28 
+N/C 
+29 
+PERn1 
+26 
+N/C 
+27 
+GND 
+24 
+N/C 
+25 
+PETp2 
+22 
+N/C 
+23 
+PETn2 
+20 
+N/C 
+21 
+GND 
+18 
+3.3V 
+19 
+PERp2 
+16 
+3.3V 
+17 
+PERn2 
+14 
+3.3V 
+15 
+GND 
+12 
+3.3V 
+13 
+PETp3 
+10 
+DAS/DSS# (I/O)/LED1# (I)(0/3.3V) 
+11 
+PETn3 
+8 
+N/C 
+9 
+GND 
+6 
+N/C 
+7 
+PERp3 
+4 
+3.3V 
+5 
+PERn3 
+2 
+3.3V 
+3 
+GND 
+  
+  
+1 
+GND 
+ 
+See section 2.2.4.2 for more information on the M.2 connector. 
+Table 17.  Digital Microphone (DMICS) Array Connector (1.25 mm Pitch)  
+Pin 
+Signal Name 
+1 
+Ground  
+2 
+VCC3/3VSB (DMIC_PWR) 
+3 
+Data 0 (DMIC_DATA0) 
+4 
+Clock 0 (DMIC_CLK0) 
+5 
+Data 1 (DMIC_DATA1) 
+6 
+Clock 1 (DMIC_CLK1) 
+See section 2.2.4.11 for more information on the DMIC Array connector.
+
+--- Page 47 ---
+Technical Reference 
+ 
+27 
+ 
+NOTE 
+Connector is Aces part number 50273-0047C-002, 1.25 mm pitch header, surface mount, vertical, 
+lead-free, 4 circuits. 
+Table 18.  RGB LED Connector (1.25 mm Pitch)  
+Pin 
+Signal Name 
+1 
++3VSB  
+2 
+Red HDD LED 
+3 
+Green HDD LED 
+4 
+Blue HDD LED 
+See section 2.2.4.10 for more information on the RGB LED connector. 
+ 
+NOTE 
+Connector is Aces part number 50273-0047C-002, 1.25 mm pitch header, surface mount, vertical, 
+lead-free, 4 circuits. 
+Table 19.  CEC Header (1.25 mm pitch) 
+Pin 
+Signal Name 
+1 
++5 V Standby (5VSB) 
+2 
+Ground (GND) 
+3 
+Power Switch (CEC_PWR) 
+4 
+HDMI CEC (HDMI_CEC) 
+See section 0 for more information on the CEC header. 
+ 
+NOTE 
+Connector is Aces part number 50273-0047C-002, 1.25 mm pitch header, surface mount, vertical, 
+lead-free, 4 circuits.
+
+--- Page 48 ---
+Technical Reference 
+ 
+28 
+2.2.4.2  Add-in Card Connectors 
+The board supports M.2 2242 and 2280 (key type M) modules. 
+•  Supports M.2 SSD SATA drives 
+Maximum bandwidth is approximately 540 MBps  
+•  Supports M.2 SSD Gen 3 PCIe AHCI and NVMe drives (PCIe x1, x2, and x4) 
+Using PCIe x4 M.2 SSD maximum bandwidth is approximately 4000 MBps 
+ 
+2.2.4.3  USB Type C connector 
+The board has several features that are supported via the USB Type C connector.   
+•  Supports USB 3.1 Gen 2.0 
+Maximum bandwidth is approximately 10 Gbps  
+•  Supports Display port 1.2  
+Maximum bandwidth is approximately 17.28 Gbps  
+•  Supports Thunderbolt 3 PCIe x4 connection (rear connector only) 
+Maximum bandwidth is approximately 40 Gbps  
+Table 20. USB Type C Connector 
+Pin 
+Signal Name 
+Description 
+Pin 
+Signal Name 
+Description 
+A12 
+GND2 
+Ground 
+B1 
+GND3 
+Ground 
+A11 
+RX_P2 
+High speed receive 2 + 
+B2 
+TX_P2 
+High speed transmit 2 + 
+A10 
+RX_N2 
+High speed receive 2 – 
+B3 
+TX_N2 
+High speed transmit 2 – 
+A9 
+VBUS2 
+USB bus power 
+B4 
+VBUS3 
+USB bus power 
+A8 
+SBU1 
+Sideband use 1 
+B5 
+CC2 
+Channel config 2 
+A7 
+DN1 
+USB 2.0 data 1 – 
+B6 
+DP2 
+USB 2.0 data 2 + 
+A6 
+DP1 
+USB 2.0 data 1 + 
+B7 
+DN2 
+USB 2.0 data 2 – 
+A5 
+CC1 
+Channel config 1 
+B8 
+SBU2 
+Sideband use 2 
+A4 
+VBUS1 
+USB bus power 
+B9 
+VBUS4 
+USB bus power 
+A3 
+TX_N1 
+High speed transmit 1 + 
+B10 
+RX_N1 
+High speed receive 1 – 
+A2 
+TX_P1 
+High speed transmit 1 – 
+B11 
+RX_P1 
+High speed receive 1 + 
+A1 
+GND1 
+Ground 
+B12 
+GND4 
+Ground 
+ 
+2.2.4.4  Front Panel Header (2.0 mm Pitch) 
+This section describes the functions of the front panel header.  Table 21 lists the signal names of 
+the front panel header.  Figure 13 is a connection diagram for the front panel header. 
+Table 21.  Front Panel Header (2.0 mm Pitch) 
+Pin 
+Signal Name 
+Description 
+Pin 
+Signal Name 
+Description 
+1 
+HDD_POWER_LED 
+Pull-up resistor (750 Ω) to 
++5V 
+2 
+POWER_LED_MAIN 
+[Out] Front panel LED (main 
+color) 
+3 
+HDD_LED# 
+[Out] Hard disk activity 
+LED 
+4 
+POWER_LED_ALT 
+[Out] Front panel LED (alt color) 
+5 
+GROUND 
+Ground 
+6 
+POWER_SWITCH# 
+[In] Power switch
+
+--- Page 49 ---
+Technical Reference 
+ 
+29 
+7 
+RESET_SWITCH# 
+[In] Reset switch 
+8 
+GROUND 
+Ground 
+9 
++5V_DC 
+Power 
+10 
+Key 
+No pin 
+ 
+ 
+Figure 13.  Connection Diagram for Front Panel Header (2.0 mm Pitch) 
+2.2.4.4.1  Hard Drive Activity LED Pins 
+Pins 1 and 3 can be connected to an LED to provide a visual indicator that data is being read from 
+or written to a hard drive.  Proper LED function requires a SATA hard drive or optical drive 
+connected to an onboard SATA connector. 
+2.2.4.4.2  Reset Switch Pins 
+Pins 5 and 7 can be connected to a momentary single pole, single throw (SPST) type switch that is 
+normally open.  When the switch is closed, the board resets and runs the POST. 
+2.2.4.4.3  Power/Sleep LED Pins 
+Pins 2 and 4 can be connected to a one- or two-color LED.  Table 22 and Table 23 show the 
+possible LED states. 
+Table 22.  States for a One-Color Power LED 
+LED State 
+Description 
+Off 
+Power off 
+Blinking 
+Standby 
+Steady 
+Normal operation 
+Table 23.  States for a Dual-Color Power LED 
+LED State 
+Description 
+Off 
+Power off 
+Secondary color blinking 
+(amber) 
+Standby 
+Primary color steady (Blue) 
+Normal operation 
+ 
+NOTE 
+The LED behavior shown in Table 22 is default – other patterns may be set via BIOS setup.
+
+--- Page 50 ---
+Technical Reference 
+ 
+30 
+2.2.4.4.4  Power Switch Pins 
+Pins 6 and 8 can be connected to a front panel momentary-contact power switch.  The switch 
+must pull the SW_ON# pin to ground for at least 50 ms to signal the power supply to switch on or 
+off.  (The time requirement is due to internal debounce circuitry on the board.)  At least two 
+seconds must pass before the power supply will recognize another on/off signal. 
+2.2.4.5  SDXC Card Reader 
+The board has a full-sized Secure Digital (SD) card reader that supports the Secure Digital 
+eXtended Capacity (SDXC) format, 4.0 specification, UHS-II bus speed. 
+Table 24.  SDXC Card Reader Connector 
+Pin 
+Signal Name 
+1 
+CD/DAT3 
+2 
+CMD 
+3 
+VSS1 
+4 
+VDD1 
+5 
+CLK 
+6 
+VSS2 
+7 
+DAT0/RCLK+ 
+8 
+DAT1/RCLK- 
+9 
+DAT2 
+10* 
+VSS3 
+11* 
+D0+ 
+12* 
+D0- 
+13* 
+VSS4 
+14* 
+VDD2 
+15* 
+D1- 
+16* 
+D1+ 
+17* 
+VSS5 
+ 
+NOTE 
+*Pins 10-17 added with UHS-II v4.0 specification. Not present on all SD cards. 
+2.2.4.6  Power Supply Connector 
+The board has the following power supply connector: 
+•  External Power Supply – the board can be powered through a 19 V DC (±10%) connector on 
+the back panel.  The back-panel DC connector is compatible with a 5.5 mm/OD (outer 
+diameter) and 2.5 mm/ID (inner diameter) plug, where the inner contact is +19V DC and the 
+shell is GND.  The maximum current rating is 10 A.  
+ 
+NOTE 
+External power voltage, 19 V DC, is dependent on the type of power adapter used.
+
+--- Page 51 ---
+Technical Reference 
+ 
+31 
+ 
+2.2.4.6.1  Power Sensing Circuit 
+The board has a power sensing circuit that: 
+•  Manages CPU power usage to maintain system power consumption below 90 W (NUC10i3FN 
+and NUC10i5FN) or below 120 W (NUC10i7FN). 
+•  Designed for use with 90 W AC-DC adapters (NUC10i3FN and NUC10i5FN) and 120 W AC-DC 
+adapters (NUC10i7FN). 
+2.2.4.7  Internal USB 2.0 Single-Port Header (1.25 mm Pitch) 
+Figure 14 is a connection diagram for the internal USB header.  
+ 
+NOTE 
+•  The +5 V DC power on the USB header is fused. 
+•  Use only an internal USB connector that conforms to the USB 2.0 specification for high-speed 
+USB devices. 
+ 
+Figure 14.  Connection Diagram for the Internal 
+USB 2.0 Single-Port Header (1.25 mm Pitch) 
+2.2.4.8  Consumer Infrared (CIR) Sensor 
+The Consumer Infrared (CIR) sensor on the front panel provides features that are designed to 
+comply with Microsoft Consumer Infrared usage models (RC-6).  
+The CIR feature is made up of the receiving sensor.  The receiving sensor consists of a filtered 
+translated infrared input compliant with Microsoft CIR specifications. 
+Customers are required to provide their own media center compatible remote or smart phone 
+application for use with the Intel NUC.  Figure 15 shows the location of the CIR sensor. 
+ 
+Item 
+Description 
+A 
+CIR Sensor 
+Figure 15.  Location of the CIR Sensor
+
+--- Page 52 ---
+Technical Reference 
+ 
+32 
+2.2.4.9  Consumer Electronics Control (CEC) Header 
+The board contains two mutually-exclusive methods for controlling HDMI CEC devices: 
+•  External CEC adaptor connected via CEC connector (item J in Figure 12; pinout in Table 19) 
+•  Onboard CEC control from the embedded controller via HDMI cable and BIOS setup. Expected 
+behavior is provided in Table 25 below. 
+Table 25. HDMI CEC expected behavior 
+Activity 
+Current Status 
+Action 
+Expected Behavior 
+PC
+1,2
+ 
+TV
+3
+ 
+Wake On TV 
+Off 
+Off 
+TV on 
+PC on 
+Standby by TV 
+On 
+On 
+TV Standby 
+PC sleep or power off
+4
+  
+Auto Turn Off TV (S0 -> S5) 
+On 
+On 
+PC Shutdown 
+TV standby
+3
+ 
+Auto Turn On TV (S5 -> S0) 
+Off 
+Off 
+PC On 
+TV on
+3
+ 
+Auto Turn Off TV (S0 -> S3) 
+On 
+On 
+PC Sleep 
+TV standby
+3
+ 
+Auto Turn On TV (S3 -> S0) 
+Off 
+Off 
+PC On 
+TV on
+3
+ 
+Notes: 
+1.  HDMI CEC Control enabled in BIOS Setup and in TV setup, if necessary. Please consult your TV’s documentation. 
+2.  Fast Boot and Deep S4/S5 disabled in BIOS Setup. 
+3.  Results seen with Panasonic LED TV VIERA TH-40A400W. Other TVs may have different results due to variable implementations of 
+CEC features. 
+4.  PC power off behavior dependent upon power button setting in operating system. 
+5.  If using external CEC adaptor, onboard CEC control must be disabled in BIOS Setup. 
+ 
+NOTE 
+CEC Connector is Aces part number 50273-0047C-002, 1.25 mm pitch header, surface mount, 
+vertical, lead-free, 4 circuits. 
+2.2.4.10  RGB LED 
+The board supports an RGB LED which is connected through Item C shown in Figure 12.  The RGB 
+LED is configurable within the BIOS under the Power tab within Advanced settings.  Table 21 lists 
+the signal names of the RGB LED connector.  Table 26 lists the available settings for the RGB LED 
+within BIOS. 
+Table 26.  RGB LED Options  
+BIOS Option 
+Possible Configurations 
+RGB LED Color 
+Yellow, cyan, magenta, blue, red, green and white.  
+RGB LED Brightness 
+0%, 50% 100% 
+RGB LED Activity Indicator 
+None, Power indicator, HDD Activity or Software defined  
+For information about  
+Refer to 
+HDMI CEC technology 
+http://www.hdmi.org/pdf/whitepaper/DesigningCECintoYourNextH
+DMIProduct.pdf
+
+--- Page 53 ---
+Technical Reference 
+ 
+33 
+2.2.4.11  Digital Microphone Array 
+The digital microphone array consists of four front facing digital microphones located on along 
+the topside of the front panel to minimize acoustic interference.  The digital microphone array is 
+intended to be used with a digital assistant like Microsoft’s Cortana* and supports both near-field 
+and far-field use cases.   Item A in Figure 12 shows the location of the digital microphone array 
+connector.  Table 17 lists the signal names of the DMIC connector.  See Chapter 1 for the physical 
+location of the DMIC array on the Intel NUC Kit NUC10i[x]FNK and Intel NUC Kit NUC10i[x]FNH 
+chassis. 
+ 
+2.3  BIOS Security Jumper 
+  CAUTION 
+Do not move a jumper with the power on.  Always turn off the power and unplug the power cord 
+from the computer before changing a jumper setting.  Otherwise, the board could be damaged. 
+Figure 16 shows the location of the BIOS Security Jumper.  The 3-pin jumper determines the 
+BIOS Security program’s mode. 
+Table 27 describes the jumper settings for the three modes:  normal, lockdown, and 
+configuration.   
+ 
+Figure 16.  Location of the BIOS Security Jumper
+
+--- Page 54 ---
+Technical Reference 
+ 
+34 
+Table 28 lists the settings for the jumper.  
+ 
+Table 27.  BIOS Security Jumper Settings 
+Function/Mode 
+Jumper 
+Setting 
+Configuration 
+Normal 
+1-2 
+The BIOS uses current configuration information and passwords for booting.   
+Lockdown 
+2-3 
+The BIOS uses current configuration information and passwords for booting, except: 
+•  All POST Hotkeys are suppressed (prompts are not displayed and keys are not  accepted. For 
+example, F2 for Setup, F10 for the Boot Menu). 
+•  Power Button Menu is not available (see Section 3.7.4 Power Button Menu). 
+BIOS updates are not available except for automatic Recovery due to flash corruption. 
+Configuration 
+None 
+BIOS Recovery Update process if a matching *.bio file is found. Recovery Update can be cancelled 
+by pressing the Esc key. 
+If the Recovery Update was cancelled or a matching *.bio file was not found, a Config Menu will be 
+displayed. The Config Menu consists of the following options: 
+[1]   Suppress this menu until the BIOS Security Jumper is replaced. 
+[2]   Clear BIOS User and Supervisor Passwords. 
+[3]      Clear Trusted Platform Module 
+Warning: Data encrypted with the TPM will no longer be accessible if the TPM is cleared 
+[4]      Disable Privacy MSR Bit (Clear MSR C80[0] to 0) 
+[5]      Enable Privacy MSR Bit (Set MSR C80[0] to 1) 
+[F2]    Intel® Visual BIOS 
+[F4]    BIOS Recovery
+
+--- Page 55 ---
+Technical Reference 
+ 
+35 
+2.4  Mechanical Considerations 
+2.4.1  Form Factor 
+The board is designed to fit into a custom chassis.  Figure 17 illustrates the mechanical form 
+factor for the board.  Dimensions are given in inches [millimeters].   
+ 
+ 
+Figure 17.  Board Dimensions
+
+--- Page 56 ---
+Technical Reference 
+ 
+36 
+Figure 18 shows the height dimensions of the board. 
+ 
+Figure 18.  Board Height Dimensions 
+2.4.2  Weights & Dimensions 
+Table 28 lists select weights of boards and kits and Table 29 lists kit dimensions. 
+Table 28. Select Weights  
+Item  
+Weight (in kg) 
+Board with Thermal Solution  
+0.21 
+Slim Kit (includes Board Assembly) 
+0.47 
+Tall NUC10i7FNH Kit (includes Board 
+Assembly)  
+0.7 
+Table 29. Select Chassis Dimensions 
+Item 
+Chassis Dimensions (WxDxH, in mm) 
+Slim Kit (includes chassis feet) 
+Without chassis feet 
+117 x 112 x 38 
+117 x 112 x 34 
+Tall Kit (includes chassis feet) 
+Without chassis feet 
+117 x 112 x 51 
+117 x 112 x 48 
+2.5  Electrical Considerations 
+2.5.1  Power Supply Considerations 
+System power requirements will depend on actual system configurations chosen by the 
+integrator, as well as end user expansion preferences.  It is the system integrator’s responsibility 
+to ensure an appropriate power budget for the system configuration is properly assessed based 
+on the system-level components chosen.   
+2.5.2  Fan Header Current Capability 
+Table 30 lists the current capability of the fan header. 
+Table 30.  Fan Header Current Capability  
+Fan Header 
+Maximum Available Current 
+Processor fan 
+0.5 A
+
+--- Page 57 ---
+Technical Reference 
+ 
+37 
+2.6  Thermal Considerations 
+  CAUTION 
+A chassis with a maximum temperature of 50 
+o
+C at the processor fan inlet is recommended.  If the 
+internal ambient temperature exceeds 50 
+o
+C, further thermal testing is required to ensure 
+components do not exceed their maximum case temperature. 
+  CAUTION 
+Failure to ensure appropriate airflow may result in reduced performance of both the processor 
+and/or voltage regulator or, in some instances, damage to the board.   
+All responsibility for determining the adequacy of any thermal or system design remains solely 
+with the system integrator.  Intel makes no warranties or representations that merely following the 
+instructions presented in this document will result in a system with adequate thermal 
+performance. 
+  CAUTION 
+Ensure that the ambient temperature does not exceed the board’s maximum operating 
+temperature.  Failure to do so could cause components to exceed their maximum case 
+temperature and malfunction.  For information about the maximum operating temperature, see 
+the environmental specifications in Section 2.8.  
+  CAUTION 
+Ensure that proper airflow is maintained in the processor voltage regulator circuit.  Failure to do 
+so may result in shorter than expected product lifetime.
+
+--- Page 58 ---
+Technical Reference 
+ 
+38 
+Figure 19 shows the locations of the localized high temperature zones. 
+ 
+Item 
+Description 
+A 
+Thermal solution  
+B 
+Processor voltage regulator area 
+Figure 19.  Localized High Temperature Zones
+
+--- Page 59 ---
+Technical Reference 
+ 
+39 
+A thermal pad has been installed for the bottom of the chassis to improve the thermal 
+performance when using M.2 devices that operate at higher temperatures.  If the thermal pad 
+ever needs to be replaced, Figure 20 shows the installation area of the thermal pad for Intel NUC 
+Kit NUC10i3FNK, Intel NUC Kit NUC10i5FNK and Intel NUC Kit NUC10i7FNK. 
+ 
+Item 
+Description 
+A 
+Thermal Pad 
+B 
+Thermal Pad Installation Area 
+Figure 20.  Installation Area of Thermal Pad for Intel NUC Kits  
+NUC10i3FNK/NUC10i5FNK/NUC10i7FNK 
+  CAUTION 
+Disconnect the attached power cord before you open or service the device.
+
+--- Page 60 ---
+Technical Reference 
+ 
+40 
+Figure 21 shows the installation area of the thermal pad for Intel NUC Kit NUC10i3FNH, Intel NUC 
+Kit NUC10i5FNH and Intel NUC Kit NUC10i7FNH. 
+ 
+Item 
+Description 
+A 
+Thermal Pad 
+B 
+Thermal Pad Installation Area 
+Figure 21.  Installation area of Thermal Pad for Intel NUC Kits 
+NUC10i3FNH/NUC10i5FNH/NUC10i7FNH 
+  CAUTION 
+Disconnect the attached power cord before you open or service the device.
+
+--- Page 61 ---
+Technical Reference 
+ 
+41 
+Table 31 provides maximum case temperatures for the components that are sensitive to thermal 
+changes.  The operating temperature, current load, or operating frequency could affect case 
+temperatures.  Maximum case temperatures are important when considering proper airflow to 
+cool the board. 
+Table 31.  Thermal Considerations for Components 
+Component  
+Maximum Case Temperature 
+Processor 
+For processor case temperature, see processor datasheets and processor 
+specification updates 
+ 
+To ensure functionality and reliability, the component is specified for proper operation when 
+Case Temperature is maintained at or below the maximum temperature listed in Table 32. This is 
+a requirement for sustained power dissipation equal to Thermal Design Power (TDP is specified 
+as the maximum sustainable power to be dissipated by the components). When the component is 
+dissipating less than TDP, the case temperature should be below the Maximum Case 
+Temperature. The surface temperature at the geometric center of the component corresponds to 
+Case Temperature. 
+It is important to note that the temperature measurement in the system BIOS is a value reported 
+by embedded thermal sensors in the components and does not directly correspond to the 
+Maximum Case Temperature. The upper operating limit when monitoring this thermal sensor is 
+Tcontrol. 
+Table 32.  Tcontrol Values for Components 
+Component  
+Tcontrol 
+Processor 
+For processor case temperature, see processor datasheets and processor 
+specification updates 
+ 
+For information about  
+Refer to 
+Processor datasheets and specification updates 
+Section 1.2, page 7
+
+--- Page 62 ---
+Technical Reference 
+ 
+42 
+2.7  Reliability 
+The Mean Time between Failures (MTBF) predictions are calculated using component and 
+subassembly random failure rates.  The calculation is based on the Telcordia SR-332, Issue 2, 
+Method I, Case 3, 55 ºC ambient.  The MTBF prediction is used to estimate repair rates and spare 
+parts requirements.  The MTBF for Intel NUC10i3FNB board is 273,271 hours.  The MTBF for Intel 
+NUC10i5FNB board is 273,153 hours.  The MTBF for Intel NUC10i7FNB board is 272,416 hours. 
+2.8  Environmental 
+Table 33 lists the environmental specifications for the board. 
+Table 33.  Environmental Specifications 
+Parameter 
+Specification 
+Temperature 
+ 
+  Non-Operating 
+-40 C to +60 C 
+  Operating (Board) 
+0 C to +50 C 
+The operating temperature of the board may be determined by measuring the air 
+temperature from the junction of the heatsink fins and fan, next to the attachment screw, 
+in a closed chassis, while the system is in operation.  
+  Operating (System) 
+0 C to +35 C 
+Shock (Board) 
+ 
+  Unpackaged  
+50 g trapezoidal waveform 
+ 
+Velocity change of 170 inches/s² 
+  Packaged 
+Free fall package drop machine set to the height determined by the weight of the package. 
+ 
+Product Weight (pounds) 
+Free Fall (inches) 
+ 
+<20 
+36 
+ 
+21-40 
+30 
+ 
+41-80 
+24 
+ 
+81-100 
+18 
+Vibration (System) 
+ 
+  Unpackaged 
+5 Hz to 20 Hz:  0.001 g²/Hz sloping up to 20 Hz @ 0.01 g²/Hz 
+ 
+20 Hz to 500 Hz:  0.01 g²/Hz (flat) 
+ 
+Input acceleration is 2.20 g RMS 
+  Packaged 
+5 Hz to 40 Hz:  0.015 g²/Hz (flat) 
+ 
+40 Hz to 500 Hz:  0.015 g²/Hz sloping down to 0.00015 g²/Hz 
+ 
+Input acceleration is 1.09 g RMS 
+Acoustic 
+ 
+Cool Setting 
+4.5 BA (~35dBA) 
+100% duty (@3400 
+RPM) 
+5.7BA (~47dBA) 
+Note:  Before attempting to operate this board, the overall temperature of the board must be above the minimum 
+operating temperature specified. It is recommended that the board temperature be at least room temperature 
+before attempting to power on the board.  The operating and non-operating environment must avoid condensing 
+humidity.
+
+--- Page 63 ---
+BIOS Features 
+ 
+43 
+3  Overview of BIOS Features 
+3.1  Introduction 
+The board uses Intel BIOS that is stored in the Serial Peripheral Interface Flash Memory (SPI 
+Flash) and can be updated using a disk-based program.  The SPI Flash contains the Visual BIOS 
+Setup program, POST, the PCI auto-configuration utility, embedded controller (EC) firmware, LAN 
+EEPROM information, and Plug and Play support. 
+The BIOS displays a message during POST identifying the type of BIOS and a revision code.  The 
+production BIOSes are identified as FNCML357. 
+The BIOS Setup program can be used to view and change the BIOS settings for the computer.  
+The BIOS Setup program is accessed by pressing the <F2> key after the Power-On Self-Test 
+(POST) memory test begins and before the operating system boot begins.  
+3.2  BIOS Flash Memory Organization 
+The Serial Peripheral Interface Flash Memory (SPI Flash) includes a 64 Mb flash memory device. 
+3.3  System Management BIOS (SMBIOS) 
+SMBIOS is a Desktop Management Interface (DMI) compliant method for managing computers in 
+a managed network.   
+The main component of SMBIOS is the Management Information Format (MIF) database, which 
+contains information about the computing system and its components.  Using SMBIOS, a system 
+administrator can obtain the system types, capabilities, operational status, and installation dates 
+for system components.  The MIF database defines the data and provides the method for 
+accessing this information.  The BIOS enables applications such as third-party management 
+software to use SMBIOS.  The BIOS stores and reports the following SMBIOS information: 
+•  BIOS data, such as the BIOS revision level 
+•  Fixed-system data, such as peripherals, serial numbers, and asset tags 
+•  Resource data, such as memory size, cache size, and processor speed 
+•  Dynamic data, such as event detection and error logging 
+Non-Plug and Play operating systems require an additional interface for obtaining the SMBIOS 
+information.  The BIOS supports an SMBIOS table interface for such operating systems.  Using 
+this support, an SMBIOS service-level application running on a non-Plug and Play operating 
+system can obtain the SMBIOS information.  Additional board information can be found in the 
+BIOS under the Additional Information header under the Main BIOS page. 
+3.4  Legacy USB Support 
+Legacy USB support enables USB devices to be used even when the operating system’s USB 
+drivers are not yet available.  Legacy USB support is used to access the BIOS Setup program, and
+
+--- Page 64 ---
+BIOS Features 
+ 
+44 
+to install an operating system that supports USB.  By default, Legacy USB support is set to 
+Enabled. 
+Legacy USB support operates as follows: 
+1.  When you first apply power to the computer, legacy support is disabled. 
+2.  POST begins. 
+3.  Legacy USB support is enabled by the BIOS allowing you to use a USB keyboard to enter and 
+configure the BIOS Setup program and the maintenance menu. 
+4.  POST completes. 
+5.  The operating system loads.  While the operating system is loading, USB keyboards and mice 
+are recognized and may be used to configure the operating system.  (Keyboards and mice are 
+not recognized during this period if Legacy USB support was set to Disabled in the BIOS 
+Setup program.) 
+6.  After the operating system loads the USB drivers, all legacy and non-legacy USB devices are 
+recognized by the operating system, and Legacy USB support from the BIOS is no longer 
+used. 
+3.5  BIOS Updates 
+The BIOS can be updated using one of the following methods: 
+•  Intel Express BIOS Update, which enables automated updating while in the Windows 
+environment.  Using this utility, the BIOS can be updated from a file on a hard disk or a USB 
+drive (a flash drive or a USB hard drive). 
+•  Intel Flash Memory Update Utility, which requires booting from DOS.  Using this utility, the 
+BIOS can be updated from a file on a hard disk or a USB drive (a flash drive or a USB hard 
+drive). 
+•  Pressing <F7> key during POST allows a user to select where the BIOS .bio file is located and 
+perform the update from that location/device. Similar to performing a BIOS Recovery without 
+removing the BIOS configuration jumper. 
+•  Intel BIOS has an option to update the BIOS from a valid .bio file located on a hard disk or 
+USB drive. Enter Intel BIOS by pressing <F2> during POST. 
+•  Using Front Panel power button menu option 
+The update BIOS will be verified that it matches the target system to prevent accidentally 
+installing an incompatible BIOS. 
+ 
+NOTE 
+Review the instructions distributed with the upgrade utility before attempting a BIOS update. 
+ 
+For information about  
+Refer to 
+BIOS update utilities 
+http://www.intel.com/content/www/us/en/support/boards-and-
+kits/000005636.html 
+ 
+ 
+3.5.1  Language Support 
+The BIOS Setup program and help messages are supported in US English.  Check the Intel web 
+site for support.
+
+--- Page 65 ---
+BIOS Features 
+ 
+45 
+3.6  BIOS Recovery  
+It is unlikely that anything will interrupt a BIOS update; however, if an interruption occurs, the 
+BIOS could be damaged. Table 34 lists the drives and media types that can and cannot be used 
+for BIOS recovery.  The BIOS recovery media does not need to be made bootable. 
+Table 34.  Acceptable Drives/Media Types for BIOS Recovery 
+Media Type
+ (Note)
+ 
+Can be used for BIOS recovery? 
+Hard disk drive (connected to SATA or USB) 
+Yes 
+CD/DVD drive (connected to SATA or USB) 
+No 
+USB flash drive 
+Yes 
+USB diskette drive (with a 1.4 MB diskette) 
+No (BIOS update file is bigger than 1.4 MB size limit) 
+ 
+NOTE 
+Supported file systems for BIOS recovery: 
+•  NTFS (sparse, compressed, or encrypted files are not supported) 
+•  FAT32 
+•  FAT16 
+•  FAT12 
+ 
+For information about  
+Refer to 
+BIOS recovery 
+http://www.intel.com/support/motherboards/desktop/sb/cs-034524.htm
+
+--- Page 66 ---
+BIOS Features 
+ 
+46 
+3.7  Boot Options 
+In the BIOS Setup program, the user can choose to boot from a hard drive, optical drive, 
+removable drive, or the network.  The default setting is for the optical drive to be the first boot 
+device, the hard drive second, removable drive third, and the network fourth.  
+ 
+NOTE 
+Optical drives are not supported by the onboard SATA connectors. Optical drives are supported 
+only via the USB interfaces. If the optical drive is not bootable, it will be ignored during the POST 
+process. 
+3.7.1  Network Boot 
+The network can be selected as a boot device.  This selection allows booting from the onboard 
+LAN. 
+Pressing the <F12> key during POST automatically forces booting from the LAN.  To use this key 
+during POST, the User Access Level in the BIOS Setup program's Security menu must be 
+set to “Full.” 
+ 
+NOTE 
+When no bootable disk or USB device is found, the system will default to network boot. 
+3.7.2  Booting Without Attached Devices (Headless) 
+For use in embedded applications, the BIOS has been designed so that after passing the POST, 
+the operating system loader is invoked even if the following devices are not present: 
+•  Video monitor 
+•  Keyboard 
+•  Mouse 
+3.7.3  Changing the Default Boot Device during POST 
+Pressing the <F10> key during POST causes a boot device menu to be displayed.  This menu 
+displays the list of available boot devices.  Table 35 lists the boot device menu options. 
+Table 35.  Boot Device Menu Options 
+Boot Device Menu Function Keys 
+Description 
+<> or <> 
+Selects a default boot device 
+<Enter> 
+Exits the menu, and boots from the selected device 
+<Esc> 
+Exits the menu and boots according to the boot priority defined 
+through BIOS setup
+
+--- Page 67 ---
+BIOS Features 
+ 
+47 
+3.7.4  Power Button Menu 
+As an alternative to normal POST Hotkeys, the user can use the power button to access a 
+menu.  The Power Button Menu is accessible via the following sequence: 
+1.  System is in S4/S5 (soft off); will not work if system is in G3 (after “no power” state) 
+2.  User pushes the power button and holds it down for 3 seconds 
+3.  The front panel power button LED will change from blue to amber then the user can release 
+the power button.  
+4.  User releases the power button before the 4-second shutdown override can occur. 
+If this path is taken, the BIOS will use default settings, ignoring settings in VPD where possible. 
+The BIOS will display the following prompt and wait for a keystroke:  
+[ESC]  Normal Boot 
+[F2]  Intel Visual BIOS 
+[F3]  Disable Fast Boot
+†
+ 
+[F4]  BIOS Recovery 
+[F7]  Update BIOS 
+[F10]  Enter Boot Menu 
+[F12]  Network Boot 
+ 
+†
+ [F3] Disable Fast Boot is only displayed if at least one Fast Boot optimization is enabled. 
+ 
+If an unrecognized key is hit, then the BIOS will wait for another keystroke.  If one of the listed 
+hotkeys is hit, the BIOS will follow the indicated boot path.  Password requirements must still be 
+honored. 
+If Disable Fast Boot is selected, the BIOS will disable all Fast Boot optimizations and reset the 
+system.
+
+--- Page 68 ---
+BIOS Features 
+ 
+48 
+3.8  Hard Disk Drive Password Security Feature 
+The Hard Disk Drive Password Security feature blocks read and write accesses to the hard disk 
+drive until the correct password is given. Hard Disk Drive Passwords are set in BIOS SETUP and 
+are prompted for during BIOS POST. For convenient support of S3 resume, the system BIOS will 
+automatically unlock drives on resume from S3.  Valid password characters are A-Z, a-z, and 0-9.  
+Passwords may be up to 19 characters in length. 
+The User hard disk drive password, when installed, will be required upon each power-cycle until 
+the Master Key or User hard disk drive password is submitted.  
+The Master Key hard disk drive password, when installed, will not lock the drive. The Master Key 
+hard disk drive password exists as an unlock override in the event that the User hard disk drive 
+password is forgotten. Only the installation of the User hard disk drive password will cause a hard 
+disk to be locked upon a system power-cycle. 
+Table 36 shows the effects of setting the Hard Disk Drive Passwords. 
+Table 36.  Master Key and User Hard Drive Password Functions 
+Password Set 
+Password During Boot 
+Neither 
+None 
+Master only 
+None 
+User only 
+User only 
+Master and User Set 
+Master or User 
+ 
+During every POST, if a User hard disk drive password is set, POST execution will pause with the 
+following prompt to force the user to enter the Master Key or User hard disk drive password:  
+Enter Hard Disk Drive Password:  
+Upon successful entry of the Master Key or User hard disk drive password, the system will 
+continue with normal POST.  
+If the hard disk drive password is not correctly entered, the system will go back to the above 
+prompt. The user will have three attempts to correctly enter the hard disk drive password. After 
+the third unsuccessful hard disk drive password attempt, the system will halt with the message:  
+Hard Disk Drive Password Entry Error  
+A manual power cycle will be required to resume system operation. 
+ 
+NOTE 
+As implemented on Intel NUC Board NUC10i3FNB, Intel NUC Board NUC10i5FNB and Intel NUC 
+Board NUC10i7FNB, Hard Disk Drive Password Security is only supported on either SATA port 0 
+(M.2 ) or SATA Port 1 (onboard SATA connector). The passwords are stored on the hard disk drive 
+so if the drive is relocated to another computer that does not support Hard Disk Drive Password 
+Security feature, the drive will not be accessible. 
+Currently, there is no industry standard for implementing Hard Disk Drive Password Security on 
+AHCI or NVME drives. Hard drive encryption can still be implemented and does not require Hard 
+Disk Drive Password Security.
+
+--- Page 69 ---
+BIOS Features 
+ 
+49 
+3.9  BIOS Security Features 
+The BIOS includes security features that restrict access to the BIOS Setup program and who can 
+boot the computer.  A supervisor password and a user password can be set for the BIOS Setup 
+program and for booting the computer, with the following restrictions: 
+•  The supervisor password gives unrestricted access to view and change all the Setup options 
+in the BIOS Setup program.  This is the supervisor mode. 
+•  The user password gives restricted access to view and change Setup options in the BIOS 
+Setup program.  This is the user mode.  
+•  If only the supervisor password is set, pressing the <Enter> key at the password prompt of 
+the BIOS Setup program allows the user restricted access to Setup. 
+•  If both the supervisor and user passwords are set, users can enter either the supervisor 
+password or the user password to access Setup.  Users have access to Setup respective to 
+which password is entered.   
+•  Setting the user password restricts who can boot the computer.  The password prompt will be 
+displayed before the computer is booted.  If only the supervisor password is set, the 
+computer boots without asking for a password.  If both passwords are set, the user can enter 
+either password to boot the computer.   
+•  For enhanced security, use different passwords for the supervisor and user passwords. 
+•  Valid password characters are A-Z, a-z, and 0-9.  Passwords may be up to 20 characters in 
+length. 
+•  To clear a set password, enter a blank password after entering the existing password. 
+Table 37 shows the effects of setting the supervisor password and user password.  This table is 
+for reference only and is not displayed on the screen. 
+Table 37.  Supervisor and User Password Functions 
+ 
+Password Set 
+Supervisor 
+Mode  
+ 
+User Mode  
+ 
+Setup Options 
+Password to 
+Enter Setup 
+Password 
+During Boot  
+Neither 
+Can change all 
+options  
+(Note)
+ 
+Can change all 
+options  
+(Note)
+ 
+None 
+None 
+None 
+Supervisor only 
+Can change all 
+options 
+Can change a 
+limited number 
+of options  
+Supervisor Password 
+Supervisor 
+None 
+User only 
+N/A 
+Can change all 
+options 
+Enter Password 
+Clear User Password 
+User 
+User 
+Supervisor and 
+user set 
+Can change all 
+options 
+Can change a 
+limited number 
+of options  
+Supervisor Password 
+Enter Password 
+Supervisor or 
+user  
+Supervisor or 
+user  
+Note:  If no password is set, any user can change all Setup options.
+
+--- Page 70 ---
+Error Messages & Blink Codes 
+ 
+50 
+4  Error Messages and Blink Codes 
+4.1  Front-panel Power LED Blink Codes 
+Whenever a recoverable error occurs during POST, the BIOS causes the board’s front panel 
+power LED to blink an error message describing the problem (see Table 38). 
+Table 38.  Front-panel Power LED Blink Codes 
+Type  
+Pattern 
+Note 
+Power-on 
+Solid on primary color. Indicates S0 state. 
+Default to On; can be disabled 
+via BIOS Setup 
+S3 Standby 
+Blink alternate color .25 seconds on, .25 seconds off, 
+indefinitely. Indicates S3 state. 
+Default behavior; can be 
+changed via BIOS Setup 
+Intel Ready Mode 
+Blink primary color, 1 second on, 1 second off, 
+indefinitely. 
+ 
+BIOS update in progress 
+Off when the update begins, then primary color on for 
+0.5 seconds, then off for 0.5 seconds.  The pattern 
+repeats until the BIOS update is complete. 
+ 
+Memory error 
+On-off (1.0 second each) three times, then 2.5-second 
+pause (off), entire pattern repeats (blinks and pause) 
+until the system is powered off. 
+ 
+Thermal trip warning 
+Blink primary color .25 seconds on, .25 seconds off, .25 
+seconds on, .25 seconds off. This will result in a total of 
+16 blinks (blink for 8 seconds). 
+ 
+4.2  BIOS Error Messages 
+Table 39 lists BIOS error messages and provides a brief description of each. 
+Table 39.  BIOS Error Messages 
+Error Message 
+Explanation 
+CMOS Battery Low 
+The battery may be losing power.  Replace the battery soon. 
+CMOS Checksum Bad 
+The CMOS checksum is incorrect.  CMOS memory may have been 
+corrupted.  Run Setup to reset values. 
+Memory Size Decreased 
+Memory size has decreased since the last boot.  If no memory was 
+removed, then memory may be bad. 
+A bootable device has not been detected 
+System did not find a device to boot.
+
+--- Page 71 ---
+Intel NUC Kit Features 
+ 
+51 
+5  Intel NUC Kit Features 
+5.1  Chassis Front Panel Features 
+See the Product Identification Information section on page iv to identify Intel NUC Boards and 
+their respective kit or system.  Figure 22 and Figure 23 show the location of the features located 
+on or near the front of the chassis. 
+ 
+ 
+ 
+Figure 22. Intel NUC Kit NUC10i3FNH/NUC10i5FNH/NUC10i7FNH Features – Front 
+Table 40 lists the components identified in Figure 22.   
+ 
+Table 40.  Components Shown in Figure 22 
+Item from Figure 22 
+Description 
+ 
+SDXC Card Reader 
+ 
+Digital Microphone Array 
+ 
+Power Switch and Power LED 
+ 
+Consumer Infrared Sensor 
+ 
+Speaker/Headset Jack 
+   
+USB 3.1 Gen2 Type A (left) and Type C (right) Connectors
+
+--- Page 72 ---
+Intel NUC Kit Features 
+ 
+52 
+ 
+ 
+ 
+Figure 23. Intel NUC Kit NUC10i3FNK/NUC10i5FNK/NUC10i7FNK Features – Front 
+Table 41 lists the components identified in Figure 23.   
+ 
+Table 41.  Components Shown in Figure 23 
+Item from Figure 23 
+Description 
+ 
+SDXC Card Reader 
+ 
+Digital Microphone Array 
+ 
+Power Switch and Power LED 
+ 
+Consumer Infrared Sensor 
+ 
+Speaker/Headset Jack 
+ 
+USB 3.1 Gen2 Type A (right) and Type C (left) Connectors 
+ 
+Kensington* Anti-Theft Key Lock Hole
+
+--- Page 73 ---
+Intel NUC Kit Features 
+ 
+53 
+5.2  Chassis Rear Panel Features 
+Figure 24 and Figure 25 show the location of the features located on the rear of the chassis. 
+ 
+ 
+ 
+Figure 24. Intel NUC Kit NUC10i3FNH/NUC10i5FNH/NUC10i7FNH Features – Rear 
+Table 42 lists the components identified in Figure 24.   
+ 
+Table 42.  Components Shown in Figure 24 
+Item from Figure 24 
+Description 
+ 
+19V DC Power Inlet 
+ 
+Cooling Vents 
+ 
+Thunderbolt™ 3 via USB Type C connector 
+ 
+USB 3.1 Gen2 Type A connectors 
+ 
+Ethernet Port 
+ 
+High Definition Multimedia Interface Connector 
+ 
+Kensington* Anti-Theft Key Lock Hole
+
+--- Page 74 ---
+Intel NUC Kit Features 
+ 
+54 
+ 
+ 
+ 
+ 
+Figure 25. Intel NUC Kit NUC10i3FNK/NUC10i5FNK/NUC10i7FNK Features – Rear 
+Table 43 lists the components identified in Figure 25.   
+ 
+Table 43.  Components Shown in Figure 25 
+Item from Figure 25 
+Description 
+ 
+Cooling Vents 
+ 
+Thunderbolt™ 3 via USB Type C connector 
+ 
+USB 3.1 Gen2 Type A Connectors 
+ 
+Ethernet Port 
+ 
+High Definition Multimedia Interface Connector 
+ 
+19V DC Power Inlet
+
+--- Page 75 ---
+Intel NUC Kit Features 
+ 
+55 
+5.3  VESA Bracket Installation 
+Figure 26 shows installation of the VESA bracket (included with Intel® NUC 10 Performance kits 
+only). 
+ 
+Figure 26. VESA Bracket Installation
+

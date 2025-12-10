@@ -1,0 +1,392 @@
+Brand: INTEL
+Model: Nuc 8 Mainstream G
+URL: https://www.manua.ls/intel/nuc-8-mainstream-g/manual
+Total Pages: 19
+============================================================
+
+--- Page 1 ---
+1 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+ 
+ 
+ 
+ 
+ 
+Intel® NUC 8 Mainstream-G mini PC NUC8i7INH  
+Intel® NUC 8 Mainstream-G mini PC NUC8i5INH  
+ 
+User Guide 
+ 
+<April 2019>
+
+--- Page 2 ---
+2 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+You may not use or facilitate the use of this document in connection with any infringement or other legal analysis concerning Intel products 
+described herein. You agree to grant Intel a non-exclusive, royalty-free license to any patent claim thereafter drafted which includes subject 
+matter disclosed herein. 
+No license (express or implied, by estoppel or otherwise) to any intellectual property rights is granted by this document. 
+All information provided here is subject to change without notice. Contact your Intel representative to obtain the latest Intel product 
+specifications and roadmaps. 
+The products described may contain design defects or errors known as errata which may cause the product to deviate from published 
+specifications. Current characterized errata are available on request. 
+Copies of documents which have an order number and are referenced in this document may be obtained by calling 1-800-548-4725 or by 
+visiting:  http://www.intel.com/design/literature.htm.   
+Intel technologies' features and benefits depend on system configuration and may require enabled hardware, software or service activation. 
+Performance varies depending on system configuration. No computer system can be absolutely secure. 
+Intel and the Intel logo are trademarks of Intel Corporation or its subsidiaries in the U.S. and/or other countries. 
+*Other names and brands may be claimed as the property of others. 
+Copyright © 2019, Intel Corporation. All rights reserved.
+
+--- Page 3 ---
+3 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+Contents 
+1.0  Introduction ............................................................................................................................. 5 
+1.1  Before You Begin ........................................................................................................................................... 5 
+1.2  Installation Precautions ............................................................................................................................. 5 
+1.3  Observe Safety and Regulatory Requirements ......................................................................... 6 
+2.0  Open the Chassis ................................................................................................................... 7 
+3.0  System Memory ...................................................................................................................... 8 
+3.1  Upgrade to Different Memory ................................................... Error! Bookmark not defined. 
+3.2  Install Additional Memory ............................................................ Error! Bookmark not defined. 
+4.0  Changing the M.2 SSD ........................................................................................................ 9 
+5.0  Install a 2.5” SSD or Hard Drive .................................................................................10 
+6.0  Close the Chassis .................................................................................................................11 
+7.0  Use the VESA Bracket (Optional) ...............................................................................12 
+8.0  Connect Power ......................................................................................................................14 
+9.0  Set Up Microsoft® Windows® 10 ..............................................................................16 
+10.0  Install the Latest Device Drivers and Software ................................................17 
+11.0  Operating System Recovery ..........................................................................................17
+
+--- Page 4 ---
+4 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+Revision History 
+ 
+Date 
+Revision 
+Description 
+<Apr 2019>  
+1.0 
+Initial release.
+
+--- Page 5 ---
+5 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+1.0  Introduction 
+This User Guide provides step-by-step installation instructions for these products: 
+ 
+•  Intel® NUC 8 Mainstream-G mini PC NUC8i7INH 
+•  Intel® NUC 8 Mainstream-G mini PC NUC8i5INH 
+1.1  Before You Begin 
+  CAUTIONS 
+The steps in this guide assume you’re familiar with computer terminology and 
+with the safety practices and regulatory compliance required for using and 
+modifying computer equipment. 
+ 
+Disconnect the computer from its power source and from any network before 
+performing any of the steps described in this guide.   
+Failure to disconnect power, telecommunications links, or networks before you open 
+the computer or perform any procedures can result in personal injury or equipment 
+damage.  Some circuitry on the board can continue to operate even though the front 
+panel power button is off. 
+ 
+Follow these guidelines before you begin: 
+•  Always follow the steps in each procedure in the correct order. 
+•  Create a log to record information about your computer, such as model, 
+serial numbers, installed options, and configuration information. 
+•  Electrostatic discharge (ESD) can damage components.  Perform the 
+procedures described in this chapter only at an ESD workstation using an 
+antistatic wrist strap and a conductive foam pad. If such a station isn’t 
+available, you can provide some ESD protection by wearing an antistatic wrist 
+strap and attaching it to a metal part of the computer chassis. 
+1.2  Installation Precautions 
+When you install and test the Intel NUC, observe all warnings and cautions in the 
+installation instructions. 
+ 
+To avoid injury, be careful of: 
+•  Sharp pins on connectors
+
+--- Page 6 ---
+6 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+•  Sharp pins on circuit boards 
+•  Rough edges and sharp corners on the chassis 
+•  Hot components (such as SSDs, processors, voltage regulators, and heat sinks) 
+•  Damage to wires that could cause a short circuit 
+ 
+Observe all warnings and cautions that instruct you to refer computer servicing 
+to qualified technical personnel. 
+1.3  Observe Safety and Regulatory Requirements 
+If you don’t follow these instructions, you increase your safety risk and the possibility 
+of noncompliance with regional laws and regulations.
+
+--- Page 7 ---
+7 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+2.0  Open the Chassis 
+Unscrew the four corner screws on the bottom of the chassis and lift the cover.
+
+--- Page 8 ---
+8 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+3.0  System Memory 
+ 
+The Intel NUC mini PC NUC8i7INH and NUC8i5INH have 8GB of RAM soldered down 
+ Pre-integrated memory  
+NUC8i7INH 
+8GB  
+NUC8i5INH 
+8GB 
+There is no option to upgrade/change the memory configuration.
+
+--- Page 9 ---
+9 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+4.0  Changing the M.2 SSD 
+ 
+The Intel NUC mini PC NUC8i7INH and NUC8i5INH support an 80mm SSD.  
+ 
+Pre-installed M.2  
+NUC8i5INHJA 
+One 16GB Intel Optane Memory module 
+NUC8i7INHJA 
+One 16GB Intel Optane Memory module 
+NUC8i5INHPA 
+256GB m.2 SSD 
+NUC8i7INHPA 
+256GB m.2 SSD 
+Find compatible M.2 SSDs in the Intel Product Compatibility Tool: 
+•  NUC8i5INH  
+•  NUC8i7INH  
+ 
+To install a different M.2 SSD: 
+ 
+1.  Remove the small silver screw from the 80mm metal standoff on the board (A). 
+2.  Remove the pre-installed SSD/Intel Optane Memory from the connector.  
+3.  Align the space at the bottom of the new M.2 SSD to the key on the connector 
+4.  Secure the card to the standoff with the small silver screw (C).
+
+--- Page 10 ---
+10 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+5.0  Install a 2.5” SSD or Hard Drive 
+The Intel NUC mini PC NUC8i7INH and NUC8i5INH support an additional 2.5” Solid 
+State Drive (SSD) or Hard Disk Drive (HDD). 
+Find compatible 2.5” drives in the Intel Product Compatibility Tool: 
+•  NUC8i5INH  
+•  NUC8i7INH  
+ 
+1.  Unscrew the four screws holding the current drive in the bay. 
+2.  Remove the pre-installed drive from the drive bay. 
+3.  Slide the new 2.5” drive into the drive bay, ensuring the SATA connectors are fully 
+seated into the connectors of the SATA daughter card (A). 
+ 
+ 
+4.  Secure the drive into the drive bay with the four screws that were used in step 1. 
+Set the drive bay bracket down inside the chassis (C).
+
+--- Page 11 ---
+11 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+6.0  Close the Chassis 
+After all components have been installed, close the Intel NUC chassis. Intel 
+recommends this be done by hand with a screwdriver to avoid over-tightening and 
+possibly damaging the screws.
+
+--- Page 12 ---
+12 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+7.0  Use the VESA Bracket (Optional) 
+Follow these instructions to attach and use the VESA mount bracket: 
+ 
+1.  Using the four small black screws that were included in the box, attach the 
+VESA bracket to the back of the monitor or TV. 
+ 
+ 
+ 
+ 
+2.  Attach the two slightly larger black screws to the bottom chassis cover of the 
+Intel NUC.
+
+--- Page 13 ---
+13 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+ 
+3.  Slide the Intel NUC onto the VESA mount bracket.
+
+--- Page 14 ---
+14 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+8.0  Connect Power 
+Each Intel NUC model includes either a region-specific AC power cord or no AC power 
+cord (only the power adapter). 
+ 
+Product codes 
+Power cord type 
+BXNUC8i5INHX 
+BXNUC8i7INHX 
+No power cord included. An AC power cord needs to be 
+purchased separately. Power cords are available at 
+many Internet sites for use in multiple countries. The 
+connector on the power adapter is a C5 type connector. 
+ 
+BXNUC8i5INHJA1 
+BXNUC8i5INHPA1 
+BXNUC8i7INHJA1 
+BXNUC8i7INHPA1 
+US power cord included. 
+BXNUC8i5INHJA2 
+BXNUC8i5INHPA2 
+BXNUC8i7INHJA2 
+BXNUC8i7INHPA2 
+EU power cord included. 
+BXNUC8i5INHJA3 
+BXNUC8i7INHJA3 
+UK power cord included. 
+BXNUC8i5INHJA4 
+BXNUC8i7INHJA4 
+Australia/New Zealand power cord included. 
+BXNUC8i5INHP6 
+BXNUC8i7INHP6 
+BXNUC8i7INHZ6 
+China power cord included.
+
+--- Page 15 ---
+15 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019
+
+--- Page 16 ---
+16 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+9.0  Set Up Microsoft® Windows® 10 
+Microsoft Windows 10 is already installed on the Intel NUC mini PC. The first time you 
+start the computer, you are guided through the Windows 10 setup steps, including: 
+ 
+•  Selecting your region and language.  
+•  Accepting the Microsoft Windows license terms.  
+•  Personalizing Windows and assign a PC Name.  
+•  "Get Online" dialog to pick a wireless network (this step is optional).  
+•  Choosing Express Settings or Customize.  
+•  Assigning a User Name and Password.  
+ 
+Reinstalling the Operating System 
+If you upgrade or replace the computer’s drive, you may need to install a new version 
+of the operating system. See these resources: 
+•  Supported Operating Systems 
+•  Windows Setup Guide
+
+--- Page 17 ---
+17 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+10.0  Install the Latest Device Drivers and Software 
+Here are the options for keeping device drivers current:  
+ 
+•  Allow the Intel® Driver & Support Assistant (Intel® DSA) to detect out-of-
+date drivers 
+•  Manually download drivers, BIOS, and software from Download Center: 
+o  NUC8i5INH 
+o  NUC8i7INH 
+ 
+The following device drivers and software are available. 
+•  Intel® Chipset Device Software 
+•  Radeon Graphics 
+•  Intel® Management Engine 
+•  Intel® Gigabit Ethernet 
+•  Intel® Wireless 
+•  Intel® Bluetooth 
+•  Intel® Serial IO 
+•  Realtek* High Definition Audio 
+•  Realtek* Card Reader 
+•  ITE Tech* Consumer Infrared 
+•  Intel® Rapid Storage Technology 
+•  Intel® Software Guard Extensions 
+•  Intel® MPX Runtime Driver
+
+--- Page 18 ---
+18 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+11.0  Operating System Recovery 
+There’s a Windows recovery partition on the Intel NUC. You can use this partition to 
+Refresh, Reset, or Restore Windows. Here is what each of these actions do: 
+ 
+Refresh  
+ 
+If your PC isn't performing as well as it once did, and you don't 
+know why, you can refresh your PC. This action doesn’t delete any 
+of your personal files or change your settings. Refresh does the 
+following: 
+ 
+•  Files and personalization settings won’t change.  
+•  PC settings are changed back to their defaults.  
+•  Apps from the Windows Store are kept.  
+•  Apps installed from disks or websites are removed.  
+•  List of removed apps is saved on the desktop. 
+ 
+Reset  
+ 
+If you want to recycle your PC, give it away, or start over with it, you 
+can reset it completely. This process removes everything. Reset 
+does the following: 
+ 
+•  All personal files and apps are removed.  
+•  PC settings are changed back to their defaults.  
+•  Windows is reinstalled. 
+ 
+Restore 
+If a recently installed app or driver is causing problems with your 
+PC, you can restore Windows back to an earlier point in time, 
+called a restore point. System Restore doesn’t change your 
+personal files, but it can remove recently installed apps and 
+drivers. 
+ 
+ 
+Caution - Before performing a Refresh or Reset: 
+ 
+•  Make sure to back up all personal data to external storage.  
+•  Remove SD card from the card slot, if one is inserted.
+
+--- Page 19 ---
+19 
+NUC8i5INHJA, NUC8i5INHPA, NUC8i7INHJA, NUC8i7INHPA 
+User Guide – April 2019 
+  
+ To access the recovery media: 
+ 
+If Windows starts 
+ 
+From Windows Start, type Recovery and select 
+Recovery Options.  
+ 
+See Recovery options in Windows 10 for complete 
+details on how to use the recovery options. 
+ 
+If Windows doesn’t start 
+The recovery process should automatically start. If 
+Recovery doesn’t automatically start, you can try to 
+initiate it as follows: 
+ 
+1.  Press F8 during boot, when you see the 
+prompt “F8 to Activate Windows 8.1/10 
+Recovery Mode”.  
+2.  Follow the recovery steps.
+

@@ -1,0 +1,1158 @@
+Brand: FOXCONN
+Model: At 9700
+URL: https://www.manua.ls/foxconn/at-9700/manual
+Total Pages: 53
+============================================================
+
+--- Page 2 ---
+Trademark:
+  All trademarks are the property of their respective owners.
+Version:
+  User’s Manual V1.0 for NanoPC.
+ 
+Symbol description:
+  Note:  Refers to important information that can help you to use NanoPC better, and  
+   tells you how to avoid problems.
+  Caution:  Indicating a potential risk of hardware damage or physical injury may exist.
+ WEEE: 
+  The use of this symbol indicates that this product may not be treated as household 
+waste. By ensuring this product is disposed of correctly, you will help prevent potential 
+negative consequences for the environment and human health, which could otherwise 
+be caused by inappropriate waste handling of this product. For more detailed informa-
+tion about recycling of this product, please contact your local city ofce, your house-
+hold waste disposal service or the shop where you purchased this product.
+© All rights reserved.
+All trade names are registered trademarks of respective manufacturers listed.
+All images are for reference only, please refer to the physical product for specic features.
+C
+AUTIO
+N
+
+--- Page 3 ---
+Before using this product, please read the below safety notice carefully, this will help to
+extend the product’s lifecycle, and work normally.
+■  When NanoPC is working, please make sure its ventilation system is working.
+■ 
+The power adapter is dissipating heat during normal use, please be sure not to cover
+ 
+  it and keep it away from your body to prevent discomfort or injury by heat exposure.
+■  Please use the power adapter that comes with the product’s package, wrong power  
+  adapter may damage your device.
+■  Make sure all the peripherals are properly connected before using NanoPC.
+■  This product should only be used in an environment with ambient temperatures  
+  between 0°C and 40°C.
+■  Always shut down the computer before installing or uninstalling the peripheral which  
+  does not support hot plug.  
+■  Disconnect all peripherals before servicing or disassembling this equipment.
+■  Please do not disassemble this product by yourself, any disassembly not approved  
+  by the original manufacturer may result in malfunction, and void warranty.
+■  Risk of explosion if battery is replaced by an incorrect type, please dispose of used  
+  batteries according to the instructions.
+■  The products’ support of mSATA is up to if Intel CPU can support it or not.
+C
+AUTIO
+N
+Safety Notice:
+
+--- Page 4 ---
+Package Contents
+We DO NOT guarantee it is in compliance with the Safety Certicates if you add on an 
+extension cable to NanoPC USB Flash Disk in the package.
+NanoPC Seat Base VESA Mount
+Power Adapter Power Cord Easy Guide
+USB Flash Disk Screws 
+Mini PCIe Half Card Support 
+Bracket
+U-Disk
+
+--- Page 5 ---
+Introduction
+1-1 Front Side View ...................................................................................................... 2
+1-2 Back Side View ....................................................................................................... 4
+Placement and connecting
+2-1  Placement of NanoPC ........................................................................................... 7
+In Seat Base ............................................................................................................. 7
+Installing to Display................................................................................................... 7
+2-2  Connection of NanoPC ........................................................................................ 10
+Connect display ...................................................................................................... 10
+Connect USB devices............................................................................................. 11
+Connect network cable ........................................................................................... 11
+Connect power cord ............................................................................................... 12
+BIOS Setup
+Enter BIOS Setup ....................................................................................................... 14
+Main ............................................................................................................................ 16
+F-center ...................................................................................................................... 17
+Smart BIOS ............................................................................................................ 18
+CPU Conguration.................................................................................................. 20
+Advanced .................................................................................................................... 22
+Trusted Computing ................................................................................................. 23
+TABLE OF CONTENTS
+
+--- Page 6 ---
+North Bridge ........................................................................................................... 24
+Onboard Device Conguration ............................................................................... 25
+SATA Conguration ................................................................................................ 26
+Network Stack Conguration .................................................................................. 27
+Boot ............................................................................................................................ 28
+CSM  parameters ................................................................................................... 29
+Power .......................................................................................................................... 30
+Health ......................................................................................................................... 32
+Security ....................................................................................................................... 33
+Save & Exit ................................................................................................................. 34
+Install OS
+4-1 Install Windows 7/8.1 ............................................................................................ 38
+4-2 Install Drivers ........................................................................................................ 42
+Utility
+Fox WINFLASH .......................................................................................................... 44
+1. Local Update ...................................................................................................... 44
+2. About & Help....................................................................................................... 46
+
+--- Page 7 ---
+■  Front Side View
+■  Back Side View
+Introduction
+
+--- Page 8 ---
+2
+INTRODUCTION
+1-1 Front Side View
+1
+2
+3
+4
+5
+6
+7
+
+--- Page 9 ---
+3
+INTRODUCTION
+1 Power button with Power indicator LED 
+Press to turn your NanoPC on or off, the LED can indicate your system 
+states.
+2 Speaker
+3
+USB 3.0 port
+This USB port supports the USB 3.0/2.0/1.0 specication. Use this port for 
+USB devices such as keyboard, mouse, USB printer, USB ash drives and 
+hard disk drives, etc. 
+As to Windows 7 system, you need to install the USB 3.0 driver in NanoPC 
+USB Disk before using it.
+4
+Multi-Function card reader
+This memory card reader supports SD/SDHC/SDXC/MS/MS Pro/MMC 
+memory cards used in devices like digital cameras, mobile phones, Media 
+players and so on.
+5
+Microphone 
+Connects to a microphone or playback devices with optical connectors 
+(3.5mm jack).
+6
+Headphone
+Connects to a headphone. 
+7 Kensington lock 
+Attach a Kensington security system or a compatible security lock to secure 
+your NanoPC in place.
+
+--- Page 10 ---
+4
+INTRODUCTION
+1-2 Back Side View
+1
+3
+2
+4
+5
+6
+7
+
+--- Page 11 ---
+5
+INTRODUCTION
+1 USB 2.0 port
+This USB port supports the USB 2.0/1.0 specication. Use this port for USB 
+devices such as keyboard, mouse, USB printer, USB ash drives and hard 
+disk drives, etc. 
+2
+USB 3.0 port
+This USB port supports the USB 3.0/2.0/1.0 specication. Use this port for 
+USB devices such as keyboard, mouse, USB printer, USB ash drives and 
+hard disk drives, etc. 
+As to Windows 7 system, you need to install the USB 3.0 driver in NanoPC 
+USB Disk before using it.
+3
+DVI
+DVI port
+Connect monitor or TV that uses DVI connector to this port.
+4
+HDMI
+HDMI port
+The HDMI (High-Denition Multimedia Interface) port supports Full-HD 
+display devices.
+Connect monitor or TV that uses HDMI connector to this port.
+5
+RJ-45 LAN port
+Supports 10/100/1000Mb/s Ethernet network.
+Connect network cable to access Internet.
+6
+Line out / SPDIF out port 
+Connects to powered analog speakers or recording devices with optical 
+connectors (3.5mm jack).
+SPDIF function requires additional adapter and adapter cable.
+7
+Power input port
+Connect power cord that come with your product.
+
+--- Page 12 ---
+Placement 
+and 
+connecting
+■  Placement of NanoPC
+■  Connection of NanoPC
+
+--- Page 13 ---
+7
+PLACEMENT AND CONNECTING
+2-1  Placement of NanoPC
+In Seat Base
+  Place your NanoPC into the groove of the Seat Base.
+Installing to Display
+  1. Assemble one side of the VESA mount. 
+ 
+■  Placement of NanoPC
+■  Connection of NanoPC
+
+--- Page 14 ---
+8
+PLACEMENT AND CONNECTING
+  2. Fasten it onto the display with four screws. 
+  3. Fit the NanoPC into the VESA mount in the correct alignment.
+
+--- Page 15 ---
+9
+PLACEMENT AND CONNECTING
+  4. Install the other side of the VESA mount.
+ To fasten the VESA mount, your display must comply with VESA75 or VESA100 
+standard.
+
+--- Page 16 ---
+10
+PLACEMENT AND CONNECTING
+2-2  Connection of NanoPC
+Connect display
+  
+  Connect a display or TV that has HDMI port to your NanoPC.
+
+--- Page 17 ---
+11
+PLACEMENT AND CONNECTING
+Connect USB devices
+  Connect USB devices to the USB ports, for example, mouse, keyboard devices.
+  As to Windows 7 system, you need to install the USB 3.0 driver in NanoPC USB disk before using the  
+  USB 3.0 ports.
+Connect network cable
+  Connect one end of a network cable to the RJ-45 LAN port, and the other end to a hub or   
+ switch.
+
+--- Page 18 ---
+12
+PLACEMENT AND CONNECTING
+Connect power cord
+  Connect the power adapter to the power input port of the NanoPC, and then press the power button to  
+  start it.
+The power adapter is dissipating heat during normal use, please do not cover it and 
+keep it away from your body to prevent injury from heat exposure.
+C
+AUTIO
+N
+1
+2
+3
+
+--- Page 19 ---
+■  Enter BIOS Setup
+■  Main
+■  F-centre
+■  Advanced
+■  Boot
+■  Power
+■  Health
+■  Security
+■  Save & Exit
+BIOS Setup
+
+--- Page 20 ---
+14
+BIOS SETUP
+Enter BIOS Setup
+The BIOS is the communication bridge between hardware and software, correctly setting up the BIOS pa-
+rameters is critical to maintain optimal system performance. Power on the computer, when the message 
+“Press <Del> to enter setup. Press <F7> to enter boot menu.” 
+appears at the bottom of the screen, you can press <Del> key to enter Setup.
+Use the arrow right/left keys to select a specic function and go to the submenu. Each function is ex-
+plained below:
+Main   
+  It displays the basic system conguration, such as CPU Name, memory size, system date, time and  
+  so on. They all can be viewed or set up through this menu.
+F-Center
+  The advanced system features can be set up through this menu.
+Advanced
+  The advanced system features can be set up through this menu.
+Boot
+  Boot features can be set up through this menu. You can set the boot device priority and enable “Quiet  
+  Boot” feature here.
+Power
+     All the items related with Green function features can be setup through this menu.
+Health
+    This setup enables you to read/change fan speeds, and displays temperatures and voltages of your CPU/System.
+Security
+  The Administrator/User password can be set up through this menu to prevent unauthorized use of  
+  your computer. If you set a password, the system will ask you to key in correct password before boot  
+  or access to Setup.
+Save&Exit
+  The optimal performance settings can be loaded through this menu. However, it may offer better   
+  performance in some ways (such as less I/O cards, less memory ...etc.),  still, it may cause problem  
+We do not suggest that you change the default values in the BIOS Setup, and we shall 
+not be responsible for any damage which resulted from the change you made.
+
+--- Page 21 ---
+15
+BIOS SETUP
+  if you have more memory or I/O cards installed. It means, if your system loading is heavy, set to    
+  optimal default may sometimes come out an unstable system. What you need now is to adjust BIOS  
+  setting one by one, trial and error, to nd out the best setting for your current system. You also can  
+  save or discard the changes and exit BIOS setup here.
+
+--- Page 22 ---
+16
+BIOS SETUP
+Main
+► System Date
+  <weekday><month><date> <year> format.
+  Day—weekday from Sun. to Sat., this message is automatically displayed by BIOS (Read Only).
+  Month—month from 1 to 12.
+  Date—date from 1 to 31.
+  Year—year, set up by users.
+  Use [ENTER], [TAB] or [SHIFT-TAB] to select a eld. Use [+] or [-] to input the value.
+► System Time
+  This item allows you to congure the desired time. Use [ENTER], [TAB] or [SHIFT-TAB] to select a  
+  eld. Use [+] or [-] to input the value.
+  The three elds of the setting are <hour> : <minute> : <second> respectively.
+► Access Level
+  It displays your current access level. If you enter system with a user password, it will display “User”. If  
+  System Date                              [Tue 11/18/2014]  
+  System Time                              [09:37:57]  
+  Access Level                             Administrator   
+  Model Name                               AT-9000 Series
+  ME FM Version                            10.0.29.1000
+  EC Version                               E61F1012
+  BIOS Version                             E61F1D16  
+  Build Date and Time                      12/03/2014 17:12:34
+  Halt On                                  [All, but keyboard] 
+   CPU Brand Name:
+  Intel(R)  Pentium(R)  3805U    @    1.90GHz
+  
+  Total Memory                             4096 MB (DDR3/DDR3L 1600)
+  MAC Address                              30-OE-D5-BB-81-CD
+Set the Date. Use Tab 
+to switch between 
+Date elements.
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Main F-center Advanced Boot Power Health Security Save&Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+
+--- Page 23 ---
+17
+BIOS SETUP
+  no password is set or you enter system with administrator password, this item will display  
+  “Administrator”.
+F-center
+► Super BIOS Protect 
+  To protect the system BIOS, there is a BIOS write-protection mechanism provided to prevent BIOS  
+  FLASH tool being improperly used to update BIOS or the vicious virus(such as CHI,etc) rewriting BIOS  
+ setup.
+► Smart BIOS/CPU Conguration
+     Press <Enter> to go to relative submenu.
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  Super BIOS Protect                              [Enabled]
+▶ Smart BIOS 
+▶ CPU Configuration 
+Super BIOS Protection 
+Settings.
+
+--- Page 24 ---
+18
+BIOS SETUP
+Smart BIOS
+► Smart Power LED 
+     Smart Power LED is a feature built on your motherboard to indicate different states during Power On  
+     Self Test (POST). The LED is located at the front panel, and it displays POST state by different long- 
+     short blinking intervals. You can always leave this state enabled.
+            
+System Status Power LED Status Stop Blinking Condition
+Normal Always On Always On
+No Memory Continue blinking On (1sec.), Off (1sec.) Reboot & Memory OK
+No Display Continue blinking On (2sec.), Off (2sec.) Reboot & Display OK
+Post Error Message
+Quick blinking twice (1/3sec. On, 1/3sec. Off), 
+one long On (1sec.), continuously.
+Enter Setup or Skip
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  Smart Power LED                              [Disabled]
+  Smart Boot Menu                              [Enabled] 
+Smart Power LED 
+Settings
+
+--- Page 25 ---
+19
+BIOS SETUP
+► Smart Boot Menu 
+When PC starts, it will ask you to press [Del] key to enter setup or press [F7] key to enter smart boot 
+menu. If [Disabled] is selected, then pressing [F7] has no function. This also prevents user without 
+password trying to get into your computer through smart boot menu.
+
+--- Page 26 ---
+20
+BIOS SETUP
+CPU Conguration
+              
+► Limit CPUID Maximum 
+This item is used to enable or disable CPUID maximum value limit conguration. 
+►  Execute Disable Bit 
+This item is used to enable/disable the Execute Disable Bit feature. 
+Intel’s Execute Disable Bit functionality can help prevent certain classes of malicious buffer overow 
+attacks when combined with a supporting operating system .
+► Intel Virtualization Technology (Appears only when CPU supports) 
+Virtualization (i.e. Intel® Vanderpool Technology) allows a platform to run multiple operating systems 
+and applications in independent partitions or “containers.” One physical compute system can function 
+as multiple “virtual” systems. Vanderpool Technology can help improve future virtualization solutions. 
+This item will be displayed only when the CPU is supporting this feature and the setting is used to 
+enable/disable it.
+► EIST 
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+ CPU Configuration
+ CPU Brand Name:
+ Intel(R)  Pentium(R)  3805U    @    1.90GHz
+ CPU Signature                                    306d4
+ Microcode Patch                                  11
+ Max CPU Speed                                    1900 MHZ
+ Min CPU Speed                                    500 MHz
+ CPU Speed                                        1900 MHz
+ Processor Cores                                  2
+ Intel HT Technology                              Not Supported
+ Intel VT-x Technology                            Supported
+ Intel SMX Technology                             Not Supported
+ 64-bit                                           Supported
+ EIST Technology                                  Supported
+ CPU C3 state                                     Supported
+ CPU C6 state                                     Supported
+ CPU C7 state                                     Supported
+ L1 Data Cache                                    32 KB X 2
+ L1 Code Cache                                    32 KB X 2
+ L2 Cache                                         256 KB X 2
+ L3 Cache                                         2 MB 
+ L4 Cache                                         Not Present
+ Limit CPUID Maximum                              [Disabled]
+ Execute Disabled Bit                             [Enabled]
+ Intel Virtualization Technology                  [Enabled]
+ EIST                                             [Enabled]
+   Turbo                                          [Enabled]
+   CPU C3 Report                                  [Enabled]
+   CPU C6 Report                                  [Enabled]
+Disabled for Windows XP
+
+--- Page 27 ---
+21
+BIOS SETUP
+  You can select the EIST (Processor Power Management, PPM) through this item.
+► Turbo Mode
+     This item is used to enable or disable Turbo Mode.
+► CPU C3 Report
+  This item is used to enable or disable CPU C3 (ACPI C2) report to OS.
+► CPU C6 report 
+This item is used to enable or disable CPU C6 (ACPI C3) report to OS.
+Advanced
+Enhanced Intel SpeedStep® technology (EIST) allows the system to dynamically
+adjust processor voltage and core frequency, which can result in decreased average
+power consumption and decreased average heat production. There are some
+system requirements must be met, including CPU, chipset, motherboard, BIOS and
+operation system. Please refer to Intel Website for more information.
+C
+AUTION
+
+--- Page 28 ---
+22
+BIOS SETUP
+► Trusted Computing/North Bridge/Onboard Device Conguration/SATA Conguration
+     /Network Stack Conguration 
+Press <Enter> to go to its submenu.
+► Realtek PCIe GBE Family Controller
+  Press <Enter> to go to get driver information and congure Realtek ethernet controller patameter.
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+▶ Trusted Computing
+▶ North Bridge
+▶ Onboard Device Configuration
+▶ SATA Configuration
+▶ Network Stack Configuration
+▶Realtek PCIe GBE Family Controller
+(MAC:00:00:00:00:00:03)
+Trusted Computing 
+Settings
+
+--- Page 29 ---
+23
+BIOS SETUP
+Trusted Computing
+                 
+► Security Device Support  
+This item is used to enable or disable BIOS support for security device. O.S. will not show Security 
+Device. TCG EFI protocol and INTA interface will not be available.
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+Configuration
+  Security Device Support                   [Enabled]
+Current Status Information
+  NO Security Device Found
+Enables or Disables 
+BIOS support for 
+security device. O.S. 
+will not show Security 
+Device. TCG EFI proto-
+col and INTA interface 
+will not be available.
+
+--- Page 30 ---
+24
+BIOS SETUP
+North Bridge
+                  
+► Total Memory
+  This item displays the current using memory information. 
+► DIMM#0/#1
+  These items display the memory size installed on each slot.
+► Integrated Graphics 
+This item allows you to determine whether to allocate memory for the integrated graphics controller 
+from the system memory. Options: [Auto], [Manual]. 
+[Auto]-Auto the integrated graphics controller. 
+[Manual]- Manual the integrated graphics controller.
+► DVMT Pre-Allocated
+  This item is used to select  DVMT 5.0 Pre-Allocated (Fixed) Graphics Memory size used by the 
+Internal Graphics Devices.
+► DVMT Total Gfx Memory 
+This item is used to select DVMT 5.0 Total Graphic memory size used by internal graphics device.
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  North Bridge Configuration 
+  Memory Information  
+  Total Memory                             4096 MB (DDR3/DDR3L 1600)
+  DIMM#0                              4096 MB (DDR3/DDR3L)   
+  DIMM#1                              Not Present                         
+    
+  Memory Configuration
+ 
+Internal Graphics                 [Auto]
+  DVMT Pre-Allocated                [64M]
+  DVMT Total Gfx Memory             [256M]
+Keep IGO enabled based 
+on the setup options.
+
+--- Page 31 ---
+25
+BIOS SETUP
+Onboard Device Conguration
+► Onboard LAN Controller 
+This item is used to enable or disable the onboard LAN controller
+► USB Support
+  This item is used to enable or disable USB Controller Support.
+► Legacy USB Support 
+This item is used to enable the support for USB devices on legacy OS. If you have a USB keyboard or 
+mouse, set to enabled. 
+[Enabled]: This option will enable the legacy USB support. 
+[Disabled]: This option will keep USB devices available only for EFI applications.
+► Azalia 
+     This item is used to enable or disable the Azalia HD Audio Controller.
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  Onboard Device Configuration
+  Onboard LAN Controller                     [Enabled]
+  USB Support                           [Enabled]
+  Legacy USB Support                           [Enabled]
+  Azalia               [Enabled]
+Enabled/Disabled 
+On-
+board LAN Control-
+ler.
+
+--- Page 32 ---
+26
+BIOS SETUP
+SATA Conguration
+                 
+                
+►  SATA Controller(s)
+  This item is used to enable or disable SATA controller.
+►  SATA Mode Selection 
+This item is used to set the operating mode of your SATA ports. 
+[AHCI] - The Advanced Host Controller Interface (AHCI) specication describes the register level 
+interface for a Host Controller for Serial ATA. The specication includes a description of the hardware/
+software interface between system software and the host controller hardware. AHCI provides more 
+advanced features including SATA features, but some SATA drives may not support AHCI, unless they 
+are labeled with AHCI support in its specication. If your motherboard supporting AHCI, and you have 
+a SATA device, which also supports AHCI, then you can select IDE option to have fair performance 
+(only PATA, SATA level), or you can select AHCI to get its best performance.
+      [RAID] - When you enable RAID, it means all your SATA drives must also support AHCI.
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  SATA Controller(s)  [Enabled]
+  SATA Mode Selection  [AHCI]
+  Serial ATA Port1  Empty 
+  Serial ATA Port2  Empty
+Enabled or Disabled 
+SATA Device.
+
+--- Page 33 ---
+27
+BIOS SETUP
+Network Stack Conguration
+                  
+                    
+► Network stack
+    This item is used to enable/disable UEFI network stack.
+    The UEFI(Unied Extensible Firmware Interface)Network Stack implements the  
+    TCP/IP network interfaces such as SNP, MNP,ARP, IP, UDP, DHCP, MTFTP, and   
+    TCP.
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  Network stack                             [Disabled]
+Enable/Disables UEFI 
+network stack
+
+--- Page 34 ---
+28
+BIOS SETUP
+Boot
+                 
+► Bootup Numlock State
+This item denes if the keyboard Num Lock key is active when your system is started. The available 
+settings are: On (default) and Off.
+► Quiet Boot
+     This item is used to enable/disable the quiet boot.
+     [Disabled] : Displays the normal POST messages.
+     [Enabled] : Displays OEM customer logo instead of POST messages.
+► Fast Boot
+     This item is used to enable or disable boot with initialization of a minimal set of devices required to 
+     launch active boot option. This is no effect for BBS boot options.
+► FIXED BOOT ORDER Priorities
+     These items are used to set the system boot order.
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  Boot Configuration  
+  Bootup Numlock State                    [On]
+  Quiet Boot                              [Enabled]
+  Fast Boot                               [Disabled]
+▶ CSM Configuration
+ 
+  FIXED BOOT ORDER Priorities
+  Boot Option #1                          [UEFI Hard Disk]
+  Boot Option #2                          [UEFI CD/DVD]
+  Boot Option #3                          [UEFI USB Hard Disk]
+  Boot Option #4                          [UEFI USB CD/DVD]
+  Boot Option #5                          [UEFI USB Key]
+  Boot Option #6                          [UEFI USB Floppy]
+  Boot Option #7                          [UEFI USB Lan]
+  Boot Option #8                          [UEFI Network]
+  Boot Option #9                          [Hard Disk]
+  Boot Option #10                         [CD/DVD]
+  Boot Option #11                         [USB Hard Disk]
+  Boot Option #12                         [USB CD/DVD]
+  Boot Option #13                         [USB Key]
+  Boot Option #14                         [USB Floppy]
+  Boot Option #15                         [USB Lan]
+  Boot Option #16                         [Network]
+Select the keyboard 
+NumLock  state
+
+--- Page 35 ---
+29
+BIOS SETUP
+CSM  parameters
+             
+► CSM Support
+     This item is used to enable or disable CSM Support.
+► Boot option lter
+     This item controls what devices system can boot to.
+► Network
+     This item controls the execution of UEFI and Legacy PXE OpROM.
+► Storage 
+     This item controls the execution of UEFI and Legacy Storage OpROM.
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  Compatibility Support Module Configuration  
+ 
+  CSM Support                          [Disabled]
+ 
+Boot option filter                   [UEFI and Legacy]
+  Option ROM execution
+  
+  Network                              [Do not launch]
+  Storage                              [Legacy]
+Enable/Disable CSM 
+Support.
+
+--- Page 36 ---
+30
+BIOS SETUP
+Power
+                 
+ACPI (Advanced Conguration and Power Interface) is an open industry standard interfaces enabling 
+OS-directed conguration, power management, and thermal management of mobile, desktop, and 
+server platforms. It denes ve sleeping states, they are :
+S1 - The S1 sleeping state is a low wake latency sleeping state. In this state, no system context is lost 
+(CPU or chip set) and hardware maintains all system context. (also called Power On Suspend)
+S2 - The S2 sleeping state is a low wake latency sleeping state. This state is similar to the S1 sleeping 
+state except that the CPU and system cache context is lost (the OS is responsible for maintaining the 
+caches and CPU context). Control starts from the processor’s reset vector after the wake event.
+S3 - The S3 sleeping state is a low wake latency sleeping state where all system context is lost except 
+system memory. CPU, cache, and chip set context are lost in this state. Hardware maintains memory 
+context and restores some CPU and L2 conguration context. Control starts from the processor’s 
+reset vector after the wake event. (also called Suspend to RAM)
+S4 - The S4 sleeping state is the lowest power, longest wake latency sleeping state supported by ACPI. 
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  ACPI Sleep State  [S3]
+  Resume By USB Device(s)  [Enabled]
+  Resume By Onboard LAN  [Disabled]
+  Resume By RTC  [Disabled]
+  Energy-using products  [Enabled]
+  Restore AC Power Loss  [Power Off] 
+Select the highest 
+ACPI sleep state 
+the system will 
+enter when the 
+SUSPEND button is 
+pressed.
+
+--- Page 37 ---
+31
+BIOS SETUP
+In order to reduce power to a minimum, it is assumed that the hardware platform has powered off all 
+devices. Platform context is maintained. (also called Suspend to Disk)
+S5 - The S5 state is similar to the S4 state except that the OS does not save any context. The system 
+is in the “soft” off state and requires a complete boot when it wakes. Software uses a different state 
+value to distinguish between the S5 state and the S4 state to allow for initial boot operations within the 
+BIOS to distinguish whether or not the boot is going to wake from a saved memory image. 
+► ACPI Sleep State 
+This item is used to set the energy saving mode of the ACPI function. When you select “S1 (POS)” 
+mode, the power is always on and computer can be resumed at any time. When you select “S3 
+(STR)” mode, the power will be down after a period of time. The status of the computer before it 
+entering STR will be saved in memory, and the computer can quickly return to previous state when 
+the STR function wakes.
+► Resume By USB Device(s) 
+This item is used to enable or disable the USB device(s)  to generate a wake up.
+► Resume By Onboard LAN 
+This item is used to enable or disable the onboard LAN to generate a wake up.
+► Resume By RTC 
+This item is used to enable or disable RTC alarm event to generate a wake up. 
+RTC is system real time clock.
+► RTC Alarm Date(Days) 
+When Resume by RTC is enabled, select a specic date to generate a wake up.
+► RTC Alarm Time(HH:MM:SS) 
+When Resume by RTC is enabled, select a specic time to generate a wake up.
+► Energy-using product
+  This item is used to congure the DeepSx Mode conguration.
+► Restore AC Power Loss 
+This item is used to set which state the PC will take with when it resumes after an AC power loss.
+
+--- Page 38 ---
+32
+BIOS SETUP
+Health
+► CPU Shutdown Temperature
+  This item is used to set the system temperature upper limit. When the temperature exceedsthe set 
+value, the system will shut down automatically.This function works only when your operating system is 
+supporting ACPI.
+► CPU Smart Fan Control
+  This option is used to enable or disable CPU smart fan function. 
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  CPU Temperature                              : +40 ˚C
+  CPU Fan Speed                                : 3326 RPM
+  +3.3V                                        : 3.307V
+  +5V SYS                                      : +4.985 V
+  CPU VCore                                    : +1.117 V
+  VDDR                                         : +1.340 V
+   
+     
+  CPU Shutdowm Temperature                     [Enabled]
+  CPU Smart Fan Control                        [Enabled]
+CPU Shutdowm 
+Temperature
+
+--- Page 39 ---
+33
+BIOS SETUP
+Security
+► Administrator Password 
+  This item is used to install or change administrator password.
+  After you input administrator password, it then will ask you to conrm the password.
+► User Password
+  This item is used to install or change user password.
+  Only when there exists a Administrator password, then this setting can be activated.
+► Secure Boot menu
+  Press <Enter> to go to its submenu.
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  Password Description
+                      
+  Administrator Password                     Not Installed
+  User Password                              Not Installed
+ 
+  Administator Password
+▶ Secure Boot menu
+ 
+Set Administrator 
+Password
+
+--- Page 40 ---
+34
+BIOS SETUP
+Save & Exit
+► Save Changes and Reset
+   If you select this option and press <Enter>, a message will be displayed in the screen. 
+  Select [Yes] to save your changes and reset computer, select [No] or <ESC> to return to the main 
+menu.
+► Discard Changes and Reset 
+  If you select this option and press <Enter>,  a message will be displayed in the screen. 
+  Select [Yes] to exit setup utility and reset computer without saving your modications, select [No] or  
+  <ESC> to return to the main menu.
+► Restore Defaults
+  Optimal defaults are the best settings of this motherboard. 
+  Always load the Optimal defaults after updating the BIOS or after clearing the CMOS values.
+  Select this option and press Enter, it will pop out a dialogue box to let you load the defaults. Select 
+<Yes> and then press <Enter> to load the defaults. Select <No> and press <Enter>, it will not load. 
+Main Advanced Boot Power Health Security Save&ExitF-center
+→  ←:  Select  Screen 
+↑  ↓/Click:  Select  Item
+Enter/Dbl Click: Select
++/-: Change Opt.
+F1: General Help
+F2: Previous Values 
+F3: Optimized Defaults
+F4: Save & Exit
+ESC/Right Click: Exit
+Version 2.17.1246. Copyright (C) 0001 American Megatrends, Inc.
+  Save Changes and Reset
+  Discard Changes and Reset
+  Restore Defaults
+ 
+Boot Override
+ 
+Reset   the      sys-
+tem      after   saving 
+the   changes.
+
+--- Page 41 ---
+35
+BIOS SETUP
+  By this default, BIOS have set the optimal performance parameters of system to improve the 
+performances of system components. But if the optimal performance parameters to be set cannot 
+be supported by your hardware devices (for example, too many expansion cards were installed), the 
+system might fail to work.
+► Boot Override
+  BIOS auto detect the presence of connected devices, select the device you want to boot from and  
+  press <Enter>, then the system will directly boot from the selected devices. Select [Yes] to discard  
+  your modications, select [No] or <ESC> to return to the menu.
+
+--- Page 42 ---
+■  Install Windows 7/8.1
+■  Install Drivers
+Install OS
+
+--- Page 43 ---
+37
+INSTALL OS
+■  Install Windows 7/8.1
+■  Install Drivers
+What kinds of hardware and software you need here:
+1.  Windows 7/8.1 Install USB Disk / USB DVD-ROM drive and Windows 7/8.1 Install CD (Other pur-
+chase)
+2.  NanoPC USB Flash Disk (In this package)
+ 
+ 
+Windows 7 and Windows 8.1 can’t be installed when “Launch CSM” is set to “Disabled” in 
+the BIOS setup.
+4-1 Install Windows 7/8.1
+1.  Connect the Windows 7/8.1 Install USB Disk (or USB DVD-ROM drive) to one USB port of NanoPC.
+2.  Press power on button to turn on your computer.
+3.  Put the Windows 7/8.1 Install CD into the USB DVD-ROM drive if you use the USB DVD-ROM drive. 
+4.  Computer will choose the boot device by BIOS default and start loading the les for installing the OS. 
+5.  When the installation windows popup, set the related items and click “Next” to continue, then click  
+  “Install now” button to start the setup.
+6.  When the license terms appear, choose accept and click “Next” to continue.
+7.  It will then ask you to select the installation type. Click “Custom (advanced)” to install a new copy of  
+ Windows.
+Please press <Del> key to enter BIOS Setup if you want to change the rst boot device 
+for installing the OS.
+
+--- Page 44 ---
+38
+INSTALL OS
+     
+8.  The setup will display the hard disk partitions (160GB, in this example) of your system. If there    
+  were other systems (such as Linux) installed previously, you need select them and click “Drive options  
+  (advanced)” to delete them. When all partitions are clean, setup will display the biggest size of your  
+  hard drive.
+
+--- Page 45 ---
+39
+INSTALL OS
+9.  In the hard disk size screen, you can click the “new” button to create partitions as you need. 
+  In this example we are creating a 70GB partition to install Windows. Make your modications and  
+  click “Apply”.
+     
+  To ensure that all Windows features work correctly, Windows might create additional partitions for  
+  system les. So you will see a 100MB partition reserved by system after you create a partition. Select  
+  the 70GB partition and click “Next” to continue.
+
+--- Page 46 ---
+40
+INSTALL OS
+     
+10. The setup program will then start to install Windows 7/8.1 on your hard disk. During the installation,  
+   your computer will restart several times.
+
+--- Page 47 ---
+41
+INSTALL OS
+11. When the installation is complete, setup will prepare your computer for it’s rst use. You can then  
+   follow the steps to select system settings, create an account, set a password...etc, until the whole  
+   process is completed.
+4-2 Install Drivers
+1.  When the Windows 7/8.1 is completely installed, you have to install the necessary drivers before using  
+  the NanoPC. Connect the NanoPC USB Flash Disk to your system.
+2.  Waiting for a few seconds, the main menu will be displayed on the screen. 
+    
+3.  Use these options to install all the drivers for your system. You must click "Intel Chipset Driver" to  
+  install it rst. After that, you can click ”One Click Setup” and then choose the items you want to install,  
+  or you can click on each individual driver to install it manually.
+4.  After installing all the drivers, you need to restart your NanoPC, then you can start using it.
+
+--- Page 49 ---
+43
+UTILITY
+Utility
+Fox WINFLASH
+Fox WINFLASH is a useful utility to backup and update your system BIOS.
+Supporting Operating Systems:
+■  Windows 7 
+■  Windows 8.1 
+1. Local Update
+1-1 Local Update - BIOS Information
+   This page lets you know your system BIOS information.
+Note: BIOS Size 32Mb = 32M bit = 4M Byte
+    BIOS Size 16Mb = 16M bit = 2M Byte
+Please refer to the physical motherboard for details. 
+Toolbar
+Show current BIOS 
+information
+Minimum
+Exit
+
+--- Page 50 ---
+44
+UTILITY
+1-2 Local Update - Backup BIOS
+   This page can back up your system BIOS. You can click “Backup BIOS”, and key in a le name, then  
+   click “Save” to nish the backup operation. The extension of this backup le is “.ROM” for AMI BIOS.  
+   Make sure you can remember the le name together with the directory which it is stored, prevented  
+   that you may need them to recover your BIOS later.
+1-3 Local Update - Update BIOS
+   This page helps you to update your BIOS from a local le. After click “Update BIOS”, An alert  
+   message will be displayed to ensure if you really want to continue, click “Yes” to conrm. A setup  
+   wizard will guide you to load a local BIOS le to nish the operation. You must remember from which  
+   directory to load your new BIOS le (with an extension of “.ROM” for AMI BIOS) before the setup  
+   wizard starts.
+Key in a BIOS name
+Click to Save
+
+--- Page 51 ---
+45
+UTILITY
+2. About & Help
+  This page shows some information about Fox WINFLASH.
+
+--- Page 52 ---
+Statement:
+  This device complies with part 15 of the FCC Rules. Operation is subject to the following two  
+  conditions: (1) This device may not cause harmful interference, and (2) this device must accept any  
+  interference received, including interference that may cause undesired operation.
+Warning:
+FEDERAL COMMUNICATIONS COMMISSION INTERFERENCE STATEMENT
+  This equipment has been tested and found to comply with the limits for a Class B digital device,    
+  pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection  
+  against harmful interference in a residential installation. This equipment generates, uses and can  
+  radiate radio frequency energy and, if not installed and used in accordance with the instructions, may  
+  cause harmful interference to radio communications. However, there is no guarantee that interference  
+  will not occur in a particular installation. If this equipment does cause harmful interference to radio or  
+  television reception, which can be determined by turning the equipment off and on, the user is  
+  encouraged to try to correct the interference by one or more of the following measures:
+    ▪ Reorient or relocate the receiving antenna.
+    ▪ Increase the separation between the equipment and receiver.
+    ▪ Connect the equipment into an outlet on a circuit different from that to which the receiver is  
+       connected.
+    ▪ Consult the dealer or an experienced radio/ TV technician for help.
+Caution:
+  Any changes or modications not expressly approved by the grantee of this device could void the  
+  user’s authority to operate the equipment.
+RF exposure warning:
+  This equipment must be installed and operated in accordance with provided instructions and the   
+  antenna(s) used for this transmitter must be installed to provide a separation distance of at least  
+  20cm from all persons and must  not be co-located or operating in conjunction with any other antenna  
+  or transmitter. End-users and installers must be provide with antenna installation instructions and  
+  transmitter operating conditions for satisfying RF exposure compliance.
+
+--- Page 53 ---
+Warning statement for Europe:
+  Also, put in the manual which directive to full and also which countries to sell the product.
+  Example of a text to tell which directive has been fullled:
+  Hereby, Foxconn, declares that this AT-9000 Series is in compliance with the essential requirements  
+  and other relevant provisions of Directive 1999/5/EC.”
+

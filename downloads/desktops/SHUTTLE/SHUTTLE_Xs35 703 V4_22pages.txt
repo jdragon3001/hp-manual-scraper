@@ -1,0 +1,494 @@
+Brand: SHUTTLE
+Model: Xs35 703 V4
+URL: https://www.manua.ls/shuttle/xs35-703-v4/manual
+Total Pages: 22
+============================================================
+
+--- Page 1 ---
+For the : 
+XS35V4 Series 
+XPC BIOS User Guide
+
+--- Page 2 ---
+Shuttle®
+XPC Installation Guide
+Copyright
+©2013 by Shuttle® Inc. All Rights Reserved.
+No part of this publication may be reproduced, transcribed, stored in a retrieval system, 
+translated into any language, or transmitted in any form or by any means such as electronic, 
+mechanical, magnetic, optical, chemical, photocopy, manual, or otherwise, without prior 
+written permission from Shuttle® Inc.
+Other brands and product names used herein are for identification purposes only and may 
+be trademarks of their respective owners.
+Disclaimer
+Shuttle® Inc. shall not be liable for any incidental or consequential damages resulting from 
+the performance or use of this product.
+Shuttle®  Inc.  makes  no  representation  or  warranty  regarding  the  contents  of  this  ma- 
+nual. Information in this manual had been carefully checked for accuracy;however, no 
+guarantee is given as to the correctness of the contents. For continuing product improve-
+ment, Shuttle® Inc. reserves the right to revise the manual or make changes to the speci-
+fications of this product at any time without notice and obligation to any person or entity 
+regarding such change. The information contained in this manual is provided for general 
+use by customers.
+This device complies to Part 15 of the FCC Rules. Operation is subject to the following 
+two conditions:
+1. This device may not cause harmful interference.
+2. This device must withstand any background interference including those that may
+ 
+  cause undesired operation.
+Trademarks
+Shuttle  is a registered trademark of Shuttle Inc.
+Intel and Pentium are registered trademarks of Intel Corporation. 
+PS/2 is a registered trademark of IBM Corporation.
+ 
+AWARD is a registered trademark of Award Software Inc. 
+Microsoft and Windows are registered trademarks of Microsoft Corporation.
+General Notice
+Other brand and product names used herein are for identification purposes only and 
+may be trademarks of their respective owners.
+
+--- Page 3 ---
+Safety Information
+Read the following precautions before setting up a Shuttle XPC.
+Installation Notices
+Do not place this device underneath heavy loads or in an 
+unstable position.
+Do not expose this device to high levels of direct sunlight, 
+high-humidity or wet conditions.
+Do not use or expose this device around magnetic elds 
+as magnetic interference may affect the performance of 
+the device.
+Do not block the air vents to this device or impede the 
+airow in any way. 
+Laser compliance statement
+The optical disc drive in this server is a laser product. The drive's classication 
+label is lacated on the drive.
+CLASS 1 LASER PRODUCT
+CAUTION
+：
+  INVISIBLE LASER RADIATION WHEN OPEN.
+ 
+   AVOID EXPOSURE TO BEAM. 
+CAUTION
+Incorrectly replacing the battery may damage this computer. Replace 
+only with the same or equivalent as recommended by Shuttle. Dispose 
+of used batteries according to the manufacturer's instructions.
+
+--- Page 4 ---
+TABLE OF CONTENTS
+Driver and Software Installation........................................................1
+Motherboard Driver CD..............................................................1
+User Manuals.............................................................................2
+Appendix...........................................................................................3
+Starting BIOS .............................................................................3
+BIOS Setup Menu ......................................................................3
+Main Setup ..........................................................................5
+Advanced ............................................................................6
+Power Management Con󰘰guration ..............................7
+CPU Con󰘰guration .......................................................8
+OnBoard Device Con󰘰guration ..................................10
+SATA Con󰘰guration ...................................................11
+USB Con󰘰guration .....................................................12
+Hardware Health Con󰘰guration ..................................13
+Boot...................................................................................14
+Security .............................................................................15
+Secure Boot Menu .....................................................17
+Save & Exit .......................................................................18
+
+--- Page 5 ---
+1
+English
+Driver and Software Installation
+The Motherboard Driver DVD contains all the motherboard drivers necessary to 
+optimize the performance of this Shuttle Xvision in a Windows
+®
+ OS. Install these 
+drivers after installing Microsoft
+®
+ Windows
+®
+. 
+Insert  the  attached  DVD  into  your  DVD-ROM  drive.  The  DVD  AutoRun  screen 
+should appear. If the  AutoRun screen  does not  appear,  double  click  on  Autorun 
+icon in My Computer to bring up Shuttle Mainboard Software Setup screen. 
+Navigation Bar Description : 
+
+Auto Install Driver/Utility
+
+User Manuals - Motherboard Manual, Quick Guide.
+
+ 
+Link to Shuttle Website - Link to shuttle website homepage.
+
+ 
+Browse this DVD - Allows you to see contents of this DVD.
+The DVD contents attached in XS35V4 Series motherboard are subject to 
+change without notice.
+
+Motherboard Driver CD
+
+--- Page 6 ---
+2
+English
+
+User Manuals
+
+  Install Adobe Reader 9.5
+
+  Motherboard Manual
+
+  Quick Guide
+
+--- Page 7 ---
+3
+English
+Appendix
+AMIBIOS has been integrated into many motherboards for over a decade. In the past, 
+people often referred to the AMIBIOS setup menu as BIOS, BIOS setup, or CMOS 
+setup.
+American Megatrends refers to this setup as BIOS. Specically, it is the name of the 
+BIOS setup utility. This chapter describes the basic navigation of the BIOS setup 
+screens.
+Enter the BIOS
+To enter the BIOS setup screens, follow the steps below:
+Step1.  Power on the motherboard.
+Step2.  Press the <Delete> key on your keyboard when you see the following 
+ 
+  text prompt: 
+Press DEL to run Setup.
+Step3.  After you press the <Delete> key, the main BIOS setup menu displays.
+ 
+  You can access the other setup screens from the main BIOS setup menu,
+ 
+  such as the Chipset and Power menus.
+The  main BIOS setup menu is the rst screen that you can navigate. Each main 
+BIOS setup menu option is described in this user’s guide.
+The Main BIOS setup menu screen has two main frames. The left frame displays all 
+the options that can be congured. “Grayed-out” options cannot be congured.  
+Options is blue can be.
+The right frame displays the key legend. Above the key legend is an area reserved for 
+a text message. When an option is selected in the left frame, it is highlighted in white.
+Often a text message will accompany it.
+This manual describes the standard look of the BIOS setup screen.  
+The motherboard manufacturer has the ability to change any and all of the 
+settings described in this manual. This means that some of the options 
+described in this manual do not exist in your motherboard's AMIBIOS.
+In most cases, the <Delete> key is used to invoke the BIOS setup screen. 
+There are a few cases that other keys are used, such as <F1>,<F2>, and 
+so on.
+Starting BIOS
+BIOS Setup Menu
+
+--- Page 8 ---
+4
+English
+The BIOS setup/utility uses a key-based navigation system called hot keys. Most of 
+the BIOS setup utility hot keys can be used at any time during the setup navigation 
+process. These keys include <F1>, <F2>, <F3>,<F4>,<Enter>, <ESC>, <Arrow> 
+keys, and so on.
+Hot Key Description
+→ Left 
+← Right
+The Left and Right <Arrow> keys allow you to select a BIOS setup screen.
+For example: Main screen, Advanced screen, Chipset screen, and so on.
+ ↑ Up
+ 
+↓ Down
+The Up and Down <Arrow> keys allow you to select an BIOS setup item or sub-
+screen.
++- Plus/Minus
+The  Plus  and  Minus  <Arrow>  keys  allow  you  to  change  the  field  value  of  a 
+particular setup item. For example: Date and Time.
+Tab The <Tab> key allows you to select BIOS setup elds.
+F1
+The <F1> key allows you to display the General Help screen.
+Press the <F1> key to open the General Help screen.
+F4
+The <F4>  key allows you to  save any changes  you  have  made and exit  BIOS 
+Setup. Press the <F4> key to save your changes. Press the <Enter> key to save 
+the conguration and exit. You can also use the <Arrow> key to select Cancel and 
+then press the <Enter> key to abort this function and return to the previous screen.
+ESC
+The <Esc> key allows you to  discard any changes you have made and exit the 
+BIOS  Setup. Press  the <Esc>  key  to  exit the  BIOS setup  without saving your 
+changes. Press the <Enter> key to discard changes and exit. You can also use the 
+<Arrow> key to select Cancel and then press the <Enter> key to abort this function 
+and return to the previous screen.
+Enter
+The  <Enter>  key  allows you to  display  or change  the  setup  option listed  for  a 
+particular setup item. The <Enter> key can also allow you to display the setup sub- 
+screens.
+Has default text messages built into it. The motherboard manufacture retains the 
+option to include, leave out, or change any of these text messages. They can also 
+add their own text messages. Because of this, many screen shots in this manual 
+are different from your BIOS setup screen.
+There is a hot key legend located in the right frame on most BIOS setup screens.
+
+--- Page 9 ---
+5
+English
+When you rst enter the BIOS Setup Utility, you will enter the Main setup screen. 
+You can always return to the Main setup screen by selecting the Main tab. There are 
+two Main Setup options. They are described in this section. The Main BIOS Setup 
+screen is shown below.
+System Time/System Date
+Use this option to change the system time and date. Highlight System Time or Sys-
+tem Date using the <Arrow> keys. Enter new values through the keyboard. Press the 
+<Tab> key or the <Arrow> keys to move between elds. The date must be entered in 
+MM/DD/YY format. The time is entered in HH:MM:SS format.
+The time is in 24-hour format. For example, 5:30 A.M. appears as 05:30:00,  
+and 5:30 P.M. as 17:30:00.
+
+  
+Main Setup
+
+--- Page 10 ---
+6
+English
+Select the Advanced tab from the BIOS setup screen to enter the Advanced BIOS 
+Setup screen. You can select any of the items in the left frame of the screen, such as 
+CPU Conguration, to go to the sub menu for that item.
+You can display an Advanced BIOS Setup option by highlighting it using the <Arrow> 
+keys. All Advanced BIOS Setup options are described in this section.
+The Advanced BIOS Setup screen is shown below. The sub menus are described on 
+the following pages.
+
+  
+Advanced
+
+--- Page 11 ---
+7
+English
+Wake Up by USB (S3)
+Enable or disable system wake up by USB (S3).
+
+ The choice: Enabled , Disabled.
+EuP Function
+Enable or disable system EuP function in S4/S5.
+
+ The choice: 
+Enabled , Disabled.
+PWR-On After PWR-Fail
+Enable or disable system power on automatically after AC power restored.
+
+ The choice: Power Off, Power On, Former-Sts, Power On by LAN 
+ 
+    and Power On by RTC.
+
+Power Management Con󰘰guration
+
+--- Page 12 ---
+8
+English
+You can use this screen to select options for the CPU Conguration Settings. Use the 
+up and down <Arrow> keys to select an item. Use the <Plus> and <Minus> keys to 
+change the value of the selected option. A description of the selected item appears 
+on the right side of the screen. The settings are described on the following pages. An 
+example of the CPU Conguration screen is shown below.
+Wake Up by LAN
+Enable or disable system wake on by onboard LAN chip.
+
+ The choice: Enabled , Disabled.
+PowerOn by RTC Alarm
+When enabled, System will wake on the hr::min::sec specied.
+
+ The choice: Enabled , Disabled.
+
+CPU Con󰘰guration
+
+--- Page 13 ---
+9
+English
+C State Support
+This item allows you to enable or disable the CPU C state function.
+
+ The choice: Enabled , Disabled.
+Active Processor Cores
+Number of cores to enable in each processor package.
+
+ The choice: All,1.
+Intel (R) V. T.
+When enable, a VMM can utilize the additional hardware capabilities provided 
+by vanderpool Technology.
+
+ The choice: Enabled , Disabled.
+EIST
+Enable or disable Enhanced lntel SpeedStep
+®
+ Technology.
+
+ The choice: Enabled , Disabled.
+The CPU Conguration setup screen varies depending on the installed processor.
+
+--- Page 14 ---
+10
+English
+High Denition Audio
+This item allows you to enable or disable the HD Audio.
+
+ The choice: Enabled , Disabled.
+OnBoard LAN Function (+ SD Card)
+This item allows you to enable or disable the onboard LAN function.
+
+ The choice: Enabled , Disabled.
+Onboard LAN Boot ROM
+This item allows you to enable or disable the onboard LAN boot ROM.
+
+ The choice: Enabled , Disabled.
+IGD Memory Size Select
+Onboard IGD Graphics Memory Size.
+
+ The choice: 64MB,128MB,256MB,512MB.
+WIFI Function
+This item allows you to enable or disable the WIFI function.
+
+ The choice: Enabled , Disabled.
+OnBoard Device Con󰘰guration
+
+--- Page 15 ---
+11
+English
+SATA Mode
+SATA mode select.
+
+ The choice: IDE, AHCI.
+
+SATA Con󰘰guration
+
+--- Page 16 ---
+12
+English
+USB 3.0 Controller
+Set this value to allow the system to enable or disable the onboard USB 3.0 
+Controller.
+
+ The choice: Enabled, Disabled.
+USB 2.0(EHCI) Support
+Set this value to allow the system to enable or disable the onboard USB 2.0 
+Controller.
+
+ The choice: Enabled, Disabled.
+
+USB Con󰘰guration
+
+--- Page 17 ---
+13
+English
+
+Hardware Health Con󰘰guration
+
+--- Page 18 ---
+14
+English
+Select the Boot tab from the BIOS setup screen to enter the Boot BIOS Setup screen. 
+You can select any of the items in the left frame of the screen, such as Boot Settings 
+Conguration, to go to the sub menu for that item.
+You can display an Boot BIOS Setup option by highlighting it using the <Arrow> keys. 
+All Boot BIOS Setup options are described in this section.
+The Boot BIOS Setup screen is shown below. The sub menus are described on the 
+following pages.
+
+  
+Boot
+Bootup Num-Lock
+Select NumLock state after system bootup.
+
+ The choice: Enabled , Disabled. 
+Boot  From USB device
+This item allows you to enable or disable boot from USB device.
+
+ The choice: Enabled , Disabled.
+Boot Device Priority (Boot Option #1/2/3/....)
+Species  the  boot  sequence  from  the  available  devices. A  device  enclosed  in 
+parenthesis has been disabled in the corresponding type menu.
+
+--- Page 19 ---
+15
+English
+Select the Security tab from the BIOS setup screen to enter the Security BIOS Setup 
+screen. You can display an Security BIOS Setup option by highlighting it using the 
+<Arrow> keys. All Security BIOS Setup options are described in this section.
+The Security Setup screen is shown below. The sub menus are documented on the 
+following pages.
+Enter New Password
+Change Supervisor Password
+When this item is selected, a message box shall appear on the  
+screen as below:
+Flash Write Protection
+Enabled/Disabled BIOS Write Protection control function.
+
+ The choice: Enabled , Disabled.
+
+  
+Security
+Password Login control
+Password Mode select.
+
+ The choice: Boot, Setup, Both
+
+--- Page 20 ---
+16
+English
+Type a maximum of 6-digit password and press [Enter]. The password typed now will 
+replace any previously set password from CMOS memory. You may also press [ESC] 
+to abandon new password setting.
+When the Supervisor Password is set, new items Change User Password and Pass-
+word Check will be added in the menu.
+Select Change User Password to give or to abandon password setting same as 
+Change Supervisor Password item above.
+Note that Supervisor Password eld allows users to enter and change the settings of 
+the BIOS SETUP UTILITY, while User Password eld only allows users to enter the 
+BIOS SETUP UTILITY without having the authorization to make any change.
+Setup
+The password is required only when users try to access to 
+BIOS SETUP UTILITY.
+The Password Check item is used to specify the type of BIOS password protection 
+that is implemented. Password Settings are described below:
+To clear a set Supervisor Password/ User Password, just press [Enter] under Change 
+Supervisor Password/ Change User Password eld when you are prompted to enter 
+the password. Please note that when Supervisor Password has been cleared, User 
+Password will be cleared as well. A message box will pop up conrming password will 
+be disabled. Once the password is disabled, the system will boot and user can enter 
+setup without entering password.
+Boot The password is required every time when power on.
+Both
+The  password  is  required  every  time  when  power  on.Also, 
+the  password  is  required  only  when  users  try  to  access  to 
+BIOS SETUP UTILITY.
+
+--- Page 21 ---
+17
+English
+Secure Boot
+Secure boot enable/disable.
+
+ The choice: Enabled , Disabled.
+Secure Boot Mode
+Secure boot mode select.
+
+ The choice: Standard Custom.
+Secure Boot Menu
+
+--- Page 22 ---
+18
+English
+Select the Exit tab from the BIOS setup screen to enter the Exit BIOS Setup screen.
+You can display an Exit BIOS Setup option by highlighting it using the <Arrow> keys. 
+All Exit BIOS Setup options are described in this section.
+The Exit BIOS Setup screen is shown below.
+Save Changes and Exit
+When you have completed the system conguration changes, select this option 
+to leave BIOS Setup and reboot the computer so the new system conguration 
+parameters can take effect.
+Select "Save Changes and Exit" from the Exit menu and press <Enter>.
+  Save Conguration Changes and Exit Now?
+  [Ok] [Cancel]
+appears in the window. Select Ok to save changes and exit.
+Exit Without Saving Changes
+Exit system setup without saving any changes.
+Load Defaults Settings
+Load Optimal Default values for all the setup questions.
+
+  
+Save & Exit
+

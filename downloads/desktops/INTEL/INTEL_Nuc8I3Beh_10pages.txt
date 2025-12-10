@@ -1,0 +1,363 @@
+Brand: INTEL
+Model: Nuc8I3Beh
+URL: https://www.manua.ls/intel/nuc8i3beh/manual
+Total Pages: 10
+============================================================
+
+--- Page 1 ---
+User Guide for NUC8i7BEH, NUC8i5BEH, NUC8i3BEH
+ 
+1 
+ 
+    
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Intel® NUC Kit NUC8i7BEH 
+Intel® NUC Kit NUC8i5BEH 
+Intel® NUC Kit NUC8i3BEH  
+ 
+User Guide
+
+--- Page 2 ---
+User Guide for NUC8i7BEH, NUC8i5BEH, NUC8i3BEH
+ 
+2 
+ 
+ 
+Before You Begin 
+ 
+  CAUTIONS 
+The steps in this guide assume you’re familiar with computer terminology and with the safety 
+practices and regulatory compliance required for using and modifying computer equipment. 
+ 
+Disconnect the computer from its power source and from any network before performing any of the steps 
+described in this guide.   
+ 
+Failure to disconnect power, telecommunications links, or networks before you open the computer or 
+perform any procedures can result in personal injury or equipment damage.  Some circuitry on the board 
+can continue to operate even though the front panel power button is off. 
+ 
+Follow these guidelines before you begin: 
+  Always follow the steps in each procedure in the correct order. 
+  Create a log to record information about your computer, such as model, serial numbers, 
+installed options, and configuration information. 
+  Electrostatic discharge (ESD) can damage components.  Perform the procedures described in 
+this chapter only at an ESD workstation using an antistatic wrist strap and a conductive foam 
+pad. If such a station isn’t available, you can provide some ESD protection by wearing an 
+antistatic wrist strap and attaching it to a metal part of the computer chassis. 
+ 
+Installation Precautions
+ 
+ 
+When you install and test the Intel NUC, observe all warnings and cautions in the installation 
+instructions. 
+ 
+To avoid injury, be careful of: 
+  Sharp pins on connectors 
+  Sharp pins on circuit boards 
+  Rough edges and sharp corners on the chassis 
+  Hot components (such as SSDs, processors, voltage regulators, and heat sinks) 
+  Damage to wires that could cause a short circuit 
+ 
+Observe all warnings and cautions that instruct you to refer computer servicing to qualified 
+technical personnel. 
+ 
+Observe Safety and Regulatory Requirements 
+If you don’t follow these instructions, you increase your safety risk and the possibility of noncompliance 
+with regional laws and regulations.
+
+--- Page 3 ---
+User Guide for NUC8i7BEH, NUC8i5BEH, NUC8i3BEH
+ 
+3 
+ 
+ 
+This guide tells you how to: 
+ 
+•
+ 
+Install and remove memory 
+•
+ 
+Install an M.2 SSD 
+•
+ 
+Install a 2.5” drive 
+•
+ 
+Install a VESA mount bracket 
+•
+ 
+Connect power 
+•
+ 
+Install an operating system 
+•
+ 
+Install the latest drivers 
+ 
+ 
+Open the Chassis 
+ 
+To open the Intel NUC chassis, follow these steps: 
+ 
+1.  Unscrew the four corner screws on the bottom cover of the chassis and lift the cover.
+
+--- Page 4 ---
+User Guide for NUC8i7BEH, NUC8i5BEH, NUC8i3BEH
+ 
+4 
+ 
+Installing and Removing Memory
+ 
+ 
+Intel NUC Kits NUC8i7BEH, NUC8i5BEH, and NUC8i3BEH have two 260-pin DDR4 SO-DIMM sockets. Be 
+sure to select memory modules that meet these requirements: 
+  1.2V low voltage memory 
+  2400 MHz SO-DIMMs  
+  Non-ECC 
+Find compatible memory modules in the Intel Product Compatibility Tool 
+  NUC8i7BEH 
+  NUC8i5BEH 
+  NUC8i3BEH 
+ 
+ 
+NOTE 
+If you plan to install only one memory module, install it in the lower memory 
+socket. 
+ 
+To install memory, follow these steps: 
+ 
+1.  Observe the precautions in "Before You Begin" on page 2. 
+2.  Turn off all peripheral devices connected to the computer.  Turn off the computer and 
+disconnect the power cord. 
+3.  Remove the computer’s bottom chassis cover. 
+ 
+ 
+ 
+4.  Align the small space at the bottom edge of the memory module with the key in the socket. 
+5.  Insert the bottom edge of the module at a 45 degree angle into the socket (A). 
+6.  When the module is inserted, push down on the outer edge of module until the retaining 
+clips snap into place (B). Make sure the clips are firmly in place (C). 
+ 
+To remove a SO-DIMM, follow these steps: 
+ 
+1.  Observe the precautions in "Before You Begin" on page 2. 
+2.  Turn off all peripheral devices connected to the computer.  Turn off the computer and disconnect 
+the power cord. 
+3.  Remove the computer’s bottom chassis cover. 
+4.  Gently spread the retaining clips at each end of the memory socket, which causes the module to 
+pop out of the socket (C). 
+5.  Holding the module by the edges, lift it away from the socket, and store it in an anti-static package. 
+6.  Reinstall and reconnect any parts you removed or disconnected to reach the memory sockets. 
+7.  Replace the computer’s cover and reconnect the power cord.
+
+--- Page 5 ---
+User Guide for NUC8i7BEH, NUC8i5BEH, NUC8i3BEH
+ 
+5 
+ 
+ 
+Install an M.2 SSD or Intel® Optane™ Memory Module
+ 
+ 
+The Intel NUC Kits NUC8i7BEH, NUC8i5BEH, and NUC8i3BEH support an 80mm or 42mm SSD.  
+ 
+Find compatible M.2 SSDs in the Intel Product Compatibility Tool 
+  NUC8i7BEH 
+  NUC8i5BEH 
+  NUC8i3BEH 
+ 
+NOTE 
+Before changing the Intel Optane memory module, it needs to be disabled. Follow Removing 
+Intel Optane Memory on this page first, before taking the module out. 
+ 
+To Change an M.2 SSD: 
+ 
+1.  Remove the small silver screw from the 80mm or 42mm metal standoff on the board (A). 
+ 
+2.  Remove the pre-installed SSD/Intel Optane Memory from the connector.  
+ 
+3.  Align the space at the bottom of the new M.2 SSD to the key on the connector. 
+ 
+4.  Insert the bottom edge of the M.2 SSD into the connector (B). 
+ 
+5.  Secure the card to the standoff with the small silver screw (C).
+
+--- Page 6 ---
+User Guide for NUC8i7BEH, NUC8i5BEH, NUC8i3BEH
+ 
+6 
+ 
+Install a 2.5” SSD or Hard Drive
+ 
+ 
+The Intel NUC Kits NUC8i7BEH, NUC8i5BEH, and NUC8i3BEH support an additional 2.5” Solid State Drive 
+(SSD) or Hard Disk Drive (HDD). 
+ 
+Find compatible 2.5” drives in the Intel Product Compatibility Tool: 
+  NUC8i7BEH 
+  NUC8i5BEH 
+  NUC8i3BEH 
+ 
+1.  Slide the new 2.5” drive into the drive bay, ensuring the SATA connectors are fully seated into the 
+connectors of the SATA daughter card (A). 
+ 
+ 
+2.  Secure the drive into the drive bay with the two small silver screws that were included in the box (B). 
+Set the drive bay bracket down inside the chassis (C).
+
+--- Page 7 ---
+User Guide for NUC8i7BEH, NUC8i5BEH, NUC8i3BEH
+ 
+7 
+ 
+ 
+ 
+ 
+Close the Chassis
+ 
+ 
+After all components have been installed, close the Intel NUC chassis. Intel recommends this be done by 
+hand with a screwdriver to avoid over-tightening and possibly damaging the screws.
+
+--- Page 8 ---
+User Guide for NUC8i7BEH, NUC8i5BEH, NUC8i3BEH
+ 
+8 
+ 
+ 
+Attach and Use the VESA Bracket (Optional) 
+ 
+Follow these instructions to attach and use the VESA mount bracket: 
+ 
+1.  Using the four small black screws that were included in the box, attach the VESA bracket to the 
+back of the monitor or TV. 
+ 
+ 
+ 
+ 
+ 
+2.  Attach the two slightly larger black screws to the bottom chassis cover of the Intel NUC.
+
+--- Page 9 ---
+User Guide for NUC8i7BEH, NUC8i5BEH, NUC8i3BEH
+ 
+9 
+ 
+ 
+3.  Slide the Intel NUC onto the VESA mount bracket. 
+ 
+ 
+Connect Power 
+Country-specific power cords are included in the Intel NUC Kit box.  
+ 
+Connect AC power 
+ 
+ 
+ 
+ 
+Each Intel NUC model includes either a region-specific AC power cord or no AC power cord (only the power 
+adapter). 
+ 
+Product codes 
+Power cord type 
+BOXNUC8i7BEH 
+BOXNUC8i5BEH 
+BOXNUC8i3BEH 
+ 
+No power cord included. An AC power cord needs to be purchased 
+separately. Power cords are available at many Internet sites for use in 
+multiple countries. The connector on the power adapter is a C5 type 
+connector. 
+ 
+BOXNUC8i7BEH1 
+US power cord included.
+
+--- Page 10 ---
+User Guide for NUC8i7BEH, NUC8i5BEH, NUC8i3BEH
+ 
+10 
+ 
+BOXNUC8i5BEH1 
+BOXNUC8i3BEH1 
+ 
+BOXNUC8i7BEH2 
+BOXNUC8i5BEH2 
+BOXNUC8i3BEH2 
+ 
+EU power cord included. 
+BOXNUC8i7BEH3 
+BOXNUC8i5BEH3 
+BOXNUC8i3BEH3 
+ 
+UK power cord included. 
+BOXNUC8i7BEH4 
+BOXNUC8i5BEH4 
+BOXNUC8i3BEH4 
+ 
+Australia/New Zealand power cord included. 
+ 
+ 
+ 
+Install an Operating System 
+ 
+Refer to Supported Operating Systems for a list of Intel-validated Windows* operating systems and 
+versions of Linux that have been reported as compatible by Intel NUC owners. 
+ 
+Refer to Operating System Installation for system requirements and installation steps. 
+ 
+Install Intel NUC Drivers 
+ 
+To download the latest Microsoft* Windows* drivers and BIOS updates, use the Intel® Driver & Support 
+Assistant (Intel® DSA) or go to Download Center: 
+ 
+  NUC8i7BEH 
+  NUC8i5BEH 
+  NUC8i3BEH 
+ 
+Drivers are available for the following features: 
+ 
+  Realtek* Audio 
+  Intel® Bluetooth 
+  Intel® Chipset 
+  ITE* Consumer Infrared 
+  Intel® Graphics 
+  Intel® ME  
+  Intel® Rapid Storage Technology 
+  Intel® Ready Mode Technology 
+  Intel® LAN (wired and wireless) 
+  Thunderbolt™  
+  Card Reader Driver
+

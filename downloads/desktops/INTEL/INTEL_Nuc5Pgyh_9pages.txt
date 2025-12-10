@@ -1,0 +1,310 @@
+Brand: INTEL
+Model: Nuc5Pgyh
+URL: https://www.manua.ls/intel/nuc5pgyh/manual
+Total Pages: 9
+============================================================
+
+--- Page 1 ---
+Intel NUC Kit NUC5PGYH User Guide 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Intel®
+ NUC Kit 
+NUC5PGYH
+ 
+User 
+Guide
+
+--- Page 2 ---
+Intel NUC Kit NUC5PGYH User Guide 
+2 
+ 
+ 
+Before You Begin 
+ 
+  CAUTIONS 
+The procedures in this user guide assume familiarity with the general terminology associated with 
+personal computers and with the safety practices and regulatory compliance required for using 
+and modifying electronic equipment. 
+ 
+Disconnect the computer from its power source and from any telecommunications link or network before 
+performing any of the procedures described in this guide.  Failure to disconnect power, 
+telecommunications links, or networks before you open the computer or perform any procedures can 
+result in personal injury or equipment damage.  Some circuitry on the board can continue to operate 
+even though the front panel power button is off. 
+ 
+Follow these guidelines before you begin: 
+  Always follow the steps in each procedure in the correct order. 
+  Set up a log to record information about your computer, such as model, serial numbers, 
+installed options, and configuration information. 
+  Electrostatic discharge (ESD) can damage components.  Perform the procedures described in 
+this chapter only at an ESD workstation using an antistatic wrist strap and a conductive foam 
+pad.  If such a station is not available, you can provide some ESD protection by wearing an 
+antistatic wrist strap and attaching it to a metal part of the computer chassis. 
+ 
+Installation Precautions
+ 
+ 
+When you install and test the Intel NUC, observe all warnings and cautions in the installation 
+instructions. 
+ 
+To avoid injury, be careful of: 
+  Sharp pins on connectors 
+  Sharp pins on circuit boards 
+  Rough edges and sharp corners on the chassis 
+  Hot components (such as SSDs, processors, voltage regulators, and heat sinks) 
+  Damage to wires that could cause a short circuit 
+ 
+Observe all warnings and cautions that instruct you to refer computer servicing to qualified 
+technical personnel. 
+ 
+Observe Safety and Regulatory Requirements 
+If you do not follow these instructions, you increase your safety risk and the possibility of 
+noncompliance with regional laws and regulations.
+
+--- Page 3 ---
+Intel NUC Kit NUC5PGYH User Guide 
+3 
+ 
+ 
+This guide tells you how to: 
+ 
+•
+ 
+Install a 2.5” drive (optional) 
+•
+ 
+Upgrade memory (optional) 
+•
+ 
+Install a VESA mount bracket (optional) 
+•
+ 
+Set up Microsoft® Windows® 10 
+•
+ 
+Keep BIOS and drivers current 
+•
+ 
+Operating system recovery 
+ 
+ 
+ 
+Install a 2.5” SSD or Hard Drive (Optional)
+ 
+ 
+For a list of tested 2.5” hard drives, go to the Tested Peripherals page on the Support site. 
+ 
+Follow these instructions to install a 2.5” Solid State Drive (SSD) or Hard Disk Drive (HDD): 
+1.  Observe the precautions in "Before You Begin" on page 2. 
+ 
+2.  Open the Intel NUC chassis by unscrewing the four corner screws on the bottom cover of the chassis 
+and lift the cover.
+
+--- Page 4 ---
+Intel NUC Kit NUC5PGYH User Guide 
+4 
+ 
+ 
+3.  Slide the 2.5” drive into the drive bay, ensuring the SATA connectors are fully seated into the 
+connectors of the SATA daughter card (A). 
+ 
+4.  Secure the drive into the drive bay with the two small silver screws that were included in the box (B). 
+ 
+ 
+5.  Set the drive bay bracket down inside the chassis (C), taking care not to pinch the SATA cables along 
+the edge.
+
+--- Page 5 ---
+Intel NUC Kit NUC5PGYH User Guide 
+5 
+ 
+ 
+Upgrade Memory
+ 
+ 
+Intel NUC Kit NUC5PGYH has a 2GB DDR3L memory module already installed. You can upgrade to a 
+larger capacity module if you wish. Memory requirements: 
+  1.35V low voltage memory 
+  1066 MHz or 1600 MHz SO-DIMMs (1333 MHz modules will operate at 1066 MHz) 
+  Non-ECC 
+  Max memory – 8GB 
+For a list of tested memory, go to the System Memory page on the Support site: 
+ 
+To upgrade memory: 
+1.  Remove the pre-installed SO-DIMM, following these steps: 
+a.  Observe the precautions in "Before You Begin" on page 2. 
+b.  Gently spread the retaining clips at each end of the SO-DIMM socket.  The SO-DIMM 
+pops out of the socket. 
+c.  Hold the SO-DIMM by the edges, lift it away from the socket, and store it in an 
+anti-static package. 
+d.  Reinstall and reconnect any parts you removed or disconnected to reach the SO-DIMM 
+sockets. 
+e.  Replace the computer’s cover and reconnect the AC power cord. 
+ 
+2.  Install the new SO-DIMM, following these steps: 
+ 
+ 
+a.  Align the small notch at the bottom edge of the SO-DIMM with the key in the socket 
+(A). 
+b.  Insert the bottom edge of the SO-DIMM into the socket. 
+c.  When the SO-DIMM is inserted, push down on the outer edge of the SO-DIMM (B) 
+until the retaining clips snap into place.  Make sure the clips are firmly in place (C).
+
+--- Page 6 ---
+Intel NUC Kit NUC5PGYH User Guide 
+6 
+ 
+ 
+Close the Chassis
+ 
+ 
+After all components have been installed, close the Intel NUC chassis. Intel recommends this be done by 
+hand with a screwdriver to avoid over-tightening and possibly damaging the screws. 
+ 
+ 
+ 
+ 
+Attach and Use the VESA Bracket (Optional) 
+ 
+Follow these instructions to attach and use the VESA mount bracket: 
+ 
+1.  Using the four small black screws that were included in the box, attach the VESA bracket to the 
+back of the monitor or TV.
+
+--- Page 7 ---
+Intel NUC Kit NUC5PGYH User Guide 
+7 
+ 
+ 
+2.  Attach the two slightly larger black screws to the bottom chassis cover of the Intel NUC. 
+ 
+ 
+3.  Slide the Intel NUC onto the VESA mount bracket. 
+ 
+ 
+Set Up Microsoft® Windows® 10 
+ 
+Microsoft Windows 10 is already installed on the Intel NUC Kit NUC5PGYH. The first time you start the 
+computer, you are guided through the following Setup steps: 
+ 
+1.  Select your region and language.  
+2.  Accept the Microsoft Windows license terms.  
+3.  Personalize Windows and assign a PC Name.  
+4.  "Get Online" dialog to pick a wireless network (this step is optional).  
+5.  Choose Express Settings or Customize.  
+6.  Assign a User Name and Password.  
+7.  Finished.
+
+--- Page 8 ---
+Intel NUC Kit NUC5PGYH User Guide 
+8 
+ 
+ 
+Keep BIOS and Drivers Current 
+ 
+To download the latest BIOS and drivers, go to Download Center. 
+ 
+Refer to BIOS Update Instructions for information on updating the BIOS for your Intel NUC. 
+ 
+Drivers are available for the following features: 
+  Audio 
+  Bluetooth 
+  Chipset 
+  Consumer Infrared 
+  Graphics 
+  Intel® TXE  
+  Intel® Ready Mode Technology 
+  LAN (wired and wireless) 
+  NFC 
+  Serial I/O 
+  USB 3.0 
+ 
+Operating System Recovery 
+ 
+There is a Windows recovery partition on the Intel NUC. You can use this partition to Refresh, Reset, or 
+Restore Windows. Here is what each of these actions do: 
+ 
+Refresh  
+ 
+If your PC isn't performing as well as it once did, and you don't know why, you can 
+refresh your PC. This action does not delete any of your personal files or change 
+your settings. Refresh does the following: 
+ 
+  Files and personalization settings won’t change.  
+  PC settings are changed back to their defaults.  
+  Apps from the Windows Store are kept.  
+  Apps installed from disks or websites are removed.  
+  List of removed apps is saved on the desktop. 
+ 
+Reset  
+ 
+If you want to recycle your PC, give it away, or start over with it, you can reset it 
+completely. This process removes everything. Reset does the following: 
+ 
+  All personal files and apps are removed.  
+  PC settings are changed back to their defaults.  
+  Windows is reinstalled. 
+ 
+Restore 
+If a recently installed app or driver is causing problems with your PC, you can 
+restore Windows back to an earlier point in time, called a restore point. System 
+Restore doesn’t change your personal files, but it can remove recently installed 
+apps and drivers. 
+ 
+ 
+Caution - Before performing a reset or refresh: 
+ 
+  Make sure to back up all personal data to external storage.  
+  Remove SD card from the card slot, if one is inserted.
+
+--- Page 9 ---
+Intel NUC Kit NUC5PGYH User Guide 
+9 
+ 
+  
+ To access the recovery media: 
+ 
+If Windows starts 
+ 
+From Windows Start, type Recovery and select Recovery Options.  
+ 
+See Recovery options in Windows 10 for complete details on how 
+to use the recovery options. 
+ 
+If Windows does not start 
+The recovery process should automatically start. If Recovery does 
+not automatically start, you can try to initiate it as follows: 
+ 
+1.  Press F8 during boot, when you see the prompt “F8 to 
+Activate Windows 8.1/10 Recovery Mode”.  
+2.  Follow the recovery steps.
+

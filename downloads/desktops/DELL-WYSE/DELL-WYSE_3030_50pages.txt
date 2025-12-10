@@ -1,0 +1,1353 @@
+Brand: DELL-WYSE
+Model: 3030
+URL: https://www.manua.ls/dell-wyse/3030/manual
+Total Pages: 50
+============================================================
+
+--- Page 1 ---
+OptiPlex 3030 All-in-One
+Owner's Manual
+Regulatory Model: W10B
+Regulatory Type: W10B001
+
+--- Page 2 ---
+Notes, Cautions, and Warnings
+NOTE: A NOTE indicates important information that helps you make better use of your computer.
+CAUTION: A CAUTION indicates either potential damage to hardware or loss of data and tells you 
+how to avoid the problem.
+WARNING: A WARNING indicates a potential for property damage, personal injury, or death.
+Copyright © 2014 Dell Inc. All rights reserved. This product is protected by U.S. and international copyright and 
+intellectual property laws. Dell
+™
+ and the Dell logo are trademarks of Dell Inc. in the United States and/or other 
+jurisdictions. All other marks and names mentioned herein may be trademarks of their respective companies.
+2014 - 06
+Rev. A00
+
+--- Page 3 ---
+Contents
+1 Working on Your Computer...................................................................................5
+Before Working Inside Your Computer................................................................................................ 5
+Recommended Tools............................................................................................................................6
+Turning Off Your Computer..................................................................................................................7
+After Working Inside Your Computer................................................................................................... 7
+2 System Overview.......................................................................................................8
+System Board Layout.............................................................................................................................9
+3 Removing and Installing Components.............................................................. 11
+Removing the Stand.............................................................................................................................11
+Installing the Stand...............................................................................................................................11
+Removing the Back Cover...................................................................................................................11
+Installing the Back Cover.....................................................................................................................12
+Removing the Optical Drive................................................................................................................12
+Installing the Optical Drive..................................................................................................................13
+Removing the Hard Drive....................................................................................................................13
+Installing the Hard Drive......................................................................................................................15
+Removing the Convertor Board..........................................................................................................15
+Installing the Convertor Board............................................................................................................16
+Removing the Memory........................................................................................................................16
+Installing the Memory..........................................................................................................................17
+Removing the System-Board Shield................................................................................................... 17
+Installing the System-Board Shield.....................................................................................................18
+Removing the Heatsink....................................................................................................................... 18
+Installing the Heatsink......................................................................................................................... 19
+Removing the Speakers.......................................................................................................................19
+Installing the Speakers.........................................................................................................................21
+Removing the VESA Bracket............................................................................................................... 22
+Installing the VESA Bracket................................................................................................................. 22
+Removing the System Fan.................................................................................................................. 23
+Installing the System Fan.................................................................................................................... 23
+Removing the Power-Switch Board...................................................................................................24
+Installing the Power-Switch Board.....................................................................................................25
+Removing the System Board.............................................................................................................. 25
+Installing the System Board.................................................................................................................27
+Removing the Display Bracket............................................................................................................28
+Installing the Display Bracket..............................................................................................................29
+
+--- Page 4 ---
+Removing the Camera........................................................................................................................30
+Installing the Camera...........................................................................................................................31
+Removing the Microphone................................................................................................................. 31
+Installing the Microphone...................................................................................................................32
+4 System Setup........................................................................................................... 33
+Boot Sequence....................................................................................................................................33
+Navigation Keys................................................................................................................................... 33
+System Setup Options.........................................................................................................................34
+Updating the BIOS ..............................................................................................................................42
+System and Setup Password...............................................................................................................43
+Assigning a System Password and Setup Password.................................................................... 43
+Deleting or Changing an Existing System and/or Setup Password............................................ 44
+5 Technical Specifications.......................................................................................45
+6 Contacting Dell.......................................................................................................50
+Contacting Dell................................................................................................................................... 50
+
+--- Page 5 ---
+1
+Working on Your Computer
+Before Working Inside Your Computer
+Use the following safety guidelines to help protect your computer from potential damage and to help to 
+ensure your personal safety. Unless otherwise noted, each procedure included in this document assumes 
+that the following conditions exist:
+• You have read the safety information that shipped with your computer.
+• A component can be replaced or--if purchased separately--installed by performing the removal 
+procedure in reverse order.
+WARNING: Disconnect all power sources before opening the computer cover or panels. After you 
+finish working inside the computer, replace all covers, panels, and screws before connecting to 
+the power source.
+WARNING: Before working inside your computer, read the safety information that shipped with 
+your computer. For additional safety best practices information, see the Regulatory Compliance 
+Homepage at 
+www.dell.com/regulatory_compliance 
+CAUTION: Many repairs may only be done by a certified service technician. You should only 
+perform troubleshooting and simple repairs as authorized in your product documentation, or as 
+directed by the online or telephone service and support team. Damage due to servicing that is 
+not authorized by Dell is not covered by your warranty. Read and follow the safety instructions 
+that came with the product.
+CAUTION: To avoid electrostatic discharge, ground yourself by using a wrist grounding strap or 
+by periodically touching an unpainted metal surface, such as a connector on the back of the 
+computer.
+CAUTION: Handle components and cards with care. Do not touch the components or contacts 
+on a card. Hold a card by its edges or by its metal mounting bracket. Hold a component such as a 
+processor by its edges, not by its pins.
+CAUTION: When you disconnect a cable, pull on its connector or on its pull-tab, not on the cable 
+itself. Some cables have connectors with locking tabs; if you are disconnecting this type of cable, 
+press in on the locking tabs before you disconnect the cable. As you pull connectors apart, keep 
+them evenly aligned to avoid bending any connector pins. Also, before you connect a cable, 
+ensure that both connectors are correctly oriented and aligned.
+NOTE: The color of your computer and certain components may appear differently than shown in 
+this document.
+5
+
+--- Page 6 ---
+To avoid damaging your computer, perform the following steps before you begin working inside the 
+computer.
+1. Ensure that your work surface is flat and clean to prevent the computer cover from being scratched.
+2. Turn off your computer (see Turning Off Your Computer).
+CAUTION: To disconnect a network cable, first unplug the cable from your computer and 
+then unplug the cable from the network device.
+3. Disconnect all network cables from the computer.
+4. Disconnect your computer and all attached devices from their electrical outlets.
+5. Press and hold the power button while the computer is unplugged to ground the system board.
+6. Remove the cover.
+CAUTION: Before touching anything inside your computer, ground yourself by touching an 
+unpainted metal surface, such as the metal at the back of the computer. While you work, 
+periodically touch an unpainted metal surface to dissipate static electricity, which could 
+harm internal components.
+Recommended Tools
+The procedures in this document may require the following tools:
+• Small flat-blade screwdriver
+• Phillips screwdriver
+• Small plastic scribe
+6
+
+--- Page 7 ---
+Turning Off Your Computer
+CAUTION: To avoid losing data, save and close all open files and exit all open programs before 
+you turn off your computer.
+1. Shut down the operating system:
+• In Windows 8:
+– Using a touch-enabled device:
+a. Swipe in from the right edge of the screen, opening the Charms menu and select 
+Settings.
+b. Select the   and then select Shut down
+– Using a mouse:
+a. Point to upper-right corner of the screen and click Settings. 
+b. Click the   and select Shut down.
+• In Windows 7:
+1. Click Start .
+2. Click Shut Down.
+or
+1. Click Start .
+2. Click the arrow in the lower-right corner of the Start menu as shown below, and then click 
+Shut Down..
+2. Ensure that the computer and all attached devices are turned off. If your computer and attached 
+devices did not automatically turn off when you shut down your operating system, press and hold 
+the power button for about 6 seconds to turn them off.
+After Working Inside Your Computer
+After you complete any replacement procedure, ensure you connect any external devices, cards, and 
+cables before turning on your computer.
+1. Replace the cover.
+CAUTION: To connect a network cable, first plug the cable into the network device and then 
+plug it into the computer.
+2. Connect any telephone or network cables to your computer.
+3. Connect your computer and all attached devices to their electrical outlets.
+4. Turn on your computer.
+5. If required, verify that the computer works correctly by running the Dell Diagnostics.
+7
+
+--- Page 8 ---
+2
+System Overview
+Figure 1. Inside View – 1
+1. memory shield
+2. system board shield
+3. bottom cover
+4. power-switch board
+5. hard drive
+6. VESA Bracket
+7. optical drive
+8. convertor board
+8
+
+--- Page 9 ---
+Figure 2. Inside View – 2
+1. WLAN card
+2. memory module
+3. power supply unit
+4. system board
+5. speaker
+6. display bracket
+7. system fan
+8. heatsink
+9. camera
+10. microphone
+System Board Layout
+The following image displays the system board layout of the computer.
+9
+
+--- Page 10 ---
+1. SD Memory card reader
+2. memory module
+3. speaker connector
+4. touch connector
+5. control board connector
+6. HDD connector
+7. ODD connector
+8. SATA power connector
+9. convertor board connector
+10. power connector 2
+11. power connector 1
+12. system fan connector
+13. processor connector
+14. coin-cell Battery
+15. WLAN connector
+16. LVDS connector
+17. camera 
+10
+
+--- Page 11 ---
+3
+Removing and Installing Components
+This section provides detailed information on how to remove or install the components from your 
+computer.
+Removing the Stand
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove the stand cover.
+3. Remove the screws that secure the stand to the computer and remove the stand from the computer.
+Installing the Stand
+1. Align the stand on the computer, and tighten the screws to secure the stand to the computer.
+2. Place and press the panel on the computer until it clicks into place.
+3. Install stand cover.
+4. Follow the procedures in After Working Inside Your Computer.
+Removing the Back Cover
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+11
+
+--- Page 12 ---
+3. Perform the following steps as shown in the illustration:
+a. Using a scribe, pry the edges of the computer [1].
+b. Remove the back cover from the computer [2].
+Installing the Back Cover
+1. Place the back cover on the computer.
+2. Press at the corners of the back cover to secure it to the computer.
+3. Install:
+a. stand
+b. stand cover
+4. Follow the procedures in After Working Inside Your Computer.
+Removing the Optical Drive
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+12
+
+--- Page 13 ---
+3. Remove the screw that secures the optical drive to the computer . Slide the optical drive out of the 
+computer.
+Installing the Optical Drive
+1. Slide the optical drive to the computer and tighten the screw to secure it.
+2. Install:
+a. back cover
+b. stand
+c. stand cover
+3. Follow the procedures in After Working Inside Your Computer.
+Removing the Hard Drive
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+13
+
+--- Page 14 ---
+3. Perform the following steps as shown in the illustration:
+a. Push the hard-drive bracket to release it from its lock [1].
+b. Lift the hard drive from one edge [2].
+4. Slide and remove it to access the hard-drive cable.
+5. Disconnect the hard-drive cable from the hard drive, and remove it from the computer.
+14
+
+--- Page 15 ---
+6. Pry the hard-drive bracket apart to release the hard drive. Remove the hard drive from the hard-drive 
+bracket.
+Installing the Hard Drive
+1. Insert the hard drive into the hard-drive bracket.
+2. Connect the hard-drive cable to the hard drive and align the hard drive to its slot on the computer.
+3. Install:
+a. back cover
+b. stand
+c. stand cover
+4. Follow the procedures in After Working Inside Your Computer.
+Removing the Convertor Board
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+15
+
+--- Page 16 ---
+3. Disconnect the cables from the convertor board. Remove the screws and lift the convertor board 
+from the computer.
+Installing the Convertor Board
+1. Tighten the screws to secure the convertor board to the computer. Connect the cables to the 
+convertor board.
+2. Install:
+a. back cover
+b. stand
+c. stand cover
+3. Follow the procedures in After Working Inside Your Computer.
+Removing the Memory
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+16
+
+--- Page 17 ---
+3. Perform the following steps as shown in the illustration:
+a. Slide to release the memory cover from the computer [1].
+b. Remove the memory cover from the computer [2].
+4. Pry the retention clips away from the memory module until it pops up. Lift and remove the memory 
+module from its connector.
+Installing the Memory
+1. Align the notch on the memory-card with the tab in the system-board connector.
+2. Press down on the memory module until the release tabs spring back to secure them in place.
+3. Place the memory cover back into its place.
+4. Install:
+a. back cover
+b. stand
+c. stand cover
+5. Follow the procedures in After Working Inside Your Computer.
+Removing the System-Board Shield
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+17
+
+--- Page 18 ---
+3. Perform the following steps as shown in the illustration:
+a. Remove the screws that secure the system-board shield to the computer [1].
+b. Lift the system-board shield from the computer [2].
+c. Remove the system-board shield from the computer [3].
+Installing the System-Board Shield
+1. Align the system-board shield on the system board. Tighten the screws to secure it to the computer.
+2. Install:
+a. back cover
+b. stand
+c. stand cover
+3. Follow the procedures in After Working Inside Your Computer.
+Removing the Heatsink
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+d. system-board shield
+18
+
+--- Page 19 ---
+3. Perform the following steps as shown in the illustration:.
+a. Remove the screw that secure the heatsink to the computer [1].
+b. Remove the screws that secure around CPU to the computer [2].
+c. Lift and remove the heatsink from the computer [3].
+Installing the Heatsink
+1. Align the heatsink on the system board. Tighten the screws to secure it to the computer.
+2. Install:
+a. system-board shield
+b. back cover
+c. stand
+d. stand cover
+3. Follow the procedures in After Working Inside Your Computer.
+Removing the Speakers
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+d. system-board shield
+19
+
+--- Page 20 ---
+3. Perform the following steps as shown in the illustration:
+a. Remove the screws that secure the speaker cover to the computer [1].
+b. Release the speaker cover from the computer.[2].
+4. Remove the speaker cover from the computer.
+20
+
+--- Page 21 ---
+5. Perform the following steps as shown in the illustration:
+a. Disconnect the speaker cable from the system board [1].
+b. Release the cable from the tabs on the computer [2].
+6. Perform the following steps as shown in the illustration:
+a. Remove the screws that secure the speakers to the computer [1].
+b. Remove the speakers from the computer [2].
+Installing the Speakers
+1. Align the speakers on the computer. Tighten the screws to secure them to the computer.
+2. Align the speaker cables through their tabs on the computer and connect the speaker cable to the 
+system board.
+21
+
+--- Page 22 ---
+3. Align the speaker cover on the computer and tighten the screws to secure it.
+4. Install:
+a. system-board shield
+b. back cover
+c. stand
+d. stand cover
+5. Follow the procedures in After Working Inside Your Computer.
+Removing the VESA Bracket
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+3. Perform the following steps as shown in the illustration:
+a. Remove the screws that secure the VESA bracket to the computer [1].
+b. Remove the VESA it from the computer [2].
+Installing the VESA Bracket
+1. Align the VESA bracket on the computer. Tighten the screws to secure it to the computer.
+2. Install:
+a. back cover
+b. stand
+c. stand cover
+3. Follow the procedures in After Working Inside Your Computer.
+22
+
+--- Page 23 ---
+Removing the System Fan
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+d. System-board shield
+e. VESA bracket
+3. Perform the following steps as shown in the illustration:
+a. Disconnect the system-fan cable from the system board [1].
+b. Remove the screws that secure the system fan [2].
+c. Remove system fan from the computer [3].
+Installing the System Fan
+1. Align the system fan with the heatsink on the computer and tighten the screws to secure it to the 
+computer.
+2. Connect the system-fan cable to the system board.
+3. Install:
+a. VESA bracket
+b. system-board shield
+c. back cover
+d. stand
+e. stand cover
+4. Follow the procedures in After Working Inside Your Computer.
+23
+
+--- Page 24 ---
+Removing the Power-Switch Board
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+3. Peel the tape that secures the power-switch board to the computer. Lift the power-switch board to 
+access the cable.
+4. Disconnect the power-switch cable from the power-switch board to remove it from the computer.
+24
+
+--- Page 25 ---
+Installing the Power-Switch Board
+1. Insert the power-switch board into its slot on the computer and fix the tape to secure it. Connect the 
+power-switch cable to the power-switch board.
+2. Install:
+a. back cover
+b. stand
+c. stand cover
+3. Follow the procedures in After Working Inside Your Computer.
+Removing the System Board
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+d. memory
+e. VESA bracket
+f. system-board shield
+g. heatsink
+h. WLAN card
+25
+
+--- Page 26 ---
+3. Disconnect the following from the system board:
+a. camera cable
+b. LVDS cable
+c. system-fan cable
+d. optical-drive cable
+e. hard-drive cable
+f. hard-drive/optical-drive power cable
+g. convertor-board cable
+h. power-switch cable
+i. touch cable (if available)
+j. speaker cable
+4. Perform the following steps as shown in the illustration:
+a. Remove the screws that secure the system board to the computer [1].
+b. Slide the system board to release it from the computer [2].
+26
+
+--- Page 27 ---
+5. Remove the system board from the computer.
+Installing the System Board
+1. Align the system board on the computer.
+2. Tighten the screws to secure the system board to the computer.
+3. Connect the following cables to the system board:
+a. camera cable
+b. LVDS cable
+c. system fan cable
+d. optical-drive cable
+e. hard-drive cable
+f. hard-drive/optical-drive power cable
+g. convertor-board cable
+h. touch cable (if available)
+i. power-switch cable
+j. speaker cable
+4. Install:
+a. WLAN card
+b. heatsink
+c. system-board shield
+d. VESA bracket
+e. memory
+f. back cover
+g. stand
+h. stand cover
+5. Follow the procedures in After Working Inside Your Computer.
+27
+
+--- Page 28 ---
+Removing the Display Bracket
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+d. optical drive
+e. hard drive
+f. memory
+g. VESA bracket
+h. system-board shield
+i. speakers
+j. heatsink
+k. system fan
+l. WLAN card
+m. convertor board
+n. system board
+3. Release the LVDS, camera, convertor-board cables from their tabs on the display bracket.
+28
+
+--- Page 29 ---
+4. Remove the screws that secure the display bracket to the computer. Lift and remove the display 
+bracket from the computer.
+Installing the Display Bracket
+1. Align the display bracket on the computer.
+2. Tighten the screws to secure the display bracket to the computer.
+3. Align the LVDS, camera, convertor-board cables through their tabs on the display bracket.
+4. Install:
+a. system board
+b. convertor board
+c. WLAN card
+d. system fan
+e. heatsink
+f. speakers
+g. system-board shield
+h. VESA bracket
+i. memory
+j. hard drive
+k. optical drive
+l. back cover
+m. stand
+n. stand cover
+5. Follow the procedures in After Working Inside Your Computer.
+29
+
+--- Page 30 ---
+Removing the Camera
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+d. optical drive
+e. hard drive
+f. memory
+g. VESA bracket
+h. system-board shield
+i. speakers
+j. heatsink
+k. system fan
+l. WLAN card
+m. convertor board
+n. system board
+o. display bracket
+3. Remove the screws that secure the camera to the computer and release the camera from its slot to 
+access the camera cable.
+30
+
+--- Page 31 ---
+4. Disconnect the camera cable from the camera and remove the camera from the computer.
+Installing the Camera
+1. Connect the camera cable to the camera.
+2. Align the camera into its slot and tighten the screws to secure it to the computer.
+3. Install:
+a. display bracket
+b. system board
+c. convertor board
+d. WLAN card
+e. system fan
+f. heatsink
+g. speakers
+h. system-board shield
+i. VESA bracket
+j. memory
+k. hard drive
+l. optical drive
+m. back cover
+n. stand
+o. stand cover
+4. Follow the procedures in After Working Inside Your Computer.
+Removing the Microphone
+1. Follow the procedures in Before Working Inside Your Computer.
+2. Remove:
+a. stand cover
+b. stand
+c. back cover
+31
+
+--- Page 32 ---
+3. Perform the following steps as shown in the illustration:
+a. Remove the screw that secures the microphone.
+b. Disconnect the microphone cable from the microphone.
+c. Remove the microphone from the computer.
+Installing the Microphone
+1. Connect the microphone cable to the microphone.
+2. Align the microphone into its slot and tighten the screws to secure it to the computer.
+3. Install:
+a. back cover
+b. stand
+c. stand cover
+4. Follow the procedures in After Working Inside Your Computer.
+32
+
+--- Page 33 ---
+4
+System Setup
+System Setup enables you to manage your computer hardware and specify BIOS‐level options. From the 
+System Setup, you can:
+• Change the NVRAM settings after you add or remove hardware
+• View the system hardware configuration
+• Enable or disable integrated devices
+• Set performance and power management thresholds
+• Manage your computer security
+Boot Sequence
+Boot Sequence allows you to bypass the System Setup‐defined boot device order and boot directly to a 
+specific device (for example: optical drive or hard drive). During the Power-on Self Test (POST), when the 
+Dell logo appears, you can:
+• Access System Setup by pressing <F2> key
+• Bring up the one-time boot menu by pressing <F12> key
+The one-time boot menu displays the devices that you can boot from including the diagnostic option. 
+The boot-menu options are:
+• Removable Drive (if available)
+• STXXXX Drive
+NOTE: XXX denotes the SATA drive number.
+• Optical Drive
+• Diagnostics
+NOTE: Choosing Diagnostics, will display the ePSA diagnostics screen.
+The boot sequence screen also displays the option to access the System Setup screen.
+Navigation Keys
+The following table displays the system setup navigation keys.
+NOTE: For most of the system setup options, changes that you make are recorded but do not take 
+effect until you re-start the system.
+33
+
+--- Page 34 ---
+Table 1. Navigation Keys
+Keys Navigation
+Up arrow Moves to the previous field.
+Down arrow Moves to the next field.
+<Enter> Allows you to select a value in the selected field (if applicable) or follow the link in 
+the field.
+Spacebar Expands or collapses a drop‐down list, if applicable.
+<Tab> Moves to the next focus area.
+NOTE: For the standard graphics browser only.
+<Esc> Moves to the previous page till you view the main screen. Pressing <Esc> in the main 
+screen displays a message that prompts you to save any unsaved changes and 
+restarts the system.
+<F1> Displays the System Setup help file.
+System Setup Options
+NOTE: Depending on your computer and its installed devices, the items listed in this section may or 
+may not appear.
+Table 2. General
+Option Description
+System Board This section lists the primary hardware features of 
+your computer.
+• System Information
+• Memory Information
+• PCI Information
+• Processor Information
+• Device Information
+Boot Sequence Allows you to change the order in which the 
+computer attempts to find an operating system.
+• Boot Sequence
+• Diskette drive
+• SATA HDD Drive
+• USB Storage Device
+• CD/DVD/CD-RW Drive
+• Onboard NIC
+• Boot List Option
+• Allows you to change the boot list option.
+– Legacy
+– UEFI
+Advanced Boot Options
+Allows you to Enable Legacy Option ROMs
+34
+
+--- Page 35 ---
+Option Description
+• Enabled Legacy Options ROMs (Default: 
+Enabled)
+Date/Time Allows you to set the date and time. The changes 
+to the system date and time takes effect 
+immediately.
+Table 3. System Configuration
+Option Description
+Integrated NIC Allows you to configure the integrated network 
+controller. The options are:
+• Enable UEFI Network Stack
+• Disabled
+• Enabled
+• Enabled w/PXE (Default)
+• Enabled w/Cloud Desktop
+SATA Operation Allows you to configure the internal SATA hard-
+drive controller. The options are:
+• Disabled
+• ATA
+• AHCI (Default)
+Drives Allows you to enable or disable the various drives 
+on-board:
+• SATA-0
+• SATA-1
+Default Setting: All drives are enabled.
+SMART Reporting Allows you to enable SMART reporting on hard 
+drives during system startup.
+• Enable SMART Reporting - This option is 
+disabled by default.
+USB Configuration Allows you to enable or disable the internal USB 
+configuration. The options are:
+• Enable Boot Support
+• Rear USB Ports
+– Port 1 (left)
+– Port 2 (Center Left)
+– Port 3 (Center Right)
+– Port 4 (Right)
+• Side USB Ports
+– Port 1 (Top)
+– Port 2 (Bottom)
+35
+
+--- Page 36 ---
+Option Description
+Default Setting: All devices are enabled.
+Audio Allows you enable or disable the audio feature.
+• Enable Audio
+– Enable Microphone
+– Enable Internal Speaker
+Default Setting: All devices are enabled.
+OSD Button Management Allows you to disable the OSD (On-Screen Display) 
+buttons.
+• Disable OSD Buttons
+Default Setting: OSD buttons are not disabled
+Miscellaneous Devices Allows you to enable or disable various on-board 
+devices.
+• Enable Camera - This option is selected by 
+default.
+• Enable Media Card - This option is selected by 
+default.
+• Disable Media Card
+Table 4. Security
+Option Description
+Admin Password This field lets you set, change, or delete the administrator 
+(admin) password (sometimes called the setup password). 
+The admin password enables several security features.
+The drive does not have a password set by default.
+• Enter the old password
+• Enter the new password
+• Confirm the new password
+System Password This field lets you set, change, or delete the system 
+password. The system password enables several security 
+features.
+The drive does not have a password set by default.
+• Enter the old password
+• Enter the new password
+• Confirm the new password
+Internal HDD_0 Password Allows you to set, change, or delete the password on the 
+computer’s internal hard disk drive (HDD) Successful change 
+to this password take effect immediately. The drive does not 
+have a password set by default
+• Enter the old password
+• Enter the new password
+36
+
+--- Page 37 ---
+Option Description
+• Confirm the new password
+Strong Password
+Enable strong password - This option is disabled by default.
+Password Configuration This field controls the minimum and maximum number of 
+characters allowed for the admin and system passwords.
+• Admin Password Min
+• Admin Password Max
+• System Password Min
+• System Password Max
+By default the minimum characters are set to 4 and 
+maximum to 32.
+Password Bypass Allows you to bypass the System Password and the internal 
+HDD password prompts during a system restart.
+• Disabled - This option is selected by default.
+• Reboot Bypass
+Password Change  Allows you to determine whether changes to the system and 
+hard disk passwords are permitted when an administrator 
+password is set.
+• Allow Non-Admin Password Changes - This option is 
+enabled by default.
+TPM Security Allows you to control whether the Trusted Platform Module 
+(TPM) in the system is enabled and visible to the operating 
+system.
+TPM Security - This option is disabled by default.
+Computrace Allows you to activate, deactivate or disable the BIOS 
+module interface of the optional Computrace Service from 
+Absolute Software.
+• Deactivate - This option is disabled by default.
+• Disable
+• Activate
+CPU XD Support Allows you to enable or disable the execute disable mode of 
+the processor.
+• Enable CPU XD Support - This option is enabled by 
+default.
+Admin Setup Lockout Allows you to enable or disable the option to enter setup 
+when an admin password is set.
+• Enable Admin Setup Lockout - This option is disabled by 
+default.
+37
+
+--- Page 38 ---
+Table 5. Secure Boot
+Option Description
+Secure Boot Enable Allows you to enable or disable the Secure Boot 
+Feature. The options are:
+• Disabled (Default)
+• Enabled
+Expert Key Management Allows you to manipulate the security key 
+databases only if the system is in Custom Mode. 
+The Enable Custom Mode option is disabled by 
+default. The options are:
+• PK
+• KEK
+• db
+• dbx
+If you enable the Custom Mode, the relevant 
+options for PK, KEK, db, and dbx appear. The 
+options are:
+• Save to File- Saves the key to a user-selected 
+file
+• Replace from File- Replaces the current key 
+with a key from a user-selected file
+• Append from File- Adds a key to the current 
+database from a user-selected file
+• Delete- Deletes the selected key
+• Reset All Keys- Resets to default setting
+• Delete All Keys- Deletes all the keys
+NOTE: If you disable the Custom Mode, all the 
+changes made will be erased and the keys will 
+restore to default settings.
+Table 6. Performance
+Option Description
+Multi Core Support Specifies whether the process will have one or all 
+cores enabled. The performance of some 
+applications will improve with the additional cores.
+• All - Enabled by default
+• 1
+• 2
+Intel SpeedStep Allows you to enable or disable the Intel SpeedStep 
+feature.
+Default Setting: Enable Intel SpeedStep
+C States Control Allows you to enable or disable the additional 
+processor sleep states.
+Default Setting: Enabled
+38
+
+--- Page 39 ---
+Option Description
+Limit CPUID Value This field limits the maximum value the processor 
+Standard CPUID Function will support
+• Enable CPUID Limit (Disabled by default)
+NOTE: Some Operating system will not 
+complete installation when the maximum 
+CPUID Function is greater than 3
+Intel TurboBoost Allows you to enable or disable Intel TurboBoost 
+mode of the processor. This option is enabled by 
+default.
+• Enable Intel TurboBoost - Allows the Intel 
+TurboBoost driver to increase the performance 
+of the CPU or graphics processor. Enabled by 
+default.
+Table 7. Power Management
+Option Description
+AC Recovery Specifies how the computer will respond when AC power is 
+applied after a AC power loss. You can set the AC Recovery 
+to:
+• Power Off (Default)
+• Power On
+• Last Power State
+Auto On Time Allows you to set the time at which the computer must turn 
+on automatically. The options are:
+• Disabled (Default)
+• Every Day
+• Weekdays
+• Select Days
+Deep Sleep Control Allows you to define the controls when Deep Sleep is 
+enabled.
+• Disabled
+• Enabled in S5 only
+• Enabled in S4 and S5 Enabled
+Fan Control Override Controls the speed of the system fan. This option is disabled 
+by default.
+• Fan Control Override This option is disabled by default.
+USB Wake Support This option allows you to enable USB devices to wake the 
+computer from standby.
+• Enable USB Wake Support - This option is enabled by 
+default.
+Wake on LAN/WLAN Allows you to power up the computer from the off state 
+when triggered by a special LAN/WLAN signal.
+• Disabled
+39
+
+--- Page 40 ---
+Option Description
+• LAN Only
+• WLAN only
+• LAN with PXE Boot
+This option is Disabled by default.
+Block Sleep Allows you to block entering to sleep (S3 state) in OS 
+Environment.
+• Block Sleep (S3 State) This option is disabled by default.
+Intel Smart Connect Technology The option is disabled by default. If option enables will 
+periodically sense nearby wireless connection while the 
+system is asleep. It will synchronize emails or social media 
+application that were open when system entered the sleep 
+state.
+• Smart Connection
+Table 8. POST Behavior
+Option Description
+Numlock LED Allows you to enable NumLock on when the computer 
+boots. This option is enabled by default.
+• Enable Numlock LED
+Keyboard Errors Allows you to enable keyboard related error report when the 
+computer boots. This option is enabled by default.
+• Enable Keyboard Error Detection
+Fastboot Allows you to speed up the boot process by bypassing some 
+compatibility steps. The options are:
+• Minimal
+• Thorough - This option is selected by default.
+• Auto
+Table 9. Virtualization Support
+Option Description
+Virtualization This option specifies whether a Virtual Machine Monitor 
+(VMM) can utilize the additional hardware capabilities 
+provided by Intel Virtualization technology.
+• Enable Intel Virtualization Technology - This option is 
+enabled by default.
+Table 10. Wireless
+Option Description
+Wireless Device Enable Allows enabling/disabling the internal wireless devices. The 
+options are is WLAN/WIGIG(enabled by default)
+40
+
+--- Page 41 ---
+Table 11. Maintenance
+Option Description
+Service Tag Displays the service tag of your computer.
+Asset Tag Allows you to create a system asset tag if an asset tag is not 
+already set. This option is not set by default.
+SERR Messages Controls the SERR message mechanism. This option is 
+enabled by default. Some graphics cards require that the 
+SERR message mechanism be disabled.
+• Enable SERR Messages
+Table 12. Cloud Desktop
+Option Description
+Server Lookup Method Specifies how the ImageServer looks up the server address.
+• Static IP
+• DNS (enabled by default)
+NOTE: This field is only relevant when the Integrated 
+NIC control in the System Configuration group is set to 
+Enabled with ImageServer.
+Server Name Displays the name of the server.
+Server IP Address Displays the primary static IP address of the ImageServer 
+with which the client software communicates. The default IP 
+address is 255.255.255.255.
+NOTE: This field is only relevant when the Integrated 
+NIC
+ control in the System Configuration group is set to 
+Enabled with ImageServer and when Lookup Method is 
+set to Static IP.
+Server Port Displays the primary IP port of the ImageServer, which is 
+used by the client to communicate. The default IP port is 
+06910.
+NOTE: This field is only relevant when the Integrated 
+NIC
+ control in the System Configuration group is set to 
+Enabled with ImageServer.
+Client Address Method Specifies how the client obtains the IP address.
+• Static IP
+• DHCP (enabled by default)
+NOTE: This field is only relevant when the Integrated 
+NIC control in the System Configuration group is set to 
+Enabled with ImageServer.
+Client IP Address Displays the static IP address of the client. The default IP 
+address is 255.255.255.255.
+41
+
+--- Page 42 ---
+Option Description
+NOTE: This field is only relevant when the Integrated 
+NIC control in the System Configuration group is set to 
+Enabled with ImageServer and when Client DHCP is set 
+to Static IP.
+Client SubnetMask Displays the subnet mask of the client. The default setting is 
+255.255.255.255.
+NOTE: This field is only relevant when the Integrated 
+NIC control in the System Configuration group is set to 
+Enabled with ImageServer and when Client DHCP is set 
+to Static IP.
+Client Gateway Displays the gateway IP address for the client. The default 
+setting is 255.255.255.255.
+NOTE: This field is only relevant when the Integrated 
+NIC control in the System Configuration group is set to 
+Enabled with ImageServer and when Client DHCP is set 
+to Static IP.
+DNS IP Address Displays the DNS IP address of the cleint. The default setting 
+is 255.255.255.255.
+Domain Name Displays the Domain Name of the client.
+Advanced Specifies for Advanced debugging
+• Verbose Mode (Disabled by default)
+Table 13. System Logs
+Option Description
+BIOS events Displays the system event log and allows you to clear the 
+log.
+• Clear Log
+Updating the BIOS 
+It is recommended to update your BIOS (system setup), on replacing the system board or if an update is 
+available. For laptops, ensure that your computer battery is fully charged and connected to a power 
+outlet
+1. Re-start the computer.
+2. Go to dell.com/support.
+3. Enter the Service Tag or Express Service Code and click Submit.
+NOTE: To locate the Service Tag, click Where is my Service Tag?
+NOTE: If you cannot find your Service Tag, click Detect My Product. Proceed with the 
+instructions on screen.
+4. If you are unable to locate or find the Service Tag, click the Product Category of your computer.
+5. Choose the Product Type from the list.
+42
+
+--- Page 43 ---
+6. Select your computer model and the Product Support page of your computer appears.
+7. Click Get drivers and click View All Drivers.
+The Drivers and Downloads page opens.
+8. On the Drivers and Downloads screen, under the Operating System drop-down list, select BIOS.
+9. Identify the latest BIOS file and click Download File.
+You can also analyze which drivers need an update. To do this for your product, click Analyze 
+System for Updates and follow the instructions on the screen.
+10. Select your preferred download method in the Please select your download method below 
+window; click Download File.
+The File Download window appears.
+11. Click Save to save the file on your computer.
+12. Click Run to install the updated BIOS settings on your computer.
+Follow the instructions on the screen.
+System and Setup Password
+You can create a system password and a setup password to secure your computer.
+Password Type Description
+System password Password that you must enter to log on to your system.
+Setup password Password that you must enter to access and make changes to the BIOS settings of 
+your computer.
+CAUTION: The password features provide a basic level of security for the data on your computer.
+CAUTION: Anyone can access the data stored on your computer if it is not locked and left 
+unattended.
+NOTE: Your computer is shipped with the system and setup password feature disabled.
+Assigning a System Password and Setup Password
+You can assign a new System Password and/or Setup Password or change an existing System Password 
+and/or Setup Password only when Password Status is Unlocked. If the Password Status is Locked, you 
+cannot change the System Password.
+NOTE: If the password jumper is disabled, the existing System Password and Setup Password is 
+deleted and you need not provide the system password to log on to the computer.
+To enter a system setup, press <F2> immediately after a power-on or re-boot.
+1. In the System BIOS or System Setup screen, select System Security and press <Enter>.
+The System Security screen appears.
+2. In the System Security screen, verify that Password Status is Unlocked.
+43
+
+--- Page 44 ---
+3. Select System Password , enter your system password, and press <Enter> or <Tab>.
+Use the following guidelines to assign the system password:
+• A password can have up to 32 characters.
+• The password can contain the numbers 0 through 9.
+• Only lower case letters are valid, upper case letters are not allowed.
+• Only the following special characters are allowed: space, (”), (+), (,), (-), (.), (/), (;), ([), (\), (]), (`).
+Re-enter the system password when prompted.
+4. Type the system password that you entered earlier and click OK.
+5. Select Setup Password, type your system password and press <Enter> or <Tab>.
+A message prompts you to re-type the setup password.
+6. Type the setup password that you entered earlier and click OK.
+7. Press <Esc> and a message prompts you to save the changes.
+8. Press <Y> to save the changes.
+The computer reboots.
+Deleting or Changing an Existing System and/or Setup Password
+Ensure that the Password Status is Unlocked (in the System Setup) before attempting to delete or change 
+the existing System and/or Setup password. You cannot delete or change an existing System or Setup 
+password, if the Password Status is Locked.
+To enter the System Setup, press <F2> immediately after a power-on or reboot.
+1. In the System BIOS or System Setup screen, select System Security and press <Enter>.
+The System Security screen is displayed.
+2. In the System Security screen, verify that Password Status is Unlocked.
+3. Select System Password, alter or delete the existing system password and press <Enter> or <Tab>.
+4. Select Setup Password, alter or delete the existing setup password and press <Enter> or <Tab>.
+NOTE: If you change the System and/or Setup password, re-enter the new password when 
+promoted. If you delete the System and/or Setup password, confirm the deletion when 
+promoted.
+5. Press <Esc> and a message prompts you to save the changes.
+6. Press <Y> to save the changes and exit from the System Setup.
+The computer reboots.
+44
+
+--- Page 45 ---
+5
+Technical Specifications
+NOTE: Offerings may vary by region. The following specifications are only those required by law to 
+ship with your computer. For more information about the configuration of your computer, go to 
+Help and Support in your Windows operating system and select the option to view information 
+about your computer.
+Table 14. System Information
+Feature Specification
+Processor type
+• Intel Core i3 / i5 series
+• Intel Celeron Dual Core
+• Intel Pentium Dual Core
+Total cache Up to 6 MB cache depending on processor type
+Chipset
+Intel H81 Chipset
+Table 15. Memory
+Feature Specification
+Type up to 1600 MHz, unbuffered non-ECC, dual‑channel 
+DDR3 configuration
+Connectors two internally-accessible DDR3 SODIMM sockets
+Capacity 2 GB, 4 GB, and 8 GB
+Minimum Memory 2 GB
+Maximum Memory 16 GB
+Table 16. Video
+Feature Specification
+Video Controller:
+Integrated • Integrated Intel HD Graphics 4600 - Intel Core i5
+• Integrated Intel HD Graphics 4400 - Intel Core i3
+• Integrated Intel HD Graphics - Intel Pentium/
+Celeron Dual Core
+Discrete
+AMD Radeon R5 A240
+Video Memory:
+Integrated shared memory
+45
+
+--- Page 46 ---
+Feature Specification
+Discrete 1 GB DDR3
+Table 17. Audio
+Feature Specification
+Controller ALC3661-CG (Realtek)
+Speaker single 4-ohms, 2 W AVG speakers with 2.5 W Peak
+Internal speaker amplifier up to 6 W per channel
+Internal microphone support single digital microphone
+Volume controls
+Volume up/down buttons (Windows 7 only), program 
+menus, and keyboard media-control keys
+Table 18. Communications
+Feature Specification
+Network adapter Intel 10/100/1000 Mbps Ethernet LAN on system board
+Wireless half mini-card
+• Wi-Fi 7260 agn/ac
+Table 19. Cards
+Feature Specification
+M.2 one
+Table 20. Displays
+Feature Specification
+Type 19.5 inch HD+ WLED
+Maximum resolution 1600 x 900
+Refresh rate 60 Hz
+Operating angle 170° (horizontal) / 160° (vertical)
+Pixel pitch 0.27 mm
+Dimensions:
+Height 236.30 mm (9.30 inches)
+Width 433.90 mm (17.08 inches)
+Diagonal 495.30 mm (19.50 inches)
+46
+
+--- Page 47 ---
+Table 21. Drives
+Feature Specification
+Hard drive one 2.5-inch SATA drive
+Optical drive (optional) one DVD-ROM, DVD+/- RW
+Table 22. Ports and Connectors
+Feature Specification
+Audio: one universal audio jack/Line-out port
+Network adapter one RJ45 connector
+USB 2.0 four connectors in the back panel
+USB 3.0 two connectors on the side panel
+Media card reader one 4-in-1 slot
+Table 23. Power
+Feature Specification
+Type 180 W
+Frequency 50 Hz - 60 Hz
+Voltage 100 VAC - 240 VAC
+Rated output voltage 19.50 VDC
+Input current 2.9 A Maximum
+Output current +12.0 V output (+12VA – 10A & +12VB – 14.5A)
+NOTE: +12VB Rated at 0.4 A when in Standby Mode.
+Dimensions:
+Height 30.00 mm (1.18 inches)
+Width 76.20 mm (3.00 inches)
+Depth 155.00 mm (6.10 inches)
+Weight 0.58 kg (1.28 lb)
+Temperature range:
+Operating 0 °C to 35 °C (30 °F to 95 °F)
+Storage -40 °C to 70 °C (-40 °F to 158 °F)
+Coin-cell battery 3 V CR2032 lithium coin cell
+47
+
+--- Page 48 ---
+Table 24. Camera (optional)
+Feature Specification
+Image resolution 0.92 megapixel
+Video resolution 720p @ 30 FPS HD
+Diagonal viewing angle 74 degrees
+Table 25. Stand
+Feature Specification
+Tilt –5 degrees to 30 degrees
+Table 26. Physical Dimensions
+Feature Without Stand With Stand
+Width
+489.92 mm (19.29 inches)
+489.92 mm (19.29 inches)
+Height
+328.84 mm (12.95 inches) 385.58 mm (15.18 inches)
+Depth:
+non-touch
+67.62 mm (2.66 inches) 204.58 mm (8.05 inches)
+touch
+66.72 mm (2.63 inches) 204.97 mm (8.07 inches)
+Weight:
+non-touch
+4.18 kg to 4.37 kg (9.21 lb to 9.63 lb) 5.68 kg to 5.87 kg ( 12.52 lb to 
+12.94 lb)
+touch
+4.87 kg to 5.06 kg (10.74 lb to 11.15 
+lb)
+6.37 kg to 6.56 kg (14.04 lb to 
+14.46 lb)
+Stand (Width x Depth) 200.00 mm (7.87 inches) x 200.00 mm (7.87 inches)
+NOTE: The weight of your computer may vary depending on the configuration ordered and the 
+manufacturing variability.
+Table 27. Controls and Lights
+Feature Specification
+Power button light White light — Solid white light indicates power-on state; 
+blinking white light indicates sleep state of the 
+computer.
+Hard Drive activity light White light — Blinking white light indicates that the 
+computer is reading data from or writing data to the 
+hard drive.
+Camera LED White light — solid while light indicates that the camera 
+is on.
+48
+
+--- Page 49 ---
+Feature Specification
+Back panel:
+Link integrity light on integrated network 
+adapter :
+Green — a good 10 Mbps connection exists between the 
+network and the computer.
+Green— a good 100 Mbps connection exists between 
+the network and the computer.
+Orange — a good 1000 Mbps connection exists 
+between the network and the computer.
+Off (no light) — the computer is not detecting a physical 
+connection to the network.
+Network activity light on integrated 
+network adapter
+Yellow light — A blinking yellow light indicates that 
+network activity is present.
+Power supply diagnostic light Green light — The power supply is turned on and is 
+functional. The power cable must be connected to the 
+power connector (at the back of the computer) and the 
+electrical outlet.
+Table 28. Environmental
+Feature Specification
+Temperature range:
+Operating 5 °C to 35 °C (41 °F to 95 °F)
+Storage –40 °C to 65 °C (–40 °F to 149 °F)
+Relative humidity (maximum):
+Operating 10% to 90% (non-condensing)
+Storage 10% to 95% (non-condensing)
+Maximum vibration:
+Operating 0.66 GRMS
+Storage 1.30 GRMS
+Maximum shock:
+Operating 110 G
+Storage 160 G
+Altitude:
+Operating –15.20 m to 3048 m (–50 ft to 10,000 ft)
+Storage –15.20 m to 10,668 m (–50 ft to 35,000 ft)
+Airborne contaminant level G2 or lower as defined by ANSI/ISA-S71.04-1985
+49
+
+--- Page 50 ---
+6
+Contacting Dell
+Contacting Dell
+NOTE: If you do not have an active Internet connection, you can find contact information on your 
+purchase invoice, packing slip, bill, or Dell product catalog.
+Dell provides several online and telephone-based support and service options. Availability varies by 
+country and product, and some services may not be available in your area. To contact Dell for sales, 
+technical support, or customer service issues:
+1. Visit dell.com/support
+2. Select your support category.
+3. Verify your country or region in the Choose a Country/Region drop-down menu at the top of page.
+4. Select the appropriate service or support link based on your need.
+50
+

@@ -1,0 +1,602 @@
+Brand: SYSTEM76
+Model: Serval Ws
+URL: https://www.manua.ls/system76/serval-ws/manual
+Total Pages: 35
+============================================================
+
+--- Page 3 ---
+
+Contents
+
+Revision history
+Hardware overview
+External overview
+Ports overview
+Bottom case screw sizes
+Front LED overview
+Hardware keyboard shortcuts
+External displays
+Thunderbolt 3 and eGPU
+Internal component overview
+User-serviceable parts and repairs
+Replacing the keyboard
+Steps to replace the keyboard
+Photo guide for keyboard replacement
+Removing the bottom cover
+Steps to remove the cover
+Steps to replace the cover
+Photo guide for bottom cover removal/replacement
+Replacing the RAM
+Steps to replace the RAM
+Photo guide for replacing the RAM
+Replacing an M.2/NVMe SSD
+Steps to replace the M.2 drive
+Replacing the CPU fan/CPU heatsink/thermal paste
+Steps to replace the CPU heatsink/thermal paste
+Replacing the CMOS battery
+Steps to replace the CMOS battery
+Replacing the internal battery
+Steps to replace the internal battery
+Replacing the WiFi/Bluetooth module
+Steps to replace the WiFi/Bluetooth module
+BIOS utilities
+System76 Serval WS (serw11) Service Manual
+2
+
+
+--- Page 4 ---
+
+Updating the BIOS
+BIOS overview
+Main menu
+Advanced
+Security
+Boot
+Specifications
+
+
+
+
+
+ 
+System76 Serval WS (serw11) Service Manual
+3
+
+
+--- Page 5 ---
+
+Hardware overview
+External overview
+Ports overview
+The Serval WS provides multiple connectivity options.
+
+15”
+
+Left side overview
+
+
+
+Right side overview
+
+
+
+Front side overview
+
+Back side overview
+
+
+
+
+
+System76 Serval WS (serw11) Service Manual
+4
+
+
+--- Page 6 ---
+
+
+
+
+
+17”
+
+Left side overview
+
+
+
+Right side overview
+
+
+
+Front side overview
+
+Back side overview
+
+
+
+
+
+
+
+
+
+
+
+System76 Serval WS (serw11) Service Manual
+5
+
+
+--- Page 7 ---
+
+
+
+
+
+
+
+
+
+Bottom case screw sizes
+The Serval WS has uniform size screws for securing the bottom case, battery and
+keyboard. M.2 drives and the GPU/Heat Sink fastenings have specialized screws.
+System76 Serval WS (serw11) Service Manual
+6
+
+
+--- Page 8 ---
+
+
+
+
+
+
+
+
+
+
+
+System76 Serval WS (serw11) Service Manual
+7
+
+
+--- Page 9 ---
+
+Front LED overview
+
+
+Icon
+Color
+Description
+
+Orange
+DC power plugged in
+Green
+Computer is on
+Blinking green
+Computer is sleeping
+
+Orange
+Battery charging
+Green
+Battery fully charged
+Blinking orange
+Battery critically low
+
+Green
+Airplane mode is ON
+(WiFi/Bluetooth disabled)
+
+Green
+Hard disk activity
+
+Green
+The light will be on when Num Lock is enabled.
+
+Green
+The light will be on when Caps Lock is enabled.
+
+Green
+The light will be on when Scroll Lock enabled.
+
+Off
+MSHYBRD Mode for GPU
+Green
+Discrete Mode for GPU
+ 
+System76 Serval WS (serw11) Service Manual
+8
+
+
+--- Page 10 ---
+
+Hardware keyboard shortcuts
+Your Serval WS has several actions available using the Fn and numbered Function keys.
+
+Key
+Shortcut
+Action
+
+Fn+F1
+Toggle trackpad
+
+Fn+F2
+Toggle built-in LCD
+
+Fn+F3
+Mute
+
+Fn+*
+Toggle keyboard backlight
+
+Fn+F5
+Volume down
+
+Fn+F6
+Volume up
+
+Fn+F7
+Toggle displays
+
+Fn+F8
+Brightness down
+
+Fn+F9
+Brightness up
+
+Fn+F10
+Toggle webcam
+
+Fn+F11
+Toggle airplane mode
+
+Fn+F12
+Suspend
+
+Fn+`
+Play/Pause
+
+Fn+1
+Toggle fan between max/automatic
+
+Fn+/
+Cycle Keyboard Color
+
+Fn+-
+Decrease Keyboard Brightness
+
+Fn++
+Increase Keyboard Brightness
+System76 Serval WS (serw11) Service Manual
+9
+
+
+--- Page 11 ---
+
+External displays
+The Serval WS has two standard Mini DisplayPorts (MiniDP) and one HDMI 1.4b.
+Internal component overview
+Below is a color-coded diagram of the Serval WS’s internal components.
+
+CPU fan is highlighted in cyan
+GPU fan is highlighted in light orange
+CMOS battery is highlighted in red
+RAM is highlighted in green
+M.2 SSD is highlighted in orange
+Wireless/Bluetooth module is highlighted in purple
+Battery is highlighted in white
+2.5” Drive bay is highlighted in blue
+
+
+System76 Serval WS (serw11) Service Manual
+10
+
+
+--- Page 12 ---
+
+User-serviceable parts and repairs
+Many components on your Serval WS can be upgraded or replaced as necessary. Follow
+these step-by-step guides for instructions.
+
+Removing the bottom cover
+Removing the cover is required to access the internal components. There are two
+panels on the back of the Serval. The top-panel which covers most of the internal
+components. The bottom panel covers the additional drive bays. Unless otherwise
+noted these instructions refer to the top-panel.
+
+Prior to removing the cover, ensure the AC power is unplugged, and all peripherals
+(including SD cards and USB drives) are unplugged or removed from the system.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 10 minutes
+Difficulty: Low
+Screws: 5 total:
+- 5 small M2 perimeter, black
+Steps to remove the cover
+Photos are provided in order below these steps.
+1. Find a surface suitable for work. A desk or table works well.
+2. Place something soft on the table, like a towel or anti-static mat.
+3. Place the Serval WS lid-side-down.
+4. Remove the external battery.
+5. Remove the 5 perimeter screws.
+6. Slide the cover away (toward the exhaust vents) and then lift up and away.
+Steps to replace the cover
+1. Align the bottom cover over the case towards the back and hinges.
+2. Set the bottom cover along the edges and confirm the bottom cover is seated.
+3. Replace the 2 keyboard screws.
+4. Place the bottom cover back on.
+5. Replace the 5 perimeter screws.
+System76 Serval WS (serw11) Service Manual
+11
+
+
+--- Page 13 ---
+
+Photo guide for bottom cover removal/replacement
+
+1. Serval WS lid-side-down.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System76 Serval WS (serw11) Service Manual
+12
+
+
+--- Page 14 ---
+
+
+
+2. Slide the top bottom cover.
+
+
+Replacing the keyboard
+Keyboard replacement is simple and requires a cross-head (Phillips) screwdriver.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 10 minutes
+Difficulty: Medium
+Screws: 2 total
+- 2 large M2, black (Keyboard M2)
+Steps to replace the keyboard
+Photos are provided in order below these steps.
+1. Find a surface suitable for work. A desk or table works well.
+2. Place something soft on the table, like a towel or anti-static mat.
+System76 Serval WS (serw11) Service Manual
+13
+
+
+--- Page 15 ---
+
+3. Place the Serval WS lid-side-down.
+4. Remove the 5 screws from the upper back-panel.
+5. Remove the 2 keyboard screws.
+6. Using a long screwdriver (or similar tool) gently but firmly push through one of
+the keyboard screw holes to lift the keyboard out of it’s tray. Once it is loosened it
+is easy to pull out by hand.
+7.  Flip the keyboard over onto the trackpad.
+8.  Pull the large ribbon cable out of the connector.
+9.  The small ribbon cables have latches. Gently pull the latches from both sides
+and remove the ribbon cables.
+10. Remove the keyboard and replace it with the new one.
+11. Insert the large ribbon cable into the connector.
+12. Seat the small ribbon cables, then apply pressure equally to both sides of the
+connector to secure.
+13. Flip the keyboard over and press the bottom tabs of the keyboard into the case.
+14. Secure the keyboard by pressing down on the edges of the keyboard.
+15. Flip the Serval WS over.
+16. Replace the 2 screws holding the keyboard in place.
+17. Replace the 5 top-panel screws.
+18. Boot your Serval WS and confirm the keyboard is operational.
+Photo guide for keyboard replacement
+1. Serval WS lid-side-down. There are two keyboard screws and one has a red circle
+while the other one has a red and blue circle indicating the keyboard push point.
+
+System76 Serval WS (serw11) Service Manual
+14
+
+
+--- Page 16 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System76 Serval WS (serw11) Service Manual
+15
+
+
+--- Page 17 ---
+
+2. Serval WS on its side.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System76 Serval WS (serw11) Service Manual
+16
+
+
+--- Page 18 ---
+
+3. Screwdriver in keyboard push point.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System76 Serval WS (serw11) Service Manual
+17
+
+
+--- Page 19 ---
+
+4. Gently lift the keyboard away from its slot, then slide the keyboard free of its grooves.
+
+
+
+
+System76 Serval WS (serw11) Service Manual
+18
+
+
+--- Page 20 ---
+
+4. Flip the keyboard over and rest it on the trackpad. Pull the large ribbon cable out of
+the connector. The smaller ribbon cables have latches. Gently pull it forward to release
+the connector, then remove the ribbon cables.
+
+
+Replacing the RAM
+RAM acts as temporary storage for your computer. More RAM generally provides better
+performance. If you’ve purchased new RAM, need to replace your RAM, or are reseating
+your RAM, follow these steps.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 15 minutes
+Difficulty: Medium
+Steps to replace the RAM
+1. Follow the steps above to remove the cover.
+2. Press the small tabs on both sides of the RAM simultaneously.
+3. Remove the RAM from the slot.
+System76 Serval WS (serw11) Service Manual
+19
+
+
+--- Page 21 ---
+
+4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot
+and pressing down on the RAM until it clicks into place.
+Photo guide for replacing the RAM
+1. Press the tabs, indicated in red, outward to release the RAM from the slot.
+
+ 
+System76 Serval WS (serw11) Service Manual
+20
+
+
+--- Page 22 ---
+
+Replacing an M.2/NVMe SSD
+M.2 SSDs offer, at minimum, SATA3 speeds and performance in a package about the
+size of a stick of gum. NVMe M.2 SSDs offer even higher performance. The Serval WS
+supports two M.2 SSDs, size 2280, either M.2 SATA or NVMe M.2 PCIe Generation 4.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the M.2 drive
+1. Follow the steps above to remove the cover.
+2. Locate the M.2 drive (or drive slot).
+3. Unscrew the retainer screw opposite the M.2 slot.
+4. Remove the existing M.2 drive by sliding it sideways off the contact pins and then
+lifting it out of the slot.
+5. Insert the new M.2 drive into the slot, connect the contact pins, and hold it in
+place.
+6. Replace the retainer screw.
+ 
+System76 Serval WS (serw11) Service Manual
+21
+
+
+--- Page 23 ---
+
+Replacing the CPU fan/heatsink/thermal paste
+If the CPU fan becomes noisy and cleaning it out doesn’t fix the issue, you may need a
+new CPU fan. Contact Support to start a warranty claim or parts purchase.
+
+In rare cases, or after several years, it may be necessary to apply new thermal paste
+between the CPU and the heatsink. Thermal paste helps facilitate effective heat transfer
+between the CPU and the cooling equipment. These instructions can also be used in the
+unlikely event your heatsink needs replacing.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 15-20 minutes
+Difficulty: High
+Steps to replace the CPU/GPU heatsink/thermal paste
+1. Remove the bottom cover using the steps under ‘Removing the bottom cover’.
+2. Unscrew the heat sink. There are 8 screws that hold the heat sink down on top of
+the CPU and GPU (they are numbered), and one additional, smaller screw to align
+the heat sink in the chassis.
+
+Removing the fans for the CPU and GPU make the removal of the heat sink easier
+but it is not strictly required.
+
+Each fan is secured with 3 screws, the same size as the laptop-case screws, and
+is connected to power on the board with a small cable. Remove the screws and
+unplug the fans to lift them clear of the case.
+
+3. Remove the screws, starting with 9#, then 8#, and continue until you have
+removed #1.
+4. Carefully remove the heatsink/fans from the case.
+5. Using a paper towel, remove the existing thermal paste. You may also use a
+small amount of rubbing alcohol to remove excess or difficult-to-remove paste.
+6. After cleaning the CPU, GPU and heatsink, apply a small line of thermal paste
+directly onto the CPU and GPU core.
+7. Carefully replace the heatsink.
+8. Replace the screws, starting with #1, then #2, and lastly #9. Do not fully tighten
+sets #1-#4 and #5-#8 until all are in place, then fully tighten all screws for each
+set (#1-#4 and #5-#8)
+System76 Serval WS (serw11) Service Manual
+22
+
+
+--- Page 24 ---
+
+There are 15 Screws in total securing the fans and heat sink.
+
+
+
+
+
+System76 Serval WS (serw11) Service Manual
+23
+
+

@@ -1,0 +1,595 @@
+Brand: ADVANTECH
+Model: Spc 515 1
+URL: https://www.manua.ls/advantech/spc-515-1/manual
+Total Pages: 38
+============================================================
+
+--- Page 1 ---
+User Manual
+SPC-515 Series 
+Stainless Steel Multi-Touch
+Panel Computer with Intel
+Skylake Processor
+申請商 : 研華股份有限公司
+地址 : 台北市內湖區瑞光路 26 巷 20 弄 1 號
+電話 :02-27927818
+
+--- Page 2 ---
+SPC-515 Series User Manual ii
+Copyright
+The documentation and the software included with this product are copyrighted 2019
+by Advantech Co., Ltd. All rights are reserved. Advantech Co., Ltd. reserves the right
+to make improvements in the products described in this manual at any time without
+notice. No part of this manual may be reproduced, copied, translated or transmitted
+in any form or by any means without the prior written permission of Advantech Co.,
+Ltd. Information provided in this manual is intended to be accurate and reliable. How-
+ever, Advantech Co., Ltd. assumes no responsibility for its use, nor for any infringe-
+ments of the rights of third parties, which may result from its use.
+Acknowledgements
+Intel and Pentium are trademarks of Intel Corporation.
+Microsoft Windows and MS-DOS are registered trademarks of Microsoft Corp.
+All other product names or trademarks are properties of their respective owners.
+This Manual Covers the Following Models:
+ SPC-515
+SPC-515-633AE; SPC-515-6C3AE; SPC-515-653AE; SPC-515-673AE
+SPC515631901-T;SPC515631902-T;SPC515631903-T;SPC515631904-T;
+SPC515631905-T;
+SPC515632001-T;SPC515632002-T;SPC515632003-T;SPC515632004-T;
+SPC515632005-T;
+SPC515632101-T;SPC515632102-T;SPC515632103-T;SPC515632104-T;
+SPC515632105-T;
+SPC515632201-T;SPC515632202-T;SPC515632203-T;SPC515632204-T;
+SPC515632205-T;
+SPC515632301-T;SPC515632302-T;SPC515632303-T;SPC515632304-T;
+SPC515632305-T;
+SPC515632401-T;SPC515632402-T;SPC515632403-T;SPC515632404-T;
+SPC515632405-T;
+ATTENTION!
+Pour éviter les chocs. Ne pas retirer lecouvercle. Aucune pièce réparable par l’utilisa-
+teur. Pour l’entertien adressez-vours aux personnes qulifiées, s.v.p.
+Part No. 2003051510 Edition 1
+Printed in Taiwan August 2020
+
+--- Page 3 ---
+iii SPC-515 Series User Manual
+ 
+Product Warranty (2 years)
+Advantech warrants to you, the original purchaser, that each of its products will be
+free from defects in materials and workmanship for two years from the date of pur-
+chase. 
+This warranty does not apply to any products which have been repaired or altered by
+persons other than repair personnel authorized by Advantech, or which have been
+subject to misuse, abuse, accident or improper installation. Advantech assumes no
+liability under the terms of this warranty as a consequence of such events.
+Because of Advantech’s high quality-control standards and rigorous testing, most of
+our customers never need to use our repair service. If an Advantech product is defec-
+tive, it will be repaired or replaced at no charge during the warranty period. For out-
+of-warranty repairs, you will be billed according to the cost of replacement materials,
+service time and freight. Please consult your dealer for more details.
+If you think you have a defective product, follow these steps:
+1. Collect all the information about the problem encountered. (For example, CPU 
+speed, Advantech products used, other hardware and software used, etc.) Note 
+anything abnormal and list any onscreen messages you get when the problem 
+occurs.
+2. Call your dealer and describe the problem. Please have your manual, product, 
+and any helpful information readily available.
+3. If your product is diagnosed as defective, obtain an RMA (return merchandize 
+authorization) number from your dealer. This allows us to process your return 
+more quickly.
+4. Carefully pack the defective product, a fully-completed Repair and Replacement 
+Order Card and a photocopy proof of purchase date (such as your sales receipt) 
+in a shippable container. A product returned without proof of the purchase date 
+is not eligible for warranty service.
+5. Write the RMA number visibly on the outside of the package and ship it prepaid 
+to your dealer.
+
+--- Page 4 ---
+SPC-515 Series User Manual iv
+Declaration of Conformity
+CE
+This product has passed the CE test for environmental specifications when shielded
+cables are used for external wiring. We recommend the use of shielded cables. This
+kind  of  cable  is  available  from Advantech.  Please  contact  your  local  supplier  for
+ordering information.
+FCC Class A
+Note: This equipment has been tested and found to comply with the limits for a Class
+A digital device, pursuant to part 15 of the FCC Rules. These limits are designed to
+provide  reasonable  protection  against  harmful  interference  when  the  equipment  is
+operated  in  a  commercial  environment.  This  equipment  generates,  uses,  and  can
+radiate radio frequency energy and, if not installed and used in accordance with the
+instruction manual, may cause harmful interference to radio communications. Opera-
+tion of this equipment in a residential area is likely to cause harmful interference in
+which case the user will be required to correct the interference at his own expense.
+Technical Support and Assistance
+1. Visit the Advantech web site at http://support.advantech.com where you can find 
+the latest information about the product.
+2. Contact your distributor, sales representative, or Advantech's customer service 
+center for technical support if you need additional assistance. Please have the 
+following information ready before you call:
+– Product name and serial number
+– Description of your peripheral attachments
+– Description of your software (operating system, version, application software, 
+etc.)
+– A complete description of the problem
+– The exact wording of any error messages
+3. This product is intended to be supplied by a listed power supply complying with 
+UL60950-1; rated 24V
+DC
+, 1.5A.
+
+--- Page 5 ---
+v SPC-515 Series User Manual
+ 
+Safety Instructions
+1. Read these safety instructions carefully.
+2. Keep this User Manual for later reference.
+3. Disconnect this equipment from any AC outlet before cleaning. Use a damp 
+cloth. Do not use liquid or spray detergents for cleaning.
+4. For plug-in equipment, the power outlet socket must be located near the equip-
+ment and must be easily accessible.
+5. Keep this equipment away from humidity.
+6. Put this equipment on a reliable surface during installation. Dropping it or letting 
+it fall may cause damage.
+7. The openings on the enclosure are for air convection. Protect the equipment 
+from overheating. DO NOT COVER THE OPENINGS.
+8. Make sure the voltage of the power source is correct before connecting the 
+equipment to the power outlet.
+9. Position the power cord so that people cannot step on it. Do not place anything 
+over the power cord.
+10. All cautions and warnings on the equipment should be noted.
+11. If the equipment is not used for a long time, disconnect it from the power source 
+to avoid damage by transient overvoltage.
+12. Never pour any liquid into an opening. This may cause fire or electrical shock.
+13. Never open the equipment. For safety reasons, the equipment should be 
+opened only by qualified service personnel.
+14. If one of the following situations arises, get the equipment checked by service 
+personnel:
+The power cord or plug is damaged.
+Liquid has penetrated into the equipment.
+The equipment has been exposed to moisture.
+The equipment does not work well, or you cannot get it to work according to 
+the user's manual.
+The equipment has been dropped and damaged.
+The equipment has obvious signs of breakage.
+15. DO NOT LEAVE THIS EQUIPMENT IN AN ENVIRONMENT WHERE THE 
+STORAGE TEMPERATURE MAY GO BELOW -20° C (-4° F) OR ABOVE 60° C 
+(140° F). THIS COULD DAMAGE THE EQUIPMENT. THE EQUIPMENT 
+SHOULD BE IN A CONTROLLED ENVIRONMENT.
+16. CAUTION: DANGER OF EXPLOSION IF BATTERY IS INCORRECTLY 
+REPLACED. REPLACE ONLY WITH THE SAME OR EQUIVALENT TYPE 
+RECOMMENDED BY THE MANUFACTURER, DISCARD USED BATTERIES 
+ACCORDING TO THE MANUFACTURER'S INSTRUCTIONS.
+The sound pressure level at the operator's position according to IEC 704-1:1982 is
+no more than 70 dB (A).
+DISCLAIMER: This  set  of  instructions is given according  to  IEC  704-1. Advantech
+disclaims all responsibility for the accuracy of any statements contained herein.
+Caution! Danger of explosion if battery is incorrectly replaced. Replace only with 
+the same or equivalent type recommended by the manufacturer. Dis-
+pose of used batteries according to the manufacturer's instructions.
+
+--- Page 7 ---
+vii SPC-515 Series User Manual
+ 
+Contents
+Chapter 1 General Information ............................1
+1.1 Introduction ............................................................................................... 2
+1.2 Packing List............................................................................................... 2
+1.3 Specifications ............................................................................................ 3
+1.3.1 System Kernel............................................................................... 3
+1.3.2 I/O Ports........................................................................................ 3
+1.3.3 Safety and Environment................................................................ 3
+1.4 LCD Specifications.................................................................................... 3
+1.5 Touchscreen Specifications ...................................................................... 4
+1.6 Power ........................................................................................................ 4
+1.7 I/O Ports Arrangement .............................................................................. 4
+Figure 1.1 SPC-200 Rear View- I/O Port Arrangement ............... 4
+1.8 VESA Mounting......................................................................................... 5
+Figure 1.2 VESA Mounting .......................................................... 5
+1.9 Dimensions and Cutout............................................................................. 6
+Figure 1.3 SPC-218 Dimensions ................................................. 6
+Chapter 2 System Setup.......................................7
+2.1 System Setup............................................................................................ 8
+Figure 2.1 Unpack the Package .................................................. 8
+Figure 2.2 Pin Definition of Power Connector.............................. 8
+Figure 2.3 Power Receptor with M12 Connector......................... 9
+2.2 Installing the Drivers................................................................................ 10
+2.2.1 Installation of Touch Screen Driver............................................. 10
+2.2.2 Installation of Watchdog Driver ................................................... 10
+2.2.3 Installation of Graphic Driver....................................................... 12
+2.2.4 Installation of LAN Driver ............................................................ 14
+2.3 Wake up from Suspend Mode................................................................. 15
+Chapter 3 Features in Windows Embedded .....17
+3.1 Features in Windows Embedded ............................................................ 18
+3.2 EWF ........................................................................................................ 18
+3.3 HORM ..................................................................................................... 18
+Appendix A M12 connector I/O pin definition......19
+A.1 LAN1 / LAN2 Pin Definition with M12 Connectors .................................. 20
+A.2 RS-232 Pin Definition with M12 Connector............................................. 20
+A.3 USB Pin Definition with M12 Connector.................................................. 20
+A.4 Power Input Pin Definition with M12 Connector...................................... 21
+Appendix B UI Operating Process ........................23
+B.1 UI Operating Process.............................................................................. 24
+Table B.1: Status Indicator Table............................................... 24
+Table B.2: Button Code Hotkeys................................................ 29
+
+--- Page 8 ---
+SPC-515 Series User Manual viii
+
+--- Page 9 ---
+Chapter 1
+1 General Information
+
+--- Page 10 ---
+SPC-515 Series User Manual 2
+1.1 Introduction
+SPC-515 is a 15" fully sealed stainless steel multi-touch panel PC. It has an all round
+IP69k and 304L stainless steel housing which makes it suitable for food & beverage
+or pharmaceutical industries. With great CPU performance and intuitive multi-touch
+support,  it  can  be  used  as  either  a  data  visualization  gateway  or  a  control  panel.
+SPC-515  is  EN  1672-2  compliant  to  fulfill  strict  hygiene  requirements  and  the
+enhanced front glass touch screen is rugged and shatter resistant. 
+Key features: 
+ 15" XGA TFT LED LCD display
+ Intel Skylake Intel® Core™ U-series processor with independent GPU, 
+advanced graphical performance
+ PCT multi-touch
+ Built-in function and home key button used for intuitive UI
+ Waterproof M12 connectors for I/O
+ Supports Mini-PCIe expansion slot
+ Front LED indicator shows operating status
+ Fanless passive cooling
+1.2 Packing List
+ 4 x VESA mount screws
+ 1 x Registration and warranty card
+ 1 x Simplified chinese manual
+ 1 x China ROHS list
+
+--- Page 11 ---
+3 SPC-515 Series User Manual
+Chapter 1 General Information
+1.3 Specifications 
+1.3.1 System Kernel
+ CPU: Intel Core i3 6100U processor
+ BIOS: AMI UEFI 128 Mbit
+ VGA: Intel HD Graphics 620/520/510 (Celeron)
+ Memory: 8GB SO-DIMM DDR3; DRAM
+ LAN: 10/100/1000Base-T x 2 (connection:M12 A-coding, 8-pin female)
+ Watchdog Timer: 1 ~ 255 sec (system)
+ Expansion Slots: Full-size Mini PCI-E x 1 (optional)
+ Storage: 2.5" SATA HDD x 1(optional)
+ OS: Microsoft® Win 10 / Linux
+1.3.2 I/O Ports
+ 1 Serial Port: RS-232 x 1 (connection:M12 A-coding, 8-pin male)
+ 2 USB Port: USB 2.0 x 2 (connection:M12 A-coding, 8-pin female)
+1.3.3 Safety and Environment
+Safety
+ FCC Class A
+ CE certificated
+Environment
+ Operating Temperature: 0 ~ 50 °C (32 ~ 122 °F)
+ Storage Temperature: -20 ~ 60°C (-4 ~ 140°F)
+ Humidity: 40°C @ 10~95% relative humidity (non-condensing, test times: 
+48hrs)
+ Vibration: With SSD: 3 Grms (5 ~ 500 Hz) (operating, random vibration)
+1.4 LCD Specifications 
+SPC-515
+Display Type XGA LED LCD
+Size (diagonal) 15"
+Maximum Resolution 1024 x 768
+Maximum Colors 16.7M
+Viewing Angle
+176
+° / 176°
+Luminance (cd / m2) 300
+Backlight LED
+Note! There might be several bright or dark pixels on the LCD. This phenome-
+non is normal in today’s LCD manufacturing.
+
+--- Page 12 ---
+SPC-515 Series User Manual 4
+1.5 Touchscreen Specifications 
+ Touch Type: Projected capacitive 
+ Base Glass Construction: Tempered glass 
+ Light Transmission: 
+≥88% (measured by BYK-Gardner at 550nm, and the test 
+method accorded to ASTM D1003) 
+ Controller: USB Interface 
+1.6 Power 
+ Input Voltage: 24V
+DC 
+(Typical)
+ Power Consumption: 60W (Typical)
+This  product  is  intended  to  be  supplied  by  a  listed  power  adapter  or  DC  power
+source,  rated  24Vdc,  2.5A  minimum  and  Tma  55°C  minimum,  if  you  need  further
+assistance, please contact Advantech for further information.
+1.7 I/O Ports Arrangement 
+The arrangement of the I/O ports is shown in Figure 1.1. 
+Figure 1.1 SPC-200 Rear View- I/O Port Arrangement
+
+--- Page 13 ---
+5 SPC-515 Series User Manual
+Chapter 1 General Information
+1.8 VESA Mounting 
+The SPC-200 has been designed with support for the VESA mount standard which
+supports  100mm  standard  VESA  dimension  holes  (Refer  to  figure  1.2.).  Use  M4
+screws (Length 8mm to 10 mm).
+Figure 1.2 VESA Mounting 
+Warning! Use suitable mounting apparatus to avoid risk of injury.
+
+--- Page 14 ---
+SPC-515 Series User Manual 6
+1.9 Dimensions and Cutout 
+SPC-515
+ Weight: 10kg
+ Dimensions (W x H x D): 
+– 389.6 x 313.7 x 56 mm (15.33 x 12.34 x 2,2 in)
+Figure 1.3 SPC-218 Dimensions 
+100
+10076
+
+--- Page 16 ---
+SPC-515 Series User Manual 8
+2.1 System Setup 
+You can easily get SPC started by following the below steps. 
+1. Unpack the SPC package. Check the packing list at the beginning of this man-
+ual to make sure all items have been included. 
+Figure 2.1 Unpack the Package 
+2. Connect the power connector with M12 connector to the 24 V
+DC
+ power lines. 
+The power lines can either be of some power adapter or in-house power source.
+ 
+3.
+Figure 2.2 Pin Definition of Power Connector 
+Power Input Pin Number Signal (Male)
+M12-A-5P-M
+Power
+1 DC 24V-
+2 DC 24V-
+3 DC 24V+
+4 DC24V+
+5 F_GND
+
+--- Page 17 ---
+9 SPC-515 Series User Manual
+Chapter 2 System Setup
+Figure 2.3 Power Receptor with M12 Connector
+4. Plug the power lines into the system power receptor with M12 connector. 
+5. Power on the system.
+
+--- Page 18 ---
+SPC-515 Series User Manual 10
+2.2 Installing the Drivers 
+2.2.1 Installation of Touch Screen Driver
+SPC-218/221 will use the built-in PCT touch driver in the OS if operating under Win-
+dows 10. 
+2.2.2 Installation of Watchdog Driver
+1. Enter into Watchdog folder, double click AdvWDT icon, and then click Next 
+under InstallShield Wizard window.
+2. Select "Advantech [SCH311X] WDT” and click “Next”.
+3. Click “Install”.
+
+--- Page 19 ---
+11 SPC-515 Series User Manual
+Chapter 2 System Setup
+4. Click “Finish” to finish the installation.
+5. Select “Yes, I want to restart my computer now” and click “OK”.
+6. After installing Watchdog driver, a "Watchdog Service Configuration" icon will 
+show in control panel.
+
+--- Page 20 ---
+SPC-515 Series User Manual 12
+7. Double click the "Watchdog Service Configuration" icon, and you can configure 
+the Watchdog timer function.
+2.2.3 Installation of Graphic Driver
+1. Enter into TS folder, enter into” graphic driver for Windows 7" Driver folder and 
+double click setup icon, and then click Next under setup wizard window.
+2. Click Install.
+
+--- Page 21 ---
+13 SPC-515 Series User Manual
+Chapter 2 System Setup
+3. Select “Express” and click Next.
+4. Click Accept.
+5. Click Finish to finish the installation.
+
+--- Page 22 ---
+SPC-515 Series User Manual 14
+2.2.4 Installation of LAN Driver
+1. Enter TS folder, then go to “Ethernet driver for Windows 7 Driver” folder and
+1. Double click setup icon, then click Next under setup wizard window.
+2. Click Install.
+3. Click Finish to finish the installation.
+
+--- Page 23 ---
+15 SPC-515 Series User Manual
+Chapter 2 System Setup
+2.3 Wake up from Suspend Mode
+1. SPC-515 can wake up from Suspend Mode (S3) by touch and USB devices (For 
+example USB mouse or USB keyboard).
+2. User can disable USB wake up function through BIOS setting as follows.
+a. Press Delete key on the keyboard to go into the BIOS setup utility, then select 
+chipset / south bridge and press Enter key.
+b. Select "SB USB Configuration” and press Enter key.
+c. Select “USB Device Wake up from S3” and change to Disable than save your 
+change and exit. After reboot, the USB wake up function will be disabled.
+
+--- Page 25 ---
+Chapter 3
+3 Features in Windows 
+Embedded
+
+--- Page 26 ---
+SPC-515 Series User Manual 18
+3.1 Features in Windows Embedded 
+SPC  products  support  the  embedded  Windows  platform.  This  section  outlines  the
+important features (EWF and HORM), that are provided in Windows XP embedded. 
+3.2 EWF 
+EWF stands for Enhanced Write Filter. It provides an upper filter in the storage device
+driver stack that redirects disk write operations to volatile (RAM) or non-volatile (disk)
+storage. EWF protects a volume from write access. The benefits are as the following.
+Write-protect one or more partitions on your system. 
+Enable read-only media, such as CD-ROM or flash, to boot and run.
+Prolong the lifespan of write-sensitive storage, such as CompactFlash.
+SPC-218/221 XPE provides EWF RAM-REG mode on system partition. All writes to
+the system partition will be redirected to RAM once this mode is enabled. This mode
+is manually enabled by customers after they finish all their changes on the system
+such as installing their applications or adjusting system settings.
+Advantech provides a pair of utilities to operate EWF, OSLock and OSUnLock. Refer
+to the training slide in the folder: “Advantech XPe Add-one.pdf”. 
+3.3 HORM
+HORM stands for Hibernate  Once  Resume Many. In  HORM environment, a  single
+hibernation file is used to boot the system repeatedly. To set a HORM environment,
+please follow the steps below.
+Make sure EWF is disabled. You can run OSUnLock to disable EWF.
+Enable hibernation support:
+Run “power options” in control panel, and then select “Enable Hibernation” in hiber-
+nation pane. 
+Enable EWF:
+Run OSLock, and then system reboot automatically.
+Open those software that customers want to directly use after system resume from
+hibernation.
+Hibernate via Advantech HORM utility: 
+Click Start Menu->All Programs->Advantech->AdvWF
+HORM environment remains all along unless the following events occur:
+Run EWF commit command (ewfmgr c: -commit) and then reboot system.
+Select “Discard hibernation file” by clicking F8 when system is starting up.
+
+--- Page 27 ---
+Appendix A
+A M12 connector I/O pin 
+definition
+
+--- Page 28 ---
+SPC-515 Series User Manual 20
+A.1 LAN1 / LAN2 Pin Definition with M12 
+Connectors
+A.2 RS-232 Pin Definition with M12 Connector
+A.3 USB Pin Definition with M12 Connector
+LAN Pin Number Signal (Female)
+M12-A-8P-F
+LAN
+1 TX_D1+ 
+2 TX_D1- 
+3 RX_D2+ 
+4 BI_D3+ 
+5 BI_D3- 
+6 RX_D2-
+7 BI_D4+ 
+8
+BI_D4- 
+RS-232 Pin Number Signal (Male)
+M12-A-8P-M
+RS-232
+1 CD
+2 RXD
+3 TXD
+4 DTR
+5 GND
+6 DSR
+7 RTS
+8 CTS
+USB Pin Number Signal (Female)
+M12-A-8P-F
+USB
+1 Vcc
+6 D-
+3 D+
+5 Vss
+8 Shielding
+
+--- Page 29 ---
+21 SPC-515 Series User Manual
+Appendix A M12 connector I/O pin definition
+A.4 Power Input Pin Definition with M12 Connector
+USB Pin Number Signal (Male)
+M12-A-5P-M
+Power
+1 DC 24V-
+2 DC 24V-
+3 DC 24V+
+4 DC 24V+
+5 F_GND
+
+--- Page 31 ---
+Appendix B
+B UI Operating Process
+
+--- Page 32 ---
+SPC-515 Series User Manual 24
+B.1 UI Operating Process
+This section tells you how to operate the HMI utility (GL_Utility), you can download
+the utility from Advantech's product support portal of SPC-218/221 at 
+http://support.advantech.com. See the process below:
+1. There are 2 function buttons in the lower right corner of the front panel,  “I” icon 
+is the “intelligent” key while the house icon is the “home” key.
+                                   Intelligent Icon              Home Icon
+2. Press Home Key->
+Home - Execute Home-key App (Set up in setting page)
+3. Long press Home Key->
+Table B.1: Status Indicator Table
+Indicator  Status
+Blue Power on
+Orange Stand by
+No light Off
+
+--- Page 33 ---
+25 SPC-515 Series User Manual
+Appendix B UI Operating Process
+Home - Long press to disable / enable touch function
+Note! When touch function is disabled, you'll see a message in the lower right 
+corner of the screen.
+
+--- Page 34 ---
+SPC-515 Series User Manual 26
+4. Press Intelligent Key->
+Intelligent - Advantech Intelligent Utility 
+A. Quick start->
+– Press “+” to add shortcut. 
+– Long press the icon to perform “right click” until an “X” mark appears in upper 
+right corner to “delete”.
+
+--- Page 35 ---
+27 SPC-515 Series User Manual
+Appendix B UI Operating Process
+B. Setting ->
+Password  confirmation  for  authority  confirmation  is  needed  when  you  first  log  in,
+default password is “1234” without input order to active.
+– Setting - Home-key: Select an executable file to set up as "Home-key" App, in 
+default path is to show “desktop”.
+
+--- Page 36 ---
+SPC-515 Series User Manual 28
+– Setting - Brightness: Brightness control from 1 to 8. 
+– Setting - Password: Change password function.
+Note! If you use other brightness setting tools such as iManager, remember 
+not to adjust below 10 percent to prevent a black screen.
+
+--- Page 37 ---
+29 SPC-515 Series User Manual
+Appendix B UI Operating Process
+C. System management->
+– System information:
+– Self Diagnosis:
+Note!* SPC-218/221 also provides open button code as following definition for 
+customer's configuration to their Apps/SW applications. The codes are 
+defined from general keyboard input.
+Table B.2: Button Code Hotkeys
+One press Long press
+I - Intelligent Key Icon)
+Ctrl+Shift+Alt+I Ctrl+Shift+Alt+U
+H - Home Key Icon
+Ctrl+Shift+Alt+H Ctrl+Shift+Alt+L
+
+--- Page 38 ---
+www.advantech.com
+Please verify specifications before quoting. This guide is intended for reference
+purposes only.
+All product specifications are subject to change without notice.
+No  part  of  this  publication may  be reproduced  in any  form or  by any  means,
+electronic, photocopying, recording or otherwise, without prior written permis-
+sion of the publisher.
+All brand and product names are trademarks or registered trademarks of their
+respective companies.
+© Advantech Co., Ltd. 2020
+

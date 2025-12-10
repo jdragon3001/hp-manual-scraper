@@ -1,0 +1,480 @@
+Brand: INTEL
+Model: Nuc 13 Extreme
+URL: https://www.manua.ls/intel/nuc-13-extreme/manual
+Total Pages: 31
+============================================================
+
+--- Page 1 ---
+1 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+ 
+ 
+ 
+ 
+ 
+Intel® NUC 13 Extreme Kit - NUC13RNGi9 
+Intel® NUC 13 Extreme Kit - NUC13RNGi7 
+Intel® NUC 13 Extreme Kit - NUC13RNGi5 
+Intel® NUC 13 Extreme Compute Element - 
+NUC13SBBi9 
+Intel® NUC 13 Extreme Compute Element - 
+NUC13SBBi7 
+Intel® NUC 13 Extreme Compute Element - 
+NUC13SBBi5 
+ 
+User Guide 
+ 
+October 2022
+
+--- Page 2 ---
+2 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+You may not use or facilitate the use of this document in connection with any infringement or other legal analysis concerning Intel products 
+described herein. You agree to grant Intel a non-exclusive, royalty-free license to any patent claim thereafter drafted which includes subject 
+matter disclosed herein. 
+No license (express or implied, by estoppel or otherwise) to any intellectual property rights is granted by this document. 
+All information provided here is subject to change without notice. Contact your Intel representative to obtain the latest Intel product 
+specifications and roadmaps. 
+The products described may contain design defects or errors known as errata which may cause the product to deviate from published 
+specifications. Current characterized errata are available on request. 
+Copies of documents which have an order number and are referenced in this document may be obtained by calling 1-800-548-4725 or by 
+visiting:  http://www.intel.com/design/literature.htm.   
+Intel technologies' features and benefits depend on system configuration and may require enabled hardware, software or service activation. 
+Performance varies depending on system configuration. No computer system can be absolutely secure. 
+Intel and the Intel logo are trademarks of Intel Corporation or its subsidiaries in the U.S. and/or other countries. 
+*Other names and brands may be claimed as the property of others. 
+Copyright © 2022, Intel Corporation. All rights reserved.
+
+--- Page 3 ---
+3 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+Contents 
+1.0  Introduction ............................................................................................................................. 5 
+1.1  Before You Begin ........................................................................................................................................... 5 
+1.2  Installation Precautions ............................................................................................................................. 6 
+1.3  Observe Safety and Regulatory Requirements ......................................................................... 6 
+2.0  Open the Chassis ................................................................................................................... 7 
+3.0  System Memory ....................................................................................................................13 
+4.0  M.2 SSD .....................................................................................................................................16 
+5.0  2.5” and 3.5” SSD................................................................................................................18 
+6.0  External PCIe card ..............................................................................................................22 
+7.0  Close the Chassis .................................................................................................................27 
+8.0  Connect Power ......................................................................................................................29 
+9.0  Install an Operating System .........................................................................................30 
+10.0  Install the Latest Device Drivers and Software ................................................31
+
+--- Page 4 ---
+4 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+Revision History 
+ 
+Date 
+Revision 
+Description 
+October 2022 
+1.0 
+Initial release.
+
+--- Page 5 ---
+5 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+1.0  Introduction 
+This User Guide provides step-by-step installation instructions for these products: 
+ 
+•  Intel® NUC 13 Extreme Kit - NUC13RNGi9 
+•  Intel® NUC 13 Extreme Kit - NUC13RNGi7 
+•  Intel® NUC 13 Extreme Kit - NUC13RNGi5 
+•  Intel® NUC 13 Extreme Compute Element - NUC13SBBi9 
+•  Intel® NUC 13 Extreme Compute Element - NUC13SBBi7 
+•  Intel® NUC 13 Extreme Compute Element - NUC13SBBi5 
+ 
+1.1  Before You Begin 
+  CAUTIONS 
+The steps in this guide assume you’re familiar with computer terminology and 
+with the safety practices and regulatory compliance required for using and 
+modifying computer equipment. 
+ 
+Disconnect the computer from its power source and from any network before 
+performing any of the steps described in this guide.   
+Failure to disconnect power, telecommunications links, or networks before you open 
+the computer or perform any procedures can result in personal injury or equipment 
+damage.  Some circuitry on the board can continue to operate even though the front 
+panel power button is off. 
+ 
+Follow these guidelines before you begin: 
+•  Always follow the steps in each procedure in the correct order. 
+•  Create a log to record information about your computer, such as model, 
+serial numbers, installed options, and configuration information. 
+•  Electrostatic discharge (ESD) can damage components.  Perform the 
+procedures described in this chapter only at an ESD workstation using an 
+antistatic wrist strap and a conductive foam pad. If such a station isn’t 
+available, you can provide some ESD protection by wearing an antistatic wrist 
+strap and attaching it to a metal part of the computer chassis.
+
+--- Page 6 ---
+6 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+1.2  Installation Precautions 
+When you install and test the Intel NUC, observe all warnings and cautions in the 
+installation instructions. 
+ 
+To avoid injury, be careful of: 
+•  Sharp pins on connectors 
+•  Sharp pins on circuit boards 
+•  Rough edges and sharp corners on the chassis 
+•  Hot components (such as SSDs, processors, voltage regulators, and heat sinks) 
+•  Damage to wires that could cause a short circuit 
+ 
+Observe all warnings and cautions that instruct you to refer computer servicing 
+to qualified technical personnel. 
+1.3  Observe Safety and Regulatory Requirements 
+If you don’t follow these instructions, you increase your safety risk and the possibility 
+of noncompliance with regional laws and regulations.
+
+--- Page 7 ---
+7 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+2.0  Open the Chassis 
+1.  Disconnect the power cord, telecommunications systems, networks, antenna, and 
+modems, if any of them are connected, before you open or service the device. 
+ 
+2.  Unscrew the thumb screw (A) on the rear side of the chassis.
+
+--- Page 8 ---
+8 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+3.  Hold (B) and lift to remove the top cover. 
+   
+4.   Pull (A) (D) outwards to remove the side panels:
+
+--- Page 9 ---
+9 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+ 
+5.  Remove the front cover:
+
+--- Page 10 ---
+10 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+6.  Unscrew the three screws on the top front, top rear, and back panel: 
+ 
+7.  Remove the USB Type-C cable (B)
+
+--- Page 11 ---
+11 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+8.  Press down the lever on the PCIe x16 connector that holds the Compute Element.  
+Simultaneously, hold the top bar attached to the compute element, pull up and 
+rotate outwards to remove the Compute Element
+
+--- Page 12 ---
+12 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022
+
+--- Page 13 ---
+13 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+3.0  System Memory 
+ 
+Intel® NUC 13 Extreme Kit NUC13RNGi9, NUC13RNGi7, NUC13RNGi5 and Intel® NUC 
+13 Extreme Compute Element NUC13SBBi9, NUC13SBBi7, NUC13SBBi5 have two 
+262-pin DDR5 SO-DIMM sockets. Be sure to select memory modules that meet these 
+requirements: 
+•  1.1V and 2.1V (with XMP) low voltage JEDEC memory only 
+•  4000 MHz, 4400 MHz, 4800 MHz, 5200 MHz, and 5600 MHz SO-DIMMs  
+•  Max capacity - 64GB 
+•  Non-ECC 
+•  Intel® XMP 3.0 support  
+ 
+Find compatible memory modules in the Intel Product Compatibility Tool 
+•  NUC13RNGi9 
+•  NUC13RNGi7 
+•  NUC13RNGi5 
+•  NUC13SBBi9 
+•  NUC13SBBi7 
+•  NUC13SBBi5 
+ 
+ 
+ 
+NOTE 
+If you plan to install only one memory module, install it in the lower 
+memory socket. 
+ 
+To install memory, follow these steps: 
+ 
+1.  Observe the precautions in "Before You Begin" on page 5. 
+2.  Turn off all peripheral devices connected to the computer.  Turn off the 
+computer and disconnect the power cord. 
+3.  Remove the computer’s side and top chassis covers as per the instructions in 
+section 2.0, Open the chassis. 
+4.  Align the small space (key) at the bottom edge of the memory module with 
+the key in the socket. 
+5.  Insert the bottom edge of the module vertically into the socket (A) 
+6.  When the module is inserted, push up the retaining clips until they snap into 
+place (B). Make sure the clips are firmly in place.
+
+--- Page 14 ---
+14 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022
+
+--- Page 15 ---
+15 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+To remove a SO-DIMM, follow these steps: 
+ 
+1.  Observe the precautions in "Before You Begin" on page 5. 
+2.  Turn off all peripheral devices connected to the computer. Turn off 
+the computer and disconnect the power cord. 
+3.  Remove the computer’s side and top chassis covers as per the 
+instructions in the section 2.0 Open the chassis. 
+4.  Gently push the retaining clips down at each end of the memory 
+module to get it out of the socket. 
+5.  Holding the module by the edges, lift it away from the socket, and 
+store it in an antistatic package. 
+6.  Reinstall and reconnect any parts you removed or disconnected to 
+reach the memory sockets. 
+7.  Replace the computer’s covers and reconnect the power cord as per 
+the instructions from section 5.0 Close the Chassis.
+
+--- Page 16 ---
+16 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+4.0  M.2 SSD 
+Intel® NUC 13 Extreme Kit NUC13RNGi9, NUC13RNGi7, NUC13RNGi5 and Intel® NUC 13 
+Extreme Compute Element NUC13SBBi9, NUC13SBBi7, NUC13SBBi5 have the following 
+options: 
+ 
+M.2 connector 
+Controller 
+Support 
+Slot 1 
+CPU 
+M.2 NVMe  
+Slot 2 
+PCH 
+M.2 NVMe 
+Slot 3 
+PCH 
+M.2 NVMe and SATA  
+ 
+ 
+There are no pre-installed SSD available out of the box for the above SKUs. 
+Find compatible M.2 and SATA SSDs in the Intel Product Compatibility Tool: 
+•  NUC13RNGi9 
+•  NUC13RNGi7 
+•  NUC13RNGi5 
+•  NUC13SBBi9 
+•  NUC13SBBi7 
+•  NUC13SBBi5
+
+--- Page 17 ---
+17 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+To install M.2 SSD: 
+1.  Remove the M.2 cover. 
+2.  Remove the pre-installed SSD from the connector if there are any. 
+3.  Make sure there is the metal standoff in the right position, depending on the 
+length of the SSD you are going to install. 
+4.  Align the space at the bottom of the new M.2 SSD to the key on the connector 
+and slide the SSD into the m.2 slot. 
+5.  Secure SSD with the small screw. 
+6.  Secure the M.2 cover.
+
+--- Page 18 ---
+18 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+5.0  2.5” and 3.5” SSD 
+ 
+1.  Remove the chassis bottom cover
+
+--- Page 19 ---
+19 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+2.  Unscrew and remove the SSD panel.  
+ 
+3.  Secure the 2.5” or 3.5” SSD to the panel.
+
+--- Page 20 ---
+20 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+4.  Insert the signal and power cables to the SSD 
+ 
+ 
+5.  Secure the SSD plate to the chassis
+
+--- Page 21 ---
+21 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+ 
+6.  Insert the SSD signal and power cable to the baseboard
+
+--- Page 22 ---
+22 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+6.0  External PCIe card 
+1.  Unscrew (A), open the bracket (B) and lift the side bracket.
+
+--- Page 23 ---
+23 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+2.  Unscrew (A) and lift (B) the metal brackets covering the back panel frames for 
+the PCIe device connectors
+
+--- Page 24 ---
+24 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+3.  Align and secure the bracket (B) to the PCIe card 
+ 
+4.  Insert the PCIe card to the PCIe connector on the baseboard 
+ 
+5.  Secure the PCIe card to the chassis
+
+--- Page 25 ---
+25 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+ 
+6.  Secure the side bracket to the chassis and insert the PCIe cards power cable
+
+--- Page 26 ---
+26 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+7.  Close bracket (A) and insert the chassis back panel cover
+
+--- Page 27 ---
+27 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+7.0  Close the Chassis 
+1.  Slide down the side cover to latch (A) and (C) 
+2.  Push the side cover towards the chassis to engage the top latches (B) and (D) 
+ 
+ 
+ 
+ 
+3.  Insert the chassis top cover
+
+--- Page 28 ---
+28 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+4.  Secure screw (B)  
+ 
+ 
+ 
+ 
+5.  Connect the power cord and other devices.
+
+--- Page 29 ---
+29 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+8.0  Connect Power 
+Each Intel NUC model includes either a region-specific AC power cord or no AC power 
+cord. 
+ 
+Product codes 
+Power cord type 
+RNUC13RNGi90000 
+RNUC13RNGi70000 
+RNUC13RNGi50000 
+No power cord included. An AC power cord needs to 
+be purchased separately. The connector on the power 
+adapter is a C13 type connector. 
+ 
+RNUC13RNGi90001 
+RNUC13RNGi70001 
+RNUC13RNGi50001 
+US power cord included. 
+RNUC13RNGi90002 
+RNUC13RNGi70002 
+RNUC13RNGi50002 
+EU power cord included. 
+RNUC13RNGi90003 
+RNUC13RNGi70003 
+RNUC13RNGi50003 
+UK power cord included. 
+RNUC13RNGi90004 
+RNUC13RNGi70004 
+RNUC13RNGi50004 
+Australia/New Zealand power cord included. 
+RNUC13RNGi90006 
+RNUC13RNGi70006 
+RNUC13RNGi50006 
+China power cord included.
+
+--- Page 30 ---
+30 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+9.0  Install an Operating System 
+See Supported Operating Systems for a list of Intel-validated Windows* operating 
+systems. 
+The Intel Product Compatibility Tool lists versions of Linux* that have been reported 
+as compatible by Intel NUC owners. If you need assistance with Linux on your Intel 
+NUC, check the distribution’s website and forums for peer assistance. 
+Refer to Operating System Installation for system requirements and installation steps.
+
+--- Page 31 ---
+31 
+NUC13RNGi9, NUC13RNGi7, NUC13RNGi5, NUC13SBBi9, NUC13SBBi7, NUC13SBBi5.  
+User Guide – October 2022 
+10.0  Install the Latest Device Drivers and Software 
+Here are the options for keeping device drivers current:  
+ 
+•  Allow the Intel® Driver & Support Assistant (Intel® DSA) to detect out-of-
+date drivers 
+•  Manually download drivers, BIOS, and software from Download Center: 
+o  NUC13RNGi9 
+o  NUC13RNGi7 
+o  NUC13RNGi5 
+o  NUC13SBBi9 
+o  NUC13SBBi7 
+o  NUC13SBBi5 
+ 
+The following device drivers and software are available. 
+•  Intel® Chipset Device Software 
+•  Intel® Graphics 
+•  Intel® Management Engine 
+•  Intel® Gigabit Ethernet 
+•  Intel® Wireless 
+•  Intel® Bluetooth 
+•  Intel® Serial IO 
+•  Intel® GNA 
+•  Marvel Ethernet 
+•  Realtek* ALC1220 High Definition Audio 
+•  Intel® Rapid Storage Technology 
+•  Thunderbolt® Networking Driver
+

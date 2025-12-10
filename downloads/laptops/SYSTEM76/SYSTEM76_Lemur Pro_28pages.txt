@@ -1,0 +1,768 @@
+Brand: SYSTEM76
+Model: Lemur Pro
+URL: https://www.manua.ls/system76/lemur-pro/manual
+Total Pages: 28
+============================================================
+
+--- Page 1 ---
+
+
+
+
+
+
+System76
+Lemur (lemu7)
+Service manual
+
+
+
+--- Page 2 ---
+
+Revision history
+
+
+Author
+Date
+Version
+Remarks
+April Jones
+2017-02-21
+Initial
+
+
+
+
+
+
+
+
+
+
+ 
+System76 Lemur Service Manual
+1
+
+
+--- Page 3 ---
+
+Contents
+
+Revision history
+Hardware overview
+External overview
+Ports overview
+Front LED overview
+Hardware keyboard shortcuts
+Internal component overview
+User-serviceable parts and repairs
+Replacing the keyboard
+Steps to replace the keyboard
+Photo guide for keyboard repair
+Removing the cover
+Steps to remove the cover
+Steps to replace the cover
+Replacing the RAM
+Steps to replace the RAM
+Photo guide for replacing the RAM
+Replacing an M.2/NVMe SSD
+Steps to replace the M.2 drive
+Replacing a 2.5” SSD/HDD
+Steps to replace the M.2 drive
+Replacing the CPU fan
+Steps to replace the CPU fan
+Replacing the CPU heatsink/thermal paste
+Steps to replace the CPU heatsink/thermal paste
+Replacing the CMOS battery
+Steps to replace the CMOS battery
+Replacing the WiFi/Bluetooth module
+Steps to replace the WiFi/Bluetooth module
+BIOS utilities
+BIOS overview
+Main menu
+System76 Lemur Service Manual
+2
+
+
+--- Page 4 ---
+
+Advanced
+Security
+Updating the BIOS
+Specifications
+
+
+
+
+System76 Lemur Service Manual
+3
+
+
+--- Page 5 ---
+
+Hardware overview
+External overview
+Ports overview
+
+System76 Lemur Service Manual
+4
+
+
+--- Page 6 ---
+
+
+
+ 
+System76 Lemur Service Manual
+5
+
+
+--- Page 7 ---
+
+Front LED overview
+
+Icon
+Color
+Description
+
+Orange
+DC power plugged in
+Green
+Computer is on
+Blinking green
+Computer is sleeping
+
+Orange
+Battery charging
+Green
+Battery fully charged
+Blinking orange
+Battery critically low
+
+Green
+Airplane mode is ON
+(WiFi/Bluetooth disabled)
+
+Green
+Hard disk activity
+ 
+System76 Lemur Service Manual
+6
+
+
+--- Page 8 ---
+
+Hardware keyboard shortcuts
+Your Lemur has several actions available using the Fn and Function keys.
+
+Key
+Shortcut
+Action
+
+Fn+F1
+Toggle trackpad
+
+Fn+F2
+Toggle built-in LCD
+
+Fn+F3
+Mute
+
+Fn+F5
+Volume down
+
+Fn+F6
+Volume up
+
+Fn+F7
+Toggle displays
+
+Fn+F8
+Brightness down
+
+Fn+F9
+Brightness up
+
+Fn+F10
+Toggle webcam
+
+Fn+F11
+Toggle airplane mode
+
+Fn+F12
+Suspend
+
+Fn+`
+Play/Pause
+
+Fn+1
+Toggle fan between max/normal
+
+Fn+Ins
+Num Lock
+
+Fn+Del
+Scroll Lock
+
+ 
+System76 Lemur Service Manual
+7
+
+
+--- Page 9 ---
+
+Internal component overview
+Below is a color-coded diagram of the Lemur’s internal components.
+
+
+
+CPU fan is highlighted in cyan
+CMOS battery is highlighted in red
+RAM is highlighted in green
+M.2 SSD is highlighted in orange
+Wireless/Bluetooth module is highlighted in purple
+2.5” SSD (not present) is highlighted in blue
+
+ 
+System76 Lemur Service Manual
+8
+
+
+--- Page 10 ---
+
+User-serviceable parts and repairs
+Many components on your Lemur can be upgraded or replaced as necessary. Follow
+these step-by-step guides for instructions.
+Replacing the keyboard
+Keyboard replacement is simple and requires only a cross-head screwdriver.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 10 minutes
+Difficulty: Moderate
+Steps to replace the keyboard
+Photos are provided in order below these steps.
+1. Find a surface suitable for replacing the keyboard. A desk or large table work
+well.
+2. Place something soft on the table, like a towel or static-free blanket.
+3. Place the Lemur lid-side-down.
+4. Remove the battery.
+5. Remove the 3 keyboard screws, indicated by the small keyboard icon.
+6. Open the Lemur and place it on its side.
+7. Push the screwdriver (or another long, thin object) through the hole marked with
+an arrow. Apply pressure until the keyboard pops out.
+8. Set the Lemur down.
+9. Pull the keyboard loose.
+10. Flip the keyboard over onto the trackpad.
+11. Loosen both sides of the keyboard ribbon connector.
+12. Remove the ribbon connector.
+13. Remove the keyboard and replace it with the new one.
+14. Insert the ribbon cable into the connector.
+15. Apply pressure equally to both sides of the connector to secure the ribbon cable.
+16. Flip the keyboard over.
+17. Secure the keyboard by pressing down on the edges of the keyboard.
+18. Flip the Lemur over.
+19. Replace the 3 screws holding the keyboard in place.
+20. Replace the battery, boot your Lemur, and confirm the keyboard is operational.
+System76 Lemur Service Manual
+9
+
+
+--- Page 11 ---
+
+Photo guide for keyboard repair
+
+1. Lemur lid-side-down and battery removed. Keyboard screws are highlighted, with the
+blue (center) highlight indicating the keyboard removal hole.
+
+
+2. Lemur on its side
+
+System76 Lemur Service Manual
+10
+
+
+--- Page 12 ---
+
+
+3. Pressing a screwdriver through the keyboard removal hole
+  
+4. Flipping the keyboard
+
+System76 Lemur Service Manual
+11
+
+
+--- Page 13 ---
+
+
+5. Keyboard resting on trackpad
+
+6. Removing the ribbon connector
+
+
+System76 Lemur Service Manual
+12
+
+
+--- Page 14 ---
+
+
+7. Re-seating the ribbon connector with equal pressure on both sides
+
+
+ 
+System76 Lemur Service Manual
+13
+
+
+--- Page 15 ---
+
+
+Removing the cover
+Removing the cover is required to access the internal components. Prior to removing
+the cover, ensure the battery and AC power are unplugged, and all peripherals (including
+SD cards and USB drives) are unplugged or removed from the system. The cover is held
+in place with 15 screws of the same size and plastic snaps.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Low
+Steps to remove the cover
+1. Find a surface suitable for replacing the keyboard. A desk or large table work
+well.
+2. Place something soft on the table, like a towel or static-free blanket.
+3. Place the Lemur lid-side-down.
+4. Remove the battery. 3 screws are located under the battery.
+5. Remove all 15 screws and set them aside. Some screws may not come out, in
+this case flip the laptop over and gently tap it until all screws fall out of the
+system.
+6. Starting from the Ethernet port, gently pry the bottom case away from the
+system, moving down the left side, until all snaps are free and the bottom cover
+is free.
+Steps to replace the cover
+1. Attach the bottom cover to the top of the case towards the front of the Lemur.
+2. Press down along the edges of the Lemur.
+3. Check that the edges near the battery are correctly inserted into the unit.
+4. Once the cover is fully snapped into place, ensure all ports are properly aligned.
+
+Replace all screws, including the 3 under the battery. 
+System76 Lemur Service Manual
+14
+
+
+--- Page 16 ---
+
+Replacing the RAM
+RAM acts as temporary storage for your computer. More RAM generally provides better
+performance. If you’ve purchased new RAM, need to replace your RAM, or are reseating
+your RAM, follow these steps.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Low
+Steps to replace the RAM
+1. Follow the steps above to remove the cover.
+2. Press the small tabs on both sides of the RAM simultaneously.
+3. Remove the RAM from the slot.
+4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot
+and pressing down on the RAM until it clicks into place.
+Photo guide for replacing the RAM
+1. Press the tabs indicated in red to release the RAM from the slot.
+
+ 
+System76 Lemur Service Manual
+15
+
+
+--- Page 17 ---
+
+Replacing an M.2/NVMe SSD
+M.2 SSDs offer, at minimum, SATA3 speeds and performance in a package about the
+size of a stick of gum. NVMe M.2 SSDs offer even higher performance. The Lemur
+supports one M.2 SSD, size 2280, either SATA or PCIe Generation 4.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Low
+Steps to replace the M.2 drive
+1. Follow the steps above to remove the cover.
+2. Locate the M.2 drive (or drive slot).
+3. Unscrew the retainer screw opposite the M.2 slot.
+4. Remove the existing M.2 drive by pulling it out of the slot.
+5. Insert the new M.2 drive into the slot and hold it in place.
+6. Replace the retainer screw.
+ 
+System76 Lemur Service Manual
+16
+
+
+--- Page 18 ---
+
+Replacing a 2.5” SSD/HDD
+2.5” drives are available as either SSD (Solid State Drive) or HDD (Hard Disk Drive.) SSDs
+provide much better performance and durability compared to standard HDDs since
+there are no moving parts. Standard HDDs are less expensive and are useful for storage,
+however they are much more fragile.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Low
+Steps to replace the M.2 drive
+1. Follow the steps above to remove the cover.
+2. Locate the 2.5” SSD (or slot).
+3. Remove the existing drive by pulling it up and away from the connector.
+4. Insert the new 2.5” drive.
+5. Ensure the 2.5” drive is secured in the slot and does not move.
+ 
+System76 Lemur Service Manual
+17
+
+
+--- Page 19 ---
+
+Replacing the CPU fan
+If the CPU fan becomes noisy and cleaning it out doesn’t fix the issue, you may need a
+new CPU fan. Contact Support to start a warranty claim or parts purchase.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Low
+Steps to replace the CPU fan
+1. Follow the steps above to remove the cover.
+2. Locate the CPU fan.
+3. Unplug the CPU fan from the motherboard.
+4. Remove the 2 screws holding the CPU fan in place.
+5. Remove the CPU fan.
+6. Insert the new CPU fan.
+7. Replace the 2 screws.
+8. Plug the new CPU fan into the motherboard.
+ 
+System76 Lemur Service Manual
+18
+
+
+--- Page 20 ---
+
+Replacing the CPU heatsink/thermal paste
+In rare cases, or after several years, it may be necessary to apply new thermal paste
+between the CPU and the heatsink. Thermal paste helps facilitate effective heat transfer
+between the CPU and the cooling equipment. These instructions can also be used in the
+unlikely event your heatsink needs replacing.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the CPU heatsink/thermal paste
+1. Follow the steps above to remove the cover.
+2. Locate the CPU heatsink screws.
+3. Remove the screws, starting with #3, then #2, and lastly #1.
+4. Carefully remove the heatsink from the case.
+5. Using a paper towel, remove the existing thermal paste. You may also use a
+small amount of rubbing alcohol to remove excess or difficult-to-remove paste.
+6. After cleaning the CPU and heatsink, apply a small line of thermal paste directly
+onto the CPU core.
+7. Carefully replace the heatsink.
+8. Replace the screws, starting with #1, then #2, and lastly #3. Do not fully tighten
+#1 and #2 until #3 is in place, then fully tighten all screws.
+ 
+System76 Lemur Service Manual
+19
+
+
+--- Page 21 ---
+
+Replacing the CMOS battery
+The CMOS battery supplies power to the Lemur’s CMOS chip. Changes you make to the
+BIOS and the computer’s hardware clock are stored on the CMOS. If your clock is
+constantly resetting, it’s likely your CMOS battery needs replacing.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Low
+Steps to replace the CMOS battery
+1. Follow the steps above to remove the cover.
+2. Locate the CMOS battery.
+3. Gently press the battery towards the CPU fan and pull up on the battery.
+4. Replace the CMOS battery in the slot and press it into place.
+ 
+System76 Lemur Service Manual
+20
+
+
+--- Page 22 ---
+
+Replacing the WiFi/Bluetooth module
+Your Lemur’s WiFi and Bluetooth are both handled with the same module. It is a
+standard M.2 2230 slot with PCIe & USB Interfaces (A Key).
+
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the WiFi/Bluetooth module
+1. Follow the steps above to remove the cover.
+2. Locate the wireless module.
+3. Gently remove the two antennas by pulling them up and away from the wireless
+module.
+4. Remove the retaining screw opposite the M.2 slot.
+5. Remove the wireless module from the slot.
+6. Insert the new wireless module.
+7. Replace the retaining screw.
+8. Attach the two antennas by aligning the circular fitting and pressing onto the
+wireless card. The connector will snap into place. Use caution when attaching
+the connectors, the pins can bend, break, or snap.
+ 
+System76 Lemur Service Manual
+21
+
+
+--- Page 23 ---
+
+BIOS utilities
+When starting your Lemur, it takes a few seconds to conduct a quick check of the
+components. As it proceeds, it will notify you if anything is wrong. Any issues that
+prevent the system from booting will be displayed and you will be prompted to enter the
+Setup. If no problems are detected, your Lemur will load GRUB and then Ubuntu.
+
+For Setup/BIOS, hold F2 while booting.
+For boot options, hold F7 while booting and choose your preferred boot device.
+
+BIOS overview
+The Setup/BIOS utility allows you to make low-level changes to your Lemur. It’s not
+recommended to make changes unless the settings are provided by Support, or if you
+understand what you’re changing.
+
+Main menu
+Option
+Description
+SATA Port #
+Pressing Enter opens the sub-menu to show the
+configuration of a SATA device on the SATA ports.
+OffBoard SATA/NVMe
+Controller Configuration
+Pressing Enter opens the sub-menu to show the
+configuration of any devices on the offboard SATA/NVMe
+controller, if installed.
+System Date/Time
+Set the system date/time using the hardware clock.
+System/Extended
+Memory
+Information on the amount of RAM installed.
+ME FW/
+MB Series/
+BIOS Version/
+KB/EC Firmware Rev.
+Information on the BIOS version(s) and network adapter
+address.
+
+
+
+
+System76 Lemur Service Manual
+22
+
+
+--- Page 24 ---
+
+Advanced
+Option
+Description
+Advanced Chipset
+Control
+Options for VT-d, FlexiCharger, SGX
+> VT-D
+Enable/disable Intel Virtualization Technology for Directed
+I/O. Extends Intel Virtualization Technology (VT) by
+providing hardware assets for virtual hypervisors.
+> FlexiCharger
+The sub-menu here allows you to enable/disable the
+FlexiCharger. The FlexiCharger can be set to automatically
+start charging your battery when the battery reaches
+a certain capacity level (e.g. you could start the battery
+charge level at 40%).
+
+You can then set the level to stop charging (e.g. 100%), but
+the stop charge level must be higher than the start charge
+level. It is not recommended to enable FlexiCharger for
+extended periods of time.
+> SW Guard Extensions
+(SGX)
+Enable or disable Intel SGX (Software Guard Extensions.)
+SATA Mode
+The SATA (Serial ATA) controller is designed to operate in
+AHCI (Advanced Host Controller Interface) mode only.
+Power on boot beep
+Enable/disable a beep as the computer starts up.
+Battery low alarm beep
+Enable/disable a beep when the battery is critically low.
+Security
+Option
+Description
+Set Supervisor
+Password
+Sets a password for the Setup Utility. This does not affect
+access to the computer or Ubuntu, only the BIOS.
+Set User Password
+Sets a password for the Setup Utility. This does not affect
+access to the computer or Ubuntu, only the BIOS.
+Password on Boot
+Specify whether or not a password should be entered to
+boot the computer. If “Enabled” is selected, only users who
+enter a correct password can boot the system. The
+password cannot be reset or cleared if forgotten.
+System76 Lemur Service Manual
+23
+
+
+--- Page 25 ---
+
+
+
+Updating the BIOS
+BIOS updates and instructions are sent out as needed. System76 will notify you if a
+BIOS update is available for your Lemur. 
+System76 Lemur Service Manual
+24
+
+
+--- Page 26 ---
+
+Specifications
+
+Component
+Specification
+Processors
+Intel® CoreTM i7-7500U (2.7GHz)
+4MB Smart Cache, 14nm (14 Nanometer),
+DDR4-2133MHz, TDP 15W
+
+Intel® CoreTM i3-7100U (2.4GHz)
+3MB Smart Cache, 14nm (14 Nanometer),
+DDR4-2133MHz, TDP 15W
+Display
+14.0” / 35.56cm
+FHD (1920 *1080),16:9 3.0mm Thick Backlit Panel
+Memory
+Dual Channel DDR4
+
+Two 260 Pin SO-DIMM Sockets
+Supporting DDR4 2133 MHz Memory
+Modules (real operational frequency
+depends on the FSB of the processor)
+
+Memory Expandable up to 32GB
+Compatible with 4GB, 8GB or 16GB
+Modules
+Graphics
+Intel® HD Graphics 620
+Dynamic Frequency
+Intel Dynamic Video Memory Technology
+
+Storage
+One Changeable 2.5" / 7.0 mm (h) HDD/
+SSD with SATA (Serial) Interface
+
+One M.2 SSD 2280, SATA/PCIe Gen 3*4
+Interface
+Audio
+High Definition Audio Interface
+Built-In Microphone
+2 * Built-In Speakers
+
+
+System76 Lemur Service Manual
+25
+
+
+--- Page 27 ---
+
+Component
+Specification
+Touchpad & Keyboard
+ClickPad with Multi-
+Gesture and Scrolling Functionality
+
+A4 Size Isolated Keyboard
+Webcam
+1.0M HD Video Camera Module with
+USB interface
+Interfaces
+One USB 2.0 Port
+One USB 3.0 (USB 3.1 Gen 1) Port (Type-A)
+One USB 3.0 (USB 3.1 Gen 1) Port (Type-C)
+One External Monitor Port
+One HDMI-Out (High-Definition
+Multimedia Interface) Port (with HDCP)
+One Microphone-In Jack
+One RJ-45 LAN Jack
+One DC-In Jack
+One Headphone-Out Jack
+Card reader
+Embedded Multi-In-1 Card Reader
+- MMC/ RS MMC
+- SD/ Mini SD / SDHC/ SDXC
+
+Note: Some high-speed SD cards (Class 10) may not work
+with the Lemur’s SD card reader.
+M.2 Slots
+Two M.2 Card Slots:
+
+Slot 1 for M.2 2230 WLAN Combo Module
+with PCIe & USB Interfaces (A Key)
+
+Slot 2 for SSD M.2 2280 Card with SATA
+/ PCIe Gen 3*4 Interface (M Key)
+Network
+Built-In 10/100/1000Mb Base-TX Ethernet LAN
+
+Intel® Dual Band Wireless-AC 8265
+(2*2 802.11 a/c) WLAN + Bluetooth M.2
+2230 Combo Module (867Mbps)
+
+Intel® Dual Band Wireless-AC 3168
+(1*1 802.11 a/c) WLAN + Bluetooth M.2
+2230 Combo Module (433Mbps)
+System76 Lemur Service Manual
+26
+
+
+--- Page 28 ---
+
+
+Component
+Specification
+Power and battery
+Full Range AC/DC Adapter
+AC input 100 - 240V, 50 - 60Hz,
+DC Output 19V, 2.1A (40 Watts)
+
+Embedded 4 Cell Smart Lithium Ion
+Battery Pack 44WH
+Security
+Security (Kensington® Type) Lock Slot
+BIOS Password
+Trusted Platform Module 2.0 (disabled by default)
+Operating System
+Ubuntu Linux
+Indicators
+LED Indicators - Power/Suspend, Battery, HDD, Airplane
+Mode, Camera
+Environmental
+Temperature
+Operating: 5°C - 35°C
+Non-operating: -20°C - 60°C
+
+Relative humidity
+Operating: 20% - 80%
+Non-operating: 10% - 90%
+Dimensions & Weight
+13.4″ × 9.5″ × 0.9″
+340mm(w) * 243.5mm(d) * 22.2mm(h)
+(Height excluding battery area)
+3.6lbs / 1.6kg base weight, varies with configuration.
+
+
+System76 Lemur Service Manual
+27
+
+

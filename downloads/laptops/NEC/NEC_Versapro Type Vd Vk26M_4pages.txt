@@ -1,0 +1,315 @@
+Brand: NEC
+Model: Versapro Type Vd Vk26M
+URL: https://www.manua.ls/nec/versapro-type-vd-vk26m/manual
+Total Pages: 4
+============================================================
+
+--- Page 1 ---
+853-811141-009-A 
+    
+*811141009A* 
+1 
+重要保管  本紙は、ご覧いただいた後も大切に保管してください。 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+本機には、本機添付の「マイクロソフト  ソフトウェア  ライセンス条項」をお読みになったお客様からのご依頼により、
+弊社がお客様のかわりに Windows 7  をプリインストールしています。 
+ 
+◆Windows 7 の再セットアップについて                                   
+本機では、システムが正常に起動できなくなったときなど、ハードディスク(または SSD)の C ドライブの内容を 
+ご購入時の状態に戻す方法として、ハードディスク(または SSD)内の再セットアップ用データを使用して再セット
+アップする方法と「再セットアップ用ディスク」(再セットアップ用の DVD)を使用して再セットアップする方法があり
+ます。 
+ 
+「再セットアップ用ディスク」は、別途購入することができます。 
+また、DVD-R に書き込み可能なドライブを搭載したモデルをお使いの方は、1 回に限り、再セットアップ用データ
+を市販のメディアに書き込み、「再セットアップ用ディスク」を作成することができます。 
+ただし、セレクションメニューで「再セットアップ用ディスク」を選択した場合や、一度も「再セットアップ用ディスク」
+を作成していなくても、「PC98-NX シリーズ  メディアオーダーセンター」で購入した「再セットアップ用ディスク」で
+再セットアップした後では作成できません。 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ハードディスク(または SSD)の故障などに備え、「再セットアップ用ディスク」を作成しておくこ とをおすすめします。 
+なお、「再セットアップ用ディスク」を作成後も再セットアップ用データの保存されていた領域を削除することはできま
+せん。 
+ 
+
+ 
+「再セットアップ用ディスク」の作成機能については、出荷時の製品構成でのみサポートしてお
+り、アプリケーションのインストール、Service Pack の変更、および Roxio Creator LJB のアップ
+デートをする前に行ってください。 
+ 
+  本機で再セットアップ用ディスクを作成する際、必要な媒体、枚数は次の通りです。 
+それ以外の媒体では「再セットアップ用ディスク」は作成できません。 
+ 
+■Mate / Mate J（MK27E/B-H,MJ27E/B-H,MK27E/L-H,MJ27E/L-H を除く）、 
+VersaPro  / Versa Pro  J 
+DVD-R DL  ：  1  枚  または 
+DVD-R  ：  2  枚 
+ 
+■Mate / Mate J（MK27E/B-H,MJ27E/B-H,MK27E/L-H,MJ27E/L-H） 
+＜Windows 7 Professional 64 ビットの場合＞ 
+DVD-R DL  ：  1  枚  または 
+DVD-R  ：  2  枚 
+＜Windows 7 Professional 32 ビットの場合＞ 
+DVD-R DL  ：  作成できません 
+DVD-R  ：  1  枚 
+ 
+ 
+ 
+ 
+本機をお使いの方へ 
+Windows
+®
+ 7 Professional 64 ビット  with Service Pack 1 (SP1)（Windows
+®
+ 8.1 Pro ダウングレード） 
+Windows
+®
+ 7 Professional 32 ビット  with Service Pack 1 (SP1)（Windows
+®
+ 8.1 Pro ダウングレード）
+
+--- Page 2 ---
+2 
+ 
+◆OS の切り替えについて                                   
+本機は、別途ライセンスをご購入することなく Windows 8.1  を使用することができます。 
+使用する OS を切り替える(Windows 7 から Windows 8.1、または Windows 8.1 から Windows 7)場合は、BIOS 
+セットアップユーティリティの設定を工場出荷設定に戻した後に、次のように変更してください。 
+ 
+設定を変更しない状態で OS 切り替えを行った場合、正常に動作しない場合があります。弊社では設定を変更して
+いな い環境での OS 切り替え、及び OS 動作をサポートしておりません。 
+Windows 7  にダウングレードしたシステムは、システム設定をレガシーBIOS モードに変更してあります。 
+もし、システム設定をネイティブ UEFI モードに変更せずに Windows 8.1 をインストールした場合、少なくとも
+UEFI モードを必要とする下記の Windows 8.1 機能は正常に動作しません。 
+ 
+-  セキュアブート 
+-  BIOS と OS のシームレスな PC 起動 
+-  BitLocker によるシステムの TPM を使用したネットワークアンロック 
+-  eDrive サポート 
+ 
+なお、Security の設定は Boot の項目を変更した後に設定してください。 
+Windows 8.1 をインストールする場合は、必ず下記の通りシステム設定を変更してください。 
+OS の切り替え方法(再インストール方法)については、本機添付の『再セットアップガイド』(853-810602-455-A)を 
+ご覧ください。 
+ 
+ 
+■VersaPro / VersaPro J (タイプ VD、タイプ VX、タイプ VL、タイプ VA) 
+ 
+ 
+Windows 7→Windows 8.1 
+Windows 8.1→W indows 7 
+Boot 
+ 
+Boot Mode 
+UEFI 
+Legacy 
+Boot Priority Order
+の一番目
+ 
+HDD (*2) 
+CD/DVD (*1) 
+ 
+Security 
+ 
+Secure Boot Option 
+ 
+Secure Boot 
+Enabled (*3) 
+－
+ 
+ 
+Install Default Secure Boot Keys 
+Install 
+－
+ 
+ 
+(*1) CD レスモデルの場合は、USB CD / DVD にしてください 
+(*2) SSD モデ ルの場合は、SSD にしてください
+ 
+(*3)変更できない場合は、「Install Default Secure Boot Keys」を「Install」に変更し、【F10】(保存 ・ 終了)してから、
+本設定を変更してください
+ 
+ 
+ 
+ 
+■VersaPro / VersaPro J (
+タイプ VF) 
+ 
+ 
+Windows 7→Windows 8.1 
+Windows 8.1→W indows 7 
+Boot 
+ 
+Boot Mode 
+UEFI 
+Legacy Support (*1) 
+Boot Device Priority
+の最上位
+ 
+－
+ 
+SATA ODD (*1) 
+ 
+Security 
+ 
+Secure Boot 
+Enabled 
+－
+ 
+Restore Factory Keys (*2) 
+Enter 
+－
+ 
+ 
+(*1) 「Boot Mode」を変更し、【F10】(保存 ・ 終了)してから、「Boot Device Priority」の設定を変更してください 
+(*2) 「Restore Factory Keys」で【Enter】を押してください
+
+--- Page 3 ---
+3 
+ 
+■Mate / Mate J(タイプ ME) 
+ 
+ 
+Windows 7→Windows 8.1 
+Windows 8.1→Windows 7 
+Boot 
+ 
+Boot Mode 
+UEFI 
+Legacy 
+ 
+Launch CSM 
+Never 
+－
+ 
+ 
+1st Boot 
+－
+ 
+CD/DVD (*1) 
+ 
+ 
+ 
+Security 
+ 
+Secure Boot 
+Enabled 
+－
+ 
+ 
+(*1) CDレスモ デルの 場合は、USB CD / DVD にしてください 
+ 
+ 
+ 
+■Mate / Mate J(タイプ MB、ML（MK27E/B-H,MJ27E/B-H,MK27E/L-H,MJ27E/L-H を除く）) 
+ 
+ 
+Windows 7→Windows 8.1 
+Windows 8.1→Windows 7 
+Exit 
+ 
+OS Optimized Defaults 
+Enabled 
+Disabled 
+ 
+ 
+ 
+■Mate / Mate J (タイプ MG、タイプ MB、ML（MK27E/B-H,MJ27E/B-H,MK27E/L-H,MJ27E/L-H）)、 
+VersaPro / VersaPro J (UltraLite タイプ VC、UltraLite  タイプ VG) 
+ 
+ 
+Windows 7→Windows 8.1 
+Windows 8.1→W indows 7 
+Boot 
+ 
+Boot Mode 
+UEFI 
+Legacy 
+Launch CSM (*1) 
+Never 
+－
+ 
+1st Boot 
+－
+ 
+CD/DVD (*2) 
+ 
+ 
+ 
+Security 
+ 
+Secure Boot 
+Enabled 
+－
+ 
+ 
+(*1) タイプ MB、タイプ ML のみ 
+(*2) USB接続の光学ドライブの場合は、USB
+ 
+CD/DVD にしてください
+
+--- Page 4 ---
+4 
+ 
+ 
+◆Windows 8.1 の再セットアップについて                                   
+本機では、システムが正常に起動できなくなったときなど、ハードディスク(または SSD)の C ドライブの内容を 
+ご購入時の状態に戻す方法として、「再セットアップ用ディスク」(再セットアップ用の DVD)を使用して再セットアップ
+する方法があります。 
+再セットアップ方法についての詳細（手順、注意事項など）、または「再セットアップ用ディスク」 の購入方法については、
+Windows 8.1  用の『再セットアップガイド』(853-810602-454-A)をご覧ください。 
+ 
+なお、本製品には Windows 8.1  用の『再セットアップガイド』は添付されておりません。 
+「電子マニュアルビューア」にて閲覧することが可能です。 
+ 
+電子マニュアルビューア 
+http://121ware.com/support/e-manual/ 
+ 
+◆Windows 8.1 再インストール後の注意                                   
+  Windows 8.1  の再インストール後は、本製品に添付されていた Windows 7 用の「アプリケーションディスク」
+はご利用になれません。Windows 8.1  用の「アプリケーションディスク」をご利用ください。 
+ 
+  再度 Windows 7 を利用する場合は、前述の「◆OS の切り替えについて」をご覧になり、BIOS セットアップ
+ユーティリティの設定を変更してから、「再セットアップ用ディスク」を使用して「標準再セットアップする(  強く推
+奨  )」を選択してください。 
+Windows 7  の再インストール方法については、本機添付の『再セットアップガイド』の「
+□
+1  Windows 7  を再
+セットアップする」をご覧ください。
+

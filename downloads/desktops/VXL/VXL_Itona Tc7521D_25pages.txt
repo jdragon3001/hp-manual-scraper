@@ -1,0 +1,615 @@
+Brand: VXL
+Model: Itona Tc7521D
+URL: https://www.manua.ls/vxl/itona-tc7521d/manual
+Total Pages: 25
+============================================================
+
+--- Page 1 ---
+Itona TC7521d 
+Hardware User Guide
+
+--- Page 2 ---
+Copyright © 2004-2013 VXL Instruments Limited. All Rights Reserved 
+Information in this document is subject to change without notice and does not represent a 
+commitment on the part of the manufacturer. No part of this guide may be reproduced or 
+transmitted in any form or means, electronic or mechanical, including photocopying and 
+recording, for any purpose, without the express written permission of the manufacturer. 
+Every effort has been made to make this guide as complete and as accurate as possible, but 
+no warranty or fitness is implied. The authors and the publisher shall have neither 
+responsibility nor liability to any person or entity with respect to loss or damages arising from 
+the use of information contained in this guide. This disclaimer does not apply in countries 
+where such provisions are inconsistent with local law. 
+All Trademarks are acknowledged. 
+ 
+Last Updated: August, 2013. 
+Version: ITC7521d/UG-32-13.  
+ 
+VXL Instruments Ltd., 
+House of Excellence, 
+No. 17, Electronics City, 
+Hosur Road, 
+Bangalore
+– 560 100, INDIA. 
+www.vxl.net
+
+--- Page 3 ---
+i  Federal Communication Commission (FCC) Statement  
+Federal Communication Commission 
+(FCC) Statement 
+This equipment has been tested and found to comply with the limits for a Class B digital 
+device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide 
+reasonable protection against harmful interference in a residential installation. This 
+equipment generates, uses, and can radiate radio frequency energy and, if not installed and 
+used in accordance with the instructions, may cause harmful interference to radio 
+communications. However, there is no guarantee that interference will not occur in a 
+particular installation. 
+If this equipment does cause harmful interference to radio or television reception, which can 
+be determined by turning the equipment Off and On, the user is encouraged to try to correct 
+the interference by one or more of the following measures: 
+•  Reorient or relocate the receiving antenna. 
+•  Increase the separation between the equipment and receiver. 
+•  Connect the equipment to an outlet on a circuit different from that to which the receiver is 
+connected. 
+•  Consult the dealer or an experienced radio/television technician for help. 
+Each Thin Client is equipped with a FCC compliance label that shows only the FCC 
+identification number. The full information of the associated label is as follows: 
+This device complies with Part 15 of the FCC rules. Operation is subject to the following two 
+conditions: 
+1.  This device may not cause harmful interference. 
+2.  This device must accept any interference received, including interference that may cause 
+undesired operation. 
+Battery Information 
+Batteries, battery packs, and accumulators should not be disposed together with the general 
+household waste. In order to forward them to recycling or proper disposal, please use the 
+public collection system for electronic waste in your country.
+
+--- Page 4 ---
+Regulatory Certifications   ii 
+Regulatory Certifications
+
+--- Page 5 ---
+iii  Table of Contents  
+Table of Contents 
+Federal Communication Commission (FCC) Statement  i 
+Battery Information  i 
+Regulatory Certifications  ii 
+1  Introduction  1 
+Features  1 
+Optional Features  2 
+About the User Guide  2 
+Abbreviations and Acronyms  2 
+Chapters in the Manual  3 
+2  Installation  5 
+Unpacking the Unit  5 
+Installing the Itona Universal Wall Mounting Bracket  5 
+Preparing to Connect  5 
+Connecting the Cables and Power Supply  6 
+Connecting to the Server  8 
+3  Specifications  9 
+Hardware  9 
+Mechanical  9 
+Product Dimensions  10 
+Package Contents  11 
+Operating Environment  11 
+Electrical  11 
+4  Troubleshooting  13 
+Appendix  14
+
+--- Page 6 ---
+1  Introduction  
+1  Introduction 
+Thin Clients are terminal devices that connect to multi-user application servers operating 
+under Citrix XenDesktop, XenApp, VMware View connection server and Windows 2003/2008 
+terminal servers. 
+This guide covers installation procedure and hardware details of Itona TC7521d. 
+ 
+Figure 1-1: Itona TC7521d Front View  
+Itona TC7521d delivers smart and robust solutions for thin client computing. Itona TC7521d is 
+an aesthetically and ergonomically designed compact desktop, providing simultaneous  
+full screen connectivity to Windows and UNIX application servers, it is a powerful business 
+alternative to users using Win32 applications while continuing access to legacy UNIX 
+applications. 
+Itona TC7521d communicates with application servers via the ICA protocol developed by 
+Citrix Systems Inc., Remote Desktop Protocol from Microsoft and a host of other popular 
+connectivity protocols. 
+Features 
+The product is equipped with a 10/100/1000 Ethernet port that gives an instant connection to 
+a multi-user Windows NT application server. Display Port, VGA, DVI-I, USB and PS/2 
+compatible keyboard/Mouse ports are available for quick set up and use. 
+1. Power Button. 
+2. Two USB Ports 
+ 1 
+ 2
+
+--- Page 7 ---
+Introduction   2 
+Optional Features  
+The optional features available for Itona TC7521d are listed below: 
+•  Power cord applicable to your country 
+•  Pedestal 
+Note: Please contact the reseller or dealer from whom you purchased the product for 
+information about the optional features. 
+About the User Guide 
+This User Guide provides step by step instructions to install Itona TC7521d. The 
+specifications and troubleshooting steps are also included in this User Guide. 
+Abbreviations and Acronyms 
+Abbreviation  Expansion 
+AC  Alternating Current 
+DC  Direct Current 
+DP  Display Port 
+DVI-I  Digital Visual Interface (Digital and Analog) 
+DVI-D   Digital Visual Interface (Digital) 
+LAN  Local Area Network 
+LED  Light Emitting Diode 
+TCP/IP  Transmission Control Protocol/Internet Protocol 
+USB  Universal Serial Bus 
+VESA  Video Electronics Standards Association 
+VGA  Video Graphics Array
+
+--- Page 8 ---
+3  Introduction  
+Chapters in the Manual 
+Chapter No  Chapter Name  Description 
+1  Introduction   Contains an overview of the product, 
+information about this guide and 
+abbreviations used in this guide. 
+2  Installation   Contains the procedure to set up the 
+hardware. 
+3  Specifications  Contains hardware, mechanical, electrical, 
+interface and operating environment 
+specifications 
+4  Troubleshooting  Contains solutions to problems that you 
+may encounter while using the product. 
+—  Appendix  Contains detailed specifications for 
+connectors and cables used with the 
+product. 
+Warning  
+•  Any changes or modifications not expressly approved by the party responsible for 
+compliance could void the user's authority to operate this equipment. 
+•  There are no user serviceable parts inside. Do not open enclosure, hazardous 
+voltages present in the equipment’s components. Do not disassemble the equipment 
+as this can nullify your warranty. 
+•  This equipment must be connected to an earthed three pin socket to avoid electrical 
+shocks. 
+•  As a precaution, the AC socket outlet should be near the equipment and should be 
+easily accessible. 
+•  Sound Power Level is less than 23dB (A), when measured according to ISO 7779. 
+ 
+Caution 
+•  Ensure that all expansion slots (on the back or side of the client) are covered with 
+metal retaining brackets, and tightly attached to the computer cabinet. 
+•  Only equipment certified to comply with Class B (computer input/output devices, 
+terminals, printers etc.) should be connected to this equipment, and must have 
+shielded interface cables. 
+•  This equipment should not be used in electro-medical applications. 
+•  Do not operate this equipment in corrosive or explosive atmosphere. 
+•  Replace the battery only with the same or equivalent type recommended by the 
+manufacturer. 
+•  Do not operate this equipment beyond temperature limits provided in the  
+‘Operating Environment’ section on page 10.
+
+--- Page 9 ---
+Introduction   4 
+•  Excessive sound pressure from earphones and headphones can cause hearing loss. 
+Adjustment of the equalizer to maximum increases the earphones and headphones 
+output voltage and therefore the sound pressure level.
+
+--- Page 10 ---
+5  Installation  
+2  Installation 
+To install the Itona TC7521d hardware, perform the following steps: 
+1.  Unpack the unit. 
+2.  Install the Itona Universal Wall Mounting Bracket – Sliding Type. 
+3.  Prepare to connect. 
+4.  Connect the cables and power supply. 
+5.  Connect to the server.  
+Each step is explained in the following sections of this chapter. 
+Unpacking the Unit 
+Unpack the unit from its carton box, handle safely to ensue you do not damage any 
+components during unpacking.  
+The carton contains the following: 
+•  Itona TC7521d Thin Client  
+•  Itona Universal Wall Mounting Bracket - Sliding Type  
+•  Power Cord – Y Cable  
+•  DVI-I Splitter Cable (Provides DVI–D and Primary VGA) 
+•  Hardware Installation Guide 
+Note: Please retain the original carton and packing material for future use.  
+Installing the Itona Universal Wall Mounting Bracket 
+You have to install the thin client in the wall mounting bracket before you can connect and 
+use it. For information on assembling and installing the wall mounting bracket, refer to the 
+wall mounting bracket installation document in the following FTP link: 
+ftp.vxl.net/Documentation/ 
+Note: Use the user name and password provided by VXL Instruments to access the FTP 
+server mentioned above. 
+Preparing to Connect 
+Ensure that the following are available before you install the product: 
+•  100~240 V AC, 1.5 A, 50/60 Hz, 3-pin grounded power inlet. 
+Note: Ensure that the power inlet plug is regulated and earthed. A floating 
+ground/chassis could cause an electric shock. 
+•  Well ventilated, clean, dry and dust free place to install the product.
+
+--- Page 11 ---
+Installation   6 
+•  Environmental conditions mentioned in section ‘Operating Environment’ section on page 
+10. 
+•  Sufficient place to install the wall mounting bracket. For more information about the 
+dimensions of the product with the wall mounting bracket, refer to ‘Mechanical’ on page 
+9. 
+Connecting the Cables and Power Supply 
+The various connectors available on the rear panel of the client and the DVI-I splitter cable is 
+shown in Figure 2. 
+ 
+Figure 2-1: Itona TC7521d Rear View and DVI-I Splitter Cable 
+1. LPT Port  
+2. COM Port 1 
+3. COM Port 2  
+4. Secondary VGA Port 
+5. Mic 
+6. Ethernet Port 
+7. Four USB Ports 
+8. Display Port 
+9. DVI-I Female Port 
+10. PS/2 Mouse Port 
+11. PS/2 Keyboard Port 
+12. Audio Out Port 
+13. AC Power Out  
+14. AC Power In 
+15. DVI-D Port 
+16. Primary VGA Port 
+17. DVI-I Male Port 
+ 
+1 
+6 
+7 
+9 
+10 
+11 
+2 
+3 
+12 
+13 
+4 
+5 
+14 
+8 
+16 
+15 
+17
+
+--- Page 12 ---
+7  Installation  
+Connectors  Connector Symbol 
+ 
+VGA Port 
+ 
+DVI-I Port  
+ 
+USB Port 
+ 
+ 
+Audio Out Port 
+ 
+Mic Port 
+ 
+Display Port 
+ 
+PS/2 Keyboard Port 
+
+ 
+PS/2 Mouse Port 
+ 
+COM Port  
+1
+ 
+ Ethernet Port (RJ45) 
+ 
+Table 1: Connector Symbols 
+Note: Before connecting any cable, ensure that the power cable is unplugged from the 
+unit.  
+Refer to the connector symbols provided in ‘Table 1: Connector Symbols’ to connect the 
+cables to the correct port. Connect the cables and power supply to the unit in the following 
+order: 
+1.  Connect PS/2 keyboard to the PS/2 Keyboard Port. 
+2.  Connect PS/2 mouse to the PS/2 Mouse Port. 
+3.  Connect the USB devices to the USB Ports. 
+4.  Connect a single monitor or dual monitors based on your requirement. Following are the 
+ways in which you can connect the monitors: 
+a)  To connect a single monitor, connect your monitor to Secondary VGA or  
+Primary VGA or DVI-I port.
+
+--- Page 13 ---
+Installation   8 
+b)  To connect two VGA monitors, connect one VGA monitor to Primary VGA and the 
+other monitor to Secondary VGA port.  
+c)  To connect a DVI monitor and a VGA monitor, connect the DVI monitor to the DVI-D 
+port and the VGA monitor to the Primary VGA port. 
+ Caution: Do not connect DVI-D and Secondary VGA monitors at the same time. 
+5.  Connect the external powered speakers to the Audio Out port. 
+6.  Connect the microphone to the Mic port. 
+7.  Connect serial devices to the COM ports. 
+8.  Connect the LAN cable to the RJ45 Ethernet Port. 
+9.  Connect the AC power adapter to the AC Power In. 
+ Caution: Ensure that the COM1, COM2, DVI-I and VGA ports are adequately 
+fastened with the screws provided with the cables. 
+Connecting to the Server 
+The Thin Client can be physically connected to the server/network by using a LAN connection 
+through TCP/IP. 
+To connect the client to a Local Area Network through TCP/IP. 
+1.  Connect one end of a 10/100/1000 cable to the Ethernet Port in the client. 
+2.  Connect the other end to a LAN hub as shown in Figure 3. 
+ 
+Figure 2-2: LAN Connection through TCP/IP  
+3.  Press the power button to switch on the Itona TC7521d. The front panel LED lights up 
+and you will hear a beep. Subsequently, the application start-up screen appears.
+
+--- Page 14 ---
+9  Specifications  
+3  Specifications 
+Hardware 
+Processor  VIA Eden U4200 Dual Core 1 GHz 
+VGA Memory  Default 256 MB (Adjustable in the range of 32 to 512 MB) 
+Flash  SSD 22 Pin 
+RAM  1 GB ~ 4 GB DDR3 1066 MHz 
+Network  10/100/1000 Mbps 
+Maximum Display resolution  Secondary VGA: 1680 x 1050 
+DVI-I: 1920 x1200 
+DVI-I to DVI-D and Primary VGA Splitter Cable: 1920 x 1200 
+DP: 2048 x 1536  
+Power Supply  Internal Power Supply  
+Mechanical 
+Weight with sliding type wall bracket: 
+Height  288 mm 
+Width  71 mm 
+Depth  310 mm 
+Weight  4.5 Kg Approx
+
+--- Page 15 ---
+Specifications   10 
+Product Dimensions 
+Product dimension with sliding type wall bracket                                    Packed Unit dimension  
+ 
+288 mm (H), 71 mm (W), 310 mm (D)                                   155 mm (H), 360 mm (W), 385 mm (D) 
+       Net weight: 4.5 Kg approx                                                      Gross weight: 6.0 Kg approx
+
+--- Page 16 ---
+11  Specifications  
+Package Contents 
+The contents of the package are shown below: 
+ 
+3-1: Package Contents 
+Operating Environment  
+Operating temperature  + 5
+o 
+C to +40
+o 
+C 
+Storage temperature  - 20
+o 
+C to +65
+o 
+C 
+Humidity  20% to 80% RH non-condensing 
+Electrical  
+Line Voltage  100 V to 240 V AC (+6, -10%) 
+Line Frequency  50/60 Hz 
+Power  50 W max
+
+--- Page 17 ---
+Specifications   12 
+Power Consumption  Idle State: 10.5 W 
+Sleep Mode: 0.5 W 
+Power Inlet  1.5A, 3-pin power plug (IEC 320 C13) 
+Power Outlet  3-pin power socket (IEC 320 C14) 
+Note: 
+For Devices up to 0.30 A max, 100 V AC~50/60 Hz. 
+For Devices up to 0.12 A max, 240 V AC~50/60 Hz. 
+MTBF  > 50,000 Hours
+
+--- Page 18 ---
+13  Troubleshooting  
+4  Troubleshooting 
+This chapter contains solutions for problems you may encounter while using the product.  
+Problem  Solution 
+The power-LED on front panel 
+does not glow when the client 
+is switched on. 
+  Ensure that the power cord is plugged into an  
+AC outlet. 
+  Check the fuse in the power-plug, if available. 
+There is no display on the 
+monitor, though the power-
+indicating LED glows. 
+  Ensure that the video cable is properly 
+connected. 
+The mouse (or keyboard) does 
+not work when the client is 
+switched on. 
+  Ensure that the mouse (or keyboard) is plugged 
+into the correct PS/2 port.
+
+--- Page 19 ---
+Appendix  14 
+Appendix  
+Connectors 
+The following section provides pin details for various connectors on the rear panel of the 
+client.  
+COM Port 
+9-pin D-type male connector, RS232C compatible, operating at 115.2 K baud maximum. 
+ 
+Pin   Signal  Description 
+1   DCD  Data Carrier Detect 
+2   RxD  Receive Data 
+3   TxD  Transmit Data 
+4   DTR  Data Terminal Ready 
+5   GND  Signal Ground 
+6   DSR  Data Set Ready 
+7   RTS  Request To Send 
+8   CTS  Clear To Send 
+9   NC  Not Connected
+
+--- Page 20 ---
+15  Appendix 
+Printer Port (Parallel) 
+25-pin D-type female connector. ECP/EPP compatible. 
+ 
+ 
+Pin   Signal 
+1  STROBE 
+2-9  DATA 0-7 
+10  ACKOWLEDGE 
+11  BUSY 
+12  PAPER END 
+15  ERROR 
+18-25  GROUND
+
+--- Page 21 ---
+Appendix  16 
+Video Port 
+15-pin D-type female connector. 
+ 
+Pin  Signal    Pin  Signal 
+1  Red 
+ 
+9  No Connection 
+2  Green 
+ 
+10  No Connection 
+3  Blue 
+ 
+11  No Connection 
+4  No Connection 
+ 
+12  No Connection 
+5  GND 
+ 
+13  Horizontal Sync 
+6  Red return GND 
+ 
+14  Vertical Sync 
+7  Green return GND 
+ 
+15  No Connection
+
+--- Page 22 ---
+17  Appendix 
+Display Port 
+20 pin port with 1.62, 2.7, or 5.4 Gbit/s data rate per lane; 1, 2, or 4 lanes; 1 Mbit/s or 720 
+Mbit/s for the auxiliary channel.  
+ 
+ 
+Pin  Signal    Pin  Signal   
+1  Lane 0 (positive) 
+ 
+11  Ground 
+ 
+2  Ground 
+ 
+12  Lane 3 (negative) 
+ 
+3  Lane 0 (negative) 
+ 
+13  Connected to Ground 
+ 
+4  Lane 1 (positive) 
+ 
+14  Connected to Ground 
+ 
+5  Ground 
+ 
+15  Auxiliary Channel (Positive) 
+ 
+6  Lane 1 (negative) 
+ 
+16  Ground 
+ 
+7  Lane 2 (positive) 
+ 
+17  Auxiliary Channel (Negative) 
+ 
+8  Ground 
+ 
+18  Hot Plug Detect 
+ 
+9  Lane 2 (negative) 
+ 
+19  Return for Power 
+ 
+10  Lane 3 (Positive) 
+ 
+20  Power for connector (3.3 V 500 mA)
+
+--- Page 23 ---
+Appendix  18 
+DVI-I Port 
+Pin C1 to C5 carry the analogue signal.24+ 5 pin DVI Connector. 
+ 
+Pin  Signal    Pin  Signal    Pin  Signal 
+ 1  TMDS Data 2-    11  TMDS Data 1/3 
+Shield 
+  21  TMDS Data 5+ 
+ 2  TMDS Data 2+    12  TMDS Data 3-    22  TMDS Clock 
+Shield 
+ 3  TMDS Data 2/4 
+Shield  
+  13  TMDS Data 3+    23 
+TMDS Clock + 
+4  TMDS Data 4-    14  +5 V Power    24  TMDS Clock - 
+5  TMDS Data 4+    15  Ground(for+5V)    C1  Analog Red 
+6  DDC Clock    16  Hot Plug Detect    C2  Analog Green 
+7  DDC Data      17  TMDS Data 0-    C3  Analog Blue 
+8  Analog Vertical 
+Sync 
+   18 
+TMDS Data 0+ 
+  C4  Analog Horizontal 
+Sync 
+9  TMDS Data 1-    19 
+TMDS Data 0/5 
+Shield 
+  C5  Analog Ground 
+(analog R, G &  
+B return) 
+10  TMDS Data 1+    20  TMDS Data 5-
+
+--- Page 24 ---
+19  Appendix 
+10/100/1000 Ethernet LAN Port 
+RJ-45 modular 8-pin jack. 10/100/1000 Mbps. 
+ 
+Pin  Signal 
+1  TxD+ 
+2  TxD- 
+3  RxD+ 
+6  RxD- 
+ 
+PS/2 Mouse/Keyboard Port 
+Mouse/Keyboard connector 
+ 
+Pin   Signal 
+ 
+Pin  Signal 
+ 1  Mouse / KBD data 
+ 
+ 4  VCC 
+ 2  NC 
+ 
+ 5  Mouse / KBD Clock 
+ 3  GND 
+ 
+ 6  NC 
+ 
+Audio  Port 
+Line Out/Mic ports. 
+Standard audio jacks.
+
+--- Page 25 ---
+Appendix  20 
+USB Port 2.0 
+4-pin series-A receptacle. 6 ports. 
+ 
+Pin  Signal 
+1  VCC 
+2  D- 
+3  D+ 
+4  GND
+

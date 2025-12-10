@@ -1,0 +1,633 @@
+Brand: ADVANTECH
+Model: Epc U2000
+URL: https://www.manua.ls/advantech/epc-u2000/manual
+Total Pages: 28
+============================================================
+
+--- Page 2 ---
+EPC-U2000 用戶手冊 ii
+Copyright/ 版權聲明
+The  documentation  and  the  software  included  with  this  product  are
+copyrighted 2020 by Advantech Co., Ltd. All rights are reserved. Advantech
+Co., Ltd. reserves the right to make improvements in the products described
+in  this  manual  at  any  time  without  notice.No  part  of  this  manual  may  be
+reproduced, copied, translated or transmitted in any form or by any means
+without  the  prior  written  permission  of  Advantech  Co.,  Ltd.  Information
+provided in this manual is intended to be accurate and reliable. However,
+Advantech  Co.,  Ltd.  assumes  no  responsibility  for  its  use,  nor  for  any
+infringements of the rights of third parties, which may result from its use.
+隨附本產品發行的檔為研華公司 2020 年版權所有，並保留相關權利。針對本手冊中
+相關產品的說明，研華公司保留隨時變更的權利，恕不另行通知。未經研華公司書面
+許可，本手冊所有內容不得通過任何途徑以任何形式複製、翻印、翻譯或者傳輸。本
+手冊以提供正確、可靠的資訊為出發點。但是研華公司對於本手冊的使用結果，或者
+因使用本手冊而導致其他協力廠商的權益受損，概不負責。 
+Acknowledgements/ 認可聲明
+Intel® and Pentium® are trademarks of Intel Corporation
+Intel® 和 Pentium® 為 Intel Corporation 的商標
+Microsoft Windows® is a registered trademark of Microsoft Corp
+Microsoft Windows® 為 Microsoft Corp 的注冊商標
+All  other product  names  or trademarks  are properties  of  their respective
+owners
+所有其它產品名或商標均為各自所屬方的財產
+Product Warranty (2 years)/ 產品品質保證 （兩年）
+Advantech  warrants  to  you,  the  original  purchaser,  that  each  of its
+products  will  be  free  from  defects  in  materials  and  workmanship for two
+years  from  the  date  of  purchase.  This  warranty  does  not  apply  to  any
+products which have been repaired or altered by persons other than repair
+personnel authorized by Advantech,  or which  have  been  subject  to  misuse,
+abuse,  accident  or  improper  installation.  Advantech  assumes  no  liability
+under the terms of this warranty as a consequence of such events. Because of
+Advantech's  high  quality-control  standards  and  rigorous  testing,  most  of
+our customers never need to use our repair service. If an Advantech product
+is  defective,it  will  be  repaired  or  replaced  at  no  charge  during  the
+warranty period. For out of warranty repairs, you will be billed according
+to  the  cost  of  replacement  materials,  service  time  and  freight.  Please
+consult your dealer for more details.
+If you think you have a defective product, follow these steps:
+1. Collect all the information about the problem encountered. (For 
+example, CPU speed, Advantech products used, other hardware and 
+software used, etc.) Note anything abnormal and list any onscreen 
+messages you get when the problem occurs.
+2. Call your dealer and describe the problem. Please have your manual, 
+product, and any helpful information readily available.
+
+--- Page 3 ---
+iii EPC-U2000 用戶手冊
+ 
+3. If your product is diagnosed as defective, obtain an RMA (return 
+merchandise authorization) number from your dealer. This allows us to 
+process your return more quickly.
+4. Carefully pack the defective product, a fully-completed Repair and 
+Replacement Order Card and a photocopy proof of purchase date (such as 
+your sales receipt) in a shippable container. A product returned 
+without proof of the purchase date is not eligible for warranty 
+service.
+5. Write the RMA number visibly on the outside of the package and ship it 
+prepaid to your dealer.
+從購買之日起，研華為原購買商提供兩年的產品保固。但對那些未經授權的維修、人
+員維修過的產品不予提供保固服務。研華對於不正確地使用、災難、錯誤安裝而產生
+的問題有免責權利。
+如果研華產品出現故障，在保固期間內我們提供免費維修或更換服務。對於已過保固
+期限之產品，我們將回酌情收取材料費、人工服務費用。請聯繫相關業務人員瞭解詳
+細情況。
+如果您認為您購買的產品出現了故障，請遵循以下步驟 :
+1. 收集您所遇到的問題資訊  （如：CPU 頻率、使用的研華產品及其他軟體、硬體
+等）。請注意螢幕上出現的任何不正常訊息顯示。
+2. 打電話給您的供應商，描述故障問題。請提供手冊、產品和任何有説明的資訊
+3. 如果您的產品被診斷發生故障，請從您的供應商獲得 RMA (Return MaterialAu
+-
+thorization) 序號。這可以讓我們儘快地進行故障產品的回收。
+4. 請仔細地包裝故障產品，並在包裝中附上完整的售後服務卡片和購買日期證明
+（如銷售發票）。我們對無法提供購買日期證明的產品不提供保固服務。
+5. 把相關 RMA 序號寫在外包裝上，並將其運送給銷售人員。
+料號： 第一版
+中國印刷 2020 年 4 月
+
+--- Page 4 ---
+EPC-U2000 用戶手冊 iv
+Declaration of the Presence Condition of the 
+Restricted Substances Marking/ 限用物質含有情況標示
+聲明書
+設備名稱：電腦
+Equipment Name
+                     型號 （型式）：EPC-U2000( 系列型號請參照次頁 )
+Type Designation (Type)
+單元 Unit
+限用物質及其化學符號
+Restricted Substance and Chemical Symbol
+鉛
+Lead 
+(Pb)
+汞
+Mercury 
+(Hg)
+鎘
+Cadmium 
+(Cd)
+六價鉻
+Hexavalent 
+Chromium 
+(Cr
++6
+)
+多溴聯苯
+Polybromina
+ted 
+Biphenyls 
+(PBB)
+多溴二苯醚
+Polybrominat
+ed Diphenyl 
+Ethers 
+(PBDE)
+電路板 － ○ ○ ○ ○ ○
+電源供應器 － ○ ○ ○ ○ ○
+記憶卡 － ○ ○ ○ ○ ○
+內外殼 （外殼、
+內部框架 … 等 )
+○○ ○ ○ ○ ○
+配件 ( 排線、傳
+輸線…等)
+－○ ○ ○ ○ ○
+其它固定組件 
+(螺絲)
+－○ ○ ○ ○ ○
+分離式電源線組 ○ ○ ○ ○ ○ ○
+備考 1.“ 超出 0.1 wt %” 及 “ 超出 0.01 wt %” 係指限用物質之百分比含量超出百分比含
+量基準值。
+Note 1：“Exceeding 0.1 wt %” and “exceeding 0.01 wt %” indicate that the 
+percentage content of the restricted substance exceeds the reference percentage 
+value of presence condition.
+備考 2.“ ○ ” 係指該項限用物質之百分比含量未超出百分比含量基準值。
+Note 2：“ ○ ” indicates that the percentage content of the restricted substance 
+does not exceed the percentage of reference value of presence.
+備考 3.“ － ” 係指該項限用物質為排除項目。
+Note 3：The “-” indicates that the restricted substance corresponds to the 
+exemption.
+
+--- Page 5 ---
+v EPC-U2000 用戶手冊
+ 
+EPC-U2117 系列型號
+CPU 型號 XCPU-BGA-X7E3950 XCPU-BGA-X5E3940 XCPU-BGA-X5E3930
+系列型號
+EPC-U2117E5W-03Y11 EPC-U2117E4W-03Y11 EPC-U2117E3W-03Y11
+EPC-U2117E5W-03Y2W EPC-U2117E4W-03Y2W EPC-U2117E3W-03Y2W
+EPC-U2217E5W-03Y20 EPC-U2217E4W-03Y20 EPC-U2217E3W-03Y20
+EPCU2117E5BM000-T EPCU2117E4BM000-T EPCU2117E3BM000-T
+EPCU2117E5BM001-T EPCU2117E4BM001-T EPCU2117E3BM001-T
+EPCU2117E5BM002-T EPCU2117E4BM002-T EPCU2117E3BM002-T
+EPCU2117E5BM003-T EPCU2117E4BM003-T EPCU2117E3BM003-T
+EPCU2117E5BM004-T EPCU2117E4BM004-T EPCU2117E3BM004-T
+EPCU2117E5BM005-T EPCU2117E4BM005-T EPCU2117E3BM005-T
+EPCU2117E5BM006-T EPCU2117E4BM006-T EPCU2117E3BM006-T
+EPCU2117E5BM007-T EPCU2117E4BM007-T EPCU2117E3BM007-T
+EPCU2117E5BM008-T EPCU2117E4BM008-T EPCU2117E3BM008-T
+EPCU2117E5BM009-T EPCU2117E4BM009-T EPCU2117E3BM009-T
+EPCU2117E5BM010-T EPCU2117E4BM010-T EPCU2117E3BM010-T
+EPCU2117E5BM011-T EPCU2117E4BM011-T EPCU2117E3BM011-T
+EPCU2117E5BM012-T EPCU2117E4BM012-T EPCU2117E3BM012-T
+EPCU2117E5BM013-T EPCU2117E4BM013-T EPCU2117E3BM013-T
+EPCU2117E5BM014-T EPCU2117E4BM014-T EPCU2117E3BM014-T
+EPCU2117E5BM015-T EPCU2117E4BM015-T EPCU2117E3BM015-T
+EPCU2117E5BM016-T EPCU2117E4BM016-T EPCU2117E3BM016-T
+EPCU2117E5BM017-T EPCU2117E4BM017-T EPCU2117E3BM017-T
+EPCU2117E5BM018-T EPCU2117E4BM018-T EPCU2117E3BM018-T
+EPCU2117E5BM019-T EPCU2117E4BM019-T EPCU2117E3BM019-T
+EPCU2117E5BM020-T EPCU2117E4BM020-T EPCU2117E3BM020-T
+EPCU2117E5BM021-T EPCU2117E4BM021-T EPCU2117E3BM021-T
+EPCU2117E5BM022-T EPCU2117E4BM022-T EPCU2117E3BM022-T
+EPCU2117E5BM023-T EPCU2117E4BM023-T EPCU2117E3BM023-T
+EPCU2117E5BM024-T EPCU2117E4BM024-T EPCU2117E3BM024-T
+EPCU2117E5BM025-T EPCU2117E4BM025-T EPCU2117E3BM025-T
+
+--- Page 6 ---
+EPC-U2000 用戶手冊 vi
+EPC-U2217 系列料號
+CPU 型號 XCPU-BGA-X7E3950 XCPU-BGA-X5E3940 XCPU-BGA-X5E3930
+系列型號
+EPC-U2217E5W-03Y00 EPC-U2217E4W-03Y00 EPC-U2217E3W-03Y00
+EPC-U2217E5W-03Y2W EPC-U2217E4W-03Y2W EPC-U2217E3W-03Y2W
+EPC-U2217E5W-03Y1R EPC-U2217E4W-03Y1R EPC-U2217E3W-03Y1R
+ EPCU2217E5BM000-T   EPCU2217E4BM000-T   EPCU2217E3BM000-T 
+ EPCU2217E5BM001-T   EPCU2217E4BM001-T   EPCU2217E3BM001-T 
+ EPCU2217E5BM002-T   EPCU2217E4BM002-T   EPCU2217E3BM002-T 
+ EPCU2217E5BM003-T   EPCU2217E4BM003-T   EPCU2217E3BM003-T 
+ EPCU2217E5BM004-T   EPCU2217E4BM004-T   EPCU2217E3BM004-T 
+ EPCU2217E5BM005-T   EPCU2217E4BM005-T   EPCU2217E3BM005-T 
+ EPCU2217E5BM006-T   EPCU2217E4BM006-T   EPCU2217E3BM006-T 
+ EPCU2217E5BM007-T   EPCU2217E4BM007-T   EPCU2217E3BM007-T 
+ EPCU2217E5BM008-T   EPCU2217E4BM008-T   EPCU2217E3BM008-T 
+ EPCU2217E5BM009-T   EPCU2217E4BM009-T   EPCU2217E3BM009-T 
+ EPCU2217E5BM010-T   EPCU2217E4BM010-T   EPCU2217E3BM010-T 
+ EPCU2217E5BM011-T   EPCU2217E4BM011-T   EPCU2217E3BM011-T 
+ EPCU2217E5BM012-T   EPCU2217E4BM012-T   EPCU2217E3BM012-T 
+ EPCU2217E5BM013-T   EPCU2217E4BM013-T   EPCU2217E3BM013-T 
+ EPCU2217E5BM014-T   EPCU2217E4BM014-T   EPCU2217E3BM014-T 
+ EPCU2217E5BM015-T   EPCU2217E4BM015-T   EPCU2217E3BM015-T 
+ EPCU2217E5BM016-T   EPCU2217E4BM016-T   EPCU2217E3BM016-T 
+ EPCU2217E5BM017-T   EPCU2217E4BM017-T   EPCU2217E3BM017-T 
+ EPCU2217E5BM018-T   EPCU2217E4BM018-T   EPCU2217E3BM018-T 
+ EPCU2217E5BM019-T   EPCU2217E4BM019-T   EPCU2217E3BM019-T 
+ EPCU2217E5BM020-T   EPCU2217E4BM020-T   EPCU2217E3BM020-T 
+ EPCU2217E5BM021-T   EPCU2217E4BM021-T   EPCU2217E3BM021-T 
+ EPCU2217E5BM022-T   EPCU2217E4BM022-T   EPCU2217E3BM022-T 
+ EPCU2217E5BM023-T   EPCU2217E4BM023-T   EPCU2217E3BM023-T 
+ EPCU2217E5BM024-T   EPCU2217E4BM024-T   EPCU2217E3BM024-T 
+ EPCU2217E5BM025-T   EPCU2217E4BM025-T   EPCU2217E3BM025-T
+
+--- Page 7 ---
+vii EPC-U2000 用戶手冊
+ 
+Declaration of Conformity 符合性聲明
+FCC Class B (FCC B 級 )
+Note: This equipment has been tested and found to comply with the limits for
+a Class B digital device, pursuant to part 15 of the FCC Rules. These limits
+are designed to provide reasonable protection against harmful interference
+in  a  residential  installation.  This  equipment  generates,  uses  and  can
+radiate radio frequency energy and, if not installed and used in accordance
+with  the  instructions,  may  cause  harmful  interference  to  radio
+communications. However, there is no guarantee that interference will not
+occur  in  a  particular installation.  If  this  equipment  does  cause  harmful
+interference to radio or television reception, which can be determined by
+turning the equipment off and on, the user is encouraged to try to correct
+the interference by one or more of the following measures:
+ Reorient or relocate the receiving antenna.
+ Increase the separation between the equipment and receiver.
+ Connect the equipment into an outlet on a circuit different from that 
+to which the receiver is connected.
+ Consult the dealer or an experienced radio/TV technician for help.
+根據 FCC 規則第 15 條，本設備已經過檢測並被判定符合 B 級數位設備標準。這些
+限制旨在為居住環境下的系統操作提供合理保護，使其免受有害干擾。本設備會產生、
+使用和發射無線電頻率能量。如果沒有按照手冊說明正確安裝和使用，可能對無線電
+通訊造成有害干擾。但即使按照手冊說明進行安裝和使用，也並不能保證不會產生干
+擾。若本設備會對無線電或電視信號接收產生有害干擾，用戶可通過開、關設備進行
+確認。當本設備產生有害干擾時，用戶可採取下面的措施來解決干擾問題：
+ 調整接收天線的方向或位置
+ 增大本設備與接收器之間的距離
+ 將本設備的電源接頭插在與接收器使用不同電路的電源插座
+ 若需技術支援，請諮詢經銷商或經驗豐富的無線電 / 電視技術人員
+Warning! Any changes or modifications made to the equipment which are not 
+expressly approved by the relevant standards authority could 
+void your authority to operate the equipment.
+警告！ 若未經相關權威機構明確批准而擅自更改或修理設備，則使用者操作本
+設備的權利可能會被取消。
+
+--- Page 8 ---
+EPC-U2000 用戶手冊 viii
+Technical Support and Assistance/ 技術支援與服務
+1. Visit the Advantech web site at www.advantech.com/support where you can 
+find the latest information about the product.
+2. Contact your distributor, sales representative, or Advantech's customer 
+service center for technical support if you need additional assistance. 
+Please have the following information ready before you call:
+– Product name and serial number
+– Description of your peripheral attachments
+– Description of your software (operating system, version, application 
+software, etc.)
+– A complete description of the problem
+– The exact wording of any error messages
+1. 有關該產品的最新訊息，請訪問研華公司網站：
+http://support.advantech.com.tw
+2. 用戶若需技術支持，請與當地經銷商、業務代表、或研華客服中心聯繫。進行技
+術諮詢前，使用者需完整提供下列各項產品訊息：
+– 產品名稱及序號
+– 附加設備描述
+– 使用者軟體描述 ( 作業系統、版本、應用軟體等 )
+– 產品所出現問題的完整描述
+– 每條錯誤資訊的完整內容
+Caution! This device complies with Part 15 of the FCC Rules. Operation is 
+subject to the following two conditions:
+1. This device may not cause harmful interference
+2. This device must accept any interference received, 
+including interference that may cause undesired operation
+注意！ 如果電池放置不正確，將有爆炸的危險。因此，只可以使用製造商推薦
+的同一種或者同等型號的電池進行替換。請按照製造商的指示處理舊電     
+池。
+
+--- Page 9 ---
+ix EPC-U2000 用戶手冊
+ 
+Safety Instructions/ 安全指示
+1. Please read these safety instructions carefully.
+2. Please keep this User Manual for later reference.
+3. Please disconnect this equipment from AC outlet before cleaning. Use a 
+damp cloth. Don’t use liquid or sprayed detergent for cleaning. Use a 
+moist sheet or clothe for cleaning.
+4. For pluggable equipment, the socket-outlet should be near the equipment 
+and should be easily accessible.
+5. Protect this equipment from humidity.
+6. Lay this equipment on a reliable surface when installing. A drop or 
+fall could cause injury.
+7. The openings on the enclosure are for air convection and protecting the 
+equipment from overheating. DO NOT COVER THE OPENINGS.
+8. Check the voltage of the power source when connecting the equipment to 
+the power outlet.
+9. Ensure that you connect the power cord to a socket-outlet with 
+earthling connection.
+10. Place the power cord such that people cannot step on it. Do not place 
+anything over the power cord. 
+11. All cautions and warnings on the equipment should be noted.
+12. If the equipment is not used for long time, disconnect the equipment 
+from mains to avoid being damaged by transient over-voltage.
+13. Never pour any liquid into ventilation openings; this can cause fire or 
+electrical shock.
+14. Never open the equipment. For safety reasons, only qualified service 
+personnel should open the equipment.
+15. Before any internal installation procedures are carried out on the 
+system, make sure the system is turned off and cooled down for 15 
+minutes. Failing to run off the system before opening it can cause 
+permanent damage to the system and serious or fatal injury to the user.
+16. If one of the following situations arises, get the equipment checked by 
+service personnel:
+The power cord or plug is damaged.
+Liquid has penetrated into the equipment.
+The equipment has been exposed to moisture.
+The equipment does not work well, or you cannot get it to work 
+according to the user manual.
+The equipment has been dropped and damaged.
+The equipment has obvious signs of breakage.
+17. Do not leave this equipment in an environment where the storage temper
+-
+ature may go below -40° C (-40° F) or above 85° C (185° F). This 
+could damage the equipment. the equipment should be in a controlled 
+environment.
+CPU Type Operating Temperature
+14MPA-1.6-2ME3950
+-20~50 ℃
+14MPA-1.6-2ME3940
+-20~60 ℃
+14MPA-1.3-2ME3930
+-20~60 ℃
+
+--- Page 10 ---
+EPC-U2000 用戶手冊 x
+18. Caution: Danger of explosion if battery is incorrectly replaced. 
+Replace only with the same or equivalent type recommended by the manu
+-
+facturer, discard used batteries according to the manufacturer's 
+instructions.
+ Risk of explosion if the battery is replaced by an incorrect type 
+ Replacement of a BATTERY with an incorrect type that can defeat a 
+   SAFEGUARD (For example, in the case of some lithium BATTERY types);
+ Disposal of a BATTERY into fire or a hot oven, or mechanically 
+   crushing or cutting of a BATTERY, that can result in an EXPLOSION; 
+ Leaving a BATTERY in an extremely high temperature surrounding envi
+   ronment that can result in an EXPLOSION or the leakage of flammable 
+   liquid or gas; A BATTERY subjected to extremely low air pressure 
+   that may result in an EXPLOSION or the leakage of flammable liquid 
+   or gas.
+19. The sound pressure level at the operator's position according to IEC 
+704-1:1982 is no more than 70 dB (A).
+20. RESTRICTED ACCESS AREA: The equipment should only be installed in a 
+Restricted Access Area.
+21. This equipment is not suitable for use in locations where children are 
+likely to be present.
+22. Suitable for installation in Information Technology Rooms in accordance 
+with Article 645 of the National Electrical Code and NFPA 75.
+23. DISCLAIMER: This set of instructions is given according to IEC 704-1. 
+Advantech disclaims all responsibility for the accuracy of any 
+statements contained herein.
+1. 請仔細閱讀此安全操作說明。
+2. 請妥善保存此用戶手冊供日後參考。
+3. 用濕抹布清洗設備前，請從插座拔下電源線。請不要使用液體或去汙噴霧劑清洗
+設備。
+4. 對於使用電源線的設備，設備周圍必須有容易接觸到的電源插座。
+5. 請不要在潮濕環境中使用設備。
+6. 請在安裝前確保設備放置在可靠的平面上，意外跌落可能會導致設備損壞。
+7. 設備外殼的開口是用於空氣對流，從而防止設備過熱。請不要覆蓋這些開口。
+8. 當您連接設備到電源插座上前，請確認電源插座的電壓是否符合要求。
+9. 請將電源線佈置在人們不易絆到的位置，並不要在電源線上覆蓋任何雜物。
+10. 請注意設備上的所有警告標識。
+11. 如果長時間不使用設備，請將其同電源插座斷開，避免設備被超標的電壓波動損
+壞。
+12. 請不要讓任何液體流入通風口，以免引起火災或者短路。
+13. 請不要自行打開設備。為了確保您的安全，請由經過認證的工程師來打開設備。
+14. 如遇下列情況，請由專業人員來維修：
+  電源線或者插頭損壞；
+  設備內部有液體流入；
+  設備曾暴露在過於潮濕的環境中使用；
+  設備無法正常工作，或您無法通過用戶手冊來使其正常工作；
+  設備跌落或者損壞；
+  設備有明顯的外觀破損。
+
+--- Page 11 ---
+xi EPC-U2000 用戶手冊
+ 
+15. 設備工作溫度
+16. 如果系統時間丟失或 BIOS 配置恢復預設值，則表示電池電量已盡。
+17. 分類
+– 提供 I 類適配器
+– 無可應用介面
+– 連續運行
+– 非 AP 或 APG 類別
+18. 請按照當地法規處理廢舊設備。
+19. 維護：為了正確地維護和清潔設備表面，請使用通過認證的產品或使用幹抹布進
+行清潔。
+20. 聯繫資訊：
+申請商 : 研華股份有限公司
+台北市內湖區瑞光路 26 巷 20 弄 1 號
+電話：(02) 2792-7818
+Pakcing List/ 包裝清單
+安裝前，用戶需確認包裝中含有下面所列各項：
+ 1 X EPC-U2000
+ 1 x DC 12 V 60W 電源適配器
+ 1 x China RoHS
+ 1 X (User Manual) 用戶手冊
+CPU  工作溫度
+14MPA-1.6-2ME3950
+-20~50?
+14MPA-1.6-2ME3940
+-20~60?
+14MPA-1.3-2ME3930
+-20~60?
+注意！ 1. 請勿自行更換電源適配器，請聯繫資深技術人員或您的銷售代表。
+2. 電腦配置了由電池供電的即時時鐘電路，如果電池更換不正確， 將有
+  爆炸的危險。因此，只可以使用製造商推薦的同一種或者同等型號的電
+  池進行替換。請按照製造商的指示處理舊電池。
+
+--- Page 12 ---
+EPC-U2000 用戶手冊 xii
+Order Information/ 訂購資訊
+EPC-U2117
+EPC-U2217
+ 
+Accessory List/ 配件列表
+電源線
+安裝支架
+P/N Description Memory  eMMC  COM TPM 
+EPC-U2117E3W-03Y10  EPC-U2117 E3930 w/4G RAM/32G 4GB  32GB
+1 x RS232,
+1 x ccTalk   
+NA 
+EPC-U2117E3W-03Y2W EPC-U2117 E3930 w/4G RAM/64G 4GB  64GB
+1 x RS232,
+1 x RS422   
+NA 
+P/N Description Memory  eMMC  COM TPM 
+EPC-U2217E4W-03Y00  EPC-U2217 E3940 w/4G RAM 4GB  NA
+3 X RS-232
+1 X RS-485  
+NA 
+EPC-U2217E4W-03Y20 EPC-U2217 E3940 w/4G RAM/64G 4GB  64GB
+3 X RS-232
+1 X RS-485   
+TPM 
+2.0
+產品料號 說明
+1702002600-01 電源線 3 針 180cm，美國標準 （適用電源適配器 1757004096-01)
+產品料號 說明
+EPC-BRKU-DR010 EPC-U2000 Din-Rail mounting
+
+--- Page 13 ---
+xiii EPC-R3220 用戶手冊
+ 
+Content/ 目录
+第 1 章  Introduction/ 簡介...................... 1
+1.1 Overview/ 產品簡介 ..............................................2
+1.1.1 Product Benefits/ 產品優勢 ...............................2
+1.2 I/O Placement 系統組態..........................................3
+1.3 General Specifications/ 一般規格 ................................4
+1.3.1 Standard PC Function/ 標準 PC 功能 .......................4
+1.3.2 Power Source Spec/ 電源規格 ..............................4
+1.4 Mechanical Specifications/ 機械規格 .............................5
+1.5 Environment Specifications/ 環境規格 ............................5
+1.5.1 Compliance/ 安規 .........................................5
+1.5.2 EMI ......................................................5
+1.5.3 Vibration/ 振動 ..........................................5
+第 2 章  Hardware Functions/ 硬體功能............ 7
+2.1 HDD Installation/ 安裝 HDD ......................................8
+2.2 Mini PCIe Module Installation/ 安裝 Mini PCIe 模組 .............10
+2.3 Mounting Kit Assembly/ 套件安裝 ................................12
+
+--- Page 16 ---
+EPC-U2000 用戶手冊 2
+1.1 Overview/ 產品簡介
+The  Advantech EPC-U2000  is  palm-sized system  using  the  latest  Intel  Atom
+E3900 processor technology to give up to a 30% CPU performance enhancement
+and  a  45%  graphics  performance  boost.  EPC-U2000  is  designed  with  dual
+display output, multiple I/O, and wide range 12-24V DC power inputs, which
+target  smart  vending  machines,  digital  signage,  smart  kiosks,  and  more.
+EPC-U2000 is compatible with Microsoft Windows 10 IoT Enterprise and Linux
+OS.  EPC-U2000  has  Advantech's  WISE-PaaS  DeviceOn  intelligent  software
+integrated for remote system monitoring and management.
+EPC-U2000 系列小型化嵌入式無風扇工業系統，採用 Intel® Atom ™ 平台，提供更高效
+能運算及影像處理能力。產品設計支援 -20~60 ℃ 寬溫、12~24V DC 寬壓輸入，產品尺
+寸僅 170 X 117 X 52.6mm 約手掌大小，適合各種嚴苛及空間狹小的使用環境。產品
+設計有 4 個 USB 3.0、RS-232、RS-485、ccTalk、CANBus 專業應用接口，另外也支援
+HDMI & DP 雙重影像輸出。EPC-U2000 支援 eMMC、SATA、mSATA 多種儲存方式，客戶可
+依據使用環境、需求效能、及儲存資料量選擇適合的儲存裝置。產品另外設計有 M.2
+及 MPCIe 接口可同時支援兩種無線模組；可同時支援 WiFi & LTE 無線聯網方式，搭配
+研華 WISE-PaaS DeviceOn 遠端管理平台，可遠端監控、管理、及更新設備資料。適合
+目前市場上最熱門的智慧自助販賣機、點餐機等相關應用。
+1.1.1 Product Benefits/ 產品優勢
+ Palm-size embedded system with CE/FCC/CCC/BSMI certification 
+超薄 ITX 嵌入式系統，已通過 CE/FCC 認證
+ Fanless, wide-temperature operation with high performance and 
+flexibility
+無風扇、寬溫運行，具有出色的性能和靈活性
+ Supports 12V ~ 24V wide voltage DC input
+支援 12V 寬範圍 DC 輸入範圍
+ One-stop Integrated Solution: Integrated Ultra compact motherboard, 
+chassis peripherals and software
+一站式集成解決方案：集成超緊湊型主機板、主機殼、外設和軟體
+ Dimensions: 170 x 117 x 52.6 mm
+尺寸：170 x 117 x 52.6 mm
+
+--- Page 17 ---
+3 EPC-U2000 用戶手冊
+ 1 Introduction/ 簡介
+1.2 I/O Placement 系統組態
+EPC-U2117 I/O 佈局：
+(CANBus & COM 技術人員使用 ) 
+EPC-U2217 I/O 佈局：
+
+--- Page 18 ---
+EPC-U2000 用戶手冊 4
+(CANBus & COM 技術人員使用 ) 
+1.3 General Specifications/ 一般規格
+1.3.1 Standard PC Function/ 標準 PC 功能
+ CPU：Intel® Atom ™ E3900 系列
+ BIOS：AMI EFI 16bit
+ Memory 記憶體：DDR3L SODIMM 1333/1866 MHz，高達 8GB
+ Audio 音訊：HD 音訊解碼器 ALC892
+ LAN：PCI-E gIGABIT 乙太網控制器 x2
+ USB 介面：4 x USB3.0
+ Mini PCI-E 匯流排擴充槽：1 x 全長 miniPCIE 插槽，支持 3G/LTE 卡，以及 1 
+x M.2 E-key WiFI 卡
+ Storage 存儲裝備：2.5" 薄型 SSD, onboard eMMC
+ Audio Output: 音訊輸出：Combo 音訊插孔
+ Video Output: 視頻輸出：1 HDMI、1 Display port
+1.3.2 Power Source Spec/ 電源規格
+Power Adaptor: AC/DC 電源適配器：
+強制性產品認證新受理要求如下： 對於不帶適配器銷售或適配器可選 （可帶可不帶的
+情況），企業要上傳說明書並在說明書中體現類似說明：" 消費者若使用電源適配器充
+電，則應購買配套使用獲得 BSMI 認證並滿足標準要求的電源適配器。
+– In-Put Voltage ( 輸入電壓 )：100 Vac ~ 240 Vac @ 50 - 60 Hz,1.5 A
+– Out Put Voltage: 輸出電壓：12 V @ 3 A ~ 24V @2.5A
+
+--- Page 19 ---
+5 EPC-U2000 用戶手冊
+ 1 Introduction/ 簡介
+1.4 Mechanical Specifications/ 機械規格
+ System dimension ( 系統尺寸 )：170 X 117 X 52.6 mm (6.69" X 4.6" X 2.07")
+ 外箱尺寸：290 (L) X 210 (W) X 175 (H) mm
+ 毛重：2.0 kg
+ 淨重：1.8 kg
+1.5 Environment Specifications/ 環境規格
+ 工作溫度：-20 ~ 60°C  （帶 RF 模組）
+ 儲存溫度：-40 ~ 60°C
+ 相對濕度：40 - 95% RH  （非凝結）
+1.5.1 Compliance/ 安規
+CE/CCC/BSMI
+1.5.2 EMI
+FCC B 級、可用於美國、加拿大和歐盟
+1.5.3 Vibration/ 振動
+帶 SSD：3Grms，60068-2-64，隨機，5 ~ 500 Hz，1 hr/axis
+
+--- Page 21 ---
+第 2 章
+2 Hardware Functions/ 硬
+體功能
+
+--- Page 22 ---
+EPC-U2000 用戶手冊 8
+2.1 HDD Installation/ 安裝 HDD
+1. Release the bottom cover screws
+擰開螺絲後卸下底蓋
+2. Secure the 2.5" SATA HDD onto the bottom cover. The screws are in the 
+accessory box.
+將 2.5" SATA HDD 固定至底蓋，並使用附件盒中的螺絲進行固定。
+
+--- Page 23 ---
+9 EPC-U2000 用戶手冊
+ 2 Hardware Functions/ 硬體功能
+3. Connect SATA cable and power cable to 2.5"SATA HDD
+將 SATA 信號線和電源線連接至 2.5" SATA HDD
+ 
+4. Install bottom cover and secure the screw
+將底蓋安裝至原處並用螺絲進行固定
+
+--- Page 24 ---
+EPC-U2000 用戶手冊 10
+2.2 Mini PCIe Module Installation/ 安裝 Mini PCIe 
+模組
+1. Release screw and remove bottom cover
+擰開螺絲後卸下底蓋
+2. Install MiniPCIe module and secure by screw
+將 Mini PCIe 模組插入插槽然後使用螺絲進行固定，貼上適合的散熱片
+
+--- Page 25 ---
+11 EPC-U2000 用戶手冊
+ 2 Hardware Functions/ 硬體功能
+3. Install thermal pad and antenna
+裝上散熱板並將天線電纜連線至模組
+4. Install bottom cover and secure by screw
+將底蓋安裝至原處並用螺絲進行固定
+
+--- Page 26 ---
+EPC-U2000 用戶手冊 12
+2.3 Mounting Kit Assembly/ 套件安裝
+
+--- Page 27 ---
+13 EPC-U2000 用戶手冊
+ 2 Hardware Functions/ 硬體功能
+
+--- Page 28 ---
+www.advantech.com
+Please verify specifications before quoting. This guide is intended for reference
+purposes only.
+All product specifications are subject to change without notice.
+No part of this publication may be reproduced in any form or by any means,
+electronic, photocopying, recording or otherwise, without prior written permis-
+sion of the publisher.
+All brand and product names are trademarks or registered trademarks of their
+respective companies.
+© Advantech Co., Ltd. 2020
+www.advantech.tw
+使用前請檢查核實產品的規格。本手冊僅作為參考。 產品規格如有變更，恕不另行通
+知。 未經研華公司書面許可，本手冊中的所有內容不得通過任何途徑以任何形式複製、
+翻印、翻譯或者傳輸。
+所有其他產品名或商標均為各自所屬方的財產。
+© 研華公司 2020
+

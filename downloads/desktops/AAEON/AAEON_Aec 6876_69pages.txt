@@ -1,0 +1,1230 @@
+Brand: AAEON
+Model: Aec 6876
+URL: https://www.manua.ls/aaeon/aec-6876/manual
+Total Pages: 69
+============================================================
+
+--- Page 1 ---
+Embedded Controller  AEC-6876 
+ 
+ 
+ 
+ 
+ 
+ 
+                     AEC-6876 
+ Fanless Embedded Controller 
+                      Intel
+®
+ Core
+TM
+ i5-2510E/ 
+Celeron
+®
+-B810 Processor   
+with 2 Gigabit Ethernet   
+4 COM, 4 USB, 1 PCI-Express[x4] 
+DVI, HDMI, VGA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AEC-68
+76 Manual 1st Ed. 
+February 2012
+
+--- Page 2 ---
+Embedded Controller  AEC-6876 
+ 
+     i 
+ 
+Copyright Notice 
+ 
+This document is copyrighted, 2012. All rights are reserved. The 
+original manufacturer reserves the right to make improvements to 
+the products described in this manual at any time without notice. 
+No part of this manual may be reproduced, copied, translated, or 
+transmitted in any form or by any means without the prior written 
+permission of the original manufacturer. Information provided in 
+this manual is intended to be accurate and reliable. However, the 
+original manufacturer assumes no responsibility for its use, or for 
+any infringements upon the rights of third parties that may result 
+from its use. 
+The material in this document is for product information only and is 
+subject to change without notice. While reasonable efforts have 
+been made in the preparation of this document to assure its 
+accuracy, AAEON assumes no liabilities resulting from errors or 
+omissions in this document, or from the use of the information 
+contained herein. 
+AAEON reserves the right to make changes in the product design 
+without notice to its users.
+
+--- Page 3 ---
+Embedded Controller  AEC-6876 
+ 
+     ii 
+Acknowledgments 
+ 
+  Award is a trademark of Award Software International, Inc. 
+ CompactFlash
+™
+ is a trademark of the Compact Flash 
+Association. 
+ Intel
+®
+, Celeron
+®
+ and Core
+™
+ are trademarkes of Intel
+®
+ 
+Corporation. 
+ Microsoft Windows
+®
+ is a registered trademark of Microsoft 
+Corp.  
+  PC/AT, PS/2, and VGA are trademarks of International 
+Business Machines Corporation. 
+ 
+All other product names or trademarks are properties of their 
+respective owners.
+
+--- Page 4 ---
+Embedded Controller  AEC-6876 
+ 
+     iii 
+Packing List 
+ 
+Before you begin operating your PC, please make sure that the 
+following materials have been shipped: 
+ 
+  1    AEC-6876 Embedded Controller 
+  1    Phoenix Power Connector 
+  4    M3 x 4mm Screws 
+  6   6# -32 x 10mm Screws 
+ 2   Wallmount Brackets 
+  1   DVD-ROM for manual (in PDF format) and   
+  Drivers 
+ 
+ 
+If any of these items should be missing or damaged, please 
+contact your distributor or sales representative immediately.
+
+--- Page 5 ---
+Embedded Controller  AEC-6876 
+ 
+     iv 
+Safety & Warranty 
+1.  Read these safety instructions carefully. 
+2.  Keep this user's manual for later reference. 
+3.  Disconnect this equipment from any AC outlet before cleaning. Do 
+not use liquid or spray detergents for cleaning. Use a damp cloth. 
+4.  For pluggable equipment, the power outlet must be installed near 
+the equipment and must be easily accessible. 
+5.  Keep this equipment away from humidity. 
+6.  Put this equipment on a firm surface during installation. Dropping 
+it or letting it fall could cause damage. 
+7.  The openings on the enclosure are for air convection. Protect the 
+equipment from overheating. DO NOT COVER THE OPENINGS. 
+8.  Make sure the voltage of the power source is correct before 
+connecting the equipment to the power outlet. 
+9.  Position the power cord so that people cannot step on it. Do not 
+place anything over the power cord. 
+10. All cautions and warnings on the equipment should be noted. 
+11. If the equipment is not used for a long time, disconnect it from the 
+power source to avoid damage by transient over-voltage. 
+12. Never pour any liquid into an opening. This could cause fire or 
+electrical shock. 
+13. Never open the equipment. For safety reasons, only qualified 
+service personnel should open the equipment. 
+14. If any of the following situations arises, get the equipment 
+checked by service personnel: 
+a.  The power cord or plug is damaged. 
+b.  Liquid has penetrated into the equipment. 
+c.  The equipment has been exposed to moisture.
+
+--- Page 6 ---
+Embedded Controller  AEC-6876 
+ 
+     v 
+d.  The equipment does not work well, or you cannot get it       
+to work according to the user’s manual. 
+e.  The equipment has been dropped and damaged. 
+f.  The equipment has obvious signs of breakage. 
+15. DO NOT LEAVE THIS EQUIPMENT IN AN ENVIRONMENT 
+WHERE THE STORAGE TEMPERATURE IS BELOW -20°C   
+(-4°F) OR ABOVE 70°C (158°F). IT MAY DAMAGE THE 
+EQUIPMENT. 
+ 
+FCC  
+This device complies with Part 15 FCC Rules. 
+Operation is subject to the following two 
+conditions: (1) this device may not cause 
+harmful interference, and (2) this device must 
+accept any interference received including 
+interference that may cause undesired 
+operation. 
+ 
+Cau
+tion: 
+There is a danger of explosion if the battery is incorrectly 
+replaced. Replace only with the same or equivalent type 
+recommended by the manufacturer. Dispose of used batteries 
+according to the manufacturer’s instructions and your local 
+government’s recycling or disposal directives.
+
+--- Page 7 ---
+Embedded Controller  AEC-6876 
+ 
+     vi 
+  Below Table for China RoHS Requirements 
+产品中有毒有害物质或元素名称及含量 
+AAEON Boxer/ Industrial System   
+有毒有害物质或元素 
+部件名称 
+铅 
+(Pb)
+汞 
+(Hg)
+镉 
+(Cd)
+六价铬
+(Cr(VI))
+多溴联苯
+(PBB)
+多溴二苯
+醚(PBDE)
+印刷电路板 
+及其电子组件 
+×  ○  ○  ○  ○  ○ 
+外部信号 
+连接器及线材 
+×  ○  ○  ○  ○  ○ 
+外壳  ×  ○  ○  ○  ○  ○ 
+中央处理器 
+与内存 
+×  ○  ○  ○  ○  ○ 
+硬盘  ×  ○  ○  ○  ○  ○ 
+电源  ×  ○  ○  ○  ○  ○ 
+       
+       
+       
+       
+O：表示该有毒有害物质在该部件所有均质材料中的含量均在 
+SJ/T 11363-2006 标准规定的限量要求以下。 
+ 
+X：表示该有毒有害物质至少在该部件的某一均质材料中的含量超出
+SJ/T 11363-2006 标准规定的限量要求。 
+ 
+备注： 
+一、此产品所标示之环保使用期限，系指在一般正常使用状况下。
+二、上述部件物质中央处理器、内存、硬盘、电源为选购品。
+
+--- Page 8 ---
+Embedded Controller  AEC-6876 
+ 
+     vii 
+Contents 
+Chapter 1  General Information  
+1.1 Introduction................................................................ 1-2 
+1.2 Features .................................................................... 1-4 
+1.3 Specifications ............................................................ 1-5 
+Chapter 2  Hardware Installation 
+2.1 Dimension ................................................................. 2-2 
+2.2 RS-232 Box Header (COM1) .................................... 2-4 
+2.3 RS-232/422/485 Pin Header (COM2).......................2-4 
+2.4 RS-232 Box Header (COM3~COM6)........................ 2-4 
+2.5 USB Box Header (USB3~USB4)............................... 2-4 
+2.6 HDD Installation ........................................................ 2-5 
+2.7 PCI-Express Card Installation................................... 2-9 
+2.8 Wallmount Bracket Installation.................................. 2-13 
+Chapter 3    AMI BIOS Setup 
+3.1 System Test and Initialization. .................................. 3-2 
+3.2 AMI BIOS Setup........................................................ 3-3 
+Chapter 4  Driver Installation  
+4.1 Installation ................................................................. 4-3 
+Appendix A    Programming The Watchdog Timer 
+A.1 Programming ........................................................A-2 
+A.2 ITE8728 Watchdog Timer Initial Program..............A-6
+
+--- Page 9 ---
+Embedded Controller  AEC-6876 
+ 
+     viii 
+Appendix B    I/O Information 
+B.1 I/O Address Map  ..................................................B-2 
+B.2 Memory Address Map  ..........................................B-4 
+B.3 IRQ Mapping Chart  ..............................................B-5 
+B.4 DMA Channel Assignments .................................B-5 
+Appendix C    RAID & AHCI Settings 
+C.1 Setting RAID......................................................... C-2 
+C.2 Setting AHCI....................................................... C-12
+
+--- Page 10 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 1 General Information  1-1 
+ 
+ 
+ 
+ 
+General 
+Chapter 
+1
+Information
+
+--- Page 11 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 1 General Information 1-2 
+1.1 Introduction 
+Due to the growing popularity from the IPC market, the newest 
+Boxer series AEC-6876 has been introduced by AAEON.   
+ 
+New Innovation for Entertainment Multimedia Domain 
+In this era of i
+nformation explosion, the advertising of consumer 
+products will not be confined to the family television, but will also 
+spread to high-traffic public areas, like department stores, the bus, 
+transportation station, the supermarket etc. The advertising 
+marketing industry will resort to every conceivable means to 
+transmit product information to consumers. System integrators 
+will need a multifunction device to satisfy commercial needs for 
+such public advertising. 
+ 
+Being a control center, the AEC-6876 is suitable for public 
+multimedia entertainment services. Equipped with a high efficiency 
+heat conduction mechanism.   
+ 
+The AEC-6876 is compact in size but has attractive and flexible 
+extension capabilities such as 4 USB2.0 ports, VGA, Audio, 4 COM 
+ports, and PCI-Express slot.   
+ 
+Stable Design for Rugged Environment 
+The AEC-6876 is designed for rugged environments due to the 
+following reasons; first, it can withstand tough vibration testing up to
+
+--- Page 12 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 1 General Information  1-3 
+5 g rms. With the anti-vibration hard drive device option, the 
+AEC-6876 can be used in high vibration environments. In addition, 
+the AEC-6876 offers low power consumption system that while 
+operating in ambient temperatures ranging from -10° to 55°C. 
+ 
+The AEC-6876 is a standalone high performance controller 
+designed for long-life operation and with high reliability. It can 
+replace traditional methods and become the mainstream 
+controller for the multimedia entertainment market.
+
+--- Page 13 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 1 General Information 1-4 
+1.2 Features 
+ Fanless Design  
+ Intel
+®
+ Core™ i5-2510E/ Celeron
+®
+-B810 Processor 
+ Intel
+®
+ QM67 Chipset 
+  Gigabit Ethernet, RJ-45 x 2 
+ Intel
+®
+ Integrated Graphics Engine Supports Dual View by 
+VGA, DVI, HDMI 
+  PCI-Express[x4] Slot x 1   
+  COM x 4
+
+--- Page 14 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 1 General Information  1-5 
+1.3 Specifications 
+ CPU  Intel
+®
+ Core
+TM
+ i5-2510E 2.5 GHz/ 
+Celeron
+®
+-B810 1.6 GHz Processor 
+ Chipset  Intel
+®
+ QM67 
+  System Memory  DDR3 SODIMM x 2, Max. 8 GB, 
+support DDR3 1066/ 1333 
+VGA  DB-15 x 1 
+DVI  DVI-D x 1, support 1920 x 1080 @ 60 
+Hz 
+ Display 
+Interface 
+HDMI  HDMI x 1, support 1920 x 1080 @ 60 
+Hz 
+SSD CFast™ slot  Storage  
+Device 
+HDD  SATA 6 GB (SATA 1, SATA 2)   
+LAN  Gigabit Ethernet, RJ-45 x 2  Network 
+Wireless  Optional by Mini Card 
+Serial Port RS-232 x 3  Front I/O 
+Others  Power button x 1 
+USB Host  USB2.0 x 4 
+LAN  RJ-45 x 2 
+Serial Port RS-232/422/485 x 1 
+Audio  Mic-in, Line-out, Line-out 
+KB/MS  PS/2 Keyboard x 1 + Mouse x 1 
+ Rear I/O 
+Others  Power input x 1 
+ Expansion  PCIe[x4]  1
+
+--- Page 15 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 1 General Information 1-6 
+Mini Card  1 
+  Indicator  Front  Power LED x 1, HDD active LED x 1 
+  Power Requirement  DC-in 12V, with DC jack lockable, DC 
+9~30V with 3-pin terminal block 
+ System Cooling  Passive cooling 
+ Mounting  Wallmount 
+ Operating Temperature  14
+ o
+F ~ 122
+o
+F (-10
+o
+C ~ 50
+o
+C)—without 
+airflow 
+14
+ o
+F ~ 131
+o
+F (-10
+o
+C ~ 55
+o
+C)—with 
+airflow 
+ Storage Temperature  -4
+o
+F ~ 158
+o
+F (-20
+o
+C ~ 70
+o
+C) 
+  Anti-Vibration  5 g rms/ 5~500 Hz/ operation-CFast™;
+1 g rms/ 5~500 Hz/ operation-HDD 
+  Anti-Shock  50 G peak acceleration (11 msec. 
+duration) –CFast™ 
+20 G peak acceleration (11 msec. 
+duration) – HDD 
+ Certification  EMC  CE/FCC Class A 
+  Dimension (W x H x D)  8.19” x 4.02” x 9.37” (208mm x 102mm 
+x 238mm) 
+ OS Support  Windows
+®
+ XP Embedded, Windows
+®
+ 
+XP, Windows
+®
+ 7, Linux Fedora 10
+
+--- Page 16 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 1 General Information  1-7
+
+--- Page 17 ---
+Embedded Controller  AEC-6876 
+ 
+  Chapter 2 Hardware Installation 2-1 
+ 
+ 
+ 
+Hardware 
+Inst
+allation 
+Chapter 
+2
+
+--- Page 18 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 2 Hardware Installation 2 - 2 
+ 
+2.1 Dimension 
+A1/A2 version 
+--
++
+12V              
+DC
+
+--- Page 19 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 2 Hardware Installation 
+2 - 3
+A1M/A2M Version
+
+--- Page 20 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 2 Hardware Installation 2 - 4 
+ 
+2.2 RS-232 Box Header (COM1) 
+Pin  Signal Pin Signal 
+1 DCD  2 RXD 
+3 TXD  4 DTR 
+5 GND  6 DSR 
+7 RTS  8 CTS 
+9 RI     
+2.3 RS-232/422/485 Pin Header (COM2) 
+Pin  Signal Pin Signal 
+1 DCD  2 RXD 
+3 TXD  4 DTR 
+5 GND  6 DSR 
+7 RTS  8 CTS 
+9 RI     
+2.4 RS-232 Box Header (COM3~COM6) 
+Pin  Signal Pin Signal 
+1 DCD  2 RXD 
+3 TXD  4 DTR 
+5 GND  6 DSR 
+7 RTS  8 CTS 
+9 RI     
+2.5 USB Box Header (USB3~USB4) 
+Pin  Signal Pin Signal 
+1 +5V  2 GND 
+3 USBD-  4 GND 
+5 USBD+  6 USBD+
+
+--- Page 21 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 2 Hardware Installation 
+2 - 5
+7 GND  8 USBD- 
+9 GND  10 +5V 
+2.6 HDD Installation 
+Step 1: Unfasten the two screws on the front and rear panels
+
+--- Page 22 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 2 Hardware Installation 2 - 6 
+ 
+Step 2: Unfasten the six screws on the bottom lid 
+ 
+Step 3: Place the HDD to the HDD bracket and fasten to the bottom lid of   
+AEC-6876
+
+--- Page 23 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 2 Hardware Installation 
+2 - 7
+Step 4: Fasten the screws on the front and rear panels, and the brackets   
+of AEC-6876
+
+--- Page 24 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 2 Hardware Installation 2 - 8 
+ 
+2.7 CFast Card 
+Installation 
+Step 1: Unfasten the screws on the front and rear panels, and the 
+brackets of AEC-6876 
+ 
+Step 2: After installing the CFast™ Card to the CFast™ Slot, you have to 
+use the cover to fix the CFast™ Card by fastening the two screws 
+ 
+CFast™ Slot
+
+--- Page 25 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 2 Hardware Installation 
+2 - 9
+2.8 PCI-Express Card Installation 
+Step 1: Unfasten the two screws on the front and rear panels
+
+--- Page 26 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 2 Hardware Installation 2 - 10 
+ 
+Step 2: Unfasten the six screws on the bottom lid 
+ 
+Step 3: Install a hold-down bracket to fix the PCI or PCI-Express Card 
+and make sure the PCI or PCI-Express Card installs properly
+
+--- Page 27 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 2 Hardware Installation 
+2 - 11
+2.9 Wallmount Bracket Installation 
+Fasten the brackets with the appropriate screws.
+
+--- Page 28 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 3 AMI BIOS Setup    3-1 
+ 
+ 
+ 
+ AMI 
+Chapter 
+3
+BIOS Setup
+
+--- Page 29 ---
+Embedded Controller  AEC-6876 
+ 
+3.1  System Test and Initialization 
+These routines test and initialize board hardware. If the routines 
+encounter an error during the tests, you will either hear a few short 
+beeps or see an error message on the screen. There are two kinds 
+of errors: fatal and non-fatal. The system can usually continue the 
+boot up sequence with non-fatal errors. 
+System configuration verification   
+These routines check the current system configuration against the 
+values stored in the CMOS memory. If they do not match, the 
+program outputs an error message. You will then need to run the 
+BIOS setup program to set the configuration information in memory.   
+There are three situations in which you will need to change the 
+CMOS settings:   
+1.  You are starting your system for the first time   
+2.  You have changed the hardware attached to your system   
+3.  The CMOS memory has lost power and the configuration 
+information has been erased.   
+ 
+The AEC-6876 CMOS memory has an integral lithium battery 
+backup for data retention. However, you will need to replace the 
+complete unit when it finally runs down. 
+ 
+Chapter 3 AMI BIOS Setup    3-2
+
+--- Page 30 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 3 AMI BIOS Setup    3-3 
+3.2  AMI BIOS Setup 
+AMI BIOS ROM has a built-in Setup program that allows users to 
+modify the basic system configuration. This type of information is 
+stored in battery-backed CMOS RAM so that it retains the Setup 
+information when the power is turned off. 
+Entering Setup 
+Power on the computer and press <Del> or <F2> immediately. This 
+will allow you to enter Setup. 
+ 
+Main 
+Set the date, use tab to switch between date elements. 
+Advanced 
+Enable disable boot option for legacy network devices. 
+Chipset  
+host bridge parameters. 
+Boot 
+Enables/disable quiet boot option. 
+Security 
+Set setup administrator password. 
+Save&Exit 
+Exit system setup after saving the changes.
+
+--- Page 31 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 4 Driver Installation    4 -1 
+ 
+ 
+ 
+Driver 
+Chapter 
+4
+Inst
+allation 
+ 
+ 
+ 
+ 
+ 
+ 
+.
+
+--- Page 32 ---
+Embedded Controller  AEC-6876 
+ 
+The AEC-6876 comes with an AutoRun DVD-ROM that contains all 
+drivers and utilities that can help you to install the driv
+er 
+automatically. 
+Insert the driver DVD, the driver DVD-title will auto start and show 
+the installation guide. If not, please follow the sequence below to 
+install the drivers. 
+ 
+Follow the sequence below to install the drivers: 
+Step 1 – Install Chipset Driver 
+Step 2 – Install VGA Driver 
+Step 3 – Install LAN Driver 
+Step 4 – Install Audio Driver 
+Step 5 – Install ME Driver 
+Step 6 – Install RAID & AHCI Driver (Optional) 
+Step 7 – Install TPM Driver 
+Step 8 – Install Serial Port Driver (Optional) 
+Note: If you got compatible issue for COM port, please find its driver under 
+STEP 8 folder and then install it by administrative login permission. 
+ 
+Please read instructions below for further detailed installations.   
+Chapter 4 Driver Installation    4 -2
+
+--- Page 33 ---
+Embedded Controller  AEC-6876 
+ 
+4.1 Installation:  
+Insert the AEC-6876 DVD-ROM into the DVD-ROM drive. And 
+install the drivers from Step 1 to Step 8 in order. 
+ 
+Step 1 – Install Chipset Driver 
+ 
+1. Click on the STEP 1-CHIPSET folder and select the OS   
+  folder your system is 
+2. Double click on the infinst_autol.exe file located in each   
+ OS folder 
+3. Follow the instructions that the window shows 
+4. The system will help you install the driver automatically 
+ 
+Step 2 – Install VGA Driver 
+1. Click on the STEP2-VGA folder and select the OS folder   
+your system is 
+2. Double click on the .exe file located in each OS   
+ folder 
+3. Follow the instructions that the window shows 
+4. The system will help you install the driver automatically 
+Note 1:  
+  This motherboard supports VGA and LVDS display devices. In 
+Single Display mode, use the hot keys to switch between VGA to 
+LVDS device or vice versa. By default, press 
+<Ctrl>+<Alt>+<F1> to switch to VGA device and press 
+<Ctrl>+<Alt>+<F3> to switch to LVDS device.   
+  Before removing the current display device, connect the display 
+device that you want to use, and then press the hot keys to 
+switch to that device. 
+ 
+Chapter 4 Driver Installation    4 -3
+
+--- Page 34 ---
+Embedded Controller  AEC-6876 
+ 
+Note 2: If the OS is Windows
+®
+ XP, you have to install the driver of 
+dotNet Framework first. Simply click on dotnetfx35.exe located in 
+dotNet Framwork folder.  
+Step 3 –Install LAN Driver 
+1. Click on the STEP3-LAN folder and select the OS   
+  folder your system is and then select the folder of Intel  
+82576LM or Realtek 8111E based on the LAN chipset in 
+your system 
+2. Double click on the .exe file 
+3. Follow the instructions that the window shows 
+4. The system will help you install the driver automatically 
+ 
+Step 4 –Install Audio Driver 
+1. Click on the STEP4-AUDIO folder and select the OS folder   
+  your system is   
+2. Double click on the Setup.exe located in each OS folder 
+3. Follow the instructions that the window shows 
+4. The system will help you install the driver automatically 
+ 
+Step 5 – Install ME Driver 
+1. Click on the STEP5-ME folder and select the folder of OS   
+  folder your system is 
+2. Double click on the Setup.exe located in each OS folder 
+3. Follow the instructions that the window shows 
+4. The system will help you install the driver automatically 
+ 
+ 
+Chapter 4 Driver Installation    4 -4
+
+--- Page 35 ---
+Embedded Controller  AEC-6876 
+ 
+Step 6 – Install RAID & AHCI Driver 
+Please 
+refer to the Appendix C RAID & AHCI Settings 
+ 
+Step 7 – Install TPM Driver 
+1. Click on the STEP7-TPM folder and select the folder of OS   
+  folder your system is 
+2. Double click on the Setup.exe located in each OS folder 
+3. Follow the instructions that the window shows 
+4. The system will help you install the driver automatically 
+ 
+Step 8 –Install Serial Port Driver (Optional) 
+For Windows
+®
+ XP 32-bit, select the folder of WINXP_32 and double 
+click on the patch.bat 
+For Windows
+®
+ 7, please refer to the installation procedures below. 
+1. Create a password for Administrator account. 
+ 
+Chapter 4 Driver Installation    4 -5
+
+--- Page 36 ---
+Embedded Controller  AEC-6876 
+ 
+2. Change User Account Control Settings to [Never notify] 
+ 
+3. Reboot and Administrator login. 
+ 
+Chapter 4 Driver Installation    4 -6
+
+--- Page 37 ---
+Embedded Controller  AEC-6876 
+ 
+Chapter 4 Driver Installation    4 -7 
+4. To run patch.bat with [Run as administrator].
+
+--- Page 38 ---
+Embedded Controller  AEC-6876 
+ 
+Appendix A Programming the Watchdog Timer A-1 
+ 
+ 
+ 
+Programming the 
+Appendix 
+A
+W
+atchdog Timer
+
+--- Page 39 ---
+Embedded Controller  AEC-6876 
+ 
+Appendix A Programming the Watchdog Timer A-2 
+A.1 Programming 
+AEC-6876 utilizes ITE IT8728 chipset as its watchdog timer 
+controller. 
+ 
+Below are the procedures to complete its configuration and the 
+AAEON intial watchdog timer program is also attached based on 
+which you can develop customized program to fit your application. 
+ 
+Configuring Sequence Description 
+After the hardware reset or power-on reset, the ITE IT8728 enters 
+the normal mode with all logical devices disabled except KBC. The 
+initial state (enable bit ) of this logical device (KBC) is determined 
+by the state of pin 121 (DTR1#) at the falling edge of the system 
+reset during power-on reset.
+
+--- Page 40 ---
+Embedded Controller  AEC-6876 
+ 
+          Appendix A Programming the Watchdog Timer A-3              
+There are three steps to complete the configuration setup: (1) Enter 
+the MB PnP Mode; (2) Modify the data of configuration registers; (3) 
+Exit the MB PnP Mode. Undesired result may occur if the MB PnP 
+Mode is not exited normally. 
+ 
+(1) Enter the MB PnP Mode 
+To enter the MB PnP Mode, four special I/O write operations are to 
+be performed during Wait for Key state. To ensure the initial state of 
+the key-check logic, it is necessary to perform four write operations 
+to the Special Address port (2EH). Two different enter keys are 
+provided to select configuration ports (2Eh/2Fh) of the next step. 
+ 
+ 
+(2) Modify the Data of the Registers 
+All configuration registers can be accessed after entering the MB 
+PnP Mode. Before accessing a selected register, the content of 
+Index 07h must be changed to the LDN to which the register 
+belongs, except some Global registers. 
+ 
+(3) Exit the MB PnP Mode 
+Set bit 1 of the configure control register (Index=02h) to 1 to exit the 
+MB PnP Mode.
+
+--- Page 41 ---
+Embedded Controller  AEC-6876 
+ 
+Appendix A Programming the Watchdog Timer A-4 
+WatchDog Timer Configuration Registers 
+ 
+Configure Control (Index=02h) 
+This register is write only. Its values are not sticky; that is to say, a 
+hardware reset will automatically clear the bits, and does not 
+require the software to clear them.
+
+--- Page 42 ---
+Embedded Controller  AEC-6876 
+ 
+          Appendix A Programming the Watchdog Timer A-5              
+WatchDog Timer Control Register (Index=71h, Default=00h) 
+ 
+WatchDog Timer Configuration Register (Index=72h, 
+Default=00h) 
+ 
+WatchDog Timer Time-out Value Register (Index=73h, 
+Default=00h)
+
+--- Page 43 ---
+Embedded Controller  AEC-6876 
+ 
+Appendix A Programming the Watchdog Timer A-6 
+A.2 ITE8728 Watchdog Timer Initial Program 
+.MODEL SMALL 
+.CODE 
+Main: 
+CALL Enter_Configuration_mode 
+CALL Check_Chip 
+mov cl, 7 
+call Set_Logic_Device 
+;time setting 
+mov cl, 10 ; 10 Sec 
+dec al 
+Watch_Dog_Setting: 
+;Timer setting 
+mov al, cl 
+mov cl, 73h 
+call Superio_Set_Reg 
+;Clear by keyboard or mouse interrupt 
+mov al, 0f0h 
+mov cl, 71h 
+call Superio_Set_Reg 
+;unit is second. 
+mov al, 0C0H 
+mov cl, 72h 
+call Superio_Set_Reg
+
+--- Page 44 ---
+Embedded Controller  AEC-6876 
+ 
+          Appendix A Programming the Watchdog Timer A-7              
+; game port enable 
+mov cl, 9 
+call Set_Logic_Device 
+ 
+Initial_OK: 
+CALL Exit_Configuration_mode 
+MOV AH,4Ch 
+INT 21h 
+ 
+Enter_Configuration_Mode PROC NEAR 
+MOV SI,WORD PTR CS:[Offset Cfg_Port] 
+ 
+MOV DX,02Eh 
+MOV CX,04h 
+Init_1: 
+MOV AL,BYTE PTR CS:[SI] 
+OUT DX,AL 
+INC SI 
+LOOP Init_1 
+RET 
+Enter_Configuration_Mode ENDP 
+ 
+Exit_Configuration_Mode PROC NEAR 
+MOV AX,0202h 
+CALL Write_Configuration_Data
+
+--- Page 45 ---
+Embedded Controller  AEC-6876 
+ 
+Appendix A Programming the Watchdog Timer A-8 
+RET 
+Exit_Configuration_Mode ENDP 
+ 
+Check_Chip PROC NEAR 
+ 
+MOV AL,20h 
+CALL Read_Configuration_Data 
+CMP AL,87h 
+JNE Not_Initial 
+ 
+MOV AL,21h 
+CALL Read_Configuration_Data 
+CMP AL,12h 
+JNE Not_Initial 
+ 
+Need_Initial: 
+STC 
+RET 
+Not_Initial: 
+CLC 
+RET 
+Check_Chip ENDP 
+Read_Configuration_Data PROC NEAR 
+MOV DX,WORD PTR CS:[Cfg_Port+04h] 
+OUT DX,AL
+
+--- Page 46 ---
+Embedded Controller  AEC-6876 
+ 
+          Appendix A Programming the Watchdog Timer A-9              
+MOV DX,WORD PTR CS:[Cfg_Port+06h] 
+IN AL,DX 
+RET 
+Read_Configuration_Data ENDP 
+ 
+Write_Configuration_Data PROC NEAR 
+MOV DX,WORD PTR CS:[Cfg_Port+04h] 
+OUT DX,AL 
+XCHG AL,AH 
+MOV DX,WORD PTR CS:[Cfg_Port+06h] 
+OUT DX,AL 
+RET 
+Write_Configuration_Data ENDP 
+ 
+Superio_Set_Reg proc near 
+push ax 
+MOV DX,WORD PTR CS:[Cfg_Port+04h] 
+mov al,cl 
+out dx,al 
+pop ax 
+inc dx 
+out dx,al 
+ret 
+Superio_Set_Reg endp.Set_Logic_Device proc near 
+Set_Logic_Device  proc  near
+
+--- Page 47 ---
+Embedded Controller  AEC-6876 
+ 
+Appendix A Programming the Watchdog Timer A-10 
+push ax 
+push cx 
+xchg al,cl 
+mov cl,07h 
+call Superio_Set_Reg 
+pop cx 
+pop ax 
+ret 
+Set_Logic_Device endp 
+ 
+;Select 02Eh->Index Port, 02Fh->Data Port 
+Cfg_Port DB 087h,001h,055h,055h 
+ 
+DW 02Eh,02Fh
+ 
+END Main 
+Note: Interrupt level mapping 
+0Fh-Dh: not valid 
+0Ch: IRQ12 
+. 
+. 
+03h: IRQ3 
+02h: not valid 
+01h: IRQ1 
+00h: no interrupt selected
+
+--- Page 48 ---
+Embedded Controller  AEC-6876 
+ 
+Appendix B I/O Information B-1 
+ 
+ 
+ 
+I/O Information 
+Appendix 
+B
+
+--- Page 49 ---
+Embedded Controller  AEC-6876 
+ 
+  Appendix B I/O Information B-2 
+B.1 I/O Address Map
+
+--- Page 50 ---
+Embedded Controller  AEC-6876 
+ 
+                          Appendix B I/O Information B-3
+
+--- Page 51 ---
+Embedded Controller  AEC-6876 
+ 
+  Appendix B I/O Information B-4 
+B.2 Memory Address Map
+
+--- Page 52 ---
+Embedded Controller  AEC-6876 
+ 
+                          Appendix B I/O Information B-5             
+B.3 IRQ Mapping Chart 
+ 
+B.4 DMA Channel Assignments
+
+--- Page 53 ---
+Embedded Controller  AEC-6876 
+ 
+Appendix C RAID & AHCI Settings C-1 
+ 
+ 
+ 
+RAID & AHCI 
+A  ppendix
+C
+Settings
+
+--- Page 54 ---
+Embedded Controller  AEC-6876 
+ 
+  Appendix C RAID & AHCI Settings C-2 
+C.1 Setting RAID   
+OS installation to setup RAID Mode 
+Step 1: Copy the files below from “Driver CD -> Raid Driver -> F6 Floppy - 
+x86” to Disk 
+ 
+Step 2: Connect the USB Floppy (disk with RAID files) to the board
+
+--- Page 55 ---
+Embedded Controller  AEC-6876 
+ 
+                         Appendix C RAID & AHCI Settings C-3             
+Step 3: The setting procedures “ In BIOS Setup Menu”    
+A: Advanced -> SATA Configuration -> SATA Mode -> RAID Mode 
+ 
+Step 4: The setting procedures “In BIOS Setup Menu” 
+B: Advanced -> Launch Storage OpROM -> Enabled
+
+--- Page 56 ---
+Embedded Controller  AEC-6876 
+ 
+  Appendix C RAID & AHCI Settings C-4 
+Step 5: The setting procedures “In BIOS Setup Menu” 
+C: Boot -> Boot Option #1 -> DVD-ROM Type 
+ 
+Step 6: The setting procedures “In BIOS Setup Menu” 
+D: Save & Exit -> Save Changes and Exit
+
+--- Page 57 ---
+Embedded Controller  AEC-6876 
+ 
+                         Appendix C RAID & AHCI Settings C-5             
+Step 7: Press Ctrl-I to enter MAIN MENU 
+ 
+Step 8: Choose “1.Create RAID Volume”
+
+--- Page 58 ---
+Embedded Controller  AEC-6876 
+ 
+  Appendix C RAID & AHCI Settings C-6 
+Step 9: RAID Level -> RAID0(Stripe) 
+ 
+Step 10: Choose “Create Volume”
+
+--- Page 59 ---
+Embedded Controller  AEC-6876 
+ 
+                         Appendix C RAID & AHCI Settings C-7             
+Step 11: Choose “Y” 
+ 
+Step 12: Choose “5. Exit”
+
+--- Page 60 ---
+Embedded Controller  AEC-6876 
+ 
+  Appendix C RAID & AHCI Settings C-8 
+Step 13: Choose “Y” 
+ 
+Step 14: Setup OS
+
+--- Page 61 ---
+Embedded Controller  AEC-6876 
+ 
+                         Appendix C RAID & AHCI Settings C-9             
+Step 15: Press “F6” 
+ 
+Step 16: Choose “S”
+
+--- Page 62 ---
+Embedded Controller  AEC-6876 
+ 
+  Appendix C RAID & AHCI Settings C-10 
+Step 17: Choose “Intel(R) ICH8M-E/ICH9M-E/5 Series SATA RAID 
+Controller” 
+ 
+Step 18: It will show the model number you select and then press “ENTER”
+
+--- Page 63 ---
+Embedded Controller  AEC-6876 
+ 
+                         Appendix C RAID & AHCI Settings C-11             
+Step 19: Setup is starting Windows
+
+--- Page 64 ---
+Embedded Controller  AEC-6876 
+ 
+  Appendix C RAID & AHCI Settings C-12 
+C.2 Setting AHCI   
+OS installation to setup AHCI Mode 
+Step 1: Copy the files below from “Driver CD -> Raid Driver -> F6 Floppy - 
+x86” to Disk 
+ 
+Step 2: Connect the USB Floppy (disk with RAID files) to the board
+
+--- Page 65 ---
+Embedded Controller  AEC-6876 
+ 
+                         Appendix C RAID & AHCI Settings C-13             
+Step 3: The setting procedures “ In BIOS Setup Menu”    
+A: Advanced -> SATA Configuration -> SATA Configuration -> SATA 
+Mode -> AHCI Mode 
+ 
+Step 4: The setting procedures “In BIOS Setup Menu” 
+B: Boot -> Boot Option #1 -> DVD-ROM Type
+
+--- Page 66 ---
+Embedded Controller  AEC-6876 
+ 
+  Appendix C RAID & AHCI Settings C-14 
+Step 5: The setting procedures “In BIOS Setup Menu” 
+C: Save & Exit -> Save Changes and Exit 
+ 
+Step 6: Setup OS
+
+--- Page 67 ---
+Embedded Controller  AEC-6876 
+ 
+                         Appendix C RAID & AHCI Settings C-15             
+Step 7: Press “F6” 
+ 
+Step 8: Choose “S”
+
+--- Page 68 ---
+Embedded Controller  AEC-6876 
+ 
+  Appendix C RAID & AHCI Settings C-16 
+Step 9: Choose “Intel(R) 5 Series 6 Port SATA AHCI Controller” 
+ 
+ 
+tep 10: It will show the model number you select and then press “ENTER” S
+
+--- Page 69 ---
+Embedded Controller  AEC-6876 
+ 
+                         Appendix C RAID & AHCI Settings C-17             
+Step 11: Setup is loading files
+

@@ -1,0 +1,738 @@
+Brand: ADVANTECH
+Model: Usm 500
+URL: https://www.manua.ls/advantech/usm-500/manual
+Total Pages: 23
+============================================================
+
+--- Page 1 ---
+User Manual 
+USM-500 
+USM-500-xxxxxxxxxxxx
+
+--- Page 2 ---
+USM-500 User Manual 
+ii 
+ 
+ 
+ 
+Copyright 
+The documentation and the software included with this product are copyrighted 2019 
+by Advantech Co., Ltd. All rights are reserved. Advantech Co., Ltd. reserves the right 
+to make improvements in the products described in this manual at any time without 
+notice. No part of this manual may be reproduced, copied, translated or transmitted 
+in any form or by any means without the prior written permission of Advantech Co., 
+Ltd. Information provided in this manual is intended to be accurate and reliable. How- 
+ever, Advantech Co., Ltd. assumes no responsibility for its use, nor for any infringe- 
+ments of the rights of third parties, which may result from its use. 
+ 
+Acknowledgements 
+ 
+Intel and Pentium are trademarks of Intel Corporation. 
+Microsoft Windows and MS-DOS are registered trademarks of Microsoft Corp. 
+All other product names or trademarks are properties of their respective owners. 
+ 
+Instructions for the User 
+ 
+The document combines text and illustrations, providing a comprehensive overview 
+of the system. The information is presented as a sequential step of actions, allowing 
+the user to learn directly how to use the device. 
+The text provides explanations and instructs the user step-by-step in the practical 
+use of the product, with short, clear instructions in an easy-to-follow sequence.
+
+--- Page 3 ---
+iii 
+USM-500  User Manual 
+ 
+ 
+ 
+ 
+Warnings, Cautions and Notes 
+ 
+ 
+ 
+Warning! A WARNING statement provides important information about a poten- 
+tially hazardous situation which, if not avoided, could result in death or 
+     serious injury. 
+Caution! A CAUTION statement provides important information about a poten- 
+tially hazardous situation which, if not avoided, may result in minor or 
+moderate injury to the user or patient or in damage to the equipment or 
+other property. Please contact a qualified technician or your retail 
+provider for it replacement. Do not do it by yourself.                 
+ 
+Note!  A NOTE provides additional information intended to avoid inconve- 
+niences. 
+              Within the European Union 
+EU-wide legislation, as implemented in each Member State, requires 
+that waste electrical and electronic products carrying the 
+mark (left) must be disposed of separately from normal 
+household waste. This includes monitors and electrical 
+accessories, such as signal cables or power cords. When 
+you need to dispose of your display products, please EU-
+wide legislation, as implemented in each Member State, 
+requires that waste electrical and electronic products 
+carrying the mark (left) must be disposed of separately from 
+normal household waste. This includes monitors and 
+electrical accessories, such as signal cables or power cords. 
+When you need to dispose of your display products, please 
+follow the guidance of your local authority, or ask the shop 
+where you purchased the product, or if applicable, follow any 
+agreements made between yourself. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Part No.  Edition 1 
+Printed in Taiwan  July 2019
+
+--- Page 4 ---
+USM-500 User Manual 
+iv 
+ 
+ 
+ 
+ 
+ 
+ 
+Product Warranty 
+WHAT'S COVERED & HOW LONG 
+ 
+Standard warranty covers two (2) - years structural components, two (2) - years for 
+computer system and electronics, two (2) - year for Battery system. 
+
+ 
+Warranty coverage begins on product's date of delivery. Standard warranty does 
+not cover problem resulting from product abuse, negligence/accident, misuse, 
+improper operation, post-delivery physical damage, and/or product modifica- 
+tions without Advantech's prior written approval. 
+
+ 
+External peripherals (including: computing equipment/devices, monitors, key- 
+boards, mouse, are not included in this warranty. 
+ 
+Advantech shall not be liable for any consequential or incidental damages. 
+ 
+HOW WE HELP YOU 
+ 
+Support services provided along with the standard warranty must be requested within 
+the expressed warranty time frame for the product element. 
+
+ 
+Technical support may request customer collaboration and assistance during 
+diagnosis to provide for the next business day service resolution. Typically, this 
+requires, but is not limited to: 
+
+ 
+Identifying a primary contact representative (with phone number and e-mail 
+address) to work with Advantech and answer relevant questions. 
+
+ 
+Providing the serial ID number and access to the product. 
+
+ 
+Performing basic troubleshooting activities as directed by Advantech Technical 
+Support. 
+ 
+Resolution methods can include, but are not limited to, any of the following: 
+
+ 
+Verbal/written instructions to correct the problem. 
+
+ 
+Shipping of replacement parts. 
+
+ 
+On-site dispatch of an Advantech authorized service technician. 
+ 
+If needed, Advantech will involve its design engineers or supplier partners for resolu- 
+tion  assistance  and  customer's  satisfaction.  Determination  for  resolving  warranty 
+issues will be at Advantech's sole discretion.
+
+--- Page 6 ---
+AMIS-50E User Manual 
+iv 
+ 
+ 
+ 
+Safety Instructions 
+1. 
+Strictly follow these instructions for use; please read these safety instructions 
+carefully. 
+2. 
+Keep this user manual for later reference; any use of the product requires full 
+understanding and strict observation of all portions of these instructions. 
+Observe all. 
+3. 
+Repair of the device may also only be carried out by trained service personnel. 
+4. 
+Advantech recommends that a service contract be obtained with Advantech 
+Service and that all repairs also be carried out by them. Otherwise the correct 
+functioning of the device may be compromised. 
+ 
+Warning! Because of the danger of electric shock, never remove the box of a 
+device while it is in operation or connected to a power outlet. 
+ 
+ 
+ 
+5. 
+If one of the following situations arises, get the equipment checked by service 
+personnel: 
+
+ 
+The power cord or plug is damaged. 
+
+ 
+Liquid has penetrated into the equipment. 
+
+ 
+The equipment has been exposed to moisture. 
+
+ 
+The equipment does not work well, or you cannot get it to work according to 
+the user manual. 
+
+ 
+The equipment has been dropped and damaged. 
+
+ 
+The equipment has obvious signs of breakage. 
+6. 
+Disconnect this equipment from any AC outlet before cleaning. Use a damp 
+cloth. Do not use liquid or spray detergents for cleaning and keep this equip- 
+ment away from humidity. 
+ 
+Caution! To avoid short-circuits and otherwise damaging the device, do not allow 
+fluids to come in contact with the device. If fluids are accidentally spilled 
+on the equipment, remove the affected unit from service as soon as pos- 
+sible and contact service personnel to verify that patient safety is not 
+compromised. 
+ 
+7. 
+Put this equipment on a reliable surface during installation. Dropping it or letting 
+it fall may cause damage. For plug-in equipment, the power outlet socket must 
+be located near the equipment and must be easily accessible. 
+ 
+Caution! Do not leave this equipment in an uncontrolled environment where the 
+Storage temperature is below 0° C or above 50° C. This may damage 
+the equipment. 
+ 
+ 
+8. 
+Grounding reliability can only be achieved when the equipment is connected to 
+an equivalent receptacle marked “Hospital Only” or “Hospital Grade”. 
+9. 
+Use a power cord that matches the voltage of the power outlet, which has been 
+approved and complies with the safety standard of your particular country. 
+10. 
+If the integrity of the protective earth conductor is in doubt. Please turn off the 
+power switch. 
+11. 
+To disconnect this product from the mains supply disconnects the mains plug 
+from the socket outlet. The power supply is regarded as part of this equipment.
+
+--- Page 7 ---
+v
+ 
+AMIS-50E User Manual 
+ 
+ 
+ 
+ 
+ 
+ 
+12. 
+Make sure user not to contact SIP/SOPs and the patient at the same time. 
+13. 
+Do not switch on/off the power switch of the battery system during operation. 
+ 
+Warning! To avoid risk of electric shock, this equipment must only be connected 
+to a supply mains with protective earth. 
+ 
+ 
+ 
+Warning! No modification of this equipment is allowed. 
+ 
+14. 
+The power cord for use on the device shall be no less robust than ordinary 
+tough rubber sheathed flexible cord (IEC 60245-1:2003, Annex A, designation 
+53) or ordinary polyvinyl chloride sheathed flexible cord (IEC 60227-1:1993, 
+Annex A, design. 53. For the US/CA the requirements of the NEC and Canadian 
+code shall be followed (US and CA national differences). 
+ 
+Warning! Battery system, equipotential pin, metal wiring on equipotential pin, 
+wheels and brake shall be replaced/send back to maintain by the manu- 
+facturer every two years, risks of function failure, electrical shock, equip- 
+ment damage, environment pollution and etc. may occur if not doing so. 
+ 
+15. 
+If your computer clock is unable to keep accurate time or the BIOS configuration 
+resets to default, please check the battery. 
+ 
+Caution! Do not replace the battery yourself. Please contact a qualified technician 
+or your retailer. 
+      The computer is provided with a battery-powered real-time clock circuit. 
+There is a danger of explosion if battery is incorrectly replaced. Replace 
+only with same or equivalent type recommended by the manufacturer. 
+Discard used batteries according to the manufacturer's instructions. 
+ 
+Caution! When servicing the device, always use replacement parts that meet 
+Advantech standards. Advantech Medical cannot warrant or endorse 
+the safe performance of third-party replacement parts for use with our 
+medical device. 
+ 
+Caution!    Application User:  This device is provided to professional 
+nurses/caregivers and technicians. Cannot be used by people other 
+than nurses/caregivers and technicians 
+ 
+16. 
+CLASSIFICATION:  
+
+ 
+Supply Medical Grade adapter (IEC-60601-1-2) 
+
+ 
+No applied part 
+
+ 
+IP65 front panel 
+
+ 
+Continuous Operation
+
+--- Page 8 ---
+AMIS-50 User Manual 
+vi 
+ 
+ 
+ 
+Safety Information 
+For your own safety and that of your equipment, always take the following precau- 
+tions. 
+Disconnect the power plug (by pulling the plug, not the cord), from your computer if 
+any of the following conditions exists: 
+
+ 
+The power cord or plug becomes frayed or otherwise damaged 
+
+ 
+Your cart has been damaged 
+
+ 
+You suspect that your computer needs service or repair 
+
+ 
+You want to clean the cart or screen 
+
+ 
+You want to remove/install any parts 
+ 
+GROUNDING 
+Connect the AMiS Cart to an equivalent receptacle marked "Grounding material" to 
+ensure ground. 
+ 
+SERVICE AND REPLACEMENT 
+Do  not  attempt  to  service  or  replace  any  part  of  the  AMiS  Medical  Cart  unless 
+directed to do through Advantech approved documentation (i.e., this User Manual or 
+other instructions). Only Advantech or an Advantech certified entity may service or 
+replace the cart components. If any component on the cart is missing or damaged, 
+the cart must not be used. Contact Advantech immediately to request service. The 
+non-detachable  power  cord  is  not  intended  to  be  replaced  by  anyone  except  for 
+Advantech  approved  professionals,  the  power  cord  can  only  be  the  ones  that 
+matches the voltage of the power outlet, as well as been approved and complies with 
+the safety standard of your particular country. 
+ 
+DO NOT OPEN THE POWER SYSTEM 
+Unauthorized personnel opening the power system may cause injury and/or death. If 
+the unit is not working properly, please contact Advantech. 
+We are not allowing customer to swap battery pack or cells, if we find the power sys- 
+tem be opened/disassembly by customer, Advantech will not guaranty the power sys- 
+tem warranty from then on. 
+ 
+DO NOT USE THE UNIT IN OR NEAR WATER OR OTHER LIQUIDS 
+If the unit becomes wet, unplug it immediately, wipe away any excess liquid and allow 
+it to dry before use. 
+Failure to do so can result in injury and/or death. 
+ 
+DO NOT MOVE THE EQUIPMENT WHEN THERE IS PEOPLE AROUND 
+If there are people around the equipment, in order to avoid people’s hands stuck on 
+the iron bars, do not move the equipment. 
+Failure to do so may cause harm to people’s hands. 
+ 
+Warning! Maintenance for the wheels 
+The wheels should be checked upon monthly basis to confirm the cur- 
+rent situation of the wheels, since if in bad condition or damaged it may 
+cause mechanical hazard to other people, such as bumping into other 
+people.
+
+--- Page 9 ---
+vii 
+USM-500 User Manual 
+ 
+ 
+ISO 7010-P018: Sitting prohibited 
+ 
+ 
+ 
+ 
+Accessory equipment connected to the analog and digital interfaces must be in com- 
+pliance with the respective nationally harmonized IEC standards (i.e. IEC 60950 for 
+data processing equipment, IEC 60065 for video equipment, IEC 61010-1 for labora- 
+tory equipment, and IEC 60601-1 for medical equipment.) Furthermore all configura- 
+tions shall comply with the system standard IEC 60601-1-1. Anyone who connects 
+additional equipment to the signal input part or signal output part is configuring a 
+medical  system,  and  is  therefore,  responsible  that  the  system  complies  with  the 
+requirements of the system standard IEC 60601-1-1. The unit is for exclusive inter- 
+connection with IEC 60601-1 certified equipment in the patient environment and IEC 
+60XXX certified equipment outside of the patient environment. If in doubt, consult the 
+technical services department or your local representative. 
+ 
+ 
+ 
+IEC 60878 and ISO 3864-B.3.6 : Warning: dangerous voltage. 
+ 
+ 
+ISO 7000-0434: Caution, consult ACCOMPANYING DOCUMENTS. 
+ 
+ ISO 7000-M002:: Follow operating instructions for use. 
+ 
+       IEC 60417 -5009: STAND-BY. 
+ 
+      Direct Current 
+ 
+      IEC 60417-5017 : Earth (ground) 
+IEC 60417-5021: (Equipotential)
+
+--- Page 10 ---
+USM-500 User Manual 
+viii 
+ 
+ 
+ 
+Additional Information and Assistance 
+1. 
+Visit the Advantech website at http://support.advantech.com where you can find 
+the latest information about the product. 
+2. 
+Contact your distributor, sales representative, or Advantech's customer service 
+center for technical support if you need additional assistance. Please have the 
+following information ready before you call: 
+– 
+Product name and serial number 
+– 
+Description of your peripheral attachments 
+– 
+Description of your software (operating system, version, application software, 
+etc.) 
+– 
+A complete description of the problem 
+– 
+The exact wording of any error messages 
+– 
+This equipment is a source of electromagnetic waves. Before use please 
+make sure that there are not EMI sensitive devices in its surrounding which 
+may otherwise malfunction 
+ 
+Environmental Protection 
+
+ 
+Follow national requirements to dispose of unit.
+
+--- Page 11 ---
+ix 
+USM-500 User Manual 
+ 
+ 
+ 
+ 
+ 
+ 
+Contents 
+Chapter  1  General Information ............................ 1 
+1.1 
+Introduction ................................................................................................ 2 
+1.2 
+Specifications ............................................................................................ 2 
+1.3 
+Dimensions ................................................................................................ 4 
+Figure 1.1  USM-500 Dimensions ................................................. 4 
+1.4 
+Overview .................................................................................................... 5 
+1.5 
+Features .................................................................................................... 6 
+Chapter  2  System Setup ...................................... 9 
+2.1 
+Quick Start ............................................................................................... 10 
+2.2 
+Function Introduction ............................................................................... 12 
+Chapter  3  USM Medical Computer and 
+Disinfecting ........................................ 17 
+3.1  USM-500 Medical Computer Cleaning and Disinfecting ......................... 18
+
+--- Page 12 ---
+USM-500 User Manual 
+x 
+ 
+ 
+ 
+ 
+Chapter  1 
+General Information
+
+--- Page 14 ---
+USM-500 User Manual 
+2
+ 
+ 
+ 
+ 
+1.1 
+Introduction 
+USM-500 (Universal System for Medical) means multiple purpose applications, for 
+medical use. USM-500 as a medical certified platform with certified medical power 
+supply  to  support  CPU  computing  and  GPU  computing  as  platform  for  artificial 
+intelligent for medical applications. 
+USM-500 also support IP65 front cover, which is easy for customization for logo and 
+add bottom on membrane. It can be the platform for software developer to save time 
+to market to catch the trend of AI application for medical use. 
+ 
+ 
+1.2 
+Specifications 
+ 
+System 
+CPU 
+Intel 8
+th
+ Gen i5-8500T(35W)  
+Support up to i7-8700(65W) 
+Chipset 
+Intel Q370 
+Memory 
+8G DDR4 SDRAM 
+4 U-DIMM support up to 64G DDR4 SDRAM 2400/2666 MHz 
+Operating 
+System 
+Win10 IoT Enterprise/Linux CentOS 
+Expansion 
+Slot 
+(Full Size) 
+PCIex1 
+(Gen3) 
+1GB/s Per direction 
+PCIex1 
+(Gen3) 
+4GB/s Per direction 
+PCIex1 
+(Gen3) 
+8GB/s Per direction 
+PCIex1 
+(Gen3) 
+16GB/s Per direction 
+Physical 
+Characters 
+Dimension 
+320x132x130mm 
+Weight 
+10kg (USM-500J-W5585000S) 
+Environment  
+ 
+Operating 
+Non-Operating 
+Temperature 
+0~40 °C (32~104 °F) 
+-40~70 °C (-40~156 °F) 
+Humidity 
+10~95% @40 °C, non-
+considering 
+10~95% @60 °C, non-considering 
+ 
+Vibration 
+1Grms 
+2Grms 
+Shock 
+10G (with 11ms duration, half sine wave) 
+I/O 
+HDMI 
+Support Max Resolution 4096x2160@ 60MHz(ESD 8Kv 
+Criteria A) 
+ 
+eDP 
+Support Max Resolution 4096x2160@ 60MHz(ESD 8Kv Criteria 
+B) 
+DVI-D 
+Support Max Resolution 1920x1200@ 60MHz(ESD 8Kv Criteria 
+A) 
+Serial 
+RS232/422/485x1(ESD 8Kv Criteria A) 
+Ethernet 
+Intel I219LM and Intel I211AT 
+Storage 
+HDD1 
+500GB 3.5” SATA 7200RPM 32MB 
+HDD2 
+N/A
+
+--- Page 15 ---
+3
+ 
+AMIS-50/60 User Manual 
+ 
+ 
+CD Drive 
+SLIM 8X SATA DVD+/-RW DL 
+M.2  
+2280(M Key) NV/Me PCIex4 and SATA M.2 support  
+M.2  
+2230(E Key) 
+Accessory 
+OS 
+Win10 IoT Enterprise 
+Power Supply 
+1U 
+High Efficiency Power Supplier 500W (Medical Grade) 
+Certification 
+CE/FCC/CCC/IEC-60601-1-2 (4
+th
+) 
+ 
+ 
+ 
+1.3 
+Dimensions
+
+--- Page 16 ---
+USM-500 User Manual 
+4
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.4 
+Overview 
+ 
+USM-500 
+ 
+ 
+Chapter 1
+ 
+General Information
+ 
+Chapter 1
+ 
+General Information
+
+--- Page 18 ---
+AMIS-50E User Manual 
+6
+ 
+ 
+ 
+ 
+1.5 
+/O
+
+--- Page 19 ---
+Chapter  2 
+System Setup 
+Chapter 1
+ 
+General Information
+
+--- Page 20 ---
+Back-View 
+USM-500 User Manual 
+8 
+ 
+ 
+ 
+ 
+ 
+2  Quick Start 
+ 
+Power On: 
+Make  sure  that  the  “Equipotential  Terminal”  is  connected  to  the  hospital’s 
+equipotential ground. 
+Connect the adapter to the “DC Input Jack”. Please note that using a non-genuine 
+adapter may pose a potential risk to the system. 
+Press “Power On/Off”. The button will turn green.
+
+--- Page 21 ---
+Chapter  3 
+USM-500 
+Cleaning and 
+Disinfecting
+
+--- Page 22 ---
+USM-500 User Manual 
+18 
+ 
+ 
+ 
+3.1 
+USM-500 Cleaning and Disinfecting 
+During normal use of the USM-500, the device may become dirty and should be 
+regularly cleaned. 
+ 
+Steps: 
+1. 
+Prepare cleaning fluid as below list. 
+2. 
+Wipe the USM-500 with a clean cloth that has been moistened in the cleaning 
+solu- tion. 
+3. 
+Wipe thoroughly with a clean cloth. 
+ 
+ 
+No  Cleaning Agents 
+ 
+1 
+AHP Accel TB 
+2 
+75% Alcohol 
+ 
+3 
+Glutaral dehyde [C5H8O2], 2% concentration 
+4 
+Isopropyl alcohol [(CH3)2CHOH], 70% concentration 
+ 
+5 
+Sodium hypochlorite [NaOCl], 10% concentration 
+6 
+CHLOR-CLEAN (1.7g NaDCC)(1000 ppm available chlorine) 
+ 
+Caution!  
+
+  Do not immerse or rinse the AMIS or its peripherals. If you acciden- 
+tally spill liquid on the device, disconnect the unit from the power 
+source. Contact your Biomed Department regarding the continued 
+safety of the unit before placing it back in operation-Do not spray 
+cleaning agent on the chassis. 
+
+ 
+Do not use disinfectants that contain phenol. 
+
+ 
+Do not autoclave or clean the AMIS or its peripherals with strong 
+aromatic, chlorinated, ketone, ether, or ether solvents, sharp tools 
+or abrasives. Never immerse electrical connectors in water or other 
+liquids.
+
+--- Page 23 ---
+www.advantech.com 
+Please verify specifications before quoting. This guide is intended for reference 
+purposes only. 
+All product specifications are subject to change without notice. 
+No part of this publication may be reproduced in any form or by any means, 
+electronic, photocopying, recording or otherwise, without prior written permis- 
+sion of the publisher. 
+All brand and product names are trademarks or registered trademarks of their 
+respective companies. 
+©  Advantech Co., Ltd. 2019
+

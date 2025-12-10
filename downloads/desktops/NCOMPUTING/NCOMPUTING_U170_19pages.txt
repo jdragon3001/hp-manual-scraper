@@ -1,0 +1,635 @@
+Brand: NCOMPUTING
+Model: U170
+URL: https://www.manua.ls/ncomputing/u170/manual
+Total Pages: 19
+============================================================
+
+--- Page 1 ---
+ncomputing.com
+ 
+R6.17.10
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    USB Virtual Desktop Kit 
+(Model U170) 
+with vSpace
+TM
+ 
+ 
+User Guide 
+ 
+ 
+ 
+This guide applies to all Microsoft® Windows versions of our product. Specific 
+information about our Linux versions may be found at 
+http://ncomputing.com/support.aspx
+
+--- Page 2 ---
+ncomputing.com
+ 
+Important notices 
+ 
+Please note that reproduction of this User Guide in whole or in part,  without express written permission 
+from NComputing, is not permitted. 
+NComputing  reserves  the  right  to  make  improvements  and/or  changes  to  this  User  Guide  and  to  the 
+products,  programs  and/or  specifications  described  herein  at  anytime  without  notice.  Information 
+contained  in  this  document  may  have  been  obtained  from  internal  testing  or  from  a  third  party. 
+NComputing  shall  not  be  liable  for  any  direct,  indirect,  special,  incidental  or  consequential  damages  in 
+connection  with  the  use of this material. The latest version of this User Guide can be downloaded from 
+the “Download Center” in the support section of the NComputing website at: www.ncomputing.com   
+Refer to the Limited Hardware Warranty applicable to your region for information on what is and what is 
+not  covered  by  the  warranty,  your  responsibilities,  exclusions,  and  how  to  obtain  service.  It  is  your 
+responsibility to download a copy of the warranty at the time of purchase to keep for your records. The 
+warranty  can  be  downloaded  from  the  “Download  Center”  in  the  support  section  of  the  NComputing 
+website.   
+Please refer to the End User License Agreement (EULA) and Terms of Use (TOU) that are presented for 
+your  review  during  the  software  installation  process.  The  information  contained  in  these  documents  is 
+very  important.  The  EULA  and  TOU  constitute  agreements  between  you  and  NComputing  and  are 
+accepted by you by installing and using the product. It is your responsibility to print a copy of the EULA 
+and TOU directly from the installer in order to keep for your records.   
+This product gives users shared access to computer resources. It is not a computer, and may not support 
+all software applications, especially high-resolution graphics applications or 3D games that are designed 
+to be supported by stand-alone computers. Similarly, it may not support all hardware peripherals that are 
+designed to be supported by stand-alone computers. 
+Refer  to  your  computer  operating  system  and  application  software  vendors’  license  agreements  for 
+information  on  using  these  products  with  NComputing  systems.  Additional  software  licenses  may  be 
+required. 
+Microsoft  Windows  Licenses.  You  are  licensed  by  NComputing  to  use  the  vSpace  software  under  the 
+terms of the EULA. You must also acquire the appropriate number of Windows Server licenses and Client 
+Access  Licenses  for  each  device  or  user  accessing  Windows  Server  software.  You  cannot  use  the 
+vSpace software with Windows Client software (i.e., Windows Vista, Windows 7) unless a single user and 
+no other user accesses the same Windows Client software at any one time, or you are authorized to do 
+so under an applicable license from Microsoft or as expressly set forth in the “Microsoft Windows Server 
+to Windows XP License Rights” section of the NComputing EULA. In all cases, your rights and obligations 
+with respect to the use of vSpace software with Windows Server software and Windows Client software 
+are  defined  by  both  the  NComputing  vSpace  software  EULA  and  the  applicable  Microsoft  Software 
+License  Agreement  or  EULA.  For  more  information  on  licensing  with  Microsoft  operating  systems  see: 
+www.ncomputing.com/mslicensing   
+ 
+The  NComputing  hardware  and  software  products  described  in  this  user  manual  are  protected  by 
+numerous granted and pending U.S. and international patents. 
+ 
+ 
+ 
+© 2010 by NComputing Inc.  All rights reserved. NComputing is  a  registered  Trademark of  NComputing 
+Inc.  –  USA.  Microsoft  and  Windows are  registered trademarks  of  Microsoft  Corporation.  All  trademarks 
+are the property of their respective owners.
+
+--- Page 3 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 3
+ 
+Contents  
+ 
+Important notices ............................................................................................................2
+Contents .........................................................................................................................3
+Safety information ...........................................................................................................4
+Regulatory compliance....................................................................................................5
+FCC information..........................................................................................................5
+KCC certification information.......................................................................................5
+Product overview ............................................................................................................6
+Minimum system requirements .......................................................................................7
+Host computer.............................................................................................................7
+Access devices ...........................................................................................................8
+Install the hardware.........................................................................................................8
+Connect peripheral devices.........................................................................................8
+Connection options .....................................................................................................9
+Mounting and security ...............................................................................................10
+NComputing vSpace software installation .....................................................................11
+User setup.................................................................................................................13
+Product registration.......................................................................................................14
+Online registration.....................................................................................................15
+Offline registration.....................................................................................................15
+PC upgrade or card migration to another PC.............................................................16
+Uninstallation ............................................................................................................16
+vSpace software updates..........................................................................................17
+Additional features ........................................................................................................17
+Auto login..................................................................................................................17
+Troubleshooting guide...................................................................................................18
+Glossary........................................................................................................................19
+
+--- Page 4 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 4
+ 
+Safety information 
+ 
+Refer to the following to prevent any physical injury or loss of assets caused by damage to the 
+product. 
+A user must read this User Guide carefully before use and properly follow the instructions. 
+•  Make sure that the place of installation is not too hot (above 35˚C), too cold (below 0˚C), 
+or too wet (above 85% relative humidity). 
+•  Avoid any severe impacts to the product 
+•  Make sure that the product is not exposed to direct sunlight or any hot machinery. 
+•  Please keep the product away from any items which have strong magnetic properties. 
+•  Do not disassemble, repair or rebuild the product. 
+ 
+ 
+Note: Please properly route all cables and power cords to avoid a 
+tripping hazard. An electric shock, fire, damage to the product or 
+physical injury may occur as a result of tripping over the cable.
+
+--- Page 5 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 5
+ 
+Regulatory compliance 
+FCC information 
+ 
+This equipment has been tested and found to comply with the limits for a class B digital device, 
+pursuant to part 15 of the FCC Rules. 
+These  limits  are  designed  to  provide  reasonable  protection  against  harmful  interference  in  a 
+residential  installation.  This  equipment  generates,  uses,  and  can  radiate  radio  frequency 
+energy,  and  if  not  installed  and  used  in  accordance  with  the  instructions,  may  cause  harmful 
+interference to radio communications. However, there is no guarantee that interference will not 
+occur in a particular installation. If this  equipment does  cause harmful  interference to radio or 
+television reception, which can be determined by turning the equipment off and on, the user is 
+encouraged to try and correct the interference by one or the following measures: 
+•  Reorient or relocate the receiving antenna 
+•  Increase the separation between the equipment and the receiver 
+•  Connect the equipment to a power outlet on a circuit different from which the receiver is 
+connected 
+•  Consult your dealer or an experienced radio TV technician for help 
+Changes or modifications not expressly approved by the party responsible for compliance could 
+void the user’s authority to operate the equipment   
+ 
+KCC certification information 
+ 
+NComputing U170 
+  
+1.
+(
+): USB-based Expansion kit (U170) 
+2.
+ 
+ 
+: 
+ 
+3.
+: Magic Control Technology Corporation/
+4.
+: 
+This device complies with part 15 of the FCC Rules.
+ 
+    Operation is subject to the following two conditions: 
+(1) This device may not cause harmful interference, and 
+(2) This device must accept any interference received, including interference that   
+      may cause undesired operation.
+
+--- Page 6 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 6
+ 
+Product overview 
+ 
+The  NComputing  U170  kit  enables  users  to  dramatically  cut  computing  costs  by  sharing  the 
+untapped  power  of  existing  computers.  The  U170  access  device  and  NComputing  vSpace 
+software  work  together  to  efficiently  harness  excess  computing  capacity  and  enable  multiple 
+users to share a single computer. And each user gets the full performance and capability of a 
+PC,  including  multimedia  and  video.  Best  of  all,  IT  staff  and  end  users  do  not  need  special 
+training because the solution is easy to setup and is compatible with standard PC software. 
+ 
+ 
+Connect one user per kit or a total of 10 users per host machine 
+ 
+ 
+With  the  NComputing  U170,  each  user  still  has  a  standard  monitor,  keyboard,  mouse,  and 
+speakers (sold separately). However, instead of connecting directly to the PC, these peripherals 
+connect to the U170 access device on their desk. These very small, solid-state devices connect 
+with  USB  cables  and  optional  USB  2.0  hubs  to  the  shared  PC.  The  distance  between  the 
+access  device  and  the  shared  computer  can  be  a  maximum  of  20  meters  (66  feet)  following 
+standard USB 2.0 specifications on cables and hubs. The U170 can also be easily attached and 
+secured to the back of a display with the built-in VESA mount option. 
+ 
+The NComputing vSpace desktop virtualization software (included) divides the PC’s resources 
+into independent virtual workspaces that give each user their own full PC experience. vSpace 
+simplifies  configuration  by  automatically  assigning  the  keyboard,  mouse,  audio  and  any  USB 
+devices  attached  to  each  workstation.  There  is  even  an  auto-login  feature  that  can  be  set  to 
+automatically login a user making the U170 a great product for kiosks, schools, kids, and digital 
+signage applications.
+
+--- Page 7 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 7
+ 
+Minimum system requirements 
+Host computer 
+For multiuser applications the host computer operating system can be Windows Server 2003 R2 
+SP2  (Standard  or  Enterprise  Edition,  32-bit),  Windows  Server  2008  SP2  (Standard  or 
+Enterprise,  32-bit.  For  more  information  Microsoft  licensing  please  see  the  Important  Notices 
+section at the beginning of this document.   
+ 
+Almost  any  modern  PC  may  be  used  to  host  NComputing  vSpace  software.  The  guidelines 
+below  are  a  good  rule  of  thumb  for  determining  how  many  users  you  can  expect  to  have  a 
+native experience running general productivity software applications.   
+ 
+ 
+ 
+ 
+The table below describes the maximum bandwidth of the USB bus for modern PC 
+motherboards. Some PCs may contain multiple EHCI controllers that can double or 
+triple the available bandwidth. These systems will have better video performance when 
+running more than 4 U170 devices on a PC. To take advantage of multiple controllers, 
+connect any downstream hubs back to the PC directly rather than connecting all U170s 
+downstream of one USB connection. Adding an additional USB controller card to a PC 
+is also an option for large deployments. 
+ 
+Vendor   Chip Set   USB or EHCI controllers  Maximum Bandwidth 
+AMD  SB710  2  120 MB/s 
+Broadcom  HT1100  3  180 MB/s 
+Intel  ICH8  2  120 MB/s 
+Intel  ICH9  2  120 MB/s 
+Intel  ICH10  2  120 MB/s 
+nVIDIA  ION Series   2  120 MB/s 
+* Note: This is NOT a comprehensive list of chip set that have more than one USB bus.  
+Note: 
+The U170 requires USB 2.0 controller
+(
+s
+)
+ for operation. 
+In addition, some 
+older PCs may have difficulty booting with U170 devices (or other high-speed 
+USB audio devices) when attached. In these cases, you may need to boot the 
+computer  first,  then  attach  the  USB  cable.  This  problem  can  sometimes  be 
+resolved by installing a separate USB 2.0 PCI car
+d into the PC.
+
+--- Page 8 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 8
+ 
+ 
+Access devices 
+For each U170 station you will need: 
+•  USB keyboard and mouse 
+•  Monitor (resolution support below) 
+•  Optional: speakers, headphones, and/or microphone with mini stereo connector 
+•  Optional: USB devices and USB cables (connect directly to host PC and can be 
+assigned to each station via the vSpace software) 
+Install the hardware 
+Connect peripheral devices 
+ 
+The U170 has two USB 2.0 connectors to support USB devices. These ports may be used in 
+the following ways: 
+•  USB Keyboard and Mouse 
+•  Wireless Keyboard Adapter and an accessory port 
+•  A separate USB Hub to support additional USB accessories
+
+--- Page 9 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 9
+ 
+ 
+ 
+ 
+Connection options 
+The U170 may be attached to a PC through any USB 2.0 compliant connection method. This 
+includes the use of USB 2.0  hubs, USB  2.0  extension cables, and USB 2.0  active extenders. 
+Each segment of a USB connection from device to host, device to hub, or hub to hub, must be 
+no longer than 5 meters. The USB 2.0 specification states that a total of 4 hubs may be used 
+downstream of a PC before the U170 device itself. Because the U170 is dependent on USB bus 
+power,  a  powered  hub  should  always  be  used  directly  upstream  of  a  U170  when  not  directly 
+attached to a PC. 
+ 
+ 
+Note: USB devices (ex. Flash memory stick) connected downstream of a U170 
+will be assigned to the session logged in to that U170 device.   
+Note: 
+T
+he U170 device is powered
+ by the USB bus and a single USB port can 
+provide power for only one U170 device with a mouse and keyboard. Adding 
+additional  USB  devices  immediately  downstream  of  the  U170  that  draw  too 
+much power is likely to cause errors. Using a powered USB hub downstream 
+from a U170 for high power peripherals is recommended.
+
+--- Page 10 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 10
+ 
+ 
+ 
+ 
+ 
+Mounting and security 
+Using two screws (provided) you can attach  the XD2 to  the back  of  an LCD  monitor that has 
+VESA compliant mounting holes as shown below. To secure the U170 device, a slot has been 
+provided in between the mounting screw holes to permit a security cable to be attached.   
+ 
+ 
+Note:  P
+erformance  may  be  impacted  by  poor  quality  cables  or  hubs.
+  We 
+recommend  USB  2.0  certified  cables  with  minimum  wires  sizes  of  AWG  24 
+(power) and 28 AWG (signal). 
+(Note, the higher the number the smaller the wire.)
+
+--- Page 11 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 11
+ 
+ 
+NComputing vSpace software installation 
+ 
+Installation of the vSpace software is straightforward and simple. 
+ 
+1.  Insert the CD. It will autostart and present a menu of options. Choose “Install vSpace 
+Software.” 
+2.  Follow the directions in the install wizard to complete the software installation. 
+3.  Reboot the system 
+4.  Connect U170 devices to the PC 
+5.  The windows operating system will discover the new devices and ask “Can Windows 
+connect to Windows Update to search for software?” Select “No, not this time.” (Note: 
+USB discovery can take some time and during the FIRST install only and you will be 
+asked to repeat this discovery for each U170 connected to the PC. If installing multiple 
+devices, please be patient during the discovery process.)   
+ 
+6.  The next screen in the hardware wizard will show that the operating system has 
+identified the U170 device and will ask “What would you like the wizard to do?” Choose 
+“Install the software automatically [Recommended]
+
+--- Page 12 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 12
+ 
+ 
+7.  The next screen of the hardware installation wizard is a warning. Press, “Continue 
+Anyway”
+
+--- Page 13 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 13
+ 
+8.  You have now completed the hardware installation wizard, press finish to continue.
+ 
+ 
+ 
+ 
+9.  You will repeat these steps for each U170 device connected to the system. 
+ 
+       
+User setup 
+ 
+There are two options for setting up users on a multiuser system: 
+1.  Local Users: for small installations, you can use the user management tool in Microsoft 
+to add local users. 
+2.  Workgroup or Domains: If there is already a workgroup or domain in use on the network, 
+simply  join  the  computer  to  that  workgroup  or  domain  and  any  users  already  existing 
+may use the new system. 
+ 
+Note: 
+The  Display on  the  host  system  wil
+l  flash  on  and  off  during  the  video 
+driver installation. It will repeat this for each new U170 being installed.   
+Note: 
+Users  must  be  joined  to  the  “Remote  Access”  group  in  a  multi
+-
+user 
+system.  The  screens  below  show  where  to  find  the  user  management  and 
+group management tools to setup new users.
+
+--- Page 14 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 14
+ 
+To add new users go to StartSettingsControl PanelUser Accounts. You can also search 
+on  “To  add  a  new  user  to  the  computer”  in  the  Windows  Help  and  Support  Center  for  more 
+information.   
+ 
+ 
+ 
+ 
+ 
+Windows Server 2008 user account management screen
+   
+ 
+ 
+Windows Server 2003 user account management screen
+   
+ 
+ 
+Product registration 
+ 
+The U170 USB virtual desktop and vSpace software that you install on a computer must be 
+registered with NComputing. Prior to registration, user sessions will be limited to 60 minutes 
+before timing out and requiring a reboot of the system. 
+Registration is fast, easy and can be accomplished two ways:
+
+--- Page 15 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 15
+ 
+1.  Online Registration 
+2.  Offline Registration 
+The Registration Wizard may be found on both the System Tray and in the start menu under 
+“NComputing vSpace Software” 
+ 
+Online registration 
+ 
+If the PC where you have installed vSpace software has a connection to the internet for http and 
+https, simply follow the registration wizard to:   
+1.  Fill out your registration information.   
+2.  Automatically discover the device serial numbers connected.   
+3.  Then connect to the NComputing registration service . 
+4.  If selecting this option, you may choose to enable “Background Registration” so that 
+any time you install a new U170 to the system, the Registration Wizard will discover 
+and register the product with your information without any user intervention. 
+ 
+Offline registration 
+ 
+If the PC where you have installed the U170 does not have access to the internet, you can still 
+register the product. Simply:   
+1.  Use the Registration Wizard and select “Offline Registration.”   
+2.  The system will still automatically discover the connected devices, but will then allow 
+you to save a registration file.
+
+--- Page 16 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 16
+ 
+3.  Place this file in a location where you can access it with an email client. This may be 
+on a flash disk if required.   
+4.  Then send the file to registration@ncomputing.com where the request will be 
+processed and a registration file will be sent back to you in email. 
+5.  Once you have the returned file, restart the Registration Wizard and select 
+“Complete Offline Registration”. 
+ 
+PC upgrade or card migration to another PC 
+The registration process assigns your vSpace software license and U170 virtual desktop to the 
+specific host PC in which they are installed. If you change or upgrade multiple components on 
+your PC, such as the  hard drive and operating system or if you move to another PC, you will 
+need to re-assign your license to the new host PC configuration. When making such a change, 
+simply repeat the online or offline registration process. You can reassign your license in this 
+way  a  few  times  after  your  initial  registration.  If  you  exceed  this  limit  you  will  need  to 
+contact NComputing technical support. 
+ 
+Uninstallation 
+To  uninstall  the  vSpace  software,  select  “Uninstall  vSpace” from  the “Start” menu. Follow  the 
+prompts and the vSpace software is removed from the host PC. You will be prompted to restart 
+the host PC to complete the process.
+
+--- Page 17 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 17
+ 
+  vSpace software updates 
+ 
+ 
+Once  you have  successfully  completed the registration process, you can update the  software 
+directly  over  the  Internet  by  selecting  “Update  vSpace”  from  the  “Start”  menu  or  from  the 
+System Tray menu. (Provided those updates for which you may be entitled to are available).   
+Additional features 
+Auto login 
+NComputing vSpace software has a convenient Auto-login feature popular in schools, kiosks, or 
+digital  signage  applications.  If  enabled,  once  a  computer  boots,  each  U170  station  will 
+automatically login using the username and password set. Additionally, a launch application or 
+script may be specified to run at login. 
+To enable the Autologin feature: 
+1.  Click on Autologin setup 
+ 
+2.  Enter the username and password you wish to use; the password will not be displayed in 
+clear text. (Note a blank password can be used, to do this simply place the cursor into 
+the password file (make no entries) and then press OK)
+
+--- Page 18 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 18
+ 
+3.  Click the checkbox to “enable” 
+The  “Running  Program”  fields  can  be  used  to  designate  a  single  application  to  be  displayed 
+without  the  underlying  windowing  system.  This  may  be  used  for  kiosk  or  digital  signage 
+applications. 
+Troubleshooting guide 
+ 
+No graphics are displayed of a U170 station 
+If there is nothing being displayed on a U170 station check the following: 
+1.  Is the blue light on the U170 on? If not, the device has not yet been enumerated to the 
+PC. This could take up to 10-20 seconds if this is the first time connecting. 
+2.  If the blue light is not on check to make sure the unit is plugged in to a USB 2.0 port. If 
+connecting to a hub, make sure the hub is powered. 
+3.  If the display is “gray” it is possible that you have not registered the device and it is timed 
+out. Run the registration wizard.   
+PC will not boot after attaching U170 virtual desktop 
+Some older PCs have difficulty with USB 2.0 composite devices. There are two potential ways 
+to solve 1) attach the U170 after booting, 2) try a separate USB PCI card 3) disable legacy USB 
+support in the BIOS. 
+ 
+U170 will not register 
+Run the registration wizard, when the system scans and lists all of the connected U170 devices 
+make sure the serial number of each device is displayed. If not, try unplugging and re-plugging 
+the  U170  device,  wait  for  enumeration  and  press  refresh.  In  some  rare  cases,  it  may  be 
+necessary to unplug the display connected to the U170 when registering devices. 
+ 
+Sound does not play   
+We setting up multiple U170 for the first time there are MANY items for the PC to discover and 
+the  host  may  not  enumerate  all  devices  correctly  the  first  time.  Therefore  a  double  reboot  is 
+advised  to  ensure  all  devices  are  enumerate  properly  (needed  only  after  new  devices  are 
+added).   
+ 
+Extended boot time to the OS   
+When multiple U170’s are connected to the host the normal boot time will be extended some for 
+each unit added. Remember the OS and PC is supporting that many more users.   
+ 
+For more troubleshooting information visit the NComputing knowledge base in the 
+support section of the NComputing website at www.ncomputing.com
+
+--- Page 19 ---
+USB virtual desktop (model U170) user guide
+ 
+ 
+ 
+Page 19
+ 
+Glossary 
+ 
+Administrator: a person who is responsible for managing a multi-user computing environment, 
+such as a local area network (LAN). Administrator responsibilities typically include: installing and 
+configuring  system  hardware  and  software;  establishing  and  managing  user  accounts; 
+upgrading software; and backup and recovery tasks. 
+Download: the network transmission of a file from one computer system to another. 
+Firewall: a set of related programs that protect the resources of a private network from users on 
+other networks and control what outside resources local users have access to.   
+Host PC: a computer in which the vSpace software has been installed 
+Internet: a worldwide system of computer networks in which users at any one computer can, if 
+they  have  permission,  get  information  from  other  connected  computers  (and  sometimes  talk 
+directly with users at other computers). 
+Log  on:  Logon  is  the  procedure  by  which  an  entity  (person,  program,  or  system)  exchanges 
+credentials with an operating system or application in order to be allowed access to the OS or 
+application.  Almost  always,  a  logon  requires  that  the  user  have  (1)  a  user  ID  and  (2)  a 
+password. Often, the user ID must conform to a length requirement such as eight characters or 
+more, and the password must contain at least one digit and not match a natural language word. 
+User: one who uses a computer system. Users need to identify themselves to be able to access 
+the  computer  system.  In  order  to  ensure  unique  identities,  the  system  administrator  usually 
+assigns each user a username associated with a defined set of computer resources. 
+USB: (Universal Serial Bus) is a standard designed to allow peripherals to connect and identify 
+themselves a computer via a standardized interface socket. USB allows devices to connect and 
+disconnect from a computer without the forcing the computer to be restarted. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+U170 User’s Guide Rev.D
+

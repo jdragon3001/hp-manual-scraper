@@ -1,0 +1,744 @@
+Brand: VXL
+Model: Itona F64
+URL: https://www.manua.ls/vxl/itona-f64/manual
+Total Pages: 23
+============================================================
+
+--- Page 1 ---
+Itona Fxx Series 
+Hardware User Guide
+
+--- Page 2 ---
+Copyright © 2004-2014 VXL Instruments Limited. All Rights Reserved 
+Information in this document is subject to change without notice and does not represent a 
+commitment on the part of the manufacturer. No part of this guide may be reproduced or 
+transmitted in any form or means, electronic or mechanical, including photocopying and recording, 
+for any purpose, without the express written permission of the manufacturer. 
+Every effort has been made to make this guide as complete and as accurate as possible, but no 
+warranty or fitness is implied. The authors and the publisher shall have neither responsibility nor 
+liability to any person or entity with respect to loss or damages arising from the use of information 
+contained in this guide. This disclaimer does not apply in countries where such provisions are 
+inconsistent with local law. 
+Last Updated: September, 2014. 
+Version: IFS/ UG-36-14. 
+VXL Instruments Ltd., 
+House of Excellence, 
+No. 17, Electronics City, 
+Hosur Road, 
+Bangalore
+– 560 100, INDIA 
+www.vxl.net
+
+--- Page 3 ---
+i   
+Federal Communication Commission 
+(FCC) Statement 
+This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to 
+Part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful 
+interference in a residential installation. This equipment generates uses and can radiate radio frequency 
+energy and, if not installed and used in accordance with the instructions, may cause harmful interference to 
+radio communications. However there is no guarantee that interference will not occur in a particular 
+installation. 
+If this equipment does cause harmful interference to radio or television reception, which can be determined 
+by turning the equipment Off and On, the user is encouraged to try to correct the interference by one or 
+more of the following measures: 
+  Re-orient or relocate the receiving antenna. 
+  Increase the separation between the equipment and receiver. 
+  Connect the equipment to an outlet on a circuit different from that to which the receiver is 
+connected. 
+  Consult the dealer or an experienced radio / television technician for help. 
+Each Thin Client is equipped with a FCC compliance label that shows only the FCC identification number. 
+The full information of the associated label is as follows: 
+This device complies with Part 15 of the FCC rules. Operation is subject to the following two conditions: 
+1.  This device may not cause harmful interference. 
+2.  This device must accept any interference received, including interference that may cause 
+undesired operation. 
+Battery Information 
+Batteries, battery packs, and accumulators should not be disposed together with the general household 
+waste. In order to forward them to recycling or proper disposal, please use the public collection system for 
+electronic waste in your country. 
+Product Safety 
+Improper connecting or mounting of the product could result in product failure or damage. For more 
+information on product safety, visit http://www.vxl.net/Support/HardwareInstallationGuides.aspx    
+VXL Technical Support 
+To access VXL hardware and software documentation, visit:  
+http://www.vxl.net//Independent/product-manuals.aspx 
+For online support or reporting a problem, visit: 
+http://vxlsupport.me 
+For more details about Product Warranty, visit:  
+http://www.vxl.net/Support/Product-Warranty-Terms.aspx
+
+--- Page 4 ---
+ii 
+ENERGY STAR Compliant Product 
+ENERGY STAR is a joint program of the U.S. Environmental Protection Agency and the U.S. 
+Department of Energy helping us all save money and protect the environment through energy 
+efficient products practices. 
+Please visit http://www.energystar.gov for detail information on the ENERGY STAR joint program.
+
+--- Page 5 ---
+iii   
+Regulatory Certifications
+
+--- Page 6 ---
+iv 
+Table of Contents 
+Federal Communication Commission (FCC) Statement  i 
+ENERGY STAR Compliant Product  ii 
+Regulatory Certifications  iii 
+1  Introduction  1 
+About the User Guide  2 
+Abbreviations and Acronyms  2 
+Chapters in the Manual  3 
+2  Installation  5 
+Unpacking the Unit  5 
+Preparing to Connect  5 
+Connecting the Accessories and Power Supply  6 
+Connecting to the Server  8 
+LAN Connection through TCP/IP  8 
+Direct Connection using RS232 cable  8 
+Dial-In Remote Connection through a Modem  9 
+3  Specifications  10 
+Hardware  10 
+Mechanical  10 
+Environmental Operating  11 
+Electrical – External Power Adapter  11 
+4  Troubleshooting  12 
+Appendix  13
+
+--- Page 7 ---
+1  Introduction 
+1  Introduction 
+Thin Clients are essentially terminal devices that connect to multi-user application servers operating under 
+Citrix MetaFrame and Windows 2000/ 2003 / 2009 operating systems. 
+This guide covers installation and hardware details of Itona F series. 
+ 
+Figure 1: Itona F Series Front View  
+Itona F series deliver smart and robust solutions for Thin Client computing. They are aesthetically and 
+ergonomically designed compact desktop, providing simultaneous full screen connectivity to Windows and 
+UNIX application servers – a powerful business alternative to users using Win32 applications while 
+continuing access to legacy UNIX applications. 
+They communicate with application servers via the ICA protocol developed by Citrix Systems Inc., Remote 
+Desktop Protocol from Microsoft and a host of other popular connectivity protocols. Please refer to the 
+Software User’s Guide for information about connection protocols supported by this model. 
+1. Power Button 
+2. Smart Card Reader 
+(Optional). 
+3. MIC  
+4. Pedestal 
+5. Audio Line Out 
+6. USB Ports 
+  1 
+  2 
+  3 
+  4 
+  5 
+  6
+
+--- Page 8 ---
+Introduction  2 
+Features 
+The product is equipped with a 10/100/1000 Ethernet port that gives an instant connection to a multi-user 
+Windows NT application server. Itona F series has serial, parallel, VGA and DVI-I Ports. USB and PS/2 
+compatible keyboard/Mouse ports are available for quick setup and use.  
+Optional Features  
+The optional features available for Itona F series are listed below: 
+  Smart Card reader  
+  Wireless LAN 
+  3
+rd
+ Serial Port 
+  VESA Mounting Brackets 
+  Internal Speaker (4 Ohms  1.5W) 
+Note: The optional features cannot be upgraded in the field. Please contact the reseller or 
+dealer from whom you purchased the product for information about optional features. 
+About the User Guide 
+This User Guide provides step by step instructions to install Itona F series hardware. The specifications and 
+troubleshooting steps are also included in this User Guide.   
+Abbreviations and Acronyms 
+Abbreviation 
+Expansion 
+AC 
+Alternating Current 
+DC 
+Direct Current 
+LAN 
+Local Area Network 
+LED 
+Light Emitting Diode 
+TCP/IP 
+Transmission Control Protocol/Internet Protocol 
+USB 
+Universal Serial Bus 
+VESA 
+Video Electronics Standards Association 
+VGA 
+Video Graphics Array 
+Table 1: Abbreviations and Acronyms
+
+--- Page 9 ---
+3  Introduction 
+Chapters in the Manual 
+Chapter No 
+Chapter Name 
+Description 
+1 
+Introduction  
+Contains an overview of the product, 
+information about this guide and 
+abbreviations used in this guide. 
+2 
+Installation  
+Contains the procedure to setup the 
+hardware. 
+3 
+Specifications 
+Contains  hardware, mechanical, electrical, 
+interface and operating environment 
+specifications 
+4 
+Troubleshooting 
+Contains solutions to problems that you 
+may encounter while using the product. 
+— 
+Appendix 
+Contains detailed specifications for 
+connectors and cables used with the 
+product. 
+Table 2: List of Chapters 
+ Warning  
+  Any changes or modifications not expressly approved by the party responsible for 
+compliance could void the user's authority to operate this equipment. 
+  There is no user serviceable part inside. Do not open enclosure, hazardous  voltages 
+present inside equipment. Do not disassemble the equipment as this can nullify your 
+warranty. 
+  This equipment must be earthed. 
+  The AC socket outlet shall be installed near the equipment and shall be easily accessible. 
+  Sound Power Level is less than 60dB (A), when measured according to ISO 7779. 
+  Excessive sound pressure from earphones and headphones can cause hearing loss. 
+Adjustment of the equalizer to maximum increases the earphones and headphones output 
+voltage and therefore the sound pressure level. 
+ Caution 
+  Ensure that all expansion slots (on the back or side of the computer) are covered with metal 
+retaining brackets, and tightly attached to the computer cabinet. 
+  Only equipment certified to comply with Class B (computer input/output devices, terminals, 
+printer’s etc.) should be attached to this equipment, and must have shielded interface 
+cables. 
+  This equipment should not be used in electro-medical applications. 
+  Do not operate this equipment in corrosive or explosive atmosphere. 
+  Replace the battery only with the same or equivalent type recommended by the 
+manufacturer.
+
+--- Page 10 ---
+Introduction  4 
+  Do not operate this equipment outside specified temperature limits.
+
+--- Page 11 ---
+5  Installation 
+2  Installation 
+This chapter describes hardware installation of the product. 
+To install the Itona F series hardware, do the following steps: 
+1.  Unpack the unit. 
+2.  Prepare to connect. 
+3.  Connect the accessories and power. 
+4.  Connect to the server  
+Each step is explained in detail in this chapter. 
+Unpacking the Unit 
+Unpack the unit taking care not to drop the product whilst removing from the packaging. 
+The carton in which the product was shipped to you contains the following: 
+  Itona F series Thin Client  
+  AC-DC power adapter 12V /5A 
+  Pedestal Set 
+  Power cord (optional) 
+  DVI to VGA cable (optional) 
+  Mouse (optional) 
+  VESA Mounting bracket (optional) 
+  Hardware Installation Guide 
+Ensure that all the above mentioned contents are available in the carton. Contact the dealer or reseller from 
+whom you have purchased the product, in case of discrepancy.  
+Note: Please retain the original carton and packing material for further use.  
+Preparing to Connect 
+1.  Ensure that the following are available at the site where you want to install the product. 
+  100~240V AC, 1.2A, 50/60 Hz, 3-pin power inlet for power adapter (Itona F series). 
+Note: Ensure that the power inlet plug is properly regulated and earthed. A floating ground /    
+chassis could cause an electric shock. 
+  Well ventilated, clean, dry and dust free atmosphere. 
+  Specified environmental conditions. For more information see, Environmental Operating 
+Specifications on page 11.
+
+--- Page 12 ---
+Installation  6 
+  Table or desk of suitable size. 
+2.  Fix the pedestals at the bottom of the thin client. 
+3.  Place the product on the table in a location that provides quick and easy access to the power Inlet   
+plug to shutdown the power in emergencies. 
+4.  Ensure a minimum space of 2 inches (5 cm) on all sides of the unit for efficient convection cooling. 
+ Connecting the Accessories and Power Supply 
+The various connectors available on the rear panel of the client are shown in Figure 2. 
+ 
+Figure 2: Itona F Series Rear View 
+7 
+8 
+9 
+10 
+11 
+1 
+2 
+3 
+4 
+5 
+6 
+1. 2 x USB ports 
+2. 4 x USB ports 
+3. 1 x Serial Port 
+4. DVI port 
+5. PS/2 KBD 
+6. DC power in 12V/5A 
+7. Serial port (Optional) 
+8. PS/2 mouse port 
+9. VGA port 
+10. COM port 2 
+11. Ethernet port
+
+--- Page 13 ---
+7  Installation 
+Connectors 
+Connector Symbol 
+ 
+VGA port 
+ 
+DVI-I port  
+ 
+USB port 
+ 
+ 
+Audio output (LINE OUT) 
+port 
+ 
+Microphone input port 
+ 
+PS/2 Keyboard port 
+
+ 
+PS/2 Mouse port 
+ 
+COM port  
+    
+1
+ 
+RJ45 Ethernet port 
+ 
+Table 3: Connector Symbols 
+Note: Before connecting any cables, ensure that the power cable is unplugged from the unit. 
+Use 6A (min)/250V AC 0.75 SQMM, H05W-F certified power cord. 
+To connect various accessories and power supply: 
+1.  Connect the DVI cable from your display unit to the DVI-I port. 
+2.  Connect the video cable from your display unit to the video port. 
+3.  Connect the USB devices to the USB ports. 
+4.  Connect the external powered speakers to the audio output (LINE OUT) port. 
+5.  Connect the microphone to the Microphone input port. 
+6.  Connect PS/2 keyboard to the PS/2 keyboard port. 
+7.  Connect PS/2 mouse to the PS/2 mouse port. 
+8.  Connect serial devices to the COM ports. 
+9.  Connect the LAN cable to the RJ45 Ethernet port. 
+10. Connect the DC 12V 5.0A Power Adapter to DC jack.
+
+--- Page 14 ---
+Installation  8 
+ Caution: Ensure that COM1, COM2, COM3, VGA, and DVI Ports are adequately fastened with 
+the screws provided with the cables. 
+Connecting to the Server 
+The Thin Client can be physically connected to the server/network in three ways: 
+  LAN connection through TCP/IP. 
+  Direct connection through RS232. 
+  Dial-in remote connection through a modem. 
+LAN Connection through TCP/IP 
+To connect client to LAN through TCP/IP: 
+1.  Connect one end of a 10/100/1000 cable to the LAN port of the client.  
+2.  Connect the other end to a LAN hub as shown in Figure 3. 
+ 
+Figure 3: LAN Connection through TCP/IP  
+3.  Press the power button to turn on the Itona F series. The front panel LED lights up and the client 
+boots up with a beep sound. The Connection Manager screen appears.  
+Direct Connection using RS232 cable 
+To connect client directly using RS232 cable: 
+1.  Connect one end of an RS232 cross cable to a serial port of the client.  
+2.  Connect the other end to a serial port of the server as shown in Figure 4. 
+ 
+Figure 4: Direct Connection through RS232 
+3.  Press the power button to turn on the Itona F series. The front panel LED lights up and the client 
+boots up with a beep sound. The Connection Manager screen appears.
+
+--- Page 15 ---
+9  Installation 
+Dial-In Remote Connection through a Modem 
+To connect client by dial-in remote connection through a modem: 
+1.  Connect one end of an RS232 straight cable to a serial port of the client. 
+2.  Connect the other end to a modem as shown in Figure 5. 
+ 
+Figure 5: Dial-In Remote Connection through Modem 
+3.  Press the power button to turn on the Itona F series. The front panel LED lights up and the client 
+boots up with a beep sound. The Connection Manager screen appears.  
+Note: To configure the client, refer to the Software User’s Guide.
+
+--- Page 16 ---
+Specifications  10 
+3  Specifications 
+Hardware 
+Processor 
+VIA Nano U3300 1.2GHz 
+Chipset 
+VIA VX900 
+VGA Memory 
+Shared Video Memory 128MB min 512 max 
+Flash 
+SATA Min support 512MB, 4GB Max 
+RAM 
+DDRIII SODIMM 1066MHz Min Support 1GB 
+Network 
+10/100/1000 Mbps 
+Maximum Display Resolution 
+VGA -2048x1536 @75Hz, 16/32 bits max. 
+DVI-I - 1920 X 1200 @60Hz 16/32 bits max. 
+Power Supply 
+External 12V / 5.0A Adapter 
+Smart Card reader 
+Optional 
+Wireless LAN 
+Optional 
+3
+rd
+ COM Port 
+Optional 
+Inbuilt Speaker 4 Ohms  1.5W 
+Optional 
+Mechanical  
+Height 
+228 mm 
+Width 
+50 mm 
+Depth 
+230 mm 
+Weight 
+3.0 Kg (max)
+
+--- Page 17 ---
+11  Specifications 
+Environmental Operating  
+Operating temperature 
++ 5
+o
+C to +40
+o
+C ( Vertical position) 
+Storage temperature 
+- 20
+o 
+C to +65
+o
+C 
+Humidity 
+20% to 80% RH non-condensing 
+Electrical – External Power Adapter 
+Line Voltage 
+100V to 240V AC 
+Line Frequency 
+50 / 60 Hz 
+Power Inlet 
+1.5A, 3-pin power plug (IEC 320) 
+Power Output 
+12 V / 5A max
+
+--- Page 18 ---
+Troubleshooting  12 
+4  Troubleshooting 
+This chapter contains solutions for problems you may encounter while using the product.  
+Problem 
+Solution 
+The power-LED on front panel 
+does not glow when the client 
+is turned on. 
+  Ensure that the power cord is plugged into an AC outlet. 
+  Check the fuse in the power-plug, if available. 
+There is no display, though the 
+power-indicating LED glows. 
+  Ensure that the video cable is properly connected. 
+The mouse (or keyboard) does 
+not work when the client is 
+switched on. 
+  Ensure that the mouse (or keyboard) is plugged into the 
+correct USB port on the rear panel.
+
+--- Page 19 ---
+13  Appendix 
+Appendix  
+Connectors 
+The following section provides pin details for various connectors on the rear panel of the client.  
+COM Port 
+9-pin D-type male connector, RS232C compatible, operating at 115.2K baud maximum. 
+ 
+Pin  
+Signal 
+Description 
+1 
+ DCD 
+Data Carrier Detect 
+2 
+ RxD 
+Receive Data 
+3 
+ TxD 
+Transmit Data 
+4 
+ DTR 
+Data Terminal 
+Ready 
+5 
+ GND 
+Signal Ground 
+6 
+DSR 
+Data Set Ready 
+7 
+RTS 
+Request To Send 
+8 
+CTS 
+Clear To Send 
+9 
+ NC 
+Not Connected
+
+--- Page 20 ---
+Appendix  14 
+10/100/1000 LAN Port 
+RJ-45 modular 8-pin jack. 10/100/1000 Mbps. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Video Port 
+15-pin D-type female connector. 
+ 
+Pin 
+Signal 
+ 
+Pin 
+Signal 
+ 
+Pin 
+Signal 
+ 1 
+Red 
+ 
+ 6 
+Red return GND 
+ 
+ 11 
+No Connection 
+ 2 
+Green 
+ 
+ 7 
+Green return GND 
+ 
+ 12 
+No Connection 
+ 3 
+Blue 
+ 
+ 8 
+Blue return GND 
+ 
+ 13  
+Horizontal Sync 
+ 4 
+No Connection 
+ 
+ 9 
+No Connection 
+ 
+ 14 
+Vertical Sync 
+ 5 
+GND 
+ 
+10 
+No Connection 
+ 
+ 15 
+No Connection 
+ 
+Pin 
+Signal 
+1 
+TxD+ 
+2 
+TxD- 
+3 
+RxD+ 
+6 
+RxD-
+
+--- Page 21 ---
+15  Appendix 
+DVI-I Port 
+Pin C1 to C5 carry the analogue signal.24+ 5 pin DVI Connector. 
+ 
+Pin 
+Signal 
+ 
+Pin 
+Signal 
+ 
+Pin 
+Signal 
+ 1 
+TMDS Data 2- 
+ 
+11 
+TMDS Data 1/3 
+Shield 
+ 
+21 
+TMDS Data 5+ 
+ 2 
+TMDS Data 2+ 
+ 
+12 
+TMDS Data 3- 
+ 
+22 
+TMDS Clock 
+Shield 
+ 3 
+TMDS Data 2/4 
+Shield  
+ 
+13 
+TMDS Data 3+ 
+ 
+23 
+TMDS Clock + 
+4 
+TMDS Data 4- 
+ 
+14 
++5 V Power 
+ 
+24 
+TMDS Clock - 
+5 
+TMDS Data 4+ 
+ 
+15 
+Ground(for+5V) 
+ 
+C1 
+Analog Red 
+6 
+DDC Clock 
+ 
+16 
+Hot Plug Detect 
+ 
+C2 
+Analog Green 
+7 
+DDC Data  
+ 
+ 17 
+TMDS Data 0- 
+ 
+C3 
+Analog Blue 
+8 
+Analog Vertical 
+Sync 
+ 
+ 18 
+TMDS Data 0+ 
+ 
+C4 
+Analog Horizontal 
+Sync 
+9 
+TMDS Data 1- 
+ 
+19 
+TMDS Data 0/5 
+Shield 
+ 
+C5 
+Analog Ground 
+(analog R, G & B 
+return) 
+10 
+TMDS Data 1+ 
+ 
+20 
+TMDS Data 5-
+
+--- Page 22 ---
+Appendix  16 
+PS/2 Mouse / Keyboard Port 
+Mouse / Keyboard connector 
+ 
+Pin  
+Signal 
+ 
+Pin 
+Signal 
+ 1 
+Mouse / KBD data 
+ 
+ 4 
+VCC 
+ 2 
+NC 
+ 
+ 5 
+Mouse / KBD Clock 
+ 3 
+GND 
+ 
+ 6 
+NC 
+ 
+Audio   Port 
+Line Out/Mic ports 
+Standard audio jacks. 
+USB Port 2.0 
+4-pin series-A receptacle. 4~ 5 ports depending on the model. 
+ 
+Pin 
+Signal 
+1 
+VCC 
+2 
+D- 
+3 
+D+ 
+4 
+GND
+
+--- Page 23 ---
+17  Revision History 
+Revision History 
+Version 
+Change Details 
+Authors/ 
+Reviewers 
+Date 
+IFS/ UG-36-14 
+Changed the User guide title to Fxx, 
+changed the hyperlink address under 
+product safety and online support. 
+Updated certification logo images. 
+Sharath, Sai priya 
+05-Sep-2014
+

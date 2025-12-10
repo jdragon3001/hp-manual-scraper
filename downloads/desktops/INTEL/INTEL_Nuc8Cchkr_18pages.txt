@@ -1,0 +1,314 @@
+Brand: INTEL
+Model: Nuc8Cchkr
+URL: https://www.manua.ls/intel/nuc8cchkr/manual
+Total Pages: 18
+============================================================
+
+--- Page 1 ---
+1 
+NUC8CCHKR 
+User Guide – September 2019 
+ 
+ 
+ 
+ 
+ 
+Intel® NUC 8 Rugged Kit NUC8CCHKR 
+ 
+User Guide 
+ 
+September 2019 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+You may not use or facilitate the use of this document in connection with any infringement or other legal analysis concerning Intel products 
+described herein. You agree to grant Intel a non-exclusive, royalty-free license to any patent claim thereafter drafted which includes subject 
+matter disclosed herein. 
+No license (express or implied, by estoppel or otherwise) to any intellectual property rights is granted by this document. 
+All information provided here is subject to change without notice. Contact your Intel representative to obtain the latest Intel product 
+specifications and roadmaps. 
+The products described may contain design defects or errors known as errata which may cause the product to deviate from published 
+specifications. Current characterized errata are available on request. 
+Copies of documents which have an order number and are referenced in this document may be obtained by calling 1-800-548-4725 or by 
+visiting:  http://www.intel.com/design/literature.htm.   
+Intel technologies' features and benefits depend on system configuration and may require enabled hardware, software or service activation. 
+Performance varies depending on system configuration. No computer system can be absolutely secure. 
+Intel and the Intel logo are trademarks of Intel Corporation or its subsidiaries in the U.S. and/or other countries. 
+*Other names and brands may be claimed as the property of others. 
+Copyright © 2019, Intel Corporation. All rights reserved.
+
+--- Page 2 ---
+2 
+NUC8CCHKR 
+User Guide – September 2019 
+Contents 
+1.0  Introduction ............................................................................................................................. 4 
+2.0  Install an M.2 SSD (Optional) ........................................................................................ 5 
+3.0  Attach the Intel NUC with Keyhole Mounts (Optional) ................................... 7 
+4.0  Attach the Intel NUC to DIN Rail (Optional) ......................................................... 8 
+5.0  Attach the Intel NUC with VESA Bracket (Optional) ........................................ 9 
+6.0  Attach Rubber Feet (Optional) ................................................................................... 11 
+7.0  Install External Wireless Antennas (Optional) ................................................. 12 
+8.0  Block I/O Ports from Dust (Optional) .................................................................... 14 
+9.0  Connect Power ..................................................................................................................... 15 
+10.0  Install an Operating System ........................................................................................ 17 
+11.0  Install the Latest Device Drivers and Software ............................................... 18
+
+--- Page 3 ---
+3 
+NUC8CCHKR 
+User Guide – September 2019 
+Revision History 
+ 
+Date 
+Revision 
+Description 
+September 2019 
+1.0 
+Initial release.
+
+--- Page 4 ---
+4 
+NUC8CCHKR 
+User Guide – September 2019 
+1.0  Introduction 
+This User Guide provides step-by-step installation instructions for the Intel® NUC 8 Rugged Kit NUC8CCHKR. 
+Before You Begin 
+  CAUTIONS 
+The steps in this guide assume you’re familiar with computer terminology and with the safety practices and 
+regulatory compliance required for using and modifying computer equipment. 
+ 
+Disconnect the computer from its power source and from any network before performing any of the steps 
+described in this guide.   
+Failure to disconnect power, telecommunications links, or networks before you open the computer or perform 
+any procedures can result in personal injury or equipment damage.  Some circuitry on the board can continue 
+to operate even though the front panel power button is off. 
+ 
+Follow these guidelines before you begin: 
+•  Always follow the steps in each procedure in the correct order. 
+•  Create a log to record information about your computer, such as model, serial numbers, installed options, and 
+configuration information. 
+•  Electrostatic discharge (ESD) can damage components.  Perform the procedures described in this chapter 
+only at an ESD workstation using an antistatic wrist strap and a conductive foam pad. If such a station isn’t 
+available, you can provide some ESD protection by wearing an antistatic wrist strap and attaching it to a metal 
+part of the computer chassis. 
+Installation Precautions 
+When you install and test the Intel NUC, observe all warnings and cautions in the installation instructions. 
+ 
+To avoid injury, be careful of: 
+•  Sharp pins on connectors 
+•  Sharp pins on circuit boards 
+•  Rough edges and sharp corners on the chassis 
+•  Hot components (such as SSDs, processors, voltage regulators, and heat sinks) 
+•  Damage to wires that could cause a short circuit 
+ 
+Observe Safety and Regulatory Requirements 
+If you don’t follow these instructions, you increase your safety risk and the possibility of noncompliance with 
+regional laws and regulations.
+
+--- Page 5 ---
+5 
+NUC8CCHKR 
+User Guide – September 2019 
+2.0  Install an M.2 SSD (Optional) 
+Intel NUC 8 Rugged Kit NUC8CCHKR comes with a soldered-down 64GB eMMC 
+storage device. You can add an 80mm M.2 SSD. 
+  Find compatible M.2 SSDs in the Intel Product Compatibility Tool: 
+To install an M.2 SSD: 
+1.  Unscrew the four corner screws on the bottom of the chassis (A) and lift the 
+cover (B). 
+ 
+Note: the M.2 SSD is placed over the top of the pre-installed wireless card (C ).
+
+--- Page 6 ---
+6 
+NUC8CCHKR 
+User Guide – September 2019 
+ 
+ 
+2.  Remove the small silver screw from the 80mm metal standoff on the board (D). 
+ 
+3.  Align the space at the bottom of the M.2 SSD to the key on the connector. 
+ 
+4.  Insert the bottom edge of the M.2 SSD into the connector (E). 
+ 
+5.  Secure the card to the standoff with the small silver screw (F). 
+ 
+ 
+6.  Close the chassis. Intel recommends this be done by hand with a screwdriver to 
+avoid over-tightening and possibly damaging the screws.
+
+--- Page 7 ---
+7 
+NUC8CCHKR 
+User Guide – September 2019 
+3.0  Attach the Intel NUC with Keyhole Mounts 
+(Optional) 
+The bottom chassis cover has two picture frame keyholes. The keyholes are 100mm 
+apart, so will fit any 100mm VESA mount. A VESA bracket is NOT included in the Intel 
+NUC box and must be purchased separately. 
+Follow these instructions to attach the Intel NUC to a VESA mount using these 
+keyholes. 
+ 
+1.  Attach the two large silver screws to the monitor’s VESA mount. 
+ 
+2.  Slide the Intel NUC onto the VESA mount bracket, lining up the keyholes to the 
+screws.
+
+--- Page 8 ---
+8 
+NUC8CCHKR 
+User Guide – September 2019 
+4.0  Attach the Intel NUC to DIN Rail (Optional) 
+The bottom chassis cover has four indentations that can be used to zip-tie the Intel 
+NUC to a 75mm DIN rail system.  
+Follow these instructions to attach the Intel NUC to a DIN rail. 
+1.  Insert four zip-ties into the indentations. 
+ 
+2.  Secure the Intel NUC with the zip-ties to the DIN rail system. 
+ 
+ 
+Note: UL safety standards require the Intel NUC should be mounted at a height of 2 
+meters or less.
+
+--- Page 9 ---
+9 
+NUC8CCHKR 
+User Guide – September 2019 
+5.0  Attach the Intel NUC with VESA Bracket 
+(Optional) 
+The bottom chassis cover has two VESA mount holes. The holes are 85mm apart, so 
+will fit any 85mm VESA mount. A VESA bracket is NOT included in the Intel NUC box 
+and must be purchased separately. 
+Follow these instructions to attach the Intel NUC to a VESA mount bracket. 
+ 
+1.  Attach the two large black screws to the bottom chassis cover of the Intel NUC.
+
+--- Page 10 ---
+10 
+NUC8CCHKR 
+User Guide – September 2019 
+2.  Attach the 85mm VESA bracket (purchased separately) to the back of the 
+monitor or TV. 
+ 
+ 
+ 
+3.  Slide the Intel NUC onto the VESA mount bracket.
+
+--- Page 11 ---
+11 
+NUC8CCHKR 
+User Guide – September 2019 
+6.0  Attach Rubber Feet (Optional) 
+Rubber feet are included in the Intel NUC box. Follow these instructions to attach them 
+to the bottom of the chassis. 
+1.  Peel the rubber feet from the paper backing and place them on the four corners of 
+the chassis bottom, as shown. 
+2.  Secure the rubber feet with the 4 small black screws included in the box.
+
+--- Page 12 ---
+12 
+NUC8CCHKR 
+User Guide – September 2019 
+7.0  Install External Wireless Antennas (Optional) 
+Two RP-SMA antenna extension cables are included in the Intel NUC box.  
+ 
+These can be used to install external antennas through the external antenna expansion 
+ports on the back panel. External antennas are NOT included in the Intel NUC box and 
+must be purchased separately. 
+ 
+To install the external antennas: 
+1.  Remove the rubber plugs from the back panel (A). 
+2.  Insert the bolt ends of the antenna cables through the ports (B) and secure 
+with the hex nuts (C).
+
+--- Page 13 ---
+13 
+NUC8CCHKR 
+User Guide – September 2019 
+3.  Route the black and white antennas as shown (D).  
+4.  Connect the antenna connectors to the wireless card (E).  
+ 
+5.  Attach external dual band RP-SMA wireless antennas, such as shown below.
+
+--- Page 14 ---
+14 
+NUC8CCHKR 
+User Guide – September 2019 
+8.0  Block I/O Ports from Dust (Optional) 
+Included in the box are plugs that can be used to block I/O ports that are not in use. 
+Blocking open I/O ports helps to prevent dust from getting inside the chassis.
+
+--- Page 15 ---
+15 
+NUC8CCHKR 
+User Guide – September 2019 
+9.0  Connect Power 
+Each Intel NUC model includes either a region-specific AC power cord or no AC power 
+cord (only the power adapter). 
+ 
+Product code 
+Power cord type 
+BKNUC8CCHKR 
+ 
+No power cord included. An AC power cord needs to be 
+purchased separately. Power cords are available at many 
+Internet sites for use in multiple countries.  
+ 
+The connector on the power adapter is a C5 type connector. 
+ 
+BKNUC8CCHKR1 
+US power cord included 
+BKNUC8CCHKR2 
+EU power cord included 
+BKNUC8CCHKR3 
+UK power cord included 
+BKNUC8CCHKR4 
+Australia/New Zealand power cord included 
+BKNUC8CCHKR5 
+India power cord included
+
+--- Page 16 ---
+16 
+NUC8CCHKR 
+User Guide – September 2019 
+Optionally, you can wrap the power adapter cable around the cable locking arm to 
+relieve strain on the cable.
+
+--- Page 17 ---
+17 
+NUC8CCHKR 
+User Guide – September 2019 
+10.0  Install an Operating System 
+See Supported Operating Systems for a list of Intel-validated Windows* operating 
+systems. 
+Refer to Operating System Installation for system requirements and installation steps. 
+The Intel Product Compatibility Tool lists versions of Linux* that have been reported 
+as compatible by Intel NUC owners. If you need assistance with Linux on your Intel 
+NUC, check the distribution’s website and forums for peer assistance.
+
+--- Page 18 ---
+18 
+NUC8CCHKR 
+User Guide – September 2019 
+11.0  Install the Latest Device Drivers and Software 
+Here are the options for keeping device drivers current:  
+ 
+•  Allow the Intel® Driver & Support Assistant (Intel® DSA) to detect out-of-
+date drivers and BIOS. 
+•  Manually download drivers, BIOS, and software from Download Center. 
+The following device drivers and software are available. 
+•  Intel® Chipset Device Software 
+•  Intel® HD Graphics 
+•  Intel® Trusted Execution Technology 
+•  Intel® Gigabit Ethernet 
+•  Intel® Wireless 
+•  Intel® Bluetooth 
+•  Realtek* High Definition Audio
+

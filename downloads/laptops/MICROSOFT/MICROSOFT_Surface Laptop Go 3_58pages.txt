@@ -1,0 +1,1386 @@
+Brand: MICROSOFT
+Model: Surface Laptop Go 3
+URL: https://www.manua.ls/microsoft/surface-laptop-go-3/manual
+Total Pages: 58
+============================================================
+
+--- Page 1 ---
+Surface Laptop 3 / Laptop 4 
+Service Guide
+M1179886
+SG
+
+--- Page 2 ---
+2 M1179886
+Disclaimer of Warranties and Limitation of Damages
+All information, content, materials, and products made available in or in conjunction with this Manual are provided 
+by Microsoft on “as-is” and “as available” basis, unless otherwise specied by Microsoft in writing. Microsoft makes no 
+representations or warranties of any kind, express or implied, as to the information, content, materials and products 
+included or otherwise made available to you or accompanying this Manual unless specied in writing. You expressly 
+agree that your use of the information, content, materials, and product in or accompanying this Manual is at your 
+sole risk.
+To the fullest extent permissible by law, Microsoft disclaims all warranties, express or implied, including but not 
+limited to implied warranties of merchantability and tness for a particular purpose. To the fullest extent permissible 
+by law, Microsoft shall not be liable for damages of any kind arising from the use of information, content, materials, or 
+product made available in or in conjunction with this Manual, including but not limited to direct, indirect, incidental, 
+consequential, and/or punitive damages unless otherwise specied in writing.
+Notice
+Microsoft and its suppliers may have patents, patent applications, trademarks, copyrights, trade secrets and/or other 
+intellectual property rights covering subject matter in this document. Microsoft’s furnishing of this document to 
+recipient does not grant or imply any license to any patents, trademarks, copyrights, trade secrets or other intellectual 
+property rights, and recipient’s permitted use of any such intellectual property rights, if any, is solely governed by the 
+Agreements.
+This document and the information it contains are subject to change without notice. You can nd the latest 
+information on Surface device servicing and repair at https://aka.ms/surfaceservicing. Always consult the most up-to-
+date information available before performing device servicing or repair.
+©2021 Microsoft Corporation.  All rights reserved.
+Document Part Number: M1179886
+
+--- Page 3 ---
+3 M1179886
+Table of Contents
+DEVICE IDENTITY INFORMATION ........................................................................................................................... 4
+·  SURFACE LAPTOP MODELS ........................................................................................................................ 4
+·  GLOSSARY OF TERMS ..................................................................................................................................5
+GENERAL INFORMATION, PRECAUTIONS, WARNINGS ........................................................................................6
+·  SERVICE TOOLS AND JIGS ...........................................................................................................................6
+·  GENERAL SAFETY PRECAUTIONS ...............................................................................................................7
+·  REPAIR-SPECIFIC PRECAUTIONS AND WARNINGS ..................................................................................8
+·  REPAIR- CROSS-REFERENCE DOCUMENTS ................................................................................................8
+·  SAFETY POLICIES/PROCEDURES .................................................................................................................9
+ILLUSTRATED SERVICE PARTS LIST ........................................................................................................................10
+SERVICE DIAGNOSTICS/TROUBLESHOOTING OVERVIEW .................................................................................. 17
+·  SOFTWARE TOOLS: ....................................................................................................................................17
+·  HARDWARE TROUBLESHOOTING APPROACH ....................................................................................... 17
+COMPONENT REMOVAL AND REPLACEMENT PROCEDURES .............................................................................18
+·  PRIOR TO DEVICE DISASSEMBLY: .............................................................................................................18
+·  CURRENT BATTERY WARNING .................................................................................................................18
+·  NON-SKID FOOT PAD REPLACEMENT PROCESS ..................................................................................... 19
+1.  PROCEDURE – REMOVAL (NON-SKID FOOT PAD) ..............................................................19
+2.  PROCEDURE – INSTALLATION (NON-SKID FOOT PAD) .................................................... 20
+3.  ALTERNATE PROCEDURE – INSTALLATION (NON-SKID FOOT PAD) ............................... 22
+·  C-COVER KEYBOARD ASSEMBLY REPLACEMENT PROCESSES (METAL, FABRIC) ................................ 24
+·  REPLACEMENT PROCESS (C-COVER KEYBOARD METAL TYPE) ............................................................ 24
+1.  PROCEDURE – REMOVAL (C-COVER KEYBOARD METAL TYPE) ....................................... 25
+2.  PROCEDURE – INSTALLATION (C-COVER KEYBOARD METAL TYPE) ............................... 27
+·  REPLACEMENT PROCESS (C-COVER KEYBOARD FABRIC TYPE) ........................................................... 29
+1.  PROCEDURE – REMOVAL (C-COVER KEYBOARD FABRIC TYPE KEYBOARD) ................... 30
+2.  PROCEDURE – INSTALLATION (C-COVER KEYBOARD FABRIC TYPE) .............................. 33
+·  RSSD REPLACEMENT PROCESS ................................................................................................................ 35
+1.  PROCEDURE – REMOVAL (RSSD) ......................................................................................... 36
+2.  PROCEDURE – INSTALLATION (RSSD) ................................................................................ 37
+·  AB-COVER DISPLAY ASSEMBLY REPLACEMENT PROCESS .................................................................... 38
+1.  REMOVAL PROCESS (AB-COVER DISPLAY ASSEMBLY) ..................................................... 39
+2.  INSTALLATION PROCEDURES – (AB-COVER DISPLAY ASSEMBLY) ...................................41
+3.  PROCEDURE INSTALLATION – (METAL C-COVER DEVICE) ................................................41
+4.  PROCEDURE INSTALLATION – (FABRIC C-COVER DEVICE) ............................................... 46
+·  AB-COVER TOUCH CALIBRATION SOFTWARE TOOLS OVERVIEW ....................................................... 50
+·  AB-COVER TOUCH CALIBRATION RETRY (IF REQUIRED) ...................................................................... 57
+ENVIRONMENTAL COMPLIANCE REQUIREMENTS ............................................................................................. 58
+
+--- Page 4 ---
+4 M1179886
+Device Identity Information
+Surface Laptop Models
+1867 – Surface Laptop 3 – 13.5” (Fabric type keyboard)
+1868 – Surface Laptop 3 – 13.5” (Metal type keyboard)
+1872 – Surface Laptop 3 – 15” (Metal type keyboard)
+1873 – Surface Laptop 3 – 15” (Metal type keyboard)
+1950 – Surface Laptop 4 – 13.5” (Fabric type keyboard)
+1951 – Surface Laptop 4 – 13.5” (Metal type keyboard)
+1953 – Surface Laptop 4 – 15” (Metal type keyboard)
+1958 – Surface Laptop 4 – 13.5” (Fabric type keyboard)
+1959 – Surface Laptop 4 – 13.5” (Metal type keyboard)
+1979 – Surface Laptop 4 – 15” (Metal type keyboard) 
+Surface Support – Laptop: Link
+Surface Laptop 3 Technical Specications: Link
+Surface Laptop 4 Technical Specications: Link 
+The model and serial number for Surface Laptops are on the bottom center closest to the display hinge point.
+Back
+Front
+Made in China          Model 1868
+E252824
+007314691857
+Made in China          Model 1868
+E252824
+007314691857
+
+--- Page 5 ---
+5 M1179886
+Glossary of Terms
+The following terms are used throughout this manual
+•  ASP – a Microsoft Authorized Service Provider who performs repair services on behalf of Microsoft under an 
+ASP Agreement
+•  Commercial Spares/CRU  – Customer Replaceable Units available to commercial customers for repair by a 
+skilled-technician
+•  feet or foot – Non-Skid Foot Pads
+•  C-cover – Keyboard Trackpad Assembly 
+•  rSSD – Removable Solid-State Drive
+•  AB-cover – Display Assembly or AB-Cover Display Assembly
+•  BMR – Bare Metal Recovery refers to the clean imaging process.
+•  chassis or D-chassis or D-bucket – Device bottom case
+•  SDT – Surface Diagnostic Toolkit 
+•  ESD – Electro-Static Discharge 
+•  FPC – Flexible Printed Circuits connections
+•  FRU – Field Replaceable Units are sub-system components such as the C-cover, AB-cover, and rSSD. FRU 
+are available only to ASPs.  Some replaceable units will only be available as FRUs and therefore are only 
+supported at an ASP.
+•  IPA – Isopropyl alcohol which should be used to clean adhesive from device as detailed within process steps.  
+Use 70% IPA in all cases.
+
+--- Page 6 ---
+6 M1179886
+General Information, Precautions, Warnings
+This symbol identies important safety and health information in this manual.
+This symbol identies important information in this manual.
+This symbol identies important cautions in this manual.
+Service Tools and Jigs
+Microsoft Recommended Service Jigs
+•  ESD-safe battery cover 
+Microsoft Provided Software Tools / References:
+•  Software Tool – AB-cover Touch Calibration tool
+•  How To: Update Surface device rmware and OS 
+•  How To: Surface Tools Video
+•  Download: Surface drivers and rmware
+•  Download: Surface Diagnostic Toolkit (SDT)
+•  Download: Surface Data Eraser
+•  Download: Surface Imaging Tools 
+Standard Service Tools:
+•  Anti-static wrist strap (1 MOhm resistance)
+•  ESD-safe benchtop
+•  Surface Laptop Power Supply
+•  USB hub (3 ports required)
+•  USB keyboard (standard PC keyboard)
+•  USB mouse (standard PC mouse)
+•  Standard PC monitor with HDMI or DVI input
+•  Mini-DP port to HDMI/DVI dongle
+•  Spudger tool
+•  Clamps (2), 50.8mm (2 in) spring
+•  Torx plus drivers 3IP,5IP,6IP
+•  Isopropyl alcohol dispenser bottle (use 70% IP A)
+•  Cleaning swabs
+•  ESD-safe tweezers
+•  Guitar pick opening tool
+•  Heavy duty suction cups (2) – 57.15mm (2.25 in)
+•  Plastic feeler gauge – 0.40mm
+•  Plastic feeler gauge – 0.50mm
+•  Plastic feeler gauge – 0.050mm 
+The tools identied on this list can be purchased from many different commercial sources, including but not limited 
+to Amazon.com; iFixit; Chemdex, and other vendors.
+
+--- Page 7 ---
+7 M1179886
+General Safety Precautions
+Always observe the following, general safety precautions:
+•  Opening and/or repairing any device can present electric shock, device damage, re, and/or personal injury 
+risks and other hazards. Exercise caution when undertaking these activities as described in this manual. Only 
+skilled IT technicians to whom Microsoft has provided this manual should attempt CRU repair activities. Only 
+Microsoft-authorized service providers should undertake FRU repair activities.
+•  Always select and use the appropriate AC power supply for a device. We recommend you use genuine 
+Microsoft power supply units and AC power cords. A genuine Microsoft power supply unit is provided with 
+every device.
+•  Use only AC power provided by a standard (mains) wall outlet. Do not use non-standard power sources, such 
+as generators or inverters, even if the voltage and frequency appear acceptable.
+•  Improper use of device batteries may result in re or explosion. Only open the enclosure on a device as 
+outlined in this manual. Do not heat, puncture, mutilate, or dispose of devices or their batteries in re. Do not 
+leave or charge devices in direct sunlight or exposed to other extreme sources of heat for an extended period 
+of time. Doing so may cause damage or melt the batteries.
+For additional product safety information, including information about
+•  Hearing conservation
+•  Heat related concerns
+•  Choking hazard/small parts
+•  Interference with medical devices
+•  Broken glass
+•  Photosensitive seizures
+•  Musculoskeletal disorders
+See aka.ms/surface-safety or the Surface app. To open the Surface app, select the Start button, enter Surface into the 
+search box, then select the Surface app.
+
+--- Page 8 ---
+8 M1179886
+Repair-Specic Precautions and Warnings
+•  Prior to opening device, ensure device is powered off and disconnected from a power supply.
+•  We recommend wearing protective eyewear as a safety precaution when disassembling/re-assembling a 
+device.
+•  Before opening device, always check that an anti-static wrist strap is worn, and work area is properly 
+grounded to ensure electrostatic discharge (ESD) safe environment
+WARNING: It is recommended that an ESD-safe battery cover of appropriate size be placed across 
+the device to protect the battery from any physical contact or accidental damage whenever C-cover 
+is removed. Ensure corners of cover are always aligned with the corners of the device while battery is 
+exposed. If battery cover is misaligned during activities in any way, re-align before continuing activities.
+•  Check to make sure that general guidelines and ESD compliance steps are followed prior to starting activities. 
+Refer to Prior to Device Disassembly section on page 18 for details.
+•  If battery damage (e.g., leaking, expansion, folds or other) is discovered during the C-cover removal process 
+or if the battery is impacted or damaged during the removal process, activities should cease.  Refer to ASP 
+Guidebook or contact Microsoft directly for proper device disposition.
+•  As you remove each subassembly from the device, place the subassembly (and all accompanying screws) 
+away from the work area to prevent damage to the device and to the subassembly.
+•  During all activities (excluding feet-only replacement) check to ensure that no loose articles are on the 
+C-cover (Keyboard Assembly) or within the internals of the device when reassembling the unit.
+IMPORTANT: Remove rSSD (removable Solid-State Drive) whenever C-cover is removed from device.  
+rSSD removal disconnects the battery from all device logical components for safety purposes.  Refer to 
+Procedure-Removal (rSSD) section for details.  
+IMPORTANT: Whenever the rSSD has been removed, powering on the device requires that the rSSD and 
+C-cover FRUs are installed. Refer to Procedure - Installation (rSSD) section for details.
+Repair- Cross-reference Documents
+•  M1153910 In Device Battery Inspection process. Devices exhibiting battery issues as outlined in the Battery 
+Inspection Process require whole unit replacement.
+
+--- Page 9 ---
+9 M1179886
+Safety Policies/Procedures
+Microsoft’s eld product safety program team is referred to as the Rapid Response Team (RRT). All device issues that 
+may be safety related should be managed per the following instructions.
+As a quick guide, any Microsoft Surface device that visually exhibits any of the following symptoms shall be 
+immediately removed from the repair process and delivered to your Variance Manager or IT Support Professional for 
+notication to Microsoft:
+•  Any burned or melted components, traces or plastic parts on the outside of the device, or which otherwise 
+exhibits heat damage, including charring seen in charging and other ports.
+•  Any burned or melted components, traces or plastic parts on the inside of the device, or which otherwise 
+exhibits heat damage.
+•  Any accessories exhibiting melting or heat damage that are included with the Microsoft device, such as power 
+supplies, keyboards, mice, cables, charging connectors, etc.
+•  Any devices that exhibit a case that has separated apart or opened for reasons other than customer abuse 
+(e.g., impact damage from dropping, evidence of tampering, separation caused by a malfunctioning battery).
+•  Any other nding that may constitute a safety hazard to the user, such as sharp edges on plastics.
+The Variance Manager or IT Support Professional must send an email to Microsoft RRT with pictures showing the 
+damage within 24 hours of device receipt. Refer to the ASP Guidebook for the Microsoft RRT email address.  
+Non-ASP’s are to contact Microsoft Surface Support Services.
+Your email should include:
+•  The model and serial number of the affected Microsoft Surface device and/or accessory(ies).
+•  The Service Request (SR) Number or alternative service tracking work order that the device  
+was received under (Note as N/A if no SR exists).
+•  A brief description of the damage found.
+•  Clear photographs depicting the symptoms observed.
+The Variance Manager or IT Support Specialist must await instructions from Microsoft Product Safety RRT for the 
+affected unit before continuing with activities or returning the device to the end user.
+
+--- Page 10 ---
+10 M1179886
+Illustrated Service Parts List 
+IMPORTANT: Note service part availability is segmented into two groups. FRUs are parts available for repair activity through an Authorized Service 
+Provider under specic contract with Microsoft. CRUs/Spares are parts available for repair activity by a skilled technician. 
+Models
+Item Component  ASP / FRU   
+Part No.
+CRU 
+Part No.
+1867 1868 1872 1873 1950 1951 1953 1958 1959 1979
+(1) Non-Skid Feet
+Feet Black      RPW-00001 CIG-00001 (Bulk) X X X X X X X
+Feet Cobalt Blue RPW-00002 CIG-00005 (Bulk) X
+Feet Platinum      RPW-00003 CIG-00002 (Bulk) X X X X X X X
+Feet Sandstone      RPW-00004 CIG-00004 (Bulk) X X X
+Feet Ice Blue RPW-00005 CIG-00003 (Bulk) X X
+3
+1
+2
+4
+
+--- Page 11 ---
+Models
+Item Component  ASP / FRU   
+Part No.
+CRU 
+Part No.
+1867 1868 1872 1873 1950 1951 1953 1958 1959 1979
+(2) C-cover Keyboard Assembly (Metal or Fabric)
+C-cover screws CIH-00001 (Bulk) X X X X X X X X X X
+C Cvr 13.5" AMER/ASIA Black      RPQ-00001 X X X
+C Cvr 13.5" Japan Black      RPQ-00003 X X X
+C Cvr 13.5" French Canadian Black      RPQ-00002 X X X
+C Cvr 13.5" Korea Black      RPQ-00004 X X X
+C Cvr 13.5" Thailand Black      RPQ-00005 X X X
+C Cvr 13.5" Taiwan Black RPQ-00006 X X X
+C Cvr 13.5" BH/KW/OM/QA/SA/AE 
+Black     
+RPQ-00007 X X X
+C Cvr 13.5" UK/Ireland Only Black      RPQ-00008 X X X
+C Cvr 13.5" Netherlands  Poland Black      RPQ-00009 X X X
+C Cvr 13.5" Austria Germany Black      RPQ-00010 X X X
+C Cvr 13.5" France Black      RPQ-00011 X X X
+C Cvr 13.5" Switz/Lux Black      RPQ-00012 X X X
+C Cvr 13.5" Blgm Black      RPQ-00013 X X X
+C Cvr 13.5" Italy Black      RPQ-00014 X X X
+C Cvr 13.5" Portugal Black      RPQ-00015 X X X
+C Cvr 13.5" Spain Black      RPQ-00016 X X X
+C Cvr 13.5" DK/FI/NO/SE Black      RPQ-00017 X X X
+C Cvr 13.5" AMER/ASIA Cobalt Blue 
+Fabric     
+RPQ-00018 X
+C Cvr 13.5" French Canadian Cobalt 
+Blue Fabric     
+RPQ-00019 X
+C Cvr 13.5" Japan Cobalt Blue Fabric      RPQ-00020 X
+C Cvr 13.5" Taiwan Cobalt Blue Fabric RPQ-00023 X
+
+--- Page 12 ---
+Models
+Item Component  ASP / FRU   
+Part No.
+CRU 
+Part No.
+1867 1868 1872 1873 1950 1951 1953 1958 1959 1979
+(2) C-cover Keyboard Assembly (Metal or Fabric)
+C Cvr 13.5" UK/Ireland Only Cobalt 
+Blue Fabric
+RPQ-00025 X
+C Cvr 13.5" Austria Germany Cobalt 
+Blue Fabric
+RPQ-00027 X
+C Cvr 13.5" France Cobalt Blue Fabric RPQ-00028 X
+C Cvr 13.5" Switz/Lux Cobalt Blue 
+Fabric     
+RPQ-00029 X
+C Cvr 13.5" AMER/ASIA Platinum 
+Fabric      
+RPQ-00035 X X X
+C Cvr 13.5" French Canadian Platinum 
+Fabric
+RPQ-00036 X X X
+C Cvr 13.5" Japan Platinum Fabric RPQ-00037 X X X
+C Cvr 13.5" Korea Platinum Fabric RPQ-00038 X X X
+C Cvr 13.5" Thailand Platinum Fabric RPQ-00039 X X X
+C Cvr 13.5" Taiwan Platinum Fabric RPQ-00040 X X X
+C Cvr 13.5" BH/KW/OM/QA/SA/AE 
+Platinum Fabric
+RPQ-00041 X X X
+C Cvr 13.5" UK/Ireland Only Platinum 
+Fabric     
+RPQ-00042 X X X
+C Cvr 13.5" Netherlands Poland 
+Platinum Fabric
+RPQ-00043 X X X
+C Cvr 13.5" Austria Germany Platinum 
+Fabric
+RPQ-00044 X X X
+C Cvr 13.5" France Platinum Fabric RPQ-00045 X X X
+C Cvr 13.5" Switz/Lux Platinum Fabric RPQ-00046 X X X
+C Cvr 13.5” Blgm Platinum Fabric RPQ-00047 X X X
+C Cvr 13.5" Italy Platinum Fabric       RPQ-00048 X X X
+C Cvr 13.5" Portugal Platinum Fabric      RPQ-00049 X X X
+C Cvr 13.5" Spain Platinum Fabric      RPQ-00050 X X X
+
+--- Page 13 ---
+Models
+Item Component  ASP / FRU   
+Part No.
+CRU 
+Part No.
+1867 1868 1872 1873 1950 1951 1953 1958 1959 1979
+(2) C-cover Keyboard Assembly (Metal or Fabric)
+C Cvr 13.5" DK/FI/NO/SE Platinum 
+Fabric     
+RPQ-00051 X X X
+C Cvr 13.5" AMER/ASIA Sandstone RPQ-00052 X X X
+C Cvr 13.5" French Canadian 
+Sandstone
+RPQ-00053 X X X
+C Cvr 13.5" Japan Sandstone RPQ-00054 X X X
+C Cvr 13.5" Taiwan Sandstone RPQ-00057 X X X
+C Cvr 13.5" UK/Ireland Only  
+Sandstone
+RPQ-00059 X X X
+C Cvr 13.5" Austria Germany 
+Sandstone
+RPQ-00061 X X X
+C Cvr 13.5" France Sandstone RPQ-00062 X X X
+C Cvr 13.5" Switz/Lux Sandstone      RPQ-00063 X X X
+C Cvr 15" AMER/ASIA Black      RPR-00001 X X X X
+C Cvr 15" French Canadian Black      RPR-00002 X X X X
+C Cvr 15" Japan Black RPR-00003 X X X X
+C Cvr 15" Korea Black RPR-00004 X X X X
+C Cvr 15" Thailand Black RPR-00005 X X X X
+C Cvr 15" Taiwan Black RPR-00006 X X X X
+C Cvr 15" BH/KW/OM/QA/SA/AE 
+Black
+RPR-00007 X X X X
+C Cvr 15" UK/Ireland Only Black RPR-00008 X X X X
+C Cvr 15" Netherlands Poland Black RPR-00009 X X X X
+C Cvr 15" Austria Germany Black RPR-00010 X X X X
+C Cvr 15" France Black RPR-00011 X X X X
+C Cvr 15" Switz/Lux Black RPR-00012 X X X X
+
+--- Page 14 ---
+Models
+Item Component  ASP / FRU   
+Part No.
+CRU 
+Part No.
+1867 1868 1872 1873 1950 1951 1953 1958 1959 1979
+(2) C-cover Keyboard Assembly (Metal or Fabric)
+C Cvr 15" Blgm Black RPR-00013 X X X X
+C Cvr 15" Italy Black RPR-00014 X X X X
+C Cvr 15" Portugal Black RPR-00015 X X X X
+C Cvr 15" Spain Black RPR-00016 X X X X
+C Cvr 15" DK/FI/NO/SE Black      RPR-00017 X X X X
+C Cvr 15" AMER/ASIA Platinum RPR-00018 X X X X
+C Cvr 15" French Canadian Platinum RPR-00019 X X X X
+C Cvr 15" Japan Platinum RPR-00020 X X X X
+C Cvr 15" Korea Platinum RPR-00021 X X X X
+C Cvr 15" Thailand Platinum RPR-00022 X X X X
+C Cvr 15" Taiwan Platinum RPR-00023 X X X X
+C Cvr 15" BH/KW/OM/QA/SA/AE 
+Platinum
+RPR-00024 X X X X
+C Cvr 15" UK/Ireland Only Platinum RPR-00025 X X X X
+C Cvr 15" Netherlands Poland 
+Platinum
+RPR-00026 X X X X
+C Cvr 15" Austria Germany Platinum RPR-00027 X X X X
+C Cvr 15" France Platinum RPR-00028 X X X X
+C Cvr 15" Switz/Lux Platinum RPR-00029 X X X X
+C Cvr 15" Blgm Platinum RPR-00030 X X X X
+C Cvr 15" Italy Platinum RPR-00031 X X X X
+C Cvr 15" Portugal Platinum RPR-00032 X X X X
+C Cvr 15" Spain Platinum RPR-00033 X X X X
+C Cvr 15" DK/FI/NO/SE Platinum RPR-00034 X X X X
+C Cvr 13.5" Japan Ice Blue Fabric RPQ-00071 X X
+
+--- Page 15 ---
+Models
+Item Component  ASP / FRU   
+Part No.
+CRU 
+Part No.
+1867 1868 1872 1873 1950 1951 1953 1958 1959 1979
+(2) C-cover Keyboard Assembly (Metal or Fabric)
+C Cvr 13.5" UK/Ireland Only Ice Blue 
+Fabric
+RPQ-00072 X X
+C Cvr 13.5" Switz/Lux Ice Blue Fabric RPQ-00075 X X
+C Cvr 13.5" Austria Germany Ice Blue 
+Fabric
+RPQ-00073 X X
+C Cvr 13.5" France Ice Blue Fabric RPQ-00074 X X
+C Cvr 13.5” French Canadian Ice Blue 
+Fabric
+RPQ-00070 X X
+C Cvr 13.5” AMER/ASIA Ice Blue Fabric RPQ-00080 X X
+C Cvr 13.5” Taiwan Ice Blue Fabric RPQ-00076 X X
+(3) Removable Solid-State Drive (NOTE: rSSD size must be same as original)
+rSSD Screw CII-00001 (Bulk) X X X X X X X X X X
+rSSD 128GB      RPX-00002 X X X
+rSSD 1TB RPY-00001 X X X
+rSSD 256GB RPZ-00002 X X X
+rSSD 512GB RQG-00001 X X X
+rSSD 128GB RPX-00003 X
+rSSD 1TB RPY-00002 X
+rSSD 256GB RPZ-00003 X
+rSSD 512GB RQG-00003 X
+rSSD 256GB RPZ-00010 8LV-00003 X X X
+rSSD 512GB RQG-00007 8LX-00003 X X X
+rSSD 128GB RPX-00008 8LT-00002 X X X
+rSSD 256GB RPZ-00009 8LV-00002 X X X
+
+--- Page 16 ---
+16 M1179886
+Models
+Item Component  ASP / FRU   
+Part No.
+CRU 
+Part No.
+1867 1868 1872 1873 1950 1951 1953 1958 1959 1979
+(3) Removable Solid-State Drive (NOTE: rSSD size must be same as original)
+rSSD 512GB RQG-00006 8LX-00002 X X X
+rSSD 1TB RPY-00004 8LU-00002 X X X
+(4) AB-cover Display Assembly 
+A/B Cvr13.5" Black      RPN-00001 X X X
+A/B Cvr13.5" Cobalt Blue   RPN-00002 X
+A/B Cvr13.5" Platinum      RPN-00003 X X X
+A/B Cvr13.5" Sandstone      RPN-00004 X X X
+A/B Cvr 15" Black      RPP-00001 X X X X
+A/B Cvr 15" Platinum      RPP-00002 X X X X
+A/B Cvr13.5" Ice Blue RPN-00005 X X
+Component Localization Codes
+Code Country Code Country
+BH Bahrain FI Finland
+KW Kuwait NO Norway
+OM Oman SE Sweden
+QA Qatar Switz Switzerland
+SA Saudi Arabia Lux Luxembourg
+AE United Arab Emirates Blgm Belgium
+UK United Kingdom AMER Canada, United States of America
+DK Denmark ASIA Australia, China, Hong Kong, Malaysia, New Zealand, Singapore
+
+--- Page 17 ---
+17 M1179886
+Service Diagnostics/Troubleshooting Overview
+•  For general Surface support, visit www.support.microsoft.com
+•  To troubleshoot device feature/function problems or learn more about Surface Laptops visit  
+aka.ms/SurfaceLaptopHelp
+•  If you’d like to learn more about Windows, visit aka.ms/WindowsHelp
+•  To learn more about the accessibility features of the Surface Laptop, go to the online user guide at  
+aka.ms/Windows-Accessibility
+Software Tools:
+•  How To: Update Surface device rmware and OS 
+•  How To: Surface Tools Video
+•  Download: Surface drivers and rmware
+•  Download: Surface Diagnostic Toolkit (SDT)
+•  Download: Surface Data Eraser
+•  Download: Surface Imaging Tools
+Hardware Troubleshooting Approach
+IMPORTANT: Ensure that the devices meet all related safety and policy prior to repair.  Follow 
+the Safety Policies/Procedures described on page 10 above when applicable in lieu of continuing repair.  
+ASP’s: refer to additional processing instructions in the ASP Guidebook.
+The following approach should be taken when troubleshooting Surface devices:
+1.  Update device to latest OS/FW versions using the SDT tool – Refer to Software Tools section above for details 
+on SDT.
+IMPORTANT: Device updates are required as a prerequisite to all hardware repairs.
+2.  Verify any suspected hardware failures by setting the device in a known OS/FW version state and running SDT 
+to verify fault:
+a.  Replace the device’s internal rSSD with a BMR imaged rSSD containing latest OS and FW updates (not 
+supplied – must be created as a fault verication jig/tool) – Refer to Software Tools section above for 
+details on imaging.
+b.  Run SDT and verify if condition persists or if resolved with use of BMR imaged drive – Refer to Software 
+Tools section above for details on SDT.
+     i. If problem is resolved, then re-image original rSSD or replace original rSSD and image.
+     ii.  If problem persists then replace suspected hardware FRU related to the problem by following the 
+detailed replacement procedures covered within this service manual.
+3.  SDT must be run following all hardware repairs where a FRU was replaced to further verify that problem was 
+resolved by the repair action taken.
+
+--- Page 18 ---
+18 M1179886
+Component Removal and Replacement Procedures
+Prior to Device Disassembly:
+•  Before opening the device, always ensure device is powered off and disconnected from a power supply.
+•  Always ensure that the work surface is covered with an ESD-safe, soft, non-marring material.
+•  Work surfaces should be cleaned regularly to ensure debris/abrasive particles are not present.
+•  Check to make sure that general guidelines and ESD compliance steps are followed prior to opening device.
+WARNING: It is recommended that an ESD-safe battery cover be placed across the device to protect the 
+battery from any physical contact or accidental damage whenever C-cover is removed. Ensure corners 
+of cover are always aligned with the corners of the device while battery is exposed. If battery cover is 
+misaligned during activities in any way, re-align before continuing activities. 
+CAUTION: Check C-cover and device enclosure for any loose articles that may be present inadvertently 
+on the C-cover or within the device enclosure. 
+IMPORTANT: Remove rSSD (removable Solid-State Drive) whenever C-cover is removed from device.  
+rSSD removal disconnects the battery from all device logical components for safety purposes.  Refer to 
+Procedure-Removal (rSSD) section for details.  
+IMPORTANT: Whenever the rSSD has been removed, powering on the device requires that the rSSD and 
+C-cover FRUs are installed. Refer to Procedure - Installation (rSSD) section for details.
+•  FRUs removed from a device under repair during the repair process should be stored in ESD-safe bags and 
+packaged for return in the same packaging and order that the new replacement part came in.
+Current Battery Warning
+WARNING: Please note that the battery bears the following warning label. Please heed the information 
+provided on the label.
+B
+attery cannot be easily replaced  by user 
+  
+ 
+ 
+ 
+ 
+°
+
+°
+
+ 
+
+--- Page 19 ---
+19 M1179886
+Non-Skid Foot Pad Replacement Process
+Preliminary Requirements
+IMPORTANT: Be sure to follow all special (bolded) notes of caution within each process section. 
+Required Tools and Components
+•  Tools:
+o  Plastic tweezers / spudger
+o  Isopropyl Alcohol Dispenser Bottle (use only 70% IPA)
+o  Cleaning swabs
+o  Clamps (2), 2” Irwin spring or 4.5” Fastpro
+o  Plastic feeler gauge – 0.050mm
+•  Components:
+o  Feet (Refer to Illustrated Service Parts List)
+Prerequisite Steps:
+•  Power off device - Ensure device is powered off and disconnected from a power supply.
+•  General Safety - Check to make sure that general guidelines and ESD compliance steps are followed prior to 
+opening the device. Refer to Prior to Device Disassembly section (page 18) for details.
+•  Position device - To prevent scratches, ip device over onto a clean surface free of debris with the device 
+bottom facing up for access to the feet for removal. 
+IMPORTANT: There are two types of feet (front and back) – refer to illustration for details. 
+Procedure – Removal (Non-Skid Foot Pad)
+1.  Front foot removal – To remove front feet, insert the pointed end of a plastic Spudger tool (pictured) from 
+the long side of the device under the foot.  There is a designed gap in the foot located at the center of the 
+outside edge of the foot. Point the plastic tool directly in the middle of the foot starting from the front edge 
+and push in towards the middle of the device.  Removal works best if the spudger is at a relatively low angle 
+relative to the tabletop. Use plastic tweezers / spudger to lift one edge of each foot.  Grasp the loose end and 
+pull the foot from the D-bucket.
+2.  Rear foot removal – To remove back feet, perform the same steps as for the front feet but from the back side 
+of the device and along the long edge.  Removal works best if the spudger is at a relatively low angle relative 
+to the tabletop.
+Front FeetBack Feet
+
+--- Page 20 ---
+20 M1179886
+3.  Adhesive removal – Remove any adhesive liners in the foot pockets. Use IPA and cotton wipes to clean off 
+any adhesive residue within the foot pocket. Inspect the foot area carefully for any adhesive liner that may 
+have remained. The liner is clear and may be hard to see at rst glance. Inspect closely.
+IMPORTANT: Ensure the IPA is completely dried off device and that no adhesive residue is left before 
+applying new feet to avoid the risk of insufcient adhesion of the new feet.
+Procedure – Installation (Non-Skid Feet) 
+IMPORTANT: Any further repairs that are required on the device should be carried out prior to feet 
+installation. Do not reuse feet previously removed from a device.
+1.  Prepare new front feet and press into place – To reassemble front foot, remove protective sheet to expose 
+adhesive on foot.  Align the 3 posts with their respective pockets on the bottom side of the unit and hand 
+press the foot in until the foot sits at.  Complete previous steps for the other front foot.
+2.  Clamp replaced feet – Align and center the press head of the clamp onto the front feet.  Clamp both front 
+feet for 4 minutes.
+3.  Inspect for anomalies – Inspect feet to ensure no cosmetic damage or gaps between the feet and the 
+D-bucket exist.
+a.  If gap exists, use a feeler gauge to verify gap is smaller than 0.05 mm. If gap is larger, replace foot.
+4.  Prepare new back feet and press into place – To reassemble the back feet, remove protective sheet to 
+expose adhesive on foot. Insert the foot into the pocket on the bottom side of the unit and hand press the 
+foot in until the foot sits at.
+
+--- Page 21 ---
+21 M1179886
+5.  Clamp replaced feet – Align and center the press head of the clamp onto the rear feet.  Clamp both rear feet 
+for 4 minutes.
+6.  Inspect for anomalies – Inspect feet to ensure no cosmetic damage or gaps between the feet and the 
+D-bucket exist.
+a.  If gap exists, use a feeler gauge to verify gap is smaller than 0.05 mm. If gap is larger, replace foot.
+7.  Run SDT – Run SDT to ensure all device features and functions operate as expected.
+IMPORTANT: Before transporting the device, we recommend letting it sit feet-down on a tabletop for 
+at least 12 hours. If this isn’t possible, it’s recommended to avoid placing the device in a backpack, purse, 
+other types of carriers, until at least 12 hours after installing new feet.
+
+--- Page 22 ---
+22 M1179886
+Alternate Procedure – Installation (Non-Skid Feet)
+IMPORTANT: Any further repairs that are required on the device should be carried out prior to feet 
+installation. Do not reuse feet previously removed from a device.
+1.  Prepare new front feet and press into place – To reassemble front foot, remove protective sheet to expose 
+adhesive on foot.  Align the 3 posts with their respective pockets on the bottom side of the unit and hand 
+press the foot in until the foot sits at.  Complete previous steps for the other front foot.
+2.  Pinch replaced feet – Placing the keyboard and foot between your thumb and index nger as shown, pinch 
+the foot tightly with your thumb and hold for 20 seconds.
+3.  Inspect for anomalies – Inspect feet after pinching to ensure no cosmetic damage or gaps between the foot 
+and the chassis exist.
+a.  If gap exists, use a feeler gauge to verify gap is smaller than 0.05 mm. If gap is larger, replace foot.
+4.  Prepare new back feet and press into place – To reassemble the back feet, remove protective sheet to 
+expose adhesive on foot. Insert the foot into the pocket on the bottom side of the unit and hand press the 
+foot in until the foot sits at.
+
+--- Page 23 ---
+23 M1179886
+5.  Pinch replaced feet – Placing the keyboard and foot between your thumb and index nger as shown, pinch 
+the foot tightly with your thumb and hold for 20 seconds.
+6.  Inspect for anomalies – Inspect feet to ensure no cosmetic damage or gaps between the feet and the 
+D-bucket exist.
+a.  If gap exists, use a feeler gauge to verify gap is smaller than 0.05 mm. If gap is larger, replace foot.
+7.  Run SDT – Run SDT to ensure all device features and functions operate as expected.
+IMPORTANT: Before transporting the device, we recommend letting it sit feet-down on a tabletop for 
+at least 12 hours. If this isn’t possible, it’s recommended to avoid placing the device in a backpack, purse, 
+other types of carriers, until at least 12 hours after installing new feet.
+
+--- Page 24 ---
+24 M1179886
+C-cover Keyboard Assembly Replacement Processes (Metal, Fabric)
+IMPORTANT: Devices are built with either a fabric type or metal type C-cover keyboard assembly.  The 
+C-cover removal process differs between the metal type and the fabric type C-covers.  Be sure to follow 
+the proper procedure based on the device model and associated C-cover type.
+Replacement Process (C-cover Keyboard Metal type)
+Preliminary Requirements
+IMPORTANT: Be sure to follow all special (bolded) notes of caution within each process section.
+Required Tools and Components
+•  Tools:
+o  Software Tool – SDT
+o  Isopropyl Alcohol Dispenser (use only 70% IPA)
+o  5IP (Torx plus) driver
+o  Anti-static wrist strap (1M Ohm resistance)
+o  Recommended: ESD-safe battery cover (13.5” or 15”)
+•  Components:
+o   C-cover (If replacing refer to Illustrated Service Parts List) 
+(New 5IP screw quantity= 4 supplied with component)
+Prerequisite Steps:
+•  Power off device – Ensure device is powered off and disconnected from a power supply.
+•  General Safety – Check to make sure that general guidelines and ESD compliance steps are followed prior to 
+opening device. Refer to Prior to Device Disassembly section (page 18) for details.
+•  Remove feet – Follow steps for Procedure-Removal (Non-Skid Feet) section (page 19).
+IMPORTANT: Be sure that all foot adhesive remains have been removed from the bottom device case 
+foot sockets prior to C-cover screw removal to avoid the risk of stripping out the C-cover screw(s).
+
+--- Page 25 ---
+25 M1179886
+Procedure – Removal (C-cover Keyboard Metal Type)
+1.  Remove C-cover screws – Using a 5IP (Torx plus) driver, uninstall 1 screw from each foot socket (4).
+CAUTION: Take care to prevent from depressing the keyboard power button during this step. If power 
+button is accidentally depressed and device turns on, shut down device as normal through OS Start 
+menu. 
+CAUTION: Prior to unscrewing, ensure the driver is seated correctly in the screw recess by lightly turning 
+the driver clockwise until it can be felt engaging fully with the screw.  Also be sure the driver remains 
+perpendicular to the device surface as much as possible during removal.  Otherwise, there is a risk of 
+stripping the screw heads. 
+CAUTION: Ensure all (4) screws are removed from the enclosure before starting C-cover removal, 
+otherwise there is a high risk of irreversibly damaging the C-cover. 
+CAUTION: Remove C-Cover exactly as described in this step to avoid damaging the Flexible Printed 
+Circuit (FPC) connected between the C-Cover and the Main Board. 
+CAUTION: Remove C-cover and hold in a hover position as described below to avoid damaging the 
+display glass.  Never rest the rear edge of the C-cover on the device at the display hinge point or allow 
+the C-cover to impact or touch the display during this step.
+IMPORTANT: In addition to the (4) C-cover screws, the C-cover is further secured to the device body 
+with magnets.  Further separation of the C-cover should be carried out per the following steps.
+2.  Separate C-cover from device – Turn device over into standard use position and open the AB-cover display 
+exposing the C-cover keyboard.  Grab the C-cover edge closest to display and slowly remove the C-cover at 
+an angle as shown in drawing.
+CAUTION: Do not pull the C-cover apart beyond 45 degrees otherwise damage to C-cover FPC could 
+occur.
+3.  Position C-cover for FPC removal – After lifting the C-cover completely from the magnets on the device, 
+angle and hover the C-cover so that the antenna side is facing down towards the device and C-cover FPC is 
+accessible.
+
+--- Page 26 ---
+26 M1179886
+4.  Disconnect FPCs – While hovering the C-cover, disconnect the FPC from the main board with your other 
+hand.  The FPC is easily disconnected by pulling up on the metal head vertically with a ngernail or Spudger 
+tool edge.
+CAUTION: When removed from the device, place the C-cover in a safe place with key and trackpad side 
+down and FPC facing up to avoid bending/creasing the FPC.  Be sure the key and trackpad side of the 
+C-cover is protected from cosmetic damage during storage. 
+WARNING: It is recommended a Microsoft provided ESD-safe battery cover appropriate for size (either 
+13.5” or 15” device) is placed across the device to protect the battery from any accidental damage during 
+repair.  Ensure corners of cover are aligned with the corners of the device at all times during repair.  If 
+battery cover is misaligned during the repair operation in any way, re-align before continuing repair 
+activities. 
+ 
+IMPORTANT: Remove rSSD (removable Solid-State Drive) whenever C-cover is removed from device.  
+rSSD removal disconnects the battery from all device logical components for safety purposes.  Refer to 
+Procedure-Removal (rSSD) section (page 36) for details.
+
+--- Page 27 ---
+27 M1179886
+Procedure – Installation (C-cover Keyboard Metal type)
+1.  Pre-installation Device Inspection
+WARNING: Verify the battery’s condition refer to the M1153910 In Device Battery Inspection process. 
+Devices exhibiting battery issues as outlined in the Battery Inspection Process require whole unit 
+replacement. 
+WARNING: Verify the condition of LDI (Liquid Damage Indicator) inside the audio jack. Use a bright light 
+to illuminate the interior of the audio jack port. Any color other than white indicates liquids have entered 
+the device.  Devices exhibiting LDI require whole unit replacement.
+2.  Check for unexpected items within device – Check C-cover (both sides) and device enclosure for any loose 
+articles that may be present inadvertently on the C-cover or within the device enclosure areas.
+a.  Check and remove any foreign objects that the magnets may have attracted or that may have been 
+accidentally introduced into the device during replacement.
+b.  Carefully inspect the area around battery specically for any foreign objects before removing battery 
+cover.
+3.  Install rSSD – Refer to Procedure-Removal (rSSD) section (page 36) for details.
+4.  Remove tape from new C cover FPC – Tape secures the C-cover FPC during shipping. Remove this tape 
+before continuing with assembly. 
+5.  Connect C-cover FPC – Remove battery cover.  Hover the C-cover over the device while assembling the 
+C-cover FPC to the main board by pressing connection using your nger.
+CAUTION: Be sure that FPC bends fall in place properly as pre-bent and no folds or creases are created 
+during re-assembly of C-cover.
+6.  Align the C-cover – Properly align the cover to the unit using the front edge alignment posts.  Carefully 
+place the C-cover back onto the unit and shift until the C-cover snaps into place. 
+CAUTION: Ensure that the C-cover is correctly aligned and seated before closing the device. There is the 
+risk of breaking the display if the device lid is closed before C-cover is aligned.
+
+--- Page 28 ---
+28 M1179886
+7.  Install C-cover Screws – Close the AB-cover.  Turn the unit over and use a 5IP screwdriver to install 4 new 
+screws to secure the C-cover.  Screws should be installed until just snug and seated, and then turned another 
+45 degrees (1/8 turn) or until fully fastened.
+8.  Run SDT – Run SDT to ensure all device features and functions operate as expected.  Refer to (page 17) for 
+details on SDT.
+9.  Install Feet – If SDT tests pass and no further repairs are to be performed on the device, follow steps for 
+Procedure – Installation (Non-Skid Feet) on page 17.
+
+--- Page 29 ---
+29 M1179886
+Replacement Process (C-cover Keyboard Fabric type)
+Preliminary Requirements
+IMPORTANT: Be sure to follow all special (bolded) notes of caution within each process section.
+Required Tools and Components
+•  Tools:
+o  Software Tool – SDT
+o  Isopropyl Alcohol Dispense (use only 70% IPA)
+o  5IP (Torx plus) driver
+o  Heavy duty suction cups
+o  Anti-static wrist strap (1M Ohm resistance)
+o  Recommended: ESD-safe battery cover (13.5” or 15”)
+•  Components:
+o  C-cover (If replacing refer to Illustrated Service Parts List)  
+(New 5IP screw quantity=4 supplied with component)
+Prerequisite Steps: 
+•  Power off device – Ensure device is powered off and disconnected from a power supply.
+•  General Safety – Check to make sure that general guidelines and ESD compliance steps are followed prior to 
+opening device. Refer to Prior to Device Disassembly section (page 18) for details.
+•  Remove feet – Follow steps for Procedure-Removal (Non-Skid Feet) section (page 19).
+IMPORTANT: Be sure that all foot adhesive remains have been removed from the bottom device case 
+foot sockets prior to C-cover screw removal to avoid the risk of stripping out the C-cover screw(s).
+
+--- Page 30 ---
+30 M1179886
+Procedure – Removal (C-cover Keyboard Fabric Type Keyboard)
+1.  Remove C-cover screws – Using a 5IP (Torx plus) driver, uninstall 1 screw from each foot socket (4).
+CAUTION: Take care to prevent from depressing the keyboard power button during this step. If power 
+button is accidentally depressed and device turns on, shut down device as normal through OS Start 
+menu. 
+CAUTION: Prior to unscrewing, ensure the driver is seated correctly in the screw recess by lightly turning 
+the driver clockwise until it can be felt engaging fully with the screw.  Also be sure the driver remains 
+perpendicular to the device surface as much as possible during removal.  Otherwise, there is a risk of 
+stripping the screw heads. 
+CAUTION: Ensure all (4) screws are removed from the enclosure before starting C-cover removal, 
+otherwise there is a high risk of irreversibly damaging the C-cover. 
+CAUTION: Fabric C-covers utilize magnets and a hook latching onto the chassis whereas metal C-covers 
+do not.  See illustrations for details. 
+CAUTION: Remove C-Cover exactly as described in this step to avoid damaging the Flexible Printed 
+Circuit (FPC) connected between the C-Cover and the Main Board. 
+CAUTION: Remove C-cover and hold in a hover position as described below to avoid damaging the 
+display glass.  Never rest the rear edge of the C-cover on the device at the display hinge point or allow 
+the C-cover to impact or touch the display during this step.
+2.  Apply suction cups – Turn device over into standard use position and open the AB-cover display exposing 
+the C-cover keyboard.  Place suction cup in the bottom palm rest area as shown, as close to the edge as 
+possible.
+CAUTION: Do not pull the C-cover apart beyond 45 degrees otherwise damage to C-cover FPC could 
+occur. 
+CAUTION: Do not place suction cup on Trackpad to avoid potential damage to the Trackpad. 
+CAUTION: Do not wet the suction cup in any way as liquid could stain the keyboard fabric.  Place thumb 
+holding down the corner hinge side of the cover closest to the user as shown.  Keep pressure on the hinge 
+area to prevent back edge of cover from lifting while pulling up on the suction cup.  Be careful to prevent 
+back edge from lifting. If suction cup releases before C-cover is separated from device bottom case then 
+re-attach suction cup and try again.
+
+--- Page 31 ---
+31 M1179886
+3.  Separate C-cover from device – Once C-cover separation from the device bottom case is achieved, place a 
+nger between the C-cover and device region.  Pull upwards slightly to separate the C-cover from the 
+magnets. 
+4.  Angle C-cover – Angle the C-cover at approximately 45 degrees from horizonal—be sure to angle the 
+C-cover no more than 45 degrees or else risk damaging the C-cover hook or FPC.  If hook is damaged, it 
+needs to be removed carefully to avoid damaging the FPCs, and then a new C-cover needs to be installed.
+5.  C-cover hook clearance – Once angled, keep the angle of the C-cover while pulling the C-cover directly 
+towards yourself.  Be sure to avoid pressing on the power button during this procedure. 
+Side View
+D-bucket
+C-cover
+
+--- Page 32 ---
+32 M1179886
+6.  Disconnect FPCs – While hovering the C-cover, disconnect the FPC from the main board with your other 
+hand.  The FPC is easily disconnected by pulling up on the metal head vertically with a ngernail or Spudger 
+tool edge.
+CAUTION: When removed from the device, place the C-cover in a safe place with key and trackpad side 
+down and FPC facing up to avoid bending/creasing the FPC.  Be sure the key and trackpad side of the 
+C-cover is protected from cosmetic damage during storage. 
+WARNING: It is recommended an ESD-safe battery cover appropriate for size (either 13.5” or 15”device) 
+across the device to protect the battery from any accidental damage during repair.  Ensure corners of 
+cover are aligned with the corners of the device at all times during repair.  If battery cover is misaligned 
+during the repair operation in any way, re-align before continuing repair activities. 
+IMPORTANT: Remove rSSD (removable Solid-State Drive) whenever C-cover is removed from device.  
+rSSD removal disconnects the battery from all device logical components for safety purposes.  Refer to 
+Procedure-Removal (rSSD) section (page 36) for details.
+
+--- Page 33 ---
+33 M1179886
+Procedure – Installation (C-cover Keyboard Fabric type)
+1.  Pre-installation Device Inspection
+WARNING: Verify the battery’s condition; refer to the M1153910 In Device Battery Inspection process. 
+Devices exhibiting battery issues as outlined in the Battery Inspection Process require whole unit 
+replacement. 
+WARNING: Verify the condition of LDI (Liquid Damage Indicator) inside the audio jack.  Use a bright light 
+to illuminate the interior of the audio jack port.  Any color other than white indicates liquids have entered 
+the device.  Devices exhibiting LDI require whole unit replacement.
+2.  Check for unexpected items within device – Check C-cover (both sides) and device enclosure for any loose 
+articles that may be present inadvertently on the C-cover or within the device enclosure areas.
+a.  Check and remove any foreign objects that the magnets may have attracted or that may have been 
+accidentally introduced into the device during replacement.
+b.  Carefully inspect the area around battery specically for any foreign objects before removing battery 
+cover.
+3.  Install rSSD – Refer to Procedure-Removal (rSSD) section (page 36) for details.
+4.  Remove tape from new C-cover FPC – Tape secures the C-cover FPC during shipping. Remove this tape 
+before continuing with assembly. 
+5.  Connect C-cover FPC – Remove battery cover.  Hover the C-cover over the device while assembling the 
+C-cover FPC to the main board by pressing connection using your nger.
+CAUTION: Be sure that FPC bends fall in place properly as pre-bent and no folds or creases are created 
+during re-assembly of C-cover.
+
+--- Page 34 ---
+34 M1179886
+6.  Align the C-cover – Properly align the cover to the unit using the front edge alignment posts.  Carefully 
+place the C-cover back onto the unit and shift until the C-cover snaps into place.  The top C-cover area under 
+the display will protrude slightly after C-cover is placed.  Press rmly on the top area until you hear a click and 
+the C-cover attens out.
+CAUTION: Ensure that the C-cover is correctly aligned and seated before closing the device. There is the 
+risk of breaking the display if the device lid is closed before C-cover is aligned.
+7.  Install C-cover Screws – Close the AB-cover.  Turn the unit over and use a 5IP screwdriver to install 4 new 
+screws to secure the C-cover.  Screws should be installed until just snug and seated, and then turned another 
+45 degrees (1/8 turn) or until fully fastened.
+8.  Run SDT – Run SDT to ensure all device features and functions operate as expected.  Refer to (page 17) for 
+details on SDT.
+9.  Install Feet – If SDT tests pass and no further repairs are to be performed on the device, follow steps for 
+Procedure – Installation (Non-Skid Feet) on page 20.
+
+--- Page 35 ---
+35 M1179886
+rSSD Replacement Process
+Preliminary Requirements
+IMPORTANT: Be sure to follow all special (bolded) notes of caution within each process section.
+Required Tools and Components
+•  Tools:
+o  Software Tool – SDT
+o  Isopropyl Alcohol Dispenser (use only 70% IPA)
+o  5IP (Torx plus) driver
+o  Anti-static wrist strap (1M Ohm resistance)
+o  Recommended: ESD-safe battery cover (13.5” or 15”)
+•  Components:
+o  rSSD (If replacing refer to Illustrated Service Parts List)   
+(New 5IP screw supplied with component)
+Prerequisite Steps:
+•  Power off device – Ensure device is powered off and disconnected from a power supply.
+•  General Safety – Check to make sure that general guidelines and ESD compliance steps are followed prior to 
+opening device. Refer to Prior to Device Disassembly section (page 18) for details.
+•  Remove feet – Follow steps for Procedure-Removal (Non-Skid Feet) on (page 19).
+•  Remove C-cover – Follow steps for C-cover Keyboard Assembly Replacement Processes (Metal, Fabric) on 
+(page 24).
+
+--- Page 36 ---
+36 M1179886
+Procedure – Removal (rSSD)
+1.  Remove rSSD Screw – Use a 5IP (Torx-Plus) driver to remove the screw securing the rSSD.
+WARNING: Be very careful to position your screwdriver directly over the rSSD screw and to avoid 
+slipping towards the battery during removal.  If the battery is contacted, impacted, or damaged in any 
+way during the rSSD removal process, activities should immediately cease, and designated return process 
+should be followed.
+2.  Remove rSSD – The rSSD should lift upwards to ~15 degree tilt after screw is removed.  Carefully grab sides 
+of rSSD case and pull out of main board socket at same ~15 degree angle.
+IMPORTANT: Conrm condition of thermal pillow that resides beneath the rSSD once rSSD has been 
+removed.  Thermal pillow should maintain good contact with an installed rSSD and should not have 
+physical evidence of deterioration such as collapsing, excessive cracking etc.  The outside mylar layer of 
+the foam should be intact and no foam should be visible when viewed from above.
+
+--- Page 37 ---
+37 M1179886
+Procedure – Installation (rSSD)
+IMPORTANT: Only a Microsoft rSSD with part number as specied in the parts list, per device model, and 
+of like capacity should be replaced in the device.
+1.  Insert rSSD – Insert the connector end of the rSSD into the SSD connector on Mainboard at ~15 degree 
+angle.
+2.  Install new rSSD screw – Use a 5IP screwdriver to install a new rSSD screw until the screw is just snug and 
+seated, and then turned another 45 degrees (1/8 turn) or until screw is fully fastened.
+WARNING: Be very careful to position your screwdriver directly over the rSSD screw and to avoid 
+slipping towards the battery during removal.  If the battery is contacted, impacted, or damaged in any 
+way during the rSSD removal process, activities should immediately cease, and designated return process 
+should be followed.
+3.  Install C-cover – Follow steps for C-cover Keyboard Assembly Replacement Processes (Metal, Fabric) on 
+(page 24).  
+4.  Imaging new rSSD – Power on device.  Apply a new image to the rSSD using a BMR Imaging key specic to 
+the device model.  Refer to Surface imaging process - Surface Imaging Tools Link
+5.  Run SDT – Run SDT to ensure all device features and functions operate as expected.  Refer to (page 17) for 
+details on SDT.  If SDT tests pass and no further repairs are to be performed on the device continue with the 
+nal assembly steps.
+6.  Install Feet – Follow steps for Procedure – Installation (Non-Skid Feet) on (page 20).
+
+--- Page 38 ---
+38 M1179886
+AB-cover Display Assembly Replacement Process
+WARNING: The AB-cover is extremely sensitive to ESD and should be managed accordingly.  Be sure 
+all ESD safety precautions are taken when handling the AB-cover assembly.  AB-cover assembly should 
+always be stored in an ESD bag once new part is removed from package carton.  Defective part should be 
+managed in the same manner to enable recovery if applicable. 
+IMPORTANT: The C-cover keyboard assembly type (fabric or metal) on the device being repaired will 
+drive slight differences in processes in this section.  Be sure to follow proper sections and associated 
+procedures based on C-cover keyboard assembly type for the device under repair. 
+IMPORTANT: The device must rst be set in AB-cover Replacement Mode before broken/defective 
+AB-cover is removed from device under repair.  Software tools are provided for this purpose.  Device must 
+be functional to the point that software tools can be run on device from within the Windows OS.  Details 
+provided within process steps in this section. 
+IMPORTANT: If AB-cover on device under repair is non-functional, there is no display or it is unreadable, 
+connect an external PC monitor to the device’s Mini-DP port.
+Preliminary Requirements
+IMPORTANT: Be sure to follow all special (bolded) notes of caution within each process section.
+Required Tools and Components
+•  Tools
+o  Software Tool – device calibration mode
+o  Software Tool – SDT
+o  Software Tool – AB-cover touch calibration tool
+o  USB hub
+o  USB keyboard (standard PC USB keyboard needed for interaction while running software tools)
+o  USB mouse (standard PC USB mouse)
+o  Standard PC monitor with HDMI or DVI input
+o  Mini-DP port to HDMI/DVI dongle
+o  6IP (Torx plus) driver
+o  ESD-safe tweezers
+o  Feeler gauge – 0.40mm
+o  Guitar pick opening tool
+o  Anti-static wrist strap (1M Ohm resistance)
+o  Recommended: ESD-safe battery cover (13.5” or 15”)
+•  Components:
+o  AB-cover (Refer to Illustrated Service Parts List) 
+New 6IP screw quantity=6 (supplied with AB-cover replacement part) 
+New set of AB-cover FPC RF bafes (supplied with AB-cover replacement part) 
+New set of AB-cover FPC RF shields (supplied with AB-cover replacement part) 
+One set of new mylar tapes for metal C-cover only (supplied with AB-cover replacement part) 
+One set of new closure steels for metal C-cover only (supplied with AB-cover replacement part)
+
+--- Page 39 ---
+39 M1179886
+Prerequisite Steps:
+•  AB-cover Replacement Mode – Pulls calibration data from the old AB-Cover.
+1.  Connect software tools USB drive with software tools to USB connector on device under repair.
+2.   Connect power supply to device to enable power on.
+3.   Power on device – Depress the power button on the C-cover to power on the device.
+4.   Run software tool – At the device OS, use Windows Explorer, navigate to USB drive and run:  
+STEP1_DisplayModuleReplacement.cmd – accept the power down prompt once tool is run.
+IMPORTANT: This step must be carried out on the device successfully before the broken/faulty  
+AB-cover display assembly is replaced.  Retry previous step if error message received.
+•  General Safety – Check to make sure that general guidelines and ESD compliance steps are followed prior to 
+opening device. Refer to Prior to Device Disassembly section (page 18) for details.
+•  Remove feet – Follow steps for Procedure-Removal (Non-Skid Feet) on (page 19).
+•  Remove C-cover – Follow steps for C-cover Keyboard Assembly Replacement Processes (Metal, Fabric) on 
+(page 24).
+•  Remove rSSD – Follow steps for Procedure-Removal (rSSD) section (page 36).
+Removal Process (AB-cover Display Assembly)
+1.  Disconnect Antenna Cable – Using angled tweezers, disassemble left antenna cable located to the left  
+of the left AB-cover FPC RF shield. This will prevent the antenna cable from being damaged during  
+shield removal.
+2.  Remove FPC RF Bafes – Using tweezers, remove the left and right bafes that sit on top of the RF shield 
+cans by prying upwards starting from one end of the bafe.
+
+--- Page 40 ---
+40 M1179886
+3.  Remove FPC RF Shield Cans – Using tweezers, remove the two shield lids shown in the illustration below by 
+rst peeling on the bottom right corners of the shield.  To prevent damage to the FPCs during shield removal, 
+for both shields, peel up the shield along its front edge and bend the shield at 45 degrees.  Carefully pull 
+vertically and twist left and right as you pull towards you to remove the shield.
+CAUTION: This twisting procedure is necessary to prevent damage to the FPCs by the sharp edges of the 
+shields.  Be sure not to apply leverage on surrounding components, RF shields and/or thermal 
+management components.
+4.  Disconnect FPCs – Once shields are removed and the 4 FPCs are exposed, use a Spudger tool to disconnect 
+the 4 FPCs shown by prying upwards on the corners rst and then along the front edge.  Be sure not to bend 
+the FPC head excessively otherwise the head will be damaged (refer to illustration for details).  Grab each FPC 
+connector and gently pull the ribbon towards the front of the device to untuck ribbon from underneath the 
+chassis ledge.
+5.  Remove Two Inner Hinge Screws – Using a 6IP screwdriver, remove the inner 2 screws on the left and right 
+hinges (refer to illustration for details).
+6.  Set AB-cover Display Angle to 90 deg for Safe Removal – Place the display module at an angle of about 
+90 degrees.  Then remove the remaining external screw at the left and right hinges while holding the display 
+with your free hand.
+7.  Remove AB-cover from Device – Lift the display module straight up vertically until detached from the unit.
+
+--- Page 41 ---
+41 M1179886
+Installation Procedures – (AB-cover Display Assembly)
+IMPORTANT: The installation process for the AB-cover varies between C-cover types (Metal vs. 
+Fabric).  Each C-cover type creates different AB-cover opening experiences.  The opening experience 
+is a differentiating characteristic of the Surface Laptop design.  Be sure to move to the proper C-cover 
+reassembly section based on C-cover type.
+Procedure installation – (Metal C-cover Device)
+1.  Initial AB-cover Install – Clean out any residual thread locker surrounding the hinge screw holes or just 
+inside the screw hole before installing replacement AB-cover assembly.  Set the new AB-cover in place in the 
+device chassis hinge wells and hold in place while installing 2 new outer screws on each hinge (4 total at this 
+time).  Screws should be installed until just snug and seated, and then turned another 90 degrees (1/4 turn) or 
+until fully fastened. 
+2.  Release Hinge Clamp Force – Turn all 4 screws 90 degrees (1/4 turn) counterclockwise to release the clamp 
+force from those screws. This will allow for alignment of AB-cover to chassis at a later step.
+3.  Connect AB-cover FPCs – Connect all 4 display module FPCs into their respective connectors.
+4.  Tuck FPCs – Using a guitar pick opening tool, carefully tuck the loose portion of the FPCs under the 
+enclosure lip as shown below.  Ensure that the FPC is taut and that there is no remaining slack protruding out 
+from under the lip.  Any protrusions could prevent or negatively impact the re-installation of the C-cover.
+5.  Touch Calibration Steps – The new AB-cover must have touch calibration performed:
+a.  Install rSSD to enable device operation (device won’t power on without rSSD installed). Follow steps for 
+Procedure – Installation (rSSD) section (page 37).
+b.  Temporarily connect the C-cover FPC back on to device main board connector and set the C-cover in 
+place on the device chassis.  No screws are required at this time as the C-cover will be used temporarily 
+to control the device; see details in Procedure – Installation (C-cover Keyboard Metal type) section (page 
+27).
+c.  Connect software tools USB drive with software tools to USB connector on device under repair.
+d.  Connect power supply to device to enable power on.
+
+--- Page 42 ---
+42 M1179886
+e.  Power on device – Depress the power button on the C-cover to power on the device.
+f.  Run software tool – At the device OS, use Windows Explorer, navigate to USB drive and run:  
+STEP2_DisplayModuleReplacement.cmd. Follow prompts, device will restart.  Verify touch by running 
+nger across screen to check that touch is working.
+g.  Power off device – Use device OS to power down device.
+h.    Remove C-cover.  
+i.    Remove rSSD.
+IMPORTANT: Calibration Failure – If calibration tool returns an error message that indicates calibration 
+failure, see AB-cover Touch Calibration Retry section on page 57 for details on how to proceed. This must 
+be carried out at this time and prior to complete re-assembly of device.
+6.  FPC RF Shield Installation – Install 2 new shield lids above the 4 AB-cover FPC connectors by orienting them 
+along the outline of the shield fences.
+IMPORTANT: Be sure to install the correct shield type onto the corresponding shield fence.  The left-
+hand shield has 2 rectangular embosses in the shape of connector heads and the right-hand shield has 3 
+rectangular embosses.   
+Prior to shield installation, visually inspect each shield to ensure that shield ngers are not bent such that 
+they impeded the installation process.   
+Push the shields vertically downwards onto the fences and snap into place.  Ensure the shields are evenly 
+pressed along the entire perimeter of each fence and that the front shield prongs are pressed rmly 
+against the shield fence.
+7.  Connect WiFi Antenna – Reconnect the left WiFi antenna cable (see illustration below).
+8.  RF Bafe Installation – Install 2 new RF bafes on top of the shield by peeling off the adhesive protector 
+sheet and snapping them into place near the back of the shields.  Firmly press your nger along the top of the 
+RF Bafe wall to adhere adhesive to shield.
+
+--- Page 43 ---
+43 M1179886
+9.  AB-cover Hinge Alignment – It is necessary to properly align the front edge of the AB-cover to the lower 
+device case to ensure step gap between front edges are proper.
+a.  Hinge Alignment – Set Display Module to 90 degrees.  Shift innermost screw on each side so that the 
+screws are concentric with the circular feature on the hinge.
+b.  Verify Hinge Alignment – With the screws concentrically aligned verify hinge alignment inserting a 
+plastic 0.40mm feeler gauge in between the display and chassis (shown by blue arrow).  Feeler gauge 
+should be able to slide through smoothly.  If gauge does not t, re-alignment may be necessary.
+c.  Secure hinge – Turn all 6 hinge screws another 90 degrees (1/4 turn) or until fully fastened.
+
+--- Page 44 ---
+44 M1179886
+10.  Opening Strength Adjustment (Metal C-cover) – As part of the AB-cover removal process, we will need 
+to remove the current C-cover steels which are located at the bottom front edge pockets and install new 
+provided steels.
+a.  C-cover Steels Mylar Removal – Take C-cover and remove mylars covering the closure steels using 
+tweezers.
+b.  C-cover Steels Removal – Using tweezers again, remove the closure steels located in the two regions at 
+the front edge of the C-cover.
+c.  Clean Closure Steel Area – Clean off the closure steel area thoroughly with a cotton swab and IPA.  Be 
+sure there is no debris or residue left over.
+d.  Install New Closure Steels – Install new closure steels about 2mm from the outside edge of the C-cover 
+as shown in the image below using tweezers.
+e.  Left Closure Steel Placement – Place single closure steel into left enclosure pocket about 2mm from 
+the outside left edge of C-cover.
+f.  Secure Left Closure Steel – Using the back of the tweezers, press continuously and rmly along the 
+surface of the steel for 80 seconds.
+g.  Tape Left Closure Steel – Place mylar tape over the steel.  Black tape should fully cover steel and 
+overlap onto the C-cover.
+h.  Smooth Left Closure Steel Tape – Use Spudger tool to smooth out and atten the tape to secure the 
+steel.
+i.  Right Closure Steel Placement – Place single closure steel into right enclosure pocket about 2mm 
+from the outside right edge of C-cover.
+
+--- Page 45 ---
+45 M1179886
+j.  Secure Right Closure Steel – Using the back of the tweezers, press continuously and rmly along the 
+surface of the steel for 80 sec.
+k.  Tape Right Closure Steel – Place black tape over the steel. Black tape should fully cover steel and 
+overlap onto the C-cover.
+l.  Smooth Right Closure Steel Tape – Use Spudger to smooth out and atten the tape to secure the steel.  
+Ensure that all metal keyboard covers have the mylar tape on top of the steel before nal assembly of the 
+keyboard.
+11.  Fit C-cover – Follow steps 2-4 of the C-cover reassembly instructions.  Do not install any Feet screws.
+12.  Check AB-cover alignment – Close the device and conrm ushness of feeler gauge to display module 
+cover across the entire front edge.
+a.  If ush, move to next step in this section.
+b.  If not ush, follow steps for removing AB-hinge screws and steps for 9a thru 9c again until ush.   
+Then follow steps for C-cover reassembly.
+13.  rSSD Install – Follow steps for Procedure – Installation (rSSD) section (page 37).
+14.  C-cover Install – Follow steps for Procedure – Installation (C-cover Keyboard metal type) section (page 27).
+15.  Run SDT – Power on device.  Validate full device functionality by running SDT tool.
+a.  If an SDT failure occurs, assess failure to determine if caused by any improper or missed step in the repair 
+process and correct.
+b.  Any failure that is not correctable should result in device exchange.
+16.  Install Feet – If SDT tests pass and no further actions are to be performed on the device, follow steps for 
+Procedure – Installation (Non-Skid Feet) section (page 20).
+
+--- Page 46 ---
+46 M1179886
+Procedure installation – (Fabric C-cover Device)
+1.  Initial AB-cover Install – Clean out any residual thread locker surrounding the hinge screw holes or just 
+inside the screw hole before installing replacement AB-cover assembly.  Set the new AB-cover in place in the 
+device chassis hinge wells and hold in place while installing 2 new outer screws on each hinge (4 total at this 
+time).  Screws should be installed until just snug and seated, and then turned another 90 degrees (1/4 turn) or 
+until fully fastened. 
+2.  Release Hinge Clamp Force – Turn all 4 screws 90 degrees (1/4 turn) counterclockwise to release the clamp 
+force from those screws. This will allow for alignment of AB-cover to chassis at a later step.
+3.  Connect AB-cover FPCs – Connect all 4 display module FPCs into their respective connectors.
+4.  Tuck FPCs – Using an guitar pick opening tool, carefully tuck the loose portion of the FPCs under the 
+enclosure lip as shown below.  Ensure that the FPC is taut and that there is no remaining slack protruding out 
+from under the lip.  Any protrusions could prevent or negatively impact the re-installation of the C-cover.
+5.  Touch Calibration Steps – The new AB-cover must have touch calibration performed:
+a.  Install rSSD to enable device operation (device won’t power on without rSSD installed). Follow steps for 
+Procedure – Installation (rSSD) section (page 37).
+b.  Temporarily connect the C-cover FPC back on to device main board connector and set the C-cover in 
+place on the device chassis.  No screws are required at this time as the C-cover will be used temporarily 
+to control the device; see details in Procedure – Installation (C-cover Keyboard Fabric type) section (page 
+33).
+c.  Connect software tools USB drive with software tools to USB connector on device under repair.
+d.  Connect power supply to device to enable power on.
+e.  Power on device – Depress the power button on the C-cover to power on the device.
+f.  Run software tool – At the device OS, use Windows Explorer, navigate to USB drive and run:  
+STEP2_DisplayModuleReplacement.cmd. Follow prompts, device will restart.  Verify touch by running 
+nger across screen to check that touch is working.
+IMPORTANT: Calibration Failure – If calibration tool returns an error message that indicates calibration 
+failure, see AB-cover Touch Calibration Retry section on page 57 for details on how to proceed. This must 
+be carried out at this time and prior to complete re-assembly of device.
+
+--- Page 47 ---
+47 M1179886
+g.  Power off device – Use device OS to power down device.
+h.   Remove C-cover.  
+i.   Remove rSSD.
+6.  FPC RF Shield Installation – Install 2 new shield lids above the 4 AB-cover FPC connectors by orienting them 
+along the outline of the shield fences.
+IMPORTANT: Be sure to install the correct shield type onto the corresponding shield fence.  The left-
+hand shield has 2 rectangular embosses in the shape of connector heads and the right-hand shield has 3 
+rectangular embosses.   
+Prior to shield installation, visually inspect each shield to ensure that shield ngers are not bent such that 
+they impede the installation process.   
+Push the shields vertically downwards onto the fences and snap into place.  Ensure the shields are evenly 
+pressed along the entire perimeter of each fence and that the front shield prongs are pressed rmly 
+against the shield fence.
+7.  Connect WiFi Antenna – Reconnect the left WiFi antenna cable (see illustration below).
+8.  RF Bafe Installation – Install 2 new RF bafes on top of the shield by peeling off the adhesive protector 
+sheet and snapping them into place near the back of the shields.  Firmly press your nger along the top of the 
+RF Bafe wall to adhere adhesive to shield.
+
+--- Page 48 ---
+48 M1179886
+9.  AB-cover Hinge Alignment – It is necessary to properly align the front edge of the AB-cover to the lower 
+device case to ensure step gap between front edges are proper.
+a.  Hinge Alignment – Set Display Module to 90 degrees.  Shift innermost screw on each side so that the 
+screws are concentric with the circular feature on the hinge.
+b.  Verify Hinge Alignment – With the screws concentrically aligned verify hinge alignment inserting a 
+plastic 0.40mm feeler gauge in between the display and chassis (shown by blue arrow).  Feeler gauge 
+should be able to slide through smoothly.  If gauge does not t, re-alignment may be necessary.
+c.  Secure hinge – Turn all 6 hinge screws another 90 degrees (1/4 turn) or until fully fastened.
+
+--- Page 49 ---
+49 M1179886
+10.  Fit C-cover – Follow steps 2-4 of the C-cover reassembly instructions.  Do not install any Feet screws.
+11.  Check AB-cover alignment – Close the device and conrm ushness of feeler gauge to display module 
+cover across the rear corners of each hinge.
+a.  If ush, move to next step in this section.
+b.  If not ush, follow steps for removing AB-hinge screws and steps for 9a thru 9c again until ush.  Then 
+follow steps for C-cover reassembly.
+12.  rSSD Install – Follow steps for Procedure – Installation (rSSD) section (page 37).
+13.  C-cover Install – Follow steps for Procedure – Installation (C-cover Keyboard metal type) section (page 27).
+14.  Run SDT – Power on device.  Validate full device functionality by running SDT tool.
+a.  If an SDT failure occurs, assess failure to determine if caused by any improper or missed step in the repair 
+process and correct.
+b.  Any failure that is not correctable should result in device exchange.
+15.  Install Feet – If SDT tests pass and no further actions are to be performed on the device, follow steps for 
+Procedure – Installation (Non-Skid Feet) section (page 20).
+
+--- Page 50 ---
+50 M1179886
+AB-Cover Touch Calibration Software Tools Overview
+IMPORTANT: A calibration routine is provided to carry out the required touch calibration sequence on 
+an AB-cover Display Assembly when replaced.  Touch Calibration software tool details are provided within 
+this section.  The calibration tool runs from a USB drive connected to the device under repair and runs 
+within the Windows OS.  Follow steps within the AB-cover Display Assembly Replacement Process section 
+(page 38) noting when to run tools and which le to choose based on the step in the process.
+Preliminary Requirements
+IMPORTANT: Be sure to follow all special (bolded) notes of caution within each process section.
+Required Tools and Components
+•  Tools:
+o  AB-cover Touch Calibration Software Tool
+Prerequisite Steps:
+•  AB-cover replacement – Refer to AB-cover Display Assembly Replacement Process section (page 38).
+USB Drive Setup – Directory Structure and Files
+Copy tools to the root directory of USB drive for easy access during the calibration process. 
+The following les are required and should reside in the same directory on the USB key:
+•  Folder: Project
+•  File: STEP1_DisplayModuleReplacement.cmd
+•  File: STEP2_DisplayModuleReplacement.cmd
+Tool Runtime Details
+•  The calibration tool runs within the Windows OS and therefore the device under repair must be functional to 
+the point that the tools will run on device OS.
+•  For devices with secured Windows login accounts, login credentials are required to gain access to OS features 
+that enable program execution.
+•  Once device is running and Windows login is completed, leverage Windows Explorer to navigate to the USB 
+drive containing the calibration tools.
+•  Run the calibration tools in accordance with associated process steps within the AB-cover Display Assembly 
+Replacement Process section (page 38).
+•  The tools perform the following two functions:
+o  Set device under repair into AB-cover replacement mode.
+o  Perform touch calibration on replaced (new) AB-cover.
+
+--- Page 51 ---
+51 M1179886
+Expected Screenshots
+The following screenshots will be presented during tool operation:
+When STEP1_DisplayModuleReplacement.cmd is invoked:
+STEP_1 Screen 1: Initial screen indicates Step 1 initiation.
+STEP_1 Screen 2: Indicates device has been set into AB-cover replacement mode (Servicing Mode). Operator 
+prompted to authorize device shutdown by entering y or Y and pressing ENTER.
+
+--- Page 52 ---
+52 M1179886
+STEP_1 Screen 3: Tool conrms device shutdown authorization.
+STEP_1 Screen 4: Windows OS alert noting device shutdown – Select Close and device shuts down to enable next 
+process steps within AB-cover Display Assembly Replacement Process.
+
+--- Page 53 ---
+53 M1179886
+When STEP2_DisplayModuleReplacement.cmd is invoked:
+STEP_2 Screen 1: Initial screen indicates tool running.
+STEP_2 Screen 2: Calibration preliminary device testing initiated.
+
+--- Page 54 ---
+54 M1179886
+STEP_2 Screen 3: Tool prompts operator that calibration is about to commence with reminders that screen should 
+not be touched and power should not be applied to the device during calibration.
+STEP_2 Screen 4: Tool reports that calibration routine is in progress.
+
+--- Page 55 ---
+55 M1179886
+STEP_2 Screen 5: Tool reports results of calibration process.
+STEP_2 Screen 6: Tool initiates OS restart and OS alerts operator that device will restart – Select Close.
+
+--- Page 56 ---
+56 M1179886
+STEP_2 Error Screen Example: In the case that calibration fails, follow screen prompts provided by tool. If retry 
+attempt fails, refer to AB-cover Touch Calibration Retry section (page 57) for next steps.
+
+--- Page 57 ---
+57 M1179886
+AB-Cover Touch Calibration Retry (if required)
+IMPORTANT: If touch calibration fails it is necessary to take the following steps to retry the calibration 
+process.
+Touch Calibration Steps (Retry):
+1.  Preparation – Conrm that the following steps have been completed: 
+a.  Install rSSD to enable device operation.  Follow steps for Procedure – Installation (rSSD) on section 
+(page 37).
+b.  Temporarily connect the C-cover FPC back on to device main board connector and set the C-cover in 
+place on the device chassis.  No screws are required at this time as the C-cover will be used temporarily 
+to control the device; see details in Procedure – Installation (C-cover Keyboard Fabric type) section (page 
+33) or Procedure – Installation (C-cover Keyboard Metal type) section (page 27).
+c.  Connect software tools USB drive with software tools to USB connector on device under repair.
+d.  Connect power supply to device to enable power on. 
+e.  Power on device – Depress the power button on the C-cover to power on the device. 
+f.  Run software tool – At the device OS, use Windows Explorer, navigate to USB drive and run:  
+STEP1_DisplayModuleReplacement.cmd. Accept the power down prompt once tool is run.
+2.  Take the following steps: 
+a.  Device Powered Off – Ensure device is powered off and disconnected from a power supply.
+b.  Remove C-cover which was temporarily installed to allow device control. Be sure to follow proper 
+actions when removing and storing the C-cover; see Procedure – Removal (C-cover Keyboard Fabric 
+type) section (page 33) or Procedure – Removal (C-cover Keyboard Metal type) section (page 27). 
+c.  Battery Cover in place – Ensure a Microsoft provided ESD-safe battery cover appropriate for size (either 
+13.5” or 15” device) is placed across the device to protect the battery from any accidental damage during 
+repair. 
+d.  rSSD Removed – Follow steps for Procedure – Removal (rSSD) section (page 36). Removing the rSSD will 
+ensure that all power is removed from the device. 
+3.  Remove AB-cover – Remove new AB-cover installed to device and install previously broken AB-cover back 
+into device. The device under repair must see a different AB-cover in order to accept new touch calibration 
+data each time. Follow steps for Procedure – Removal (AB-cover Display Assembly) section (page 39).
+IMPORTANT: This step must be carried out to re-enable touch calibration.
+
+--- Page 58 ---
+58 M1179886
+4.  Preparation – Conrm that the following steps have been completed:
+a.  Install rSSD to enable device operation (device won’t power on without rSSD installed).
+b.  Temporarily connect the C-cover FPC back on to device main board connector and set the C-cover in 
+place on the device chassis.  No screws are required at this time as the C-cover will be used temporarily 
+to control the device; see details in Procedure – Installation (C-cover Keyboard Fabric type) on (page 33). 
+or Procedure – Installation (C-cover Keyboard Metal type) section (page 27). 
+c.  Connect software tools USB drive with software tools to USB connector on device under repair.
+d.  Connect power supply to device to enable power on.
+e.  Power on device – Depress the power button on the C-cover to power on the device.
+f.  Run software tool – At the device OS, use Windows Explorer, navigate to USB drive and run:  
+STEP2_DisplayModuleReplacement.cmd. Follow prompts, device will restart.  Verify touch by running 
+nger across screen to check that touch is working.
+5.  Navigate to USB key with software tools – Using Windows Explorer, navigate to USB drive and run the SDT 
+tool.
+6.  Run SDT – Within SDT tool, choose Select Tests, Touch Display Repair and initiate by clicking on  
+Run Selected button – follow instructions provided by tool.
+IMPORTANT: If calibration tool continues to return an error message that indicates calibration failure, 
+device should be processed as an exchange and sent back to Microsoft for repair.
+Environmental Compliance Requirements
+All waste electrical and electronic equipment (WEEE), waste electronic components, waste batteries, and electronic 
+waste residuals must be managed according to applicable laws and regulations and H09117, “Conformance Standards 
+for Environmentally Sound Management of Waste Electrical and Electronic Equipment (WEEE),” which is available 
+at this link: https://www.microsoft.com/en-pk/download/details.aspx?id=11691  In case of questions, please contact 
+AskECT@microsoft.com
+©2021 Microsoft.
+

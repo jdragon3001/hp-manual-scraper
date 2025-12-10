@@ -1,0 +1,1120 @@
+Brand: INTEL
+Model: Compute Stick Stk2M3W64Cc
+URL: https://www.manua.ls/intel/compute-stick-stk2m3w64cc/manual
+Total Pages: 34
+============================================================
+
+--- Page 1 ---
+Intel® Compute Stick 
+STK2M3W64CC 
+STK2MV64CC 
+STK2M364CC 
+Technical Product Specification 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+February 2016 
+Order Number:  H86345-001
+
+--- Page 2 ---
+Revision History 
+Revision  Revision History  Date 
+001  First release   February 2016 
+Disclaimer 
+This product specification applies to only the standard Intel
+®
+ Compute Stick with BIOS identifier 
+CCSKLM30.86A or CCSKLM5V.86A. 
+INFORMATION IN THIS DOCUMENT IS PROVIDED IN CONNECTION WITH INTEL
+®
+ PRODUCTS. NO LICENSE, EXPRESS OR 
+IMPLIED, BY ESTOPPEL OR OTHERWISE, TO ANY INTELLECTUAL PROPERTY RIGHTS IS GRANTED BY THIS DOCUMENT. 
+EXCEPT AS PROVIDED IN INTEL’S TERMS AND CONDITIONS OF SALE FOR SUCH PRODUCTS, INTEL ASSUMES NO 
+LIABILITY WHATSOEVER, AND INTEL DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTY, RELATING TO SALE AND/OR 
+USE OF INTEL PRODUCTS INCLUDING LIABILITY OR WARRANTIES RELATING TO FITNESS FOR A PARTICULAR PURPOSE, 
+MERCHANTABILITY, OR INFRINGEMENT OF ANY PATENT, COPYRIGHT OR OTHER INTELLECTUAL PROPERTY RIGHT. 
+UNLESS OTHERWISE AGREED IN WRITING BY INTEL, THE INTEL PRODUCTS ARE NOT DESIGNED NOR INTENDED FOR 
+ANY APPLICATION IN WHICH THE FAILURE OF THE INTEL PRODUCT COULD CREATE A SITUATION WHERE PERSONAL 
+INJURY OR DEATH MAY OCCUR.  
+All Compute Sticks are evaluated as Information Technology Equipment (I.T.E.) for installation in homes, offices, schools, 
+computer rooms, and similar locations. The suitability of this product for other PC or embedded non-PC applications or 
+other environments, such as medical, industrial, alarm systems, test equipment, etc. may not be supported without further 
+evaluation by Intel. 
+Intel Corporation may have patents or pending patent applications, trademarks, copyrights, or other intellectual property 
+rights that relate to the presented subject matter. The furnishing of documents and other materials and information does 
+not provide any license, express or implied, by estoppel or otherwise, to any such patents, trademarks, copyrights, or 
+other intellectual property rights. 
+Intel may make changes to specifications and product descriptions at any time, without notice. 
+Designers must not rely on the absence or characteristics of any features or instructions marked “reserved” or 
+“undefined.” Intel reserves these for future definition and shall have no responsibility whatsoever for conflicts or 
+incompatibilities arising from future changes to them. 
+Intel processor numbers are not a measure of performance. Processor numbers differentiate features within each 
+processor family, not across different processor families: Go to:   
+Learn About Intel
+®
+ Processor Numbers 
+Contact your local Intel sales office or your distributor to obtain the latest specifications before placing your product 
+order. 
+Intel, the Intel logo, Intel Compute Stick, and Intel Core are trademarks of Intel Corporation in the U.S. and/or other 
+countries. 
+* Other names and brands may be claimed as the property of others.  
+Copyright  2016 Intel Corporation.  All rights reserved. 
+Errata 
+Current characterized errata, if any, are documented in a separate Specification Update.  See 
+http://www.intel.com/ComputeStickSupport
+ for the latest documentation.
+
+--- Page 3 ---
+iii 
+Preface 
+This Technical Product Specification (TPS) specifies the layout, components, connectors, power 
+and environmental requirements, and the BIOS for Intel Compute Stick STK2M3W64CC, 
+STK2M364CC and STK2MV64CC.  
+ 
+NOTE 
+In this document, the use of “Intel Compute Stick” will refer to the STK2M3W64, STK2M364CC and 
+STK2MV64CC versions of the Intel Compute Stick. 
+Intended Audience 
+The TPS is intended to provide detailed technical information about Intel Compute Stick 
+STK2M3W64CC, STK2M364CC and STK2MV64CC and its components to the vendors, system 
+integrators, and other engineers and technicians who need this level of information.  It is 
+specifically not intended for general audiences. 
+What This Document Contains 
+Chapter  Description  
+1 
+A description of the hardware used on Intel Compute Stick 
+STK2M3W64CC, STK2M364CC and 
+STK2MV64CC 
+2 
+A map of the resources of the Intel Compute Stick 
+3 
+The features supported by the BIOS Setup program 
+Typographical Conventions 
+This section contains information about the conventions used in this specification.  Not all of 
+these symbols and abbreviations appear in all specifications of this type. 
+Notes, Cautions, and Warnings 
+ 
+NOTE 
+Notes call attention to important information. 
+  CAUTION 
+Cautions are included to help you avoid damaging hardware or losing data.
+
+--- Page 4 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+iv
+ 
+Other Common Notation 
+ 
+#  Used after a signal name to identify an active-low signal (such as USBP0#) 
+GB  Gigabyte (1,073,741,824 bytes) 
+GB/s  Gigabytes per second 
+Gb/s  Gigabits per second 
+KB  Kilobyte (1024 bytes) 
+Kb  Kilobit (1024 bits) 
+kb/s  1000 bits per second 
+MB  Megabyte (1,048,576 bytes) 
+MB/s  Megabytes per second 
+Mb  Megabit (1,048,576 bits) 
+Mb/s  Megabits per second 
+TDP  Thermal Design Power 
+Xxh  An address or data value ending with a lowercase h indicates a hexadecimal value. 
+x.x V  Volts.  Voltages are DC unless otherwise specified. 
+*  This symbol is used to indicate third-party brands and names that are the property of their respective 
+owners.
+
+--- Page 5 ---
+v 
+Contents 
+Revision History 
+Errata ............................................................................................................................................................................ ii 
+Preface 
+Intended Audience................................................................................................................................................ iii 
+What This Document Contains ........................................................................................................................ iii 
+Typographical Conventions .............................................................................................................................. iii 
+1  Product Description 
+1.1  Overview ......................................................................................................................................................... 7 
+1.1.1  Version Summary ..................................................................................................................... 7 
+1.1.2  Feature Summary ..................................................................................................................... 7 
+1.1.3  Location of Components ....................................................................................................... 8 
+1.1.4  Block Diagram ............................................................................................................................ 9 
+1.2  Online Support .......................................................................................................................................... 10 
+1.3  Operating System Overview ................................................................................................................ 10 
+1.4  Processor ..................................................................................................................................................... 10 
+1.5  System Memory ........................................................................................................................................ 11 
+1.6  System Storage ......................................................................................................................................... 11 
+1.7  Processor Graphics Subsystem ......................................................................................................... 11 
+1.7.1  Integrated Graphics .............................................................................................................. 11 
+1.8  USB ................................................................................................................................................................. 12 
+1.9  Wireless LAN Subsystem ...................................................................................................................... 13 
+1.9.1  Wireless Network Module .................................................................................................. 13 
+1.10  Hardware Management Subsystem ................................................................................................. 13 
+1.11  Power Management ................................................................................................................................ 14 
+1.11.1  ACPI ............................................................................................................................................. 14 
+1.11.2  Hardware Support ................................................................................................................. 16 
+1.12  Intel® Security and Manageability Technologies ........................................................................ 18 
+1.12.1  Intel® vPro™ Technology ..................................................................................................... 18 
+2  Technical Reference 
+2.1  Memory Resources .................................................................................................................................. 21 
+2.1.1  Addressable Memory ........................................................................................................... 21 
+2.2  Connectors .................................................................................................................................................. 22 
+2.2.1  USB 3.0 Connector ................................................................................................................ 22 
+2.2.2  Micro SD Card Reader .......................................................................................................... 22 
+2.2.3  Power Adapter Connector ................................................................................................. 23 
+2.2.4  Power Adapter and USB Hub ........................................................................................... 23 
+2.2.5  Security Loop .......................................................................................................................... 24 
+2.3  Mechanical Considerations .................................................................................................................. 26 
+2.3.1  Form Factor .............................................................................................................................. 26
+
+--- Page 6 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+vi
+ 
+2.4  Reliability ..................................................................................................................................................... 26 
+2.5  Environmental ........................................................................................................................................... 27 
+3  Overview of BIOS Features 
+3.1  Introduction ................................................................................................................................................ 29 
+3.2  BIOS Flash Memory Organization ..................................................................................................... 29 
+3.3  System Management BIOS (SMBIOS) .............................................................................................. 29 
+3.4  Legacy USB Support ............................................................................................................................... 30 
+3.5  BIOS Updates ............................................................................................................................................. 30 
+3.5.1  Language Support ................................................................................................................. 31 
+3.6  BIOS Recovery ........................................................................................................................................... 31 
+3.7  Boot Options .............................................................................................................................................. 31 
+3.7.1  Booting Without Attached Devices ................................................................................ 31 
+3.7.2  BIOS POST Hotkeys .............................................................................................................. 32 
+3.7.3  Changing the Default Boot Device During POST ..................................................... 32 
+3.7.4  Power Button Menu .............................................................................................................. 32 
+3.8  BIOS Error Messages .............................................................................................................................. 33 
+ 
+Figures 
+1.  Left-Side View of Intel Compute Stick ............................................................................................... 8 
+2.  Right-Side View of Intel Compute Stick ............................................................................................ 8 
+3.  Block Diagram ............................................................................................................................................... 9 
+4.  USB 3.0 Connector .................................................................................................................................. 22 
+5.  Micro SD Card Reader ............................................................................................................................ 22 
+6.  Power Adapter Connector .................................................................................................................... 23 
+7.  Power Adapter and USB Hub .............................................................................................................. 23 
+8.  Security Loop Opening .......................................................................................................................... 24 
+9.  Security Loop Cable Example ............................................................................................................. 25
+ 
+10
+.  Intel Compute Stick Dimensions ....................................................................................................... 26 
+ 
+Tables 
+1.  Version Summary ........................................................................................................................................ 7 
+2.  Feature Summary ........................................................................................................................................ 7 
+3.  Effects of Pressing the Power Switch .............................................................................................. 14 
+4.  Power States and Targeted System Power ................................................................................... 15 
+5.  Wake-up Devices and Events ............................................................................................................. 16 
+6.  Intel Compute Stick Weight Information ....................................................................................... 26 
+7.  Environmental Specifications ............................................................................................................. 27 
+8.  Acceptable Drives/Media Types for BIOS Recovery ................................................................. 31 
+9.  Boot Device Menu Options .................................................................................................................. 32 
+10.  BIOS Error Messages .............................................................................................................................. 33
+
+--- Page 7 ---
+7 
+1  Product Description 
+1.1  Overview 
+1.1.1  Version Summary 
+There are three different versions of this model of Intel® Compute Stick available which are 
+summarized in Table 1.  Unless otherwise noted in this document all features are available on all 
+versions of the Intel Compute Stick. 
+Table 1.  Version Summary 
+Version 
+Intel® vPro™ 
+TPM 
+Processor 
+OS Pre-installed 
+STK2M3W64CC  No  No  Intel® Core™ m3, M3-6Y30  Yes, Windows 10 
+STK2MV64CC  Yes  Yes  Intel® Core™ m5, M5-6Y57  No 
+STK2M364CC  No  Yes  Intel® Core™ m3, M3-6Y30  No 
+1.1.2  Feature Summary 
+Table 2 summarizes the major features of the Intel Compute Stick. 
+Table 2.  Feature Summary 
+Form Factor 
+114 millimeters by 38 millimeters by 12 millimeters (4.48819 inches by 1.49606 inches by 
+0.4724 inches)  
+Processor 
+•  Soldered-down Intel® Core™ M processor 
+―  Integrated graphics 
+―  Integrated memory controller 
+―  Integrated PCH 
+Memory  
+• 
+Soldered-down dual-channel LPDDR3 1866 MHz memory 
+•  4 GB total memory 
+Graphics 
+•  Integrated graphics support with Intel
+®
+ HD Graphics Technology: 
+―
+ 
+High Definition Multimedia Interface* (HDMI*) 
+Audio  Intel® High Definition (Intel
+®
+ HD) Audio via the HDMI v1.4b interface 
+Peripheral Interfaces  One full size USB 3.0 port 
+Storage 
+• 
+64 GB soldered-down Embedded MultiMediaCard (eMMC) onboard storage  
+•  One Micro SD card slot (SDXC v3.0 with UHS-I support) 
+BIOS 
+•  Intel
+®
+ BIOS resident in the Serial Peripheral Interface (SPI) Flash device 
+•  Support for Advanced Configuration and Power Interface (ACPI), Plug and Play, and 
+System Management BIOS (SMBIOS) 
+Wireless LAN 
+Soldered-down Intel® Dual Band Wireless-AC module 
+•  802.11a/b/g/n, 802.11ac, Bluetooth* 4.2 
+•
+ 
+Supports Intel® Wireless Display (WiDi) 
+Intel
+® 
+vPro™ 
+Technologies  
+(STK2MV64CC only) 
+• 
+Intel® Active Management Technology (Intel® AMT) 11.0 
+•  Intel® Virtualization Technology (Intel® VT)  
+•  Intel® Virtualization for Directed I/O (Intel® VT-d) 
+•  Intel® Trusted Execution Technology (Intel® TXT) 
+•  Intel® Identity Protection Technology (Intel® IPT) 
+•  Trusted Platform Module 2.0 (TPM) (Also available on STK2M364CC)
+
+--- Page 8 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+8
+ 
+1.1.3  Location of Components 
+Figures 1 and 2 show the location of the components on the Intel Compute Stick. 
+ 
+Item  Description 
+A  HDMI Connector 
+B  Power LED 
+C  Security Loop 
+D  USB 3.0 Connector 
+E  Power On/Off Button 
+Figure 1.  Left-Side View of Intel Compute Stick 
+ 
+Item  Description 
+A  Micro SD Card Reader Slot 
+B  5 V DC Connector 
+Figure 2.  Right-Side View of Intel Compute Stick
+
+--- Page 9 ---
+Product Description 
+9 
+1.1.4  Block Diagram 
+Figure 3 is a block diagram of the major functional areas of the Intel Compute Stick.   
+ 
+Figure 3.  Block Diagram
+
+--- Page 10 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+10
+ 
+1.2  Online Support 
+ 
+To find information about…   Visit this World Wide Web site: 
+Intel Compute Stick  http://www.intel.com/computesticksupport 
+ 
+1.3  Operating System Overview 
+The STK2M3W64CC Compute Stick has Windows 10 Home 64-bit pre-installed with all necessary 
+drivers. 
+The STK2M364CC and STK2MV64CC Compute Sticks support the following Operating Systems 
+(64-bit only). 
+•  Windows* 10 Home 
+•  Windows 10 Pro 
+•  Windows 10 Enterprise 
+•  Windows 10 Education 
+•  Windows Embedded 10 Industry 
+•  Windows Embedded 10 IoT 
+•  Windows 8.1 Retail 
+•  Windows 8.1 Pro 
+•  Windows 8.1 Enterprise 
+•  Windows Embedded 8.1 Industry 
+•  Windows Embedded 8.1 Standard 
+•  Some Linux* operating systems may be supported. Check with the specific Linux distribution 
+to make sure that support is available for this platform. 
+Installation of any of the above operating systems will require a wired USB mouse and keyboard 
+along with a USB flash drive or USB optical drive.  The USB flash drive or USB optical drive will 
+need the operating system installation media. 
+ 
+To find information about…   Visit this World Wide Web site: 
+Intel Compute Stick drivers  http://downloadcenter.intel.com 
+1.4  Processor 
+The Intel Compute Stick has a soldered-down System-on-a-Chip (SoC), which consists of an Intel 
+Core m5 processor (M5-6Y57) on the STK2MV64CC and an Intel Core m3 processor (M3-6Y30) on 
+the STK2M3W64CC and the STK2M364CC.  
+•  Integrated Intel® HD Graphics 515 
+•  Integrated memory controller 
+•  Integrated PCH
+
+--- Page 11 ---
+Product Description 
+11 
+1.5  System Memory 
+The Intel Compute Stick has soldered-down memory and supports the following memory 
+features: 
+•  LPDDR3 1866 MHz 
+•  Dual-channel memory 
+•  2 GB memory per channel (4 GB total memory).   
+•  Refer to Section 2.1.1 on page 21 for information on the total amount of addressable memory. 
+1.6  System Storage 
+The Intel Compute stick has soldered-down storage using an Embedded MultiMediaCard (eMMC) 
+component.  All Compute Sticks have 64 GB of total storage. 
+ 
+NOTE 
+STK2M3W64CC uses a portion of this total storage for the operating system. 
+1.7  Processor Graphics Subsystem 
+The Intel Compute Stick supports graphics through Intel HD Graphics. 
+1.7.1  Integrated Graphics 
+The Intel Compute Stick supports integrated graphics via the processor. 
+1.7.1.1  Intel
+®
+ High Definition (Intel
+®
+ HD) Graphics 
+The Intel HD graphics controller features the following: 
+•  HDMI 1.4b 
+•  3D graphics hardware acceleration supporting DirectX*12, OpenCL 2.0, OGL ES Halti/2.0/1.1, 
+OpenGL 4.3/4.4 
+•  Video decode hardware acceleration supporting H.264, H.265, JPEG, MJPEG, MPEG2, MVC, 
+VC-1, VP8 and VP9 formats 
+•  Video encode hardware acceleration supporting H.264, H.265, JPEG, MJPEG, MPEG2, VC-1, 
+VP8, VP9 and MVC formats 
+•  High-Bandwidth Digital Content Protection (HDCP) 1.4 support for content protection 
+1.7.1.2  Video Memory Allocation 
+Intel
+®
+ Dynamic Video Memory Technology (DVMT) is a method for dynamically allocating system 
+memory for use as graphics memory to balance 2D/3D graphics and system performance. If your 
+computer is configured to use DVMT, graphics memory is allocated based on system 
+requirements and application demands (up to the configured maximum amount). When memory 
+is no longer needed by an application, the dynamically allocated portion of memory is returned to 
+the operating system for other uses.
+
+--- Page 12 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+12
+ 
+1.7.1.3  High Definition Multimedia Interface* (HDMI*) 
+The HDMI port supports standard, enhanced, or high definition video, plus multi-channel digital 
+audio on a single cable.  The port is compatible with all ATSC and DVB HDTV standards and 
+supports eight full range channels at 24-bit/96 kHz audio of lossless audio formats. The maximum 
+supported resolution is 4096 x 2160 @ 24 Hz, 24 bpp.  2560 x 1600 @ 60Hz is also supported.  
+The HDMI port is compliant with the HDMI 1.4b specification.  
+1.7.1.3.1  Integrated Audio Provided by the HDMI Interfaces 
+The following audio technologies are supported by the HDMI 1.4b interfaces directly from the 
+SoC: 
+•  AC3 - Dolby* Digital 
+•  Dolby Digital Plus 
+•  LPCM, 192 kHz/24-bit, 8 Channel 
+1.8  USB 
+The Compute Stick has one full size USB 3.0 port with maximum current of 900 mA.  The USB port 
+is super-speed, high-speed, full-speed, and low-speed capable. 
+ 
+NOTE 
+Computer systems that have an unshielded cable attached to a USB port may not meet FCC 
+Class B requirements, even if no device is attached to the cable.  Use a shielded cable that meets 
+the requirements for full-speed devices.
+
+--- Page 13 ---
+Product Description 
+13 
+1.9  Wireless LAN Subsystem 
+The wireless LAN subsystem consists of the following: 
+•  Intel® Dual Band Wireless-AC 8260 module 
+•  1216 BGA soldered-down 
+ 
+For information about   Refer to 
+LAN software and drivers  http://downloadcenter.intel.com 
+ 
+1.9.1  Wireless Network Module 
+The Dual Band Wireless-AC 8260 module provides hi-speed wireless connectivity with the 
+following capabilities: 
+•  802.11a/b/g/n, 802.11ac 
+•  2.4 GHz, 5.0 GHz 
+•  Two antennas 
+•  Dual Mode Bluetooth 4.2 
+•  Supports Intel® Wireless Display (WiDi) 
+•  Support for AMT 11.0 on STK2MV64CC 
+ 
+For information about  
+Refer to 
+Obtaining WLAN software and drivers  http://downloadcenter.intel.com 
+Full Specifications  http://intel.com/wireless 
+1.10  Hardware Management Subsystem 
+The hardware management features enable the Compute Stick to be compatible with the Wired 
+for Management (WfM) specification.  The Compute Stick has several hardware management 
+features, including thermal and voltage monitoring. 
+ 
+ 
+For information about 
+Refer to 
+Wired for Management (WfM) Specification  www.intel.com/design/archives/wfm/
+
+--- Page 14 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+14
+ 
+1.11  Power Management 
+Power management is implemented at several levels, including: 
+•  Software support through Advanced Configuration and Power Interface (ACPI) 
+•  Hardware support: 
+  Power Input 
+  Instantly Available PC technology 
+  Wireless LAN wake capabilities 
+  Wake from USB  
+  Wake from S5 
+1.11.1  ACPI 
+ACPI gives the operating system direct control over the power management and Plug and Play 
+functions of a computer.  The use of ACPI with this Compute Stick requires an operating system 
+that provides full ACPI support.  ACPI features include: 
+•  Plug and Play (including bus and device enumeration) 
+•  Power management control of individual devices 
+•  A Soft-off feature that enables the operating system to power-off the computer 
+•  Support for multiple wake-up events (see Table 5 on page 16) 
+Table 3 lists the system states based on how long the power switch is pressed, depending on how 
+ACPI is configured with an ACPI-aware operating system. 
+Table 3.  Effects of Pressing the Power Switch 
+If the system is in this state…  …and the power switch is pressed for  …the system enters this state  
+Off 
+(ACPI G2/G5 – Soft off) 
+Less than four seconds  Power-on 
+(ACPI G0 – working state) 
+On 
+(ACPI G0 – working state) 
+Less than four seconds  Soft-off/Standby 
+(ACPI G1 – sleeping state) 
+Note
+ 
+On 
+(ACPI G0 – working state) 
+More than six seconds  Fail safe power-off 
+(ACPI G2/G5 – Soft off) 
+Sleep 
+(ACPI G1 – sleeping state) 
+Less than four seconds  Wake-up 
+(ACPI G0 – working state) 
+Sleep  
+(ACPI G1 – sleeping state) 
+More than six seconds  Power-off 
+(ACPI G2/G5 – Soft off) 
+Note:  Depending on power management settings in the operating system.
+
+--- Page 15 ---
+Product Description 
+15 
+1.11.1.1  System States and Power States 
+Under ACPI, the operating system directs all system and device power state transitions.  The 
+operating system puts devices in and out of low-power states based on user preferences and 
+knowledge of how devices are being used by applications.  Devices that are not being used can be 
+turned off.  The operating system uses information from applications and user settings to put the 
+system as a whole into a low-power state. 
+Table 4 lists the power states supported by the Compute Stick along with the associated system 
+power targets.  See the ACPI specification for a complete description of the various system and 
+power states. 
+Table 4.  Power States and Targeted System Power 
+ 
+Global States 
+ 
+Sleeping States 
+ 
+Processor States 
+ 
+Device States 
+Targeted System  
+Power 
+(Note 1)
+ 
+G0 – working 
+state 
+S0 – working  C0 – working  D0 – working state.  Full power  
+G1 – sleeping 
+state 
+S3 – Suspend to RAM.  
+Context saved to 
+RAM. 
+No power  D3 – no power 
+except for wake-up 
+logic. 
+Power < 5 W  
+(Note 2)
+ 
+G1 – sleeping 
+state 
+S4 – Suspend to disk.  
+Context saved to disk. 
+No power  D3 – no power 
+except for wake-up 
+logic. 
+Power < 5 W  
+(Note 2)
+ 
+G2/S5  S5 – Soft off.  Context 
+not saved.  Cold boot 
+is required. 
+No power  D3 – no power 
+except for wake-up 
+logic. 
+Power < 5 W  
+(Note 2)
+ 
+G3 – mechanical 
+off 
+AC power is 
+disconnected 
+from the 
+computer. 
+No power to the 
+system. 
+No power  D3 – no power for 
+wake-up logic. 
+No power to the system.  
+Service can be performed 
+safely. 
+Notes: 
+1.  Total system power is dependent on the system configuration and peripherals powered by the system power supply. 
+2.  Dependent on the standby power consumption of wake-up devices used in the system.
+
+--- Page 16 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+16
+ 
+1.11.1.2  Wake-up Devices and Events 
+Table 5 lists the devices or specific events that can wake the Compute Stick from specific states. 
+Table 5.  Wake-up Devices and Events 
+Devices/events that wake up the system…  …from this sleep state  Comments 
+Power switch  S3, S4, S5    
+RTC alarm  S3, S4, S5 
+(Note 1)
+  Monitor to remain in sleep state 
+Wireless LAN (only on STK2MV64CC)  S3, S4, S5 
+(Notes 1, 2)
+  “S5 WOL after G3” supported; monitor to 
+remain in sleep state 
+USB  S3, S4, S5 
+(Note 3, 4)
+  Wake S4, S5 controlled by BIOS option 
+Bluetooth  S3   
+Notes: 
+1.  Monitor will remain in “sleep” state 
+2.  “S5 WoL after G3” only supported w/Deep Sleep disabled  
+3.  Wake from S4 and S5 only supported w/Deep Sleep disabled 
+4.  Wake from device/event not supported immediately upon return from AC loss 
+ 
+NOTE 
+The use of these wake-up events from an ACPI state requires an operating system that provides 
+full ACPI support.  In addition, software, drivers, and peripherals must fully support ACPI wake 
+events. 
+1.11.2  Hardware Support 
+Power management hardware features include: 
+•  Wake from Power Button signal 
+•  Instantly Available PC technology 
+•  Wireless LAN wake capabilities 
+•  Wake from USB 
+•  Wake from S5 
+ 
+NOTE 
+The use of Wake from USB from an ACPI state requires an operating system that provides full ACPI 
+support.
+
+--- Page 17 ---
+Product Description 
+17 
+1.11.2.1  Power Input 
+When resuming from an AC power failure, the Compute Stick may return to the power state it was 
+in before power was interrupted (on or off).  The Compute Stick’s response can be set using the 
+Last Power State feature in the BIOS Setup program’s Boot menu.   
+1.11.2.2  Instantly Available PC Technology 
+Instantly Available PC technology enables the Compute Stick to enter the ACPI S3 (Suspend-to-
+RAM) sleep-state.  While in the S3 sleep-state, the computer will appear to be off (the power 
+supply is off, and the front panel off).  When signaled by a wake-up device or event, the system 
+quickly returns to its last known wake state.  Table 5 on page 16 lists the devices and events that 
+can wake the Compute Stick from the S3 state. 
+The use of Instantly Available PC technology requires operating system. 
+1.11.2.3  Wireless LAN Wake Capabilities 
+Wireless LAN wake capabilities enable remote wake-up of the Compute Stick through a network.  
+The Wireless LAN subsystem monitors network traffic at the Media Independent Interface.  Upon 
+detecting a Magic Packet* frame, the Wireless LAN subsystem asserts a wake-up signal that 
+powers up the Compute Stick.  Only available on STK2MV64CC. 
+1.11.2.4  Wake from USB 
+USB bus activity wakes the Compute Stick from an ACPI S3, S4, and S5 states. 
+ 
+NOTE 
+Wake from USB requires the use of a USB peripheral that supports Wake from USB. 
+ 
+ 
+1.11.2.5  Wake from S5 
+When the RTC Date and Time is set in the BIOS, the Compute Stick will automatically wake from 
+an ACPI S5 state.
+
+--- Page 18 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+18
+ 
+1.12  Intel® Security and Manageability Technologies 
+Intel® Security and Manageability Technologies provides tools and resources to help small 
+business owners and IT organizations protect and manage their assets in a business or 
+institutional environment. 
+ 
+NOTE 
+Software with security and/or manageability capability is required to take advantage of Intel 
+platform security and/or management technologies. 
+1.12.1  Intel® vPro™ Technology 
+Only available on the STK2MV64CC.  Intel® vPro™ Technology is a collection of platform 
+capabilities that support enhanced manageability, security, virtualization and power efficiency.  
+The key platform capabilities include: 
+•  Intel® Active Management Technology (Intel® AMT) 11.0 
+•  Intel® Virtualization (Intel® VT)  
+•  Intel® Virtualization for Directed I/O (Intel® VT-d) 
+•  Intel® Trusted Execution Technology (Intel® TXT) 
+•  Intel® Identity Protection Technology (Intel® IPT) 
+•  Trusted Platform Module 2.0 (TPM) 
+ 
+For information about   Refer to 
+Intel vPro Technology  http://support.intel.com/support/vpro/  
+1.12.1.1  Intel® Active Management Technology 11.0 
+Only available on the STK2MV64CC.  When used with third-party management and security 
+applications, Intel Active Management Technology (Intel AMT) allows business owners and IT 
+organizations to better discover, heal, and protect their networked computing assets. 
+Some of the features of Intel AMT include: 
+•  Out-of-band (OOB) system access, to discover assets even while PCs are powered off 
+•  Remote trouble-shooting and recovery, which allows remote diagnosis and recovery of 
+systems after OS failures 
+•  Hardware-based agent presence checking that automatically detects and alerts when critical 
+software agents have been stopped or are missing  
+•  Proactive network defense, which uses filters to block incoming threats while isolating 
+infected clients before they impact the network  
+•  Remote hardware and software asset tracking, helping to track computer assets and keep 
+virus protection up-to-date 
+•  Keyboard, video and mouse (KVM) remote control, which allows redirection of a managed 
+system’s video to a remote console which can then interact with it using the console’s own 
+mouse and keyboard
+
+--- Page 19 ---
+Product Description 
+19 
+ 
+NOTE 
+Intel AMT requires the Compute Stick to have network hardware and software, as well as 
+connection with a power source, a corporate network connection, and an Intel AMT-enabled 
+remote management console. Setup requires additional configuration of the platform. 
+ 
+For information about   Refer to 
+Intel Active Management Technology  http://www.intel.com/technology/platform-technology/intel-
+amt/index.htm  
+1.12.1.2  Intel® Virtualization Technology 
+Intel Virtualization Technology (Intel VT) is a hardware-assisted technology that, when 
+combined with software-based virtualization solutions, provides maximum system utilization by 
+consolidating multiple environments into a single server or client. 
+ 
+NOTE 
+A processor with Intel VT does not guarantee that virtualization will work on your Compute Stick. 
+Intel VT requires enabling software and/or operating system, device drivers, and applications 
+designed for this feature. 
+ 
+For information about  
+Refer to 
+Intel Virtualization Technology  http://www.intel.com/technology/virtualization/technology.htm 
+1.12.1.3  Intel® Virtualization Technology for Directed I/O 
+Only available on the STK2MV64CC.  Intel Virtualization Technology for Directed I/O (Intel VT-d) 
+allows addresses in incoming I/O device memory transactions to be remapped to different host 
+addresses.  This provides Virtual Machine Monitor (VMM) software with: 
+•  Improved reliability and security through device isolation using hardware assisted remapping. 
+•  Improved I/O performance and availability by direct assignment of devices. 
+ 
+For information about   Refer to 
+Intel Virtualization Technology for Directed I/O  https://software.intel.com/en-
+us/node/139035?wapkw=vt+directed+io 
+1.12.1.4  Intel® Trusted Execution Technology 
+Only available on the STK2MV64CC.  Intel Trusted Execution Technology (Intel TXT) is a 
+hardware security solution that protects systems against software-based attacks by validating 
+the behavior of key components at startup against a known good source.  It requires that 
+Intel VT be enabled and the presence of a TPM. 
+ 
+For information about  
+Refer to 
+Intel Trusted Execution Technology  http://www.intel.com/content/www/us/en/architecture-and-
+technology/trusted-execution-technology/malware-reduction-
+general-technology.html
+
+--- Page 20 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+20
+ 
+1.12.1.5  Intel® Identity Protection Technology 
+Intel Identity Protection Technology (Intel IPT) provides a simple way for websites and 
+enterprises to validate that a user is logging in from a trusted computer.  This is accomplished 
+by using the Intel Manageability Engine embedded in the chipset to generate a six-digit number 
+that, when coupled with a user name and password, will generate a One-Time Password (OTP) 
+when visiting Intel IPT-enabled websites.  Intel IPT eliminates the need for the additional token 
+or key fob required previously for two-factor authentication. 
+ 
+For information about   Refer to 
+Intel Identity Protection Technology  http://ipt.intel.com  
+1.12.1.6  Trusted Platform Module (TPM) 
+Only available on the STK2MV64CC and the STK2M364CC.  The TPM version 2.0 component is 
+specifically designed to enhance platform security above-and-beyond the capabilities of today’s 
+software by providing a protected space for key operations and other security critical tasks.  Using 
+both hardware and software, the TPM protects encryption and signature keys at their most 
+vulnerable stages—operations when the keys are being used unencrypted in plain-text form.  The 
+TPM shields unencrypted keys and platform authentication information from software-based 
+attacks. 
+ 
+NOTE 
+Support for TPM version 2.0 requires a UEFI-enabled operating system. 
+ 
+ 
+For information about   Refer to 
+Nuvoton NPCT650AAAYx  www.nuvoton.com
+
+--- Page 21 ---
+21 
+2  Technical Reference 
+2.1  Memory Resources 
+2.1.1  Addressable Memory 
+The Intel Compute Stick utilizes up to 4 GB of addressable system memory.  Typically the address 
+space that is allocated for PCI Conventional bus add-in cards, PCI Express configuration space, 
+BIOS (SPI Flash device), and chipset overhead resides above the top of DRAM (total system 
+memory).  On a system that has 8 GB of system memory installed, it is not possible to use all of 
+the installed memory due to system address space being allocated for other system critical 
+functions.  These functions include the following: 
+•  BIOS/SPI Flash device 
+  64 Mb on STK2M3W64CC and STK2M364CC 
+  128 Mb on STK2MV64CC 
+•  Local APIC (19 MB) 
+•  Direct Media Interface (40 MB) 
+•  PCI Express configuration space (256 MB) 
+•  SoC base address registers PCI Express ports (up to 256 MB) 
+•  Integrated graphics shared memory (up to 512 MB; 64 MB by default) 
+The Intel Compute Stick provides the capability to reclaim the physical memory overlapped by the 
+memory mapped I/O logical address space.  Physical memory is remapped from the top of usable 
+DRAM boundary to the 4 GB boundary to an equivalent sized logical address range located just 
+above the 4 GB boundary.  All installed system memory can be used when there is no overlap of 
+system addresses.
+
+--- Page 22 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+22
+ 
+2.2  Connectors 
+This section describes the connectors available on the Intel Compute Stick. 
+2.2.1  USB 3.0 Connector 
+The Intel Compute Stick has a single full size USB 3.0 connector that supports compliant USB 
+devices.  Bootable USB devices are supported. 
+ 
+Figure 4.  USB 3.0 Connector 
+ 
+NOTE 
+It is recommended to only use a powered USB Hub with the Compute Stick’s USB port. 
+ 
+2.2.2  Micro SD Card Reader 
+The Intel Compute Stick has a microSecure Digital (SD) card reader that supports the Secure 
+Digital eXtended Capacity (SDXC) format.  Micro SD card 8 GB, 16 GB, 32 GB, 64 GB and 128 GB 
+sizes are supported. 
+ 
+Figure 5.  Micro SD Card Reader
+
+--- Page 23 ---
+Technical Reference 
+23 
+2.2.3  Power Adapter Connector 
+The Intel Compute Stick is powered through a USB 5V DC connector on the side.  The maximum 
+current rating is 4A. 
+ 
+Figure 6.  Power Adapter Connector 
+2.2.4  Power Adapter and USB Hub 
+The Intel Compute Stick uses a 5V 4A AC to DC power adapter with a built in 2-port USB 3.0 Hub.  
+The power adapter is connected to the Intel Compute Stick via a six foot USB Type C cable.  
+Each USB 3.0 port supports compliant USB devices.  Bootable USB devices are supported.  Each 
+USB 3.0 port supports a maximum current of 900 mA.  The USB 3.0 port is super-speed, high-
+speed, full-speed, and low-speed capable. 
+ 
+Item  Description 
+A  5 V DC Connector 
+B  USB 3.0 connectors 
+Figure 7.  Power Adapter and USB Hub
+
+--- Page 24 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+24
+ 
+ 
+NOTE 
+It is recommended to only use a powered USB Hub with the power adapter’s USB ports. 
+ 
+NOTE 
+The supplied power adapter and cable is required to power the Intel Compute Stick.  Powering the 
+Intel Compute Stick using any other power source is not supported. 
+2.2.5  Security Loop 
+The Intel Compute Stick has a 3mm x 3mm opening in the chassis to allow for securing the 
+Compute Stick.   
+ 
+Figure 8.  Security Loop Opening
+
+--- Page 25 ---
+Technical Reference 
+25 
+Use of a wire rope type cable that is >3mm can be used with crimps to secure the Compute Stick.  
+One example is shown below.  However, many different options are available via 3
+rd
+ party 
+suppliers. 
+ 
+Figure 9.  Security Loop Cable Example
+
+--- Page 26 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+26
+ 
+2.3  Mechanical Considerations 
+2.3.1  Form Factor 
+Figure 10 illustrates the mechanical form factor for the Intel Compute Stick.  Dimensions are given 
+in millimeters.   
+ 
+Figure 10.  Intel Compute Stick Dimensions 
+Table 6.  Intel Compute Stick Weight Information 
+Item  Weight 
+Compute Stick only  60.2g 
+Compute Stick in package 
+425.4g 
+2.4  Reliability 
+The Mean Time Between Failures (MTBF) prediction is calculated using component and 
+subassembly random failure rates.  The MTBF prediction is used to estimate repair rates and spare 
+parts requirements.  The MTBF for the Compute Stick is driven by the fan Mean Time to Failure 
+(MTTF) of 46,855 hours.
+
+--- Page 27 ---
+Technical Reference 
+27 
+2.5  Environmental 
+Table 7 lists the environmental specifications for the Compute Stick. 
+Table 7.  Environmental Specifications 
+Parameter  Specification 
+Temperature   
+  Non-Operating  -40 
+°
+C to +60 
+°
+C 
+  Operating  0 
+°
+C to +35 
+°
+C 
+The operating temperature of the Compute Stick may be determined by measuring the air 
+temperature from the outside of the chassis while the system is in operation
+1
+.  
+Shock   
+  Unpackaged  80cm drop 
+  Packaged  Half sine 2 millisecond 
+  Product Weight (pounds)  Free Fall (inches)  Velocity Change (inches/s²) 
+  <20  36  167 
+  21-40  30  152 
+  41-80  24  136 
+  81-100  18  118 
+Vibration   
+  Unpackaged  5 Hz to 20 Hz:  0.01 g² Hz sloping up to 0.02 g² Hz 
+  20 Hz to 500 Hz:  0.02 g² Hz (flat) 
+  Packaged  5 Hz to 40 Hz:  0.015 g² Hz (flat) 
+  40 Hz to 500 Hz:  0.015 g² Hz sloping down to 0.00015 g² Hz 
+1  Before attempting to operate the Compute Stick, the overall temperature of the Compute Stick must be above the 
+minimum and below the maximum operating temperatures specified.  The operating and non-operating environment 
+must avoid condensing humidity.
+
+--- Page 28 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+28
+
+--- Page 29 ---
+29 
+3  Overview of BIOS Features 
+3.1  Introduction 
+The Compute Stick uses an Intel BIOS that is stored in the Serial Peripheral Interface Flash 
+Memory (SPI Flash) and can be updated using a disk-based program.  The SPI Flash contains the 
+BIOS Setup program, POST, the PCI auto-configuration utility, and Plug and Play support.  The 
+initial production BIOSs are identified as 
+CCSKLM30.86A or CCSKLM5V.86A. 
+The BIOS Setup program can be used to view and change the BIOS settings for the computer, and 
+to update the system BIOS.  The BIOS Setup program is accessed by pressing the <F2> key after 
+the Power-On Self-Test (POST) memory test begins and before the operating system boot begins.  
+3.2  BIOS Flash Memory Organization 
+The Serial Peripheral Interface Flash Memory (SPI Flash) includes a 128 Mb (16384 KB) flash 
+memory device for STK2MV64CC. A 64 Mb (8192 KB) flash memory device for STK2M3W64CC 
+and STK2M364CC. 
+3.3  System Management BIOS (SMBIOS) 
+SMBIOS is a Desktop Management Interface (DMI) compliant method for managing computers in a 
+managed network.   
+The main component of SMBIOS is the Management Information Format (MIF) database, which 
+contains information about the computing system and its components.  Using SMBIOS, a system 
+administrator can obtain the system types, capabilities, operational status, and installation dates 
+for system components.  The MIF database defines the data and provides the method for 
+accessing this information.  The BIOS enables applications such as third-party management 
+software to use SMBIOS.  The BIOS stores and reports the following SMBIOS information: 
+•  BIOS data, such as the BIOS revision level 
+•  Fixed-system data, such as peripherals, serial numbers, and asset tags 
+•  Resource data, such as memory size, cache size, and processor speed 
+•  Dynamic data, such as event detection and error logging 
+Non-Plug and Play operating systems require an additional interface for obtaining the SMBIOS 
+information.  The BIOS supports an SMBIOS table interface for such operating systems.  Using this 
+support, an SMBIOS service-level application running on a non-Plug and Play operating system 
+can obtain the SMBIOS information.  Additional information can be found in the BIOS under the 
+Additional Information header under the Main BIOS page.
+
+--- Page 30 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+30
+ 
+3.4  Legacy USB Support 
+Legacy USB support enables USB devices to be used even when the operating system’s USB 
+drivers are not yet available.  Legacy USB support is used to access the BIOS Setup program, and 
+to install an operating system that supports USB.  By default, Legacy USB support is set to 
+Enabled. 
+Legacy USB support operates as follows: 
+1.  When you apply power to the computer, legacy support is disabled. 
+2.  POST begins. 
+3.  Legacy USB support is enabled by the BIOS allowing you to use a USB keyboard to enter and 
+configure the BIOS Setup program and the maintenance menu. 
+4.  POST completes. 
+5.  The operating system loads.  While the operating system is loading, USB keyboards and mice 
+are recognized and may be used to configure the operating system.  (Keyboards and mice are 
+not recognized during this period if Legacy USB support was set to Disabled in the BIOS Setup 
+program.) 
+6.  After the operating system loads the USB drivers, all legacy and non-legacy USB devices are 
+recognized by the operating system, and Legacy USB support from the BIOS is no longer 
+used. 
+To install an operating system that supports USB, verify that Legacy USB support in the BIOS 
+Setup program is set to Enabled and follow the operating system’s installation instructions.   
+3.5  BIOS Updates 
+The BIOS can be updated using either of the following utilities, which are available on the Intel 
+World Wide Web site: 
+•  Intel Express BIOS Update Utility, which enables automated updating while in the Windows 
+environment.  Using this utility, the BIOS can be updated from a file on a hard disk, a USB 
+drive (a flash drive or a USB hard drive), or a CD-ROM, or from the file location on the Web. 
+•  Intel
+®
+ Flash Memory Update Utility, which requires booting from DOS.  Using this utility, the 
+BIOS can be updated from a file on a USB drive (a flash drive or a USB hard drive), or a USB 
+CD-ROM drive. 
+•  Intel
+ F7 switch during POST allows a user to select where the BIOS .bio file is located and 
+perform the update from that location/device.  
+All utilities verify that the updated BIOS matches the target system to prevent accidentally 
+installing an incompatible BIOS. 
+ 
+NOTE 
+Review the instructions distributed with the upgrade utility before attempting a BIOS update. 
+ 
+For information about   Refer to 
+BIOS update utilities  http://www.intel.com/support/motherboards/desktop/sb/CS-035442.htm
+
+--- Page 31 ---
+Overview of BIOS Features 
+31 
+3.5.1  Language Support 
+The BIOS Setup program and help messages are supported in US English.  Check the Intel web 
+site for support. 
+3.6  BIOS Recovery 
+It is unlikely that anything will interrupt a BIOS update; however, if an interruption occurs, the 
+BIOS could be damaged.  Table 8 lists the drives and media types that can and cannot be used for 
+BIOS recovery.  The BIOS recovery media does not need to be made bootable. 
+Table 8.  Acceptable Drives/Media Types for BIOS Recovery 
+Media Type
+ (Note)
+ 
+Can be used for BIOS recovery? 
+Hard disk drive (connected to USB)  Yes 
+CD/DVD drive (connected to USB)  Yes 
+USB flash drive  Yes 
+ 
+NOTE 
+Supported file systems for BIOS recovery: 
+•  NTFS (sparse, compressed, or encrypted files are not supported) 
+•  FAT32 
+•  FAT16 
+•  FAT12 
+•  ISO 9660 
+ 
+For information about   Refer to 
+BIOS recovery  http://www.intel.com/support/motherboards/desktop/sb/CS-035445.htm 
+3.7  Boot Options 
+In the BIOS Setup program, the user can choose to boot from local storage or a removable drive.  
+The default setting is for the local storage to be the first boot device. 
+3.7.1  Booting Without Attached Devices 
+For use in embedded applications, the BIOS has been designed so that after passing the POST, 
+the operating system loader is invoked even if the following devices are not present: 
+•  Video display 
+•  Keyboard 
+•  Mouse
+
+--- Page 32 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+32
+ 
+3.7.2  BIOS POST Hotkeys 
+The following hot keys are supported during boot. 
+[F2]  Enter BIOS Setup 
+[F7]  Update BIOS 
+[F8]  Activate Windows Recovery Mode 
+[F10]  Enter Boot Menu 
+3.7.3  Changing the Default Boot Device During POST 
+Pressing the <F10> key during POST causes a boot device menu to be displayed.  This menu 
+displays the list of available boot devices.  Table 9 lists the boot device menu options. 
+Table 9.  Boot Device Menu Options 
+Boot Device Menu Function Keys  Description 
+<
+↑
+> or <
+↓
+>  Selects a default boot device 
+<Enter>  Exits the menu, and boots from the selected device 
+<Esc>  Exits the menu and boots according to the boot priority defined 
+through BIOS setup 
+3.7.4  Power Button Menu 
+The Power Button Menu is accessible via the following sequence: 
+1.  System is in S4/S5 (not G3) 
+2.  User pushes the power button and holds it down for approximately 3 seconds 
+3.  Release immediately 
+4.  User releases the power button before the 4-second shutdown override 
+If this boot path is taken, the BIOS will use default settings, ignoring settings in VPD where 
+possible. 
+At the point where Setup Entry/Boot would be in the normal boot path, the BIOS will display the 
+following prompt and wait for a keystroke:  
+[ESC]  Normal Boot 
+[3]   Reset Intel® AMT/Standard Manageability to default factory settings 
+[4]   Clear Trusted Platform Module (Warning: Data encryption with the TPM will no longer be 
+accessible if the TPM is cleared) 
+[F2]  Intel BIOS 
+[F4]  BIOS Recovery 
+[F7]  Update BIOS 
+ [F10]  Enter Boot Menu
+
+--- Page 33 ---
+Overview of BIOS Features 
+33 
+3.8  BIOS Error Messages 
+Table 10 lists the error messages and provides a brief description of each. 
+Table 10.  BIOS Error Messages 
+Error Message  Explanation 
+CMOS Battery Low  The battery may be losing power.  Replace the battery soon. 
+CMOS Checksum Bad  The CMOS checksum is incorrect.  CMOS memory may have been 
+corrupted.  Run Setup to reset values. 
+No Boot Device Available  System did not find a device to boot.
+
+--- Page 34 ---
+Intel Compute Stick STK2M3W64CC, STK2MV64CC and STK2M364CC Technical Product Specification 
+34
+

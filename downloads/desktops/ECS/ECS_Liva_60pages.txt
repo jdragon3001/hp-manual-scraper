@@ -1,0 +1,1727 @@
+Brand: ECS
+Model: Liva
+URL: https://www.manua.ls/ecs/liva/manual
+Total Pages: 60
+============================================================
+
+--- Page 1 ---
+LIVA PC KIT USER MANUAL
+i
+Preface
+Copyright
+This publication, including all photographs, illustrations and
+software, is protected under international copyright laws, with all
+rights reserved. Neither this manual, nor any of the material
+contained herein, may be reproduced without written consent of
+the author.
+Version 1.0
+Disclaimer
+The information in this document is subject to change without
+notice. The manufacturer makes no representations or warranties
+with respect to the contents hereof and specifically disclaims any
+implied warranties of merchantability or fitness for any particular
+purpose. The manufacturer reserves the right to revise this
+publication and to make changes from time to time in the content
+hereof without obligation of the manufacturer to notify any person
+of such revision or changes.
+Trademark Recognition
+Microsoft, MS-DOS and Windows are registered trademarks of
+Microsoft Corp.
+MMX, Pentium, Pentium-II, Pentium-III, Celeron are registered
+trademarks of Intel Corporation.
+Other product names used in this manual are the properties of their
+respective owners and are acknowledged.
+
+--- Page 2 ---
+ii
+LIVA PC KIT USER MANUAL
+Federal Communications Commission (FCC)
+This equipment has been tested and found to comply with the
+limits for a Class B digital device, pursuant to Part 15 of the FCC
+Rules. These limits are designed to provide reasonable protection
+against harmful interference in a residential installation. This
+equipment generates, uses, and can radiate radio frequency energy
+and, if not installed and used in accordance with the instructions,
+may cause harmful interference to radio communications. However,
+there is no guarantee that interference will not occur in a particular
+installation. If this equipment does cause harmful interference to
+radio or television reception, which can be determined by turning
+the equipment off and on, the user is encouraged to try to correct
+the interference by one or more of the following measures:
+• Reorient or relocate the receiving antenna
+• Increase the separation between the equipment and the
+receiver
+• Connect the equipment onto an outlet on a circuit
+different from that to which the receiver is connected
+• Consult the dealer or an experienced radio/TV
+technician for help
+Shielded interconnect cables and a shielded AC power cable must
+be employed with this equipment to ensure compliance with the
+pertinent RF emission limits governing this device. Changes or
+modifications not expressly approved by the system’s manufacturer
+could void the user’s authority to operate the equipment.
+
+--- Page 3 ---
+LIVA PC KIT USER MANUAL
+iii
+Declaration of Conformity
+This device complies with part 15 of the FCC rules. Operation is
+subject to the following conditions:
+• This device may not cause harmful interference.
+• This device must accept any interference received,
+including interference that may cause undesired
+operation.
+Limits and methods of mesurement of radio
+disturbance characteristics of information
+technology equipment
+EN 55022
+EN 61000-3-2
+Disturbances in supply systems caused
+EN 61000-3-3
+Disturbances in supply systems caused by
+household appliances and similar electrical
+equipment “ Voltage fluctuations”
+EN 55024
+Information technology equipment-Immunity
+characteristics-Limits and methods of
+measurement
+EN 60950
+Safety for information technology equipment
+including electrical business equipment
+CE marking
+
+
+
+
+
+
+This device is in conformity with the following EC/EMC directives:
+
+--- Page 4 ---
+iv
+LIVA PC KIT USER MANUAL
+Canadian Department of Communications
+This class B digital apparatus meets all requirements of the
+Canadian Interference-causing Equipment Regulations.
+Cet appareil numérique de la classe B respecte toutes les exigences
+du Réglement sur le matériel brouilieur du Canada.
+The manual consists of the following:
+Describes features of the
+motherboard.
+
+page 1
+Describes installation of
+motherboard
+components.
+
+page 19
+Installing the Motherboard
+Introducing the Motherboard
+Provides information on
+using the BIOS Setup
+Utility.
+About the Manual
+Chapter 1
+Chapter 2
+Chapter 3
+Using BIOS
+
+page 9
+Describes the
+motherboard software.
+Chapter 4
+Using the Motherboard Software
+
+page 47
+
+--- Page 5 ---
+LIVA PC KIT USER MANUAL
+v
+TABLE OF CONTENTS
+Preface            i
+Chapter 2 9
+Installing the Motherboard                                          9
+Safety Precautions...........................................9
+Installing Hardware.......................................10
+Connecting Optional Devices.................13
+Connecting Case Components......................16
+Introducing the Motherboard 1
+Introduction....................................................1
+Pakage Contents..............................................2
+Specifications..................................................2
+Motherboard Components.............................6
+I/O Ports............................................................7
+Chapter 1 1
+
+--- Page 6 ---
+vi
+LIVA PC KIT USER MANUAL
+Chapter 3 19
+Using BIOS 19
+About the Setup Utility..................................19
+The Standard Configuration...................20
+Entering the Setup Utility........................20
+Resetting the Default CMOS Values......21
+Using BIOS.....................................................22
+BIOS Navigation Keys..............................23
+Main Menu............................................24
+Advanced Menu......................................25
+Chipset Menu..........................................35
+Tweak Menu...........................................38
+Security Menu........................................40
+Boot Menu.............................................42
+Exit Menu...............................................44
+Updating the BIOS..................................46
+Chapter 4 47
+Using the Motherboard Software           47
+Installing the Windows OS.............................47
+Installing the Ubuntu OS................................48
+Drivers auto-installing under Windows
+8.1..................................................................49
+Running Setup........................................50
+Manual Installation.......................................53
+
+--- Page 7 ---
+LIVA PC KIT USER MANUAL
+1
+Chapter 1
+Chapter 1
+Introducing the Motherboard
+Introduction
+Thank you for choosing LIVA PC KIT featuring BAT-MINI, the
+motherboard of  high performance, enhanced function. This
+motherboard has onboard Intel
+®
+ Bay Trail-M SoC for personal micro
+desktop markets or educational usage.
+This motherboard is based on Intel
+®
+ Bay Trail-M SoC. This latest
+Celeron processor is a multi-core system-on-a-chip (SoC) that inte-
+grates the next generation Intel
+®
+ processor core, graphics, memory,
+and I/O interfaces into one solution. One NGFF card slot is for WPAN/
+WLAN/Antenna usage (You need to install a key E type Wireless card
+into it). It implements one USB 3.0 port, one USB 2.0 port and one
+micro USB 2.0 port(DC_IN port) at rear panel.
+It supports DDR3L up to 2 GB
+ 
+single channel soldered down memory
+and a direct soldered down eMMC up to 32 GB/64 GB storage. It
+also can add additional storage from USB flash drive.
+The motherboard is equipped with a set of I/O ports at the rear
+panel, including one DC_IN port(micro USB2.0, 5V), one VGA port,
+one HDMI port, one RJ45 LAN connector, one USB 3.0 port, and one
+USB 2.0 port.
+ Warning: due to power limitation, it is suggested that USB
+HDD devices be used with additional power supply.
+
+--- Page 8 ---
+2
+LIVA PC KIT USER MANUAL
+Chapter 1
+CPU/Chipset
+• 2GB DDR3L
+- Single channel DDR3L soldered down
+memory
+Memory
+• 1 x NGFF card slot for Wireless Card(NGFF,
+Key E type, 16 x 30mm)
+• Support IEEE 802.11a/b/g/n and Bluetooth
+4.0
+• IC: Sandisk SDIN8DE4 - 32G/64G (SDIO)
+- Direct soldered down eMMC 32/64GB
+- Additional storage from USB flash drive
+Wireless
+Storage
+•Intel
+®
+ Bay Trail-M SoC
+• TDP 4.3W, SDP 2.5W
+Specifications
+ Accessories may vary, please refer to actual goods you
+purchase.
+Your motherboard package ships with the following items:
+Package Contents
+BAT-MINI Motherboard
+User Manual
+DVD
+Power Adapter
+Chassis
+Wireless Card
+Antenna
+
+
+
+
+
+
+
+
+--- Page 9 ---
+LIVA PC KIT USER MANUAL
+3
+Chapter 1
+• 1 x HDMI port
+• 1 x VGA port
+• 1 x DC_IN port(micro USB2.0, 5V only)
+• 1 x RJ45 LAN connector
+• 1 x USB 3.0 port
+• 1 x USB 2.0 port
+Rear Panel I/O
+LAN
+• Realtek RTL8111GS Gigabit LAN
+- 10/100/1000 Fast Ethernet Controller
+• Realtek ALC282
+- 2 Channel High Definition Audio Codec
+-  3.5 mm jack with stereo sound and mic
+(combo) supports for jack detection
+Audio
+• 1 x 2-pin battery connector
+• 1 x NGFF E-Key card slot
+• 1 x one stereo sound and mic combo jack
+• 1 x power button
+• 1 x System LED header
+• 1 x UART Debug header
+Internal I/O
+Connectors &
+Headers
+• AMI BIOS with 64Mb SPI Flash ROM
+• Support dual display(depends on display
+output)
+System BIOS
+Form Factor
+• 4 x 2.5 inch
+Power Adapter
+• 5V/ 3A/ 15W DC Adapter
+OS Support • Supports windows 8.1
+
+--- Page 10 ---
+4
+LIVA PC KIT USER MANUAL
+Chapter 1
+Motherboard Components
+BAT-MINI
+UART_DBG
+Bay Trail-M SoC
+Memory 1
+Memory 3
+eMMC
+AUIDO CODEC
+AUDIO_JACK
+SW
+SYS_LED
+HDMI
+DCIN
+LAN
+USB2
+USB3
+VGA
+1
+5
+7
+4
+3
+6
+2
+
+--- Page 11 ---
+LIVA PC KIT USER MANUAL
+5
+Chapter 1
+BAT
+NGFF
+Memory 2
+Memory 4     
+9
+8
+2
+
+--- Page 12 ---
+6
+LIVA PC KIT USER MANUAL
+Chapter 1
+Table of Motherboard Components
+    LABEL COMPONENTS
+1. CPU  Bay Trail-M SoC
+2. Memory 1~4 Single channel DDR3L soldered down memory 
+3. AUDIO_JACK 2 Channel stereo sound and mic combo jack
+4. UART_DBG UART debug header
+5. SYS_LED System power LED
+6. SW Power On/Off  button
+7. eMMC Direct soldered down 32/64GB eMMC 
+8. BAT Battery connector
+9. NGFF Wireless card slot
+
+--- Page 13 ---
+LIVA PC KIT USER MANUAL
+7
+Chapter 1
+1. 5V DC_IN Port (micro USB2.0, B type)
+Connect the DC_IN port to the power adapter.
+2. LAN Port
+Connect an RJ-45 jack to the LAN port to connect your computer
+to the Network.
+3. USB 2.0 Port
+Use the USB 2.0 port to connect USB 2.0 device.
+4. USB 3.0 Port
+Use the USB 3.0 port to connect USB 3.0 device.
+5. HDMI Port
+You can connect the display device to the HDMI port.
+6. VGA Port
+Connect your monitor to the VGA port.
+LAN  LED Status Description
+OFF No data
+Orange blinking Active
+OFF No link
+Green Link
+Activity LED
+Link LED
+I/O Ports
+Link LED
+LAN Port
+
+--- Page 14 ---
+8
+LIVA PC KIT USER MANUAL
+Chapter 1
+Memo
+
+--- Page 15 ---
+LIVA PC KIT USER MANUAL
+9
+Chapter 2
+Chapter 2
+Installing the Motherboard
+2-1. Safety Instructions
+Setting up your system
+Your system is designed and tested to meet the latest standards of
+safety for information technology equipment. However, to ensure
+your safety, it is important that you read the following safety in-
+structions.
+• Read and follow all instructions in the documentation
+before you operate your system.
+• Do not use this product near water or a heated source
+such as a radiator.
+• Set up the system on a stable surface.
+• Openings on the chassis are for ventilation. Do not block
+or cover these openings. Make sure you leave plenty of
+space around the system for ventilation. Never insert
+objects of any kind into the ventilation openings.
+• Use this product in environments with ambient tempera-
+tures between  0°C and 40°C.
+• If you use an extension cord, make sure that the total
+ampere rating of the devices plugged into the extension
+cord does not exceed its ampere rating.
+
+--- Page 16 ---
+10
+LIVA PC KIT USER MANUAL
+Chapter 2
+Attention during use
+• Do not step on the power cord or let anything rest on
+top of it.
+• Do not spill water or any other liquid on your system.
+• When the system is turned OFF, a small amount of elec-
+trical current still flows. Always unplug all power, modem,
+and network cables from the power outlets before clean-
+ing the system.
+• If you encounter the following technical problems with
+the product, unplug the power cord and contact a quali-
+fied service technician or your retailer.
+• The power cord or plug is damaged.
+• Liquid has been spilled into the system.
+• The system does not function properly even if you
+follow the  operating instructions.
+• The system was dropped or the cabinet is damaged.
+• The system performance changes
+Safety cautions and warnings
+Optical drive sold with this system contains a CLASS 1 LASER PROD-
+UCT.
+Optical Drive Safety Information
+CAUTION:
+Invisible laser radiation when open. Do not stare into beam
+or view directly with optical instructions.
+
+--- Page 17 ---
+LIVA PC KIT USER MANUAL
+11
+Chapter 2
+WARNING:
+Makeing adjustments or performing procedures other than
+those specified in the user’s manual may result in hazardous
+laser exposuer. Do not attempt to disassemble the optical
+drive. For your safety, have the optical drive serviced only by
+an authorized service provider.
+Product disposal notice
+INPORTANT:
+This symbol if the crossed out wheeled bin indicates that the
+product (electrical and electronic equipment) should not be
+placed in municipal waste. Check local regulations for dis-
+posal of electronic products.
+Nordic Lithium Cautions (for lithium-ion batteries)
+CAUTION:
+Danger of explosoin if battery is incorrectly replace only with
+the same or equivalent type recommended by the manufac-
+turer. Dispose of used batteries according to the
+manufacturer’s instructions.
+
+--- Page 18 ---
+12
+LIVA PC KIT USER MANUAL
+Chapter 2
+Product disposal notice
+1. Do not place this product underneath heavy loads or in an
+unstable position.
+2. Do not use or expose this product around magnetic fields
+as magnetic interference may affect the performance of the
+product.
+3. Do not expose this product to high levels of direct sun-
+light,  high-humidity or wet conditions.
+4. Do not block the air vents to this product or impede the
+airflow in any way.
+
+--- Page 19 ---
+LIVA PC KIT USER MANUAL
+13
+Chapter 2
+2-2. Connecting Optional Devices
+Refer to the following for information on connecting the
+motherboard’s optional devices:
+No. Components
+1AUDIO_JACK
+2UART_DBG
+BAT-MINI
+UART_DBG
+Bay Trail-M SoC
+Memory 1
+Memory 3
+eMMC
+AUIDO CODEC
+AUDIO_JACK
+SW
+SYS_LED
+HDMI
+DCIN
+LAN
+USB2
+USB3
+VGA
+2
+1
+
+--- Page 20 ---
+14
+LIVA PC KIT USER MANUAL
+Chapter 2
+1. AUDIO_JACK: Stereo sound and mic combo jack
+This 3.5 mm audio jack is a stereo sound and microphone combo
+jack. It supports  jack detection.
+2. UART_DBG: UART debug header
+The UART debug header is for factory debug and test use only.
+BAT-MINI
+UART_DBG
+Bay Trail-M SoC
+Memory 1
+Memory 3
+eMMC
+AUIDO CODEC
+AUDIO_JACK
+SW
+SYS_LED
+HDMI
+DCIN
+LAN
+USB2
+USB3
+VGA
+AUDIO_JAC
+K
+
+--- Page 21 ---
+LIVA PC KIT USER MANUAL
+15
+Chapter 2
+BAT-MINI
+UART_DBG
+Bay Trail-M SoC
+Memory 1
+Memory 3
+eMMC
+AUIDO CODEC
+AUDIO_JACK
+SW
+SYS_LED
+HDMI
+DCIN
+LAN
+USB2
+USB3
+VGA
+UART_DBG
+PIN 1
+Ground
++3VSB
+RXD
+TXD
+
+--- Page 22 ---
+16
+LIVA PC KIT USER MANUAL
+Chapter 2
+After you have installed the motherboard into a case, you can begin
+connecting the motherboard components. Refer to the following:
+2-3 Connecting Case Components
+No. Components
+1SYS_LED
+2SW
+3BAT
+BAT
+NGFF
+BAT-MINI
+UART_DBG
+Bay Trail-M SoC
+Memory 1
+Memory 2
+Memory 4     
+Memory 3
+eMMC
+AUIDO CODEC
+AUDIO_JACK
+SW
+SYS_LED
+HDMI
+DCIN
+LAN
+USB2
+USB3
+VGA
+1
+3
+2
+
+--- Page 23 ---
+LIVA PC KIT USER MANUAL
+17
+Chapter 2
+Status Description
+OFF Power off
+Green Power on
+System  LED
+1. SYS_LED: System LED
+The system led shows the system power status.
+BAT-MINI
+UART_DBG
+Bay Trail-M SoC
+Memory 1
+Memory 3
+eMMC
+AUIDO CODEC
+AUDIO_JACK
+SW
+SYS_LED
+HDMI
+DCIN
+LAN
+USB2
+USB3
+VGA
+SYS_LED
+
+--- Page 24 ---
+18
+LIVA PC KIT USER MANUAL
+Chapter 2
+2. SW: Power on/off button
+3. BAT: Battery connector
+BAT
+NGFF
+Memory 2
+Memory 4     
+BAT
+PIN 1
+Power
+Ground
+BAT-MINI
+UART_DBG
+Bay Trail-M SoC
+Memory 1
+Memory 3
+eMMC
+AUIDO CODEC
+AUDIO_JACK
+SW
+SYS_LED
+HDMI
+DCIN
+LAN
+USB2
+USB3
+VGA
+SW
+
+--- Page 25 ---
+LIVA PC KIT USER MANUAL
+19
+Chapter 3
+Chapter 3
+Using BIOS
+About the Setup Utility
+The computer uses the latest “American Megatrends Inc. ” BIOS
+with support for Windows Plug and Play. The CMOS chip on the
+motherboard contains the ROM setup instructions for configuring
+the motherboard BIOS.
+The BIOS (Basic Input and Output System) Setup Utility displays the
+system’s configuration status and provides you with options to set
+system parameters. The parameters are stored in battery-backed-
+up CMOS RAM that saves this information when the power is turned
+off. When the system is turned back on, the system is configured
+with the values you stored in CMOS.
+The BIOS Setup Utility enables you to configure:
+The settings made in the Setup Utility affect how the computer
+performs. Before using the Setup Utility, ensure that you understand
+the Setup Utility options.
+This chapter provides explanations for Setup Utility options.
+• Hard drives, diskette drives and peripherals
+• Video display type and display options
+• Password protection from unauthorized use
+• Power Management features
+
+--- Page 26 ---
+20
+LIVA PC KIT USER MANUAL
+Chapter 3
+The Standard Configuration
+A standard configuration has already been set in the Setup Utility.
+However, we recommend that you read this chapter in case you need
+to make any changes in the future.
+This Setup Utility should be used:
+• when changing the system configuration
+• when a configuration error is detected and you are
+prompted to make changes to the Setup Utility
+• when trying to resolve IRQ conflicts
+• when making changes to the Power Management
+configuration
+• when changing the password or making other changes
+to the Security Setup
+Press DEL to enter SETUP
+Entering the Setup Utility
+When you power on the system, BIOS enters the Power-On Self Test
+(POST) routines. POST is a series of built-in diagnostics performed
+by the BIOS. After the POST routines are completed, the following
+message appears:
+Press the delete key to access BIOS Setup Utility.
+
+--- Page 27 ---
+LIVA PC KIT USER MANUAL
+21
+Chapter 3
+Reseng the Default CMOS Values
+When powering on for the ﬁrst me, the POST screen may show a
+“CMOS Setngs Wrong” message. This standard message will appear
+following a  clear CMOS data  at factory by the  manufacturer. You
+simply need to Load Default Sengs and Save it to reset the default
+CMOS values.
+Note: Changes to system hardware such as diﬀerent CPU, memories,
+etc. may also trigger this message.
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+Choose the system
+default language.
+BIOS Information
+System Language [English]
+System Date [Tue 01/07/2014]
+System Time [17:38:08]
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+
+--- Page 28 ---
+22
+LIVA PC KIT USER MANUAL
+Chapter 3
+Using BIOS
+When you start the Setup Utility, the main menu appears. The main
+menu of the Setup Utility displays a list of the options that are
+available. A highlight indicates which option is currently selected.
+Use the cursor arrow keys to move the highlight to other options.
+When an option is highlighted, execute the option by pressing
+<Enter>.
+Some options lead to pop-up dialog boxes that prompt you to verify
+that you wish to execute that option. Other options lead to dialog
+boxes that prompt you for information.
+Some options (marked with a triangle 
+
+
+) lead to submenus that
+enable you to change the values for the option. Use the cursor
+arrow keys to scroll through the items in the submenu.
+The default BIOS setting for this motherboard apply for most
+conditions with optimum performance. We do not suggest
+users change the default values in the BIOS setup and take
+no responsibility to any damage caused by changing the
+BIOS settings.
+In this manual, default values are enclosed in parenthesis. Submenu
+items are denoted by a triangle
+ 
+
+
+.
+
+--- Page 29 ---
+LIVA PC KIT USER MANUAL
+23
+Chapter 3
+BIOS Navigation Keys
+The BIOS navigation keys are listed below:
+For the purpose of better product maintenance, the
+manufacture reserves the right to change the BIOS items
+presented in this manual. The BIOS setup screens shown in
+this chapter are for reference only and may differ from the
+actual BIOS. Please visit the manufacture’s website for
+updated manual.
+KEY FUNCTION
+ Scrolls through the items on a menu
+      +/-
+F2 Pr
+evious Value
+F3 Optimized Defaults
+F1 General Help
+ESC
+
+Enter Select
+F4 Save & Exit
+Exits the current menu
+Change Opt.
+
+--- Page 30 ---
+24
+LIVA PC KIT USER MANUAL
+Chapter 3
+Main Menu
+When you enter the BIOS Setup program, the main menu appears,
+giving you an overview of the basic system information. Select an
+item and press <Enter> to display the submenu.
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+Choose the system
+default language.
+BIOS Information
+System Language [English]
+System Date [Tue 01/07/2014]
+System Time [17:38:08]
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+System Date & Time
+The Date and Time items show the current date and time on the
+computer. If you are running a Windows OS, these items are
+automatically updated whenever you make changes to the Windows
+Date and Time Properties utility.
+System Language (English)
+This item is used to set system language.
+
+--- Page 31 ---
+LIVA PC KIT USER MANUAL
+25
+Chapter 3
+The Advanced menu items allow you to change the settings for
+the CPU and other system.
+Advanced Menu
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+LAN Configuration
+Parameters
+LAN Configuration
+Power Management Setup
+ACPI Settings
+CPU Configuration
+USB Configuration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+
+--- Page 32 ---
+26
+LIVA PC KIT USER MANUAL
+Chapter 3
+    LAN Configuration
+The item in the menu shows the LAN-related information that the
+BIOS automatically detects.
+
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+Enabled/Disabled
+Onboard LAN 1
+Controller
+LAN Configuration
+Onboard LAN Controller [Enabled]
+Onboard LAN Controller (Enabled)
+Use this item to enable or disable Onboard LAN 1 controller.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 33 ---
+LIVA PC KIT USER MANUAL
+27
+Chapter 3
+   Power Management Setup
+This page sets up some parameters for system power management
+operation.
+
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+Power Management Setup
+Resume By PME [Enabled]
+Resume By USB [Enabled]
+Resume By RTC Alarm [Disabled]
+EUP Function [Enabled]
+About Resume by
+PCI/PCI-E/LAN/
+Ext .USB3.0 PME
+Resume By PME (Enabled)
+This item specify whether the system will be awakened from power
+saving modes when activity or input signal of the specified
+hardware peripheral or components is detected.
+Resume By USB (Enabled)
+This item allows you to enable/disable the USB device wakeup
+function from S3 mode.
+Resume By RTC Alarm (Disabled)
+The system can be turned off with a software command. If you
+enable this item, the system can automatically resume at a fixed
+time based on the system’s RTC (realtime clock). Use the items
+below this one to set the date and time of the wakeup alarm. You
+must use an ATX power supply in order to use this feature.
+
+--- Page 34 ---
+28
+LIVA PC KIT USER MANUAL
+Chapter 3
+EUP Function (Enabled)
+This item allows user to enable or disable EUP support.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 35 ---
+LIVA PC KIT USER MANUAL
+29
+Chapter 3
+    ACPI Configuration
+The item in the menu shows the highest ACPI sleep state when
+the system enters suspend.
+
+ACPI Sleep State [S3(Suspend to RAM)]
+This item allows user to enter the ACPI S3 (Suspend to RAM) Sleep
+State (default).
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+Press <Esc> to return to the Advanced Menu page.
+ACPI Settings
+ACPI Sleep State [S3 (Suspend to RAM)]
+Select the highest
+ACPI sleep state the
+system will enter when
+the SUSPEND button
+is pressed.
+
+--- Page 36 ---
+30
+LIVA PC KIT USER MANUAL
+Chapter 3
+    CPU Configuration
+The item in the menu shows the CPU Configuration.
+
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+CPU Configuration
+Socket 0 CPU Information
+CPU Speed               1.60 GHz
+64-bit                Supported
+Limit CPUID Maximum                [Disabled]
+Execute Disable Bit                [Enabled]
+Hardware Prefetcher                [Enabled]
+Adjacent Cache Line Prefetch           [Enabled]
+Intel Virtualization Technology           [Enabled]
+Power Technology                [Energy Efficient]
+Enhanced Halt (ClE)                [Enabled]
+
+
+
+Socket sepcific CPU
+Information
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+
+--- Page 37 ---
+LIVA PC KIT USER MANUAL
+31
+Chapter 3
+    Socket 0 CPU Information
+Scroll to this item and press <Enter> and view the following screen:
+
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+Socket 0 CPU Information
+Intel(R) Celeron(R) CPU N2805 @ 1.46GHz
+CPU Signature 30673
+Microcode Patch 31e
+Max CPU Speed 1467 MHz
+Min CPU Speed 533 MHz
+Processor Cores 2
+Intel HT Technology Not Supported
+Intel VT-x Technology Supported
+L1 Data Cache 24 KB x 2
+L1 Code Cache 32 KB x 2
+L2 Cache 1024 KB x 1
+L3 Cache Not Present
+Intel(R) Celeron(R) CPU N2805 @ 1.46GHz
+This is display-only field and diaplays the information of the CPU
+installed in your computer.
+CPU Signature (30673)
+This item shows the information of the CPU signature.
+Microcode Patch (31e)
+This item shows the version of microcode patch.
+Max CPU Speed (1467 MHz)
+This item shows the max speed of the CPU.
+
+--- Page 38 ---
+32
+LIVA PC KIT USER MANUAL
+Chapter 3
+Min CPU Speed (533 MHz)
+This item shows the min speed of the CPU.
+Processor Cores (2)
+This item shows the number of cores of the processor.
+Intel HT Technology (Not Supported)
+This item shows the computer supports Intel HT technology or not.
+Intel VT-X Technology (Supported)
+This item shows the computer supports Intel VT-X technology or
+not.
+L1 Data Cache (24 KB x 2)
+This item shows the size of CPU L1 Data Cache memory.
+L1 Code Cache (32 KB x 2)
+This item shows the size of CPU L1 Code Cache memory.
+L2/L3 Cache (1024 KB x 1/Not Present)
+These items show the size of CPU L2/L3 Cache memory.
+Press <Esc> to return to the CPU Configuration page.
+CPU Speed (1.46 GHz)
+This item shows the processor speed.
+Limit CPUID Maximum
+ (Disabled)
+Use this item to enable or disable the maximum CPUID value limit,
+you can enable this item to prevent the system from “rebooting”
+when trying to install Windows NT 4.0.
+64-bit (Supported)
+This item shows the computer supports EMT64.
+
+--- Page 39 ---
+LIVA PC KIT USER MANUAL
+33
+Chapter 3
+Excute Disable Bit (Enabled)
+This item allows the processor to classify areas in memory by where
+application code can execute and where it cannot. When a
+malicious worm attempts to insert code in the buffer, the processor
+disables code execution, preventing damage or worm propagation.
+Replacing older computers with Execute Disable Bit enabled systems
+can halt worm attacks, reducing the need for virus related repair.
+Intel Virtualization Technology (Enabled)
+When disabled, a VMM cannot utilize the additional hardware
+capabilities provided by Vandor Pool Technology.
+Hardware Prefetcher  (Enabled)
+This item enables or disables hardware prefetcher.
+Adjacent Cache Line Prefetch  (Enabled)
+This item enables or disables adjacent cache line prefetch.
+Power Technology (Energy Efficient)
+Use this item to control the Energy mode of the processor.
+Enhanced Halt (ClE) (Enabled)
+Use this item to enable the CPU energy-saving function when the
+system is not running.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 40 ---
+34
+LIVA PC KIT USER MANUAL
+Chapter 3
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+    USB Configuration
+Use this item to show the information of USB configuration.
+
+USB Configuration
+All USB Device [Enabled]
+XHCI Mode [Enabled]
+USB Support
+Parameters
+All USB Device (Enabled)
+Use this item to enable or disable all USB devices.
+XHCI Mode (Enabled)
+Use this item to enable or disable USB XHCI mode.
+Press <Esc> to return to the Advanced Menu page.
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+
+--- Page 41 ---
+LIVA PC KIT USER MANUAL
+35
+Chapter 3
+The chipset menu items allow you to change the settings for the
+SoC chip and other system.
+Chipset Menu
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+SoC Configuration
+TXE Information
+
+
+SoC Parameters
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+
+--- Page 42 ---
+36
+LIVA PC KIT USER MANUAL
+Chapter 3
+Scroll to this item and press <Enter> and view the following screen:
+     SoC Configuration
+
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+SoC Configuration
+DVMT Pre-Allocated [64M]
+DVMT Total Gfx Mem [256MB]
+Restore AC Power Loss [Power Off]
+Audio Configuration
+Azalia HD Audio [Enabled]
+Azalia Internal HDMI Codec [Enabled]
+Select DVMT 5.0
+Pre-Allocated (Fixed)
+Graphics Memory
+size used by the
+Internal Graphics
+Device.
+DVMT Pre-Allocated (64M)
+This item is used to select DVMT 5.0 Pr-Allocated (Fixed) Graphics
+Memory size used by the Internal Graphics Device.
+DVMT Total Gfx Mem (256MB)
+This item shows the imformation of DVMT 5.0 and Graphic memory
+size used by the Internal Graphics Device.
+Restore AC Power Loss (Power Off)
+This item enables your computer to automatically restart or return
+to its operating status.
+Azalia HD Audio (Enabled)
+This item enables or disables Azalia HD Audio.
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+
+--- Page 43 ---
+LIVA PC KIT USER MANUAL
+37
+Chapter 3
+Azalia Internal HDMI Codec (Enabled)
+This item enables or disables Azalia Internal HDMI Codec.
+Scroll to this item and press <Enter> and view the following screen:
+     
+TXE Information
+
+Press <Esc> to return to the Chipset Menu page.
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+TXE Information
+Sec RC Version 00.05.00.00
+TXE FW Version 01.00.02.1060
+TXE Mode [Enabled]
+Enable/Disable TXE
+Firmware
+Sec RC Version (00.05.00.00)
+This item shows the Sec Reference Code Version.
+TXE FW Version (01.00.02.1060)
+This item shows the TXE Firmware Version.
+TXE Mode (Enabled)
+This is TXE mode control item, it is used to enable or disable the TXE
+firmware.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+
+--- Page 44 ---
+38
+LIVA PC KIT USER MANUAL
+Chapter 3
+This page enables you to set the clock speed and system bus for
+your system. The clock speed and system bus are determined by
+the kind of processor you have installed in your system.
+Tweak Menu
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Tweak
+CPU Frequency 133.3 MHz
+CPU Ratio 11
+Intel(R) Celeron(R) CPU N2805 @ 1.46GHz
+CPU Speed 1.46 GHz
+Memory Frequency 1066 MHz
+Total Memory 2048 MB (LPDDR3)
+CPU Frequency (133.3 MHz)
+This item shows the imformation of the CPU frequency.
+CPU Ratio (11)
+This item shows the information of the CPU Ratio.
+Intel(R) Celeron(R) CPU N2805 @ 1.46GHz
+This is display-only field and diaplays the information of the CPU
+installed in your computer.
+CPU Speed (1.46 GHz)
+This item shows the processor speed.
+Memory Frequency (1066 MHz)
+This item shows the memory frequency.
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+
+--- Page 45 ---
+LIVA PC KIT USER MANUAL
+39
+Chapter 3
+Total Memory (2048 MB (LPDDR3))
+This item shows the total memory.
+
+--- Page 46 ---
+40
+LIVA PC KIT USER MANUAL
+Chapter 3
+This page enables you to set the keyboard Numlock State.
+Boot Menu
+Operation System Select (Windows 8.x)
+This item is used to select the operation system.
+Launch Network OpROM (Disabled)
+This item enables or disables launch PXE Option ROM.
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Windows 7 or other
+OS: Boot policy for
+legacy OS
+Windows 8.x: Boot
+policy for UEFI OS
+without Compatibility
+Support Module (CSM)
+Manual: User
+customized CSM
+parameters & boot
+policy
+Boot Configuration
+Operation System Select       [Windows 8.x]
+Launch Network OpROM       [Disabled]
+Fast Boot       [Disabled]
+Bootup Numlock State       [On]
+Quiet Boot       [Enabled]
+Boot Mode Select       [UEFI]
+Set Boot Priority
+Boot Option #1       [Hard Disk : Windows...]
+Boot Option #2       [CD/DVD]
+Boot Option #3       [USB/Floppy]
+Boot Option #4       [USB CD/DVD]
+Boot Option #5       [USB Hard Disk]
+Boot Option #6       [USB Flash]
+Boot Option #7       [Network]
+UEFI Hard Disk Drive Priorities
+
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+Fast Boot (Disabled)
+This item enables or disables the fast boot.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+
+--- Page 47 ---
+LIVA PC KIT USER MANUAL
+41
+Chapter 3
+Bootup Numlock State (On)
+This item enables you to select Numlock state.
+Quiet Boot (Enabled)
+This item enables or disables the quiet boot.
+Boot Mode Select (UEFI)
+Use this item to select boot mode.
+Boot Option #1~7
+These items show the boot priorities and can be used to set the
+boot priorities of various device categories.
+UEFI Hard Disk Drive Priorities
+This item enables you to specify the sequence of loading the
+operating system from the installing UEFI Boot drive. Press <Enter>
+to view the submenu.
+
+--- Page 48 ---
+42
+LIVA PC KIT USER MANUAL
+Chapter 3
+This page enables you to set setup administrator password and
+user password.
+Security Menu
+Administrator Password Status (Not Installed)
+This item shows administrator password installed or not.
+User Password Status (Not Installed)
+This item shows user password installed or not.
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Customizable Secure
+Boot settings
+Administrator Password Status Not Installed
+User Password Status Not Installed
+Administrator Password
+Secure Boot menu
+
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+
+--- Page 49 ---
+LIVA PC KIT USER MANUAL
+43
+Chapter 3
+Scroll to this item and press <Enter> and view the following screen:
+     Secure Boot menu
+
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+Secure Boot can be
+enabled if
+1. System running in
+User mode with
+enrolled Platform
+Key(PK)
+2. CSM function is
+disabled
+System Mode Setup
+Secure Boot Not Active
+Secure Boot [Enabled]
+Secure Boot Mode [Standard]
+System Mode (User)
+This item shows system of secure boot (can be setup or user).
+Secure Boot (Active/Enabled)
+This item shows the active state of secure boot.
+Secure Boot Mode (Standard)
+This item is used to select secure boot mode, when you select
+standard mode, secure boot policy is fixed; when you select custom
+mode, the image execution policy and secure boot key databases
+are changeable.
+
+--- Page 50 ---
+44
+LIVA PC KIT USER MANUAL
+Chapter 3
+This page enables you to set the keyboard Numlock State.
+Exit Menu
+Save Changes and Exit
+This item enables you to exit the system setup after saving the
+changes.
+Discard Changes and Exit
+This item enables you to exit the system setup without saving any
+changes.
+ Version 2.16.1242. Copyright (C) 2013 American Megatrends, Inc.
+Exit system setup after
+saving the changes.
+Save Changes and Exit
+Discard Changes and Exit
+Save Changes and Reset
+Discard changes and Reset
+Save Options
+Save Changes
+Discard Changes
+Restore Defaults
+Save as User Defaults
+Restore User Defaults
+Boot Override
+Windows Boot Manager
+Main     Advanced     Chipset     Tweak     Boot     Security     Exit
+Aptio Setup Utility - Copyright (C) 2013 American Megatrends, Inc.
+:Select Screen
+          F1:General Help
+          F2:Previous Values
+          F3:Optimized Defaults
+          F4:Save & Exit
+          ESC:Exit
++/-  : Change Opt.
+Enter : Select
+
+
+:Select Item
+Save Changes and Reset
+This item enables you to reset the system setup after saving the
+changes.
+
+--- Page 51 ---
+LIVA PC KIT USER MANUAL
+45
+Chapter 3
+Discard Changes and Reset
+This item enables you to reset the system setup without saving any
+changes.
+Save Options
+This item enables you to save the options that you have made.
+Save Changes
+This item enables you to save the changes that you have made.
+Discard Changes
+This item enables you to discard any change that you have made.
+Restore Defaults
+This item enables you to restore the system defaults.
+Save as User Defaults
+This item enables you to save the changes that you have made as
+user defaults.
+Restore as User Defaults
+This item enables you to restore the user defaults.
+Boot Override
+Use this item to select the boot device.
+
+--- Page 52 ---
+46
+LIVA PC KIT USER MANUAL
+Chapter 3
+Updating the BIOS
+You can download and install updated BIOS for this motherboard
+from the manufacturer’s Website. New BIOS provides support for
+new peripherals, improvements in performance, or fixes for known
+bugs. Install new BIOS as follows:
+1 If your motherboard has a BIOS protection jumper,
+change the setting to allow BIOS flashing.
+2 If your motherboard has an item called Firmware Write
+Protect in Advanced BIOS features, disable it. (Firmware
+Write Protect prevents BIOS from being overwritten.)
+3 Prepare a bootable device or create a bootable system
+disk. (Refer to Windows online help for information on
+creating a bootable system disk.)
+4 Download the Flash Utility and new BIOS file from the
+manufacturer’s Web site. Copy these files to the
+bootable device.
+5 Turn off your computer and insert the bootable device
+in your computer. (You might need to run the Setup
+Utility and change the boot priority items on the
+Advanced BIOS Features Setup page, to force your
+computer to boot from the bootable device first.)
+6 At the C:\ or A:\ prompt, type the Flash Utility program
+name and the file name of the new BIOS and then press
+<Enter>. Example: AFUDOS.EXE 040706.ROM
+7 When the installation is complete, remove the bootable
+device from the computer and restart your computer. If
+your motherboard has a Flash BIOS jumper, reset the
+jumper to protect the newly installed BIOS from being
+overwritten. The computer will restart automatically.
+
+--- Page 53 ---
+LIVA PC KIT USER MANUAL
+47
+Chapter 4
+Chapter 4
+Using the Motherboard Software
+Installing the Windows OS
+There are two ways to install the Windows OS:
+1. Install Windows OS via Windows official DVD.
+2. Ins
+tall Windows OS via USB flash drive.
+a)  Create an ISO file from the Windows 8.1 DVD.
+b) Download the Windows 7 USB/DVD Download Tool from
+Microsoft and install it. Please refer to the link:
+This free program from Microsoft properly formats your flash drive
+and then copies the contents of the Windows 8.1 installation ISO
+file to the flash drive.
+h t tp://ww w.microsoftst ore.com/st ore/msusa/html/
+pbPage.Help_Win7_usbdvd_dwnTool.
+c) Boot from the USB device that you just created to start the
+Windows 8.1 installing process.
+You need to change the booting priority in BIOS in order to
+boot from USB device. En
+ter into BIOS and select the Boot
+in menu (or press the hotkey F7), set USB drive as the first
+booting priority.
+
+--- Page 54 ---
+48
+LIVA PC KIT USER MANUAL
+Chapter 4
+1. Getting installation image. Download link of Ubuntu installation
+image (ISO) for 64 bit version:
+3. Boot from the USB device that you just created to start the
+Ubuntu installing process.
+http://cdimage.ubuntu.com/daily-live/current/
+2. Make a bootable USB flash drive, with Ubuntu installation image
+inside.
+For more detail and information, please refer to:
+https://help.ubuntu.com/community/Installation
+You need to change the booting priority in BIOS in order to
+boot from USB de
+vice. Enter into BIOS and select the Boot
+in menu (or press the hotkey F7), set USB drive as the first
+booting priority.
+Installing the Ubuntu OS
+Follow the instruction to install the Ubuntu OS:
+
+--- Page 55 ---
+LIVA PC KIT USER MANUAL
+49
+Chapter 4
+The  auto-install  DVD-ROM  makes  it  easy  for  you  to  install  the
+drivers and soware. The support soware DVD-ROM  disc  loads
+automacally under Windows 8.1. When you insert the DVD-ROM
+disc in the DVD-ROM drive, the auto-run feature will automacally
+bring up the installaon screen.
+Drivers auto-installing under Windows 8.1
+Displays  the  path
+for  all  soware
+and  drivers
+available  on  the
+disk.
+Informaon:
+Click the “Setup”
+buon  to  select
+and  run  the
+sow a r e
+ins t a lla  o n
+program.
+
+--- Page 56 ---
+50
+LIVA PC KIT USER MANUAL
+Chapter 4
+Follow these instrucons to install device drivers and soware for
+the motherboard:
+1. Click Setup. The installaon program begins:
+Running Setup
+The  motherboard idenﬁcaon is  located  in  the  upper  le-hand
+corner.
+The following screens are examples only. The screens and driver
+lists will be diﬀerent according to the motherboard you are
+installing.
+
+--- Page 57 ---
+LIVA PC KIT USER MANUAL
+51
+Chapter 4
+3. Check the box next to the items you want to install. The
+default opons are recommended.
+5. Follow the instrucons on the screen to install the items.
+        4. Click  Next  to  run  the  Installaon  Wizard.  An  item
+installaon screen appears:
+2. Click Next. The following screen appears:
+
+--- Page 58 ---
+52
+LIVA PC KIT USER MANUAL
+Chapter 4
+Drivers and soware are automacally installed in sequence.
+Follow  the  onscreen  instrucons,  conﬁrm  commands  and
+allow the computer to restart a few mes to complete the
+installaon.
+Windows  8.1  will show  the following screen aer  system
+restart,  you  must  select  “Desktop”  in  the  boom  le  to
+install the next driver.
+
+--- Page 59 ---
+LIVA PC KIT USER MANUAL
+53
+Chapter 4
+Windows 8.1 will appear below UAC (User Account Control)
+message aer the system restart. You must select “Yes” to
+install the next driver. Connue this process to complete the
+drivers installaon.
+If the auto-install DVD-ROM does not work on your system, you
+can sll install drivers through the ﬁle manager for your OS (for
+example, Windows Explorer). Look for the chipset and motherboard
+model,  and  then  browse  to  the  directory  and  path  to  begin
+installing the drivers. Most drivers have a setup program (SETUP.EXE)
+that automacally detects your operang system before installaon.
+Other  drivers  have  the  se
+tup  program  located  in  the  operang
+system subfolder.
+Manual Installaon
+If  the  driver you want to install  does  not have  a  setup program,
+browse to the operang system subfolder and locate the readme
+text  ﬁle  (README.TXT  or  README.DOC)  for  informaon  on
+installing the driver or soware for your operang system.
+
+--- Page 60 ---
+54
+LIVA PC KIT USER MANUAL
+Chapter 4
+eBLU
+ECS eBLU ulity makes BIOS update faster and easier. eBLU will list
+the latest BIOS with a default check-mark. Click”install” buon to
+install.
+eDLU
+ECS eDLU ulity makes updang drivers fast and easy. eDLU saves
+me and hassle by lisng all the latest drivers online. Just select the
+one you prefer and start to download and install the drivers.
+Microso .NET Framework 3.5 is required.
+

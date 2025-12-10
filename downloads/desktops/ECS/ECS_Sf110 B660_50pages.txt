@@ -1,0 +1,1723 @@
+Brand: ECS
+Model: Sf110 B660
+URL: https://www.manua.ls/ecs/sf110-b660/manual
+Total Pages: 50
+============================================================
+
+--- Page 1 ---
+i
+SF110 B660 USER MANUAL
+Preface
+Copyright
+This publication, including all photographs, illustrations and software, is protected 
+under international copyright laws, with all rights reserved. Neither this manual, nor 
+any of the material contained herein, may be reproduced without written consent of 
+the author.
+Version 1.0
+Disclaimer 
+The information in this document is subject to change without notice. The 
+manufacturer makes no representations or warranties with respect to the contents 
+hereof and specifically disclaims any implied warranties of merchantability or 
+fitness for any particular purpose. The manufacturer reserves the right to revise this 
+publication and to make changes from time to time in the content hereof without 
+obligation of the manufacturer to notify any person of such revision or changes. 
+Trademark Recognition
+Windows® 11 are registered trademarks of Microsoft Corp.
+Other product names used in this manual are the properties of their respective owners 
+and are acknowledged.
+Federal Communications Commission (FCC) 
+This equipment has been tested and found to comply with the limits for a Class B 
+digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to 
+provide reasonable protection against harmful interference in a residential installation. 
+This equipment generates, uses, and can radiate radio frequency energy and, if not 
+installed and used in accordance with the instructions, may cause harmful interference 
+to radio communications. However, there is no guarantee that interference will not 
+occur in a particular installation. If this equipment does cause harmful interference to 
+radio or television reception, which can be determined by turning the equipment off 
+and on, the user is encouraged to try to correct the interference by one or more of the 
+following measures: 
+•
+  Reorient or relocate the receiving antenna 
+•
+  Increase the separation between the equipment and the receiver 
+•
+  Connect the equipment onto an outlet on a circuit different from that to 
+which the receiver is connected 
+•
+  Consult the dealer or an experienced radio/TV technician for help 
+Any changes or modifications not expressly approved by the grantee of this device 
+could void the user’s authority to operate the equipment. This equipment complies 
+with FCC radiation exposure limits set forth for an uncontrolled environment. This 
+equipment should be installed and operated with minimum distance 20cm between 
+the radiator & your body.
+
+--- Page 2 ---
+ii
+SF110 B660 USER MANUAL
+The terms HDMI, HDMI High-Definition Multimedia Interface, and the HDMI Logo are 
+trademarks or registered trademarks of HDMI Licensing Administrator, Inc.
+Declaration of Conformity 
+This device complies with part 15 of the FCC rules. Operation is subject to the following 
+conditions: 
+•
+  This device may not cause harmful interference, and 
+•
+  This device must accept any interference received, including interference 
+that may cause undesired operation. 
+Canadian Department of Communications
+This class B digital apparatus meets all requirements of the Canadian Interference-
+causing Equipment Regulations.
+Cet appareil numéique de la classe B respecte toutes les exigences du Rélement sur le 
+matéiel brouilieur du Canada.
+Safety Instructions
+Your system is designed and tested to meet the latest standards of safety for 
+information technology equipment. However, to ensure your safety, it is important 
+that you read the following safety instructions.
+Setting up your system
+•  Read and follow all instructions in the documentation before you operate 
+your system.
+•  Do not use this product near water or a heated source such as a radiator.
+•  Set up the system on a stable surface.
+•  Openings on the chassis are for ventilation. Do not block or cover these 
+openings. Make sure you leave plenty of space around the system for 
+ventilation. Never insert objects of any kind into the ventilation openings.
+•  Use this product in environments with ambient temperatures between 0°C 
+and 40°C.
+•  If you use an extension cord, make sure that the total ampere rating of the 
+devices plugged into the extension cord does not exceed its ampere rating.
+•  Only technicians are allowed to open the chassis, please contact with your 
+vendor / supplier for any technical support.
+
+--- Page 3 ---
+iii
+SF110 B660 USER MANUAL
+Attention during use
+•  Do not step on the power cord or let anything rest on top of it.
+•  Do not spill water or any other liquid on your system.
+•  When the system is turned OFF, a small amount of electrical current still 
+flows. Always unplug all power, modem, and network cables from the 
+power outlets before cleaning the system.
+•  If you encounter the following technical problems with the product, unplug 
+the power cord and contact a qualified service technician or your retailer.
+•  The power cord or plug is damaged.
+•  Liquid has been spilled into the system.
+•  The system does not function properly even if you follow the 
+operating instructions. 
+•  The system was dropped or the cabinet is damaged.
+•  The system performance changes
+The warranty does not apply to products that have been disassembled by 
+users
+Safety cautions and warnings
+Product disposal notice
+IMPORTANT:
+This symbol if the crossed out wheeled bin indicates that the product 
+(electrical and electronic equipment) should not be placed in municipal 
+waste. Check local regulations for disposal of electronic products.
+Nordic Lithium Cautions (for lithium-ion batteries)
+CAUTION:
+Danger of explosoin if battery is incorrectly replace only with the same 
+or equivalent type recommended by the manufacturer. Dispose of used 
+batteries according to the manufacturer’s instructions.
+
+--- Page 4 ---
+iv
+SF110 B660 USER MANUAL
+Product disposal notice
+1.  Do not place this product underneath heavy loads or in an unstable 
+position.
+2.  Do not use or expose this product around magnetic fields as magnetic 
+interference may affect the performance of the product.
+3.  Do not expose this product to high levels of direct sunlight, 
+highhumidity or wet conditions.
+4.  Do not block the air vents to this product or impede the airflow in any 
+way.
+Warning
+Do not ingest battery,Chemical Bum Hazard
+This Product contains a coin/button cell battery.If the coin /button cell 
+battery is swallowed, it can cause severe internal burns in just 2 hours and 
+lead to death.
+Keep new and used batteries away from children. 
+If battery compartment does not close securely, stop using the product 
+and keep it away from children.
+If you think batteries might have be swallowed or placed inside any part of 
+the body,seek immediate medical attention.
+Manufactured by
+ECS Industrial Computer Co., Ltd.
+1F, No.235, Sec. 2, Ti Ding Blvd., Taipei, Taiwan 11493
++886-2-2162-1177
+
+--- Page 5 ---
+v
+SF110 B660 USER MANUAL
+Preface i 
+Chapter 1 
+Introducing the PC   
+Introduction ..........................................................................1
+Specification .........................................................................2
+Front and Rear I/O ................................................................ 3
+Packing Contents ..................................................................5
+Chapter 2 
+Installing the PC   
+System Quick Installtion .......................................................7 
+Chapter 3 
+Using BIOS 
+About the Setup Utility ....................................................... 9
+The Standard Configuration ..................................... 9
+Entering the Setup Utility ......................................... 9
+Using BIOS. .......................................................................10
+BIOS Navigation Keys ............................................. 10
+Main Menu ............................................................12
+Advanced Menu .....................................................13
+Chipset Menu ......................................................... 27
+Tweak Menu ..........................................................30
+Security Menu ........................................................ 37
+Boot Menu .............................................................38
+Exit Menu ...............................................................39
+Updating the BIOS ............................................................40
+Chapter 4 
+Trouble Shooting 
+Trouble shooting and problem solution............................41
+TABLE OF CONTENTS
+
+--- Page 7 ---
+SF110 B660 USER MANUAL
+1
+Chapter 1
+Introducing the PC
+Introduction
+Thank you for choosing this 1.1L case of great performance and with stylish and flexible 
+design.
+Supports LGA1700 Socket for Intel® 12th and 13th Generation Core
+TM
+, Pentium®, 
+Celeron® processors. This 1.1L SFF device (dimension: 205mm (H)* 176mm (D)* 33mm 
+(W)) provides the features of low power consumption (working with a 120 Watt power 
+adapter), and space saving. This Model uses Intel® LGA1700, supporting up to 64 GB 
+of system memory with DDR4 memory SO-DIMM, 2.5” SATA III HDD, 3 independent 
+displays. 
+35W SKU
+65W SKU
+Note:
+ID design may vary.
+
+--- Page 8 ---
+SF110 B660 USER MANUAL
+2
+Specifications
+Chipset
+Intel® B660 Chipset
+CPU •
+LGA1700 socket, support Intel® 12th and 13th Generation Core
+TM
+ 
+Pentium®, Celeron® processors
+• Supports CPU up to 65W
+Memory •
+Dual-channel SO-DIMM DDR4 3200MHz max, up to 64 GB
+LAN •
+Realtek Gigabit Ethernet   
+Wi-Fi  •
+M.2 2230 Key E,  CNVi/PCIe wireless card 
+Supports 802.11ax, 2x2   
+Video Output  •
+2 x DP 1.4 ports
+1 x HDMI 2.0 port
+1 x D-Sub
+(max. 4 Displays)   
+Front Panel  •
+1 x Power button
+• 2 x USB 3.2 Gen 2x1 
+• 2 x USB 3.2 Gen 2x1 Type-C
+• 1 x Combo jack
+• 1 x MIC-in
+Rear Panel •
+1 x Kensington lock
+• 1 x DC-in
+• 2 x DP 1.4 ports 
+• 1 x HDMI 2.0 port
+• 1 x VGA/RS232 port (optional)  
+• 1 x Gigabit Ethernet   
+• 2 x USB 2.0 ports 
+• 2 x USB 3.2 Gen 1x1 ports
+Adapter •
+35W & 65W 19V/6.32A, 120W power adapter
+OS Support •
+Windows 11
+Kensington lock •
+Supported
+Dimensions (mm) •
+205mm (H)* 176mm (D)* 33mm (W) 
+Others •
+Internal speaker built-in
+• DASH support
+
+--- Page 9 ---
+SF110 B660 USER MANUAL
+3
+Front and Rear I/O
+1.  Power Button with LED Press the power button to turn the system on and 
+off.
+2.  HDD LED This is the HDD LED light.
+3.  USB 3.2 Gen 2x1 Type A    The USB 3.2 Gen 2x1 connectors are used for devices 
+with USB such as mouse, keyboard, printer, scanner.   
+4.  USB 3.2 Gen 2x1 Type-C The USB 3.2 Gen 2x1 Type-C connector is used for 
+devices with USB Type-C.
+5.  Combo Jack Connecting headset.
+6.  Mic In Jack Connecting microphone.
+2
+1 3
+4
+5 6
+
+--- Page 10 ---
+SF110 B660 USER MANUAL
+4
+7.  Kensington Lock This is the security lock.
+8.  DC Jack It is used for power adapter.
+9.  DP Ports Connecting display devices to the DP ports.
+10.  HDMI Port Connecting a display device to the HDMI port.
+11.  D-SUB Connector or Connecting VGA Monitor.
+  COM Port (optional) Connecting a device to COM port. 
+12. LAN Connecting the Network.
+13.  USB 3.2 Gen 1x1 Connectors Connecting USB 3.0 compatible devices.
+14.  USB 2.0 Connectors Connecting USB 2.0 compatible devices.
+7 11 13
+9 10 12 148
+
+--- Page 11 ---
+SF110 B660 USER MANUAL
+5
+Packing Contents
+Quick Installation Guide
+Stand VESA Mount
+Power 120W
+CPU TDP 35W & 65W
+Cooler
+NOTE: Please contact us immediately if any of the items is damaged or missing. 
+(Memory, SSD, CPU and HDD are required to be purchased additionally.)
+
+--- Page 13 ---
+7
+SF110 B660 USER MANUAL
+Chapter 2
+Installing the PC
+System Quick Installation
+1.
+ 
+Connecting HDMI device.
+2.
+ 
+Connecting VGA Monitor. (D-SUB Connector)
+3.  The USB connectors are used for attaching USB devices, such as mouse, 
+keyboard, printer, scanner and other USB-compatible device.
+
+--- Page 14 ---
+8
+SF110 B660 USER MANUAL
+4.
+ 
+Attaching Ethernet cable here. (LAN Connector)
+5.
+ 
+Connecting the Microphone. (Microphone Jack)
+6.  Connecting Speakers or Headphones. (Headphone Jack)
+7.  Connecting Power. (DC jack)
+
+--- Page 15 ---
+9
+SF110 B660 USER MANUAL
+Chapter 3
+Using BIOS
+About the Setup Utility
+The computer uses the latest “American Megatrends Inc.” BIOS with support for 
+Windows Plug and Play. The CMOS chip on the motherboard contains the ROM setup 
+instructions for configuring the motherboard BIOS. 
+The BIOS (Basic Input and Output System) Setup Utility displays the system’s 
+configuration status and provides you with options to set system parameters. The 
+parameters are stored in battery-backed-up CMOS RAM that saves this information 
+when the power is turned off. When the system is turned back on, the system is 
+configured with the values you stored in CMOS.  
+The BIOS Setup Utility enables you to configure:
+•  Hard drives, diskette drives and peripherals
+•  Video display type and display options
+•  Password protection from unauthorized use
+•  Power Management features
+The settings made in the Setup Utility affect how the computer performs. Before using 
+the Setup Utility, ensure that you understand the Setup Utility options.
+This chapter provides explanations for Setup Utility options.
+The Standard Configuration
+A standard configuration has already been set in the Setup Utility. However, we   
+recommend that you read this chapter in case you need to make any changes in the 
+future.
+This Setup Utility should be used:
+•  when changing the system configuration
+•  when a configuration error is detected and you are prompted to make 
+changes to the Setup Utility
+•  when making changes to the Power Management configuration
+•  when changing the password or making other changes to the Security Setup
+Entering the Setup Utility
+When you power on the system, BIOS enters the Power-On Self Test (POST) routines. 
+POST is a series of built-in diagnostics performed by the BIOS. After the POST routines 
+are completed, the following message appears:
+Press DEL to enter SETUP
+
+--- Page 16 ---
+10
+SF110 B660 USER MANUAL
+Using BIOS
+When you start the Setup Utility, the main menu appears. The main menu of the 
+Setup Utility displays a list of the options that are available. A highlight indicates which 
+option is currently selected. Use the cursor arrow keys to move the highlight to other 
+options. When an option is highlighted, execute the option by pressing <Enter>. 
+Some options lead to pop-up dialog boxes that prompt you to verify that you wish 
+to execute that option. Other options lead to dialog boxes that prompt you for          
+information. 
+Some options (marked with an icon   ) lead to submenus that enable you to change 
+the values for the option. Use the cursor arrow keys to scroll through the items in the 
+submenu.
+In this manual, default values are enclosed in parenthesis. Submenu items are denoted 
+by an icon 
+ 
+.
+The default BIOS setting for this motherboard apply for most conditions 
+with optimum performance. We do not suggest users change the default 
+values in the BIOS setup and take no responsibility to any damage caused 
+by changing the BIOS settings. 
+BIOS Navigation Keys
+The BIOS navigation keys are listed below:
+KEY FUNCTION
+ESC Exits the current menu
+
+Scrolls through the items on a menu
++/- Change Opt.
+Enter Select
+F1 General Help
+F2 Previous Value
+F3 Optimized Defaults
+F4 Save & Exit
+1.
+ 
+For the purpose of better product maintenance, the manufacture 
+reserves the right to change the BIOS items presented in this manual. 
+The BIOS setup screens shown in this chapter are for reference only 
+and may differ from the actual BIOS. Please visit the manufacture’s 
+website for updated manual.
+2.
+ 
+In this Gui BIOS, you can operate by mouse or keyboard. Click : select 
+item; Double click: enter; Right click: exit.
+
+--- Page 17 ---
+11
+SF110 B660 USER MANUAL
+Default
+Select the default icon and press <Enter> or double click the left key of the mouse to 
+display the screen. Then you can load optimized defaults or not.
+Advanced
+Select the advanced icon and press <Enter> or double click the left key of the mouse to 
+display the screen. 
+Exit
+Select the exit icon and press <Enter> or double click the left key of the mouse to 
+display the screen.
+
+--- Page 18 ---
+12
+SF110 B660 USER MANUAL
+Main Menu
+This menu shows the information of BIOS and enables you to set the system language, 
+date and time. 
+BIOS Information
+System Language [English]
+ [Mon 09/19/2022]  System Date
+ System Time [00:00:26]
+BIOS Version 22.09.19
+Advanced        Chipset        Tweak     Security      Boot      Exit
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Choose the system default 
+language
+Main
+System Language (English)
+This item is used to set system language.
+System Date & Time
+The Date and Time items show the current date and time on the computer. If you are 
+running a Windows OS, these items are automatically updated whenever you make 
+changes to the Windows Date and Time Properties utility.
+
+--- Page 19 ---
+13
+SF110 B660 USER MANUAL
+Advanced Menu
+The Advanced menu items allow you to change the settings for the CPU and other 
+system.
+LAN Configuration
+ PC Health Status
+ Power Management Setup
+ ACPI Settings
+ CPU Configuration
+ SATA Configuration
+ USB Configuration
+ Super IO Configuration
+DASH Configuration
+ Trusted Computing
+ Realtek PCIe GBE Family Controller (MAC :88: AE :DD: 28: AB: 4C)
+Main Advanced        Chipset        Tweak     Security      Boot      Exit
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+LAN Configuration Parameters
+ LAN Configuration
+The item in the menu shows the LAN-related information that the BIOS automatically 
+detects.
+LAN Configuration
+Onboard LAN Controller [Enabled]
+Enabled/Disabled Onboard LAN 
+Controller
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+Onboard LAN Controller (Enabled)
+Use this item to enable or disable Onboard LAN controller.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 20 ---
+14
+SF110 B660 USER MANUAL
+ PC Health Status
+On motherboards support hardware monitoring, this item lets you monitor the 
+parameters for critical voltages, temperatures and fan speeds.
+PC Health Status
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+36
+CPU Temperature (DTS) 
+System Temperature 34°C
+1445 RPM
+CPU Fan Speed
+Core Voltage
+0.814V
+DIMM Voltage
+1.287V
++12V 12.474V
++VCC
+5.555V
++5VSB
+5.137V
+100
+TCC Activation Temperature (DTS)
+System Component Characteristics
+These items display the monitoring of the overall inboard hardware health events, 
+such as CPU & DIMM voltage, CPU & System fan speed...etc.
+•  CPU Temperature
+•  System Temperature
+•  CPU Fan Speed
+•  Core Voltage
+•  DIMM Voltage
+• +12V
+• +5VSB
+• +VCC
+TCC Activation Temperature (DTS) (100)
+This item show the TCC Activation Temperature.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 21 ---
+15
+SF110 B660 USER MANUAL
+ Power Management Setup
+This page sets up some parameters for system power management operation.
+Power Management Setup
+Resume By RING [Disabled]
+Resume By PME   [Disabled]
+[Disabled]
+[Disabled]
+[Enabled]
+[65W]
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+Resume By USB
+Resume By RTC Alarm
+EUP Function
+System Power select
+About Resume by Ring
+Resume By RING (Disabled)
+An input signal on the serial Ring Indicator (RI) line (in other words, an incoming call on 
+the modem) awakens the system from a soft off state.
+Resume By PME (Disabled)
+The system can be turned off with a software command. If you enable this item, 
+the  system  can  automatically  resume  if  there  is  an  incoming  call  on  the  PCI/PCI-E                                  
+Modem or PCI/PCI-E LAN card. You must use an ATX power supply in order to use this 
+feature. Use this item to do wake-up action if inserting the PCI/PCI-E card.
+Resume By USB (Disabled)
+This item allows you to enable or disable the USB device wakeup function from S3 
+mode.
+Resume By RTC Alarm (Disabled)
+The system can be turned off with a software command. If you enable this item, the 
+system can automatically resume at a fixed time based on the system’s RTC (realtime 
+clock). Use the items below this one to set the date and time of the wake-up alarm. 
+You must use an ATX power supply in order to use this feature.
+EUP Function (Enabled)
+This item allows user to enable or disable EUP support.
+System Power select (65W)
+This item allows user to adjust System Power.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 22 ---
+16
+SF110 B660 USER MANUAL
+ ACPI Settings
+The item in the menu shows the highest ACPI sleep state when the system enters 
+suspend.
+ACPI Settings
+ACPI Sleep State [S3 (Suspend to RAM)]
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+Select the highest ACPI sleep 
+state the system will enter when 
+the SUSPEND button is pressed.
+ACPI Sleep State [S3(Suspend to RAM)]
+This item allows user to enter the ACPI S3 (Suspend to RAM) Sleep State (default).
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 23 ---
+17
+SF110 B660 USER MANUAL
+ CPU Configuration
+The item in the menu shows the CPU.
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+CPU Configuration
+12th Gen Intel (R) Core (TM)  i3-12300T
+ 2300 MHz 
+Processor Speed
+0x90675
+25
+ID
+Microcode Revision
+VMX
+SMX/TXT Not Supported
+Supported
+[Enabled]
+[Disabled]
+[Enabled]
+Limit CPUID Maximum
+Intel (VMX) Virtualization Technology
+[Auto]
+[Enabled]
+[Enabled]
+Package C State Limit
+Enhanced Halt  (C1E)
+Intel(R) Speed Shift Technology
+Hyper-Threading
+Enable or Disable Hyper-
+Threading Technology.
+12th Gen Inter(R) Core(TM) i3-12300T
+This is display-only field and displays the information of the CPU installed in your 
+computer.
+Processor Speed (2300 MHz)
+This item shows the processor speed.
+ID (0x90675)
+This item shows the processor ID.
+Microcode Revision (25)
+This item shows the Microcode Revision.
+VMX (Supported)
+This item shows the computer supports the VMX or not.
+SMX/TXT (Not Supported)
+This item shows the computer supports the SMX/TXT or not.
+Hyper-Threading (Enabled)
+This item is only available when the chipset supports Hyper-Threading and you are 
+using a Hyper-Threading CPU.
+Limit CPUID Maximum (Disabled)
+Use this item to enable or disable the maximum CPUID value limit, you can enables 
+this item to prevent the system from “ebooting” when trying to install Windows NT 4.0.
+Intel (VMX) Virtualization Technology (Enabled)
+When disabled, a VMM cannot utilize the additional hardware capabilities provided by 
+Vandor Pool Technology.
+
+--- Page 24 ---
+18
+SF110 B660 USER MANUAL
+Package C State Limit (Auto)
+Use this item to set the Package C State limit.
+Enhanced Halt (C1E) (Enabled)
+Use this item to enable or disable the Enhanced C1 state.
+Intel(R) Speed Shift Technology (Enabled)
+Use this item to enable the CPU energy-saving function when the system is not 
+running.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 25 ---
+19
+SF110 B660 USER MANUAL
+ SATA Configuration
+Use this item to show the mode of serial SATA configuration options.
+SATA Configuration
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+SATA Mode Selection
+[AHCI]
+Enable VMD controller
+[Disabled]
+SATA Port1
+Not Present
+SATA Port2
+Not Present
+Determines how SATA 
+controller(s) operate.
+SATA Mode Selection (AHCI) 
+Use this item to select SATA mode.
+Enable VMD controller [Disabled]
+Use this item to enable or disable VMD controller
+.
+SATA Port 1 [Not Present)]
+This item shows the SATA Port 1 Device.
+SATA Port 2 (Not Present)
+This item shows the SATA Port 2 Device.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 26 ---
+20
+SF110 B660 USER MANUAL
+ USB Configuration
+Use this item to show the information of USB configuration.
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+USB Configuration
+All  USB  Devices         Enabled
+USB Support Parameters
+All USB Devices (Enabled)
+Use this item to enable or disable all USB devices.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 27 ---
+21
+SF110 B660 USER MANUAL
+ Super IO Configuration
+Use this item to show the information of Super IO configuration.
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+Super IO Configuration
+Super IO Chip                                                IT8637
+EC Firmware Version
+Serial Port 1 Configuration
+2.02
+Set Parameters of Serial Port 1 
+(COMA)
+Super IO Chip (IT8637)
+This item shows the information of the super IO chip.
+EC Firmware Version (2.02)
+This item shows the EC Firmware Version.
+
+--- Page 28 ---
+22
+SF110 B660 USER MANUAL
+ 
+Serial Port 1 Configuration 
+Scroll to this item and press <Enter> to view the following screen:
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+Enable or Disable Serial Port 
+(COM)
+Serial Port
+  
+Serial Port 1 Configuration
+Serial Port
+           Enabled
+ IO=3F8h; IRQ=4; Device Settings
+Change Settings    
+Auto
+Serial Port (Enabled)
+This item allows you to enable or disable serial port.
+Device Settings (IO=3F8h; IRQ=4)
+This item shows the information of the device settings.
+Change Settings (Auto)
+Use this item to change device settings.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 29 ---
+23
+SF110 B660 USER MANUAL
+ DASH Configuration
+The item enables or disables the DASH function of LOM (Lan on motherboard).
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+DASH Configuration
+DASH Function
+DASH Firmware Version
+5.1.15.1795A1B0
+[Enabled]
+DASH Function Enable/Disable
+DASH Function (Enabled)
+Use this item to enable or disable DASH Function.
+DASH Firmware Version (5.1.15.1795A1B0)
+This item shows the DASH Firmware Version.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 30 ---
+24
+SF110 B660 USER MANUAL
+ Trusted Computing
+Use this item to show the information of trusted computing configuration.
+TPM 2.0 Device Found
+Firmware Version : 
+Vendor :
+TPM Support [Enabled]
+1.258
+STM
+Active PCR banks SHA256
+Available PCR banks SHA256
+SHA256 PCR Bank [Enabled]
+Pending operation [None]
+Platform Hierarchy
+[Enabled]
+Storage Hierarchy
+Endorsement Hierarchy
+Physical Presence Spec Version
+TPM 2.0 InterfaceType
+[Enabled]
+[Enabled]
+[1.3]
+[TIS]
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+Enables or Disables BIOS 
+support for security device, O.S. 
+will not show Security Device. 
+TCG EFI protocol and INT1A 
+interface will not be available.
+TPM Support (Enabled)
+Use this item to enable or disable the TPM support. O.S. will not show TPM. Reset of 
+platform is required.
+Active PCR banks (SHA256)
+Use this item to show the Active PCR banks.
+Available PCR banks (SHA256)
+Use this item to show the Available PCR banks.
+SHA256 PCR Bank (Enabled)
+Use this item to enable or disable the SHA256 PCR bank.
+Pending operation (None)
+Schedule an Operation for the Security Device. NOTE: Your Computer will reboot 
+during restart in order to change State of Security Device.
+Platform Hierarchy (Enabled)
+Use this item to enable or disable the platform hierarchy.
+Storage Hierarchy (Enabled)
+Use this item to enable or disable the storage hierarchy.
+Endorsement Hierarchy (Enabled)
+Use this item to enable or disable the Endorsement hierarchy.
+
+--- Page 31 ---
+25
+SF110 B660 USER MANUAL
+Physical Presence Spec Version (1.3)
+Use this item to show the Physical Presence Spec Version.
+TPM 2.0 InterfaceType (TIS)
+Use this item to select the communication interface to TPM 20 device.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 32 ---
+26
+SF110 B660 USER MANUAL
+ Realtek PCIe GBE Family Controller (MAC:88:AE:DD:28:AB:4C)
+Use this item to show the information of Driver, Device and Patent.
+Driver Information
+Driver Name:
+RealManage Setup
+Realtek UEFI UNDI Dri...
+Driver Version:
+2.053
+Driver Released Date:
+2020/03/12
+Driver Information
+Driver Name:
+Realtek PCIe GBE Fami...
+PCI Slot:
+01:00:01
+MAC Address:
+88:AE:DD:28:AB:4C
+Patent Information
+This product is convered by noe or 
+US6,570,884, US6,115,776, and US6,
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+ 
+RealManage Seup 
+Scroll to this item and press <Enter> to view the following screen:
+Realtek RealManage Setup
+RealManage Setup
+Aptio Setup Utility - Copyright (C) 2022 American Megatrends, Inc.
+Version 2.20.1276. Copyright (C) 2022 American Megatrends, Inc.
+Configure DASH (Desktop and
+Mobile Architecture for System
+Hardare) setting. DASH is a
+web services-based standard that
+can support both in-band
+and out-of-band management.
+Advanced
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+RealManage Setup
+Use this item to configure DASH (Desktop and Mobile Architecture for System 
+Hardware) setting. DASH is a web services-based standard that can support both in-
+band and out-of-band management.
+Press <Esc> to return to the Advanced Menu page.
+
+--- Page 33 ---
+27
+SF110 B660 USER MANUAL
+Chipset Menu
+The chipset menu items allow you to change the settings for the North Bridge chipset, 
+South Bridge chipset and other system.
+Main     Advanced   Chipset       Tweak     Security     Boot      Exit
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+System Agent Configuration
+PCH Configuration
+ME Configuration
+System Agent (SA) Parameters.
+ 
+System Agent Configuration
+Scroll to this item and press <Enter> to view the following screen:
+Chipset
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+System Agent Configuration
+IGD Memory  [64M]
+DVMT/FIXED Memory [256M]
+Select DVMT 5.0 Pre-Allocated 
+(Fixed)  Graphics  Memory  size 
+used  by  the  Internal  Graphics 
+Device.
+IGD Memory (64M) 
+This item shows the information of the IGD (Internal Graphics Device) memory.
+DVMT/FIXED Memory (256M) 
+When set to Fixed Mode, the graphics driver will reserve a fixed position of the           
+system memory as graphics memory, according to system and graphics requirement.
+Press <Esc> to return to the Chipset Menu page.
+
+--- Page 34 ---
+28
+SF110 B660 USER MANUAL
+ PCH Configuration
+Scroll to this item and press <Enter> to view the following screen:
+Chipset
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+PCH Configuration
+Audio Configuration
+Restore AC Power Loss [Power Off]
+HD Audio [Enabled]
+Case Open Warning [Disabled]
+Chassis Opened [NO]
+Select AC power state when power 
+is re-applied after a power failure.
+Restore AC Power Loss (Power Off)
+This item enables your computer to automatically restart or return to its operating 
+status.
+HD Audio (Enabled) 
+This item enables or disables Azalia HD audio.
+Case Open Warning (Disabled)
+ 
+Use this item to enable or disable the warning if the case is opened up, and the item 
+below indicates the current status of the case.
+Chassis Opened (No) 
+This item indicates whether the case has been opened.
+Press <Esc> to return to the Chipset Menu page.
+
+--- Page 35 ---
+29
+SF110 B660 USER MANUAL
+ ME Configuration
+Scroll to this item and press <Enter> to view the following screen:
+Chipset
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+Management Engine Technology Configuration
+ME Control [Enabled]
+ME FW Version 16.1.25.1917
+Enable/Disable ME Firmware
+ME Control (Enabled)  
+Use this item to enable or disable the ME Firmware.
+ME FW Version (16.1.25.1917)
+This item shows the ME FW version.
+
+--- Page 36 ---
+30
+SF110 B660 USER MANUAL
+Tweak Menu
+This page enables you to set the clock speed and system bus for your system. The clock 
+speed and system bus are determined by the kind of processor you have installed in 
+your system.
+Main Advanced      Chipset      Tweak     Security     Boot      Exit
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Tweak
+CPU OverClocking Configuration
+Memory Configuration
+12th Gen Intel(R) Core(TM)  i3-12300T
+Processor Speed
+Memory Frequency  
+Total Memory 4096 MB
+2400 MHz
+2300 MHz
+CPU OverClocking Configuration
+ 
+CPU OverClocking Configuration
+Scroll to this item and press <Enter> to view the following screen:
+Tweak 
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+EIST [Enabled]
+Turbo Boost [Enabled]
+Power Limit 1 Override
+[Enabled]
+Power Limit 1 Value
+Power Limit 1 Time Window 
+[28]
+Power Limit 2 Override 
+[Enabled]
+Power Limit 2 Value
+Power Limit 3 Settings
+Power Limit 4 Settings
+Boot performance mode [Max Non-Turbo Perfor...]
+TDP Lock
+[Disabled]
+CPU Ratio
+P-core Turbo Ratio Limit Ratio0
+P-core Turbo Ratio Limit Ratio1
+P-core Turbo Ratio Limit Ratio2
+P-core Turbo Ratio Limit Ratio3
+23
+42
+42
+38
+38
+Enhanced Intel SpeedStep
+Technology
+Maximum
+Maximum
+
+--- Page 37 ---
+31
+SF110 B660 USER MANUAL
+ElST (Enabled)
+This item allows users to enable or disable the EIST (Enhanced Intel SpeedStep     
+Technology).
+Turbo Boost (Enabled)
+Use this item to enable or disable the turbo boost.
+Power Limit 1 Override (Enabled)
+Use this item to enable or disable the Power Limit 1 Override. If this option is       
+disabled, BIOS will program the default values for Power Limit 1.
+Power Limit 1 Value (Maximum)
+Power limit 1 in Milli Watts and stepsize is 125mW .XE SKU: Any value can be         
+programmed. Overclocking SKU: Value must be between Max and Min Power Limits 
+(specified by PACKAGE_POWER_SKU_MSR). Other SKUs: This value must be between 
+Min Power Limit and TDP Limit. If value is 0, BIOS will program TDP value.
+Power Limit 1 Time Window (28)
+Power limit 1 Time Window value in seconds. The value may vary from 0 to 128. If 
+the value is 0, default values will be programmed (28 sec for Mobile and 1 sec for        
+Desktop). Indicates the time window over which TDP value should be maintained. 
+Power Limit 2 Override (Enabled)
+Use this item to enable or disable the Power Limit 2 Override. If this option is       
+disabled, BIOS will program the default values for Power Limit 2.
+Power Limit 2 Value (Maximum)
+Power limit 2 value in Milli Watts and stepsize is 125mW. If the value is 0, BIOS will 
+program this value as 1.25*TDP. Processor applies control policies such that the 
+package power does not exceed this limit.
+
+--- Page 38 ---
+32
+SF110 B660 USER MANUAL
+ Power Limit 3 Settings
+Scroll to this item and press <Enter> to view the following screen:
+Tweak 
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Power Limit 3 Settings
+Power Limit 3 Override  [Disabled]
+Enable/DisablePower Limit 3 
+override. If this option is disabled,
+ 
+BIOS will leave the hardware 
+default values for Power Limit 3 
+and Power Limit 3 Time Window.
+Power Limit 3 Override (Disabled)
+Use this item to enable or disable the Limit 3 Override. If this option is disabled, BIOS 
+will leave the default values for Power Limit 3 and power limit 3 time window.
+Press <Esc> to return to the CPU OverClocking Configuration page.
+
+--- Page 39 ---
+33
+SF110 B660 USER MANUAL
+ Power Limit 4 Settings
+Scroll to this item and press <Enter> to view the following screen:
+Tweak 
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Enable/Disable Power Limit 4 
+override. If this option is disabled,
+ 
+BIOS will leave the default values 
+for Power Limit 4.
+Power Limit 4 Settings
+Power Limit 4 Override
+[Enabled]
+Power Limit 4                                                                          
+95000
+Power Limit 4 Lock [Disabled]
+Power Limit 4 Override (Enabled)
+Use this item to enable or disable the Limit 4 Override. If this option is disabled, BIOS 
+will leave the default values for Power Limit 4 and power limit 4 time window.
+Power Limit 4 (95000)
+Use this item to set the value of Power Limit 4.
+Power Limit 4 Lock (Disabled)
+Use this item to enable or disable Power Limit 4 lock.
+Press <Esc> to return to the CPU OverClocking Configuration page.
+Boot Performance mode (Max Non-Turbo Perfor...)
+Use this item to select the performance state that the BIOS will set before OS handoff.
+TDP Lock (Disabled)
+This item allows you to enable or disable the Package TDP lock.
+CPU Ratio (23)
+This item allows you to control CPU ratio.
+Turbo Ratio Limit Ration 0/1/2/3 (42/42/38/38)
+Use these items to set the Turbo Ratio Limit Ratio value.
+Press <Esc> to return to the Tweak Menu page.
+
+--- Page 40 ---
+34
+SF110 B660 USER MANUAL
+ Memory Configuration
+Scroll to this item and press <Enter> to view the following screen:
+Tweak 
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Memory Configuration
+Memory profile
+[Default SPD profile]
+Memory Frequency
+[2400]
+Timing Current
+Command Rate
+tCL
+tRCD/tRP
+313
+16
+16
+39
+2
+tRAS
+tRFC
+9364
+18
+tREFI 
+tWR
+tWTR_L
+tWTR_S
+tRRD_L
+tRRD_S
+eDRAM Mode
+Retrain on Fast Fail
+Exit on Failure (MRC)
+Ch Hash Support
+tRTP
+tFAW
+tCWL
+0
+0
+0
+0
+9
+26
+14
+[eDRAM HW Mode]
+[Enabled]
+[Enabled]
+[Enabled]
+Target
+Select DIMM timing profile. 
+The below values start with the 
+currently running values and 
+don’t auto populate. 
+Memory Profile (Default SPD profile)
+This item enables you to set the memory profiles. The selection of memory profiles 
+impacts memory sizing behavior.
+Memory Frequency (2400)
+This item shows the memory frequency.
+eDRAM Mode (eDRAM HW Mode)
+Use this item to set the eDRAM mode.
+Retrain on Fast Fail (Enabled)
+Use this item to enable or disable restrain on fast fail.
+Exit On Failure (MRC) (Enabled)
+Use this item to enable or disable the exit on failure (MRC).
+Ch Hash Support (Enabled)
+Use this item to enable or disable the Ch Hash support.
+
+--- Page 41 ---
+35
+SF110 B660 USER MANUAL
+Tweak 
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+tRCD/tRP
+313
+16
+39
+tRAS
+tRFC
+9364
+18
+tREFI 
+tWR
+tWTR_L
+tWTR_S
+tRRD_L
+tRRD_S
+eDRAM Mode
+Retrain on Fast Fail
+Exit on Failure (MRC)
+Ch Hash Support
+tRTP
+tFAW
+tCWL
+0
+0
+0
+0
+9
+26
+14
+[eDRAM HW Mode]
+[Enabled]
+[Enabled]
+[Enabled]
+Enable, Disable (Enable=Def). 
+Memory Scrambler
+Memory Remap
+Fast Boot
+Memory Thermal Management
+DDR PowerDown and idle counter
+REFRESH_2X_MODE
+SelfRefresh Enable
+[Enabled]
+[Enabled]
+[Enabled]
+[Enabled]
+[BIOS]
+[Disabled]
+[Enabled]
+Memory Scrambler (Enabled)
+Use this item to enable or disable the memory scrambler.
+Memory Remap (Enabled)
+Use this item to enable or disable the memory remap above 4G.
+Fast Boot (Enabled)
+This item allows you to enable or disable the fast boot.
+Memory Thermal Management (Enabled)
+This item allows you to enable or disable the memory thermal management.
+DDR PowerDown and idle counter (BIOS)
+This item allows you to BIOS or PCODE the DDR Power Down and idle counter. BIOS: 
+BIOS is in control of DDR CKE mode and idle timer value. PCODE: pcode will manage 
+the modes.
+REFRESH_2X_MODE (Disabled)
+This item allows you to enable or disable 2xRef when Warm and Hot 2-iMC enables 
+2xRef when Hot.
+SelfRefresh Enable (Enabled)
+This item allows you to enable or disable the SelfRefresh.
+Press <Esc> to return to the Tweak Menu page.
+
+--- Page 42 ---
+36
+SF110 B660 USER MANUAL
+12th Gen Inter(R) Core(TM) i3-12300T
+ 
+This is display-only field and displays the information of the CPU installed in your 
+computer.
+Processor Speed (2300 MHz)
+This item shows the processor speed.
+Memory Frequency (2400MHz)
+ 
+This item shows the information of the memory frequency.
+Total Memory (4096 MB)
+This item shows the information of the total memory.
+
+--- Page 43 ---
+37
+SF110 B660 USER MANUAL
+Security Menu
+This page enables you to set setup administrator password and user password.
+Set Administrator Password
+    Main      Advanced     Chipset      Tweak       Security      Boot      Exit
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+Administrator Password
+Administrator Password Status Not Install
+User Password Status Not Install
+Secure Boot state Not Active
+System Mode state Setup
+[Enabled]
+Secure Boot Mode
+Secure Boot
+[Standard]
+Administrator Password Status (Not Install)
+This item shows administrator password installed or not.
+User Password Status (Not Install)
+This item shows user password installed or not.
+System Mode state (Setup)
+This item shows system mode setup or not.
+Secure Boot state (Not Active)
+This item allows you to enable or disable the secure boot state.
+Secure Boot (Enabled)
+This item is used to control the secure boot flow, it is possible only if system runs in 
+User Mode.
+Secure Boot Mode (Standard)
+This item is used to select the secure boot mode.
+
+--- Page 44 ---
+38
+SF110 B660 USER MANUAL
+Boot Menu
+This page enables you to set the keyboard NumLock state.
+    Main      Advanced     Chipset       Tweak      Security     Boot    Exit
+Boot Configuration
+Launch PXE OpROM
+Launch Storage OpROM [Enabled]
+Fast Boot
+Bootup NumLock State  [On]
+Quiet Boot [Enabled]
+Boot mode select [UEFI]
+FIXED BOOT ORDER Priorities
+Boot Option #1 [Hard Disk]
+Boot Option #2 [NVME]
+Boot Option #3 [CD/DVD]
+Boot Option #4 [USB Floppy]
+Boot Option #5
+Boot Option #6
+[USB CD/DVD]
+[USB Hard Disk:UEFI...]
+Boot Option #7 [USB Key]
+Boot Option #8 [Network]
+Boot Option #9 [Other Device]
+UEFI USB Hard Disk Drive BBS Priorities
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+[Disabled]
+[Disabled]
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+Enable or disable Boot Option 
+for Legacy Network Devices.
+Launch PXE OpROM (Disabled)
+The item enables or disables launch PXE Option ROM.
+Launch Storage OpROM (Enabled)
+Use this item to enable or disable the Storage OpROM.
+Fast Boot (Disabled) 
+This item enables or disables boot with initialization of a minimal set of device 
+required to launch active boot option. Has no effect for BBS boot options.
+Bootup NumLock State (On) 
+This item enables you to select NumLock state.
+Quiet Boot (Enabled)
+This item enables or disables quiet boot.
+Update System BIOS (Disabled)
+This item enables or disables Update System BIOS.
+Boot mode select (UEFI)
+Use this item to select boot mode.
+Boot Option #1 /2 /3 /4 /5 /6 /7 /8 /9
+These items show the boot priorities.
+ UEFI USB Hard Disk Drive BBS Priorities
+This item enables you to specify the sequence of loading the operating system from 
+the installing USB Key drive. Press <Enter> to view the submenu.
+
+--- Page 45 ---
+39
+SF110 B660 USER MANUAL
+Exit Menu
+This page enables you to exit system setup after saving or without saving the changes.
+Save Changes and Exit
+Discard Changes and Exit
+Save Changes and Reset
+Discard Changes and Reset
+Save Options
+Save Changes
+Discard Changes
+Restore Defaults
+Save as User Defaults
+Restore User Defaults
+UFFI: KingstonDataTraveler 3.0PMAP, Partition 1 (Kingsto...
+Boot Override
+    Main      Advanced     Chipset      Tweak       Security    Boot     Exit
+Exit system setup after saving
+the changes.
++/- : Change Opt.
+Enter/Dbl Click : Select
+F1 : General Help
+: Select Screen
+F2 : Previous Values
+F3 : Optimized Defaults
+F4 : Save & Exit
+ESC/Right Click : Exit
+/Click : Select Item
+Version 2.22.1286 Copyright (C) 2022 AMI
+Aptio Setup - AMI
+Save Changes and Exit
+This item enables you to exitt the system setup after saving the changes.
+Discard Changes and Exit
+This item enables you to exit system setup without saving any changes.
+Save Changes and Reset
+This item enables you to reset system setup after saving the changes.
+Discard Changes and Reset
+This item enables you to reset system setup without saving any changes.
+Save Options
+This item enables you to save the options that you have made.
+Save Changes
+This item enables you to save the changes that you have made.
+Discard Changes
+This item enables you to discard any changes that you have made.
+Restore Defaults
+This item enables you to restore defaults to all the setup options.
+Save as User Defaults
+This item enables you to save the changes that you have made as user defaults.
+Restore User Defaults
+This item enables you to restore the user defaults.
+Boot Override
+Use this item to select the boot device.
+
+--- Page 46 ---
+40
+SF110 B660 USER MANUAL
+Updating the BIOS
+You can download and install updated BIOS for this motherboard from the manufacturer’s 
+Website. New BIOS provides support for new peripherals, improvements in 
+performance, or fixes for known bugs. Install new BIOS as follows:
+1  If your motherboard has a BIOS protection jumper, change the setting to 
+allow BIOS flashing.
+2  If your motherboard has an item called Firmware Write Protect in Advanced 
+BIOS features, disable it. (Firmware Write Protect prevents BIOS from being 
+overwritten.)
+3  Prepare a bootable device or create a bootable system disk. (Refer to 
+Windows online help for information on creating a bootable system disk.)
+4  Download the Flash Utility and new BIOS file from the manufacturer’s Web 
+site. Copy these files to the bootable device.
+5  Turn off your computer and insert the bootable device in your computer. 
+(You might need to run the Setup Utility and change the boot priority items 
+on the Advanced BIOS Features Setup page, to force your computer to boot 
+from the bootable device first.)
+6  At the fs0:\> prompt, type the Flash Utility program name and the file name 
+of the new BIOS and then press <Enter>. Example: AFUEFIX64.EFI 040706.
+ROM
+7  When the installation is complete, remove the bootable device from the 
+computer and restart your computer. If your motherboard has a Flash BIOS 
+jumper, reset the jumper to protect the newly installed BIOS from being 
+overwritten. The computer will restart automatically.
+This concludes Chapter 3. Refer to the next chapter for information on the software 
+supplied with the motherboard.
+
+--- Page 47 ---
+41
+SF110 B660 USER MANUAL
+Chapter 4
+Trouble Shooting
+Troubleshooting and problem solution
+After assembling the PC for the first time you may experience some start up problems. 
+Before calling for technical support or returning for warranty, this chapter may help to 
+address some of the common questions using some basic troubleshooting tips.
+a)  Boot up failed.
+1.  Use the specified adapter provided by ECS
+2.  Check whether the adapter has been plugged in. 
+3.  Check the connection between adapter and the system.
+4.  Check that the power button can be pushed normally. If it is successfully power on, 
+the white light from LED will show up.
+5.  If the boot up problem still exists after these checking steps, please turn to local 
+dealer or repair center for further customer service.
+b)  Black screen or no image is displayed on the monitor.
+1.  Check whether the monitor has been turned on or works normally on other system.
+2.  Check whether the system has been power on successfully.
+3.  Check the cable is securely inserted into rear IO ports(VGA/HDMI) and also at 
+monitor side (VGA/HDMI).
+4.  If the display problem still exists after checking steps, please turn to local dealer or 
+repair center for further customer service.
+c)  Display Error
+1.  Check whether the driver is correctly installed in “Device Manager”.If there is yellow 
+mark or unknown devices message shown in the list, please reinstall the driver via 
+the official Driver DVD.
+
+--- Page 48 ---
+42
+SF110 B660 USER MANUAL
+2.  From the BIOS setting, try to disable the Smartfan function to let the fan run at 
+default speed. Doing a Load Optimised Default will also disable the Smartfan.
+d)  Wire LAN connecting failed.
+1.  Check whether the LAN driver is correctly installed in “Device Manager”.If there 
+is yellow mark or unknown devices message shown in the list, please reinstall the 
+driver via the official Driver DVD.
+2.  Ensure the LAN cable is securely inserted to the RJ45 port and the LED light flashes 
+normally.
+3.  Check IP address.
+4.  If the LAN connection problem still exists after these checking steps, please turn to 
+local dealer or repair center for further customer service.
+e)  Wireless LAN connecting failed
+1.  Check whether the WLAN card driver is correctly installed in “Device Manager”. If 
+there is yellow mark or unknown devices message shown in the list, please reinstall 
+the driver via the official Driver DVD.
+2.  Check the WIFI in your working area is well functional and has good reception.
+3.  If the WIFI connection problem still exists after these checking steps, please turn to 
+local dealer or repair center for further customer service.
+
+--- Page 49 ---
+43
+SF110 B660 USER MANUAL
+f)  No sound from audio combo jack
+1.  Check whether the audio driver is correctly installed in “Device Manager”.If there 
+is yellow mark or unknown devices message shown in the list, please reinstall the 
+driver via the official Driver DVD.
+2.  After connecting the speaker or header phone, adjust audio setting in Control panel> 
+Hardware and sound.
+Note:  Due to chipset limitation, the mic function of audio codec AL282 can be only 
+compatibel to iPhone devices.
+3.  If the audio problem still exists after these checking steps, please turn to local dealer 
+or repair center for further customer service.
+

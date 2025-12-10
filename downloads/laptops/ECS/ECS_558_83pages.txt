@@ -1,0 +1,1487 @@
+Brand: ECS
+Model: 558
+URL: https://www.manua.ls/ecs/558/manual
+Total Pages: 83
+============================================================
+
+--- Page 3 ---
+Preface 
+Copyright 2005 
+All Rights Reserved. 
+The information in this document is subject to change without prior notice in order to improve reliability, design 
+and function and does not represent a commitment on the part of the manufacturer.  
+In no event will the manufacturer be liable for direct, indirect, special, incidental, or consequential damages arising 
+out of the use or inability to use the product or documentation, even if advised of the possibility of such damages. 
+This document contains proprietary information protected by copyright. All rights are reserved. No part of this 
+manual may be reproduced by any mechanical, electronic, or other means in any form without prior written 
+permission of the manufacturer. 
+Limitation of Liability 
+While reasonable efforts have been made to ensure the accuracy of this manual, the manufacturer and distributor 
+assume no liability resulting from errors or omissions in this manual, or from the use of the information contained 
+herein. 
+Notices 
+Federal Communications Commission Radio Frequency Interference Statement 
+  
+This equipment has been tested and found to comply with the limits for a Class B digital device, 
+pursuant to Part 15 of the FCC Rules.  These limits are designed to provide reasonable protection 
+against harmful interference in a residential installation.  
+ 
+This equipment generates, uses, and can radiate radio frequency energy and if not installed and used 
+in accordance with the instruction manual may cause harmful interference to radio communications.  
+i
+
+--- Page 4 ---
+However, there is no guarantee that interference will not occur in a particular installation.  If this 
+equipment does cause harmful interference to radio or television reception, which can be determined 
+by turning the equipment off and on, the user is encouraged to try to correct the interference by one 
+or more of the following measures: 
+Reorient or relocate the receiving antenna.  
+ 
+ 
+ 
+Increase the separation between the equipment and receiver. 
+Connect the equipment into an outlet on a circuit different from that to which the receiver is connected. 
+Consult the dealer or an experienced radio TV technician for help. 
+ 
+Changes or modifications not expressly approved by the party responsible for compliance could void 
+the user’s authority to operate the equipment.  Shielded interface cables and a non-shielded AC 
+power cord must be used in order to comply with emission limits.   
+This equipment is to be used with power supply: 
+Input: 100-240V AC, 50-60Hz, 1.5A, Universal 
+Output: 19V DC, 3.16A, min 
+There is no internal power supply. 
+Canadian DOC Notice For Class B Computing Devices 
+This Class B digital apparatus meets all requirements of the Canadian Interference - Causing Equipment 
+Regulations. 
+Cet appareil numerique de la classe B repecte toutes les exigences du Règlement sur le matèriel brouilleur du 
+Canada. 
+ 
+ 
+ii
+
+--- Page 5 ---
+Table of Contents 
+Chapter 1: Before you Start ------------------------------------------------------------------------------------------1 
+Conventions of This Manual....................................................................................................................................... 1 
+Things you must remember before working on your computer.................................................................................. 6 
+Chapter 2: Introduction ------------------------------------------------------------------------------------------------9 
+Welcome to the Notebook PC..................................................................................................................................... 9 
+Getting to Know Your Computer................................................................................................................................ 10 
+Chapter 3: Getting Started --------------------------------------------------------------------------------------------19 
+Connecting to a Power Source.................................................................................................................................... 19 
+Turning On Your Notebook Computer....................................................................................................................... 20 
+Operating on Battery Power........................................................................................................................................ 20 
+Chapter 4: Using the Notebook Computer ----------------------------------------------------------------------23 
+Adjusting the LCD Screen Display............................................................................................................................. 23 
+A Tour of the Notebook’s Keyboard .......................................................................................................................... 24 
+The TouchPad............................................................................................................................................................. 26 
+Connecting an External Tracking Devices.................................................................................................................. 27 
+The CD-ROM/DVD-ROM/Combo Drive .................................................................................................................. 27 
+Power Saving Modes .................................................................................................................................................. 28 
+Chapter 5: Desktop Operation ---------------------------------------------------------------------------------------33 
+Audio .......................................................................................................................................................................... 33 
+Connecting Peripheral Devices................................................................................................................................... 35 
+iii
+
+--- Page 6 ---
+Chapter 6: Internet Connection -------------------------------------------------------------------------------------37 
+Using a modem for Connection to Internet................................................................................................................. 37 
+Using a wired LAN for Connection to Internet........................................................................................................... 37 
+Using Both DHCP and Static IP for Connection to Internet....................................................................................... 41 
+Using Wireless LAN Network for Connection to Internet (Microsoft’s Service Pack 2) (Optional) ......................... 43 
+Chapter 7: Running BIOS Setup ------------------------------------------------------------------------------------45 
+Introduction................................................................................................................................................................. 45 
+Navigating through BIOS Setup ................................................................................................................................. 45 
+Accessing the BIOS Setup Program ........................................................................................................................... 45 
+The Menu Bar ............................................................................................................................................................. 46 
+The Legend Bar .......................................................................................................................................................... 46 
+Launching Submenus.................................................................................................................................................. 47 
+General Help............................................................................................................................................................... 47 
+The Main Menu .......................................................................................................................................................... 48 
+The Advanced Menu................................................................................................................................................... 49 
+The Security Menu...................................................................................................................................................... 50 
+The Boot Menu........................................................................................................................................................... 51 
+The Exit Menu ............................................................................................................................................................ 52 
+Chapter 8: The Software Utilities Disks --------------------------------------------------------------------------錯
+誤! 尚未定義書籤。 
+Installing the Drivers................................................................................................................................................... 53 
+VGA Utilities.............................................................................................................................................................. 53 
+Chapter 9: Troubleshooting ------------------------------------------------------------------------------------------61 
+Locating a Problem..................................................................................................................................................... 61 
+Checking Cables and Connections.............................................................................................................................. 62 
+The Power-On Self Test.............................................................................................................................................. 63 
+iv
+
+--- Page 7 ---
+General Hardware Problems ....................................................................................................................................... 63 
+Contacting Your Dealer.............................................................................................................................................. 65 
+Chapter 10: Upgrading your System ------------------------------------------------------------------------------67 
+Upgrading your Memory ............................................................................................................................................ 67 
+The Easy to Upgrade HDD Module............................................................................................................................ 68 
+Upgrading your System CPU...................................................................................................................................... 70 
+Appendix A: Specification --------------------------------------------------------------------------------------------73 
+Detailed Notebook Specifications............................................................................................................................... 73 
+ 
+ 
+ 
+ 
+ 
+v
+
+--- Page 9 ---
+B
+B
+e
+e
+f
+f
+o
+o
+r
+r
+e
+e
+ 
+ 
+y
+y
+o
+o
+u
+u
+ 
+ 
+S
+S
+t
+t
+a
+a
+r
+r
+t
+t
+ 
+ 
+Conventions of This Manual 
+Use this manual will help you get the most from your notebook computer.   
+If you are an experienced user of computers and/or Microsoft’s Windows operating systems, you might find it 
+useful to read the Quick Start Guide that comes along with your accessories. 
+ 
+  If you are a less experienced user, you should through the manual carefully before using your system. 
+Whether or not you are an experienced user, you should consult on the Troubleshooting Chapter if you encounter 
+any problems with your notebook.   
+Safety Precautions 
+This section is designed to assist you in identifying potentially unsafe conditions while working with this product. 
+Required safety features have been installed in the computer to protect you from injury. However, you should use 
+good judgment to identify potential safety hazards: 
+1.  Please read these safety instructions carefully. 
+2. 
+3. 
+4. 
+5. 
+6. 
+Please keep this User's Manual for later reference. 
+Please disconnect this equipment from AC outlet before cleaning. Don't use liquid or sprayed detergent for 
+cleaning. Use moisture sheet or cloth for cleaning. 
+For pluggable equipment, that the socket-outlet shall be installed near the equipment and shall be easily 
+accessible. 
+Please keep this equipment from humidity. 
+Lay this equipment on a reliable surface when installed. A drop or fall could cause injury. 
+1
+
+--- Page 10 ---
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+b. 
+c. 
+d. 
+e. 
+f. 
+14. 
+15. 
+16. 
+17. 
+Make sure to use the right voltage for the power source when connecting the equipment to the power outlet. 
+Place the power cord in such a way that people can not step on it. Do not place anything on top of the power 
+cord. 
+All cautions and warnings on the equipment should be noted. 
+If the equipment is not use for a long time, disconnect the equipment from the main power outlet to avoid 
+being damaged by transient overvoltage. 
+Never pour any liquid into the opening, this could cause fire or electrical shock. 
+Never open the equipment. For safety reason, the equipment should only be opened by a qualified service 
+personnel. 
+If on the following situations arises, get the equipment checked by a service personnel: 
+a.  The Power cord or plug is damaged. 
+Liquid has penetrated into the equipment. 
+The equipment has been exposed to moisture. 
+The equipment has not worked well or you cannot get it work according to the user's manual. 
+The equipment has dropped and damaged. 
+If the equipment has obvious sign of breakage. 
+Do not leave this equipment in an environment unconditioned, storage temperature above 60°C (140°f), it 
+may damage the equipment. 
+The unit can be operated at an ambient temperature of max. 35°C. 
+The sound pressure level at the operators position according to IEC 704-1: 1982 is equal or less than 70 
+dB(A). 
+Power Cord Requirements 
+The power cord set used with the AC adaptor must meet the requirements of the country where you use the 
+AC adaptor, whether it is 100-120 or 200-240 Vac. The following information explains the requirements for 
+power cord set selection. 
+•  The cord set must be approved for the country in which it is used. 
+•  The appliance coupler must have a configuration for mating with a CEE22/EN6032/IEC 320 
+2
+
+--- Page 11 ---
+appliance inlet. 
+A. 
+B. 
+C. 
+18. 
+19. 
+20. 
+21. 
+For U.S. and Canada: 
+•  The cord set must be UL Listed and CSA Certified. 
+•  The minimum specifications for the flexible cord are No. 18 AWG. 
+For Japan: 
+•  All components of the cord set must bear a “PSE” or “ T ” mark and registration number in 
+accordance with the Japanese Dentori Law. 
+•  The minimum specifications for the flexible cord are .75m ㎡ conductors. 
+For Other Countries: 
+•  The cord set fittings must bear the certification mark of the agency responsible for evaluation in a 
+specific country. 
+•  The flexible cord must be of a HAR (harmonized) type H03VV-F. 
+•  The cord set must have a current capacity of a least 2.5 Amperes and voltage rating of 125 or 250 
+Vac. 
+When using your telephone equipment, basic safety precautions should always be followed to reduce the 
+risk of fire, electric shock and injury to persons. These precautions includes the following: 
+  Do not use this product near water, for example, near a bathtub, washbowl, kitchen sink or laundry tub, 
+in a wet basement or near a swimming pool. 
+  Avoid using a telephone (other than a cordless type) during an electrical storm. There may be a remote 
+risk of electric shock from lightning. 
+  Do not use the telephone to report a gas leak in the vicinity of the leak. 
+  Use only the power cord indicated in this manual. 
+Do not use the AC adapter near open water or other liquids. Never spill liquid into the AC adapter. 
+Laser Warning: Laser Class I Product Caution - Invisible laser radiation when open avoid exposure to beam. 
+Danger of explosion if battery is incorrectly replaced.  Replace only with the same or equivalent type 
+recommended by the manufacturer. Dispose of used batteries according to the manufacturer's instructions.  
+Never remove the battery pack while the power is on as this may result in data loss when the system loses 
+power. 
+3
+
+--- Page 12 ---
+22.  The input receptacle is used as the main disconnecting device. 
+Wichtige Sicherheitshinweise 
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+b. 
+c. 
+d. 
+Bitte lesen Sie diese Hinweis sorgfältig durch. 
+Heben Sie dirse Anleitung für den späteren Gebrauch auf. 
+Vor jedem Reinigen ist das Gerät vom Stromnetz zu trennen. Versenden Sie Keine Flüssig- oder 
+Aerosolreiniger. Am besten eignet sich ein angefeuchtetes Tuch zur Reinigung. 
+Die Netzanschluβsteckdose soll nahe dem Gerät angebracht und leicht zugänglich sein. 
+Das Gerät ist vor Feuchtigkeit zu schützen. 
+Bei der Aufstellung des Gerätes ist auf sicheren Stand zu achten. Ein Kippen oder Fallen könnte 
+Beschädigungen hervorrufen. 
+Beachten Sie beim Anschluß an das Stromnet die Anschlußwerte. 
+Verlegen Sie die Netzanschlußleitung so, daß niemand darüber fallen kann. Es sollte auch nichts auf der 
+Leitun abgestellt werden. 
+Alle Hinweise und Warnungen, die sich am Gerät  befinden, sind zu beachten. 
+Wird das Gerät üeinen längeren Zeitraum nicht benutzt, sollten Sie es vom Stromnetz trennen. Somit wird 
+im Falle einer Überspannung eine Beschädigung vermieden. 
+Durch die Lüftungsöffnungen dürfen niemals Gegenstände oder Flüssigkeien in das Gerät gelangen.  Dies 
+könne einen Brand bzw. Elektrischen Schlag auslösen. 
+Öffnen Sie niemals das Gerät. Das Gerät darf aus Gründen der elektrischen Sicherheit nur von 
+authorisiertem Servicepersonal geöffnet werden. 
+Wenn folgende Situationen auftreten ist das Gerät vom Stromnetz zu trennen und von einer qualifizierten 
+Servicestelle zu Überprüfung.: 
+a.  Netzlabel oder Netzstecker sind beschädigt. 
+Flüssigkeit ist in das Gerät eingedrungen. 
+Das Gerät war Feuchtigkeit ausgesetzt. 
+Wenn das Gerät nicht der Bedienungsanleitung entsprechend funktioniert oder Sie mit Hilfe dieser 
+Anleitung keine Verbesserung erzielen. 
+4
+
+--- Page 13 ---
+e. 
+f. 
+14. 
+15. 
+16. 
+17. 
+A. 
+B. 
+C. 
+18. 
+Das Gerät ist gefallen und/oder das Gehäuse ist beschädigt. 
+Wenn das Gerät deutliche Anzeichen eines Defektes aufweist. 
+VORSICHT: Explosiongsgetahr bei unsachgemäßen Austausch der Batterie.  Ersatz nur durch denselben 
+oder einem vom Hersteller empfohlenem ähnlichen Typ. Entsorgung gebrauchter Batterien nach Angaben 
+des Herstellers. 
+Dieses Schaltnetzteil kann bis zu einer Außentemperatur von maximal 35ºC. 
+Die Ausgangswerte dürfen nicht die auf dem Label angegebenen Werte überschreiten. 
+Anforderungen an das Stromkabel 
+Das Kabel-Set, das an das Netzteil angeschlossen wird, muss den Anforderungen des Landes, in dem Sie 
+das Netzteil einsetzen, genügen, je nachdem, ob die Netzspannung 100-120 oder 200-240V 
+Wechselspannung beträgt. 
+•  Das Kabel-Set muss für das Land, in dem es eingesetzt wird, zugelassen sein. 
+•  Der Gerätestecker des Kabels muss in eine CEE22/ EN603/ IEC 320 Buchse passen. 
+Für die USA und Kanada: 
+•  Das Kabel-Set muss UL-gelistet und CSA zertifiziert sein. 
+•  Die Minimalanforderungen für das Kabel entsprechen No. 18 AWG. 
+Für Japan: 
+•  Alle Teile des Kabel-Sets müssen entsprechend dem japanischen Dentori Law mit einem „PSE“ or 
+„T”-Symbol markiert sein 
+•  Die Minimalanforderungen für das Kabel sind .75m ㎡ Leiter. 
+Für andere Länder: 
+•  Die Zubehörteile des Kabel-Sets müssen das Prüfsiegel derjenigen Stelle, die in dem jeweiligen 
+Land für die Sicherheitsprüfung zuständig ist, tragen. 
+•  Das Kabel muss vom HAR (harmonisierten) Typ H03VV-F sein. 
+•  Das Kabel-Set muss eine Stromkapazität von mindestens 2,5 Ampere haben und Spannungen von 
+125 oder 250 V Wechselstrom gestatten. 
+Bei der Benutzung Ihres Telefongerätes sollten Sie immer die grundlegenden Sicherheitsmaßnahmen 
+beachten, um das Risiko von Feuer, Stromschlägen und Verletzungen zu minimieren. Zu beachten sind u.a. 
+5
+
+--- Page 14 ---
+folgende Punkte:  
+  Benutzen Sie das Gerät nicht in der Nähe von Wasser, wie zum Beispiel Badewanne, Waschbecken, 
+Spülbecken, Waschbottich, in feuchten Kellerräumen oder in der Nähe von Schwimmbecken.  
+  Benutzen Sie kein Telefon (ausgenommen schnurlose Modelle) während eines Gewitters. Es besteht 
+das geringe Restrisiko eines Blitzschlages.  
+  Benutzen Sie das Telefon nicht um ein Gasleck zu melden, falls es sich in der Nähe des Lecks befindet. 
+  Benutzen Sie nur solch ein Stromkabel, wie in dieser Anleitung beschrieben. 
+19. 
+20. 
+21. 
+22. 
+Benutzen Sie das Netzteil nicht in unmittelbarer Nähe zu Wasser oder anderen Flüssigkeiten. Gießen Sie 
+nie Flüssigkeiten über das Netzteil. 
+Achtung Laser: Laser Produkt der Klasse I. Achtung - Unsichtbarer Laserstrahl, vermeiden Sie Kontakt mit 
+dem Strahl bei offenem Gehäuse. 
+Es besteht Explosionsgefahr, wenn der Akku nicht ordnungsgemäß ersetzt wird. Ersetzen Sie den Akku nur 
+durch einen Akku gleichen oder äquivalenten Typs, der vom Hersteller empfohlen wird. Entsorgen Sie 
+Akkus entsprechend den Anweisungen des Herstellers. Entfernen Sie den Akku auf keinen Fall bei 
+eingeschaltetem Notebook, da hierdurch Daten verloren gehen könnten. 
+Der Netzeingabeanschluss dient als Hauptschalter des Geräts. 
+Things you must remember before working on your computer 
+ Let your computer acclimate itself 
+Your notebook can easily stand temperature extremes but it doesn’t like rapid changes in temperature, like going 
+from the cold outdoors to a warm office. Rapid changes in temperature can cause water droplets to condense inside 
+your case, threatening to damage the electronic parts inside.  
+After receiving your notebook when it’s hot or cold outside, try not to power up the computer immediately, let the 
+computer adjust to the room temperature gradually at least for three to four hours. 
+6
+
+--- Page 15 ---
+If your system arrives in cold weather, do not apply power to the computer or monitor until they have 
+been allowed to come to room temperature. 
+ 
+ 
+ 
+ 
+ 
+Heat, Cold, Humidity, and Glare 
+Find a suitable place for your computer that’s not too hot, too cold, too dark, or too bright. Glare can make it hard 
+to read the screen.   
+Try to avoid the computer components from being destroyed if it is over heated, so try to allow plenty of room 
+for air to circulate around the case.   
+Do not block the ventilation opening.  
+Do not place your computer in direct sunlight. 
+Suitable place to work 
+Your computer will run well wherever you’re comfortable but extremes of temperature and humidity can be 
+challenging to your system’s parts. There are some things you can tolerate that the computer can’t – things like 
+static electricity, dust, water, steam and oil. A lithium-ion battery pack will be available when you are traveling. If 
+you are running your system for the first time on battery power, remove the battery from the package, install it into 
+the system and recharge the battery to fully prepare for service. 
+7
+
+--- Page 16 ---
+Page intentionally left blank 
+8
+
+--- Page 17 ---
+I
+I
+n
+n
+t
+t
+r
+r
+o
+o
+d
+d
+u
+u
+c
+c
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+ 
+ 
+There are more and more people spending large amounts of time in front of computer monitors now 
+that scientists from many fields including anatomy, psychology, and occupational safety are involved 
+in the study of ergonomically sound work environments. 
+A few tips to help you work effectively without a lot of physical discomfort: 
+Purchase a chair with armrests and good back support. Don't slouch when sitting; keep your back straight.  
+ 
+ 
+ 
+ 
+Try to place the LCD panel or external monitor so that there is little glare from the sun on the monitor. 
+Walk around the room every hour. 
+Every half hour look away from the computer screen for a few minutes. 
+Place everything that you need to work within easy reach. 
+Welcome to the Notebook PC 
+Congratulations on your purchase of the Notebook PC. Your Notebook features the latest advances in portable 
+computing technology. The Notebook’s modular design provides maximum expandability without compromising 
+portability. The high-performance CPU and enhanced IDE hard drive provides you with extra processing power for 
+handling complex graphics and running large programs.   
+9
+
+--- Page 18 ---
+Getting to Know Your Computer 
+ Opening the LCD Panel 
+At the front of the Notebook you will find a retaining latch on the display panel that locks the display in closed 
+position when the Notebook is not in use. 
+ 
+ 
+To avoid damage to the display panel: 
+1. Try not to slam the display upon closing it. 
+2. Try not to place any object on top when it is closed or open. 
+3. Be sure the system is turned off or in suspend mode before you close the display panel. 
+With the LCD screen open, you will see several features important for operating your Notebook computer. 
+10
+
+--- Page 19 ---
+Each of these features is briefly described below. 
+ 
+LCD Cover Release 
+Latch 
+ 
+LCD Screen 
+ 
+Internet Explorer 
+Button 
+ 
+Email Button 
+ 
+System Status 
+Indicator Panel 
+ 
+11
+
+--- Page 20 ---
+HDD - Indicates that the computer is accessing the hard disk drive. 
+Numeric Lock - Indicates that the keyboard is in Num Lock mode.   
+Caps Lock - Indicates when the keyboard is in Caps Lock mode.  In this mode, the 
+keyboard produces uppercase text when you press a key.  When you press the Caps 
+Lock key again, the indicator goes off and the keyboard produces lowercase text. 
+Scroll Lock - Indicates when the keyboard is in Scroll Lock mode.  Some applications 
+will move information across the screen differently when Scroll Lock is on. 
+ 
+ 
+Power/Resume Button 
+ 
+TouchPad 
+ 
+Scroll Button  
+ 
+TouchPad Buttons 
+ 
+The Built-in Microphone 
+12
+
+--- Page 21 ---
+ The Left Side 
+ 
+Ventilation Opening 
+ 
+1394A 
+ 
+PCMCIA socket cover 
+ 
+PCMCIA Button 
+ 
+The LAN Port 
+  
+When using a LAN, please use an EMI 
+Shielding Cable to minimize an inteference 
+when transmitting. 
+ 
+The Modem Port 
+  
+Always disconnect all telephone lines from 
+the wall outlet before servicing or 
+disassembling this equipment. To reduce 
+the risk of fire use only No. 26 AWG or 
+larger telecommunication line cord. 
+ 
+ 
+Microphone Jack 
+ 
+ 
+Audio Line Out Jack 
+ 
+13
+
+--- Page 22 ---
+LED Indicators 
+These three LED indicators are separately program for the following functions: Power On, Suspend Mode and 
+Battery Charge. 
+ 
+Power On 
+ 
+Battery Charge 
+ 
+Suspend Mode 
+ 
+ 
+ 
+14
+
+--- Page 23 ---
+ The Right Side 
+ 
+The CD-ROM/DVD-ROM or DVD 
+CD-RW Combo (Option) 
+ 
+DC IN Connector 
+ 
+ 
+ 
+ 
+15
+
+--- Page 24 ---
+ The Rear 
+ 
+Ventilation Opening 
+ 
+Kensington Lock 
+ 
+S-Video Port 
+ 
+Parallel Port 
+ 
+External CRT Port 
+ 
+IR Port 
+ 
+USB Ports 
+ 
+ 
+ 
+16
+
+--- Page 25 ---
+ The Bottom Panel 
+ 
+MiniPCI/Wireless 
+LAN/Modem Combo 
+Compartment (Option) 
+ 
+Expansion Compartment 
+ 
+Battery Release Latch 
+ 
+Battery 
+ 
+Hard Disk Drive 
+ 
+ 
+ 
+ 
+ 
+ 
+17
+
+--- Page 26 ---
+Page intentionally left blank 
+ 
+ 
+ 
+ 
+18
+
+--- Page 27 ---
+G
+G
+e
+e
+t
+t
+t
+t
+i
+i
+n
+n
+g
+g
+ 
+ 
+S
+S
+t
+t
+a
+a
+r
+r
+t
+t
+e
+e
+d
+d
+ 
+ 
+Connecting to a Power Source 
+ Connecting the AC Adapter 
+A universal AC adapter is provided to supply your computer 
+with power and also charge the computer’s battery pack. The 
+adapter’s AC input voltage can range covering the standard 
+voltages available in almost every country. The power cord 
+for the AC adapter requires a three-hole grounded AC outlet. 
+To connect the computer to an external power source: 
+  
+Do not use inferior extension cords as this may result 
+in damage to your Notebook. The Notebook comes 
+with its own AC adapter. Do not use a different 
+adapter to power the computer and other electrical 
+devices. 
+ 
+Whenever possible, keep the AC adapter plugged into the Notebook and an electrical outlet to recharge the battery.   
+19
+
+--- Page 28 ---
+Never turn off or reset your Notebook while the hard disk is in use and the HDD status icon is lit; 
+doing so can result in loss or destruction of your data.  Always wait at least 5 seconds after turning 
+off your Notebook before turning it back on; turning the power on and off in rapid succession can 
+damage the Notebook’s electrical circuitry. 
+Turning On Your Notebook Computer 
+Turn on your Notebook by pressing the power button. Hold the button down for a second or two and release.  The 
+Power-On Self Test (POST) runs automatically.   
+After the POST is completed, the computer reads the operating system from the hard disk drive into computer 
+memory (this is commonly referred to as “booting” a computer). If your OS (Operating System such as Windows 
+XP…. etc)  is installed, it should start automatically. 
+To turn the Notebook off, save your work and close all open applications, click on Start, then select the “Turn off 
+the computer”. A selection box will be displayed and click on the “Turn Off” button to shut down your computer. 
+  
+When your computer hangs up, press the power button for 4-6 seconds to shut down the computer 
+Operating on Battery Power  
+Your computer comes with a rechargeable battery pack that lets you operate the computer without an external 
+power source. When the battery pack is fully charged, you can operate the computer for approximately 2 hours 
+under the following conditions:  
+The battery pack initially has a full charge.  
+ 
+ 
+No peripheral devices are installed. 
+The disk/CD-ROM drives run no more than 10% of the time. 
+20
+
+--- Page 29 ---
+Only use batteries that are approved by an authorized dealer. All batteries are not the same and 
+therefore should not be treated as such.  Using the wrong battery could cause serious damage to 
+your computer and yourself through toxic emissions. 
+ 
+2. 
+3. 
+Inserting and Removing the Battery Pack 
+The battery pack should already be inserted in your Notebook computer when you unpack it.  If not inserted, 
+follow these directions: 
+1.  Turn over the notebook with the front of the unit facing you and place it on a solid, flat surface. 
+Angle the battery into the bay.  The front edge of the battery should slide into the grooves in the system 
+case. 
+Gently lower the battery into the bay and push it until it clicks securely in the bay. 
+ 
+To remove the battery pack: 
+Turn off the notebook, and disconnect the AC adapter. Close the LCD panel and turn it over and place it on a 
+solid, flat surface.   
+ 
+21
+
+--- Page 30 ---
+Lift the release latch to release the battery from the bay. At this time the battery will now be angled slightly 
+out of the bay. 
+ 
+  Hold the battery at the finger grip and lift it out of the compartment. 
+ 
+ Charging the Battery Pack 
+The installed battery pack charges automatically any time the computer is connected to the AC adapter and an 
+external power source. It is a good idea to occasionally discharge the battery pack fully to preserve its operating 
+performance.   
+ 
+22
+
+--- Page 31 ---
+U
+U
+s
+s
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+N
+N
+o
+o
+t
+t
+e
+e
+b
+b
+o
+o
+o
+o
+k
+k
+ 
+ 
+C
+C
+o
+o
+m
+m
+p
+p
+u
+u
+t
+t
+e
+e
+r
+r
+ 
+ 
+Adjusting the LCD Screen Display 
+The LCD screen display can be adjusted by the following key combinations. 
+KEYS  FUNCTIONS 
+[Fn] + [F7]  Decreases the brightness level. 
+[Fn] + [F8]  Increases the brightness level. 
+[Fn] + [F10]  Use this key combination to expand your video screen or reset to its original size. This 
+function will be disabled when the system is in Overlay mode (playing video). 
+[Fn] + [F12] 
+This key combination toggles the display between the LCD, CRT, simultaneous 
+LCD/CRT, simultaneous LCD/TV and TV only. This function will be disabled when the 
+system is in Overlay (playing video) or Extended Desktop mode. 
+ 
+ 
+ 
+ 
+ 
+LCD Care 
+LCD screens are delicate devices that need careful handling. Please pay attention to the following precautions: 
+When you are not using the computer, keep the LCD screen closed to protect it from dust.   
+If you need to clean your LCD screen, use a soft tissue to gently wipe the LCD surface.   
+Do not put your fingers or sharp objects directly on the surface and never spray cleaner directly onto the 
+display. 
+Do not press on, or store any objects on the cover when it is closed.  Doing so may cause the LCD to break. 
+23
+
+--- Page 32 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+External Display 
+Windows Environment 
+LCD only 
+CRT only 
+Simultaneous display of LCD screen and CRT monitor 
+Simultaneous display of LCD screen and TV display 
+TV only 
+You can switch between these display configurations by pressing the key combination [Fn] + [F12].   
+DOS Environment 
+LCD only 
+CRT only 
+Simultaneous display of LCD screen and CRT monitor 
+TV only 
+You can switch between these display configurations by pressing the key combination [Fn] + [F12].   
+A Tour of the Notebook’s Keyboard 
+The Notebook’s keyboard uses a standard QWERTY layout with the addition of special function keys and an 
+embedded numeric keypad for number intensive data entry. Your keyboard supports Windows by incorporating the 
+two Windows specific keys. With the two Windows keys you will be able to access and take advantage of many of 
+the timesaving features of Windows software. 
+The function keys (F1-F12) on the top row of the keyboard, serve different purposes and carry out different tasks 
+depending on the application you are running. The cursor (arrow) keys (which are all located in the lower right 
+corner of your keyboard) and the [PgUp], [PgDn], [Home] and [End] keys (which are located along the right edge 
+of the keyboard) allow you to move the active cursor of the computer to various locations on the screen or within 
+the document. 
+24
+
+--- Page 33 ---
+The embedded numeric keypad consists of 15 keys that make number intensive input more convenient.  Like the 
+[Num Lock] key, these keys are labeled in blue on the keycaps.  Numeric assignments are located at the upper right 
+of each key.   
+When the numeric keypad is engaged, the NumLock icon will appear in the System Window.  The keypad is 
+activated by pressing the [Fn] + [NumLk] key.  If an external keyboard is connected, pressing the NumLock key 
+on either the Notebook or external keyboard will enable/disable NumLock of both keyboards in unison. To disable 
+the Notebook numeric keypad while keeping the keypad on an external keyboard activated, use the [Fn] + [NumLk] 
+hot key on the Notebook keyboard. 
+ The Notebook’s Hot Key Controls 
+KEYS  FUNCTION(S) 
+Power Button  Press this button once to power on or enter the suspend/resume mode. 
+Press this button for more than 4 seconds to power off the system. 
+Internet Button  Open Internet WWW Home short-cut key 
+Email Button  Open Email Reader short-cut key 
+[Fn] + [F1]  This key combination turns on/off the battery beeping sound 
+[Fn] + [F2]  This key combination turns on/off the volume. 
+[Fn] + [F3]  Decreases the speaker volume.   
+[Fn] + [F4]  Increases the speaker volume.   
+[Fn] + [F5]  Enable/Disable the system Touchpad function 
+[Fn] + [F7]  Decreases the brightness level. 
+[Fn] + [F8]  Increases the brightness level. 
+[Fn] + [F10]  Use this key combination to expand your video screen or reset to its original size. 
+This function will be disabled when the system is in Overlay mode (playing 
+video). 
+25
+
+--- Page 34 ---
+KEYS  FUNCTION(S) 
+[Fn] + [F12]  This key combination toggles the display between the LCD, CRT, simultaneous 
+LCD/CRT, simultaneous LCD/TV and TV only. This function will be disabled 
+when the system is in Overlay (playing video) or Extended Desktop mode. 
+The TouchPad 
+The touchpad is a rectangular electronic panel located just below your keyboard. You can use the static-sensitive 
+panel of the touchpad and slit it to move the cursor.  You can use the buttons below the touchpad as left and right 
+mouse buttons. 
+ 
+ TouchPad Precautions 
+The TouchPad is a pressure sensitive device.  Please take note of the following precautions. 
+26
+
+--- Page 35 ---
+Make sure the TouchPad does not come into contact with dirt, liquids or grease.  
+ 
+ 
+Do not touch the TouchPad if your fingers are dirty. 
+Do not rest heavy objects on the TouchPad or the TouchPad buttons. 
+You can use the TouchPad with Microsoft Windows as well as non-Windows applications. 
+Connecting an External Tracking Devices 
+The system will only enables you to use one tracking device whether it is an internal or external tracking device.  
+ Data Storage and Retrieval 
+Data storage and retrieval are two of the most fundamental tasks you will perform when working with your 
+computer. The Notebook is equipped with a hard disk drive (HDD). The HDD is removable allowing for easy 
+upgrades.  
+The CD-ROM/DVD-ROM/Combo Drive 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2. 
+Precautions for Handling CD-ROM/DVD-ROM/Combo Drive 
+Always hold the disc by the edges, avoid touching the surface. 
+Use a clean, dry, cloth to remove dust, smudges, or fingerprints. Wipe from the center outward. 
+Do not write or place objects on the surface of the disc. 
+Store discs in a cool dry place not to damage the disc.   
+Do not use benzene, thinners, or cleaners with detergent. Only use CD-ROM/DVD-ROM cleaning kits. 
+Do not bend or drop the discs. 
+Loading a Disc 
+To play a CD disc, follow the instructions listed below. 
+1.  Push the CD-ROM/DVD-ROM/Combo Drive eject button on the CD drive door. Gently pull the tray all the 
+way out. 
+Carefully lift the CD-ROM/DVD-ROM/Combo Drive by the edges and make sure the shiny surface is face 
+down (the side with no writing on it). Carefully insert the CD-ROM onto the tray. Push the CD-
+27
+
+--- Page 36 ---
+ROM/DVD-ROM/Combo Drive down gently so that it snaps onto the center ring. 
+3. 
+2. 
+3. 
+Push the tray back into the drive. 
+To remove a disk, do the following: 
+1.  Check the LED display and make sure that the computer is not accessing the CD-ROM/DVD-ROM/Combo 
+Drive. 
+Push the eject button and pull the tray all the way out. 
+Carefully pick up the CD disk by the edges and – while pressing down on the center ring – remove the CD-
+ROM/DVD-ROM/Combo from the tray.   
+  
+Do not insert any foreign objects into the disc tray. If you experience difficulty when ejecting the CD 
+disk tray, stretch a paper clip (or use a pin or a thin metal rod) and insert it into the emergency eject 
+hole located on the right side of the front panel. The CD disk tray should eject immediately. This 
+procedure can also be used to remove a CD from the drive when the Notebook is powered off. 
+Power Saving Modes 
+This section contains information on the Notebook’s power system, including the AC Adapter, the battery system, 
+recharging the battery, and tips for conserving battery power.   
+The power system is comprised of two parts, the AC Adapter and the battery system.  The AC Adapter converts 
+AC power from a wall outlet to the DC power required by the computer.   
+ The Battery Power System 
+A fully charged pack will provide approximately 2 hours of battery life depending on your system configuration 
+application it runs. Before using the computer on battery power for the first time, check the battery status icon on 
+the Windows Toolbar to make sure the battery is fully charged.   
+See Battery Status later in this section for a description and explanation of the Windows Battery icon.  Charging 
+the battery takes about 3 hours to charge when the system is in off state.  If possible, always charge the battery 
+completely.  
+28
+
+--- Page 37 ---
+ 
+ 
+2. 
+3. 
+4. 
+ 
+Removing the Battery Pack 
+To remove the battery pack from its compartment, please refer to Chapter 3, Inserting and Removing the Battery 
+Pack. 
+Preparing the Battery Pack for Use 
+Before using the battery pack for the first time, the Smart Battery IC within the battery pack should be calibrated in 
+order to get accurate reporting of remaining battery life status.   
+To calibrate the battery pack follows the instructions below: 
+1.  Insert the battery into the battery compartment and turn on the Notebook. If the battery is completely 
+without power go to the next step.   
+ 
+Otherwise, let the battery run down until the battery low-low warning beeps are heard.   
+The system will automatically enter Suspend mode. 
+Turn the Notebook off.  Connect the AC adapter and let the battery fully recharge. When the battery charge 
+indicator turns off, the battery is fully charged. 
+Turn On the notebook, let the battery run down until the battery is in low-low state and you hear a warning 
+beeps. The system will automatically enter the Suspend mode. You can now connect the AC adapter. 
+The battery pack is now calibrated properly. 
+In general, using the battery until the low-low battery-warning indicator appears and fully recharges the battery 
+each time (full discharge/charge cycle) will ensure the accurate reporting of the battery gauge status. 
+Automatic Battery Pack Charging Function  
+You can automatically charge the battery pack by using the AC Adapter. The charge time is about three hours 
+when the Notebook power is turned off.  The following table summarizes the charging modes: 
+Charge Mode  Charge Time 
+Fast  3 hours with the system off or in Suspend mode. The temperature must be 
+25°C or below room temperature. 
+29
+
+--- Page 38 ---
+Pre-Charge  A pre-charge is supplied to the Li-Ion battery pack. 
+ 
+ 
+Battery Status 
+Windows XP has an applet in the Control Panel that will display an icon in the Windows taskbar indicating when 
+the Notebook is running on battery power or is attached to the AC adapter. This applet also displays a meter that 
+indicates how much charge is remaining in the battery.  
+Battery Low Warning  
+When the pack initially reaches the “Battery Low” state approximately 7 ~ 10 minutes of the usable battery life is 
+left. You will hear an audible beep signal every 1.5 seconds alerting you to the “Battery Low” status.  When the 
+battery power reaches the “Battery Low Low” status the beeping sound will accelerate. Your battery now has 1 ~ 2 
+minutes of battery charge remaining. You must save your data or connect AC power immediately; otherwise, you 
+may lose your data. 
+Sound  Meaning 
+Continuous beeping 
+every 1.5 seconds 
+Battery Low: Indicates that there is 7 to 10 minutes charge remaining.   
+Beeping accelerates Battery Low Low:  Indicates that there is 1 to 2 minutes of battery charge 
+remaining.  Save your work and turn off the Notebook, or connect the AC 
+adapter. 
+ Small Battery for the Real Time Clock 
+There is a small built-in battery pack that supplies power to the system in order to maintain certain system 
+information while the power is off. If the Notebook is left without a power source for long period of time, this 
+battery will be exhausted and system information will be lost.   
+Danger of explosion if battery is incorrectly replaced. Replace only with the same or equivalent type 
+recommended by the manufacturer. Dispose of used batteries according to the manufacturer's instructions.  
+Never remove the battery pack while the power is on as this may result in data loss when the system loses 
+power. 
+30
+
+--- Page 39 ---
+ 
+2. 
+3. 
+4. 
+5. 
+6. 
+ 
+ 
+Battery Calibration 
+The purpose for this process is to provide a long battery life for your system battery pack.  
+1.  Turn on the computer, when the text appears, press [Del] or the [Delete] key until the system enters the BIOS 
+Setup screen, you may now make the necessary changes.  
+Press the  arrow key until it reaches the “Exit” menu screen. Again press the  arrow key and select the 
+“Battery Calibration” item.  Press the [Enter] key and disconnect the AC adapter then press the [Y] key until 
+you hear continuous battery low-low warning beeping sounds. The system will be fully discharge and 
+shutdown completely. 
+Connect the AC adapter and let the battery fully recharge. The “Battery Charge LED” which is located at the 
+left side of the notebook will light indicating it is in charging status. 
+When the battery charge LED turns off will indicate the system is fully charged. 
+Repeat step 1 to 4 once again. 
+The battery is now fully calibrated. 
+Resetting the System 
+After installing a software application package, you may be prompted to reset the system to load the changed 
+operating environment. To reset the system, or “reboot,” press the [Ctrl] + [Alt] + [Delete] keys simultaneously. 
+This is known as “warm boot.” This key combination acts as “software” reset switch when you encounter 
+hardware or software problems, which lock up the Notebook.  
+If this key combination does not shut down the Notebook, you can reset the Notebook by using the Notebook’s 
+power button. Should the Notebook lock up for some reason, pressing this button powers the Notebook off. 
+Adjusting the Brightness  
+To adjust the brightness on the LCD screen, press and hold down the [Fn] key in the lower left hand corner of the 
+keyboard and press the [F7] key to reduce the brightness or [F8] to increase the brightness.  
+ 
+31
+
+--- Page 40 ---
+Page intentionally left blank 
+32
+
+--- Page 41 ---
+D
+D
+e
+e
+s
+s
+k
+k
+t
+t
+o
+o
+p
+p
+ 
+ 
+O
+O
+p
+p
+e
+e
+r
+r
+a
+a
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+Your notebook is capable of providing you with efficient and productive mobile computing, it also has the speed 
+and capacity to service as a desktop system. This chapter discusses those functions of your notebook that are 
+typical of desktop systems. 
+Audio 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Multimedia Sound System 
+The Notebook’s built-in audio capabilities allow you to take advantage of a wide range of education and 
+entertainment multimedia software. The Notebook is equipped with internal stereo speakers, a microphone, and 
+input audio ports for external audio units.   
+An external microphone can be connected to the microphone jack. External speakers or headphones can be 
+connected to the Notebook’s audio-out jack.   
+External audio devices can be connected to the Line in jack. All audio features are software controlled. The 
+Notebook’s multimedia sound system includes the following features: 
+Supports Windows Sound System compatibility 
+Full Duplex operation 
+Dynamic filtering reduces noise and distortion rate 
+16-bit digitized audio playback 
+A built-in microphone for convenient recording 
+Built-in stereo speakers 
+33
+
+--- Page 42 ---
+ 
+ 
+ 
+ 
+Digitized audio recording through the Notebook’s built-in microphone or any external source 
+Audio Volume Control 
+The Notebook is equipped with hot-key volume controls: Pressing the [Fn] + [F3] hot-key combination decreases 
+the audio output volume, press the [Fn] + [F4] hot-key combination increases the audio output volume. 
+Audio Software 
+Your notebook comes equipped with an integrated sound system capable of providing you with quality audio 
+sound through the built-in speakers or through external speakers connected via the system ports. 
+Sound Recording 
+Your system allows you to record sounds and store them as files using the microphone via the microphone jack on 
+the notebook computer. Check the Windows Help and Support Center in Windows for information on using the 
+various elements in sound recording. 
+  
+For a high-quality sound, click on the "Volume Control" at the lower right end of your screen.   From 
+the Volume Control windows, click on the "Advanced" tab, click and select the "Microphone Boost" 
+item. 
+ 
+ 
+Playing Sound Files 
+Your notebook can play audio files stored in MIDI, WAVE or MP3 file format. Check the Help and Support 
+Center in Windows for information on the functions of the Media Player. 
+External Speakers and Microphone 
+The sound system is capable in providing high-quality sound to external speakers and receiving and processing 
+sounds from an external microphone or external sound source. 
+34
+
+--- Page 43 ---
+Connecting Peripheral Devices 
+To expand your computing capabilities, you can add a variety of external devices to your computer.   
+ 
+35
+
+--- Page 44 ---
+Page intentionally left blank 
+36
+
+--- Page 45 ---
+I
+I
+n
+n
+t
+t
+e
+e
+r
+r
+n
+n
+e
+e
+t
+t
+ 
+ 
+C
+C
+o
+o
+n
+n
+n
+n
+e
+e
+c
+c
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+There are numerous ways to connect to the Internet. This may vary from the user’s working environment as well as 
+system specifications. 
+Using a modem and a telephone line  
+ 
+ 
+Using a wired LAN 
+Using a wireless LAN (Optional) 
+Using a modem for Connection to Internet 
+ 
+ 
+Use a telephone line to connect to the modem port of your computer. Do not use a digital telephone line. 
+Please apply to an Internet Service Provider (ISP) for Internet service in order for you to connect the modem 
+to the Internet and use e-mail. 
+ 
+For more detail on the Network key, please refer to your local ISP provider and follow the procedures 
+describe in the “ISP Installation Guide” to proceed with the installation. 
+Using a wired LAN for Connection to Internet 
+For you connect to the Internet, a wired LAN environment normally uses the company’s LAN or a broadband 
+modem. 
+1.  Use the network (LAN) cable to connect to the LAN port of the system. 
+2.  Select on “My Network Places” and click on the “View Network Connection” in the “Control Panel” window. 
+37
+
+--- Page 46 ---
+3.  In the “Network Tasks” window, use your mouse pointer to click on the “Local Area Connection”. 
+ 
+4.  Select “Properties” from the popup menu that appears 
+38
+
+--- Page 47 ---
+5.  In the “This connection uses the following items” field, select “Internet Protocol (TCP/IP), and click 
+“Properties”. 
+39
+
+--- Page 48 ---
+6.  Enter the system’s IP and DNS server addresses on the General tab of the “Internet Protocol (TCP/IP) 
+Properties” window.  If DHCP is used, click “Obtain an IP address automatically” and “Obtain DNS server 
+address automatically” on the General tab. 
+40
+
+--- Page 49 ---
+7.  After all the all the information are correctly entered in the “Internet Protocol (TCP/IP) Properties” window, 
+click “OK” to finish. 
+Using Both DHCP and Static IP for Connection to Internet 
+When you are alternatively using networks with either DHCP or static IP addressing, you can use alternative 
+settings that enable simultaneous configurations of DHCP and static IP to use both of the network connects without 
+reconfiguring. 
+1.  Follow the steps mentioned when you are using wired LAN connection from 1 to 7. 
+41
+
+--- Page 50 ---
+2.  Click on the “User configured” and enter the appropriate values in the “Alternate Configuration” tab. 
+ 
+3.  When you have completed the entire configuration, click “OK”.  
+42
+
+--- Page 51 ---
+Using Wireless LAN Network for Connection to Internet (Microsoft’s Service Pack 2) 
+(Optional) 
+ 
+43
+
+--- Page 52 ---
+Page intentionally left blank 
+44
+
+--- Page 53 ---
+R
+R
+u
+u
+n
+n
+n
+n
+i
+i
+n
+n
+g
+g
+ 
+ 
+B
+B
+I
+I
+O
+O
+S
+S
+ 
+ 
+S
+S
+e
+e
+t
+t
+u
+u
+p
+p
+ 
+ 
+Introduction 
+The BIOS (Basic Input and Output System) Setup program is a menu driven utility that enables you to make 
+changes to the system configuration and tailor your system to reflect installed hardware or alter system 
+performance. When the Notebook is turned back on, the system is configured with the values stored in CMOS.  
+With easy-to-use menus, you can configure such items as: 
+Hard drives and peripherals  
+ 
+ 
+Bootup Drive Sequence 
+Password protection 
+The settings made in the BIOS Setup program intimately affect how the Notebook performs.   
+Navigating through BIOS Setup 
+The Setup program has been designed to make it as easy to use as possible.  If you accidentally make a setting and 
+don’t know which one to switch back to, the Setup program has a hot key that allows you to return to the previous 
+value.   
+Accessing the BIOS Setup Program 
+To access the BIOS Setup program, press the DEL key after the Notebook has run through its POST. 
+45
+
+--- Page 54 ---
+ Item Specific Help 
+On the right side of the Setup screen is an area labeled Item Specific Help.  This area will list navigation key 
+shortcuts and information that is specific for the item that you are currently editing. 
+The Menu Bar 
+The top of the screen has a menu bar with the following selections: 
+Main - Use this menu to make changes to the basic system configuration. 
+Advanced - Use this menu to enable and make changes to the advanced features available on your system, such as 
+enabling the FIR module. 
+Security - Use this menu to set a password. The password allows bootup and controls access to the BIOS setup 
+menu. 
+Boot - Use this menu to configure the default system device used to locate and load the Operating System and for 
+booting up the Notebook. 
+Exit - Use this menu to exit the current menu or specify how to exit the Setup program. 
+To access the menu bar items, press the right or left arrow key on the keyboard until the desired item is highlighted. 
+The Legend Bar 
+At the bottom of the Setup screen you will notice a legend bar. The keys in the legend bar allow you to navigate 
+through the various setup menus. The following table lists the keys found in the legend bar with their 
+corresponding alternates and functions. 
+Legend Key  Alternate Key Function 
+F1    Displays the General Help window.  It can be enabled from 
+anywhere in the BIOS. 
+Esc    Jumps to the Exit menu or returns to the Main menu from a 
+submenu. 
+← 
+  Selects the menu item to the left. 
+46
+
+--- Page 55 ---
+Legend Key  Alternate Key Function 
+→ 
+  Selects the menu item to the right. 
+↑ or ↓ 
+Keypad arrow 
+keys 
+Moves the cursor up and down between fields. 
+Tab  Enter  Moves the cursor to the next position available in the field. 
+Minus key (-) 
+  Scrolls backward through the values for the highlighted field. 
+Plus key (+)    Scrolls forward through the values for the highlighted field. 
+Home  PgUp  Moves the cursor to the field at the top of the window. 
+End  PgDn  Moves the cursor to the field at the bottom of the window. 
+F9    Sets the parameters for the current menu to their default values. 
+F10    Save and Exit. 
+Enter    Will select a sub menu or show a range of options for a field. 
+Launching Submenus 
+Note that a right pointer symbol X appears to the left of certain fields. This pointer indicates that a submenu can be 
+launched from this field. A submenu contains additional options for a field parameter. To call up a submenu, 
+simply move the cursor to highlight the field and press the [Enter] key. Use the [Esc] key to return to the Main 
+menu. 
+General Help 
+In addition to the Item Specific Help window, the BIOS Setup program also provides a General Help screen can be 
+called up from any menu by simply pressing [F1]. Use the [PgUp] and [PgDn] keys or the up and down arrow 
+keys (↑↓) to scroll through the entire help document.    
+Press the Home key to display the first page, press End to go to the last page. To exit the help window, press the 
+[Enter] or the [Esc] key.  
+47
+
+--- Page 56 ---
+ Save Changes and Exit the Setup Program 
+Refer to the Exit menu section of this chapter for detailed information on saving changes and exiting the setup 
+program. 
+The Main Menu 
+When the Setup program is accessed, the following screen appears: 
+ 
+48
+
+--- Page 57 ---
+The Advanced Menu 
+Selecting Advanced from the menu bar displays the Advanced menu: 
+ 
+ 
+ 
+49
+
+--- Page 58 ---
+The Security Menu 
+The Notebook’s advanced system of security allows you to set a password to prevent unauthorized access to 
+system resources, data, and the BIOS Setup Program.   
+ 
+50
+
+--- Page 59 ---
+The Boot Menu 
+The Boot menu allows the user to specify the order in which the Notebook is to check for a device to boot the 
+system.  You can also configure the way that the system will boot up.   
+To make changes, select Boot from the menu bar.  The following screen appears: 
+ 
+51
+
+--- Page 60 ---
+The Exit Menu 
+Once you have made all of your selections from the various menus in the Setup program, you should save your 
+changes and exit Setup.  Select Exit from the menu bar to display the following menu: 
+ 
+ 
+ 
+52
+
+--- Page 61 ---
+V
+V
+G
+G
+A
+A
+ 
+ 
+U
+U
+t
+t
+i
+i
+l
+l
+i
+i
+t
+t
+i
+i
+e
+e
+s
+s
+ 
+ 
+Installing the Drivers 
+To make installation of the drivers easier, we offer an auto installation method for the Microsoft Windows system.  
+To install the driver for the system, the attached CD disk contains the driver installation, users manual. Follow the 
+step-by-step procedures to execute the "AutoRun" application by selecting the topic of "Driver Installation".  
+Select the drivers that you desired and follow the instructions on the screen. The drivers will be installed in the 
+system automatically. During the installation, it is very normal that the system may restart.   
+VGA Utilities 
+After you have restarted Windows, open the “Control Panel” and double click on the “Display” icon.  From the 
+“Display Properties” window, select the “Settings” tab and click on the “Advanced” tab to enter the “Digital Flat 
+Panel (1024x768) and Mobile Intel® 91…" window.   
+53
+

@@ -1,0 +1,466 @@
+Brand: INTEL
+Model: Nuc 8 Enthusiast
+URL: https://www.manua.ls/intel/nuc-8-enthusiast/manual
+Total Pages: 13
+============================================================
+
+--- Page 1 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Intel® NUC 8 Business, a Mini PC with Windows® 10 – NUC8i7HNKQC 
+Intel® NUC 8 Enthusiast, a Mini PC with Windows® 10 – NUC8i7HVKVA 
+ 
+ 
+User 
+Guide
+
+--- Page 2 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+2 
+ 
+ 
+ 
+Before You Begin 
+ 
+  CAUTIONS 
+The procedures in this user guide assume familiarity with the general terminology associated with 
+personal computers and with the safety practices and regulatory compliance required for using 
+and modifying electronic equipment. 
+ 
+Disconnect the computer from its power source and from any telecommunications link or network before 
+performing any of the procedures described in this guide.  Failure to disconnect power, 
+telecommunications links, or networks before you open the computer or perform any procedures can 
+result in personal injury or equipment damage.  Some circuitry on the board can continue to operate even 
+though the front panel power button is off. 
+ 
+Follow these guidelines before you begin: 
+  Always follow the steps in each procedure in the correct order. 
+  Set up a log to record information about your computer, such as model, serial numbers, 
+installed options, and configuration information. 
+  Electrostatic discharge (ESD) can damage components.  Perform the procedures described in 
+this chapter only at an ESD workstation using an antistatic wrist strap and a conductive foam 
+pad.  If such a station is not available, you can provide some ESD protection by wearing an 
+antistatic wrist strap and attaching it to a metal part of the computer chassis. 
+ 
+Installation Precautions 
+ 
+When you install and test the Intel NUC, observe all warnings and cautions in the installation 
+instructions. 
+ 
+To avoid injury, be careful of: 
+  Sharp pins on connectors 
+  Sharp pins on circuit boards 
+  Rough edges and sharp corners on the chassis 
+  Hot components (such as SSDs, processors, voltage regulators, and heat sinks) 
+  Damage to wires that could cause a short circuit 
+ 
+Observe all warnings and cautions that instruct you to refer computer servicing to qualified technical 
+personnel. 
+ 
+Observe Safety and Regulatory Requirements 
+If you do not follow these instructions, you increase your safety risk and the possibility of 
+noncompliance with regional laws and regulations.
+
+--- Page 3 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+3 
+ 
+ 
+This guide tells you how to: 
+ 
+•
+ 
+Open and Close the Chassis 
+•
+ 
+Install and Remove Memory 
+•
+ 
+Install an M.2 SSD 
+•
+ 
+Install a VESA Mount Bracket 
+•
+ 
+Connect Power 
+•
+ 
+Install an Operating System 
+•
+ 
+Install the latest device drivers and software 
+•
+ 
+Operating System Recovery 
+ 
+ 
+Open the Intel NUC Chassis 
+ 
+To open the Intel NUC chassis, follow these steps: 
+ 
+1.  Using the included hex wrench, unscrew the six screws on the top cover of the chassis and lift the 
+cover.
+
+--- Page 4 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+4 
+ 
+ 
+ 
+ 
+2.  Detach the cable from the top of the NUC. 
+ 
+ 
+ 
+ 
+3.  Unscrew the single screw to release the top plate.
+
+--- Page 5 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+5 
+ 
+ 
+Installing and Removing Memory 
+ 
+The Intel NUC 8 Business - NUC8i7HNKQC and Intel NUC 8 Enthusiast - NUC8i7HVKVA have two 260-pin 
+DDR4 SO-DIMM sockets. Although these NUCs come with both memory slots filled, follow these steps if 
+memory is removed or installed.  
+Pre-installed memory  
+Intel® NUC 8 Business, a Mini PC with Windows® 10 – NUC8i7HNKQC 
+Two 8GB memory 
+modules 
+16GB total 
+Intel® NUC 8 Enthusiast, a Mini PC with Windows® 10 – NUC8i7HVKVA 
+Two 8GB memory 
+modules 
+16GB total 
+ 
+Memory requirements: 
+  1.2V low voltage memory 
+  2400 MHz SO-DIMMs  
+  Non-ECC 
+ 
+Find tested memory at the Intel® Product Compatibility Tool: 
+  NUC8i7HNKQC 
+  NUC8i7HVKVA 
+ 
+ 
+NOTE 
+If only installing one SO-DIMM, install it in the lower memory socket. 
+ 
+To install memory, follow these steps: 
+1.  Observe the precautions in "Before You Begin" on page 2. 
+2.  Turn off all peripheral devices connected to the computer.  Turn off the computer and disconnect 
+the AC power cord.
+
+--- Page 6 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+6 
+ 
+ 
+ 
+3.  Align the small notch at the bottom edge of the SO-DIMM with the key in the socket. 
+4.  Insert the bottom edge of the SO-DIMM into the socket. 
+5.  When the SO-DIMM is inserted, push down on the outer edge of the SO-DIMM until the 
+retaining clips snap into place.  Make sure the clips are firmly in place. 
+ 
+To remove memory, follow these steps: 
+1.  Observe the precautions in “Before You Begin” on page 2. 
+2.  Turn off all peripheral devices connected to the computer.  Turn off the computer. 
+3.  Remove the AC power cord from the computer. 
+4.  Remove the computer’s cover. 
+5.  Gently spread the retaining clips at each end of the SO-DIMM socket.  The SO-DIMM pops out of 
+the socket. 
+6.  Hold the SO-DIMM by the edges, lift it away from the socket, and store it in an anti-static package. 
+7.  Reinstall and reconnect any parts you removed or disconnected to reach the SO-DIMM sockets. 
+8.  Replace the computer’s cover and reconnect the AC power cord. 
+ 
+Installing an M.2 SSD 
+ 
+The Intel NUC 8 Business - NUC8i7HNKQC and Intel NUC 8 Enthusiast - NUC8i7HVKVA support both 
+80mm and 42mm SSDs. 
+ 
+Find compatible M.2 SSDs at the Intel® Product Compatibility Tool: 
+  NUC8i7HNKQC 
+  NUC8i7HVKVA 
+ 
+ 
+To install an 80mm M.2 SSD: 
+ 
+1.  Remove the small silver screw from the 80mm metal standoff on the motherboard (A). 
+2.  Align the small notch at the bottom edge of the M.2 card with the key in the connector. 
+3.  Insert the bottom edge of the M.2 card into the connector (B). 
+4.  Secure the card to the standoff with the small silver screw (C).
+
+--- Page 7 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+7 
+ 
+ 
+ 
+To install a 42mm M.2 SSD: 
+ 
+1.  Remove the small silver screw from the metal standoff on the motherboard (A). 
+2.  Move the standoff (B) from the 80mm position to the 42mm position (C). 
+3.  Align the small notch at the bottom edge of the M.2 card with the key in the connector. 
+4.  Insert the bottom edge of the M.2 card into the connector (D). 
+5.  Secure the card to the standoff with the small silver screw (E). 
+ 
+ 
+ 
+ 
+Closing the Chassis 
+ 
+After all the components have been installed, close the Intel NUC chassis. Intel recommends this be done 
+by hand with a screwdriver to avoid over-tightening and possibly damaging the screws. 
+ 
+1.  Place the top plate on the NUC chassis.
+
+--- Page 8 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+8 
+ 
+ 
+ 
+2.  Reattach the cable and secure the top plate with a screwdriver. 
+ 
+ 
+ 
+ 
+ 
+3.  Place the top lid on the NUC and use the hex tool to tighten all the screws.
+
+--- Page 9 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+9 
+ 
+ 
+Attaching and Using the VESA Bracket (Optional) 
+ 
+Follow these instructions to attach and use the VESA mount bracket: 
+ 
+1.  Using the four small black screws that were included in the box, attach the VESA bracket to the 
+back of the monitor or TV. 
+ 
+ 
+ 
+2.  Attach the two slightly larger black screws to the bottom chassis cover of the Intel NUC.
+
+--- Page 10 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+10 
+ 
+ 
+ 
+3.  Slide the Intel NUC onto the VESA mount bracket.
+
+--- Page 11 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+11 
+ 
+ 
+Power 
+ 
+Each Intel NUC box includes a region-specific AC power cord, or no AC power cord (only the power 
+adapter). 
+ 
+Product codes 
+Power cord type 
+BOXNUC8i7HNKQC 
+BOXNUC8I7HVKVA 
+No power cord included. An AC power cord needs to be purchased 
+separately. The connector on the power adapter is a C13 type connector. 
+ 
+BOXNUC8i7HNKQC1 
+BOXNUC8I7HVKVA1 
+US power cord included. 
+ 
+BOXNUC8i7HNKQC2 
+BOXNUC8I7HVKVA2 
+EU power cord included. 
+ 
+ 
+BOXNUC8i7HNKQC3 
+BOXNUC8I7HVKVA3 
+UK power cord included. 
+ 
+BOXNUC8i7HNKQC4 
+BOXNUC8I7HVKVA4 
+Australia/New Zealand power cord included. 
+ 
+BOXNUC8I7HVKVA6 
+China power cord included. 
+ 
+ 
+Connect the power cord to the adapter (A). Plug the power adapter into the wall (B).  Lastly, plug the 
+power into the NUC (C).
+
+--- Page 12 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+12 
+ 
+ 
+Set Up Microsoft® Windows® 10 
+ 
+Microsoft Windows 10 is already installed on the Intel NUC. The first time you start the computer, you are 
+guided through the Windows 10 setup steps, including: 
+ 
+  Selecting your region and language.  
+  Accepting the Microsoft Windows license terms.  
+  Personalizing Windows and assign a PC Name.  
+  "Get Online" dialog to pick a wireless network (this step is optional).  
+  Choosing Express Settings or Customize.  
+  Assigning a User Name and Password.  
+ 
+Reinstalling the Operating System 
+If you upgrade or replace the computer’s drive, you may need to install a new version of the operating 
+system. See these resources: 
+  Supported Operating Systems 
+  Windows Setup Guide 
+ 
+Install the Latest Device Drivers and Software 
+ 
+Here are the options for keeping device drivers current:  
+  Allow the Intel® Driver & Support Assistant (Intel® DSA) to detect out-of-date drivers. 
+  Manually download drivers, BIOS, and software from Download Center: 
+  NUC8i7HNKQC 
+  NUC8i7HVKVA 
+The following device drivers and software are available. 
+  Intel® Chipset Device Software 
+  Intel® HD Graphics 
+  Radeon™ RX Vega M Graphics 
+  Intel® Wireless 
+  Intel® Bluetooth 
+  Intel® Gigabit Ethernet 
+  Intel® Management Engine 
+  Intel® Rapid Storage Technology 
+  Intel® Serial IO 
+  Thunderbolt™ Bus 
+  USB Type C Power Delivery  
+  Realtek* High Definition Audio 
+  Bay Hub* SD Card Reader 
+  ITE Tech* Consumer Infrared 
+  Intel® Software Guard Extensions 
+  Intel® Rapid Storage Technology 
+  Intel® LED Manager 
+ 
+NOTE 
+This NUC requires both the Intel® HD Graphics driver and the Radeon™ RX Vega M Graphics 
+driver to be installed.
+
+--- Page 13 ---
+User Guide for Intel® NUC 8 
+NUC8i7HNKQC and NUC8i7HVKVA
+ 
+13 
+ 
+ 
+ 
+Operating System Recovery 
+ 
+There’s a Windows recovery partition on the Intel NUC. You can use this partition to Refresh, Reset, or 
+Restore Windows. Here is what each of these actions do: 
+ 
+Refresh  
+ 
+If your PC isn't performing as well as it once did, and you don't know why, you can 
+refresh your PC. This action doesn’t delete any of your personal files or change your 
+settings. Refresh does the following: 
+ 
+  Files and personalization settings won’t change.  
+  PC settings are changed back to their defaults.  
+  Apps from the Windows Store are kept.  
+  Apps installed from disks or websites are removed.  
+  List of removed apps is saved on the desktop. 
+ 
+Reset  
+ 
+If you want to recycle your PC, give it away, or start over with it, you can reset it 
+completely. This process removes everything. Reset does the following: 
+ 
+  All personal files and apps are removed.  
+  PC settings are changed back to their defaults.  
+  Windows is reinstalled. 
+ 
+Restore 
+If a recently installed app or driver is causing problems with your PC, you can 
+restore Windows back to an earlier point in time, called a restore point. System 
+Restore doesn’t change your personal files, but it can remove recently installed 
+apps and drivers. 
+ 
+ 
+Caution - Before performing a Refresh or Reset: 
+ 
+  Make sure to back up all personal data to external storage.  
+  Remove SD card from the card slot, if one is inserted. 
+  
+ To access the recovery media: 
+ 
+If Windows starts 
+ 
+From Windows Start, type Recovery and select Recovery Options.  
+ 
+See Recovery options in Windows 10 for complete details on how 
+to use the recovery options. 
+ 
+If Windows doesn’t start 
+The recovery process should automatically start. If Recovery 
+doesn’t automatically start, you can try to initiate it as follows: 
+ 
+1.  Press F8 during boot, when you see the prompt “F8 to 
+Activate Windows 8.1/10 Recovery Mode”.  
+2.  Follow the recovery steps.
+

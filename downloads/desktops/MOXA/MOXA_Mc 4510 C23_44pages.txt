@@ -1,0 +1,1255 @@
+Brand: MOXA
+Model: Mc 4510 C23
+URL: https://www.manua.ls/moxa/mc-4510-c23/manual
+Total Pages: 44
+============================================================
+
+--- Page 1 ---
+MC-4510-C23 
+Hardware User’s Manual 
+ 
+www.moxa.com/product 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Third Edition, October 2010 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2010 Moxa Inc. All rights reserved. 
+Reproduction without permission is prohibited.
+
+--- Page 2 ---
+MC-4510-C23 
+Hardware User’s Manual 
+The software described in this manual is furnished under a license agreement and may be used only in 
+accordance with the terms of that agreement. 
+ 
+ 
+Copyright Notice 
+ 
+Copyright  2010 Moxa Inc. 
+All rights reserved. 
+Reproduction without permission is prohibited. 
+ 
+ 
+Trademarks 
+ 
+MOXA is a registered trademark of Moxa Inc. 
+All other trademarks or registered marks in this manual belong to their respective manufacturers. 
+ 
+Disclaimer 
+ 
+Information in this document is subject to change without notice and does not represent a commitment on the 
+part of Moxa.
+ 
+Moxa provides this document “as is,” without warranty of any kind, either expressed or implied, including, but 
+not limited to, its particular purpose. Moxa reserves the right to make improvements and/or changes to this 
+manual, or to the products and/or the programs described in this manual, at any time. 
+Information provided in this manual is intended to be accurate and reliable. However, Moxa assumes no 
+responsibility for its use, or for any infringements on the rights of third parties that may result from its use. 
+This product might include unintentional technical or typographical errors. Changes are periodically made to the 
+information herein to correct such errors, and these changes are incorporated into new editions of the 
+publication. 
+Technical Support Contact Information 
+www.moxa.com/support 
+ 
+Moxa Americas: 
+Toll-free: 1-888-669-2872 
+Tel:  +1-714-528-6777 
+Fax:  +1-714-528-6778 
+Moxa China (Shanghai office): 
+Toll-free: 800-820-5036 
+Tel:  +86-21-5258-9955 
+Fax:  +86-21-5258-5505 
+Moxa Europe: 
+Tel:  +49-89-3 70 03 99-0 
+Fax:  +49-89-3 70 03 99-99 
+Moxa Asia-Pacific: 
+Tel:  +886-2-8919-1230 
+Fax:  +886-2-8919-1231
+
+--- Page 3 ---
+Table of Contents 
+Chapter 1  Introduction .............................................................................................1-1 
+Overview.................................................................................................................................. 1-2 
+Package Checklist .................................................................................................................... 1-2 
+Product Features....................................................................................................................... 1-2 
+MC-4510-C23 Hardware Specifications .................................................................................. 1-3 
+Hardware Block Diagram ........................................................................................................ 1-5 
+Chapter 2  Hardware Introduction.............................................................................2-1 
+Appearance .............................................................................................................................. 2-2 
+Dimensions .............................................................................................................................. 2-2 
+LED Indicators ......................................................................................................................... 2-3 
+Real Time Clock ...................................................................................................................... 2-3 
+Chapter 3  Hardware Connection Description ..........................................................3-1 
+Installing the MC4510-C23 ..................................................................................................... 3-2 
+Wiring Requirements ............................................................................................................... 3-2 
+Connecting the Power .............................................................................................................. 3-3 
+Grounding the MC-4510-C23 .................................................................................................. 3-3 
+Connecting Data Transmission Cables..................................................................................... 3-4 
+Connecting to the Network ........................................................................................... 3-4 
+Connecting to a Serial Device ...................................................................................... 3-5 
+Installing a CompactFlash Card ............................................................................................... 3-5 
+Connecting a PS/2 Keyboard and Mouse................................................................................. 3-7 
+Connecting to the USB Device ................................................................................................ 3-8 
+Connecting to a VGA Monitor ................................................................................................. 3-8 
+Connecting to a DVI-D Monitor .............................................................................................. 3-9 
+Connecting to a Speaker or a Headphone .............................................................................. 3-10 
+Upgrading the Memory Module ............................................................................................ 3-10 
+Installing a SATA Hard Disk .................................................................................................. 3-12 
+Chapter 4  BIOS Setup ..............................................................................................4-1 
+Entering the BIOS Setup Utility .............................................................................................. 4-2 
+Modifying the BIOS Main Settings ......................................................................................... 4-3 
+Basic Configuration ...................................................................................................... 4-3 
+System Security ............................................................................................................ 4-3 
+Advanced Settings ................................................................................................................... 4-4 
+Hard Disk Boot Priority ................................................................................................ 4-4 
+Advanced BIOS Features ............................................................................................. 4-5 
+CPU Features ................................................................................................................ 4-5 
+Advanced Chipset Settings ........................................................................................... 4-6 
+Peripherals ............................................................................................................................... 4-7 
+OnChip IDE Device...................................................................................................... 4-8 
+Onboard Device ............................................................................................................ 4-8 
+Super I/O Device .......................................................................................................... 4-9 
+Power ..................................................................................................................................... 4-10 
+Wake Up Control ................................................................................................................... 4-10 
+Hardware Monitor ...................................................................................................................4-11 
+Load Defaults ..........................................................................................................................4-11 
+Exiting the BIOS Setup .......................................................................................................... 4-12 
+Upgrading the BIOS .............................................................................................................. 4-13 
+Appendix A  Regulatory Approval Statement .................................................................1
+
+--- Page 4 ---
+1
+1
+ 
+ 
+Chapter 1  Introduction 
+The MC-4510-C23 computer is based on the Intel Core 2 Duo mobile processor and comes with 2 
+optically isolated RS-232/422/485 serial ports, 2 Gigabit Ethernet ports, 6 USB 2.0 hosts, and a 
+CompactFlash socket, offering high performance and versatile peripherals for marine, railway, 
+power, and other industrial applications. 
+The MC-4510-C23’s rugged and fanless design and 1G anti-vibration and 5G anti-shock make it 
+particularly well-suited for bridge systems in marine applications. In addition, the compact size 
+and low power consumption features ensure an easy installation and reliable system operations, 
+and the modular design allows easy integration with the panel. 
+Users can easily install Windows 7, Windows XP SP3, Windows XP Embedded, or Windows CE 
+6.0 to provide a flexible and friendly environment for system development and application 
+implementation. 
+In this chapter, we cover the following topics:   
+  Overview 
+  Package Checklist 
+  Product Features 
+  MC-4510-C23 Hardware Specifications 
+  Hardware Block Diagram
+
+--- Page 5 ---
+MC-4510-C23 HW User’s Manual  Introduction 
+ 
+1-2 
+Overview 
+The MC-4510-C23 computer is based on the Intel Core 2 Duo mobile processor and comes with 2 
+optically isolated RS-232/422/485 serial ports, 2 Gigabit Ethernet ports, 6 USB 2.0 hosts, and a 
+CompactFlash socket, offering high performance and versatile peripherals for marine, railway, 
+power, and other industrial applications. 
+Users can easily install Windows 7, Windows XP SP3, Windows XP Embedded, or Windows CE 
+6.0 to provide a flexible and friendly environment for system development and application 
+implementation. 
+Package Checklist 
+The MC-4510-C23 Series includes the following model: 
+MC-4510-C23:   
+Industrial computer with Intel Core 2 Duo 2.26 GHz, 2 optically-isolated serial ports, 
+2 Gigabit LANs, dual displays, CompactFlash, USB, audio 
+ 
+Each model is shipped with the following items: 
+  1 MC-4510 embedded computer 
+  PS/2 to KB/MS Y-type cable 
+  2 sets of hard drive cables 
+  Hard drive ground sticker 
+  Documentation & Driver CD 
+  Quick Installation Guide (printed) 
+  Product Warranty Statement (printed) 
+NOTE: Please notify your sales representative if any of the above items are missing or 
+damaged. 
+Product Features 
+The MC-4510-C23 embedded computer has the following features: 
+  High performance Intel Core 2 Duo 2.26 GHz processor, 6 MB L2 cache 
+  Built-in 2 GB DDR3 memory, supporting up to 4 GB 
+  Dual independent displays (DVI-D + VGA) 
+  2 Gigabit Ethernet ports for network redundancy 
+  2 optically isolated RS-232/422/485 serial ports 
+  Onboard mini-PCIe slot reserved for future expansions and upgrades 
+  6 USB 2.0 hosts for connecting peripheral devices 
+  CompactFlash card socket and optional hard disk drive support for storage expansion 
+  1G anti-vibration and 5G anti-shock design for system reliability 
+  Fanless design with compact size 
+  Low power consumption 
+  Modular design for integration with Moxa panels 
+  Supports Windows 7, Windows XP SP3, Windows XP Embedded, and Windows CE 6.0
+
+--- Page 6 ---
+MC-4510-C23 HW User’s Manual  Introduction 
+ 
+1-3 
+MC-4510-C23 Hardware Specifications 
+Computer 
+CPU 
+Intel Core 2 Duo SP9300 2.26 GHz, 6 MB for L2 cache 
+OS 
+Windows 7, Windows XP SP3, Windows XP Embedded (Must be 
+installed by the user) 
+System Chipset 
+Intel GS45 + ICH9M 
+DRAM 
+2 GB DDR3 SDRAM onboard (supports DDR3 up to 4 GB) 
+USB 
+USB 2.0 host x 6 
+Expansion Bus 
+Mini-PCIe onboard 
+Storage 
+Storage Expansion 
+CompactFlash socket 
+HDD Support 
+2 SATA connectors for HDD expansion 
+Other Peripherals 
+Audio 
+Line-in/out interface 
+Display 
+Graphics 
+Controller 
+Intel GS45 
+VGA Interface 
+15-pin D-Sub connector x 1(female) 
+DVI-D Interface 
+25-pin DVI-D connector x 1 (female)   
+Ethernet Interface 
+LAN 
+2 auto-sensing 10/100/1000 Mbps ports (RJ45) 
+Magnetic Isolation 
+Protection 
+1.5 KV built-in 
+Serial Interface 
+Serial Standards 
+2 RS-232/422/485 ports, software-selectable (DB9 Male) 
+Optical Protection 
+2 KV 
+Serial Communication Parameters 
+Data Bits 
+5, 6, 7, 8 
+Stop Bits 
+1, 1.5, 2 
+Parity 
+None, Even, Odd, Space, Mark 
+Flow Control 
+RTS/CTS, XON/XOFF, ADDC® (automatic data direction control) for 
+RS-485 
+Baudrate 
+50 bps to 921.6 Kbps (supports non-standard baudrates; see user's 
+manual for details) 
+Serial Signals 
+ 
+RS-232 
+TxD, RxD, DTR, DSR, RTS, CTS, DCD, GND 
+RS-422 
+TxD+, TxD-, RxD+, RxD-, GND 
+RS-485-4w 
+TxD+, TxD-, RxD+, RxD-, GND 
+RS-485-2w 
+Data+, Data-, GND 
+LEDs 
+System 
+System: Storage, Power 
+LAN 
+LAN: 10M/Link x 2, 100M/Link x 2 (on connector) 
+Physical Characteristics 
+Housing 
+Aluminum, sheet metal 
+Weight 
+3.75 kg 
+Dimensions 
+302 x 70 x 279 mm (11.98 x 2.76 x 10.98 in) 
+Mounting 
+wall 
+Environmental Limits 
+Operating 
+Temperature 
+-10 to 55°C (14 to 131°F)
+
+--- Page 7 ---
+MC-4510-C23 HW User’s Manual  Introduction 
+ 
+1-4 
+Operating 
+Humidity 
+5 to 95% RH 
+Storage 
+Temperature 
+-20 to 60°C (-4 to 140°F) 
+Anti-vibration 
+
+0.7 @ DNV 2.4 (Class A), sine wave, 2-100 Hz, 1 Oct./min., 1.5 hr 
+per axis 
+1 grms @ DNV 2.4, random wave, 3-100 Hz, 2.5 hr per axis 
+2.1 g @ DNV 2.4 (Class C), sine wave, 2-50 Hz, 1 Oct./min., 1.5 hr 
+per axis 
+Anti-shock 
+50 g @ IEC 60068-2-27, half sine wave, 11 ms 
+Power Requirements 
+Input Voltage 
+18 to 36 VDC (3-pin terminal block) 
+Power 
+Consumption 
+48.6 W 
+1.35 A @ 36 VDC 
+1.96 A @ 24 VDC 
+2.61 A @ 18 VDC 
+Regulatory Approvals 
+EMC 
+CE (EN55022 Class B, EN55024-4-2, EN55024-4-3, EN55024-4-4), 
+FCC (Part 15 Subpart B, Class B) 
+Safety 
+UL/cUL (UL60950-1, DVN, IEC 60954 (4th), IACS0-E10 
+Reliability 
+Alert Tools 
+Built-in buzzer and RTC (real-time clock) 
+Automatic Reboot 
+Trigger 
+Built-in WDT (watchdog timer) 
+Warranty 
+Warranty 
+3 years 
+Details 
+See www.moxa.com/warranty
+
+--- Page 8 ---
+MC-4510-C23 HW User’s Manual  Introduction 
+ 
+1-5 
+Hardware Block Diagram
+
+--- Page 9 ---
+2
+2
+ 
+ 
+Chapter 2  Hardware Introduction 
+The MC-4510-C23 computer is compact, well-designed, and built rugged enough for industrial 
+applications. LED indicators help you monitor performance and identify trouble spots, multiple 
+serial ports allow you to connect different devices for wireless operation, and the reliable and 
+stable hardware platform lets you devote your attention to developing your applications. 
+ 
+In this chapter, we cover the following topics:   
+  Appearance 
+  MC-4510-C23 
+  Dimensions 
+  LED Indicators 
+  Real Time Clock
+
+--- Page 10 ---
+MC-4510-C23 HW User’s Manual  Hardware Introduction 
+ 
+2-2 
+Appearance 
+MC-4510-C23 
+Front View 
+ 
+ 
+ 
+Dimensions
+
+--- Page 11 ---
+MC-4510-C23 HW User’s Manual  Hardware Introduction 
+ 
+2-3 
+LED Indicators 
+LED Name    LED Color    LED Function   
+Power 
+Green 
+Power is on and functioning normally   
+Off 
+Power is off or a power error exists 
+Storage 
+Yellow (on) 
+CF card is inserted and detected 
+Yellow 
+(blinking) 
+CF card or HDD is reading/writing 
+Off 
+No activity 
+LAN 
+Green 
+100 Mbps Ethernet mode   
+Yellow 
+1000 Mbps (Gigabit) Ethernet mode   
+Off 
+No activity or 10 Mbps Ethernet mode 
+Real Time Clock 
+The embedded computer’s real-time clock is powered by a lithium battery. We strongly 
+recommend that you NOT replace the lithium battery on your own. If the battery needs to be 
+changed, please contact the Moxa RMA service team.   
+ 
+ATTENTION 
+There is a risk of explosion if the wrong type of battery is used. To avoid this potential danger, 
+always be sure to use the correct type of battery. Contact the Moxa RMA service team if you 
+need to replace your battery. 
+Caution 
+There is a risk of explosion if the battery is replaced by an incorrect type. Dispose of used 
+batteries according to the instructions on the battery.
+
+--- Page 12 ---
+3
+3
+ 
+ 
+Chapter 3  Hardware Connection Description 
+In this chapter, we show how to connect the embedded computers to the network and to various 
+devices. 
+In this chapter, we cover the following topics: 
+  Installing the MC4510-C23 
+  Wiring Requirements 
+  Connecting the Power 
+  Grounding the MC-4510-C23 
+  Connecting Data Transmission Cables 
+  Connecting to the Network 
+  Connecting to a Serial Device 
+  Installing a CompactFlash Card 
+  Connecting a PS/2 Keyboard and Mouse 
+  Connecting to the USB Device 
+  Connecting to a VGA Monitor 
+  Connecting to a DVI-I Monitor 
+  Connecting to a Speaker or a Headphone 
+  Upgrading the Memory Module 
+  Installing a SATA Hard Disk
+
+--- Page 13 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-2 
+Installing the MC4510-C23 
+Wall or Cabinet Mounting 
+The MC-4510-C23 has been pre-installed with two brackets on both ends of the computer. Use 
+two screws per side to attach the MC-4510-C23 to a wall or cabinet. 
+Step 1: Use two screws for each bracket and attach the bracket to the rear of the MC-4510-C23. 
+ 
+Wiring Requirements 
+This section describes how to connect serial devices to the embedded computer. 
+You should read and follow these common safety precautions before proceeding with the 
+installation of any electronic device: 
+  Use separate paths to route wiring for power and devices. If power wiring and device wiring 
+paths must cross, make sure the wires are perpendicular at the intersection point. 
+ 
+NOTE: Do not run signal or communication wiring together with power wiring in the same 
+wire conduit. To avoid interference, wires with different signal characteristics should be routed 
+separately. 
+ 
+  Use the type of signal transmitted through a wire to determine which wires should be kept 
+separate. The rule of thumb is that wiring that shares similar electrical characteristics can be 
+bundled together. 
+  Keep input wiring and output wiring separate. 
+  It is advisable to label the wiring to all devices in the system.
+
+--- Page 14 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-3 
+ 
+ATTENTION 
+ 
+Safety First! 
+Be sure to disconnect the power cord before installing and/or wiring your MC-4510-C23. 
+Wiring Caution! 
+Calculate the maximum possible current in each power wire and common wire. Observe all 
+electrical codes dictating the maximum current allowable for each wire size. 
+If the current goes above the maximum ratings, the wiring could overheat, causing serious 
+damage to your equipment. 
+Temperature Caution! 
+Be careful when handling the unit. When the unit is plugged in, the internal components generate 
+heat, and consequently the outer casing may feel hot to the touch. 
+Connecting the Power 
+The MC-4510-C23 offers 18 to 36 VDC power input with the terminal block. If the power is 
+supplied properly, the Power LED will light up. The OS is ready when the Ready LED glows a 
+solid green. 
+For safety reasons, please use cables with the following specifications: 
+Wire range 14-22 AWG, torque 7 lb 
+Grounding the MC-4510-C23 
+Grounding and write routing help limit the effects of noise due to electromagnetic interference 
+(EMI). Run the ground connection from the ground screw to the grounding surface prior to 
+connecting the power.   
+ 
+ATTENTION 
+This product is intended to be mounted to a well-grounded mounting surface, such as a metal 
+panel. 
+ 
+EG: See the figure shown below for the location of the Earth Ground on the terminal block power connector. 
+Connect the EG wire to an appropriate grounded metal surface.
+
+--- Page 15 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-4 
+Connecting Data Transmission Cables 
+This section describes how to connect the MC-4510-C23 computer to the network and serial 
+devices. 
+Connecting to the Network 
+Plug your network cable into the embedded computer’s Ethernet port. The other end of the cable 
+should be plugged into your Ethernet network. When the cable is properly connected, the LEDs on 
+the embedded computer’s Ethernet port will glow to indicate a valid connection. 
+The 10/100/1000 Mbps Ethernet LAN port uses 8-pin RJ45 connectors. The following diagram 
+shows the pinouts for these ports. 
+ 
+The LED indicators on the right top and right bottom corners glow a solid 
+green color when the cable is properly connected to a 100 Mbps Ethernet 
+network. The LED will flash on and off when Ethernet packets are being 
+transmitted or received. 
+The LED indicators on the left top and left bottom corners glow a solid 
+yellow color when the cable is properly connected to a 1000 Mbps 
+Ethernet network. The LED will flash on and off when Ethernet packets 
+are being transmitted or received. 
+ 
+Pin 
+10/100 Mbps 
+1000 Mbps 
+1 
+ETx+ 
+TRD(0)+ 
+2 
+ETx- 
+TRD(0)- 
+3 
+ERx+ 
+TRD(1)+ 
+4 
+--- 
+TRD(2)+ 
+5 
+--- 
+TRD(2)- 
+6 
+ERx- 
+TRD(1)- 
+7 
+--- 
+TRD(3)+ 
+8 
+--- 
+TRD(3)-
+
+--- Page 16 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-5 
+Connecting to a Serial Device 
+Use a serial cable to plug your serial device into the embedded computer’s serial port. Serial ports 
+1 and 2 have male DB9 connectors and can be configured for RS-232, RS-422, or RS-485 
+communication by software. The pin assignments are shown in the following table:   
+DB9 Male Port 
+RS-232/422/485 Pinouts 
+ 
+Pin  RS-232  RS-422 
+RS-485 
+(4-wire) 
+RS-485 
+(2-wire) 
+1 
+DCD 
+TxDA(-) 
+TxDA(-) 
+--- 
+2 
+RxD 
+TxDB(+) 
+TxDB(+) 
+--- 
+3 
+TxD 
+RxDB(+) 
+RxDB(+) 
+DataB(+) 
+4 
+DTR 
+RxDA(-) 
+RxDA(-) 
+DataA(-) 
+5 
+GND 
+GND 
+GND 
+GND 
+6 
+DSR 
+--- 
+--- 
+--- 
+7 
+RTS 
+--- 
+--- 
+--- 
+8 
+CTS 
+--- 
+--- 
+--- 
+ 
+Installing a CompactFlash Card 
+The MC-4510-C23 computer comes come with a CompactFlash socket. To insert a CompactFlash 
+card, follow these instructions: 
+1.  Disconnect the MC-4510-C23 from its power source. 
+2.  The CompactFlash socket is located on the right side of the front panel. Unscrew the 
+CompactFlash socket cover.
+
+--- Page 17 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-6 
+3.  There is a tenon/hook on the cover of the CF socket. Turn the CompactFlash card over and 
+then insert the CompactFlash card into the tenon/hook of the CF socket cover. 
+ 
+ 
+ 
+ 
+ATTENTION 
+Be careful of how you orient the CompactFlash card. You should turn the CF card bottom side 
+up, in order to hook CF card into the CF socket cover. 
+ 
+4.  Gently insert the CompactFlash card into the CF socket, making sure that the card is oriented 
+correctly. 
+ 
+ 
+ 
+ 
+ATTENTION 
+The MC-4510-C23 embedded computer does not support the CompactFlash hot swap and PnP 
+(Plug and Play) functions. It is necessary to remove power source first before inserting or 
+removing the CompactFlash card.
+
+--- Page 18 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-7 
+Connecting a PS/2 Keyboard and Mouse 
+Your MC-4510-C23 computer comes come with a PS/2 mini-DIN connector to connect to a PS/2 
+keyboard and PS/2 mouse. This 6-pin mini-DIN connector has the pin assignments shown below. 
+ 
+ 
+PS/2 Connector 
+Pin No. 
+Signal Definition 
+ 
+1 
+PS/2 Keyboard Data 
+2 
+PS/2 Mouse Data 
+3 
+GND 
+4 
+VCC 
+5 
+PS/2 Keyboard Clock 
+6 
+PS/2 Mouse Clock 
+ 
+Use the Y-type cable to convert the mini-DIN connector into two 6-pin mini-DIN connectors to 
+connect both a PS/2 keyboard and PS/2 mouse at the same time. You may also use the USB ports 
+to connect your USB-based keyboard and mouse. 
+ 
+ 
+ 
+ATTENTION 
+Please note that without a Y-type cable, the PS/2 connector on the MC-4510-C23 can only work 
+with a PS/2 keyboard. A PS/2 mouse will not function when directly connected to the PS/2 
+connector on the MC-4510-C23 computer.
+
+--- Page 19 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-8 
+Connecting to the USB Device 
+The MC-4510-C23 comes with 6 USB 2.0 hosts on the front panel.. The hosts can be used for an 
+external flash disk or hard drive for storing large amounts of data. You can also use these USB 
+hosts to connect to a keyboard or a mouse. 
+ 
+Connecting to a VGA Monitor 
+The MC-4510-C23 comes with a D-Sub 15-pin female connector on the front panel to connect a 
+VGA CRT monitor. To ensure that the monitor image remains clear, be sure to tighten the monitor 
+cable after connecting it to the MC-4510-C23. The pin assignments of the VGA connector are 
+shown below. 
+DB15 Female Connector 
+Pin No. 
+Signal Definition 
+1 
+Red 
+2 
+Green 
+3 
+Blue 
+4 
+NC 
+5 
+GND 
+6 
+GND 
+7 
+GND 
+8 
+GND 
+9 
+VCC 
+10 
+GND 
+11 
+NC 
+12 
+DDC2B Data 
+13 
+HSYNC 
+14 
+VSYNC 
+15 
+DDC2B Clock
+
+--- Page 20 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-9 
+Connecting to a DVI-D Monitor 
+The MC-4510-C23 computers come with a DVI-D connector that can connect to a DVI monitor. 
+Use the cable to connect one end to the DVI-D connector and the other end to the monitor. See the 
+following table for DVI-D connector pin assignments. 
+DVI-D Connector 
+Pin No. 
+Signal Definition 
+ 
+1 
+T.M.D.S. Data2- 
+2 
+T.M.D.S. Data2+ 
+3 
+T.M.D.S. Data2 Shield 
+4 
+N/C 
+5 
+N/C 
+6 
+DDC Clock 
+7 
+DDC Data 
+8 
+N/C 
+9 
+T.M.D.S. Data1- 
+10 
+T.M.D.S. Data1+ 
+11 
+T.M.D.S. Data1 Shield 
+12 
+N/C 
+13 
+N/C 
+14 
++5V Power 
+15 
+Ground (return for +5V, HSync, and 
+VSync) 
+16 
+Hot Plug Detect 
+17 
+T.M.D.S. Data0- 
+18 
+T.M.D.S. Data0+ 
+19 
+T.M.D.S. Data0 Shield 
+20 
+N/C 
+21 
+N/C 
+22 
+T.M.D.S. Clock Shield 
+23 
+T.M.D.S. Clock+ 
+24 
+T.M.D.S. Clock-
+
+--- Page 21 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-10 
+Connecting to a Speaker or a Headphone 
+The MC-4510-C23 comes with audio input and output interfaces for connecting a microphone and 
+speaker or headphones. See the following figure for details. 
+ 
+Upgrading the Memory Module 
+The MC-4510-C23 computer supports two memory sockets that have been installed with 2 GB 
+DDR2 SDRAM modules (1 GB for each socket). To upgrade the DDR3 SDRAM memory module, 
+follow these instructions: 
+1.  Disconnect the MC-4510-C23 from the power source. 
+2.  Remove the nine screws on the back cover. See the following figure for detailed location.   
+ 
+3.  Then remove seven screws on the rear cover.
+
+--- Page 22 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-11 
+4.  Remove the back cover of the computer. You will see two HDD brackets inside. The memory 
+module is located below the first HDD bracket. 
+ 
+ 
+5.  Remove the four screws of the first HDD bracket. See the following figure for the specific 
+location of the screws.
+
+--- Page 23 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-12 
+6.  After the first HDD bracket has been removed, you can find two memory modules. Carefully 
+remove the module by clicking the clutches at both sides of the module, and then replace the 
+new module. Be sure to orient the module correctly. 
+ 
+ 
+7.  When finished, replace the first HDD bracket and the back cover of the computer. 
+Installing a SATA Hard Disk 
+The MC-4510-C23 has two SATA connectors for installing two SATA hard disks. To install the 
+2.5-inch SATA hard disks, follow these instructions. 
+After removing the back cover of the computer, find the HDD brackets in the following figure. 
+Please note that you can install your hard disk onto either HDD bracket. However, if you would 
+like to install an SSD type disk, we suggest you have it installed on the second HDD bracket.
+
+--- Page 24 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-13 
+Installing the Hard Disk on the First HDD Bracket 
+1.  Remove the four screws on the first HDD bracket. 
+ 
+2.  Remove two black screws on each side of the bracket, and then take off the cover. 
+ 
+3.  Place the hard disk on the bracket. Use the four screws to fasten the hard disk at both sides 
+of the bracket.
+
+--- Page 25 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-14 
+4.  When finished, place the bracket on the computer, and use four screws to fasten the bracket. 
+Next, find the location of the power connect and the SATA connectors. There is one power 
+connector which can be used by two SATA hard disks, and there are two SATA connectors 
+for connecting two SATA disks. 
+ 
+5.  Connect the power cable to the power connector and the SATA cable to the SATA 
+connector. 
+ 
+6.  When finished, use the ground sticker to attach the hard drive disk and the bracket. Make 
+sure that the metal parts of the hard drive disk and the bracket have been attached. If you are 
+using a solid state drive (SSD), you don’t need to attach this sticker.
+
+--- Page 26 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-15 
+Installing the Hard Disk on the Second HDD Bracket 
+1.  Remove the four screws on the second HDD bracket. 
+ 
+ 
+2.  Remove two black screws on each side of the bracket, and then take off the cover. 
+ 
+ 
+3.  Place the hard disk on the bracket. Use the four screws to fasten the hard disk at both sides 
+of the bracket.
+
+--- Page 27 ---
+MC-4510-C23 HW User’s Manual  Hardware Connection Description 
+ 
+3-16 
+4.  When finished, place the bracket on the computer, and use four screws to fasten the bracket. 
+Next, connect the SATA cable to the SATA connector, and the power cable to the power 
+connector. 
+ 
+5.  When you finish installing two hard disks on the computer, replace the back cover of the 
+computer, and fasten the screws. 
+6.  When finished, use the ground sticker to attach the hard drive disk and the bracket. Make 
+sure that the metal parts of the hard drive disk and the bracket have been attached. If you are 
+using a solid state drive (SSD), you don’t need to attach this sticker.
+
+--- Page 28 ---
+4
+4
+ 
+ 
+Chapter 4  BIOS Setup 
+This chapter describes the BIOS settings of the MC-4510-C23 computer. The BIOS is a set of 
+input/output control routines for peripherals. The BIOS is used to initialize basic peripherals and 
+helps boot the operating system before the operating system is loaded. The BIOS setup allows the 
+user to modify the system configurations of these basic input/output peripherals. All of the 
+configurations will be stored in the battery backed up CMOS RAM, which retainsthe system 
+information after system reboots or the power is removed. 
+This chapter covers the following topics: 
+  Entering the BIOS Setup Utility 
+  Modifying the BIOS Main Settings 
+  Basic Configuration 
+  System Security 
+  Advanced Settings 
+  Hard Disk Boot Priority 
+  Advanced BIOS Features 
+  CPU Features 
+  Advanced Chipset Settings 
+  Peripherals 
+  OnChip IDE Device 
+  Onboard Device 
+  Super I/O Device 
+  Power 
+  Wake Up Control 
+  Hardware Monitor 
+  Load Defaults 
+  Exiting the BIOS Setup 
+  Upgrading the BIOS
+
+--- Page 29 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-2 
+Entering the BIOS Setup Utility 
+To enter the BIOS setup utility, press the “Del” key while the system is booting up. The main 
+BIOS Setup screen will appear. 
+A basic description of each function key is listed at the bottom of the screen. Refer to these 
+descriptions to learn how to scroll about the screen, how to select by pressing “Enter,” and how to 
+use the other hot keys listed below. 
+F1: General Help 
+F5: Previous Value 
+F6: Default Settings 
+F7: Turbo Settings 
+F10: Save 
+ESC: Exit
+
+--- Page 30 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-3 
+Modifying the BIOS Main Settings 
+Basic Configuration 
+After entering the BIOS Setup, or choosing the “Main” option, the BIOS main menu will be 
+displayed. Use this menu to check the basic system information such as memory and IDE hard 
+drive. You can also use the menu for configuring basic system parameters, such as date, time, hard 
+drive, display, and system security. 
+System Security 
+To set up system security, select the “Security” option under “Main” to bring up the following 
+screen. 
+ 
+This menu includes two options: “Set Password” and “Security Option.” 
+When you select the Set Password option, a pop-up “Enter Password:” window will appear on the 
+screen. The password that you type will replace the password stored in the CMOS memory. You 
+will be required to confirm the new password. Just re-type the password and then press <Enter>. 
+You may also press <Enter> to abort the selection and not enter a password. 
+To clear an existing password, just press <Enter> when you are prompted to enter the password. 
+A message will show up confirming that the password will be disabled. Once the password is 
+disabled, the system will boot and you can enter the “BIOS Setup Menu” without entering a 
+password. 
+Once a password has been set, you will be prompted to enter the password each time you enter 
+Setup. This prevents unauthorized persons from changing any part of your system configuration. 
+In addition, when a password setting is enabled, you can set up the BIOS to request a password 
+each time the system is booted up. The “Security Option” setting determines when a password 
+prompt is required. If the “Security Option” is set to “System,” the password must be entered both 
+at boot up and when entering the BIOS Setup Menu. If the password is set for “Setup,” the 
+password prompt only occurs when you enter the “BIOS Setup Menu.”
+
+--- Page 31 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-4 
+Advanced Settings 
+The “Advanced Features” screen will appear when choosing the “Advanced” item from the main 
+menu. 
+ 
+Hard Disk Boot Priority 
+First/Second/Third Boot Device 
+This option allows users to select or change the device boot priority. You may set 3 levels of 
+priority to determine the boot up sequence for different bootable devices, such as a hard drive, 
+CD-ROM, and removable devices. Select the order in which devices will be searched in order to 
+find a boot device. The available options are “CDROM (default for first boot device),” 
+“Removable” (default for third boot device), “Hard Disk” (default for second boot device) and 
+“Disabled.”
+
+--- Page 32 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-5 
+Advanced BIOS Features 
+When you select the “Advanced BIOS Features” option under the “Advanced” menu, the 
+following configuration menu will appear. 
+ 
+CPU Features 
+ 
+C1E Function 
+This item allows you to configure the power-saving mode when the CPU is in C1 status.   
+Options: Auto (default), Disabled   
+Virtualization Technology 
+This item allows you to enable or disable the Virtualization Technology 
+Options: Enabled, Disabled (default)
+
+--- Page 33 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-6 
+Quick Power On Self Test 
+This setting allows the system to skip certain tests while the system boots up. Enable this feature to 
+speed up the boot up process. 
+Options: Enabled (default), Disabled 
+Summary Screen Show 
+The summary screen displays system information, including CPU, memory, disk drive, and PCI 
+devices. The default value is disabled. You may choose “Enabled” to display this screen when the 
+system is booting up.   
+Options: Disabled (default), Enabled 
+Advanced Chipset Settings 
+ 
+VT-d 
+This item allows you to enable or disable the VT-d function. 
+Options: Enabled, Disabled (default) 
+On-chip Frame Buffer Size 
+This item determines the frame buffer size for the VGA function, and will share the system 
+memory. 
+Options: 32MB, 64MB (default), 128MB 
+DVMT Mode 
+Sets the Dynamic Video Memory Technology operating mode. When set to “Fixed,” the graphics 
+driver will reserve a fixed portion of the system memory as graphics memory. When set to 
+“DVMT,” the graphics driver will dynamically allocate system memory as graphics memory, 
+according to system and graphics requirements. When set to “BOTH,” the graphics driver will 
+allocate a fixed amount of memory as dedicated graphics memory, as well as allow more system 
+memory to be dynamically allocated between the graphics processor and the operating system.
+
+--- Page 34 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-7 
+Options: Enable (default), Disable 
+Total GFX Memory 
+Sets the maximum amount of system memory that can be allocated as graphics memory.   
+Options: 128 MB, 256 MB (default), MAX. 
+Boot Display 
+This item allows you to choose which display interface will be shown when system is booting up. 
+Due to the display limitation, two displays at most can be shown when booting up. If you select 
+the default option, VBIOS Default", the displays that have been connected will be used as the 
+default displays. 
+Options: VBIOS Default (default), CRT, EFP1, EFP2, CRT+EFP1, CRT+EFP2 
+Peripherals
+
+--- Page 35 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-8 
+OnChip IDE Device 
+ 
+SATA Mode 
+This item allows you to select the IDE mode or AHCI mode for your SATA hard disk..   
+Options: IDE (default), AHCI 
+Legacy Mode Support 
+This item allows you to enable or disable the legacy USB device. 
+Options: Disabled (default), Enabled 
+Onboard Device
+
+--- Page 36 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-9 
+Onboard LAN Boot ROM 
+Decide whether to invoke the boot ROM of the onboard LAN chip. 
+Options: Enabled, Disabled (default) 
+Super I/O Device 
+Debug Port 
+ 
+This function allows you to enable/disable the debug port communication. This port is only for 
+engineers who are debugging program.   
+Options: Disabled (default), Enabled   
+Power on After Power Fail 
+This item allows you to configure the power on after power fail function. 
+Options: Off, On (default), Former-Sts
+
+--- Page 37 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-10 
+Power 
+The Power Setup Menu allows you to configure your system power-up/ power-down options. 
+ 
+HPET Support 
+This item allows you to enable/disable the HPET (High Precision Event Timer) function. 
+Option: Enabled (default), Disabled 
+HPET Mode 
+This item allows you to select the HPET mode. 
+Option: 32-bit mode (default), 64-bit mode 
+Soft-Off by PWR-BTTN 
+This item determines the delay to stop the software when pushing the power button. 
+Options: Instant-Off (default), Delay 4 Sec. 
+Wake Up Control 
+RTC Wake Up 
+This item allows you to enable/disable the RTC wake up function. 
+Options: Disabled (default), Enabled
+
+--- Page 38 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-11 
+Hardware Monitor 
+ 
+This item helps monitor the status of the system, including CPU temperature and the voltage of the 
+CPU, SDRAM and battery. 
+CPU Warning Temperature 
+This item allows you to configure what temperature will trigger a high temperature warning. 
+Options: 80°C/176°F, 90°C/194°F (default), 100°C/212°F, Disabled 
+Warning Beep 
+This item allows you to enable/disable the warning beep. 
+Options: Disabled (default), Enabled 
+Load Defaults
+
+--- Page 39 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-12 
+Load System Default Settings 
+Use this option to load system factory default settings instead of the current BIOS settings. This 
+option is useful for when the system is unstable. Users do not need to remember what settings 
+were active before the system fails. 
+Load System Turbo Settings 
+Use this option to load system optimized settings. If the system is not stable, please load the 
+system default settings. 
+Load CMOS from BIOS 
+Use this option to load BIOS settings from flash ROM to CMOS. 
+Save CMOS to BIOS 
+Use this option to save the BIOS settings from the CMOS to flash ROM. 
+Exiting the BIOS Setup 
+To exit the BIOS setup utility, choose “Exit.” Pressing <ESC> will achieve the same result. 
+ 
+Save & Exit Setup 
+Save all configuration changes to CMOS (memory) and exit setup. A confirmation message will 
+be displayed before proceeding. 
+Exit Without Saving 
+Abandon all changes made during the current session and exit setup. A confirmation message will 
+be displayed before proceeding.
+
+--- Page 40 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-13 
+Upgrading the BIOS 
+This section describes how to upgrade the BIOS. However, please note that upgrading the BIOS 
+involves high risk of damage to your computer. We strongly recommend that you contact Moxa’s 
+TS staff for assistance and obtain all necessary tools and files before attempting to upgrade. 
+Step 1:  Create a Bootable USB Disk. 
+We suggest you use the HP USB Disk Format Tool to create a bootable USB disk. You may 
+download this tool from the Internet. Search the Internet using the phrase “HP USB Disk Storage 
+Format Tool”, and then download the tool from one of the listed websites.   
+You will also need to download the FreeDos system files kernel.sys and command.com from 
+http://www.freedos.org/kernel/. 
+1.  Copy DOS system files kernel.sys and command.com to a specified directory (C:\FreeDOS 
+in this example). 
+2.  Start the HP USB Disk Storage Format Tool and select the USB device that you want to use as 
+a bootable disk in the Device drop down box. 
+3.  Select FAT in the File system drop down box. 
+4.  Type the disk name in the Volume label field. 
+5.  Check the option Create a DOS startup disk under format options. 
+6.  Specify the directory of the system files (for example, C:\FreeDOS). 
+7.  Click Start to format and create the USB disk.
+
+--- Page 41 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-14 
+ 
+ATTENTION 
+We suggest you use a USB drive with under 2 GB in disk space, as larger USB drives may not 
+support FAT file format and consequently fail to boot. 
+ 
+Step 2:  Prepare the Upgrade Tool and BIOS Binary File. 
+You must use the BIOS upgrade installation file to upgrade the BIOS. You can download it from 
+the Moxa Download Center at: 
+http://web4.moxa.com/support/download_center.asp
+ 
+1.  Get the BIOS upgrade installation file. The file name should have following format: 
+451010.s02. 
+2.  Copy the file to the Bootable USB Disk. 
+3.  Double click to extract the BIOS update installation file. The file includes a binary file in the 
+form s451010.s02 and the upgrade utility named awdflash.exe. 
+Step 3:  Set up the BIOS to Boot from the USB Disk. 
+1.  Insert the USB disk. 
+2.  Power on and press DEL to enter the BIOS Setup menu. 
+3.  Select Advanced  Hard Disk Boot Priority and then press Enter. 
+4.  From the Setup menu, use “↑” or “↓” to select the USB device. 
+ 
+5.  Press “+” to move it up to the first priority, and press “Esc” to exit the setup menu.
+
+--- Page 42 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-15 
+6.  Make sure the first boot device is Hard Disk. If it isn’t, press Enter to change it. 
+ 
+7.  Select Exit  Save & Exit Setup and then press Enter. 
+8.  Choose Y to save to the CMOS and then exit. 
+Step 4:  Run awdflash.exe to upgrade the BIOS. 
+1.  While in the BIOS Setup menu and before upgrading the BIOS, you may choose to save the 
+old BIOS files to a specific location. Type Y to do so, or N to begin the upgrade. 
+2.  If the BIOS Setup is correct, it will restart and boot from the USB disk. 
+3.  Run awdflash 451010.s02 from the command line to upgrade the BIOS. Replace 
+xxxxxxx.Sxx with the BIOS binary file name discussed in Step 2. 
+4.  Press F1 to reset the system after the bios update is complete. The system should reboot at this 
+time.
+
+--- Page 43 ---
+MC-4510-C23 HW User’s Manual  BIOS Setup   
+ 
+4-16 
+5.  Please note that once the BIOS is successfully upgraded, the default BIOS values will be 
+automatically loaded. However, if you wish to re-configure the BIOS settings, press DEL 
+while booting. 
+ 
+ATTENTION 
+Do NOT switch off the power supply during the BIOS upgrade, since doing so may cause the 
+system to crash.
+
+--- Page 44 ---
+A
+A
+ 
+ 
+Appendix A  Regulatory Approval Statement 
+ 
+This device complies with part 15 of the FCC Rules. Operation is subject to 
+the following two conditions: (1) This device may not cause harmful 
+interference, and (2) this device must accept any interference received, 
+including interference that may cause undesired operation. 
+ 
+Class A
+：  FCC Warning! This equipment has been tested and found to comply with the limits for 
+a Class A digital device, pursuant to part 15 of the FCC Rules. These limits are designed to 
+provide reasonable protection against harmful interference when the equipment is operated in a 
+commercial environment. This equipment generates, uses, and can radiate radio frequency energy 
+and, if not installed and used in accordance with the instruction manual, may cause harmful 
+interference to radio communications. Operation of this equipment in a residential area is likely to 
+cause harmful interference in which case the user will be required to correct the interference at his 
+own expense. 
+ 
+ 
+European Community 
+ 
+ 
+Warning: 
+This is a class A product. In a domestic environment this product may cause radio interference in 
+which case the user may be required to take adequate measures.
+

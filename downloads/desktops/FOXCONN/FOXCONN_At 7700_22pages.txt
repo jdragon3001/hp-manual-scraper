@@ -1,0 +1,799 @@
+Brand: FOXCONN
+Model: At 7700
+URL: https://www.manua.ls/foxconn/at-7700/manual
+Total Pages: 22
+============================================================
+
+--- Page 2 ---
+Before using this product, please read the below safety notice carefully, this will help to
+extend the product’s lifecycle, and work normally.
+■ WhenNanoPCisworking,pleasemakesureitsventilationsystemisworking.
+■
+Thepoweradapterisdissipatingheatduringnormaluse,pleasebesurenottocover
+ 
+ itandkeepitawayfromyourbodytopreventdiscomfortorinjurybyheatexposure.
+■ Pleaseusethepoweradapterthatcomeswiththeproduct’spackage,wrongpower
+ adaptermaydamageyourdevice.
+■ MakesurealltheperipheralsareproperlyconnectedbeforeusingNanoPC.
+■ Thisproductshouldonlybeusedinanenvironmentwithambienttemperatures
+ between0°Cand40°C.
+■ Alwaysshutdownthecomputerbeforeinstallingoruninstallingtheperipheralwhich
+  does not support hot plug.  
+■ Disconnectallperipheralsbeforeservicingordisassemblingthisequipment.
+■ Pleasedonotdisassemblethisproductbyyourself,anydisassemblynotapproved
+ bytheoriginalmanufacturermayresultinmalfunction,andvoidwarranty.
+■ Riskofexplosionifbatteryisreplacedbyanincorrecttype,pleasedisposeofused
+  batteries according to the instructions.
+C
+AUTIO
+N
+Safety Notice:
+Trademark:
+ Alltrademarksarethepropertyoftheirrespectiveowners.
+Version:
+ User’sManualV1.0forNanoPC.
+ 
+Symbol description:
+ Note: ReferstoimportantinformationthatcanhelpyoutouseNanoPCbetter,and
+ tellsyouhowtoavoidproblems.
+ Caution: Indicatingapotentialriskofhardwaredamageorphysicalinjurymayexist.
+ WEEE:
+  The use of this symbol indicates that this product may not be treated as household 
+waste.Byensuringthisproductisdisposedofcorrectly,youwillhelppreventpotential
+negativeconsequencesfortheenvironmentandhumanhealth,whichcouldotherwise
+be caused by inappropriate waste handling of this product. For more detailed informa-
+tionaboutrecyclingofthisproduct,pleasecontactyourlocalcityofce,yourhouse-
+holdwastedisposalserviceortheshopwhereyoupurchasedthisproduct.
+©Allrightsreserved.
+Alltradenamesareregisteredtrademarksofrespectivemanufacturerslisted.
+Allimagesareforreferenceonly,pleaserefertothephysicalproductforspecicfeatures.
+C
+AUTIO
+N
+
+--- Page 3 ---
+Introduction
+1-1FrontSideView ...................................................................................................... 2
+1-2BackSideView ....................................................................................................... 4
+Placement and connecting
+2-1PlacementofNanoPC ........................................................................................... 7
+InSeatBase ............................................................................................................. 7
+On the desk .............................................................................................................. 7
+2-2ConnectionofNanoPC .......................................................................................... 8
+Connectdisplay ........................................................................................................ 8
+ConnectUSBdevices............................................................................................... 9
+Connectnetworkcable ............................................................................................. 9
+Connectpowercord ............................................................................................... 10
+BIOS Setup
+EnterBIOSSetup ....................................................................................................... 12
+Main ............................................................................................................................ 13
+Advanced .................................................................................................................... 14
+Miscellaneous ......................................................................................................... 15
+IntegratedPeripherals ............................................................................................ 16
+SATAConguration ................................................................................................ 17
+Power .......................................................................................................................... 19
+TABLE OF CONTENTS
+Package Contents
+WeDONOTguaranteeitisincompliancewiththeSafetyCerticatesifyouaddonan
+extensioncabletoNanoPCUSBFlashDiskinthepackage.
+NanoPC SeatBase
+Screws,MiniPCIeHalfCardSup-
+portBracket,MagnetRubberFoot
+PowerAdapter PowerCord EasyGuide
+USBFlashDisk DVI-VGAAdapter
+
+--- Page 4 ---
+Security ....................................................................................................................... 20
+BootOptions ................................................................................................................ 21
+Save&Exit ................................................................................................................. 23
+Install OS
+4-1InstallWindows7/8 ............................................................................................... 26
+4-2InstallDrivers ........................................................................................................ 30
+Utility
+FoxWINFLASH .......................................................................................................... 32
+1.LocalUpdate ...................................................................................................... 32
+2.About&Help....................................................................................................... 34
+■FrontSideView
+■BackSideView
+Introduction
+
+--- Page 5 ---
+2 3
+INTRODUCTION INTRODUCTION
+1 PowerbuttonwithPowerindicatorLED
+PresstoturnyourNanoPConoroff,theLEDcanindicateyoursystem
+states.
+2 Speaker
+3
+USB3.0port
+ThisUSBportsupportstheUSB3.0/2.0/1.0specication.Usethisportfor
+USBdevicessuchaskeyboard,mouse,USBprinter,USBashdrivesand
+harddiskdrives,etc.
+AstoWindows7system,youneedtoinstalltheUSB3.0driverinNanoPC
+USBDiskbeforeusingit.
+4
+Multi-Functioncardreader
+ThismemorycardreadersupportsSD/SDHC/SDXC/MS/MSPro/MMC
+memorycardsusedindeviceslikedigitalcameras,mobilephones,Media
+players and so on.
+5
+Microphone/SPDIFinport
+Connectstoamicrophoneorplaybackdeviceswithopticalconnectors
+(3.5mmjack).
+SPDIFfunctionrequiresadditionaladapterandadaptercable.
+6
+Headphone
+Connectstoaheadphone.
+7 Kensington lock 
+AttachaKensingtonsecuritysystemoracompatiblesecuritylocktosecure
+yourNanoPCinplace.
+1-1 Front Side View
+1
+2
+3
+4
+5
+6
+7
+
+--- Page 6 ---
+4 5
+INTRODUCTION INTRODUCTION
+1 USB2.0port
+ThisUSBportsupportstheUSB2.0/1.0specication.UsethisportforUSB
+devicessuchaskeyboard,mouse,USBprinter,USBashdrivesandhard
+diskdrives,etc.
+2
+USB3.0port
+ThisUSBportsupportstheUSB3.0/2.0/1.0specication.Usethisportfor
+USBdevicessuchaskeyboard,mouse,USBprinter,USBashdrivesand
+harddiskdrives,etc.
+AstoWindows7system,youneedtoinstalltheUSB3.0driverinNanoPC
+USBDiskbeforeusingit.
+3
+DVI
+DVIport
+ConnectmonitororTVthatusesDVIconnectortothisport.
+ByusingtheDVItoVGAadapterthatcomeswithyourproduct,youcanalso
+connectaVGA-compatibledevicessuchasamonitororprojector.
+4
+HDMI
+HDMIport
+TheHDMI(High-DenitionMultimediaInterface)portsupportsFull-HD
+displaydevices.
+ConnectmonitororTVthatusesHDMIconnectortothisport.
+5
+RJ-45LANport
+Supports10/100/1000Mb/sEthernetnetwork.
+ConnectnetworkcabletoaccessInternet.
+6
+Lineout/SPDIFoutport
+Connectstopoweredanalogspeakersorrecordingdeviceswithoptical
+connectors(3.5mmjack).
+SPDIFfunctionrequiresadditionaladapterandadaptercable.
+7
+Powerinputport
+Connectpowercordthatcomewithyourproduct.
+1-2 Back Side View
+1
+3
+2
+4
+5
+6
+7
+
+--- Page 7 ---
+7
+PLACEMENTANDCONNECTING
+2-1  Placement of NanoPC
+In Seat Base
+ PlaceyourNanoPCintothegrooveoftheSeatBase.
+On the desk
+ FityourNanoPCwithMagnetRubberFoot,andputitonthetabletopdirectly.
+Placement 
+and 
+connecting
+■PlacementofNanoPC
+■ConnectionofNanoPC
+
+--- Page 8 ---
+8 9
+PLACEMENTANDCONNECTING PLACEMENTANDCONNECTING
+Connect USB devices
+ ConnectUSBdevicestotheUSBports,forexample,mouse,keyboarddevices.
+ AstoWindows7system,youneedtoinstalltheUSB3.0driverinNanoPCUSBdiskbeforeusingthe
+ USB3.0ports.
+Connect network cable
+ ConnectoneendofanetworkcabletotheRJ-45LANport,andtheotherendtoahubor
+ switch.
+2-2  Connection of NanoPC
+Connect display
+  
+  ConnectadisplayorTVthathasHDMIportorVGAporttoyourNanoPC.
+ YoucanconnectaVGAdisplaytotheDVIportbyusingtheDVI-VGAadapter. 
+ PleaseusethecustomizedDVI-VGAAdapterthatcomeswithyourNanoPCtogeta
+ higherresolutiononyourVGAdisplay.
+
+--- Page 9 ---
+10
+PLACEMENTANDCONNECTING
+Connect power cord
+ ConnectthepoweradaptertothepowerinputportoftheNanoPC,andthenpressthepowerbuttonto
+  start it.
+Thepoweradapterisdissipatingheatduringnormaluse,pleasedonotcoveritand
+keepitawayfromyourbodytopreventinjuryfromheatexposure.
+C
+AUTIO
+N
+1
+2
+3
+■EnterBIOSSetup
+■Main
+■Advanced
+■Power
+■Security
+■BootOptions
+■Save&Exit
+BIOS Setup
+
+--- Page 10 ---
+12 13
+BIOSSETUP BIOSSETUP
+Main
+   
+ 
+ 
+Version 2.15.1231. Copyright (C) 2012 American Megatrends, Inc.
+Aptio Setup Utility - Copyright (C) 2012 American Megatrends, Inc.
+  Main  Advanced  Power  Security  BootOptions  Save & Exit
+  System BIOS
+   Project Version  C25F1D17
+   Build Date   11/23/2012
+   EC Version  12.F1.05 
+ 
+ Processor
+   Intel(R) Core(TM) i5-3317U CP
+   Core Frequency  1.70 GHz
+   Count  2   
+ 
+ Chipset
+   Intel PCH SKU Name  HM76
+  System Memory
+   Memory Frequency  1333 Mhz
+   System Memory Size  4096 MB (DDR3)
+  System Date [Wed 11/23/2012] 
+  System  Time  [16:06:12]  
+  Access Level  Administrator
+  
+↑  ↓→  ←: Move
+Enter: Select
++/-: Change Opt.
+ESC: Exit
+F1: General Help
+F2: Previous Values
+F3: Optimized Defaults
+F4: Save & Exit Setup
+F7: Load User-defined Defaults
+F8: Save as User-defined
+Set the Date. Use Tab to  
+switch between Date elements.
+ 
+Main
+►SystemDate
+  <weekday><month><date> <year> format.
+ Day—weekdayfromSun.toSat.,thismessageisautomaticallydisplayedbyBIOS(ReadOnly).
+ Month—monthfrom1to12.
+ Date—datefrom1to31.
+ Year—year,setupbyusers.
+ Use[ENTER],[TAB]or[SHIFT-TAB]toselectaeld.Use[+]or[-]toinputthevalue.
+►SystemTime
+ Thisitemallowsyoutocongurethedesiredtime.Use[ENTER],[TAB]or[SHIFT-TAB]toselecta
+ eld.Use[+]or[-]toinputthevalue.
+ Thethreeeldsofthesettingare<hour>:<minute>:<second>respectively.
+►AccessLevel
+ Itdisplaysyourcurrentaccesslevel.Ifyouentersystemwithauserpassword,itwilldisplay“User”.If
+Enter BIOS Setup
+TheBIOSisthecommunicationbridgebetweenhardwareandsoftware,correctlysettinguptheBIOSpa-
+rametersiscriticaltomaintainoptimalsystemperformance.Poweronthecomputer,whenthemessage
+“Press<Del>toentersetup.Press<F11>toenterbootmenu.”
+appearsatthebottomofthescreen,youcanpress<Del>keytoenterSetup.
+Usethearrowright/leftkeystoselectaspecicfunctionandgotothesubmenu.Eachfunctionisex-
+plainedbelow:
+Main
+ Itdisplaysthebasicsystemconguration,suchasCPUName,memorysize,systemdate,timeand
+ soon.Theyallcanbeviewedorsetupthroughthismenu.
+Advanced
+ Theadvancedsystemfeaturescanbesetupthroughthismenu.
+Power
+AlltheitemsrelatedwithGreenfunctionfeaturescanbesetupthroughthismenu.
+Security
+ TheAdministrator/Userpasswordcanbesetupthroughthismenutopreventunauthorizeduseof
+ yourcomputer.Ifyousetapassword,thesystemwillaskyoutokeyincorrectpasswordbeforeboot
+ oraccesstoSetup.
+BootOptions
+ Bootfeaturescanbesetupthroughthismenu.Youcansetthebootdevicepriorityandenable“Quiet
+ Boot”featurehere.
+Save&Exit
+ Theoptimalperformancesettingscanbeloadedthroughthismenu.However,itmayofferbetter
+ performanceinsomeways(suchaslessI/Ocards,lessmemory...etc.),still,itmaycauseproblem
+ ifyouhavemorememoryorI/Ocardsinstalled.Itmeans,ifyoursystemloadingisheavy,setto 
+ optimaldefaultmaysometimescomeoutanunstablesystem.WhatyouneednowistoadjustBIOS
+ settingonebyone,trialanderror,tondoutthebestsettingforyourcurrentsystem.Youalsocan
+ saveordiscardthechangesandexitBIOSsetuphere.
+WedonotsuggestthatyouchangethedefaultvaluesintheBIOSSetup,andweshall
+not be responsible for any damage which resulted from the change you made.
+
+--- Page 11 ---
+14 15
+BIOSSETUP BIOSSETUP
+  no password is set or you enter system with administrator password, this item will display  
+ “Administrator”.
+Advanced
+   
+ 
+ 
+Version 2.15.1231. Copyright (C) 2012 American Megatrends, Inc.
+Aptio Setup Utility - Copyright (C) 2012 American Megatrends, Inc.
+  Main  Advanced  Power  Security  BootOptions  Save & Exit
+▶ Miscellaneous
+▶ Integrated Periperals
+▶ SATA configuration
+↑  ↓→  ←: Move
+Enter: Select
++/-: Change Opt.
+ESC: Exit
+F1: General Help
+F2: Previous Values
+F3: Optimized Defaults
+F4: Save & Exit Setup
+F7: Load User-defined Defaults
+F8: Save as User-defined
+Miscellaneous
+Advanced
+► Miscellaneous/IntegratedPeriperals/SATAconguration
+ Press<Enter>togotorelativesubmenu.
+Miscellaneous
+   
+ 
+ 
+Version 2.15.1231. Copyright (C) 2012 American Megatrends, Inc.
+Aptio Setup Utility - Copyright (C) 2012 American Megatrends, Inc.
+  Main  Advanced  Power  Security  BootOptions  Save & Exit
+   Bootup Num-Lock  [off]
+↑  ↓→  ←: Move
+Enter: Select
++/-: Change Opt.
+ESC: Exit
+F1: General Help
+F2: Previous Values
+F3: Optimized Defaults
+F4: Save & Exit Setup
+F7: Load User-defined Defaults
+F8: Save as User-defined
+Select the keyboard NumLock 
+state
+Advanced
+►BootupNum-Lock
+ ThisitemdenesifthekeyboardNumLockkeyisactivewhenyoursystemisstarted.Theavailable 
+ settingsare:OnandOff(default).
+
+--- Page 12 ---
+16 17
+BIOSSETUP BIOSSETUP
+Integrated Peripherals
+   
+ 
+ 
+Version 2.15.1231. Copyright (C) 2012 American Megatrends, Inc.
+Aptio Setup Utility - Copyright (C) 2012 American Megatrends, Inc.
+  Main  Advanced  Power  Security  BootOptions  Save & Exit
+  PCH Azalia Configuration
+  Azalia [Enabled]
+  CIR Controller Configuration
+  CIR Controller  [Disabled]
+↑  ↓→  ←: Move
+Enter: Select
++/-: Change Opt.
+ESC: Exit
+F1: General Help
+F2: Previous Values
+F3: Optimized Defaults
+F4: Save & Exit Setup
+F7: Load User-defined Defaults
+F8: Save as User-defined
+Control Detection of the
+Azalia device.
+Disabled = Azalia will be
+unconditionally disabled
+Enabled = Azalia will be
+unconditionally Enabled
+Advanced
+►Azalia
+ ThisitemisusedtocontrolthedetectionofAzaliadevice.
+►CIRController
+ ThisitemisusedtoenableordisabletheCIRcontroller.
+ 
+SATA Conguration
+   
+ 
+ 
+Version 2.15.1231. Copyright (C) 2012 American Megatrends, Inc.
+Aptio Setup Utility - Copyright (C) 2012 American Megatrends, Inc.
+  Main  Advanced  Power  Security  BootOptions  Save & Exit
+  SATA Controller(s)  [Enabled]
+  SATA Mode Selection  [AHCI]
+   Port 0  [Enabled]
+   Port 1  [Enabled]
+  Intel(R) Rapid Start Technology
+  Intel(R) Rapid Start Technology  [Disabled]
+↑  ↓→  ←: Move
+Enter: Select
++/-: Change Opt.
+ESC: Exit
+F1: General Help
+F2: Previous Values
+F3: Optimized Defaults
+F4: Save & Exit Setup
+F7: Load User-defined Defaults
+F8: Save as User-defined
+Enable or disable SATA Device.
+Advanced
+►SATAController(s)
+ [Disabled]:DisableSATAController.
+ [Enabled]:EnableSATAController.
+►SATAModeSelection
+ ThisitemisusedtosettheoperationmodeofyourSATAports.
+ [IDE]-ThiscongurestheSATAportstosupportIDEmode.
+ [AHCI]-TheAdvancedHostControllerInterface(AHCI)specicationdescribestheregister
+ levelinterfaceforaHostControllerforSerialATA.Thespecicationincludesadescriptionofthe
+ hardware/softwareinterfacebetweensystemsoftwareandthehostcontrollerhardware.AHCI
+ providesmoreadvancedfeaturesincludingSATAfeatures,butsomeSATAdrivesmaynotsupport
+ AHCI,unlesstheyarelabeledwithAHCIsupportinitsspecication.
+ IfyourmotherboardsupportingAHCI,andyouhaveaSATAdevice,whichalsosupportsAHCI,then
+
+--- Page 13 ---
+18 19
+BIOSSETUP BIOSSETUP
+ youcanselectIDEoptiontohavefairperformance,oryoucanselectAHCItogetitsbest 
+ performance.
+►Port0/Port1
+ ThisitemisusedtoenableordisableSATAport0/1.
+►Intel(R)RapidStartTechnology
+ ThisitemisusedtoenableordisabletheIntel(R)RapidStartTechnology.
+ 
+Power
+   
+ 
+ 
+Version 2.15.1231. Copyright (C) 2012 American Megatrends, Inc.
+Aptio Setup Utility - Copyright (C) 2012 American Megatrends, Inc.
+  Main  Advanced  Power  Security  BootOptions  Save & Exit
+  Restore On AC Power Loss  [Last State]
+  Deep Sleep Support  [Enabled]
+ 
+↑  ↓→  ←: Move
+Enter: Select
++/-: Change Opt.
+ESC: Exit
+F1: General Help
+F2: Previous Values
+F3: Optimized Defaults
+F4: Save & Exit Setup
+F7: Load User-defined Defaults
+F8: Save as User-defined
+Set the restore on AC power
+loss function.
+Power
+►RestoreonACPowerLoss
+ThisitemisusedtosetwhichstatethePCwilltakewithwhenitresumesafteranACpowerloss.
+►DeepSleepSupport
+ ThisitemisusedtoenableordisableDeepSleepSupportfunction.Whenenteringdeepsleepmode
+ system(S4/S5)onlycanwakeupfrompowerbutton.
+►LanWakeup
+ ThisitemisusedtoenableordisableLANwakeupfunction.itappearsonlywhenthe“DeepSleep
+ Support”isdisabled.
+
+--- Page 14 ---
+20 21
+BIOSSETUP BIOSSETUP
+Security
+   
+ 
+ 
+Version 2.15.1231. Copyright (C) 2012 American Megatrends, Inc.
+Aptio Setup Utility - Copyright (C) 2012 American Megatrends, Inc.
+  Main  Advanced  Power  Security  BootOptions  Save & Exit
+  Administrator Password Status  Installed
+  User Password Status  Not Installed
+  Change Supervisor Password 
+  Change User Password
+  Security option  [Setup]
+  ME Flash Write Protect  [Enabled]
+ 
+↑  ↓→  ←: Move
+Enter: Select
++/-: Change Opt.
+ESC: Exit
+F1: General Help
+F2: Previous Values
+F3: Optimized Defaults
+F4: Save & Exit Setup
+F7: Load User-defined Defaults
+F8: Save as User-defined
+Valid Keys:
+(1)a-z (A-Z) 
+(2)0~9
+(3)11 special keys:-=[];,./
+(4)key pad:0-9 support and 5 
+special keys
+Security
+►ChangeSupervisorPassword
+Thisitemisusedtoinstallorchangesupervisorpassword.
+► ChangeUserPassword
+     This item is used to install or change user password.
+ OnlywhenthereexistsanAdministratorpassword,thenthissettingcanbeactivated.
+►Securityoption
+ ToprotecttheBIOSfrombeingchangedbytheunauthorizedusers,thereisasecurityoptionprovided
+foryourchoice.OnlywhenthereexistsanAdministratorpassword,thenthissettingcanbeactivated.
+ [setup]:ApasswordwillberequiredtoentertheBIOS.(Onlycheckpasswordwhenentersetup)
+ [Always]:ApasswordwillberequiredtoenterboththesystemandBIOS.(Alwayscheckpassword)
+►MEFlashWriteProtect
+ToprotecttheMEBIOS,thereisaMEBIOSwrite-protectionmechanismprovidedtopreventBIOS
+FLASHtoolbeingimproperlyusedtoupdateMEBIOS.
+BootOptions
+   
+ 
+ 
+Version 2.15.1231. Copyright (C) 2012 American Megatrends, Inc.
+Aptio Setup Utility - Copyright (C) 2012 American Megatrends, Inc.
+  Main  Advanced  Power  Security  BootOptions  Save & Exit
+  Launch CSM  [Enabled]
+  Launch PXE OpROM policy   [Do not launch]
+  FIXED BOOT ORDER Priorities
+  1st Boot Device  [Hard Disk]
+  2nd Boot Device  [CD&DVD]
+  3rd Boot Device  [Removable Device]
+  4th Boot Device  [LAN]
+▶ Hard Disk Drive Priority  [Press Enter]
+▶ Optical Disk Drive Priority  [Press Enter]
+▶ Removable Device Priority  [Press Enter]
+▶ Network Device Priority  [Press Enter]
+  Quiet Boot  [Disabled]
+  Boot Menu  [Enabled]
+ 
+↑  ↓→  ←: Move
+Enter: Select
++/-: Change Opt.
+ESC: Exit
+F1: General Help
+F2: Previous Values
+F3: Optimized Defaults
+F4: Save & Exit Setup
+F7: Load User-defined Defaults
+F8: Save as User-defined
+This option controls if CSM
+will be launched 
+BootOption
+►LaunchCSM
+ ThisitemcontrolsifCSMwillbelaunched.
+ WARNING:Thisoptionisforadvancedusers.
+►LaunchPXEOpROMpolicy
+ ThisitemcontrolstheexecutionofLegacyPXEOpROM.
+►1st/2nd/3rd/4thBootDevice
+  These items are used to set the system boot order.
+►HardDiskDrivesBBSPriorities/OpticalDiskDriveBBSPriorities/RemovableDeviceBBSPriorities/
+ NETWORKDeviceBBSPriorities 
+ Press<Enter>togotoitssubmenu.Usethisitemstospecifythebootdeviceprioritysequenceofthe
+ detecteddevices.
+►QuietBoot
+ Thisitemisusedtoenable/disablethequietboot.
+
+--- Page 15 ---
+22 23
+BIOSSETUP BIOSSETUP
+ [Disabled]:DisplaysthenormalPOSTmessages.
+ [Enabled]:DisplaysOEMcustomerlogoinsteadofPOSTmessages.
+►BootMenu
+  This item is used to enable or disable boot menu.
+Save & Exit
+   
+ 
+ 
+Version 2.15.1231. Copyright (C) 2012 American Megatrends, Inc.
+Aptio Setup Utility - Copyright (C) 2012 American Megatrends, Inc.
+  Main  Advanced  Power  Security  BootOptions  Save & Exit
+  Save Changes and Exit      
+  Discard Changes and Exit
+  Save Changes
+  Discard Changes
+  Load Default Values
+  Save as User Default Values
+  Load User Default Values
+ 
+↑  ↓→  ←: Move
+Enter: Select
++/-: Change Opt.
+ESC: Exit
+F1: General Help
+F2: Previous Values
+F3: Optimized Defaults
+F4: Save & Exit Setup
+F7: Load User-defined Defaults
+F8: Save as User-defined
+Exit  system  setup  after   saving 
+the   changes. 
+Save & Exit
+►SaveChangesandExit
+ Ifyouselectthisoptionandpress<Enter>,amessagewillbedisplayedinthescreen.
+ Select[Yes]tosaveyourchangesandexit,select[No]or<ESC>toreturntothemainmenu.
+►DiscardChangesandExit
+ Ifyouselectthisoptionandpress<Enter>,amessagewillbedisplayedinthescreen.
+ Select[Yes]toexitsetuputilitywithoutsavingyourmodications,select[No]or<ESC>toreturnto
+  the menu.
+►SaveChanges
+ Ifyouselectthisoptionandpress<Enter>,amessagewillbedisplayedinthecenterofthescreen.
+ Select[Yes]tosaveyourchanges,select[No]or<ESC>toreturntothemenu.
+►DiscardChanges
+ Ifyouselectthisoptionandpress<Enter>,amessagewillbedisplayedinthecenterofthescreen.
+ Select[Yes]todiscardyourmodications,select[No]or<ESC>toreturntothemenu.
+►LoadDefaultValues
+
+--- Page 16 ---
+24
+BIOSSETUP
+■InstallWindows7/8
+■InstallDrivers
+Install OS
+  Optimal defaults are the best settings of this motherboard. 
+ AlwaysloadtheOptimaldefaultsafterupdatingtheBIOSorafterclearingtheCMOSvalues.
+ SelectthisoptionandpressEnter,itwillpopoutadialogueboxtoletyouloadthedefaults.Select
+ <Yes>andthenpress<Enter>toloadthedefaults.Select<No>andpress<Enter>,itwillnotload.
+ Bythisdefault,BIOShavesettheoptimalperformanceparametersofsystemtoimprovetheperfor-
+  mances of system components. But if the optimal performance parameters to be set cannot be sup- 
+ portedbyyourhardwaredevices(forexample,toomanyexpansioncardswereinstalled),thesystem
+  might fail to work.
+►SaveasUserDefaultValues
+ Ifyouselectthisoptionandpress<Enter>,amessagewillbedisplayedinthescreen.
+ Select[Yes]tosavethechangesdonesofarasuserdefaults,select[No]or<ESC>toreturntothe
+ menu.
+►LoadUserDefaultValues
+ Ifyouselectthisoptionandpress<Enter>,amessagewillbedisplayedinthescreen.
+ Select[Yes]torestore/loadtheuserdefaultstoallthesetupoptions,select[No]or<ESC>toreturnto
+  the menu.
+
+--- Page 17 ---
+26 27
+INSTALLOS INSTALLOS
+Whatkindsofhardwareandsoftwareyouneedhere:
+1.Windows7/8InstallUSBDisk/USBDVD-ROMdriveandWindows7/8InstallCD(Otherpurchase)
+2. NanoPCUSBFlashDisk(Inthispackage)
+ 
+ 
+Windows7(32-bit/64-bit)andWindows8(32-bit)can’tbeinstalledwhen“LaunchCSM”is
+setto“Disabled”intheBIOSsetup.
+4-1 Install Windows 7/8
+1. ConnecttheWindows7/8InstallUSBDisk(orUSBDVD-ROMdrive)tooneUSBportofNanoPC.
+2. Presspoweronbuttontoturnonyourcomputer.
+3. PuttheWindows7/8InstallCDintotheUSBDVD-ROMdriveifyouusetheUSBDVD-ROMdrive.
+4. ComputerwillchoosethebootdevicebyBIOSdefaultandstartloadingthelesforinstallingtheOS.
+5. Whentheinstallationwindowspopup,settherelateditemsandclick“Next”tocontinue,thenclick
+ “Installnow”buttontostartthesetup.
+6. Whenthelicensetermsappear,chooseacceptandclick“Next”tocontinue.
+7. Itwillthenaskyoutoselecttheinstallationtype.Click“Custom(advanced)”toinstallanewcopyof
+ Windows.
+Pleasepress<Del>keytoenterBIOSSetupifyouwanttochangetherstbootdevice
+forinstallingtheOS.
+     
+8. Thesetupwilldisplaytheharddiskpartitions(160GB,inthisexample)ofyoursystem.Ifthere 
+ wereothersystems(suchasLinux)installedpreviously,youneedselectthemandclick“Driveoptions
+ (advanced)”todeletethem.Whenallpartitionsareclean,setupwilldisplaythebiggestsizeofyour
+ harddrive.
+
+--- Page 18 ---
+28 29
+INSTALLOS INSTALLOS
+9. Intheharddisksizescreen,youcanclickthe“new”buttontocreatepartitionsasyouneed.
+ Inthisexamplewearecreatinga70GBpartitiontoinstallWindows.Makeyourmodicationsand
+ click“Apply”.
+     
+ ToensurethatallWindowsfeaturesworkcorrectly,Windowsmightcreateadditionalpartitionsfor
+ systemles.Soyouwillseea100MBpartitionreservedbysystemafteryoucreateapartition.Select
+ the70GBpartitionandclick“Next”tocontinue.
+     
+10.ThesetupprogramwillthenstarttoinstallWindows7/8onyourharddisk.Duringtheinstallation,
+ yourcomputerwillrestartseveraltimes.
+
+--- Page 19 ---
+30
+INSTALLOS
+11.Whentheinstallationiscomplete,setupwillprepareyourcomputerforit’srstuse.Youcanthen 
+   follow the steps to select system settings, create an account, set a password...etc, until the whole  
+   process is completed.
+4-2 Install Drivers
+1. WhentheWindows7/8iscompletelyinstalled,youhavetoinstallthenecessarydriversbeforeusing
+ theNanoPC.ConnecttheNanoPCUSBFlashDisktoyoursystem.
+2. Waitingforafewseconds,themainmenuwillbedisplayedonthescreen.
+              
+3. Usetheseoptionstoinstallallthedriversforyoursystem.Youmustclick"IntelChipsetDriver"to
+ installitrst.Afterthat,youcanclick”OneClickSetup”andthenchoosetheitemsyouwanttoinstall,
+ oryoucanclickoneachindividualdrivertoinstallitmanually.
+4. Afterinstallingallthedrivers,youneedtorestartyourNanoPC,thenyoucanstartusingit.
+■FoxWINFLASH
+Utility
+
+--- Page 20 ---
+32 33
+UTILITY UTILITY
+Fox WINFLASH
+FoxWINFLASHisausefulutilitytobackupandupdateyoursystemBIOS.
+SupportingOperatingSystems:
+■ Windows7(32-bit/64-bit)
+■ Windows8(32-bit/64-bit)
+1. Local Update
+1-1LocalUpdate-BIOSInformation
+ ThispageletsyouknowyoursystemBIOSinformation.
+Note:BIOSSize32Mb=32Mbit=4MByte
+  BIOSSize16Mb=16Mbit=2MByte
+Pleaserefertothephysicalmotherboardfordetails.
+Toolbar
+ShowcurrentBIOS
+information
+Minimum
+Exit
+1-2LocalUpdate-BackupBIOS
+ ThispagecanbackupyoursystemBIOS.Youcanclick“BackupBIOS”,andkeyinalename,then
+ click“Save”tonishthebackupoperation.Theextensionofthisbackupleis“.ROM”forAMIBIOS.
+ Makesureyoucanrememberthelenametogetherwiththedirectorywhichitisstored,prevented
+ thatyoumayneedthemtorecoveryourBIOSlater.
+1-3LocalUpdate-UpdateBIOS
+ ThispagehelpsyoutoupdateyourBIOSfromalocalle.Afterclick“UpdateBIOS”,Analert 
+ messagewillbedisplayedtoensureifyoureallywanttocontinue,click“Yes”toconrm.Asetup
+ wizardwillguideyoutoloadalocalBIOSletonishtheoperation.Youmustrememberfromwhich
+ directorytoloadyournewBIOSle(withanextensionof“.ROM”forAMIBIOS)beforethesetup
+ wizardstarts.
+KeyinaBIOSname
+ClicktoSave
+
+--- Page 21 ---
+34
+UTILITY
+2. About & Help
+ ThispageshowssomeinformationaboutFoxWINFLASH.
+Statement:
+ Thisdevicecomplieswithpart15oftheFCCRules.Operationissubjecttothefollowingtwo 
+ conditions:(1)Thisdevicemaynotcauseharmfulinterference,and(2)thisdevicemustacceptany
+ interferencereceived,includinginterferencethatmaycauseundesiredoperation.
+Warning:
+FEDERAL COMMUNICATIONS COMMISSION INTERFERENCE STATEMENT
+ ThisequipmenthasbeentestedandfoundtocomplywiththelimitsforaClassBdigitaldevice, 
+ pursuanttopart15oftheFCCRules.Theselimitsaredesignedtoprovidereasonableprotection
+ againstharmfulinterferenceinaresidentialinstallation.Thisequipmentgenerates,usesandcan 
+ radiateradiofrequencyenergyand,ifnotinstalledandusedinaccordancewiththeinstructions,may
+ causeharmfulinterferencetoradiocommunications.However,thereisnoguaranteethatinterference
+ willnotoccurinaparticularinstallation.Ifthisequipmentdoescauseharmfulinterferencetoradioor
+ televisionreception,whichcanbedeterminedbyturningtheequipmentoffandon,theuseris 
+ encouragedtotrytocorrecttheinterferencebyoneormoreofthefollowingmeasures:
+  ▪Reorientorrelocatethereceivingantenna.
+  ▪Increasetheseparationbetweentheequipmentandreceiver.
+  ▪Connecttheequipmentintoanoutletonacircuitdifferentfromthattowhichthereceiveris 
+       connected.
+  ▪Consultthedealeroranexperiencedradio/TVtechnicianforhelp.
+Caution:
+ Anychangesormodicationsnotexpresslyapprovedbythegranteeofthisdevicecouldvoidthe
+ user’sauthoritytooperatetheequipment.
+RF exposure warning:
+ Thisequipmentmustbeinstalledandoperatedinaccordancewithprovidedinstructionsandthe
+ antenna(s)usedforthistransmittermustbeinstalledtoprovideaseparationdistanceofatleast 
+ 20cmfromallpersonsandmustnotbeco-locatedoroperatinginconjunctionwithanyotherantenna
+ ortransmitter.End-usersandinstallersmustbeprovidewithantennainstallationinstructionsand
+ transmitteroperatingconditionsforsatisfyingRFexposurecompliance.
+
+--- Page 22 ---
+Warning statement for Europe:
+ Also,putinthemanualwhichdirectivetofullandalsowhichcountriestoselltheproduct.
+ Exampleofatexttotellwhichdirectivehasbeenfullled:
+ Hereby,Foxconn,declaresthatthisAT-7000Seriesisincompliancewiththeessentialrequirements
+ andotherrelevantprovisionsofDirective1999/5/EC.”
+

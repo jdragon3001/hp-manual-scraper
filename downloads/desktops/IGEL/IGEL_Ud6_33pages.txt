@@ -1,0 +1,913 @@
+Brand: IGEL
+Model: Ud6
+URL: https://www.manua.ls/igel/ud6/manual
+Total Pages: 33
+============================================================
+
+--- Page 1 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+1
+IGEL Technology
+Universal Desktop
+Windows Embedded Standard
+v2/v3
+User Guide
+Rev. 30.09.2011
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 2 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+2
+Important Information
+Copyright
+This publication is protected under international copyright laws, with all rights reserved. No part of this 
+manual,   including   the   products   and   software   described   in   it,   may   be   reproduced,   manipulated, 
+transmitted, transcribed, stored in a retrieval system, or translated into any language in any form or by 
+any means, except documentation kept by the purchaser for backup purposes, without the express 
+written permission of  IGEL Technology GmbH.
+Disclaimer
+The information in this document is subject to change without notice. IGEL Technology GmbH makes  
+no representations or  warranties with respect to the contents hereof and specifically disclaim any 
+implied warranties of merchantability or fitness for any particular purpose. Further, IGEL Technology 
+GmbH reserves the  right to revise this publication and to make  changes from time to time in the 
+content hereof without obligation of IGEL Technology GmbH to notify any person of such revision or 
+changes.
+Trademark Recognition
+ IGEL is a registered trademark of IGEL Technology GmbH.
+ Microsoft
+TM
+ Windows
+TM
+ is a registered trademark of Microsoft Corporation.
+ VMware
+TM
+ is a registered trademark of VMware, Inc. 
+ ThinPrint
+TM  
+is a registered trademark of ThinPrint AG.
+ PowerTerm
+TM
+ WebConnect
+TM
+ and PowerTerm
+TM
+ InterConnect
+TM
+ are registered trademarks of 
+Ericom Software.
+All other products and corporate names appearing in this manual may or may not be registered 
+trademarks or copyrights of their respective companies, and are used only for identification or 
+explanation and to the owner’s benefit.
+Specifications and information contained in this manual are intended for 
+informational use only, and are subject to change at any time without notice, 
+and should not be construed as a commitment by IGEL Technology GmbH.
+IGEL Technology GmbH assumes no responsibility or liability for any errors 
+or inaccuracies that may appear in this manual, including the products and 
+software described in it.
+Copyright © 2011 IGEL Technology GmbH. All Rights Reserved.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 3 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+3
+Table of Contents
+1 INTRODUCTION........................................................................................................................ 5
+2 QUICK INSTALLATION............................................................................................................. 6
+3 BOOT OPTIONS........................................................................................................................ 6
+4 USER INTERFACE.................................................................................................................... 7
+4.1 IGEL Info............................................................................................................................. 7
+4.2 IGEL Setup Application..................................................................................................... 8
+4.2.1 General........................................................................................................................ 8
+4.2.2 Setup Sections........................................................................................................... 8
+4.2.3 Search for Setup pages.............................................................................................9
+5 SYSTEM SETTINGS.................................................................................................................. 10
+5.1 Time and Date.................................................................................................................... 10
+5.2 Remote Management......................................................................................................... 10
+5.3 Shadowing (VNC)............................................................................................................... 10
+5.4 Power Management........................................................................................................... 10
+5.5 IGEL System Registry....................................................................................................... 11
+5.6 File Based Write Filter (FBWF).........................................................................................11
+5.7 Update................................................................................................................................ 13
+5.7.1 Snapshots................................................................................................................... 13
+5.7.2 Partial Updates........................................................................................................... 14
+5.8 Service Information........................................................................................................... 15
+6 USER INTERFACE.................................................................................................................... 16
+6.1 Display................................................................................................................................ 16
+6.2 Desktop and Start Menu....................................................................................................16
+6.3 Language............................................................................................................................ 17
+6.4 Input.................................................................................................................................... 17
+7 NETWORK................................................................................................................................. 17
+7.1 LAN and WLAN (Wireless)................................................................................................ 17
+7.2 VPN..................................................................................................................................... 18
+7.3 Routing............................................................................................................................... 18
+7.4 Network Drives.................................................................................................................. 18
+8 SESSIONS................................................................................................................................. 19
+8.1 Citrix ICA............................................................................................................................ 19
+8.1.1 Citrix Global Settings................................................................................................. 19
+8.1.2 Citrix Session Settings..............................................................................................19
+8.1.3 Citrix Online Plugin....................................................................................................21
+8.2 RDP..................................................................................................................................... 21
+8.2.1 RDP Global Settings.................................................................................................. 21
+8.2.2 RDP Session Settings................................................................................................ 21
+8.3 VMware View Client........................................................................................................... 22
+8.4 Appliance Mode (XenDesktop and View).........................................................................22
+8.5 Leostream Connection Broker......................................................................................... 23
+8.6 Nomachine NX................................................................................................................... 23
+8.7 PowerTerm WebConnect.................................................................................................. 24
+8.8 PowerTerm Terminal Emulation.......................................................................................24
+8.9 Microsoft Internet Explorer (Browser Session)..............................................................25
+8.10 vWorkspace Client and AppPortal.................................................................................25
+8.11 SAP Client........................................................................................................................ 26
+8.12 Windows Media Player.................................................................................................... 26
+8.13 Voice over IP (VoIP) Client.............................................................................................. 27
+9 DEVICES.................................................................................................................................... 28
+9.1 Thin Print............................................................................................................................ 28
+9.2 USB Devices...................................................................................................................... 28
+10 SECURITY................................................................................................................................ 29
+10.1 User Accounts................................................................................................................. 29
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 4 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+4
+10.2 Password Settings........................................................................................................... 29
+10.3 Active Directory............................................................................................................... 29
+10.4 Password Manager Agent............................................................................................... 30
+11 SYSTEM RECOVERY.............................................................................................................. 31
+12 SUPPORT INFORMATION...................................................................................................... 31
+13 ANNEX 1 – SUPPORTED MAX. RESOLUTIONS...................................................................32
+14 ANNEX 2 – IMPORTANT CHANGES WITH  WINDOWS EMBEDDED STANDARD 7...........33
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 5 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+5
+1 Introduction
+Welcome
+Congratulations on purchasing an IGEL Thin Client. IGEL Thin Clients with Universal Desktop are 
+composed of state-of-the-art hardware and an operating system either based on the IGEL Flash Linux 
+Technology, Microsoft Windows Embedded
+TM
+ Standard or Windows CE. We have done our best to 
+deliver an excellent product and we promise to provide support and service of the same quality.
+The IGEL Universal Desktop
+The software, or firmware, embedded in every IGEL Universal Desktop is highly multifunctional and 
+contains the industry’s largest collection of server-based protocols or “digital services” for connecting 
+you to all your centralized applications. There is only one version of firmware for each operating 
+system we offer. So that you only pay for what you need, the digital services are available in three 
+packs; Entry, Standard and Advanced.
+W7 – Windows Embedded Standard 7 is available with Advanced package only.
+The IGEL Setup application structure now is the same on all devices and the  (UMS); so you will have 
+no problems switching between the local and remote configuration tools, all configuration parameters 
+are to be found in the same tree structure now.
+Each Universal Desktop comes with IGEL’s Universal Management Suite; an extremely powerful yet 
+easy to use software application that allows you to remotely deploy and manage your Thin Client 
+estate.
+How to use this Guide
+All screen shots and descriptions refer to the Advanced firmware status of the IGEL Universal Desktop 
+Series (UD-ES firmware version 2.09.10x and UD-W7 firmware version 3.00.100). Changes coming 
+with Windows Embedded Standard 7 are marked (W7) within this document, a summery can be found 
+in the annex.
+This guide is divided into the following chapters:
+ Introduction Welcome and User Guide Information
+ Quick Installation  Instructions for a Quick Installation
+ Boot Options   Information about the Boot Process
+ GUI and Setup Configuration of the System and Session Settings
+ Support Information
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 6 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+6
+2 Quick Installation
+If you carry out the following steps, the terminal can be installed in your network environment within a 
+few minutes.
+ Connect the terminal to a VGA or DVI monitor, an AT compatible keyboard with PS/2 or USB 
+connector, a USB mouse, the LAN via RJ45 and finally connect AC power.
+ Turn on the terminal and wait until the graphical desktop has started. You are now logged in 
+as user named user (password is user).
+ Log in as administrator:
+○ Select Start → Log Off (W7: with Shift key pressed)
+○ Hold the Shift key pressed and click on Log Off
+○ Keep Shift pressed until the log on window shows up
+○ Log in as user administrator, password is administrator
+ The Windows Task Bar shows an IGEL Quick Setup icon, right mouse click on this opens a 
+pop up menu that allows you configuring the most basic system settings:
+○ Change Network Settings
+○ Change Display Settings
+○ Change Keyboard Layout
+ Confirm each changed setting by clicking OK on the pop up window.
+The unit will reboot now and will come up with the new settings.
+Note: All these basic settings can be configured in the IGEL Setup application as well. Nearly every 
+setting is equipped with a meaningful Tool Tip. Simply move the mouse pointer over the setting/option 
+you want to know more about and wait a second.
+3 Boot Options
+The secondary stage loader provides the user with a menu, which is reached by pressing the ESC key 
+when the message booting, please wait appears on the screen.
+You can choose between three boot options:
+ Windows Embedded Standard – When choosing this option a normal system boot 
+procedure will run.
+ Download Firmware Image – The Firmware Download menu will show up. Please add the 
+required connection data to download a snapshot file from your web server or USB device 
+attached.
+ Start Rescue Shell – You can access the underlying Linux system e.g. for system recovery 
+purpose.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+Note: Please change the administrator's password to secure your system!
+
+--- Page 7 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+7
+4 User Interface
+4.1 IGEL Info
+To get a quick overview of your unit’s most basic settings, just launch the IGEL Device Information 
+(Information icon in Windows Task Bar).
+Information – Informs about product name, firmware version, IP address and some hardware data 
+such as CPU and RAM.
+Licenses – Lists all software licenses included in the firmware such as the GNU General Public 
+License.
+Hotfixes – Displays all Microsoft Windows system 
+patches such as security updates. 
+About – Gives a more detailed overview on your Thin 
+Client's hardware and software. Especially the 
+licensed Digital Services coming with the firmware are 
+listed.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 8 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+8
+4.2 IGEL Setup Application
+4.2.1 General
+There are several different methods to configure the IGEL Thin Client to your needs, which are
+ Via the built-in Administrative Tools of the Windows Embedded system
+ Using the local IGEL Setup application
+ By connecting through VNC towards the unit (Shaddowing)
+ Working with the IGEL Universal Management Suite
+and / or combinations of the above.
+The Windows Administrative Tools are considered to be well known (besides that it has its own 
+documentation already), so this part will not be addressed within this manual. We do not recommend 
+configuration of the Thin Client using Windows system tools – the settings can not be stored as a 
+profile and will not persist when updating the system with a snapshot.
+Logged in as administrator  you can run the IGEL Setup application from the Windows Start Menu. 
+The Setup structure now is the same as on the IGEL Linux Thin Clients and within the IGEL Universal 
+Management Suite (IGEL UMS). A desktop icon  to start Setup can be created.
+You can provide parts of the setup to restricted users, e.g. system language or keyboard layout – as 
+default the user can not enter setup application.
+Changes made to setup settings can be confirmed with buttons Apply or OK (OK terminates the 
+application), button Cancel terminates Setup without saving the modifications.
+4.2.2 Setup Sections
+The Setup application does provide the following main sections:
+ Sessions
+ Accessories
+ User Interface
+ Network
+ Devices
+ Security
+ System
+A mouse click on one of the sections will open a sub tree. The tree structure allows to navigate 
+through all setup options. Three navigation buttons let you step backwards and forwards within the 
+Setup pages you did visit or get up to the next higher level of the 
+structure.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 9 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+9
+The Setup options are described more detailed later – this is a short overview:
+ Sessions – The section Sessions allows to create and configure application sessions such as 
+ICA, RDP, Terminal Emulation, Browser and other.
+ User Interface – Configure  the display settings, input devices and behavior of Desktop and 
+Start Menu.
+ Network – All network settings for your LAN / WLAN interfaces can be set here. 
+ Devices – Set the parameters for your devices attached to the Thin Client such as printer or 
+USB storage devices.
+ Security – Set passwords for the administrator and user, define a user for auto log on 
+procedure and enter domain information for your Active Directory to be used.
+ System – Some  basic system parameters are set here such as the time and date, firmware 
+update information, File Based Write Filter (FBWF) configuration and others.
+4.2.3 Search for Setup pages
+A search functionality allows to find parameter fields or values within the setup. Please select one of 
+the hits and click on Show Result to get to the corresponding Setup page. The parameter or value 
+found will be highlighted as shown in the picture below.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 10 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+10
+5 System Settings
+As mentioned above, some basic system settings can be set within the subtree.
+5.1 Time and Date
+Choose your time zone and if a Time Server is available in your network, you may also use the 
+“Network Time Protocol” (NTP) to request the proper time and date automatically during each boot up.
+5.2 Remote Management
+Define a Remote Management server (IGEL UMS Server) to register the device at. You can disable 
+Remote Management within IGEL registry: 
+Setup → System → Registry →  Path: system.remotemanager.allow_remote_management  .
+When receiving new settings or shutdown command from UMS server a message can be shown to the 
+user (Enable User Information).
+5.3 Shadowing (VNC)
+For help desk purposes, you can shadow the client via the IGEL Universal Management Suite or any 
+other VNC client (e.g. TightVNC). By default VNC server of the terminal is disabled.
+Note: Comply with applicable law regarding protection of privacy when using VNC !
+5.4 Power Management
+You can configure the Windows Power Safe options within the IGEL Setup application:
+If activated these settings override the Windows Embedded settings. In addition to standby mode of 
+monitor and system you can configure behavior of the device when power button is pressed.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 11 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+11
+5.5 IGEL System Registry
+You can manipulate nearly every parameter of the firmware within the registry. Refer to the tool tips for 
+details on the single items.
+Note: Only very experienced administrators should make modifications to the Thin Client’s 
+configuration via the registry! By setting wrong parameters, you can easily ruin the configuration, 
+ending up with a stalled system. With such a misconfiguration, the only way to recover your Thin Client 
+is to restore the default factory settings.
+You can search for setup parameters within the IGEL registry by clicking the button Search parameter. 
+If you are looking for the WPA encryption settings to secure your wireless network, you can search for 
+the parameter name wpa - the parameter found in the registry structure will be highlighted:
+5.6 File Based Write Filter (FBWF)
+IGEL Thin Clients with Microsoft Windows Embedded Standard include the Microsoft File Based Write 
+Filter (FBWF). A description of the functionality of FBWF can be found at 
+http://msdn.microsoft.com/en-us/library/aa940926.aspx .
+FBWF protects your system against data changes or erasure and against malware. FBWF should be 
+activated after system configuration is done, changes in IGEL setup are not blocked by the filter.
+The FBWF status is visible in the task bar:
+ Red Icon – FBWF Disabled (Default!)
+ Green Icon – FBWF Enabled
+FBWF can be configured either within the local IGEL Setup or using the IGEL Universal Management 
+Suite UMS. The FBWF configuration can be found in the local IGEL Setup, section System.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 12 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+12
+The FBWF and compression are enabled on default. Specify overlay cache size (threshold); defaults 
+to 64 MB, maximum is 1024 MB.  To exclude files and directories from FWBF you can add them to the 
+list shown above. Changes to these objects will pass the File Based Write Filter. To assure system 
+stability do not delete the objects shown above from the list.
+Note: If FBWF overlay cache is exhausted, the system displays the error message, “There is not  
+enough disk space on the disk.” Following the error message, the system may become unstable and 
+data loss may occur. Perform a hard reboot to recover the device.
+Note: FBWF must be enabled for regular use of the device! Disable write filter for administrative tasks 
+only. Permanent use with disabled FBWF is not supported by IGEL. Define exclusions as narrow as 
+possible to protect as much of the system as possible.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 13 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+13
+5.7 Update
+Two system update procedures are available:
+ Snapshots to update the Windows Embedded system itself including the IGEL firmware 
+features.
+ Partial Update to add new functionality such as additional system language packs.
+5.7.1 Snapshots
+A Snapshot is an image of the first partition (volume C:) that contains the Windows Embedded 
+Standard operating system. You can either use this image to spread towards other IGEL Windows 
+Embedded units (prerequisite: same hardware base) or for recovery purposes. IGEL firmware updates 
+will be provided as snapshot as well.
+To create and install Snapshots you can use Tomcat Webserver within IGEL UMS server, more 
+information can be found in UMS documentation (Create/Usage of Web Resources).
+Creating Snapshots
+Define a protocol to transfer a new or stored snapshot file to / from server (HTTP or FTP) or choose 
+file to save/load a snapshot to/from attached USB device.
+Note (using file protocol): USB device must provide at least 1 GB free disk space. Make sure path 
+\igel\snapshots exists and define only file name in snapshot configuration (new snapshot).
+The system can prepare a USB device as snapshot storage, the drive chosen will be formatted and file 
+path will be created automatically – press button Prepare USB Device to start this process.
+Attention: All data stored on drive chosen will be deleted by this process!
+Option Leave domain before snapshot can be useful when planning transfer of the new snapshot to 
+further devices.
+Once you completed all the required fields you can click New Snapshot, this will result in the terminal 
+rebooting and then writing the image to the specified directory on your Web Server or USB device.
+Firmware-Update with Snapshot
+Firmware updates as snapshot can be found on IGEL's download server http://myigel.com . Download 
+zipped .snp file and povide this either within your network (own FTP/HTTP server) or on USB storage 
+device. Start Snapshot Download function on the Thin Client to update.
+Alternatively use Universal Firmware Update mechanism of Universal Management Suite (see UMS 
+documentation).
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 14 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+14
+Installing (Downloading)Snapshots
+Installing a snapshot created before works in a similar way: Choose protocol for transfer (HTTP, FTP 
+or FILE) and define server path. (FILE will search for snapshot specified in \igel\snapshots on USB 
+device attached – so define snapshot only with file name, no path.)
+Option Reset terminal settings will set all parameters in IGEL Setup to default and delete UMS 
+certificate (client certificate). All data in USER partition (Volume F) will be deleted. Firmware license 
+(feature set) will persist.
+Note: Do not interrupt download or installation process of snapshot mechanism to avoid inconsistent 
+system state!
+5.7.2 Partial Updates
+The IGEL partial update mechanism allows to make changes on IGEL Thin Clients running Microsoft 
+Windows Embedded Standard operation system. The changes are made with scripts that are 
+downloaded to clients and then executed by a script engine based on the Lua script language. 
+Basically, this is a mechanism that distributes scripts from a server to clients. The Lua language was 
+extended by IGEL with modules which allow access to system services such as Windows registry, file 
+system operations, IGEL setup data interface, execution of a process, reboot or shutdown of the 
+operation system, HTTP and FTP access. The extensions called Luna and the full reference can be 
+found in the Luna Reference Manual.
+You can use Tomcat Webserver of IGEL UMS to provide Partial Update files – e.g. to share updates 
+as profile. See UMS documentation for more information.
+Apply Partial Updates:
+ Go to configuration panel in IGEL Setup (System → Updates → Partial Update) and enable 
+update mechanism.
+ Choose protocol and server / path on USB storage and apply settings.
+ Press button Search for updates to find update files on the source specified. Available updates 
+can be installed immediately, the system will restart for update process. After successful 
+update the system will restart again.
+Options:
+Update on Boot – Partial update files on the source will be applied on next boot of system. 
+This option is useful when configuring updates using UMS.
+Show installed packets – Already installed updates will be displayed.
+Note: In case Microsoft IIS (Internet Information Services) will be used as HTTP server to provide the 
+Partial Update files, you will have to configure the server to accept download requests for all files 
+independent from their MIME types. When using FTP for the file transfer there is no such limitation.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 15 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+15
+5.8 Service Information
+This list of available services allows you to 
+quickly enable or disable firmware services 
+(session types) such as Powerterm, Media 
+Player and other.
+If a service has been disabled the 
+corresponding session type is no longer 
+available after reboot – already existing 
+sessions will be hidden (not deleted!).
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 16 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+16
+6 User Interface
+6.1 Display
+The basic and extended display settings  are set 
+within the IGEL Setup – you can disable these 
+settings and use the Windows Display Properties 
+instead.
+Multiscreen can be configured within IGEL Setup 
+as well, simply increase the number of displays, 
+specify resolution and relative position of second 
+screen.
+Supported max. display resolution for each IGEL 
+device can be found in the chart at the end of 
+this document.
+W7 – Set video memory to at least 128 MB in 
+BIOS (default 64 MB) to enable display rotation 
+(Pivot). (BIOS → Integrated Peripherals → VGA 
+Share Memory Size)
+6.2 Desktop and Start Menu
+Following options can be configured:
+• Show recycle bin – As default recycle bin is disabled on desktop.
+• Lock Taskbar – Fixes Taskbar in current position on desktop.
+• Disable Lock Workstation – Prevents user from locking desktop with  Win+L or Ctrl+Alt+Del. 
+• W7 – Enable Aero Glass (Translucent windows, window miniatures in task bar).
+• Show notification in task bar.
+• Arrange items in Start menu – Assorts items in Start menu in alphabetical order.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 17 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+17
+6.3 Language
+Choose a language for Setup application, keyboard layout and configure local settings such as format 
+of time, numbers etc.
+Note: On IGEL download server you will find partial updates with language packages to change 
+system's language as well.
+W7: The installation of language packs for UD-W7 can take up to 45 minutes; do not stop the process 
+prematurely to avoid inconsistent system status!
+6.4 Input
+Choose a language for Setup application, keyboard layout and configure local settings such as format 
+of time, numbers etc.
+7 Network
+In this section you configure parameters of all available network devices (LAN / WLAN), network 
+drives can be connected as well.
+7.1 LAN and WLAN (Wireless)
+Set the needed network configuration like IP, name service etc here or keep using DHCP if applicable. 
+(DHCP is the pre-configured default.)
+On setup page Wireless you will find all parameters regarding WLAN connection including security 
+options such as encryption.
+Note: As default Windows system settings are enabled for wireless network configuration – to 
+configure WLAN within IGEL Setup enable checkbox Use IGEL Setup on Setup page Wireless.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 18 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+18
+7.2 VPN
+Create a session with NCP Secure Enterprise Client to connect to a Virtual Private Network VPN. 
+Configure VPN connection within GUI of NCP client software, NCP provides software to remote-
+control the client as wall, more information on configuration and usage of NCP Secure Enterprise 
+Client is provided by NCP:
+http://www.ncp-e.com/en/support/library/manuals.html
+Note: NCP Secure Enterprise Client has to be licensed separately by NCP for permanent use.
+7.3 Routing
+Define a gateway to use a particular network route; parameter Interface is optional, the route does 
+affect all network devices installed.
+7.4 Network Drives
+Add network drives to be connected at system boot including logon data and drive letter. If no drive 
+letter is specified you have to connect this drive manually later. In case a drive letter is already 
+reserved only the drive connected first will show up and the system will create an error entry in 
+Eventlog. 
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 19 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+19
+8 Sessions
+Configure sessions with many available session types (depending on license (feature set) of your 
+IGEL Thin Client). For an overview of the functionality of each license level please refer to the product 
+list on our website  http://www.igel.com
+Section Session Summery lists already configured sessions of any type, add new sessions by 
+pressing button Add. Or to to requested session type in navigation tree and create a new session.
+Each session configuration provides topic Desktop Integration – define session's name and start 
+options (automatically or by hand) and list the session's icon on desktop or in Start menu.
+8.1 Citrix ICA
+8.1.1 Citrix Global Settings
+Standard parameters to be used (or changed) in all Citrix sessions can be defined here. More detailed 
+information on each topic can be found within the original documentation at Citrix 
+(http://support.citrix.com/proddocs/index.jsp ).
+ Server Location (Master Browser) – Define HTTP Master Browser for your ICA connections
+ Window – Set default window size and color
+ Keyboard – Keyboard layout within ICA session can be different from system's layout. Hotkey 
+commands of server can be mapped to Function keys or key sequences on local keyboard
+ Firewall – Define ICA connections to pass firewall or SOCKS proxy server.
+◦ Use Alternate Address – To connect to a Citrix server behind a firewall you have to enable 
+this option because the server's IP address in internal network usually differs from its 
+“public” address. More information can be found in your Citrix server manual (topic 
+altaddr).
+Note: After activating alternate address you have to add the server to address list in Server Location.
+◦ SOCKS / Secure Proxy – Define if the session connects to the Citrix server via SOCKS 
+proxy or via Citrix Secure Gateway (relay mode).
+ Options – Set global options such as Automatic Reconnect or size of cache etc.
+ USB Redirection – Define rules for usage of local attached USB devices in XenDesktop and 
+Citrix VM session. Depending on class or sub-class of the device you can enable or disable 
+the device within the session, combinations of rules are possible. Devices can be defined by 
+their vendor ID and product ID as well, no classification is necessary in this case.
+8.1.2 Citrix Session Settings
+Some parameters of sessions can be pre-defined by global settings, others are available only in 
+session configuration such as logon data or desktop integration.
+ Server – Define the Citrix Server or Published Application to be connected and set the 
+browser protocol to be used for application browsing.
+
+ Logon – Set the user credentials for the server logon or let the user enter the logon data 
+when connecting the session.
+
+ Window – Set the color mode for the session and the window size. For Published 
+Applications the seamless window mode can be enabled.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 20 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+20
+ Reconnect – Enable automatically reconnect to the session and limit the number of retries.
+ Options – This is the page to tweak the performance and behavior (see below for 
+descriptions).
+○ Compress - Use data compression to reduce the amount of data transferred across the 
+ICA session. This lowers the network traffic at the expense of CPU performance. If you 
+connect your server(s) through WAN, it’s recommended to use the compression. If your 
+server is a bit weak and you’re in a LAN only, disable this option.
+○ Persistent Cache Enabled - You have the option to enable the cache (configured in the 
+global ICA settings) for any session. This is useful when using several ICA sessions but 
+only one or two are critical regarding network bandwidth or are heavily used during the 
+day. In that case, you should reserve the cache for those sessions.
+○ Encryption Level - Encryption increases the security of your ICA connection. By default, 
+basic encryption is enabled, so ensure that the Citrix server supports RC5 encryption 
+before you choose any higher encryption level.
+○ Client Audio - If enabled, the system sounds and audio from your applications will be 
+transmitted to the Thin Client and emitted out of attached speakers. The higher the audio 
+quality you choose, the more bandwidth is required to transfer the audio data.
+○ Speed screen Latency Reduction -This improves performance over high latency 
+connections by providing instant feedback to the client in response to keystrokes or 
+mouse clicks. Both improve the user’s sense of sitting in front of a normal PC.
+○ Mouse click Feedback - This provides visual feedback of a mouse click by immediately 
+changing the mouse pointer into an hourglass indicator.
+○  Local Text Echo - Accelerates display of the input text, effectively shielding you from 
+experiencing latency on the network. Select a mode from the drop down list:
+o Set the mode to “ON” for slower connections (connection over a WAN) to decrease 
+the delay between user input and screen display.
+o Set the mode to “OFF” for faster connections (connection over a LAN).
+o Set the mode to “AUTO” if you are not certain of the connection speed.
+Note: Speed screen has to be enabled and configured on the Citrix server first in order to 
+work.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 21 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+21
+8.1.3 Citrix Online Plugin
+Define the Master Browsers to be browsed for published applications. You can set up to 5 Master 
+Browsers per domain. In case the first one is not reachable, the second one will be consulted and so 
+forth. Please note that multi-farm browsing is supported! So you can define Master Browsers for 
+several server farms.
+Configure additional options such as window size, audio band width or mapping of local drives. Citrix' 
+support website mentioned above provides more information on configuration and usage of Online 
+Plugin as well.
+8.2 RDP
+The Thin Clients uses Microsoft RDP client for Remote Desktop Protocol (RDP) connections – all 
+configuration parameters of the client can be found in IGEL Setup. Detailed information on Microsoft 
+RDP can be found at http://technet.microsoft.com .
+8.2.1 RDP Global Settings
+Standard parameters to be used (or changed) in all RDP sessions can be defined here. Two of them 
+can only be set globally for all RDP sessions: Clipboard  and Hotkeys.
+8.2.2 RDP Session Settings
+Create a new RDP session by clicking the Add button in the Session menu. The following 
+configuration pages allow the detailed setup of the session:
+ Server and Logon – Define a server and initial application for the Terminal Server session 
+and configure the necessary logon information (otherwise the TS logon window will be 
+displayed to enter the user and password).
+ Window – Set the session window to full screen or a fixed size and define the color mode to 
+be used. You can set the local task bar to stay visible during full screen session.
+ Performance – In case of performance problems, disable some not necessarily needed 
+graphical features such as themes and window animation etc.
+ Mapping – Define your sound output device (local / remote) and decide  how to deal with 
+keyboard strokes and clipboard content. Enable the mapping of serial ports as well as 
+mapping of local drives to the session. 
+ If you have mass storage devices attached, make them available to the user by mapping them 
+here. Check the “Enable” box, select the drive letter to be used and finally choose the device 
+to map.
+ Options – Some additional session data can be defined here: Set an initial application and 
+working directory to be used within the session and define how to deal with authentication 
+errors during logon process. If a Terminal Server gateway should be used when connecting to 
+the server you can define its settings here (default is No Gateway).
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 22 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+22
+8.3 VMware View Client
+Create a new View Client session by clicking the Add button in the Session menu. The Connection 
+Settings page will be displayed to enter the necessary server data including optional configuration data 
+such as Kiosk Mode, window size and mapping of local USB devices.
+A detailed description of the client's parameters can be found in the original documentation for View 
+client at http://www.vmware.com/support/pubs/view_pubs.html .
+8.4 Appliance Mode (XenDesktop and View)
+The Appliance Mode session can be enabled for XenDesktop and View connections. When running an 
+Appliance Mode session no other application access is possible. Only the server session to the 
+defined Delivery server will be visible.
+W7 Note: UD W7 version 3.00.100 does not support appliance modes.
+Leave the appliance mode: During logon to XenDesktop or View Appliance keep Shift key 
+pressed to display local logon window. Logon as local administrator and IGEL Setup 
+application will start automatically. 
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 23 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+23
+8.5 Leostream Connection Broker
+Define Server, User and Domain for login with Leostream Connection Broker. As default RDP client 
+will be used for the connection – please check if server uses RDP (with priority 1) as well.
+More information on Leostream Connection Broker can be found at:
+http://www.leostream.com/resources/downloads.php
+8.6 Nomachine NX
+Parameters will be available depending on session type chosen (Unix, Windows, VNC, Shadow). IGEL 
+Setup pages for NX represent all configuration parameters of Nomachine NX client.
+Further information on configuration details (Server settings, Performance, Services etc.) can be found 
+in the original documentation provided by Nomachine. http://www.nomachine.com/documents.php
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 24 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+24
+8.7 PowerTerm WebConnect
+PowerTerm WebConnect is a solution that provides local and remote access to applications running 
+on Windows Terminal Servers, Virtual Desktops (on top of hypervisors such as VMWare, Microsoft, 
+Xen, and Virtual Iron), Blade PCs, and legacy hosts.
+Enter the host name of the WebConnect server you want to connect to. The server configuration itself 
+is described in the WebConnect documentation by Ericom 
+(http://www.ericom.com/doc/QRG/WebConnectGettingStarted.pdf ).
+8.8 PowerTerm Terminal Emulation
+The PowerTerm InterConnect software used on IGEL Thin Clients with Windows Embedded Standard 
+is the official software version from ERICOM Software Ltd.
+PowerTerm Emulation Setup
+After you have chosen the “PowerTerm” session type in the  “Add a New Session” procedure , the 
+above “PowerTerm Emulation Setup” appears on the screen. (This is also a good overview of what 
+emulation types are supported.)
+We have tried to make the appearance of the setup pages used here as similar as possible to the 
+appearance of the setup pages described in the original documentation of ERICOM Software Ltd. So 
+for detailed information about configuring the PowerTerm Software please refer to the “PowerTerm 
+Manual” available on the IGEL download server http://www.myigel.com → Partner Documentation or 
+on the Ericom Documentation web page (http://www.ericom.com/help.asp).
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 25 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+25
+8.9 Microsoft Internet Explorer (Browser Session)
+The Microsoft Internet Explorer browser application can be configured within the IGEL Setup. You can 
+switch off the IGEL settings for MSIE so the original settings (within the IE menu) will become active. 
+The following setup pages are available:
+ Global – Set Global Browser data such as start page or download location etc.
+ Security – Allow SSL encrypted connections and activate Zone Crossing Warning
+ Advanced – Define how to deal with images and sounds embedded on web sites
+ Start – Where should the browser application be accessible from
+ Window – Set full screen mode and enable or disable the Theater mode
+ Proxy – Configure the proxy settings if necessary
+ Menu – Disable various menu parameters such as the print dialog and the close button
+ Toolbar and Toolbar Items – Configure the toolbars shown within the browser application
+Within the IGEL setup for the browser session you can configure most of the Internet Explorer's 
+settings – in order to distribute this configuration via IGEL UMS to further IGEL Thin Clients.
+8.10 vWorkspace Client and AppPortal
+Quest vWorkspace client connects to some available hypervisors and is compatible to VMware 
+vSphere, Microsoft Hyper-V and XenServer. All configuration parameters of vWorkspace Client and 
+vWorkspace AppPortal Farm are described detailed in original documentation to be found at Quest : 
+https://support.quest.com/Default.aspx .
+Note: You can configure all parameters for your farms either in IGEL Setup or referring to a XML 
+document with configuration. Direct configuration without IGEL Setup is not supported.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 26 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+26
+8.11 SAP Client
+Log on to a SAP system using local JAVA SAP GUI. You can define a prepared configuration file, 
+IGEL Setup does not provide any other parameters for SAP client.
+8.12 Windows Media Player
+Configuration parameters of Windows Media Player 11 have been transferred to IGEL Setup as well, 
+more information on configuration and usage of WMP can be found at Microsoft:
+http://www.microsoft.com/windows/windowsmedia/player/11/using.mspx
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 27 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+27
+8.13 Voice over IP (VoIP) Client
+In section VoIP you can configure your device for using Ekiga VoIP client. This client allows SIP as 
+well as H.323. In addition to local contacts you can use LDAP address books as well.
+A detailed description of the client's parameters is available in original documentation at: 
+http://wiki.ekiga.org/index.php/Documentation.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 28 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+28
+9 Devices
+9.1 Thin Print
+The ThinPrint Client does start automatically when running an ICA or RDP session. The printer 
+configuration menu is accessible via the ThinPrint task bar icon after the ThinPrint Client has started – 
+there are no configuration parameters within the IGEL Setup.
+9.2 USB Devices
+You can enable or disable the usage of different types of USB devices on this setup page. The three 
+distinguished types are
+ Storage devices
+ WLan devices
+ Bluetooth devices
+You can disable each of the device types, additionally USB storage devices can be configured to be 
+read-only.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 29 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+29
+10 Security
+10.1 User Accounts
+By default, two user accounts are already pre-configured: Administrator and User, both with pre-set 
+password (password for Administrator = administrator, password for User = user). The Administrator 
+has full access to the whole system while the User has got read-only rights
+Note: It’s strongly recommended, to set an administrator password right after the first boot! Note: 
+Passwords can only be changed by an administrator.
+To create new user accounts you have to use the Computer Management (Start → Control Panel → 
+User Accounts), you can add new users to the Administrator's group.
+10.2 Password Settings
+You can set an administrator password to secure the IGEL Setup application. If a password is set (and 
+activated) for the administrator user, the Setup only is accessible with this password.
+Note: The administrator's system logon password and setup password can be different!
+Password changes will only be saved when pushing the OK or Apply button!
+You can set a password for User as well – User can access IGEL Setup and configure Setup 
+parameters the user is authorized for (Accessories → Setup Session).
+Auto Logon – Define a user to be logged on automatically at system start. Default configuration is 
+user to be logged on.
+Note: When accessing the boot menu (by pressing ESC during boot) the administrator's password is 
+requested as well.
+10.3 Active Directory
+Configure the access to your Active Directory 
+Domain on this page. Add the necessary domain  and 
+user information to get access to the AD domain.
+Note: Before creating a new snapshot of the system it is useful to leave the domain the client is 
+registered at. This option can be set within the Snapshot menu of Setup.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 30 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+30
+10.4 Password Manager Agent
+The Hot Desktop feature of Citrix Password Manager combines a permanently registered standard 
+account with an additional level of authentication for applications deployed by Citrix. With the 
+integration of Citrix Hot Desktop functionality in the IGEL thin clients shared  Windows accounts 
+become dispensable and regulatory compliance such as for health care is simplified. Logon and logoff 
+events in the system and password changes can now be registered and logged for audit processes. In 
+case of absence of the user from the desktop, the system is not vulnerable.
+The usage of Citrix Hot Desktop functionality and the Password Manager Agent is described more 
+detailed in a separate HowTo document to be found on the IGEL website (Document Center):
+http://myigel.com/ftp/manuals/english/universaldesktop/Windows%20Embedded
+%20Standard/HOWTO%20Use%20Citrix%20Hot%20Desktop.pdf
+More information on the Citrix Hot Desktop itself can be found on the Citrix website: 
+http://www.citrixnews.eu/citrixee/citrix.nsf/0/30D361FA0F89F03DC1257068005AC6BE
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 31 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+31
+11 System Recovery
+In case the system is not properly working anymore, you can easily recover it via the hidden boot 
+menu. To enter it, press ESC shortly after powering on the unit. To reset all system configuration 
+parameters you can download a previously made firmware snapshot and set the parameter Reset 
+Terminal Settings to true. The download settings are equal to the procedure of system update 
+described before (Snapshot mechanism).
+Note: If a password is set to protect the local IGEL Setup application, this will affect the boot menu as 
+well! Without the setup password you will have no access to this recovery tool and a system recovery 
+will only be possible using the IGEL Remote Management Suite.
+12 Support Information
+If you already are an existing customer you should initially contact your Authorized IGEL Partner who 
+will be happy to answer any questions you may have and is fully trained to deal with many issues.
+If you are currently testing an IGEL product or if you are unable to get help from your Reseller please 
+complete our Support Form after logging in at http://www.igel.com/members-area/login-logout.html 
+and we will respond as quickly as possible.
+In order to help IGEL thin client support team to help you please provide us with as much information 
+as you can. Please look at our conditions note, reference the Support and Service Information.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+
+--- Page 32 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+32
+13 Annex 1 – Supported max. resolutions
+Note: This values represent the maximum accessible resolution for the UD device named, this does 
+not include every resolution below is available also.
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+Windows Singleview Dualview
+Device DVI VGA colordepth* DVI VGA colordepth shared memory (BIOS)
+UD2-x20 1920x1200 1600x1200 32 bit 1920x1200 1600x1200 32 bit 32MB
+UD2-x21 1920x1200 1600x1200 32 bit 1920x1200 1600x1200 32 bit 32MB
+UD2-x30 1920x1200 1920x1200 32 bit 1920x1200 1920x1200 32 bit 64MB
+UD3-x20 1920x1200 1600x1200 32 bit 1920x1200 1600x1200 32 bit 32MB
+UD3-x21 1920x1200 1600x1200 32 bit 1920x1200 1600x1200 32 bit 32MB
+UD3-x30 1920x1200 1920x1200 32 bit 1920x1200 1920x1200 32 bit 64MB
+UD5-x20 1920x1200 1920x1200 32 bit 1920x1200 1920x1200 32 bit 64MB
+Linux Singleview Dualview
+Device DVI VGA colordepth* DVI VGA colordepth shared memory (BIOS)
+UD2-x20 1920x1200 1920x1200 24bit 1920x1200 1920x1200 16bit 32MB
+UD2-x21 1920x1200 1920x1200 24bit 1920x1200 1920x1200 16bit 32MB
+UD2-x30 1920x1200 1920x1200 24bit 1920x1200 1920x1200 16bit 32MB
+UD3-x20 1920x1200 1920x1200 24bit 1920x1200 1920x1200 16bit 32MB
+UD3-x21 1920x1200 1920x1200 24bit 1920x1200 1920x1200 16bit 32MB
+UD3-x30 1920x1200 1920x1200 24bit 1920x1200 1920x1200 16bit 64MB
+UD5-x20 1920x1200 1920x1200 24bit 1920x1200 1920x1200 16bit 64MB
+*Note: 24bit (Linux) is equivalent to 32bit (Windows) - both have 16 million colors (true color)
+
+--- Page 33 ---
+IGEL Technology GmbH
+IGEL Universal Desktop Windows Embedded
+33
+14 Annex 2 – Important changes with  Windows Embedded 
+Standard 7
+Windows Embedded Standard 7 differs from WES 2009, important changes are:
+ Display rotation (Pivot) requires at least 128 MB video memory.
+ Aero Glass effects such as translucent windows are supported.
+ Press Shift button while logging off to display login window (change user), the confirmation 
+window will no longer be shown.
+ Currently appliance mode (Xen and View) can not be configured with WES 7.
+ Installing language packs (partial update) takes much longer and may require up to 45 
+minutes. 
+Copyright © 2011 IGEL Technology F-07-83-EN-2-4
+

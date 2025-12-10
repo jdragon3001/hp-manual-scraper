@@ -1,0 +1,1553 @@
+Brand: COMPAQ
+Model: Evo Thin Client T20
+URL: https://www.manua.ls/compaq/evo-thin-client-t20/manual
+Total Pages: 58
+============================================================
+
+--- Page 1 ---
+b
+User’s Guide
+Compaq Evo Thin Client T20 and 
+Compaq T1010 Windows Based 
+Ter minals
+Document Part Number: 250090-001
+June 2001
+250090-001 Thin Clients Book.book Page i Tuesday, July 17, 2001 9:52 AM
+
+--- Page 2 ---
+© 2001 Compaq Computer Corporation
+Compaq, the Compaq logo, Armada, Deskpro Registered in U. S. Patent and 
+Trademark Office. Evo is a trademark of Compaq Information Technologies 
+Group, L.P. in the United States and other countries.
+ICA is a registered trademark and MetaFrame is a trademark of Citrix 
+Systems, Inc.
+Microsoft, MS-DOS, Windows, Windows CE, Windows NT, and Windows 
+Terminal Server are trademarks of Microsoft Corporation in the United States 
+and other countries.
+All other product names mentioned herein may be trademarks of their respective 
+companies.
+Compaq shall not be liable for technical or editorial errors or omissions 
+contained herein. The information in this document is provided “as is” without 
+warranty of any kind and is subject to change without notice. The warranties for 
+Compaq products are set forth in the express limited warranty statements 
+accompanying such products. Nothing herein should be construed as 
+constituting an additional warranty.
+Compaq service tool software, including associated documentation, is the 
+property of and contains confidential technology of Compaq Computer 
+Corporation. Service customer is hereby licensed to use the software only for 
+activities directly relating to the delivery of, and only during the term of, the 
+applicable services delivered by Compaq or its authorized service provider. 
+Customer may not modify or reverse engineer, remove, or transfer the software 
+or make the software or any resultant diagnosis or system management data 
+available to other parties without Compaq’s or its authorized service provider’s 
+consent. Upon termination of the services, customer will, at Compaq’s or its 
+service provider’s option, destroy or return the software and associated 
+documentation in its possession.
+Ä
+CAUTION: Text set off in this manner indicates that failure to follow 
+directions could result in damage to equipment or loss of 
+information.
+Å
+WARNING: Text set off in this manner indicates that failure to follow 
+directions could result in bodily harm or loss of life.
+Printed in the U.S.A.
+User’s Guide
+First Edition (June 2001)
+Document Part Number: 250090-001
+250090-001 Thin Clients Book.book Page ii Tuesday, July 17, 2001 9:52 AM
+
+--- Page 3 ---
+User’s Guide iii
+FCC Statement
+This equipment has been tested and found to comply with the 
+limits for either Class A or Class B digital devices (refer to 
+“Terminal Requirements Compliance”), pursuant to Part 15 of the 
+FCC Rules. These limits are designed to provide reasonable 
+protection against harmful interference in a residential 
+installation. This equipment generates, uses, and can radiate radio 
+frequency energy and, if not installed and used in accordance 
+with the instructions, may cause harmful interference to radio 
+communications. However, there is no guarantee that interference 
+will not occur in a particular installation. If this equipment does 
+cause harmful interference to radio or television reception, which 
+can be determined by turning the equipment off and on, the user 
+is encouraged to try to correct the interference by one or more of 
+the following measures:
+■ Reorient or relocate the receiving antenna.
+■ Increase the separation between the equipment and the 
+receiver.
+■ Connect the equipment into an outlet on a circuit different 
+from that to which the receiver is connected.
+■ Consult the dealer or an experienced radio/TV technician 
+for help.
+Ä
+CAUTION: Changes or modifications not covered in this manual 
+must be approved in writing by the manufacturer’s Regulatory 
+Engineering department. Changes or modifications made without 
+written approval may void the user’s authority to operate the 
+equipment.
+250090-001 Thin Clients Book.book Page iii Tuesday, July 17, 2001 9:52 AM
+
+--- Page 4 ---
+iv User’s Guide
+Terminal Requirements Compliance
+FCC Compliance
+Compaq Evo Thin Client T20 and Compaq T1010 Windows 
+Based Terminals meet Class B requirements.
+The Low-Profile, Mid-Level MWBT and the High-Performance 
+MWBT meet Class B requirements.
+The Medium-Performance IWBT meets Class B requirements.
+IEC/EN Compliance
+Compaq Evo Thin Client T20 and Compaq T1010 Windows 
+Based Terminals meet Class B requirements.
+The Low-Profile, Mid-Level MWBT and the High-Performance 
+MWBT meet Class B requirements.
+The Medium-Performance IWBT meets Class B requirements.
+Canadian DOC Notices
+Refer to the previous section, “Terminal Requirements 
+Compliance,” to find out to which terminal model each of the 
+statements below refers. 
+Class A
+This digital apparatus does not exceed the Class A limits for radio 
+noise emissions from digital apparatus set out in the Radio 
+Interference Regulations of the Canadian Department of 
+Communications.
+Le présent appareil numérique n’émet pas de bruits 
+radioélectriques dépassant les limites applicables aux appareils 
+numériques de la classe A prescrites dans le Réglement sur le 
+brouillage radioélectrique édicté par le Ministère des 
+Communications du Canada.
+250090-001 Thin Clients Book.book Page iv Tuesday, July 17, 2001 9:52 AM
+
+--- Page 5 ---
+User’s Guide v
+Class B
+This digital apparatus does not exceed the Class B limits for radio 
+noise emissions from digital apparatus set out in the Radio 
+Interference Regulations of the Canadian Department of 
+Communications.
+Le présent appareil numérique n’émet pas de bruits 
+radioélectriques dépassant les limites applicables aux appareils 
+numériques de la classe B prescrites dans le Réglement sur le 
+brouillage radioélectrique édicté par le Ministère des 
+Communications du Canada.
+IEC/EN Notice
+This product conforms to the requirements of IEC950 and 
+EN60950.
+This product conforms to requirements of EN55022 for Class A 
+equipment or EN55022 for Class B equipment (refer to “Terminal 
+Requirements Compliance”).
+Compaq Evo Thin Client T20 and Compaq T1010 
+Windows Based Terminals
+High-Performance MWBT and Medium-Performance IWBT
+For use with External Power Supply DVE Model DSA-0301-05 
+or Potrans Model UP01811050A or certified equivalent model 
+supplied by the manufacturer, rated minimum 5V/4A. 
+Noise Suppressor
+A noise suppressor (ferrite bead) must be installed on the network 
+cable of your terminal. This installation is necessary to maintain 
+compliance with U.S. FCC B limits and European CISPR B 
+EN55022 Class B limits. The noise suppressor is supplied by the 
+manufacturer and is packed in your terminal’s shipping carton.
+250090-001 Thin Clients Book.book Page v Tuesday, July 17, 2001 9:52 AM
+
+--- Page 6 ---
+vi User’s Guide
+Cable Notice
+The use of shielded I/O cables is required when connecting this 
+equipment to any and all optional peripheral or host devices. 
+Failure to do so may cause interference and violate FCC and 
+international regulations for electromagnetic interference.
+License Agreement
+YOU SHOULD CAREFULLY READ THE FOLLOWING 
+TERMS AND CONDITIONS BEFORE USING THIS 
+SOFTWARE (TOGETHER WITH ANY SUPPLIED 
+DOCUMENTATION, HEREAFTER "SOFTWARE"), WHICH 
+IS OWNED BY THE MANUFACTURER OR ITS 
+LICENSORS.  USING THIS SOFTWARE INDICATES YOUR 
+ACCEPTANCE OF THE FOLLOWING TERMS AND 
+CONDITIONS. THE MANUFACTURER’S LICENSORS ARE 
+INTENDED THIRD-PARTY BENEFICIARIES UNDER THIS 
+AGREEMENT.
+Grant
+You may use the Software in or in conjunction with Your 
+manufacturer-produced hardware (Terminal).  You have the right 
+to use this Software by loading it onto a computer containing the 
+capability of transferring the Software (in whole or in part) to the 
+manufacturer-produced hardware.  You may use the Software in 
+this fashion as many times as necessary, so long as such use is 
+always in conjunction with the manufacturer-produced Terminal.  
+You may transfer ownership of the Terminal and equipment, 
+including the right to use the Software to another party so long as 
+that party agrees to accept these terms and conditions.
+YOU MAY NOT USE, COPY, MODIFY, TRANSLATE OR 
+TRANSFER THE SOFTWARE, OR MODIFICATION 
+THEREOF, IN WHOLE OR IN PART, EXCEPT AS 
+EXPRESSLY PROVIDED FOR IN THIS LICENSE.  YOU 
+MAY NOT DECOMPILE, REVERSE ENGINEER OR 
+OTHERWISE DECODE OR ALTER THE SOFTWARE.
+250090-001 Thin Clients Book.book Page vi Tuesday, July 17, 2001 9:52 AM
+
+--- Page 7 ---
+User’s Guide vii
+Disclaimer of Warranty
+This Software is provided, “AS IS”, and is delivered with no 
+warranties, either express or implied.
+MANUFACTURER MAKES AND YOU RECEIVE NO 
+WARRANTIES ON THE FIRMWARE, EXPRESS, IMPLIED, 
+OR STATUTORY, OR IN ANY OTHER PROVISION OF THIS 
+AGREEMENT OR COMMUNICATION WITH YOU, AND 
+MANUFACTURER DISCLAIMS ANY IMPLIED 
+WARRANTIES OF MERCHANTABILITY, 
+NON-INFRINGEMENT AND FITNESS FOR ANY 
+PARTICULAR PURPOSE. MANUFACTURER DOES NOT 
+WARRANT THAT THE FUNCTIONS CONTAINED IN THE 
+PRODUCT WILL MEET YOUR REQUIREMENTS OR THAT 
+THE OPERATION WILL BE UNINTERRUPTED OR 
+ERROR FREE.
+SOME STATES DO NOT ALLOW LIMITATIONS ON HOW 
+LONG AN IMPLIED WARRANTY LASTS SO THE ABOVE 
+LIMITATION MAY NOT APPLY TO YOU.  THIS 
+WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS.  YOU 
+MAY ALSO HAVE OTHER RIGHTS WHICH VARY FROM 
+STATE TO STATE.
+Limit of Liability
+UNDER NO CIRCUMSTANCES SHALL MANUFACTURER 
+BE LIABLE FOR LOSS OF DATA, COST OF COVER, OR 
+ANY INCIDENTAL OR CONSEQUENTIAL DAMAGES, 
+HOWEVER CAUSED AND ON ANY THEORY OF 
+LIABILITY.  THESE LIMITATIONS SHALL APPLY EVEN IF 
+MANUFACTURER OR ITS RESELLER HAS BEEN 
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, 
+AND NOTWITHSTANDING ANY FAILURE OF ESSENTIAL 
+PURPOSE OF ANY LIMITED REMEDY PROVIDED 
+HEREIN.
+250090-001 Thin Clients Book.book Page vii Tuesday, July 17, 2001 9:52 AM
+
+--- Page 8 ---
+viii User’s Guide
+YOU AGREE THAT THESE ARE THE ONLY APPLICABLE 
+TERMS OF AGREEMENT BETWEEN US COVERING  
+SOFTWARE AND THAT THEY SUPERSEDE ANY OTHER 
+COMMUNICATIONS (ORAL OR WRITTEN) BETWEEN US 
+RELATING TO THE SOFTWARE.
+Export Restrictions
+You agree You will not export or transmit the Software to any 
+country to which export is restricted by applicable U.S. law or 
+regulation without the written approval of the appropriate U.S. 
+Government organization.
+U.S. Government Restricted Rights
+The Software is provided with RESTRICTED RIGHTS.  
+Use, duplication or disclosure by the Government is subject to 
+restrictions as set forth in subparagraph (c)(1)(ii) of the Rights 
+in Technological Data and computer software clause  at 
+DFARS 252.227-7013 or in  subparagraphs (c)(1) and (2) of 
+the Commercial Computer Software-Restricted Rights at 
+8 C.F.R. 52-227-19 as applicable.
+250090-001 Thin Clients Book.book Page viii Tuesday, July 17, 2001 9:52 AM
+
+--- Page 9 ---
+User’s Guide ix
+EULA for Microsoft® Windows® CE Operating System 
+for Windws-based Terminal Devices
+IMPORTANT—READ CAREFULLY
+This End User License Agreement (EULA) is a legal agreement 
+between you (either an individual or a single entity) and the 
+manufacturer (MANUFACTURER) of the special purpose 
+computing device (SYSTEM) you acquired which includes 
+certain Microsoft software product(s) installed on the SYSTEM 
+and/or included in the SYSTEM package (SOFTWARE). The 
+SOFTWARE includes computer software, the associated media, 
+any printed materials, and any online or electronic 
+documentation. By installing, copying or otherwise using the 
+SOFTWARE, you agree to be bound by the terms of this EULA. 
+If you do not agree to the terms of this EULA, 
+MANUFACTURER and Microsoft Licensing, Inc. (MS) are 
+unwilling to license the SOFTWARE to you. In such event, you 
+may not use or copy the SOFTWARE, and you should promptly 
+contact MANUFACTURER for instructions on return of the 
+unused product(s) for a refund.
+250090-001 Thin Clients Book.book Page ix Tuesday, July 17, 2001 9:52 AM
+
+--- Page 10 ---
+x User’s Guide
+Software License
+The SOFTWARE is protected by copyright laws and international 
+copyright treaties, as well as other intellectual property laws and 
+treaties. The SOFTWARE is licensed, not sold.
+1. Grant of License
+SOFTWARE includes software already installed on the SYSTEM 
+(SYSTEM SOFTWARE) and, if included in the SYSTEM 
+package, software contained on the CD-ROM disk and/or floppy 
+disk(s) labeled “Desktop Software for Microsoft Windows CE” 
+(DESKTOP SOFTWARE). This EULA grants you the following 
+rights to the SOFTWARE:
+❏ SYSTEM SOFTWARE
+You may use the SYSTEM SOFTWARE only as installed 
+in the SYSTEM.
+❏ DESKTOP SOFTWARE
+DESKTOP SOFTWARE might not be included with your 
+SYSTEM. If DESKTOP SOFTWARE is included with 
+your SYSTEM, you may install and use the 
+component(s) of the DESKTOP SOFTWARE in 
+accordance with the terms of the end user license 
+agreement provided with such component(s). In the 
+absence of a separate end user license agreement for 
+particular component(s) of the DESKTOP SOFTWARE, 
+you may install and use only one (1) copy of such 
+component(s) on a single computer with which you use 
+the SYSTEM.
+250090-001 Thin Clients Book.book Page x Tuesday, July 17, 2001 9:52 AM
+
+--- Page 11 ---
+User’s Guide xi
+❏ Use of Windows CE Operating System for 
+Windows-based Terminal Devices with Microsoft 
+Windows NT Server, Terminal Server Edition
+If the SOFTWARE is Windows CE operating system for 
+Windows-based Terminal devices, the following special 
+provisions apply. In order to use the SYSTEM in 
+connection with Windows NT Server, Terminal Server 
+Edition, you must possess (1) a Client Access License for 
+Windows NT Server, Terminal Server Edition and (2) an 
+end user license for Windows NT Workstation or an end 
+user license agreement for Windows NT Workstation for 
+Windows-based Terminal Devices (please refer to the end 
+user license agreement for Windows NT Server, Terminal 
+Server Edition for additional information). 
+MANUFACTURER may have included a Certificate of 
+Authenticity for Windows NT Workstation for 
+Windows-based Terminal Devices with the SYSTEM. In 
+that case, this EULA constitutes an end user license for 
+the version of Windows NT Workstation for 
+Windows-based Terminal Devices indicated on such 
+Certificate of Authenticity.
+❏ Back-up Copy
+If MANUFACTURER has not included a back-up copy 
+of the SYSTEM SOFTWARE with the SYSTEM, you 
+may make a single back-up copy of the SYSTEM 
+SOFTWARE. You may use the back-up copy solely for 
+archival purposes.
+250090-001 Thin Clients Book.book Page xi Tuesday, July 17, 2001 9:52 AM
+
+--- Page 12 ---
+xii User’s Guide
+2. Description of Other Rights and Limitations
+❏ Speech/Handwriting Recognition
+If the SYSTEM SOFTWARE includes speech and/or 
+handwriting recognition component(s), you should 
+understand that speech and handwriting recognition are 
+inherently statistical processes; that recognition errors are 
+inherent in the processes; that it is your responsibility to 
+provide for handling such errors and to monitor the 
+recognition processes and correct any errors. Neither 
+MANUFACTURER nor its suppliers shall be liable for 
+any damages arising out of errors in the speech and 
+handwriting recognition processes.
+❏ Limitations on Reverse Engineering, Decompilation 
+and Disassembly
+You may not reverse engineer, decompile, or disassemble 
+the SYSTEM SOFTWARE, except and only to the extent 
+that such activity is expressly permitted by applicable law 
+notwithstanding this limitation.
+❏ Single SYSTEM
+The SYSTEM SOFTWARE is licensed with the 
+SYSTEM as a single integrated product. The SYSTEM 
+SOFTWARE installed in Read Only Memory (ROM) of 
+the SYSTEM may only be used as part of the SYSTEM.
+❏ Single EULA
+The package for the SYSTEM SOFTWARE may contain 
+multiple versions of this EULA, such as multiple 
+translations and/or multiple media versions (e.g., in the 
+user documentation and in the software). Even if you 
+receive multiple versions of the EULA, you are licensed 
+to use only one (1) copy of the SYSTEM SOFTWARE.
+❏ Rental
+You may not rent or lease the SOFTWARE.
+250090-001 Thin Clients Book.book Page xii Tuesday, July 17, 2001 9:52 AM
+
+--- Page 13 ---
+User’s Guide xiii
+❏ Software Transfer
+You may permanently transfer all of your rights under 
+this EULA only as part of a sale or transfer of the 
+SYSTEM, provided you retain no copies, you transfer all 
+of the SOFTWARE (including all component parts, the 
+media, any upgrades or backup copies, this EULA and, if 
+applicable, the Certificate(s) of Authenticity), and the 
+recipient agrees to the terms of this EULA. If the 
+SOFTWARE is an upgrade, any transfer must include all 
+prior versions of the SOFTWARE.
+❏ Termination
+Without prejudice to any other rights, 
+MANUFACTURER or MS may terminate this EULA if 
+you fail to comply with the terms and conditions of this 
+EULA. In such event, you must destroy all copies of the 
+SOFTWARE and all of its component parts.
+3. Upgrades
+If the SYSTEM SOFTWARE and this EULA are provided 
+separate from the SYSTEM by MANUFACTURER and the 
+SYSTEM SOFTWARE is on a ROM chip, CD ROM disk(s) 
+or floppy disk(s), and labeled “For ROM Upgrade Purposes 
+Only” (“ROM Upgrade”), you may install one copy of the 
+ROM Upgrade onto the SYSTEM as a replacement copy for 
+the SYSTEM SOFTWARE originally installed on the 
+SYSTEM and use it in accordance with Section 1 of this 
+EULA.
+250090-001 Thin Clients Book.book Page xiii Tuesday, July 17, 2001 9:52 AM
+
+--- Page 14 ---
+xiv User’s Guide
+4. Copyright
+All title and copyrights in and to the SOFTWARE (including 
+but not limited to any images, photographs, animations, 
+video, audio, music, text and “applets,” incorporated into the 
+SOFTWARE), the accompanying printed materials, and any 
+copies of the SOFTWARE, are owned by MS or its suppliers 
+(including Microsoft Corporation). You may not copy the 
+printed materials accompanying the SOFTWARE. All rights 
+not specifically granted under this EULA are reserved by MS 
+and its suppliers (including Microsoft Corporation).
+5. Product Support
+Product support for the SOFTWARE is not provided by MS, 
+its parent corporation, Microsoft Corporation, or their 
+affiliates or subsidiaries. For product support, please refer to 
+MANUFACTURER’s support number provided in the 
+documentation for the SYSTEM. Should you have any 
+questions concerning this EULA, or if you desire to contact 
+MANUFACTURER for any other reason, please refer to the 
+address provided in the documentation for the SYSTEM.
+6. Export Restrictions
+You agree that you will not export or re-export the 
+SOFTWARE to any country, person, or entity subject to U.S. 
+export restrictions. You specifically agree not to export or 
+re-export the SOFTWARE: (i) to any country to which the 
+U.S. has embargoed or restricted the export of goods or 
+services, which as of March 1998 include, but are not 
+necessarily limited to Cuba, Iran, Iraq, Libya, North Korea, 
+Sudan and Syria, or to any national of any such country, 
+wherever located, who intends to transmit or transport the 
+products back to such country; (ii) to any person or entity 
+who you know or have reason to know will utilize the 
+SOFTWARE or portion thereof in the design, development or 
+production of nuclear, chemical or biological weapons; or 
+(iii) to any person or entity who has been prohibited from 
+participating in U.S. export transactions by any federal 
+agency of the U.S. government.
+250090-001 Thin Clients Book.book Page xiv Tuesday, July 17, 2001 9:52 AM
+
+--- Page 15 ---
+User’s Guide xv
+If the SOFTWARE is labeled “North America Only Version” 
+above, on the Product Identification Card, or on the 
+SOFTWARE packaging or other written materials, then the 
+following applies: The SOFTWARE is intended for 
+distribution only in the United States, its territories and 
+possessions (including Puerto Rico, Guam, and U.S. Virgin 
+Islands) and Canada. Export of the SOFTWARE from the 
+United States is regulated under “EI controls” of the Export 
+Administration Regulations (EAR, 15 CFR 730-744) of the 
+U.S. Commerce Department, Bureau of Export 
+Administration (BXA). A license is required to export the 
+SOFTWARE outside the United States or Canada. You agree 
+that you will not directly or indirectly, export or re-export the 
+SOFTWARE (or portions thereof) to any country, other than 
+Canada, or to any person or entity subject to U.S. export 
+restrictions without first obtaining a Commerce Department 
+export license. You warrant and represent that neither the 
+BXA nor any other U.S. federal agency has suspended, 
+revoked or denied your export privileges.
+7. Note on Java Support
+The SYSTEM SOFTWARE may contain support for 
+programs written in Java. Java technology is not fault tolerant 
+and is not designed, manufactured, or intended for use or 
+resale as on-line control equipment in hazardous 
+environments requiring fail-safe performance, such as in the 
+operation of nuclear facilities, aircraft navigation or 
+communication systems, air traffic control, direct life support 
+machines, or weapons systems, in which the failure of Java 
+technology could lead directly to death, personal injury, or 
+severe physical or environmental damage.
+250090-001 Thin Clients Book.book Page xv Tuesday, July 17, 2001 9:52 AM
+
+--- Page 16 ---
+xvi User’s Guide
+8. Limited Warranty
+❏ Limited Warranty
+MANUFACTURER warrants that the SOFTWARE will 
+perform substantially in accordance with the 
+accompanying written materials for a period of ninety 
+(90) days from the date of receipt. Any implied 
+warranties on the SOFTWARE are limited to ninety (90) 
+days. Some states/jurisdictions do not allow limitations 
+on duration of an implied warranty, so the above 
+limitation may not apply to you.
+❏ Customer Remedies
+MANUFACTURER’S and its suppliers’ entire liability 
+and your exclusive remedy shall be, at 
+MANUFACTURER’S option, either (a) return of the 
+price paid, or (b) repair or replacement of the 
+SOFTWARE that does not meet the above Limited 
+Warranty and which is returned to MANUFACTURER 
+with a copy of your receipt. This Limited Warranty is 
+void if failure of the SOFTWARE has resulted from 
+accident, abuse, or misapplication. Any replacement 
+SOFTWARE will be warranted for the remainder of the 
+original warranty period or thirty (30) days, whichever is 
+longer.
+❏ No Other Warranties
+EXCEPT AS EXPRESSLY PROVIDED IN THE 
+LIMITED WARRANTY SECTION ABOVE, THE 
+SOFTWARE IS PROVIDED TO THE END USER 
+“AS IS” WITHOUT WARRANTY OF ANY KIND, 
+EITHER EXPRESSED OR IMPLIED, INCLUDING, 
+BUT NOT LIMITED TO, WARRANTIES OF 
+NON-INFRINGEMENT, MERCHANTABILITY, 
+AND/OR FITNESS FOR A PARTICULAR PURPOSE. 
+THE ENTIRE RISK OF THE QUALITY AND 
+PERFORMANCE OF THE SOFTWARE IS 
+WITH YOU.
+250090-001 Thin Clients Book.book Page xvi Tuesday, July 17, 2001 9:52 AM
+
+--- Page 17 ---
+User’s Guide xvii
+❏ No Liability for Consequential Damages
+MANUFACTURER OR MANUFACTURER’S 
+SUPPLIERS, INCLUDING MS AND ITS SUPPLIERS, 
+SHALL NOT BE HELD TO ANY LIABILITY FOR 
+ANY DAMAGES SUFFERED OR INCURRED BY 
+THE END USER (INCLUDING, BUT NOT LIMITED 
+TO, GENERAL, SPECIAL, CONSEQUENTIAL OR 
+INCIDENTAL DAMAGES INCLUDING DAMAGES 
+FOR LOSS OF BUSINESS PROFITS, BUSINESS 
+INTERRUPTION, LOSS OF BUSINESS 
+INFORMATION AND THE LIKE), ARISING FROM 
+OR IN CONNECTION WITH THE DELIVERY, USE 
+OR PERFORMANCE OF THE SOFTWARE.
+If you acquired this EULA in the United States, this EULA is 
+governed by the laws of the State of Washington.
+If you acquired this EULA in Canada, this EULA is governed by 
+the laws of the Province of Ontario, Canada. Each of the parties 
+hereto irrevocably attorns to the jurisdiction of the courts of the 
+Province of Ontario and further agrees to commence any 
+litigation which may arise hereunder in the courts located in the 
+Judicial District of York, Province of Ontario.
+If this EULA was acquired outside the United States, then local 
+law may apply.
+Should you have any questions concerning this EULA, please 
+contact the MANUFACTURER of your SYSTEM.
+U.S. GOVERNMENT RESTRICTED RIGHTS
+The SOFTWARE and documentation are provided with 
+RESTRICTED RIGHTS. Use, duplication, or disclosure by the 
+Government is subject to restrictions as set forth in subparagraph 
+(c)(1)(ii) of the Rights in Technical Data and Computer Software 
+clause at DFARS 252.227-7013 or subparagraphs (c)(1) and (2) 
+of the Commercial Computer Software—Restricted Rights at 48 
+CFR 52.227- 19, as applicable. MANUFACTURER is Microsoft 
+Corporation/One Microsoft Way/Redmond, WA 98052-6399.
+250090-001 Thin Clients Book.book Page xvii Tuesday, July 17, 2001 9:52 AM
+
+--- Page 18 ---
+User’s Guide xix
+Contents
+About the User’s Guide
+Guide Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   xxi
+Guide Conventions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  xxii
+Text Format . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  xxii
+User Interface Menu Control. . . . . . . . . . . . . . . . . .   xxiii
+1 Introduction
+Introducing the Compaq Evo Thin Client T20 and
+Compaq T1010 Windows Based Terminal  . . . . . . . . . . .  1–1
+Models Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1–1
+Compaq Evo Thin Client T20 . . . . . . . . . . . . . . . . . .  1–2
+Compaq T1010 Windows Based Terminal  . . . . . . . . . . .  1–3
+Compaq Thin Client Terminal Features. . . . . . . . . . . . . .  1–5
+2 General Terminal Information
+Logging On  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2–1
+Access Levels  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2–2
+Version and Copyright Information . . . . . . . . . . . . . . . . .  2–5
+Network Information . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2–6
+3 Display Configuration
+Display Screen Resolution . . . . . . . . . . . . . . . . . . . . . . . .  3–1
+Energy Savers. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3–4
+250090-001 Thin Clients Book.book Page xix Tuesday, July 17, 2001 9:52 AM
+
+--- Page 19 ---
+xx User’s Guide
+4 Keyboard and Mouse Configuration
+Keyboard  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4–2
+Mouse. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4–4
+5 Managing Connections
+Configuring a Connection . . . . . . . . . . . . . . . . . . . . . . . .  5–1
+Making a Connection . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5–1
+Ending a Connection  . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5–2
+Shutting Down the Terminal . . . . . . . . . . . . . . . . . . . . . .  5–3
+6 Browser Configuration
+Adding a Browser Connection . . . . . . . . . . . . . . . . . . . . .  6–2
+7 Multiple Sessions
+Setting Up Multiple Sessions. . . . . . . . . . . . . . . . . . . . . .  7–1
+Managing Multiple Sessions  . . . . . . . . . . . . . . . . . . . . . .  7–1
+Manipulating Multiple Sessions. . . . . . . . . . . . . . . . . . . .  7–2
+8 Getting Help
+Troubleshooting Your Terminal  . . . . . . . . . . . . . . . . . . .  8–1
+Index
+250090-001 Thin Clients Book.book Page xx Tuesday, July 17, 2001 9:52 AM
+
+--- Page 20 ---
+User’s Guide xxi
+About the User’s Guide
+The Compaq Evo Thin Client T20 and Compaq T1010 Windows 
+Based Terminals Users Guide contains the information you will 
+need to use and troubleshoot a WBT (Windows-based Terminal). 
+This guide is written primarily for desktop users and covers the 
+Evo Thin Client T20 and T1010 Windows Based Terminal. 
+Guide Overview
+The users guide consists of the following chapters:
+■ Introducing the Compaq Evo Thin Client T20 and Compaq 
+T1010 Windows Based Terminal
+■ General Terminal Information
+■ Display Configuration
+■ Integrated Terminal Monitor Adjustments
+■ Keyboard and Mouse Configuration
+■ Managing Connections
+■ Browser Configuration
+■ Multiple Sessions
+■ Getting Help
+This guide contains information about:
+■ WBT features and management
+■ The user interface
+250090-001 Thin Clients Book.book Page xxi Tuesday, July 17, 2001 9:52 AM
+
+--- Page 21 ---
+xxii User’s Guide
+About the User’s Guide
+Guide Conventions
+Text Format
+Table 1 lists the text format conventions used in this document.
+Table 1: Text Format
+Convention Where Used
+Italic New term, book title, or emphasis.
+Bold Screen display, keycaps, and user input.
+✎
+Indicates a note. A note adds information.
+Ä
+Indicates a caution. A caution indicates actions that may cause 
+damage to equipment, erase files, or destroy data.
++ Keystroke sequences such as:
+Ctrl+Alt+Del
+| Instructions about invoking a menu such as:
+Network | SNMP Network | Location
+250090-001 Thin Clients Book.book Page xxii Tuesday, July 17, 2001 9:52 AM
+
+--- Page 22 ---
+About the User’s Guide
+User’s Guide xxiii
+User Interface Menu Control
+Table 2 describes the command buttons used for user interface 
+menu control on a Compaq Evo Thin Client T20 and Compaq 
+T1010 Windows Based Terminal
+Table 2: User Interface Menu Control
+Command 
+Button
+Function
+X Found in the upper right corner of a dialog box. Click on this 
+command button to quit a dialog box or properties sheet without 
+saving changes.
+OK Found in dialog boxes and on properties sheets. Click on this 
+command button to save your changes and quit a dialog box or 
+properties sheet.
+Cancel Found in dialog boxes and on properties sheets. Click on this 
+command button at any time to quit a dialog box or properties 
+sheet without saving changes.
+Apply Found in dialog boxes and on properties sheets. Click on this 
+command button to save changes without quitting a dialog box or 
+properties sheet. This command button is sometimes not 
+activated.
+Next or 
+Accept 
+Found in wizards. Click on these command buttons to display the 
+next dialog box in the sequence.
+Back Found in wizards. Click on this command button to return to the 
+previous dialog box.
+Finish Found in wizards. Click on this command button to finish the 
+wizard.
+250090-001 Thin Clients Book.book Page xxiii Tuesday, July 17, 2001 9:52 AM
+
+--- Page 23 ---
+User’s Guide 1–1
+1
+Introduction
+Introducing the Compaq Evo Thin 
+Client T20 and Compaq T1010 Windows 
+Based Terminal
+Compaq Evo Thin Client T20 and Compaq T1010 Windows 
+Based Terminals are terminals that display windows rather than 
+the classic text-based display. They are designed to connect to 
+Windows 2000 servers via RDP (Remote Desktop Protocol), to 
+Windows NT servers via ICA (Independent Computing 
+Architecture), or to legacy servers using various terminal 
+emulations such as TN3270 or TN5250.
+RDP is the Windows CE-based presentation service protocol for 
+connecting to Windows terminal servers. ICA is the presentation 
+service protocol for Windows NT servers. Both allow an 
+application’s user interface to execute on a Windows-based 
+terminal while the application’s logic executes on the server.
+Models Summary
+All Compaq Evo Thin Client T20 and Compaq T1010 Windows 
+Based Terminals with at least 8 MB of RAM are supported by 
+version 3.5 of the terminal software.
+✎
+Monitors are not provided with Compaq Evo Thin Client T20 and 
+Compaq T1010 Windows Based Terminals.
+250090-001 Thin Clients Book.book Page 1 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 24 ---
+1–2 User’s Guide
+Introduction
+Compaq Evo Thin Client T20
+The Evo Thin Client T20 terminal is a modular-type terminal. 
+The connections for peripherals such as the monitor, keyboard, 
+and mouse are on the back of the terminal. The following figures 
+show a Compaq Evo Thin Client T20 modular terminal and its 
+connectors.
+Figure 1: Evo Thin Client T20
+250090-001 Thin Clients Book.book Page 2 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 25 ---
+Introduction
+User’s Guide 1–3
+Figure 2: Evo Thin Client T20 Connections
+The following items are provided with Compaq Evo Thin 
+Client T20 terminals:
+■ Power supply
+■ Power cord
+■ Keyboard
+■ Mouse
+■ Installation and user information
+Compaq T1010 Windows Based Terminal
+The Compaq T1010 Windows Based Terminal is a 
+high-performance modular-type terminal. The connections for 
+peripherals such as the monitor, keyboard, and mouse are on the 
+back of the terminal. The following figures show a T1010 
+modular terminal and its connectors.
+250090-001 Thin Clients Book.book Page 3 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 26 ---
+1–4 User’s Guide
+Introduction
+Figure 3: Compaq T1010 Windows Based Terminal
+The following items are provided with Compaq T1010 terminals:
+■ Power supply
+■ Power cord
+■ Keyboard
+■ Mouse
+■ Installation and user information
+250090-001 Thin Clients Book.book Page 4 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 27 ---
+Introduction
+User’s Guide 1–5
+Compaq Thin Client Terminal Features
+Each terminal comes with its own set of features. The following 
+table outlines these features.
+Table 1–1: Terminal Features
+Feature
+Compaq 
+Evo Thin 
+Client T20
+T1010 
+Windows 
+Based 
+Terminal
+Windows 3.1, Windows 95, 
+Windows 98, and Windows NT 
+applications via Windows 2000
+x x
+RDP and ICA 3.x application 
+compliant
+x x
+ICA server connections via 
+serial cable
+x
+10Base-T network 
+communications
+x x
+100Base-T network 
+communications
+x x
+Dual high-speed serial ports x
+Parallel printer port x
+Single USB port x
+Four USB ports x
+Optional touch screen support x x
+Support for monochrome or 
+color monitor
+x x
+Support for PCMCIA modem x
+Print Spooling x x
+Secure RDP & ICA x x
+Media Player x x
+250090-001 Thin Clients Book.book Page 5 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 28 ---
+1–6 User’s Guide
+Introduction
+16-bit color support x x
+PCMCIA support for CISCO 
+Aironet™ Wireless Ethernet 
+Card
+x
+Network Time Services x x
+Microsoft Internet Explorer 4 
+support
+x x
+Table 1–1: Terminal Features (Continued)
+Feature
+Compaq 
+Evo Thin 
+Client T20
+T1010 
+Windows 
+Based 
+Terminal
+250090-001 Thin Clients Book.book Page 6 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 29 ---
+User’s Guide 2–1
+2
+General Terminal Information
+Logging On
+When you turn on your terminal the Terminal Login dialog box 
+(see Figure 1) displays, unless your system administrator has 
+configured your terminal for automatic login with your User 
+Name and Password. Type in your user name and password then 
+click the OK button.
+Figure 1: Terminal Login Dialog Box
+If your terminal has been configured for automatic login, the 
+Connection Manager (see Figure 5) is the first screen you will 
+see after turning on your terminal. From the connection manager 
+press 
+F2 to display the Terminal Properties dialog box.
+Two of the properties sheets in this dialog box provide general 
+information about your terminal. They are the General properties 
+sheet and the SysInfo properties sheet. The following paragraphs 
+discuss these properties sheets.
+250090-001 Thin Clients Book.book Page 1 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 30 ---
+2–2 User’s Guide
+General Terminal Information
+Access Levels
+The terminal allows three different levels of access: 
+Administrator, User, and Guest. These levels are assigned to 
+specific User Names by your System Administrator.
+Each access level grants certain rights to the user according to the 
+level specified, Administrator having total access and control 
+over all functions of the terminal, User having control over all 
+except the Security functions, and Guest having minimal rights.
+The following figures show the Terminal Properties available to 
+each kind of user.
+Figure 2: Administrator-Level Terminal Properties Screen
+250090-001 Thin Clients Book.book Page 2 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 31 ---
+General Terminal Information
+User’s Guide 2–3
+Figure 3: User-Level Terminal Properties Screen
+Figure 4: Guest-Level Terminal Properties Screen
+250090-001 Thin Clients Book.book Page 3 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 32 ---
+2–4 User’s Guide
+General Terminal Information
+Additionally the Configure tab in the Connection Manager 
+window is only available to Administrator level users.
+Information regarding the use of Administrator-level functions is 
+available in the Administrators Guide.
+✎
+If you turn on your terminal and the Setup Wizard displays, 
+contact your system administrator. If you are a system 
+administrator, see the Administrators Guide.
+✎
+For more information about the Terminal Properties dialog box, 
+see your system administrator. If you are a system administrator, 
+see the Compaq Evo Thin Client T20 and Compaq T1010 
+Windows Based Terminal Administrators Guide.
+Figure 5: Connection Manager
+250090-001 Thin Clients Book.book Page 4 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 33 ---
+General Terminal Information
+User’s Guide 2–5
+Version and Copyright Information
+The General properties sheet includes information about the 
+current software on your terminal and copyright statements. See 
+Figure 6. The General properties sheet is the default for the 
+dialog box.
+Figure 6: General Properties Sheet
+Read the information on this sheet. Click on Close to return to the 
+Connection Manager. By default Cancel and Apply are 
+deactivated.
+✎
+The amount of RAM shown on this properties sheet depends on 
+the model of terminal use.
+Ä
+CAUTION: There is one function on the General properties sheet, 
+Reset the Terminal to Factory Default Property Settings. 
+Contact your system administrator before using this function.
+250090-001 Thin Clients Book.book Page 5 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 34 ---
+2–6 User’s Guide
+General Terminal Information
+Network Information
+The SysInfo properties sheet contains network information. See 
+Figure 7.
+Click on the SysInfo tab to invoke this properties sheet. Read the 
+information on this sheet. Click on Cancel or Apply to return to 
+the Connection.
+Figure 7: SysInfo Properties Sheet
+250090-001 Thin Clients Book.book Page 6 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 35 ---
+User’s Guide 3–1
+3
+Display Configuration
+From the Connection Manager press F2 on your keyboard. The 
+Terminal Properties dialog box displays (see Figure 1). The 
+Display properties sheet available in this dialog box allows you to 
+configure display screen resolution and turn on the energy savers 
+functions.
+To invoke this properties sheet click on the Display tab in the 
+Terminal Properties dialog box.
+Display Screen Resolution
+This paragraph discusses display screen resolution referring to 
+Figure 1 and using Table 3–1.
+Figure 1: Display Properties Sheet
+250090-001 Thin Clients Book.book Page 1 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 36 ---
+3–2 User’s Guide
+Display Configuration
+Table 3–1: Display Screen Resolution
+Display Properties Sheet 
+Area Called...
+To Use...
+Desktop Area and Refresh 
+Frequency
+The Scrolling list box displays the current 
+terminal display screen resolution. Scroll and 
+click on a selection to change the resolution. 
+The default is 
+640 x 480 @ 60 Hz.
+Test
+Click on this command button to test the 
+setting selected in the above scrolling list 
+box. The following dialog box displays:
+Follow the instructions in the dialog box. 
+If you click on OK, a test pattern will display. 
+If you click on Cancel, the test is cancelled.
+250090-001 Thin Clients Book.book Page 2 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 37 ---
+Display Configuration
+User’s Guide 3–3
+Display Properties Sheet 
+Area Called...
+To Use...
+After several seconds the following dialog 
+box displays:
+Follow the instructions in the dialog box. If 
+you click on Yes, you will return to the 
+Display properties sheet.
+If you click on No, the following dialog box 
+will display:
+Follow the instructions in the dialog box.
+Table 3–1: Display Screen Resolution (Continued)
+250090-001 Thin Clients Book.book Page 3 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 38 ---
+3–4 User’s Guide
+Display Configuration
+Energy Savers
+This paragraph discusses energy saving features, referring to 
+Figure 1 and using Table 3–2.
+Table 3–2: Energy Savers
+Display 
+Properties Sheet 
+Area Called...
+To Use...
+Enable Energy 
+Savers
+Click on this check box to activate the energy saver 
+functions. When you check this box, all three functions 
+in the group box are activated:
+Screen Saver
+Click on this radio button to enable the screen saver. By 
+default this function is not activated.
+Turn Off Monitor
+Click on this radio button to use this function as an 
+energy saver. The function works by shutting off the 
+terminal's display rather than displaying a screen saver. 
+By default this function is not activated. When Enable 
+Energy Savers is activated, this function is enabled.
+Wait
+Adjust the amount of time (in minutes) that elapses 
+before the energy saver function you have selected 
+starts. You can enter a number or use the scrolling list. 
+By default the function is not activated. When it is 
+activated, the default is 12.
+250090-001 Thin Clients Book.book Page 4 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 39 ---
+Display Configuration
+User’s Guide 3–5
+To finish, click on Apply, then Close. The following dialog box 
+displays:
+Figure 2: Terminal Settings Change Dialog Box
+You can also click on Cancel to cancel any changes and return to 
+the Connection Manager.
+250090-001 Thin Clients Book.book Page 5 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 40 ---
+User’s Guide 4–1
+4
+Keyboard and Mouse
+Configuration
+From the Connection Manager you can configure your 
+terminal’s keyboard and mouse. Press 
+F2 on your keyboard. The 
+Terminal Properties dialog box displays. In this dialog box is a 
+properties sheet you can use for setting up your keyboard and 
+mouse. It is the Input properties sheet. Figure 1 shows this 
+properties sheet.
+To invoke this properties sheet click on the Input tab.
+Figure 1: Input Properties Sheet
+250090-001 Thin Clients Book.book Page 1 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 41 ---
+4–2 User’s Guide
+Keyboard and Mouse Configuration
+Keyboard
+This paragraph discusses configuring your keyboard, referring to 
+Figure 1 and using Table 4–1.
+Table 4–1: Keyboard
+Input Properties 
+Sheet Area 
+Called...
+To Use...
+Keyboard This group box outlines the keyboard mappings supported 
+by the firmware. Use this group box to configure your 
+keyboard:
+Locale
+Use this scroll list to select a language for the keyboard:
+■ Belgian Dutch
+■ Belgian French
+■ Brazilian (ABNT)
+■ Canadian Eng (Multi)
+■ Canadian FR (Multi)
+■ Canadian French
+■ Croatian
+■ Czech
+■ Danish
+■ Dutch
+■ English (UK)
+■ English (US)
+■ Finnish
+■ French
+■ German
+■ Greek
+■ Hungarian
+■ Italian
+■ Italian (142)
+■ Japanese
+■ Latin American
+■ Norwegian
+■ Polish (214)
+■ Polish (programmer)
+■ Portuguese
+■ Romanian
+■ Slovak
+■ Slovenian
+■ Spanish
+■ Spanish Variation
+■ Swedish
+■ Swiss French
+■ Swiss German
+■ Tu r ki sh-F
+■ Tu r ki sh-Q
+■ US International
+Click on a selection to highlight it. The default is English (US).
+✎
+An IEPC keyboard is required for any language other than English (US). 
+The keyboard layouts are different for each of the languages listed above.
+250090-001 Thin Clients Book.book Page 2 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 42 ---
+Keyboard and Mouse Configuration
+User’s Guide 4–3
+To finish, click on Apply then Close to apply the changes you 
+made and return to the Connection Manager.
+Keyboard 
+(continued)
+NumLock On Boot
+Click on this check box to enable the Num Lock function 
+on your keyboard. When checked, the keyboard will boot 
+up with the Num Lock function enabled.
+Character 
+Repeat
+The group box used to set the keyboard character repeat 
+parameters:
+Repeat Delay
+Use this slider control to adjust the repeat delay of 
+keyboard characters. Repeat Delay determines how 
+quickly the same character will appear on screen when 
+typed more than once.
+Repeat Rate
+Use this slider control to adjust the repeat rate of a 
+keyboard character. Repeat Rate determines how quickly 
+the same character will appear on screen when the 
+associated key is held down.
+Table 4–1: Keyboard (Continued)
+Input Properties 
+Sheet Area 
+Called... To Use...
+250090-001 Thin Clients Book.book Page 3 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 43 ---
+4–4 User’s Guide
+Keyboard and Mouse Configuration
+Mouse
+This section discusses configuring your mouse referring to 
+Figure 1 and using Table 4–2.
+Table 4–2: Mouse
+Input Properties 
+Sheet Area 
+Called...
+To Use...
+Mouse Use the following dialog box to configure mouse 
+attributes.
+Properties
+Click on this command button to invoke the 
+Mouse Properties dialog box. Use it to set your 
+mouse properties.
+250090-001 Thin Clients Book.book Page 4 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 44 ---
+Keyboard and Mouse Configuration
+User’s Guide 4–5
+To finish, click on Apply then Close to apply the changes and 
+return to the Connection Manager.
+Button Configuration
+Select from:
+Right-handed
+Left-handed
+To choose which button you will use on your mouse. The 
+default is Right-handed.
+Pointer Acceleration
+Use this slider control to adjust the acceleration of the 
+mouse.
+Pointer Speed
+Use this slider control to adjust the speed of the mouse.
+Table 4–2: Mouse (Continued)
+Input Properties 
+Sheet Area 
+Called... To Use...
+250090-001 Thin Clients Book.book Page 5 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 45 ---
+User’s Guide 5–1
+5
+Managing Connections
+The Connection Manager is designed to help you manage your 
+network connections. The manager consists of the Connections 
+properties sheet and the Configure properties sheet. With it you 
+can configure, make, and end connections, and gracefully shut 
+down the terminal.
+The Connection Manager is automatically invoked when the 
+terminal is turned on.
+✎
+If you turn on your WBT and the Setup Wizard displays, contact 
+your system administrator. If you are a system administrator, see 
+the Administrators Guide.
+Configuring a Connection
+The functions of the Configure properties sheet are used to add, 
+modify, and delete connections. See your system administrator or 
+the Administrators Guide for more information about configuring 
+connections.
+Making a Connection
+The functions of the Connections properties sheet are used to:
+■ Make terminal connections
+■ Display the status of a connection
+■ End a connection
+■ Shut down the terminal gracefully
+250090-001 Thin Clients Book.book Page 1 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 46 ---
+5–2 User’s Guide
+Managing Connections
+Table 5–1 identifies and describes each of functions of the 
+properties sheet.
+Ending a Connection
+Click on the End command button to end the connection process. 
+When you press the End button and the connection is active, the 
+End Task dialog displays. The End command button is enabled 
+when one or more sessions become active.
+Table 5–1: Connections Properties Sheet
+Function Description
+Connection Name This application window lists the connections that 
+you can use. Default RDP Connection and 
+Default ICA Connection are the default 
+connections for the window.
+✎
+See the administrators guide for 
+information about creating connections.
+Type This list shows the type of connection. The 
+defaults are RDP and ICA.
+Status This list shows the status of the connection. If a 
+connection is live, the status for that connection 
+will be Active. If a connection is not live, the list 
+will show a blank.
+Connect Click on a connection in the Connection Name 
+list box to highlight it. Click on the Connect 
+command button to make the highlighted 
+connection. You can also double-click on a 
+selection to make a connection.
+End See Ending a Connection.
+Shutdown See Shutting Down the Terminal.
+250090-001 Thin Clients Book.book Page 2 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 47 ---
+Managing Connections
+User’s Guide 5–3
+Shutting Down the Terminal
+Use the Shutdown Window dialog box to log off, shut down, or 
+shut down and restart the terminal. Figure 1 shows the Shutdown 
+Window dialog box.
+Figure 1: Shutdown Window Dialog Box
+Click on the Shutdown command button in the Connection 
+Manager to invoke this dialog box. The following table describes 
+the functions of this dialog box.
+Table 5–2: Shutdown Window Dialog Box
+Function Description
+Logout Click on this radio button to invoke the Terminal 
+Login
+ dialog box. By default this command 
+button is not activated. You must enable the 
+terminal's security function to activate this radio 
+button.
+✎
+See the administrators guide or your 
+system administrator for more 
+information about logging out. 
+250090-001 Thin Clients Book.book Page 3 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 48 ---
+5–4 User’s Guide
+Managing Connections
+Shutdown the 
+Terminal
+Click on this Radio button to shut down the 
+terminal without restarting it. A dialog box 
+displays after you initiate this action. It prompts 
+you about whether you want to continue. By 
+default this Radio button is activated and 
+enabled.
+Shutdown and 
+Restart
+Click on this Radio button to shut down then 
+restart the terminal. By default this function is 
+activated. 
+Table 5–2: Shutdown Window Dialog Box (Continued)
+Function Description
+250090-001 Thin Clients Book.book Page 4 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 49 ---
+User’s Guide 6–1
+6
+Browser Configuration
+Compaq Evo Thin Client T20 and Compaq T1010 terminals 
+come with a local version of the Microsoft Internet Explorer web 
+browser. This chapter of the User’s Guide describes how to set 
+the client-based browser as a connection using the Connection 
+Manager.
+Figure 1: Internet Explorer Browser
+250090-001 Thin Clients Book.book Page 1 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 50 ---
+6–2 User’s Guide
+Browser Configuration
+Adding a Browser Connection
+When you first power-up your terminal you will see the 
+Connection Manager.
+Figure 2: Connection Manager
+It is from the Connection Manager that you will configure your 
+local browser. Click on the Configure tab to begin setting up 
+your browser.
+250090-001 Thin Clients Book.book Page 2 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 51 ---
+Browser Configuration
+User’s Guide 6–3
+A new set of buttons will appear at the bottom of the Connection 
+Manager window.
+Figure 3: Configure Tab Buttons
+Click the Add button and choose Internet Explorer from the drop 
+down box and click on the OK button.
+Figure 4: New Connection Dialog
+250090-001 Thin Clients Book.book Page 3 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 52 ---
+6–4 User’s Guide
+Browser Configuration
+Type a name for your browser connection in the title box of the 
+Internet Explorer Setup dialog box and click OK.
+Figure 5: Internet Explorer Setup Dialog Box
+Click the Connections tab at the top of the Connection Manager 
+window.
+If you want to have the browser automatically open when you 
+start your terminal, click the Automatically start the selected 
+connection at startup radio button in the Connection Startup 
+dialog box, Figure 6.
+Figure 6: Connection Startup Dialog Box
+250090-001 Thin Clients Book.book Page 4 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 53 ---
+User’s Guide 7–1
+7
+Multiple Sessions
+Setting Up Multiple Sessions
+To start multiple sessions:
+1. Click on a connection in the Connection Name list in the 
+Connection Manager to launch your first session. (See 
+“Managing Connections” for more information about 
+configuring connection parameters.)
+2. Press Ctrl+Alt+End while the connection is active to return to 
+the Connection Manager.
+3. Click on another connection in the Connection Name list to 
+launch another session.
+Managing Multiple Sessions
+Your terminal is designed to handle multiple sessions. The 
+number of active sessions you can have with your terminal is 
+dependent on the following factors:
+■ Model number
+■ Amount of RAM
+■ The types of connections open
+■ What type of account you have
+See your system administrator for detailed information about 
+your terminal’s ability to conduct multiple sessions.
+250090-001 Thin Clients Book.book Page 1 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 54 ---
+7–2 User’s Guide
+Multiple Sessions
+Manipulating Multiple Sessions
+With multiple sessions active, you can toggle between sessions. 
+To toggle between sessions:
+■ Press Ctrl+Alt+Up Arrow Key to proceed to the previous session.
+■ Press Ctrl+Alt+Down Arrow Key to proceed to the next session.
+You can also return to the Connection Manager by pressing 
+Ctrl+Alt+End.
+250090-001 Thin Clients Book.book Page 2 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 55 ---
+User’s Guide 8–1
+8
+Getting Help
+Getting help provides solutions to problems that may occur while 
+you are using your terminal.
+Troubleshooting Your Terminal
+Troubleshooting theTerminal, Table 8–1, lists some common 
+problems and the solutions to those problems.
+Table 8–1: Troubleshooting the Terminal
+Problem Solution
+When you turn on the terminal 
+nothing happens.
+1. Ensure that the power cord is 
+connected to the power connector 
+on the terminal’s back panel.
+2. Ensure that the power cord is 
+plugged into an AC outlet that 
+works.
+When you turn on the terminal the 
+screen remains blank and the 
+power indicator light remains 
+orange.
+Turn the terminal off, then on again.
+When you turn on the terminal, the 
+Connection Manager or the WBT 
+Setup Wizard appears, but the 
+mouse does not function.
+Ensure that the mouse cord is properly 
+connected.
+250090-001 Thin Clients Book.book Page 1 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 56 ---
+8–2 User’s Guide
+Getting Help
+✎
+If any other error messages are displayed, you have any other 
+problems, or you can not find a solution in this table, contact your 
+network system administrator.
+You are not able to make a network 
+connection using the Connection 
+Manager.
+1. Verify that the network cable is 
+properly connected.
+2. Verify that the network cable is 
+connected to a hub or other network 
+outlet.
+3. Check with your network system 
+administrator to ensure that the 
+WBT is set up properly.
+While connected to a server the 
+keyboard and the mouse freeze.
+The connection to the server may be 
+broken.
+1. Turn the terminal off, then on again.
+2. Attempt to make another 
+connection.
+If you cannot make the connection 
+again:
+1. Verify that the network cable is 
+properly connected.
+2. Check with your network system 
+administrator to ensure that you are 
+using the correct network cable.
+Table 8–1: Troubleshooting the Terminal (Continued)
+Problem Solution
+250090-001 Thin Clients Book.book Page 2 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 57 ---
+User’s Guide Index–1
+Index
+100Base-T 1–5
+10Base-T 1–5
+A
+Access Levels 2–2
+Administrator access level 2–2
+B
+Browser 6–1
+C
+Configure 5–1
+Configure tab 2–4
+Connection Manager 2–4
+Connection Name 5–2
+Connections 5–1
+Control keys
+F2 2–1, 3–1, 4–1
+D
+Dialog boxes
+Mouse Properties 4–4
+Shutdown Window 5–3
+Terminal Login 5–3
+Terminal Properties 2–1, 
+3–1, 4–1
+Winterm Connection 
+Manager
+ 2–1, 3–1, 4–1
+Display Configuration 3–1
+Display screen resolution 3–1
+E
+End 5–2
+End Task 5–2
+Energy Savers 3–4
+Energy savers 3–1
+F
+Functions
+Character Repeat 4–3
+Connect 5–2
+Desktop Area and Refresh 
+Frequency
+ 3–2
+Enable Energy Savers 3–4
+End 5–2
+Keyboard 4–2
+Logoff 5–3
+Repeat Delay 4–3
+Repeat Rate 4–3
+Reset the Terminal to 
+Factory Default Property 
+Settings
+ 2–5
+Screen Saver 3–4
+Shutdown and Restart 5–4
+Shutdown the Terminal 
+5–4
+Test 3–2
+Turn Off Monitor 3–4
+Wait 3–4
+250090-001 Thin Clients Book.book Page 1 Tuesday, July 17, 2001 9:52 AM
+
+--- Page 58 ---
+Index–2 User’s Guide
+Index
+G
+Guest level access 2–2
+H
+High-performance terminal 
+1–3
+I
+ICA 1–1
+Independent Computing 
+Architecture
+ 1–1
+L
+Languages 4–2
+Logging off the terminal 5–3
+M
+Mouse 4–4
+P
+Parallel port 1–5
+PCMCIA 1–5
+Properties sheets
+Configure 5–1
+Connections 5–1
+Display 3–1
+General 2–1
+Input 4–1
+SysInfo 2–1
+R
+RAM 2–5
+RDP 1–1
+Remote Desktop Protocol 1–1
+S
+Security 2–2
+Serial port 1–5
+Shutdown 5–2
+Shutting down and restarting 
+the terminal
+ 5–4
+Shutting down the terminal 
+5–4
+Status 5–2
+T
+Terminal features 1–5
+Terminal Properties 2–2
+TN3270 1–1
+TN5250 1–1
+Touch screen 1–5
+Troubleshooting 8–1
+Type 5–2
+U
+USB port 1–5
+User level access 2–2
+W
+WBT –xxi, 1–1, 1–3
+WBT model numbers
+3200LE –xxi
+Windows 2000 1–1
+Windows 3.1 1–5
+Windows 95 1–5
+Windows 98 1–5
+Windows CE 1–1
+Windows NT 1–1
+Windows-based terminal 1–1, 
+1–3
+Winterm Connection Manager 
+6–1
+Wizards
+Setup 2–4
+WBT Setup 8–1
+250090-001 Thin Clients Book.book Page 2 Tuesday, July 17, 2001 9:52 AM
+

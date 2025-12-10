@@ -1,0 +1,2187 @@
+Brand: FLYBOOK
+Model: V5
+URL: https://www.manua.ls/flybook/v5/manual
+Total Pages: 60
+============================================================
+
+--- Page 1 ---
+FlyBook V5 User’s Manual 
+z  V5W1BB   (without 3G) 
+z  V5W1BBHA   (with 3G) 
+Dialogue Technology Corporation 
+Version 2.1, September 2008
+
+--- Page 2 ---
+Table of Content 
+FLYBOOK V5 USER’S MANUAL................................................................................................... 1 
+PREFACE ......................................................................................................................................III 
+Copyright and Safety Notices ................................................................................................. iii 
+About This Manual ...................................................................................................................v 
+Taking Care of FlyBook V5 ......................................................................................................v 
+INTRODUCING FLYBOOK V5........................................................................................................... 1 
+TAKING A TOUR OF FLYBOOK V5.................................................................................................... 2 
+Front-Left View........................................................................................................................ 2 
+Rear View................................................................................................................................ 4 
+USING V5 IN CLAMSHELL MODE AND TABLET MODE ....................................................................... 6 
+Using V5 in Clamshell Mode................................................................................................... 6 
+Using V5 in Tablet Mode .........................................................................................................6 
+GETTING STARTED WITH FLYBOOK V5 ........................................................................................... 9 
+Battery Installation .................................................................................................................. 9 
+Connecting AC Adapter......................................................................................................... 10 
+Powering on V5 for the First Time .........................................................................................11 
+LED DESCRIPTIONS .................................................................................................................... 12 
+USING FINGERPRINT READER ...................................................................................................... 14 
+Fingerprint Enrollment........................................................................................................... 14 
+USING INPUT DEVICES ................................................................................................................. 16 
+Using Pointing Devices ......................................................................................................... 16 
+Using Stylus .......................................................................................................................... 16 
+Using Keyboard .................................................................................................................... 17 
+FLYBOOK CONTROL CENTER....................................................................................................... 20 
+Opening Control Center........................................................................................................ 20 
+Using Control Center ............................................................................................................20 
+AUTOMATIC BACKLIGHT CONTROL............................................................................................... 22 
+Function ................................................................................................................................ 22 
+How Automatic Backlight Control Works .............................................................................. 22 
+CUSTOMIZING V5 DISPLAY ........................................................................................................... 23 
+CONNECTING DEVICES................................................................................................................. 24 
+Connecting Audio Devices.................................................................................................... 24 
+Connecting USB Devices...................................................................................................... 25 
+Connecting an External Display............................................................................................ 25 
+Connecting to a TV ............................................................................................................... 26 
+Using an ExpressCard .......................................................................................................... 27 
+SECURING YOUR V5.................................................................................................................... 30 
+Before You Go Online ........................................................................................................... 30 
+Installing a Firewall ............................................................................................................... 30 
+Installing a Spyware Blocker................................................................................................. 30 
+CONNECTING LOCAL AREA NETWORKS........................................................................................ 31 
+Connecting LAN.................................................................................................................... 31 
+Connecting a Wireless LAN (WLAN) .................................................................................... 31 
+USING THE BUILT-IN MODEM ........................................................................................................ 33 
+  i
+
+--- Page 3 ---
+Making a Modem Dial-up Connection................................................................................... 33
+ 
+Sending and Receiving a Fax............................................................................................... 33 
+USING THE BUILT-IN WWAN MODULE (OPTIONAL) ....................................................................... 34 
+Installing SIM Card................................................................................................................ 34 
+Connecting V5 to a Wireless WAN ....................................................................................... 35 
+USING GPS (OPTIONAL).............................................................................................................. 36 
+USING THE BUILT-IN BLUETOOTH MODULE ................................................................................... 37 
+USING THE BUILT-IN WEBCAM...................................................................................................... 38 
+Enabling Webcam.................................................................................................................38 
+Adjusting Webcam Orientation ............................................................................................. 38 
+MANAGING SYSTEM POWER ........................................................................................................ 40 
+CUSTOMIZING SYSTEM BIOS....................................................................................................... 41 
+Accessing BIOS Setup.......................................................................................................... 41 
+Updating BIOS Firmware...................................................................................................... 41 
+SYSTEM RECOVERY..................................................................................................................... 42 
+Recovering System from Hard Disk Hidden Partition........................................................... 42 
+Recovering System from Recovery DVD.............................................................................. 43 
+TROUBLESHOOTING..................................................................................................................... 44 
+Identifying Problems ............................................................................................................. 44 
+General Hardware Problems ................................................................................................ 44 
+Having V5 Serviced ..............................................................................................................47 
+POWER SPECIFICATION................................................................................................................ 48 
+INDEX.......................................................................................................................................... 49 
+  ii
+
+--- Page 4 ---
+Preface 
+ 
+Copyright and Safety Notices 
+Please read this section before using your V5. Retain this manual for future 
+reference. 
+ 
+Copyright 
+This publication, including all photographs, illustrations and software, is protected 
+under international copyright laws, with all rights reserved. Neither this manual, 
+nor any of the material contained herein, may be reproduced without written 
+consent of the manufacturer. 
+ 
+Disclaimer 
+The information in this document is subject to change without notice. The 
+manufacturer makes no representations or warranties with respect to the 
+contents hereof and specifically disclaims any implied warranties of 
+merchantability or fitness for any particular purpose. The manufacturer reserves 
+the right to revise this publication and to make changes from time to time in the 
+content hereof without obligation of the manufacturer to notify any person of such 
+revision or changes. 
+ 
+Trademark Recognition 
+Acronis is a trademark of Acronis, Inc. Bluetooth is a trademark of the Bluetooth 
+SIG, Inc. (Special Interest Group). The Bluetooth trademark is owned by 
+Bluetooth SIG, Inc. USA. BlueSoleil is a trademark of IVT Corporation. Dialogue 
+Technology Corporation is a registered trademark. FlyBook is a trademark of the 
+Dialogue Technology Corporation. VITAKEY is the registered trademark of 
+EgisTec Inc. Windows is a registered trademark or trademark of Microsoft 
+Corporation in the United States and/or other countries. All other product names 
+used in this manual are the properties of their respective owners and are 
+acknowledged. 
+ 
+Federal Communications Commission (FCC) 
+This equipment has been tested and found to comply with the limits for a Class A 
+digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to 
+provide reasonable protection against harmful interference in a residential 
+installation. This equipment generates, uses, and can radiate radio frequency 
+energy and, if not installed and used in accordance with the instructions, may 
+cause harmful interference to radio communications. However, there is no 
+guarantee that interference will not occur in a particular installation. If this 
+equipment does cause harmful interference to radio or television reception, which 
+can be determined by turning the equipment off and on, the user is encouraged 
+to try to correct the interference by one or more of the following measures: 
+ 
+1  Reorient or relocate the receiving antenna. 
+  iii
+
+--- Page 5 ---
+2  Increase the separation between the equipment and the receiver. 
+3  Connect the equipment onto an outlet on a circuit different from that to which 
+the receiver is connected. 
+4  Consult the dealer or an experienced radio/TV technician for help. 
+ 
+Shielded interconnect cables and a shielded AC power cable must be employed 
+with this equipment to ensure compliance with the pertinent RF emission limits 
+governing this device. Changes or modifications not expressly approved by the 
+system's manufacturer could void the user's authority to operate the equipment. 
+ 
+Declaration of Conformity 
+This device complies with part 15 of the FCC rules. Operation is subject to the 
+following conditions: 
+ 
+1  This device may not cause harmful interference, and 
+2  This device must accept any interference received, including interference 
+that may cause undesired operation. 
+ 
+FCC Caution 
+Any changes or modifications not expressly approved by the party responsible 
+for compliance could void the user's authority to operate this equipment. 
+ 
+The antenna(s) used for this transmitter must not be colocated or operating in 
+conjunction with any other antenna or transmitter. 
+ 
+Enabling wireless LAN and wireless WAN simultaneously in one computer is not 
+allowed . While one is in use, the other will be turned off. 
+ 
+Running wireless devices in the aircraft is prohibited. Make sure all wireless 
+devices in your computer are turned off during the flight. 
+ 
+FCC Radiation Exposure Statement 
+This equipment complies with FCC radiation exposure limits set forth for an 
+uncontrolled environment. This equipment should be installed and operated with 
+a minimum distance of 20 cm (8 inches) between the radiator and your body. 
+ 
+FCC Wireless Regulation 
+Due to the FCC regulations, wireless LAN and wireless WAN modules shall not 
+work in a machine simultaneously. If these two modules are installed in the V5, 
+while one is in use, the other will be off automatically by the system. 
+ 
+Battery Caution 
+Danger of explosion if battery is incorrectly replaced. Replace only with same or 
+equivalent type recommended by the manufacturer. Discard used batteries 
+according to the manufacturer’s instructions. 
+ 
+  iv
+
+--- Page 6 ---
+About This Manual 
+This User’s Manual provides information to help you operate and get the most 
+from your FlyBook V5. Read the Quick Start Guide to quickly set up and begin 
+using your V5. Please read “
+Copyright and Safety Notices” before using your 
+V5. 
+ 
+Taking Care of FlyBook V5 
+After you unpack V5, store the packing materials in case you want to ship it or if 
+you have to return it for servicing. 
+ 
+Your notebook computer is a precision instrument that should be handled with 
+care. Use common sense and follow the guidelines below, and your V5 will last 
+you for many years. 
+ 
+Do’s and Don’ts with FlyBook V5 
+  Do not twist the display counterclockwise. 
+  Do not place heavy objects such as books on V5. 
+  Do not use FlyBook V5 near water or a heat source such as a radiator. 
+  Do not expose V5 to temperatures above 50° C or below 0° C. 
+  Keep V5 away from direct sunlight or heat sources. 
+  Do not expose V5 to rain or moisture. 
+  Do not spill water or any other liquid on V5. 
+  Do not place V5 near magnetic fields. 
+  Avoid subjecting V5 to heavy shocks or vibrations. 
+  Do not expose V5 to dusty or dirty environments. 
+  Do not place V5 on uneven surfaces. 
+  Do not cover the air vents around V5. 
+  Only use the AC adapter that is provided with your V5. 
+ 
+Safety Information 
+FlyBook V5 has been designed and tested to meet the most recent standards of 
+safety in notebook technology equipment. To ensure safe use of FlyBook V5, 
+refer to the following safety instructions and any caution or warning messages on 
+the equipment or in the user manual. 
+ 
+  Read and follow all instructions marked on FlyBook V5 and in the user 
+manual before operating the V5. Store all safety information in a secure 
+place for future reference. 
+  Always set FlyBook V5 on a stable surface. 
+  Only operate FlyBook V5 from the type of power source indicated on the 
+rating label on the AC adapter. 
+  Ensure all ventilation openings are not blocked or covered. 
+  Keep an adequate space (around 6 inches or 15 cm) around FlyBook V5. 
+Never insert objects of any kind into the ventilation openings. 
+  When using an extension cord with FlyBook V5, ensure that the total ampere 
+  v
+
+--- Page 7 ---
+rating on the equipment connected to the cord does not exceed the 
+extension cord ampere rating maximum value. 
+  Only use the supplied power cord. Do not place anything on the power cord. 
+Place the power cord where it will not be in the way of foot traffic. 
+  Always unplug any modem, LAN, or power cables from FlyBook V5 before 
+you clean it. 
+  When using FlyBook V5 in tablet mode, use the safety strap to avoid 
+dropping FlyBook V5. 
+ 
+ 
+ 
+ 
+Warning! 
+The safety strap is only to prevent dropping the V5. It is not 
+designed for carrying the V5. 
+ 
+Contacting Service 
+ 
+Disconnect FlyBook V5 from power and contact qualified service personnel if any 
+of the following occurs: 
+ 
+  The power cord or adapter is damaged. 
+  Liquid was spilled on FlyBook V5 
+  FlyBook V5 does not operate correctly when operating instructions are 
+followed. 
+  FlyBook V5 has been dropped, or the case is broken open. 
+  FlyBook V5 performance is seriously degraded. 
+ 
+If service is required, contact a sales representative or a local service center, or 
+go to 
+http://www.flybook.com/ for service information. 
+ 
+Cleaning FlyBook V5 
+ 
+Follow these instructions when cleaning FlyBook V5. 
+ 
+  Wipe the display with a clean soft cloth. 
+  If you use a mild glass cleaner to clean the display, spray a little on the cloth 
+  vi
+
+--- Page 8 ---
+and then wipe the display. Do not spray cleaner directly onto the display. 
+  Clean the outside of V5 case with a soft cloth. You can moisten the cloth with 
+a non-alkaline detergent. 
+  Use a vacuum cleaner to clean dust from the keyboard. 
+ 
+ 
+Warning! 
+Before cleaning V5, turn it off, unplug the AC adapter, and 
+then remove the battery. 
+ 
+ 
+Caution: 
+Do not wipe the keyboard, pointing device, pointing device 
+buttons, or fingerprint reader with a damp cloth. 
+ 
+ 
+Note: 
+Do not wipe the keyboard, pointing device, pointing device 
+buttons, or fingerprint reader with a damp cloth. 
+  vii
+
+--- Page 9 ---
+Introducing FlyBook V5 
+ 
+ 
+Congratulations on purchasing FlyBook V5! 
+FlyBook V5 supports both Windows XP and the 
+newest member of the Windows operating 
+system family, Windows Vista. 
+ 
+V5 is a powerful mobile computer which 
+performs dual duty as a notebook or tablet 
+computer. Advanced networking features include 
+WLAN, WWAN, Bluetooth, and even an internal 
+modem. 
+ 
+FlyBook V5 uses a pointing device with mouse 
+buttons on both sides of the unit and a clickable scroll bar for added convenience. 
+The LCD monitor can be rotated and laid flat to enable you to use FlyBook V5 as 
+a tablet computer. Using the stylus, you can write text and draw on the tablet as 
+you would on conventional paper. 
+ 
+The built-in webcam enables you to be seen by contacts using Windows MSN or 
+other messaging software. The camera can be rotated 215 degrees for maximum 
+flexibility. 
+ 
+The powerful Li-ion rechargeable battery provides more than 3 hours of mobility, 
+making FlyBook V5 the best choice for people on the go. 
+ 
+  1
+
+--- Page 10 ---
+Taking a Tour of FlyBook V5 
+ 
+This section describes the major components of your new FlyBook V5. 
+ 
+Front-Left View 
+ 
+ 
+ 
+1. Status LEDs 
+ 
+–  These LEDs display when the AC adapter is connected, when the HDD is 
+being accessed, or when the WWAN, WLAN, or Bluetooth is activated. 
+ 
+2.  Pointing Device Buttons (right) 
+ 
+–  These pointing device buttons emulate mouse right and left buttons. The 
+top button corresponds to a mouse right button. The lower button 
+corresponds to a mouse left button. Refer to “
+Using Input Devices” for 
+more information. 
+ 
+3. Scroll Bar 
+ 
+–  This bar enables you to scroll up and down in web pages or word 
+processing software. Refer to “Using Input Devices” for more 
+information. 
+ 
+4.  Stick Pointer Device 
+ 
+–  The Stick Pointer moves the cursor in the direction of the pressure you 
+apply with your finger. 
+ 
+  2
+
+--- Page 11 ---
+5.  RF Kill Switch 
+ 
+–  Wireless transmission uses power. Use this button to disable the wireless 
+feature of your V5 to save power or when instructed to do so, for 
+example on an aircraft. 
+ 
+6. Fingerprint Reader 
+ 
+–  Once fingerprint authentication is set up, you will be able to use the 
+fingerprint reader to turn on V5. In addition to logging in to V5, the 
+fingerprint can control access to some applications. 
+ 
+7. Power Button 
+ 
+–  Press and hold the power button for two seconds to turn on V5 and press 
+it for one second to resume the system from suspend and hibernation 
+modes. 
+ 
+8. Left Speaker 
+ 
+–  Stereo speakers are built inside V5. The right speaker is on the opposite 
+side of the V5. 
+ 
+9.  Pointing Device Buttons (left) 
+ 
+–  These pointing device buttons emulate mouse right and left buttons. The 
+right button corresponds to a mouse right button. The left button 
+corresponds to a mouse left button. Refer to “Using Input Devices” for 
+more information. 
+ 
+10.  AC Power Connector 
+ 
+–  Connect the AC adapter to this connector. 
+ 
+11.  Middle Mouse Button 
+ 
+–  This button corresponds to the center button on a conventional mouse. 
+ 
+12. Stereo Microphones 
+ 
+–  Use the built-in stereo microphones for recording sound, video 
+conferencing or video chatting with friends. 
+ 
+13.  Webcam and Webcam LED 
+ 
+–  Use the built-in webcam for video conferencing with friends. The LED 
+  3
+
+--- Page 12 ---
+indicates when the camera is active. 
+ 
+14.  Ambient Light Sensor 
+ 
+–  This sensor detects ambient light and reduces screen brightness to 
+adjust for optimum display quality. Refer to “Automatic Backlight 
+Control” for more information. 
+ 
+15. Stylus Pen Slot 
+ 
+–  Use the stylus in place of the mouse to interact with FlyBook V5. 
+ 
+Rear View 
+ 
+ 
+ 
+1.  RJ-11 modem jack 
+ 
+–  Connect a phone line to this jack to use the built-in modem. 
+ 
+2. Ethernet connector 
+ 
+–  Connect V5 to your home or office network (LAN) with the Ethernet 
+connector. 
+ 
+3.  Monitor (VGA) connector 
+ 
+–  Connect an external display or projector to the monitor connector. 
+ 
+4. TV connector 
+ 
+–  Connect a TV to this connector to use the TV as an external display. 
+ 
+5. Headphone jack 
+ 
+–  Connect headphones or external speakers to the headphone jack. 
+ 
+6. Microphone jack 
+ 
+–  Connect a microphone to the microphone jack. 
+  4
+
+--- Page 13 ---
+7. USB connectors 
+ 
+–  Connect USB devices such as printers or flash drives to the USB 
+connectors. 
+ 
+8. Air vent 
+ 
+–  Air vents help to prevent the interior of V5 from overheating. Do not 
+block the air vents. 
+ 
+9. Strap slot 
+ 
+–  This slot enables you to attach a strap to avoid accidentally dropping the 
+V5. 
+ 
+10. ExpressCard slot 
+ 
+–  Install an ExpressCard in the ExpressCard slot. 
+ 
+  5
+
+--- Page 14 ---
+Using V5 in Clamshell Mode and Tablet Mode 
+ 
+FlyBook V5 can be operated in clamshell mode as a standard notebook or in 
+tablet mode, enabling you to use the V5 as you would a tablet computer. 
+ 
+Using V5 in Clamshell Mode 
+ 
+Follow these steps to use the V5 in clamshell mode: 
+ 
+1.  Open the display. 
+ 
+ 
+ 
+2.  Adjust the display to a comfortable viewing angle. 
+ 
+ 
+ 
+ 
+Using V5 in Tablet Mode 
+ 
+Follow the steps below to use the V5 as a tablet computer: 
+ 
+1.  Open the display. 
+ 
+ 
+ 
+  6
+
+--- Page 15 ---
+Caution: 
+Take care when adjusting the display not to twist or force 
+the display to an extreme angle. See “Do’s and Don’ts 
+with FlyBook V5”. 
+ 
+ 
+2.  Tilt the display forwards until it is vertical.   
+ 
+ 
+ 
+ 
+Note: 
+You can adjust the tilt of the display to adjust for glare, 
+sunlight and other environmental factors to provide optimum 
+viewing. 
+ 
+3.  Twist the display clockwise 180 degrees. 
+ 
+ 
+ 
+ 
+Caution: 
+DO NOT twist the display counterclockwise. You will damage 
+the LCD display. 
+ 
+4.  Flip the screen down as shown. 
+ 
+ 
+  7
+
+--- Page 16 ---
+FlyBook V5 can now be used as a tablet computer. 
+ 
+ 
+ 
+ 
+Note: 
+In tablet mode, WLAN and WWAN are disabled. The hotkey 
+Fn + F8 for WLAN and hotkey Fn + F9 for WWAN will not 
+function. And the WWAN and WiFi buttons on FlyBook Control 
+Center panel will be made unavailable. 
+  8
+
+--- Page 17 ---
+Getting Started with FlyBook V5 
+ 
+This chapter explains how to install and charge the battery, how to connect the 
+AC adapter, and how to power up V5 for the first time. 
+ 
+Battery Installation 
+ 
+When your FlyBook V5 ships, the battery is not installed. This section explains 
+how to install the battery. 
+ 
+Using Battery Locks 
+ 
+There are two latches for securing the battery in place: the battery lock (B) and 
+the battery release (A). 
+ 
+ 
+ 
+The battery lock must be manually closed. The battery release is spring loaded 
+and closes automatically when you insert the battery. 
+ 
+Installing Battery 
+ 
+1.  Slide the battery lock to the 
+unlocked position 
+. 
+ 
+2.  Align the guides on the 
+sides of the battery with the 
+guides in the bay and then 
+install the battery. 
+ 
+3.  Slide the battery lock to the 
+locked position   
+ 
+  9
+
+--- Page 18 ---
+Warning! 
+Always close the battery lock after inserting the battery. If 
+the battery lock is not closed, the battery could fall out 
+when V5 is carried the battery can get damaged. 
+ 
+Removing Battery 
+ 
+1.  Slide the battery lock to the unlocked position 
+. 
+ 
+ 
+ 
+2.  While holding the battery release in the open position  , remove the battery. 
+ 
+Battery Charging 
+ 
+The first time you charge the battery, you should charge it for eight hours. 
+Thereafter, the standard charging time is about three hours. To charge the battery, 
+install it onto V5 (see “Installing Battery” ) and then connect the AC adapter 
+(see “Connecting AC Adapter”.) 
+ 
+Connecting AC 
+Adapter 
+ 
+1.  Connect the AC cable (A) 
+to the AC adapter. 
+ 
+2.  Connect the other end of 
+the AC cable (B) to an 
+electrical outlet. 
+ 
+3.  Connect the AC adapter (C) 
+to the AC jack on V5. 
+ 
+Once V5 is connected to power by AC adapter, the battery charge LED lights. 
+  10
+
+--- Page 19 ---
+Powering on V5 for the First Time 
+ 
+For information on turning on FlyBook V5 for the first time, refer to the bundled 
+booklet Windows® Quick Start Guide. 
+ 
+  11
+
+--- Page 20 ---
+LED Descriptions 
+ 
+V5 LED indicators function as follows: 
+ 
+1.   Battery 
+ 
+（when V5 is running.） 
+ 
+–  LED off: No battery 
+–  LED on: Battery is discharging or battery is fully charged. 
+–  LED blink slowly: Battery is charging. 
+–  LED blinks quickly: Battery's capacity is below 10%. 
+ 
+ 
+Warning! 
+If no battery is installed, the battery LED is always off. 
+ 
+2.    Hard Disk Drive 
+ 
+–  Red: The hard drive is being accessed. 
+ 
+3.   Wireless LAN 
+ 
+–  Off: The wireless LAN module is turned off. 
+–  On: The wireless LAN module is turned on. 
+–  Blinking: Data is being transmitted or received. 
+ 
+4.    Wireless WAN 
+ 
+–  Off: The wireless WAN module is turned off. 
+–  On: The wireless WAN module is turned on. 
+–  Blinking: Data is being transmitted or received. 
+  
+ 
+Note: 
+The wireless WAN module is available only on some V5 
+models. 
+ 
+5.   Bluetooth 
+ 
+–  Slow blinking: The Bluetooth module is on standby. 
+–  Fast blinking: Data is being transmitted or received. 
+ 
+ 
+  12
+
+--- Page 21 ---
+6.    Num Lock 
+ 
+－  Lights when the numeric keypad is enabled. 
+ 
+7.    Caps Lock 
+ 
+－  Lights when Caps Lock mode is enabled. When enabled you can type 
+alphabetic characters without holding the Shift key. 
+ 
+  13
+
+--- Page 22 ---
+Using Fingerprint Reader 
+ 
+FlyBook V5 is equipped with fingerprint 
+authentication module. To make it function, 
+use the preinstalled VITAKEY
+TM
+ Fingerprint 
+Solution, which incorporates the protection 
+against unauthorized access to your V5 and 
+also the application programs in your V5. 
+ 
+ 
+ 
+ 
+ 
+ 
+Fingerprint Enrollment 
+ 
+To enroll your finger via VITAKEY
+TM
+, take the following steps: 
+ 
+1.  If you haven’t made any setting in VITAKEY
+TM 
+yet, especially when you are 
+booting up your V5 for the first time, you will see a message box indicating 
+“You have to run the System Wizard before using the full functionality of 
+this application.” appearing above the notification area. 
+ 
+2.  To run the System Wizard of VITAKEY
+TM
+, either 
+ 
+(1) right-click on the VITAKEY
+TM
+ icon    in the notification area, then select 
+System Wizard from the list; or 
+ 
+(2) click start | All Programs | VitaKey | MC3020 | System | System 
+Settings. When seeing “Please complete the System Wizard first. Do 
+you want to run System Wizard now?” dialogue box, click Yes button 
+to proceed. 
+ 
+3. When System Wizard window appears indicating a welcome message, click 
+Next button to proceed. 
+ 
+4. Select “Create New User Data File” under General User. Then click Next 
+button to proceed. 
+ 
+5.  If you have set up a Windows account, already you will be asked to input 
+password. If not, you will be asked to create a new one by System Wizard. 
+ 
+6.  Then you will be prompted to enroll your fingerprints. You can enroll at least 
+one fingerprint and at most 10. Follow the onscreen instructions to proceed. 
+ 
+  14
+
+--- Page 23 ---
+Note: 
+z  For more information about fingerprint enrollment, refer 
+to chapter “Fingerprint Management” of VITAKEY
+TM
+ 
+online help by clicking start | All Programs | VitaKey | 
+MC3020 | Online Help. 
+ 
+z  FlyBook V5 currently doesn’t support the PBA 
+(Pre-Boot Authentication) function of VITAKEY
+TM
+. 
+ 
+ 
+  15
+
+--- Page 24 ---
+Using Input Devices 
+ 
+FlyBook V5 incorporates several ways to interact with the operating system and 
+applications. The V5 has a keyboard that emulates a standard keyboard with the 
+addition of Fn hotkeys. The easy to use pointing device enables you to perform 
+the same function as a mouse or touchpad. Buttons are located on both the left 
+and right side of the V5 for easy access. A scroll bar enables you to scroll up and 
+down in web pages or word processing applications. Finally, the stylus emulates 
+a mouse when using V5 as a tablet computer, and also enables you to write on 
+the screen. 
+ 
+Using Pointing Devices 
+ 
+ 
+ 
+ 
+ 
+Left mouse 
+button 
+Center mouse 
+button 
+Right mouse 
+button 
+Stick 
+pointer 
+Right mouse 
+button 
+Scroll bar 
+Left mouse 
+button 
+ 
+ 
+The pointing device consists of a stick pointer and two sets of dual click-buttons 
+located on the left and right side above the keyboard. The scroll bar emulates a 
+clickable mouse wheel. 
+ 
+Press the stick pointer in the direction that you want the cursor to move. The left 
+buttons emulate the left, center, and right buttons of a standard 3 button mouse. 
+The two right buttons and scroll bar correspond to the two buttons and click 
+wheel of a clickable wheel type mouse. 
+ 
+To customize the pointing device, go to Control Panel and select Hardware and 
+Sound, and then Mouse, or if you are under the Classic View of Control Panel, 
+simply select Mouse to open the pointing device configuration utility. The 
+configuration utility lets you customize settings to your preference. 
+ 
+Using Stylus 
+ 
+The stylus not only emulates a mouse when the V5 is in tablet mode, it also 
+enables you to interact with FlyBook V5 as you would with paper and pen. You 
+  16
+
+--- Page 25 ---
+can navigate the OS, write, and draw on the screen. 
+ 
+Calibrating the Touch Panel for the First Time 
+ 
+Before using the stylus with FlyBook V5, you should first calibrate the display. 
+ 
+For calibrating the Touch Panel and using the stylus, please refer to the bundled 
+Touch Panel Utility Guide for further information. 
+ 
+Using Keyboard 
+ 
+V5 keyboard emulates a standard-sized computer keyboard by incorporating 
+function keys, a numeric keypad, and the Fn key. 
+ 
+Using Function (Fn) Keys 
+ 
+Using function keys is a quick way to carry out 
+commands or enable features on your V5. Function 
+keys have a blue icon or have blue text (such as on 
+the Home and PgDn keys). To use this function, 
+press and hold the Fn key (1) and then press a 
+function key (2). 
+ 
+Fn key functions are described as follows: 
+ 
+ 
+Note: 
+Pressing some function key 
+combinations (for example, Fn + F8) 
+shows an On Screen Display (OSD) to 
+indicate the function used. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  Fn:  Resume system from suspend mode or hibernation mode. 
+ 
+  Fn + Esc:   Repeatedly pressing the buttons outputs the display signal to
+  17
+
+--- Page 26 ---
+one of the following: 
+ 
+z  Connected external display only 
+z  Both a connected external display and system display 
+z  System display only 
+ 
+If no external display is connected, pressing this key combination has no 
+effect. 
+ 
+  Fn + ~:    Turns the V5 LCD off. 
+ 
+  Fn + F1:    Decreases display brightness. 
+ 
+  Fn + F2:    Increases display brightness. 
+ 
+  Fn + F3:    Puts V5 in suspend mode. 
+ 
+  Fn + F4:    Puts V5 in hibernation mode. 
+ 
+  Fn + F5:    Mutes/enables the volume. 
+ 
+  Fn + F6:    Decreases volume. 
+ 
+  Fn + F7:    Increases the volume. 
+ 
+  Fn + F8:  Enables or disables the built-in wireless local area networking 
+(WLAN) feature. 
+ 
+  Fn + F9:  Enables or disables the built-in wireless wide area networking 
+(WWAN) feature. 
+ 
+  Fn + F10:   Enables or disables the built-in Bluetooth feature. 
+ 
+  Fn + Alt:    Turns on or off the built-in webcam. 
+ 
+  Fn + Shift:  Turns the GPS function on and off. 
+ 
+  Fn + ScrLk:  Enables or disables scroll lock. When enabled, press the up or 
+down arrow keys to scroll up or down one line respectively. 
+ 
+  Fn + PrtSc:  Print screen captures the on-screen image to the clipboard. 
+You can then copy the contents to an image editing program. 
+ 
+  Fn + SysRq:  Terminal request. This key is rarely used. 
+ 
+  Fn + Home:  displays the first page of a document or moves the pointer to 
+  18
+
+--- Page 27 ---
+the beginning of a line in text. 
+ 
+  Fn + End:  displays the last page of a document or move the pointer to the 
+end of a line in text. 
+ 
+  Fn + PgUp:  Moves text up one screen at a time. 
+ 
+  Fn + PgDn:  Moves text down one screen at a time. 
+ 
+  Fn + A:  Enables or disables the ambient light sensor. For more 
+information, refer to “Automatic Backlight Control”. 
+ 
+Using Numeric Keypad 
+ 
+The keyboard has an embedded numeric 
+keyboard. When you enable it, the Num Lock LED 
+lights. To enable or disable the numeric keypad, 
+press Fn + Num Lk. 
+ 
+The illustration shown here displays the location of 
+the embedded numeric keyboard keys. 
+ 
+Using Windows® Key and Other Keys 
+ 
+Keys such as the Windows start and application keys, and the Caps Lock key 
+function the same as on a standard keyboard in the Windows environment. 
+ 
+■ 
+: 
+Opens the start menu. Use it in combination with other keys to perform 
+Windows shortcuts. 
+■ 
+: 
+The application key has the same function as the right-mouse button. 
+■ 
+Caps Lock: Toggles uppercase on and off.   
+ 
+ 
+Note: 
+Refer to Windows® Quick Start Guide for additional 
+keyboard shortcuts. 
+ 
+  19
+
+--- Page 28 ---
+FlyBook Control Center 
+ 
+FlyBook Control Center lets you quickly enable or disable wireless options and 
+change settings such as volume and display mode. You can also check system 
+health with this utility. 
+ 
+The Control Center is most often used in tablet mode to access frequently used 
+features that are normally accessed with function keys in clamshell mode. Also, 
+some functions available in the Control Center are dedicated for tablet mode 
+use. 
+ 
+Opening Control Center 
+ 
+1. Right-click FlyBook icon 
+ in the 
+notification area and select Restore. 
+The Control Center Opens. 
+ 
+2.  Click the left arrow button to open/close the 
+left side pane, and click the right arrow 
+button to open/close the right side pane. The 
+left side pane displays additional function 
+buttons, while the right side pane displays 
+the health information of the system. 
+ 
+Using Control Center 
+ 
+When Control Center displays: 
+ 
+ 
+ 
+1. Move the 
+pointer over 
+the buttons on 
+the Control 
+Center panel. 
+ 
+ 
+2. Click function 
+icons to start 
+(or stop) the 
+functions. 
+ 
+Function Pane
+  20
+
+--- Page 29 ---
+The following table briefly describes each available function: 
+ 
+Icon  Description 
+Turns the volume on and off.   
+ 
+Turns the ambient light sensor on and off.   
+ 
+Click    to increase volume. Click    to decrease 
+volume.  
+ 
+Click    to increase display brightness. Click    to 
+decrease display brightness.   
+ 
+ 
+Click the buttons to orient the screen in the direction 
+indicated.  
+ 
+Click to enable or disable webcam. 
+ 
+Click to run fingerprint authentication program.   
+ 
+Click to enable or disable the wireless WAN. 
+ 
+Click to enable or disable the wireless LAN (WiFi). 
+ 
+Click to enable or disable the Bluetooth. 
+Click to disable all wireless communications devices.   
+ 
+ 
+  21
+
+--- Page 30 ---
+Automatic Backlight Control 
+ 
+Function 
+ 
+Automatic Backlight Control is to automatically adjust the backlight brightness 
+based on the light condition detected by the ambient light sensor. 
+ 
+How Automatic Backlight Control Works 
+ 
+1.  For FlyBook V5, backlight brightness is controllable under two means, one is 
+manual backlight control (by using hot-keys or through FlyBook Control 
+Center) and the other is Automatic Backlight Control. 
+ 
+2.  Manual backlight control dominates over Automatic Backlight Control. 
+Automatic Backlight Control is inactivated every time backlight brightness 
+is manually adjusted. User needs to press hot-key Fn + A to reactivate the 
+Automatic Backlight Control. 
+ 
+3. When Automatic Backlight Control is on, backlight brightness will 
+automatically adjust to the light condition detected. Light conditions are 
+ranked in 6 degrees, and each degree has its corresponding backlight 
+brightness. 
+ 
+4.  The ambient light sensor of FlyBook V5 is on by default. When the light is 
+bright, screen brightness increases automatically. When the light is dim, 
+screen brightness decreases automatically. 
+ 
+5.  Automatic Backlight Control is the default backlight control. It is activated 
+every time operating system starts. 
+ 
+6.  You can try to block the Light Sensor with your hand. When you do so for 2 
+seconds, the backlight of display will turn dark, and once you remove your 
+hand, after 2 seconds, the backlight will recover the brightness. 
+ 
+  22
+
+--- Page 31 ---
+Customizing V5 Display 
+ 
+You can customize the V5 display by using the Windows display utility. 
+ 
+To open the display utility: 
+ 
+1. In Control Panel, select Appearance and Personalization. Then select 
+Personalization. (When you are in Classic View of Control Panel, simply 
+select Personalization.) 
+ 
+2. Then select Display Settings. 
+ 
+Customize the display in the [Display Settings] window. For more information, 
+refer to the Windows online Help and Support. 
+ 
+ 
+Note: 
+Alternatively, right-click on desktop and select 
+Personalize from the menu to customize the display. 
+ 
+  23
+
+--- Page 32 ---
+Connecting Devices 
+ 
+This section covers peripheral devices that you can use with the V5. 
+ 
+Connecting Audio Devices 
+ 
+V5 has a built-in microphone and speaker. You can also connect an external 
+microphone and headset. 
+ 
+Connecting a Headphone 
+ 
+Connect speakers or headphones to the headphone jack. 
+ 
+ 
+ 
+Connecting a Microphone 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+About Realtek Sound Manager 
+ 
+Your V5 comes with Realtek Sound Manager, which enables you to configure 
+connected audio devices. 
+ 
+To access the utility of Realtek Sound Manager, go to Control Panel, and 
+  24
+
+--- Page 33 ---
+select Hardware and Sound, and then click on the Realtek HD Audio Manager. 
+If you are in the Classic View under Control Panel, simply click on the Realtek 
+HD Audio Manager icon. 
+ 
+ 
+Note: 
+The built-in speakers and microphone are automatically 
+disabled when you connect external speakers or a 
+microphone. 
+ 
+Connecting USB Devices 
+ 
+There are two Universal Serial Bus (USB) connectors on FlyBook V5. You can 
+connect USB devices such as printers or flash drives to either connector. 
+ 
+1.  Connect the USB device to one of the USB connectors on V5. 
+ 
+ 
+2.  Install drivers for the device as prompted. 
+ 
+ 
+Caution: 
+Be sure the USB icon on the connector is facing 
+downwards as shown in the illustration. Connecting a USB 
+cable incorrectly can damage the connectors on V5. 
+ 
+Connecting an External Display 
+ 
+You can connect an external monitor, projector or LCD to your V5 with a 
+resolution up to 2048 x 1536. Check the user manual of the display to be sure it 
+supports this resolution. 
+  25
+
+--- Page 34 ---
+1.  Connect the external display to the monitor connector on V5. 
+ 
+ 
+2.  Connect the display to an electrical outlet and then turn on the display. 
+ 
+3. Press Fn + Esc to switch to the external display. 
+ 
+ 
+Caution: 
+You can permanently damage a display if it does not 
+support the resolution that your V5 is set to. Match the 
+resolution of the V5 to the external display before you 
+attach it to V5. 
+ 
+Connecting to a TV 
+ 
+You can connect a TV to FlyBook V5 to use as an external monitor. 
+ 
+1.  Plug the 3.5 mm TV cable adapter into the TV cable jack at the rear of 
+FlyBook V5. 
+ 
+ 
+ 
+2.  Connect the other end of the TV cable jack to a composite video RCA cable 
+(yellow connector). 
+  26
+
+--- Page 35 ---
+3. Press Fn + Esc to change the V5 output to the television. 
+ 
+ 
+Note: 
+Before outputting the display to a video device, check the 
+device’s input signal type and change your V5’s output signal 
+type to meet it. The V5 outputs NTSC or PAL video signals. 
+Select the type in BIOS Setup utility. The default setting is 
+Auto. 
+ 
+Using an ExpressCard 
+ 
+You can use 34 mm-wide and 54 mm-wide ExpressCards with your FlyBook V5. 
+ 
+Installing an ExpressCard 
+ 
+1.  Find the notched edge on the card as shown in the following illustration. 
+ 
+ 
+ 
+34 mm-wide ExpressCard installation 
+ 
+ 
+Caution: 
+Do not install or remove an ExpressCard when V5 is in 
+standby or hibernate mode. Static electricity in your body 
+can damage ExpressCards. To reduce the static electricity 
+in your body, touch a bare metal table or a grounded metal 
+object before installing an ExpressCard. 
+  27
+
+--- Page 36 ---
+2.  Press and release the dummy card inserted in the ExpressCard slot. 
+ 
+ 
+ 
+3.  Remove the dummy card from the slot. 
+Dummy card pops out. 
+ 
+ 
+ 
+54 mm-wide ExpressCard installation 
+ 
+4. Insert the ExpressCard into the slot. 
+ 
+ 
+  28
+
+--- Page 37 ---
+Removing an ExpressCard 
+ 
+1. Click Safely Remove Hardware in the notification area. 
+2.  Select the card and click Stop. 
+3.  Push and release the card to eject it. 
+ 
+  29
+
+--- Page 38 ---
+Securing Your V5 
+ 
+Before You Go Online 
+ 
+Connecting your V5 to the Internet opens the way to potential threats such as 
+viruses and spyware. To best secure your V5, purchase security software (or 
+download it from a secure system), and then install it onto your V5 before you 
+connect it to the Internet. 
+ 
+To check your V5’s security settings, go to Control Panel and select Security in 
+Control Panel Home or simply select Security Center if you are in Classic 
+View mode. 
+ 
+Installing a Firewall 
+ 
+A firewall will protects your V5 by blocking or allowing traffic between your V5 and 
+the Internet. Windows has a built-in firewall that helps to protect your V5. For 
+better security, purchase a router that has a built-in firewall. You can also 
+download free firewall software on the Internet. 
+ 
+Installing a Spyware Blocker 
+ 
+Spyware typically retrieves information about your websurfing habits. It can be 
+secretly installed on your computer with a free download and can even be 
+installed just by visiting a Web site. Spyware can cause your Web searches to be 
+redirected and pop up annoying adds. Once your computer is infected with 
+spyware, it can be very difficult to remove. The key is to prevent infection in the 
+first place by installing spyware blocker software. Spyware blocking software can 
+be purchased online; and you can even download free spyware blocking 
+programs. 
+ 
+  30
+
+--- Page 39 ---
+Connecting Local Area Networks 
+ 
+V5 has an Ethernet connector that you can use to connect to a wired network at 
+home or in the office. If you have a wireless access point, you can also get online 
+using the built-in wireless LAN of your V5. 
+ 
+Connecting LAN 
+ 
+Wired connections are more secure and more stable than wireless connections. 
+You can connect your V5 to the network while it is turned on. Refer to the 
+following to set up a wired connection: 
+ 
+1.  Connect an Ethernet cable to the Ethernet connector on V5. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.  Connect the other end of the cable to your router or switch. 
+ 
+When a network is connected, the network connection icon in the notification 
+area will turn to    indicating connected status; otherwise it appears  . 
+ 
+3.  Double-click the LAN icon to view details for your connection. 
+ 
+Connecting a Wireless LAN (WLAN) 
+ 
+Use V5’s built-in wireless LAN module to access your home or office network. 
+The wireless LAN module is powered by the Intel PROSet Wireless utility. 
+ 
+Wireless systems work in infrastructure mode or peer-to peer mode. In 
+infrastructure mode, wireless devices communicate to a wired LAN via access 
+points. In ad-hoc mode (also known as peer-to-peer mode), wireless devices 
+communicate with each other directly and do not use an access point. 
+ 
+To connect to a wireless network: 
+ 
+  31
+
+--- Page 40 ---
+Press Fn + F8 to enable the wireless LAN module.   
+ 
+  The Intel® PROSet wireless module automatically scans for available 
+networks. 
+ 
+  Follow the on-screen prompts to access a network. Click Windows start 
+button → All Programs → Intel PROSet Wireless → Manual Diagnostics 
+for any difficulty in making the connection. 
+  32
+
+--- Page 41 ---
+Using the Built-in Modem 
+ 
+The built-in fax/data modem module enables you to connect the V5 to a remote 
+network or the Internet or fax documents. 
+ 
+Making a Modem Dial-up Connection 
+ 
+To make a modem dial-up connection: 
+ 
+1.  Connect a phone jack to the RJ-11 jack at the rear of V5 to use the built-in 
+modem. 
+ 
+ 
+ 
+2. Click Windows start button, select Connect to from the start menu. In 
+[Connect to a network] window that appears, click Set up a connection or 
+network and then Set up a dial-up connection. 
+ 
+3. In [Set up a dial-up connection] window, fill in the blanks with the 
+information of your ISP. 
+ 
+4.  Follow the on-screen instruction to proceed. 
+ 
+Windows supports other modem dial-up connection utilities. If you have other 
+utilities installed, see their guides or online helps to learn how to create and make 
+connections. 
+ 
+Sending and Receiving a Fax 
+ 
+The built-in fax/data modem module supports faxing. You can use Windows Fax 
+and Scan by pressing start button and then click All Programs to find 
+Windows Fax and Scan or other fax applications to send and receive faxes. 
+Windows also provides a fax printer service transferring from printer function of 
+programs. Refer to the Windows online Help and Support for further details, or 
+refer to your fax application’s online help or user guide. 
+ 
+  33
+
+--- Page 42 ---
+Using the Built-in WWAN Module (Optional) 
+ 
+The optionally built-in WWAN module uses cellular carriers for transmission. It 
+enables you to connect your V5 to the Internet or use the V5 to make phone 
+calls. 
+ 
+Before using the module, you must apply for an access account, and get a SIM 
+card and dialing profile from your wireless WAN service provider. The SIM card 
+acts as an access permission key for your account. 
+ 
+ 
+Note: 
+V5 accommodates various 3.5G WWAN modules (HSDPA 
+/ UMTS / EDGE/ GPRS / GSM) and advanced modules. 
+Please check the model of your V5 to identify the module 
+that is installed. 
+ 
+Installing SIM Card 
+ 
+1.  Remove the battery (refer to “Removing Battery”.) 
+ 
+2.  Find the location for SIM card. 
+ 
+ 
+ 
+3.  Push and slide the SIM holder in the direction of the 
+arrow to release the holder. 
+ 
+ 
+ 
+4.  Raise the SIM holder as shown. 
+ 
+ 
+ 
+5.  Insert the SIM card making sure it is inserted 
+all the way to the bottom of the slot. 
+ 
+  34
+
+--- Page 43 ---
+6.  Close the SIM card holder and lock it in place. 
+ 
+ 
+ 
+ 
+7.  Reinstall the battery. 
+ 
+Connecting V5 to a Wireless WAN 
+ 
+1. Press Fn + F9 to turn on the wireless WAN module, or click the WWAN button 
+in FlyBook Control Center. Your WWAN utility opens. 
+ 
+2.  When the module is turned on, it seeks your service provider’s network and 
+registers. If the service provider’s network is inaccessible, the module 
+continues to search for other available networks and ask you to select one 
+and register. 
+ 
+3.  Double-click the WAN connection status icon in notification area to check the 
+connection status. 
+ 
+Refer to the “FlyBook WWAN Utility Guide” booklet or the online help for 
+information on using the utility. 
+ 
+  35
+
+--- Page 44 ---
+Using GPS (Optional) 
+ 
+FlyBook V5 optionally comes with GPS (Global Positioning System) capability. 
+GPS is a satellite-based radio navigation system. Signals from at least four 
+satellites compute the current latitude, longitude and elevation of a GPS receiver 
+anywhere on earth to within a few meters. 
+ 
+Press Fn + Shift to activate the GPS function. The GPS icon appears in the 
+system tray. 
+ 
+For more information on using GPS, consult the online help or user’s guide 
+bundled with your GPS application. 
+  36
+
+--- Page 45 ---
+Using the Built-in Bluetooth Module 
+ 
+By the Bluetooth module built inside V5, it can communicate with 
+Bluetooth-equipped devices such as computers, cellular phones, printers, faxes, 
+keyboards, and pointing devices. The module also enables you to take 
+advantage of the following versatile Bluetooth services: 
+ 
+  Personal area networking 
+ Dial-up networking 
+  Serial port connection 
+ File transfer 
+ LAN access 
+  Synchronization and PIM data exchange 
+ Printing 
+  Human interface device (Keyboard, Mouse) connection 
+ Faxing 
+  Connecting a headset 
+ Audio distribution 
+ 
+To enable the Bluetooth module, press Fn + F10; a Bluetooth icon appears in the 
+notification area. Double-click the icon to open the main window of the utility. 
+ 
+Read the online help of the Bluetooth utility to see how to use Bluetooth services. 
+ 
+  37
+
+--- Page 46 ---
+Using the Built-in Webcam 
+ 
+V5 features a built-in webcam that is already set up and ready to use with most 
+of web applications that support video messaging, such as MSN Messenger or 
+Skype. 
+ 
+Enabling Webcam 
+ 
+To use the webcam: 
+ 
+1. Press Fn + Alt to enable the built-in webcam. 
+ 
+2.  Open your favorite application and launch the webcam. Refer to the help of 
+the application to learn how to use the webcam. 
+ 
+ 
+Note: 
+When a webcam enabled application is open, the 
+webcam LED lights when you turn on the webcam. 
+ 
+Adjusting Webcam Orientation 
+ 
+The webcam rotates up to 215 degrees, enabling you to adjust it in clamshell and 
+tablet mode for optimum use. 
+ 
+Refer to the following instructions to adjust the webcam orientation: 
+ 
+1. Rotate the webcam for optimum use. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  38
+
+--- Page 47 ---
+2.  Rotate the webcam completely to take video or pictures of a scene (such as a 
+conference) while still being able to use FlyBook V5 for data entry. 
+ 
+ 
+ 
+ 
+Caution: 
+Be careful to follow the instructions in this section when 
+adjusting the Webcam. Otherwise you may damage it. 
+ 
+  39
+
+--- Page 48 ---
+Managing System Power 
+ 
+V5’s power activities are controlled through an ACPI power management unit. 
+The unit employs a set of power management schemes to maximize power 
+conservation and optimize system performance. Windows manages all 
+power-saving features and provides a Power Options utility in customizing the 
+V5’s power system. 
+ 
+To start the Power Options utility: 
+ 
+1. Go to Control Panel, select Classic View. 
+ 
+2. Double-click the Power Options icon to display [Select a power plan] 
+window. 
+ 
+3.  Following the indications to check and change the settings. 
+ 
+Customize V5’s power system in this window. Refer to the Windows online Help 
+and Support to see ACPI and Power Options if necessary. 
+ 
+  40
+
+--- Page 49 ---
+Customizing System BIOS 
+ 
+The BIOS Setup utility enables you to change core settings on your FlyBook V5 
+such as the system time, boot order, and auto-repeat rate for your keyboard. 
+Most users will find the default settings optimal for their needs. 
+ 
+ 
+Caution: 
+Be sure you understand any change you make to BIOS 
+settings. Choosing incorrect settings can cause the 
+difficulty in booting up your V5. 
+ 
+Accessing BIOS Setup 
+ 
+Turn on your V5. When seeing booting logo, press F2 to enter BIOS Setup. 
+ 
+ 
+ 
+ 
+Note: 
+To exit BIOS Setup without saving your changes, select 
+Exit Discarding Changes and press Enter. When 
+prompted to save, select No and press Enter. 
+ 
+On the right side of the Setup screen is the area indicating specific helps. This 
+area lists navigation key shortcuts and information that is specific for the item that 
+is selected. 
+ 
+Updating BIOS Firmware 
+ 
+You can download updated BIOS from manufacturer's web site to upgrade the 
+BIOS on your V5. New BIOS may provide support for new peripherals, 
+improvements in performance or fixes for known bugs. 
+ 
+To download firmware, please go to 
+http://www.flybook.com/. 
+ 
+  41
+
+--- Page 50 ---
+System Recovery 
+ 
+In the event that your operating system gets damaged or you wish to restore your 
+system back to the factory default state, then you need to carry out system 
+recovery. 
+ 
+ 
+Caution: 
+z  Before you proceed with system recovery, make sure 
+you have backed up all your important data because 
+recovery will bring the system back to factory default 
+state. 
+ 
+z  Make sure your V5 is running on external power 
+whether before or during the system, so that system 
+recovery won’t fail due to power outage, which further 
+leads to the difficulty in booting up your V5. 
+ 
+System recovery can be carried out either through the hidden partition of hard 
+disk if it still functions well or from the recovery DVD included in the packing of 
+your V5. 
+ 
+Recovering System from Hard Disk Hidden Partition 
+ 
+In order to recover the system from the hidden partition of built-in hard disk, the 
+recovery utility will copy factory default system image from the hidden partition to 
+the system partition (namely the “C:” drive). Once completed, the system partition 
+will be back to factory default state. Carry out recovery by taking the following 
+steps: 
+ 
+1. Quit all 
+programs and 
+restart your V5.   
+ 
+2. When the 
+message “Press 
+F9 for Acronis 
+Startup 
+Recovery 
+Manager” 
+shows on 
+screen, press F9 
+key to proceed. 
+An “Acronis 
+True Image” 
+window will 
+display. 
+ 
+  42
+
+--- Page 51 ---
+3. Click Restore. A ”Confirmation” querying window will appear. Press Yes 
+button to proceed. 
+ 
+4.  System recovery proceeds. 
+ 
+5.  Once recovery completes, a “Congratulations!” window will show. Press Exit 
+button to quit Acronis recovery utility. 
+ 
+6.  Restart your V5 and finish Windows initial setup. 
+ 
+Recovering System from Recovery DVD 
+ 
+To recover system from recovery DVD, you need an external DVD ROM with 
+USB connector which can run on external power. Carry out recovery by taking 
+the following steps: 
+ 
+1.  Connect both your V5 and DVD ROM to external power and connect the 
+DVD ROM to your V5 with USB cable. 
+ 
+2.  Power on your V5. Open the DVD ROM and insert the recovery DVD. 
+ 
+ 
+3. Press F2 key when booting logo appears on screen to enter BIOS Setup 
+utility. Select DVD ROM drive as the top priority for “Boot Device”. 
+ 
+4.  System will restart with the support of DVD ROM. 
+ 
+5.  Once system restarts, an “Acronis True Image” window will display. 
+ 
+6.  Follow steps 3 to 6 in previous section Recovering System from Hard Disk 
+Hidden Partition to finish recovery. 
+ 
+  43
+
+--- Page 52 ---
+Troubleshooting 
+ 
+In each problem-specific section, try the steps in the order suggested. This may 
+help you to solve the problem more quickly. 
+ 
+Try to pin point the problem and thus avoid replacing nondefective parts. 
+ 
+Keep a record of the steps you take when troubleshooting. The information may 
+be useful when calling for technical support or for passing on to service 
+personnel. 
+ 
+Identifying Problems 
+ 
+Follow the steps below to identify your problems: 
+ 
+1.  Turn off your V5. 
+ 
+2.  Disconnect any peripheral devices such as an external mouse or printer. 
+ 
+3.  Make sure that the AC adapter is properly connected to your V5 and the 
+power source is good. (Use some other electrical device to confirm that the 
+electrical outlet is working.) 
+ 
+4.  Leave your V5 off for approximately 10 seconds, and then switch it on again. 
+Your V5 should enter the boot sequence and start normally. 
+ 
+5.  If V5 does not start normally, look for a screen message or other clue on the 
+malfunction. 
+ 
+If failure is detected in an area other than the mainboard, an error message is 
+displayed on the screen and testing is stopped. 
+ 
+If your system does not successfully start, but displays a blank screen, emits a 
+series of beeps, or displays an error code, consult your dealer. 
+ 
+General Hardware Problems 
+ 
+A few common hardware problems and suggested solutions are presented 
+below: 
+ 
+The display screen is dark. 
+ 
+1.  Adjust the screen brightness. 
+2.  Make sure that your V5 is not in suspend mode. 
+ 
+  44
+
+--- Page 53 ---
+An incorrect date and time are displayed. 
+ 
+Correct the date and time using the DOS DATE and TIME commands or the 
+options in the Setup Utility. (You can also set the date and time in Windows by 
+double clicking the clock on the task bar or the Date and Time in the Control 
+Panel.) If the date and time become incorrect after a short time, your CMOS 
+battery may be depleted. Contact your dealer to change the battery. 
+ 
+V5 does not start or boot-up 
+ 
+1.  If the power indicator is not on, V5 is without power. Make sure you have 
+properly attached the AC adapter and power cord, or have installed a charged 
+battery. 
+ 
+2.  If your V5 is running on battery power, ensure that the battery charge is not 
+low. If the battery appears to be charged, it may be faulty. 
+ 
+3.  If your V5 is using the AC adapter, ensure that the AC outlet, airplane seat 
+jack, or car cigarette lighter are working. If the AC outlet power is working, the 
+AC adapter may be faulty. 
+ 
+Hard drive or external boot-up device is inaccessible. 
+ 
+1.  If the hard disk indicator is lit, BIOS may be incorrectly set. Revise the BIOS 
+settings for the Primary Master. 
+ 
+2.  Security may be set to prevent starting the operating system. 
+ 
+3.  If you choose to boot up your system from an external device through a USB 
+port, make sure it is on and bootable media is inserted. 
+ 
+The screen is blank or the display is abnormal. 
+ 
+1.  Your V5 may be set to an external display device only. Press Fn + Esc to 
+switch to the V5 display. 
+ 
+2.  The power management system may automatically blank the screen to save 
+power, and is in video time-out, standby mode, or hibernation mode. Press Fn 
+key or press power button for 1 second to resume the system. 
+ 
+3.  The angle of the display and the brightness level is inadequate for the 
+ambient lighting. Adjust the display angle and press Fn + F1 or Fn + F2 to 
+adjust the brightness level. 
+ 
+4.  The LCD screen has a default resolution of 1024 x 600 (WXVGA). If you set 
+the resolution lower than this, the screen expands to fill the display. When the 
+  45
+
+--- Page 54 ---
+system can not expand its display to full screen on the LCD screen or on an 
+external display device, you can right click on Windows desktop and select 
+Personalize and then select Display Settings to open [Display Settings] 
+window. Set the resolution to an appropriate value. 
+ 
+No audio output 
+ 
+1.  The audio system is closed or the volume of audio system is too low. Use hot 
+keys or FlyBook Control Center to open the audio system and adjust the 
+volume. 
+ 
+2.  The audio output is disabled or too low for the audio application. Open the 
+audio output and adjust the volume. 
+ 
+3.  When plugging an earphone or external speaker into the earphone/line-out 
+jack, the built-in speakers are disabled automatically. If you can not hear 
+sound from the built-in speakers, ensure that nothing is plugged into the jack. 
+ 
+The keyboard, pointing device or connected mouse does not 
+work properly. 
+ 
+1.  The system may have entered Suspend to RAM mode. Press Fn key or push 
+power button to resume the system. 
+ 
+2.  An application may have locked out your input device. Restart your system. 
+ 
+3.  If the keyboard or mouse does not respond on the USB port, ensure that the 
+devices are installed properly and that drivers are installed. 
+ 
+Cannot connect to a wireless LAN 
+ 
+1.  An incorrect network name (SSID) or network key may be used. Make sure 
+you have set the network name (SSID) and key to the same values as the 
+access point (infrastructure connection) or the computers to be connected (Ad 
+Hoc connection) have. 
+ 
+2.  Your V5 may be too far from other communication devices. Retry the 
+connection after moving your computer closer to the computers to be 
+connected with (Ad Hoc connection) or to the access point (infrastructure 
+connection). Also, check the condition of the signal strength in      [Connect to 
+a network] window by clicking Control Panel -> Network and Sharing 
+Center -> Connect to a network. 
+ 
+3.  The wireless adapter may be disabled. Go to Control Panel. In Classic View 
+mode, select Network and Sharing Center. In the left pane of [Network and 
+Sharing Center] window, select Manage network connections. In [Network 
+  46
+
+--- Page 55 ---
+Connections] window, right-click the Wireless Network Connection icon 
+and select Enable. 
+ 
+4.  Make sure you have access rights or network authentication to the network 
+you want to connect to. 
+ 
+5.  Try changing channels to avoid active channel duplication. 
+ 
+6.  Check the setting of the protocol, work group, shared setting, and IP address. 
+ 
+7.  To have your operating system identifying the problem, go to Control Panel, in 
+Classic View mode, select Network and Sharing Center. In Network and 
+Sharing Center window, click on Connect to a network. In [Connect to a 
+network] window, select Diagnose why Windows cannot find any 
+additional networks. 
+ 
+Cannot charge battery or losing power quickly 
+ 
+1.  Verify that the battery is properly installed and it is not too hot or too cold. 
+ 
+2.  Calibrate the battery. 
+ 
+3.  The installed battery may be faulty. Replace it with a new one. 
+ 
+Having V5 Serviced 
+ 
+If you are unable to solve the problem, you should have your V5 serviced. Pack it 
+in the original carton. Include a description of the problem and a checklist of the 
+steps you took when trying to fix the problem. The information may be useful to 
+the service personnel. Return the V5 to the place you purchased it. 
+ 
+  47
+
+--- Page 56 ---
+Power Specification 
+ 
+DC-In Power Supply (Through DC-IN Power Jack): 
+ 
+z  Input Rating: 15-19Vdc, 2.64-3.34A, 50W 
+z Maximum Operating Temperature (Ambient): 38 degrees C 
+ 
+AC Adapter: 
+ 
+z  Model No.: Delta ADP-50HH Rev. A. 
+z  Input Rating: 100-240Vac, 50-60Hz, 1.5A 
+z  Output Rating: 19Vdc, 2.64A, Class II, Marked LPS 
+ 
+Battery: 
+ 
+z  Battery Pack: 6 cell 3S2P 103450 Li-Ion rechargeable battery pack 
+z  Charging: Direct DC charging 
+  48
+
+--- Page 57 ---
+Index 
+３ 
+3g, model, 1 
+Ａ 
+ac adapter 
+connecting, 10 
+connector, location, 3 
+air vent, location, 5 
+ambient light sensor 
+enabling/disabling, 19 
+function, 22, 45 
+location, 4 
+turning on/off, 21 
+application key, 19 
+audio devices 
+headphone, connecting, 24 
+headphone, jack location, 4 
+microphone, connecting, 24 
+microphone, jack location, 4 
+automatic backlight control, 22 
+Ｂ 
+battery 
+caution, iv 
+charging, 10 
+charging time, 10 
+installing, 9 
+led, 12 
+locks, 9 
+removing, 10 
+bios 
+accessing, 41 
+description, 41 
+firmware updating, 41 
+utility, 41 
+bluetooth 
+enabling/disabling, 18, 21, 37 
+led, 12 
+using, 37 
+brightness 
+decreasing, 21 
+increasing, 21 
+Ｃ 
+calibrating touch panel, 17 
+caps lock key 
+led, 13 
+using, 19 
+clamshell mode, 6 
+connect 
+ac adapter, 10 
+audio devices, 24 
+external display, 25 
+headphone, 24 
+lan, 31 
+microphone, 24 
+tv, 26 
+usb devices, 25 
+wlan, 31 
+wwan, 35 
+control center 
+description, 20 
+function, 21 
+opening, 20 
+using, 20 
+Ｄ 
+display 
+brightness, decreasing, 18, 45 
+brightness, increasing, 18, 45 
+clamshell mode, 6 
+external, connecting, 25 
+external, connector location, 4 
+external, max resolution, 25 
+switching, 17 
+tablet mode, 6 
+Ｅ 
+enrollment, finger, 14 
+ethernet 
+connector, location, 4 
+lan connecting, 31 
+expresscard 
+caution, 27 
+installing, 27 
+removing, 29 
+slot, location, 5 
+types, 27 
+using, 27 
+Ｆ 
+faxing, 33 
+fingerprint reader 
+enrollment, 14 
+location, 3 
+using, 14 
+utility, 14 
+utility, online help, 15 
+utility, running/quitting, 21 
+flybook v5 
+cleaning, vi 
+do’s and don’ts, v 
+introduction, 1 
+powering on, 11 
+tour, 2 
+  49
+
+--- Page 58 ---
+Ｇ 
+gps 
+enabling/disabling, 18, 36 
+using, 36 
+Ｈ 
+hard disk 
+hibernation, entering, 18 
+hibernation, system resuming, 45 
+led, 12 
+headphone 
+connecting, 24 
+jack, location, 4 
+hibernation 
+entering, 18 
+system resuming, 45 
+hibernation mode 
+system resuming, 17 
+Ｋ 
+keyboard, using, 17 
+keys 
+application key, 19 
+caps lock, 19 
+function keys, description, 17 
+numeric keypad, 19 
+windows key, 19 
+Ｌ 
+lan 
+connecting, 31 
+connector, location, 4 
+led lights 
+battery, 12 
+bluetooth, 12 
+caps lock, 13 
+description, 12 
+hard disk, 12 
+locations, 2 
+num lock, 13 
+wlan, 12 
+wwan, 12 
+Ｍ 
+microphone 
+built-in, location, 3 
+connecting, 24 
+jack, location, 4 
+modem 
+faxing, 33 
+jack, location, 4 
+using, 33 
+monitor (vga), connector location, 4 
+Ｎ 
+num lock 
+enabling/disabling, 19 
+led, 13 
+numeric keypad, using, 19 
+Ｐ 
+pointing devices 
+customizing, 16 
+location, 2, 3 
+using, 16 
+power button, location, 3 
+power management, utility, 40 
+power specification, 48 
+Ｒ 
+realtek sound manager, 24 
+recovery, 42 
+caution, 42 
+description, 42 
+from hard disk hidden partition, 42 
+from recovery dvd, 43 
+rf kill 
+description, 21 
+switch, location, 3 
+Ｓ 
+safety information, v 
+screen orientation, 21 
+scroll bar, location, 2 
+security 
+checking, 30 
+firewall, installing, 30 
+spyware blocker, installing, 30 
+service 
+contacting, vi 
+having v5 serviced, 47 
+sim card 
+description, 34 
+install location, 34 
+installing, 34 
+speakers, built-in, locations, 3 
+specification, power, 48 
+spyware blocker 
+description, 30 
+installing, 30 
+stick pointer, location, 2 
+strap slot, location, 5 
+stylus 
+slot, location, 4 
+using, 16 
+  50
+
+--- Page 59 ---
+suspend mode 
+entering, 18 
+system resuming, 17, 46 
+system display 
+resolution, 45 
+turning on/off, 18 
+system recovery, 42 
+caution, 42 
+description, 42 
+from hard disk hidden partition, 42 
+from recovery dvd, 43 
+Ｔ 
+tablet mode, 6 
+touch panel 
+calibrating, 17 
+using, 17 
+troubleshooting 
+general hardware problems, 44 
+identifying problems, 44 
+tips, 44 
+tv 
+connecting, 26 
+connector, location, 4 
+Ｕ 
+usb 
+connector, location, 5 
+devices, connecting, 25 
+using 
+bluetooth, 37 
+control center, 20 
+expresscard, 27 
+fingerprint reader, 14 
+keyboard, 17 
+modem, 33 
+numeric keypad, 19 
+pointing devices, 16 
+stylus, 16 
+touch panel, 17 
+webcam, 38 
+windows key, 19 
+wlan, 31 
+wwan, 34 
+Ｖ 
+view 
+front-left view, 2 
+rear, 4 
+vitakey fingerprint solution, 14 
+volume 
+decreasing, 18, 21 
+increasing, 18, 21 
+muting, 18, 21 
+Ｗ 
+webcam 
+adjusting orientation, 38 
+enabling/disabling, 18, 21, 38 
+location, 3 
+using, 38 
+windows key, using, 19 
+wlan (wireless lan) 
+connecting, 31 
+enabling/disabling, 18, 21, 32 
+led, 12 
+using, 31 
+wwan (wireless wan) 
+access account, 34 
+connecting, 35 
+description, 34 
+enabling/disabling, 18, 21, 35 
+led, 12 
+sim card, installing, 34 
+using, 34 
+utility, 35 
+utility, help, 35 
+  51
+
+--- Page 60 ---
+This publication, including all photographs, illustrations and software, is protected under 
+international copyright laws, with all rights reserved. Neither this manual, nor any of the 
+material contained herein, may be reproduced without written consent of the 
+manufacturer. 
+ 
+© Copyright 2008 Dialogue Technology Corporation 
+  52
+

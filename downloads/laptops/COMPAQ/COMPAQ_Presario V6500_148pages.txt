@@ -1,0 +1,4660 @@
+Brand: COMPAQ
+Model: Presario V6500
+URL: https://www.manua.ls/compaq/presario-v6500/manual
+Total Pages: 148
+============================================================
+
+--- Page 1 ---
+Compaq Presario V6500, V6600, and V6700
+Notebook PCs
+Maintenance and Service Guide
+
+--- Page 2 ---
+© Copyright 2007 Hewlett-Packard
+Development Company, L.P.
+AMD, the AMD Arrow logo, Athlon, Turion,
+and combinations thereof, are trademarks of
+Advanced Micro Devices, Inc. Bluetooth is a
+trademark owned by its proprietor and used
+by Hewlett-Packard Company under license.
+Intel, Core, and Celeron are trademarks or
+registered trademarks of Intel Corporation or
+its subsidiaries in the United States and other
+countries. Microsoft, Windows, and
+Windows Vista are either trademarks or
+registered trademarks of Microsoft
+Corporation in the United States and/or other
+countries. SD Logo is a trademark of its
+proprietor.
+The information contained herein is subject to
+change without notice. The only warranties
+for HP products and services are set forth in
+the express warranty statements
+accompanying such products and services.
+Nothing herein should be construed as
+constituting an additional warranty. HP shall
+not be liable for technical or editorial errors
+or omissions contained herein.
+Fifth Edition: November 2007
+First Edition: April 2007
+Document Part Number: 443430-005
+
+--- Page 3 ---
+Safety warning notice
+WARNING! To reduce the possibility of heat-related injuries or of overheating the computer, do not
+place the computer directly on your lap or obstruct the computer air vents. Use the computer only on a
+hard, flat surface. Do not allow another hard surface, such as an adjoining optional printer, or a soft
+surface, such as pillows or rugs or clothing, to block airflow. Also, do not allow the AC adapter to contact
+the skin or a soft surface, such as pillows or rugs or clothing, during operation. The computer and the AC
+adapter comply with the user-accessible surface temperature limits defined by the International Standard
+for Safety of Information Technology Equipment (IEC 60950).
+iii
+
+--- Page 5 ---
+Table of contents
+1  Product description
+2  External component identification
+Top components ...................................................................................................................... 6
+Display components .................................................................................................. 6
+Buttons and speakers ................................................................................................. 7
+Keys ........................................................................................................................ 8
+Lights ....................................................................................................................... 9
+TouchPad ............................................................................................................... 10
+Front components ................................................................................................................... 11
+Left-side components ............................................................................................................... 12
+Rear component ..................................................................................................................... 13
+Right-side components ............................................................................................................ 13
+Bottom components ................................................................................................................ 14
+3  Illustrated parts catalog
+Serial number location ............................................................................................................ 15
+Computer major components ................................................................................................... 16
+Display assembly components ................................................................................................. 22
+Plastics Kit ............................................................................................................................. 23
+Cable Kit ..............................................................................................................................  24
+Mass storage devices ............................................................................................................. 25
+Miscellaneous parts ................................................................................................................ 26
+Sequential part number listing .................................................................................................. 27
+4  Removal and replacement procedures
+Preliminary replacement requirements ....................................................................................... 34
+Tools required ......................................................................................................... 34
+Service considerations ............................................................................................. 34
+Plastic parts ............................................................................................. 34
+Cables and connectors ............................................................................. 35
+Drive handling ......................................................................................... 35
+Grounding guidelines .............................................................................................. 36
+v
+
+--- Page 6 ---
+Electrostatic discharge damage .................................................................. 36
+Packaging and transporting guidelines ........................................ 37
+Workstation guidelines .............................................................. 37
+Equipment guidelines ................................................................. 38
+Unknown user password .......................................................................................... 39
+Component replacement procedures ........................................................................................ 40
+Serial number ......................................................................................................... 40
+Battery ................................................................................................................... 41
+Hard drive ............................................................................................................. 42
+Computer feet ......................................................................................................... 44
+Memory module ...................................................................................................... 44
+RTC battery ............................................................................................................ 46
+WLAN module ........................................................................................................ 47
+Optical drive .......................................................................................................... 50
+Switch cover ........................................................................................................... 52
+Keyboard ............................................................................................................... 54
+Power button board ................................................................................................. 56
+Display assembly .................................................................................................... 58
+Top cover ............................................................................................................... 64
+Bluetooth module .................................................................................................... 67
+ExpressCard assembly ............................................................................................. 68
+USB/power connector board .................................................................................... 70
+System board ......................................................................................................... 71
+Audio board ........................................................................................................... 74
+Fan/heat sink assembly ........................................................................................... 75
+Processor ............................................................................................................... 78
+5  Setup Utility
+Starting the Setup Utility .......................................................................................................... 80
+Using the Setup Utility ............................................................................................................. 81
+Changing the language of the Setup Utility ................................................................. 81
+Navigating and selecting in the Setup Utility ............................................................... 81
+Displaying system information ................................................................................... 81
+Restoring default settings in the Setup Utility ............................................................... 82
+Using advanced Setup Utility features ........................................................................ 83
+Closing the Setup Utility ........................................................................................... 83
+Setup Utility menus ................................................................................................................. 83
+Main menu ............................................................................................................. 83
+Security menu ......................................................................................................... 84
+System Configuration menu ...................................................................................... 84
+Diagnostics menu .................................................................................................... 84
+6  Specifications
+vi
+
+--- Page 7 ---
+Computer specifications .......................................................................................................... 85
+15.4-inch, WXGA, BrightView display specifications ................................................................. 86
+Hard drive specifications ........................................................................................................ 87
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive specifications ................................. 88
+HD DVD-ROM Drive with SuperMulti DVD±R/RW Double Layer support specifications ................... 89
+Blu-ray Disc ROM Drive with SuperMulti DVD±R/RW Double-Layer (DL) support specifications ........ 90
+System DMA specifications, Intel .............................................................................................. 91
+System DMA specifications, AMD ............................................................................................ 92
+System interrupt specifications, Intel .......................................................................................... 93
+System interrupt specifications, AMD ........................................................................................ 94
+System I/O address specifications, Intel .................................................................................... 95
+System I/O address specifications, AMD .................................................................................. 97
+System memory map specifications, Intel ................................................................................... 99
+System memory map specifications, AMD ............................................................................... 100
+7  Screw listing
+Phillips PM2.0×5.0 captive screw .......................................................................................... 101
+Phillips PM3.0×3.0 screw ..................................................................................................... 102
+Phillips PM2.0×3.0 screw ..................................................................................................... 103
+Phillips PM2.5×7.0 screw ..................................................................................................... 105
+Phillips PM2.5×10.0 screw ................................................................................................... 108
+Phillips PM2.5×4.0 screw ..................................................................................................... 109
+Phillips PM2.5×3.0 screw ..................................................................................................... 113
+Hex HM5.0×9.0 standoff ..................................................................................................... 114
+Phillips PM2.0×2.0 screw ..................................................................................................... 115
+Phillips PM2.0×7.0 screw ..................................................................................................... 116
+Phillips PM2.5×5.0 captive screw .......................................................................................... 117
+Phillips 2.5×4.0 captive screw ............................................................................................... 118
+8  Backup and recovery
+Recovering system information ............................................................................................... 119
+Creating recovery discs ......................................................................................... 119
+Backing up your information ................................................................................... 120
+When to back up ................................................................................... 120
+Backup suggestions ................................................................................ 120
+Using system restore points ...................................................................... 121
+When to create restore points ................................................... 121
+Create a system restore point .................................................... 121
+Restore to a previous date and time ........................................... 121
+Performing a recovery ........................................................................................... 122
+Recovering from the recovery discs ........................................................... 122
+Recovering from the partition on the hard drive .......................................... 122
+vii
+
+--- Page 8 ---
+9  Connector pin assignments
+Audio-out (headphone) ......................................................................................................... 123
+Audio-in (microphone) .......................................................................................................... 123
+External monitor ................................................................................................................... 124
+RJ-11 (modem) ..................................................................................................................... 125
+RJ-45 (network) .................................................................................................................... 125
+S-Video-out .......................................................................................................................... 126
+Universal Serial Bus .............................................................................................................. 126
+10  Power cord set requirements
+Requirements for all countries or regions ................................................................................. 127
+Requirements for specific countries or regions .......................................................................... 128
+11  Recycling
+Battery ................................................................................................................................ 129
+Display ............................................................................................................................... 129
+Index ............................................................................................................................... 135
+viii
+
+--- Page 9 ---
+1
+Product description
+Category Description AMD models Full-featured
+Intel models
+Defeatured
+Intel models
+Product Name Compaq Presario V6500,
+V6600, and V6700 Notebook
+PCs
+√ √ √
+Processors Intel® Core™ 2 Duo processors
+ 
+2.20-GHz processor, 4-MB L2 cache,
+800-MHz front side bus (FSB)
+  √ √
+  2.00-GHz processor, 2-MB L2 cache,
+800-MHz FSB
+  √ √
+  1.86-GHz processor, 1-MB L2 cache,
+533-MHz FSB
+  √ √
+  1.50-GHz processor, 2-MB L2 cache,
+667-MHz FSB
+  √ √
+ 
+Intel Core Duo processors
+ 
+T7300 2.0-GHz processor, 4-MB L2
+cache, 800-MHz FSB
+  √ √
+  T7100 1.8-GHz processor 2-MB L2
+cache, 800-MHz FSB
+  √ √
+  T5250 1.5-GHz processor 2-MB L2
+cache, 667-MHz FSB
+  √ √
+  T2330 1.6-GHz processor 1-MB L2
+cache, 533-MHz FSB
+  √ √
+  T2310 1.46-GHz processor 1-MB L2
+cache, 533-MHz FSB
+  √ √
+ 
+Intel Celeron® processors
+     
+  M530 1.73-GHz processor 1-MB L2
+cache, 533-MHz FSB
+  √ √
+ 
+AMD processors
+     
+  Turion™ MK-38 (2.2-GHz, 512-MB L2
+cache)
+√    
+  Turion TL-66 (2.3 -GHz, 1-MB L2
+cache)
+√    
+  Turion TL-60 (2.0 -GHz, 1-MB L2
+cache)
+√   
+1
+
+--- Page 10 ---
+Category Description AMD models Full-featured
+Intel models
+Defeatured
+Intel models
+  Turion TL-58 (1.9 -GHz, 1-MB L2
+cache)
+√    
+  Turion TL-56 (1.8 -GHz, 1-MB L2
+cache)
+√    
+  Athlon™ TK-53 (1.7-GHz. 512-MB L2
+cache)
+√    
+Chipset
+Northbridge: Intel GM965   √ √
+  Southbridge: Intel ICH8m   √ √
+  Northbridge/Southbridge: nVidia
+MCP67M
+√    
+Graphics Intel Extreme Graphics (Mobile
+Intel Graphics Media Accelerator
+X3100) UMA (integrated) with shared
+video memory, and:
+●
+Up to 64 MB on computer models
+with 512 MB of system RAM
+●
+or, Up to 256 MB on computer
+models with 1024 MB or more of
+system RAM
+Memory size is a dynamic change.
+  √ √
+ 
+UMA nVidia MCP67M with shared
+video memory, and:
+●
+Up to 128 MB on computer
+models with 512 MB of system
+RAM
+●
+Up to 287 MB on computer
+models with 1024 MB of system
+RAM
+●
+Up to 559 MB on computer
+models with 2048 MB of system
+RAM
+●
+Up to 559 MB on computer
+models with 4096 MB of system
+RAM
+Memory size is dynamically allocated.
+√    
+Panel
+15.4-inch, WXGA BrightView √ √ √
+Memory
+2 SODIMM slots √ √ √
+  Customer-accessible/upgradable √ √ √
+  Supports up to 4 GB of system RAM √ √ √
+  PC2-5300, 667-MHz, DDRII √√√
+2Chapter 1   Product description
+
+--- Page 11 ---
+Category Description AMD models Full-featured
+Intel models
+Defeatured
+Intel models
+  Supports the following configurations:
+●
+4096 (2048 × 2)
+●
+2048 (2048 × 1, 1024 × 2)
+●
+1536 (1024 + 512)
+●
+1024 (1024 × 1, 512 × 2)
+●
+512 (512 × 1)
+√ √ √
+Hard drives
+Supports 9.5-mm, 2.5-inch hard drives √ √ √
+  Serial ATA √ √ √
+  Supports the following drives:
+●
+250-GB, 5400-rpm
+●
+200-GB, 4200-rpm
+●
+160-GB, 5400-rpm
+●
+120-GB, 5400-rpm
+●
+80-GB, 5400-rpm
+√ √ √
+Optical drives
+Fixed (removal of 1 screw required) √ √ √
+  Parallel ATA √ √ √
+  12.7-mm tray load √ √ √
+  Supports the following drives:
+●
+DVD±RW and CD-RW
+SuperMulti Double-Layer Combo
+Drive with LightScribe
+●
+DVD±RW and CD-RW
+SuperMulti Double-Layer Combo
+Drive
+●
+DVD-CD/RW Combo Drive
+√ √ √
+ 
+●
+Blu-ray Disc ROM Drive with
+SuperMulti DVD±R/RW Double-
+Layer (DL) support (select models
+only)
+  √  
+Diskette drive
+Supports external USB drive only √ √ √
+Microphone
+2 omnidirectional, dual-array
+microphones, with beam-forming,
+echo-cancellation, noise-suppression
+software
+√ √ √
+Audio
+HD audio - Realtek ALC861-VD-GR   √ √
+  HD Audio - Conexant CX20549-12) √    
+  Supports Windows Vista® Premium
+Logo requirements
+√√√
+3
+
+--- Page 12 ---
+Category Description AMD models Full-featured
+Intel models
+Defeatured
+Intel models
+  Presario-branded Altec Lansing
+speakers
+√ √ √
+Modem
+56K V.92 data/fax modem √ √ √
+  Supports all world-wide certification
+requirements
+√ √ √
+  Modem cable not included √ √ √
+Ethernet
+Integrated Realtek 10/100 network
+interface card (NIC)
+√ √ √
+  Ethernet cable not included √ √ √
+Wireless Integrated wireless local area
+network (WLAN) options by
+way of wireless module:
+     
+  Intel PRO Wireless 3945 802.11a/b/
+g and 802.11b/g with 2 antennae
+integrated into the display assembly
+  √ √
+  Intel PRO Wireless 4965 802.11a/b/
+g/n with 3 antennae integrated into
+the display assembly @ 2.4 and 5.0
+GHz
+  √ √
+  Intel WLAN + Bluetooth®   √ √
+  Broadcom 4321AGN Wi-Fi Adapter
+(802.11 a/b/g/ draft-n) + Bluetooth
+w/2 antennas
+√    
+  Broadcom 4321AGN Wi-Fi Adapter
+(802.11 a/b/g/ draft-n) w/2
+antennas
+√    
+External media card
+One ExpressCard54 slot √ √ √
+  Digital Media Slot, supports SD, MMC,
+SDIO, MS, MSpro, xD
+√ √ √
+Ports
+Audio-in (mono microphone) √ √ √
+  Audio-out (stereo headphone) √ √ √
+  Consumer infrared √ √ √
+  RJ-11 (modem) √ √ √
+  RJ-45 (Ethernet, includes link and
+activity lights)
+√ √ √
+  S-Video-out √ √ √
+  USB (3) √ √  
+  USB (1)     √
+  VGA (Dsub 15-pin) √ √ √
+  1394 √ √  
+  2-pin AC power √√√
+4Chapter 1   Product description
+
+--- Page 13 ---
+Category Description AMD models Full-featured
+Intel models
+Defeatured
+Intel models
+Docking
+Expansion port 3 supports HP xb3000
+Notebook Expansion Base and
+HP Notebook QuickDock
+√ √ √
+Keyboard/pointing
+devices
+14.1-inch keyboard √ √ √
+  TouchPad with 2 buttons and four-way
+scroll (taps enabled as default)
+√ √ √
+Power requirements
+12-cell 2.20-Ah Li-ion battery √ √ √
+  6-cell 2.55-Ah Li-ion battery √ √ √
+  6-cell 2.20-Ah Li-ion battery √ √ √
+  65-W AC adapter with localized cable
+plug support (2-wire plug with ground
+pin, supports 2-pin DC connector)
+√ √ √
+Security
+Security cable slot √ √ √
+Operating system Preinstalled:
+     
+  Free DOS   √ √
+  Windows Vista Business (32-bit) √ √ √
+  Windows Vista Home Basic (32-bit) √ √ √
+  Windows Vista Premium (32- and 64-
+bit)
+√ √ √
+  Windows Vista Home Basic (32-bit)   √ √
+Serviceability End-user replaceable parts:
+     
+  AC adapter √ √ √
+  Battery (system) √ √ √
+  Hard drive √ √ √
+  Memory module √ √ √
+  Optical drive √ √ √
+ WLAN module √√√
+5
+
+--- Page 14 ---
+2
+External component identification
+Top components
+Display components
+Item Component Description
+(1)
+Internal display switch* Turns off the display if the display is closed while the
+computer is on.
+(2)
+Internal microphones (2) (select models only) Record sound.
+NOTE: If there is a microphone icon next to each
+microphone opening, the computer has internal
+microphones.
+*The location of the internal display switch varies by computer model.
+6Chapter 2   External component identification
+
+--- Page 15 ---
+Buttons and speakers
+Item Component Description
+(1)
+Power button*
+●
+When the computer is off, press the button to turn on
+the computer.
+●
+When the computer is on, press the button to initiate
+Sleep.
+●
+When the computer is in the Sleep state, press the
+button briefly to exit Sleep.
+●
+When the computer is in Hibernation, press the button
+briefly to exit Hibernation.
+If the computer has stopped responding and Windows®
+shutdown procedures are ineffective, press and hold the
+power button for at least 5 seconds to turn off the computer.
+To learn more about your power settings, select Start >
+Control Panel > System and Maintenance >
+Power Options.
+(2)
+Speakers (2) Produce sound.
+(3)
+Media button
+●
+Opens the QuickPlay program (for models with
+QuickPlay preinstalled).
+●
+Opens the DVDPlay program (for models with DVDPlay
+preinstalled).
+NOTE: If the computer has been set up to require a logon
+password, you may be asked to log on to Windows.
+QuickPlay or DVDPlay opens after you log on. Refer to the
+QuickPlay or DVDPlay software Help for more information.
+(4)
+Volume mute button Mutes and restores speaker sound.
+(5)
+Volume scroll zone Adjusts speaker volume. Slide your finger to the left to
+decrease volume and to the right to increase volume. You
+can also tap the minus sign on the scroll zone to decrease
+volume, or tap the plus sign on the scroll zone to increase
+volume.
+*This table describes factory settings. For information about changing factory settings, refer to the user guides located in Help
+and Support.
+Top components 7
+
+--- Page 16 ---
+Keys
+Item Component Function
+(1)
+esc key Displays system information when pressed in combination
+with the fn key.
+(2)
+fn key Executes frequently used system functions when pressed in
+combination with a function key or the esc key.
+(3)
+Windows logo key Displays the Windows Start menu.
+(4)
+Windows applications key Displays a shortcut menu for items beneath the pointer.
+(5)
+Embedded numeric keypad keys Can be used like the keys on an external numeric keypad.
+(6)
+num lock key Enables numeric lock, turns on the embedded numeric
+keypad, and turns on the num lock light.
+(7)
+Function keys Execute frequently used system functions when pressed in
+combination with the fn key.
+8Chapter 2   External component identification
+
+--- Page 17 ---
+Lights
+Item Component Description
+(1)
+Power lights (2)*
+●
+On: The computer is on.
+●
+Blinking: The computer is in the Sleep state.
+●
+Off: The computer is off or in Hibernation.
+(2)
+Battery light
+●
+On: A battery is charging.
+●
+Blinking: A battery that is the only available power
+source has reached a low battery level or a critical
+battery level.
+●
+Off: If the computer is plugged into an external power
+source, the light is turned off when all batteries in the
+computer are fully charged. If the computer is not
+plugged into an external power source, the light stays
+off until the battery reaches a low battery level.
+(3)
+Drive light Blinking: The hard drive or optical drive is being accessed.
+(4)
+Caps lock light On: Caps lock is on.
+(5)
+Volume mute light
+●
+Blue: Computer sound is turned on.
+●
+Amber: Computer sound is turned off.
+(6)
+Volume down light Blinking: The volume scroll zone is being used to decrease
+speaker volume.
+(7)
+Volume up light Blinking: The volume scroll zone is being used to increase
+speaker volume.
+(8)
+Num lock light On: Num lock is on or the embedded numeric keypad is
+enabled.
+*The 2 power lights display the same information. The light on the power button is visible only when the computer is open. The
+power light on the front of the computer is visible whether the computer is open or closed.
+Top components 9
+
+--- Page 18 ---
+TouchPad
+Item Component Function
+(1)
+TouchPad light
+●
+Blue: TouchPad is enabled.
+●
+Amber: TouchPad is disabled.
+(2)
+TouchPad* Moves the pointer and selects or activates items on the
+screen.
+(3)
+TouchPad horizontal scroll zone Scrolls left or right.
+(4)
+Left TouchPad button* Functions like the left button on an external mouse.
+(5)
+TouchPad on/off button Enables/disables the TouchPad.
+(6)
+TouchPad vertical scroll zone Scrolls up or down.
+(7)
+Right TouchPad button* Functions like the right button on an external mouse.
+*This table describes factory settings. To view or change pointing device preferences, select Start > Control Panel >
+Hardware and Sound > Mouse.
+10 Chapter 2   External component identification
+
+--- Page 19 ---
+Front components
+Item Component Function
+(1)
+Power light
+●
+On: The computer is on.
+●
+Blinking: The computer is in the Sleep state.
+●
+Off: The computer is off or in Hibernation.
+(2)
+Battery light
+●
+On: A battery is charging.
+●
+Blinking: A battery that is the only available power
+source has reached a low battery level or a critical
+battery level.
+●
+Off: If the computer is plugged into an external power
+source, the light is turned off when all batteries in the
+computer are fully charged. If the computer is not
+plugged into an external power source, the light stays
+off until the battery reaches a low battery level.
+(3)
+Drive light Blinking: The hard drive or optical drive is being accessed.
+(4)
+Wireless switch Turns the wireless feature on or off, but does not create a
+wireless connection.
+NOTE: To establish a wireless connection, a wireless
+network must already be set up.
+(5)
+Wireless light
+●
+Blue: An integrated wireless device, such as a WLAN
+device and/or a Bluetooth® device, is turned on.
+●
+Amber: An integrated wireless device is turned off.
+(6)
+Consumer infrared lens (select models only) Receives a signal from a remote control device, such as the
+HP Remote Control.
+(7)
+Audio-in (microphone) Connects an optional computer headset microphone, stereo
+array microphone, or monaural microphone.
+(8)
+Audio-out (headphone) jack Produces sound when connected to optional powered stereo
+speakers, headphones, ear buds, a headset, or television
+audio.
+Front components 11
+
+--- Page 20 ---
+Left-side components
+Item Component Function
+(1)
+S-Video-out jack Connects an optional S-Video device such as a television,
+VCR, camcorder, overhead projector, or video capture
+card.
+(2)
+External monitor port Connects an external VGA monitor or projector.
+(3)
+Expansion port 3 Connects the computer to an optional docking device or
+expansion product.
+NOTE: The computer has only one expansion port. The
+term expansion port 3 describes the type of expansion port.
+(4)
+RJ-45 (network) jack Connects a network cable.
+(5)
+RJ-11 (modem) jack Connects a modem cable.
+(6)
+USB ports (1 or 2, depending on computer model) Connect optional USB devices.
+(7)
+1394 port (select models only) Connects an optional IEEE 1394 or 1394a device, such as
+a camcorder.
+(8)
+Digital Media Slot (select models only) Supports the following optional digital card formats:
+●
+Memory Stick (MS)
+●
+Memory Stick Pro (MSP)
+●
+MultiMediaCard (MMC)
+●
+Secure Digital Input/Output (SD I/O)
+●
+Secure Digital (SD) Memory Card
+●
+xDPicture Card (XD)
+●
+xD-Picture Card (XD) Type H
+●
+xD-Picture Card (XD) Type M
+12 Chapter 2   External component identification
+
+--- Page 21 ---
+Rear component
+Component Description
+Vent Enables airflow to cool internal components.
+NOTE: The computer fan starts up automatically to cool
+internal components and prevent overheating. It is normal
+for the internal fan to cycle on and off during routine
+operation.
+Right-side components
+Item Component Function
+(1)
+ExpressCard slot Supports optional ExpressCard/54 cards.
+(2)
+Optical drive Reads optical discs, and, on select models, also writes to
+optical discs.
+(3)
+Optical drive light Blinking: The optical drive is being accessed.
+(4)
+USB port (select models only) Connects an optional USB device.
+(5)
+Power connector Connects an AC adapter.
+(6)
+Security cable slot Attaches an optional security cable to the computer.
+NOTE: The security cable is designed to act as a
+deterrent, but it may not prevent the computer from being
+mishandled or stolen.
+Rear component 13
+
+--- Page 22 ---
+Bottom components
+Item Component Function
+(1)
+Battery bay Holds the battery.
+(2)
+Battery release latch Releases the battery from the battery bay.
+(3)
+Optical drive Reads optical discs and, on select models, also writes to
+optical discs.
+(4)
+Memory/WLAN module compartment Contains the memory module slots, the WLAN module slot,
+and the RTC battery.
+NOTE: To prevent an unresponsive system, replace the
+wireless module only with a wireless module authorized for
+use in the computer by the governmental agency that
+regulates wireless devices in your country or region. If you
+replace the module and then receive a warning message,
+remove the module to restore computer functionality, and
+then contact technical support through Help and Support.
+(5)
+Vents (5) Enable airflow to cool internal components.
+NOTE: The computer fan starts up automatically to cool
+internal components and prevent overheating. It is normal
+for the internal fan to cycle on and off during routine
+operation.
+(6)
+Hard drive bay Holds the hard drive.
+14 Chapter 2   External component identification
+
+--- Page 23 ---
+3
+Illustrated parts catalog
+Serial number location
+When ordering parts or requesting information, provide the computer serial number and model number
+located on the bottom of the computer.
+Serial number location 15
+
+--- Page 24 ---
+Computer major components
+Item Description Spare part number
+(1) 15.4-inch, WXGA, BrightView display assembly (includes microphones)
+446485-001
+16 Chapter 3   Illustrated parts catalog
+
+--- Page 25 ---
+Item Description Spare part number
+NOTE: See Display assembly components on page 22 for more display assembly spare
+part information.
+(2) Switch cover (includes LED board and cable)
+ 
+  For use in full-featured models 431425-001 and
+451010-001
+  For use in defeatured models 455260-001
+(3) Power button board (includes power button board cable)
+431438-001
+(4) Keyboards
+ 
+Denmark, Finland, Norway, and Sweden 441428-DH1
+  France 441428-051
+  French Canada 441428-121
+  Italy 441428-061
+  South Korea 441428-AD1
+  Latin America 441428-161
+  The Netherlands and Europe 441428-B31
+  Saudi Arabia 441428-171
+  Spain 441428-071
+  Taiwan 441428-AB1
+  Thailand 441428-281
+  Turkey 441428-141
+  The United Kingdom 441428-031
+  The United States 441428-001
+(5) Top cover for use in computer models with Intel processors (includes speakers, TouchPad,
+and cable)
+446510-001 and
+455514–001
+  For use in computer models with AMD processors:  
+  ● Full-featured models 454170-001
+ 
+●
+Defeatured models
+451407-001
+(6) Fan/heat sink assembly (includes thermal material )
+ 
+  For use only in computer models with Intel processors 446522-001
+  For use only in computer models with AMD processors 449961-001
+(7) ExpressCard assembly
+431440-001
+ 
+Plastics Kit (see Plastics Kit on page 23 for more Plastics Kit information):
+438669-001
+(8a)
+ExpressCard slot bezel
+(8b)
+Hard drive cover (includes 2 captive screws, secured by C-clips)
+(8c)
+Memory/WLAN module compartment cover (includes 3 captive screws, secured by C-clips)
+Computer major components 17
+
+--- Page 26 ---
+Item Description Spare part number
+  HDMI port cover (not illustrated)
+(9) Processors (include thermal material )
+  Intel Core 2 Duo processors:
+ 
+●
+2.20-GHz processor (4-MB L2 cache, 800-MHz FSB)
+453771-001
+ 
+●
+2.00-GHz processor (2-MB L2 cache, 800-MHz FSB)
+455515-001
+ 
+●
+1.86-GHz processor (1-MB L2 cache, 533-MHz FSB)
+453773–001
+ 
+●
+1.50-GHz processor (2-MB L2 cache, 667-MHz FSB)
+453772-001
+  Intel Core Duo processors:  
+ 
+●
+T7300 2.00-GHz processor (4-MB L2 cache, 800-MHz FSB)
+446478-001
+ 
+●
+T7100 1.80-GHz processor (2-MB L2 cache, 800-MHz FSB)
+446479-001
+ 
+●
+T5250 1.50-GHz processor (2-MB L2 cache, 667-MHz FSB)
+453033-001
+  ● T2330 1.6-GHz processor (1-MB L2 cache, 533-MHz FSB) 455944–001
+ 
+●
+T2310 1.46-GHz processor (1-MB L2 cache, 533-MHz FSB)
+455943–001
+  Intel Celeron processors:  
+  ● M530 1.73-GHz processor (1-MB L2 cache, 533-MHz FSB) 457315–001
+  AMD processors:  
+ 
+●
+Turion MK-38 (2.2-GHz, 512-MB L2 cache)
+449904-001
+ 
+●
+Turion TL-66 (2.3-GHz, 1-MB L2 cache)
+450804-001
+ 
+●
+Turion TL-60 (2.0-GHz, 1-MB L2 cache)
+450803-001
+ 
+●
+Turion TL-58 (1.9-GHz, 1-MB L2 cache)
+450802-001
+ 
+●
+Turion TL-56 (1.8-GHz, 1-MB L2 cache)
+450801-001
+ 
+●
+Athlon TK-53 (1.7-GHz. 512-MB L2 cache)
+451013-001
+ 
+Processor bracket (not illustrated)
+450370-001
+(10) Bluetooth module (includes Bluetooth module cable)
+412766-002
+(11) System board (includes modem cable)
+ 
+  For use only in computer models with Intel processors 453770-001 and
+446475-001
+  For use only in computer models with AMD processors in full-featured models equipped with
+UMA graphics subsystem memory:
+449901-001
+(12) USB/power connector board (includes USB/power connector board cable)
+447444-001
+(13) Audio boards (include audio board cable)
+ 
+For use only in computer models with Intel processors:  
+ 
+●
+Equipped with consumer infrared
+449453-001
+ 
+●
+Not equipped with consumer infrared
+431443-001
+  For use only in computer models with AMD processors:  
+18 Chapter 3   Illustrated parts catalog
+
+--- Page 27 ---
+Item Description Spare part number
+  ● In full-featured models equipped with consumer infrared 454176-001
+ 
+●
+In defeatured models equipped with consumer infrared
+449967-001
+(14) Batteries
+ 
+12-cell, 8.80-AH, Li-ion 451864-001
+  6-cell, 2.55-AH, Li-ion 446507-001
+  6-cell, 2.20-AH, Li-ion 446506-001
+(15) Base enclosure (includes infrared lens and wireless on/off switch)
+ 
+  For use with full-featured computer models 448343-001
+  For use with defeatured models 454171-001
+ 
+Rubber Kit (not illustrated; includes base enclosure rubber feet and display bezel screw
+covers)
+431431-001
+(16) Optical drives (include bezel)
+ 
+For use in computer models with Intel processors:  
+ 
+●
+Blu-ray Disc ROM Drive with SuperMulti DVD±R/RW Double-Layer (DL) support
+462453-001
+ 
+●
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive with LightScribe
+446505-001
+ 
+●
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive
+446504-001
+ 
+●
+DVD/CD-RW Combo Drive
+446503-001
+  For use in computer models with AMD processors:  
+  ● DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive 449934-001
+ 
+●
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive with LightScribe
+449936-001
+ 
+●
+DVD/CD-RW Combo Drive
+455076-001
+(17) Hard drives (include hard drive bracket)
+ 
+250-GB, 5400-rpm 453775-001
+  200-GB, 4200-rpm 451863-001
+  160-GB, 5400-rpm 451862-001
+  120-GB, 5400-rpm 446498-001
+  80-GB, 5400-rpm 446497-001
+  60-GB, 5400-rpm 446496-001
+(18) WLAN modules
+  Intel 802.11a/b/g/n WLAN modules:
+ 
+●
+For use in Antigua & Barbuda, Argentina, Aruba, the Bahamas, Barbados, Bermuda,
+Brunei, Canada, the Cayman Islands, Chile, Colombia, Costa Rica, the Dominican
+Republic, Ecuador, El Salvador, Guam, Guatemala, Haiti, Honduras, Hong Kong, India,
+Indonesia, Malaysia, Mexico, Panama, Paraguay, Peru, Saudi Arabia, Taiwan, the
+United States, Uruguay, Venezuela, and Vietnam
+441086-001
+ 
+●
+For use in Austria, Azerbaijan, Bahrain, Belgium, Brazil, Bulgaria, Croatia, Cyprus, the
+Czech Republic, Denmark, Egypt, Estonia, Finland, France, Georgia, Germany, Greece,
+441086-002 and
+441087-002
+Computer major components 19
+
+--- Page 28 ---
+Item Description Spare part number
+Hungary, Iceland, Ireland, Israel, Italy, Latvia, Lebanon, Liechtenstein, Lithuania,
+Luxembourg, Malta, Monaco, the Netherlands, Norway, Oman, the Philippines, Poland,
+Portugal, Qatar, Romania, Russia, Serbia and Montenegro, Singapore, Slovakia,
+Slovenia, South Africa, Spain, Sri Lanka, Sweden, Switzerland, Turkey, Ukraine, the
+United Kingdom, and Uzbekistan
+ 
+●
+For use in Australia, New Zealand, Pakistan, the People's Republic of China, and South
+Korea
+441086-003 and
+441088-003
+ 
+●
+For use in Japan
+441086-291 and
+441089-291
+ 
+●
+For use in South Korea
+441086-AD1
+  Intel 802.11a/b/g WLAN modules:
+ 
+●
+For use in Antigua & Barbuda, Argentina, Australia, the Bahamas, Barbados, Brunei,
+Canada, Chile, the Dominican Republic, Guam, Guatemala, Hong Kong, India,
+Indonesia, Malaysia, Mexico, New Zealand, Panama, Paraguay, Saudi Arabia,
+Taiwan, the United States, and Vietnam
+451861-001
+ 
+●
+For use in Aruba, Austria, Azerbaijan, Bahrain, Belgium, Bermuda, Brazil, Bulgaria, the
+Cayman Islands, Colombia, Croatia, Cyprus, the Czech Republic, Denmark, Egypt, El
+Salvador, Estonia, Finland, France, Georgia, Germany, Greece, Hungary, Iceland,
+Ireland, Italy, Jordan, Latvia, Lebanon, Liechtenstein, Lithuania, Luxembourg, Malta,
+Monaco, the Netherlands, Norway, Oman, the Philippines, Poland, Portugal, Romania,
+Russia, Serbia and Montenegro, Singapore, Slovakia, Slovenia, South Africa, Spain, Sri
+Lanka, Sweden, Switzerland, Turkey, the United Kingdom, and Uzbekistan
+451861-002
+ 
+●
+For use in Ecuador, Haiti, Honduras, Pakistan, the People's Republic of China, Peru,
+Qatar, South Korea, Uruguay, and Venezuela
+451861-003
+ 
+●
+For use in Japan
+451861-291
+  Broadcom 802.11b/g WLAN modules:
+ 
+●
+For use in Canada, the Cayman Islands, Guam, Puerto Rico, the U.S. Virgin Islands, and
+the United States
+441090-001
+ 
+●
+For use in Afghanistan, Albania, Algeria, Andorra, Angola, Antigua & Barbuda,
+Argentina, Armenia, Aruba, Australia, Austria, Azerbaijan, the Bahamas, Bahrain,
+Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bermuda, Bhutan, Bolivia,
+Bosnia & Herzegovina Botswana, Brazil, the British Virgin Islands, Brunei, Bulgaria,
+Burkina Faso, Burundi, Cambodia, Cameroon, Cape Verde, the Central African
+Republic, Chad, Chile, Colombia, Comoros, the Congo, Costa Rica, Croatia, Cyprus,
+the Czech Republic, Denmark, Djibouti, Dominica, the Dominican Republic, East Timor,
+Ecuador, Egypt, El Salvador, Equitorial Guinea, Eritrea, Estonia, Ethiopia, Fiji, Finland,
+France, French Guiana, Gabon, Gambia, Georgia, Germany, Ghana, Gibraltar,
+Greece, Grenada, Guadeloupe, Guatemala, Guinea, Guinea-Bissa, Guyana, Haiti,
+Honduras, Hong Kong, Hungary, Iceland, India, Indonesia, Ireland, Israel, Italy, the Ivory
+Coast, Jamaica, Jordan, Kazakhstan, Kenya, Kiribati, Kuwait, Kyrgyzstan, Laos, Latvia,
+Lebanon, Lesotho, Liberia, Liechtenstein, Lithuania, Luxembourg, Macedonia,
+Madagascar, Malawi, Malaysia, the Maldives, Mali, Malta, the Marshall Islands,
+Martinique, Mauritania, Mauritius, Mexico, Micronesia, Monaco, Mongolia,
+Montenegro, Morocco, Mozambique, Namibia, Nauru, Nepal, the Nether Antilles, the
+Netherlands, New Zealand, Nicaragua, Niger, Nigeria, Norway, Oman, Palau,
+Panama, Papua New Guinea, Paraguay, the People's Republic of China, Peru, the
+Philippines, Poland, Portugal, Qatar, the Republic of Moldova, Romania, Russia,
+Rwanda, Samoa, San Marino, Sao Tome & Principe, Saudi Arabia, Senegal, Serbia and
+Montenegro, the Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, the Solomon
+Islands, Somalia, South Africa, South Korea, Spain, Sri Lanka, St. Kitts & Nevis, St. Lucia,
+St. Vincent & Grenada, Suriname, Swaziland, Sweden, Switzerland, Taiwan, Tajikistan,
+Tanzania, Thailand, Togo, Tonga, Trinidad & Tobago, Tunisia, Turkey, Turkmenistan,
+441090-002
+20 Chapter 3   Illustrated parts catalog
+
+--- Page 29 ---
+Item Description Spare part number
+Tuvalu, Uganda, Ukraine, the United Arab Emirates, the United Kingdom, Uruguay,
+Uzbekistan, Vanuatu, Venezuela, Vietnam, Yemen, Zaire, Zambia, and Zimbabwe
+ 
+●
+For use in Japan
+441090-291
+  Intel 802.11b/g WLAN module for use in Thailand 451861-004
+  Broadcom 4311AG 802.11a/b/g modules:  
+ 
+●
+For use in the United States and Canada
+441075-001
+ 
+●
+For use in France, Germany, Italy, the Netherlands, Spain, the United Kingdom, Nordic
+region, and India
+441075-002
+  Broadcom 4321AGN 802.11a/b/g/n modules:  
+ 
+●
+For use in the United States and Canada
+434661-001
+ 
+●
+For use in France, Germany, Italy, the Netherlands, Spain, the United Kingdom, Nordic
+region, and India
+434661-002
+(19) RTC battery (includes 2-sided tape)
+446518-001 and
+449729-001
+(20) Memory modules (667-MHz, PC2-5300, 1-DIMM)
+ 
+2048-MB 453774-001 and
+457437–001
+  1024-MB 446495-001
+  512-MB 446494-001
+ 
+Cable Kit (not illustrated; see 
+Cable Kit on page 24 for more Cable Kit information)
+446520-001
+Computer major components 21
+
+--- Page 30 ---
+Display assembly components
+Item Description Spare part number
+(1) Display bezel 
+ 
+  For use in computers with Intel processors 433283-001 and
+453328-001
+  For use in computer models with AMD processors:  
+ 
+●
+Full-featured models
+433284-002
+(2) Display inverter (includes Mylar shield)
+431391-001
+(3) Display Hinge Kit (includes left and right display hinges)
+433288-001
+(4) Display panel (15.4-inch, WXGA, BrightView; includes display panel cable)
+446480-001
+(5) Wireless Antenna Kits
+ 
+For use only with computer models equipped with an 802.11a/b/g/n WLAN module
+(includes 3 wireless antenna transceivers and cables)
+449728-001
+  For use only with computer models equipped with an 802.11a/b/g or 802.11b/g WLAN
+module (includes 2 wireless antenna transceivers and cables)
+449726-001
+(6) Microphone
+431393-001
+(7) Display enclosure
+ 
+  For full-featured models 446488-001
+  For defeatured models 432920-002
+ 
+Display Cable Kit (not illustrated)
+433287-001
+ 
+Display Screw Kit (not illustrated)
+431400-001
+22 Chapter 3   Illustrated parts catalog
+
+--- Page 31 ---
+Plastics Kit
+Item Description Spare part number
+ 
+Plastics Kit:
+438669-001
+(1)
+ExpressCard slot bezel
+(2)
+Hard drive cover (includes 2 captive screws, secured by C-clips)
+(3)
+Memory/WLAN module compartment cover (includes 3 captive screws, secured by C-clips)
+Plastics Kit 23
+
+--- Page 32 ---
+Cable Kit
+Item Description Spare part number
+ 
+Cable Kit:
+446520-001
+(1)
+LED board cable
+(2)
+Power button board cable
+(3)
+USB/power connector board cable
+(4)
+Audio board cable
+(5)
+Bluetooth module cable
+24 Chapter 3   Illustrated parts catalog
+
+--- Page 33 ---
+Mass storage devices
+Item Description Spare part number
+(1) Hard drives (include hard drive bracket)
+ 
+250-GB, 5400-rpm 453775-001
+  200-GB, 4200-rpm 451863-001
+  160-GB, 5400-rpm 451862-001
+  120-GB, 5400-rpm 446498-001
+  80-GB, 5400-rpm 446497-001
+  60-GB, 5400-rpm 446496-001
+(2) Optical drives  (include bezel and bracket)
+ 
+For use in computer models with Intel processors:  
+ 
+●
+Blu-ray Disc ROM Drive with SuperMulti DVD±R/RW Double-Layer (DL) support
+462453–001
+ 
+●
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive with LightScribe
+446501-001
+ 
+●
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive
+446500-001
+ 
+●
+DVD/CD-RW Combo Drive
+446499-001
+  For use in computer models with AMD processors:  
+ 
+●
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive
+449934-001
+ 
+●
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive with LightScribe
+449936-001
+  ● DVD/CD-RW Combo Drive 455076-01
+Mass storage devices 25
+
+--- Page 34 ---
+Miscellaneous parts
+Description Spare part number
+AC adapters
+ 
+90-W non-PFC AC adapter 432309-001
+90-W PFC AC adapter 453198-001
+65-W non-PFC AC adapter 402018-001
+65-W PFC AC adapter 453199-001
+ATSC/NTSC TV tuner antenna
+439131-001
+ATSC/NTSC/PAL TV tuner
+439130-001
+Composite video cable
+407939-001
+DVB-T tuner
+412175-001
+DVB-T wireless antenna adapter
+412176-001
+ExpressCard Kit (includes software CD)
+445170-001
+HP backpack
+405527-001
+HP carrying case
+418162-001
+HP Remote Control
+435743-001
+Infrared emitter with cable
+439129-001
+Label Kit for computer models with Intel processors
+446525-001
+Label Kit for computer models with AMD processors
+449972-001
+Optical wired mouse
+436238-001
+RF input adapter cable (without ferrite)
+407940-001
+USB digital drive
+364727-002
+Windows Vista remote control (fits inside ExpressCard slot)
+439128-001
+Windows Vista remote control (does not fit inside ExpressCard slot)
+439254-001
+Wired headset
+371693-001
+Wireless laser mouse with cable adapter
+430958-001
+Power cords:
+Australia and New Zealand
+394279-011
+Belgium, Europe, Finland, France, Germany, Greece, the Netherlands, Norway, Portugal, Spain, and
+Sweden
+394279-021
+Canada, French Canada, Latin America, Thailand, and the United States 394279-001
+Denmark 394279-081
+India 394279-D61
+Israel 394279-BB1
+Italy 394279-061
+26 Chapter 3   Illustrated parts catalog
+
+--- Page 35 ---
+Description Spare part number
+Japan 394279-291
+South Korea 394279-AD1
+The People's Republic of China 394279-AA1
+Switzerland 394279-BG1
+Taiwan 394279-AB1
+The United Kingdom and Hong Kong 394279-031
+Screw Kit (see Screw listing on page 101 for more Screw Kit information)
+●
+Hex HM5.0×9.0 standoff
+●
+Phillips PM3.0×3.0 screw
+●
+Phillips PM2.5×10.0 screw
+●
+Phillips PM2.5×7.0 screw
+●
+Phillips PM2.5×5.0 captive screw
+●
+Phillips PM2.5×4.0 captive screw
+●
+Phillips PM2.5×4.0 screw
+●
+Phillips PM2.5×3.0 screw
+●
+Phillips PM2.0×7.0 screw
+●
+Phillips PM2.0×5.0 captive screw
+●
+Phillips PM2.0×3.0 screw
+●
+Phillips PM2.0×2.0 screw
+434983-001
+Sequential part number listing
+Spare part
+number
+Description
+364727-002 USB digital drive
+371693-001 Wired headset with volume control
+394279-001 Power cord for use in the United States
+394279-011 Power cord for use in Australia
+394279-021 Power cord for use in Europe
+394279-031 Power cord for use in the United Kingdom
+394279-061 Power cord for use in Italy
+394279-081 Power cord for use in Denmark
+394279-BG1 Power cord for use in Switzerland
+394279-291 Power cord for use in Japan
+Sequential part number listing 27
+
+--- Page 36 ---
+Spare part
+number
+Description
+394279-AA1 Power cord for use in the People's Republic of China
+394279-AB1 Power cord for use in Taiwan
+394279-AD1 Power cord for use in South Korea
+394279-BB1 Power cord for use in Israel
+394279-D61 Power cord for use in India
+402018-001 65-watt PFC AC adapter
+405527-001 HP backpack
+407939-001 Composite video cable
+407940-001 RF input adapter cable (without ferrite)
+412175-001 DVB-T tuner
+412176-001 DVB-T antenna adapter
+412766-001 Bluetooth module (includes Bluetooth module cable)
+412766-002 Bluetooth module (includes Bluetooth module cable)
+418162-001 HP carrying case
+430958-001 Wireless laser mouse
+431391-001 Display inverter (includes Mylar shield)
+431393-001 Microphone
+431400-001 Display Screw Kit (see Screw listing on page 101 for more Display Screw Kit information)
+431425-001 Switch cover for use in full-featured models (includes LED board and cable)
+431431-001 Rubber Kit (includes base enclosure rubber feet and display bezel screw covers)
+431438-001 Power button board (includes power button board cable)
+431440-001 ExpressCard assembly
+431443-001 Audio board without infrared lens for computer models with Intel processors
+432309-001 90-watt non-PFC AC adapter
+432920-002 Display enclosure for defeatured models
+433283-001 Display bezel for use only with computer models not equipped with microphones
+433284-002 Display bezel for use in full-featured computer models with AMD processors
+433287-001 Display Cable Kit
+433288-001 Display Hinge Kit (includes left and right display hinges)
+434661-001 Broadcom 4321AGN 802.11a/b/g/n module for use in the United States and Canada
+434661-002 Broadcom 4321AGN 802.11a/b/g/n module for use in France, Germany, Italy, the Netherlands, Spain,
+the United Kingdom, Nordic region, and India
+434983-001 Screw Kit
+436238-001 Optical wired mouse
+28 Chapter 3   Illustrated parts catalog
+
+--- Page 37 ---
+Spare part
+number
+Description
+438669-001 Plastics Kit (see Plastics Kit on page 23 for more Plastics Kit information)
+439128-001 Windows Vista remote control (fits inside ExpressCard slot)
+439129-001 Infrared emitter with cable
+439130-001 ATSC/NTSC/PAL TV tuner
+439131-001 ATSC/NTSC TV tuner antenna
+439254-001 Windows Vista remote control (does not fit inside ExpressCard slot)
+441075-001 Broadcom 4311AG 802.11a/b/g module for use in the United States and Canada
+441075-002 Broadcom 4311AG 802.11a/b/g module for use in France, Germany, Italy, the Netherlands, Spain, the
+United Kingdom, Nordic region, and India
+441086-001 Intel 802.11a/b/g/n WLAN module for use in Antigua & Barbuda, Argentina, Aruba, the Bahamas,
+Barbados, Bermuda, Brunei, Canada, the Cayman Islands, Chile, Colombia, Costa Rica, the Dominican
+Republic, Ecuador, El Salvador, Guam, Guatemala, Haiti, Honduras, Hong Kong, India, Indonesia,
+Malaysia, Mexico, Panama, Paraguay, Peru, Saudi Arabia, Taiwan, the United States, Uruguay,
+Venezuela, and Vietnam
+441086-002 Intel 802.11a/b/g/n WLAN module for use in Austria, Azerbaijan, Bahrain, Belgium, Brazil, Bulgaria,
+Croatia, Cyprus, the Czech Republic, Denmark, Egypt, Estonia, Finland, France, Georgia, Germany,
+Greece, Hungary, Iceland, Ireland, Israel, Italy, Latvia, Lebanon, Liechtenstein, Lithuania, Luxembourg,
+Malta, Monaco, the Netherlands, Norway, Oman, the Philippines, Poland, Portugal, Qatar, Romania,
+Russia, Serbia and Montenegro, Singapore, Slovakia, Slovenia, South Africa, Spain, Sri Lanka, Sweden,
+Switzerland, Turkey, Ukraine, the United Kingdom, and Uzbekistan
+441086-003 Intel 802.11a/b/g/n WLAN module for use in Australia, New Zealand, Pakistan, the People's Republic
+of China, and South Korea
+441086-291 Intel 802.11a/b/g/n WLAN module for use in Japan
+441086-AD1 Intel 802.11a/b/g/n WLAN module for use in South Korea
+441087-002 Intel 802.11a/b/g/n WLAN module for use in Austria, Azerbaijan, Bahrain, Belgium, Brazil, Bulgaria,
+Croatia, Cyprus, the Czech Republic, Denmark, Egypt, Estonia, Finland, France, Georgia, Germany,
+Greece, Hungary, Iceland, Ireland, Israel, Italy, Latvia, Lebanon, Liechtenstein, Lithuania, Luxembourg,
+Malta, Monaco, the Netherlands, Norway, Oman, the Philippines, Poland, Portugal, Qatar, Romania,
+Russia, Serbia and Montenegro, Singapore, Slovakia, Slovenia, South Africa, Spain, Sri Lanka, Sweden,
+Switzerland, Turkey, Ukraine, the United Kingdom, and Uzbekistan
+441088-003 Intel 802.11a/b/g/n WLAN module for use in Australia, New Zealand, Pakistan, the People's Republic
+of China, and South Korea
+441089-291 Intel 802.11a/b/g/n WLAN module for use in Japan
+441090-001 Broadcom 802.11b/g WLAN module for use in Canada, the Cayman Islands, Guam, Puerto Rico, the
+U.S. Virgin Islands, and the United States
+441090-002 Broadcom 802.11b/g WLAN module for use in Afghanistan, Albania, Algeria, Andorra, Angola, Antigua
+& Barbuda, Argentina, Armenia, Aruba, Australia, Austria, Azerbaijan, the Bahamas, Bahrain,
+Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bermuda, Bhutan, Bolivia, Bosnia & Herzegovina
+Botswana, Brazil, the British Virgin Islands, Brunei, Bulgaria, Burkina Faso, Burundi, Cambodia,
+Cameroon, Cape Verde, the Central African Republic, Chad, Chile, Colombia, Comoros, the Congo,
+Costa Rica, Croatia, Cyprus, the Czech Republic, Denmark, Djibouti, Dominica, the Dominican Republic,
+East Timor, Ecuador, Egypt, El Salvador, Equitorial Guinea, Eritrea, Estonia, Ethiopia, Fiji, Finland, France,
+French Guiana, Gabon, Gambia, Georgia, Germany, Ghana, Gibraltar, Greece, Grenada, Guadeloupe,
+Guatemala, Guinea, Guinea-Bissa, Guyana, Haiti, Honduras, Hong Kong, Hungary, Iceland, India,
+Indonesia, Ireland, Israel, Italy, the Ivory Coast, Jamaica, Jordan, Kazakhstan, Kenya, Kiribati, Kuwait,
+Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Liechtenstein, Lithuania, Luxembourg, Macedonia,
+Madagascar, Malawi, Malaysia, the Maldives, Mali, Malta, the Marshall Islands, Martinique, Mauritania,
+Sequential part number listing 29
+
+--- Page 38 ---
+Spare part
+number
+Description
+Mauritius, Mexico, Micronesia, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia,
+Nauru, Nepal, the Nether Antilles, the Netherlands, New Zealand, Nicaragua, Niger, Nigeria, Norway,
+Oman, Palau, Panama, Papua New Guinea, Paraguay, the People's Republic of China, Peru, the
+Philippines, Poland, Portugal, Qatar, the Republic of Moldova, Romania, Russia, Rwanda, Samoa, San
+Marino, Sao Tome & Principe, Saudi Arabia, Senegal, Serbia and Montenegro, the Seychelles, Sierra
+Leone, Singapore, Slovakia, Slovenia, the Solomon Islands, Somalia, South Africa, South Korea, Spain,
+Sri Lanka, St. Kitts & Nevis, St. Lucia, St. Vincent & Grenada, Suriname, Swaziland, Sweden, Switzerland,
+Taiwan, Tajikistan, Tanzania, Thailand, Togo, Tonga, Trinidad & Tobago, Tunisia, Turkey, Turkmenistan,
+Tuvalu, Uganda, Ukraine, the United Arab Emirates, the United Kingdom, Uruguay, Uzbekistan, Vanuatu,
+Venezuela, Vietnam, Yemen, Zaire, Zambia, and Zimbabwe
+441090-291 Broadcom 802.11b/g WLAN module for use in Japan
+441428-001 Keyboard for use in the United States
+441428-031 Keyboard for use in the United Kingdom
+441428-051 Keyboard for use in France
+441428-061 Keyboard for use in Italy
+441428-071 Keyboard for use in Spain
+441428-121 Keyboard for use in French Canada
+441428-141 Keyboard for use in Turkey
+441428-161 Keyboard for use in Latin America
+441428-171 Keyboard for use in Saudi Arabia
+441428-281 Keyboard for use in Thailand
+441428-AB1 Keyboard for use in Taiwan
+441428-AD1 Keyboard for use in Thailand
+441428-B31 Keyboard for international use
+441428-DH1 Keyboard for use in Finland, Norway, and Sweden
+445170-001 ExpressCard Kit (includes software CD)
+446475-001 System board for use in computer models with Intel processors
+446478-001 Intel Core Duo T7300 2.0-GHz processor (4-MB L2 cache; includes thermal material)
+446479-001 Intel Core Duo T7100 1.8-GHz processor (2-MB L2 cache; includes thermal material)
+446480-001 15.4-inch, WXGA, SVA, TFT BrightView display panel (includes display panel cable)
+446485-001 15.4-inch, WXGA, BrightView display assembly (includes microphones)
+446488-001 Display enclosure for full-featured models
+446494-001 512-MB memory module (667-MHz, PC2-5300, 1-DIMM)
+446495-001 1024-MB memory module (667-MHz, PC2-5300, 1-DIMM)
+446496-001 60-GB, 5400-rpm hard drive (includes hard drive bracket)
+446497-001 80-GB, 5400-rpm hard drive (includes hard drive bracket)
+446498-001 120-GB, 5400-rpm hard drive (includes hard drive bracket)
+446503-001 DVD/CD-RW Combo Drive for use in computer models with Intel processors
+30 Chapter 3   Illustrated parts catalog
+
+--- Page 39 ---
+Spare part
+number
+Description
+446504-001 DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive for use in computer models with Intel
+processors
+446505-001 DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive for use in computer models with Intel
+processors
+446506-001 6-cell, 2.20-AH battery
+446507-001 6-cell, 2.55-AH battery
+446510-001 Top cover (includes speakers and TouchPad and cable)
+446518-001 RTC battery (includes 2-sided tape)
+446520-001 Cable Kit (see Cable Kit on page 24 for more Cable Kit information)
+446522-001 Fan/heat sink assembly for use in computer models with Intel processors (includes thermal material)
+446525-001 Label Kit for computer models with Intel processors
+447444-001 USB/power connector board (includes USB/power connector board cable)
+448343-001 Base enclosure for use in full-featured computer models (includes infrared lens and wireless on/off
+switch)
+449453-001 Audio board with infrared lens for use in computer models with Intel processors
+449726-001 Wireless Antenna Kit for use only with computer models equipped with an 802.11a/b/g or 802.11b/g
+WLAN module (includes 2 wireless antenna transceivers and cables)
+449728-001 Wireless Antenna Kit for use only with computer models equipped with an 802.11a/b/g/n WLAN module
+(includes 3 wireless antenna transceivers and cables)
+449729-001 RTC battery
+449901-001 System board for use only in computer models with AMD processors equipped with UMA graphics
+subsystem memory
+449904-001 AMD Turion MK-38 processor (2.2-GHz, 512-MB L2 cache)
+449934-001 DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive for use in computer models with AMD
+processors
+449936-001 DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive with LightScribe for use in computer models
+with AMD processors
+449956-001 Cable Kit (see Cable Kit on page 24 for more Cable Kit information)
+449961-001 Fan/heat sink assembly for use in computer models with AMD processors (includes thermal material)
+449967-001 Audio board for use in defeatured computer models with AMD processors (includes audio connectors,
+audio board cable, and infrared lens)
+449972-001 Display Label Kit for computer models with AMD processors
+450370-001 Processor bracket
+450371-001 Processor bracket for use with 8.1 processors
+450801-001 AMD Turion TL-56 processor (1.8-GHz, 1-MB L2 cache)
+450802-001 AMD Turion TL-58 processor (1.9-GHz, 1-MB L2 cache)
+450803-001 AMD Turion TL-60 processor (2.0-GHz, 1-MB L2 cache)
+450804-001 AMD Turion TL-66 processor (2.3-GHz, 1-MB L2 cache)
+Sequential part number listing 31
+
+--- Page 40 ---
+Spare part
+number
+Description
+451010-001 Switch cover for use in full-featured models (includes LED board)
+451013-001 AMD Athlon TK-53 processor (1.7-GHz. 512-MB L2 cache)
+451407-001 Top cover for use in defeatured computer models with AMD processors (includes speakers and TouchPad
+and cable)
+451861-001 Intel 802.11a/b/g WLAN module for use in Antigua and Barbuda, Argentina, Australia, the Bahamas,
+Barbados, Brunei, Canada, Chile, the Dominican Republic, Guam, Guatemala, Hong Kong, India,
+Indonesia, Malaysia, Mexico, New Zealand, Panama, Paraguay, Saudi Arabia, Taiwan, the United
+States, and Vietnam
+451861-002 Intel 802.11a/b/g WLAN module for use in Aruba, Austria, Azerbaijan, Bahrain, Belgium, Bermuda,
+Brazil, Bulgaria, the Cayman Islands, Colombia, Croatia, Cyprus, the Czech Republic, Denmark, Egypt,
+El Salvador, Estonia, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Italy,
+Jordan, Latvia, Lebanon, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, the Netherlands, Norway,
+Oman, the Philippines, Poland, Portugal, Romania, Russia, Serbia and Montenegro, Singapore, Slovakia,
+Slovenia, South Africa, Spain, Sri Lanka, Sweden, Switzerland, Turkey, the United Kingdom, and
+Uzbekistan
+451861-003 Intel 802.11a/b/g WLAN module for use in Ecuador, Haiti, Honduras, Pakistan, the People's Republic
+of China, Peru, Qatar, South Korea, Uruguay, and Venezuela
+451861-004 Intel 802.11b/g WLAN module for use in Thailand
+451861-291 Intel 802.11a/b/g WLAN module for use in Japan
+451862-001 160-GB, 5400-rpm hard drive
+451863-001 200-GB, 4200-rpm hard drive
+451864-001 12-cell, 8.8-AH battery
+453033-001 Intel Core Duo T5250 1.50-GHz processor (2-MB L2 cache, 533-MHz FSB; includes thermal material)
+453198-001 90-watt, PFC AC adapter
+453199-001 65-watt, PFC AC adapter
+453328-001 Display bezel for use only with computer models equipped with microphones
+453770-001 System board for use only in computer models with Intel processors
+453771-001 Intel Core 2 Duo 2.20-GHz processor (4-MB L2 cache, 800-MHz FSB; includes thermal material)
+453772-001 Intel Core 2 Duo 1.50-GHz processor (2-MB L2 cache, 667-MHz FSB; includes thermal material)
+453773–001 Intel Core 2 Duo 1.86-GHz processor (1-MB L2 cache, 533-MHz FSB; includes thermal material)
+453774-001 2048-MB memory module (PC2-5300, 667-MHz, DDR2)
+453775-001 250-GB, 5400-rpm hard drive
+454170-001 Top cover for use in full-featured computer models with AMD processors (includes speakers and TouchPad
+and cable)
+454171-001 Base enclosure for use with defeatured computer models (includes infrared lens and wireless on/off
+switch)
+454176-001 Audio boards for use in full-featured computer models with AMD processors (includes audio board cable)
+455076-001 DVD/CD-RW Combo Drive for use in computer models with AMD processors
+455260-001 Switch cover for use in defeatured models (includes LED board)
+455514–001 Top cover (includes TouchPad)
+32 Chapter 3   Illustrated parts catalog
+
+--- Page 41 ---
+Spare part
+number
+Description
+455515-001 Intel Core 2 Duo 2.00-GHz processor (2-MB L2 cache, 800-MHz FSB; includes thermal material)
+455943–001 Intel Core Duo T2310 1.46-GHz processor (1-MB L2 cache, 533-MHz FSB; includes thermal material)
+455944–001 Intel Core Duo T2330 1.6-GHz processor (1-MB L2 cache, 533-MHz FSB; includes thermal material)
+457315–001 Intel Celeron TM530 1.50-GHz processor (2-MB L2 cache, 533-MHz FSB; includes thermal material))
+457437–001 2048-MB memory module (PC2-5300, 667-MHz)
+462453–001 Blu-ray Disc ROM Drive with SuperMulti DVD±R/RW Double-Layer (DL) support (select models only)
+Sequential part number listing 33
+
+--- Page 42 ---
+4
+Removal and replacement
+procedures
+Preliminary replacement requirements
+Tools required
+You will need the following tools to complete the removal and replacement procedures:
+●
+Magnetic screwdriver
+●
+Phillips P0 and P1 screwdrivers
+●
+Flat-bladed screwdriver
+Service considerations
+The following sections include some of the considerations that you must keep in mind during disassembly
+and assembly procedures.
+NOTE: As you remove each subassembly from the computer, place the subassembly (and all
+accompanying screws) away from the work area to prevent damage.
+Plastic parts
+Using excessive force during disassembly and reassembly can damage plastic parts. Use care when
+handling the plastic parts. Apply pressure only at the points designated in the maintenance instructions.
+34 Chapter 4   Removal and replacement procedures
+
+--- Page 43 ---
+Cables and connectors
+CAUTION: When servicing the computer, be sure that cables are placed in their proper locations
+during the reassembly process. Improper cable placement can damage the computer.
+Cables must be handled with extreme care to avoid damage. Apply only the tension required to unseat
+or seat the cables during removal and insertion. Handle cables by the connector whenever possible. In
+all cases, avoid bending, twisting, or tearing cables. Be sure that cables are routed in such a way that
+they cannot be caught or snagged by parts being removed or replaced. Handle flex cables with extreme
+care; these cables tear easily.
+Drive handling
+CAUTION: Drives are fragile components that must be handled with care. To prevent damage to the
+computer, damage to a drive, or loss of information, observe these precautions:
+Before removing or inserting a hard drive, shut down the computer. If you are unsure whether the computer
+is off or in Hibernation, turn the computer on, and then shut it down through the operating system.
+Before handling a drive, be sure that you are discharged of static electricity. While handling a drive,
+avoid touching the connector.
+Before removing a diskette drive or optical drive, be sure that a diskette or disc is not in the drive and be
+sure that the optical drive tray is closed.
+Handle drives on surfaces covered with at least one inch of shock-proof foam.
+Avoid dropping drives from any height onto any surface.
+After removing a hard drive, an optical drive, or a diskette drive, place it in a static-proof bag.
+Avoid exposing a hard drive to products that have magnetic fields, such as monitors or speakers.
+Avoid exposing a drive to temperature extremes or liquids.
+If a drive must be mailed, place the drive in a bubble pack mailer or other suitable form of protective
+packaging and label the package “FRAGILE.”
+Preliminary replacement requirements 35
+
+--- Page 44 ---
+Grounding guidelines
+Electrostatic discharge damage
+Electronic components are sensitive to electrostatic discharge (ESD). Circuitry design and structure
+determine the degree of sensitivity. Networks built into many integrated circuits provide some protection,
+but in many cases, ESD contains enough power to alter device parameters or melt silicon junctions.
+A discharge of static electricity from a finger or other conductor can destroy static-sensitive devices or
+microcircuitry. Even if the spark is neither felt nor heard, damage may have occurred.
+An electronic device exposed to ESD may not be affected at all and can work perfectly throughout a
+normal cycle. Or the device may function normally for a while, then degrade in the internal layers,
+reducing its life expectancy.
+CAUTION: To prevent damage to the computer when you are removing or installing internal
+components, observe these precautions:
+Keep components in their electrostatic-safe containers until you area ready to install them.
+Use nonmagnetic tools.
+Before touching an electronic component, discharge static electricity by using the guidelines described in
+this section.
+Avoid touching pins, leads, and circuitry. Handle electronic components as little as possible.
+If you remove a component, place it in an electrostatic-safe container.
+The following table shows how humidity affects the electrostatic voltage levels generated by different
+activities.
+CAUTION: A product can be degraded by as little as 700 V.
+Typical electrostatic voltage levels
+  Relative humidity
+Event 10% 40% 55%
+Walking across carpet 35,000 V 15,000 V 7,500 V
+Walking across vinyl floor 12,000 V 5,000 V 3,000 V
+Motions of bench worker 6,000 v 800 V 400 V
+Removing DIPS from plastic tube 2,000 V 700 V 400 V
+Removing DIPS from vinyl tray 11,500 V 4,000 V 2,000 V
+Removing DIPS from Styrofoam 14,500 V 5,000 V 3,500 V
+Removing bubble pack from PCB 26,500 V 20,000 V 7,000 V
+Packing PCBs in foam-lined box 21,000 V 11,000 V 5,000 V
+36 Chapter 4   Removal and replacement procedures
+
+--- Page 45 ---
+Packaging and transporting guidelines
+Follow these grounding guidelines when packaging and transporting equipment:
+●
+To avoid hand contact, transport products in static-safe tubes, bags, or boxes.
+●
+Protect ESD-sensitive parts and assemblies with conductive or approved containers or packaging.
+●
+Keep ESD-sensitive parts in their containers until the parts arrive at static-free workstations.
+●
+Place items on a grounded surface before removing items from their containers.
+●
+Always be properly grounded when touching a component or assembly.
+●
+Store reusable ESD-sensitive parts from assemblies in protective packaging or nonconductive foam.
+●
+Use transporters and conveyors made of antistatic belts and roller bushings. Be sure that mechanized
+equipment used for moving materials is wired to ground and that proper materials are selected to
+avoid static charging. When grounding is not possible, use an ionizer to dissipate electric charges.
+Workstation guidelines
+Follow these grounding workstation guidelines:
+●
+Cover the workstation with approved static-shielding material.
+●
+Use a wrist strap connected to a properly grounded work surface and use properly grounded tools
+and equipment.
+●
+Use conductive field service tools, such as cutters, screwdrivers, and vacuums.
+●
+When fixtures must directly contact dissipative surfaces, use fixtures made only of static-safe
+materials.
+●
+Keep the work area free of nonconductive materials, such as ordinary plastic assembly aids and
+Styrofoam.
+●
+Handle ESD-sensitive components, parts, and assemblies by the case or PCM laminate. Handle these
+items only at static-free workstations.
+●
+Avoid contact with pins, leads, or circuitry.
+●
+Turn off power and input signals before inserting or removing connectors or test equipment.
+Preliminary replacement requirements 37
+
+--- Page 46 ---
+Equipment guidelines
+Grounding equipment must include either a wrist strap or a foot strap at a grounded workstation.
+●
+When seated, wear a wrist strap connected to a grounded system. Wrist straps are flexible straps
+with a minimum of one megohm ±10% resistance in the ground cords. To provide proper ground,
+wear a strap snugly against the skin at all times. On grounded mats with banana-plug connectors,
+use alligator clips to connect a wrist strap.
+●
+When standing, use foot straps and a grounded floor mat. Foot straps (heel, toe, or boot straps) can
+be used at standing workstations and are compatible with most types of shoes or boots. On
+conductive floors or dissipative floor mats, use foot straps on both feet with a minimum of one megohm
+resistance between the operator and ground. To be effective, the conductive strips must be worn in
+contact with the skin.
+The following grounding equipment is recommended to prevent electrostatic damage:
+●
+Antistatic tape
+●
+Antistatic smocks, aprons, and sleeve protectors
+●
+Conductive bins and other assembly or soldering aids
+●
+Nonconductive foam
+●
+Conductive tabletop workstations with ground cords of one megohm resistance
+●
+Static-dissipative tables or floor mats with hard ties to the ground
+●
+Field service kits
+●
+Static awareness labels
+●
+Material-handling packages
+●
+Nonconductive plastic bags, tubes, or boxes
+●
+Metal tote boxes
+●
+Electrostatic voltage levels and protective materials
+The following table lists the shielding protection provided by antistatic bags and floor mats.
+Material Use Voltage protection level
+Antistatic plastic Bags 1,500 V
+Carbon-loaded plastic Floor mats 7,500 V
+Metallized laminate Floor mats 5,000 V
+38 Chapter 4   Removal and replacement procedures
+
+--- Page 47 ---
+Unknown user password
+If the computer you are servicing has an unknown user password, follow these steps to clear the password.
+NOTE: These steps also clear CMOS.
+Before disassembling the computer, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the RTC battery (see 
+RTC battery on page 46).
+6.
+Wait approximately 5 minutes.
+7.
+Replace the RTC battery and reassemble the computer.
+8.
+Connect AC power to the computer. Do not reinsert any batteries at this time.
+9.
+Turn on the computer.
+All passwords and all CMOS settings have been cleared.
+Preliminary replacement requirements 39
+
+--- Page 48 ---
+Component replacement procedures
+This chapter provides removal and replacement procedures.
+There are as many as 87 screws and standoffs, in 13 different sizes, that must be removed, replaced, or
+loosened when servicing the computer. Make special note of each screw and standoff size and location
+during removal and replacement.
+Serial number
+Report the computer serial number to HP when requesting information or ordering spare parts. The serial
+number is located on the bottom of the computer.
+40 Chapter 4   Removal and replacement procedures
+
+--- Page 49 ---
+Battery
+Description Spare part number
+12-cell, 8.80-Ah Li-ion battery 451864-001
+6-cell, 2.55-Ah Li-ion battery 446507-001
+6-cell, 2.20-Ah Li-ion battery 446506-001
+Before disassembling the computer, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+Remove the battery:
+1.
+Turn the computer upside down on a flat surface.
+2. Slide the battery release latch (1) to release the battery.
+3. Pivot the battery (2) upward and remove it from the computer.
+To insert the battery, insert the rear edge of the battery into the battery bay and pivot the battery downward
+until it is seated. The battery release latch automatically locks the battery into place.
+Component replacement procedures 41
+
+--- Page 50 ---
+Hard drive
+NOTE: All hard drive spare part kits include a hard drive bracket.
+Description Spare part number
+250-GB, 5400-rpm 453775-001
+200-GB, 4200-rpm 451863-001
+160-GB, 5400-rpm 451862-001
+120-GB, 5400-rpm 446498-001
+80-GB, 5400-rpm 446497-001
+60-GB, 5400-rpm 446496-001
+Before removing the hard drive, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+Remove the hard drive:
+1. Loosen the two Phillips PM2.0×5.0 screws (1) that secure the hard drive cover to the computer.
+2. Lift the right side of the hard drive cover (2), swing it to left, and remove the cover.
+3.
+Remove the hard drive cover.
+NOTE: The hard drive cover is included in the Plastics Kit, spare part number 438669-001.
+42 Chapter 4   Removal and replacement procedures
+
+--- Page 51 ---
+4. Use the Mylar tab (1) to lift the hard drive (2) until it disconnects from the computer.
+5.
+Remove the hard drive.
+6. If it is necessary to remove the hard drive bracket, remove the four Phillips PM3.0×3.0 screws (1)
+that secure the hard drive bracket to the hard drive.
+7. Lift the bracket (2) straight up to remove it from the hard drive.
+Reverse this procedure to reassemble and install the hard drive.
+Component replacement procedures 43
+
+--- Page 52 ---
+Computer feet
+Description Spare part number
+Rubber Kit (includes base enclosure rubber feet and display bezel screw covers) 431431-001
+The computer feet are adhesive-backed rubber pads. The feet attach to the base enclosure in the locations
+illustrated below.
+Memory module
+Description Spare part number
+2048-MB (PC2-5300, 667-MHz, 1-DIMM) 453774-001 and
+457437–001
+1024-MB (PC2-5300, 667-MHz, 1-DIMM) 446495-001
+512-MB (PC2-5300, 667-MHz, 1-DIMM) 446494-001
+Before removing the memory module, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+Remove the memory module:
+1. Loosen the three Phillips PM2.0×5.0 screws (1) that secure the memory/WLAN module compartment
+cover to the computer.
+44 Chapter 4   Removal and replacement procedures
+
+--- Page 53 ---
+2. Lift the left side of the cover (2), swing it to the right, and remove the cover.
+3.
+Remove the memory/WLAN module compartment cover.
+NOTE: The memory/WLAN module compartment cover is included in the Plastics Kit, spare part
+number 438669-001.
+4. Spread the retaining tabs (1) on each side of the memory module slot to release the memory module.
+(The edge of the module opposite the slot rises away from the computer.)
+5. Remove the module (2) by pulling it away from the slot at an angle.
+NOTE: Memory modules are designed with a notch (3) to prevent incorrect installation into the
+memory module slot.
+Reverse this procedure to install a memory module.
+Component replacement procedures 45
+
+--- Page 54 ---
+RTC battery
+NOTE: Removing the RTC battery and leaving it uninstalled for 5 or more minutes causes all passwords
+and CMOS settings to be cleared.
+Description Spare part number
+RTC battery (includes 2-sided tape) 446518-001 and
+449729-001
+Before removing the RTC battery, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the memory/WLAN module compartment cover (see 
+Memory module on page 44).
+Remove the RTC battery:
+1. Disconnect the RTC battery cable (1) from the system board.
+2. Remove the RTC battery (2).
+NOTE: The RTC battery is secured to the computer by 2-sided tape. All replacement RTC battery
+spare part kits include 2-sided tape.
+Reverse this procedure to install the RTC battery.
+46 Chapter 4   Removal and replacement procedures
+
+--- Page 55 ---
+WLAN module
+Description Spare part number
+Intel 802.11a/b/g/n WLAN modules:
+●
+For use in Antigua & Barbuda, Argentina, Aruba, the Bahamas, Barbados, Bermuda, Brunei,
+Canada, the Cayman Islands, Chile, Colombia, Costa Rica, the Dominican Republic, Ecuador,
+El Salvador, Guam, Guatemala, Haiti, Honduras, Hong Kong, India, Indonesia, Malaysia,
+Mexico, Panama, Paraguay, Peru, Saudi Arabia, Taiwan, the United States, Uruguay,
+Venezuela, and Vietnam
+441086-001
+●
+For use in Austria, Azerbaijan, Bahrain, Belgium, Brazil, Bulgaria, Croatia, Cyprus, the Czech
+Republic, Denmark, Egypt, Estonia, Finland, France, Georgia, Germany, Greece, Hungary,
+Iceland, Ireland, Israel, Italy, Latvia, Lebanon, Liechtenstein, Lithuania, Luxembourg, Malta,
+Monaco, the Netherlands, Norway, Oman, the Philippines, Poland, Portugal, Qatar, Romania,
+Russia, Serbia and Montenegro, Singapore, Slovakia, Slovenia, South Africa, Spain, Sri Lanka,
+Sweden, Switzerland, Turkey, Ukraine, the United Kingdom, and Uzbekistan
+441086-002 and
+441087-002
+●
+For use in Australia, New Zealand, Pakistan, the People's Republic of China, and South Korea
+441086-003 and
+441088-003
+● For use in Japan 441086-291 and
+441089-291
+●
+For use in South Korea
+441086-AD1
+Intel 802.11a/b/g WLAN modules:
+●
+For use in Antigua & Barbuda, Argentina, Australia, the Bahamas, Barbados, Brunei, Canada,
+Chile, the Dominican Republic, Guam, Guatemala, Hong Kong, India, Indonesia, Malaysia,
+Mexico, New Zealand, Panama, Paraguay, Saudi Arabia, Taiwan, the United States, and
+Vietnam
+451861-001
+●
+For use in Aruba, Austria, Azerbaijan, Bahrain, Belgium, Bermuda, Brazil, Bulgaria, the Cayman
+Islands, Colombia, Croatia, Cyprus, the Czech Republic, Denmark, Egypt, El Salvador, Estonia,
+Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Italy, Jordan, Latvia,
+Lebanon, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, the Netherlands, Norway,
+Oman, the Philippines, Poland, Portugal, Romania, Russia, Serbia and Montenegro, Singapore,
+Slovakia, Slovenia, South Africa, Spain, Sri Lanka, Sweden, Switzerland, Turkey, the United
+Kingdom, and Uzbekistan
+451861-002
+●
+For use in Ecuador, Haiti, Honduras, Pakistan, the People's Republic of China, Peru, Qatar, South
+Korea, Uruguay, and Venezuela
+451861-003
+●
+For use in Japan
+451861-291
+Broadcom 802.11b/g WLAN modules:
+●
+For use in Canada, the Cayman Islands, Guam, Puerto Rico, the U.S. Virgin Islands, and the
+United States
+441090-001
+●
+For use in Afghanistan, Albania, Algeria, Andorra, Angola, Antigua & Barbuda, Argentina,
+Armenia, Aruba, Australia, Austria, Azerbaijan, the Bahamas, Bahrain, Bangladesh, Barbados,
+Belarus, Belgium, Belize, Benin, Bermuda, Bhutan, Bolivia, Bosnia & Herzegovina Botswana,
+Brazil, the British Virgin Islands, Brunei, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon,
+Cape Verde, the Central African Republic, Chad, Chile, Colombia, Comoros, the Congo, Costa
+Rica, Croatia, Cyprus, the Czech Republic, Denmark, Djibouti, Dominica, the Dominican
+Republic, East Timor, Ecuador, Egypt, El Salvador, Equitorial Guinea, Eritrea, Estonia, Ethiopia,
+Fiji, Finland, France, French Guiana, Gabon, Gambia, Georgia, Germany, Ghana, Gibraltar,
+Greece, Grenada, Guadeloupe, Guatemala, Guinea, Guinea-Bissa, Guyana, Haiti, Honduras,
+Hong Kong, Hungary, Iceland, India, Indonesia, Ireland, Israel, Italy, the Ivory Coast, Jamaica,
+Jordan, Kazakhstan, Kenya, Kiribati, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho,
+Liberia, Liechtenstein, Lithuania, Luxembourg, Macedonia, Madagascar, Malawi, Malaysia, the
+Maldives, Mali, Malta, the Marshall Islands, Martinique, Mauritania, Mauritius, Mexico,
+Micronesia, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nauru,
+441090-002
+Component replacement procedures 47
+
+--- Page 56 ---
+Description Spare part number
+Nepal, the Nether Antilles, the Netherlands, New Zealand, Nicaragua, Niger, Nigeria,
+Norway, Oman, Palau, Panama, Papua New Guinea, Paraguay, the People's Republic of China,
+Peru, the Philippines, Poland, Portugal, Qatar, the Republic of Moldova, Romania, Russia,
+Rwanda, Samoa, San Marino, Sao Tome & Principe, Saudi Arabia, Senegal, Serbia and
+Montenegro, the Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, the Solomon Islands,
+Somalia, South Africa, South Korea, Spain, Sri Lanka, St. Kitts & Nevis, St. Lucia, St. Vincent &
+Grenada, Suriname, Swaziland, Sweden, Switzerland, Taiwan, Tajikistan, Tanzania, Thailand,
+Togo, Tonga, Trinidad & Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, the
+United Arab Emirates, the United Kingdom, Uruguay, Uzbekistan, Vanuatu, Venezuela, Vietnam,
+Yemen, Zaire, Zambia, and Zimbabwe
+●
+For use in Japan
+441090-291
+802.11b/g WLAN module for use in Thailand 451861-004
+Broadcom 4311AG 802.11a/b/g modules:  
+●
+For use in the United States and Canada
+441075-001
+● For use in France, Germany, Italy, the Netherlands, Spain, the United Kingdom, Nordic region,
+and India
+441075-002
+Broadcom 4321AGN 802.11a/b/g/n modules:  
+●
+For use in the United States and Canada
+434661-001
+●
+For use in France, Germany, Italy, the Netherlands, Spain, the United Kingdom, Nordic region,
+and India
+434661-002
+Before removing the WLAN module, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the memory/WLAN module compartment cover (see 
+Memory module on page 44).
+Remove the WLAN module:
+1. Disconnect the two WLAN antenna cables (1) from the WLAN module.
+NOTE: The black WLAN antenna cable is connected to the WLAN module “Main” terminal. The
+gray WLAN antenna cable is connected to the WLAN module “Aux” terminal.
+NOTE: Computer models equipped with an 802.11a/b/g/n WLAN module have an additional
+wireless antenna cable (2), yellow in color.
+2. Remove the two Phillips PM2.0×3.0 screws (3) that secure the WLAN module to the computer. (The
+edge of the module opposite the slot rises away from the computer.)
+48 Chapter 4   Removal and replacement procedures
+
+--- Page 57 ---
+3. Remove the WLAN module (4) by pulling it away from the slot at an angle.
+NOTE: WLAN modules are designed with a notch (5) to prevent incorrect installation into the
+WLAN module slot.
+Reverse this procedure to install a WLAN module.
+Component replacement procedures 49
+
+--- Page 58 ---
+Optical drive
+NOTE: All optical drive spare part kits include an optical drive bezel.
+Description Spare part number
+For use in computer models with Intel processors:
+ 
+Blu-ray Disc ROM Drive with SuperMulti DVD±R/RW Double-Layer (DL) support 462453-001
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive with LightScribe 446505-001
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive 446504-001
+DVD/CD-RW Combo Drive 446503-001
+For use in computer models with AMD processors:
+ 
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive 449934-001
+DVD±RW and CD-RW SuperMulti Double-Layer Combo Drive with LightScribe 449936-001
+DVD/CD-RW Combo Drive 455076-001
+Before removing the optical drive, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+Remove the optical drive:
+1.
+Position the computer with right side toward you.
+2. Remove the Phillips PM2.5×7.0 screw (1) that secures the optical drive to the computer.
+3. Insert a thin tool, such as a paper clip (2), into the disc tray release access. (The optical drive disc
+tray is partially ejected from the optical drive.)
+4. Use the disc tray frame to slide the optical drive (3) out of the computer.
+50 Chapter 4   Removal and replacement procedures
+
+--- Page 59 ---
+5.
+Remove the optical drive.
+6.
+If it is necessary to replace the optical drive bracket, position the optical drive with the optical drive
+bracket toward you.
+7. Remove the two Phillips PM2.0×3.0 screws (1) that secure the optical drive bracket to the optical
+drive.
+8. Remove the optical drive bracket (2).
+Reverse the above procedure to reassemble and install the optical drive.
+Component replacement procedures 51
+
+--- Page 60 ---
+Switch cover
+Description Spare part number
+Switch cover for use in full-featured computer models (includes LED board and cable) 431425-001 and
+451010-001
+Switch cover for use in defeatured computer models (includes LED board and cable) 455260-001
+Before removing the switch cover, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+Remove the switch cover:
+1. Remove the two Phillips PM2.5×10.0 screws (1) and the Phillips PM2.5×4.0 screw (2) that secure
+the switch cover to the computer.
+2.
+Turn the computer display-side up, with the front toward you.
+3.
+Open the computer as far as possible.
+52 Chapter 4   Removal and replacement procedures
+
+--- Page 61 ---
+4.
+Lift the rear edge of the switch cover and swing it forward until it rests on the keyboard.
+5. Release the zero insertion force (ZIF) connector (1) to which the LED board cable is connected, and
+disconnect the cable (2) from the LED board.
+6.
+Remove the switch cover.
+Reverse this procedure to install the switch cover.
+Component replacement procedures 53
+
+--- Page 62 ---
+Keyboard
+Description
+For use in: Spare part
+number
+For use in: Spare part
+number
+Finland, Norway, and Sweden 441428-DH1 Saudi Arabia 441428-171
+France 441428-051 Spain 441428-071
+French Canada 441428-121 Taiwan 441428-AB1
+International 441428-B31 Thailand 441428-281
+Italy 441428-061 Turkey 441428-141
+South Korea 441428-AD1 The United Kingdom 441428-031
+Latin America 441428-161 The United States 441428-001
+Before removing the keyboard, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the switch cover (see 
+Switch cover on page 52).
+Remove the keyboard:
+1.
+Turn the computer upside down, with the front toward you.
+2.
+Remove the three Phillips PM2.5×7.0 screws that secure the keyboard to the computer.
+3.
+Turn the computer display-side up, with the front toward you.
+54 Chapter 4   Removal and replacement procedures
+
+--- Page 63 ---
+4.
+Open the computer as far as possible.
+5. Lift the rear edge of the keyboard (1) until it rests at an angle.
+6. Release the keyboard (2) by sliding it back to disengage the tabs on the front edge of the keyboard
+from the top cover.
+7. Swing the keyboard (3) up and forward until it rests on the palm rest.
+8. Release the ZIF connector (1) to which the keyboard cable is attached, and disconnect the keyboard
+cable (2) from the system board.
+9.
+Remove the keyboard.
+Reverse this procedure to install the keyboard.
+Component replacement procedures 55
+
+--- Page 64 ---
+Power button board
+Description Spare part number
+Power button board (includes power button board cable) 431438-001
+Before removing the power button board, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the switch cover (see 
+Switch cover on page 52).
+6.
+Remove the keyboard (see 
+Keyboard on page 54).
+Remove the power button board:
+1. Remove the Phillips PM2.5×4.0 screw (1) that secures the power button board to the fan/heat sink
+assembly.
+2. Release the power button board (2) from the computer as far as the cables allow.
+3. Disconnect the microphone cable (1) and the speaker cable (2) from the power button board.
+4. Release the ZIF connector (3) to which the power button board cable is connected, and disconnect
+the cable.
+56 Chapter 4   Removal and replacement procedures
+
+--- Page 65 ---
+5. Remove the power button board (4).
+Reverse this procedure to install the power button board.
+Component replacement procedures 57
+
+--- Page 66 ---
+Display assembly
+Description Spare part number
+15.4-inch, WXGA, BrightView display assembly (includes microphones) 446485-001
+Before removing the display assembly, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Disconnect the WLAN antenna cables from the WLAN module (see 
+WLAN module on page 47).
+6.
+Remove the following components:
+a.
+Switch cover (see 
+Switch cover on page 52)
+b.
+Keyboard (see 
+Keyboard on page 54)
+Remove the display assembly:
+1. Disconnect the display panel cable (1) from the system board.
+2. Disconnect the microphone cable (2) from the power button board.
+3. Remove the wireless antenna cables (3) from the clips in the top cover.
+CAUTION: Support the display assembly when removing the following screws. Failure to support
+the display assembly can result in damage to the display assembly and other computer components.
+4. Remove the four Phillips PM2.5×7.0 screws (1) that secure the display assembly to the computer.
+58 Chapter 4   Removal and replacement procedures
+
+--- Page 67 ---
+5. Remove the display assembly (2).
+6.
+If it is necessary to replace the display bezel or any of the display assembly internal components,
+remove the following screw covers:
+(1) Four covers on the top edge of the bezel
+(2) Two covers on the lower bezel edges
+(3) Two covers on the lower-inside edge of the bezel
+The display rubber screw covers are included in the Display Screw Kit, spare part number
+431400-001.
+Component replacement procedures 59
+
+--- Page 68 ---
+7.
+Remove the eight Phillips PM2.5×7.0 screws that secure the display bezel to the display assembly.
+8. Flex the inside edges of the left and right sides (1) and the top and bottom sides (2) of the display
+bezel until the bezel disengages from the display enclosure.
+9. Remove the display bezel (3). The display bezels are available using spare part numbers
+433283-001 and 453328-001 for models with Intel processors, and 433284-002 for full-featured
+models with AMD processors.
+10. If it is necessary to replace the display inverter, remove the inverter (1) from the display enclosure
+as far as the display panel cable and the backlight cable allow.
+60 Chapter 4   Removal and replacement procedures
+
+--- Page 69 ---
+11. Disconnect the display panel cable (2) and the backlight cable (3) from the inverter.
+12.
+Remove the display inverter. The display inverter is available using spare part number
+431391-001.
+13. If it is necessary to replace the display panel, remove the four Phillips PM2.5×4.0 screws (1) that
+secure the display panel to the display enclosure.
+14. Remove the display panel (2). The display panel is available using spare part number
+446480-001.
+15. If it is necessary to replace the display hinges, remove the two Phillips PM2.0×3.0 screws (1) that
+secure each display hinge to the display panel.
+Component replacement procedures 61
+
+--- Page 70 ---
+16. Remove the display hinges (2). The display hinges are available using spare part number
+433288-001.
+17.
+If it is necessary to replace the wireless antenna transceivers and cables, remove the Phillips
+PM2.0×3.0 screw (1) that secures each transceiver to the display enclosure.
+18. Release the retention tabs (2) built into the display enclosure that secure the wireless antenna cables
+and remove the cables from the tabs.
+19. Detach the wireless antenna transceivers (3) from the display enclosure. The wireless antenna
+transceivers and cables are available using spare part numbers 449728-001 (for use only with
+computer models equipped with an 802.11a/b/g/n WLAN module) and 449726-001 (for use only
+with computer models equipped with an 802.11a/b/g or 802.11b/g WLAN module).
+20.
+Remove the wireless antenna transceivers and cables.
+21. If it is necessary to replace the microphones and cables, release the retention tabs (1) built into the
+display enclosure that secure the microphone cables to the display enclosure.
+22. Remove the microphone receivers (2) from the clips in the display enclosure.
+62 Chapter 4   Removal and replacement procedures
+
+--- Page 71 ---
+23. Remove the microphone cables (3) from the display enclosure. The microphones and cables are
+available using spare part number 431393-001.
+Reverse this procedure to reassemble and install the display assembly.
+Component replacement procedures 63
+
+--- Page 72 ---
+Top cover
+Description Spare part number
+Top cover for use with computer models with Intel processors (includes speakers and TouchPad and
+cable)
+446510-001 and
+455514–001
+Top cover for use in computer models with AMD processors:  
+●
+Full-featured models
+454170-001
+●
+Defeatured models 451407-001
+Before removing the top cover, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the following components:
+a.
+Hard drive (see 
+Hard drive on page 42)
+b.
+Optical drive (see 
+Optical drive on page 50)
+c.
+Switch cover (see 
+Switch cover on page 52)
+d.
+Keyboard (see 
+Keyboard on page 54)
+e.
+Display assembly (see 
+Display assembly on page 58)
+Remove the top cover:
+1.
+Turn the computer upside down, with the front toward you.
+2.
+Remove the nine Phillips PM2.5×7.0 screws that secure the top cover to the computer.
+64 Chapter 4   Removal and replacement procedures
+
+--- Page 73 ---
+3.
+Remove the following screws:
+(1) Three Phillips PM2.5×3.0 screws
+(2) Six Phillips PM2.5×4.0 screws
+(3) Two Hex HM5.0×9.0 screw locks
+4.
+Turn the computer right-side up, with the front toward you.
+5. Release the ZIF cable (1) to which the TouchPad cable is connected, and disconnect the TouchPad
+cable (2).
+Component replacement procedures 65
+
+--- Page 74 ---
+6. Remove the two Phillips PM2.5×7.0 screws (1) and the two Phillips PM2.5×4.0 screws (2) that
+secure the top cover to the base enclosure.
+7. Lift the front edge of the top cover (1) until it disengages from the computer.
+8. Remove the top cover (2).
+Reverse this procedure to install the top cover.
+66 Chapter 4   Removal and replacement procedures
+
+--- Page 75 ---
+Bluetooth module
+Description Spare part number
+Bluetooth module (includes Bluetooth module cable) 412766-002
+Before removing the Bluetooth module, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the following components:
+a.
+Hard drive (see 
+Hard drive on page 42)
+b.
+Optical drive (see 
+Optical drive on page 50)
+c.
+Switch cover (see 
+Switch cover on page 52)
+d.
+Keyboard (see 
+Keyboard on page 54)
+e.
+Display assembly (see 
+Display assembly on page 58)
+f.
+Top cover (see 
+Top cover on page 64).
+Remove the Bluetooth module:
+1. Disconnect the Bluetooth module cable (1) from the system board.
+2. Remove the two Phillips PM2.0×2.0 screws (2) that secure the Bluetooth module to the system board.
+3. Remove the Bluetooth module (3).
+Component replacement procedures 67
+
+--- Page 76 ---
+Reverse this procedure to install the Bluetooth module.
+ExpressCard assembly
+Description Spare part number
+ExpressCard assembly 431440-001
+Before removing the ExpressCard assembly, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the following components:
+a.
+Hard drive (see 
+Hard drive on page 42)
+b.
+Optical drive (see 
+Optical drive on page 50)
+c.
+Switch cover (see 
+Switch cover on page 52)
+d.
+Keyboard (see 
+Keyboard on page 54)
+e.
+Display assembly (see 
+Display assembly on page 58)
+f.
+Top cover (see 
+Top cover on page 64).
+Remove the ExpressCard assembly:
+1. Push in on the ExpressCard slot bezel (1) to release the bezel from the ExpressCard slot.
+68 Chapter 4   Removal and replacement procedures
+
+--- Page 77 ---
+2. Remove the ExpressCard slot bezel (2) from the ExpressCard slot.
+NOTE: The ExpressCard slot bezel is included in the Plastics Kit, spare part number 438669-001.
+3. Remove the three Phillips PM2.5×4.0 screws (1) that secure the ExpressCard assembly to the system
+board.
+4. Disconnect the ExpressCard assembly (2) from the system board by sliding it to the right.
+5. Remove the ExpressCard assembly (3).
+Reverse this procedure to install the ExpressCard assembly.
+Component replacement procedures 69
+
+--- Page 78 ---
+USB/power connector board
+Description Spare part number
+USB/power connector board (includes USB/power connector board cable) 447444-001
+Before removing the USB/power connector board, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the following components:
+a.
+Hard drive (see 
+Hard drive on page 42)
+b.
+Optical drive (see 
+Optical drive on page 50)
+c.
+Switch cover (see 
+Switch cover on page 52)
+d.
+Keyboard (see 
+Keyboard on page 54)
+e.
+Display assembly (see 
+Display assembly on page 58)
+f.
+Top cover (see 
+Top cover on page 64).
+Remove the USB/power connector board:
+1. Remove the two Phillips PM2.5×5.0 screws (1) that secure the USB/power connector board to the
+computer.
+2. Release the USB/power connector board (2) as far as the USB/power connector board cable allows.
+70 Chapter 4   Removal and replacement procedures
+
+--- Page 79 ---
+3. Disconnect the USB board cable (3) and the power connector board cable (4) from the USB/power
+connector board.
+4.
+Remove the USB/power connector board.
+Reverse this procedure to install the USB/power connector board.
+System board
+Description Spare part number
+System board for use in computer models with Intel processors 446475-001 and
+453770-001
+System board for use only in computer models with AMD processors in full-featured models equipped
+with UMA graphics subsystem memory:
+449901–001
+Before removing the system board, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the following components:
+a.
+Hard drive (see 
+Hard drive on page 42)
+b.
+Optical drive (see 
+Optical drive on page 50)
+c.
+Switch cover (see 
+Switch cover on page 52)
+d.
+Keyboard (see 
+Keyboard on page 54)
+e.
+Display assembly (see 
+Display assembly on page 58)
+Component replacement procedures 71
+
+--- Page 80 ---
+f.
+Top cover (see 
+Top cover on page 64)
+g.
+Audio board (see 
+Audio board on page 74)
+h.
+USB/power connector board (see 
+USB/power connector board on page 70)
+When replacing the system board, be sure that the following components are removed from the defective
+system board and installed on the replacement system board:
+●
+Memory modules (see 
+Memory module on page 44)
+●
+RTC battery (see 
+RTC battery on page 46)
+●
+WLAN module (see 
+WLAN module on page 47)
+●
+Bluetooth module (see 
+Bluetooth module on page 67)
+●
+ExpressCard assembly (see 
+ExpressCard assembly on page 68)
+●
+Fan/heat sink assembly (see 
+Fan/heat sink assembly on page 75)
+●
+Processor (see 
+Processor on page 78)
+Remove the system board:
+1. Remove the USB/power connector board cable (1) from the clips built into the base enclosure.
+2. Remove the Phillips PM2.5×4.0 screw (2) and the Phillips PM2.0×7.0 screw (3) that secure the
+system board to the base enclosure.
+3. Use the optical drive connector (1) to lift the right side of the system board (2) until it rests at an
+angle.
+4. Disconnect the audio board cable (3) from the system board.
+72 Chapter 4   Removal and replacement procedures
+
+--- Page 81 ---
+5. Release the system board (4) by sliding it to the right until the connectors on the left side of the system
+board disengage from the base enclosure.
+6.
+Remove the system board.
+7.
+If it is necessary to replace the USB/power connector board cable, turn the system board upside
+down with the front toward you.
+8. Disconnect the power connector board cable (1) and the USB board cable (2) from the system
+board.
+Reverse the above procedure to install the system board and USB/power connector board cable.
+Component replacement procedures 73
+
+--- Page 82 ---
+Audio board
+Description Spare part number
+For use only in computer models with Intel processors:  
+●
+In models that include consumer infrared
+449453-001
+●
+In models that do not include consumer infrared lens
+431443-001
+For use only in computer models with AMD processors:  
+●
+In full-featured models equipped with consumer infrared
+454176-001
+●
+In defeatured models equipped with consumer infrared 449967-001
+Before removing the audio board, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the following components:
+a.
+Hard drive (see 
+Hard drive on page 42)
+b.
+Optical drive (see 
+Optical drive on page 50)
+c.
+Switch cover (see 
+Switch cover on page 52)
+d.
+Keyboard (see 
+Keyboard on page 54)
+e.
+Display assembly (see 
+Display assembly on page 58)
+f.
+Top cover (see 
+Top cover on page 64).
+Remove the audio board:
+1. Remove the two Phillips PM2.5×4.0 screws (1) that secure the audio board to the computer.
+2. Release the audio board (2) by sliding it back to disengage the audio connectors from the base
+enclosure.
+74 Chapter 4   Removal and replacement procedures
+
+--- Page 83 ---
+3. Remove the audio board (3) by lifting it straight up.
+Reverse this procedure to install the audio board.
+Fan/heat sink assembly
+Description Spare part number
+Fan/heat sink assembly for use in computer models with Intel processors (includes thermal material) 446522-001
+Fan/heat sink assembly for use in computer models with AMD processors (includes thermal material) 449961-001
+NOTE: When replacing the fan/heat sink assembly, be sure that the power button board is removed
+from the defective fan/heat sink assembly and installed on the replacement fan/heat sink assembly.
+See 
+Power button board on page 56 for power button board removal information.
+NOTE: To properly ventilate the computer, allow at least a 7.6-cm (3-inch) clearance on the right side
+and rear panel of the computer. The computer uses an electric fan for ventilation. The fan is controlled by
+a temperature sensor and is designed to turn on automatically when high temperature conditions exist.
+These conditions are affected by high external temperatures, system power consumption, power
+management/battery conservation configurations, battery fast charging, and software applications.
+Exhaust air is displaced through the ventilation grill located on the left side of the computer.
+Before removing the fan/heat sink assembly, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+Component replacement procedures 75
+
+--- Page 84 ---
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the following components:
+a.
+Hard drive (see 
+Hard drive on page 42)
+b.
+Optical drive (see 
+Optical drive on page 50)
+c.
+Switch cover (see 
+Switch cover on page 52)
+d.
+Keyboard (see 
+Keyboard on page 54)
+e.
+Display assembly (see 
+Display assembly on page 58)
+f.
+Top cover (see 
+Top cover on page 64)
+g.
+Audio board (see 
+Audio board on page 74)
+h.
+USB/power connector board (see 
+USB/power connector board on page 70)
+i.
+System board (see 
+System board on page 71)
+Remove the fan/heat sink assembly:
+1.
+Turn the system board upside down, with the expansion port 3 and external monitor port toward
+you.
+2. Disconnect the fan cable (1) from the system board.
+3. Loosen the three Phillips PM2.5×5.0 captive screws (2) and the Phillips PM2.5×4.0 captive
+screw (3) that secure the fan/heat sink assembly to the system board.
+4. Remove the fan/heat sink assembly (4).
+NOTE: Due to the adhesive quality of the thermal material located between the fan/heat sink
+assembly and system board components, it may be necessary to move the fan/heat sink assembly
+from side to side to detach the assembly.
+76 Chapter 4   Removal and replacement procedures
+
+--- Page 85 ---
+NOTE: The thermal material must be thoroughly cleaned from the surfaces of the fan/heat sink
+assembly (1) and (2), the processor (3), and the system board component (4) each time the fan/heat
+sink assembly is removed. Thermal material must be installed on all surfaces before the fan/heat sink
+assembly is reinstalled. Thermal material is included with all fan/heat sink assembly, system board, and
+processor spare part kits.
+Reverse this procedure to install the fan/heat sink assembly.
+Component replacement procedures 77
+
+--- Page 86 ---
+Processor
+NOTE: All processor spare part kits include thermal material.
+Description Spare part number
+Intel Core 2 Duo processors:
+2.20-GHz processor (4-MB L2 cache, 800-MHz FSB)
+453771-001
+2.00-GHz processor (2-MB L2 cache, 800-MHz FSB) 455515-001
+1.86-GHz processor (1-MB L2 cache, 533-MHz FSB) 453773–001
+1.50-GHz processor (2-MB L2 cache, 667-MHz FSB) 453772-001
+Intel Core Duo processors:
+T7300 2.0-GHz processor (4-MB L2 cache)
+446478-001
+T7100 1.8-GHz processor (2-MB L2 cache) 446479-001
+T5250 1.5-GHz processor (2-MB L2 cache) 453033-001
+T2330 1.6-GHz processor (1-MB L2 cache, 533-MHz FSB) 455944–001
+T2310 1.46-GHz processor (1-MB L2 cache, 533-MHz FSB) 455943–001
+Intel Celeron processors:
+ 
+M530 1.73-GHz processor (1-MB L2 cache, 533-MHz FSB) 457315–001
+AMD processors:
+ 
+Turion MK-38 (2.2-GHz, 512-MB L2 cache) 449904-001
+Turion TL-66 (2.3 -GHz, 1-MB L2 cache) 450804-001
+Turion TL-60 (2.0 -GHz, 1-MB L2 cache) 450803-001
+Turion TL-58 (1.9 -GHz, 1-MB L2 cache) 450802-001
+Turion TL-56 (1.8 -GHz, 1-MB L2 cache) 450801-001
+Athlon TK-53 (1.7-GHz. 512-MB L2 cache) 451013-001
+Processor bracket:
+ 
+For use with 7.9 processors 450370-001
+For use with 8.1 processors 450371-001
+Before removing the processor, follow these steps:
+1.
+Shut down the computer. If you are unsure whether the computer is off or in Hibernation, turn the
+computer on, and then shut it down through the operating system.
+2.
+Disconnect all external devices connected to the computer.
+3.
+Disconnect the power from the computer by first unplugging the power cord from the AC outlet and
+then unplugging the AC adapter from the computer.
+78 Chapter 4   Removal and replacement procedures
+
+--- Page 87 ---
+4.
+Remove the battery (see 
+Battery on page 41).
+5.
+Remove the following components:
+a.
+Hard drive (see 
+Hard drive on page 42)
+b.
+Optical drive (see 
+Optical drive on page 50)
+c.
+Switch cover (see 
+Switch cover on page 52)
+d.
+Keyboard (see 
+Keyboard on page 54)
+e.
+Display assembly (see 
+Display assembly on page 58)
+f.
+Top cover (see 
+Top cover on page 64)
+g.
+Audio board (see 
+Audio board on page 74)
+h.
+USB/power connector board (see 
+USB/power connector board on page 70)
+i.
+System board (see 
+System board on page 71)
+j.
+Fan/heat sink assembly (see 
+Fan/heat sink assembly on page 75)
+Remove the processor:
+1. Turn the processor locking screw (1) one-half turn counterclockwise until you hear a click.
+2. Lift the processor (2) straight up and remove it.
+NOTE: The gold triangle (3) on the processor must be aligned with the triangle icon (4) embossed
+on the processor socket when you install the processor.
+Reverse this procedure to install the processor.
+Component replacement procedures 79
+
+--- Page 88 ---
+5
+Setup Utility
+Starting the Setup Utility
+The Setup Utility is a ROM-based information and customization utility that can be used even when your
+Windows® operating system is not working or will not load.
+NOTE: The fingerprint reader (select models only) does not work when accessing the Setup Utility.
+The utility reports information about the computer and provides settings for startup, security, and other
+preferences.
+To start the Setup Utility:
+1.
+Turn on or restart the computer.
+2.
+Before Windows opens and while “Press <F10> to enter setup” is displayed in the lower-left corner
+of the screen, press f10.
+80 Chapter 5   Setup Utility
+
+--- Page 89 ---
+Using the Setup Utility
+Changing the language of the Setup Utility
+The following procedure explains how to change the language of the Setup Utility. If the Setup Utility is
+not already running, begin at step 1. If the Setup Utility is already running, begin at step 2.
+1.
+To start the Setup Utility, turn on or restart the computer, and then press f10 while “Press <F10> to
+enter setup” is displayed in the lower-left corner of the screen.
+2. Use the arrow keys to select System Configuration > Language, and then press enter.
+3.
+Press f5 or f6 (or use the arrow keys) to select a language, and then press enter to select a language.
+4.
+When a confirmation prompt with your preference selected is displayed, press enter to save your
+preference.
+5.
+To set your preferences and exit the Setup Utility, press f10 and then follow the instructions on the
+screen.
+Your preferences go into effect when the computer restarts in Windows.
+Navigating and selecting in the Setup Utility
+Because the Setup Utility is not Windows-based, it does not support the TouchPad. Navigation and
+selection are by keystroke.
+●
+To choose a menu or a menu item, use the arrow keys.
+●
+To choose an item in a drop-down list or to toggle a field, for example an Enable/Disable field, use
+either the arrow keys or f5 or f6.
+●
+To select an item, press enter.
+●
+To close a text box or return to the menu display, press esc.
+●
+To display additional navigation and selection information while the Setup Utility is open, press f1.
+Displaying system information
+The following procedure explains how to display system information in the Setup Utility. If the Setup Utility
+is not open, begin at step 1. If the Setup Utility is open, begin at step 2.
+1.
+To start the Setup Utility, turn on or restart the computer, and then press f10 while “Press <F10> to
+enter setup” is displayed in the lower-left corner of the screen.
+2. Access the system information by using the Main menu.
+3. To exit the Setup Utility without changing any settings, use the arrow keys to select Exit > Exit
+Discarding Changes, and then press enter. (The computer restarts in Windows.)
+Using the Setup Utility 81
+
+--- Page 90 ---
+Restoring default settings in the Setup Utility
+The following procedure explains how to restore the Setup Utility default settings. If the Setup Utility is not
+already running, begin at step 1. If the Setup Utility is already running, begin at step 2.
+1.
+To start the Setup Utility, turn on or restart the computer, and then press f10 while “Press <F10> to
+enter setup” is displayed in the lower-left corner of the screen.
+2. Select Exit > Load Setup Defaults, and then press enter.
+3.
+When the Setup Confirmation is displayed, press enter to save your preferences.
+4.
+To set your preferences and exit the Setup Utility, press f10, and then follow the instructions on the
+screen.
+The Setup Utility default settings are set when you exit the Setup Utility and go into effect when the computer
+restarts.
+NOTE: Your password, security, and language settings are not changed when you restore the factory
+default settings.
+82 Chapter 5   Setup Utility
+
+--- Page 91 ---
+Using advanced Setup Utility features
+This guide describes the Setup Utility features recommended for all users. For more information about the
+Setup Utility features recommended for advanced users only, refer to Help and Support, which is
+accessible only when the computer is in Windows.
+The Setup Utility features available for advanced users include a hard drive self-test, a Network Service
+Boot, and settings for boot order preferences.
+The “<F12> to boot from LAN” message that is displayed in the lower-left corner of the screen each time
+the computer is started or restarted in Windows is the prompt for a Network Service Boot.
+The “Press <F9> to change boot order” message that is displayed in the lower-left corner of the screen
+each time the computer is started or restarted in Windows is the prompt to change the boot order.
+Closing the Setup Utility
+You can close the Setup Utility with or without saving changes.
+●
+To close the Setup Utility and save your changes from the current session, use either of the following
+procedures:
+◦
+Press f10, and then follow the instructions on the screen.
+– or –
+◦
+If the Setup Utility menus are not visible, press esc to return to the menu display. Then use the
+arrow keys to select Exit > Exit Saving Changes, and then press enter.
+When you use the f10 procedure, you are offered an option to return to the Setup Utility. When
+you use the Exit Saving Changes procedure, the Setup Utility closes when you press enter.
+●
+To close the Setup Utility without saving your changes from the current session:
+If the Setup Utility menus are not visible, press esc to return to the menu display. Then use the arrow
+keys to select Exit > Exit Discarding Changes, and then press enter.
+After the Setup Utility closes, the computer restarts in Windows.
+Setup Utility menus
+The menu tables in this section provide an overview of Setup Utility options.
+NOTE: Some of the Setup Utility menu items listed in this chapter may not be supported by your
+computer.
+Main menu
+Select To Do This
+System information
+●
+View and change the system time and date.
+●
+View identification information about the computer.
+●
+View specification information about the processor, memory size,
+system BIOS, and keyboard controller version (select models only).
+Setup Utility menus 83
+
+--- Page 92 ---
+Security menu
+Select To Do This
+Administrator password Enter, change, or delete an administrator password.
+Power-On Password Enter, change, or delete a power-on password.
+System Configuration menu
+Select To Do This
+Language Support Change the Setup Utility language.
+Boot Options Set the following boot options:
+●
+f10 and f12 Delay (sec.)―Set the delay for the f10 and f12 functions
+of the Setup Utility in intervals of 5 seconds each (0, 5, 10, 15, 20).
+●
+CD-ROM boot―Enable/disable boot from CD-ROM.
+●
+Floppy boot―Enable/disable boot from Floppy.
+●
+Internal Network Adapter boot―Enable/disable boot from Internal
+Network Adapter.
+●
+Boot Order―Set the boot order for:
+◦
+USB Floppy
+◦
+ATAPI CD/DVD ROM Drive
+◦
+Hard drive
+◦
+USB Diskette on Key
+◦
+USB Hard drive
+◦
+Network adapter
+Button Sound (select models only) Enable/disable the Quick Launch Button tapping sound.
+Virtualization Technology Enable/disable the processor Virtualization Technology.
+Processor C4 State Enable/disable the processor C4 sleep state.
+Diagnostics menu
+Select To Do This
+Hard Disk Self Test Run a comprehensive self-test on the hard drive.
+NOTE: On models with two hard drives, this menu option is called the
+Primary Hard Disk Self Test.
+Secondary Hard Disk Self Test (select models only) Run a comprehensive self-test on a secondary hard drive.
+Memory Test Run a diagnostic test on the system memory.
+84 Chapter 5   Setup Utility
+
+--- Page 93 ---
+6
+Specifications
+Computer specifications
+  Metric U.S.
+Dimensions
+Height (front to back)
+4.09 cm 1.61 in
+Width 35.71 cm 14.06 in
+Depth 25.71 cm 10.12 in
+Weight (with optical drive, hard drive, and battery)
+2.86 kg 6.31 lbs
+Input power
+Operating voltage
+18.5 V dc —19.0 V dc
+Operating current 3.5 A or 4.74 A
+Temperature
+Operating (not writing to optical disc)
+0°C to 35°C 32°F to 95°F
+Operating (writing to optical disc) 5°C to 35°C 41°F to 95°F
+Nonoperating -20°C to 60°C -4°F to 140°F
+Relative humidity
+Operating
+10% to 90%
+Nonoperating 5% to 95%
+Maximum altitude (unpressurized)
+Operating (14.7 to 10.1 psia)
+-15 m to 3,048 m -50 ft to 10,000 ft
+Nonoperating (14.7 to 4.4 psia) -15 m to 12,192 m -50 ft to 40,000 ft
+Shock
+Operating
+125 g, 2 ms, half-sine
+Nonoperating 200 g, 2 ms, half-sine
+Random vibration
+Operating
+0.75 g zero-to-peak, 10 Hz to 500 Hz, 0.25 oct/min sweep rate
+Computer specifications 85
+
+--- Page 94 ---
+Metric U.S.
+Nonoperating 1.50 g zero-to-peak, 10 Hz to 500 Hz, 0.5 oct/min sweep rate
+NOTE: Applicable product safety standards specify thermal limits for plastic surfaces. The computer operates well within this
+range of temperatures.
+15.4-inch, WXGA, BrightView display specifications
+  Metric U.S.
+Dimensions
+Height
+20.7 cm 8.15 in
+Width 33.1 cm 13.03 in
+Diagonal 39.1 cm 15.39 in
+Number of colors
+Up to 16.8 million
+Contrast ratio
+200:1 (typical)
+Brightness
+150 nits (typical)
+Pixel resolution
+Pitch
+0.259 × 0.259 mm
+Format 1280 × 800
+Configuration RGB vertical stripe
+Backlight
+Edge lit
+Character display
+80 × 25
+Total power consumption
+4 W
+Viewing angle
++/-65° horizontal, +/-50° vertical (typical)
+86 Chapter 6   Specifications
+
+--- Page 95 ---
+Hard drive specifications
+  250-GB* 200-GB* 160-GB* 120-GB* 80-GB*
+Dimensions
+Height
+9.5 mm 9.5 mm 9.5 mm 9.5 mm 9.5 mm
+Width 70 mm 70 mm 70 mm 70 mm 70 mm
+Weight 102 g 102 g 102 g 102 g 102 g
+Interface type
+SATA SATA SATA SATA SATA
+Transfer rate
+Synchronous (maximum)
+100 MB/sec 100 MB/sec 100 MB/sec 100 MB/sec 100 MB/sec
+Security ATA security ATA security ATA security ATA security ATA security
+Seek times (typical read, including setting)
+Single track
+3 ms 3 ms 3 ms 3 ms 3 ms
+Average 13 ms 13 ms 13 ms 13 ms 13 ms
+Maximum 24 ms 24 ms 24 ms 24 ms 24 ms
+Logical blocks
+488,379,125 390,706,000 312,560,480 234,433,260 156,280,320
+Disk rotational speed
+5400 rpm 4200 rpm 5400 rpm 5400 rpm 5400 rpm
+Operating temperature
+5°C to 55°C (41°F to 131°F)
+NOTE: Certain restrictions and exclusions apply. Consult technical support for details.
+*1 GB = 1 billion bytes when referring to hard drive storage capacity. Accessible capacity is less. Actual drive specifications
+may differ slightly.
+Hard drive specifications 87
+
+--- Page 96 ---
+DVD±RW and CD-RW SuperMulti Double-Layer
+Combo Drive specifications
+Applicable disc Read:
+CD-DA, CD+(E)G, CD-MIDI, CD-TEXT, CD-ROM,
+CD-ROM XA, MIXED MODE CD, CD-I, CD-I
+Bridge (Photo-CD, Video CD), Multisession CD
+(Photo-CD, CD-EXTRA, Portfolio, CD-R, CD-RW),
+CD-R, CD-RW, DVD-ROM (DVD-5, DVD-9,
+DVD-10, DVD-18), DVD-R, DVD-RW, DVD+R,
+DVD+RW, DVD-RAM
+Write:
+CD-R and CD-RW
+DVD+R, DVD+RW, DVD-R, DVD-
+RW, DVD-RAM
+Access time CD DVD
+Random < 175 ms < 230 ms
+Cache buffer
+2 MB
+Data transfer rate
+24X CD-ROM
+3,600 KB/sec
+8X DVD 10,800 KB/sec
+24X CD-R 3,600 KB/sec
+16X CD-RW 2,400 KB/sec
+8X DVD+R 10,800 KB/sec
+4X DVD+RW 5,400 KB/sec
+8X DVD-R 10,800 KB/sec
+4X DVD-RW 5,400 KB/sec
+2.4X DVD+R(9) 2,700 KB/sec
+5X DVD-RAM 6,750 KB/sec
+Transfer mode
+Multiword DMA Mode
+88 Chapter 6   Specifications
+
+--- Page 97 ---
+HD DVD-ROM Drive with SuperMulti DVD±R/RW
+Double Layer support specifications
+Applicable disc Read:
+CD-DA, CD+(E)G, CD-MIDI, CD-TEXT,
+CD-ROM, CD-ROM XA, MIXED MODE
+CD, CD-I, CD-I Bridge (Photo-CD,
+Video CD), Multisession CD (Photo-CD,
+CD-EXTRA, Portfolio, CD-R, CD-RW),
+CD-R, CD-RW, DVD-ROM (DVD-5,
+DVD-9, DVD-10, DVD-18), DVD-R,
+DVD-RW, DVD+R, DVD+RW, DVD-
+RAM, HD-ROM (Single Layer), HD-
+ROM (Dual Layer), HD DVD-R, HD
+DVD-R for Dual Layer, HD DVD-RW
+Write:
+CD-R and CD-RW
+DVD+R, DVD+R(9), DVD+RW, DVD-R,
+DVD-R(9),DVD-RW, DVD-RAM
+Access time
+CD DVD HD
+Random 170 ms 170 ms 230 ms
+Cache buffer
+8 MB  
+Data transfer rate
+     
+24X CD-ROM 3,600 KB/sec  
+8X DVD 10,800 KB/sec  
+16X CD-R 2,400 KB/sec  
+10X CD-RW 1,500 KB/sec  
+4X DVD+R 5,400 KB/sec  
+4X DVD+RW 5,400 KB/sec  
+4X DVD-R 5,400 KB/sec  
+4X DVD-RW 5,400 KB/sec  
+2.4X DVD+R(9) 2,700 KB/sec  
+3X DVD-RAM 4,056 KB/sec  
+1X HD-DVD-ROM 4,460 KB/sec  
+Transfer mode
+Multiword DMA Mode  
+HD DVD-ROM Drive with SuperMulti DVD±R/RW Double Layer support specifications 89
+
+--- Page 98 ---
+Blu-ray Disc ROM Drive with SuperMulti DVD±R/RW
+Double-Layer (DL) support specifications
+Applicable disc Read:
+CD-DA, CD+(E)G, CD-MIDI, CD-TEXT,
+CD-ROM, CD-ROM XA, MIXED MODE
+CD, CD-I, CD-I Bridge (Photo-CD,
+Video CD), Multisession CD (Photo-
+CD, CD-EXTRA, Portfolio, CD-R, CD-
+RW), CD-R, CD-RW, DVD-ROM
+(DVD-5, DVD-9, DVD-10, DVD-18),
+DVD-R, DVD-RW, DVD+R, DVD+RW,
+DVD-RAM, BD-ROM, BD-RE. BD-R
+Write:
+CD-R and CD-RW
+DVD+R, DVD+R(9), DVD+RW, DVD-R,
+DVD-R(9),DVD-RW, DVD-RAM
+Access time
+CD DVD Blu-ray
+Random 150 ms 180 ms 300 ms
+Cache buffer
+8 MB  
+Data transfer rate
+     
+24X CD-ROM 3,600 KB/sec  
+8X DVD 10,800 KB/sec  
+24X CD-R 3,600 KB/sec  
+16X CD-RW 2,400 KB/sec  
+8X DVD+R 10,800 KB/sec  
+4X DVD+RW 5,400 KB/sec  
+8X DVD-R 10,800 KB/sec  
+4X DVD-RW 5,400 KB/sec  
+2.4X DVD+R(9) 2,700 KB/sec  
+5X DVD-RAM 6,750 KB/sec  
+1X BD-ROM 4,500 KB/sec  
+1X BD-R read 4,500 KB/sec  
+1X BD-RE read 4,500 KB/sec  
+Transfer mode
+Multiword DMA Mode  
+90 Chapter 6   Specifications
+
+--- Page 99 ---
+System DMA specifications, Intel
+Hardware DMA System function
+DMA0 Not applicable
+DMA1* Not applicable
+DMA2* Not applicable
+DMA3 Not applicable
+DMA4 Direct memory access controller
+DMA5* Available for PC Card
+DMA6 Not assigned
+DMA7 Not assigned
+*PC Card controller can use DMA 1, 2, or 5.
+System DMA specifications, Intel 91
+
+--- Page 100 ---
+System DMA specifications, AMD
+Hardware DMA System function
+DMA4 Direct memory access controller
+92 Chapter 6   Specifications
+
+--- Page 101 ---
+System interrupt specifications, Intel
+Hardware IRQ System function
+IRQ0 System timer
+IRQ1 Standard 101-/102-Key or Microsoft® Natural Keyboard
+IRQ2 Cascaded
+IRQ3 Intel 82801DB/DBM USB2 Enhanced Host Controller—24CD
+IRQ4 COM1
+IRQ5* Conexant AC—Link Audio Intel 82801DB/DBM SMBus Controller—24C3 Data Fax
+Modem with SmartCP
+IRQ6 Diskette drive
+IRQ7* Parallel port
+IRQ8 System CMOS/real-time clock
+IRQ9* Microsoft ACPI-compliant system
+IRQ10* Intel USB UHCI controller—24C2
+Intel 82852/82855 GM/GME Graphic Controller
+Realtek RTL8139 Family PCI Fast Ethernet Controller
+IRQ11 Intel USB EHCI controller—24CD
+Intel USB UHCI controller—24C4
+Intel USB UHCI controller—24C7
+Intel Pro/Wireless 2200BG
+TI OHCI 1394 host controller
+TI PCI1410 CardBus controller
+IRQ12 Synaptics PS/2 TouchPad
+IRQ13 Numeric data processor
+IRQ14 Primary IDE channel
+IRQ15 Secondary IDE channel
+*Default configurations are IRQ5, IRQ7, IRQ9, IRQ10, or none.
+NOTE: PC Cards may assert IRQ3, IRQ4, IRQ5, IRQ7, IRQ9, IRQ10, IRQ11, or IRQ15. Either the infrared or the serial port
+may assert IRQ3 or IRQ4.
+System interrupt specifications, Intel 93
+
+--- Page 102 ---
+System interrupt specifications, AMD
+Hardware IRQ System function
+IRQ0 High precision event timer
+IRQ1 Standard 101-/102-Key or Microsoft® Natural PS/2 Keyboard
+IRQ5 RICOH OHCI Compliant IEEE 1394 Host Controller
+IRQ7 Ricoh Memory Stick Controller
+Ricoh SD/MMC Host Controller
+Ricoh XD-Picture Card Controller
+SDA Standard Compliant SD Host Controller
+IRQ8 High precision event timer
+IRQ10 nVidia nForce PCI System Management
+IRQ11 nVidia nForce System Management Controller
+IRQ12 Synaptics PS/2 Port TouchPad
+IRQ13 Numeric data processor
+IRQ14 ATA Channel 0
+IRQ15 ATA Channel 1
+IRQ16 nVidia MCP67M
+IRQ18 Standard OpenHCD USB Host Controller
+Standard OpenHCD USB Host Controller
+IRQ19 Broadcom WLAN adapter
+IRQ21 HDA Controller
+IRQ22 Standard Enhanced PCI to USB Host Controller
+Standard Enhanced PCI to USB Host Controller
+IRQ23 Standard Dual Channel PCI IDE Controller
+94 Chapter 6   Specifications
+
+--- Page 103 ---
+System I/O address specifications, Intel
+I/O address (hex) System function (shipping configuration)
+000 - 00F DMA controller no. 1
+010 - 01F Unused
+020 - 021 Interrupt controller no. 1
+022 - 024 Opti chipset configuration registers
+025 - 03F Unused
+02E - 02F 87334 “Super I/O” configuration for CPU
+040 - 05F Counter/timer registers
+044 - 05F Unused
+060 Keyboard controller
+061 Port B
+062 - 063 Unused
+064 Keyboard controller
+065 - 06F Unused
+070 - 071 NMI enable/RTC
+072 - 07F Unused
+080 - 08F DMA page registers
+090 - 091 Unused
+092 Port A
+093 - 09F Unused
+0A0 - 0A1 Interrupt controller no. 2
+I/O Address (hex) System Function (shipping configuration)
+0A2 - 0BF Unused
+0C0 - 0DF DMA controller no. 2
+0E0 - 0EF Unused
+0F0 - 0F1 Coprocessor busy clear/reset
+0F2 - 0FF Unused
+100 - 16F Unused
+170 - 177 Secondary fixed disk controller
+178 - 1EF Unused
+1F0 - 1F7 Primary fixed disk controller
+1F8 - 200 Unused
+201 JoyStick (decoded in ESS1688)
+202 - 21F Unused
+System I/O address specifications, Intel 95
+
+--- Page 104 ---
+I/O address (hex) System function (shipping configuration)
+220 - 22F Entertainment audio
+230 - 26D Unused
+26E - 26 Unused
+278 - 27F Unused
+280 - 2AB Unused
+2A0 - 2A7 Unused
+2A8 - 2E7 Unused
+2E8 - 2EF Reserved serial port
+2F0 - 2F7 Unused
+2F8 - 2FF Infrared port
+300 - 31F Unused
+320 - 36F Unused
+370 - 377 Secondary diskette drive controller
+378 - 37F Parallel port (LPT1/default)
+380 - 387 Unused
+388 - 38B FM synthesizer—OPL3
+38C - 3AF Unused
+3B0 - 3BB VGA
+3BC - 3BF Reserved (parallel port/no EPP support)
+3C0 - 3DF VGA
+3E0 - 3E1 PC Card controller in CPU
+3E2 - 3E3 Unused
+3E8 - 3EF Internal modem
+3F0 - 3F7 “A” diskette controller
+3F8 - 3FF Serial port (COM1/default)
+CF8 - CFB PCI configuration index register (PCIDIVO-1)
+CFC - CFF PCI configuration data register (PCIDIVO-1)
+96 Chapter 6   Specifications
+
+--- Page 105 ---
+System I/O address specifications, AMD
+I/O address (hex) System function (shipping configuration)
+0000 - 0008 DMA controller
+000A - 000F DMA controller
+0020 - 0021 Programmable interrupt controller
+0040 - 0043 System timer
+0060 - 0060 Standard 101-/102-Key or Microsoft® Natural PS/2 Keyboard
+0061 - 0061 System speaker
+0062 - 0062 Microsoft ACPI-Compliant Embedded Controller
+0064 - 0064 Standard 101-/102-Key or Microsoft® Natural PS/2 Keyboard
+0066 - 0066 Microsoft ACPI-Compliant Embedded Controller
+0070 - 0071 System CMOS/real time clock
+0081 - 0083 DMA controller
+0087 - 0087 DMA controller
+0089 - 008B DMA controller
+008F - 008F DMA controller
+00A0 - 00A1 Programmable interrupt controller
+00C0 - 00D1 DMA controller
+00D4 - 00DF DMA controller
+00F0 - 00F1 Numeric data processor
+0170 - 0177 ATA Channel 1
+01F0 - 01F7 ATA Channel 0
+0376 - 0376 ATA Channel 1
+03B0 - 03BB nVidia MCP67M
+03C0 - 03DF nVidia MCP67M
+03F6 - 03F6 ATA Channel 0
+3000 - 303F nVidia nForce PCI System Management
+3040 - 307F nVidia nForce PCI System Management
+3080 - 30BF nVidia nForce PCI System Management
+30C0 - 30CF Standard Dual Channel PCI IDE Controller
+30D0 - 30DF Standard Dual Channel PCI IDE Controller
+30E0 - 30E3 Standard Dual Channel PCI IDE Controller
+30E8 - 30EB Standard Dual Channel PCI IDE Controller
+30EC - 30EF Standard Dual Channel PCI IDE Controller
+System I/O address specifications, AMD 97
+
+--- Page 106 ---
+I/O address (hex) System function (shipping configuration)
+30F0 - 30F7 Standard Dual Channel PCI IDE Controller
+4000 - 4FFF PCI standard PCI-to-PCI bridge
+98 Chapter 6   Specifications
+
+--- Page 107 ---
+System memory map specifications, Intel
+Size Memory address System function
+640 KB 00000000-0009FFFF Base memory
+128 KB 000A0000-000BFFFF Video memory
+48 KB 000C0000-000CBFFF Video BIOS
+160 KB 000C8000-000E7FFF Unused
+64 KB 000E8000-000FFFFF System BIOS
+15 MB 00100000-00FFFFFF Extended memory
+58 MB 04800000-07FFFFFF Super extended memory
+58 MB 04800000-07FFFFFF Unused
+2 MB 08000000-080FFFFF Video memory (direct access)
+4 GB 08200000-FFFEFFFF Unused
+64 KB FFFF0000-FFFFFFFF System BIOS
+System memory map specifications, Intel 99
+
+--- Page 108 ---
+System memory map specifications, AMD
+Size Memory address System function
+128 KB 000A0000-000BFFFF nVidia MCP67M
+16 KB B0000000-B0003FFF HDA Controller
+8 KB B0004000-B0005FFF Standard Dual Channel PCI IDE
+Controller
+4 KB B0006000-B0006FFF Standard OpenHCD USB Host Controller
+256 B B0007000-B00070FF Standard Enhanced PCI to USB Host
+Controller
+256 B B0007400-B00074FF Standard Enhanced PCI to USB Host
+Controller
+16 B B0007800-B000780F nVidia nForce Networking Controller
+256 B B0007C00-B0007CFF nVidia nForce Networking Controller
+4 KB B0008000-B0008FFF Standard OpenHCD USB Host Controller
+4 KB B0009000-B0009FFF nVidia nForce Networking Controller
+512 KB B0080000-B00FFFFF nVidia nForce System Management
+Controller
+16 MB B1000000-B1FFFFFF nVidia MCP67M
+16 MB B2000000-B2FFFFFF nVidia MCP67M
+2 KB B3000000-B30007FF RICOH OHCI Compliant IEEE 1394 Host
+Controller
+256 B B3000800-B30008FF SDA Standard Compliant SD Host
+Controller
+256 B B3000C00-B3000CFF Ricoh SD/MMC Host Controller
+256 B B3001000-B30010FF Ricoh Memory Stick Controller
+256 B B3001400-B30014FF Ricoh XD-Picture Card Controller
+16 KB B6000000-B6003FFF Broadcom WLAN adapter
+256 KB C0000000-CFFFFFFF nVidia MCP67M
+1 KB FED00000-FED003FF High precision event timer
+100 Chapter 6   Specifications
+
+--- Page 109 ---
+7
+Screw listing
+This section provides specification and reference information for the screws and screw locks used in the
+computer. All screws and screw locks listed in this section are available in the Screw Kit, spare part number
+434893-001, and the Display Screw Kit, spare part number 431400-001.
+Phillips PM2.0×5.0 captive screw
+Color Quantity Length Thread Head width
+Black 5 5.0 mm 2.0 mm 5.0 mm
+Where used:
+(1) Two captive screws (secured by C-clips) that secure the hard drive cover to the computer
+Phillips PM2.0×5.0 captive screw 101
+
+--- Page 110 ---
+(2) Three captive screws (secured by C-clips) that secure the memory/WLAN module compartment cover
+to the computer
+Phillips PM3.0×3.0 screw
+Color Quantity Length Thread Head width
+Silver 4 3.0 mm 3.0 mm 5.0 mm
+Where used: 4 screws that secure the hard drive bracket to the hard drive
+102 Chapter 7   Screw listing
+
+--- Page 111 ---
+Phillips PM2.0×3.0 screw
+Color Quantity Length Thread Head width
+Silver 10 3.0 mm 2.0 mm 4.5 mm
+Where used: 2 screws that secure the WLAN module to the system board
+Where used: 2 screws that secure the optical drive bracket to the optical drive
+Phillips PM2.0×3.0 screw 103
+
+--- Page 112 ---
+Where used: 2 screws that secure the wireless antenna transceivers to the display enclosure
+Where used: 4 screws that secure the display hinges to the display panel
+104 Chapter 7   Screw listing
+
+--- Page 113 ---
+Phillips PM2.5×7.0 screw
+Color Quantity Length Thread Head width
+Black 27 7.0 mm 2.5 mm 5.0 mm
+Where used:
+(1) One screw that secures the optical drive to the computer
+(2) Three screws that secure the keyboard to the computer
+Phillips PM2.5×7.0 screw 105
+
+--- Page 114 ---
+Where used: 4 screws that secure the display assembly to the computer
+Where used: 8 screws that secure the display bezel to the display assembly
+Where used: 9 screws that secure the top cover to the computer
+106 Chapter 7   Screw listing
+
+--- Page 115 ---
+Where used: 2 screws that secure the top cover to the computer
+Phillips PM2.5×7.0 screw 107
+
+--- Page 116 ---
+Phillips PM2.5×10.0 screw
+Color Quantity Length Thread Head width
+Black 2 10.0 mm 2.5 mm 5.0 mm
+Where used: 2 screws that secure the switch cover to the computer
+108 Chapter 7   Screw listing
+
+--- Page 117 ---
+Phillips PM2.5×4.0 screw
+Color Quantity Length Thread Head width
+Black 25 4.0 mm 2.5 mm 5.0 mm
+Where used: One screw that secures the switch cover to the computer
+Phillips PM2.5×4.0 screw 109
+
+--- Page 118 ---
+Where used: One screw that secures the power button board to the fan/heat sink assembly
+Where used: 6 screws that secure the display panel to the display enclosure
+Where used: 6 screws that secure the top cover to the computer
+110 Chapter 7   Screw listing
+
+--- Page 119 ---
+Where used: 2 screws that secure the top cover to the computer
+Where used: 4 screws that secure the ExpressCard assembly to the computer
+Phillips PM2.5×4.0 screw 111
+
+--- Page 120 ---
+Where used:
+(1) Two screws that secure the USB/power connector board to the computer
+(2) Two screws that secure the audio board to the computer
+Where used: 2 screws that secure the system board to the computer
+112 Chapter 7   Screw listing
+
+--- Page 121 ---
+Phillips PM2.5×3.0 screw
+Color Quantity Length Thread Head width
+Black 3 3.0 mm 2.5 mm 4.5 mm
+Where used: 3 screws that secure the top cover to the computer
+Phillips PM2.5×3.0 screw 113
+
+--- Page 122 ---
+Hex HM5.0×9.0 standoff
+Color Quantity Length Thread Head width
+Silver 2 8.0 mm 2.5 mm 5.0 mm
+Where used: 2 standoffs that secure the top cover to the computer
+114 Chapter 7   Screw listing
+
+--- Page 123 ---
+Phillips PM2.0×2.0 screw
+Color Quantity Length Thread Head width
+Silver 2 2.0 mm 2.0 mm 4.0 mm
+Where used: 2 screws that secure the Bluetooth module to the system board
+Phillips PM2.0×2.0 screw 115
+
+--- Page 124 ---
+Phillips PM2.0×7.0 screw
+Color Quantity Length Thread Head width
+Silver 1 7.0 mm 2.0 mm 5.0 mm
+Where used: One screw that secures the system board to the base enclosure
+116 Chapter 7   Screw listing
+
+--- Page 125 ---
+Phillips PM2.5×5.0 captive screw
+Color Quantity Length Thread Head width
+Black 3 5.0 mm 2.5 mm 5.0 mm
+Where used: 3 captive screws (secured by C-clips) that secure the fan/heat sink assembly to the
+computer
+Phillips PM2.5×5.0 captive screw 117
+
+--- Page 126 ---
+Phillips 2.5×4.0 captive screw
+Color Quantity Length Thread Head width
+Silver 1 4.0 mm 2.5 mm 5.0 mm
+Where used: One captive screw (secured by a C-clip) that secures the fan/heat sink to the computer
+118 Chapter 7   Screw listing
+
+--- Page 127 ---
+8
+Backup and recovery
+Recovering system information
+Tools provided by the operating system and Recovery Manager software are designed to help you with
+the following tasks for safeguarding your information and restoring it in case of a system failure:
+●
+Backing up your information regularly to protect your important system files.
+●
+Making a set of recovery discs (Recovery Manager software feature). Recovery discs are used to
+start up (boot) your computer and restore the operating system and software programs to factory
+settings in case of system failure or instability.
+●
+Creating system restore points (operating system feature). System restore points allow you to reverse
+undesirable changes to your computer by restoring the computer to an earlier state.
+●
+Recovering a program or driver (Recovery Manager software feature). This feature helps you reinstall
+a program or driver without performing a full system recovery.
+●
+Performing a full system recovery (Recovery Manager software feature). With Recovery Manager,
+you can recover your full factory image if you experience system failure or instability. Recovery
+Manager works from a dedicated recovery partition on the hard drive or from recovery discs you
+create.
+Creating recovery discs
+After setting up the computer for the first time, be sure to create a set of recovery discs of the full factory
+image. The recovery discs are used to start up (boot) the computer and recover the operating system and
+software to factory settings in case of system instability or failure.
+NOTE: Handle these discs carefully and keep them in a safe place. The software allows the creation of
+only one set of recovery discs.
+Note the following guidelines before creating recovery discs:
+●
+Use any of the following types of discs: CD-R, DVD+R, DVD+R DL, DVD-R or DVD-R DL (purchased
+separately). The discs you use will depend on the type of optical drive installed in your computer.
+Because DVDs store more information than CDs, DVDs and DVDs with double-layer (DL) support
+reduce the number of discs required
+NOTE: Read-write discs, such as CD-RW, DVD+RW, and DVD-RW, are not compatible with the
+Recovery Manager software.
+●
+The computer must be connected to AC power during this process.
+●
+Only one set of recovery discs can be created per computer.
+Recovering system information 119
+
+--- Page 128 ---
+●
+Number each disc before inserting it into the computer optical drive.
+●
+If necessary, you can exit the program before you have finished creating the recovery discs. The next
+time you open Recovery Manager, you will be prompted to continue the disc creation process.
+To create a set of recovery discs:
+1. Select Start > All Programs > Recovery Manager > Recovery Manager.
+Recovery Manager opens.
+2. Click Advanced Options.
+NOTE: If you are operating the computer on battery power, you will be prompted to connect to
+AC power before you can go to the next step.
+3. Click Recovery disc creation, and then click Next.
+4.
+Follow the on-screen instructions.
+Backing up your information
+When to back up
+●
+On a regularly scheduled basis
+NOTE: Set reminders to back up your information periodically.
+●
+Before the computer is repaired or restored
+●
+Before you add or modify hardware or software
+Backup suggestions
+●
+Create a set of recovery discs using Recovery Manager.
+●
+Create system restore points using the Windows® System Restore feature, and periodically copy
+them to disc.
+●
+Store personal files in the Documents folder and back up these folders periodically.
+●
+Back up templates stored in their associated programs.
+●
+Save customized settings in a window, toolbar, or menu bar by taking a screen shot of your settings.
+The screen shot can be a time saver if you have to reset your preferences.
+To copy the screen and paste it into a word-processing document, follow these steps:
+a.
+Display the screen.
+b.
+Copy the screen:
+To copy only the active window, press alt+fn+prt sc.
+To copy the entire screen, press fn+prt sc.
+c. Open a word-processing document, and then select Edit > Paste.
+120 Chapter 8   Backup and recovery
+
+--- Page 129 ---
+Using system restore points
+When you back up your system, you are creating a system restore point. A system restore point allows
+you to save and name a snapshot of your hard drive at a specific point in time. You can then recover
+back to that point if you want to reverse subsequent changes made to your system. 
+NOTE: Recovering to an earlier restore point does not affect data files saved or e-mails created since
+the last restore point.
+You also can create additional restore points to provide increased protection for your system files and
+settings.
+When to create restore points
+●
+Before you add or extensively modify software or hardware
+●
+Periodically, whenever the system is performing optimally
+NOTE: If you revert to a restore point and then change your mind, you can reverse the restoration.
+Create a system restore point
+1. Select Start > Control Panel > System and Maintenance > System.
+2. In the left pane, click System protection.
+3. Click the System Protection tab.
+4. Under Automatic restore points, select the disk for which you want to create a restore point.
+5. Click Create.
+The System Protection window opens.
+6.
+Follow the on-screen instructions.
+Restore to a previous date and time
+To revert to a restore point (created at a previous date and time), when the computer was functioning
+optimally, follow these steps:
+1. Select Start > Control Panel > System and Maintenance > System.
+2. In the left pane, click System protection.
+3. Click the System Protection tab.
+4. Click the System Restore button, and then click Next.
+The System Restore window opens.
+5.
+Follow the on-screen instructions.
+Recovering system information 121
+
+--- Page 130 ---
+Performing a recovery
+NOTE: You can only recover files that you have previously backed up. HP recommends that you use
+Recovery Manager to create an entire drive backup as soon as you set up your computer.
+Recovery Manager software allows you to repair or restore the system if you experience system failure or
+instability. Recovery Manager works from recovery discs that you create or from a dedicated recovery
+partition on the hard drive. 
+NOTE: Windows has its own built-in repair features, such as System Restore and driver roll-back
+capabilities. If you have not already tried these features, try them before using Recovery Manager.
+NOTE: Recovery Manager recovers only software that was preinstalled at the factory. Software not
+provided with this computer must be downloaded from the manufacturer's Web site or reinstalled from
+the disc provided by the manufacturer.
+Recovering from the recovery discs
+To restore the system from the recovery discs:
+1.
+Back up all personal files.
+2.
+Insert the first recovery disc into the optical drive and restart the computer.
+3.
+Follow the on-screen instructions.
+Recovering from the partition on the hard drive
+You can perform a recovery from the partition on the hard drive from either the Start button or f11.
+To restore the system from the partition, follow these steps:
+1.
+Access Recovery Manager in either of the following ways:
+●
+Select Start > All Programs > Recovery Manager > Recovery Manager.
+–or–
+●
+Restart the computer and press f11 while the “Press <F11> for recovery” message is displayed
+on the screen. Then select Recovery Manager.
+Recovery Manager opens.
+2. Click Advanced Options.
+3. Click System recovery, and then click Next.
+4.
+Follow the on-screen instructions.
+122 Chapter 8   Backup and recovery
+
+--- Page 131 ---
+9
+Connector pin assignments
+Audio-out (headphone)
+Pin Signal
+1 Audio out, left channel
+2 Audio out, right channel
+3Ground
+Audio-in (microphone)
+Pin Signal
+1 Audio signal in
+2 Audio signal in
+3Ground
+Audio-out (headphone) 123
+
+--- Page 132 ---
+External monitor
+Pin Signal
+1 Red analog
+2 Green analog
+3 Blue analog
+4 Not connected
+5 Ground
+6 Ground analog
+7 Ground analog
+8 Ground analog
+9 +5 VDC
+10 Ground
+11 Monitor detect
+12 DDC 2B data
+13 Horizontal sync
+14 Vertical sync
+15 DDC 2B clock
+124 Chapter 9   Connector pin assignments
+
+--- Page 133 ---
+RJ-11 (modem)
+Pin Signal
+1 Unused
+2 Tip
+3 Ring
+4 Unused
+5 Unused
+6 Unused
+RJ-45 (network)
+Pin Signal
+1 Transmit +
+2 Transmit -
+3 Receive +
+4 Unused
+5 Unused
+6 Receive -
+7 Unused
+8 Unused
+RJ-11 (modem) 125
+
+--- Page 134 ---
+S-Video-out
+Pin Signal
+1 S-VHS color (C) signal
+2 Composite video signal
+3 S-VHS intensity (Y) signal
+4 S-VHS color ground
+5 TV-CD
+6 S-VHS intensity ground
+7 Composite video ground
+Universal Serial Bus
+Pin Signal
+1 +5 VDC
+2 Data -
+3 Data +
+4Ground
+126 Chapter 9   Connector pin assignments
+
+--- Page 135 ---
+10
+Power cord set requirements
+The wide range input feature of the computer permits it to operate from any line voltage from 100 to 120
+volts AC or from 220 to 240 volts AC.
+The 3-conductor power cord set included with the computer meets the requirements for use in the country
+or region where the equipment is purchased.
+Power cord sets for use in other countries or regions must meet the requirements of the country or region
+where the computer is used.
+Requirements for all countries or regions
+The requirements listed below are applicable to all countries or regions:
+●
+The length of the power cord set must be at least 1.5 m (5.0 ft) and no more than 2.0 m (6.5 ft).
+●
+All power cord sets must be approved by an acceptable accredited agency responsible for evaluation
+in the country or region where the power cord set will be used.
+●
+The power cord sets must have a minimum current capacity of 10 amps and a nominal voltage rating
+of 125 or 250 V AC, as required by each country or region’s power system.
+●
+The appliance coupler must meet the mechanical configuration of an EN 60 320/IEC 320 Standard
+Sheet C13 connector for mating with the appliance inlet on the back of the computer.
+Requirements for all countries or regions 127
+
+--- Page 136 ---
+Requirements for specific countries or regions
+Country/region Accredited agency Applicable note number
+Australia EANSW 1
+Austria OVE 1
+Belgium CEBC 1
+Canada CSA 2
+Denmark DEMKO 1
+Finland FIMKO 1
+France UTE 1
+Germany VDE 1
+Italy IMQ 1
+Japan METI 3
+South Korea EK 4
+The Netherlands KEMA 1
+Norway NEMKO 1
+The People's Republic of China CCC 5
+Sweden SEMKO 1
+Switzerland SEV 1
+Taiwan BSMI 4
+The United Kingdom BSI 1
+The United States UL 2
+1.
+The flexible cord must be Type HO5VV-F, 3-conductor, 1.0-mm² conductor size. Power cord set fittings (appliance coupler
+and wall plug) must bear the certification mark of the agency responsible for evaluation in the country or region where it
+will be used.
+2.
+The flexible cord must be Type SPT-3 or equivalent, No. 18 AWG, 3-conductor. The wall plug must be a two-pole grounding
+type with a NEMA 5-15P (15 A, 125 V) or NEMA 6-15P (15 A, 250 V) configuration.
+3.
+The appliance coupler, flexible cord, and wall plug must bear a “T” mark and registration number in accordance with the
+Japanese Dentori Law. The flexible cord must be Type VCT or VCTF, 3-conductor, 1.00-mm² conductor size. The wall plug
+must be a two-pole grounding type with a Japanese Industrial Standard C8303 (7 A, 125 V) configuration.
+4.
+The flexible cord must be Type RVV, 3-conductor, 0.75-mm² conductor size. Power cord set fittings (appliance coupler and
+wall plug) must bear the certification mark of the agency responsible for evaluation in the country or region where it will be
+used.
+5.
+The flexible cord must be Type VCTF, 3-conductor, 0.75-mm² conductor size. Power cord set fittings (appliance coupler and
+wall plug) must bear the certification mark of the agency responsible for evaluation in the country or region where it will be
+used.
+128 Chapter 10   Power cord set requirements
+
+--- Page 137 ---
+11
+Recycling
+Battery
+When a battery has reached the end of its useful life, do not dispose of the battery in general household
+waste. Follow the local laws and regulations in your area for computer battery disposal.
+Display
+WARNING! The backlight contains mercury. Caution must be exercised when removing and handling
+the backlight to avoid damaging this component and causing exposure to the mercury.
+CAUTION: The procedures in this appendix can result in damage to display components. The only
+components intended for recycling purposes are the liquid crystal display (LCD) panel and the backlight.
+Careful handling must be exercised when removing these components.
+NOTE: Materials Disposal. This HP product contains mercury in the backlight in the display assembly
+that might require special handling at end-of-life. Disposal of mercury may be regulated because of
+environmental considerations. For disposal or recycling information, contact your local authorities, or see
+the Electronic Industries Alliance (EIA) Web site at 
+http://www.eiae.org.
+This section provides disassembly instructions for the display assembly. The display assembly must be
+disassembled to gain access to the backlight (1) and the liquid crystal display (LCD) panel (2).
+NOTE: The procedures provided in this appendix are general disassembly instructions. Specific details,
+such as screw sizes, quantities, and locations, and component shapes and sizes, can vary from one
+computer model to another.
+Battery 129
+
+--- Page 138 ---
+Perform the following steps to disassemble the display assembly:
+1. Remove all screw covers (1) and screws (2) that secure the display bezel to the display assembly.
+2. Lift up and out on the left and right inside edges (1) and the top and bottom inside edges (2) of the
+display bezel until the bezel disengages from the display assembly.
+3. Remove the display bezel (3).
+130 Chapter 11   Recycling
+
+--- Page 139 ---
+4. Disconnect all display panel cables (1) from the display inverter and remove the inverter (2).
+5. Remove all screws (1) that secure the display panel assembly to the display enclosure.
+6. Remove the display panel assembly (2) from the display enclosure.
+7.
+Turn the display panel assembly upside down.
+8.
+Remove all screws that secure the display panel frame to the display panel.
+9. Use a sharp-edged tool to cut the tape (1) that secures the sides of the display panel to the display
+panel frame.
+Display 131
+
+--- Page 140 ---
+10. Remove the display panel frame (2) from the display panel.
+11. Remove the screws (1) that secure the backlight cover to the display panel.
+12. Lift the top edge of the backlight cover (2) and swing it outward.
+13.
+Remove the backlight cover.
+14.
+Turn the display panel right-side up.
+132 Chapter 11   Recycling
+
+--- Page 141 ---
+15. Remove the backlight cables (1) from the clip (2) in the display panel.
+16.
+Turn the display panel upside down.
+17.
+Remove the backlight frame from the display panel.
+WARNING! The backlight contains mercury. Exercise caution when removing and handling the
+backlight to avoid damaging this component and causing exposure to the mercury.
+Display 133
+
+--- Page 142 ---
+18.
+Remove the backlight from the backlight frame.
+19. Disconnect the display cable (1) from the LCD panel.
+20. Remove the screws (2) that secure the LCD panel to the display rear panel.
+21. Release the LCD panel (3) from the display rear panel.
+22. Release the tape (4) that secures the LCD panel to the display rear panel.
+23.
+Remove the LCD panel.
+24.
+Recycle the LCD panel and backlight.
+134 Chapter 11   Recycling
+
+--- Page 143 ---
+Index
+Symbols/Numerics
+1394 port, location 12
+A
+AC adapter, spare part
+number 26,  28,  32
+administrator password 84
+advanced Setup Utility
+features 83
+antenna
+removal 62
+spare part number 31
+spare part numbers 22,  62
+applications key, Windows 8
+audio board
+removal 74
+spare part number 28,  31
+spare part numbers 18,  74
+audio board cable, illustrated 24
+audio, product description 3
+audio-in jack
+location 11
+pin assignments 123
+audio-out jack
+location 11
+pin assignments 123
+B
+backpack, spare part
+number 26,  28
+backup 120
+base enclosure, spare part
+number 19,  31,  32
+battery
+location 14
+removal 41
+spare part number 31,  32, 
+41
+spare part numbers 19
+battery bay 14
+battery light 9,  11
+battery release latch 14
+Blu-ray Disc ROM Drive
+precautions 35
+removal 50
+spare part number 19,  25, 
+33,  50
+specifications 90
+Bluetooth module
+removal 67
+spare part number 18,  28, 
+67
+Bluetooth module cable,
+illustrated 24
+boot options 84
+boot order 84
+bottom components 14
+button components 7
+button sound 84
+buttons
+media 7
+power 7
+volume mute 7
+C
+Cable Kit
+contents 24
+spare part number 21,  24, 
+31
+cables, service considerations 35
+caps lock light 9
+carrying case, spare part
+number 26,  28
+changing the Setup Utility
+language 81
+chipset, product description 2
+closing the Setup Utility 83
+CMOS clearing 39
+components
+bottom 14
+button 7
+display 6
+front 6,  11
+key 8
+left-side 12
+lights 9
+rear 13
+right-side 13
+TouchPad 10
+composite video cable, spare part
+number 26,  28
+computer feet
+locations 44
+spare part number 19,  28, 
+44
+computer specifications 85
+connector pin assignments
+audio-in 123
+audio-out 123
+external monitor 124
+headphone 123
+microphone 123
+modem 125
+monitor 124
+network 125
+RJ-11 125
+RJ-45 125
+S-Video-out 126
+Universal Serial Bus (USB) 126
+connectors, service
+considerations 35
+D
+Diagnostics menu 84
+Digital Media Slot 12
+diskette drive
+precautions 35
+product description 3
+Index 135
+
+--- Page 144 ---
+display assembly
+removal 58
+spare part number 16,  30, 
+58
+display bezel
+illustrated 22
+spare part number 28,  32
+spare part numbers 22
+Display Cable Kit, spare part
+number 22,  28
+display components
+illustrated 22
+recycling 129
+spare part numbers 22
+display enclosure
+illustrated 22
+spare part number 22,  28, 
+30
+display hinge
+removal 62
+spare part number 22,  28, 
+62
+display inverter
+illustrated 22
+removal 60
+spare part number 22,  28, 
+61
+Display Label Kit, spare part
+number 31
+display panel
+illustrated 22
+product description 2
+removal 61
+spare part number 22,  30, 
+61
+Display Screw Kit, spare part
+number 22,  28
+display specifications 86
+display switch 6
+displaying system information 81
+docking support, product
+description 5
+drive light 9,  11
+drives
+preventing damage 35
+drives, boot order 84
+DVB-T antenna adapter, spare part
+number 28
+DVB-T tuner, spare part
+number 26,  28
+DVB-T wireless antenna adapter,
+spare part number 26
+DVD/CD-RW Combo Drive
+precautions 35
+removal 50
+spare part number 19,  25, 
+30,  50
+specifications 88
+DVD±RW and CD-RW Combo Drive
+precautions 35
+removal 50
+spare part number 19,  25, 
+31
+spare part numbers 50
+specifications 88
+E
+electrostatic discharge 36
+esc key 8
+Ethernet, product description 4
+Expansion port 3 12
+ExpressCard assembly
+removal 68
+spare part number 17,  28, 
+68
+ExpressCard Kit, spare part
+number 26,  30
+ExpressCard slot 13
+ExpressCard slot bezel
+illustrated 23
+removal 68
+external media cards, product
+description 4
+external monitor port
+location 12
+pin assignments 124
+F
+fan/heat sink assembly
+removal 75
+spare part number 17,  31, 
+75
+feet
+locations 44
+spare part number 19,  28, 
+44
+fingerprint reader 80
+fn key 8
+front components 6,  11
+function keys 8
+G
+graphics, product description 2
+grounding equipment and
+methods 38
+H
+hard drive
+precautions 35
+product description 3
+removal 42
+spare part number 30,  32, 
+42
+spare part numbers 19,  25
+specifications 87
+hard drive bay 14
+hard drive cover
+illustrated 23
+removal 42
+hard drive self test 84
+HD-ROM Combo Drive
+specifications 89
+headphone jack
+location 11
+pin assignments 123
+headset, spare part number 26, 
+27
+hinge
+removal 62
+spare part number 22,  28, 
+62
+I
+I/O address specifications 95, 
+97
+infrared emitter, spare part
+number 26,  29
+infrared lens 11
+interrupt specifications 93,  94
+inverter
+illustrated 22
+removal 60
+spare part number 22,  28, 
+61
+J
+jacks
+audio-in 11
+audio-out 11
+headphone 11
+microphone 11
+modem 12
+136 Index
+
+--- Page 145 ---
+network 12
+RJ-11 12
+RJ-45 12
+S-Video-out jack 12
+K
+key components 8
+keyboard
+product description 5
+removal 54
+spare part number 30
+spare part numbers 17,  54
+keypad keys 8
+keys
+esc 8
+fn 8
+function 8
+num lock 8
+Windows applications 8
+Windows logo 8
+L
+Label Kit, spare part number 26, 
+31
+language support 84
+LED board cable, illustrated 24
+left-side components 12
+light components 9
+lights
+battery 9,  11
+caps lock 9
+drive 9,  11
+num lock 9
+optical drive 13
+power 9,  11
+volume down 9
+volume mute 9
+volume up 9
+wireless 11
+M
+Main menu 83
+mass storage devices, spare part
+numbers 25
+media button 7
+memory map specifications,
+AMD 100
+memory map specifications,
+Intel 99
+memory module
+product description 2
+removal 44
+spare part number 30,  32
+spare part numbers 21,  44
+spare parts 33
+memory/WLAN module
+compartment 14
+memory/WLAN module
+compartment cover
+illustrated 23
+removal 45
+microphone
+location 6
+product description 3
+removal 62
+spare part number 22,  28, 
+63
+microphone jack
+location 11
+pin assignments 123
+model name 1
+modem jack
+location 12
+pin assignments 125
+modem module, product
+description 4
+monitor port
+location 12
+pin assignments 124
+mouse, spare part number 26, 
+28
+N
+navigating in the Setup Utility 81
+network jack
+location 12
+pin assignments 125
+num lock key 8
+num lock light 9
+O
+operating system, product
+description 5
+optical drive
+location 13,  14
+precautions 35
+product description 3
+removal 50
+spare part numbers 19,  25, 
+50
+specifications 88,  89,  90
+optical drive light 13
+P
+packing guidelines 37
+password clearing 39
+passwords 84
+plastic parts 34
+Plastics Kit
+contents 23
+spare part number 17,  23, 
+29
+pointing device
+components 10
+product description 5
+ports
+1394 12
+external monitor port 12
+monitor port 12
+product description 4
+Universal Serial Bus (USB) 12, 
+13
+power button 7
+power button board
+removal 56
+spare part number 17,  28, 
+56
+power button board cable,
+illustrated 24
+power connector 13
+power cord set requirements 127
+power cord, spare part
+number 26,  27
+power light 9,  11
+power requirements, product
+description 5
+power-on password 84
+processor
+product description 1
+removal 78
+spare part number 30,  31, 
+32,  33
+spare part numbers 18,  78
+processor bracket, spare part
+number 18,  31,  78
+product description
+audio 3
+chipset 2
+diskette drive 3
+display panel 2
+docking support 5
+Index 137
+
+--- Page 146 ---
+Ethernet 4
+external media cards 4
+graphics 2
+hard drives 3
+keyboard 5
+memory module 2
+microphone 3
+modem module 4
+operating system 5
+optical drives 3
+pointing devices 5
+ports 4
+power requirements 5
+processors 1
+product name 1
+security 5
+serviceability 5
+wireless 4
+product name 1
+R
+rear components 13
+recovery discs 119
+recovery, system 119,  122
+remote control, spare part
+number 26,  29
+removal/replacement
+preliminaries 34
+procedures 40
+restore points 121
+restoring default settings 82
+RF input adapter cable, spare part
+number 26,  28
+right-side components 13
+RJ-11 jack
+location 12
+pin assignments 125
+RJ-45 jack
+location 12
+pin assignments 125
+RTC battery
+removal 46
+spare part number 31
+spare part numbers 21,  46
+Rubber Kit, spare part
+number 19,  28,  44
+S
+S-Video-out jack
+location 12
+pin assignments 126
+Screw Kit
+contents 101
+spare part number 27,  28
+screw listing 101
+secondary hard drive self test 84
+security cable slot 13
+Security menu 84
+security, product description 5
+selecting in the Setup Utility 81
+serial number 15,  40
+service considerations 34
+serviceability, product
+description 5
+Setup Utility
+changing the language 81
+closing 83
+Diagnostics menu 84
+displaying system
+information 81
+Main menu 83
+navigating and selecting 81
+overview 80
+restoring default settings 82
+Security menu 84
+starting 80
+System Configuration menu 84
+using 81
+using advanced features 83
+software
+safeguarding information 119
+speakers 7
+specifications
+Blu-ray Disc ROM Drive 90
+computer 85
+display 86
+DVD/CD-RW Combo Drive 88
+DVD±RW and CD-RW Combo
+Drive 88
+hard drive 87
+HD-ROM Combo Drive 89
+I/O addresses, AMD 97
+I/O addresses, Intel 95
+interrupts, AMD 94
+interrupts, Intel 93
+memory map, AMD 100
+memory map, Intel 99
+optical drive 88,  89,  90
+system DMA, AMD 92
+system DMA, Intel 91
+static-shielding materials 38
+switch cover
+removal 52
+spare part number 28,  32
+spare part numbers 17,  52
+system board
+removal 71
+spare part number 30,  31, 
+32
+spare part numbers 18,  71
+System Configuration menu 84
+system DMA 91,  92
+system information 83
+system memory map, AMD 100
+system memory map, Intel 99
+system recovery 119,  122
+system restore points 121
+T
+thermal material, replacement 77
+tools required 34
+top components 7
+top cover
+removal 64
+spare part number 31,  32
+spare part numbers 17,  64
+TouchPad components
+buttons 10
+light 10
+on/off button 10
+scroll zone 10
+TouchPad 10
+transporting guidelines 37
+TV tuner antenna, spare part
+number 26,  29
+TV tuner, spare part number 26, 
+29
+U
+Universal Serial Bus (USB) port
+locations 12,  13
+pin assignments 126
+unknown password 39
+USB digital drive, spare part
+number 26,  27
+138 Index
+
+--- Page 147 ---
+USB/power connector board
+removal 70
+spare part number 18,  31, 
+70
+USB/power connector board cable
+illustrated 24
+removal 73
+V
+vents 13,  14
+volume down light 9
+volume mute button 7
+volume mute light 9
+volume scroll zone 7
+volume up light 9
+W
+Windows applications key 8
+Windows logo key 8
+wireless antenna
+removal 62
+spare part number 31
+spare part numbers 22,  62
+Wireless Antenna Kit, spare part
+number 31
+Wireless Antenna Kit, spare part
+numbers 22,  62
+wireless light 11
+wireless switch 11
+wireless, product description 4
+WLAN module
+removal 47
+spare part number 29,  32
+spare part numbers 19,  47, 
+48
+workstation guidelines 37
+Index 139
+

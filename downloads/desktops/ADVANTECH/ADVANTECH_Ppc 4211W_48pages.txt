@@ -1,0 +1,809 @@
+Brand: ADVANTECH
+Model: Ppc 4211W
+URL: https://www.manua.ls/advantech/ppc-4211w/manual
+Total Pages: 48
+============================================================
+
+--- Page 1 ---
+User Manual
+PPC-4211W
+Intel® Core i processor based 
+microcomputer, with 21.5" color 
+TFT LCD display
+
+--- Page 2 ---
+PPC-4211W User Manual ii
+Copyright
+The documentation and the software included with this product are copyrighted 2014
+by Advantech Co., Ltd. All rights are reserved. Advantech Co., Ltd. reserves the right
+to make improvements in the products described in this manual at any time without
+notice. No part of this manual may be reproduced, copied, translated or transmitted
+in any form or by any means without the prior written permission of Advantech Co.,
+Ltd. Information provided in this manual is intended to be accurate and reliable. How-
+ever, Advantech Co., Ltd. assumes no responsibility for its use, nor for any infringe-
+ments of the rights of third parties, which may result from its use.
+Acknowledgements
+Intel and Pentium are trademarks of Intel Corporation.
+Microsoft Windows is registered trademark of Microsoft Corp.
+All other product names or trademarks are properties of their respective owners.
+Product Warranty (2 years)
+Advantech warrants to you, the original purchaser, that each of its products will be
+free from defects in materials and workmanship for two years from the date of pur-
+chase. 
+This warranty does not apply to any products which have been repaired or altered by
+persons other than repair personnel authorized by Advantech, or which have been
+subject to misuse, abuse, accident or improper installation. Advantech assumes no
+liability under the terms of this warranty as a consequence of such events.
+Because of Advantech’s high quality-control standards and rigorous testing, most of
+our customers never need to use our repair service. If an Advantech product is defec-
+tive, it will be repaired or replaced at no charge during the warranty period. For out-
+of-warranty repairs, you will be billed according to the cost of replacement materials,
+service time and freight. Please consult your dealer for more details.
+If you think you have a defective product, follow these steps:
+1. Collect all the information about the problem encountered. (For example, CPU 
+speed, Advantech products used, other hardware and software used, etc.) Note 
+anything abnormal and list any onscreen messages you get when the problem 
+occurs.
+2. Call your dealer and describe the problem. Please have your manual, product, 
+and any helpful information readily available.
+3. If your product is diagnosed as defective, obtain an RMA (return merchandize 
+authorization) number from your dealer. This allows us to process your return 
+more quickly.
+4. Carefully pack the defective product, a fully-completed Repair and Replacement 
+Order Card and a photocopy proof of purchase date (such as your sales receipt) 
+in a shippable container. A product returned without proof of the purchase date 
+is not eligible for warranty service.
+5. Write the RMA number visibly on the outside of the package and ship it prepaid 
+to your dealer.
+Part No. 200K421110 Edition 1
+Printed in China May 2014
+
+--- Page 3 ---
+iii PPC-4211W User Manual
+ 
+Declaration of Conformity
+CE
+This product has passed the CE test for environmental specifications when shielded
+cables are used for external wiring. We recommend the use of shielded cables. This
+kind of cable is available from Advantech. Please contact your local supplier for
+ordering information.
+CE
+This product has passed the CE test for environmental specifications. Test conditions
+for passing included the equipment being operated within an industrial enclosure. In
+order to protect the product from being damaged by ESD (Electrostatic Discharge)
+and EMI leakage, we strongly recommend the use of CE-compliant industrial enclo-
+sure products.
+FCC Class B
+Note: This equipment has been tested and found to comply with the limits for a Class
+B digital device, pursuant to part 15 of the FCC Rules. These limits are designed to
+provide reasonable protection against harmful interference in a residential installa-
+tion. This equipment generates, uses and can radiate radio frequency energy and, if
+not installed and used in accordance with the instructions, may cause harmful inter-
+ference to radio communications. However, there is no guarantee that interference
+will not occur in a particular installation. If this equipment does cause harmful interfer-
+ence to radio or television reception, which can be determined by turning the equip-
+ment off and on, the user is encouraged to try to correct the interference by one or
+more of the following measures: 
+ Reorient or relocate the receiving antenna. 
+ Increase the separation between the equipment and receiver. 
+ Connect the equipment into an outlet on a circuit different from that to which the 
+receiver is connected. 
+ Consult the dealer or an experienced radio/TV technician for help.
+Technical Support and Assistance
+1. Visit the Advantech web site at http://support.advantech.com where you can find 
+the latest information about the product.
+2. Contact your distributor, sales representative, or Advantech's customer service 
+center for technical support if you need additional assistance. Please have the 
+following information ready before you call:
+– Product name and serial number
+– Description of your peripheral attachments
+– Description of your software (operating system, version, application software, 
+etc.)
+– A complete description of the problem
+– The exact wording of any error messages
+
+--- Page 4 ---
+PPC-4211W User Manual iv
+Safety Instructions
+1. Read these safety instructions carefully.
+2. Keep this User Manual for later reference.
+3. Disconnect this equipment from any AC outlet before cleaning. Use a damp 
+cloth. Do not use liquid or spray detergents for cleaning.
+4. For plug-in equipment, the power outlet socket must be located near the equip-
+ment and must be easily accessible.
+5. Keep this equipment away from humidity.
+6. Put this equipment on a reliable surface during installation. Dropping it or letting 
+it fall may cause damage.
+7. The openings on the enclosure are for air convection. Protect the equipment 
+from overheating. DO NOT COVER THE OPENINGS.
+8. Make sure the voltage of the power source is correct before connecting the 
+equipment to the power outlet.
+9. Position the power cord so that people cannot step on it. Do not place anything 
+over the power cord.
+10. All cautions and warnings on the equipment should be noted.
+11. If the equipment is not used for a long time, disconnect it from the power source 
+to avoid damage by transient overvoltage.
+12. Never pour any liquid into an opening. This may cause fire or electrical shock.
+13. Never open the equipment. For safety reasons, the equipment should be 
+opened only by qualified service personnel.
+14. If one of the following situations arises, get the equipment checked by service 
+personnel:
+The power cord or plug is damaged.
+Liquid has penetrated into the equipment.
+The equipment has been exposed to moisture.
+The equipment does not work well, or you cannot get it to work according to 
+the user's manual.
+The equipment has been dropped and damaged.
+The equipment has obvious signs of breakage.
+15. DO NOT LEAVE THIS EQUIPMENT IN AN ENVIRONMENT WHERE THE 
+STORAGE TEMPERATURE MAY GO BELOW -20° C (-4° F) OR ABOVE 60° C 
+(140° F). THIS COULD DAMAGE THE EQUIPMENT. THE EQUIPMENT 
+SHOULD BE IN A CONTROLLED ENVIRONMENT.
+16. CAUTION: DANGER OF EXPLOSION IF BATTERY IS INCORRECTLY 
+REPLACED. REPLACE ONLY WITH THE SAME OR EQUIVALENT TYPE 
+RECOMMENDED BY THE MANUFACTURER, DISCARD USED BATTERIES 
+ACCORDING TO THE MANUFACTURER'S INSTRUCTIONS.
+The sound pressure level at the operator's position according to IEC 704-1:1982 is
+no more than 70 dB (A).
+DISCLAIMER: This set of instructions is given according to IEC 704-1. Advantech
+disclaims all responsibility for the accuracy of any statements contained herein.
+
+--- Page 5 ---
+v PPC-4211W User Manual
+ 
+Safety Precaution - Static Electricity
+Follow these simple precautions to protect yourself from harm and the products from
+damage.
+ To avoid electrical shock, always disconnect the power from your PC chassis 
+before you work on it. Don't touch any components on the CPU card or other 
+cards while the PC is on.
+ Disconnect power before making any configuration changes. The sudden rush 
+of power as you connect a jumper or install a card may damage sensitive elec-
+tronic components.
+Battery Information
+Batteries, battery packs and accumulators should not be disposed of as unsorted
+household waste. Please use the public collection system to return, recycle, or treat
+them in compliance with the local regulations.
+
+--- Page 7 ---
+vii PPC-4211W User Manual
+ 
+Contents
+Chapter 1 General Information ............................1
+1.1 Introduction ............................................................................................... 2
+1.2 Specifications ............................................................................................ 2
+1.2.1 General Specification.................................................................... 2
+1.2.2 Power Specifications..................................................................... 3
+1.2.3 Touchscreen Specifications .......................................................... 3
+1.2.4 Environment Specifications........................................................... 3
+1.2.5 Certification Specifications............................................................ 3
+1.2.6 IP .................................................................................................. 3
+1.3 Dimensions ............................................................................................... 4
+Figure 1.1 PPC-4211W dimensions ............................................ 4
+Chapter 2 System Installation & Setup ...............5
+2.1 Quick Start Guide...................................................................................... 6
+Figure 2.1 Front panel ................................................................. 6
+Figure 2.2 Side view .................................................................... 6
+Figure 2.3 Location of I/O interfaces............................................ 7
+Figure 2.4 PCI/PCIe expansion slot............................................. 7
+Figure 2.5 Grounding screw ........................................................ 7
+2.2 Installation Procedures.............................................................................. 8
+2.2.1 Connecting the Power Cable ........................................................ 8
+Figure 2.6 Connecting the power cable ....................................... 8
+2.2.2 Connecting the Keyboard and Mouse........................................... 8
+2.2.3 Power ON ..................................................................................... 8
+2.3 Install Memory Card .................................................................................. 9
+Figure 2.7 .................................................................................... 9
+Figure 2.8 .................................................................................... 9
+Figure 2.9 .................................................................................... 9
+Figure 2.10.................................................................................... 9
+Figure 2.11.................................................................................... 9
+Figure 2.12.................................................................................... 9
+2.4 Installing the HDD ................................................................................... 10
+Figure 2.13.................................................................................. 10
+Figure 2.14.................................................................................. 10
+Figure 2.15.................................................................................. 10
+Figure 2.16.................................................................................. 10
+Figure 2.17.................................................................................. 10
+Figure 2.18.................................................................................. 10
+2.5 Installing Mini SATA ................................................................................ 11
+Figure 2.19.................................................................................. 11
+Figure 2.20.................................................................................. 11
+2.6 Installing Wireless LAN Card .................................................................. 12
+Figure 2.21.................................................................................. 12
+Figure 2.22.................................................................................. 12
+Figure 2.23.................................................................................. 12
+Figure 2.24.................................................................................. 12
+Figure 2.25.................................................................................. 13
+2.7 Installing the Riser Card.......................................................................... 14
+Figure 2.26.................................................................................. 14
+Figure 2.27.................................................................................. 14
+Figure 2.28.................................................................................. 14
+Figure 2.29.................................................................................. 14
+2.8 AT/ATX Function Switch ......................................................................... 14
+
+--- Page 8 ---
+PPC-4211W User Manual viii
+Figure 2.30ATX mode ................................................................ 14
+Figure 2.31AT mode................................................................... 14
+2.9 Grounding Installation ............................................................................. 15
+Figure 2.32 ................................................................................. 15
+Figure 2.33 ................................................................................. 15
+Figure 2.34 ................................................................................. 15
+Figure 2.35 ................................................................................. 15
+2.10 Hook Installation ..................................................................................... 16
+Figure 2.36Hook Installation....................................................... 16
+2.11 Solo Quick Installation ............................................................................ 17
+Chapter 3 Jumper Configuration ...................... 19
+3.1 Jumper & Connectors ............................................................................. 20
+Figure 3.1 PCM-8209 front view................................................ 20
+3.2 External COM Port Pin Definition............................................................ 22
+Figure 3.2 COM ports ................................................................ 22
+Chapter 4 Software Configuration .................... 25
+4.1 Install Divers ........................................................................................... 26
+4.2 BIOS Setup ............................................................................................. 26
+4.2.1 Enter BIOS.................................................................................. 26
+4.2.2 Display Brightness Adjustment ................................................... 27
+4.2.3 COM5 Mode Selection (RS422/485) .......................................... 28
+4.2.4 Wake Up by LAN ........................................................................ 29
+4.2.5 RAID Installation ......................................................................... 32
+
+--- Page 9 ---
+Chapter 1
+1 General Information
+This chapter gives background 
+information on the PPC-4211W 
+panel PC.
+Sections include:
+ Introduction
+ Specifications
+ Dimensions
+
+--- Page 10 ---
+PPC-4211W User Manual 2
+1.1 Introduction
+The PPC-4211W is a new generation Panel PC with WXGA (1920 x 1080) screen.
+The system is equipped with a high performance Intel Core i CPU and with a high
+efficiency fanless thermal design the heat is easily dissipated. This gives HMI a big
+step forward in consolidating performance and reliability in one system. Besides, with
+multiple I/O ports (five COM, five USB and two Gigabit ethernet) its easier to connect
+to devices and be integrated into machine building industry. In addition, PCIe/PCI
+expansion allows users to add-on field bus or proprietary cards making more applica-
+tions possible. Last but not least, the multi-touch screen makes the HMI more intui-
+tive, and brings you the best operating experience.
+1.2 Specifications
+1.2.1 General Specification 
+
+Product PPC-4211W
+LCD Specification 21.5’’ LCD
+Display Type 21.5" TFT LCD (LED backlight)
+Max. Resolution 1920 x 1080
+Color 16.7M
+Pixel Pitch 248.25 (per one triad) x 248.25 um
+Viewing Angle 178 (left), 178 (right), 178 (top), 178 (bottom) (Typ.)
+Brightness
+300 cd/m
+2
+ (Typ.)
+Contrast 5000 (Typ.)
+Backlight Lifecycle 50, 000 hours
+Weight 7.9 Kg (17.43 lb)
+Dimensions 558.4 x 349.8 x 63.8 (mm)(21.98" x 13.77" x 2.51")
+CPU
+Model                          Frequency         Cache
+i5 - 4300U                   2.90GHz            3M
+Celeron - 2980U         1.60GHz             2M
+Memory One 204 pin slot, up to 8G DDR3L
+Storage  Support two 2.5" SATA HDD
+Network(LAN1, LAN2) 2 x Gigabit Ethernet ports
+I/O Ports
+4 x COM-RS232 Ports, 1 x RS-422/485 Port, 4 x USB 3.0, 1 x 
+USB 2.0
+2 x Gigabit Ethernet ports
+1 x VGA, 1 x DP
+1 x Line-out port,1 x Mic-in port, 2 x 1 W speaker (built-in)
+1 x Phoenix power port, 1 x Power switch
+Expansion Slot
+1 x PCIe x4 (standard)
+1 x PCI (in the accessory box)
+Additional Expansion Slot 1 x Mini PCIe slot and 1 x mSATA card slot
+System Win 7 / Win 8 / Win 8.1 / Linux
+
+--- Page 11 ---
+3 PPC-4211W User Manual
+Chapter 1 General Information
+1.2.2 PowerSpecifications
+1.2.3 Touchscreen Specifications
+1.2.4 EnvironmentSpecifications
+1.2.5 CertificationSpecifications
+1.2.6 IP
+Note 1:
+PPC-4211W's power test conditions are as follows:
+Power
+i7: 71 W (test system: Windows7 64bit)
+i5: 66 W (test system: Windows7 64bit)
+Celeron: 58 W (test system: Windows7 64bit)
+Output Voltage
+12-32 V
+DC
+, 8~3 A 
+Note! The above test conditions are detailed in Note 1.
+Type
+5-point projected capacitive touchscreen (multi-touch function is
+only supported in Win 7/WES7P/Win 8/Win 8.1 OS)
+Light Transmission 88%+/-5%
+Controller USB interface 
+Operation Temperature 0 ~ 50°C (32 ~ 122°F) 
+Storage Temperature -20 ~ 60°C (-4 ~ 140°F)
+Relative Temperature 10 ~ 95% @ 40°C (non-condensing)
+Shock 10 G peak acceleration (11 msec duration)
+Vibration 5 ~ 500 Hz 1 G RMS
+EMC BSMI, CE, FCC Class B
+Safety CB, CCC, UL
+Front Panel IP Grade IP65
+Test Software Test Configuration Test System
+Burn-in 7.0
+Memory: Transcend DDR3L 1600 SODIMM 8 GB x 1
+HDD: Seageat 500G 2.5”x 2
+IO: COM Port RS232 loopback x4, USB3.0 device x4,
+USB mouse x1
+Win7(64bit)
+
+--- Page 12 ---
+PPC-4211W User Manual 4
+1.3 Dimensions
+Figure 1.1 PPC-4211W dimensions
+Note!
+Supports VESA 100 x 100mm & 75 x 75mm; please use M4
+screw, 6 mm depth (maximum).Use suitable mounting apparatus
+to avoid risk of injury.
+550.30
+341.80
+558.40
+349.80
+548.81
+340.21
+7.50
+41.70
+63.80
+Ø75
+Ø100
+
+--- Page 13 ---
+Chapter 2
+2 System Installation & 
+Setup
+Sections include:
+ Quick Installation Guide
+ Installation Procedures
+ Installing Memory
+ Installing HDD
+ Installing Mini SATA
+ Installing Wireless LAN
+ Installing Expansion Card
+ AT/ATX Function Switch
+ Grounding Installation
+ Hook Installation
+ Independent Quick Installation
+
+--- Page 14 ---
+PPC-4211W User Manual 6
+2.1 Quick Start Guide
+Before you start to set up the panel PC, take a moment to become familiar with the
+locations and purposes of the controls, drives, connectors and ports, which are illus-
+trated in the figures below.
+When you place the panel PC upright on the desktop, its front panel appears as
+shown in Figure 2.1.
+Figure 2.1 Front panel 
+1. I Key
+2. Home Key
+3. Power status indicator, off (S5): orange, on (S0): blue
+Figure 2.2 Side view
+1. Quick installation clip (two)
+2. Antenna hole (two)
+3. Panel Mount Bracket holes (twelve)
+4. Side USB 2.0 interface
+5. CPU cooler
+6. Speaker (two)
+1   2   3
+5
+4
+1
+2
+3
+6
+
+--- Page 15 ---
+7 PPC-4211W User Manual
+Chapter 2 System Installation & Setup
+I/O interfaces:
+Figure 2.3 Location of I/O interfaces
+A: Power button
+B: Line out/Mic in
+C: 4 x USB 3.0
+D: 2 x Giga Ethernet
+E: VGA
+F: DP
+G: 4 x COM RS232
+H: DC power(12-32 V)
+I: 1 x COM RS422/485
+J: PCI/PCIE x4 Expansion slot (refer to Fig 2.4)
+K: Grounding screw (refer to Fig 2.5)
+Figure 2.4 PCI/PCIe expansion slot Figure 2.5 Grounding screw
+A
+B      D                        G             I 
+F
+                                      H 
+E
+C                                      
+J
+K
+
+--- Page 16 ---
+PPC-4211W User Manual 8
+2.2 Installation Procedures
+2.2.1 Connecting the Power Cable
+The panel PC has DC power socket (12-32 V). When connecting the power cable,
+please hold the plug end. Please follow the procedures below:
+1. Connect the female end of the power cable to panel PC’s DC socket.
+2. Connect the male end of the power cable to power outlet.
+Figure 2.6 Connecting the power cable
+2.2.2 Connecting the Keyboard and Mouse
+Connect the keyboard and mouse to panel PC’s I/O interfaces.
+2.2.3 Power ON
+The power button is located in the right bottom side of the panel PC.
+Note! Power cable and adapter are optional.
+
+--- Page 17 ---
+9 PPC-4211W User Manual
+Chapter 2 System Installation & Setup
+2.3 Install Memory Card
+1. Loosen the screws as indicated in the red circle. (See Fig 2.7)
+2. Press the red areas to pull out the card holder (See Fig 2.8 ~ 2.10) and open the 
+rear cover. 
+3. Remove the yellow warning tag first. Then remove the screws as indicated in 
+the red circle. (See Fig 2.11), and take out the CPU heatsink.
+Figure 2.7  Figure 2.8 
+Figure 2.9  Figure 2.10 
+Note! Take out the black and gray thermal grease from the accessary box (as 
+indicated in Figure 2.12). Attach the CPU heatsink after the grease is 
+applied.
+Figure 2.11  Figure 2.12 
+Note! CPU cooler pad surface is isolated by anodization treatment to avoid 
+static electricity (CPU contact side excluded).
+
+--- Page 18 ---
+PPC-4211W User Manual 10
+2.4 Installing the HDD
+1. Follow the procedures in Section 2.3 to open the rear cover and remove the 
+screws as indicated in the red circles in Fig 2.13.
+2. Remove the HDD bracket from the strength-plate. (See Fig 2.14 and Fig 2.15)
+3. Install the HDD (see Fig 2.16 and Fig 2.17), and take out the 4 screws from the 
+accessory box to fix the HDD and then fix the strength-plate (8 screws will be 
+needed if using two HDDs).
+4. Lock the HDD bracket, and connect the HDD cable to the mainboard. (See Fig 
+2.18) 
+Figure 2.13  Figure 2.14 
+ 
+Figure 2.15 
+Figure 2.16 
+Figure 2.17  Figure 2.18
+
+--- Page 19 ---
+11 PPC-4211W User Manual
+Chapter 2 System Installation & Setup
+2.5 Installing Mini SATA 
+1. Follow the procedures in Section 2.3 to remove the rear cover and strength-
+plate. (See Fig 2.19)
+2. Plug the MiniSATA into the mainboard interface, and remove the 2 M2.5x4 
+screws from the accessory box to fix it (See Fig 2.20).
+3. Return the rear cover and strength-plate.
+Figure 2.19 
+Figure 2.20
+
+--- Page 20 ---
+PPC-4211W User Manual 12
+2.6 Installing Wireless LAN Card
+1. Follow the procedures in Section 2.3 to open the rear cover and strength-plate. 
+The wireless LAN card can be installed to the locations as indicated in Fig 2.21 
+and 2.22; for the wireless short card, you need to take out one hexagonal screw 
+from the accessory box to fix it.
+2. Connect the wireless LAN card module cable to the antenna bracket, please 
+note the installation direction of cable end and screws/cushions. (See Fig 2.23)
+3. Remove the two plugs on the left and right sides of the rear cover. (See Fig 
+2.24)
+4. Return the rear cover and install the antenna of the wireless LAN card module. 
+(See Fig 2.25)
+Figure 2.21 
+Figure 2.22 
+Note! For wireless LAN card module, you can choose Advantech Product: 
+(Part No. PPC-4211W-WLANE).
+ 
+Figure 2.23 
+Figure 2.24
+
+--- Page 21 ---
+13 PPC-4211W User Manual
+Chapter 2 System Installation & Setup
+ 
+Figure 2.25
+
+--- Page 22 ---
+PPC-4211W User Manual 14
+2.7 Installing the Riser Card
+1. Remove the rear cover of the Panel PC. Then remove the screws and shield as 
+indicated in the red circle in Fig 2.26 and install the expansion card.
+2. The original machine provides PCIe x4 riser card (PCM-939), and the installa-
+tion is shown as Fig 2.26 and 2.27).
+3. The installation of expansion PCI riser card is shown as Fig 2.28 and Fig 2.29.
+2.8 AT/ATX Function Switch
+The switch is built in to the machine. Use it to choose AT/ATX functions without
+removing the rear cover.
+Note! The maximum dimensions of the expansion card is 167.65 mm x 
+106.7mm.
+Figure 2.26  Figure 2.27 
+Figure 2.28  Figure 2.29 
+Figure 2.30 ATX mode Figure 2.31 AT mode
+
+--- Page 23 ---
+15 PPC-4211W User Manual
+Chapter 2 System Installation & Setup
+2.9 Grounding Installation
+Loosen the screws, remove down the plastic cover, plug in the grounding cable, and
+then fix the screws. (See Fig 2.32 ~ Fig 2.35)
+Figure 2.32  Figure 2.33 
+Figure 2.34  Figure 2.35 
+Note! The grounding cable is not provided in the accessory box.
+
+--- Page 24 ---
+PPC-4211W User Manual 16
+2.10 Hook Installation
+Follow the figures below:
+Figure 2.36 Hook Installation
+Hook
+Put the machine into the carbinet, and prepare the hook.
+Install the hook into the hole to hold the machine as shown above 
+Secure the machine by fastening the screws
+Screw
+
+--- Page 25 ---
+17 PPC-4211W User Manual
+Chapter 2 System Installation & Setup
+2.11 Solo Quick Installation
+Users can independently complete the panel wallmount installation by quick installa-
+tion Guide. Follow the procedures below:
+1. Loosen the two screws at the base, see the figure below.
+2. Push the machine into a gap in the wall, the spring hook will lock the machine 
+into the wall.
+
+--- Page 26 ---
+PPC-4211W User Manual 18
+3. Installation is complete as shown in the figure below. Then in the rear of the 
+machine, lock the hook screw and fix the machine according to Section 2.10 
+“Hook Installation”.
+Note! It is recommend that the mount thickness is smaller than 2 mm (0.079”) 
+according to quick installation guide. For other situations, the recom-
+mended thickness is less than 6 mm (0.236”).
+
+--- Page 27 ---
+Chapter 3
+3 Jumper Configuration
+Sections include:
+ Jumper & Connectors
+ External COM Port Pin Defini-
+tion
+
+--- Page 28 ---
+PPC-4211W User Manual 20
+3.1 Jumper & Connectors
+Figure 3.1 PCM-8209 front view
+SW1 Panel Resolution Selection
+Setting          Function
+1000            for 15.6" LCD
+1110            for 21.5" LCD
+CN20 COM1/COM2 RI Type Select
+Description For COM1/COM2 select RI Voltage mode 
+Setting Function
+(1-3) (2-4) (default) RI
+(3-5) (4-6) 5V
+(7-9) (8-10) 12V
+      
+CN15
+CN17 CN20
+CN45
+CN46
+SW2
+SW1
+
+--- Page 29 ---
+21 PPC-4211W User Manual
+Chapter 3 Jumper Configuration
+CN17 clean CMOS 
+Setting Function
+(1-2) Clear CMOS
+(2-3) Keep CMOS (default)
+SW2 ATX/AT Mode Selection
+Pin Pin Name
+1-3 ATX Power(default)
+2-3 AT Power
+CN15 GPIO
+Pin Pin Name
+1GND
+2GPIO4
+3GPIO0
+4GPIO5
+5GPIO1
+6GPIO6
+7GPIO2
+8GPIO7
+9               GPIO3
+10             5V
+
+--- Page 30 ---
+PPC-4211W User Manual 22
+3.2 External COM Port Pin Definition
+Figure 3.2 COM ports
+COM 1 and COM 2 (RS232, pin9 supports 5 V/12 V output)
+COM 3 and COM 4 (RS232)
+COM 5 RS-422/485
+COM1-4:
+Pin9 is set as RI signal in COM port by default, and could be set as 5V/12V output
+by Jumper
+Note! COM4 doesn’t support RING function.
+Pin COM1 / COM2 COM3 / COM4
+1 DCD DCD
+2RXDRXD
+3TXDTXD
+4DTRDTR
+5GNDGND
+6DSRDSR
+7RTSRTS
+8CTS CTS 
+9 RING or 5V/12V output RING (Only COM3)
+COM1~4         COM5
+
+--- Page 31 ---
+23 PPC-4211W User Manual
+Chapter 3 Jumper Configuration
+COM5: RS422/485 with Isolation 1000 VDC, BIOS selectable 
+UART RS485 Auto Flow Control
+COM5 supports RS485 auto flow control function for all UART.
+When enabling the RS485 auto control function, it will automatically drive RTS# pin
+to logic high or low for flow control.
+To make this RS485 auto flow control function work, please be noted that the parity
+and stop-bit setting has to be one of the following three settings:
+(1) 8 data bits + 1 parity bit + 1stop bit
+(2) 8 data bits + 1 parity bit + 2 stop bits
+(3) 8 data bits + 2 stop bits
+Pin12345
+RS422 TX+ TX- RX+ RX- GND
+RS485 D+ D- GND
+
+--- Page 33 ---
+Chapter 4
+4 Software 
+Configuration
+Sections include:
+ Installing Drivers
+ BIOS Setup Program
+
+--- Page 34 ---
+PPC-4211W User Manual 26
+4.1 Install Divers
+When first using the system, users need to set up corresponding drivers, in order to
+ensure all functions are normal. Remove the DVD-ROM from the accessory box and
+open it in the system: 
+Follow the instructions to install the drivers. The drivers in the accompanied DVD-
+ROM may not be the latest version, if needed, find it at:
+http://www.advantech.com/
+4.2 BIOS Setup
+4.2.1 Enter BIOS 
+Start the computer and press the “Delete” key to enter BIOS.
+Press “F4” to save and exit after any configuration, or the configuration won't be
+saved in BIOS.
+
+--- Page 35 ---
+27 PPC-4211W User Manual
+Chapter 4 Software Configuration
+4.2.2 Display Brightness Adjustment 
+1. Select “Brightness Control” under “Chipset”.
+2. Select “Brightness Manual Control” under “Brightness Control”, and there 
+will be six [6] options:
+Note! If you want to adjust brightness through AP in the OS, it will keep AP 
+configuration mainly, and BIOS configuration will not be saved.
+
+--- Page 36 ---
+PPC-4211W User Manual 28
+4.2.3 COM5 Mode Selection (RS422/485)
+1. Select “Super IO Configuration” under “Advanced”.
+2. Select “Serial Port 5 Configuration” and then select the operation mode of 
+COM5 by "Serial Port5 Mode".
+
+--- Page 37 ---
+29 PPC-4211W User Manual
+Chapter 4 Software Configuration
+4.2.4 Wake Up by LAN
+1. Select “ACPI Settings” under “Advanced”.
+ 
+2. Set “Wake On By LAN or RI” as “Enabled”.
+
+--- Page 38 ---
+PPC-4211W User Manual 30
+3. Then save the configuration and exit the OS.
+4. Right click “Computer” and click “Manage”, then open “Computer Manage-
+ment”.
+
+--- Page 39 ---
+31 PPC-4211W User Manual
+Chapter 4 Software Configuration
+5. Click “Network adapters” in “Device Management”, then right click and select 
+the needed LAN port, then select “Properties” and open “Intel(R) Ethernet”.
+6.  Select “Work On Magic Packet”, “Work On Pattern Match” and “Work On Magic 
+Packet From Power Off State” under “Power Management”.
+
+--- Page 40 ---
+PPC-4211W User Manual 32
+4.2.5 RAID Installation
+1. Enter BIOS when boot up, and click “SATA Configuration” under Advanced.
+2. Set “SATA Mode Selection” as “RAID”, then save and exit.
+
+--- Page 41 ---
+33 PPC-4211W User Manual
+Chapter 4 Software Configuration
+3. Press “Ctrl + I” to enter RAID configuration utility when entering the second 
+start-up screen. 
+4. Enter “Create RAID Volume”.
+
+--- Page 42 ---
+PPC-4211W User Manual 34
+5. Input “Name” and select “RAID Level”, and then save and exit “Create Volume” 
+menu.
+6. Click “Exit”, the device will start the normal RAID installation.
+
+--- Page 43 ---
+35 PPC-4211W User Manual
+Chapter 4 Software Configuration
+7. Take out the OS setup disk when you see this screen, then insert the driver disk 
+and click “Load driver”.
+8. Select RAID driver folder and click “OK”.
+
+--- Page 44 ---
+PPC-4211W User Manual 36
+9. Click “Next”.
+10. Replace the driver disk with system setup disk after installation of RAID driver is 
+finished, then click “Next” to return the normal system installation.
+
+--- Page 45 ---
+37 PPC-4211W User Manual
+Chapter 4 Software Configuration
+11. After installing all the drivers, click the “SetupRST.exe” in the driver folder.
+12. Click the icon in the lower-right corner of the screen to check the working status 
+of RAID Volume.
+
+--- Page 46 ---
+PPC-4211W User Manual 38
+13. If RAID 1 mode is installed and when one the HDDs fails, a pop-up message will 
+appear in the lower right corner. Click the message box to check details of the 
+problem. 
+14. At this time, you will need to turn off the computer to change the failed HDD. 
+After entering the system, click “Rebuild to another disk” to back up the system 
+to the new hard disk.
+
+--- Page 47 ---
+39 PPC-4211W User Manual
+Chapter 4 Software Configuration
+15. When the rebuilding status shows 100%, system backup is complete and RAID 
+1 function will work again.
+
+--- Page 48 ---
+www.advantech.com
+Please verify specifications before quoting. This guide is intended for reference
+purposes only.
+All product specifications are subject to change without notice.
+No part of this publication may be reproduced in any form or by any means,
+electronic, photocopying, recording or otherwise, without prior written permis-
+sion of the publisher.
+All brand and product names are trademarks or registered trademarks of their
+respective companies.
+© Advantech Co., Ltd. 2014
+

@@ -1,0 +1,2110 @@
+Brand: ADVANTECH
+Model: Uno 1172
+URL: https://www.manua.ls/advantech/uno-1172/manual
+Total Pages: 86
+============================================================
+
+--- Page 1 ---
+i
+UNO-1172A/AE/AH
+Intel Atom D510 Fanless, DIN-rail Embed-
+ded Automation Computer with 3 x LAN, 2 x 
+COM, 4 x USB, 5.1 Channel HD Audio & PC/
+104+
+User Manual
+
+--- Page 2 ---
+UNO-1172A/AE/AH User Manual ii
+Copyright Notice
+The documentation and the software included with this product are copy-
+righted 2011 by Advantech Co., Ltd. All rights are reserved. Advantech 
+Co., Ltd. reserves the right to make improvements in the products 
+described in this manual at any time without notice. No part of this man-
+ual may be reproduced, copied, translated or transmitted in any form or 
+by any means without the prior written permission of Advantech Co., Ltd. 
+Information provided in this manual is intended to be accurate and reli-
+able. However, Advantech Co., Ltd. assumes no responsibility for its use, 
+nor for any infringements of the rights of third parties, which may result 
+from its use.
+Acknowledgements
+IBM, PC/AT, PS/2 and VGA are trademarks of International Business
+Machines Corporation.
+Intel® and Pentium® are trademarks of Intel Corporation.
+Microsoft Windows and MS-DOS are registered trademarks of
+Microsoft Corp.
+C&T is a trademark of Chips and Technologies, Inc.
+All other product names or trademarks are properties of their respective 
+owners.
+Part No. 2003117210 1st Edition
+Printed in Taiwan April 2011
+
+--- Page 3 ---
+iii
+Product Warranty (2 years)
+Advantech warrants to you, the original purchaser, that each of its prod-
+ucts will be free from defects in materials and workmanship for two years 
+from the date of purchase. 
+This warranty does not apply to any products which have been repaired or 
+altered by persons other than repair personnel authorized by Advantech, 
+or which have been subject to misuse, abuse, accident or improper instal-
+lation. Advantech assumes no liability under the terms of this warranty as 
+a consequence of such events.
+Because of Advantech’s high quality-control standards and rigorous test-
+ing, most of our customers never need to use our repair service. If an 
+Advantech product is defective, it will be repaired or replaced at no 
+charge during the warranty period. For out-of-warranty repairs, you will 
+be billed according to the cost of replacement materials, service time and 
+freight. Please consult your dealer for more details.
+If you think you have a defective product, follow these steps:
+1. Collect all the information about the problem encountered. (For 
+example, CPU speed, Advantech products used, other hardware 
+and software used, etc.) Note anything abnormal and list any 
+onscreen messages you get when the problem occurs.
+2. Call your dealer and describe the problem. Please have your man-
+ual, product, and any helpful information readily available.
+3. If your product is diagnosed as defective, obtain an RMA (return 
+merchandize authorization) number from your dealer. This allows 
+us to process your return more quickly.
+4. Carefully pack the defective product, a fully-completed Repair and 
+Replacement Order Card and a photocopy proof of purchase date 
+(such as your sales receipt) in a shippable container. A product 
+returned without proof of the purchase date is not eligible for war-
+ranty service.
+5. Write the RMA number visibly on the outside of the package and 
+ship it prepaid to your dealer.
+
+--- Page 4 ---
+UNO-1172A/AE/AH User Manual iv
+CE
+This product has passed the CE test for environmental specifications 
+when shielded cables are used for external wiring. 
+FCC Class A
+This equipment has been tested and found to comply with the limits for a 
+Class A digital device, pursuant to part 15 of the FCC Rules. These limits 
+are designed to provide reasonable protection against harmful interfer-
+ence when the equipment is operated in a commercial environment. This 
+equipment generates, uses, and can radiate radio frequency energy and, if 
+not installed and used in accordance with the manual, may cause harmful 
+interference to radio communications. Operation of this equipment in a 
+residential area is likely to cause harmful interference in which case the 
+user will be required to correct the interference at his own expense. 
+Energy Star
+Energy Star
+An ENERGY STAR qualified computer delivers substantial savings over 
+a conventional computer. Desktop, integrated desktop, and notebook (lap-
+top) computers, workstations, small-scale servers, and thin clients are all 
+eligible to earn the ENERGY STAR, and those that do are now more effi-
+cient than ever. It is an honor for Advantech to provide you such prod-
+ucts.
+ What is ENERGY STAR?
+ ENERGY STAR is a U.S. Environmental Protection Agency (EPA) vol-
+untary program that helps businesses and individuals save money and 
+protect our climate through superior energy efficiency.
+The ENERGY STAR program was established by EPA in 1992, under the 
+authority of the Clean Air Act Section 103(g). Section103(g) of the Clean 
+Air Act directs the Administrator to "conduct a basic engineering 
+research and technology program to develop, evaluate, and demonstrate 
+non–regulatory strategies and technologies for reducing air pollution."
+
+--- Page 5 ---
+v
+In 2005, Congress enacted the Energy Policy Act. Section 131 of the Act 
+amends Section 324 (42 USC 6294) of the Energy Policy and Conserva-
+tion Act, and "established at the Department of Energy and the Environ-
+mental Protection Agency a voluntary program to identify and promote 
+energy–efficient products and buildings in order to reduce energy con-
+sumption, improve energy security, and reduce pollution through volun-
+tary labeling of or other forms of communication about products and 
+buildings that meet the highest energy efficiency standards."
+For more information, please visit www.energystar.gov 
+The product is to enter display sleep mode after 10 minutes and computer 
+sleep mode after 30 minutes, to wake it from sleep mode, simply press 
+any keyboard keys or move the mouse, while under sleep mode it allows 
+the device to save 80% or more energy. 
+Power Management System:
+ Default mode is on balanced, after idle for 10 minutes, it will automati-
+cally shuts its monitor and enter sleep mode if idle for more than 25 min-
+utes. 
+Lists of power management systems:
+CID2 (Only for UNO-1172AH)
+Hazardous locations are areas where fire or explosions may occur in nor-
+mal or abnormal conditions because of the presence of flammable sub-
+stances (e.g. gas, vapors, liquids, dust, fibers). Ignition sources, oxidizers 
+and flammable substance are three basic and essential elements of an 
+explosion. Any electrical apparatus installed in such location must be 
+designed and tested to ensure that it can't initiate a fire or an explosion 
+due to its hot surface, failure, arcs or impact sparks. Advantech's UNO-
+1100 H series are certified to be used on the Class I Division 2 Groups A, 
+B, C and D Hazardous Locations. This series provides safe and reliable 
+controllers to be operated in hazardous locations. The proof of the certifi-
+cation extends UNO-1100H series to many Oil and Gas applications 
+including: Liquefied Natural Gas, Onshore/Offshore Drilling Production, 
+Pipelines, and Refining. With enhanced design and reliability for hazards, 
+Balanced 
+(Default)
+Idle 10 min. closes screen, 25 min. enters sleep 
+mode.
+Power Saver Idle 5 min. closes screen, 15 min. enters sleep mode.
+High perfor-
+mance
+Never idle and never enters sleep mode.
+
+--- Page 6 ---
+UNO-1172A/AE/AH User Manual vi
+UNO-1100H series not only reduces the disaster cost, but also ensures the 
+constant operation and safety in hazardous locations.
+Technical Support and Assistance
+Step 1.  Visit the Advantech web site at www.advantech.com/support 
+where you can find the latest information about the product.
+Step 2.  Contact your distributor or Advantech's customer service center 
+if you need additional assistance. Have the following info ready:
+- Product name and serial number
+- Description of your software (OS, version, software, etc.)
+- A complete description of the problem
+- The exact wording of any error messages
+Packing List
+Before setting up the system, check that the items listed below are 
+included. If any item is not, please contact your dealer immediately.
+•  Software Supporting CD-ROM
+•  6P-6P-6P 20cm PS/2 Mouse/Keyboard Y cable (P/N: 1700060202)
+•  Phoenix power connector (P/N: 1652003206)
+•  DIN-rail & wall mount accessories
+•  USB holder accessories (Only for UNO-1172AH)
+•  HDD bracket
+•  Flat cable for reserved RS-232 pin-header (P/N: 1700008871) 
+(optional)
+•  SATA cable (P/N: 1700006812)
+•  SATA power cable (P/N: 1700006492)
+•  Spacer for PC/104+ expansion (UNO-1172AE only) 
+Safety Instructions
+1. Read these safety instructions carefully.
+2. Keep this User's Manual for later reference.
+3. Disconnect this equipment from any AC outlet before cleaning. 
+Use a damp cloth. Do not use liquid or spray detergents for clean-
+ing.
+4. For plug-in equipment, the power outlet socket must be located 
+near the equipment and must be easily accessible.
+5. Keep this equipment away from humidity.
+
+--- Page 7 ---
+vii
+6. Put this equipment on a reliable surface during installation. Drop-
+ping it or letting it fall may cause damage.
+7. The openings on the enclosure are for air convection. Protect the 
+equipment from overheating. DO NOT COVER THE OPENINGS.
+8. Make sure the voltage of the power source is correct before con-
+necting the equipment to the power outlet.
+9. Position the power cord so that people cannot step on it. Do not 
+place anything over the power cord.
+10. All cautions and warnings on the equipment should be noted.
+11. If the equipment is not used for a long time, disconnect it from the 
+power source to avoid damage by transient overvoltage.
+12. Never pour any liquid into an opening. This may cause fire or elec-
+trical shock.
+13. Never open the equipment. For safety reasons, the equipment 
+should be opened only by qualified service personnel.
+14. If one of the following situations arises, get the equipment checked 
+by service personnel:
+a.  The power cord or plug is damaged.
+b.  Liquid has penetrated into the equipment.
+c.  The equipment has been exposed to moisture.
+d.  The equipment does not work well, or you cannot get it to 
+work according to the user's manual.
+e.  The equipment has been dropped and damaged.
+f.  The equipment has obvious signs of breakage.
+15. DO NOT LEAVE THIS EQUIPMENT IN AN ENVIRONMENT 
+WHERE THE STORAGE TEMPERATURE MAY GO BELOW     
+-10° C (14° F) OR ABOVE 65° C (149° F). THIS COULD DAM-
+AGE THE EQUIPMENT. THE EQUIPMENT SHOULD BE IN A 
+CONTROLLED ENVIRONMENT.
+16. CAUTION: DANGER OF EXPLOSION IF BATTERY IS 
+INCORRECTLY REPLACED. REPLACE ONLY WITH THE 
+SAME OR EQUIVALENT TYPE RECOMMENDED BY THE 
+MANUFACTURER, DISCARD USED BATTERIES ACCORD-
+ING TO THE MANUFACTURER'S INSTRUCTIONS.
+The sound pressure level at the operator's position according to IEC 704-
+1:1982 is no more than 70 dB (A).
+
+--- Page 8 ---
+UNO-1172A/AE/AH User Manual viii
+DISCLAIMER: This set of instructions is given according to IEC 704-1. 
+Advantech disclaims all responsibility for the accuracy of any statements 
+contained herein.
+
+--- Page 9 ---
+ix
+Safety Precaution - Static Electricity
+Follow these simple precautions to protect yourself from harm and the 
+products from damage.
+1. To avoid electrical shock, always disconnect the power from your 
+PC chassis before you work on it. Don't touch any components on 
+the CPU card or other cards while the PC is on.
+2. Disconnect power before making any configuration changes. The 
+sudden rush of power as you connect a jumper or install a card may 
+damage sensitive electronic components.
+
+--- Page 11 ---
+xi Table of Contents
+Contents
+Chapter 1 UNO-1172A/AE/AH 
+Overview  2
+1.1 Introduction ....................................................................... 2
+1.2 Hardware Specifications ................................................... 2
+1.3 Safety Precautions ............................................................. 5
+1.4 UNO-1172A Series ........................................................... 5
+1.5 Chassis Dimensions........................................................... 6
+Chapter 2 Hardware Functionality ............................... 10
+2.1 UNO-1172A Peripherals ................................................. 10
+2.2 RS-232 Interfaces............................................................ 12
+2.3 COM1~2: RS-232/422/485 Interfaces ............................ 12
+2.3.1 SMSC SCH3114 UARTs with 16-byte Standard ........ 12
+2.3.2 Jumperless RS-422/485  ............................................... 12
+2.3.3 Automatic Data Flow Control Function for RS-485  ... 12
+2.3.4 RS-232/422/485 Selection ........................................... 13
+2.3.5 Terminal Resistor Setup for RS-422/485 ..................... 14
+2.4 LAN: Ethernet Connector ............................................... 15
+2.5 Power Connector ............................................................. 15
+2.6 LED Indicators ................................................................ 16
+2.7 PS/2 Keyboard and Mouse Connector ............................ 16
+2.8 Universal Serial Bus Connectors..................................... 16
+2.9 VGA: VGA Display Connector ...................................... 16
+2.10 RESET: Reset Button...................................................... 17
+2.11 Audio............................................................................... 17
+2.12 Battery Backup SRAM.................................................... 17
+2.13 LED and Buzzer for System Diagnosis........................... 18
+2.13.1 LED Settings ................................................................ 18
+2.14 PC/104+ Connectors (UNO-1172AE only) .................... 20
+2.15 Onboard Digital Input ..................................................... 21
+2.15.1 PIN Assignments  ......................................................... 22
+2.15.2 Interrupt Function of the DI Signals  ............................ 23
+2.15.3 Interrupt Control Register ............................................ 23
+2.15.4 Wet/Dry Contact Settings  ............................................ 24
+2.16 Onboard Digital Output................................................... 25
+2.16.1 PIN Assignments  ......................................................... 25
+2.17 Remote Monitoring and Control Functions .................... 26
+2.18 Advanced Watchdog Timer ............................................ 29
+Chapter 3 Initial Setup.................................................... 32
+3.1 CompactFlash Card Installation...................................... 32
+3.2 Chassis Grounding .......................................................... 35
+3.3 Power Connection ........................................................... 35
+3.4 PC/104+ Card Installation (UNO-1172AE).................... 36
+3.5 Hard Drive installation (UNO-1172AE) ......................... 39
+
+--- Page 12 ---
+UNO-1172A/AE/AH User Manual xii
+3.6 BIOS Setup and System Assignments ............................ 41
+3.7 DIN-rail Mounting Setup ................................................ 41
+3.8 Wallmounting Setup........................................................ 42
+Appendix A System Settings and Pin Assignments ......... 44
+A.2 Board Connectors and Jumpers....................................... 47
+A.3 RS-232 Serial Port (COM3~4)........................................ 50
+A.4 RS-232/422/485 Serial Port (COM1~2) ......................... 51
+A.5 Ethernet RJ-45 Connector (LAN1~LAN3)..................... 51
+A.6 Power Screw Terminal (CN1)......................................... 52
+A.7 PS/2 Keyboard and Mouse Connector (CN7) ................. 52
+A.8 USB Connector (CN8) .................................................... 53
+A.9 VGA Display Connector (CN14).................................... 53
+A.10 SATA Data Connector (CN20)....................................... 54
+Appendix B Watchdog Timer Register ............................ 56
+Appendix C Digital Input Interrupt 
+   Control Register................................................................... 66
+Appendix D USB Holder Installation ............................... 72
+
+--- Page 13 ---
+1
+1
+UNO-1172A Overview
+Sections include:
+• Introduction
+• Hardware Specifications
+• Safety Precautions
+• UNO-1172A Series
+• Chassis Dimensions
+CHAPTER
+
+--- Page 14 ---
+UNO-1172A/AE/AH User Manual 2
+Chapter 1  UNO-1172A/AE/AH 
+Overview
+1.1  Introduction
+UNO-1172A/AE/AH is an DIN-rail mounted Embedded Automation 
+Computer, which provides several serial communication ports and Ether-
+net interfaces. UNO-1172A/AE/AH is designed with a compact size, 
+small footprint, and help to saves space with its front accessible and DIN-
+rail design. With rich OS and driver support, such as Windows XP 
+embedded, WinCE 6.0, and even embedded Linux. You can integrate 
+your applications easily with an application ready platform that can pro-
+vide a versatile function to fulfill diverse requirements.
+1.2  Hardware Specifications
+•  CPU:  Atom D510 1.66 GHz
+•  Memory:  2 GB DDR2 SDRAM on board
+•  Battery-backup RAM: 1 MB Battery-backup SRAM
+•  VGA/Keyboard/Mouse: DB-15 VGA Connector, Mini-DIN connec-
+tor for PS/2 keyboard & mouse
+•  Serial Ports:  2 x RS-232/422/485 with DB-9 connectors. 
+Automatic RS-485 data flow control
+•  Serial Speeds:  RS-232: 50~115.2 kbps, RS-422/485: 
+50~115.2 kbps
+•  LAN:  Three 10/100/1000 Base-T RJ-45 Ports
+•  USB interface:  Four USB ports, USB EHCI, Rev. 2.0 compli
+ant.
+•  Audio:  Mic in, Line in, Line out
+•  Storage:  SSD: 1 x internal type I/II CompactFlash slot
+HDD: one 2.5" SATA HDD bracket (Only for 
+UNO-1172AE)
+•  LEDs:  Power (Power Standby: Orange, Power On: 
+Green), 2 pairs of serial flow indicators (Tx, 
+Rx), CF/HDD, Alarm for SRAM Backup 
+Battery, RTC clock, over-temperature and 
+over-voltage
+
+--- Page 15 ---
+3
+•  PC/104+:  2 x PC/104+, supports +3, +5 V Power 
+(UNO-1172AE only)
+•  Mini PCI:  1x Mini PCI (Only UNO-1172AE)
+•  Mini PCIe: 1 x Mini PCIe
+•  Digital I/O
+Digital In 2 Digital Input
+                Dry Contact
+                Logic level 0: Open
+                Logic level 1: Close
+                Wet Contact
+                Logic level 0: +3V max
+               Logic level 1: +10V
+DC
+ to 30V
+DC
+Digital Out 6 Digital Output
+                  Open Collector to 40V
+                  200mA max Load
+                  Power Dissipation 450mW
+•  Shock Protection:  IEC 60068-2-27, CompactFlash: 50G @ Wall 
+mount, half sine, 11ms, HDD: 20G @ wall 
+mount, half sine, 11ms
+•  Vibration Protection:  IEC 60068-2-64 (Random 1 Oct./min, 1hr/
+axis), CompactFlash: 2Grms@ 5~500Hz, 
+HDD: 1 Grms @ 5~500Hz
+•  Power Supply Voltage: 10-36 V
+DC
+, reversed wiring protection
+9 (Min.) ~ 36 V
+DC
+ (Max.) (UNO-1172AH 
+only)
+•  Power Requirement:  Min. 48 W (10 ~ 36 V
+DC
+) (e.g +24 V @ 2 A)
+•  Power Consumption: 24W (Typical)
+•  Operating Temperature: -10~65°C (14~149°F)
+   -10 ~ 60°C (14 ~ 140°F)(UNO-1172AH
+   ONLY)
+•  Safety Cert. Temperature: -10~50°C (14~122°F)
+•  Storage Temperature: -20~80°C (-4~176°F)
+•  Relative humidity: 95% @ 40°C
+
+--- Page 16 ---
+UNO-1172A/AE/AH User Manual 4
+•  Weight: 1.6KG (UNO-1172A/AH) 
+2.0KG (UNO-1172AE)
+•  Chassis size (W × D × H): 85.5x139x152 mm (3.4"x 5.5"x 6") 
+(UNO-1172A/AH)
+       111 x 139 x 152 mm (4.4" x 5.5" x6 “) 
+(UNO-1172AE)
+•  Software options:  WES7, WinXP Embedded, WinXP/7, WinCE 
+5.0/6.0, Linux, QNX WinXP Embedded, Win 
+CE, Linux
+•  Certification:  CE, FCC Class A, UL, CCC
+•  CID2 (UNO-1172AH only):
+US: ANSI/ISA 12.12.01-2007, Non-incen
+tive Electrical Equipment for use in Class
+I, Division 2 Hazardous Locations 
+Canada: CSA C22.2 No. 213-M1987, Non-
+incentive Control Equipment for use in 
+Class I, Division 2 Hazardous Locations
+
+--- Page 17 ---
+5
+1.3  Safety Precautions
+The following sections tell how to make each connection. In most cases, 
+you will simply need to connect a standard cable. All of the connector pin 
+assignments are shown in Appendix A.
+Warning! Always disconnect the power cord from your  chassis 
+when you are working on it. Do not connect while the 
+power is on. A sudden rush of power can damage sen-
+sitive electronic components. Only experienced elec-
+tronics personnel should open the chassis.
+Caution! Always ground yourself to remove any static electric 
+charge before touching UNO-1172A/AE/AH. Modern 
+electronic devices are very sensitive to static electric 
+charges. Use a grounding wrist strap at all times. 
+Place all electronic components on a static-dissipative 
+surface or in a static-shielded bag.
+1.4  UNO-1172A Series
+There are four products in the UNO-1172A series, as listed below:
+UNO-1172A-A33E
+UNO-1172A with Intel Atom 1.66GHz CPU and 
+2GB RAM
+UNO-1172AE-A33E
+UNO-1172AE with Intel Atom 1.66GHz CPU, 
+2GB RAM and PC/104+
+UNO-1172AH-A33E
+CID2 certified UNO-1172AH with Intel Atom 
+1.66GHz CPU and 2GB RAM
+
+--- Page 18 ---
+UNO-1172A/AE/AH User Manual 6
+1.5  Chassis Dimensions
+Figure 1.1: UNO-1172A/AH Chassis Dimensions
+
+--- Page 19 ---
+7
+Figure 1.2: UNO-1172AE Chassis Dimensions
+
+--- Page 21 ---
+9
+2
+Hardware
+ Functionality
+Sections include:
+•UNO-1172A Peripherals
+•RS-232 Interfaces
+•COM1~2: RS-232/422/485 Interfaces
+•LAN: Ethernet Connector
+•Power Connector
+•LED Indicators
+•PS/2 Keyboard and Mouse Connector
+•Universal Serial Bus Connectors
+•VGA: VGA Display Connector
+•RESET: Reset Button
+•Audio
+• PC/104+ Voltage Selection
+CHAPTER
+
+--- Page 22 ---
+UNO-1172A/AE/AH User Manual 10
+Chapter 2  Hardware Functionality
+2.1  UNO-1172A Peripherals
+The following figures show the connectors on UNO-1172A/AH. and 
+UNO-1172AE. Information in this chapter applies to UNO-1172A, UNO-
+1172AE, UNO-1172AH. Therefore, in this chapter, we just mention 
+UNO-1172A to represent the series product. The following sections give 
+you detailed information about function of each peripheral.
+Figure 2.1: UNO-1172A/AH Front View
+Figure 2.2: UNO-1172A/AH Top View
+
+--- Page 23 ---
+11
+Figure 2.3: UNO-1172AE Front View
+Figure 2.4: UNO-1172AE Top View
+
+--- Page 24 ---
+UNO-1172A/AE/AH User Manual 12
+2.2  RS-232 Interfaces
+The UNO-1172A reserves two standard RS-232 serial communication 
+pin headers on mother board (CN27 and CN28). Please refer to A.3 for 
+pin assignments.
+2.3  COM1~2: RS-232/422/485 Interfaces
+The UNO-1172A offers two RS-232/422/485 serial communication inter-
+face ports. The serial communication can be configured to either RS-232, 
+RS422/485 by using on-board jumper. Please refer to A.4 for pin assign-
+ments and Table 2.1 lists the default setting of each port.
+2.3.1 SMSC SCH3114 UARTs with 16-byte Standard
+Advantech UNO-1172A comes standard with SMSC SCH3114 UARTs 
+containing 16 bytes FIFOs. These upgraded FIFOs greatly reduce CPU 
+overhead and are an ideal choice for heavy multitasking environments.
+2.3.2 Jumperless RS-422/485
+In RS-422/485 mode, UNO-1172A automatically sense signals to match 
+RS-422 or RS-485 network. No need to change jumpers.
+2.3.3 Automatic Data Flow Control Function for RS-485
+In RS-485 mode, UNO-1172A automatically senses the direction of 
+incoming data and switches its transmission direction accordingly. There-
+fore no handshaking signal (e.g. RTS signal) is necessary. This feature 
+lets you simply and quickly build an RS-485 network with just two wires. 
+More importantly, application software previously written for half duplex 
+RS-232 environments can be reused without modification.
+Table 2.1: COM1~2 Default Settings
+COM Port Default Setting
+COM1 RS-422/485
+COM2 RS-422/485
+
+--- Page 25 ---
+13
+2.3.4 RS-232/422/485 Selection
+COM1~2 support 9-wire RS-232, RS-422 or RS-485 interfaces, and you 
+can set corresponding jumpers to select serial ports as RS-232 or RS-422/
+485 interfaces shown in Table 2.2. Please note to reset the system to adapt 
+this configuration change 
+The system detects RS-422 or RS-485 signals automatically in RS-422/
+485 mode.
+Jumper Setting for RS-422/485 Interface: (Default Setting)
+Figure 2.5: RS-422/485 Jumper Settings
+Jumper Setting for RS-232 Interfaces:
+Figure 2.6: RS-232 Jumper Settings
+Table 2.2: Selecting RS-232/422/485 (COM1&2)
+Serial Port Corresponding Jumper to Select RS-232/422/485
+COM1 CN24
+COM2 CN26
+
+--- Page 26 ---
+UNO-1172A/AE/AH User Manual 14
+2.3.5 Terminal Resistor Setup for RS-422/485
+The onboard termination resistor (120 Ohm) for COM1/COM2 can be 
+used for long distance transmission or device matching. (Default Off.) 
+Each terminal resistor responds to different channels for RS-422/485.
+Usually, these resistors are needed for both ends of the communication 
+wires and the value of the resistors should match the characteristic imped-
+ance of the wires used.
+2.3.6 RS-485 Auto Flow & RS-422 Master/Slave Mode
+You can set the “Auto Flow Control” mode of RS-485 or “Master/Slave” 
+mode of RS-422 by using the SW5 DIP switch for each RS-422/485 port.
+In RS-485, if the switch is set to “Auto”, the driver automatically senses 
+the direction of the data flow and switches the direction of transmission. 
+No handshaking is necessary.
+In RS-422, if DIP switch is set to “On,” the driver is always enabled, and 
+always in high or low status.
+Table 2.3: Terminal Resistor Settings
+COM port Switch No. Pin Setting Description
+COM1 SW3 3 ON 120 Ohm between Data+/
+Data- (RS-485)
+Or 120 Ohm between Tx+/Tx- 
+(RS-422)
+OFF Open (Default)
+4 ON 120 Ohm between Rx+/Rx- 
+(RS-422)
+OFF Open (Default)
+COM2 SW3 1
+ON 120 Ohm between Data+/
+Data- (RS-485) Or 120 Ohm 
+between Tx+/Tx-(RS-422)
+OFF  Open (Default)
+2
+ON
+120 Ohm between Data+/
+Data- (RS-485) Or 120 Ohm 
+between Tx+/Tx-(RS-422)
+OFF
+Open (Default)
+
+--- Page 27 ---
+15
+2.4  LAN: Ethernet Connector
+The UNO-1172A is equipped with two RTL8111CL and one Intel 
+82567V Ethernet LAN controllers that are fully compliant with IEEE 
+802.3u 10/100/1000Base-T CSMA/CD standards. The Ethernet port pro-
+vides a standard RJ-45 jack onboard, and LED indicators on the front side 
+to show its Link (Yellow LED) and Active (Green LED) status. Please 
+refer to A.5 for its pin assignments.
+2.5  Power Connector
+The UNO-1172A comes with a Phoenix connector that carries 10~36 
+V
+DC
+ external power input, and has reversed wiring protection. Therefore, 
+it will not cause any damage to the system by reversed wiring of ground 
+line and power line. Please refer to A.6 for its pin assignments.
+Table 2.4: Auto Flow & Slave/Master Selection
+SW5 DIP Switch Setting COM Port Mode Selections
+COM1
+RS-422: Slave mode
+RS-485: Auto flow control
+COM2
+RS-422: Slave mode
+RS-485: Auto flow control
+COM1
+RS-422: Master mode
+RS-485: N/A
+COM2
+RS-422: Slave mode
+RS-485: Auto flow control
+COM1
+RS-422: Slave mode
+RS-485: Auto flow control
+COM2
+RS-422: Master mode
+RS-485: N/A
+COM1
+RS-422: Master mode
+RS-485: N/A
+COM2
+RS-422: Master mode
+RS-485: N/A
+1
+2
+O
+N
+1
+2
+O
+N
+1
+2
+O
+N
+1
+2
+O
+N
+
+--- Page 28 ---
+UNO-1172A/AE/AH User Manual 16
+2.6  LED Indicators
+•  There are five kinds of LEDs on the UNO-1172A front panel
+•  PWR: system power status
+•  CF: CF/HDD status
+•  Txn, Rxn: Serial communication status of COM Port n
+•  B. BTR: (status of BB SRAM battery): Replace battery when this 
+LED is active 
+•  R. BTR: status of battery for RTC clock
+•  TEMP: status of system temperature (active as over-temperature)
+•  VOLT: status of CPU voltage (active as over-voltage)
+2.7  PS/2 Keyboard and Mouse Connector
+The UNO-1172A provides a PS/2 keyboard and PS/2 mouse connector. A 
+6-pin mini-DIN connector is located on the top panel of the UNO-1172A. 
+The UNO-1172A comes with an adapter to convert from the 6-pin mini-
+DIN connector to two 6-pin mini-DIN connectors for PS/2 keyboard and 
+mouse connections. Please refer to Appendix A.7 for pin assignments.
+2.8  Universal Serial Bus Connectors
+The USB connector is used for connecting any device that conforms to 
+the USB interface. Many recent digital devices conform to this standard. 
+The USB interface supports Plug & Play, which enables you to connect or 
+disconnect a device whenever you want without turning off the computer.
+The UNO-1172A provides four connectors with USB interfaces, which 
+gives complete Plug & Play and hot swapping for up to 127 external 
+devices. The USB interface complies with USB specification version 2.0 
+and EHCI, Rev. 2.0. The USB interface can be disabled in the system 
+BIOS setup. Please refer to Appendix A.8 for its pin assignments.
+2.9  VGA: VGA Display Connector
+The UNO-1172A provides a VGA controller (Intel GMA 3150) for a high 
+resolution VGA interface. It supports CRT Mode: up to 2048 x 1536 @ 
+60Hz.
+
+--- Page 29 ---
+17
+2.10  RESET: Reset Button
+UNO-1172A provides a reset button on the top of the device.
+2.11  Audio
+UNO-1172A supports audio function with: 
+- Line In
+- Line Out
+- Mic In
+2.12  Battery Backup SRAM
+UNO-1172A provides 1MB battery backup SRAM. This ensures that you 
+have a safe place to store critical data. You can now write software appli-
+cations without concern that system crashes will erase critical data from 
+the memory. 
+There is a BTR LED in the front panel of the UNO-1172A, please replace 
+the lithium battery with a new one if the BTR LED is activated.
+2.12.1 Lithium Battery Specifications
+•  Type: BR2032 (Using CR2032 is NOT recommended)
+•  Output voltage: 3 V
+DC
+•  Location: the backside of UNO-1172A board. 
+  (BH1 is for real time clock, BH2 is for SRAM)
+
+--- Page 30 ---
+UNO-1172A/AE/AH User Manual 18
+2.13  LED and Buzzer for System Diagnosis
+In
+ 
+a “headless application” (an
+ 
+application
+ 
+without a
+ 
+monitor display), it is 
+always
+ 
+difficult
+ 
+to
+ 
+know the system status. Another
+ 
+PC
+ 
+may be needed to 
+monitor a headless device's status via RS-232 or
+ 
+Ethernet. In
+ 
+order
+ 
+to 
+solve this problem, UNO-1172A offers
+ 
+a programmable LED
+ 
+indicator 
+i.e. 
+R. BTR, B. BTR, TEMP. and VOLT
+.
+ 
+In the BIOS settings, they can be 
+programmed
+ 
+to show systems status through
+ 
+LED indicators and buzzer
+ 
+alarms.
+2.13.1 LED Settings
+UNO-1172A series offer a set of LED indicators which have three modes 
+to select for different purposes. You would need to enter BIOS to change 
+the LED mode. Please refer to the following table 2.5 for details.
+<1> In COM Port LED mode, LED1~4 indicate the simple TX/RX traf-
+fics.
+<2> In diagnostic LED mode, you could program them as an indicator 
+showing the situation of signal from DI/DO you may set and monitor 
+their status.Please refer to the user manual in DI/O driver folder for more 
+details.
+<3> In PCIe Mini Card LED mode, they show the status of PCIe mini 
+card basically.
+•   WLAN: Wireless LAN such as 802.11b/g/a (2.4GHz and 5.2GHz)
+•   WWAN: Wireless WAN (e.g. GSM/GPRS/UMTS/CDMA2000)
+•   WPAN: Wireless Personal Area Network (e.g. Bluetooth)
+Here are the steps for showing how to set the LED configuration in BIOS.
+1. Enter BIOS mode and select "Advanced".
+Table 2.5: LED Mode Settings
+Mode LED 1 LED 2 LED 3 LED 4
+COM Port 
+LED
+TX1 RX1 TX2 RX2
+Diagnostic 
+LED
+Programmable 
+LED0
+Programmable 
+LED1
+Programmable 
+LED2
+Programmable 
+LED3
+PCIe Mini 
+Card LED
+PCIe_LED_WL
+AN
+PCIe_WWAN PCIe_LED_WPAN -
+
+--- Page 31 ---
+19
+2. Select "SuperIO Configuration" in Advanced page and press 
+Enter key.
+3. Select "LED Select”. Then choose the LED mode you need.
+
+--- Page 32 ---
+UNO-1172A/AE/AH User Manual 20
+2.14  PC/104+ Connectors (UNO-1172AE only)
+UNO-1172AE supports up to two PC/104+ cards. The cards can be 
+installed on connector CN3. Please check your PC/104+ cards supported 
+voltage to adjust the jumper on CN4. 
+Jumper Setting for +3.3V example:
+Figure 2.7: PC/104+ Jumper Settings
+Table 2.6: PC/104+ Voltage Jumper Settings
+Voltage Jumper close position setting
++5V 1-2
++3.3V 2-3
+closed 2-3
+
+--- Page 33 ---
+21
+2.15  Onboard Digital Input
+On top side of UNO-1172A series, there is a DB9 connector (CN36) 
+whose pins could be set as DI/O or other alternatives (Pls. refer to Table 
+2.7) by DIP2 of SW4. The default setting is OFF (i.e. DI/O mode) and 
+you could check the alternatives in 2.17 for more details.
+Figure 2.8: Connector CN36
+Table 2.7: DI/O & Remote Mode Selection
+Mode
+Pin
+123 4 5 6 7 8 9
+DI/O DI0 DI1 DO0 DO1 GND DO2 DO3 DO4 DO5
+Remote PWR_
+CTRL
+SYS_
+RST
+PWR_
+Status
+Program. 
+LED0
+GND Program. 
+LED1
+BAT_
+FAIL
+OVER_
+TEMP
+OVER
+_VOL
+
+--- Page 34 ---
+UNO-1172A/AE/AH User Manual 22
+2.15.1 PIN Assignments
+The UNO-1172A series have 2 DI channels designated DI0~DI1.The 
+connector type is a plug-in screw terminal block that enables you to con-
+nect to field I/O devices directly without additional accessories. Figure 
+2.9 and shows its pin assignment as well as signal description.
+Figure 2.9: Digital In
+Each of digital input channels accepts 0 ~ 50 V
+DC
+ voltage inputs, and 
+accepts bi-directional input. The voltage range is -3 ~ 3 V
+DC
+ for logic 0 
+(low), -50 ~ -10 V
+DC
+ and 10 ~ 50 V
+DC
+ for logic 1(high). It means that 
+you can apply positive or negative voltage to an isolated input pin (Vin).
+
+--- Page 35 ---
+23
+2.15.2 Interrupt Function of the DI Signals
+DI0 and DI1 can be used to generate hardware interrupts. Users can setup 
+the configuration of them by programming the interrupt control register.
+The channels are connected to the interrupt circuitry. Users can disable/
+enable interrupt function, select trigger type or latch the port data by set-
+ting the Interrupt Control Register of the UNO-1172A (refer to section 
+2.15.3 below). When the interrupt request signals occur, then the software 
+will service these interrupt requests by ISR (Interrupt Service Routine). 
+The multiple interrupt sources provide the card with more capability and 
+flexibility.
+2.15.3 Interrupt Control Register
+The Interrupt Control Register controls the function and status of each 
+interrupt signal source. Appendix C shows the bit map of the Interrupt 
+Control Register. The register is readable/writeable register. While being 
+written, it is used as a control register; and while being read, it is used as a 
+status register.
+
+--- Page 36 ---
+UNO-1172A/AE/AH User Manual 24
+2.15.4 Wet/Dry Contact Settings
+UNO-1172A series offer a simple switch to select dry/wet contact for dig-
+ital inputs. Please refer to Table 2.8 for detailed specifications.
+Figure 2.10: Wet Contact Wiring
+Figure 2.11: Dry Contact Wiring
+Table 2.8: SW11 Settings
+SW11 Settings DI0/DI1
+ON
+Wet contact: Logic level 1: 10~50V
+                     Logic level 0: 3Vmax
+OFF
+Dry contact: Logic level 1: close to GND
+                    Logic level 0: open
+
+--- Page 37 ---
+25
+2.16  Onboard Digital Output
+The UNO-1172A has 6 DO channels designated DO0 ~ DO5
+2.16.1 PIN Assignments
+The connector type of UNO-1172A is plug-in screw terminal block that 
+enables you to connect to field I/O devices directly without additional 
+accessories. Figure 2.12 and Table 2.9 show its pin assignment as well as 
+signal description.
+NOTE: If an external voltage (5 ~ 40 V
+DC
+) is applied to an output chan-
+nel while it is being used as an output channel, the current will flow from 
+the external voltage source to the UNO-1172A. Take care that the current 
+through each DO pin does not exceed 200 mA. The Figure below shows 
+how to connect an external output load to the UNO-1172A outputs
+Figure 2.12: Digital Out
+Table 2.9: Digital Output Connector Signals
+Signal name Direction Description
+DO<0-5> Output DO signals
+
+--- Page 38 ---
+UNO-1172A/AE/AH User Manual 26
+Figure 2.13: DO Wiring 
+2.17  Remote Monitoring and Control Functions 
+UNO-1172A series provides a lot of remote diagnosis to monitor control-
+ler's health for enhancing the system reliability. Through this unique func-
+tion provided, the centre control room could easily know the current 
+status of UNO-1172A remotely.
+Setting DIP2 of SW4 as "ON" could turn on the remote mode on each pin 
+of connector-CN36-on the top of UNO-1172A. You could refer to the 
+table 2.10 for more detail information.
+Table 2.10: Remote Diagnosis Functions
+#Pin Pin Assignment Definition
+1 PWR_CTRL Power control functioning like SW2. 
+Please refer to A.2
+2 SYS_RST Reset the system
+3 PWR_Status Power status showing whether a power 
+supply is connected
+4 Programmable 
+LED0
+Same function as diagnostic LED mode. 
+Please refer to 2.13.1
+5 GND Ground
+6 Programmable 
+LED1
+Same function as diagnostic LED mode. 
+Please refer to 2.13.1
+7 BAT_FAIL Battery fail detection for RTC & SRAM 
+batteries
+8 OVER_TEMP Over temperature detection (in BIOS)
+9 OVER_VOL Over voltage detection (in BIOS)
+
+--- Page 39 ---
+27
+Regarding to setting OVER_TEMP and OVER_VOL, you would need to 
+enter BIOS mode first and follow the steps below to complete it.
+OVER_TEMP Settings:
+1. Enter BIOS mode and select "Hardware Monitor" in Advanced.
+2. Select "Sys Internal Temperature Alarm" to set the target 
+temperature. (default setting: 90
+°C)
+
+--- Page 40 ---
+UNO-1172A/AE/AH User Manual 28
+OVER_VOL Settings:
+1. Enter BIOS mode and select "Hardware Monitor" in Advanced.
+2. Select "Power In Low Voltage Alarm" to set the minimum input 
+voltage. (default setting: 10V)
+
+--- Page 41 ---
+29
+3. Select "Power In High Voltage Alarm" to set the maximum input 
+voltage. (default setting: 35V)
+2.18  Advanced Watchdog Timer
+The UNO-1172A provides a 7-tier Watchdog Timer for users to have a 
+chance to escalate system status before the forced system reset. Each tier 
+has the same time interval from 1~255 seconds and users can have an 
+event handling after the time-out of each tier. Install the driver from com-
+panion disc and refer to the software manual for details.
+
+--- Page 43 ---
+31
+CHAPTER
+3
+Initial Setup
+Sections include:
+• CompactFlash Installation
+• PC/104+ Card Installation 
+(UNO-1172AE)
+• Hard Drive Installation (UNO-1172AE)
+• Chassis Grounding
+• Power Connection
+• BIOS Setup and System Assignments
+
+--- Page 44 ---
+UNO-1172A/AE/AH User Manual 32
+Chapter 3  Initial Setup
+3.1  CompactFlash Card Installation
+The procedure for installing a CompactFlash card into the UNO-1172A/
+1172AE/1172AH is as follows, please follows these steps carefully. 
+Although   the outside appearance of the UNO-1172A/AH and UNO-
+1172AE is different from the figures shown below, the procedure is the 
+same.
+1. Remove the power.
+2. Unscrew the screws from the UNO-1172A/AH as indicated below.
+
+--- Page 45 ---
+33
+3. Remove the L-shaped cover.
+
+--- Page 46 ---
+UNO-1172A/AE/AH User Manual 34
+4. Plug a CompactFlash card with user’s OS and application program 
+into a CompactFlash card slot on board.
+5. Screw back the rear cover and the screws.
+
+--- Page 47 ---
+35
+3.2  Chassis Grounding
+Please connect the chassis ground of UNO-1172A/AH with “EARTH”. 
+Figure 3.1: Chassis Grounding Connection
+3.3  Power Connection
+Connect the UNO-1172A/AE to a 10 ~ 36 V
+DC
+ or the UNO-1172AH to a 
+9(Min.)~36(Max.)V
+DC
+ power source. The power source can either be 
+from a power adapter or an in-house power source.
+
+--- Page 48 ---
+UNO-1172A/AE/AH User Manual 36
+3.4  PC/104+ Card Installation (UNO-1172AE)
+The procedure for installing a PC/104+ card into is as follows.
+1. Remove the power.
+2. Unscrew the screws from UNO-1172AE indicated below.
+3. Remove the rear cover.
+4. Find 2 metal spacer from accessory bag, and screw tight on the 
+location indicated arrow in the below picture. (Note: There were 
+spacers soldered on the daughter board already). Normally you will 
+also get some hexagon spacer from your PC/104+ card packing.
+
+--- Page 49 ---
+37
+Use and screw those spacers on the location indicated black shown 
+in below picture.
+5. Please refer to section 2.14 for PC/104+ card voltage setting before 
+install the PC/104+ card.
+6. Stack the PC/104+ card and related cables.
+7. Screw the rear cover and the six screws. Now you are done with the 
+PC/104+ card installation.
+
+--- Page 50 ---
+UNO-1172A/AE/AH User Manual 38
+Note: You can use two PC/104+ cards at the same time while 
+you don't use a hard drive. Using a hard drive will limit 
+the number of PC/104+ you used to one
+Note:
+There are four set of INT# in PCI-104 standard--
+INTA~D--and we don't support INTA and INTC.
+
+--- Page 51 ---
+39
+3.5  Hard Drive installation (UNO-1172AE)
+The procedure for installing a hard drive into the UNO-1172AE is shown as 
+following step.
+1. Remove the power.
+2. Unscrew the screws from UNO-1172AE indicated below. 
+3. Remove the rear cover. Please refer to Section 3.1 for the instruc-
+tion to open the cover.
+4. Take four screws from the rear cover to lose the hard drive bracket.
+5. Connect the SATA cable and SATA power cable. Make sure the 
+cable will not lose. Use the screws in accessory to mount the hard 
+drive on the hard drive bracket.
+
+--- Page 52 ---
+UNO-1172A/AE/AH User Manual 40
+6. Turn the hard drive bracket and align with the screw hole on the 
+rear cover. Use the four screws taken from step 4 and screw the 
+bracket and the rear cover tight.
+7. Connect the other end of SATA cable on the board which the arrow 
+indicated in below picture.
+8. Screw the rear cover and the screws. 
+9. For user who tried to plug other SATA device, please note the 
+UNO-1172AE SATA power connector doesn't support 12V power.
+Note: There are switch setting about SATA hard drive below, 
+please refer to the section A.10 for detail. The hard drive 
+might not work correctly if the switch setting is incorrect
+
+--- Page 53 ---
+41
+3.6  BIOS Setup and System Assignments
+UNO-1172A uses the Advantech SOM-6763 CPU module. For UNO-
+1172A BIOS setup and system assignments, you can refer to Chapter 4 
+and Appendix A. Please note that you can try to “LOAD BIOS 
+DEFAULTS” from the BIOS Setup manual if UNO-1172A does not work 
+properly.
+3.7  DIN-rail Mounting Setup
+Please follow the below steps to mount the UNO-1172A on the DIN-Rail.
+1. Screw the provided DIN-Rail Kit on the rear side of UNO-1172A 
+as the diagram shown below.
+2. Hang the UNO-1172A to the DIN-Rail with angle of inclination 
+about 30 degrees.
+3. Let UNO-1172A down straight to slide over the Rail smoothly.
+Note:  To get the UNO-1172A down from the Rail, push the 
+device top to down then pull the bottom of the device to 
+let it off the Rail smoothly.
+
+--- Page 54 ---
+UNO-1172A/AE/AH User Manual 42
+3.8  Wallmounting Setup
+Please follow the below steps to mount the UNO-1172A on the wall.
+1. Screw the provided Wall Mounting Kit on the rear side of UNO-
+1172A as the diagram shown below.
+2. Mount the device on the wall by the 2 pairs hooking hole provided 
+by the Wallmounting Kit.
+
+--- Page 55 ---
+43
+A
+System Settings and 
+Pin Assignments
+•Board Connectors and Jumpers
+•RS-232 Serial Port (COM3&4)
+•RS-232/422/485 Serial Port (COM1~2)
+•Ethernet RJ-45 Connector
+•Power Screw Terminal
+•PS/2 Keyboard and Mouse Connector
+•USB Connector
+•VGA Display Connector
+•CompactFlash Master/Slave Jumper Setting
+•SATA DATA Connector
+APPENDIX
+
+--- Page 56 ---
+UNO-1172A/AE/AH User Manual 44
+Appendix A  System Settings and Pin 
+Assignments
+A.1  System I/O Address & Interrupt Assignments
+Table A.1:  UNO-1172A System I/O Ports
+Address Range Device
+0000-000F
+DMA controller (slave)
+0000 - 0CF7 PCI bus
+0020 - 0021 Programmable interrupt controller
+0040 - 0043 System timer
+0060 - 0060 Standard 101/102-Key or Microsoft Natural PS/2 Key-
+board
+0061 - 0061 System speaker
+0062 - 0062 Microsoft ACPI-Compliant Embedded Controller
+0064 - 0064 Standard 101/102-Key or Microsoft Natural PS/2 Key-
+board
+0066 - 0066 Microsoft ACPI-Compliant Embedded Controller
+0070 - 0071 System CMOS/real time clock
+00A0 - 00A1 Programmable interrupt controller
+00F0 - 00FF Numeric data processor
+01F0 - 01F7 Primary IDE Channel
+0274 - 0277 ISAPNP Read Data Port
+0279 - 0279 ISAPNP Read Data Port
+02F8 - 02FF Communications Port (COM2)
+0378 - 037F Printer Port (LPT1)
+03B0 - 03BB Intel(R) Graphic Media Accelerator 3150
+03C0 - 03DF Intel(R) Graphic Media Accelerator 3150
+03F8 - 03FF Communications Port (COM1)
+0400 - 041F Intel(R) ICH8 Family SMBus Controller - 283E
+D400 - D41F Intel 82567V-3 Gigabit Network Connection
+D480 - D49F Standard Universal PCI to USB Host Controller
+D800 - D81F Intel ICH8 Family USB Universal Host Controller - 
+2832
+D880 - D89F Intel ICH8 Family USB Universal Host Controller - 
+2831
+
+--- Page 57 ---
+45
+DC00 - DC1F Intel ICH8 Family USB Universal Host Controller - 
+2830
+E080 - E08F Intel ICH8M 3 port Serial ATA Storage Controller - 
+2828
+E400 - E40F Intel ICH8M 3 port Serial ATA Storage Controller - 
+2828
+E480 - E483 Intel ICH8M 3 port Serial ATA Storage Controller - 
+2828
+E800 - E807 Intel ICH8M 3 port Serial ATA Storage Controller - 
+2828
+E880 - E883  Intel ICH8M 3 port Serial ATA Storage Controller - 
+2828
+EC00 - EC07  Intel ICH8M 3 port Serial ATA Storage Controller - 
+2828
+FFA0 - FFAF  Intel ICH8M Ultra ATA Storage Controller - 2850
+Table A.1:  UNO-1172A System I/O Ports
+Address Range Device
+
+--- Page 58 ---
+UNO-1172A/AE/AH User Manual 46
+Table A.2: UNO-1172A Interrupt Assignment
+Interrupt No. Interrupt Source
+NMI Parity error detected
+IRQ 0 System timer
+IRQ 1 Keyboard
+IRQ 2 Available
+IRQ 3 COM2
+IRQ 4 COM1
+IRQ 5 Available
+IRQ 6 Available
+IRQ 7 Available
+IRQ 8 System CMOS/real time clock
+IRQ 10 Intel ICH8 Family SMBus Controller - 283E
+IRQ 11 Available
+IRQ 12 PS/2 mouse
+IRQ 13 Numerical data processor
+IRQ 14 Primary IDE
+IRQ 15 Available
+
+--- Page 59 ---
+47
+A.2  Board Connectors and Jumpers
+There are connectors and jumpers on the UNO-1172A board. The follow-
+ing sections tell you how to configure the UNO-1172A hardware setting. 
+Figure A-1 and figure A-2 show the locations of UNO-1172A connectors 
+and jumpers.
+Figure A.1: Connector & Jumper Locations (Top)
+
+--- Page 60 ---
+UNO-1172A/AE/AH User Manual 48
+Table A.3: Connectors & Jumpers
+BH1
+Lithium battery for BIOS
+BH2
+Lithium battery for Backup SRAM
+CN1
+Power Screw Terminal
+CN7
+PS/2 keyboard and mouse connector
+CN8
+USB and LAN connectors
+CN11
+LAN connector 
+CN14
+VGA DB15 display
+CN16
+Audio line in/out and Mic in
+CN18
+CompactFlash card connector
+CN20
+SATA connector (data)
+CN23
+SATA connector (power)
+CN24
+Jumper for RS-232/422/485 selection
+CN25
+COM1~2 RS-232/422/485 serial port
+CN26
+Jumper for RS-232/422/485 selection
+CN27
+COM3 RS-232 serial port (reserved pin header)
+CN28
+COM4 RS-232 serial port (reserved pin header)
+CN32
+Mini PCIe card connector
+CN34
+Board to board connector (PCI)
+CN36
+DB9 connector (for DI/O)
+SW1 
+Reset switch
+SW2
+Power control
+SW3
+Terminal resister for COM 1~2
+SW4
+DIP1: AT/ATX mode selection
+DIP2: DI/O & Alternatives selection
+DIP3: COM port RI wake (ON: Enable; 
+OFF: Disable)
+DIP4: reserved
+SW5
+RS-422/485 Master/Slave Selector
+SW9
+DIP1: WDT initial protection (255 sec)
+DIP2: reserved
+DIP3: default: OFF
+DIP4: default: OFF
+SW11
+ON: DI wet contact
+OFF: DI dry contact
+
+--- Page 61 ---
+49
+Figure A.2: Connector & Jumpers (UNO-1172AE)
+Table A.4: Connectors & Jumpers (UNO-1172AE)
+CN3-B,CN3-C PC/104 card connector
+CN3-A PC/104+ card connector
+CN16 Mini PCI card connector
+CN4 Jumper of PC/104+ card voltage selection 
+(+3.3V or +5V)
+
+--- Page 62 ---
+UNO-1172A/AE/AH User Manual 50
+A.3  RS-232 Serial Port (COM3~4)
+Table A.5: RS-232 Serial Port Pin Assignments
+Pin Signal Name
+1DCD
+2DSR
+3RxD
+4RTS
+5TxD
+6CTS
+7DTR
+8RI
+9GND
+
+--- Page 63 ---
+51
+A.4  RS-232/422/485 Serial Port (COM1~2)
+A.5  Ethernet RJ-45 Connector (LAN1~LAN3)
+Table A.6: RS-232/422/485 Serial Ports
+Pin RS-232 RS-422 RS-485
+1DCD Tx- DATA-
+2RxD Tx+ DATA+
+3 TxD Rx+ NC
+4DTR Rx- NC
+5 GND GND GND
+6 DSR NC NC
+7 RTS NC NC
+8 CTS NC NC
+9RI NC NC
+Table A.7: Ethernet RJ-45 Connector Pin Assigns
+Pin 10/100/1000Base-T Signal Name
+1XMT+
+2XMT-
+3 RCV+
+4NC
+5NC
+6 RCV-
+7NC
+8NC
+
+--- Page 64 ---
+UNO-1172A/AE/AH User Manual 52
+A.6  Power Screw Terminal (CN1)
+A.7  PS/2 Keyboard and Mouse Connector (CN7)
+Table A.9: 
+Table A.8:  Phoenix Power Connector Pin Assigns
+Pin Signal Name
+1 VIN (10 ~ 36 V
+DC
+)
+2GND
+3 Field Ground
+Table A.10: Keyboard & Mouse Connector Pin Assigns
+Pin Signal Name
+1 KB DATA
+2MS DATA
+3GND
+4VCC
+5 KB CLOCK
+6MS CLOCK
+65
+4
+2
+1
+3
+
+--- Page 65 ---
+53
+A.8  USB Connector (CN8)
+A.9  VGA Display Connector (CN14)
+VGA Controller
+The Intel GMA 3150 VGA controller can drive CRT displays or color 
+panel displays with resolutions up to 2048 x 1536 at 60 Hz. 
+Table A.11: USB Connector Pin Assignments
+Pin Signal Name Cable Color
+1 VCC Red
+2DATA- White
+3DATA+ Green
+4GND Black
+Table A.12: VGA Adaptor Cable Pin Assignments
+Pin Signal Name Pin Signal Name
+1 RED 9 EDID Power
+2 GREEN 10 GND
+3BLUE 11 NC
+4 NC 12 EDID Data
+5 GND 13 H-SYNC
+6 VGA Detect 14 V-SYNC
+7 GND 15 EDID Clock
+8GND
+
+--- Page 66 ---
+UNO-1172A/AE/AH User Manual 54
+A.10  SATA Data Connector (CN20)
+ 
+Table A.13: SATA DATA Connectors (CN20)
+Pin Signal Name
+1GND
+2A+
+3A-
+4GND
+5B-
+6B+
+7GND
+
+--- Page 67 ---
+55 Appendix B  
+Appendix
+B
+Watchdog Timer 
+Register
+
+--- Page 68 ---
+UNO-1172A/AE/AH User Manual 56
+Appendix B  Watchdog Timer Register
+Register 1: WatchDogTimer Load (WDTLOAD)
+OFFSET = 0x000
+WDTLOAD serves as a countdown timer. Once an 8-bit width value is 
+loaded into the register, it starts to count down to zero automatically.
+Table B.1: WDTLOAD Bits Definitions
+Bit 3
+1
+3
+0
+2
+9
+2
+8
+2
+7
+2
+6
+2
+5
+2
+4
+2
+3
+2
+2
+2
+1
+2
+0
+1
+9
+1
+8
+1
+7
+1
+6
+1
+5
+1
+4
+1
+3
+1
+2
+1
+1
+1
+0
+9876543210
+User
+Settings
+Reserved WDTLOAD
+Bits Access Name Description
+31:8 - - Reserved
+0x00 = reset
+7:0 R/W WDTLOAD Load time into the register
+0xFF = reset
+
+--- Page 69 ---
+57 Appendix B  
+Register 2: WatchDogTimer Value (WDTVALUE)
+OFFSET = 0x004
+WDTVALUE saves the current watchdog timer value.
+Bit 3
+1
+3
+0
+2
+9
+2
+8
+2
+7
+2
+6
+2
+5
+2
+4
+2
+3
+2
+2
+2
+1
+2
+0
+1
+9
+1
+8
+1
+7
+1
+6
+1
+5
+1
+4
+1
+3
+1
+2
+1
+1
+1
+0
+9876543210
+User
+Settings
+Reserved WDTLOAD
+Bits Access Name Description
+31:8 RO - Reserved
+0x00 = reset
+7:0 RO WDTLOAD Current watchdog timer value
+0xFF = reset
+
+--- Page 70 ---
+UNO-1172A/AE/AH User Manual 58
+Register 3: WatchDogTimer Control (WDTCTL)
+OFFSET = 0x008
+WDTCTL selects the corresponding event as time out. It could be configured 
+to choose reset, interrupt or digital output signal when time out.
+Bit 3
+1
+3
+0
+2
+9
+2
+8
+2
+7
+2
+6
+2
+5
+2
+4
+2
+3
+2
+2
+2
+1
+2
+0
+1
+9
+1
+8
+1
+7
+1
+6
+1
+5
+1
+4
+1
+3
+1
+2
+1
+1
+1
+0
+9876543210
+User
+Settings
+Reserved
+WDT_DO_EN
+RESEN
+INTEN
+Bits Access Name Description
+31:3 RO - Reserved
+0x00 = reset
+2R/WWDT_DO_E
+N
+Digital Output Enable for Watchdog 
+Timer time out
+0 = Disable digital output
+1 = Enable digital output
+1 R/W RESEN Reset Enable for Watchdog Timer 
+time out
+ 0 = Disable reset
+ 1 = Enable reset
+0 R/W INTEN Interrupt Enable for Watchdog 
+Timer time out
+ 0 = Disable Interrupt
+ 1 = Enable Interrupt
+
+--- Page 71 ---
+59 Appendix B  
+Register4:WatchDogTimerCounterClear(WDTCR)
+OFFSET = 0x00C
+WDTCR clears the watchdog timer. Any value written into WDTCR 
+would set zero and reload the value stored in WDTLOAD register to 
+watchdog timer. Read/reset WDTCR is undefined.
+Bit 3
+1
+3
+0
+2
+9
+2
+8
+2
+7
+2
+6
+2
+5
+2
+4
+2
+3
+2
+2
+2
+1
+2
+0
+1
+9
+1
+8
+1
+7
+1
+6
+1
+5
+1
+4
+1
+3
+1
+2
+1
+1
+1
+0
+9876543210
+User
+Settings
+WDTCR
+Bits Access Name Description
+31:0 WO WDTCR Watchdog Timer Clear
+any value = clear watchdog timer
+
+--- Page 72 ---
+UNO-1172A/AE/AH User Manual 60
+Register 5: WatchDogTimer Time-Out Trigger Status (WDTTR)
+OFFSET = 0x010
+WDTTR saves the occurrence times of watchdog timer time-out. The cor-
+responding operation differs from the access type which is taken on 
+WDTTR. A read-out from WDTTR would clear the watchdog interrupt 
+while a write-in clear WDTTR.
+Bit 3
+1
+3
+0
+2
+9
+2
+8
+2
+7
+2
+6
+2
+5
+2
+4
+2
+3
+2
+2
+2
+1
+2
+0
+1
+9
+1
+8
+1
+7
+1
+6
+1
+5
+1
+4
+1
+3
+1
+2
+1
+1
+1
+0
+9876543210
+User
+Settings
+Reserved WDTTR
+Bits Access Name Description
+31:8 RO - Reserved
+0x00 = reset
+7:0 R/W WDTTR Watchdog Timer time-out counter:
+The correlative operation is upon 
+the access type.
+0xFF = reset
+Read-out = clear the watchdog 
+interrupt
+Write-in = clear WDTTR
+
+--- Page 73 ---
+61 Appendix B  
+Register 6: WatchDogTimer Interrupt Control Register 
+(WDTINTCTR)
+OFFSET = 0x014
+Based on the watchdog timer time-out frequency which is stored in 
+WDTTR, WDTINTCTR sets the period of interrupt. WDTTR plus one as 
+watchdog timer time out occurred. While the number of occurrences 
+exceeds the value saved in WDTINTCTR, an interrupt would be issued.
+Bit 3
+1
+3
+0
+2
+9
+2
+8
+2
+7
+2
+6
+2
+5
+2
+4
+2
+3
+2
+2
+2
+1
+2
+0
+1
+9
+1
+8
+1
+7
+1
+6
+1
+5
+1
+4
+1
+3
+1
+2
+1
+1
+1
+0
+9876543210
+User
+Settings
+Reserved WDTINTCTR
+Bits Access Name Description
+31:8 RO - Reserved
+0x00 = reset
+7:0 R/W WDTINTCTR Interrupt Occurrence Frequency 
+Setup:
+An interrupt issued when the num-
+ber of times of watchdog timer 
+time-out is greater than the value 
+store in WDTINTCTR.
+0x00 = reset
+
+--- Page 74 ---
+UNO-1172A/AE/AH User Manual 62
+Register 7: WatchDogTimer Reset Control Register (WDTRSTCTR)
+OFFSET = 0x018
+Based on the watchdog timer time-out frequency which is stored in 
+WDTTR, WDTINTCTR sets the period of reset. WDTTR plus one as 
+watchdog timer time out occurred. While the number of occurrences 
+exceeds the value saved in WDTINTCTR, a reset signal would be issued.
+Bit 3
+1
+3
+0
+2
+9
+2
+8
+2
+7
+2
+6
+2
+5
+2
+4
+2
+3
+2
+2
+2
+1
+2
+0
+1
+9
+1
+8
+1
+7
+1
+6
+1
+5
+1
+4
+1
+3
+1
+2
+1
+1
+1
+0
+9876543210
+User
+Settings
+Reserved WDTRSTCTR
+Bits Access Name Description
+31:8 RO - Reserved
+0x00 = reset
+7:0 R/W WDTRST-
+CTR
+Reset Occurrence Frequency 
+Setup:
+A reset issued when the number of 
+times of watchdog timer time-out is 
+greater than the value store in 
+WDTRSTCTR.
+0x00 = reset
+
+--- Page 75 ---
+63 Appendix B  
+Register 8: WatchDogTimer Alarm Digital Output (WDTALAR-
+MDO)
+OFFSET = 0x01C
+WDTALARMDO is an alarm which indicates whether watchdog timer 
+time-out occurs. As soon as watchdog timer time-out takes place, WDTA-
+LARMDO would be set to one till be cleared.
+Bit 3
+1
+3
+0
+2
+9
+2
+8
+2
+7
+2
+6
+2
+5
+2
+4
+2
+3
+2
+2
+2
+1
+2
+0
+1
+9
+1
+8
+1
+7
+1
+6
+1
+5
+1
+4
+1
+3
+1
+2
+1
+1
+1
+0
+9876543210
+User
+Settings
+Reserved
+WDTALARMDO
+Bits Access Name Description
+31:1 - - Reserved
+0x00 = reset
+0- WDTALAR-
+MDO
+Watchdog Timer Timer-out Alarm
+0 = reset
+1 = watchdog time out takes place
+
+--- Page 76 ---
+UNO-1172A/AE/AH User Manual 64
+Register 9:WatchDogTimer Interrupt (WDTINT)
+OFFSET = 0x020
+WDTINT is a register indicating whether interrupt is triggered. Once read 
+out the value in WDTINT, it'll be cleared immediately to avoid looping.
+Bit 3
+1
+3
+0
+2
+9
+2
+8
+2
+7
+2
+6
+2
+5
+2
+4
+2
+3
+2
+2
+2
+1
+2
+0
+1
+9
+1
+8
+1
+7
+1
+6
+1
+5
+1
+4
+1
+3
+1
+2
+1
+1
+1
+0
+9876543210
+User
+Settings
+Reserved
+INT
+Bits Access Name Description
+31:1 - - Reserved
+0x00 = reset
+0- WDTALAR-
+MDO
+Watchdog Timer Interrupt Indicator
+0 = no interrupt triggered
+1 = an interrupt triggered
+
+--- Page 77 ---
+65 Appendix C  
+Appendix
+C
+Digital Input Interrupt 
+Control Register
+
+--- Page 78 ---
+UNO-1172A/AE/AH User Manual 66
+Appendix C  Digital Input Interrupt 
+   Control Register
+Register 1: Interrupt Enable Status (Base Address 1 + 02H)
+Register 2: Interrupt Enable Register (Base Address 1 + 02H)
+Bit 7654321 0
+User 
+Settings
+Reserved DI1EN DI0EN
+Bits Access Name Description
+7:2 - - -
+1 R DI1EN DI1 Interrupt enable status
+0 = Off
+1 = On
+0 R DI0EN DI0 Interrupt enable/disable control
+0 = Off
+1 = On
+Bit 7654321 0
+User 
+Settings
+Reserved DI1EN DI0EN
+Bits Access Name Description
+7:2 - - -
+1 W DI1EN DI1 Interrupt enable/disable control
+0 = Disable
+1 = Enable
+0 W DI0EN DI0 Interrupt enable/disable control
+0 = Disable
+1 = Enable
+
+--- Page 79 ---
+67 Appendix C  
+Register 3: Interrupt Triggering Status (Base Address 1 + 03H)
+Bit 7654321 0
+User 
+Settings
+Reserved DI1RF DI0RF
+Bits Access Name Description
+7:2 - - -
+1 R DI1RF DI1 Interrupt triggering status
+0 = Off
+1 = On
+0 R DI0RF DI0 Interrupt triggering status
+0 = Off
+1 = On
+
+--- Page 80 ---
+UNO-1172A/AE/AH User Manual 68
+Register 4: Interrupt Triggering Register (Base Address 1 + 03H)
+Register 5: Interrupt Flag (Base Address 1 + 07H)
+Bit 7654321 0
+User 
+Settings
+Reserved DI1RF DI0RF
+Bits Access Name Description
+7:2 - - -
+1 W DI1RF DI1 Interrupt triggering edge control
+0 = Falling edge trigger
+1 = Rising edge trigger
+0 W DI0RF DI0 Interrupt triggering edge control
+0 = Falling edge trigger
+1 = Rising edge trigger
+Bit 7654321 0
+User 
+Settings
+Reserved DI1IF DI0IF
+Bits Access Name Description
+7:2 - - -
+1 R DI1IF DI1 Interrupt flag
+0 = No interrupt
+1 = Interrupt occur
+0 R DI0IF DI0 Interrupt flag
+0 = No interrupt
+1 = Interrupt occur
+
+--- Page 81 ---
+69 Appendix C  
+Register 6: Interrupt Clear Register (Base Address 1 + 07H)
+Bit 7 6 5 4 3 2 1 0
+User 
+Settings
+Reserved DI1IFCLR DI0IFCLR
+Bits Access Name Description
+7:2 - - -
+1 W DI1IFCLR DI1 Interrupt flag clear control
+0 = Don't care
+1 = Clear
+0 W DI0IFCLR DI0 Interrupt flag clear control
+0 = Don't care
+1 = Clear
+
+--- Page 83 ---
+71 Appendix D  
+Appendix
+D
+USB Holder Installation 
+(ONLY FOR UNO-1172AH)
+
+--- Page 84 ---
+UNO-1172A/AE/AH User Manual 72
+Appendix D  USB Holder Installation
+In hazardous locations, sparks caused by the movement from a USB connec-
+tor which is even slightly loose could lead to a disaster. To prevent this, we 
+provide a set of accessories to secure the USB connectors. Follow the below 
+instructions to complete the installation. (The contents may vary but the 
+installation procedure is the same.)
+1. Find the USB holders (5pcs in total) in the accessory bag.
+2. Refer to the following figures and attach the holders to the 
+UNO-1172AH for securing the USB connector.
+

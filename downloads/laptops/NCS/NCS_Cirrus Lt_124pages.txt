@@ -1,0 +1,2057 @@
+Brand: NCS
+Model: Cirrus Lt
+URL: https://www.manua.ls/ncs/cirrus-lt/manual
+Total Pages: 124
+============================================================
+
+--- Page 1 ---
+Computing Innovations.
+TZ-241G
+v1.2d June 25, 2015
+Cirrus LT
+User Guide
+
+--- Page 2 ---
+Contents
+Safety Instructions ................................................................................................................................... 5
+Battery Safety and Tips..................................................................................................................................6
+Introduction ..............................................................................................................................................7
+Chapter 1: Before You Start ....................................................................................................................8
+Package Contents ............................................................................................................................................8
+Components .....................................................................................................................................................9
+Front View ................................................................................................................................................ 10
+Right View ................................................................................................................................................10
+Left View ..................................................................................................................................................10
+Bottom View ............................................................................................................................................11
+Notebook LEDs ........................................................................................................................................11
+Docking Station .......................................................................................................................................12
+Docking Station LED Lights .................................................................................................................12
+Laptop and Docking Station LED Status Light Indicators .............................................................13
+Chapter 2: Getting Started ..................................................................................................................... 14
+Powering Up Your Notebook ......................................................................................................................14
+Connecting the AC Adapter...................................................................................................................14
+Installing the Battery .............................................................................................................................15
+Using Battery Power ..............................................................................................................................16
+Charging the Battery ..............................................................................................................................16
+Starting Your Notebook ................................................................................................................................ 17
+Opening the Display Panel ....................................................................................................................17
+Turning On Your Notebook ...................................................................................................................18
+Using the Keyboard .......................................................................................................................................18
+Function Keys ..........................................................................................................................................18
+Touchpad .........................................................................................................................................................19
+Point ..........................................................................................................................................................19
+Click ........................................................................................................................................................... 19
+Double-click .............................................................................................................................................19
+Drag ...........................................................................................................................................................19
+Using the Fingerprint Reader .................................................................................................................... 20
+Chapter 3: Making Connections ...........................................................................................................21
+Connecting External Display Devices.......................................................................................................21
+Connecting a Projector or Display Monitor .......................................................................................21
+Connecting USB Devices .............................................................................................................................22
+Connecting to a Mouse and Keyboard ......................................................................................................23
+Connecting Headphones ............................................................................................................................. 24
+Audio Subsystem .....................................................................................................................................24
+Connecting an External Microphone....................................................................................................... 24
+Connecting the Docking Station ................................................................................................................25
+Conﬁguring the Audio for Remote Hosts ................................................................................................ 30
+Connecting to Teradici Host PC ...........................................................................................................30
+Connecting to VMHost ..........................................................................................................................31
+Docking Station Audio Subsystem .......................................................................................................33
+Installing a SFP Module .............................................................................................................................. 34
+
+--- Page 3 ---
+Chapter 4: Navigating the On Screen Menu .......................................................................................36
+On Screen Menu (OSM) Structure ............................................................................................................36
+Main Menu ......................................................................................................................................................37
+Network ...........................................................................................................................................................38
+Ethernet ....................................................................................................................................................38
+Wi-Fi .........................................................................................................................................................39
+SSL VPN .................................................................................................................................................. 48
+Web Portal ............................................................................................................................................... 49
+Display Settings  ............................................................................................................................................. 51
+Native Display O...................................................................................................................................52
+Brightness .................................................................................................................................................53
+Status Bar .................................................................................................................................................53
+Display Options .......................................................................................................................................55
+Power Management ......................................................................................................................................61
+Changing the Duration of the On Screen Menu (OSM) Timeout ...................................................62
+Low Power Mode ....................................................................................................................................66
+Timing Preferences .................................................................................................................................69
+Device Manager .............................................................................................................................................71
+Speakers .................................................................................................................................................... 71
+On Lid Close .............................................................................................................................................72
+Touchpad/Keyboard Settings ................................................................................................................ 73
+Webcam ....................................................................................................................................................77
+Administrator .................................................................................................................................................78
+Admin Login ............................................................................................................................................78
+Administrator Settings ...........................................................................................................................79
+Allow Saving Wi-Fi Password ..............................................................................................................79
+Allow Web Portal ................................................................................................................................... 80
+Change Admin Credentials .................................................................................................................. 80
+Change User Credentials .......................................................................................................................81
+System Info ...............................................................................................................................................82
+Restore Factory Defaults .......................................................................................................................82
+Admin Log O .........................................................................................................................................82
+Chapter 5: Opening and Conﬁguring the Teradici Firmware Menu .............................................83
+Assigning a Static IP Address ..................................................................................................................... 84
+Chapter 6:  Making Remote Connections ...........................................................................................85
+Connecting to Remote Machines with Teradici Host Cards .............................................................. 85
+Important Teradici Host Software Settings .......................................................................................85
+Chapter 7: Using the Cirrus LT Web Interface ..................................................................................86
+Downloading and Logging Onto the Cirrus LT Web Interface .......................................................... 86
+Downloading ............................................................................................................................................86
+Logging On ...............................................................................................................................................87
+Admin Password Recovery ......................................................................................................................... 88
+Updating the Firmware ............................................................................................................................... 90
+Chapter 8: Accessing the Cirrus LT  .....................................................................................................94
+Management Console .............................................................................................................................94
+Installation and Logging In ........................................................................................................................ 94
+
+--- Page 4 ---
+Chapter 9: How to Load and Unload Certiﬁcates on the Cirrus LT ..............................................98
+Loading a Certiﬁcate .................................................................................................................................... 98
+Unloading a Certiﬁcate ................................................................................................................................105
+Chapter 10: Conﬁguring Advanced Wi-Fi Roaming .........................................................................107
+Conﬁguring Enhanced Roaming via the OSM Main Menu ................................................................107
+Conﬁguring Enhanced Roaming via the Management Console (MC) ............................................ 109
+Chapter 11: Troubleshooting ................................................................................................................ 115
+General Troubleshooting Tips ...................................................................................................................115
+Conﬂicts Between Teradici and NCS Firmware ....................................................................................117
+Chapter 12: Wake-on-LAN (WOL) ....................................................................................................... 118
+NCS Help ................................................................................................................................................... 119
+Appendix: Speciﬁcations .......................................................................................................................120
+Appendix: Regulatory and Legal Information .................................................................................. 121
+FCC Compliance Information ...................................................................................................................121
+Notice ..............................................................................................................................................................122
+Warranty Provisions ..................................................................................................................................... 122
+Warning Statement ....................................................................................................................................... 122
+FCC Test Report ............................................................................................................................................124
+
+--- Page 5 ---
+5
+Cirrus LT User Manual-1.2d-062515
+Safety Instructions
+DO NOT block the opening vents provided for ventilation. Blocking these vents may cause 
+the computer processor to overheat.
+•  DO NOT place your notebook on an unstable or uneven surface.
+•  DO NOT place or drop heavy objects on your notebook.
+•  DO NOT apply heavy pressure on your notebook.
+•  DO NOT press or touch the display panel.
+•  DO NOT use your notebook under harsh conditions.
+•  DO NOT subject your notebook to magnetic ﬁelds.
+•  DO NOT use or store your notebook in extreme temperatures.
+•  DO NOT place your notebook near ﬁre or other sources of heat.
+•  DO NOT expose to dust or corrosive materials.
+•  DO NOT spray water or any other cleaning ﬂuids directly on the display panel.
+•  DO NOT expose your notebook to rain or moisture.
+•  DO NOT tamper with the battery. Keep this away from children.
+•  DO NOT slam your notebook shut and never pick up or hold your notebook by the  
+ display.
+•  DO NOT expose your notebook to sudden changes in temperature or hu-   
+  midity. Keep your notebook away from air conditioners or heating vents.
+•  DO NOT check your notebook in as baggage. If you are traveling, carry it on in- 
+ stead.
+
+--- Page 6 ---
+6
+Cirrus LT User Manual-1.2d-062515
+Battery Safety and Tips
+Risk of explosion if battery is replaced by an incorrect type. Dispose of used battery ac-
+cording to the instructions.
+•  Do not disassemble, heat, or incinerate.
+•  Dispose of used battery according to the manufacturer’s instructions.
+Do not dispose of battery in a ﬁre. It may explode. Check with local authorities for    
+disposal instructions.
+•  Keep away from children.
+•  Store unused battery in a normal room temperature range.
+•  To optimize battery life, make sure to let the battery drain before plugging it in to    
+charge. 
+•  Leaving the notebook constantly plugged in will result in a deteriorating battery    
+life. 
+•  This product is intended to be supplied by a Listed Information Technology Equip-
+ment AC Adaptor rated 19 Vdc, 3.42A.
+
+--- Page 7 ---
+7
+Cirrus LT User Manual-1.2d-062515
+Introduction
+The Cirrus LT is a zero client notebook that allows you to securely connect to any kind of 
+network, remote host, or virtual machine. The Cirrus LT has no local storage, so there is no 
+vulnerability to viruses or malware, and no ﬁles or information will be compromised if the 
+notebook is lost or stolen.
+The Cirrus LT is based on Teradici’s high performance TERA2321 processor, which uses 
+the PCoIP protocol. PCoIP compresses, encrypts, and encodes the entire computing expe-
+rience at the data center and transmits it as pixels across the IP network to a zero client. 
+Remote users have eortless access to a fully functional, even HD, computing experience-- 
+and now secure computing functionality is available for the ﬁrst time on a zero client 
+laptop.
+Compact, lightweight, and engineered for high performance, Cirrus LT using PCoIP tech-
+nology is optimized for VMWare Horizon View for a highly ecient IT administrative 
+experience and low cost of ownership. Cirrus LT supports both copper and ﬁber and Wi-Fi 
+and delivers state-of-the-art security, AES 128/256 bit encryption/decryption and Suite B 
+ciphers.
+The Cirrus LT breaks the last security barrier and sets a new performance standard for 
+computing practicality. 
+Note:  Since the ﬁrmware may be updated at a later date, screenshots contained in this 
+document of the NCS GUI may be subject to changes without notice.
+
+--- Page 8 ---
+8
+Cirrus LT User Manual-1.2d-062515
+Chapter 1: Before You Start
+Package Contents
+•  Cirrus LT
+•  Lithium-ion Battery
+•  65 Watt Power Adapter
+•  Cirrus LT Quick Start Guide
+
+--- Page 9 ---
+9
+Cirrus LT User Manual-1.2d-062515
+1 Built-in PC Webcam (Optional)
+2 LCD Screen
+3 Speakers
+4 Power Button/LED
+/Connect/Disconnect
+5 Keyboard
+6 Function (Fn) Key
+7 Touchpad & Buttons
+8 LED Indicators
+9 Fingerprint Reader (Optional)
+9
+1
+3
+4
+6
+7
+8
+2
+3
+5
+Components
+
+--- Page 10 ---
+10
+Cirrus LT User Manual-1.2d-062515
+Front View
+Optional Secondary
+Smart Card Reader
+Right View
+1 Microphone Jack
+2 Headphones/Headset Jack
+3 Dedicated Keyboard USB Port
+4 Dedicated Mouse USB Port
+5 Primary Smart Card Reader
+2
+3
+4
+5
+1
+6
+1 Security Key Lock
+2 DC-in Jack
+3 Mini DisplayPort
+4 Charging USB Port*
+5 RJ-45 LAN Jack
+6 PCoIP USB Ports
+2
+3
+4
+5
+6
+Left View
+1
+*This port is labeled “Local” on the notebook, but it functions as a USB charg-
+ing port for certain devices. Devices plugged into this port will not be seen in 
+the remote session.
+
+--- Page 11 ---
+11
+Cirrus LT User Manual-1.2d-062515
+Battery
+Port 
+Replicator 
+Connector
+Bottom View
+Notebook LEDs
+1 Battery
+2 Wi-Fi
+3 PCoIP
+4 Local
+5 CapsLock
+6 NumLock
+2
+3 4
+6
+1
+5
+Note: The Docking Station port may be covered with a rubber cover to keep 
+dust and debris out of the connector when not in the Docking Station.
+
+--- Page 12 ---
+12
+Cirrus LT User Manual-1.2d-062515
+Docking Station
+1 DC-in Jack
+2 Headphones Jack
+3 Microphone Jack
+4
+Dedicated Mouse and 
+Keyboard USB Ports
+5  PCoIP USB 2.0 Ports
+6 Fiber SFP Port
+7 Charging USB Port
+8 RJ-45 LAN Jack
+9 DVI-1 Port
+10 DVI-2 Port
+2
+3 4 6 7
+1
+5 8 9 10
+1 CapsLock
+2 Battery
+3 PCoIP Session Status
+4 NumLock
+5 Wi-Fi Status LED 
+6 LOCAL Mode Status - Not Used
+7 Power/Connect Button
+Docking Station LED Lights
+2
+3
+1
+4
+5
+6
+7
+
+--- Page 13 ---
+13
+Cirrus LT User Manual-1.2d-062515
+Laptop and Docking Station LED Status Light Indicators
+Power LED
+Green LED – Normal Operation – unit is powered on
+Amber LED – Wake On LAN is enabled/unit is OFF
+No LED – unit is off (Wake on LAN is disabled)
+Blinking Green LED – Host PC is in low power (sleep state)
+Blinking Green and Amber - unit is in the process of upgrading BIOS (DO NOT 
+TURN OFF)
+Battery LED
+Green LED – Battery is full or AC adapter is plugged IN
+Blinking Green LED – Battery is charging
+Blinking Amber LED -  Low Battery, Battery is  under 10% charge, or battery is 
+not present.
+Amber LED – charging error
+NO LED – normal operation, battery discharging
+Wireless LED
+Green LED – Wireless is enabled/ this can be on when not connected to a 
+wireless LAN.
+NO LED – Wireless is disabled
+PCoIP LED
+Green LED – Connected to a remote host
+NO LED – no connection present
+Local LED For Future Use (not used)
+Caps Lock LED
+Green LED – CAPS LOCK Enabled
+NO LED – CAPS LOCK DISABLED
+NumLock LED
+Green LED – NumLock Enabled
+NO LED – NumLock DISABLED
+
+--- Page 14 ---
+14
+Cirrus LT User Manual-1.2d-062515
+Chapter 2: Getting Started
+This chapter will guide you on how to use your notebook.
+It covers the following sections:
+•  Powering Up Your Notebook
+•  Installing the Battery 
+•  Opening the Display Panel
+•  Starting Your Notebook
+•  Using the Keyboard
+•  Using the Touch Pad
+•  Navigating the On Screen Menu
+Powering Up Your Notebook
+Your notebook can be powered up using the AC Adapter or the Lithium-ion battery.
+Connecting the AC Adapter
+The AC adapter powers up your notebook and charges the battery.
+•  Connect the AC adapter to the DC-in jack of your notebook.
+•  Connect the AC adapter to the power cord.
+•  Plug the power cord to an electrical outlet.
+
+--- Page 15 ---
+15
+Cirrus LT User Manual-1.2d-062515
+Installing the Battery
+To install the battery, follow the steps below:
+1.  Align and slide the battery into the battery compartment.
+2.  Push the battery into the compartment until the battery locks into place, 
+and make sure the latches are locked into position. The left latch will 
+automatically go into the locked position when you push the battery in 
+place, but you must manually lock the right latch, as shown.
+
+--- Page 16 ---
+16
+Cirrus LT User Manual-1.2d-062515
+Using Battery Power
+Install a charged battery in the battery compartment by removing the AC adapt-
+er (if plugged in). Your notebook will automatically use the battery power.
+Charging the Battery
+The Lithium-ion battery is not fully-charged upon purchase.
+To charge the battery, follow the steps below:
+3.  Install the battery to your notebook. See procedures above.
+4.  Connect the AC adapter to the DC-in jack of your notebook.
+5.  Connect the AC adapter to the power cord.
+6.  Plug the power cord to an electrical outlet.
+NOTE: Charging the battery while the Cirrus LT is powered o will shorten 
+the charging time to 2 hours. If the Cirrus LT is on, it will take approximately 
+2.5 hours to charge the unit.
+
+--- Page 17 ---
+17
+Cirrus LT User Manual-1.2d-062515
+Starting Your Notebook
+Opening the Display Panel
+The notebook lid is secured with small magnets while closed and is easily 
+opened.
+•  To open, simply lift the cover lid up to the upright position.
+•  To close, carefully place the cover lid down. Do not slam it shut.
+
+--- Page 18 ---
+18
+Cirrus LT User Manual-1.2d-062515
+Turning On Your Notebook
+•  Press the Power button until the Power LED lights up.
+Note: To force a hard shut down, press and hold the Power button for more 
+than four seconds.
+Using the Keyboard
+Function Keys
+The function keys allow you perform certain tasks on your notebook. Below is a 
+list of the function keys and their actions:
+Fn-F1: Turns Wi-Fi on and o. 
+Fn-F2: Decreases screen brightness 
+Fn-F3: Increases screen brightness 
+Fn-F4: Turns Native Display on and o. 
+Fn-F5: Toggles between various available display modes. 
+Fn-F6: Enables and disables the touchpad 
+Fn-F7: Turns sound on and o. 
+Fn-F8: Decreases volume 
+Fn-F9: Increases volume 
+Fn-F10: Brings up On Screen Menu (OSM) 
+Fn-F11: Turns status bar on and o 
+Fn-F12: Enables or disables webcam (webcam optional)
+Note: Where ever Fn-F10 is used from here on out in the document you can 
+also use SHIFT-F10 when using an external USB keyboard.
+
+--- Page 19 ---
+19
+Cirrus LT User Manual-1.2d-062515
+Touchpad
+The touch pad is a cursor-pointing device. You can point, select, or drag items or 
+objects on the screen. For more details on the touchpad, see Device Manager Section 
+in Chapter 4.
+Point
+Slide your ﬁnger on the touch pad to point the cursor to an item or object on the 
+screen.
+Click
+To left-click, move the cursor to the item or object on the screen, then lightly tap 
+the touch pad or press the left button.
+To right-click, move the cursor to the item or object on the screen, then press 
+the right button.
+Double-click
+To double-click, move the cursor to the item or object on the screen, then tap 
+the touch pad twice or press the left button twice.
+Drag
+To drag an item or object, press and hold the left button then slide your ﬁnger on 
+the touch pad to move the item or object.
+
+--- Page 20 ---
+20
+Cirrus LT User Manual-1.2d-062515
+Using the Fingerprint Reader
+Shown below is the optional scanning ﬁngerprint reader. There is also an option for 
+a swipe ﬁngerprint reader or for no ﬁngerprint reader at all.
+Note: You will need to load your appropriate drivers on your virtual machine or 
+remote host to support this device. Drivers can be downloaded from our NCS web-
+site at http://www.ncst.com/content/downloads-0
+
+--- Page 21 ---
+21
+Cirrus LT User Manual-1.2d-062515
+Chapter 3: Making Connections
+This chapter will guide you on installing peripheral devices to maximize the use of your 
+notebook. It covers the following sections:
+•  Connecting External Display Devices
+•  Connecting USB Devices
+•  Connecting Headphones
+•  Connecting External Microphone
+Connecting External Display Devices
+You can connect your notebook to other display devices, such as a projector or an-
+other display monitor.
+Your notebook is equipped with miniDisplayPort which provides digital video sig-
+nals. 
+Note: The DisplayPort Cable is not included in the package. It is sold separately or 
+it may come with your external display device.
+Note: The Cirrus LT is designed to support both passive and active miniDP to DVI 
+adapters. The Cirrus LT is compatible with most new adapters but there are a few 
+older adapters that will not work. NCS sells a variety of adapters for most modern 
+LCDs out in the market today, i.e. MiniDP to DP, MiniDP to DVI, MiniDP to VGA, 
+etc. You may purchase these miniDP adapters from NCS to ensure complete com-
+patibility for your Cirrus LT. Additionally, due to the nature of converting miniDP 
+to VGA, all of these adapters are considered active adapters.
+Connecting a Projector or Display Monitor
+1.  Connect one end of a DisplayPort cable to the miniDisplayPort of your 
+notebook.
+2.  Connect the other end to a projector or display monitor.
+
+--- Page 22 ---
+22
+Cirrus LT User Manual-1.2d-062515
+Connecting USB Devices
+You can connect your notebook to other USB devices, such as a mouse, keyboard, 
+digital camera, printer, or an external hard disk drive.
+Connect one end of a USB cable to the USB port of your notebook.
+Connect the other end to the USB device.
+Note: The USB cable is not included in the package. It is sold separately or it may 
+come with your USB device.
+Note: USB devices (including, but not limited to, printers, optical drives, and hard 
+drives) that do not have their own power sources are not ocially supported. Most 
+of these devices tend to draw too much power from the USB port. But, you can still 
+connect these devices to the Cirrus LT. If the device only has one USB port, use one 
+of the two PCoIP USB ports on the left side of the notebook. If the device has two 
+USB ports (one for enumeration and one for auxiliary power), use one PCoIP USB 
+port for the enumeration plug and the charging USB port (also located on the left 
+side of the notebook) for the auxiliary power plug. Refer to the image below. 
+Note: These ports are located on the left 
+side of the notebook.
+Charging USB Port
+PCoIP USB Ports
+Enumeration 
+Plug
+Auxiliary 
+Plug
+Note: As a reminder, these USB devices that are plugged in may need drivers to be 
+loaded on the remote session.
+
+--- Page 23 ---
+23
+Cirrus LT User Manual-1.2d-062515
+Connecting to a Mouse and Keyboard
+Using a mouse in the dedicated mouse port ensures full functionality when con-
+nected to a remote host and when you pull up the OnScreen Menu. The same ap-
+plies for the dedicated keyboard port.
+To connect to an external mouse:
+•  Plug the mouse into the USB port with the picture of a mouse over it.
+To connect to an external keyboard:
+•  Plug the keyboard into the USB port with the picture of the keyboard over it.
+Note: The mouse and keyboard are not included in the package. They are sold 
+separately. 
+REMINDER:  when using an external keyboard in the dedicated USB keyboard 
+port you can press SHIFT-F10 to bring up the Cirrus LT OnScreen Menu.
+Certain special multifunction or Bluetooth combo mouse and keyboards will work 
+in the dedicated keyboard port. Not all of these special devices have been tested. As 
+a general rule, you can try without harming the Cirrus LT, special keyboards should 
+be plugged into the dedicated USB keyboard port on the right hand side for compat-
+ibility. Combo Bluetooth keyboard and mouse dongles should be plugged into the 
+dedicated USB keyboard port. 
+If for some reason these special keyboards do not work in the dedicated keyboard 
+port, try them on the PCoIP USB ports on the left hand side of the notebook. You 
+may need to load drivers once the device is detected in the remote OS. Please con-
+tact NCS Help Desk if you identify a USB keyboard that does not work correctly 
+in the dedicated USB keyboard port. We are always looking to make our products 
+compatible with the latest peripherals.
+
+--- Page 24 ---
+24
+Cirrus LT User Manual-1.2d-062515
+Connecting Headphones
+Note: This port is located 
+on the right side of the 
+notebook.
+Headphones/Headset Jack
+You can connect either headphones or external speakers to the Cirrus LT Notebook 
+via its Headphones/Headset Port (see above). This Headphones/Headset Port also 
+supports Combo Headsets (Headphone/MIC) which come with a single plug (seen, 
+for example on the iPhone headphone), as well as CTIA and OMTP Headsets.
+Note: Headsets are not compatible with the Headphone Port on the Docking Sta-
+tion or with the Microphone Jacks on the Notebook or the Docking Station. 
+Audio Subsystem
+By default, audio will be output to the Cirrus LT’s built-in speakers when the 
+Headphones/Headset Port is not used. If a webcam is installed, the webcam 
+microphone can be used for applications like Skype. 
+When a Headset (Ex: Apple Headset) is plugged in, audio will be output to the 
+Headset. Also, the Headset microphone will get priority if a dedicated micro-
+phone is also connected to Cirrus LT Microphone Jack.
+Connecting an External Microphone
+You can connect your notebook to an external microphone by plugging the audio 
+jack of the microphone to the Microphone jack of your notebook.
+Note: If you want to use the Docking Station Microphone jack while on a virtual 
+machine, you must install a driver. You can download this driver at http://www.
+ncst.com/content/downloads-0
+Note: If you  have a USB headphone and Mic device, plug these into the PCoIP 
+USB ports.
+
+--- Page 25 ---
+25
+Cirrus LT User Manual-1.2d-062515
+Connecting the Docking Station
+CAUTION:  You must connect the 90 Watt AC Adapter (19V, 4.74A) to the Docking 
+Station in order for the Cirrus LT to function correctly while in the Docking Sta-
+tion.
+You can connect your notebook to a Docking Station. The Docking Station has many 
+of the same ports as the notebook except it also has two DVI-D ports and a ﬁber SFP 
+port. 
+To connect your notebook to the Docking Station:
+1.  Pull out the extender on the left side of the Docking Station.
+
+--- Page 26 ---
+26
+Cirrus LT User Manual-1.2d-062515
+2.  Ensure the notebook Docking Station port cover is removed before you 
+try to dock the notebook into the Docking Station.
+
+--- Page 27 ---
+27
+Cirrus LT User Manual-1.2d-062515
+Note: There is also a handy storage location for this port cover. See the high-
+lighted area shown below.
+          
+3.  Notice the two small triangles on the notebook lid; these match up with 
+the triangles on the Docking Station. Line these up, and then ﬁrmly press 
+down on the lid of the notebook. You should hear a click, and then the 
+notebook is properly docked into the Docking Station.
+
+--- Page 28 ---
+28
+Cirrus LT User Manual-1.2d-062515
+•  To disconnect your notebook from the Docking Station:
+1.  Pull up the black lever on the back right side of the port connector.
+
+--- Page 29 ---
+29
+Cirrus LT User Manual-1.2d-062515
+2.  Lift the notebook out of the Docking Station.
+Note: The notebook and Docking Station use dierent AC adapters. Make sure 
+you are using the 90 Watt Adapter (19V - 4.74A) with the Docking Station. 
+While the notebook is docked in the Docking Station, the dedicated USB key-
+board and mouse ports will not work and these ports are active in the Docking 
+Station only. These ports are labeled with an icon of a mouse and a keyboard. 
+However, the two PCoIP and charging ports on the notebook will still work 
+giving you a total of 6 working USB Ports when using the Docking Station and 
+two charging USB Ports.
+Hot-docking (placing the Cirrus LT on the Docking Station while the Cirrus LT 
+has power) the Cirrus LT is technically not supported, but will work in most 
+situations. USB devices inserted in the PCoIP ports on the Docking Station will 
+not work after a hot-dock event. You must either dock when the Cirrus LT is o 
+or restart Cirrus LT for these devices to function after docking.
+
+--- Page 30 ---
+30
+Cirrus LT User Manual-1.2d-062515
+Conﬁguring the Audio for Remote Hosts
+Connecting to Teradici Host PC
+Headset Port or Built-in Speaker Conﬁguration:
+1.  Open the Control Panel > Sound > Playback tab. 
+2.  In the Playback tab, select Headphones: 3-High Deﬁnition Audio Device 
+as the Default Communication Device.
+
+--- Page 31 ---
+31
+Cirrus LT User Manual-1.2d-062515
+Docking Station Line Out Port:
+1.  Open the Control Panel > Sound > Playback tab. 
+2.  In the Playback tab, select Headphones: 3-High Deﬁnition Audio Device 
+as the Default Device.
+ 
+ 
+Connecting to VMHost
+1.  Download and install the latest PCoIP Audio Driver provided by Teradici 
+(PCoIP_ComponentInstaller.exe).
+
+--- Page 32 ---
+32
+Cirrus LT User Manual-1.2d-062515
+2.  Open the Control Panel > Sound > Playback tab. 
+3.  Ensure that the Teradici Virtual Audio Driver is selected as the default driver. 
+ 
+The Speakers setting will work for both the Headset Port and Dock Line-out 
+Port.
+
+--- Page 33 ---
+33
+Cirrus LT User Manual-1.2d-062515
+Docking Station Audio Subsystem
+The Cirrus LT Docking Station has a Line-out port which is intended to be con-
+nected to desktop speakers (see below).
+Microphone Jack
+Speaker Jack
+The Docking Station Microphone Jack is a replica of Cirrus LT Microphone 
+Jack to support traditional analog microphones or combo Headsets which have 
+separate MIC and Headphone plugs.
+Priority of the audio plugs while docked are as follows:  
+•  By default, audio will be output to the built-in speakers when Headset/Line-out 
+port is not used. If a webcam is installed, the webcam MIC can be used for appli-
+cations like Skype. 
+•  When the Line-out Port on the Docking Station is connected to external speaker, 
+this port will get priority and internal speakers will not produce sound. Similarly, 
+Docking Station microphone port will get priority when used over the ports on 
+the Cirrus LT.
+•  When the Docking Station ports are not used, the Cirrus LT audio ports and 
+speakers will have priority.
+
+--- Page 34 ---
+34
+Cirrus LT User Manual-1.2d-062515
+Installing a SFP Module
+The SFP module goes into the Fiber SFP port on the Docking Station and allows 
+you to use ﬁber optic cable for more secure networking. The SFP module is pictured 
+below.
+To install the SFP module:
+1.  Place the SFP module into the Fiber SFP port. Make sure the side with the 
+black tab is facing up, and the tab lever is pulled out, as shown below.
+
+--- Page 35 ---
+35
+Cirrus LT User Manual-1.2d-062515
+2.  Push the module all the way into the port.
+3.  You will know the module is securely installed when you hear a click when 
+you push it into place. Push up the lever back into place, as shown below.
+
+--- Page 36 ---
+36
+Cirrus LT User Manual-1.2d-062515
+Chapter 4: Navigating the On Screen Menu
+Use the On Screen Menu (OSM) to conﬁgure various parameters on your Cirrus LT. To 
+invoke the OSM you press Fn-F10. You can navigate through the OSM with the touchpad 
+or with an external mouse connected to the dedicated USB Mouse Port located on the right 
+side of your notebook. 
+When using an external USB keyboard that is connected to the dedicated USB keyboard 
+port (on the right side of the notebook) you can also invoke the OSM by pressing SHIFT-
+F10. This is handy when using the notebook along with a Docking Station and the note-
+book lid is closed because you are using external monitors, keyboard and mouse. Since 
+most external keyboards do not have a function key, pressing SHIFT-F10 will bring up the 
+OSM for your convenience.
+On Screen Menu (OSM) Structure
+The  On Screen Menu (OSM ) is based on a tree structure moving from left to right 
+as you drill deeper into the menu system. Each level of the tree will have a title and 
+various options to choose from; either click an option to move down the tree or to 
+make a selection with the mouse pointer. You can also click any option higher in the 
+tree structure to select that menu. Finally, to exit the OSM either click the X on the 
+bottom left corner of the menu or press Fn-F10 again.
+Note: When you open the OSM, a second cursor will appear. This cursor operates 
+within the OSM only. When you close the OSM, the cursor will disappear.
+Note: As you are clicking through the settings in the OSM, you will not have to 
+“conﬁrm” any changes except in critical situations such as shutting down the 
+notebook or changing your password. All other changes will save automatically.
+
+--- Page 37 ---
+37
+Cirrus LT User Manual-1.2d-062515
+Main Menu
+The main menu has the following items:
+•  Network: For changing network connectivity settings
+•  Display: For changing the display options and modes
+•  Power Management: For conﬁguring OSM, Low Power Mode, and Sleep Timing 
+Preferences.
+•  Device Manager: For conﬁguring speaker volume, webcam, and touchpad    
+settings.
+•  Administrator: For conﬁguring authentication credentials of local and      
+administrator accounts and other administrator settings.
+The bottom left of the main menu also allows you to close the menu, shut down 
+the system, restart the system, and connect/disconnect from the remote session, 
+as shown below.
+
+--- Page 38 ---
+38
+Cirrus LT User Manual-1.2d-062515
+Network
+This network Submenu lets you conﬁgure wired and wireless settings and al-
+lows you to enable and disable both Ethernet and Wi-Fi connections.
+Ethernet
+To enable the Ethernet:
+1.  Click the Network Submenu.
+2.  Select Ethernet.
+3.  Click the Enable Ethernet selection box. A green check mark signiﬁes 
+that Ethernet has been enabled, as shown below.
+
+--- Page 39 ---
+39
+Cirrus LT User Manual-1.2d-062515
+To disable the Ethernet:
+1.  Click the Network Submenu.
+2.  Select Ethernet.
+3.  Click the Enable Ethernet selection box. A gray “X” signiﬁes that Ether-
+net has been disabled.
+ 
+Wi-Fi
+All wireless conﬁguration is done in these menus. You can enable or disable 
+wireless entirely. If you want to auto connect to the same set of wireless LANs 
+(WLANs) you can save those for auto connection at a later time*. Once connect-
+ed to a WLAN, you can see signal strength and the IP Address obtained.
+* This can be disabled in the Administrator menu.
+Enabling and Disabling Wireless
+To enable wireless: 
+1.  Click the Network Submenu.
+2.  Select Wi-Fi.
+3.  Click the Enable Wi-Fi selection box. A green check mark signiﬁes that 
+Wi-Fi has been enabled.
+
+--- Page 40 ---
+40
+Cirrus LT User Manual-1.2d-062515
+To disable wireless: 
+1.  Click the Network Submenu.
+2.  Select Wi-Fi.
+3.  Click the Enable Wi-Fi selection box. A gray “X” signiﬁes that Wi-Fi has 
+been disabled.
+Note: if both a wired and a wireless network are present, wired will take prior-
+ity based on its better performance over Wi-Fi.
+
+--- Page 41 ---
+41
+Cirrus LT User Manual-1.2d-062515
+Available Networks
+You can see all the available Wi-Fi networks with this option. You can click on 
+the WLAN you would like to connect to and then enter the password for the 
+WLAN. Remember to check the “Save Connection” check box if you would like 
+to save this information for future convenience.*  Available wireless networks 
+are sorted by signal strength. WLANs that have higher signal strength are at the 
+top of the list, while low signal strength WLANs can be found at the bottom of 
+the list.
+* You can disable this feature in the Administrator Menu.
+To see available networks:
+1.  Click the Network Submenu.
+2.  Select Wi-Fi.
+3.  Click Available Networks.
+
+--- Page 42 ---
+42
+Cirrus LT User Manual-1.2d-062515
+4.  Choose the network you wish to connect to.
+Note: Networks that do not broadcast their SSID will be placed at the bot-
+tom of the list and labeled as “Join Other Network.” You will then have to 
+provide the SSID, password, and security protocol.
+
+--- Page 43 ---
+43
+Cirrus LT User Manual-1.2d-062515
+5.  Choose the Network Type from the top drop down list. 
+When selecting a network from the available networks list, the OSM will 
+automatically detect the proper network type. You only need to select the 
+network type of hidden networks.
+Note: When making wireless connections the Cirrus LT only supports 
+WPA2 and higher levels of security. This system does not support WEP 
+for its many security ﬂaws.
+
+--- Page 44 ---
+44
+Cirrus LT User Manual-1.2d-062515
+6.  Type in your authentication credentials, and click Connect, as shown be-
+low.
+IMPORTANT: The maximum password length is 64 characters.
+IMPORTANT: you cannot use certain characters in the wireless net-
+work name (SSID) and you cannot use certain characters in your 
+password. See below for a list of supported and unusable characters:
+Supported SSID Characters: letters, numbers, space, symbols including: 
+~ ` ! @ $ % ^ * ( ) - _ = [ { ] } | ; : ’ , < . > / ?
+Symbols printed on the English keyboard that are not supported in SSID 
+are: 
+& # + \ “
+
+--- Page 45 ---
+45
+Cirrus LT User Manual-1.2d-062515
+Supported Password Characters: letters, numbers, space, symbols in-
+cluding: 
+` ~ ! @ # $ % ^ & * ( ) - _ = + [ { ] } | ; : ’ , < . > / ?
+Symbols printed on English keyboard that are not supported in pass-
+word are: 
+\ “
+Unicode and non-english letters haven’t been tested, and will probably 
+not be supported.
+Preferred Networks
+Your preferred wireless networks are shown in this list. You can remove or con-
+nect to one of these networks by clicking on the chosen network and then either 
+clicking Remove or Connect.
+To see your preferred networks:
+1.  Click the Network Submenu.
+2.  Select Wi-Fi.
+3.  Click Preferred Networks.
+
+--- Page 46 ---
+46
+Cirrus LT User Manual-1.2d-062515
+Note: If for some reason this section is always blank, you need to enable “Al-
+low Saving Wi-Fi Password” in the System Admin Section. This will add a new 
+check box when signing onto Wi-Fi networks labeled “Save”. By checking this 
+check box you will be adding this Wi-Fi network as a preferred network. If you 
+would also like to auto connect to that network, you must select the auto con-
+nect check box in the Wi-Fi Networking Menu.
+
+--- Page 47 ---
+47
+Cirrus LT User Manual-1.2d-062515
+Auto Connect
+To enable an automatic connection:
+1.  Click the Network Submenu.
+2.  Select Wi-Fi.
+3.  Click the box next to Auto Connection. A blue check mark indicates that 
+an automatic connection has been enabled.
+Enhanced Roaming
+To enable Enhanced Roaming: 
+1.  Click the Network Submenu.
+2.  Select Wi-Fi.
+3.  Click the Enable Enhanced Roaming selection box. A green check mark 
+signiﬁes that Wi-Fi has been enabled.
+To disable Enhanced Roaming: 
+1.  Click the Network Submenu.
+2.  Select Wi-Fi.
+3.  Click the Enable Enhanced Roaming selection box. A gray “X” signiﬁes 
+that Wi-Fi has been disabled.
+
+--- Page 48 ---
+48
+Cirrus LT User Manual-1.2d-062515
+SSL VPN
+To enable SSL VPN: 
+1.  Click the Network Submenu.
+2.  Select SSL VPN.
+3.  Click the Enable VPN selection box. A green check mark signiﬁes that 
+VPN has been enabled, as shown below.
+To disable SSL VPN: 
+1.  Click the Network Submenu.
+2.  Select SSL VPN.
+3.  Click the Enable VPN selection box. A gray “X” signiﬁes that VPN has 
+been disabled, as shown below.
+
+--- Page 49 ---
+49
+Cirrus LT User Manual-1.2d-062515
+Web Portal
+•  Some public Wi-Fi networks will require you to conﬁrm or authenticate to the 
+Wi-Fi network via a web page. If this is the case you need to enable the Web Portal 
+(also known as a Captive Portal) feature under the administrator settings in order 
+for another window to pop up for you to interact with that Wi-Fi networks web 
+interface. To connect to a Public Wi-Fi Open Network, you are often presented 
+with a web page to accept a usage agreement, like the example shown below. In 
+these cases, Cirrus LT supports most of these types of authentication web pages.
+Note: The Cirrus LT’s Network Settings are set to ‘Web Portal’ by default.
+
+--- Page 50 ---
+50
+Cirrus LT User Manual-1.2d-062515
+•  Just ensure you have connected to the open Wi-Fi network and then once you are 
+sure you have an IP Address, then click on Web Portal selection in the Network 
+Menu.
+•  If for some reason the network you are on does not have a web portal, Cirrus LT 
+will take you to a default web page on ncst.com to conﬁrm everything is working 
+properly and you should be able to do a remote session.
+Note: You may need to click REFRESH on the Web Portal to display the web 
+page.
+NCS strives to support as many dierent types of web portal pages, but unfortu-
+nately incompatibilities will arise. In these cases, please enter a support ticket 
+on NCS’s Support Page with the web page or location that you were not able to 
+connect to and we will investigate why Cirrus LT was unable to connect.
+
+--- Page 51 ---
+51
+Cirrus LT User Manual-1.2d-062515
+Display Settings 
+In the Display Settings Menu, you can select the display conﬁguration of the  
+notebook and adjust display brightness. You can even disable the native LCD.
+
+--- Page 52 ---
+52
+Cirrus LT User Manual-1.2d-062515
+Native Display Off
+This feature allows you to turn o the Native Display.
+To turn o the Native Display:
+1.  Click the Display Settings Submenu.
+2.  Click the box next to Native Display On. The Native Display will then 
+turn o.
+Note: You can also turn o the Native Display by pressing Fn-F4.
+To turn on the Native Display:
+1.  Cycle through the available display modes by pressing Fn-F5.
+
+--- Page 53 ---
+53
+Cirrus LT User Manual-1.2d-062515
+Brightness
+To increase or decrease screen brightness:
+1.  Click the Display Settings Submenu.
+2.  Toggle the Brightness slide left or right until you reach your desired 
+screen brightness. Moving the slide to the right will increase the bright-
+ness, and moving the slide to the left will decrease the brightness. OR 
+press Fn-F2 to decrease the screen brightness, or press Fn-F3 to increase 
+the screen brightness.
+Status Bar
+The status bar Submenu allows you to control the visibility and position of the 
+status bar.
+
+--- Page 54 ---
+54
+Cirrus LT User Manual-1.2d-062515
+To change the status bar visibility:
+1.  Click the Status Bar Submenu.
+2.  Under the Status Bar Visible section, choose On or O. 
+To change the status bar position:
+1.  Click the Status Bar Submenu.
+2.  Under the Status Bar Position section, choose Upper Left, Upper Center, 
+or Upper Right.
+
+--- Page 55 ---
+55
+Cirrus LT User Manual-1.2d-062515
+Display Options
+IMPORTANT – These settings are to enable the ports to support the following 
+display modes. Further conﬁguration is done with the Teradici ﬁrmware.
+The image above corresponds to the numbered conﬁgurations below.
+Here are the following display conﬁgurations you can select:
+1.  Use Native LCD Display Only
+2.  Clone Native LCD on Display 1 of Docking Station
+3.  Turn o Native LCD; Use Display 1 of Docking Station, and Display 2 of 
+the MiniDP port or Docking Station
+4.  Use Display 1 on Docking Station Only
+5.  Use LCD and Display2 of the MiniDP port or Docking Station
+Note: The OSM will only appear on the native display and displays connected 
+to DVI-1 on the Docking Station. It cannot be shown on a display attached to 
+the miniDP Port.
+
+--- Page 56 ---
+56
+Cirrus LT User Manual-1.2d-062515
+Option 1: Use Native LCD Display Only
+This is the default choice that the Cirrus LT is set to, in order to only use the 
+Cirrus LT’s notebook display.
+Option 2: Clone Native LCD on Display 1 of Docking Station
+1.  In order to Clone your display with a Docking Station you will need to 
+connect your laptop into the Docking Station and then connect an exter-
+nal display to PCoIP1/Local (DVI1) Port. You then select the following 
+option in the On Screen Menu, as shown below:
+2.  This cloning method will duplicate the same display resolution of the 
+Cirrus LT LCD and is locked to this resolution.
+
+--- Page 57 ---
+57
+Cirrus LT User Manual-1.2d-062515
+Option 3: Turn off Native LCD; Use Display 1 of Docking Station, and Display 2 
+of the MiniDP port or Docking Station
+This option allows you to close the notebook lid and use Display 2, or have one 
+display plugged into the Docking Station and a second miniDP Port for another 
+screen for an extended desktop.
+Option 4: Use Display 1 on Docking Station Only
+Choose this is option if you wish to use Display 1 on the Docking Station only.
+
+--- Page 58 ---
+58
+Cirrus LT User Manual-1.2d-062515
+Option 5: Use LCD and Display2 of the MiniDP port or Docking Station
+There are two options to choose from here, including: Cloning Displays Without 
+a Docking Station or How to Make miniDP the Primary Display.
+Cloning Displays Without a Docking Station
+1.  In order to clone two displays without the use of a Docking Station 
+you must ﬁrst attach a display to the miniDP port on the notebook. You 
+then select the following display mode in the On Screen Menu:
+
+--- Page 59 ---
+59
+Cirrus LT User Manual-1.2d-062515
+2.  Then on the Teradici Firmware Conﬁguration Options. Navigate to the 
+Display Tab and check the following boxes:
+•  Enable Attached Display Override
+•  Enable Display Cloning
+3.  Next, click apply and OK to close the Teradici Firmware Screen, as 
+shown below.
+
+--- Page 60 ---
+60
+Cirrus LT User Manual-1.2d-062515
+How to Make miniDP the Primary Display (Without Docking Station)
+1.  On the OSM Menu, navigate to the Display Settings and select the fol-
+lowing option, as shown below.
+2.  In the Teradici Firmware Options, under User Settings, navigate to the 
+Display Topology tab. Check the Primary Port #2.
+3.  Click ‘Apply’ and then ‘OK’ to close the Teradici Firmware, as shown 
+below.
+
+--- Page 61 ---
+61
+Cirrus LT User Manual-1.2d-062515
+Power Management
+The Power Management Section allows you to customize the Cirrus LT’s On Screen 
+Menu (OSM) Timeout, determine when Low Power Mode should be enabled, and 
+to choose when Sleep Mode should be enabled.
+
+--- Page 62 ---
+62
+Cirrus LT User Manual-1.2d-062515
+Changing the Duration of the On Screen Menu (OSM) Timeout
+There are two ways to set the OSM Timeout interval. The ﬁrst way can be set 
+within the OSM itself, under Power Management > Power Settings > OSM Time-
+out. The second way is via Teradici’s Firmware Menu.
+Note: You may change the duration of the timeout with either option. However, 
+please note that if the OSM ‘Menu Display Timeout’ Menu and the Teradici 
+‘OSM Screen Saver Timeout’ Menu are set to dierent intervals, the Cirrus LT 
+will automatically use the lowest selected interval.
+Option 1: Via the OSM Power Management > Power Settings > OSM Timeout
+To change the timeout duration via the On Screen Menu Timeout: 
+1.  Click the Power Management Submenu, then click the OSM Timeout bar, 
+as shown below.
+
+--- Page 63 ---
+63
+Cirrus LT User Manual-1.2d-062515
+2.  The Menu Display Time Out Section will appear, as shown below. You 
+may choose between Do Not Sleep, 1 Minute, 5 Minutes, 15 Minutes, 30 
+Minutes, or 60 Minutes (5 Minutes is the default setting).
+3.  Select the desired interval and click on ‘Settings’ to return to the Power 
+Savings Menu.
+
+--- Page 64 ---
+64
+Cirrus LT User Manual-1.2d-062515
+Option 2: Via Teradici’s Firmware Menu > Options > Power
+To change the timeout duration via the Teradici Power Menu: 
+1.  From the Teradici main window, select Options in the upper left hand 
+corner to open the Teradici Firmware Options menu.
+
+--- Page 65 ---
+65
+Cirrus LT User Manual-1.2d-062515
+2.  Click on the Power Tab.
+3.  Enter the new duration of the OSM Screen-Saver Timeout in seconds, not 
+minutes. For example, if you wanted to set the duration to 10 minutes, 
+you would enter 600 seconds (Teradici’s Firmware OSM Screen-Saver 
+Timeout default is set to 300 seconds, or 5 minutes). If you enter ‘0’ Sec-
+onds, the OSM Screen-Saver Timeout will be disabled.
+4.  Click the ‘Apply’ button when you are done.
+
+--- Page 66 ---
+66
+Cirrus LT User Manual-1.2d-062515
+Low Power Mode
+Enabling Low Power Mode
+Enabling this mode enables the sleep mode and auto power o. If this is disabled 
+these options disappear and the unit will not enter sleep mode
+To turn on Low Power Mode:
+1.  Click the Power Management Submenu.
+2.  Click the box next to Low Power Mode. When the green ‘check mark’ is 
+selected, Low Power Mode will then be enabled.
+To turn o Low Power Mode:
+1.  Click the Power Management Submenu.
+2.  Click the box next to Low Power Mode. When the gray ‘x’ is selected, Low 
+Power Mode will be disabled.
+
+--- Page 67 ---
+67
+Cirrus LT User Manual-1.2d-062515
+Enable in Session
+Enabling this mode will put the unit to sleep within the selected amount of time 
+of inactivity even if in a remote session.
+To Enable In Session Mode:
+1.  Click the Power Management Submenu.
+2.  Click the box next to Enable In Session. When the green ‘check mark’ is 
+selected, Enable In Session Mode will then be turned on.
+To Disable In Session Mode:
+1.  Click the Power Management Submenu.
+2.  Click the box next to Enable In Session. When the gray ‘x’ is selected, En-
+able In Session Mode will  be turned o.
+
+--- Page 68 ---
+68
+Cirrus LT User Manual-1.2d-062515
+Enabling Plugged In Mode
+With this mode enabled, the unit will go to sleep in the selected time of inactiv-
+ity even with the power cord plugged into an AC outlet.
+To Enable Plugged In Mode:
+1.  Click the Power Management Submenu.
+2.  Click the box next to Plugged In. When the green ‘check mark’ is selected, 
+Plugged In Mode will be enabled.
+To Disable Plugged In Mode:
+1.  Click the Power Management Submenu.
+2.  Click the box next to Plugged In Mode. When the gray ‘x’ is selected, 
+Plugged In Mode will be disabled.
+
+--- Page 69 ---
+69
+Cirrus LT User Manual-1.2d-062515
+Timing Preferences
+Sleep Mode Timeout
+To change duration of the Sleep Mode Timeout: 
+1.  Click the Power Management Submenu, then click the Sleep Mode Time-
+out Submenu, as shown below.
+2.  The Sleep Mode Timeout’ Section will appear, as shown below. You may 
+choose between Do Not Sleep, 1 Minute, 5 Minutes, 15 Minutes, 30 Min-
+utes, or 60 Minutes (15 Minutes is the default setting).
+3.  Select the desired interval and click on ‘Settings’ to return to the Power 
+Savings Menu.
+
+--- Page 70 ---
+70
+Cirrus LT User Manual-1.2d-062515
+Auto Power Off
+To change duration of the Auto Power O Mode: 
+1.  Click the Power Management Submenu, then click the Auto Power O 
+Submenu, as shown below.
+2.  The ‘Auto Power O’ Menu will appear, as shown below. You may choose 
+between Do Not Shutdown, 1 Minute, 5 Minutes, 15 Minutes, 30 Minutes, 
+or 60 Minutes (30 Minutes is the default setting).
+3.  Select the desired interval and click on ‘Settings’ to return to the Power 
+Savings Menu.
+
+--- Page 71 ---
+71
+Cirrus LT User Manual-1.2d-062515
+Device Manager
+The  Device Manager allows you to do a number of things, including muting or con-
+trolling the speaker volume, determine what the notebook does when you close the 
+lid, turning the touchpad on or o, and enabling or disabling the webcam.
+Speakers
+You can mute the speakers or adjust the speaker volume.
+
+--- Page 72 ---
+72
+Cirrus LT User Manual-1.2d-062515
+On Lid Close
+You can determine what the notebook does when you close the lid. You can ei-
+ther: turn o the screen only, enter sleep mode or power down.
+To conﬁgure the On Lid Close settings:
+1.  Click the Display Settings Submenu.
+2.  Select On Lid Closed Action.
+3.  Select one of the options below.
+
+--- Page 73 ---
+73
+Cirrus LT User Manual-1.2d-062515
+Touchpad/Keyboard Settings
+You can lock/unlock the touchpad, which can be useful if you want to use a 
+mouse (or any other pointer device) instead of the touchpad. Locking the touch-
+pad can also help prevent unwanted cursor movement (that may occur when 
+inadvertently touching the Touchpad) while they are typing. 
+Keyboard Settings lets you toggle the ability to tap the touchpad to simulate the 
+left button click and use other touchpad gestures to zoom in on the screen (aka 
+tap and gesture).
+Locking the Touchpad
+With this mode enabled, the unit’s touchpad will be disabled. 
+To Lock the Touchpad:
+1.  Click the Device Management Submenu > Touchpad/Keyboard Settings.
+2.  Click the box next to Lock Touchpad. When the green ‘check mark’ is se-
+lected, the Touchpad will be disabled.
+
+--- Page 74 ---
+74
+Cirrus LT User Manual-1.2d-062515
+To Unlock the Touchpad:
+1.  Click the Device Management Submenu > Touchpad/Keyboard Settings.
+2.  Click the box next to Lock Touchpad. When the gray ‘X’ is selected, the 
+Touchpad will be enabled.
+Tap and Gesture
+When this feature is enabled you will be able to tap the touchpad to simulate the 
+left button click and use other touchpad gestures to zoom in on the screen.
+To Enable Tap and Gesture:
+1.  Click the Device Management Submenu > Touchpad/Keyboard Settings.
+2.  Click the box next to Tap and Gesture. When the green ‘check mark’ is 
+selected, the Touchpad will be disabled.
+
+--- Page 75 ---
+75
+Cirrus LT User Manual-1.2d-062515
+To Disable Tap and Gesture:
+1.  Click the Device Management Submenu > Touchpad/Keyboard Settings.
+2.  Click the box next to Tap and Gesture. When the gray ‘X’ is selected, the 
+Touchpad will be disabled.
+Adjusting Touchpad Sensitivity/Mouse Cursor Speed Settings
+You can adjust the sensitivity of the Cirrus LT’s Touchpad (referred to here 
+as mouse speed cursor settings) for the OSM sessions via Teradici’s Options 
+Menu. You can access this page from the Options > User Settings > Mouse Menu.
+You can also conﬁgure the mouse cursor speed through the PCoIP host soft-
+ware. For more information, see the “PCoIP® Host Software for Windows User 
+Guide” (TER1008001).
+
+--- Page 76 ---
+76
+Cirrus LT User Manual-1.2d-062515
+To change the touchpad sensitivity (aka mouse cursor speed) via the Teradici 
+Power Menu:
+1.  From the Teradici Main Window, select Options in the upper left hand 
+corner to open the Teradici Firmware Options menu.
+
+--- Page 77 ---
+77
+Cirrus LT User Manual-1.2d-062515
+2.  Click on the Mouse Tab.
+3.  Use the slider to decrease or increase the Cirrus LT’s touchpad sensitiv-
+ity.
+4.  When you are done click the ‘Apply’ button, then ‘OK’ to exit back to the 
+Teradici Main Window.
+Webcam
+You can enable or disable the webcam by clicking the box next to Enable Web-
+cam or by pressing Fn-F12.
+
+--- Page 78 ---
+78
+Cirrus LT User Manual-1.2d-062515
+Administrator
+Once you have logged in, the Administrator Submenu lets you adjust the administra-
+tor settings and view the system information.
+ 
+Admin Login
+To login as an administrator:
+1.  Click the Administrator Submenu.
+2.  Click Admin Login.
+3.  Type in your user ID and password and click Login.
+Note: The default user ID is “admin,” and the default password is “password.”
+
+--- Page 79 ---
+79
+Cirrus LT User Manual-1.2d-062515
+Administrator Settings
+The administrator settings enable you to allow or disallow saving Wi-Fi pass-
+words and web portals, change the asset tag, change admin and user credentials, 
+and view system info.
+Allow Saving Wi-Fi Password
+To allow or disallow the saving of Wi-Fi passwords:
+1.  Click the Administrator Submenu.
+2.  Click the box next to Allow Saving Wi-Fi Passwords.
+WARNING: Allowing the saving of Wi-Fi passwords will make the system less 
+secure.
+
+--- Page 80 ---
+80
+Cirrus LT User Manual-1.2d-062515
+Allow Web Portal
+Since this system has no real browser, the web portal enables you to connect to 
+open or public Wi-Fi networks that require you to accept an agreement or enter 
+in additional information via a web portal, for example, a hotel may require a 
+room number before proceeding onto their Wi-Fi network.
+To allow or disallow the web portal:
+1.  Click the Administrator Submenu.
+2.  Click the box next to Allow Web Portal.
+WARNING: Allowing web portals will make the system less secure.
+Change Admin Credentials
+To change the admin’s name and password:
+1.  Click the Administrator Submenu.
+2.  Click Change Admin Credentials.
+3.  Type in the new login name, the new password, and lastly retype the new 
+password.
+4.  Click Accept.
+
+--- Page 81 ---
+81
+Cirrus LT User Manual-1.2d-062515
+Change User Credentials
+To change a user’s name and password:
+1.  Click the Administrator Submenu.
+2.  Click Change User Credentials.
+3.  Type in your new user login name, your new password, and, lastly, retype 
+the new password.
+4.  Click Accept.
+Note: You can only have one user and one admin account at the time of release 
+of this product.
+
+--- Page 82 ---
+82
+Cirrus LT User Manual-1.2d-062515
+System Info
+The system info shows you the system serial number, the asset tag, the Wi-Fi 
+MAC address, the Ethernet MAC address, the system IP address, the ﬁrmware 
+version, and the bios ﬁrmware version.
+Restore Factory Defaults
+To remove all saved Wi-Fi and user data on the device you can select the “Re-
+store Default Settings” and this will reset the device back to the way it was when 
+it was shipped from the factory and all previously saved data will be removed. 
+CAUTION, this will remove all previously saved preferred Wi-Fi networks and 
+user account passwords.
+Admin Log Off
+To log o:
+1.  Click the Administrator Submenu.
+2.  Click Admin Log O.
+
+--- Page 83 ---
+83
+Cirrus LT User Manual-1.2d-062515
+Chapter 5: Opening and Conﬁguring the 
+Teradici Firmware Menu
+Note: Teradici will continually revise their ﬁrmware. As a result, some screens are sub-
+ject to change.
+To conﬁgure the Teradici Firmware: 
+1.  From the Teradici main window, select Options in the upper left hand corner 
+to open the Teradici Firmware Options menu.
+2.  Select Conﬁguration, then Session to conﬁgure your method of Session Con-
+nection.
+
+--- Page 84 ---
+84
+Cirrus LT User Manual-1.2d-062515
+Note: For advanced Teradici ﬁrmware options, refer to the PCoIP Zero Client 
+and Host Administrator Guide, downloadable from teradici.com
+3.  Press OK when done with the conﬁguration.
+4.  Press the Connect button to establish your PCoIP session.
+Note: You can also Press the Power button to Connect and Disconnect from a 
+remote session. Pressing the button between 1ms to 1 second will disconnect. 
+Pressing and holding the Power button (for more than 1 second) will power 
+down the unit.
+Assigning a Static IP Address
+You can only assign a static IP address using the Teradici Firmware.
+To assign a static IP address for your notebook:
+1.  Select the Options menu in the upper left hand corner.
+2.  Click Conﬁguration then Network.
+3.  Uncheck the Enable DHCP box.
+4.  Type in the desired IP address.
+
+--- Page 85 ---
+85
+Cirrus LT User Manual-1.2d-062515
+Chapter 6:  Making Remote Connections
+You can connect to a remote machine using the Teradici ﬁrmware. Basic directions are 
+included below, but you can ﬁnd more detailed information in the Teradici PCoIP Zero 
+Client and Host Administrator Guide.*
+Connecting to Remote Machines with Teradici Host Cards
+To set up a remote connection between your notebook and a remote machine, you 
+need an enterprise-level NAT device in both the source and destination networks. 
+Otherwise, your remote host would need an internet routable IP address. 
+To connect to a remote machine:
+1.  Conﬁgure the enterprise NAT device to redirect TCP/UDP port 4172 to the 
+host card.
+2.  From the notebook’s Teradici menus, conﬁgure the Direct to Host session 
+connection type, and enter the IP address of the destination enterprise NAT 
+device.
+3.  From the host card’s AWI, conﬁgure the Direct from Client session connec-
+tion type.
+4.  On your ﬁrewall or router, allow both TCP and UDP trac on the ports you 
+have conﬁgured in your NAT devices.
+5.  Start a PCoIP session.
+Important Teradici Host Software Settings
+To ensure a proper connection between your notebook and the remote machine, 
+make sure the following settings are set:
+•  The Cirrus LT and remote machine have the same Teradici ﬁrmware version.
+•  The PCoIP software is installed on your remote host.
+•  The Host Driver Function is enabled on the host card.
+•  Your network resources meet bandwidth, QoS, latency, jitter, and packet loss re-
+quirements. 
+* NCS provides a copy of this manual on our website, www.ncst.com, but for the lat-
+est revision of this manual, you should always check www.teradici.com.
+
+--- Page 86 ---
+86
+Cirrus LT User Manual-1.2d-062515
+Chapter 7: Using the Cirrus LT Web Interface
+There are two purposes to using the Cirrus LT Web Interface. The ﬁrst is to recover the 
+Admin Password. The second is to update the Firmware.
+Downloading and Logging Onto the Cirrus LT Web Interface
+Downloading
+You can ﬁnd the downloads for the Cirrus LT by going to 
+•  http://www.ncst.com/content/downloads-0 
+And then selecting “Zero Client” as the type of download and then “Cirrus LT” for 
+Product. 
+Note: Remember where you save this ﬁle, you will need to know this ﬁle location 
+later if you intend to upgrade the Firmware.
+
+--- Page 87 ---
+87
+Cirrus LT User Manual-1.2d-062515
+Logging On
+1.  Open a browser on the PC and type the IP Address plus the port 8081 into 
+the address bar.  
+2.  In the example shown below, it is https://192.168.2.146:8081
+ 
+3.  You will be asked to type in the admin user name and password. By de-
+fault this is user name of “admin” and the password is “password”. Click 
+the Sign In button.
+
+--- Page 88 ---
+88
+Cirrus LT User Manual-1.2d-062515
+Admin Password Recovery
+1.  If you forget the Cirrus LT admin password, call the NCS Help Desk 
+1-888-RING-NCS (746-4627), and press Option #4. Make sure you have the 
+Serial Number of the unit in question.
+2.  The NCS Help Desk will send you a recovery ﬁle that you will use. Download 
+the ﬁle (be sure to note the location you downloaded, you will need it for later.
+3.  Determine the IP address of the Cirrus LT that needs the password recovered.
+4.  Open a browser on a PC on the same network as the Cirrus LT.
+5.  Type the IP address plus the port 8081 into the address bar like this, https://<IP 
+address>:8081
+6.  In the example shown below, it is https://192.168.2.126:8081
+7.  Click ‘Forgot Password?’
+
+--- Page 89 ---
+89
+Cirrus LT User Manual-1.2d-062515
+8.  Choose File to Locate the recovery ﬁle and select the ﬁle that the NCS Help 
+Desk sent you and you downloaded.
+9.  Upload ﬁle.
+10.  The Cirrus LT will restart automatically 
+11.  The password has been changed back to default “password”.
+
+--- Page 90 ---
+90
+Cirrus LT User Manual-1.2d-062515
+Updating the Firmware
+To update the ﬁrmware on your Cirrus LT ﬁrst you will need the following:
+•  The Cirrus LT
+•  Latest ﬁrmware ﬁle downloaded from NCS Website
+•  PC/notebook on same network as the Cirrus LT to be updated OR access to the 
+Cirrus LT Management Console.
+You will need to turn on the Cirrus LT and it must be connected to a network either 
+wireless or wired. 
+Note:  It is also recommended that you keep the unit plugged in with the AC 
+Adapter. Failure to do so while updating the ﬁrmware could result in lost power 
+due to a low battery; this could render the Cirrus LT unusable. The ﬁrmware will 
+not upgrade if the unit is not plugged in and the battery does not have at a least 
+30% charge.
+In order to upgrade the Firmware:
+1.  First you will need to determine the IP Address of the Cirrus LT to be up-
+graded. This can be found in two places, either:
+a.  Via the Teradici Options Firmware Menu, where you can access this page 
+from the Options > Conﬁguration > Network. Select Options in the upper 
+left hand corner to open the Teradici Firmware Options menu.
+b.  Or via the Cirrus LT OSM, where you can access this page from the Ad-
+ministrator > System Info > System IP Address.
+
+--- Page 91 ---
+91
+Cirrus LT User Manual-1.2d-062515
+2.  Once you know the IP Address of the Cirrus LT unit to upgrade, you need to 
+then go to the PC that you will be upgrading from. Refer to the previous sec-
+tions ‘Downloading’ and ‘Logging On’ of this chapter, ‘Chapter 7: Using the 
+Cirrus LT Web Interface’. This will bring up another page where you are able 
+to see the current ﬁrmware version on the Cirrus LT. 
+3.  You can then select the ﬁrmware ﬁle to upload by clicking the “Browse” but-
+ton. When you download the ﬁrmware ﬁle from the NCS downloads page it 
+will tell you the ﬁrmware version. Compare it to the version already on the 
+Cirrus LT. The new ﬁrmware should be newer than the ﬁrmware already on 
+the unit. You should never ﬂash an older ﬁrmware unless directed to by NCS.
+4.  Click “Submit” to start the ﬁrmware upload process. This can take up to 5 
+minutes.
+
+--- Page 92 ---
+92
+Cirrus LT User Manual-1.2d-062515
+5.  Note:  if you are updating a unit that is connected via wireless, you won’t get as 
+much information back from the unit as you will if it is wired.
+ 
+NOTE:  This progress bar will only be displayed on the LCD of the note-
+book. If you have the lid closed and external monitors connected to the unit 
+you will not be able to see the ﬁrmware progress bar.
+On the Cirrus LT you will see this message on the screen during the ﬁrm-
+ware upgrade “UPGRADING FIRMWARE DO NOT TURN OFF”.
+ 
+The unit will automatically reboot and then be ready for use again.
+
+--- Page 93 ---
+93
+Cirrus LT User Manual-1.2d-062515
+6.  If you would like to conﬁrm that the ﬁrmware has been upgraded successfully, 
+you can check the ﬁrmware version in the NCS OSM under Administrator > 
+System Information > Firmware Version.
+You will be asked to type in the admin user name and password. By default 
+this is user name of “admin” and the password is “password”. Then click the 
+“Sign In” button.
+
+--- Page 94 ---
+94
+Cirrus LT User Manual-1.2d-062515
+Chapter 8: Accessing the Cirrus LT 
+Management Console
+The management console allows you to manage all the Cirrus LT units on your network 
+and do various tasks like uploading ﬁrmware to multiple units, send groups of units cer-
+tain Wi-Fi settings, etc. There is a separate user manual for this Management Console to 
+describe all the various features it has. It is also available for download on our NCS down-
+loads page.
+Installation and Logging In
+If you haven’t already downloaded the Management Console, you may do so from:
+ 
+•  http://www.ncst.com/content/downloads-0
+Once the ﬁle has downloaded, unzip the folder and follow this procedure to log on.
+1.  Open the Management Console Application.
+
+--- Page 95 ---
+95
+Cirrus LT User Manual-1.2d-062515
+2.  The following window will open up. You may ﬁnd it convenient to keep it 
+minimized.
+3.  Open the Google Chrome browser.
+4.  Type “https://localhost:444” into the browser’s address ﬁeld, as shown below.
+5.  Click on Advanced, as shown below.
+
+--- Page 96 ---
+96
+Cirrus LT User Manual-1.2d-062515
+6.  Click on Proceed to localhost (unsafe), as shown below.
+ 
+7.  You will be asked to type in the admin user name and password. By default the 
+user name is “admin” and the password is “password”. Then click the “Log 
+In” button, as shown below.
+
+--- Page 97 ---
+97
+Cirrus LT User Manual-1.2d-062515
+8.  The Management Console Screen will then appear, as shown below. You are 
+now ready to manage your Company’s Cirrus LT devices.
+
+--- Page 98 ---
+98
+Cirrus LT User Manual-1.2d-062515
+Chapter 9: How to Load and Unload Certiﬁ-
+cates on the Cirrus LT
+In order to load a certiﬁcate onto the Cirrus LT, you will need the following:
+•  Cirrus LT Firmware 1.1.0 or newer
+•  Mobile Zero Client Management Console 0.26C or newer
+•  Google Chrome Browser – other browsers are supported – results may vary.
+The Cirrus LT supports PEM and PK12 ﬁle formats of the user certiﬁcation ﬁles.  
+CA certiﬁcate ﬁles can also be uploaded to the Cirrus LT.
+ 
+It is assumed you already have some basic knowledge of the MC. If you haven’t al-
+ready installed the and logged in to the Management Console, do so now. Refer to 
+“Chapter 8: Accessing the Cirrus LT Management Console” for more information.
+Loading a Certiﬁcate
+In order to load certiﬁcates:
+1.  Navigate to the Control Tab, then locate the Device Discovery Bar.
+
+--- Page 99 ---
+99
+Cirrus LT User Manual-1.2d-062515
+2.  Click on Discover under the Control Tab.
+Note: You will need to enter the IP address range to detect the devices you 
+want to add the software certiﬁcates to.
+3.  Click the Apply Found Devices to the Device List button as shown below.
+
+--- Page 100 ---
+100
+Cirrus LT User Manual-1.2d-062515
+4.  Navigate to the Devices Tab and use the check box to select the unit you want 
+to update, as shown below.
+Note: You can select multiple units to update simultaneously by selecting 
+the relevant check boxes as needed.
+5.  Navigate to the Control Tab, then locate the Security Certiﬁcates Bar, as 
+shown below.
+
+--- Page 101 ---
+101
+Cirrus LT User Manual-1.2d-062515
+6.  Browse to the location of the certiﬁcates and select the certiﬁcate. Select the 
+Certiﬁcate Type. 
+7.  You may also name the certiﬁcate (anything you wish, or in accordance with 
+your Company’s naming conventions) so it will be uniquely identiﬁable, but 
+this is optional. The sample certiﬁcate name shown below is “Sample_Certiﬁ-
+cate_Name1234”.
+
+--- Page 102 ---
+102
+Cirrus LT User Manual-1.2d-062515
+8.  Click the Upload Certiﬁcate To Selected Devices button, as shown below.
+9.  A pop-up window will then appear, as shown below. Click “OK” to conﬁrm 
+the operation.
+ 
+10.  If the certiﬁcate uploads successfully, you will see the following pop-up win-
+dow. Click “OK”.
+
+--- Page 103 ---
+103
+Cirrus LT User Manual-1.2d-062515
+11.  Go back to the Devices Tab. Under the Last Operation Column, conﬁrm the 
+selected device’s status displays the “apply_certiﬁcate successful” message, 
+as shown below. 
+ 
+Note: If you are unsuccessful, go back to Step #6 and try again.
+12.  You may also want to verify that the certiﬁcate was successfully applied to the 
+selected devices on the Cirrus LT Console. In order to do this, Press <FN+F10> 
+to bring up the Onscreen Menu (OSM) and go to Administrator, and click on 
+Certiﬁcates Info, as shown below.
+ 
+a.
+
+--- Page 104 ---
+104
+Cirrus LT User Manual-1.2d-062515
+13.  Conﬁrm the certiﬁcate is there, as shown below.
+
+--- Page 105 ---
+105
+Cirrus LT User Manual-1.2d-062515
+Unloading a Certiﬁcate
+In order to unload certiﬁcates:
+1.  Follow steps #1-6 in the previous section of this chapter, ‘Loading a Certiﬁ-
+cate’, to access this screen under the Security Certiﬁcates bar. Make sure the 
+devices you want to remove the certiﬁcates from have been selected in the 
+Devices tab.
+2.  You can remove certiﬁcates by ﬁle name, ﬁle type, or typing “*” into the high-
+lighted ﬁeld. 
+3.  Click the Remove the certiﬁcate type from selected devices button.
+4.  A pop-up window will then appear, as shown below. Click “OK” to conﬁrm 
+the operation.
+
+--- Page 106 ---
+106
+Cirrus LT User Manual-1.2d-062515
+5.  If the certiﬁcate uploads successfully, you will see the following pop-up win-
+dow. Click “OK”.
+ 
+6.  Go back to the Devices Tab. Under the Last Operation Column, conﬁrm the 
+selected device’s status displays the “remove_certiﬁcate successful” message, 
+as shown below. 
+ 
+Note: If you are unsuccessful, go back to Step #3 and try again.
+
+--- Page 107 ---
+107
+Cirrus LT User Manual-1.2d-062515
+Chapter 10: Conﬁguring Advanced Wi-Fi 
+Roaming
+If you are using Cirrus LT in an environment that has one large Wi-Fi network with 
+many Access Points (APs) and you expect the Cirrus LT to quickly roam from one 
+AP to the next within the same Wi-Fi network (with same SSID) and it isn’t; then 
+you will need to conﬁgure Enhanced Roaming on the Cirrus LT. To clarify, this is 
+not meant to enhance roaming from one Wi-Fi network to another with dierent 
+SSIDs. 
+The minimum requirements to use Enhanced Roaming include:
+•  Cirrus LT 1.1.0 Firmware
+•  0.29 Mobile Zero Client Management Console
+•  The latest Teradici Firmware, as of this document it is 4.8.0 (recommended).
+Conﬁguring Enhanced Roaming via the OSM Main Menu
+To enable Enhanced Roaming from the OSM Main Menu: 
+1.  Click on Network > Wi-Fi.
+
+--- Page 108 ---
+108
+Cirrus LT User Manual-1.2d-062515
+2.  Click the box next to Enhanced Roaming. When the green ‘check mark’ is 
+selected, Enhanced Roaming will be enabled.
+To disable Enhanced Roaming from the OSM Main Menu: 
+1.  Click on Network > Wi-Fi.
+2.  Click the box next to Enhanced Roaming. When the gray ‘X’ is selected, 
+Enhanced Roaming will be disabled.
+Note: This is all you can change on the Cirrus LT client side (OSM Menu). To 
+further conﬁgure the enhanced roaming settings you will have to use the Mo-
+bile Zero Client Management Console v0.26 or greater.
+
+--- Page 109 ---
+109
+Cirrus LT User Manual-1.2d-062515
+Conﬁguring Enhanced Roaming via the Management Console (MC)
+To change the roaming aggressiveness setting you will need to ﬁrst Open the 
+Management Console – It is assumed you already have some basic knowledge of 
+the MC. 
+It is assumed you already have some basic knowledge of the MC. If you haven’t 
+already installed the and logged in to the Management Console, do so now. 
+Refer to “Chapter 8: Accessing the Cirrus LT Management Console” for more 
+information.
+ 
+Conﬁguring the Roaming Aggressiveness Setting
+1.  Once you have logged onto the MC, navigate to the Control Tab, then lo-
+cate the Device Discovery Bar.
+
+--- Page 110 ---
+110
+Cirrus LT User Manual-1.2d-062515
+2.  Click on Discover under the Control Tab.
+Note: You will need to enter the IP address range to detect the devices on which 
+you want to change enhanced roaming aggressiveness on.
+3.  Click the Apply Found Devices to the Device List button.
+
+--- Page 111 ---
+111
+Cirrus LT User Manual-1.2d-062515
+4.  Navigate to the Devices Tab and select the unit (by ticking the checkbox) 
+you wish to conﬁgure, as shown below.
+Note: You can select multiple units to update simultaneously by selecting the 
+relevant check boxes as needed.
+5.  Once you add the detected devices to the Devices tab, click on the Serial 
+Number to drill down into the device details.
+
+--- Page 112 ---
+112
+Cirrus LT User Manual-1.2d-062515
+6.  The Device Details of the selected device will then appear (please note 
+that the Device Details table has been repositioned for the screenshot. 
+The actual placement of the Device Details table in the Management Con-
+sole may vary), as shown below.
+
+--- Page 113 ---
+113
+Cirrus LT User Manual-1.2d-062515
+7.  Scroll to the bottom of the Device Details table and you will see a slider 
+labeled Wi-Fi Aggressiveness. 
+8.  Click the small check mark next to the slider then you can adjust this set-
+ting to any –RSSI value from -50 to -90 RSSI. This is the value at which 
+the Cirrus LT will scan the network for any other APs out there with a 
+better/higher signal strength. Please know your Wi-Fi network and set 
+this value correctly!  Setting this value incorrectly can cause your system 
+to perform very poorly. 
+9.  Sliding this value to the right will make the Wi-Fi roam more aggres-
+sively; sliding to the left is less aggressive. NCS recommends you set this 
+value between -65 and -80 depending on your Wi-Fi network. Large hos-
+pitals with hundreds of APs will tend to have better Wi-Fi networks and 
+a setting of -65 may be perfect for them, but a small business with only 
+two APs would be better o possibly with -75. Once you have chosen the 
+value, click Apply Modiﬁed Data. This value may need to be adjusted after 
+you have set it if you are not seeing good results.
+
+--- Page 114 ---
+114
+Cirrus LT User Manual-1.2d-062515
+10.  Another parameter when roaming is the number of Wi-Fi channels being 
+used in the Wi-Fi environment. In a typical 2.4 GHz Wi-Fi environment 
+administrators will use channels 1, 6, and 11 since these do not overlap. If 
+you specify the channels to scan and limit the number of channels used in 
+a Wi-Fi environment you will see faster roaming from one AP to another. 
+Cirrus LT will take less time to scan for other APs if it knows which chan-
+nels to scan. By default when you enable enhanced roaming 1, 6 and 11 are 
+the only channels that are scanned.
+11.  Scroll to the bottom of the Device Details table and you will see a list la-
+beled Wi-Fi Roaming Channels. Here you can select the channels to scan 
+for the 2.4 and 5 GHz frequency ranges. To select multiple frequencies 
+hold down the <Control> Key.
+
+--- Page 115 ---
+115
+Cirrus LT User Manual-1.2d-062515
+Chapter 11: Troubleshooting
+In the event of a failure, please call NCS Help Desk. The ﬁrst thing to try to remedy any 
+issue is to restart the machine by pressing and holding the power button for 5 seconds to 
+force a hard power cycle.
+The quality of end user experience with this product is highly dependent on network 
+bandwidth, latency and jitter. The better the network infrastructure is setup for the PCoIP 
+protocol the better the end user experience will be to users of the Cirrus LT. For guidance 
+on improving the network for the PCoIP protocol please reference the PCoIP Protocol 
+Network Design Checklist – TER1105004. This document can be found at the Teradici 
+website (teradici.com) or the NCS website (ncst.com).
+General Troubleshooting Tips
+•  My keyboard and/or mouse will not work, what can I do?
+For external USB keyboards and mice make sure you are plugging them into the 
+correct ports. There are dedicated USB keyboard and mice ports on the right side of 
+the unit. Please ensure you are using the correct ports – these are not interchange-
+able. The external USB mouse must be plugged into the USB mouse port to work 
+in all conﬁguration menus and with the remote host. The same goes for the USB 
+keyboard. 
+If for some reason the internal keyboard and/or mouse will not work try opening 
+and closing the OSM by pressing Fn-F10. A lot of times this will reset these devices 
+and will correct the issue.
+When switching from OSM to a remote host it is normal for the touchpad and key-
+board to take a few seconds to reconnect. The remote OS has to re-detect and setup 
+the USB devices. These devices are temporarily disconnected from the remote host 
+when you open the OSM.
+
+--- Page 116 ---
+116
+Cirrus LT User Manual-1.2d-062515
+•  I am unable to use the Smart Card Reader in my VMware Virtual Machine. What 
+should I do?
+During the VMWare View Agent installation, you must enable the support for 
+PCoIP Smart card. It is disabled by default – see below screenshot.
+•  My IP Address does not show up under the OSM/Admin/System Info page.
+This happens when there are recent changes to your IP Address. The OSM just 
+reads what the Teradici ﬁrmware is reporting and sometimes this communication 
+isn’t instantaneous. Try closing then reopening the OSM.
+•  When I use an external USB keyboard, I cannot bring up the OnScreen Menu.
+Ensure that the external keyboard is plugged into the dedicated USB Keyboard Port 
+and are pressing SHIFT-F10.
+•  I am not able to update my Firmware.
+Ensure you are plugged into AC Power or have at least a 30% battery charge.
+
+--- Page 117 ---
+117
+Cirrus LT User Manual-1.2d-062515
+•  When using the webcam, I get poor video performance. Can I improve this some-
+how?
+Unfortunately, when using the webcam, performance can be limited by the Teradici 
+processor with slower USB connection speeds back to the remote host. USB 1.1 con-
+nection speeds are used, and therefore this webcam is highly susceptible to network 
+bandwidth. For best results, ensure you are using the latest Teradici Firmware and 
+the Teradici Virtual Audio Driver (available on the NCS or Teradici support web 
+sites). NCS is hopeful that in future releases of Teradici ﬁrmware or with new en-
+hancements to future Teradici processors, this feature will be improved.
+•  What ports do I need to open in my ﬁrewall to ensure that my Cirrus LT will be 
+able to transmit and receive data via the PCoIP protocol?
+PCoIP Port: 50002 (TCP/UDP)
+•  Used for PCoIP in a VMware View 4.0.x and later environment. This port is re-
+quired for the PCoIP display protocol on the software client and must be open in 
+both inbound and outbound directions.
+PCoIP Port: 4172 (TCP/UDP)
+•  Used for PCoIP in a VMware View 4.5 and later environment. This port is re-
+quired for the PCoIP display protocol. 
+•  The port 4172 UDP must be open in both inbound and outbound directions. 
+•  The port 4172 TCP must be open in only the inbound direction.
+Conﬂicts Between Teradici and NCS Firmware
+Teradici’s ﬁrmware has audio, display and other various hardware settings. NCS’s 
+ﬁrmware also has some of these same settings. The communication between the 
+two ﬁrmware is limited. NCS ﬁrmware will not know if you change the display 
+topology in Teradici ﬁrmware and then change to a conﬂicting display conﬁguration 
+in the NCS ﬁrmware. Please be careful when making changes in the ﬁrmware, and if 
+you run into issues you can always reset the Teradici and/or NCS ﬁrmware back to 
+factory defaults to recover from any conﬂicts that may arise.
+
+--- Page 118 ---
+118
+Cirrus LT User Manual-1.2d-062515
+Chapter 12: Wake-on-LAN (WOL)
+The Wake-on-LAN feature allows you to wake your notebook from a low power state by 
+sending a wake-up network packet to the network from either a third party software or the 
+NCS Cirrus LT management console. 
+To conﬁgure the Wake-on-LAN (WOL) feature:
+•  From another computer, using a browser, enter the IP address of the Cirrus LT in 
+the address to view the web GUI (AWI).
+•  Click Conﬁguration then Power.
+•  Click the Enable Wake-on-LAN check box, as shown below.
+
+--- Page 119 ---
+119
+Cirrus LT User Manual-1.2d-062515
+NCS Help
+To access information about your system from the NCS website go to: http://www.ncst.
+com. 
+If you have any speciﬁc questions about your system, contact NCS Customer Service at 1 
+(888) RING NCS (746-4627). NCS Customer Service is available Monday through Friday, 
+8 a.m. to 6 p.m. eastern time. If you call after 6 p.m. or before 8 a.m., your call will be redi-
+rected to a 24 hour support line that will process your request. A customer service repre-
+sentative will then call you back as soon as possible during business hours.
+You can also ﬁll out a service request form at http://www.ncst.com/RequestSupport.aspx.
+
+--- Page 120 ---
+120
+Cirrus LT User Manual-1.2d-062515
+Appendix: Speciﬁcations
+Processor
+Teradici PCoIP Processor Tera2321
+Storage
+N/A - No local storage
+Memory
+512MB DDR3
+Display
+14” HD 16:9 LCD, 1366x768 with Anti-Glare, LED-Backlight
+Imaging Performance
+50Mpps (VDI) 
+130Mpps (Workstation)*
+Audio
+Integrated Realtek High Definition Audio Subsys-
+tem with Two 1.5W Built-in Speakers
+Networking
+Integrated Realtek 10/11/1000Mb Base-TX Ethernet LAN 
+Optional Ralink 802.11 a/b/g/n 3T3R 450mbps Wireless LAN 
+Wake on LAN Support
+Integrated Webcam
+2.0 Megapixel Webcam with Integrated Mic (Optional)
+I/O Ports
+1x USB Mouse Port, 1x USB Keyboard Port, 2x USB Tera2 Ports, Op-
+tional 2x Smart card Reader, 1x Mini Displayport, 1x Mic-In, 1x Head-
+set Jack, 1x RJ-45 Port, 1x DC-in, 1x USB Charging Port**
+Internal Expansion Slots
+1x Mini Card Slot for WLAN options (supports half and full size cards) 
+1x Mini Card Slot for future 4G Cellular (supports half and full size cards)
+Battery
+Primary 6-Cell Li-ion Smart Battery (5,200 mAh)
+Keyboard & Pointing Device
+86-Key Chiclet Style Keyboard 
+Touchpad Pointing Device 
+Support for external USB keyboards with multi-functions (driver loaded on host)
+AC Adapter
+Output: 19V DC, Input: 100~240V AC, 50/60Hz Universal, 3.42A, Auto-Sensing
+Security
+Kensington Lock 
+Optional Fingerprint Reader: either Swipe or FIPS 201 Touch 
+TPM 1.2 
+Secure Boot 
+2x Smart card readers
+Dimensions 
+(L x W x H) & Weight
+13.375” x 9.25” x 1.125”-2.25” / 340mm x 235mm x 28.6~31.8mm; 
+3.45lbs / 1.56kg (without battery)
+4.16lbs / 1.89kg (with battery) 
+Environmental
+Operating Temp: 0° to 35° C  (32° to 95° F) @ 5-95% Relative Humidity
+Storage Temp
+-20° to 60° C (-4° to 140° F) @ 5-95% Relative Humidity
+Docking Station
+Lockable with a Key 
+1x DC-in 
+1x Line Out Jack 
+1x Microphone Jack 
+1x USB Mouse Port
+1x USB Keyboard Port 
+2x PCoIP USB Ports 
+1x Fiber SFP Port 
+1x RJ-45 Port 
+1x Charging USB Port**
+Regulatory & 
+Product Certifications
+EMI/RFI: FCC ClassB 
+Safety: UL 60950, UL 2054, UN 38.3 
+Other: TAA
+*Workstation: when used in conjunction with PCoIP hardware host solution
+**Charging port is NOT a high current port. 
+Note: Specifications are subject to change without notice.
+
+--- Page 121 ---
+121
+Cirrus LT User Manual-1.2d-062515
+Appendix: Regulatory and Legal Information
+FCC Compliance Information
+This device complies with part 15 of the FCC Rules. Operation is subject to the fol-
+lowing two conditions: (1) This device may not cause harmful interference, and (2) 
+this device must accept any interference received, including interference that may 
+cause undesired operation.
+This equipment has been tested and found to comply with the limits of a Class B 
+digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to 
+provide reasonable protection against harmful interference in a residential instal-
+lation. This equipment generates uses and can radiate radio frequency energy and, 
+if not installed and used in accordance with the instructions, may cause harmful 
+interference to radio communications. However, there is no guarantee that interfer-
+ence will not occur in a particular installation. If this equipment does cause harmful 
+interference to radio or television reception, which can be determined by turning 
+the equipment o and on, the user is encouraged to try to correct the interference 
+by one or more of the following measures:
+•  Reorient/relocated the receiving antenna.
+•  Increase the separation between the equipment and receiver.
+•  Connect the equipment into an outlet on a circuit dierent from that to which the re-
+ceiver is connected.
+•  Consult the dealer or an experienced radio/TV technician for help.
+CAUTION: Changes or modiﬁcations not expressly approved by the manufacturer 
+responsible for compliance could void the user’s authority to operate the equip-
+ment.
+
+--- Page 122 ---
+122
+Cirrus LT User Manual-1.2d-062515
+Notice
+NCS may make changes to speciﬁcations and product descriptions at any time and 
+without notice. The information in this manual is furnished for informational use 
+only and is subject to change without notice. NCS assumes no responsibility or 
+liability for any errors or inaccuracies that may appear in this document or any soft-
+ware that may be provided in association with this document. Contact NCS Tech-
+nologies for any questions regarding this manual. 
+Warranty Provisions
+Warranties for the Cirrus LT may vary. Refer to your shipping list for particular 
+warranty details; or please call the NCS toll-free telephone number, 1 (888) RING 
+NCS (746-4627), with the serial number of your unit, and customer service will be 
+able to provide additional warranty information. 
+NCS is not liable to any purchaser for damage, lost revenue, lost wages, lost savings, 
+or any other incidental or consequential damages arising from the purchase or use 
+of the product or inability to use the product.
+Warning Statement
+This equipment has been tested and found to comply with the limits for a Class B 
+digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to 
+provide reasonable protection against harmful interference when the equipment is 
+operated in a residential installation. This equipment generates, uses, and can radi-
+ate radio frequency energy and if not installed and used in accordance with the in-
+struction manual may cause harmful interference to radio communications. Howev-
+er, there is no guarantee that interference will not occur in a particular installation. 
+If this equipment does cause harmful interference to radio or television reception, 
+which can be determined by turning the equipment o and on, the user is encour-
+aged to try to correct the interference by one or more of the following measures:
+
+--- Page 123 ---
+123
+Cirrus LT User Manual-1.2d-062515
+•  Reorient or relocate the receiving antenna.
+•  Increase the separation between the equipment and receiver.
+•  Connect the equipment into an outlet on a circuit dierent from that to which 
+the receiver is connected.
+•  Consult the dealer or an experienced radio TV technician for help.
+Notice: The changes or modiﬁcations not expressly approved by the party respon-
+sible for compliance could void the user’s authority to operate the equivalent.
+
+--- Page 124 ---
+124
+Cirrus LT User Manual-1.2d-062515
+FCC Test Report
+

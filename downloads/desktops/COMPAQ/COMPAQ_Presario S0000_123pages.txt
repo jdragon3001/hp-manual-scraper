@@ -1,0 +1,4859 @@
+Brand: COMPAQ
+Model: Presario S0000
+URL: https://www.manua.ls/compaq/presario-s0000/manual
+Total Pages: 123
+============================================================
+
+--- Page 1 ---
+spine
+spine
+Compaq Presario
+S0000 / 8000 Series Computers
+User’s Guide
+System Recovery 
+If you need to restore the original software on your PC, Compaq has 
+provided a convenient solution right on your hard drive. 
+We call this part of your hard drive the “recovery partition.” The recovery 
+partition takes up some space on your hard drive.
+•   No more hunting for lost CDs
+•   Easy to use — simple one-button launch — no need to wait by the PC  
+ loading CDs
+•   Get up and running faster — your PC can recover the information    
+  directly from the hard drive more quickly
+  
+If you want a set of recovery CDs, you can create them from this recovery 
+partition using the Recovery CD/DVD Creator application (select models 
+only).
+ 
+See the chapter “Using Application Recovery and System Recovery” for 
+complete instructions.
+
+--- Page 3 ---
+The information in this document is subject to change without notice. 
+Hewlett-Packard
+®
+ Company makes no warranty of any kind with regard to this material, including, 
+but not limited to, the implied warranties of merchantability and fitness for a particular purpose. 
+HP shall not be liable for errors contained herein or for incidental or consequential damages in 
+connection with the furnishing, performance, or use of this material. 
+THE WARRANTY TERMS CONTAINED IN THIS STATEMENT, EXCEPT TO THE EXTENT 
+LAWFULLY PERMITTED, DO NOT EXCLUDE, RESTRICT OR MODIFY AND ARE IN ADDITION 
+TO ANY MANDATORY STATUATORY RIGHTS APPLICABLE TO THE SALE OF THIS PRODUCT 
+OR SERVICE TO YOU. 
+HP assumes no responsibility for the use or reliability of its software on equipment that is not 
+furnished by HP. 
+This document contains proprietary information that is protected by copyright. All rights are 
+reserved. No part of this document may be photocopied, reproduced, or translated to another 
+language without the prior written consent of HP. 
+Hewlett-Packard Company 
+P.O. Box 4010 
+Cupertino, CA 95015-4010 
+USA 
+© 2000, 2003 Hewlett-Packard Development Company, L.P. All rights reserved. 
+Hewlett-Packard is a registered trademark of Hewlett-Packard Company in the United States of 
+America and other countries/regions. 
+This product incorporates copyright protection technology that is protected by method claims of 
+certain U.S. patents and other intellectual property rights owned by Macrovision Corporation 
+and other rights owners. Use of this copyright protection technology must be authorized by 
+Macrovision Corporation, and is intended for home and other limited viewing uses only unless 
+otherwise authorized by Macrovision Corporation. Reverse engineering or disassembly is prohibited. 
+Apparatus Claims of U.S. Patent Nos. 4,631,603, 4,577,216, 4,819,098, and 4,907,093 licensed for 
+limited viewing uses only. 
+Other brand or product names are trademarks of their respective holders. 
+HP supports lawful use of technology and does not endorse or encourage the use of our products for 
+purposes other than those permitted by national copyright law.
+
+--- Page 4 ---
+table of contents    
+iii 
+finding answers to commonly asked questions .............................. 1
+safety information .........................................................................................2
+setting up your pc .......................................................................... 3
+putting your pc together ................................................................................3
+safety and comfort ....................................................................................4
+pc back ...................................................................................................5
+pc front....................................................................................................7
+connecting the modem ..................................................................................7
+upgrading your 56k modem ......................................................................9
+setting up the ethernet connection ...................................................................9
+turning on your pc for the first time ...............................................................10
+registering your pc......................................................................................11
+turning off the pc ........................................................................................11
+standby mode ........................................................................................12
+hibernation mode ...................................................................................13
+automatic standby or hibernation .............................................................13
+making recovery cds/dvds ..........................................................................14
+installing software and hardware devices ......................................................14
+transferring your old pc information and files to your new pc.......................14
+learning the basics ....................................................................... 15
+beginning to use your software ....................................................................15
+using the desktop........................................................................................16
+using the start menu ................................................................................16
+using compaq organize software..............................................................17
+learning to use your pc............................................................................17
+using the all programs menu ....................................................................18
+organizing your all programs list ..............................................................18
+using pc help & tools...............................................................................19
+table of contents
+
+--- Page 5 ---
+iv    user’s guide 
+using the mouse .........................................................................................19
+scrolling ................................................................................................20
+autoscrolling ..........................................................................................20
+panning ................................................................................................20
+switching mouse button functions..............................................................21
+changing mouse pointer speed.................................................................21
+using the keyboard ..................................................................................... 21
+about your keyboard ..............................................................................21
+wireless keyboard set..............................................................................23
+standard keyboard features .....................................................................24
+customizing the buttons ...........................................................................30
+adjusting the monitor ..................................................................................30
+using a printer............................................................................................31
+using the internet ......................................................................... 33
+about the internet .......................................................................................33
+setting up your internet account....................................................................35
+signing up for a new or an existing isp account using  
+easy internet sign-up ...............................................................................36
+using a browser .........................................................................................37
+searching the internet..................................................................................37
+restricting internet content ............................................................................38
+sending and receiving e-mail .......................................................................39
+if using outlook express ...........................................................................39
+if your isp provides the e-mail program .....................................................40
+getting help.................................................................................. 41
+help and support center ..............................................................................41
+instant support ...........................................................................................41
+using compaq connections ..........................................................................42
+getting messages .................................................................................... 42
+turning off messages ...............................................................................42
+re-enabling messages..............................................................................43
+resolving problems .....................................................................................43
+upgrading and servicing the pc................................................................43
+warranty & support guide........................................................................ 43
+online guides .........................................................................................44
+web sites about your pc ..........................................................................44
+microsoft windows xp operating system ....................................................44
+working with sound, pictures, and video ..................................... 45
+using speakers ...........................................................................................45
+adjusting speaker volume ........................................................................46
+connecting a multi-channel speaker system to your pc .................................46
+
+--- Page 6 ---
+table of contents    
+v 
+using a microphone ....................................................................................48
+adjusting microphone volume...................................................................49
+using the microphone with multi-channel audio...........................................49
+working with digital images .........................................................................50
+about the 7-in-1 memory card reader........................................................50
+using your cd, dvd, and diskette drives .........................................................52
+handling cds/dvds..................................................................................52
+inserting and removing cds and dvds........................................................53
+using the combo drive .............................................................................54
+using the diskette (floppy) drive ................................................................55
+playing cds and dvds..................................................................................55
+playing music cds with musicmatch jukebox...............................................55
+playing cds and dvds with windows media player......................................56
+playing dvd movies with the intervideo windvd player ................................57
+creating (burning) cds with recordnow! .........................................................59
+creating (burning) music cds with windows media player ................................61
+creating (burning) data cds using windows xp program ..................................62
+creating (burning) dvds using the dvd writer drive ..........................................62
+using a tv as a monitor................................................................................63
+cables you may need ..............................................................................63
+connecting to a tv set ..............................................................................63
+viewing the pc image on your tv screen.....................................................65
+disabling the tv option.............................................................................66
+disconnecting the tv ................................................................................66
+taking care of your pc.................................................................. 67
+protecting your pc from power surges ...........................................................67
+using virus protection programs....................................................................67
+increasing available hard disk drive space ....................................................68
+unavailable hard disk drive space ............................................................68
+emptying the recycle bin..........................................................................69
+uninstalling programs..............................................................................69
+removing desktop icons ...........................................................................70
+cleaning up your hard disk drive ..............................................................70
+troubleshooting............................................................................ 71
+using application recovery and system recovery .......................... 81
+creating recovery cds/dvds .........................................................................84
+using recovery cd-dvd creator ......................................................................85
+using the recovery tools cd ..........................................................................86
+system restore ............................................................................................86
+application recovery ...................................................................................87
+
+--- Page 7 ---
+vi    user’s guide 
+system recovery..........................................................................................87
+starting system recovery if the pc is responding..........................................88
+starting system recovery if the pc is not responding ....................................88
+system recovery using recovery discs ........................................................89
+starting system recovery using recovery discs............................................. 89
+upgrading and servicing the pc .................................................... 91
+preparing the pc ........................................................................................91
+removing or upgrading a drive ....................................................................94
+locating drive positions ...........................................................................95
+removing a drive ....................................................................................95
+replacing or adding a drive.....................................................................99
+upgrading or replacing memory.................................................................102
+removing a memory module ..................................................................102
+replacing or adding a memory module ...................................................103
+removing or installing an expansion card ....................................................104
+reassembling the pc..................................................................................107
+index ......................................................................................... 111
+
+--- Page 8 ---
+finding answers to commonly asked questions    
+1 
+In this User’s Guide, you can find answers to questions about the 
+following topics: 
+•  Connecting to the Internet, page 35 
+•  Registering your product, page 11 
+•  Creating a CD, page 59 
+Saving documents, photos, and videos on a CD, page 61 
+Recording a music CD, page 60 
+Copying a CD, page 59 
+Backing up your files to a CD, page 61 
+•  Watching movies on your PC, page 57 
+•  Connecting to a TV, page 63 
+•  Getting digital pictures onto your PC, page 50 
+•  Connecting a printer, page 31 
+•  Finding help if something doesn’t work, page 41 
+•  Keeping your PC healthy, page 67 
+•  Going back a day (System Restore), page 86 
+•  Recovering your PC, page 81 
+•  Adding memory, page 91 
+ 
+NOTE: This guide contains details on options that may not be included with 
+your PC. Your PC may look different from the illustrations in this guide. The 
+monitor and the speakers are sold separately. Speakers may be included with 
+the monitor (select models only).  
+finding answers to commonly asked 
+questions
+
+--- Page 9 ---
+2    user’s guide 
+safety information 
+This product has not been evaluated for connection to an “IT” power system 
+(an AC distribution system with no direct connection to earth, according to 
+IEC 60950). 
+ac power safety warnings 
+ 
+ 
+WARNING: Install the PC near an AC outlet. The AC power cord is 
+your PC’s main AC disconnecting device and must be easily 
+accessible at all times. For your safety, the power cord provided 
+with your system has a grounded plug. Always use the power 
+cord with a properly grounded wall outlet to avoid the risk of 
+electrical shock. 
+ 
+ 
+ 
+WARNING: To reduce the possibility of an electric shock from the 
+telephone network, plug your PC into the AC outlet before 
+connecting it to the telephone line. Also, disconnect the telephone 
+line before unplugging your PC from the AC power outlet. 
+ 
+ 
+ 
+WARNING: Your system is provided with a voltage select switch 
+for use in a 115 or 230 VAC power system. The voltage select 
+switch has been pre-set to the correct voltage setting for use in 
+the particular country/region where it was initially sold. Changing 
+the voltage select switch to the incorrect position can damage 
+your PC and void any implied warranty. 
+ 
+ 
+ 
+WARNING: Always disconnect the modem cord from the telephone 
+system before installing or removing your PC cover. 
+ 
+ 
+ 
+WARNING: Do not operate the PC with the cover removed. 
+ 
+ 
+ 
+WARNING: The power supply is not user-serviceable. To prevent 
+damage to the power supply, have a qualified person repair or 
+replace it. All other components are user-serviceable. 
+ 
+ 
+ 
+WARNING: Electrostatic discharge (ESD) can damage disk drives, 
+add-in cards, and other components. If an ESD station is not 
+available, wear a wrist strap attached to a metal part of the PC. 
+Place cards on a conductive foam pad or inside the card wrapper, 
+if possible, but never on the card wrapper.
+
+--- Page 10 ---
+setting up your pc    
+3 
+putting your pc together
+Follow the quick setup poster to set up your PC. 
+Look in the PC box for printed details or updates regarding your model PC. 
+When placing your PC, consider an ergonomic arrangement of the PC and your 
+work area to maintain your comfort and productivity. Refer to “safety and 
+comfort“ on page 4. 
+ 
+ 
+WARNING: The power supply is pre-set for the country/region 
+in which you purchased your PC. If you move, please check 
+the voltage requirements before plugging your PC into an 
+AC power outlet. 
+ 
+NOTE: Refer to “protecting your pc from power surges” on page 67 for 
+information on protecting your PC. 
+ 
+Put your PC together in this order: 
+1 Position the PC chassis and connect the power cord to the chassis and to the 
+power outlet, but do not turn on the PC.  
+2 Position the monitor (sold separately) and connect the power cord to the 
+power outlet, but do not turn on the monitor. Connect the monitor cable 
+to the PC. 
+3 Position the keyboard and the mouse and connect each to the PC. 
+NOTE: Your PC uses active speakers only. Active speakers have a power cord 
+and connect to the green Audio Out connector on the back of the PC. Passive 
+speakers have no power cord or power switch. 
+4 Position speakers (select monitor models include speakers), connect them to 
+the PC, and then connect the speaker power cord to the power outlet, but do 
+not turn on the speakers. 
+setting up your pc
+
+--- Page 11 ---
+4    user’s guide 
+5 Connect the modem cable to the telephone line wall jack and to the modem 
+(select models only) on the back of the PC. Refer to “connecting the modem“ 
+on page 7 for details. 
+6 Turn on the monitor. Turn on the PC. Turn on the speakers. Follow the 
+onscreen instructions and complete the initial windows until you see the 
+desktop. Refer to “turning on your pc for the first time“ on page 10 for details. 
+7 Restart the PC: Click the Start button on the taskbar, click Turn Off 
+Computer, and then click Restart. The PC turns off and then starts again. 
+This completes the initial startup process. 
+ 
+safety and comfort 
+After assembling your PC, but before you begin using it, arrange the PC and 
+your work area to maintain your comfort and productivity. Refer to the Safety & 
+Comfort Guide for important ergonomic information. 
+0–15˚
+50–70 cm
+(20–28 inches)
+0–15˚
+
+--- Page 12 ---
+setting up your pc    
+5 
+computer safety warning 
+ 
+ 
+WARNING: To reduce the risk of serious injury, read the Safety & 
+Comfort Guide. It describes proper workstation setup, posture, and 
+health and work habits for computer users. It also provides 
+important electrical and mechanical safety information. 
+ 
+To view the Safety & Comfort Guide: 
+•  Click Start, choose All Programs, choose PC Help & Tools, and then click 
+Safety & Comfort Guide. 
+Or 
+•  Type 
+http://www.compaq.com/ergo/ 
+into your Web browser address box, and then press Enter on the keyboard. 
+ 
+pc back 
+Connect your main hardware devices like the monitor, keyboard, and mouse at 
+the back of the PC. Other peripheral devices like a printer, scanner, camera, or 
+other equipment also plug into connectors on the back of your computer. Some 
+PC models also have connectors on the front of the PC. 
+ 
+SERIAL
+ETHERNET
+OUT
+IN
+A
+B
+C
+D
+E
+F
+G
+H
+K
+L
+P
+M
+N
+O
+ 
+ 
+Your PC features and 
+connector positions 
+may vary. 
+A Keyboard 
+B Mouse 
+C USB 
+D FireWire
+®
+ 
+(IEEE 1394) 
+E Serial port 
+F Parallel port 
+G Monitor 
+H USB 2.0 
+K Ethernet 
+L Microphone 
+M Audio out 
+N Audio in 
+O  Modem (to telephone 
+line wall jack) 
+P Telephone
+
+--- Page 13 ---
+6    user’s guide 
+ 
+NOTE: PCs use software drivers to control peripheral devices. When you add a 
+Plug and Play (ready to use) peripheral, memory, or add-in card, the PC 
+automatically loads the correct driver for the device. 
+ 
+NOTE: For peripherals that are not Plug and Play, follow the instructions that 
+came with your peripheral device to load the appropriate driver. 
+ 
+Connector 
+Symbol 
+ 
+Description  
+ 
+Mouse (PS/2)  
+ 
+Keyboard (PS/2)  
+ 
+Universal Serial Bus (USB) for mouse, keyboard, digital cameras, or 
+other devices with USB connectors  
+ 
+Printer (parallel)  
+ 
+Monitor  
+serial 
+Serial port for digital cameras or other serial devices 
+OUT
+ 
+Audio Line Out (powered speakers)  
+IN
+ 
+Audio Line In  
+ 
+Headphones  
+ 
+Microphone  
+ 
+FireWire
+®
+ (IEEE 1394) for video cameras or other devices with very fast 
+transfer rates.
+
+--- Page 14 ---
+setting up your pc    
+7 
+pc front 
+The front of your computer has the drives, the On button and hard disk 
+drive activity indicator light. Some PC models also have connectors on the 
+front of the PC. 
+IN
+IN
+G H K L
+A
+B
+C
+E
+F
+D
+ 
+connecting the modem 
+The modem is used for connecting to an ISP that provides telephone dial-up 
+connection to the Internet. 
+NOTE: Your PC may not come with a modem. 
+ 
+Your PC features and 
+connector positions 
+may vary. 
+A  Top optical drive 
+B  Second optical drive 
+C  Diskette (floppy) drive  
+D On light 
+E On button 
+F  Hard disk drive 
+activity indicator light 
+G  FireWire (IEEE 1394) 
+H Audio in 
+K  USB 2.0 (two shown) 
+L Microphone
+
+--- Page 15 ---
+8    user’s guide 
+Check with your ISP for specifics on your connection. 
+Before you can connect to the Internet and send or receive e-mail and faxes using 
+telephone dial-up, you must connect your telephone service line to the modem, 
+which is inside the PC. The quick setup poster shows you how to plug in a 
+modem/telephone cable to the PC modem connector and to your telephone 
+service line wall jack connector. To identify the modem connector, look at the 
+back panel of the PC. The modem connector looks similar to one of the following 
+illustrations. 
+NOTE: Your PC may have only one modem/telephone connection. 
+A
+C
+B
+A
+C
+ 
+ 
+D
+F
+E
+B
+A
+C
+ 
+ 
+other ways to 
+connect 
+There are other ways to 
+connect to the ISP that 
+do not use the telephone 
+modem, such as a 
+LAN (Local Area 
+Network) or DSL (Digital 
+Subscriber Line). Check 
+with your ISP for 
+specifics on your 
+connection. 
+See “setting up the 
+ethernet connection“ 
+on page 9 if you are 
+connecting through 
+a LAN. 
+ 
+A Modem connector 
+(select models only) 
+B Telephone connector 
+(select models only) 
+C  Back of PC  
+D Modem/telephone 
+cable 
+E  Wall jack  
+F Telephone (not 
+provided)
+
+--- Page 16 ---
+setting up your pc    
+9 
+To connect the cable between the modem and the telephone service line: 
+1 Plug one end of a modem cable (D) into the modem connector (A) on the back 
+of the PC (C). This connector may be labeled with either Line or a modem 
+connector symbol. 
+2 Plug the other end of the cable (D) into the telephone service line jack (E) on 
+the wall. 
+ 
+You can also connect a telephone (F) to the other connector (B) on the modem 
+(select models only). By connecting a telephone to the modem, you can make 
+regular (voice) telephone calls when you are not using the modem — even if the 
+PC is turned off. 
+upgrading your 56k modem 
+Your modem driver can be upgraded to enable certain V.92 features. For 
+information, go to the Support Web site listed in the Warranty & Support Guide, 
+click the support link, type modem upgrade into the Search box, and then click the 
+arrow to the right of the box. Follow the instructions provided. 
+NOTE: Your ISP must support the V.92 standard to use any of the V.92 features.  
+setting up the ethernet connection  
+The Ethernet connection (may be called a network interface adapter, a Network 
+Interface Card, or NIC) provides a high-speed, or broadband, connection to an 
+Ethernet (10BaseT) or Fast Ethernet (100BaseT) network. After this interface is 
+connected to a network such as a LAN (local area network), you can connect to 
+the Internet through the LAN. This network connection also allows you to share 
+printers, data, and other devices among your PCs. 
+NOTE: Your PC may not come with an Ethernet connector. 
+Locate the Ethernet connector (a RJ-45 port) on the back of the PC. 
+ 
+B
+A
+ 
+ 
+A Ethernet connector 
+(RJ-45 port) 
+B  Ethernet indicator 
+lights
+
+--- Page 17 ---
+10    user’s guide 
+To connect the Ethernet connector to the network: 
+1 Plug the network cable into the Ethernet connector (A) on the back of the PC. 
+ 
+ 
+WARNING: Do not plug the telephone service line cable or modem 
+cable into the Ethernet connector. Although the plug looks similar to 
+the plug on the Ethernet cable, they are not the same.  
+ 
+2 Plug the other end of the Ethernet cable into a 10BaseT or a 100BaseT port on 
+the network hub. 
+NOTE: Hubs are devices that can connect PCs to a network. 
+3 With the PC turned on, check the lights next to the Ethernet connector 
+for status: 
+•  ACTIVITY — Lit yellow during network data transfer activity 
+•  LINK — Lit green with valid network connection 
+ 
+turning on your pc for the first time 
+After you have completed the steps on the quick setup poster, you are ready to 
+turn on your PC. 
+1 Press the Power button on the monitor. 
+2 Press the On button (A) on the front of the PC (see the following figure). 
+3 Press the Power button on the speakers, if they are present. 
+ 
+ 
+IN
+A
+
+--- Page 18 ---
+setting up your pc    
+11 
+4 Click an option to select your language (if applicable for your model). Click 
+OK and then confirm your selection by clicking Yes. Wait until the PC makes 
+preparations. (It may take up to 30 minutes to set up the language on the PC.) 
+5 Set up Microsoft
+®
+ Windows
+®
+ by following the onscreen instructions. 
+6 Refer to the following section, “registering your pc,” for information on 
+completing the registration process (select models only). 
+7 Double-click the large Internet Access icon on your desktop, if it is present. 
+Wait until the PC displays the Easy Internet Sign-up window, and then follow 
+the onscreen instructions. 
+8 Restart the PC: Click Start on the taskbar, click Turn Off Computer, and then 
+click Restart. 
+ 
+registering your pc 
+You may be prompted to register the PC (select models only). Register so you 
+can receive changes, updates, and support. You can register any of these ways: 
+•  Double-click the registration icon on your desktop, and follow the onscreen 
+instructions. 
+•  Register online at http://www.compaq.com/register 
+ 
+turning off the pc 
+For best results, turn off the PC without pressing any buttons on the PC chassis. 
+1 Close any open software programs. To close programs, click X in the 
+upper-right corner of each window. 
+2 Click Start on the taskbar. 
+3 Click Turn Off Computer, at the bottom of the menu. 
+4 Click Tu r n  O ff . 
+5 Turn off the monitor. 
+ 
+As an alternative to turning off the PC, you can put the PC in either standby or 
+hibernation mode. To conserve power, you can set the power management 
+timers to put the PC automatically into standby and then hibernation. See the 
+following sections for more information on putting your PC in standby or 
+hibernation mode.
+
+--- Page 19 ---
+12    user’s guide 
+standby mode 
+When the PC is in standby mode, it goes into a low-power state and the monitor 
+is blank as if it is turned off. The advantages of using standby mode include: 
+•  You save time and electricity without having to wait for the PC to go through 
+the normal startup routine when you wake it again. The next time you use the 
+PC, any programs, folders, and documents that were open before you put the 
+PC in standby will be available. 
+•  Your PC can receive faxes while in standby mode, if you set it to do so. 
+•  Your PC can retrieve e-mail messages and download information from the 
+Internet automatically, if you set it to do so. 
+ 
+To put the PC in standby mode manually: 
+1 Press the Standby button on the keyboard, if it is present.  
+The screen goes dark, and the PC goes into standby mode. 
+2 When you want to use the PC again, press the Esc key on the keyboard, or 
+press the Standby button. The screen display reappears just as you left it. 
+ 
+Another way to put the PC into standby mode is to: 
+1 Click Start on the taskbar. 
+2 Click Turn Off Computer. 
+3 Click Stand By. 
+4 To wake the PC from standby, press the Standby button or press the Esc key 
+on the keyboard. 
+ 
+If the PC does not work properly when you wake it from standby, restart the PC: 
+1 Press and hold the On button on the front of the PC for approximately 
+5 seconds until the PC turns off. 
+NOTE: Using the On button to restart the PC is not recommended and should 
+be used only as a last resort. Instead, click Start, click Turn Off Computer, 
+and then click Restart. 
+2 Turn on the PC again.
+
+--- Page 20 ---
+setting up your pc    
+13 
+hibernation mode 
+When the PC is in hibernation mode, it saves everything that is in PC memory to 
+the hard disk drive, turns off the monitor and the hard disk drive, and then 
+turns itself off. When you turn on the PC again, your programs, folders, and 
+documents are restored to the screen. 
+To put the PC into hibernation manually: 
+1 Click Start on the taskbar. 
+2 Click Turn Off Computer. 
+3 Press and hold down the Shift key on the keyboard, and click Hibernate. 
+NOTE: If Hibernate is not present, you can set up your PC for hibernation; 
+refer to steps 1 through 6 of “automatic standby or hibernation“ on page 13. 
+4 When you want to use the PC again after hibernation, press the On button on 
+the front of the PC. 
+ 
+If the PC does not work properly when you wake it from hibernation, follow 
+these steps to restart the PC: 
+1 Click Start on the taskbar. 
+2 Click Turn Off Computer. 
+3 Click Restart.
+ 
+ 
+automatic standby or hibernation 
+You can set your PC to go into standby or hibernation mode automatically when 
+it is idle for some number of minutes. To put the PC into standby or hibernation 
+mode automatically, modify the power management settings: 
+1 Click Start on the taskbar. 
+2 Click Control Panel. 
+3 Click Performance and Maintenance, if it is present. 
+4 Double-click Power Options. 
+5 Click the Hibernate tab and check the hibernation feature. If necessary, 
+enable the feature by clicking the Enable hibernation box so that a check mark 
+appears in it. 
+6 If you changed the Enable hibernation check box, click Apply.
+
+--- Page 21 ---
+14    user’s guide 
+ 
+7 Click the Power Schemes tab to set the timers for standby and hibernation. In 
+the Power Schemes box, select a power scheme from the drop-down list. 
+Choose the settings: 
+•  To turn on automatic standby for the PC, click the time to elapse before 
+standby (such as After 20 mins) in the System standby list. 
+•  To set the timer for automatic hibernation, click the time to elapse before 
+hibernation (such as After 1 hour) in the System hibernates list. 
+NOTE: If both standby and hibernation timers are set, the system hibernation 
+timer must be set for a longer time than the system standby timer. 
+8 Click OK.  
+ 
+making recovery cds/dvds 
+Now is a good time to make your recovery discs; see “creating recovery 
+cds/dvds“ on page 84. 
+installing software and hardware devices 
+After you turn on the PC the first time and restart it (see page 10), you can install 
+any software programs that came on CDs or DVDs included in the PC box 
+(select models only). 
+You may wish to install additional software programs or hardware devices on 
+your PC. Restart the PC after installation. 
+Choose software that is compatible with your PC — check the operating system, 
+memory, and other requirements listed for the new software for compatibility 
+with your PC. 
+Install the new software according to the directions provided by the software 
+manufacturer. Check the manufacturer’s documentation or customer service 
+information for help if you need it. 
+transferring your old pc information and files to 
+your new pc 
+See the built-in Microsoft Windows Help and Support Center, described on 
+page 41; search for transfer wizard, and select the overview article, Files and 
+Settings Transfer Wizard overview. This information describes a Microsoft solution 
+for moving your files onto your new PC. 
+Or, as an alternative, double-click the Protect My PC icon on your desktop and 
+review the products and services offered under Move My Data.
+
+--- Page 22 ---
+learning the basics    
+15 
+NOTE: To use your software, you must know how to use the mouse and 
+keyboard. If necessary, see “using the mouse” on page 19 or see “using the 
+keyboard” on page 21. 
+beginning to use your software 
+The operation of your PC is controlled by two kinds of software: 
+•  The Microsoft Windows XP operating system, which displays the desktop on 
+the monitor and controls your PC’s hardware, peripherals, and software 
+applications. 
+•  Software programs, such as a word processing program, which performs 
+specific functions. 
+ 
+Information about using software and about the Microsoft Windows XP 
+operating system is in the printed manuals and online Help. For Microsoft 
+Windows, you can also press the Help button, labeled with a question mark icon 
+on your keyboard (select models only), to open the built-in Help and Support 
+Center. For help with specific software, refer to the onscreen Help within the 
+program. 
+Software programs included with the PC may vary by model and by 
+country/region. 
+learning the basics
+
+--- Page 23 ---
+16    user’s guide 
+using the desktop 
+The desktop has shortcut icons that make it easy to find the things you need. 
+ 
+Icon  Opens  Use it to 
+ 
+Help and Support (select 
+models only) 
+View onscreen Help information 
+about your PC. 
+ 
+Easy Internet Sign-up  Set up a new or an existing Internet 
+account. 
+ 
+Recovery  Start Application or System Recovery. 
+ 
+using the start menu 
+Click the Start button to open the start menu and: 
+•  Select programs or documents. 
+•  Open the Help and Support Center. 
+•  Start a search. 
+•  Run a program. 
+•  Open the Control Panel to view or change settings. 
+ 
+A
+B
+C
+D
+ 
+ 
+Click Presario Info Center to view information about your PC. (See 
+“learning to use your pc“ on page 17.) 
+ 
+The Start menu also displays the buttons Log Off and Turn Off Computer: 
+•  Click the Log Off button to end your current PC session and to switch 
+between users. 
+•  Click the Turn Off Computer button to turn off the PC or to restart it. 
+ 
+A
+  Start button on the 
+taskbar 
+B  Log Off button 
+C  Turn Off Computer 
+button 
+D  All Programs
+
+--- Page 24 ---
+learning the basics    
+17 
+using compaq organize software 
+Compaq Organize software is a desktop tool you use to organize both your PC 
+shortcuts and your favorite Internet destination links. You use it to organize the 
+important things you do on the PC and the Internet, and to arrange it the way 
+you want. Compaq Organize makes all your information available with just a 
+few mouse-clicks.  
+Compaq Organize looks like a window with multiple category frames. Each 
+category has links to Internet destinations or shortcuts to software programs or 
+files on your PC. Use the player area for viewing pictures, for listening to your 
+MP3 music files stored on your computer, or for watching streaming video news 
+clips. For searching, there is a search bar at the top of Compaq Organize where 
+you can select the search engine you want to use.  
+To open Compaq Organize: 
+1 Click Start on the taskbar. 
+2 Choose All Programs. 
+3 Choose PC Help & Tools. 
+4 Click Compaq Organize. 
+learning to use your pc 
+Click the Start button and select Presario Info Center (select models only). A 
+window opens with a welcoming message. Click an item on the left of the 
+message to view information about your PC, including: 
+•  Locations of drives and connectors on the front of the PC chassis. 
+•  Descriptions and uses of software programs included with your PC. 
+•  Access to the Internet. 
+•  Help and Support. 
+•  Recovery of the operating system and software programs. 
+ 
+For detailed instructions and information about your PC (select models only): 
+1 Click Start. 
+2 Choose Help and Support. 
+3 Choose Compaq Presario PC Help. 
+ 
+For onscreen instructions to run tests for PC-related problems or to get help from 
+a Support analyst, open Instant Support (select models only):  
+1 Click Start on the taskbar, and click Help and Support. 
+2 Click Instant Support. 
+3 Click Request Help.  
+4 Follow the onscreen instructions to run a test or to submit a problem. You can 
+run tests anytime; however, your PC must be connected to the Internet to 
+submit a problem.
+
+--- Page 25 ---
+18    user’s guide 
+using the all programs menu 
+To find the software programs on your PC: 
+1 Choose Start. 
+2 Choose All Programs. 
+ 
+organizing your all programs list 
+You see folders organized according to task (select models only) when you: 
+1 Click Start. 
+2 Choose All Programs. 
+ 
+A folder contains a list of items. Each item is actually a shortcut, or link, to a 
+program, document, or another folder. The Music folder, for example, contains 
+shortcuts to the programs you use to play music CDs. 
+To change the name of an item: 
+1 Right-click the item. 
+2 Select Rename. 
+3 Type the new name and press Enter on the keyboard. 
+ 
+To move an item by using the drag-and-drop technique: 
+1 Select the item in All Programs or in a folder. 
+2 Left-click the item and hold down the mouse button. 
+3 Move the mouse pointer to where you want the item, and then release the 
+mouse button.  
+(If you have problems dropping the item into a folder, drag it to your 
+desktop, and then drag it to the folder.) 
+ 
+To copy an item: 
+1 Right-click the item. 
+2 Select Create Shortcut. The shortcut appears in the folder. 
+3 Drag the item into the All Programs list or into another folder. 
+ 
+If you use Add or Remove Programs in the Control Panel to delete a software 
+program, the shortcut in All Programs may not be removed. To remove a 
+shortcut: 
+1 Click Start. 
+2 Choose All Programs. 
+3 Select the folder. 
+4 Right-click the shortcut, and then select Delete. Click Delete Shortcut to 
+confirm you want to delete the shortcut.
+
+--- Page 26 ---
+learning the basics    
+19 
+using pc help & tools 
+The PC Help & Tools folder (select models only) in the All Programs menu 
+contains special utilities for PC owners. This folder also contains any onscreen 
+guides included with your PC. 
+To see the items in the PC Help & Tools folder: 
+1 Click Start on the taskbar. 
+2 Choose All Programs. 
+3 Choose PC Help & Tools. 
+4 Click an item to view it or use it. 
+ 
+NOTE: If there are no guide titles listed in PC Help & Tools, your PC has no 
+onscreen guides. 
+using the mouse 
+Your PC includes a mouse for directing the cursor (pointer) on the Windows 
+desktop. The mouse uses a roller ball or optics (a light and sensor) to sense 
+movement and cause the cursor on the screen to move. Use the mouse on a 
+flat surface. 
+NOTE: The optical mouse cannot work on a glass, translucent, or reflective 
+surface.  
+A wireless mouse (select models only) is an optical mouse that uses a 
+receiver/transmitter, instead of a connector cable, to communicate with your 
+PC. A light on the receiver indicates receiver activity. Refer to “wireless 
+keyboard set“ on page 23 for receiver indicator information. 
+NOTE: The wireless mouse goes into a sleep or suspend mode after 20 minutes of 
+inactivity. Click a button on the mouse to wake it. (Moving the wireless mouse 
+does not wake it.) 
+The mouse has two or three buttons on the top. 
+•  Click the left mouse button to position the cursor or to select an item. 
+•  Click the right mouse button to display a menu of commands for the item you 
+clicked. 
+•  On select models, use the scroll wheel button in the center for scrolling and 
+panning.
+
+--- Page 27 ---
+20    user’s guide 
+Double-click means to press the left button on the mouse two times in a row. To 
+double-click, you click the button (press it and then release it), and then quickly 
+click it again. 
+A
+C
+B
+ 
+NOTE: Your mouse may look different from the one shown here. 
+You can switch the function of the left and right buttons for left-handed use. 
+Refer to “switching mouse button functions“ on page 21. 
+If your mouse does not work properly, refer to “troubleshooting“ on page 71. 
+scrolling 
+Click the left mouse button to place the cursor in a document, and then: 
+•  To scroll toward the beginning of a document, roll the scroll wheel button up 
+(away from you). 
+•  To scroll toward the end of a document, roll the scroll wheel button down 
+(toward you). 
+ 
+autoscrolling 
+1 Place the cursor anywhere in the text, and press the scroll wheel button once. 
+An autoscroll icon appears. 
+2 Move the mouse in the direction you want to scroll. The farther you move the 
+mouse from the starting point, the faster the document scrolls. 
+3 To stop autoscrolling, press the scroll wheel button again. 
+ 
+NOTE: Autoscrolling does not work with some software programs. 
+panning 
+1 Press and hold down the center scroll wheel button. 
+2 Slowly move the mouse in the direction you want to pan. The farther you 
+move the pointer from the starting point, the faster the document pans. 
+3 To stop panning, release the scroll wheel button. 
+ 
+A Left button 
+B Scroll wheel button 
+(scrolling mouse only) 
+C Right button
+
+--- Page 28 ---
+learning the basics    
+21 
+NOTE: Panning only works if the window’s horizontal scroll bar is active. 
+Panning does not work with some software programs. 
+switching mouse button functions 
+To switch the functions of the right and left mouse buttons: 
+1 Click the Start button. 
+2 Click Control Panel. 
+3 Click Printers and Other Hardware, if it is present. 
+4 Double-click Mouse. 
+5 Check Switch primary and secondary buttons on the Buttons tab. 
+6 Click Apply (using the new primary button), and then click OK. 
+ 
+changing mouse pointer speed 
+To change the speed of the cursor on the screen relative to the motion of 
+the mouse: 
+1 Click the Start button. 
+2 Click Control Panel. 
+3 Click Printers and Other Hardware, if it is present. 
+4 Double-click Mouse. 
+5 Click the Pointer Options tab. 
+6 In the area, Motion, use the slider to adjust the pointer speed. 
+7 Click Apply, and then click OK. 
+ 
+using the keyboard  
+about your keyboard 
+Your keyboard has an arrangement of standard keys, indicator lights, and 
+special buttons (select models only). Locate your keyboard among the following 
+illustrations and read the feature list for it. Your keyboard may vary from the 
+illustrations. 
+internet keyboards 
+Internet keyboards may connect directly to your PC or may be wireless. (See 
+“wireless keyboard set“ on page 23 for a description of the wireless set.) 
+Some keyboards do not have the Internet buttons shown here at the top of the 
+keyboard, and some use a different layout on the top right. 
+Find your keyboard among the following illustrations to read about its features.
+
+--- Page 29 ---
+22    user’s guide 
+internet keyboard 1 
+l
+l
+ 
+This keyboard enables you to: 
+•  Adjust speaker volume. 
+•  Connect to the Internet (if you have an established Internet account). 
+•  Search for information on the Internet. 
+•  Place the PC into standby to save power. 
+•  Start, pause, and stop playing a CD or DVD, skip to the previous or next 
+track, record, and eject the disc tray (for two drives). 
+•  Mute speaker sound. 
+•  Customize the buttons to open programs and connect to Internet Web sites. 
+•  Get support information. 
+•  Find a file or program on the hard disk drive. 
+ 
+internet keyboard 2 
+ 
+This keyboard enables you to:  
+•  Connect to the Internet (if you have an established Internet account). 
+•  Search for information on the Internet. 
+•  Customize the buttons to open programs and connect to Internet Web sites. 
+•  Get support information.
+
+--- Page 30 ---
+learning the basics    
+23 
+standard keyboard 
+AB
+C
+ 
+ 
+This keyboard enables you to: 
+•  Adjust speaker volume. 
+•  Place the PC into standby to save power. 
+ 
+wireless keyboard set 
+A wireless keyboard (B) uses a receiver/transmitter unit (A), instead of a 
+connector cable, to communicate with your PC.  The wireless keyboard, mouse 
+(C), and receiver set is available with select models only. 
+A
+B
+C
+ 
+ 
+A light (D) on the receiver indicates receiver activity.  
+  
+A
+CB
+D
+ 
+ 
+If your keyboard does not work properly, refer to “troubleshooting“ on page 71.  
+ 
+LEDs, light emitting 
+diodes, are lights used 
+to indicate status. 
+ 
+A  The lights (LEDs) turn 
+on to indicate (left to 
+right) the number lock 
+on, the capitals lock 
+on, and the scroll 
+lock on. 
+B  The plus (+) and 
+minus (–) buttons 
+adjust the speaker 
+volume. 
+C  The moon icon button 
+places the PC into 
+standby mode or 
+wakes the PC from 
+standby mode. 
+ 
+A Wireless receiver 
+B Wireless keyboard 
+C Wireless mouse 
+ 
+A Number lock on 
+B  Caps lock on 
+C  Scroll lock on  
+D Receiver activity
+
+--- Page 31 ---
+24    user’s guide 
+standard keyboard features 
+alphanumeric keys 
+l
+l
+ 
+The alphanumeric keys are the main keys found on a standard typewriter. 
+ 
+function keys 
+l
+l
+ 
+The function keys, located above the main keys, are labeled F1 through F12. 
+•  Pressing F1 displays a Help window for the software program being used. 
+•  Pressing F3 displays a search window. 
+ 
+F1 and F3 are available at all times. 
+Other function key operations vary by software program. 
+edit keys 
+l
+l
+ 
+The edit keys are Insert, Home, Page Up, Delete End, and Page Down. Use these 
+keys to insert and delete text and to quickly move the cursor on your screen. 
+They function differently with some software programs.
+
+--- Page 32 ---
+learning the basics    
+25 
+arrow keys 
+l
+l
+ 
+The arrow keys are controls for up, down, right, and left. You can use these keys 
+instead of the mouse to move the cursor for navigation in a Web page, in a 
+document, or in a game. 
+numeric keys 
+l
+l
+ 
+Press the Num Lock key to lock and unlock the numeric key functions: 
+•  When the Num Lock light on the keyboard is on, the numeric keys work in 
+the same way as the number keys and arithmetic functions found on a basic 
+calculator. 
+•  When the Num Lock light on the keyboard is off, the numeric keys are 
+directional keys used to move the cursor or play games.
+
+--- Page 33 ---
+26    user’s guide 
+keyboard indicators 
+Each keyboard indicator is a light labeled with the name or icon for its status: 
+ 
+Icon Name  Description 
+ 
+Num Lock  Numeric keys are locked as numbers keys and arithmetic 
+functions. 
+ 
+Caps Lock  Alphanumeric keys are locked to uppercase. 
+ 
+Scroll Lock  Scroll function is locked. 
+ 
+special keyboard buttons 
+l
+l
+ 
+There are special buttons (select models only) at the top of the keyboard. (Some 
+models have some of these special buttons on the left side of the main keys.) 
+These buttons operate a CD or DVD player, connect you to the Internet, or 
+provide quick access to specific functions.
+
+--- Page 34 ---
+learning the basics    
+27 
+NOTE: The number, location, and labeling of buttons vary by keyboard model. 
+Figure 
+Key 
+ 
+Icon 
+ 
+Feature 
+ 
+Description 
+A 
+ 
+Standby  Puts PC into power-saving mode (screen is blank but PC is still on). To 
+make screen reappear, press the Esc key, or press standby again. May 
+take 10–30 seconds before screen reappears. 
+B 
+  user 
+User  Switches between the PC users. 
+C  Compaq  Compaq   Links to Compaq Web site. 
+D 
+ 
+Help  Opens the Help and Support Center. 
+E 
+  
+  
+photo 
+HP Picture Toolkit  
+ 
+Opens an imaging software program. Can be reconfigured. 
+F 
+  
+ 
+music 
+Music  Starts MusicMatch Jukebox or Windows Media Player. Can be 
+reconfigured. 
+G 
+  video 
+Video  Opens video software program. Can be reconfigured. 
+ 
+l
+l
+E
+ 
+H
+P
+S
+R
+M
+N
+K
+B
+A
+ C
+Compaq
+T
+V
+W
+ D
+F
+G
+
+--- Page 35 ---
+28    user’s guide 
+ 
+H 
+  
+ 
+Shopping 
+K 
+   
+Sports 
+M 
+  
+ 
+Finance 
+N 
+  
+ 
+Connect 
+P 
+    
+Search 
+R 
+  
+ 
+Chat 
+S 
+ 
+E-Mail 
+Goes to popular Web sites. Can be reconfigured to open any site or 
+software program. 
+T  See figure 
+following table 
+Media Controls 
+(CD/DVD/MP3) 
+Operates CD or DVD player. 
+V 
+ 
+Volume control 
+(Volume knob or 
+Volume Up and 
+Volume Down 
+buttons) 
+Volume knob: Increases speaker volume when turned clockwise and 
+decreases volume when turned counterclockwise. It can be turned 
+indefinitely, even after maximum sound has been reached. 
+Volume Up and Down buttons: Press the Volume Up   button to 
+increase volume and the Volume Down   button to decrease volume. 
+W 
+    
+Mute  Turns speaker sound on and off. 
+ 
+media control keys 
+b
+c
+d
+a
+a
+e
+f
+ 
+ 
+ 
+a  open and close disc 
+tray(s) 
+b record 
+c  play or pause 
+d stop 
+e  skip to the previous 
+track 
+f  skip to the next track
+
+--- Page 36 ---
+learning the basics    
+29 
+ABCD E F G H
+ 
+ 
+NOTE: The number, location, and labeling of buttons vary by keyboard model. 
+Figure 
+Key 
+ 
+Icon 
+ 
+Feature 
+ 
+Description 
+A 
+ 
+Internet  Connects you to a customizable Web page filled with local weather, news, sports, 
+and financial information. Can be reconfigured to open any site or software 
+program. 
+B 
+ 
+Help  Takes you to the Help and Support Center. 
+C 
+ 
+Search  Opens a Web site that helps you locate information on the Internet. Can be 
+reconfigured to open any site or software program. 
+D 
+ 
+E-mail  Starts your e-mail program. Can be reconfigured to open any site or software 
+program. 
+E 
+ 
+Offers  Launches an online community experience with chat, discussion boards, clubs, and 
+more. Can be reconfigured to open any site or software program. 
+F 
+ 
+Entertainment  Connects you to the world of entertainment, featuring music downloads, streaming 
+video, Webcasts, entertainment news, and reviews. 
+G 
+ 
+My Presario  Takes you to the My Presario Club Web site, featuring a variety of discounts, 
+promotions, and how-to information. 
+H 
+ 
+Shopping  Provides an instant connection to your PC store. Can be reconfigured to open any site 
+or software program. 
+ 
+ 
+A Internet 
+B Help 
+C Search 
+D E-mail 
+E Offers 
+F Entertainment 
+G My Presario 
+H Shopping
+
+--- Page 37 ---
+30    user’s guide 
+customizing the buttons 
+You can customize some of the special buttons on the keyboard (select models 
+only) to open different programs or files, or to connect to favorite Web sites: 
+1 Click Start on the taskbar. 
+2 Choose Control Panel. 
+3 Click Printers and Other Hardware, if it is present. 
+4 Double-click Keyboard. 
+5 On the Buttons tab, double-click the button you want to change. 
+6 For the Button Configuration, click the down-arrow to the right of the list 
+and choose an action, such as Simple web page with label. 
+7 Enter a display label and the address information. For a Web page, enter 
+the URL. 
+8 Click OK. 
+9 On the Buttons tab, click Apply. 
+10 Repeat steps 5 through 9 for each button you want to customize. 
+11 Click OK when you are done. 
+ 
+NOTE: Clicking the Restore Defaults button on the Button tab restores all of the 
+Internet buttons to the factory settings. 
+adjusting the monitor 
+To change the screen resolution: 
+1 Right-click an empty area of the desktop and click Properties. 
+2 On the Settings tab, adjust the screen resolution. 
+•  Moving the slide toward Less increases the size of text on your screen. 
+•  Moving the slide toward More decreases the size of text. 
+3 Click Apply. 
+4 Click Yes, if it is present. 
+5 Click OK. 
+ 
+NOTE: You can connect more than one display device (CRT monitor, flat panel 
+monitor, TV, etc.) to the PC (select models only). You can quickly change where 
+the PC desktop appears by pressing Alt+F5. Each time you press the Alt+F5 key 
+combination, the PC display appears on the next device. If Alt+F5 does not 
+work, restart the PC and try again.
+
+--- Page 38 ---
+learning the basics    
+31 
+using a printer 
+Refer to the user manual that came with your printer for instructions on 
+connecting and using the printer. 
+Printers receive instructions from your PC via software called printer drivers. In 
+many cases your PC automatically finds the necessary printer driver. If it does 
+not, follow instructions that come with your printer to install the specific printer 
+driver that it requires. 
+You can print text and graphics from most software programs and Internet sites 
+if you have a printer connected to your PC and the necessary software installed 
+for the printer. 
+To print: 
+1 Click File on the menu bar. 
+2 Click Print. 
+3 Select your printing options: 
+•  Select the printer. 
+•  Choose the page range (for example, all pages, current page, range of 
+pages). 
+•  Determine the number of copies. 
+•  Select all, odd, or even pages in a range. 
+4 Click OK.
+
+--- Page 40 ---
+using the internet    
+33 
+This chapter discusses the Internet, how to use a browser and e-mail, and how to 
+set up your Internet account. 
+Use the Internet to search for and to find information or services on the Web, or 
+to use an e-mail program to get, read, or send electronic mail messages.  
+Hardware and software programs provided on your PC may vary. Your PC may 
+come with: 
+•  Access to the ISPs in your area. 
+•  Internet Explorer Web browser. 
+•  Outlook Express e-mail software program. 
+•  56K modem and modem software (upgrade ready). 
+•  Ethernet connector. 
+•  Special keyboard buttons to access the Internet. 
+ 
+about the internet 
+The Internet is a group of computers that communicate with each other through 
+telephone lines, digital service, or cable lines. Each Internet computer is 
+independent, and its operators choose which files to make available to users of 
+the Internet. To connect your PC to the Internet and use the information and 
+services available there, you need an Internet Service Provider (ISP). 
+ISPs are businesses that give you access to the Internet, and most of them 
+provide electronic mail service (e-mail). ISPs usually charge a monthly fee for 
+their services. When your PC connects to the Internet, it is actually 
+communicating with the ISP’s Internet computer. The ISP verifies your account 
+and then provides you access to the Internet. You use a Web browser program to 
+search, find, and display Web site information. Some ISPs allow you to choose a 
+browser program, while others provide their own browser. 
+using the internet
+
+--- Page 41 ---
+34    user’s guide 
+Your connection to an ISP may be through a traditional telephone dial-up 
+modem, a LAN (Local Area Network), cable modem, or DSL (Digital Subscriber 
+Line). (DSL, ADSL, and cable ISPs are not available in all countries/regions.) 
+The World Wide Web (WWW), also called the Web, is a public part of the 
+Internet used by individuals, companies, governments, and organizations. These 
+individuals and groups have created millions of Web pages in support of their 
+activities. A Web page is a file or group of files that a user can access by entering 
+the Web page’s file location, or URL. 
+The URL (Uniform Resource Locator) identifies a Web site location, typically in 
+the form http://www.name.extension (for example, http://www.hp.com). The 
+URL may include the path to a specific file within that site. Each period, or dot, 
+in the URL separates elements within the address. For example, you will see the 
+URL extension .com used by companies. When you enter the URL into your 
+browser address box and press the Enter key on your keyboard, the browser 
+contacts that location and displays the Web page for you. 
+Imagine you are reading a newspaper. On page 1, you may read something like 
+“For more details, see page 3, column 2.” You turn the page for more 
+information. A hyperlink on a Web page works the same way, except that you 
+click the mouse with your cursor over the link to move to the page or the Web 
+site. The way that a hyperlink links files together is what gives the Web its name, 
+because the Web weaves and connects idea to idea all over the world. 
+Your e-mail address identifies the electronic post office box where people can 
+send you electronic mail. E-mail addresses have the form 
+name@domain.extension. The domain is usually the name of the ISP or 
+organization. The extension usually identifies the type of organization. For 
+example, if your name is Jane Jones and XYZ is your ISP, your e-mail address 
+might be JaneJones@xyz.com, with the extension .com indicating that XYZ is a 
+business. For information on using e-mail, see “sending and receiving e-mail” 
+on page 39.
+
+--- Page 42 ---
+using the internet    
+35 
+setting up your internet account 
+1 Set up your modem or other Internet connection. 
+•  If you will be using a modem to connect to the Internet, please refer to 
+the quick setup poster, and to “connecting the modem” on page 7 for 
+instructions. 
+•  If you will be using a network, high-speed, or broadband connection, refer 
+to “setting up the ethernet connection” on page 9 for instructions. 
+2 Choose an ISP. 
+Before you can connect to the Internet, you must sign up with an Internet 
+Service Provider (ISP). Compaq has made arrangements with leading ISPs in 
+your area to help you sign up for Internet service (select models only). 
+3 Connect to your ISP and the Internet. 
+Use one of these methods: 
+•  Double-click the ISP-provided icon on the desktop. 
+Or 
+•  Press the Connect (or Internet) button on the keyboard (select 
+models only). 
+Or 
+•  Click Start, choose All Programs, choose Online Services, and click 
+Internet Explorer. 
+Use Easy Internet Sign-up (available on select models only) to sign up for a 
+new or an existing ISP account; see “signing up for a new or an existing isp 
+account using easy internet sign-up” on page 36. The software programs for 
+available ISPs are part of your PC.  
+The Windows desktop may have a folder called Online Services, which 
+includes icons for accessing various online services. These icons are part of the 
+Windows operating system, but they are not functional in all 
+countries/regions.
+
+--- Page 43 ---
+36    user’s guide 
+signing up for a new or an existing isp account 
+using easy internet sign-up  
+Using Easy Internet Sign-up (available on select models only) you can: 
+•  Sign up for a new Internet account. 
+•  Set up an existing account. 
+•  Read about Internet access using a LAN (Local Area Network), cable modem, 
+or DSL (Digital Subscriber Line). 
+ 
+If you decide to use a DSL or cable Internet connection, contact your ISP for any 
+specific software and hardware you may need. 
+To open Easy Internet Sign-up: 
+Double-click the Easy Internet Sign-up icon on the desktop. 
+Or 
+1 Click Start on the taskbar. 
+2 Choose All Programs. Choose Online Services. 
+3 Click Easy Internet Sign-up. 
+Follow the onscreen instructions. 
+ 
+NOTE: Your modem cable must be connected to the telephone service line in 
+order for Easy Internet Sign-up to find and obtain updated information about 
+services. 
+ 
+NOTE: If you are using MSN or AOL and have questions, refer to the 
+information in Easy Internet Sign-up or contact the ISP directly.
+
+--- Page 44 ---
+using the internet    
+37 
+using a browser 
+A Web browser program searches for, finds, and displays Web site information. 
+How you explore the Internet depends on whether you are using an ISP that 
+provides the browser or an ISP that allows you to use any browser. 
+Once you are connected to the Internet, your browser displays the home Web 
+page. You can go to a different Web site by entering its address (such as 
+http://www.compaq.com) in the address box in the Web browser and pressing 
+Enter on your keyboard. Or, you can use the browser Search tool to search for 
+references to a specific word or phrase on the Web. 
+searching the internet 
+Most browser programs include a search feature. You may need to click a button 
+or select from a menu to display the search feature, depending on the type of 
+browser program. Type a question or a word that describes the information you 
+want to find into the Search box, and then press Enter. 
+The Windows search feature includes direct use of the Internet Explorer Search. 
+(If your ISP provides the browser, you may not be able to use Internet Explorer 
+to search the Internet.) 
+To begin a search: 
+1 Click Start on the taskbar. 
+2 Click Search. 
+3 Click Search the Internet. (You may have to scroll down in the list to see this 
+option.) 
+4 Type a word or question into the Search box. 
+5 Click Search. 
+ 
+The PC connects to the Internet (if needed), performs the search, and displays 
+the results. Click a link in the results list to display the Web page. 
+There are also Web sites specifically created for searching the Internet. These are 
+called search engines.
+
+--- Page 45 ---
+38    user’s guide 
+restricting internet content 
+The Internet provides you with a wide variety of information, but some 
+information may not be suitable for every viewer. With Content Advisor (a 
+feature of Windows XP), you can: 
+•  Control Internet access. 
+•  Set up a password. 
+•  Set up a list of Web sites that people who use your PC cannot view. 
+•  Adjust the type of content people can view with or without your permission. 
+ 
+Once you set up restricted rating levels in Content Advisor, users can view Web 
+sites and other pages that you have specified under the rating setup. However, 
+to view unrated Web sites or pages, they must enter the Content Advisor 
+password that you have set. This means that any unrated page, even Help and 
+Support or Internet Explorer, is not viewable if the user doesn't know the 
+password. To allow access to an unrated site or page you approve of, open it and 
+when the password window appears, select the option always allow viewing or 
+allow viewing only this time. 
+To use Content Advisor: 
+1 Click Start on the taskbar, and then click Control Panel. 
+2 Click Network and Internet Connections, if it is present. 
+3 Double-click Internet Options. 
+4 Click the Content tab. 
+5 In the Content Advisor area, click Enable. 
+6 On the Ratings tab, click a category in the list, and then click and drag the 
+slider bar until the rating level is set to the limit you want to use. 
+7 Repeat step 6 for each category you want to limit.  
+8 Click Apply, and then click OK. 
+9 Type a password into the Password box and the Confirm password box, and 
+then click OK. 
+ 
+NOTE: If you want to change the settings after the initial setup, click Settings in 
+the Content Adviser area instead of Enable. The Enable button works as a toggle 
+to turn the Content Advisor on and off.
+
+--- Page 46 ---
+using the internet    
+39 
+sending and receiving e-mail 
+E-mail (electronic mail) allows you to send and receive letters, pictures, 
+postcards, and even music and video clips. 
+Your PC comes with an e-mail program from Microsoft called Outlook Express 
+(select models only). You may also use e-mail programs from other vendors. 
+Some ISPs provide their own e-mail programs. You use an e-mail program to 
+send, receive, and organize your messages. You can organize, read, and create 
+new messages even when you are off-line (not connected to the Internet). 
+ 
+NOTE: Some models come with Microsoft Outlook instead of Outlook 
+Express. For details on using Microsoft Outlook, open the Outlook program 
+and select Help. 
+if using outlook express 
+The first time you start Outlook Express, the Internet Connection Wizard 
+window opens if you are not already connected to the Internet. 
+The Wizard will ask for connection information such as an account name and 
+password and the names of an incoming and an outgoing mail server. If you 
+need help with any of this information, contact your ISP. 
+After the first time you sign up and connect through an ISP, you can run 
+Outlook Express from the Start menu. 
+sending e-mail messages with outlook express 
+1 Click Start on the taskbar, and select the E-mail Outlook  
+Express icon. 
+NOTE: You can also press the E-Mail button on the keyboard to open Outlook 
+Express (select models only). 
+2 Click the Create Mail icon. 
+3 Type in, or select from an address book, the address of each recipient. 
+NOTE: E-mail addresses contain no spaces and have a period after the server 
+name. Dashes and underscores are sometimes used. Capital letters may be 
+required.  
+4 Type your message in the New Message window. 
+5 Type the message title in the Subject box.
+
+--- Page 47 ---
+40    user’s guide 
+6 Click the Send button on the toolbar when you are finished. 
+7 If necessary, click the Send/Recv tool on the toolbar to send any messages 
+stored in the Outbox. 
+ 
+NOTE: When you compose a message without being connected to the Internet, 
+the message is stored in the Outbox until the next time you log on to the Internet 
+and connect to your ISP. 
+receiving e-mail messages with outlook express 
+Your ISP receives e-mail messages for you automatically, even when your PC is 
+turned off. The ISP then stores your messages until you connect to the Internet 
+and open your e-mail program to read them. 
+1 Start Outlook Express. 
+2 If necessary, click the Send/Recv tool on the toolbar to have your e-mail 
+program get the new messages from all listed e-mail accounts. 
+3 Click the Inbox folder to view the list of incoming messages. Messages not yet 
+read appear in bold on the screen. 
+NOTE: In Outlook Express, the messages stay in your Inbox until you delete 
+them or move them to another folder. 
+4 Click a message once to view it, or double-click the message to expand it and 
+read it in its own window.  
+For more information about using your e-mail program, go to the Help menu 
+within the program. 
+ 
+if your isp provides the e-mail program 
+Follow the ISP’s instructions to install its Web browser and e-mail program and 
+to set up and use your e-mail account. You will then be able to send and receive 
+e-mail when your PC is connected to your ISP.
+
+--- Page 48 ---
+getting help    
+41 
+help and support center 
+Information about your PC is in the onscreen Help and Support Center (select 
+models only). Here you can find links to driver updates, access to technical 
+support options, and information about commonly asked questions.  
+To open the Help and Support Center: 
+1 Press the Help button (select models only) on your keyboard. 
+Or 
+Click Start on the taskbar and choose Help and Support. 
+2 Choose Compaq Presario PC Help. 
+ 
+instant support 
+When you need assistance to solve a PC-related problem, use Instant Support 
+(select models only). With Instant Support you can run tests or submit a problem 
+for help over the Internet. When you submit a problem, you communicate over 
+the Internet with a Support analyst who works with you on solving the problem. 
+To start Instant Support: 
+1 Click Start on the taskbar. 
+2 Click Help and Support. 
+3 Click Instant Support. 
+4 Click Request Help.  
+5 Follow the onscreen instructions to run a test or submit a problem. (Your PC 
+must be connected to the Internet to submit a problem.)  
+ 
+getting help
+
+--- Page 49 ---
+42    user’s guide 
+using compaq connections  
+Compaq Connections (select models only) is an Internet-based service provided 
+by Compaq to bring you important information about your PC: 
+•  Product notices 
+•  System updates 
+•  Tips 
+•  Special offers for your PC 
+ 
+Messages arrive while you’re connected to the Internet and may display an alert 
+or a notice on your desktop. View messages as they arrive or read them later.  
+The Compaq Connections Support messages are also available to you through 
+the Support Web site under the information for your PC model. Refer to your 
+Warranty & Support Guide for Web site information. 
+getting messages 
+After you view or close a message, it will not automatically display again. 
+To read a previously received message, open Compaq Connections: 
+1 Click Start on the taskbar. 
+2 Chose All Programs. 
+3 Choose PC Help & Tool. 
+4 Choose Compaq Connections. 
+5 Click Compaq Connections again. 
+ 
+Compaq Connections opens and lists the message titles. To read a message, 
+double-click the message title in the window. You can close this window, and 
+Compaq Connections remains active. 
+turning off messages 
+You cannot receive messages, including important Support messages that may 
+be critical to the operation of your PC, while the service is off. 
+To turn off the Compaq Connections Service: 
+1 Click Start on the taskbar. 
+2 Choose All Programs. 
+3 Choose PC Help & Tool. 
+4 Choose Compaq Connections. 
+5 Click Disable Compaq Connections. 
+The service is turned off until you re-enable it.
+
+--- Page 50 ---
+getting help    
+43 
+re-enabling messages 
+When you re-enable the Compaq Connections Service, the service runs 
+whenever you are connected to the Internet, and you receive messages as they 
+become available. 
+To turn on the service: 
+Double-click the Re-enable Compaq Connections icon on the desktop. 
+Or 
+1 Click Start on the taskbar. 
+2 Choose All Programs. 
+3 Choose PC Help & Tool. 
+4 Choose Compaq Connections. 
+5 Click Re-enable Compaq Connections. 
+ 
+resolving problems 
+For help on general and miscellaneous problems you may be experiencing, refer 
+to “troubleshooting“ on page 71. 
+upgrading and servicing the pc 
+Information about the internal parts of the PC chassis is in the chapter 
+“upgrading and servicing the pc.” Some model PCs have this servicing 
+information printed as a separate guide and included with the PC.  
+warranty & support guide 
+The Warranty & Support Guide contains operating specifications for the PC along 
+with regulatory and safety information. 
+See the Warranty & Support Guide included with the PC documentation for:  
+•  Terms of your PC warranty coverage 
+•  License information 
+•  Support contact information
+
+--- Page 51 ---
+44    user’s guide 
+online guides 
+You can find online guides and information for your PC. To view online 
+manuals for your PC:  
+1 Type the Support Web address from your Warranty & Support Guide into your 
+browser address box, and press the Enter key on your keyboard. 
+2 In the search box, type your product name and number (Compaq 2000, for 
+example) and click the search arrow. The product number is on the lower 
+front of the PC chassis or inside the CD storage area. 
+3 Click the manuals item to see a list of manuals for your PC. 
+ 
+NOTE: Online manuals are associated with specific PC model numbers. Some 
+models do not have online manuals. 
+web sites about your pc 
+Use the Web site addresses listed in the Warranty & Support Guide for: 
+•  Information about your PC. 
+•  Your technical support needs. 
+ 
+Type these Web site addresses into the address box of your Internet browser, 
+and then press the Enter key on your keyboard. 
+microsoft windows xp operating system 
+For questions about the Microsoft Windows XP operating system, refer to: 
+•  Help and Support. For onscreen help and troubleshooting, click Start and 
+then Help and Support. 
+•  The Microsoft Windows XP guide, included with your PC documentation.
+
+--- Page 52 ---
+working with sound, pictures, and video    
+45 
+using speakers 
+Speakers are included with the monitor (select models only), or are sold 
+separately. For details on connecting stereo speakers to the PC, see the quick 
+setup poster.  
+NOTE: Speakers may be passive (no power button and no power cord) or active 
+(power button or power cord). Your PC supports only active (powered) speaker 
+systems; the speaker system must have its own power cord. 
+A stereo speaker set is a left-right, 2-channel speaker system. A multi-channel audio 
+speaker system is a system with more than two channels, and may include a 
+subwoofer. For example, 5.1 channels, referred to as a 6-speaker mode, uses two 
+front speakers (left-right), two rear speakers (left-right), a center speaker, and a 
+subwoofer. 
+If your PC has multi-channel audio speaker capacity (select models only), you 
+can connect four channels for four speakers output or six channels for 5.1 
+speakers output.  
+Connect your speaker system to the PC and then configure the audio software 
+for sound output. Refer to “connecting a multi-channel speaker 
+system to your pc“ on page 46. 
+working with sound, 
+pictures, and video
+
+--- Page 53 ---
+46    user’s guide 
+adjusting speaker volume 
+Use the Volume icon on the taskbar to set speaker volume. Then you 
+can adjust the volume using: 
+•  The volume knob or buttons on the keyboard (select models only). 
+•  The volume knob on the speakers (select models only). 
+ 
+NOTE: If you do not see this Volume icon on the taskbar, click Start, choose 
+Control Panel, click Sounds, Speech, and Audio Devices, if it is present, and 
+then double-click Sounds and Audio Devices to open the Sounds and Audio 
+Devices Properties window. On the Volume tab, place a check in the Place volume 
+icon in the taskbar check box. Click Apply, and then click OK. The Volume icon 
+appears in the taskbar. 
+The two ways to use the Volume icon are: 
+1 Click the Vo lu me icon on the taskbar. 
+2 Adjust the volume. 
+3 When you are satisfied with the sound level, click outside the Volume 
+window to close this window. 
+Or 
+1 Double-click the Vo lum e icon on the taskbar. The Volume Control settings 
+window opens. 
+2 Adjust the volume. 
+3 When you are satisfied with the sound level, click the Close box (the X in the 
+corner) to close this window. 
+ 
+connecting a multi-channel speaker 
+system to your pc 
+Multi-channel audio speakers plug into the Audio In, Audio Out, and Mic 
+connectors on the back or front of the PC. Refer to “pc back” on page 5, or “pc 
+front” on page 7 for the location of the connectors. 
+1 Turn off the PC and the speakers. 
+2 Connect the three audio cable plugs from the speaker system to the 
+connectors on the back of the PC. (See the following table.) 
+3 Turn on the PC. 
+4 Turn on the speaker system.
+
+--- Page 54 ---
+working with sound, pictures, and video    
+47 
+ 
+Connect speaker plugs for: 
+ 
+2 Speaker 
+Mode 
+4/4.1 
+Speaker 
+Mode 
+6/5.1 
+Speaker 
+Mode 
+To PC 
+connector 
+Connector 
+icon 
+Front speakers  Front speakers  Front speakers  Audio Out 
+(lime-green) 
+OUT
+ 
+Not used for 
+speakers 
+Rear speakers  Rear speakers  Audio In (blue) 
+IN
+ 
+Not used for 
+speakers 
+Not used for 
+speakers 
+Center/ 
+subwoofer 
+speakers 
+Mic-1 (pink) 
+ 
+ 
+Configure the audio output for the multi-channel speaker system by performing 
+the following procedure. 
+configuring the multi-channel sound manager 
+1 Click Start on the taskbar. 
+2 Choose All Programs. 
+3 Choose Music. 
+4 Click Multi-channel Sound Manager and then click Multi-channel Sound 
+Manager again. The Audio Configuration window opens. 
+NOTE: If you do not see the Speaker Configuration tab, your PC does not have 
+the multi-channel capability. However, it still has two-channel (stereo) 
+output. 
+5 Click the Speaker Configuration tab.  
+6 Select the option describing the number of speakers in your system, for 
+example, 6/5.1 speaker mode. You can click the Speaker Test tab and then 
+click a speaker icon to test it. 
+7 Click OK. 
+ 
+configuring multi-channel audio output for 
+the dvd player 
+The InterVideo WinDVD™ program (select models only) is set up for two-
+speaker (stereo) output. To hear all speakers from DVD movies recorded with 
+multi-channel audio, change the audio properties for WinDVD to match your 
+speaker configuration (if your InterVideo WinDVD program supports more than 
+two channels): 
+1 Insert a DVD, or start InterVideo WinDVD Player (see “playing dvd movies 
+with the intervideo windvd player“ on page 57). 
+2 Right-click anywhere in the WinDVD video window, and then click Setup.
+
+--- Page 55 ---
+48    user’s guide 
+3 Click the Audio tab. 
+4 Click the option for the number of speakers to match your multi-channel 
+speaker system, and then click Apply. 
+NOTE: To test the speakers (multi-channel speakers only), click the Test 
+button. The WinDVD control panel shows the speaker number being used. 
+Click Stop. 
+5 Click OK. 
+ 
+NOTE: If you want to play a stereo DVD, change the audio properties of 
+WinDVD to match the recorded DVD audio output. 
+using a microphone 
+Your PC comes with one microphone connector in the back of the PC. Some 
+models have a second microphone connector in the front of the PC. Only one 
+microphone connector works at a time, and the back connector is ready to use 
+unless you have the multi-channel audio speakers option. For PCs with the 
+multi-channel audio speakers option, the microphone connector in the front of 
+the PC, if present, is ready to use. See “using the microphone with multi-channel 
+audio“ on page 49.  
+To use a microphone connected to the front of your PC (select models only), 
+select the working microphone. 
+NOTE: If you connect your microphone to the back of your PC, you do not need 
+to perform this procedure. 
+1 Double-click the Vo lum e icon on the taskbar. The Volume Control settings 
+window opens. 
+NOTE: If you do not see this Volume icon, click Start, click Control Panel, 
+click Sounds, Speech, and Audio Devices, if it is present, and then double-
+click Sounds and Audio Devices to open the Sounds and Audio Devices 
+Properties window. On the Volume tab, place a check in the Place volume icon 
+in the taskbar check box. Click Apply, and then click OK. The Volume icon 
+appears in the taskbar. 
+2 Select Options and click Properties. 
+3 In Adjust volume for, click Recording. 
+4 In Show the following volume controls, place a check in the Microphone 
+check box. 
+5 Click OK. 
+6 Click the Advanced button in the Microphone column. If you do not see the 
+Advanced button, select Options from the Recording Control window, and 
+then click Advanced Controls.
+
+--- Page 56 ---
+working with sound, pictures, and video    
+49 
+7 Place a check in the Alternate Microphone check box. (This box may be 
+labeled Mic2 Select or 1 Mic Boost.) 
+8 Click Close. 
+9 Click X (Close) on the upper-right corner of the Recording Control window. 
+adjusting microphone volume 
+If you need to adjust the volume of the microphone, follow the procedure below: 
+1 Double-click the Vo lum e  icon on the taskbar. The Volume Control 
+window opens. 
+2 Select Options and click Properties. 
+3 In Adjust volume for, click Recording. 
+4 In Show the following volume controls, place a check in the Microphone 
+check box. 
+5 Click OK. 
+6 Adjust the volume for Microphone Balance. If the volume is now acceptable, 
+proceed directly to step 10. 
+NOTE: If you do not see the Advanced button, select Options from the 
+Recording Control window, and then click Advanced Controls. 
+7 To make finer adjustments to the sound, click the Advanced button, and then 
+select the (Microphone) 1 Mic Boost check box. 
+8 Click Close. 
+9 Repeat step 6, if needed. 
+10 Click X (Close) on the upper-right corner of the Volume Control window. 
+ 
+using the microphone with multi-channel audio 
+The multi-channel speaker system (select models only) connects to the PC using 
+the Microphone, Audio (Line) In, and Audio (Line) Out connectors on the back 
+of the PC. Your PC may have a second microphone on the front of the PC. If 
+present, this microphone is ready to use and does not affect the use of the multi-
+channel audio speaker system. 
+To use the microphone connector on the back of the PC with a multi-channel 
+audio speaker system, you must disconnect the cables for the multi-channel 
+speakers and change the audio configuration to a 2-channel audio system. Refer 
+to “configuring the multi-channel sound manager“ on page 47 to set the audio 
+configuration.
+
+--- Page 57 ---
+50    user’s guide 
+working with digital images 
+You can connect a digital image source, such as a digital camera or a digital 
+video camera, directly to the PC or through a docking station. Digital picture 
+files you copy or download from the device appear in the My Pictures folder. 
+You can copy digital picture files from the memory cards used by digital 
+cameras and other digital imaging devices by using the 7-In-1 memory card 
+reader (select models only). Refer to “about the 7-in-1 memory card reader” 
+on page 50. 
+about the 7-in-1 memory card reader 
+Digital cameras and other digital imaging devices use memory cards, or media, 
+to store digital picture files. The optional 7-In-1 memory card reader (select 
+models only) can read and can write to six types of memory cards and the IBM 
+Microdrive disk drive.  
+The card reader is accessible on the front of the PC. It has four horizontal card 
+slots which accept the memory cards and the microdrive disk drive. 
+ 
+Card 4-slot Reader 
+CompactFlash
+™
+ type I media  Lower left slot 
+CompactFlash type II media  Lower left slot 
+IBM Microdrive disk drive  Lower left slot 
+Secure Digital (SD) Memory Card  Upper right slot 
+MultiMediaCard (MMC)  Upper right slot 
+Memory Stick
+®
+ (MS) Memory Card  Lower right slot 
+SmartMedia
+™
+ (SM) Memory Card  Upper left slot 
+ 
+You can place media in one or more of the card slots and use each media 
+independently. Place only one piece of media in a slot at one time. 
+Each card slot has its own drive letter and icon. When you insert media, the 
+display label may change to the title of the media, if the title is present. 
+special note about the safely remove hardware utility 
+ 
+ 
+CAUTION: Do not click Stop in the Safely Remove Hardware 
+window with the USB Mass Storage Device selected. Doing so 
+removes the operating system recognition of the 7-In-1 memory 
+card reader from your PC; you must restart the PC to see your 
+memory card reader again. 
+ 
+If you open the Safely Remove Hardware window by mistake, click Close.
+
+--- Page 58 ---
+working with sound, pictures, and video    
+51 
+using the 7-in-1 memory card reader 
+NOTE: CompactFlash and Microdrive are keyed and cannot be inserted 
+incorrectly. Insert the receptacle edge (holes) of this media into the slot. 
+1 Insert the media into the card slot until it stops. The in-use light (A) on the 
+card reader lights, and the PC automatically detects the media. 
+2 The PC opens a window so you can use the media contents. You can copy files 
+from or to the media. 
+3 When you are done, right-click the drive icon, select Eject, check that the in-
+use light is on but not blinking, and then remove the media. A steady light 
+indicates that the PC is not reading or writing the media. 
+ 
+ 
+WARNING: Do not try to remove media when the In-use light is 
+blinking. Doing so may cause loss of data. 
+ 
+4-slot memory card reader 
+A
+E
+D
+B
+C
+ 
+ 
+Card  Insert  Into 4-slot reader 
+CompactFlash type I media  Receptacle edge (holes)  C (lower left) 
+CompactFlash type II media  Receptacle edge (holes)  C (lower left) 
+IBM Microdrive disk drive  Receptacle edge (holes)  C (lower left) 
+Secure Digital (SD) Memory Card  Facing up  D (upper right) 
+MultiMediaCard (MMC)  Facing up  D (upper right) 
+Memory Stick (MS) Memory Card  Facing up  E (lower right) 
+SmartMedia (SM) Memory Card  Facing up  B (upper left) 
+ 
+ 
+A In-use light 
+B  Upper left slot 
+C  Lower left slot 
+D  Upper right slot 
+E  Lower right slot
+
+--- Page 59 ---
+52    user’s guide 
+using your cd, dvd, and diskette drives 
+your drive options 
+Your PC has one or more of the following drives: 
+Drive  What it does 
+CD-ROM   Reads audio and data CD discs. 
+CD-RW or “cd writer”  Reads and records (burns) audio and data CD discs. 
+DVD-ROM  Reads audio and data CD and DVD discs. 
+DVD+RW/+R or 
+“dvd writer” 
+Reads and records (burns) audio and data CD and DVD discs.  
+Combination Drive or 
+Combo drive 
+Combines the functions of two drives into one. There are 
+two versions: 
+•  A DVD Writer drive and a CD-RW drive. 
+Or 
+•  A DVD-ROM drive and a CD-RW drive. 
+Diskette (floppy)  Reads and writes to a 3.5” diskette (floppy disk). 
+ 
+handling cds/dvds 
+To avoid damaging a disc, follow these guidelines: 
+•  Return the disc to the case when you are finished using it. 
+•  Handle the disc by its outside edges or center hole only. 
+•  Do not touch the unlabeled side of a disc or place the unlabeled side down on 
+your desk. Doing so could scratch the surface of the disc. 
+•  Store discs at room temperature.
+
+--- Page 60 ---
+working with sound, pictures, and video    
+53 
+inserting and removing cds and dvds 
+ 
+ 
+CAUTION: Use only standard shaped discs in your drives. Using 
+non-standard discs, such as heart-shaped discs or business card 
+discs, may damage your drive. 
+ 
+To insert a CD or DVD: 
+1 With your PC turned on, press the Eject button (A) near the drive to open the 
+disc tray. 
+ 
+IN
+A
+A
+ 
+ 
+2 Remove the CD/DVD from its case, holding the disc edges only. 
+3 Gently place the disc in the tray with the label facing up. 
+NOTE: On a double-sided DVD, read the text around the inner hole of the 
+disc to determine which side (A versus B or Standard versus Widescreen) to 
+play. Place the disc in the tray with the label facing up for the side you want 
+to play.
+
+--- Page 61 ---
+54    user’s guide 
+ 
+ 
+4 Close the disc tray by: 
+•  Gently pushing the tray into the PC. 
+Or 
+•  Clicking the close/open button on the control panel for the program (such 
+as MusicMatch Jukebox or Windows Media Player) that controls the drive. 
+Or 
+•  Pressing the media control open/close button or Eject button on the 
+keyboard (select models only). 
+Or 
+•  Pressing the Eject button on the drive, if it is accessible. 
+ 
+To remove a CD or DVD: 
+ 
+1 With the PC turned on, open the disc tray by pressing the Eject button. 
+NOTE: You cannot eject the disc tray when the PC is off. 
+2 Holding on to the disc edges or center hole only, lift the CD or DVD out of 
+the tray. 
+3 Place the disc in its case. 
+4 Close the disc tray by gently pushing the tray into the PC. 
+ 
+using the combo drive 
+The combination drive is available on select models only. It combines the 
+functions of two drives into one: Either a DVD+RW/+R drive (dvd writer) and 
+a CD-RW drive, or a DVD-ROM drive and a CD-RW drive.
+
+--- Page 62 ---
+working with sound, pictures, and video    
+55 
+using the diskette (floppy) drive 
+The diskette (floppy) drive is available on select model PCs. If your PC does not 
+already have a diskette drive, you cannot add one to the PC chassis as an 
+internal drive. Instead, purchase an external USB diskette drive or other external 
+storage device to suit your needs. 
+If your PC has a diskette (floppy) drive (select models only), you can use a 3.5” 
+diskette (floppy disk) to store files: 
+1 Insert the diskette with the round metal disk facing down and the arrow on 
+the top pointing into the drive. 
+2 Gently push the diskette into the drive until it locks in place. 
+3 You can copy files from or to the diskette. Refer to the Windows Explorer 
+section of Windows Help for instructions on copying files to and from a 
+diskette.  
+4 When you are ready to remove the diskette, check that the light on the drive is 
+off. This indicates that the PC is not writing to the diskette. 
+5 Press the Eject button on the PC to remove the diskette. Remove the diskette 
+from the drive prior to turning off the PC. 
+ 
+ 
+CAUTION: Removing a diskette when the drive is reading from or 
+writing to the diskette can damage the diskette or the information 
+stored on it. 
+ 
+playing cds and dvds 
+Your PC includes software that lets you:  
+•  Play music CDs by using either MusicMatch Jukebox (select models) on page 
+55 or Windows Media Player on page 56. 
+•  Play DVDs by using either Windows Media Player on page 56 or InterVideo 
+WinDVD Player (select models) on page 57. 
+playing music cds with musicmatch jukebox 
+MusicMatch Jukebox lets you: 
+•  Play music CDs. 
+•  Record digital music files to your hard disk drive. 
+•  Create music CDs by using your CD-RW drive. 
+•  Organize your digital music into libraries. 
+•  Listen to music over the Internet.
+
+--- Page 63 ---
+56    user’s guide 
+If you are connected to the Internet when playing a music CD, MusicMatch 
+Jukebox searches a CD database on the Internet, displays the song titles in the 
+Playlist area, and then begins playing the CD. The next time you play this CD, 
+you don’t need to be connected to the Internet — MusicMatch Jukebox displays 
+the song titles from memory. 
+To play a music CD: 
+1 Insert the music CD into the drive.  
+•  The MusicMatch Jukebox window opens. If the Audio CD wizard window 
+opens, select MusicMatch Jukebox from the list. You may have to scroll 
+down in the window to see MusicMatch. 
+Or 
+•  If the MusicMatch window does not automatically open, click Start on the 
+taskbar, choose All Programs, choose Music, choose MusicMatch and then 
+click MusicMatch Jukebox. 
+2 To control the CD in the drive, click the CD tab at the top of the MusicMatch 
+Jukebox window. To play a particular song, double-click its song title (or track 
+number) in the Playlist. You can also control the CD by using the keyboard 
+media control buttons (select models only). 
+For more information on this software, click the Help menu in the MusicMatch 
+Jukebox menu bar. 
+playing cds and dvds with windows media player 
+You can play audio CDs or movie DVDs using this software. Your PC must have 
+a DVD drive to play DVD movies. You can use Windows Media Player to: 
+•  Record digital music files to your hard disk drive. 
+•  Create music CDs by using your CD-RW drive (select models) or 
+DVD+RW/+R drive (select models). 
+•  Organize your digital music into libraries. 
+•  Listen to music or view a music video over the Internet. 
+•  Play DVD movies (if your PC has a DVD drive). 
+ 
+To play a music CD: 
+1 Insert the music CD into the drive.  
+•  The Windows Media Player window opens. If the Audio CD wizard 
+window opens, select Windows Media Player from the list. You may have 
+to scroll down in the window to see Windows Media Player. 
+Or 
+•  If the Windows Media Player window does not automatically open, click 
+Start on the taskbar, choose All Programs, and then click Windows Media 
+Player.
+
+--- Page 64 ---
+working with sound, pictures, and video    
+57 
+2 To play the CD, click the buttons in the Windows Media Player window. To 
+play a particular song, double-click its song title (or track number) in the 
+Playlist. You can also control the CD by using the media control buttons on 
+the keyboard (select models). 
+3 When you click the Media Guide or the Radio Tuner features, Windows 
+Media Player connects to the Internet and obtains information about the CD 
+selections or streaming radio stations.  
+For more information on this software, refer to the online Help within the 
+Windows Media Player: Click the Help menu in the Windows Media Player 
+menu bar. If necessary, first display the menu bar by clicking the up-arrow icon 
+in the upper left corner of the Windows Media Player window. 
+playing dvd movies with the intervideo 
+windvd player 
+The InterVideo WinDVD Player program uses a DVD drive (select models only) 
+to run software from CDs or DVDs, play music CDs, and play DVD movies. 
+You can also use Windows Media Player and a DVD drive to play DVD movies; 
+refer to “playing cds and dvds with windows media player“ on page 56. 
+NOTE: Most DVD movies are localized to geographical countries/regions. For 
+information about this, see “using country/region codes“ on page 59. 
+To start InterVideo WinDVD Player: 
+1 Insert the disc into the DVD drive. 
+NOTE: On a double-sided DVD, read the text around the inner hole of the 
+disc to determine which side (A versus B or Standard versus Widescreen) to 
+play. Place the disc in the tray with the label facing up for the side you want 
+to play. 
+2 Close the disc tray by gently pushing the tray into the PC.  
+The movie plays in its own resizable video window, and the WinDVD control 
+panel appears. 
+Or 
+If the program does not automatically open: 
+1 Click Start. 
+2 Choose All Programs. 
+3 Choose Video. 
+4 Choose InterVideo WinDVD Player. 
+dvd terms 
+Title: Each DVD can 
+hold one or more titles. 
+Most full-length movies 
+have only one title on 
+the DVD, but some DVDs 
+include several short 
+movies, with each movie 
+being a separate title. 
+Chapter: Each title is 
+divided into multiple 
+chapters. A chapter is a 
+particular segment or 
+scene in the movie. 
+When watching a DVD 
+movie, you have the 
+ability to jump to the 
+next chapter, the 
+previous chapter, or to a 
+specific chapter. 
+Frame: A single image 
+in a movie is called a 
+frame.
+
+--- Page 65 ---
+58    user’s guide 
+5 Click InterVideo WinDVD 4. 
+ 
+ 
+ 
+You may want to start WinDVD and adjust the settings before inserting the disc 
+and starting the movie. To start WinDVD without a disc in the drive: 
+1 Click Start on the taskbar. 
+2 Choose All Programs. 
+3 Choose Video. 
+4 Click InterVideo WinDVD Player.  
+5 Click InterVideo WinDVD 4. 
+The WinDVD video window and control panel opens. 
+ 
+NOTE: If you are playing a movie full screen and the WinDVD control panel is 
+hidden, you can redisplay it by clicking anywhere in the video window. 
+ 
+To use the WinDVD control panel: 
+•  To see what a button does on the control panel, place the mouse pointer on 
+the button; the button title appears onscreen. 
+•  To move the WinDVD control panel, place the mouse pointer on the panel 
+(but not on a button), and drag it to the desired location on the screen. 
+A
+ Control Panel 
+B Video window
+
+--- Page 66 ---
+working with sound, pictures, and video    
+59 
+•  To resize the video window when it is not full screen, place the mouse pointer 
+on a window corner and drag the border. 
+Or 
+Click the Full Screen button in the upper-right corner of the WinDVD 
+control panel. 
+•  For information on the InterVideo WinDVD software, refer to the online Help 
+within the program by clicking the ? (question mark) icon in the WinDVD 
+control panel. 
+ 
+using country/region codes 
+Most DVD discs have country/region codes embedded in the disc data that limit 
+where the DVD movie can be played. 
+The country/region number is usually placed over a world globe printed on the 
+DVD packaging and disc. DVDs without country/region codes will play on any 
+player or drive in any country/region. 
+ 
+ 
+WARNING: You can change countries/regions only five times 
+before the country/region code locks and becomes permanent. 
+Once the code locks, you can play DVDs from that country/region 
+only. If the country/region code locks, and you need help, contact 
+Support. 
+ 
+WinDVD is not pre-set to a particular country/region — the country/region 
+code of the first DVD movie you play determines your DVD country/region. 
+For example, if you play a DVD with a country/region 1 code, WinDVD sets the 
+current country/region of your DVD player to 1. If you later play a DVD that is 
+coded for a different country/region, WinDVD asks if you want to set this as the 
+current country/region. 
+creating (burning) cds with recordnow! 
+NOTE: HP supports lawful use of technology and does not endorse or encourage 
+the use of our products for purposes other than those permitted by national 
+copyright law. 
+If your PC has a CD-RW or DVD Writer (select models only), your PC has 
+recording software and you can make your own music or data CDs.  
+Use a CD-R disc if you are going to play the disc in a CD player, CD-ROM, 
+CD-RW, DVD-ROM, or DVD+RW/+R drive. CD-R discs are compatible with 
+more players than CD-RW discs are. 
+NOTE: For more information about recording CDs, refer to the Help menu in the 
+RecordNow! software program. 
+ 
+The six major DVD 
+countries/regions are: 
+•  Country/Region 1: 
+North America 
+•  Country/Region 2: 
+Japan, Europe, 
+Middle East, 
+South Africa 
+•  Country/Region 3: 
+Southeast Asia 
+•  Country/Region 4: 
+Australia, 
+New Zealand, 
+Mexico, Central 
+and South America 
+•  Country/Region 5: 
+Northwest Asia, 
+North Africa 
+•  Country/Region 6: 
+China
+
+--- Page 67 ---
+60    user’s guide 
+getting started with recordnow! 
+NOTE: The CD-RW or DVD Writer drive is available on select models only. 
+1 Click Start on the taskbar. 
+2 Choose All Programs. 
+3 Choose CD(DVD) Recorder. 
+4 Click RecordNow!, and then click RecordNow! again. 
+NOTE: Previously recorded files on CD-RW discs must be erased before 
+recording music files. CD-R discs cannot be erased. 
+5 If you need to erase a disc (CD-RW, DVD+RW, DVD+R): Insert the disc, click 
+the Data Projects tab at the top of the RecordNow! window, and then click 
+Erase Disc to remove previously recorded files from the disc.  
+Continue by following the steps under “creating a music cd” on page 60, or 
+“creating a data cd” on page 61. 
+ 
+creating a music cd 
+RecordNow! creates closed session music CDs, which means you must record all 
+music files on one CD in one recording session. Music files can be recorded 
+repeatedly on a rewriteable CD-RW disc, but all previously recorded files must 
+be erased first. CD-R discs cannot be erased. See “getting started with 
+recordnow!” on page 60. 
+NOTE: CD-R discs play in most home and car stereos. CD-RW discs play only in 
+some stereos. 
+To record a CD-R or CD-RW disc: 
+1 Open RecordNow!, and if necessary erase the CD-RW disc; see “getting 
+started with recordnow!” on page 60. 
+2 Click the Audio Projects tab at the top of the RecordNow! window. 
+3 Click a project option: 
+•  Audio CD for Car or Home CD Player 
+•  Exact Copy 
+•  Jukebox CD 
+ 
+4 Follow the onscreen instructions to finish recording your disc.
+
+--- Page 68 ---
+working with sound, pictures, and video    
+61 
+creating a data cd 
+Use RecordNow! to copy a data disc or to copy personal data files from your 
+hard disk drive. Insert a blank or an appendable disc to copy to. 
+To create a data CD: 
+1 Open RecordNow!, and if necessary erase all files from the disc; see “getting 
+started with recordnow!” on page 60. 
+2 Click the Data Projects tab at the top of the RecordNow! window. 
+3 Select a project option: 
+•  Data Disc 
+•  Exact Copy 
+•  Erase Disc 
+4 Follow the onscreen instructions to finish. 
+ 
+You can add new data files to a CD-R or CD-RW disc in a later recording session 
+if disc space is available. You can also update previously recorded files that have 
+the same name as your new data files on your CD-RW disc. 
+creating (burning) music cds with 
+windows media player 
+NOTE: HP supports lawful use of technology and does not endorse or encourage 
+the use of our products for purposes other than those permitted by national 
+copyright law. 
+Your PC has recording software called Windows Media Player. You copy or 
+download music to the Windows Media Player Media Library and can then 
+organize or copy the music files. You can copy Window Media files that have a 
+.wma extension, .mp3 files, or .wav files to a CD by using a CD-RW drive or a 
+DVD Writer drive. You can also use Windows Media Player to copy music files 
+to a portable device or memory card. 
+Use a CD-R disc if you are going to play the disc in a CD player, CD-ROM, 
+CD-RW, DVD-ROM, or DVD+RW/+R drive. CD-R discs are compatible with 
+more players than CD-RW discs are.
+
+--- Page 69 ---
+62    user’s guide 
+To create a music CD using Windows Media Player: 
+1 Click Start on the taskbar, choose All Programs, and then click Windows 
+Media Player. 
+2 Click Copy to CD or Device. 
+3 Follow the onscreen instructions to select the music files and the CD or 
+device. 
+ 
+For more information on this software, refer to the online Help within the 
+Windows Media Player: Click the Help menu in the Windows Media Player 
+menu bar. If necessary, first display the menu bar by clicking the up-arrow icon 
+in the upper left corner of the Windows Media Player window. 
+creating (burning) data cds using 
+windows xp program 
+Your PC has recording software to record data files, such as text files or digital 
+pictures, onto CDs.  
+1 Click Start on the taskbar and choose My Documents or the folder that has 
+the files you want to copy. 
+2 Select the file or files you want to copy. 
+3 Click Copy to CD in the Tasks list. 
+4 Click My Computer in the Other Places list and then double-click the disc 
+drive you want to use. 
+5 Insert a blank disc into the drive. 
+6 Click Write these files to CD in the CD Writing Tasks list. The CD Writing 
+Wizard window appears. 
+7 Click Next. 
+8 Click Finish. 
+ 
+creating (burning) dvds using the 
+dvd writer drive 
+The DVD Writer drive (select models only) plays movie DVDs and music CDs, 
+reads data CDs and DVDs , and records (burns) files to DVD+RW, DVD+R, 
+CD-R, and CD-RW discs. 
+NOTE: There are two types of DVD discs: DVD+RW/+R and DVD-R/-RW. 
+DVD-R and DVD-RW discs do not work in the DVD Writer drive. 
+For steps to view a movie, see “playing dvd movies with the intervideo windvd 
+player“ on page 57. 
+The guide for this drive is printed and included in the PC box (select models).
+
+--- Page 70 ---
+working with sound, pictures, and video    
+63 
+using a tv as a monitor 
+Your PC may have TV-out (select models only) capability, which means you can 
+connect it to a television to view the computer image on a TV screen. With the 
+TV-out feature, you can view the computer image, watch DVD movies (if you 
+have a DVD player), or play games on your TV. 
+cables you may need 
+To connect a TV to the PC, you may need a video cable and an audio cable (not 
+provided, purchase separately). The type of video cable you need depends on 
+your TV: 
+•  If your TV has an S-video jack, you need an S-video cable. 
+•  If your TV has a composite video jack, you need a composite video cable and, 
+depending on the jacks on the back of your PC, you may also need an S-video 
+adapter cable. 
+ 
+connecting to a tv set 
+To use your TV as a PC screen: 
+1 Turn off the PC. 
+2 Connect the TV cable using one of the following arrangements, depending on 
+the connection jacks on your TV: 
+•  If your TV has an S-video jack, connect an S-video cable from the S-video 
+In jack on the TV to the S-video jack on the back of the PC. 
+  
+A
+B
+C
+ 
+ 
+ 
+A S-video cable 
+B  Back of PC 
+C S-video jack
+
+--- Page 71 ---
+64    user’s guide 
+•  If your TV has a composite video jack and your PC has a composite video 
+jack, connect a composite video cable to the Video In jack on the TV to the 
+composite video jack on the back of the PC. 
+  
+A
+B
+C
+ 
+ 
+•  If your TV has a composite video jack and your PC has only an S-video 
+jack, connect a composite video cable to the Video In jack on the TV and to 
+an S-video adapter cable. Connect the S-video adapter cable to the S-video 
+jack on the back of the PC. 
+  
+A
+B
+C
+D
+ 
+ 
+NOTE: The S-video adapter cable is only needed if there is no composite video 
+jack on the back of the PC. 
+3 To have sound come from your TV instead of from your PC, plug an audio 
+cable into the Audio input jack (Line In) on the TV and plug the other end 
+of the audio cable into the Audio Out jack (green connector) on the back of 
+the PC. 
+ 
+ 
+A Composite video 
+cable 
+B  Back of PC 
+C  Composite video jack 
+ 
+A Composite video 
+cable 
+B  S-video adapter cable 
+C  Back of PC 
+D S-video jack
+
+--- Page 72 ---
+working with sound, pictures, and video    
+65 
+viewing the pc image on your tv screen 
+NOTE: The type of video card on your PC determines how the PC selects the 
+TV-out option. Some options and menus in this procedure may be different for 
+your PC. 
+1 Make sure the video and audio cables are connected before you turn on the 
+TV and the PC. 
+2 Turn on the TV. Press the Video/TV button on your remote control to select 
+the Video setting, not the TV setting. 
+3 Turn on your PC. 
+4 When the Windows desktop appears, right-click an empty area of the desktop 
+and choose Properties. 
+5 Click the Settings tab. 
+6 Click the Advanced button. 
+7 Click the nView tab, if available, and in the area nView Display Mode select 
+Clone to view the computer image on your PC monitor and your TV 
+simultaneously. 
+NOTE: You can view the PC image on just the TV. In the area nView Display 
+Mode, select Standard [Dualview], click the Device Settings button, choose 
+Select Output Device, and then select the TV option. 
+8 Click the OK button, and then click OK again. 
+9 When the PC image appears on the TV screen, click Yes to keep the setting. 
+You have 15 seconds to accept this new setting before it reverts to the previous 
+setting. 
+ 
+NOTE: Some PC models can connect more than one display device (CRT 
+monitor, flat panel monitor, TV, etc.) to the PC. You can quickly change where 
+the PC desktop appears by pressing Alt+F5. (Press the Alt key and the F5 key on 
+the keyboard at the same time.) Each time you press the Alt+F5 key 
+combination, the PC desktop appears on the next device. If Alt+F5 does not 
+work, restart the PC and try again.
+
+--- Page 73 ---
+66    user’s guide 
+disabling the tv option 
+When you want to disconnect the TV from your PC, you may need to disable the 
+TV option to return your PC display to its original resolution. 
+1 Right-click an empty area of the screen, and chose Properties. 
+2 Click the Settings tab. 
+3 Click the Advanced button. 
+4 Click the nView tab, click the nView Display Mode in the list on the left, and 
+then select the Standard [Dualview] option. 
+ 
+ 
+CAUTION: If you viewed the PC image on just the TV, do the 
+following: With Standard [Dualview] selected in the area nView 
+Display Mode, click the Device Settings button, choose Select Output 
+Device, and then select the Analog Display option. 
+ 
+5 Click the OK button, and then click OK again. 
+6 When the PC image appears on the monitor screen, click Yes to keep the 
+setting. You have 15 seconds to accept this new setting before it reverts to the 
+previous setting. 
+ 
+disconnecting the tv 
+1 Disable the TV option. See the previous procedure. 
+2 Turn off the TV and the PC. 
+3 Remove the video cable from the TV and the PC. 
+4 Remove the audio cable from the TV and the PC. 
+5 Reconnect your PC speaker cable to the Line Out jack (lime green connector) 
+on the back of the computer.
+
+--- Page 74 ---
+taking care of your pc    
+67 
+protecting your pc from power surges 
+Power surges, for example voltage spikes, power outages, or brownouts may 
+cause software problems. 
+Symptoms of voltage spikes include a flickering video display, unexpected PC 
+startups, and the PC not responding to your commands. A voltage spike can 
+occasionally corrupt or destroy files. Because of this, you should: 
+•  Consistently make backup copies of your data files. 
+And 
+•  Prevent damage from voltage spikes by installing a PC surge suppressor 
+between the electrical outlet and the PC power cord. 
+ 
+using virus protection programs 
+Compaq provides a virus-scanning software program to help protect your PC 
+(select models only). 
+A PC virus can destroy information on the hard disk drive. You can get a virus 
+from infected files that you open from: 
+•  An e-mail message or attachment. 
+•  A file downloaded from the Internet. 
+•  A diskette (floppy disk). 
+•  A CD or DVD disc. 
+ 
+Some viruses affect your PC immediately, while others may activate only if you 
+open a certain file or do not delete the file before a certain date. New types of 
+viruses are invented all the time. 
+The virus-scanning software program on your PC has pre-set options that make 
+your PC safe. After you enable the virus-scanning program, it checks your PC 
+files for viruses. 
+taking care of your pc
+
+--- Page 75 ---
+68    user’s guide 
+The virus-scanning program manufacturer provides free virus scan updates 
+through your Internet connection for an initial period after your PC purchase. 
+You can purchase a subscription service for updates after the initial free period 
+expires. 
+You should take the following precautions to protect your PC: 
+•  Do not open unsolicited e-mail from unknown sources. 
+•  Download files only from sources you feel are safe. 
+•  Always scan documents for viruses before opening them. 
+•  Make sure you have the latest version of your virus-scanning software. 
+ 
+If a software program or your operating system becomes damaged, reinstall the 
+software. Refer to “using application recovery and system recovery“ on page 81 
+for details. 
+increasing available hard disk drive space 
+Your PC comes with a hard disk drive. Depending on your model, the hard disk 
+drive has from 40 gigabytes (GB) to more than 250 GB of total disk space. 
+Your PC comes with preloaded software programs and a partition within the 
+hard disk drive that takes up a certain amount of space on the hard disk drive. 
+Refer to “using the recovery tools cd“ on page 86 for information on how to 
+make this disk space available. 
+unavailable hard disk drive space 
+Preloaded software programs and a partition within the hard disk drive take up 
+a certain amount of space on your hard disk drive. 
+NOTE: The system recovery image is in a partitioned area of the hard disk drive; 
+this disk space is usually not available for your use. 
+The partition: 
+•  Houses a backup version of the operating system and the programs included 
+with the PC. 
+•  Takes up about 5 GB of hard disk drive space, reducing the total amount of 
+space available for your use. 
+•  Can be removed using the Recovery Tools CD (see “using the recovery 
+tools cd“on page 86). 
+ 
+Use the following procedures to: 
+•  View the amount of used and free disk space by using the System Tools Disk 
+Management. 
+•  Uninstall unneeded programs. 
+•  Use the Disk Cleanup utility.
+
+--- Page 76 ---
+taking care of your pc    
+69 
+viewing the amount of used and free disk space 
+1 Click Start on the taskbar. 
+2 Click Control Panel. 
+3 Click Performance and Maintenance, if it is present. 
+4 Double-click Administrative Tools. 
+5 Double-click Computer Management. The Computer Management window 
+opens. 
+6 Double-click Storage. 
+7 Double-click Disk Management (Local). 
+ 
+Information displays for each drive on your PC. You may need to scroll the 
+window to the right to see the capacity and free space sizes. 
+emptying the recycle bin 
+When you delete a file from the hard disk drive, it goes to the Recycle Bin. You 
+can retrieve files from the Recycle Bin until you empty it. When you empty the 
+Recycle Bin, the files are permanently deleted. 
+1 Double-click the Recycle Bin icon on your Windows desktop. 
+2 On the File menu, click Empty the Recycle Bin to delete all files. 
+3 Click Yes to confirm the deletion. 
+ 
+uninstalling programs 
+ 
+ 
+CAUTION: Do not uninstall an unfamiliar program. If you need it, 
+you may not be able to recover it using Application Recovery.  
+ 
+1 Click Start. 
+2 Click Control Panel. 
+3 Double-click Add or Remove Programs, if it is present. 
+4 Click the Change or Remove Programs icon on the left of the screen, if it is 
+not already selected. 
+5 Select the program to uninstall. 
+6 Click the Change/Remove button, and then follow the onscreen instructions.
+
+--- Page 77 ---
+70    user’s guide 
+removing desktop icons 
+You can remove most desktop icons by either deleting them or moving them to 
+an unused icons folder.  
+ 
+ 
+CAUTION: Do not delete unfamiliar desktop icons. Instead, follow 
+the steps to move unfamiliar desktop icons to the Unused Desktop 
+Shortcuts folder. 
+ 
+Delete a desktop icon by right-clicking the icon and then selecting Delete. 
+To move a desktop icon to the Unused Desktop Shortcuts folder: 
+1 Click Start. 
+2 Click Control Panel. 
+3 Click Appearance and Themes, if it is present. 
+4 Double-click Display. 
+5 On the Desktop tab, click Customize Desktop. 
+6 Under Desktop cleanup, click Clean Desktop Now. 
+7 Follow the onscreen instructions. 
+ 
+Retrieve a desktop icon by opening the Unused Desktop Shortcuts folder on 
+your desktop and dragging the icon onto the desktop. 
+cleaning up your hard disk drive 
+As you use your PC and store files, the hard disk drive fills up and becomes 
+cluttered, affecting performance. To manage this, delete files you are not using. 
+1 Close all open programs. 
+2 Click Start on the taskbar. 
+3 Click My Computer. 
+4 Right-click the hard disk drive you want to clean, and click Properties. 
+5 On the General tab, click Disk Cleanup. 
+6 Wait for the calculations to complete. 
+ 
+ 
+CAUTION: Do not delete unfamiliar files. If in doubt, do not delete. 
+ 
+7 Select the types of files you want to delete, click OK, and then click Yes. 
+8 Click OK to close the window.
+
+--- Page 78 ---
+troubleshooting    
+71 
+For help on general and miscellaneous problems you may be experiencing with 
+your PC, refer to the following pages for possible solutions. For more detailed 
+information, press the Help button on your keyboard, or click Start on the 
+taskbar and select Help and Support. 
+To find help for problems with your PC, see the table in this section that 
+describes the symptom, problem, and solution for your situation. Look up the 
+description of the symptom or problem, and try the solution listed. The tables 
+appear in this order: 
+•  Audio 
+•  CD-ROM, CD-RW, DVD-ROM, or DVD Writer Drive 
+•  Diskette (Floppy) Drive 
+•  Display (Monitor) 
+•  Hard Disk Drive 
+•  Hardware Installation 
+•  Internet Access 
+•  Keyboard and Mouse 
+•  Memory 
+•  Power 
+•  Miscellaneous 
+ 
+Some of the symptoms listed may not apply to your PC. For problems relating 
+specifically to the monitor or printer, refer to the equipment documentation. 
+troubleshooting 
+Symptom
+ describes 
+the sign or warning 
+message for the type of 
+problem. 
+Problem identifies one 
+or more reasons why the 
+symptom may have 
+occurred. 
+Solution describes 
+what you should do to 
+try to solve the problem.
+
+--- Page 79 ---
+troubleshooting    
+72 
+audio 
+Symptom Problem  Solution 
+Volume is muted.  Press the Mute button on the keyboard to see if the mute 
+feature is turned on. 
+Or 
+1 Click Start, and then click Control Panel. 
+2 Click Sounds, Speech, and Audio Devices, if it is 
+present, and then double-click Sounds and Audio 
+Devices. 
+3 Click the Mute check box to remove the check mark 
+from the box. 
+Volume is turned down.  Use the keyboard controls to increase the volume. 
+Speakers are turned off.  Check whether speakers are turned on. 
+Speaker cables are not 
+properly connected. 
+Turn off your PC, and reconnect the speakers. 
+PC is in standby mode.  Press the Standby button (select models only) or press the 
+Esc key on the keyboard to resume from standby mode. 
+A passive speaker system is 
+being used. 
+Replace the speaker system with an active speaker system. 
+Active speakers have a power cord and On button, and 
+connect to the Audio Out (green) connector on the PC. 
+No sound is produced. 
+Headphones are 
+plugged in. 
+Unplug the headphones. 
+ 
+ 
+cd-rom, cd-rw, dvd-rom, or dvd writer drive 
+Symptom Problem  Solution 
+Disc is upside down in the 
+drive tray. 
+Reinsert the disc with the label facing up. 
+DVD drive takes longer to 
+start because it has to 
+determine media type being 
+played. 
+Wait at least 30 seconds to let the DVD drive determine the 
+type of media. If it still does not start, read the other 
+solutions listed in this topic. 
+Disc is dirty.  Clean the disc with a CD cleaning kit, available from most 
+PC stores. 
+CD-ROM, CD-RW, DVD-
+ROM, or DVD+RW/+R 
+drive cannot read a disc or 
+takes too long to start. 
+Windows does not detect 
+CD-ROM or DVD-ROM 
+driver. 
+Driver program may be corrupted. Force the software to 
+reinstall it by doing the following: 
+1  Click Start, and then click Control Panel. 
+2  Click Performance and Maintenance, if it is 
+present, and then double-click System. 
+3  Click the Hardware tab, and then click the Device 
+Manager button. 
+4  Click the plus sign (+) next to the DVD/CD-ROM drives, 
+and select the problem drive. 
+5  Click the Action menu item, and select Uninstall. 
+6  Restart your PC: Click Start, click Turn Off 
+Computer, and then click Restart.
+
+--- Page 80 ---
+troubleshooting    
+73 
+cd-rom, cd-rw, dvd-rom, or dvd writer drive (continued) 
+Symptom Problem  Solution 
+Recording audio CDs is 
+difficult or impossible. 
+Wrong disc type or poor 
+quality disc is being used. 
+Verify that you are using the correct disc type (media) for 
+the drive. Try a different brand of disc. 
+Cannot remove a CD or 
+DVD disc. 
+The PC is turned off.  Turn on your PC and press the Eject button to extend 
+the tray. 
+Problem with disc. 
+•  Make sure the disc is clean and undamaged. If 
+recording stopped during a recording session, the disc 
+may be damaged; use a different disc. 
+•  Use the correct type of disc for the type of files you are 
+recording. When using a CD-R disc, make sure it is 
+blank when recording music, and is blank or 
+appendable (disc with space to add more data files) 
+when recording data. 
+•  Make sure the label is face up and centered in the tray. 
+Problem with drive.  •  Make sure the disc is in the correct drive. 
+•  Make sure the recording disc tray is clean and 
+undamaged. 
+•  Select a slower write speed for the recording drive. Refer 
+to the Help menu in the RecordNow! recording program 
+to choose the speed. 
+Cannot create (burn) a CD. 
+Problem with PC operation. 
+•  Close all software programs and windows before 
+recording. 
+•  If you are on a network, copy the files from a network 
+drive to your hard disk drive first, and then record them 
+to disc. 
+•  Restart the PC and try again. 
+ 
+ 
+diskette (floppy) drive (select models only) 
+Symptom Problem  Solution 
+A non-formatted diskette has 
+been inserted. 
+To format the diskette: 
+1  Click Start, and then click My Computer. 
+2  Right-click the 3½ Floppy (A:) icon. 
+3  Select Format. 
+4  Select the desired options, and click Start to begin 
+formatting the diskette. 
+Diskette is damaged. 
+Use a new diskette. 
+PC is unable to read the 
+diskette (floppy disk). 
+Diskette drive has failed.  Press the Help ? button on the keyboard to open the Help & 
+Support Center, or refer to the Warranty & Support Guide 
+to contact Support for replacement details. 
+Invalid system disk message 
+displays. 
+A diskette has been left in 
+the drive during startup. 
+When drive activity stops, remove the diskette and press the 
+Spacebar. The PC should start up.
+
+--- Page 81 ---
+74    user’s guide 
+diskette (floppy) drive (select models only) (continued) 
+Symptom Problem  Solution 
+Diskette is improperly 
+inserted. 
+Remove the diskette, and reinsert it: Insert the diskette with 
+the round metal disk facing-down and the arrow on the top 
+pointing into the drive, and then push the diskette in until it 
+stops. 
+Diskette drive activity light 
+stays on. 
+Diskette drive is damaged.  Press the Help ? button on the keyboard to open the Help & 
+Support Center, or refer to the Warranty & Support Guide 
+to contact Support for replacement details. 
+Diskette is full or the file is 
+too big. 
+Use another diskette or compress the file to reduce its size. 
+Diskette is write-protected.  Slide the write-protection tab to the unlocked position on the 
+diskette. 
+File Save command was not 
+properly executed. 
+When saving information to the diskette drive, verify that 
+you are using the correct drive letter. 
+Diskette is damaged.  Replace the diskette. 
+Diskette drive cannot save 
+(write) information to the 
+diskette. 
+Diskette is not formatted. 
+To format the diskette: 
+1  Click Start, and then click My Computer. 
+2  Right-click the 3½ Floppy (A:) icon. 
+3  Select Format. 
+4  Select the desired options, and click Start to begin 
+formatting the diskette. 
+ 
+NOTE: If you encounter display (monitor) problems, refer to the documentation that came with your monitor 
+and to the common causes and solutions listed in this table. 
+display (monitor) 
+Symptom Problem  Solution 
+Monitor power cable is not 
+connected to the monitor or 
+to the wall outlet. 
+Reconnect the power plug on the back of the monitor and 
+on the wall outlet. 
+Screen is blank, and monitor 
+power light is not lit. 
+Monitor is off (not 
+turned on). 
+Press the On button on the front of the monitor. 
+Screen saver is enabled.  Press any key or move the mouse to make the screen 
+display visible again. 
+PC is in standby mode.  Press the Standby button (select models only) or press the 
+Esc key on the keyboard to resume from standby mode. 
+PC is in hibernation mode or 
+is off. 
+Press the On button to turn on the PC. 
+Screen is blank. 
+Monitor connector cable is 
+not properly connected to 
+the back of the PC. 
+Inspect the monitor video connector for bent pins. If no pins 
+are bent, reconnect the monitor connector cable on the 
+back of the PC. 
+Images on the screen are 
+too large or too small, or the 
+images are fuzzy. 
+The screen resolution setting 
+may not be set to your liking 
+or may not be the best for 
+your monitor. 
+Adjust the monitor resolution setting in Windows. See 
+“adjusting the monitor” on page 30 for instructions. See 
+your monitor documentation for the best resolution for your 
+monitor.
+
+--- Page 82 ---
+troubleshooting    
+75 
+hard disk drive 
+Symptom Problem  Solution 
+PC seems to be locked up 
+and not responding. 
+Program in use has stopped 
+responding to commands. 
+Use the Windows Task Manager to close any programs not 
+responding or to Restart the PC: 
+1 Press the Ctrl, Alt, and Del keys on the keyboard at the 
+same time. 
+2 Select the program that is not responding, and click 
+End Task. 
+Or 
+Click Shut Down and then click Restart. 
+If this does not work, press the On button for 4 or more 
+seconds to turn off the PC. Then, press the On button. 
+Hard disk drive error 
+message displays. 
+Part of hard disk drive has 
+failed or is about to fail. 
+Press the Help ? button on the keyboard to open the Help & 
+Support Center, or refer to the Warranty & Support Guide 
+to contact Support for replacement details. 
+ 
+ 
+hardware installation 
+Symptom Problem  Solution 
+Device driver is not 
+installed. 
+Install the device driver from the CD or diskette provided 
+with the device, or download and install the driver from the 
+device manufacturer’s Web site. 
+You may need an updated driver for Windows XP. Contact 
+the device vendor directly for an update. 
+For HP peripherals, visit the HP Web site. Refer to the 
+Warranty & Support Guide for details. 
+Device connector is not 
+seated or connected 
+properly. 
+Ensure that the device is properly and securely connected 
+and that the pins in the connector are not bent down. 
+Cable(s) of new external 
+device are loose, or power 
+cables are unplugged. 
+Ensure that all cables are properly and securely connected 
+and that the pins in the cable or connector are not bent. 
+Power switch of new device 
+is not turned on. 
+Turn off the PC, turn on the external device, and then turn 
+on the PC to integrate the device with the PC system. 
+When the system advised 
+you of changes to the 
+configuration, you did not 
+accept them. 
+Restart the PC, and follow the instructions for accepting the 
+changes. 
+A new device is not 
+recognized as part of the 
+system. 
+A Plug and Play card may 
+not automatically configure 
+when added if the default 
+configuration conflicts with 
+other devices. 
+Deselect the automatic settings in the operating system for 
+the card, and choose a basic configuration that doesn’t 
+cause a resource conflict. 
+You can also reconfigure or disable devices to resolve the 
+resource conflict. 
+New device does not work.  Cannot install new device 
+driver. 
+You must be logged in as the computer administrator to 
+install or uninstall a device driver. To switch users, click 
+Start, click Log Off, and then click Switch User; choose 
+the computer administrator user. (The computer 
+administrator is usually the user Owner.)
+
+--- Page 83 ---
+76    user’s guide 
+hardware installation (continued) 
+Symptom Problem  Solution 
+New or existing device does 
+not work after installing a 
+new device. 
+A hardware device conflict 
+exists. 
+To resolve a device conflict, you may need to disable one 
+of the devices or uninstall an old device driver. 
+1  Click Start and choose Control Panel. 
+2  Click Performance and Maintenance, if it is 
+present. 
+3  Double-click the System icon and select the 
+Hardware tab. 
+4  Click the Device Manager button. 
+5  Click the + (plus) symbol next to the problem device 
+and check for exclamation points in a yellow circle near 
+the device icon. The exclamation point means there is a 
+device conflict or problem with the device. Exclamation 
+points do not always appear when a device is not 
+working properly. 
+6  If there is an old or unnecessary device driver listed in 
+the Device Manager, this may be causing the device 
+conflict. To uninstall the old driver for the new device 
+driver to work properly, do the following: Right-click the 
+device, click Uninstall, and then click OK. 
+7  Right-click the device and select Properties. 
+8  If available, click the Resources tab to verify that there 
+is a device conflict. 
+9  Click the General tab to see if your device is enabled 
+and working properly. If it is available, click the 
+Troubleshoot button and follow the onscreen 
+instructions in the device troubleshooter wizard. 
+10  Restart the PC. Click Start, click Turn Off Computer, 
+and then click Restart. 
+ 
+ 
+internet access 
+Symptom Problem  Solution 
+Internet Service Provider 
+(ISP) account is not set up 
+properly. 
+Verify Internet settings, or contact your ISP for assistance. 
+Modem is not set up 
+properly. 
+Reconnect the modem, verifying connections; see page 7. 
+Note that your PC may also have an Ethernet network 
+interface (also called a network interface card, or NIC) that 
+connects to a LAN (Local Area Network). Although it looks 
+similar to the modem connector, the RJ-45 Ethernet network 
+connector is not the same. Verify that you are using the 
+modem connector. Do not connect a telephone cable to the 
+NIC. Do not plug a network cable into a telephone service 
+line; doing so may damage the NIC. 
+Cannot connect to the 
+Internet. 
+Web browser is not set up 
+properly. 
+Verify that the Web browser is installed and set up to work 
+with your ISP.
+
+--- Page 84 ---
+troubleshooting    
+77 
+internet access (continued) 
+Symptom Problem  Solution 
+Cannot automatically start 
+Internet programs. 
+You must log in to your ISP 
+before some programs will 
+start. 
+Log in to your ISP, and start the desired program. 
+Internet takes too long to 
+download Web sites. 
+Modem is not set up 
+properly. 
+Verify that the correct modem speed and COM port are 
+selected: 
+1 Click Start, and then click Control Panel. 
+2 Click Printers and Other Hardware, if it is present. 
+3 Double-click Phone and Modem Options. 
+4 Select the Modems tab, and then click the Properties 
+button. 
+5 In the Device status area, verify the modem is working 
+properly. 
+6 In the Device usage area, verify the modem is enabled. 
+7 If there are further problems, click the Troubleshoot 
+button and follow the onscreen instructions. 
+The AOL program comes up 
+even it is not being used. 
+The PC is still trying to use 
+AOL for Internet access. 
+You may want to remove the AOL program. 
+To uninstall AOL: 
+1 Click Start on the taskbar. 
+2 Click Control Panel. 
+3 Double-click Add or Remove Programs. 
+4 Select America Online, click Change/Remove, and 
+then click Yes when the confirmation window opens. 
+NOTE: Removing the AOL program will not cancel your 
+account with AOL. 
+ 
+ 
+keyboard and mouse 
+Symptom Problem  Solution 
+Keyboard connector is not 
+properly connected. 
+Turn off the PC by using the mouse, reconnect the keyboard 
+to the back of your PC, and turn on your PC. 
+Program in use has stopped 
+responding to commands. 
+Restart or turn off your PC using the mouse. 
+Keyboard commands and 
+typing are not recognized 
+by the PC. 
+Keyboard is damaged.  Press the Help ? button on the keyboard to open the Help & 
+Support Center, or refer to the Warranty & Support Guide 
+to contact Support for replacement details. 
+Cursor will not move using 
+the arrow keys on the 
+keypad. 
+The Num Lock key may 
+be on. 
+Press the Num Lock key. The Num Lock light should not be 
+on if you want to use the arrow keys in the number keys 
+group. 
+The keyboard Print button 
+does not work. 
+Some programs do not 
+recognize the Print button. 
+Use the Print menu item in the program. 
+Wireless keyboard does not 
+work after installation or is 
+not detected. 
+Keyboard batteries are low 
+or empty. 
+Replace the two AA alkaline batteries in the wireless 
+keyboard; then set the ID channel by pressing the Connect 
+button on the wireless receiver and then on the keyboard. 
+Refer to the documentation that came with your wireless set.
+
+--- Page 85 ---
+78    user’s guide 
+keyboard and mouse (continued) 
+Symptom Problem  Solution 
+Mouse connector is not 
+properly plugged into the 
+back of the PC. 
+Turn off your PC using the keyboard: 
+1  Press the Ctrl and Esc keys on the keyboard at the same 
+time to display the Start menu. 
+2  Use the up or down arrow key to select Turn Off 
+Computer, and then press the Enter key on the 
+keyboard. 
+3  Use the up or down arrow key to select Turn Off, and 
+then press the Enter key. 
+After the shutdown is complete, plug the mouse connector 
+into the back of your PC and turn on your PC. 
+Mouse does not respond to 
+movement or is too slow. 
+Program in use has stopped 
+responding to commands. 
+Restart your PC by using the keyboard. If possible, save any 
+open files and close open applications before restarting. 
+Mouse roller ball is dirty.  Remove roller ball cover from bottom of mouse and clean 
+the ball with a damp, lint-free cloth (not paper). 
+Mouse moves only vertically 
+or horizontally. 
+Mouse is damaged.  Press the Help ? button on the keyboard to open the Help & 
+Support Center, or refer to the Warranty & Support Guide 
+to contact Support for replacement details. 
+Mouse is not connected 
+properly. 
+Try unplugging and then reconnecting the mouse cable to 
+your PC. 
+Mouse does not work after 
+installation or is not 
+detected. 
+Wireless mouse batteries 
+are low or empty. 
+Replace the two AA alkaline batteries in the mouse; then set 
+the ID channel by pressing the Connect button on the 
+wireless receiver and then on the mouse. Refer to the 
+documentation that came with your wireless set. 
+The optical sensor uses the 
+pattern of the surface to 
+track the position of the 
+cursor. Reflective surfaces, 
+grooved surfaces, glass, or 
+other see-through surfaces 
+inhibit the ability of the 
+sensor to track the cursor. 
+Place the mouse on a mousepad or white sheet of paper. 
+Optical mouse does not 
+track cursor well. 
+Mouse sensor is dirty.  Wipe the light sensor lens on the bottom of the mouse with 
+a lint-free cloth (not paper). 
+Mouse cursor moves 
+too fast. 
+The wireless mouse moves 
+the cursor more quickly than 
+a standard mouse. 
+Adjust the mouse speed. See page 21. 
+ 
+ 
+memory 
+Symptom Problem  Solution 
+Insufficient memory message 
+is displayed. 
+All memory in the PC is 
+being used by open 
+programs, and memory is 
+needed for a desired task. 
+Close all open programs, and then try desired task again. 
+Or 
+Restart your PC: 
+1  Click the Start button. 
+2  Click Turn Off Computer. 
+3  Select Restart.
+
+--- Page 86 ---
+troubleshooting    
+79 
+power 
+Symptom Problem  Solution 
+PC is not securely connected 
+to an external power source. 
+Ensure that cables connecting the PC to the external power 
+source are plugged in properly. 
+Monitor is not connected or 
+is not on. 
+Connect the monitor to the PC, plug it in, and turn it on. 
+Line voltage selection switch 
+is not in the proper position 
+for your country/region 
+(115V/230V). 
+Set the line voltage selection switch to the correct setting for 
+your country/region, or refer to the Warranty & Support 
+Guide to contact Support. 
+Wall outlet is defective.  Test the outlet by connecting a different electrical device to 
+the outlet. 
+Wrong memory modules 
+were used in an upgrade, or 
+memory modules were 
+installed in the wrong 
+location. 
+Reinstall the old memory to return your PC to its original 
+state. Refer to “upgrading and servicing the pc” for 
+instructions. 
+Hard disk drive is damaged.
+ 
+Press the Help ? button on the keyboard to open the Help & 
+Support Center, or refer to the Warranty & Support Guide 
+to contact Support for replacement details. 
+PC will not turn on and/or 
+start. 
+After an upgrade or repair, 
+the drive power, data, or 
+power supply cables may 
+not be properly connected. 
+Reseat drive power, data, and power supply cables. See 
+the “upgrading and servicing the pc” for instructions. 
+PC appears locked up 
+and won’t turn off when 
+the On button is pressed. 
+PC is not working.  Press and hold the On button until the PC turns off. 
+The unit temperature was 
+exceeded.  
+Unit is in an exceedingly hot environment. Let it cool down. 
+Ensure PC air vents are not blocked and internal fan is 
+running. Note that your PC may not have an internal fan. 
+The unit temperature was 
+exceeded because the PC 
+was functioning with the 
+cover or access panel 
+removed. 
+Replace cover or access panel, and let the PC cool down 
+before attempting to turn on power to the PC. 
+PC powered off 
+automatically. 
+Processor or system fan has 
+failed. 
+Refer to the Warranty & Support Guide to contact Support 
+for replacement details. Note that your PC may not have an 
+internal fan. 
+ 
+ 
+miscellaneous 
+Symptom Problem  Solution 
+PC date and time display is 
+incorrect. 
+RTC (real-time clock) battery 
+may need to be replaced. 
+Battery life is approximately 
+3–5 years. 
+First, reset the date and time in your operating system by 
+using the Control Panel. If the problem persists, replace the 
+battery. See the “upgrading and servicing the pc” for 
+instructions, or refer to the Warranty & Support Guide to 
+contact Support for replacement details. 
+Printer has problems.   Printer will not print correctly 
+or at all. 
+If you encounter printer problems, refer to the 
+documentation that came with your printer.
+
+--- Page 88 ---
+using application recovery and system recovery    
+81 
+The PC uses the operating system and installed software programs during 
+normal operation. If your PC works improperly or stops because of the software, 
+you may be able to repair it. 
+You need recovery discs (CDs or DVDs) for some repairs that use the Compaq 
+Application Recovery program or the Compaq System Recovery program. The 
+PC does not include recovery discs in the accessory box, but you can make your 
+own recovery CDs or DVDs; see “creating recovery cds/dvds” on page 84. 
+ 
+ 
+CAUTION: It is strongly recommended you create your recovery 
+discs before you need them. 
+ 
+You should also make the Compaq Recovery Tools CD. This CD contains 
+utilities that allow you to make changes to your hard disk drive, including 
+removing the recovery partition. See “using the recovery tools cd” on page 86. 
+There are several methods to fix your PC, including using the System Recovery 
+program. Try these methods in the order listed here, or refer to the table that 
+follows the list. 
+•  Restart   When you restart the computer, the PC starts over using the operating 
+system and software in its memory. This is the simplest repair for your PC; 
+just click Start, choose Turn Off Computer, and then click Restart. 
+•  Turn Off Computer   When you turn off the computer and then turn it on 
+again, you force the PC to copy the operating system into its memory and to 
+clear some tracking information. This may eliminate some problems that can 
+remain after performing a Restart. Refer to “turning off the pc“ on page 11. 
+•  Driver Rollback   This Microsoft Windows XP feature is part of the Windows 
+Installer program used with the Add or Remove Programs utility in the Control 
+Panel. It can revert to the previous version of a driver program if an 
+installation fails when you are installing a new version of the driver program. 
+For more information, type Rollback into the Search box in Help and Support. 
+using application recovery and 
+system recovery
+
+--- Page 89 ---
+82    user’s guide 
+•  System Restore   This Microsoft Windows XP feature creates a restore point 
+where it records the PC settings at that time and date. You can later return the 
+PC to the settings recorded at the restore point. You can create a specific 
+restore point, or have the operating system create a restore point. For 
+example, when you use Add Programs to add a software program, the 
+operating system automatically creates a restore point before it adds the 
+software. Use System Restore to return the PC to the settings the PC had 
+before you installed the program. For more information, type System Restore 
+into the Search box in Help and Support. 
+•  Application and Driver Recovery   If the problem with the PC seems to be 
+with only one program or one driver, it may be that the application program 
+or the driver program is damaged. You can reinstall individual factory-
+installed application programs and driver programs by using the Compaq 
+Application Recovery program (select models only); see “application 
+recovery“ on page 87. 
+•  System Recovery   Use the Compaq System Recovery program as a last resort 
+to reinstall the software. Perform System Recovery using the hard disk drive 
+partition first; see “system recovery“ on page 87. If necessary, next perform 
+System Recovery using the recovery discs and choose Standard Recovery; see 
+“starting system recovery using recovery discs” on page 89. Finally, if 
+necessary, perform System Recovery using the recovery discs and choose 
+full System Recovery. 
+ 
+Before using the Compaq System Recovery program or the Compaq Application 
+Recovery program, use System Restore.  
+NOTE: Your PC hard disk drive contains the System Recovery image in a 
+partition area of the disk drive. The PC does not include recovery discs in the 
+accessory box, but you can make your own recovery CDs or DVD; see “creating 
+recovery cds/dvds” on page 84. 
+When your PC stops working correctly, the Restart, Turn Off Computer, and 
+Driver Rollback methods (described above) may resolve the problem. After you 
+have tried these three methods, if needed, try the remaining actions, using the 
+table that follows as a quick reference.
+
+--- Page 90 ---
+using application recovery and system recovery    
+83 
+For the specific PC problem, try the method listed as #1, then #2, and then #3.  
+ 
+ 
+ 
+ 
+Problem/Status 
+ 
+ 
+Microsoft 
+System 
+Restore 
+ 
+ 
+Application 
+Recovery 
+program 
+System 
+Recovery 
+from the 
+hard disk 
+partition 
+System 
+Recovery 
+from the 
+recovery 
+CDs/DVDs 
+You installed a new 
+application or 
+device driver. 
+1    
+An application 
+does not work. 
+1 2 3   
+A device driver 
+does not work. 
+ 1 2  
+PC stops 
+responding or does 
+not work. 
+1  2 3 
+You replaced the 
+hard disk drive or 
+removed the 
+partition. 
+   1
+
+--- Page 91 ---
+84    user’s guide 
+creating recovery cds/dvds 
+1 You can recover (bring back) the operating system and programs that were 
+included on your hard drive just as they were when you bought the 
+computer.  
+2 You recover the operating system and programs directly from your hard 
+drive, where a copy was placed for your convenience. 
+We call this part of your hard drive the “recovery partition.” 
+The recovery partition takes up some space on your hard drive. 
+3 You can copy the information of this recovery partition onto CDs or DVDs. 
+4 Then, if you would like to make extra space available on your hard drive, you 
+can delete the recovery partition using a special software tool. 
+5 Do not delete your hard drive partition unless you have made recovery CDs 
+or DVDs. 
+ 
+1
+3
+4
+5
+2
+ 
+The recovery discs can be used only with the specified PC model. The discs are 
+licensed for use only with your PC. The recovery CDs/DVD can install the 
+operating system and software on your PC hard disk drive if the software 
+becomes corrupted or is accidentally erased. 
+A hard drive is a disk 
+inside the computer that 
+stores the operating 
+system, programs, 
+and data.
+
+--- Page 92 ---
+using application recovery and system recovery    
+85 
+using recovery cd-dvd creator 
+Make recovery CDs or DVDs for your PC by using the Compaq Recovery 
+CD-DVD Creator program before you experience any problem. 
+The recovery discs set is a complete image of the original PC hard disk drive 
+contents and is matched to your PC model number. The discs set contains the 
+operating system, drivers, and application software that were originally installed 
+on the PC at the factory. 
+You can use this program to make only one set of recovery CDs or DVDs for 
+your PC. The recovery discs you create can be used only on your PC. 
+There are several advantages in using DVDs instead of CDs when creating your 
+recovery discs set: 
+•  With a faster data transfer rate, a set of DVD recovery discs will have your PC 
+running much sooner than a CD set will. 
+•  A set of DVDs will probably take you less time to create than a set of CDs. 
+•  A DVD has more capacity than a CD, so there are fewer discs to record 
+and store. 
+To use this program, your PC must have a CD-RW drive, DVD Writer drive, or 
+other drive that can write to the CDs or DVDs. If necessary, purchase a 
+Windows XP-compatible drive from your local PC or electronics store. 
+The number of CDs/DVDs in the recovery set depends on your PC model. The 
+program tells you the number of blank discs needed to make the set. The process 
+takes some time, including up to 15 minutes per disc to verify that the 
+information written on the disc is correct. 
+You can quit the process at any time. The next time you run the program, it 
+begins where you left off. 
+to run the recovery cd-dvd creator program: 
+1 Close any open programs. To close programs, click X in the upper-right corner 
+of each window. 
+2 Click Start on the taskbar. 
+3 Choose All Programs. 
+4 Choose PC Help & Tools. 
+5 Click Compaq Recovery CD-DVD Creator. The creator window appears. 
+6 Follow the onscreen instructions. Label each disc as you make it. 
+Store the System Recovery discs in a safe place.
+
+--- Page 93 ---
+86    user’s guide 
+using the recovery tools cd 
+Your PC allows you to create (burn) a Recovery Tools CD. After you make the 
+Compaq Recovery Tools CD, you can use it to: 
+•  Read instructions to use each utility on the Recovery Tools CD. 
+•  Start the System Recovery program from the recovery partition. 
+•  Remove the System Recovery partition from your PC hard disk drive to 
+increase space for data. 
+•  Create a new data partition on your PC hard disk drive. 
+•  Start the Microsoft Recovery Console (a utility from Microsoft that can 
+perform operating system diagnostics and repairs). 
+ 
+ 
+ 
+WARNING: Before using the Compaq Recovery Tools CD to change 
+your hard disk drive, make System Recovery CDs for your PC 
+by using the Compaq Recovery CD-DVD Creator program. You 
+cannot make System Recovery CDs after you remove the system 
+recovery partition. 
+ 
+You must create (burn) the Recovery Tools CD before you can use it. 
+to create or to start the recovery tools cd: 
+1 Click Start on the taskbar. 
+2 Choose All Programs. 
+3 Choose PC Help & Tools. 
+4 Click Compaq Recovery Tools CD. The tools window appears. 
+5 Follow the onscreen instructions.  
+Store the Recovery Tools CD in a safe place. 
+ 
+system restore 
+ 
+ 
+WARNING: Try System Restore before using the Compaq System 
+Recovery program. 
+ 
+If software on your hard drive accidentally gets erased or damaged, first use the 
+Microsoft System Restore feature in Windows XP to restore the PC system and 
+program settings. 
+System Restore returns the PC settings to a selected restore point without 
+affecting user programs or document files. For more information, type System 
+Restore into the Search box in Help and Support.
+
+--- Page 94 ---
+using application recovery and system recovery    
+87 
+to start system restore: 
+1 Close all open programs. 
+2 Click the Start button. 
+3 Choose All Programs. 
+4 Choose Accessories. 
+5 Choose System Tools. 
+6 Click System Restore. 
+Follow the onscreen instructions. 
+application recovery 
+NOTE: Not all models include the Application Recovery program. Perform steps 
+3 through 5 of the following procedure. If Compaq Application Recovery appears in 
+the folder, your PC includes the program. 
+If an individual factory-installed application or driver accidentally gets erased or 
+damaged, you can reinstall the software using the Compaq Application 
+Recovery program (select models). 
+NOTE: Do not use the Application Recovery program to reinstall software 
+programs that came on CDs or DVDs included in the PC box. Reinstall these 
+programs directly from the CDs or DVDs. 
+to start application recovery: 
+1 Close all applications and folders. 
+2 Uninstall the existing (damaged) application; see “uninstalling programs“ 
+on page 69. 
+3 Click Start on the taskbar. 
+4 Choose All Programs. 
+5 Choose PC Help & Tools. 
+6 Click Compaq Application Recovery, and then click Yes. 
+7 Click Application Installation or Driver Installation, and then click Next. 
+8 Select the driver or application program to install, and then click Install. 
+9 Follow the onscreen instructions. 
+10 Repeat steps 7 through 9 to install other drivers or applications. 
+11 When you have finished recovering applications or drivers, close the 
+Application Recovery program. Then click Start, click Turn Off Computer, 
+and click Restart to restart the PC. 
+ 
+ 
+WARNING: Do not skip this last step! You must restart the PC when 
+you are finished recovering applications or drivers.
+
+--- Page 95 ---
+88    user’s guide 
+system recovery 
+When other methods of repairing your system software (like System Restore or 
+Application Recovery) fail, you may want to use the Compaq System Recovery 
+program as a last resort to reinstall the software.  
+When necessary, you can reinstall the operating system and the application 
+software that was originally installed on the PC at the factory by using the 
+System Recovery program. 
+ 
+ 
+WARNING: The Compaq System Recovery program will delete any 
+data or programs that you installed after purchase. Be sure to back 
+up any data that you want to keep onto a removable disc. 
+ 
+The System Recovery program uses a special recovery partition on the hard disk 
+that stores an image of the original software. 
+NOTE: The System Recovery image is in a partition area of the hard disk drive 
+and takes up part of the total drive space. This disk space is not usually available 
+for your use. 
+In the unlikely event that you replace the hard disk drive, or somehow damage 
+the data in the special recovery partition on the hard disk drive, use recovery 
+discs to reinstall the operating system and software on the hard disk drive. 
+See ”system recovery using recovery discs“ on page 89. 
+Make your own recovery discs (CDs or DVD) before you need them; see 
+“creating recovery cds/dvds” on page 84. You can also make the Recovery Tools 
+CD. This CD contains utilities that allow you to make changes to your hard disk 
+drive; see “using the recovery tools cd” on page 86.  
+starting system recovery if the pc is responding 
+1 Turn off the PC. Disconnect all peripheral devices from the PC except the 
+monitor, the keyboard, and the mouse. Turn on the PC. 
+2 Click Start on the taskbar, choose All Programs, choose PC Help & Tools, and 
+then click Compaq System Recovery.  
+3 Wait until the System Recovery window appears asking Do you really want to 
+start System Recovery? 
+4 Click Yes to continue with the recovery process. If you created recovery discs, 
+you may be directed to insert recovery disc #1. 
+5 The PC starts the recovery; wait for the onscreen instructions to display, and 
+then follow those instructions.  
+6 Complete the PC startup, and finish the registration process; then reconnect 
+all peripheral devices.
+
+--- Page 96 ---
+using application recovery and system recovery    
+89 
+starting system recovery if the pc is not responding 
+1 Turn off the PC. If necessary, press and hold the On button until the PC 
+turns off. 
+2 Disconnect all peripheral devices from the PC except the monitor, the 
+keyboard, and the mouse.  
+3 Press the On button to turn the PC on. 
+4 During the startup, do the following to enter the System Recovery program: 
+When the black screen with the Compaq logo appears, press the F10 key on 
+the keyboard. (You have only a few seconds to press the F10 key before the 
+normal startup process continues.) 
+5 The PC starts the recovery; wait for the onscreen instructions to display, and 
+then follow those instructions.  
+6 Complete the PC startup, and finish the registration process. Then reconnect 
+all peripheral devices. 
+system recovery using recovery discs 
+Make your own recovery CDs/DVDs before you need them; recovery discs are 
+not included with your PC. See “creating recovery cds/dvds” on page 84. 
+starting system recovery using recovery discs 
+The recovery discs provide two recovery options: 
+•  Standard Recovery: This option recovers factory-shipped programs, drivers, 
+and the operating system without affecting any data files that you may have 
+created since purchasing this PC. Some data files may be difficult to find after 
+the System Recovery, so it is best to back up all hard disk drive files before 
+performing a System Recovery. 
+•  Full System Recovery: This recovery function completely erases and 
+reformats the hard disk drive. The program performs a full System Recovery 
+to reinstall the operating system, programs, and drivers from the recovery 
+discs. However, you must reinstall any software that was not installed on the 
+PC at the factory. This includes software that came on CDs included in the PC 
+accessory box, and software programs you installed since your purchase. 
+NOTE: If your PC has a blank or corrupted hard disk drive, you will see only the 
+full System Recovery option.
+
+--- Page 97 ---
+90    user’s guide 
+to run system recovery program using recovery discs: 
+1 If the PC works, back up all data files that you want to save onto removable 
+media, such as CD-RW or diskette. Remove the backup CD or diskette 
+you’ve made. 
+2 Press the Eject button on the top disc drive, and wait for the tray to open. 
+Insert Recovery disc #1 and close the tray. 
+3 Turn off the PC: 
+•  If the PC works: Click Start on the taskbar, click Turn Off Computer, and 
+then click Tu r n Off . 
+Or 
+•  Press and hold the On button approximately 5 seconds until the PC 
+turns off. 
+4 Disconnect all peripheral devices from the PC except the monitor, the 
+keyboard, and the mouse. 
+5 Press the On button to turn on the PC. 
+6 The PC starts the recovery; wait for the onscreen instructions to display, and 
+then follow those instructions. 
+•  For standard recovery, press R. Click Next to proceed with the System 
+Recovery. Click Yes to start the recovery. Insert the remaining recovery 
+discs when directed. 
+Or 
+•  For full System Recovery, press F. Click Yes to perform a full System 
+Recovery. Confirm that you want to create a recovery partition. Insert the 
+remaining discs when directed. 
+Or 
+•  If your PC hard disk drive is blank or corrupted, press R to perform a full 
+System Recovery. Insert the remaining recovery discs when directed. 
+7 When the recovery program finishes, click Restart to restart the PC. 
+8 Before the PC restarts, the drive tray ejects. Remove the disc. 
+9 After the PC restarts, a series of startup screens appear.s To proceed with the 
+initial Microsoft Windows setup, you must answer a few questions. 
+10 Complete the registration process, and then reconnect all peripheral devices. 
+11 Reinstall software not originally installed on the PC by the factory. 
+12 Copy data files that you saved on the backup CD or diskette you made to 
+your hard disk drive.
+
+--- Page 98 ---
+upgrading and servicing the pc    
+91 
+This chapter describes procedures for accessing the internal parts of the PC and 
+installing components. 
+NOTE: The procedures for the S0000 and 8000 series models are the same except 
+where noted. 
+ 
+ 
+IN
+ 
+ 
+  8000 series model and S0000 series model 
+preparing the pc 
+Before you upgrade any component in your PC, you need to prepare the PC so 
+that you can safely handle it and the components. 
+ 
+ 
+CAUTION: Static electricity can damage the electronic components 
+of the PC or optional equipment. Ensure that you are discharged of 
+static electricity by briefly touching a grounded metal object. 
+upgrading and servicing the pc
+
+--- Page 99 ---
+92    user’s guide 
+1 Remove any diskette or optical disc (CD or DVD) from the PC. 
+2 Click the Start button, and then click Turn Off Computer. Click Tu r n  O f f  to 
+turn the PC off. 
+3 Disconnect the modem/telephone cable, if present. 
+4 Disconnect the power cord from the electrical outlet (1) and then from 
+the PC (2). 
+ 
+   
+  disconnecting the power cord 
+ 
+ 
+WARNING: To reduce the risk of personal injury from electrical 
+shock and/or hot surfaces, disconnect the power cord from the 
+wall outlet, and allow the internal system components to cool 
+before touching. 
+ 
+5 Disconnect all external devices connected to the PC. 
+6 Lay the PC on its side with the access panel (the side with the pull grip) 
+facing up. 
+7 Remove the access panel by loosening the screw(s) (1) that secure the access 
+panel to the PC chassis. Slide the access panel back (2) about 1 inch (2.5 cm), 
+and then lift it up and off the unit. 
+ 
+ 
+  removing the pc access panel on the S0000 series model
+
+--- Page 100 ---
+upgrading and servicing the pc    
+93 
+ 
+WARNING: Beware of sharp edges inside the chassis. 
+ 
+   
+  removing the pc access panel on the 8000 series 
+8 Remove the front bezel by following the appropriate method for your PC 
+model: 
+•  To remove the front bezel from the S0000 series model, gently pry the top 
+section (1) of the bezel away from the chassis. On the inside of the front 
+bezel, press the center two tabs (not the bottom tabs) to release the bezel, 
+and then pull it from the chassis (2). 
+  
+ 
+    removing the front bezel from the S0000 series
+
+--- Page 101 ---
+94    user’s guide 
+•  To remove the front bezel from the 8000 series, push up on the two 
+release tabs (1), and then rotate the front bezel away from the chassis to 
+release it (2). 
+  
+ 
+    removing the front bezel from the 8000 series 
+ 
+removing or upgrading a drive 
+Depending on your PC configuration, you may have up to four of the following 
+storage drives in your PC. 
+•  CD-ROM or CD-RW drive 
+•  DVD-ROM or DVD+RW/+R drive 
+•  Hard disk drive 
+•  Diskette drive 
+•  7-In-1 memory card reader (select models only) 
+ 
+You need a screwdriver to replace any of the drives. 
+ 
+ 
+CAUTION: Back up your personal files on the hard disk 
+drive to an external storage device, such as a CD, before 
+removing the hard disk drive. Failure to do so will result in 
+data loss. After replacing the hard disk drive, you need to 
+run System Recovery using the recovery discs to load the 
+factory-installed files. See “using application recovery and 
+system recovery” for details.
+
+--- Page 102 ---
+upgrading and servicing the pc    
+95 
+locating drive positions 
+ 
+drive positions on the S0000/8000 series (S0000 shown) 
+ 
+removing a drive 
+1 Locate the drive you want to remove. 
+2 Complete the procedure described in “preparing the pc“ on page 91. 
+3 Disconnect the power cable (1) and data cable (2) from the back of the drive 
+you want to remove, as indicated in the following illustrations. Use a gentle 
+rocking motion. Some units may have a sound cable. If so, disconnect the 
+sound cable (3). 
+ 
+ 
+  disconnecting the optical drive cables 
+ 
+1  Optical drive, may be 
+a CD-ROM, CD-RW, 
+DVD-ROM, or 
+DVD+RW/+R drive 
+2  Second optical drive, 
+may be a DVD-ROM, 
+DVD+RW/+R, CD-
+ROM, CD-RW drive, 
+or 7-In-1 memory 
+card reader (select 
+models only) 
+3  Diskette (floppy) drive 
+4  Hard disk drive
+
+--- Page 103 ---
+96    user’s guide 
+ 
+ 
+  disconnecting the 7-in-1 memory card reader cable 
+   
+  disconnecting the diskette (floppy) drive cables 
+   
+  disconnecting the hard disk drive cables
+
+--- Page 104 ---
+upgrading and servicing the pc    
+97 
+4 Release the drive from the chassis by following the method appropriate for 
+your PC model. 
+•  To release a drive from the chassis of the S0000 series, lift the release tab (1) 
+on the latch drive bracket of the drive you want to remove, and then slide 
+the drive from its drive bay (2). (The latch drive bracket secures the drives 
+in their respective positions in the chassis.) 
+  
+ 
+    removing a drive from the S0000 series 
+•  To release an optical drive or diskette drive from the chassis of the 8000 
+series, slide the drive lock mechanism (1) to unlock the drive in the drive 
+bay and pull the drive out of the drive bay (2). 
+  
+ 
+    removing an optical or diskette drive from the 8000 series
+
+--- Page 105 ---
+98    user’s guide 
+•  To release a hard disk drive from the chassis of the 8000 series, slide the 
+drive lock mechanism (1) to unlock the drive in the drive bay, remove the 
+metal drive shield (2) by pressing and lifting the two tabs on one side of the 
+shield, and then pull the drive out of the drive bay (3). 
+  
+3
+1
+4
+2
+ 
+    removing a hard disk drive from the 8000 series 
+5 For both the S0000 and 8000 series, if you are replacing the old drive with a 
+new drive, remove the four screws (4) (two on each side) from the old drive. 
+You need these screws to install the new drive. 
+NOTE: If you have the S0000 series, and you removed a 7-In-1 memory card 
+reader, continue to step 7; otherwise, you are finished with the task of 
+removing a drive from the chassis.  
+If you have the 8000 series and you removed a hard disk drive, a 7-In-1 
+memory card reader, or an optical drive, you are also finished with this 
+task. If you have the 8000 series and you removed a diskette drive, continue 
+to step 6. 
+6 For an 8000 series diskette drive, squeeze inward on both sides of the bracket 
+brace and lift the brace up and out (1). Remove the two sets of screws (2) (left 
+and right sides) that secure the drive to the drive adapter. Lift the diskette 
+drive out of the drive adapter (3) by sliding the drive back and then up. 
+Ensure that the guide screws (4) (left and right sides) are left in the drive 
+adapter. You are finished with the task of removing the drive. 
+ 
+2
+2
+3
+1
+2
+4
+ 
+  removing a diskette drive from the drive adapter on the 8000 series
+
+--- Page 106 ---
+upgrading and servicing the pc    
+99 
+7 For the S0000 series 7-In-1 memory card reader, remove the reader from the 
+drive bay adapter if the adapter is not included with your replacement reader. 
+Remove the two screws (left and right sides) that secure the reader to the 
+adapter. Lift the reader out of the adapter by sliding the reader back and then 
+up. You are finished with the task of removing the reader. 
+ 
+ 
+  removing a 7-in-1 memory card reader from the drive bay adapter on 
+the S0000 series 
+ 
+replacing or adding a drive 
+The steps to replace or add a drive are the same for both the S0000 and 8000 
+series, except when you are replacing a diskette drive on the 8000 series, or the 
+7-In-1 memory card reader on the S0000 series. 
+If you are replacing a diskette drive on the 8000 series, before starting step 1 in 
+the following instructions, you need to fit the diskette drive in a diskette drive 
+adapter as described in “reassembling the diskette adapter“ on page 101. 
+If you are replacing a 7-In-1 memory card reader, before starting step 1 in the 
+following instructions, reassemble the reader in the drive bay adapter as 
+described in step 7 of “removing a drive“ on page 95.  
+If you are replacing or adding any other drive, begin with step 1 in the following 
+instructions. 
+to replace or add a drive 
+1 Install four guide screws on the sides of the drive (two on each side). The 
+screws help guide the drive into its proper position in the bay. 
+•  When replacing a drive on the S0000 and 8000 series, place the screws that 
+you removed from the old drive in the new drive. 
+•  When adding a second hard disk drive on the 8000 series, use the four 
+extra guide screws that are attached to the chassis under the front bezel.
+
+--- Page 107 ---
+100    user’s guide 
+2 Slide the drive into the drive bay (1), making sure to align the guide screws 
+with the guide slots, until it snaps into place. 
+ 
+ 
+  sliding the drive into the drive bay on the S0000/8000 (S0000 shown) 
+3 Reconnect the power and data cables to your drive as indicated in the 
+following illustrations. 
+ 
+ 
+  reconnecting the 7-in-1 memory card reader cable on the S0000 series 
+   
+  reconnecting the diskette drive cables
+
+--- Page 108 ---
+upgrading and servicing the pc    
+101 
+ 
+ 
+  reconnecting the hard disk drive cables 
+   
+  reconnecting the optical drive cables 
+NOTE: An optical drive for the 8000 series may include a sound cable. 
+Connect this cable also. 
+4 Complete the procedure described in “reassembling the pc“ on page 107. 
+5 Turn on the PC. 
+ 
+reassembling the diskette adapter 
+To replace or add a new diskette (floppy) drive on the 8000 series, you need to 
+reassemble the adapter around the diskette drive. (The S0000 series does not 
+need an adapter.) 
+1 Lower the diskette drive into the adapter (1). Ensure that the holes are 
+aligned, and reinstall the screws (2) that secure the diskette drive to the 
+adapter. 
+2 Press inward on each side of the bracket brace (3), and lower the bracket until 
+it snaps into place over the diskette drive. Ensure that the guide screws (4) are 
+installed in the adapter.
+
+--- Page 109 ---
+102    user’s guide 
+3 Return to “replacing or adding a drive“ on page 99, and begin with step 1. 
+ 
+2
+2
+1
+3
+2
+4
+ 
+  replacing the diskette drive adapter on the 8000 series 
+ 
+upgrading or replacing memory 
+Your PC comes with random access memory (RAM), which temporarily stores 
+data and instructions on your PC. You can install memory expansion modules in 
+the memory expansion slots in the PC. The procedures for upgrading or 
+replacing these modules are the same for the S0000 and 8000 series. 
+removing a memory module 
+ 
+ 
+CAUTION: When handling a memory module, be careful not to 
+touch any of the contacts. Doing so may damage the module. 
+ 
+1 Complete the procedure described in “preparing the pc“ on page 91, but do 
+not remove the front bezel. 
+2 Locate the memory module inside your PC. See the following illustration for 
+the location of the memory modules (1), memory slots (2), and release latches 
+(3) on the system board. 
+ 
+ 
+  locating the memory module
+
+--- Page 110 ---
+upgrading and servicing the pc    
+103 
+NOTE: The location and number of memory modules may vary slightly 
+by model. 
+3 Open both latches of the memory module socket (1) found at each end of the 
+memory module. Lift the memory module (2) from the memory slot. 
+ 
+ 
+  removing a memory module 
+ 
+replacing or adding a memory module 
+Upgrade the memory in your PC with memory of the same type and speed as 
+the memory originally installed in your PC. 
+ 
+ 
+CAUTION: When handling a memory module, be careful 
+not to touch any of the contacts. Doing so may damage 
+the module. 
+ 
+1 Open both latches of the memory module socket (1). 
+ 
+ 
+  opening the latches on the memory module socket
+
+--- Page 111 ---
+104    user’s guide 
+•  If you are replacing a memory module, put the new memory module in the 
+same memory slot from which the old memory was removed. 
+•  If you are adding a memory module, install the new module into the socket 
+nearest the preinstalled module, and install additional modules in the next 
+available sockets. 
+2 The memory module can be installed in only one way. Match the notch on the 
+module (1) with the tab on the memory socket. Push the module carefully and 
+firmly into the slot, ensuring that the latches (2) on both ends snap into place. 
+ 
+ 
+  installing a memory module 
+3 Complete the procedure described in “reassembling the pc“ on page 107. 
+ 
+NOTE: If a blank screen is displayed after replacing or adding a memory 
+module, the memory is installed incorrectly or it is the wrong type of memory. 
+Remove and reinstall the memory module. 
+removing or installing an expansion card 
+An expansion card is a circuit board that fits into a PC expansion slot. Your PC 
+contains several expansion slots that can be used to add components to your PC. 
+Component configurations vary by model. 
+Expansion cards you can replace or add to your PC include: 
+•  Modem 
+•  Network Interface Card (NIC) 
+•  Graphics Card 
+•  Sound Card 
+•  FireWire (IEEE 1394) Auxiliary Card 
+ 
+A Phillips screwdriver is needed to remove, replace, or add an expansion card.
+
+--- Page 112 ---
+upgrading and servicing the pc    
+105 
+to remove an expansion card 
+1 Complete the procedure described in “preparing the pc“ on page 91, but do 
+not remove the front bezel. 
+•  To remove an expansion card from the S0000 series, continue to step 2. 
+•  To remove an expansion card from the 8000 series, skip to step 3. 
+2 On the S0000 series, on the rear of the PC, remove the expansion bracket 
+covering the expansion slots by removing the screw from the bracket cover 
+(1), and then remove the expansion bracket cover (2). 
+ 
+ 
+  removing the screw and expansion bracket cover on the S0000 series 
+3 Inside the PC on either the S0000 or 8000 series, locate the expansion slots on 
+the system board. 
+•  If you have the 8000 series, continue to step 4. 
+•  If you have the S0000 series, skip to step 5. 
+4 On the 8000 series, remove the screw that secures the expansion card to the 
+chassis. 
+5 Remove the expansion card from either an S0000 or 8000 series by holding the 
+card at each end and carefully rocking it back and forth until the connectors 
+pull free from the socket. Be sure not to scrape the card against the other 
+components. 
+ 
+ 
+  removing an expansion card on the S0000/8000 (S0000 shown)
+
+--- Page 113 ---
+106    user’s guide 
+6 If you are not replacing the old expansion card with a new expansion card, 
+reinstall the expansion slot cover to close the open slot. Insert the metal slot 
+cover into the opened slot, and screw a screw into the top of the cover to 
+secure it in place. 
+ 
+to install an expansion card 
+1 If you are replacing or adding a new expansion card, in either the S0000 or 
+8000 series, align the edge of the expansion card with the slot on the chassis 
+and gently but firmly press the card straight down into the expansion slot. 
+The whole connector should be seated properly in the expansion slot. 
+ 
+ 
+  replacing or adding an expansion card on the S0000/8000 (S0000 shown) 
+•  If you have an 8000 series, continue to step 2. 
+•  If you have an S0000 series, skip to step 3. 
+2 For the 8000 series, secure the expansion card to the chassis with the slot 
+cover screw. 
+3 For both the S0000 and 8000 series, if you have replaced an expansion card, 
+store the old card in the anti-static packaging that contained your new card. 
+•  If you have an S0000 series, continue to step 4. 
+•  If you have an 8000 series, skip to step 5. 
+4 For the S0000 series, replace the expansion cover bracket (1) and screw (2). 
+ 
+ 
+  replacing the expansion bracket cover on the S0000 series 
+5 For both the S0000 and 8000 series, complete the procedure described in 
+“reassembling the pc“ on page 107.
+
+--- Page 114 ---
+upgrading and servicing the pc    
+107 
+reassembling the pc 
+1 Replace the front bezel by following the method appropriate for your PC 
+model. 
+•  To replace the front bezel on the S0000 series, position the chassis in the 
+upright position. At an angle, align the top of the front bezel with the top 
+slots of the chassis (1) so that the front bezel hooks onto the chassis, and 
+then press the bottom end of the bezel to the chassis until it snaps into 
+place (2). 
+  
+1
+2
+ 
+    replacing the front bezel on the S0000 series 
+•  To replace the front bezel on the 8000 series, lay the chassis on the side with 
+the open side up. Place the front bezel in the correct position. Ensure the 
+slots (2) are aligned correctly, and rotate the bezel toward the chassis (1) 
+until it snaps into place. 
+  
+ 
+    replacing the front bezel on the 8000 series
+
+--- Page 115 ---
+108    user’s guide 
+2 For either the S0000 or 8000 series, place the side access panel in the proper 
+position on the chassis and slide it into place (1). Ensure that the hole for the 
+thumbscrew(s) align with the hole in the chassis (2), and replace the 
+thumbscrew(s). 
+ 
+ 
+  replacing the side access panel on the S0000 series 
+   
+  replacing the side access panel on the 8000 series 
+3 Reconnect the power cable (1) to the PC, and plug the cable into an electrical 
+outlet (2). 
+ 
+ 
+  reconnecting the power cable on the S0000/8000 (S0000 shown)
+
+--- Page 116 ---
+upgrading and servicing the pc    
+109 
+4 Reconnect the modem/telephone cable, if present. 
+5 Reconnect all peripheral devices to the PC. 
+ 
+ 
+WARNING: To reduce the risk of electrical shock, fire, or damage 
+to the equipment, do not plug telecommunications or telephone 
+connectors into the network interface card (NIC) (sometimes 
+labeled as an Ethernet connector). 
+ 
+6 Turn on the PC by pressing the On button.
+
+--- Page 118 ---
+index    
+111 
+5.1 speakers, 45 
+56K modem, 9 
+7-In-1 memory card reader 
+card types, 50 
+drive bay adapter, 99 
+installation, 94 
+using, 50 
+7-In-1 memory card reader cable 
+disconnecting, 96 
+reconnecting, 100 
+A 
+access panel 
+removing, 92 
+replacing, 108 
+adding 
+drive, 99 
+adjusting microphone volume, 49 
+adjusting speaker volume, 46, 72 
+All Programs menu, 18 
+America Online, troubleshooting, 77 
+Application Recovery, 82, 87 
+warning, 87 
+autoscrolling, mouse, 20 
+available hard disk space 
+increasing, 68 
+B 
+browsing the Internet, 37 
+buttons 
+Compaq, 27 
+customizing, 30 
+Eject, 53 
+E-Mail, 28 
+Help, 27 
+mouse, 19 
+mouse scroll wheel, 19 
+Mute, 28 
+Off. See turning off PC 
+On, 10 
+Power, 10 
+Search, 28 
+special keys, 26 
+Standby, 27 
+Start, 16 
+user, 27 
+C 
+cables, for connecting a TV, 63 
+card reader, 7-In-1, 50 
+card types, memory card reader, 50 
+carpal tunnel syndrome, 4 
+CD drive 
+installation, 94 
+CD, creating, 59, 61, 62 
+CD/DVD 
+country/region codes for DVD, 59 
+creating CDs, 59, 61, 62 
+drive types, 52 
+Eject button, 53 
+handling, 52 
+inserting, 53 
+keyboard button, 28 
+opening drive, 53 
+playing music, 55 
+removing, 54, 73 
+terminology for DVD, 57 
+troubleshooting, 71 
+using correct DVD disc, 62 
+closed session music CDs, 60 
+Combo drive, 54 
+Compaq Connections, using, 42 
+Compaq keyboard button, 27 
+Compaq Organize, 17 
+index
+
+--- Page 119 ---
+112    user’s guide 
+components, 10 
+connecting 
+a TV, 63 
+Ethernet, 9 
+multi-channel speakers, 46 
+connectors 
+PC back, 5 
+PC front, 7 
+Control Panel, opening, 16 
+corrupted software, 87 
+country/region codes for DVD, 59 
+creating a DVD, 62 
+creating CDs using CD-RW drive, 
+59, 61, 62 
+creating CDs using Windows Media 
+Player, 61 
+creating CDs with RecordNow!, 60 
+creating recovery discs, 85 
+creating Recovery Tools CD, 86 
+customizing keyboard buttons, 30 
+D 
+desktop, 16 
+desktop icons, removing, 70 
+device conflict, resolving, 76 
+device not working, 79 
+digital pictures, 50 
+electrostatic discharge, 91 
+disconnecting TV, 66 
+Disk Cleanup utility, 70 
+diskette 
+copying files, 55 
+inserting, 55 
+diskette (floppy) drive, 55 
+installation, 94 
+reassembling the adapter, 101 
+diskette (floppy) drive cables 
+disconnecting, 96 
+reconnecting, 100 
+domain name, 34 
+double-click, 20 
+drive 
+locations, 7 
+types, 52 
+drive locations, 95 
+drive lock, 97, 98 
+driver recovery, 82 
+driver rollback, 81 
+DSL (Digital Subscriber Line), 34 
+DVD 
+country/region codes, 59 
+creating, 62 
+discs, 62 
+inserting, 53 
+keyboard button, 28 
+opening drive, 53 
+playing, 57 
+removing, 54 
+terminology, 57 
+troubleshooting, 71 
+DVD drive 
+installation, 94 
+DVD player, multi-channel audio, 47 
+DVD Writer drive, 62 
+using correct disc, 62 
+E 
+Easy Internet Sign-up, 36 
+e-mail 
+address, 34 
+defined, 34 
+keyboard button, 28 
+receiving, 39, 40 
+sending, 39 
+using Outlook Express, 39 
+erase disc, 60 
+erased software, 87 
+Ethernet 
+about, 9 
+connecting, 9 
+expansion card 
+removing or installing, 104 
+expansion slots, 105 
+F 
+faxes, standby mode, 12 
+finding software programs, 18 
+floppy disk. See diskette 
+floppy drive, 55 
+front bezel 
+removing (8000), 94 
+removing (S0000), 93 
+replacing (8000), 107 
+replacing (S0000), 107 
+G 
+go back a day. See System Restore
+
+--- Page 120 ---
+index    
+113 
+H 
+hard disk cleanup, 70 
+hard disk drive 
+installation, 94 
+hard disk drive cables 
+disconnecting, 96 
+reconnecting, 101 
+hard disk space, increasing, 68 
+hardware installation 
+instructions, 91 
+hardware, upgrading, 43 
+Help 
+commonly asked questions, 1 
+finding answers, 1 
+MusicMatch Jukebox, 56 
+Windows Media Player, 57, 62 
+Help and Support 
+opening, 17 
+Help button, 27 
+hibernation mode, 13 
+automatic, 13 
+high-speed Internet connection, 9 
+home Web page, 37 
+HP Picture Toolkit button, 27 
+hyperlink, defined, 34 
+I 
+indicators, keyboard, 26 
+installation 
+expansion card, 104 
+installation 
+drives, 99 
+memory, 102 
+upgrades, 91 
+installing software programs, 14 
+Instant Support, 41 
+Internet 
+about, 33 
+browser programs, 37 
+browsing the Web, 37 
+connecting to, 7, 33 
+Easy Internet Sign-up, 36 
+finding an ISP, 35 
+keyboard button, 28 
+organizing destinations, 17 
+restricting content, 38 
+searching the, 37 
+signing up with an ISP, 35 
+Internet connection, high speed, 9 
+Internet Service Provider (ISP), 
+defined, 33 
+InterVideo WinDVD Player, using, 57 
+K 
+keyboard 
+customizing buttons, 30 
+features, 21, 22 
+indicators, 26 
+troubleshooting, 77 
+types of buttons, 26 
+using, 21 
+wireless, 23 
+keyboard keys 
+alphanumeric, 24 
+arrow, 25 
+edit, 24 
+function keys, 24 
+numeric, 25 
+L 
+latch drive bracket, 97 
+LEDs, defined, 23 
+logging off, 16 
+M 
+manuals, online, 44 
+memory 
+installation, 102 
+location, 102 
+removing, 102 
+memory card reader 
+card types, 50 
+microphone 
+adjusting volume, 49 
+using, 48 
+using with multi-channel speakers, 49 
+Microsoft Recovery Console utility, 86 
+Microsoft XP Help, 44 
+modem 
+setting up, 7 
+V.92, 9 
+monitor, 10 
+changing resolution, 30 
+changing where desktop displays, 30 
+selecting, 30 
+troubleshooting, 74 
+mouse 
+autoscroll feature, 20 
+buttons, 20 
+double-click, 20 
+left-handed, 21 
+optical, 19 
+panning feature, 20 
+pointer speed, adjusting, 21 
+scrolling, 20
+
+--- Page 121 ---
+114    user’s guide 
+troubleshooting, 78 
+using, 19 
+wireless, 19 
+Multi-channel Sound Manager, 45, 46 
+multi-channel speakers, 45 
+connecting, 46 
+selecting, 47 
+using a microphone, 49 
+music 
+Help in MusicMatch Jukebox, 56 
+Help in Windows Media 
+Player, 57, 62 
+keyboard button, 27 
+MusicMatch Jukebox, 27, 55 
+playing, 55, 56 
+Windows Media Player, 56 
+music CDs, closed session, 60 
+Mute button, 28 
+N 
+Net. See Internet, about 
+network interface 
+about, 9 
+no sound, 72 
+O 
+Off button. See turning off PC 
+On button, 7 
+online manuals, 44 
+onscreen guides, 19 
+operating system, 15 
+reinstalling, 89 
+operating system help, 44 
+optical drive cables 
+disconnecting, 95 
+reconnecting, 101 
+organizing Internet links and the PC, 17 
+Outlook Express, 39 
+receiving e-mail, 40 
+P 
+panning, scrolling mouse, 20 
+PC 
+Application Recovery, 82, 87 
+hibernation mode, automatic, 13 
+information about, 17 
+learning to use, 17 
+no sound, 72 
+not working, 77 
+organizing information, 17 
+problem turning on, 79 
+running tests, 41 
+setting it up, 3 
+settings, 16 
+sleep mode. See hibernation mode 
+standby mode, about, 12 
+standby mode, automatic, 13 
+standby mode, manual, 12 
+System Recovery, 82 
+System Restore, 82 
+transferring files and settings to 
+new PC, 14 
+troubleshooting, 71 
+turning off, 11 
+turning on, 10 
+viewing PC image on TV, 65 
+PC  Help & Tools, 19 
+PC Recovery CD-DVD Creator 
+program, 85 
+peripherals, 10 
+playing DVD movies, 57 
+disc types, 62 
+pointer speed, adjusting, 21 
+power cable 
+disconnecting, 95 
+reconnecting, 108 
+power management settings, 
+modifying, 13 
+preparing PC for hardware 
+upgrades, 91 
+Print button, not working, 77 
+printer 
+troubleshooting, 79 
+using, 31 
+problem 
+DVD-R disc not working, 62 
+DVD-RW disc not working, 62 
+keyboard, 77 
+monitor, 74 
+mouse, 78 
+no sound, 72 
+PC not working, 77 
+printer, 79 
+troubleshooting, 71 
+turning on PC, 79 
+problem resolution, troubleshooting, 71 
+product notices, 42 
+programs, uninstalling, 69 
+R 
+receiving e-mails, 39 
+recording volume, adjusting 
+microphone, 49 
+RecordNow!, using, 60 
+recovering system 
+System Restore, 82 
+using CDs/DVD, 89 
+Recovery CD-DVD Creator, 85 
+recovery discs, making, 85
+
+--- Page 122 ---
+index    
+115 
+Recovery Tools CD 
+making or starting, 86 
+registering your PC, 11 
+reinstalling software, 87, 88 
+remove files from CD, 60 
+removing 
+drives, 95 
+expansion card, 104 
+removing desktop icons, 70 
+removing unneeded software, 69 
+repetitive strain injury (RSI), 4 
+replacing drives, 99 
+resolution, monitor, 30 
+resolving a device conflict, 76 
+restarting the PC, 81 
+restoring system, 82 
+restricting Internet content, 38 
+RJ-45 port, 9 
+rollback, driver, 81 
+running tests, 41 
+S 
+safety warnings, 2, 5 
+saving electricity, 12, 13 
+scrolling mouse, 20 
+searching 
+for files or folders, 16 
+the Internet, 37 
+selecting programs or documents, 16 
+sending an e-mail, 39 
+setting up PC, 3 
+settings 
+viewing or changing, 16 
+Volume Control, 46 
+shortcut icons, 16 
+show Volume icon in taskbar, 48 
+shutting down PC, 11 
+sleep mode. See hibernation mode 
+software 
+corrupted, 87 
+erased, 87 
+finding, 18 
+installing, 14 
+reinstalling, 87, 88 
+uninstalling, 69 
+solving common problems, 71 
+sound manager, multi-channel, 45, 46 
+sound, troubleshooting, 72 
+speaker volume, adjusting, 46 
+speakers, 45 
+multi-channel, 45 
+special offers, 42 
+Standby button, 27 
+standby mode 
+automatic, 13 
+manual, 12 
+Start button, 16 
+Start menu contents, 16 
+Support 
+messages, 42 
+telephone numbers, 43 
+surface, using mouse on, 19 
+System Recovery, 88 
+starting, if PC is not responding, 89 
+starting, if PC is responding, 88 
+using recovery discs, 84 
+warning, 88 
+when to use, 82 
+System Restore, 82, 86 
+system updates, 42 
+T 
+television, viewing PC image 
+on a TV, 63 
+terminology for DVD, 57 
+tips, 42 
+transferring information to your 
+new PC, 14 
+troubleshooting, 71 
+turning off PC, 11, 81 
+turning on PC 
+first time, 10 
+troubleshooting, 71 
+TV 
+connecting, 63 
+disconnecting, 66 
+TV-out, 63 
+cables, 63 
+connecting a TV set, 63 
+disabling TV option, 66 
+viewing PC image on TV, 65 
+U 
+uninstalling software, 69 
+updating, system, 42 
+upgrading 
+replacing parts, 91 
+upgrading PC, 43 
+upgrading to V.92 modem features, 9 
+URL, defined, 34 
+User button, 27 
+using 7-In-1 memory card reader, 50 
+V 
+V.92 modem, 9 
+viewing onscreen guides, 19 
+virus protection, 67 
+voltage requirements, 2
+
+--- Page 123 ---
+116    user’s guide 
+volume 
+adjusting, 46, 72 
+adjusting microphone, 49 
+controls, 28 
+show Volume icon on taskbar, 46 
+Volume Control settings window, 46 
+Volume icon, show, 48 
+volume, displaying icon in 
+taskbar, 46, 48 
+W 
+warranty, 43 
+Web. (See also Internet) 
+browser programs, 37 
+page, 34 
+searching the, 37 
+Windows Media Player, 56 
+creating CDs, 61 
+Help, 57, 62 
+Windows XP, 15 
+device drivers, 79 
+Help, 44 
+WinDVD, 47 
+control panel, 58 
+starting, 57 
+wireless keyboard, 23 
+wireless mouse, 19 
+working in comfort, 4 
+writing 
+CD, 59, 61, 62 
+DVD, 62
+

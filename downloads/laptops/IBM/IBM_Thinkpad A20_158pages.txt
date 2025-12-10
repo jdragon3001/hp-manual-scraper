@@ -1,0 +1,5512 @@
+Brand: IBM
+Model: Thinkpad A20
+URL: https://www.manua.ls/ibm/thinkpad-a20/manual
+Total Pages: 158
+============================================================
+
+--- Page 1 ---
+IBM Mobile Systems
+ThinkPad Computer
+Hardware Maintenance Manual
+October 2001
+This manual supports:
+ThinkPad A20m, A21m, A22m
+(MT 2628/2633)
+A20p, A21p, A22p
+(MT 2629)
+ThinkPad Dock (MT 2631)
+
+
+--- Page 2 ---
+Note
+Before using this information and the product it
+supports, be sure to read the general information
+under “Notices” on page 150.
+Second Edition (October 2001)
+The following paragraph does not apply to the United
+Kingdom or any country where such provisions are
+inconsistent with local law:
+INTERNATIONAL BUSINESS MACHINES CORPORATION
+PROVIDES THIS PUBLICATION “AS IS” WITHOUT ANY
+WARRANTY OF ANY KIND, EITHER EXPRESS OR
+IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE
+LIMITED WARRANTIES OF MERCHANTABILITY OR
+FITNESS FOR A PARTICULAR PURPOSE. Some states
+do not allow disclaimer or express or implied warranties in
+certain transactions; therefore, this statement may not
+apply to you.
+This publication could include technical inaccuracies or
+typographical errors. Changes are periodically made to the
+information herein; these changes will be incorporated in
+new editions of the publication. IBM may make
+improvements or changes to the products or the programs
+described in this publication at any time.
+It is possible that this publication may contain references
+to, or information about, IBM products (machines and
+programs), programming, or services that are not
+announced in your country. Such references or information
+must not be construed to mean that IBM intends to
+announce such IBM products, programming, or services in
+your country.
+Requests for technical information about IBM products
+should be made to your IBM authorized dealer or your IBM
+marketing representative.
+© Copyright International Business Machines
+Corporation 2001. All rights reserved.
+US Government Users Restricted Rights – Use, duplication
+or disclosure restricted by GSA ADP Schedule Contract
+with IBM Corp.
+
+--- Page 3 ---
+About this manual
+This manual contains service and reference information for
+IBM ThinkPad A20, A21, A22 (MT2628, 2629, 2633), and
+ThinkPad Dock (MT2631) products. Use this manual along
+with the advanced diagnostic tests to troubleshoot
+problems.
+The manual is divided into sections as follows:
+v The common sections provide general information,
+guidelines, and safety information required in servicing
+computers.
+v The product-specific section includes service, reference,
+and product-specific parts information.
+Important
+This manual is intended for trained service
+personnel who are familiar with ThinkPad products.
+Use this manual along with the advanced diagnostic
+tests to troubleshoot problems effectively.
+Before servicing an IBM ThinkPad product, be sure
+to review the safety information under “Safety
+notices: multilingual translations” on page 3, “Safety
+information” on page 14, and “Laser compliance
+statement” on page 18.
+© Copyright IBM Corp. 2001 iii
+
+--- Page 4 ---
+iv ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 5 ---
+Contents
+About this manual ...........iii
+Introduction .............1
+Important service information .........1
+Strategy for replacing FRUs ........1
+How to use error messages ........2
+Diskette compatibility matrix .........2
+Safety notices: multilingual translations ......3
+Safety information............14
+General safety............14
+Electrical safety ...........15
+Safety inspection guide .........16
+Handling electrostatic discharge-sensitive devices 17
+Grounding requirements .........18
+Laser compliance statement.........18
+General descriptions ..........23
+Read this first .............23
+What to do first ...........23
+Related service information .........25
+Service web site ...........25
+Product recovery program ........25
+Passwords .............27
+Power management ..........30
+Checkout guide ............33
+Testing the computer ..........33
+Detecting system information with PC-Doctor. . . 35
+Power system checkout .........35
+ThinkPad A20m/p, A21m/p and A22m/p.....39
+Product overview ............41
+Specifications ............41
+Status indicators ...........44
+FRU tests .............46
+Fn key combinations ..........48
+Symptom-to-FRU index ..........49
+Numeric error codes ..........49
+Error messages ...........52
+Beep symptoms ...........53
+No beep symptoms ..........53
+LCD-related symptoms .........54
+Intermittent problems ..........55
+Undetermined problems .........55
+FRU replacement notices .........56
+Screw notices ............56
+Retaining serial numbers.........57
+Removing and replacing a FRU........59
+1010 Battery pack...........60
+1020 DIMM ............61
+1030 Mini PCI adapter .........63
+© Copyright IBM Corp. 2001
+v
+
+--- Page 6 ---
+1040 Backup battery ..........66
+1050 Hard-disk drive or RF ID adapter ....67
+1060 Ultrabay 2000 device ........69
+1070 Keyboard ...........71
+1080 Keyboard CRU insulator .......74
+1090 Hinge cover and clear sheet icon ....75
+1100 Keyboard bezel and speaker ......76
+1110 Microphone and speaker cable .....78
+1120 Sub card............80
+1130 PC Card slot assembly .......82
+1140 Fan assembly ..........83
+1150 Diskette drive ..........85
+1160 Upper shield...........87
+1170 TV card ............88
+1180 CPU socket and CPU ........89
+1190 System board and RJ45/11 connector
+assembly ............91
+Thermal rubbers location.........93
+2010 LCD assembly ..........94
+2020 Front bezel ...........96
+2030 Inverter card ..........99
+2040 LCD panel ...........101
+3010 ThinkPad Dock PCI cover ......105
+3020 ThinkPad Dock top cover ......107
+Locations ..............112
+Front view.............112
+Rear view .............113
+Bottom view ............114
+Parts list ..............115
+A series model matrix .........115
+Overall .............123
+AC adapter ............136
+LCD FRUs ............136
+Keyboard .............140
+Recovery CDs ...........141
+Miscellaneous parts ..........145
+Optional FRUs ...........147
+Common parts list ..........148
+Notices ..............150
+Trademarks ............150
+vi ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 7 ---
+Introduction
+Important service information
+Important
+BIOS and device driver fixes are
+customer-installable. The BIOS and device drivers
+are posted on the IBM support site
+http://www.ibm.com/pc/support
+Advise customers to contact the PC Company
+HelpCenter at 800-772-2227 if they need assistance
+in obtaining or installing any diskette fixes.
+Customers in Canada should call IBM HelpPC at
+800-565-3344 for assistance or download
+information.
+Strategy for replacing FRUs
+Before replacing parts
+Make sure that all diskette fixes are installed before
+replacing any FRUs listed in this manual.
+Use the following strategy to prevent unnecessary FRU
+replacement and service expense:
+v If you are instructed to replace a FRU but the
+replacement does not correct the problem, reinstall
+the original FRU before you continue.
+v Some computers have both a processor board and a
+system board. If you are instructed to replace either the
+processor board or the system board, and replacing one
+of them does not correct the problem, reinstall that
+board, and then replace the other one.
+v If an adapter or device consists of more than one FRU,
+any of the FRUs may be the cause of the error. Before
+replacing the adapter or device, remove the FRUs, one
+by one, to see if the symptoms change. Replace only
+the FRU that changed the symptoms.
+Attention: The setup configuration on the computer you
+are servicing may have been customized. Running
+Automatic Configuration may alter the settings. Note the
+current configuration settings (using the View Configuration
+option); then, when service has been completed, verify that
+those settings remain in effect.
+© Copyright IBM Corp. 2001
+1
+
+--- Page 8 ---
+Strategy for replacing a hard-disk drive
+Always try to run a low-level format before replacing a
+hard-disk drive.
+Attention: The drive startup sequence in the computer
+you are servicing may have been changed. Be extremely
+careful during write operations such as copying, saving, or
+formatting. If you select an incorrect drive, data or
+programs can be overwritten.
+How to use error messages
+Use the error codes displayed on the screen to diagnose
+failures. If more than one error code is displayed, begin the
+diagnosis with the first error code. Whatever causes the
+first error code may also cause false error codes. If no
+error code is displayed, see if the error symptom is listed
+in the Symptom-to-FRU Index for the computer you are
+servicing.
+Diskette compatibility matrix
+The compatibility of each of the drives with the diskettes
+for it is as follows:
+Diskette
+drive
+Diskette
+capacity
+Compatibility
+3.5-inch 1.0 MB Read and write
+2.0 MB Read and write
+4.0 MB Not compatible
+Important service information
+2 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 9 ---
+Safety notices: multilingual translations
+In this manual, safety notices appear in English with a
+page number reference to the appropriate multi-lingual,
+translated safety notice found in this section.
+The following safety notices are provided in English,
+French, German, Italian, and Spanish languages.
+Safety notice 1
+Before the computer is powered-on after FRU
+replacement, make sure all screws, springs, and other
+small parts are in place and are not left loose inside
+the computer. Verify this by shaking the computer and
+listening for rattling sounds. Metallic parts or metal
+flakes can cause electrical shorts.
+Avant de remettre l’ordinateur sous tension après
+remplacement d’une unité en clientèle, vérifiez que
+tous les ressorts, vis et autres pièces sont bien en
+place et bien fixées. Pour ce faire, secouez l’unité et
+assurez-vous qu’aucun bruit suspect ne se produit. Des
+pièces métalliques ou des copeaux de métal pourraient
+causer un court-circuit.
+Bevor nach einem FRU-Austausch der Computer
+wieder angeschlossen wird, muß sichergestellt werden,
+daß keine Schrauben, Federn oder andere Kleinteile
+fehlen oder im Gehäuse vergessen wurden. Der
+Computer muß geschüttelt und auf Klappergeräusche
+geprüft werden. Metallteile oder-splitter können
+Kurzschlüsse erzeugen.
+Prima di accendere l’elaboratore dopo che é stata
+effettuata la sostituzione di una FRU, accertarsi che
+tutte le viti, le molle e tutte le altri parti di piccole
+dimensioni siano nella corretta posizione e non siano
+sparse all’interno dell’elaboratore. Verificare ciò
+scuotendo l’elaboratore e prestando attenzione ad
+eventuali rumori; eventuali parti o pezzetti metallici
+possono provocare cortocircuiti pericolosi.
+Antes de encender el sistema despues de sustituir una
+FRU, compruebe que todos los tornillos, muelles y
+demás piezas pequeñas se encuentran en su sitio y no
+se encuentran sueltas dentro del sistema.
+Compruébelo agitando el sistema y escuchando los
+posibles ruidos que provocarían. Las piezas metálicas
+pueden causar cortocircuitos eléctricos.
+Safety notices
+Introduction 3
+
+--- Page 10 ---
+Safety notice 2
+DANGER
+Some standby batteries contain a small amount of
+nickel and cadmium. Do not disassemble a standby
+battery, recharge it, throw it into fire or water, or
+short-circuit it. Dispose of the battery as required
+by local ordinances or regulations. Use only the
+battery in the appropriate parts listing. Use of an
+incorrect battery can result in ignition or explosion
+of the battery.
+Certaines batteries de secours contiennent du
+nickel et du cadmium. Ne les démontez pas, ne les
+rechargez pas, ne les exposez ni au feu ni à l’eau.
+Ne les mettez pas en court-circuit. Pour les mettre
+au rebut, conformez-vous à la réglementation en
+vigueur. Lorsque vous remplacez la pile de
+sauvegarde ou celle de l’horloge temps réel, veillez
+à n’utiliser que les modèles cités dans la liste de
+pièces détachées adéquate. Une batterie ou une
+pile inappropriée risque de prendre feu ou
+d’exploser.
+Die Bereitschaftsbatterie, die sich unter dem
+Diskettenlaufwerk befindet, kann geringe Mengen
+Nickel und Cadmium enthalten. Sie darf nur durch
+die Verkaufsstelle oder den IBM Kundendienst
+ausgetauscht werden. Sie darf nicht zerlegt,
+wiederaufgeladen, kurzgeschlossen, oder Feuer
+oder Wasser ausgesetzt werden. Die Batterie kann
+schwere Verbrennungen oder Verätzungen
+verursachen. Bei der Entsorgung die örtlichen
+Bestimmungen für Sondermüll beachten. Beim
+Ersetzen der Bereitschafts-oder Systembatterie nur
+Batterien des Typs verwenden, der in der
+Ersatzteilliste aufgeführt ist. Der Einsatz falscher
+Batterien kann zu Entzündung oder Explosion
+führen.
+(continued)
+Safety notices
+4 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 11 ---
+(continuation of safety notice 2)
+Alcune batterie di riserva contengono una piccola
+quantità di nichel e cadmio. Non smontarle,
+ricaricarle, gettarle nel fuoco o nell’acqua né
+cortocircuitarle. Smaltirle secondo la normativa in
+vigore (DPR 915/82, successive disposizioni e
+disposizioni locali). Quando si sostituisce la
+batteria dell’RTC (real time clock) o la batteria di
+supporto, utilizzare soltanto i tipi inseriti
+nell’appropriato Catalogo parti. L’impiego di una
+batteria non adatta potrebbe determinare l’incendio
+ol’esplosione della batteria stessa.
+Algunas baterías de reserva contienen una
+pequeña cantidad de níquel y cadmio. No las
+desmonte, ni recargue, ni las eche al fuego o al
+agua ni las cortocircuite. Deséchelas tal como
+dispone la normativa local. Utilice sólo baterías que
+se encuentren en la lista de piezas. La utilización
+de una batería no apropiada puede provocar la
+ignición o explosión de la misma.
+Safety notices
+Introduction 5
+
+--- Page 12 ---
+Safety notice 3
+DANGER
+The battery pack contains small amounts of nickel.
+Do not disassemble it, throw it into fire or water, or
+short-circuit it. Dispose of the battery pack as
+required by local ordinances or regulations. Use
+only the battery in the appropriate parts listing
+when replacing the battery pack. Use of an
+incorrect battery can result in ignition or explosion
+of the battery.
+La batterie contient du nickel. Ne la démontez pas,
+ne l’exposez ni au feu ni à l’eau. Ne la mettez pas
+en court- circuit. Pour la mettre au rebut,
+conformez-vous à la réglementation en vigueur.
+Lorsque vous remplacez la batterie, veillez à
+n’utiliser que les modèles cités dans la liste de
+pièces détachées adéquate. En effet, une batterie
+inappropriée risque de prendre feu ou d’exploser.
+Akkus enthalten geringe Mengen von Nickel. Sie
+dürfen nicht zerlegt, wiederaufgeladen,
+kurzgeschlossen, oder Feuer oder Wasser
+ausgesetzt werden. Bei der Entsorgung die
+örtlichen Bestimmungen für Sondermüll beachten.
+Beim Ersetzen der Batterie nur Batterien des Typs
+verwenden, der in der Ersatzteilliste aufgeführt ist.
+Der Einsatz falscher Batterien kann zu Entzündung
+oder Explosion führen.
+La batteria contiene piccole quantità di nichel. Non
+smontarla, gettarla nel fuoco o nell’acqua né
+cortocircuitarla. Smaltirla secondo la normativa in
+vigore (DPR 915/82, successive disposizioni e
+disposizioni locali). Quando si sostituisce la
+batteria, utilizzare soltanto i tipi inseriti
+nell’appropriato Catalogo parti. L’impiego di una
+batteria non adatta potrebbe determinare l’incendio
+ol’esplosione della batteria stessa.
+(continued)
+Safety notices
+6 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 13 ---
+(continuation of safety notice 3)
+Las baterías contienen pequeñas cantidades de
+níquel. No las desmonte, ni recargue, ni las eche al
+fuego o al agua ni las cortocircuite. Deséchelas tal
+como dispone la normativa local. Utilice sólo
+baterías que se encuentren en la lista de piezas al
+sustituir la batería. La utilización de una bateríano
+apropiada puede provocar la ignición o explosión
+de la misma.
+Safety notices
+Introduction 7
+
+--- Page 14 ---
+Safety notice 4
+DANGER
+The lithium battery can cause a fire, an explosion,
+or a severe burn. Do not recharge it, remove its
+polarized connector, disassemble it, heat it above
+100°C (212°F), incinerate it, or expose its cell
+contents to water. Dispose of the battery as
+required by local ordinances or regulations. Use
+only the battery in the appropriate parts listing. Use
+of an incorrect battery can result in ignition or
+explosion of the battery.
+La pile de sauvegarde contient du lithium. Elle
+présente des risques d’incendie, d’explosion ou de
+brûlures graves. Ne la rechargez pas, ne retirez pas
+son connecteur polarisé et ne la démontez pas. Ne
+l’exposez pas à une temperature supérieure à
+100°C, ne la faites pas brûler et n’en exposez pas
+le contenu à l’eau. Mettez la pile au rebut
+conformément à la réglementation en vigueur. Une
+pile inappropriée risque de prendre feu ou
+d’exploser.
+Die Systembatterie ist eine Lithiumbatterie. Sie
+kann sich entzünden, explodieren oder schwere
+Verbrennungen hervorrufen. Batterien dieses Typs
+dürfen nicht aufgeladen, zerlegt, über 100 C erhitzt
+oder verbrannt werden. Auch darf ihr Inhalt nicht
+mit Wasser in Verbindung gebracht oder der zur
+richtigen Polung angebrachte Verbindungsstecker
+entfernt werden. Bei der Entsorgung die örtlichen
+Bestimmungen für Sondermüll beachten. Beim
+Ersetzen der Batterie nur Batterien des Typs
+verwenden, der in der Ersatzteilliste aufgeführt ist.
+Der Einsatz falscher Batterien kann zu Entzündung
+oder Explosion führen.
+(continued)
+Safety notices
+8 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 15 ---
+(continuation of safety notice 4)
+La batteria di supporto e una batteria al litio e puo
+incendiarsi, esplodere o procurare gravi ustioni.
+Evitare di ricaricarla, smontarne il connettore
+polarizzato, smontarla, riscaldarla ad una
+temperatura superiore ai 100 gradi centigradi,
+incendiarla o gettarla in acqua. Smaltirla secondo
+la normativa in vigore (DPR 915/82, successive
+disposizioni e disposizioni locali). L’impiego di una
+batteria non adatta potrebbe determinare l’incendio
+ol’esplosione della batteria stessa.
+La batería de repuesto es una batería de litio y
+puede provocar incendios, explosiones o
+quemaduras graves. No la recargue, ni quite el
+conector polarizado, ni la desmonte, ni caliente por
+encima de los 100°C (212°F), ni la incinere ni
+exponga el contenido de sus celdas al agua.
+Deséchela tal como dispone la normativa local.
+Safety notices
+Introduction 9
+
+--- Page 16 ---
+Safety notice 5
+If the LCD breaks and the fluid from inside the LCD
+gets into your eyes or on your hands, immediately
+wash the affected areas with water for at least 15
+minutes. Seek medical care if any symptoms from the
+fluid are present after washing.
+Si le panneau d’affichage à cristaux liquides se brise et
+que vous recevez dans les yeux ou sur les mains une
+partie du fluide, rincez-les abondamment pendant au
+moins quinze minutes. Consultez un médecin si des
+symptômes persistent après le lavage.
+Die Leuchtstoffröhre im LCD-Bildschirm enthält
+Quecksilber. Bei der Entsorgung die örtlichen
+Bestimmungen für Sondermüll beachten. Der
+LCD-Bildschirm besteht aus Glas und kann zerbrechen,
+wenn er unsachgemäß behandelt wird oder der
+Computer auf den Boden fällt. Wenn der Bildschirm
+beschädigt ist und die darin befindliche Flüssigkeit in
+Kontakt mit Haut und Augen gerät, sollten die
+betroffenen Stellen mindestens 15 Minuten mit Wasser
+abgespült und bei Beschwerden anschließend ein Arzt
+aufgesucht werden.
+Nel caso che caso l’LCD si dovesse rompere ed il
+liquido in esso contenuto entrasse in contatto con gli
+occhi o le mani, lavare immediatamente le parti
+interessate con acqua corrente per almeno 15 minuti;
+poi consultare un medico se i sintomi dovessero
+permanere.
+Si la LCD se rompe y el fluido de su interior entra en
+contacto con sus ojos o sus manos, lave
+inmediatamente las áreas afectadas con agua durante
+15 minutos como mínimo. Obtenga atención medica si
+se presenta algúnsíntoma del fluido despues de
+lavarse.
+Safety notices
+10 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 17 ---
+Safety notice 6
+DANGER
+To avoid shock, do not remove the plastic cover
+that protects the lower part of the inverter card.
+Afin d’éviter tout risque de choc électrique, ne
+retirez pas le cache en plastique protégeant la
+partie inférieure de la carte d’alimentation.
+Aus Sicherheitsgründen die Kunststoffabdeckung,
+die den unteren Teil der Spannungswandlerplatine
+umgibt, nicht entfernen.
+Per evitare scosse elettriche, non rimuovere la
+copertura in plastica che avvolge la parte inferiore
+della scheda invertitore.
+Para evitar descargas, no quite la cubierta de
+plástico que rodea la parte baja de la tarjeta
+invertida.
+Safety notices
+Introduction 11
+
+--- Page 18 ---
+Safety notice 7
+DANGER
+Though the main batteries have low voltage, a
+shorted or grounded battery can produce enough
+current to burn personnel or combustible materials.
+Bien que le voltage des batteries principales soit
+peu élevé, le court-circuit ou la mise à la masse
+d’une batterie peut produire suffisamment de
+courant pour brûler des matériaux combustibles ou
+causer des brûlures corporelles graves.
+Obwohl Hauptbatterien eine niedrige Spannung
+haben, können sie doch bei Kurzschluß oder
+Erdung genug Strom abgeben, um brennbare
+Materialien zu entzünden oder Verletzungen bei
+Personen hervorzurufen.
+Sebbene le batterie di alimentazione siano a basso
+voltaggio, una batteria in corto circuito o a massa
+può fornire corrente sufficiente da bruciare
+materiali combustibili o provocare ustioni ai tecnici
+di manutenzione.
+Aunque las baterías principales tienen un voltaje
+bajo, una batería cortocircuitada o con contacto a
+tierra puede producir la corriente suficiente como
+para quemar material combustible o provocar
+quemaduras en el personal.
+Safety notices
+12 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 19 ---
+Safety notice 8
+DANGER
+Before removing any FRU, power off the computer,
+unplug all power cords from electrical outlets,
+remove the battery pack, and then disconnect any
+interconnecting cables.
+Avant de retirer une unité remplaçable en clientèle,
+mettez le système hors tension, débranchez tous
+les cordons d’alimentation des socles de prise de
+courant, retirez la batterie et déconnectez tous les
+cordons d’interface.
+Die Stromzufuhr muß abgeschaltet, alle Stromkabel
+aus der Steckdose gezogen, der Akku entfernt und
+alle Verbindungskabel abgenommen sein, bevor
+eine FRU entfernt wird.
+Prima di rimuovere qualsiasi FRU, spegnere il
+sistema, scollegare dalle prese elettriche tutti i cavi
+di alimentazione, rimuovere la batteria e poi
+scollegare i cavi di interconnessione.
+Antes de quitar una FRU, apague el sistema,
+desenchufe todos los cables de las tomas de
+corriente eléctrica, quite la bateríay,a
+continuación, desconecte cualquier cable de
+conexión entre dispositivos.
+Safety notices
+Introduction 13
+
+--- Page 20 ---
+Safety information
+The following section contains the safety information that
+you need to be familiar with before servicing an IBM
+mobile computer.
+General safety
+Follow these rules to ensure general safety:
+v Observe good housekeeping in the area of the
+machines during and after maintenance.
+v When lifting any heavy object:
+1. Ensure you can stand safely without slipping.
+2. Distribute the weight of the object equally between
+your feet.
+3. Use a slow lifting force. Never move suddenly or
+twist when you attempt to lift.
+4. Lift by standing or by pushing up with your leg
+muscles; this action removes the strain from the
+muscles in your back. Do not attempt to lift any
+objects that weigh more than 16 kg (35 lb) or objects
+that you think are too heavy for you.
+v Do not perform any action that causes hazards to the
+customer, or that makes the equipment unsafe.
+v Before you start the machine, ensure that other service
+representatives and the customer’s personnel are not in
+a hazardous position.
+v Place removed covers and other parts in a safe place,
+away from all personnel, while you are servicing the
+machine.
+v Keep your toolcase away from walk areas so that other
+people will not trip over it.
+v Do not wear loose clothing that can be trapped in the
+moving parts of a machine. Make sure that your sleeves
+are fastened or rolled up above your elbows. If your hair
+is long, fasten it.
+v Insert the ends of your necktie or scarf inside clothing or
+fasten it with a nonconductive clip, approximately 8
+centimeters (3 inches) from the end.
+v Do not wear jewelry, chains, metal-frame eyeglasses, or
+metal fasteners for your clothing.
+Attention: Metal objects are good electrical
+conductors.
+v Wear safety glasses when you are hammering, drilling,
+soldering, cutting wire, attaching springs, using solvents,
+or working in any other conditions that might be
+hazardous to your eyes.
+v After service, reinstall all safety shields, guards, labels,
+and ground wires. Replace any safety device that is
+worn or defective.
+v Reinstall all covers correctly before returning the
+machine to the customer.
+Safety information
+14 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 21 ---
+Electrical safety
+Observe the following rules when working on electrical
+equipment.
+Important
+Use only approved tools and test equipment. Some
+hand tools have handles covered with a soft
+material that does not insulate you when working
+with live electrical currents.
+Many customers have, near their equipment, rubber
+floor mats that contain small conductive fibers to
+decrease electrostatic discharges. Do not use this
+type of mat to protect yourself from electrical shock.
+v Find the room emergency power-off (EPO) switch,
+disconnecting switch, or electrical outlet. If an electrical
+accident occurs, you can then operate the switch or
+unplug the power cord quickly.
+v Do not work alone under hazardous conditions or near
+equipment that has hazardous voltages.
+v Disconnect all power before:
+– Performing a mechanical inspection
+– Working near power supplies
+– Removing or installing main units
+v Before you start to work on the machine, unplug the
+power cord. If you cannot unplug it, ask the customer to
+power-off the wall box that supplies power to the
+machine and to lock the wall box in the off position.
+v If you need to work on a machine that has exposed
+electrical circuits, observe the following precautions:
+– Ensure that another person, familiar with the
+power-off controls, is near you.
+Attention: Another person must be there to switch
+off the power, if necessary.
+– Use only one hand when working with powered-on
+electrical equipment; keep the other hand in your
+pocket or behind your back.
+Attention: An electrical shock can occur only when
+there is a complete circuit. By observing the above
+rule, you may prevent a current from passing through
+your body.
+– When using testers, set the controls correctly and
+use the approved probe leads and accessories for
+that tester.
+– Stand on suitable rubber mats (obtained locally, if
+necessary) to insulate you from grounds such as
+metal floor strips and machine frames.
+Safety information
+Introduction 15
+
+--- Page 22 ---
+Observe the special safety precautions when you work
+with very high voltages; these instructions are in the
+safety sections of maintenance information. Use
+extreme care when measuring high voltages.
+v Regularly inspect and maintain your electrical hand tools
+for safe operational condition.
+v Do not use worn or broken tools and testers.
+v Never assume that power has been disconnected from
+a circuit. First, check that it has been powered off.
+v Always look carefully for possible hazards in your work
+area. Examples of these hazards are moist floors,
+nongrounded power extension cables, power surges,
+and missing safety grounds.
+v Do not touch live electrical circuits with the reflective
+surface of a plastic dental mirror. The surface is
+conductive; such touching can cause personal injury and
+machine damage.
+v Do not service the following parts with the power on
+when they are removed from their normal operating
+places in a machine:
+– Power supply units
+– Pumps
+– Blowers and fans
+– Motor generators
+and similar units. (This practice ensures correct
+grounding of the units.)
+v If an electrical accident occurs:
+– Use caution; do not become a victim yourself.
+– Switch off power.
+– Send another person to get medical aid.
+Safety inspection guide
+The purpose of this inspection guide is to assist you in
+identifying potentially unsafe conditions. As each machine
+was designed and built, required safety items were
+installed to protect users and service personnel from injury.
+This guide addresses only those items. You should use
+good judgment to identify potential safety hazards due to
+attachment of non-IBM features or options not covered by
+this inspection guide.
+If any unsafe conditions are present, you must determine
+how serious the apparent hazard could be and whether
+you can continue without first correcting the problem.
+Consider these conditions and the safety hazards they
+present:
+v Electrical hazards, especially primary power (primary
+voltage on the frame can cause serious or fatal
+electrical shock)
+v Explosive hazards, such as a damaged CRT face or a
+bulging capacitor
+Safety information
+16 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 23 ---
+v Mechanical hazards, such as loose or missing hardware
+To determine whether there are any potentially unsafe
+conditions, use the following checklist at the beginning of
+every service task. Begin the checks with the power off,
+and the power cord disconnected.
+Checklist:
+1. Check exterior covers for damage (loose, broken, or
+sharp edges.)
+2. Power-off the computer. Disconnect the power cord.
+3. Check the power cord for:
+a. A third-wire ground connector in good condition.
+Use a meter to measure third-wire ground
+continuity for 0.1 ohm or less between the external
+ground pin and frame ground.
+b. The power cord should be the type specified in the
+parts list.
+c. Insulation must not be frayed or worn.
+4. Remove the cover.
+5. Check for any obvious non-IBM alterations. Use good
+judgment as to the safety of any non-IBM alterations.
+6. Check inside the unit for any obvious unsafe
+conditions, such as metal filings, contamination, water
+or other liquids, or signs of fire or smoke damage.
+7. Check for worn, frayed, or pinched cables.
+8. Check that the power-supply cover fasteners (screws
+or rivets) have not been removed or tampered with.
+Handling electrostatic
+discharge-sensitive devices
+Any computer part containing transistors or integrated
+circuits (ICs) should be considered sensitive to electrostatic
+discharge (ESD.) ESD damage can occur when there is a
+difference in charge between objects. Protect against ESD
+damage by equalizing the charge so that the machine, the
+part, the work mat, and the person handling the part are all
+at the same charge.
+Notes
+1. Use product-specific ESD procedures when they
+exceed the requirements noted here.
+2. Make sure that the ESD protective devices you
+use have been certified (ISO 9000) as fully
+effective.
+When handling ESD-sensitive parts:
+v Keep the parts in protective packages until they are
+inserted into the product.
+v Avoid contact with other people.
+Safety information
+Introduction 17
+
+--- Page 24 ---
+v Wear a grounded wrist strap against your skin to
+eliminate static on your body.
+v Prevent the part from touching your clothing. Most
+clothing is insulative and retains a charge even when
+you are wearing a wrist strap.
+v Use the black side of a grounded work mat to provide a
+static-free work surface. The mat is especially useful
+when handling ESD-sensitive devices.
+v Select a grounding system, such as those listed below,
+to provide protection that meets the specific service
+requirement.
+Note
+The use of a grounding system is desirable but
+not required to protect against ESD damage.
+– Attach the ESD ground clip to any frame ground,
+ground braid, or green-wire ground.
+– Use an ESD common ground or reference point
+when working on a double-insulated or
+battery-operated system. You can use coax or
+connector-outside shells on these systems.
+– Use the round ground-prong of the AC plug on
+AC-operated computers.
+Grounding requirements
+Electrical grounding of the computer is required for
+operator safety and correct system function. Proper
+grounding of the electrical outlet can be verified by a
+certified electrician.
+Laser compliance statement
+Some IBM Personal Computer models are equipped from
+the factory with an optical storage device; such as a
+CD-ROM drive or DVD-ROM drive. They are also sold
+separately as options. The drive is certified in the U.S. to
+conform to the requirements of the Department of Health
+and Human Services 21 Code of Federal Regulations
+(DHHS 21 CFR) Subchapter J for Class 1 laser products.
+Elsewhere, the drive is certified to conform to the
+requirements of the International Electrotechnical
+Commission (IEC) 825 and CENELEC EN 60 825 for
+Class 1 laser products.
+Safety information
+18 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 25 ---
+When a CD-ROM drive, DVD drive or the other laser
+product is installed, note the following:
+CAUTION:
+Use of controls or adjustments or performance of
+procedures other than those specified herein might
+result in hazardous radiation exposure.
+O uso de controles, ajustes ou desempenho de
+procedimentos diferentes daqueles aqui especificados
+pode resultar em perigosa exposição à radiação.
+Pour éviter tout risque d’exposition au rayon laser,
+respectez les consignes de réglage et d’utilisation des
+commandes, ainsi que les procédures décrites.
+Werden Steuer- und Einstellelemente anders als hier
+festgesetzt verwendet, kann gefährliche Laserstrahlung
+auftreten.
+L’utilizzo di controlli, regolazioni o l’esecuzione di
+procedure diverse da quelle specificate possono
+provocare l’esposizione a.
+El uso de controles o ajustes o la ejecuciónde
+procedimientos distintos de los aquí especificados
+puede provocar la exposición a radiaciones peligrosas.
+Laser compliance statement
+Introduction 19
+
+--- Page 26 ---
+Opening the CD-ROM drive, DVD-ROM drive or the other
+optical storage device could result in exposure to
+hazardous laser radiation. There are no serviceable parts
+inside those drives. Do not open.
+Some CD-ROM drives, DVD-ROM drives or the other
+optical storage devices contain an embedded Class 3A or
+Class 3B laser diode. Note the following:
+Laser compliance statement
+20 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 27 ---
+DANGER
+Emits visible and invisible laser radiation when
+open. Do not stare into the beam, do not view
+directly with optical instruments, and avoid direct
+exposure to the beam.
+Radiação por raio laser ao abrir. Não olhe fixo no
+feixe de luz, não olhe diretamente por meio de
+instrumentos óticos e evite exposição direta com o
+feixe de luz.
+Rayonnement laser si carter ouvert. Évitez de fixer
+le faisceau, de le regarder directement avec des
+instruments optiques, ou de vous exposer au
+rayon.
+Laserstrahlung bei geöffnetem Gerät. Nicht direkt
+oder über optische Instrumente in den Laserstrahl
+sehen und den Strahlungsbereich meiden.
+Kinyitáskor lézersugár!Nenézzen bele se szabad
+szemmel, se optikai eszközökkel. Kerülje a
+sugárnyalábbal valóérintkezést !
+Aprendo l’unità vengono emesse radiazioni laser.
+Non fissare il fascio, non guardarlo direttamente
+con strumenti ottici e evitare l’esposizione diretta al
+fascio.
+Radiaciónláser al abrir. No mire fijamente ni
+examine con instrumental óptico el haz de luz.
+Evite la exposición directa al haz.
+Laser compliance statement
+Introduction 21
+
+--- Page 28 ---
+Laser compliance statement
+22 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 29 ---
+General descriptions
+This chapter includes descriptions for any ThinkPad model
+that has the PC-Doctor DOS diagnostics program. Some
+descriptions might not apply to your particular computer.
+Read this first
+Before you go to the checkout guide, be sure to read this
+section.
+Important notes
+v Only certified trained personnel should
+service the computer.
+v Read the entire FRU removal and replacement
+page before replacing any FRU.
+v Use new nylon-coated screws when you
+replace FRUs.
+v Be extremely careful during such write
+operations as copying, saving, or formatting.
+Drives in the computer that you are servicing
+sequence might have been altered. If you select
+an incorrect drive, data or programs might be
+overwritten.
+v Replace FRUs only for the correct model.
+When you replace a FRU, make sure the model
+of the machine and the FRU part number are
+correct by referring to the FRU parts list.
+v A FRU should not be replaced because of a
+single, unreproducible failure. Single failures
+can occur for a variety of reasons that have
+nothing to do with a hardware defect, such as
+cosmic radiation, electrostatic discharge, or
+software errors. Consider replacing a FRU only
+when a problem recurs. If you suspect that a
+FRU is defective, clear the error log and run the
+test again. If the error does not recur, do not
+replace the FRU.
+v Be careful not to replace a nondefective FRU.
+What to do first
+When you do return a FRU, you must include the following
+information in the parts exchange form or parts return form
+that you attach to it:
+__ 1. Name and phone number of servicer
+__ 2. Date of service
+__ 3. Date on which the machine failed
+__ 4. Date of purchase
+__ 5. Failure symptoms, error codes appearing on the
+display, and beep symptoms
+© Copyright IBM Corp. 2001
+23
+
+--- Page 30 ---
+__ 6. Procedure index and page number in which the
+failing FRU was detected
+__ 7. Failing FRU name and part number
+__ 8. Machine type, model number, and serial number
+__ 9. Customer’s name and address
+Note for warranty:
+During the warranty period, the customer may be
+responsible for repair costs if the computer damage was
+caused by misuse, accident, modification, unsuitable
+physical or operating environment, or improper
+maintenance by the customer. The following list provides
+some common items that are not covered under warranty
+and some symptoms that might indicate that the system
+was subjected to stress beyond normal use.
+Before checking problems with the computer, determine
+whether the damage is covered under the warranty by
+referring to the following:
+The following are not covered under warranty:
+v LCD panel cracked from the application of excessive
+force or from being dropped
+v Scratched (cosmetic) parts
+v Distortion, deformation or discoloration of the cosmetic
+parts
+v Cracked or broken plastic parts, broken latches, broken
+pins, or broken connectors caused by excessive force
+v Damage caused by liquid spilled into the system
+v Damage caused by the improper insertion of a PC Card
+or the installation of an incompatible card
+v Damage caused by foreign material in the diskette drive
+v Diskette drive damage caused by pressure on the
+diskette drive cover or by the insertion of a diskette with
+multiple labels
+v Damaged or bent diskette eject button
+v Fuses blown by attachment of a nonsupported device
+v Forgotten computer password (making the computer
+unusable)
+v Sticky keys caused by spilling a liquid onto the keyboard
+The following symptoms might indicate damage
+caused by nonwarranted activities:
+v Missing parts might be a symptom of unauthorized
+service or modification.
+v If the spindle of a hard-disk drive becomes noisy, it may
+have been subjected to excessive force, or dropped.
+Read this first
+24 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 31 ---
+Related service information
+This section provides information about the following:
+v “Service web site”
+v “Product recovery program”
+v “Passwords” on page 27
+v “Power management” on page 30
+Service web site
+When the latest maintenance diskette and the system
+program service diskette become available, a notice will be
+posted on http://www.ibm.com/pc/partner/infotips
+Product recovery program
+Restoring the pre-installed software:
+If the data on a hard-disk drive is damaged or accidentally
+erased, you can restore the software that was shipped with
+the computer. This software includes the pre-installed
+operating system, applications, and device drivers.
+To restore the pre-installed software, you can use either
+the Product Recovery program or a Recovery CD.
+The Product Recovery program is in the Service Partition,
+a section of the hard-disk drive that is not displayed by
+Windows Explorer. Use the Recovery CD if it was provided
+with the computer.
+Note: The recovery process might take up to 2 hours.
+To use the Product Recovery program to restore the
+pre-installed software, do the following:
+1. Save all files and shut down the desktop.
+2. Turn off the computer.
+3. Turn on the computer. A message appears on the
+screen: “To start the Product Recovery program,
+press F11”; or, for Windows XP models, “Press F11 to
+invoke the IBM Product Recovery program”. Press
+F11 quickly; this message is displayed for only a few
+seconds.
+Note: If this message does not appear, you can use a
+Recovery Repair diskette to get access to the
+Product Recovery program. (Directions for
+making a Recovery Repair diskette are given in
+“To create a recovery repair diskette” on
+page 26.)
+4. From the list displayed on the screen, select the
+operating system you want to recover.
+5. Select the recovery options you want, and follow the
+instructions on the screen.
+Related service information
+General descriptions 25
+
+--- Page 32 ---
+Creating the service partition:
+To create the Service Partition and install the preloaded
+system from the Recovery CD, do the following:
+To create the Service Partition (SP):
+1. Erase all partitions on the hard-disk drive, using FDISK
+or a similar application.
+2. Boot with the Recovery CD (and the boot diskette if
+required.)
+3. Following message appears: “Your computer
+originally included a Product Recovery program ...
+Reinstall the Product Recovery Program? (Y/N) [ ]”.
+Note: If the hard-disk drive contains any partitions, you
+do not receive this message ; go to step 1.
+4. Enter Y. The Service Partition is created and loaded
+with the Product Recovery program files.
+Note: If you do not want to create the Service
+Partition, press N key, and then go to step 8.
+5. At next window, press Enter to continue.
+v The Service Partition is created. The system
+automatically reboots during this process.
+v The recovery process copies some files to the
+Service Partition and, PKUNZIPs others.
+v Follow the prompts. You may be prompted to
+change CDs.
+v When the process is complete, the system reboots.
+Continue to step 6 to install preloaded system.
+Install preloaded system from CD:
+6. Boot with the Recovery CD (and the boot diskette if
+required.)
+7. If the hard-disk drive is blank, the following message
+appears: “Your computer originally included a
+Product Recovery program ... Reinstall the
+Product Recovery Program? (Y/N) [ ]”.
+v To install the Service Partition, go to step 4.
+v To preload the hard-disk drive without installing the
+Service Partition, press the N key.
+8. If you get a message asking which operating system
+to install, highlight the proper operating system and
+press Enter.
+9. A message appears: “Full Recovery:”. Press Enter to
+select.
+10. Enter the Y at each of the next three windows.
+11. Follow the prompts to complete Recovery.
+To create a recovery repair diskette
+If the prompt needed for access to the Product Recovery
+program does not appear, you can recover it by use of the
+Related service information
+26 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 33 ---
+Recovery Repair diskette. Make a Recovery Repair
+diskette and save it for future use. To make a Recovery
+Repair diskette:
+1. Shut down and turn off the computer.
+2. Attach the external diskette drive to the computer.
+3. At the prompt, press F11. (The option to press F11
+appears for only a few seconds. You must press F11
+quickly.) The Product Recovery program main menu
+appears.
+4. If you are using Windows 2000 Professional, you are
+prompted to select an operating system. This menu
+does not appear for Windows 98 SE.
+5. From the main menu, select System Utilities. Press
+Enter.
+6. Select Create a Recovery Repair diskette. Press Enter.
+7. Follow the on-screen instructions.
+8. When the process is completed, label the diskette as
+the Recovery Repair diskette and save it for future use.
+To use the recovery repair diskette:
+1. Shut down and turn off the computer.
+2. Attach the external diskette drive to the computer.
+3. Insert the Recovery Repair diskette into the drive; then
+turn on the computer.
+4. Follow the on-screen instructions.
+Note
+Should the hard-disk drive need to be replaced, you
+must order a Recovery CD with the hard-disk drive
+so that you can recover the new hard-disk drive with
+the pre-installed software when it arrives. For
+information on which CD to order, see “Recovery
+CDs” on page 141.
+Passwords
+As many as three passwords may be needed for any
+ThinkPad computer: the power-on password (POP), the
+hard-disk password (HDP), and the supervisor password
+(SVP).
+If any of these passwords have been set, a prompt for it
+appears on the screen whenever the computer is turned
+on. The computer does not start until the password is
+entered.
+Exception: If only an SVP is installed, the password
+prompt doesn’t appear when the operating
+system is booted.
+Related service information
+General descriptions 27
+
+--- Page 34 ---
+Power-on password:
+A power-on password (POP) protects the system from
+being powered on by an unauthorized person. The
+password must be entered before an operating system can
+be booted.
+Hard-disk password:
+There are two hard-disk passwords (HDPs):
+v User HDP—for the user
+v Master HDP—for the system administrator, who can use
+it to get access to the hard disk even if the user has
+changed the user HDP
+Note: There are two modes for the HDP: User only and
+Master + User. The Master + User mode requires
+two HDPs; the system administrator enters both in
+the same operation. The system administrator then
+provides the user HDP to the system user.
+Attention
+If the user HDP has been forgotten, check whether
+a master HDP has been set. It it has, it can be used
+for access to the hard-disk drive. If no master HDP
+is available, IBM does not provide any services to
+reset either the user or the master HDP, or to
+recover data from the hard-disk drive. The hard-disk
+drive can be replaced for a scheduled fee.
+Supervisor password:
+A supervisor password (SVP) protects the system
+information stored in the IBM BIOS Setup Utility. The SVP
+must be entered in order to get access to the IBM BIOS
+Setup Utility and make changes to system configuration
+settings.
+Attention
+If the SVP has been forgotten and cannot be made
+available to the servicer, there is no service
+procedure to reset the password. The systemboard
+must be replaced for a scheduled fee.
+How to remove the power-on password
+To remove a POP that you have forgotten, do the
+following:
+(A) If no SVP has been set:
+1. Turn off the computer.
+2. Remove the battery pack.
+Related service information
+28 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 35 ---
+For how to remove the battery pack, see “1010 Battery
+pack” on page 60.
+3. Remove the backup battery.
+For how to remove the backup battery, see “1040
+Backup battery” on page 66.
+4. Turn on the computer and wait until the POST ends.
+After the POST ends, the password prompt does not
+appear. The POP has been removed.
+5. Reinstall the backup battery and the battery pack.
+(B) If an SVP has been set and is known by the servicer:
+1. Turn on the computer by pressing and holding F1.
+2. Enter the SVP. The IBM BIOS Setup Utility menu
+appears.
+3. Select Password, using the cursor keys to move down
+the menu.
+4. Select Power-On Password.
+5. At the Enter Current Password field, enter the SVP.
+6. When the Enter New Password field opens, leave it
+blank and press Enter twice.
+7. In the Changes have been saved window, press Enter.
+8. Press F10; then, in the Setup confirmation window,
+select Yes .
+How to remove the hard-disk password
+Attention
+If User only mode is selected and the user HDP
+has been forgotten and cannot be made available to
+the servicer, IBM does not provide any services to
+reset the user HDPs or to recover data from the
+hard-disk drive. The hard-disk drive can be replaced
+for a scheduled fee.
+To remove a user HDP that has been forgotten, when the
+SVP and the master HDP are known, do the following:
+1. Power on the computer by pressing and holding F1.
+2. Enter the SVP. The IBM BIOS Setup Utility menu
+appears.
+3. Select Password, using the cursor keys to move down
+the menu.
+4. Select Hard-disk x password, where x is the letter of
+the hard-disk drive. A pop-up window opens.
+5. Select Master HDP.
+6. Enter the master HDP; then leave the New Password
+field blank and press Enter twice.
+7. Press F10.
+8. Select Yes in the Setup Configuration window.
+Both user HDP and master HDP will have been
+removed.
+Related service information
+General descriptions 29
+
+--- Page 36 ---
+Power management
+To reduce power consumption, the computer has three
+power management modes: screen blank, standby, and
+hibernation.
+Notes
+v Screen blank mode is called standby mode in
+Windows 95 and Windows NT.
+v Standby mode is called suspend mode in
+Windows 95 and Windows NT.
+Screen blank mode
+Screen blank mode has three variants, as follows:
+1. If you press Fn + F3, or the time set on the “LCD off
+timer” in IBM BIOS Setup Utility expires,
+v The LCD backlight turns off.
+v The hard-disk drive motor stops.
+v The speaker is muted.
+2. If you are using the ACPI operating system and you
+press Fn + F3,
+v The LCD backlight turns off.
+v The hard-disk drive motor stops.
+3. If the time set on the “Turn off monitor” timer in the
+operating system expires,
+v The LCD backlight turns off.
+To end screen blank mode and resume normal operation,
+press any key.
+Standby mode
+When the computer enters standby mode, the following
+events occur in addition to what occurs in screen blank
+mode:
+v The LCD is powered off.
+v The hard-disk drive is powered off.
+v The CPU stops.
+To enter standby mode, press Fn + F4.
+Note: You can change the action of Fn + F4, if you are
+using the ACPI operating system.
+In certain circumstances, the computer goes into standby
+mode automatically:
+v If a “suspend time” has been set on the timer, and the
+user does not do any operation with the keyboard, the
+TrackPoint, the hard disk, the parallel connector, or the
+diskette drive within that time.
+Related service information
+30 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 37 ---
+v If the battery indicator blinks orange, indicating that the
+battery power is low. (Alternatively, if Hibernate when
+battery becomes low has been selected in the “Power
+Management Properties” window, the computer goes
+into hibernation mode.)
+Note for the APM operating system:
+Even if you do not set the low-battery alarm, the charge
+indicator notifies you when the battery is low, and then the
+computer enters the power-saving mode automatically.
+This default low-battery behavior is independent of the
+operating system; so if you have set the low-battery alarm,
+the computer may not do what you specified. It chooses
+either your setting or the default setting, whichever is
+appropriate.
+If you are using the ACPI operating system, only the
+low-battery alarm is available.
+To cause the computer to return from standby mode and
+resume operation, do one of the following:
+v Press the Fn key.
+v Open the LCD cover (only if you are using Windows Me
+and you entered standby mode by closing the LCD
+cover.)
+v Turn on the power switch.
+Also, the computer automatically returns from standby
+mode and resumes operation in either of the following
+events:
+v The ring indicator (RI) is signaled by a serial device or a
+PC Card device (Windows 2000 does not support the
+ring indicator (RI) resume by PC Card device.)
+v The time set on the resume timer elapses. In Windows
+98, the Scheduled Tasks setting takes priority over the
+Resume on timer selection in the “Power Management
+Properties” window.
+Note: The computer does not accept any input
+immediately after it enters standby mode. Wait a
+few seconds before taking any action to reenter
+operation mode.
+Hibernation mode
+Note for Windows NT
+If you are using Windows NT in the default format,
+NTFS, you cannot create a hibernation file. If you
+want to use hibernation mode, you will need to
+reinstall Windows NT with FAT format.
+Related service information
+General descriptions 31
+
+--- Page 38 ---
+Note for OS/2
+If you are using OS/2 in the default format, HPFS,
+you cannot create a hibernation file. If you want to
+use hibernation mode, you will need to reinstall
+OS/2 with FAT format.
+In hibernation mode, the following occurs:
+v The system status, RAM, VRAM, and setup data are
+stored on the hard disk.
+v The system is powered off.
+Note: If the computer enters the hibernation mode while it
+is docked to the docking station, do not undock it
+from the docking station before resuming normal
+operation. If you do undock it and then try to
+resume normal operation, you will get an error
+message, and you will have to restart the system.
+To cause the computer to enter hibernation mode, do any
+of the following:
+v Press the Fn + F12 keys.
+v If you are using the APM operating system and have set
+the mode to Power switch mode [Hibernation], turn
+off the power switch.
+v If you are using the ACPI operating system and have
+defined one of the following actions as the event that
+causes the system to go into hibernation mode, perform
+that action.
+– Closing the lid.
+– Pressing the power button.
+– Pressing Fn + F4 keys.
+Also, the computer goes into hibernation mode
+automatically in either of the following conditions:
+v If a “hibernation time” has been set on the timer, and the
+user does not do any operation with the keyboard, the
+TrackPoint, the hard-disk drive, the parallel connector, or
+the diskette drive within that time.
+v If the timer conditions are satisfied in suspend mode.
+v If you are using the APM operating system and have set
+the mode to Hibernate when battery becomes low,
+and the battery charge becomes critically low.
+When the power is turned on, the computer returns from
+hibernation mode and resumes operation. The hibernation
+file in the boot record on the hard-disk drive is read, and
+system status is restored from the hard-disk drive.
+Related service information
+32 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 39 ---
+Checkout guide
+Use the following procedures as a guide in identifying and
+correcting problems with the ThinkPad computer.
+Note: The diagnostic tests are intended to test only IBM
+products. The use of non-IBM products, prototype
+cards, or modified options can lead to false
+indications of errors and invalid system responses.
+1. Identify the failing symptoms in as much detail as
+possible.
+2. Verify the symptoms. Try to re-create the failure by
+running the diagnostic test or by repeating the
+operation.
+Testing the computer
+The ThinkPad computer has a test program called
+PC-Doctor
+®
+DOS (hereafter called PC-Doctor). You can
+detect errors by running the diagnostics test included in
+PC-Doctor. This section is an overview of the procedure.
+For details that depend on model-unique functions, refer to
+“Product overview” on page 41.
+For some possible configurations of the computer,
+PC-Doctor might not run correctly. To avoid this problem,
+you need to initialize the computer setup by use of the IBM
+BIOS Setup Utility before you run PC-Doctor. On the IBM
+BIOS Setup Utility screen, press F9, Enter, F10, and then
+Enter.
+Note: When you initialize the computer configuration,
+some devices are disabled, such as the serial port.
+If you test one of these devices, you will need to
+enable it by using PS2.EXE.
+PC-Doctor cannot be used to test a device that is in the
+docking station, even if the computer supports the docking
+station. To test a USB device, connect it to the USB
+connector of the computer. To test the Ultrabay 2000
+device, install it in the Ultrabay 2000 slot of the computer.
+To run the test, do as follows:
+Note: In the following procedure, you can select an item
+not only with the arrow keys, but also with the
+TrackPoint. Instead of pressing Enter, click the left
+button.
+1. Insert the PC-Doctor disk into the diskette drive; then
+power on the computer.
+If the computer cannot be powered on, go to “Power
+system checkout” on page 35, and check the power
+sources.
+Checkout guide
+General descriptions 33
+
+--- Page 40 ---
+If an error code appears, go to “Symptom-to-FRU
+index” on page 49.
+On the first screen, select the model and press Enter.
+Follow the instructions on the screen.
+2. The main panel of PC-Doctor appears.
+3. Select Diagnostics with the arrow keys, and press
+Enter.
+A pull-down menu appears. (Its exact form depends on
+the model.)
+The options on the test menu are as follows:
+Diagnostics Interactive Tests
+v Run Normal Test
+v Run Quick Test
+v CPU/Coprocessor
+v Systemboard
+v Video Adapter
+v Serial Ports
+v Parallel Ports
+v Fixed Disks
+v Diskette Drives
+v Other Devices
+v ZIP Drive (*)
+v LS-120 Drive (*)
+v Communication
+v Memory Test – Full
+v Memory Test – Quick
+v Keyboard
+v Video
+v Internal Speaker
+v Mouse
+v Joystick Test
+v Diskette
+v System Load
+v CD-ROM/DVD Test
+v Stereo Speaker
+Notes:
+v In the Keyboard test in Interactive Tests, the Fn key is
+scanned only once. Each key should be held down for at least
+2 seconds; otherwise, it cannot be sensed.
+v The sound card is not recognized in the Stereo Speaker in the
+Interactive Tests. To test it, use the audio device test in the
+Other Devices (Diagnostics).
+v Video Adapter test supports only the LCD display on
+ThinkPad. Before running PC-Doctor DOS, detach the external
+Monitor.
+v ZIP Drive test and LS-120 Drive test are only for some
+models. Some model do not have them.
+Diagnostics
+Quit
+Interactive Tests
+Hardware Info
+Utility F1=Help
+Run Quick Test
+Run Normal Test
+Systemboard
+CPU/Coprocessor
+Video Adapter
+Serial Ports
+Diskette Drives
+Fixed Disks
+Parallel Ports
+Other Devices
+ZIP Drive
+Communication
+Memory Test - Full
+Memory Test - Quick
+Use the cursor keys and ESC to move in menus. Press ENTER to select.
+PC-DOCTOR 2.0 Copyright 2001 PC-Doctor, Inc. All Rights Reserved.
+4. Run the applicable function test.
+Checkout guide
+34 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 41 ---
+5. Follow the instructions on the screen. If there is a
+problem, PC-Doctor shows messages describing it.
+6. To exit the test, select Quit — Exit Diag.
+To cancel the test, press Esc.
+Note: After executing PC-Doctor, check the system
+time/date and reset them if needed.
+Detecting system information with
+PC-Doctor
+PC-Doctor can detect the following system information:
+Hardware Info
+v System Configuration
+v Memory Contents
+v Physical Disk Drives
+v Logical Disk Drives
+v VGA Information
+v IDE Drive Info
+v PCI Information
+v PNPISA Info
+v SMBIOS Info
+v VESA LCD Info
+Utility
+v Run External Tests
+v Surface Scan Hard Disk
+v Benchmark System
+v DOS Shell
+v Tech Support Form
+v Battery Rundown
+v View Test Log
+v Print Log
+v Save Log
+v Full Erase Hard Drive
+v Quick Erase Hard Drive
+Power system checkout
+To verify a symptom, do the following:
+1. Power off the computer.
+2. Remove the battery pack.
+3. Connect the ac adapter.
+4. Check that power is supplied when you power on the
+computer.
+5. Power off the computer.
+6. Disconnect the ac adapter and install the charged
+battery pack.
+7. Check that the battery pack supplies power when you
+power on the computer.
+If you suspect a power problem, see the appropriate one
+of the following power supply checkouts:
+Checkout guide
+General descriptions 35
+
+--- Page 42 ---
+v “Checking the ac adapter”
+v “Checking operational charging”
+v “Checking the battery pack” on page 37
+v “Checking the backup battery” on page 37
+Checking the ac adapter
+You are here because the computer fails only when the ac
+adapter is used:
+v If the power problem occurs only when the port
+replicator is used, replace the port replicator.
+v If the power-on indicator does not turn on, check the
+power cord of the ac adapter for correct continuity and
+installation.
+v If the computer does not charge during operation, go to
+″Checking operational charging.″
+To check the ac adapter, do the following:
+1. Unplug the ac adapter cable from the computer.
+2. Measure the output voltage at the plug of the ac
+adapter cable. See the following figure:
+2
+1
+(16-10V)
+Pin Voltage (V dc)
+1 +15.5 to +17.0
+2 Ground
+3. If the voltage is not correct, replace the ac adapter.
+4. If the voltage is acceptable, do the following:
+v Replace the system board.
+v If the problem persists, go to “Product overview” on
+page 41.
+Note: Noise from the ac adapter does not always indicate
+a defect.
+Checking operational charging
+To check whether the battery charges properly during
+operation, use a discharged battery pack or a battery pack
+that has less than 50% of the total power remaining when
+installed in the computer.
+Perform operational charging. If the battery status indicator
+or icon does not turn on, remove the battery pack and let it
+return to room temperature. Reinstall the battery pack. If
+the charge indicator or icon still does not turn on, replace
+the battery pack.
+If the charge indicator still does not turn on, replace the
+system board. Then reinstall the battery pack. If it is still
+not charged, go to the next section.
+Checkout guide
+36 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 43 ---
+Checking the battery pack
+Battery charging does not start until the Power Meter
+shows that less than 95% of the total power remains;
+under this condition the battery pack can charge to 100%
+of its capacity. This protects the battery pack from being
+overcharged or from having a shortened life.
+To check the status of your battery, move your cursor to
+the Power Meter icon in the icon tray of the Windows
+taskbar and wait for a moment (but do not click), and the
+percentage of battery power remaining is displayed. To get
+detailed information about the battery, double-click the
+Power Meter icon.
+Note: If the battery pack becomes hot, it may not be able
+to charge. Remove it from the computer and leave it
+at room temperature for a while. After it cools down,
+reinstall and recharge it.
+To check the battery pack, do the following:
+1. Power off the computer.
+2. Remove the battery pack and measure the voltage
+between battery terminals 1 (+) and 5 (−). See the
+following figure:
+5(-)
+4
+3
+2
+1(+)
+Terminal Voltage (V dc)
+1 + 0 to + 12.6
+5 Ground (−)
+3. If the voltage is less than +11.0 V dc, the battery pack
+has been discharged.
+Note: Recharging will take at least 3 hours, even if the
+indicator does not turn on.
+If the voltage is still less than +11.0 V dc after
+recharging, replace the battery.
+4. If the voltage is more than +11.0 V dc, measure the
+resistance between battery terminals 4 and 5. The
+resistance must be 4 to 30 K .
+If the resistance is not correct, replace the battery
+pack. If the resistance is correct, replace the system
+board.
+Checking the backup battery
+Do the following:
+1. Power off the computer, and unplug the ac adapter
+from it.
+2. Turn the computer upside down.
+Checkout guide
+General descriptions 37
+
+--- Page 44 ---
+3. Remove the battery pack (see “1010 Battery pack” on
+page 60 ).
+4. Remove the backup battery (see “Checking the battery
+pack” on page 37).
+5. Measure the voltage of the backup battery. See the
+following figure.
+Red (+)
+Black (-)
+Wire Voltage (V dc)
+Red +2.5 to +3.2
+Black Ground
+v If the voltage is correct, replace the system board.
+v If the voltage is not correct, replace the backup battery.
+v If the backup battery discharges quickly after
+replacement, replace the system board.
+Checkout guide
+38 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 45 ---
+ThinkPad A20m/p, A21m/p and
+A22m/p
+Product overview ............41
+Specifications ............41
+Status indicators ...........44
+FRU tests .............46
+Fn key combinations ..........48
+Symptom-to-FRU index ..........49
+Numeric error codes ..........49
+Error messages ...........52
+Beep symptoms ...........53
+No beep symptoms ..........53
+LCD-related symptoms .........54
+Intermittent problems ..........55
+Undetermined problems .........55
+FRU replacement notices .........56
+Screw notices ............56
+Retaining serial numbers.........57
+Restoring the serial number of the system unit 57
+Retaining the UUID .........57
+Removing and replacing a FRU........59
+1010 Battery pack...........60
+1020 DIMM ............61
+1030 Mini PCI adapter .........63
+For A20m/p, A21m/p series .......64
+For A22m/p series .........65
+1040 Backup battery ..........66
+1050 Hard-disk drive or RF ID adapter ....67
+1060 Ultrabay 2000 device ........69
+1070 Keyboard ...........71
+1080 Keyboard CRU insulator .......74
+1090 Hinge cover and clear sheet icon ....75
+1100 Keyboard bezel and speaker ......76
+1110 Microphone and speaker cable .....78
+For A20m/p and A21m/p series (microphone and
+speaker cable) ..........78
+For A22m/p series (speaker cable) .....79
+1120 Sub card............80
+1130 PC Card slot assembly .......82
+1140 Fan assembly ..........83
+1150 Diskette drive ..........85
+1160 Upper shield...........87
+1170 TV card ............88
+1180 CPU socket and CPU ........89
+1190 System board and RJ45/11 connector
+assembly ............91
+For A20m/p and A21m/p series ......92
+For A22m/p series .........92
+Thermal rubbers location.........93
+2010 LCD assembly ..........94
+2020 Front bezel ...........96
+© Copyright IBM Corp. 2001
+39
+
+--- Page 46 ---
+12.1-in. panel ...........96
+14.1-in. and 15.0-in. panels .......97
+2030 Inverter card ..........99
+12.1-in. panel ...........99
+14.1-in. and 15.0-in. panels ......100
+2040 LCD panel ...........101
+12.1-in. panel...........101
+14.1-in. and 15.0-in. panels ......103
+3010 ThinkPad Dock PCI cover ......105
+3020 ThinkPad Dock top cover ......107
+Locations ..............112
+Front view.............112
+Rear view .............113
+Bottom view ............114
+Parts list ..............115
+A series model matrix .........115
+Overall .............123
+AC adapter ............136
+LCD FRUs ............136
+12.1-in. SVGA TFT .........136
+14.1-in. XGA TFT .........137
+15.0-in. XGA TFT (LG) ........138
+15.0-in. XGA TFT (SAMSUNG) .....138
+15.0-in. SXGA+ TFT ........139
+15.0-in. UXGA TFT .........139
+Keyboard .............140
+Recovery CDs ...........141
+For Windows 98 (A22m) .......141
+For Windows 98 (A22p) .......142
+For Windows 2000 (A22m).......143
+For Windows 2000 (A22p) .......143
+For Windows 2000/Windows NT (A22m) 143
+For Windows 2000/Windows NT (A22p) . . . 144
+Miscellaneous parts ..........145
+Optional FRUs ...........147
+Common parts list ..........148
+Tools .............148
+Power cords (system) ........148
+Power cords (docking station) ......149
+Notices ..............150
+Trademarks ............150
+40 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 47 ---
+Product overview
+This section presents the following product-unique
+information:
+v “Specifications”
+v “Status indicators” on page 44
+v “FRU tests” on page 46
+v “Fn key combinations” on page 48
+Specifications
+The following table lists the specifications of the ThinkPad
+A20m/p, A21m/p and A22m/p series:
+Feature Description
+Processor A20m
+v Intel
+®
+Celeron
+®
+processor 500 MHz, L2
+256-KB cache
+v Intel
+®
+Celeron
+®
+processor 550 MHz, L2
+256-KB cache
+v Mobile Intel
+®
+Pentium
+®
+III processor
+500 MHz, L2 256-KB cache
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+600 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+650 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+700 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+A20p
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+700 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+750 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+A21m
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+700 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+750 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+800 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+(continued)
+Product overview
+ThinkPad A20m/p, A21m/p and A22m/p 41
+
+--- Page 48 ---
+Feature Description
+Processor A21p
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+850 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+A22m
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+800 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+850 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+900 MHz featuring Intel
+®
+SpeedStep
+™
+technology
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+1 GHz featuring Intel
+®
+SpeedStep
+™
+technology
+A22p
+v Mobile Intel
+®
+Pentium
+®
+III processor at
+1 GHz featuring Intel
+®
+SpeedStep
+™
+technology
+Bus architecture PCI Bus
+Memory (standard) A20m/p
+v 64 MB (on the system board)
+v 128 MB (on the system board)
+A21m/p
+v 64 MB (on the system board)
+v 128 MB (on the system board)
+v 64 MB (64 MB SO-DIMM × 1)
+v 128 MB (128 MB SO-DIMM × 1)
+A22m/p
+v 64 MB (64 MB SO-DIMM × 1)
+v 128 MB (128 MB SO-DIMM × 1)
+Memory (optional) 64 MB, 128 MB, or 256 MB DIMM card
+(maximum of 512 MB)
+CMOS RAM 114 bytes + 128 bytes
+Display v 12.1-inch, 16M colors, SVGA (800×600
+resolution) TFT color LCD
+v 14.1-inch, 16M colors, XGA (1024×768
+resolution) TFT color LCD
+v 15.0-inch, 16M colors, XGA (1024×768
+resolution) TFT color LCD
+v 15.0-inch, 16M colors, SXGA+
+(1400×1050 resolution) TFT color LCD
+v 15.0-inch, 16M colors, UXGA
+(1600×1200 resolution) TFT color LCD
+(continued)
+Product overview
+42 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 49 ---
+Feature Description
+Diskette drive 1.44 MB (3-mode), 3.5-inch
+Hard-disk drive A20m/p
+v 6.0 GB, 2.5-inch, IDE interface
+v 12.0 GB, 2.5-inch, IDE interface
+v 18.0 GB, 2.5-inch, IDE interface
+v 20.0 GB, 2.5-inch, IDE interface
+A21m/p
+v 10.0 GB, 2.5-inch, IDE interface
+v 20.0 GB, 2.5-inch, IDE interface
+v 32.0 GB, 2.5-inch, IDE interface
+A22m/p
+v 10.0 GB, 2.5-inch, IDE interface
+v 20.0 GB, 2.5-inch, IDE interface
+v 30.0 GB, 2.5-inch, IDE interface
+v 32.0 GB, 2.5-inch, IDE interface
+I/O port v External monitor
+v Line-in
+v Headphone
+v Microphone
+v Mouse or keyboard
+v Parallel
+v Port replicator connector
+v Serial
+v Universal serial bus (USB) connector
+v RJ11
+v RJ45
+v TV-in/out (for MT2629)
+v TV-out (for MT2628-Fxx, Gxx, Sxx, Txx,
+MT2623-Gxx, Txx)
+Internal modem 56.6 Kbps
+Audio v Internal microphone (for A20m/p,
+A21m/p)
+v Internal speaker
+v Software control volume
+Infrared transfer IrDA 1.1
+PC Card One Type-III or two Type-II
+AC adapter 72-watt type
+Bay device A20m/p
+v 10-24 x CD-ROM drive
+v 6 x DVD drive
+A21m/p, A22m/p
+v 10-24 x CD-ROM drive
+v 8 x DVD drive
+Product overview
+ThinkPad A20m/p, A21m/p and A22m/p 43
+
+--- Page 50 ---
+Status indicators
+The system status indicators show the status of the
+computer, as follows:
+Indicator Meaning
+1 Battery Green: The battery is fully charged.
+Blinking green:
+The battery has enough power to
+operate, but is being charged.
+Orange: The battery power is low. The battery
+is to being charged.
+Blinking orange:
+The battery needs to be charged.
+when the indicator starts blinking
+orange, the computer beeps three
+times.
+2 Standby
+status
+Green: The computer is in standby mode.
+Blinking green:
+The computer is entering standby
+mode or hibernation mode, or is
+resuming normal operation. This
+indicator does not blink in Windows
+2000 and Windows Me.
+3 Drive in
+use
+Green: Data is being read from or written to
+the hard-disk drive, the diskette drive,
+or the drive in the Ultrabay 2000.
+When this indicator is on, do not put
+the computer into standby mode or
+turn off the computer.
+Note: Do not move the system while the Green
+drive in use light is on. Sudden physical shock
+could cause drive errors.
+(continued)
+Product overview
+44 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 51 ---
+Indicator Meaning
+4 Num lock Green: The numeric keypad on the keyboard
+is enabled. To enable or disable the
+keypad, press and hold the Shift key
+while pressing the NumLk key.
+5 Caps lock Green: Caps Lock mode is enabled. To
+enable or disable Caps Lock mode,
+press Caps Lock key.
+6 Scroll lock Green: Scroll Lock mode is enabled. Arrow
+keys can be used as screen-scroll
+function keys, but not to move the
+cursor. To enable or disable Scroll
+Lock mode, press ScrLk key. Not all
+application programs support this
+function.
+7 Power on Green: This indicator stays lighted whenever
+the computer is on. If the power-on
+indicator is on and the standby
+indicator is off, the system is ready to
+use. If both the power-on indicator
+and the standby indicator are on, you
+can use the computer after it returns
+from the standby mode and the
+standby indicator goes off.
+Product overview
+ThinkPad A20m/p, A21m/p and A22m/p 45
+
+--- Page 52 ---
+FRU tests
+The following table shows the test for each FRU.
+FRU Applicable test
+System board 1. Diagnostics --> CPU/Coprocessor
+2. Diagnostics --> Systemboard
+Power Diagnostics --> Other Devices --> IBM AC
+Adapter, IBM Battery 1 (IBM Battery 2)
+LCD unit 1. Diagnostics --> Video Adapter
+2. Interactive Tests --> Video
+Modem 1. Make sure the modem is set up correctly.
+2. Replace the modem jack and the modem
+card in turn, and run the following test in
+Diagnostics --> Communication:
+a. Lucent Modem (M2) Loopback
+b. Lucent Modem (M2) Dialtone/DTM
+c. Intel Modem Register
+d. Intel Modem Loopback/DTMF
+e. Intel SP Modem Register
+f. Intel SP Modem Loopback/DTMF
+g. 3Com MiniPCI Modem Test
+h. 3Com MiniPCI Dialtone Test
+Audio 1. Interactive Tests --> Internal Speaker
+2. Diagnostics --> Other Devices --> Crystal
+SoundFusion
+™
+Test
+Speaker Interactive Tests --> Internal Speaker
+PC Card slots Diagnostics --> Systemboard --> PCMCIA,
+PCMCIA External Loop
+Keyboard 1. Diagnostics --> Systemboard -->
+Keyboard
+2. Interactive Tests --> Keyboard
+TrackPoint or
+pointing device
+If the TrackPoint does not work, check the
+configuration in the ThinkPad Configuration
+program. If the TrackPoint is disabled, select
+Enable to enable it.
+After you use the TrackPoint, the pointer may
+drift on the screen for a short time. This drift
+can occur when a slight, steady pressure is
+applied to the TrackPoint pointer. This symptom
+is not a hardware problem. If the pointer stops
+after a short time, no service action is
+necessary.
+If enabling the TrackPoint does not correct the
+problem, continue with the following:
+v Interactive Tests --> Mouse
+Hard-disk drive Diagnostics --> Fixed Disks
+Diskette drive 1. Diagnostics --> Diskette Drives
+2. Interactive Tests --> Diskette
+(continued)
+Product overview
+46 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 53 ---
+FRU Applicable test
+CD-ROM or
+DVD drive
+1. Diagnostics --> Other Devices -->
+CD-ROM/DVD
+2. Interactive Tests --> CD-ROM/DVD Test
+Memory 1. If two DIMMs are installed, remove one of
+them and run Diagnostics --> Memory
+Test - Quick.
+2. If the problem does not recur, return the
+DIMM to its place, remove the other one,
+and run the test again.
+3. If the test does not detect the error, run
+Diagnostics --> Memory Test - Full.
+Fan 1. Turn on the computer and check the air
+turbulence at the louver near the power
+switch.
+2. Run Diagnostics --> Other Devices -->
+IBM Fan.
+Product overview
+ThinkPad A20m/p, A21m/p and A22m/p 47
+
+--- Page 54 ---
+Fn key combinations
+The following table shows the function of each combination
+of Fn with a function key.
+Key
+combination
+Description
+Fn + F1 Reserved.
+Fn + F2 Reserved.
+Fn + F3 Turn off the LCD display, leaving the screen
+blank. To turn the LCD display on again, press
+any key or the TrackPoint stick.
+Fn + F4 Turn standby mode on. To return to normal
+operation, press the Fn key independently,
+without pressing a function key.
+Fn + F5 Reserved.
+Fn + F6 Reserved.
+Fn + F7 Switch between the LCD and an external
+monitor (CRT). If an external monitor is
+attached, computer output is displayed in the
+following three patterns by turns:
+v CRT display
+v LCD + CRT display
+v LCD
+Fn + F8 Turn screen expansion on or off. (There is no
+symbol on the key.)
+Fn + F9 Reserved.
+Fn + F10 Reserved.
+Fn + F11 Reserved.
+Fn + F12 Turn hibernation mode on. To return to normal
+operation, press the power button for less than
+four seconds.
+Fn + PgUp Turn the ThinkLight on or off.
+Fn + Home The LCD becomes brighter.
+Fn + End The LCD becomes less bright.
+Product overview
+48 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 55 ---
+Symptom-to-FRU index
+The symptom-to-FRU index in this section lists symptoms
+and errors and their possible causes. The most likely
+cause is listed first, in boldface type.
+Note: Do the FRU replacement or other actions in the
+sequence shown in the column headed “FRU or
+action, in sequence.” If replacing a FRU does not
+solve the problem, put the original part back in the
+computer. Do not replace a nondefective FRU.
+This index can also help you determine, during regular
+servicing, what FRUs are likely to need to be replaced
+next.
+A numeric error is displayed for each error detected in
+POST or system operation. In the displays, n can be any
+number.
+If no numeric code is displayed, check the narrative
+descriptions of symptoms. If the symptom is not described
+there, go to “Intermittent problems” on page 55.
+Note
+For an IBM device not supported by diagnostic
+codes in the ThinkPad notebook computers, see the
+manual for that device.
+Numeric error codes
+Symptom or error FRU or action, in sequence
+0175
+Bad CRC1, stop POST task —
+The EEPROM checksum is not
+correct.
+System board.
+0187
+EAIA data access error — The
+access to EEPROM has failed.
+System board.
+0188
+Invalid RFID serialization
+information area or bad CRC2
+— The EEPROM checksum is
+not correct.
+System board.
+0189
+Invalid RFID configuration
+information area — The
+EEPROM checksum is not
+correct.
+System board.
+(continued)
+Symptom-to-FRU index
+ThinkPad A20m/p, A21m/p and A22m/p 49
+
+--- Page 56 ---
+Symptom or error FRU or action, in sequence
+0190
+Critical low battery error.
+1. Charge the battery pack.
+2. Battery pack.
+0193
+RF antenna has been removed.
+Enter the supervisor
+password.
+0194
+The computer has been carried
+through a security gate.
+Enter the supervisor
+password.
+0200
+Hard disk error — The hard
+disk is not working.
+1. Reseat the hard-disk
+drive.
+2. Load Setup Defaults in IBM
+BIOS Setup Utility.
+3. Hard-disk drive.
+4. System board.
+021x
+Stuck key — Keyboard error.
+Run interactive tests of the
+keyboard and the auxiliary
+input device.
+0220
+Monitor type error — Monitor
+type does not match the one
+specified in CMOS.
+Load Setup Defaults in IBM
+BIOS Setup Utility.
+0230
+Shadow RAM error — The
+shadow RAM failure at offset
+nnnn.
+System board.
+0231
+System RAM error — System
+RAM failure at offset nnnn.
+1. DIMM.
+2. System board.
+0232
+Extended RAM error —
+Extended RAM failure at offset
+nnnn.
+1. DIMM.
+2. System board.
+0250
+System battery error — System
+battery is dead.
+Replace the backup battery
+and run IBM BIOS Setup
+Utility to reset the time and
+date.
+0251
+System CMOS checksum
+bad—Default configuration
+used.
+Replace the backup battery
+and run IBM BIOS Setup
+Utility to reset the time and
+date.
+0252
+Password checksum bad —
+The password is cleared.
+Reset the password by
+running IBM BIOS Setup
+Utility.
+0260
+System timer error.
+1. Replace the backup
+battery and run IBM BIOS
+Setup Utility to reset the
+time and date.
+2. System board.
+(continued)
+Symptom-to-FRU index
+50 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 57 ---
+Symptom or error FRU or action, in sequence
+0270
+Real-time clock error.
+1. Replace the backup
+battery and run IBM BIOS
+Setup Utility to reset the
+time and date.
+2. System board.
+0271
+Date and time error — Neither
+the date nor the time is set in
+the computer.
+Run IBM BIOS Setup Utility to
+reset the time and date.
+02B2
+Incorrect drive A type.
+1. Diskette drive.
+2. External FDD cable.
+3. I/O card.
+02F4
+EISA CMOS not writable.
+1. Load Setup Defaults in
+IBM BIOS Setup Utility.
+2. Replace the backup battery.
+3. System board.
+02F5
+DIMM test failure.
+1. DIMM.
+2. System board.
+02F6
+Software NMI failure.
+1. DIMM.
+2. System board.
+02F7
+Fail-safe timer NMI failure.
+1. DIMM.
+2. System board.
+Symptom-to-FRU index
+ThinkPad A20m/p, A21m/p and A22m/p 51
+
+--- Page 58 ---
+Error messages
+Symptom or error FRU or action, in sequence
+Device address conflict. 1. Load Setup Defaults in
+IBM BIOS Setup Utility.
+2. Backup battery.
+3. System board.
+Allocation error for device. 1. Load Setup Defaults in
+IBM BIOS Setup Utility.
+2. Backup battery.
+3. System board.
+Failing bits: nnnn. 1. DIMM.
+2. System board.
+Invalid system configuration
+data.
+1. DIMM.
+2. System board.
+I/O device IRQ conflict. 1. Load Setup Defaults in
+IBM BIOS Setup Utility.
+2. Backup battery.
+3. System board.
+Operating system not found. 1. Check that the operating
+system has no failure and is
+installed correctly.
+2. Enter IBM BIOS Setup
+Utility and see whether
+the hard-disk drive and
+the diskette drive are
+properly identified.
+3. Reseat the hard-disk drive.
+4. Reinstall the operating
+system.
+5. Diskette drive.
+6. Hard-disk drive.
+7. System board.
+Hibernation error. 1. Restore the system
+configuration to what it
+was before the computer
+entered hibernation mode.
+2. If memory size has been
+changed, re-create the
+hibernation file.
+Fan error. Fan.
+Symptom-to-FRU index
+52 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 59 ---
+Beep symptoms
+Symptom or error FRU or action, in sequence
+One beep and a blank,
+unreadable, or flashing LCD.
+1. Reseat the LCD
+connector.
+2. LCD assembly.
+3. External CRT.
+4. System board.
+One long and two short beeps,
+and a blank or unreadable
+LCD.
+1. System board.
+2. LCD assembly.
+3. DIMM.
+Two short beeps with error
+codes.
+POST error. See “Numeric
+error codes” on page 49.
+Two short beeps with blank
+screen.
+1. System board.
+2. DIMM.
+Two or more beeps, or a
+continuous beep. Operating
+System starts successfully.
+If a mini-PCI Ethernet card is
+installed, confirm that Alert On
+LAN 2 in IBM BIOS Setup
+Utility is disabled.
+Three short beeps, pause,
+three more short beeps, and
+one short beep.
+1. DIMM.
+2. System board
+Only cursor appears. Reinstall operating system.
+No beep symptoms
+Symptom or error FRU or action, in sequence
+No beep, power-on indicator
+on, LCD blank, and no POST.
+1. Make sure that every
+connector is connected
+tightly and correctly.
+2. DIMM.
+3. System board.
+No beep, power-on indicator
+on, and LCD blank during
+POST.
+1. Reseat DIMM.
+2. System board.
+The power-on password
+prompt.
+A power-on password or a
+supervisor password is set.
+Type the password and press
+Enter.
+The hard-disk password
+prompt.
+A hard-disk password is set.
+Type the password and press
+Enter.
+The DOS full screen looks
+smaller.
+Start the ThinkPad
+Configuration program and set
+the Screen expansion
+function.
+Symptom-to-FRU index
+ThinkPad A20m/p, A21m/p and A22m/p 53
+
+--- Page 60 ---
+LCD-related symptoms
+Important
+The TFT LCD for the notebook computer contains
+many thin-film transistors (TFTs). A small number of
+dots that are missing, discolored, or always lighted
+is characteristic of TFT LCD technology, but
+excessive pixel problems can cause viewing
+concerns. The LCD should be replaced if the
+number of missing, discolored, or lighted dots in any
+background is:
+v SVGA: 5 or more bright dots, 5 or more dark
+dots, or a total of 9 or more bright and dark dots.
+v XGA: 8 or more bright dots, 8 or more dark dots,
+or a total of 9 or more bright and dark dots.
+v SXGA+: 11 or more bright dots, 13 or more dark
+dots, or a total of 16 or more bright and dark
+dots.
+v UXGA: 11 or more bright dots, 16 or more dark
+dots, or a total of 16 or more bright and dark
+dots.
+Note: A bright dot is a white or colored pixel that is
+always on. A dark dot is a pixel that is always
+off and shows as black.
+Symptom or error FRU or action, in sequence
+No beep, power-on indicator
+on, and a blank LCD during
+POST.
+System board.
+v LCD backlight not working.
+v LCD too dark.
+v LCD brightness cannot be
+adjusted.
+v LCD contrast cannot be
+adjusted.
+1. Reseat the LCD
+connectors.
+2. LCD assembly.
+3. System board.
+v LCD screen unreadable.
+v Characters missing pixels.
+v Screen abnormal.
+v Wrong color displayed.
+1. See important note for
+“LCD-related symptoms”.
+2. Reseat all LCD connectors.
+3. LCD assembly.
+4. System board.
+Horizontal or vertical lines
+displayed on LCD.
+LCD assembly.
+Symptom-to-FRU index
+54 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 61 ---
+Intermittent problems
+Intermittent system hang problems can be due to a variety
+of causes that have nothing to do with a hardware defect,
+such as cosmic radiation, electrostatic discharge, or
+software errors. FRU replacement should be considered
+only when a problem recurs.
+When analyzing an intermittent problem, do the following:
+1. Run the diagnostic test for the system board in loop
+mode at least 10 times.
+2. If no error is detected, do not replace any FRUs.
+3. If any error is detected, replace the FRU shown by the
+FRU code. Rerun the test to verify that no more errors
+exist.
+Undetermined problems
+You are here because the diagnostic tests did not identify
+which adapter or device failed, wrong devices are installed,
+a short circuit is suspected, or the system is inoperative.
+Follow these procedures to isolate the failing FRU (do not
+isolate FRUs that have no defects).
+Verify that all attached devices are supported by the
+computer.
+Verify that the power supply being used at the time of the
+failure is operating correctly. (See “Power system
+checkout” on page 35.)
+1. Power off the computer.
+2. Visually check each FRU for damage. Replace any
+damaged FRU.
+3. Remove or disconnect all of the following devices:
+a. Non-IBM devices
+b. Devices attached to the port replicator
+c. Printer, mouse, and other external devices
+d. Battery pack
+e. Hard-disk drive
+f. External diskette drive
+g. DIMM
+h. CD-ROM and diskette drive in the UltraslimBay
+i. PC Cards
+4. Power on the computer.
+5. Determine whether the problem has changed.
+6. If the problem does not recur, reconnect the removed
+devices one at a time until you find the failing FRU.
+7. If the problem remains, replace the following FRUs one
+at a time (do not replace a nondefective FRU):
+a. System board
+b. LCD assembly
+Symptom-to-FRU index
+ThinkPad A20m/p, A21m/p and A22m/p 55
+
+--- Page 62 ---
+FRU replacement notices
+This section contains notices related to removing and
+replacing parts. Read this section carefully before replacing
+any FRU.
+Screw notices
+Loose screws can cause a reliability problem. In IBM
+ThinkPad computer, this problem is addressed with special
+nylon-coated screws that have the following characteristics:
+v They maintain tight connections.
+v They do not easily come loose, even with shock or
+vibration.
+v They are harder to tighten.
+v They should be used only once.
+Do the following when you service this machine:
+v Keep the screw kit (for the P/N, see “Miscellaneous
+parts” on page 145) in your tool bag.
+v Always use new screws.
+v Use a torque screwdriver if you have one.
+Tighten screws as follows:
+v Plastic to plastic
+Turn an additional 90 degrees after the screw head
+touches the surface of the plastic part:
+90 degrees more
+(Cross-section)
+v Logic card to plastic
+Turn an additional 180 degrees after the screw head
+touches the surface of the logic card:
+180 degrees more
+(Cross-section)
+v Torque driver
+If you have a torque driver, refer to the “Torque” column
+for each step.
+FRU replacement notices
+56 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 63 ---
+v Make sure you use the correct screw. If you have a
+torque screwdriver, tighten all screws firmly to the torque
+shown in the table. Never use a screw that you
+removed. Use a new one. Make sure the screws are
+tightened firmly.
+Retaining serial numbers
+This section includes the following descriptions:
+v “Restoring the serial number of the system unit”
+v “Retaining the UUID”
+Restoring the serial number of the system
+unit
+When the computer was manufactured, the EEPROM on
+the system board was loaded with the serial numbers of
+the system and all major components. These numbers
+need to remain the same throughout the life of the
+computer.
+If you replace the system board, you must restore the
+serial number of the system unit to its original value.
+Before replacing the system board, save the original serial
+number by doing the following:
+1. Install the ThinkPad hardware maintenance diskette
+version 1.62, and restart the computer.
+2. From the main menu, select 1. Set System
+Identification.
+3. Select 2. Read S/N data from EEPROM.
+The serial number for each device is displayed. Write
+down the serial number of the system unit, designated as
+follows:
+20: System unit serial number
+After you have replaced the system board, restore the
+serial number by doing the following:
+1. Install the ThinkPad hardware maintenance diskette
+version 1.62 and restart the computer.
+2. From the main menu, select 1. Set System
+Identification.
+3. Select 1. Add S/N data from EEPROM.
+Follow the instructions on the screen.
+Note: The serial number of the system unit is written on
+the label attached on the bottom of the computer.
+Retaining the UUID
+The Universally Unique Identifier (UUID) is a 128-bit
+number uniquely assigned to your computer at production
+and stored in the EEPROM of your system board. The
+algorithm that generates the number is designed to provide
+FRU replacement notices
+ThinkPad A20m/p, A21m/p and A22m/p 57
+
+--- Page 64 ---
+unique IDs until the year A.D. 3400. No two computers in
+the world have the same number.
+When you replace the system board, you must set the
+UUID on the new system board as follows:
+1. Install the ThinkPad hardware maintenance diskette
+version 1.62, and restart the computer.
+2. From the main menu, select 4. Assign UUID.
+A new UUID is created and written. If a valid UUID
+already exists, it is not overwritten.
+FRU replacement notices
+58 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 65 ---
+Removing and replacing a FRU
+This section presents directions and drawings for use in
+removing and replacing a FRU. Be sure to observe the
+following general rules:
+1. Do not try to service any computer unless you have
+been trained and certified. An untrained person runs
+the risk of damaging parts.
+2. Before replacing any FRU, review “FRU replacement
+notices” on page 56.
+3. Begin by removing any FRUs that have to be removed
+before the failing FRU. Any such FRUs are listed at the
+top of the page. Remove them in the order in which
+they are listed.
+4. Follow the correct sequence in the steps for removing
+the FRU, as indicated in the drawings by the numbers
+in square callouts.
+5. When turning a screw to replace a FRU, turn it in the
+direction indicated by the arrow in the drawing.
+6. When removing the FRU, move it in the direction
+indicated by the arrow in the drawing.
+7. To put the new FRU in place, reverse the removal
+procedure and follow any notes that pertain to
+replacement. For information about connecting and
+arranging internal cables, see “Locations” on page 112.
+8. When replacing a FRU, use the correct screw as
+shown in the procedures.
+DANGER
+Before removing any FRU, power off the computer,
+unplug all power cords from electrical outlets,
+remove the battery pack, and then disconnect any
+interconnecting cables.
+Attention: Before the computer is powered on after FRU
+replacement, make sure that all screws, springs, and other
+small parts are in place and are not loose inside the
+computer. Verify this by shaking the computer gently and
+listening for rattling sounds. Metallic parts or metal flakes
+can cause electrical short circuits.
+Attention: The system board is sensitive to, and can be
+damaged by, electrostatic discharge. Before touching it,
+establish personal grounding by touching a ground point
+with one hand or by using an electrostatic discharge (ESD)
+strap (P/N 6405959).
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 59
+
+--- Page 66 ---
+1010 Battery pack
+DANGER
+Use only the battery in the parts listing for your
+computer. Use of an incorrect battery can result in
+ignition or explosion of the battery.
+Removing and replacing a FRU
+60 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 67 ---
+1020 DIMM
+For access, remove this FRU:
+v “1010 Battery pack” on page 60
+Note: Loosen the screw 1, but do not remove it.
+(continued)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 61
+
+--- Page 68 ---
+When installing: With the notched end of the DIMM
+toward the socket, insert the DIMM into
+the socket, then press it firmly. Pivot the
+DIMM until it snaps into place. Make
+sure that the card is firmly fixed in the
+slot and does not move easily.
+Removing and replacing a FRU
+62 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 69 ---
+1030 Mini PCI adapter
+For access, remove this FRU:
+v “1010 Battery pack” on page 60
+Note: Loosen the screw 1, but do not remove it.
+2
+1
+(continued)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 63
+
+--- Page 70 ---
+For A20m/p, A21m/p series
+Note: The illustration shows the combo card. Connector
+(A) is for the LAN feature and (B) is for the modem
+feature. This slot also supports a Mini PCI modem
+card or Mini PCI network card. Step 5 depends
+on the card type. Disconnect either (A), (B) or both.
+When installing the card, do the following:
+v With the notched end of the card toward the socket,
+insert the card into the socket, then press it firmly. Pivot
+the card until it snaps into place. Make sure that the
+card is firmly fixed in the slot and does not move easily.
+v Make sure that the connector (A) is placed under the
+card when reinstalling the Mini PCI adapter.
+Removing and replacing a FRU
+64 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 71 ---
+For A22m/p series
+Note: The illustration shows the combo card. Connector
+(A) is for the LAN feature and (B) is for the modem
+feature. This slot also supports a Mini PCI modem
+card or Mini PCI network card. Step 4 depends
+on the card type. Disconnect either (A), (B) or both.
+When installing: With the notched end of the card toward
+the socket, insert the card into the
+socket, then press it firmly. Pivot the
+card until it snaps into place. Make sure
+that the card is firmly fixed in the slot
+and does not move easily.
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 65
+
+--- Page 72 ---
+1040 Backup battery
+DANGER
+Use only the battery in the parts listing for your
+computer. Use of an incorrect battery can result in
+ignition or explosion of the battery.
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1020 DIMM” on page 61
+v “1030 Mini PCI adapter” on page 63
+Removing and replacing a FRU
+66 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 73 ---
+1050 Hard-disk drive or RF ID adapter
+Attention
+Do not drop or apply any shock to the hard-disk
+drive. The hard-disk drive is sensitive to physical
+shock. Incorrect handling can cause damage and
+permanent loss of data.
+Before removing the drive, have the user make a
+backup copy of all the information on the drive if
+possible.
+Never remove the drive while the system is
+operating or is in suspend mode.
+For access, remove this FRU:
+v “1010 Battery pack” on page 60
+Note: The hard disk is attached to the cover.
+Step Screw (quantity)
+1 Coin screw (1) or security screw (1)
+Note: Use a 2.5-mm Allen wrench to remove the security screw.
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 67
+
+--- Page 74 ---
+When installing: Make sure that the HDD connector is
+firmly connected.
+Removing and replacing a FRU
+68 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 75 ---
+1060 Ultrabay 2000 device
+Any of several devices can be inserted into the Ultrabay
+2000. The procedure for installing and removing is the
+same for every device.
+Note: When you release the switch in step 1 the lever
+pops out. Pull the lever a little in step 2 to release
+the device from the bay.
+(continued)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 69
+
+--- Page 76 ---
+Removing and replacing a FRU
+70 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 77 ---
+1070 Keyboard
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+1
+Step Screw (quantity) Torque
+1 M2.5 × 15 mm, nylon-coated (3) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 71
+
+--- Page 78 ---
+(continued)
+Removing and replacing a FRU
+72 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 79 ---
+When installing: When installing the keyboard, do as
+follows:
+1. Install the new keyboard, following the directions in the
+figure. Make sure that the keyboard edges, shown in
+the figure as (A), (B), and (C), are under the frame.
+2. Push the Y key 1 to connect the keyboard to the
+connector on the underside of the key; then push the
+frame of the keyboard 2 to latch the latches.
+3. After the fastening of three screws of bottom side, push
+the Y key again to connect the keyboard firmly to the
+connector on the underside of the key.
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 73
+
+--- Page 80 ---
+1080 Keyboard CRU insulator
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+Removing and replacing a FRU
+74 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 81 ---
+1090 Hinge cover and clear sheet icon
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+Step Screw (quantity) Torque
+1 M2.5 × 15 mm, nylon-coated (1) 0.392 Nm
+(4 kgfcm)
+When installing: Stick the new clear sheet icon suitable
+for the model onto the new hinge cover,
+and then attach it to the computer.
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 75
+
+--- Page 82 ---
+1100 Keyboard bezel and speaker
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (7) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+76 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 83 ---
+Step Screw (quantity) Torque
+2 M2.5 × 15 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+Cable routing: When replacing the cable, see the
+preceding figure for its cable routing.
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 77
+
+--- Page 84 ---
+1110 Microphone and speaker cable
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+For A20m/p and A21m/p series (microphone
+and speaker cable)
+When installing: Make sure that you fasten the connector
+firmly.
+(continued)
+Removing and replacing a FRU
+78 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 85 ---
+For A22m/p series (speaker cable)
+When installing: Make sure that you fasten the connector
+firmly.
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 79
+
+--- Page 86 ---
+1120 Sub card
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+Step Screw (quantity) Torque
+1 M2.6 × 2.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+80 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 87 ---
+Step Screw (quantity) Torque
+4 M2.5 × 4.8 mm, nylon-coated (1) 0.392 Nm
+(4 kgfcm)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 81
+
+--- Page 88 ---
+1130 PC Card slot assembly
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+v “1120 Sub card” on page 80
+Note: Step 1 (PC Card slot spacer) is only for MT2629.
+Other model do not have the spacer. Remove it
+gently; it will be reused when installing new PC
+Card slot assembly.
+Step Screw (quantity) Torque
+2 M2.0 × 9.5 mm, nylon-coated (2) 0.245 Nm
+(2.5 kgfcm)
+Removing and replacing a FRU
+82 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 89 ---
+1140 Fan assembly
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+Note: Step 1a is for the MT2628-Fxx, Gxx, Pxx, Qxx,
+Rxx, Sxx, Txx, Xxx, MT2633-Gxx, Txx, and
+MT2629. Other model do not have the screw 1a.
+Step Screw (quantity) Torque
+1a M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+1 M2.5 × 4.8 mm, nylon-coated (3) 0.392 Nm
+(4 kgfcm)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 83
+
+--- Page 90 ---
+Installation notice for A21m/p and A22m/p series
+When installing the fan assembly, apply the thermal grease
+(05K5751) on the a-part of the fan as shown in the
+following figure.
+Removing and replacing a FRU
+84 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 91 ---
+1150 Diskette drive
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+v “1110 Microphone and speaker cable” on page 78
+Note: Step 1a are for the MT2628-Fxx, Gxx, Pxx, Qxx,
+Rxx, Sxx, Txx, Xxx, MT2633-Gxx, Txx, and
+MT2629. Other model do not have the screws 1a.
+Step Screw (quantity) Torque
+1a M2.5 × 4.8 mm, nylon-coated (3) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 85
+
+--- Page 92 ---
+Notes:
+1. The heatpipe A and the screw 1a are for the
+MT2628-Fxx, Gxx, Pxx, Qxx, Rxx, Sxx, Txx, Xxx,
+MT2633-Gxx, Txx, and MT2629. Other models do not
+have them.
+2. Step 4 (diskette drive spacer) is only for MT2629.
+Other models do not have the spacer. Remove it
+gently; it will be reused when installing new diskette
+drive.
+Step Screw (quantity) Torque
+1a M2.5 × 4.8 mm, nylon-coated (1) 0.392 Nm
+(4 kgfcm)
+1 M2.5 × 4.8 mm, nylon-coated (1) 0.392 Nm
+(4 kgfcm)
+2 M2.5 × 15 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+When installing: Do not press the a-part of the diskette
+drive to avoid the damage.
+Removing and replacing a FRU
+86 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 93 ---
+1160 Upper shield
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+v “1110 Microphone and speaker cable” on page 78
+v “1120 Sub card” on page 80
+v “1130 PC Card slot assembly” on page 82
+v “1140 Fan assembly” on page 83
+v “1150 Diskette drive” on page 85
+Step Screw (quantity) Torque
+1 M2.5 × 15 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+2 M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 87
+
+--- Page 94 ---
+1170 TV card
+Note
+This section is only for MT2628-Fxx,-Gxx, -Sxx,-Txx,
+MT2633-Gxx,-Txx, and MT2629. Other models do
+not have the TV card.
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+v “1110 Microphone and speaker cable” on page 78
+v “1120 Sub card” on page 80
+v “1130 PC Card slot assembly” on page 82
+v “1140 Fan assembly” on page 83
+v “1150 Diskette drive” on page 85
+v “1160 Upper shield” on page 87
+Cable routing: When replacing the modem cable, see the
+figure for the cable routing.
+Removing and replacing a FRU
+88 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 95 ---
+1180 CPU socket and CPU
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1020 DIMM” on page 61
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+v “1110 Microphone and speaker cable” on page 78
+v “1120 Sub card” on page 80
+v “1130 PC Card slot assembly” on page 82
+v “1140 Fan assembly” on page 83
+v “1150 Diskette drive” on page 85
+v “1160 Upper shield” on page 87
+Note: MT2628-Exx, -Dxx do not have the CPU removal
+procedure.
+Rotate the screw head (A) 180° to the direction of the
+arrow a to release the lock and then remove the CPU.
+Step Screw (quantity) Torque
+1 M2.5 × 15 mm, nylon-coated (3) 0.392 Nm
+(4 kgfcm)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 89
+
+--- Page 96 ---
+When installing the CPU, do as shown in the figure.
+v Rotate the screw head (A) 180° to the direction of the
+arrow b to lock the CPU.
+v When attach the CPU to the socket, do as shown in the
+step c.
+Removing and replacing a FRU
+90 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 97 ---
+1190 System board and RJ45/11
+connector assembly
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1020 DIMM” on page 61
+v “1030 Mini PCI adapter” on page 63
+v “1040 Backup battery” on page 66
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+v “1110 Microphone and speaker cable” on page 78
+v “1120 Sub card” on page 80
+v “1130 PC Card slot assembly” on page 82
+v “1140 Fan assembly” on page 83
+v “1150 Diskette drive” on page 85
+v “1160 Upper shield” on page 87
+v “1170 TV card” on page 88
+v “1180 CPU socket and CPU” on page 89
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 91
+
+--- Page 98 ---
+Note: Step 4 (thermal rubbers) are only for
+MT2628-Pxx, -Qxx, -Rxx, -Sxx, -Txx, -Xxx, and
+MT2629-Hxx, -Uxx. When replacing the system
+board for those models, remove the thermal rubbers
+from the removed system board and put them onto
+the new system board. And then install the new
+system board to the base cover. (For the location of
+the therma rubbers, see “Thermal rubbers location”
+on page 93.)
+For A20m/p and A21m/p series
+For A22m/p series
+Note: When installing the new RJ45/11 connector
+assembly onto the system board, make sure that
+the connector is firmly attached.
+Removing and replacing a FRU
+92 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 99 ---
+Thermal rubbers location
+Before installing the new system board, make sure that the
+thermal rubbers are placed on the system board as shown
+in the following figures.
+For A21m/p series
+Upper side of the system board
+Bottom side of the system board
+For A22m/p series
+Upper side of the system board
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 93
+
+--- Page 100 ---
+2010 LCD assembly
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+Note: Screws 1a are for MT2628-Fxx, -Gxx, -Pxx, -Qxx,
+-Rxx, -Sxx, -Txx, -Xxx, MT2633-Gxx, -Txx and
+MT2629. Other models do not have them.
+Step Screw (quantity) Torque
+1a M2.5 × 4.8 mm, nylon-coated (3) 0.392 Nm
+(4 kgfcm)
+1 M2.5 × 4.8 mm, nylon-coated (4) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+94 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 101 ---
+Step Screw (quantity) Torque
+2 M2.6 × 2.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+4 M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 95
+
+--- Page 102 ---
+2020 Front bezel
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+v “2010 LCD assembly” on page 94
+12.1-in. panel
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (3) 0.392 Nm
+(4 kgfcm)
+Removing and replacing a FRU
+96 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 103 ---
+14.1-in. and 15.0-in. panels
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (2) 0.392 Nm
+(4 kgfcm)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 97
+
+--- Page 104 ---
+Note: Only the front bezel for the 15.0-in. XGA TFT (LG)
+has a identifying mark (V), as in the following
+figure. For the FRU list, see “15.0-in. XGA TFT
+(LG)” on page 138.
+Removing and replacing a FRU
+98 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 105 ---
+2030 Inverter card
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+v “2010 LCD assembly” on page 94
+v “2020 Front bezel” on page 96
+12.1-in. panel
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (1) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 99
+
+--- Page 106 ---
+14.1-in. and 15.0-in. panels
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm, nylon-coated (1) 0.392 Nm
+(4 kgfcm)
+Removing and replacing a FRU
+100 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 107 ---
+2040 LCD panel
+For access, remove these FRUs, in order:
+v “1010 Battery pack” on page 60
+v “1050 Hard-disk drive or RF ID adapter” on page 67
+v “1060 Ultrabay 2000 device” on page 69
+v “1070 Keyboard” on page 71
+v “1080 Keyboard CRU insulator” on page 74
+v “1090 Hinge cover and clear sheet icon” on page 75
+v “1100 Keyboard bezel and speaker” on page 76
+v “2010 LCD assembly” on page 94
+v “2020 Front bezel” on page 96
+v “2030 Inverter card” on page 99
+12.1-in. panel
+Step MT Screw (quantity) Torque
+1 2628-Dxx, Qxx,
+1xx, 2xx
+M2.5 × 7.0 mm,
+nylon-coated (4)
+0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 101
+
+--- Page 108 ---
+(continued)
+Removing and replacing a FRU
+102 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 109 ---
+14.1-in. and 15.0-in. panels
+Step MT Screw (quantity) Torque
+1 2628-Fxx, Pxx,
+Rxx, 3xx
+M2 × 5.7 mm,
+nylon-coated (4)
+0.245 Nm
+(2.5 kgfcm)
+2628-Exx, Gxx,
+Xxx, Txx and
+2633-Gxx, Txx, 4xx
+M2 × 5.7 mm,
+nylon-coated (4)
+0.167 Nm
+(1.7 kgfcm)
+2628-Sxx and
+2629
+M2 × 5.1 mm,
+nylon-coated (4)
+0.196 Nm
+(2.0 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 103
+
+--- Page 110 ---
+v For the 14-in. LCD, the LCD cable is taped onto the
+connector. Tear off the tape before disconnecting the
+LCD cable in step 4.
+v The LCD cable for the 15.0-in. UXGA LCD (27L0598)
+and the LCD cable for the 15.0-in. SXGA+ LCD
+(27L0488) have the UltraPort connector and need step
+6. If the UltraPort adapter has been screwed onto the
+LCD, remove the adapter before step 6. To do this,
+remove the screws from both sides of the adapter as
+shown in the figure 2a. For other cable, do as shown
+in the figure 2b.
+Removing and replacing a FRU
+104 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 111 ---
+3010 ThinkPad Dock PCI cover
+Before replacing the PCI cover:
+There are two types of ThinkPad Dock as follows:
+v ThinkPad Dock: FRU part no. 08N1546 (PCI cover: FRU
+part no. 05K6246)
+v ThinkPad Dock with extension plate: FRU part no.
+08N1537 (PCI cover: FRU part no. 08N7317)
+Make sure that the PCI cover FRU suits the ThinkPad
+Dock you are servicing.
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 105
+
+--- Page 112 ---
+Note: Following illustration shows the PCI cover removal
+of ThinkPad Dock (FRU no. 08N1546.) Do the
+same procedure for the PCI cover removal of
+ThinkPad Dock with extension plate (FRU part no.
+08N1537.)
+1
+2
+1
+(Bottom view)
+Removing and replacing a FRU
+106 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 113 ---
+3020 ThinkPad Dock top cover
+Note
+This section is only for the ThinkPad Dock (FRU no.
+08N1546.) Top cover and screw kit for ThinkPad
+Dock (FRU part no. 12P4143) is not available for
+the ThinkPad Dock with extension plate (FRU part
+no. 08N1537.)
+1
+(Rear view)
+Step Screw (quantity) Torque
+1 M2.5 × 4.8 mm (2) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 107
+
+--- Page 114 ---
+2
+2
+2
+(Bottom view)
+Step Screw (quantity) Torque
+2 M2.5 × 4.8 mm (8) 0.392 Nm
+(4 kgfcm)
+(continued)
+Removing and replacing a FRU
+108 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 115 ---
+Make sure that the system lock key A is set to the Unlock
+position. Release the front latches in step 3, and then
+remove the top cover 4. For step 5, see the inside
+view, shown in the circle.
+5
+4
+3
+A
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 109
+
+--- Page 116 ---
+When replacing the top cover, do the following:
+v Make sure that the springs placed correctly.
+v Make sure that the device release lever is seated
+correctly.
+(continued)
+Removing and replacing a FRU
+110 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 117 ---
+v Make sure that the release button works correctly.
+Removing and replacing a FRU
+ThinkPad A20m/p, A21m/p and A22m/p 111
+
+--- Page 118 ---
+Locations
+Front view
+1 System status indicators
+2 Battery and standby mode status indicators
+3 Built-in stereo speakers
+4 PC Card eject button
+5 PC Card slots
+6 Bay latch
+7 Eject button
+8 Ultrabay 2000 device
+Note: The Ultrabay 2000 accepts storage
+devices, such as a DVD drive or a
+CD-ROM drive.
+9 Video-out connector
+10 Video-in connector
+11 TrackPoint pointing stick
+12 TrackPoint buttons
+13 ThinkPad button
+14 Volume and mute buttons
+15 Power switch
+1
+2
+3
+15
+13
+14
+11
+12
+10
+8
+9
+7
+6
+5
+4
+Locations
+112 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 119 ---
+Rear view
+1 Security keyhole
+2 Parallel connector
+3 Modem connector
+4 Network connector
+5 Serial connector
+6 External-monitor connector
+7 Universal serial bus (USB) connector
+8 External-input-device connector
+9 Power jack
+Locations
+ThinkPad A20m/p, A21m/p and A22m/p 113
+
+--- Page 120 ---
+Bottom view
+1 Battery pack
+2 Battery pack latches
+3 Mini PCI card slot
+4 Docking connector
+5 DIMM slot
+6 Stereo headphone jack
+7 Stereo line-in jack
+8 Diskette drive
+9 Microphone jack
+10 Infrared port
+11 Hard-disk drive
+12 LCD latches
+Locations
+114 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 121 ---
+Parts list
+A series model matrix
+The A series includes several models. The following table
+summarizes the characteristics of each model, to help you
+determine which FRU in the part list meets your need.
+Model CPU Bay
+device
+Mini PCI
+adapter
+LCD HDD
+A20m (Memory, 64 MB; Video memory, 4 MB)
+2628-11x except
+11J, 11K
+2628-12x except
+12J, 12K
+Cel
+500
+CD-
+ROM
+Modem 12.1-in.
+SVGA
+6GB
+2628-11J, 11K,
+12J, 12K
+Ethernet
+2628-14x, 1Rx,
+1Sx, 1Tx
+Combo
+(Intel)
+2628-1Ox —— —
+2628-1Ax except
+1AJ, 1AK
+2628-1Cx except
+1CJ, 1CK
+Cel
+550
+CD-
+ROM
+Modem 6 GB
+2628-1AJ, 1AK,
+1CJ, 1CK
+Ethernet
+2628-1Ux, 1Vx Combo
+(Intel)
+2628-1Zx —— —
+2628-21x except
+21J, 21K
+2628-22x except
+22J, 22K
+CM
+500
+CD-
+ROM
+Modem 6 GB
+2628-21J 21K,
+22J, 22K
+Ethernet
+2628-24x, 2Sx,
+2Tx
+Combo
+(Intel)
+2628-2Ox —— —
+(continued)
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 115
+
+--- Page 122 ---
+Model CPU Bay
+device
+Mini PCI
+adapter
+LCD HDD
+A20m (Memory, 64 MB; Video memory, 8 MB)
+2628-31x
+except 31J, 31K
+2628-32x
+except 32J, 32K
+Cel
+500
+CD-
+ROM
+Modem 15.0-in.
+XGA
+12 GB
+2628-31J, 31K,
+32J, 32K
+Ethernet
+2628-3Sx, 3Tx Combo
+(Intel)
+2628-3Ax
+except 3AJ
+2628-3Cx
+except 3CJ
+Cel
+550
+Modem
+2628-3AJ, 3CJ Ethernet
+2628-3Ux, 3Vx Combo
+(Intel)
+2628-3Zx —— —
+2628-3Jx, 3Kx
+*1
+CM
+700G
+DVD-
+ROM
+Modem 18 GB
+2628-47x, 48x Cel
+500
+CD-
+ROM
+Modem 14.1-in.
+XGA
+12 GB
+2628-4Ax
+except 4AK
+2628-4Cx
+except 4CK
+CM
+600G
+DVD-
+ROM
+Modem
+2628-4AK, 4CK Ethernet
+2628-4Ux, 4Vx Combo
+(Intel)
+2628-4Zx —— —
+2628-4Dx, 4Ex CM
+650G
+CD-
+ROM
+Modem 12 GB
+2628-4Fx, 4Gx DVD-
+ROM
+Modem
+2628-41x
+except 41J, 41K
+2628-42x
+except 42J, 42K
+2628-44x
+except 44J, 44K
+CM
+700G
+CD-
+ROM
+Modem
+2628-41J, 41K,
+42J, 42K, 44J,
+44K
+Ehternet
+2628-43x, 45x —
+*1: Memory 128 MB
+(continued)
+Parts list
+116 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 123 ---
+Model CPU Bay
+device
+Mini PCI
+adapter
+LCD HDD
+A20m (Memory, 64 MB; Video memory, 8 MB)
+2628-4Lx
+*1
+CM
+700G
+CD-
+ROM
+Modem 14.1-in.
+XGA
+12 GB
+2628-4Sx, 4Tx Combo
+(Intel)
+2628-4Ox —— —
+2628-4Wx, 4Xx CD-
+ROM
+Combo
+(3Com)
+12 GB
+2628-4Hx, 4Ix
+*1
+DVD-
+ROM
+Modem 18 GB
+2633-41x
+except 41J, 41K
+42x except 42J,
+42K
+CD-
+ROM
+Modem 12 GB
+2633-41J, 41K,
+42J, 42K
+Ethernet
+2633-43x, 45x —
+2633-4Sx, 4Tx Combo
+(Intel)
+2633-4Wx, 4Xx Combo
+(3Com)
+A20p (Memory, 128 MB; Video memory, 16 MB)
+2629-61x
+except 61J, 61K
+2629-62x
+except 62J, 62K
+CM
+700G
+DVD-
+ROM
+Modem 15.0-in.
+SXGA+
+18 GB
+2629-61J, 61K,
+62J, 62K
+Ehternet
+2629-6Sx, 6Tx Combo
+(Intel)
+2629-6Ox —— —
+2629-6Ax
+except 6AJ,
+6AK
+2629-6Cx
+except 6CJ,
+6CK
+CM
+750G
+DVD-
+ROM
+Modem 20 GB
+2629-6AJ, 6AK,
+6CJ, 6CK
+Ethernet
+2629-6Ux, 6Vx Combo
+(Intel)
+2629-6Zx —— —
+*1: Memory 128 MB
+(continued)
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 117
+
+--- Page 124 ---
+Model CPU Bay
+device
+Mini PCI
+adapter
+LCD HDD
+A21m (Memory, 64 MB; Video memory, 4 MB)
+2628-C1x, C2x Cel
+600
+CD-
+ROM
+Modem 12.1-in.
+SVGA
+10 GB
+2628-C4x Combo
+(Intel)
+2628-CXx, CYx Combo
+(3Com)
+2628-COx —— —
+2628-D1x, D2x CM
+700G
+CD-
+ROM
+Modem 10 GB
+2628-D4x Combo
+(Intel)
+2628-DXx, DWx Combo
+(3Com)
+2628-DOx —— —
+2628-EDx, EEx CD-
+ROM
+Modem 14.1-in.
+XGA
+10 GB
+2628-E1x, E2x DVD-
+ROM
+2628-ESx, ETx Combo
+(Intel)
+2628-EXx, EWx Combo
+(3Com)
+2628-EFx, EGx Modem 20 GB
+2628-EOx —— —
+2628-JAx
+except JAJ
+2628-JCx
+except JCJ
+Cel
+700
+CD-
+ROM
+Modem 15.0-in.
+XGA
+20 GB
+2628-JAJ, JCJ Ethernet
+2628-JUx
+except JUY
+2628-JVx
+Combo
+(Intel)
+2628-JUY Combo
+(3Com)
+(continued)
+Parts list
+118 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 125 ---
+Model CPU Bay
+device
+Mini PCI
+adapter
+LCD HDD
+A21m (Memory, 64 MB; Video memory, 8 MB)
+2628-F1x, F2x
+except F2J
+CM
+750G
+CD-
+ROM
+Modem 15.0-in.
+XGA
+20 GB
+2628-F2J Ethernet
+2628-FXx, FWx Combo
+(3Com)
+2628-FSx, FTx Combo
+(Intel)
+2628-FOx —— —
+2628-FDC
+*1
+DVD-
+ROM
+Modem 20 GB
+2628-G1x
+except G1J
+2628-G2x
+except G2J
+2628-G4x
+except G4J
+CM
+800G
+DVD-
+ROM
+Modem 14.1-in.
+XGA
+2628-GLx
+*1
+2628-G1J, G2J,
+G4J
+Ethernet
+2628-G3x, G5x —
+2628-GSx, GTx Combo
+(Intel)
+2628-GXx, GWx Combo
+(3Com)
+2628-GOx —— —
+2633-G1x
+except G1J,
+G1K
+2633-G2x
+except G2J,
+G2K
+DVD-
+ROM
+Modem 20 GB
+2633-G1J, G1K,
+G2J, G2K
+Ethernet
+2633-GSx, GTx Combo
+(Intel)
+2633-GXx, GWx Combo
+(3Com)
+*1: Memory 128 MB
+(continued)
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 119
+
+--- Page 126 ---
+Model CPU Bay
+device
+Mini PCI
+adapter
+LCD HDD
+A21p (Memory, 128 MB; Video memory, 16 MB)
+2629-H1x, H2x
+except H2J
+CM
+850G
+DVD-
+ROM
+Modem 15.0-in.
+UXGA
+32 GB
+2629-H2J Ehternet
+2629-HSx, HTx Combo
+(Intel)
+2629-HXx, HWx Combo
+(3Com)
+2629-HOx —— —
+A22m (Memory, 64 MB; Video memory, 4 MB)
+2628-P1x
+except P1J
+2628-P2x
+except P2J
+CM
+800G
+CD-
+ROM
+Modem 15.0-in.
+XGA
+10 GB
+2628-P1J, P2J Ethernet
+2628-PSx, PTx,
+PQH, PRA
+Combo
+(Intel)
+2628-Q1x
+except Q1J
+2628-Q2x
+except Q2J
+Modem 12.1-in.
+SVGA
+20 GB
+2628-Q1J, Q2J Ethernet
+2628-QSx, QTx Combo
+(Intel)
+2628-QQx,
+QRx, QUx, QVx
+2628-XxG CM
+850G
+DVD-
+ROM
+14.1-in.
+XGA
+2628-R1x
+except R1J
+2628-R2x
+except R2J
+CM
+850G
+DVD-
+ROM
+Modem 15.0-in.
+XGA
+2628-R1J, R2J Ethernet
+2628-RAC CD-
+ROM
+Modem
+2628-RSx, RTx,
+RQA
+DVD-
+ROM
+Combo
+(Intel)
+(continued)
+Parts list
+120 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 127 ---
+Model CPU Bay
+device
+Mini PCI
+adapter
+LCD HDD
+A22m (Memory, 64 MB; Video memory, 8 MB)
+2628-S1x
+excepting S1J
+2628-S2x
+excepting S2J
+CM
+900G
+DVD-
+ROM
+Modem 15.0-in.
+SXGA+
+20 GB
+2628-S1J, S2J Ethernet
+2628-SAC
+*1
+Modem
+2628-SSx, STx Combo
+(Intel)
+2628-T1x
+excepting T1J
+2628-T2x
+excepting T2J
+*1
+CM
+1KG
+Modem 14.1-in.
+XGA
+30 GB
+2628-T7x, T8x,
+TMx, TNx
+2628-T1J, T2J
+*1
+Ethernet
+2628-T3x, T5x
+*1
+—
+2628-TSx, TTx,
+TUx
+*1
+Combo
+(Intel)
+2628-TQx, TRx,
+TUx, TVx
+*1
+2628-TXx, TWx
+*1
+Combo
+(3Com)
+2633-T1x
+excepting T1J,
+T1K
+2633-T2x
+excepting T2J,
+T2K
+*1
+Modem
+2633-T1J, T1K,
+T2J, T2K
+*1
+Ethernet
+2633-T3x, T5x
+*1
+—
+2633-TSx, TTx
+*1
+Combo
+(Intel)
+2633-TXx, TWx
+*1
+Combo
+(3Com)
+*1: Memory 128 MB
+(continued)
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 121
+
+--- Page 128 ---
+Model CPU Bay
+device
+Mini PCI
+adapter
+LCD HDD
+A22p (Memory, 128 MB; Video memory, 16 MB)
+2629-Y1x
+except Y1J
+2629-Y2x
+except Y2J
+CM
+900G
+CD-R/W Modem 15.0-in.
+UXGA
+32 GB
+2629-Y1J, Y2J Ethernet
+2629-YSx, YTx Combo
+(Intel)
+2629-YUx, YVx DVD-
+ROM
+2629-U1x
+except U1J
+2629-U2x
+except U2J
+CM
+1KG
+CD-R/W Modem
+2629-U1J, U2J Ethernet
+2629-USx, UTx Combo
+(Intel)
+2629-UQx, URx,
+UUx, UVx
+CMxxx: Mobile Intel
+®
+Pentium
+®
+III processor xxx MHz, L2
+256-KB cache
+CM xxxG:
+Mobile Intel
+®
+Pentium
+®
+III processor at xxx MHz
+featuring Intel
+®
+SpeedStep
+™
+technology
+CMG xKG:
+Mobile Intel
+®
+Pentium
+®
+III processor at x GHz
+featuring Intel
+®
+SpeedStep
+™
+technology
+Celxxx: Intel
+®
+Celeron
+®
+processor xxx MHz, L2 256-KB cache
+Parts list
+122 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 129 ---
+Overall
+1
+7
+6
+12
+2
+8
+3
+4
+5
+10
+11
+13
+15
+16
+17
+18
+19
+20
+21
+23
+23
+28a
+28b
+27
+32
+14
+22
+24
+25
+26
+29
+30
+31
+9
+a
+33
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 123
+
+--- Page 130 ---
+v Each FRU is available for all types/models, unless
+specific types or models are given.
+v The FRUs marked with asterisk are CRUs (customer
+replacable units).
+v The FRUs marked with OP are also available as
+optional FRUs.
+No. FRU P/N
+a See “Miscellaneous parts” on page 145.
+1 LCD unit (see “LCD FRUs” on page 136)
+2 Hinge cover (for A20m/A20p)
+12.1/14.1-in. LCD models
+2628-1xx, 2xx, 4xx, Bxx, 2633-all
+04P3970
+15.0-in. LCD models
+2628-3xx
+04P3972
+15.0-in. LCD with heatpipe models
+2629-all
+04P3971
+Hinge cover (for A21m/A21p)
+12.1/14.1-in. LCD models
+2628-Cxx, Dxx, Exx
+04P3970
+15.0-in. LCD models
+2628-Jxx
+04P3972
+12.1/14.1-in. LCD with heatpipe models
+2628-Gxx, 2633-Gxx
+04P3490
+15.0-in. LCD with heatpipe models
+2628-Fxx
+04P3971
+15.0-in. LCD with heatpipe models
+2629-Hxx
+08K0863
+Hinge cover (for A22m/A22p)
+12.1/14.1-in. LCD with heatpipe models
+2628-Qxx, Txx, Xxx, 2633-Txx
+08K7301
+15.0-in. LCD with heatpipe models
+2628-Pxx, Rxx, Sxx, 2629-Uxx, Yxx
+08K7302
+3 Speaker assembly
+12.1/14.1-in. LCD models
+2628-1xx, 2xx, 4xx, Bxx, Cxx, Dxx, Exx,
+Gxx, Kxx, Qxx, Txx, Xxx
+2633-4xx, Gxx, Txx
+02K5007
+15.0-in. LCD models
+2628-3xx, Fxx, Jxx, Pxx, Rxx, Sxx
+2629-6xx, Hxx, Uxx, Yxx
+02K5644
+(continued)
+Parts list
+124 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 131 ---
+No. FRU P/N
+4 Keyboard bezel for 12.1/14.1-in. LCD models
+2628-1xx, 2xx, 4xx, Dxx, Exx, Gxx, Qxx,
+Txx except xxK
+2628-Bxx, Xxx
+2633-4xx, Gxx, Txx except xxK
+08K5667
+2628-1xK, 2xK, 4xK, DxK, ExK, GxK, QxK,
+TxK
+2633-4xK, GxK, TxK
+08K5669
+Keyboard bezel for 12.1/14.1-in. LCD (1 slot) models
+2628-Cxx except CxK 04P3726
+2628-CxK 08K7090
+Keyboard bezel for 15.0-in. LCD models
+2628-3xx, Fxx, Pxx, Rxx, Sxx except xxK
+2629-6xx, Hxx, Uxx , Yxx except xxK
+08K7162
+2628-3xK, FxK, PxK, RxK, SxK
+2629-6xK, HxK, UxK
+08K7163
+Keyboard bezel for 15.0-in. LCD (1slot) models
+2628-Jxx except JxK 08K7164
+2628-JxK 08K7165
+5 Heatpipe hinge (lower)
+2628-Fxx, Gxx, Pxx, Qxx, Rxx, Sxx, Txx
+2629-6xx, Fxx, Gxx, Hxx, Uxx, Yxx
+2633-Gxx, Txx
+08K7287
+6 Spacer, PC card slots
+2629-6xx, Hxx, Uxx, Yxx
+04P3223
+7 Sub card
+for A20m, A20p 10L1418
+for A21m, A22m except 2628-Sxx 08K3306
+for 2628-Sxx, A21p, A22p 08K3261
+8 PC card slots (2 slots)
+all models except 2628-Cxx, Jxx
+04P3523
+PC card slot (1 slot)
+2628-Cxx, Jxx
+04P3398
+9 Fan assembly
+2628-1xx, 2xx, 47x, 48x, Bxx
+2628-3xx except 3JC, 3KC
+08K5650
+2628-4xx except 47x, 48x
+2628-3JC, 3KC
+2633-4xx
+2629-6xx
+08K6614
+(continued)
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 125
+
+--- Page 132 ---
+No. FRU P/N
+9 Fan assembly
+2628-Cxx, Dxx, Exx, Jxx 04P3482
+2628-Fxx, Gxx, Pxx, Qxx, Rxx
+2633-Gxx
+2629-Fxx, Gxx, Hxx
+04P3483
+2628-Sxx, Txx, 2629-Uxx, 2633-Txx 26P9207
+10 TV card (out only)
+2628-Fxx, Gxx, Sxx, Txx, Xxx
+2633-Gxx, Txx
+08K3259
+TV card (in/out)
+2629-6xx, Hxx, Uxx
+10L1419
+11 Backup battery 02K6572
+12 Mini PCI adapter
+Mini PCI combo card (Intel) for A20m/p,
+A21m/p OP
+2628-14U, 14F, 1Sx, 1Tx, 24U, 24F, 2Sx,
+2Tx, 3Sx, 3Tx, 4Sx, 4Tx
+2628-1Ux, 1Vx, 3Ux, 3Vx, 4Ux, 4Vx
+2628-xxJ, xxK
+2629-6Sx, 6Tx, 6Ux, 6Vx
+2629-xxJ, xxK
+2633-4Sx, 4Tx
+2633-xxJ, xxK
+08K3125*
+Mini PCI combo card (Intel) for A22m/p OP
+2628-xSx, xTx
+2629-xSx, xTx
+2633-xSx, xTx
+06P3809*
+Mini PCI combo card (3Com) for A20m, A21m
+OP
+2628-4Wx, 4Xx, GWx, GXx
+2633-4Wx, 4Xx, GWx, GXx
+00N8117*
+Mini PCI combo card (3Com) for A22m OP
+2628-xXx, xWx
+2633-xXx, xWx
+22P6753*
+Mini PCI combo card (CR) for A21m/p OP
+2628-all except xxJ, xxK
+2629-all except xxJ, xxK
+2633-all except xxJ, xxK
+19K5888*
+(continued)
+Parts list
+126 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 133 ---
+No. FRU P/N
+12 Mini PCI adapter
+Mini PCI modem card (Ambit) for A20m/p,
+A21m/p
+2628-11x, 12x, 21x, 22x, 31x, 32x, 41x,
+42x, 44x, 47x, 48x, 4Dx, 4Ex, 4Fx, 4Gx,
+4Hx, 4Ix, Bxx except xxJ, xxK, xxA
+2628-1Ax, 1Cx, 3Ax, 3Cx, 4Ax, 4Cx, 4Lx
+except xxA, xxJ, xxK
+2628-Cxx, Dxx, Exx, Fxx, Gxx except xxA
+2628-3JC, 3KC
+2628-JAx, JCx except xxA
+2629-61x, 62x except xxA, xxJ, xxK
+2629-Hxx except xxA
+2633-41x, 42x except xxA, xxJ, xxK
+2633-Gxx except xxA
+08K3252
+Mini PCI modem card (Ambit) for A22m/p
+2628-x1x, x2x except xxJ, xxK
+2629-U1x, U2x except xxJ, xxK
+2633-x1x, x2x except xxJ, xxK
+08K3383
+Mini PCI modem card (M2) (IBM) for A20m/p
+2628-11A, 12A, 1AA, 1CA, 21A, 22A, 31A,
+32A, 3AA, 3CA, 41A, 42A, 44A, 47A, 48A,
+4AA, 4CA, 4LA, 4DA, 4EA, 4FA, 4GA,
+4HA, 4IA
+2629-61A, 62A
+2633-41A, 42A
+08K3429
+Mini PCI modem card (IBM CR) for A21m/p
+2628-xxA
+2629-xxA
+2633-xxA
+08K3338
+Mini PCI Ethernet card (Intel) 2.6 for A20m/p
+2628-xxJ, xxK except 43x, 45x
+2629-xxJ, xxK
+2633-41J, 41K, 42J, 42K
+10L1423
+Mini PCI Ethernet card (Intel) 3.0
+for A21m/p
+2628-xxJ, xxK
+2629-xxJ, xxK
+2633-xxJ, xxK
+for A22m/p
+2628-x1J, x1K, x2J, x2K
+2629-U1J, U1K, U2J, x2K
+2633-x1J, x1K, x2J, x2K
+08K3348
+(continued)
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 127
+
+--- Page 134 ---
+No. FRU P/N
+13 Base cover for A20m
+2628-1xx, 2xx, 3xx, 4xx except xxK, xxT,
+2628-Bxx
+04P3410
+2628-1xK, 2xK, 3xK, 4xK 04P3412
+2628-1xT, 2xT, 3xT, 4xT 04P3411
+2633-4xx except 4xK, 4xT 08K5901
+2633-4xK 08K5904
+2633-4xT 08K5902
+Base cover for A20p
+2629-6xx except 6xK, 6xT 08K5640
+2629-6xK 08K5646
+2629-6xT 08K5642
+Base cover for A21m
+2628-Dxx, Exx, Fxx, Gxx except xxK, xxT 04P3711
+2628-Jxx except JxK, JxT 04P3712
+2628-DxK, ExK, FxK, GxK 04P3719
+2628-JxK 04P3720
+2628-DxT, ExT, FxT, GxT 04P3715
+2628-JxT 04P3716
+2633-Gxx except GxK, GxT 04P3714
+2633-GxK 04P3722
+2633-GxT 04P3718
+Base cover for A21p
+2629-Hxx except HxK, HxT 04P3713
+2629-HxK 04P3721
+2629-HxT 04P3717
+Base cover for A22m
+2628-Pxx, Qxx, Rxx, Sxx, Txx except
+xxK, xxT
+26P9523
+2628-PxK, QxK, RxK, SxK 26P9529
+2628-PxT, QxT, RxT, SxT 26P9529
+2633-Txx except TxK, TxT 26P9525
+2633-TxK 26P9531
+2633-TxT 26P9528
+Base cover for A22p
+2629-Uxx except UxK, UxT 26P9524
+2629-UxK 26P9530
+2629-UxT 26P9527
+(continued)
+Parts list
+128 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 135 ---
+No. FRU P/N
+14 Blank cap RJ45
+2628-x1x, x2x, x4x except xxJ, xxK
+2628-xAx, xCx except xxJ, xxK
+2628-3JC, 3KC, 4Lx
+2628-47G, 48G, 4DC, 4EC, 4FC, 4GC,
+4HC, 4IC
+2628-xSx, xTx, xWx, xXx, x1J, x1K, x2J,
+x2K
+2629-x1x, x2x, x4x except xxJ, xxK
+2629-xAx, xCx except xxJ, xxK
+2629-USx, UTx, U1J, U1K, U2J, U2K
+2633-x1x, x2x, x4x except xxJ, xxK
+2633-xSx, xTx, xWx, xXx, x1J, x1K, x2J,
+x2K
+04P3975
+15 Ultrabay 2000 device
+CD-ROM drive (TOSHIBA) OP
+2628-1xx except 10U, 1ZU
+2628-2xx except 20U
+2628-3xx except 30U, 3JC, 3KC, 3ZU
+2628-4xx except 40U
+2628-Bxx
+2633-4xx
+05K9158
+CD-ROM drive (LG) OP
+2628-1xx except 10U, 1ZU
+2628-2xx except 20U
+2628-3xx except 30U, 3JC, 3KC, 3ZU
+2628-4xx except 40U
+2628-Bxx
+2628-Cxx, Dxx, Fxx, Jxx
+2633-4xx
+05K9159
+CD-ROM drive (LG) OP
+2628-Bxx
+2628-Pxx, Qxx, RAx
+2633-4xx
+08K9545
+CD-ROM drive (TEAC) OP
+2628-Bxx
+2628-Cxx, Dxx, Fxx, Jxx
+2628-Pxx, Qxx, RAx
+2633-4xx
+27L3436
+DVD-ROM drive (MKE) OP
+2628-4Ax, 4Cx, 4Ux, 4Vx, 3JC, 3KC
+2628-6xx except 6ZU
+2629-6xx except 60U
+05K9188
+DVD-ROM drive (TOSHIBA) OP
+2628-4Ax, 4Cx, 4Ux, 4Vx, 3JC, 3KC
+2628-6xx except 6ZU
+2629-6xx except 60U
+05K9160
+(continued)
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 129
+
+--- Page 136 ---
+No. FRU P/N
+15 Ultrabay 2000 device
+DVD-ROM drive 8x (MKE) OP
+2628-Exx, Gxx
+2628-Rxx except RAx, Sxx, Txx, Xxx
+2629-Exx, Gxx, Hxx
+2629-UUx
+2633-Txx
+27L3447
+DVD-ROM drive (HITACHI) OP
+2628-Exx, Gxx
+2629-Exx, Gxx, Hxx
+2633-Gxx
+08K9513
+DVD-ROM drive (HITACHI) OP
+2628-Rxx except RAx, Sxx, Txx, Xxx
+2629-UUx
+2633-Txx
+27L4087
+CD-R/W drive (SONY) OP
+2629-Uxx except UUx
+08K9617
+for optional Ultrabay 2000 device, see “Optional FRUs” on
+page 147.
+16 Cover, Mini PCI adapter slot 08K7294
+17 Battery pack (6 cell)
+Panasonic Li-Ion
+2628-1xx, 2xx, 3xx, 4xx, Bxx
+2628-Cxx, Dxx, Exx, Fxx, Gxx, Jxx except
+xxE, xxJ, xxK
+2628-Pxx, Qxx, Rxx, Sxx, Txx except xxE,
+xxJ
+2633-4xx, Txx
+2633-Cxx, Dxx, Exx, Fxx, Gxx, Jxx except
+xxE, xxJ, xxK
+02K6614*
+SANYO Li-Ion
+2628-1xx, 2xx, 3xx, 4xx, Bxx
+2628-Cxx, Dxx, Exx, Fxx, Gxx, Jxx except
+xxE, xxJ, xxK
+2628-Pxx, Qxx, Rxx, Sxx, Txx except xxE,
+xxJ
+2633-4xx, Txx
+2633-Cxx, Dxx, Exx, Fxx, Gxx, Jxx except
+xxE, xxJ, xxK
+02K6618*
+Panasonic Li-Ion (ECO)
+2628-xxE
+2628-DxJ, ExJ, FxJ, GxE, GxJ, IxJ
+2628-xxJ except CxJ, JxJ
+2633-DxJ, ExJ, FxJ, GxE, GxJ, IxJ
+02K6769*
+(continued)
+Parts list
+130 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 137 ---
+No. FRU P/N
+17 Battery pack (6 cell)
+SANYO Li-Ion (ECO)
+2628-xxE, xxJ
+2628-DxJ, ExJ, FxJ, GxE, GxJ, IxJ
+2628-xxJ except CxJ, JxJ
+2633-DxJ, ExJ, FxJ, GxE, GxJ, IxJ
+02K6770*
+Panasonic NiMH (ECO)
+2628-CxK
+02K6720*
+SANYO NiMH (ECO)
+2628-CxJ, JxJ
+02K6864*
+Battery pack (9 cell)
+Panasonic Li-Ion OP
+2629-6xx
+2629-Hxx except HxJ
+2629-Uxx except UxE, UxJ
+02K6615*
+SANYO Li-Ion OP
+2629-6xx
+2629-Hxx except HxJ
+2629-Uxx except UxE, UxJ
+02K6619*
+Panasonic Li-Ion (ECO)
+2629-HxJ, UxE, UxJ
+02K6860*
+SANYO Li-Ion (ECO)
+2629-HxJ, UxE, UxJ
+02K6862*
+18 Cover, DIMM slot 08K7295
+19 Hard-disk drive (6.0 GB), STD OP
+2628-1xx except 10U, 1ZU
+2628-2xx except 20U
+2628-Bxx
+05K9227
+Hard-disk drive (6.0 GB), HITACHI OP
+2628-1xx except 10U, 1ZU
+2628-2xx except 20U
+2628-Bxx
+05K9228
+Hard-disk drive (10.0 GB), STD OP
+2628-Cxx, Dxx, Exx, Jxx, Pxx
+08K9508
+Hard-disk drive (10.0 GB), HITACHI OP
+2628-Cxx, Dxx, Exx, Jxx, Pxx
+08K9531
+Hard-disk drive (12.0 GB), STD OP
+2628-3xx except 30U, 3JC, 3KC, 3ZU
+2628-4xx except 40U, 4ZU
+2633-4xx
+05K9229
+Hard-disk drive (12.0 GB), HITACHI OP
+2628-3xx except 30U, 3JC, 3KC, 3ZU
+2628-4xx except 40U, 4ZU
+2633-4xx
+05K9230
+Hard-disk drive (18.0 GB), STD OP
+2628-3JC, 3KC
+2629-6xx except 60U
+27L4073
+(continued)
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 131
+
+--- Page 138 ---
+No. FRU P/N
+19 Hard-disk drive (18.0 GB), STD OP
+2628-3JC, 3KC
+2629-6xx except 60U
+27L4073
+Hard-disk drive (20.0 GB), STD OP
+2628-Qxx, Rxx, Sxx, Xxx, T7x, T8x, TUx,
+TVx
+2629-6Ax, 6Cx, 6Ux, 6Vx
+27L4075
+Hard-disk drive (20.0 GB), STD OP
+2628-Fxx, Gxx, Jxx
+2633-Gxx
+27L3427
+Hard-disk drive (20.0 GB), HITACHI OP
+2628-Fxx, Gxx, Jxx
+2628-Qxx, Rxx, Sxx, Xxx, T7x, T8x, TUx,
+TVx
+2633-Gxx
+08K9533
+Hard-disk drive (30.0 GB), STD OP
+2628-Txx except T7x, 8x, TUx, TVx
+2633-Txx
+08K9564
+Hard-disk drive (30.0 GB), HITACHI OP
+2628-Txx except T7x, 8x, TUx, TVx
+2633-Txx
+08K9692
+Hard-disk drive (32.0 GB), STD OP
+2629-Hxx, Uxx
+08K9509
+20 Cover, hard-disk drive for 12.1/14.1-in. models
+2628-1xx, 2xx, 4xx, Bxx, Cxx, Dxx, Exx,
+Gxx, Qxx, Rxx, Txx
+2633-4xx, Gxx, Txx
+08K5675
+Cover, hard-disk drive for 15.0-in. models
+2628-3xx, Fxx, Jxx, Pxx, Sxx
+2629-6xx, Fxx, Hxx, Jxx, Uxx
+08K5676
+— Asset ID RF adapter (see “Optional FRUs” on page 147)
+21 System board for A20
+Video memory 4 MB
+2628-1xx, 2xx, Bxx
+08K3314
+Video memory 8 MB
+2628-3xx except 3JC, 3KC
+08K3315
+Video memory 8 MB
+2628-4xx, 3JC, 3KC, 2633-4xx
+08K3316
+Video memory 16 MB
+2629-6xx
+08K3317
+System board for A21
+Video memory 4 MB
+2628-Cxx, Jxx
+08K3262
+Video memory 4 MB
+2628-Dxx, Exx
+08K3263
+Video memory 4 MB
+2628-Jxx
+26P7975
+(continued)
+Parts list
+132 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 139 ---
+No. FRU P/N
+21 System board for A21
+Video memory 8 MB
+2628-Gxx, Fxx, 2633-Gxx
+08K3264
+Video memory 16 MB
+2629-Hxx
+08K3265
+System board for A22
+without Video memory
+2628-Sxx
+26P8104
+Video memory 4 MB
+2628-Qxx
+26P8105
+Video memory 4 MB
+2628-Pxx, Rxx, Xxx
+26P8106
+Video memory 8 MB
+2628-Txx, 2633-Txx
+26P8102
+Video memory 16 MB
+2629-Uxx, Yxx
+26P8103
+22 64-MB SDRAM SO DIMM (PC100) OP
+2628-1xx except 10U, 1ZU
+2628-2xx except 20U
+2628-3xx except 30U, 3JC, 3KC, 3ZU
+2628-4xx except 40U, 4Hx, 4Ix, 4Lx
+2628-Cxx, Dxx, Exx, Fxx, Gxx, Jxx, Pxx,
+Qxx, Rxx, Xxx, T7x, T8x, TUx, TVx
+2633-4xx, Gxx
+20L0264*
+128-MB SDRAM SO DIMM (PC100) OP
+2628-4Hx, 4Ix
+2628-3JC, 3KC, 4Lx
+2628-Txx except T7x, T8x, TUx, TVx
+2629-6xx except 60U, 6ZU
+2629-Hxx, Uxx
+2633-Txx
+20L0265*
+23 Thermal rubbers
+2628-Pxx, Qxx, Rxx
+2629-Uxx
+2633-Txx
+08K7157
+2628-Sxx, Txx
+2629-Uxx
+2633-Txx
+26P9337
+(continued)
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 133
+
+--- Page 140 ---
+No. FRU P/N
+24 CPU, Celeron 500 MHz
+2628-1xx, 3xx, 47x, 48x
+08K3149
+CPU, Celeron 550 MHz
+2628-1Ax, 1Cx, 1Ux, 1Vx, 1ZU, 3Ax, 3Cx,
+3Ux, 3Vx, 3ZU
+08K3211
+CPU, Pentium III 500 MHz
+2628-2xx, Bxx
+10L1415
+CPU, Pentium III 600 MHz with SpeedStep
+technology
+2628-4Ax, 4Cx, 4Ux, 4Vx, 4ZU
+08K3213
+CPU, Pentium III 650 MHz with SpeedStep
+technology
+2628-4Dx, 4Ex, 4Fx, 4Gx
+10L1405
+CPU, Pentium III 650 MHz with SpeedStep
+technology
+2628-Hxx
+12P3450
+CPU, Pentium III 700 MHz with SpeedStep
+technology
+2628-4xx except 47x, 48x, 4Dx, 4Ex, 4Fx,
+4Gx
+2628-3JC, 3KC, 4Lx
+2629-6xx
+2633-4xx
+10L1417
+CPU, Pentium III 750 MHz with SpeedStep
+technology
+2628-Fxx
+2629-6Ax, 6Cx, 6Ux, 6Vx, 6ZU
+08K3191
+CPU, Pentium III 800 MHz with SpeedStep
+technology
+2628-Gxx, Pxx, Qxx
+2633-Gxx
+12P3448
+CPU, Pentium III 850 MHz with SpeedStep
+technology
+2628-Rxx, Xxx
+12P3450
+CPU, Pentium III 900 MHz with SpeedStep
+technology
+2628-Sxx
+26P8126
+CPU, Pentium III 900 MHz with SpeedStep
+technology
+2629-Yxx
+08K3346
+CPU, Pentium III 1 GHz with SpeedStep
+technology
+2628-Txx
+2629-Uxx
+2633-Txx
+08K3392
+25 Upper shield assembly, front 08K7286
+26 Diskette drive (TEAC) 05K9157
+Diskette drive (SONY) 08K9552
+(continued)
+Parts list
+134 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 141 ---
+No. FRU P/N
+27 Spacer, diskette drive for 2629 04P3225
+28a Microphone/speaker cable for A20m/A20p,
+A21m/A21p
+2628-1xx, 2xx, 3xx, 4xx, Bxx, Dxx, Exx,
+Fxx, Gxx
+2629-6xx, Dxx, Fxx, Gxx, Hxx
+2633-4xx, Gxx
+27L0484
+28b Speaker cable for A22m/A22p
+2628-Cxx, Jxx, Pxx, Qxx, Rxx, Sxx, Txx
+2629-Uxx
+2633-Txx
+27L0601
+29 Keyboard* (see “Keyboard” on page 140)
+30 Pointing stick cap for A20, 21 84G6536*
+Pointing stick cap for A22 26P9212*
+31 Clear sheet LED icon for A22 08K7304
+32 Fan duct for A22
+2628-Sxx, Txx, 2629-Uxx, 2633-Txx
+26P9208
+33 RJ45/11 connector assembly for A22 27L0645
+— Telephone cable 27L0603*
+— Video cable
+2628-Fxx, Gxx
+2629-6xx, Fxx, Gxx, Hxx, Uxx
+2633-Gxx
+27L0531
+— AC adapter (see “AC adapter” on page 136.)
+— Recovery CD (see “Recovery CDs” on page 141.)
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 135
+
+--- Page 142 ---
+AC adapter
+All of the AC adapters listed below are CRUs (customer
+replaceable units.)
+FRU P/N
+AC adapter (72 W), 2-pin (ASTEC)
+models xxE, xxF, xxJ, xxP, xxS, xxU, xxX
+02K6669
+AC adapter (72 W), 2-pin (DELTA)
+models xxE, xxF, xxJ, xxP, xxS, xxU, xxX
+02K6673
+AC adapter (72 W), 2-pin (SANKEN)
+models xxE, xxF, xxJ, xxP, xxS, xxU, xxX
+02K6677
+AC adapter (72 W), 3-pin (ASTEC)
+models xxC, xxG, xxH, xxK, xxT, xxY
+02K6666
+AC adapter (72 W), 3-pin (DELTA)
+models xxC, xxG, xxH, xxK, xxT, xxY
+02K6670
+AC adapter (72 W), 3-pin (SANKEN)
+models xxC, xxG, xxH, xxK, xxT, xxY
+02K6674
+LCD FRUs
+12.1-in. SVGA TFT
+Following FRUs are available for MT2628-1xx, 2xx, Bxx,
+Cxx, Dxx, Qxx.
+FRU P/N
+LCD cover assembly
+2628-1xx, 2xx, Bxx, Cxx, Dxx except xxK 08K5655
+2628-1xK, 2xK
+2628-CxK, DxK
+08K5659
+2628-Qxx except QxK (with heatpipe) 08K7288
+2628-QxK (with heatpipe) 08K7289
+LCD cable 12.1 27L0485
+LCD panel 12.1 SVGA (SANYO) 05K9577
+Hinges 12.1 08K5664
+Inverter card 12.1/14.1/15.0
+2628-1xx, 2xx, Bxx
+08K3120
+Inverter card 12.1 (large)
+2628-Cxx, Dxx, Qxx
+08K3325
+Parts list
+136 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 143 ---
+14.1-in. XGA TFT
+Following FRUs are available for MT2628-4xx, Exx, Gxx,
+Txx, Xxx, MT2633-4xx, Gxx, Txx.
+FRU P/N
+LCD cover assembly 14.1 XGA
+2628-4xx, Exx except xxK
+2633-4xx except 4xK
+08K5656
+2628-4xK, ExK
+2633-4xK
+08K5660
+2628-Txx except TxK
+2628-Xxx
+2633-Txx except TxK
+2633-Xxx
+12P4215
+2628-TxK
+2633-TxK
+08K7291
+with heatpipe
+2628-Gxx except GxK
+2633-Gxx except GxK
+04P3485
+with heatpipe
+2628-GxK
+2633-GxK
+08K7111
+LCD cable 14.1
+2628-4xx, Exx, Gxx, Txx, Xxx
+2633-4xx, Gxx,Txx
+27L0486
+LCD panel 14.1 XGA (DBU)
+2628-4xx, Exx, Gxx, Txx, Xxx
+2633-4xx, Gxx, Txx
+05K9578
+LCD panel 14.1 XGA (SAMSUNG)
+2628-4xx, Exx, Gxx, Txx, Xxx
+2633-4xx, Gxx, Txx
+05K9588
+Hinges 14.1
+2628-4xx, Exx, Gxx, Txx, Xxx
+2633-4xx, Gxx, Txx
+08K5665
+Inverter card 12.1/14.1/15.0
+2628-4xx
+2633-4xx
+08K3120
+Inverter card 12.1/14.1/15.0
+2628-Exx
+12P3051
+Inverter card (slim)
+2628-Gxx, Txx
+2633-Gxx, Txx
+12P3053
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 137
+
+--- Page 144 ---
+15.0-in. XGA TFT (LG)
+Following FRUs are available for MT2628-3xx, Jxx, Pxx,
+Rxx.
+FRU P/N
+LCD cover assembly 15.0 XGA
+2628-3xx, Jxx except xxK (without heatpipe) 26P9403
+2628-3xK, JxK (without heatpipe) 26P9404
+2628-Pxx, Rxx except xxK(with heatpipe) 26P9405
+2628-PxK, RxK(with heatpipe) 26P9406
+LCD cable 15.0 XGA (LG)
+2628-3xx, Jxx, Pxx, Rxx
+27L0578
+LCD panel 15.0 XGA (LG)
+2628-3xx, Jxx, Pxx, Rxx
+05K9647
+Hinges 15.0 (LG) (for 2628-3xx) 04P3051
+Hinges 15.0
+2628-3xx, Jxx, Pxx, Rxx
+04P3488
+Inverter card 12.1/14.1/15.0 (for 2628-3xx) 08K3120
+Inverter card 15.0 XGA (for 2628-Jxx) 08K3326
+Inverter card (slim) (for 2628-Pxx, Rxx) 12P3053
+Misc kit for 15.0 XGA (LG) for 2628-Jxx (see “Miscellaneous
+parts” on page 145.)
+15.0-in. XGA TFT (SAMSUNG)
+Following FRUs are available for MT2628-3xx, Fxx, Jxx,
+Pxx, Rxx .
+FRU P/N
+LCD cover assembly 15.0 XGA
+2628-3xx, Jxx except xxK (without heatpipe) 26P9403
+2628-3xK, JxK (without heatpipe) 26P9404
+2628-Fxx, Pxx, Rxx except xxK(with heatpipe) 26P9405
+2628-FxK, PxK, RxK(with heatpipe) 26P9406
+LCD cable 15.0 XGA (SAMSUNG)
+2628-3xx, Fxx, Jxx, Pxx, Rxx
+27L0487
+LCD panel 15.0 XGA (SAMSUNG)
+2628-3xx, Fxx, Jxx, Pxx, Rxx
+05K9580
+Hinges 15.0
+2628-3xx, Fxx, Jxx, Pxx, Rxx, Sxx
+04P3488
+Inverter 12.1/14.1/15.0 (for 2628-3xx) 08K3120
+Inverter card 15.0 XGA (for 2628-Jxx) 08K3326
+Inverter card (slim) (for 2628-Gxx, Pxx, Rxx, Sxx) 12P3053
+Parts list
+138 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 145 ---
+15.0-in. SXGA+ TFT
+Following FRUs are available for MT2628-Sxx and
+2629-6xx.
+FRU P/N
+LCD cover assembly
+2628-Sxx except SxK (with heatpipe LM) 26P9210
+2628-SxK (with heatpipe LM) 26P9211
+2629-6xx except 6xK 26P9532
+2629-6xK 26P9533
+LCD cable 15.0 SXGA+ (for 2629-6xx) 27L0488
+LCD cable 15.0 SXGA+
+2628-Sxx
+2629-6xx
+27L0662
+LCD panel 15.0 SXGA+ (DBU)
+2628-Sxx
+2629-6xx
+05K9581
+Hinges 15.0
+2628-Fxx, Jxx, Sxx
+2629-6xx
+04P3488
+Inverter card (slim) (for 2629-Fxx, Gxx) 12P3053
+15.0-in. UXGA TFT
+Following FRUs are available for MT2629-Hxx, Uxx, Yxx.
+FRU P/N
+LCD cover assembly
+2629-6xx, Hxx, Uxx except xxK 26P9532
+2629-6xK, HxK, UxK 26P9533
+LCD cable 15.0 UXGA (for 2629-Hxx, Uxx) 27L0664
+LCD panel 15.0 UXGA (DBU) (for 2629-Hxx, Uxx) 05K9835
+LCD panel 15.0 UXGA (LG) (for 2629-Hxx, Uxx) 05K9693
+Hinges 15.0 (for 2629-Hxx, Uxx) 04P3488
+Inverter card (slim) (for 2629-Hxx, Uxx) 12P3053
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 139
+
+--- Page 146 ---
+Keyboard
+All of the keyboards listed below are CRUs (customer
+replaceable units.)
+Language P/N
+A20m/p A21m/p A22m/p
+Arabic 02K5051 02K5476
+Belgian 02K5045 02K5470
+Canadian French 02K5035 02K5456
+Chinese, traditional 02K5057 02K5459
+Czech 02K5055 02K5480
+Danish 02K5042 02K5467
+Dutch 02K5039 02K5464
+English, U.K. 02K5036 02K5461
+English, U.S. 02K5034 02K5455
+French, European 02K5038 02K5463
+German 02K5037 02K5462
+Greek 02K5048 02K5473
+Hebrew 02K5049 02K5474
+Hungarian 02K5054 02K5479
+Italian 02K5043 02K5468
+Japanese 02K5056 02K5458
+Korean 02K5058 02K5460
+Norwegian 02K5041 02K5466
+Polish 02K5150 02K5481
+Portuguese 02K5047 02K5472
+Russian 02K5052 02K5477
+Slovak 02K5053 02K5478
+Slovenian 02K5151 02K5482
+Spanish, European 02K5044 02K5469
+Spanish, Latin American 02K5059 02K5457
+Swedish or Finnish 02K5040 02K5465
+Swiss 02K5046 02K5471
+Thai ——02K5759
+Turkish 02K5050 02K5475
+Parts list
+140 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 147 ---
+Recovery CDs
+For Windows 98 (A22m)
+Language P/N
+Arabic 23P8930
+Chinese, Simplified 27P2266
+Chinese, Traditional 27P2261
+Czech 23P8931
+Danish 23P8897
+Dutch 23P8904
+English, U.S. 23P8892
+English, U.K. 23P8893
+Finnish 23P8903
+French, Canadian 23P8894
+French, European 23P8898
+German 23P8899
+Greek 23P8935
+Hebrew 23P8932
+Hungarian 23P8936
+Italian 23P8902
+Japanese 46P4403
+Norwegian 23P8905
+Polish 23P8933
+Portuguese 23P8896
+Spanish, European 23P8900
+Spanish, Latin American 23P8895
+Slovenian 23P8938
+Slovak 23P8939
+Swedish 23P8901
+Thai 23P8940
+Turkish 23P8934
+Russian 23P8937
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 141
+
+--- Page 148 ---
+For Windows 98 (A22p)
+Language P/N
+Arabic 23P9062
+Arabic (modem enabled) 14P9553
+Chinese, Simplified 27P2256
+Chinese, Traditional 27P2251
+Czech 23P9063
+Danish 23P9029
+Dutch 23P9036
+English, U.S. 14P9569
+English, U.K. 14P9582
+Finnish 23P9035
+French, Canadian 23P9026
+French, European 23P9030
+German 14P9586
+Greek 23P9067
+Hebrew 23P9064
+Hungarian 23P9068
+Italian 23P9034
+Japanese 46P4400
+Norwegian 23P9037
+Polish 23P9065
+Portuguese 23P9028
+Spanish, European 23P9032
+Spanish, Latin American 23P9027
+Slovenian 23P9070
+Slovak 23P9071
+Swedish 14P9590
+Thai 23P9072
+Turkish 23P9066
+Russian 23P9069
+Parts list
+142 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 149 ---
+For Windows 2000 (A22m)
+Language P/N
+Chinese, Simplified 27P2268
+Chinese, Traditional 27P2263
+For Windows 2000 (A22p)
+Language P/N
+Chinese, Simplified 27P2258
+Chinese, Traditional 27P2253
+For Windows 2000/Windows NT (A22m)
+Language P/N
+Arabic 23P9002
+Czech 23P9003
+Danish 23P8957
+Dutch 23P8964
+English, U.S. 23P8952
+English, U.K. 23P8953
+Finnish 23P8963
+French, Canadian 23P8954
+French, European 23P8958
+German 23P8959
+Greek 23P9007
+Hebrew 23P9004
+Hungarian 23P9008
+Italian 23P8962
+Japanese 27P1871
+Norwegian 23P8965
+Polish 23P9005
+Portuguese 23P8956
+Spanish, European 23P8960
+Spanish, Latin American 23P8955
+Slovenian 23P9010
+Slovak 23P9011
+Swedish 23P8961
+Thai 23P9012
+Turkish 23P9006
+Russian 23P9009
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 143
+
+--- Page 150 ---
+For Windows 2000/Windows NT (A22p)
+Language P/N
+Arabic 23P9134
+Arabic (modem enabled) 14P9558
+Czech 23P9135
+Danish 23P9089
+Dutch 23P9096
+English, U.S. 14P9572
+English, U.K. 14P9594
+Finnish 23P9095
+French, Canadian 23P9086
+French, European 23P9090
+German 23P9091
+Greek 23P9139
+Hebrew 23P9136
+Hungarian 23P9140
+Italian 23P9094
+Japanese 46P4400
+Norwegian 23P9097
+Polish 23P9137
+Portuguese 23P9088
+Spanish, European 23P9092
+Spanish, Latin American 23P9087
+Slovenian 23P9142
+Slovak 23P9143
+Swedish 23P9093
+Thai 23P9144
+Turkish 23P9138
+Russian 23P9141
+Parts list
+144 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 151 ---
+Miscellaneous parts
+FRU P/N
+Screw kit (including nylon-coated screws):
+v M2 x 3.6 mm, flat head (3)
+v M2 x 5.1 mm, flat head (5)
+v M2 x 5.7 mm, flat head (5)
+v M2 x 16 mm, bind head (3)
+v M2.5 x 4.8 mm, flat head (42)
+v M2.5 x 5.5 mm, flat head (2)
+v M2.5 x 15 mm, flat head (15)
+v M2.6 x 2.8 mm, bind head (7)
+v M3 x 2.8 mm, small head (5)
+v Coin screw (1)
+v Security screw (1)
+v Screw caps (14)
+04P3973
+Base miscellaneous parts:
+v Lens, IR
+v Lens, Ultrabay 2000 LES
+v Lock, battery
+v Spring, battery lock
+v Lid, docking FR
+v Lid, docking RR
+v Spring, lid docking
+v Rubber foot
+v Sponge
+v Sponge, shield lower
+v Sponge, small
+v Blank cap, battery
+v Screw caps
+v Cu tape
+08K5647
+System miscellaneous parts (for A20m/p, A21m/p):
+v Door, PC card slots
+v Door, PC card 1 slot
+v Spring, PC card slots
+v Lens, LED hinge
+v Blank cap, TV connector
+v Eject knob, Ultrabay 2000
+v Lock lever, Ultrabay 2000
+v Spring, Ultrabay 2000
+v Insulator, hard-disk drive
+v Insulator, keyboard CRU
+v Mini PCI guide
+v (a) Stiffner, CPU socket
+v Screw caps
+04P3966
+(continued)
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 145
+
+--- Page 152 ---
+FRU P/N
+System miscellaneous parts (for A22m/p):
+v Keyboard stopper
+v Door, PC card slots
+v Door, PC card 1 slot
+v Spring, PC card slots door
+v Lens, LED hinge
+v Blank cap, TV connector
+v Eject knob, Ultrabay 2000
+v Lock lever, Ultrabay 2000
+v Spring 1, Ultrabay 2000
+v Spring 2, Ultrabay 2000
+v Insulator, hard-disk drive
+v Insulator, keyboard CRU
+v Mini PCI guide
+v (a) Stiffner, CPU socket - upper
+v Screw caps
+26P9209
+Miscellaneous parts, for system board (for A20m/p,
+A22m/p):
+v I/O bracket (right/left)
+v Guide, keyboard connector
+v Hex stud
+v I/O bracket spacer
+v FDD sponge
+v Docking hole cap
+v Flat head screw (M2.5 x 4.8)
+v Screw caps
+26P9335
+Miscellaneous parts, for diskette drive:
+v Bezel
+v Bezel without icon
+v Bracket
+v Flexible cable
+v Screw caps
+26P9336
+Miscellaneous parts, for LCD:
+v Latch (right/left)
+v Spring
+v Spacer (for 15.0-in.)
+v Blank cap, UltraPort
+v Screw caps
+04P3968
+Miscellaneous kit for LCD 15.0-in. LG
+v Latch (RH 15.0 LG)
+v Latch (LH 15.0 LG)
+v Spring (15.0 LG)
+v Spacer (for 15.0-in.)
+v Screw caps
+04P3050
+Parts list
+146 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 153 ---
+Optional FRUs
+FRU P/N
+Ultrabay 2000 SuperDisk drive 05K9235
+ZIP-250 00N8254
+Multiple battery charger 02K6642
+Ultrabay 2000 2nd HDD adapter 08K6067
+Ultrabay 2000 battery 02K6645
+UltraPort camera for MT2629 02K5153
+IBM tripod 08K6449
+UltraPort adapter and connector cover 08K6105
+USB cable attachment 08K6108
+USB cable 27L0542
+ThinkPad Dock 08N1546
+PCI cover 05K6246
+ThinkPad Dock with extension plate 08N1537
+PCI cover with foot 08K7317
+Top cover and screw kit for ThinkPad Dock 12P4143
+ThinkPad Port Replicator 08N1536
+Asset ID RF adapter 08K6065
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 147
+
+--- Page 154 ---
+Common parts list
+Tools
+Tools P/N
+Triconnector wrap plug 72X8546
+PC test card 35G4703
+Audio wrap cable 66G5180
+USB parallel test cable 05K2580
+Screwdriver kit 95F3598
+Torque screwdriver 05K4695
+5 mm socket wrench 05K4694
+Screwdriver 27L8126
+ThinkPad hardware maintenance diskette version
+1.62
+Note: Download the file from the Web site.
+—
+Power cords (system)
+IBM power cords for a specific country are usually
+available only in that region:
+For 2-pin power cords:
+Region P/N
+Canada, United States of America 13H5264
+Japan 13H5273
+Argentina 36L8870
+For 3-pin power cords:
+Region P/N
+Australia, New Zealand 76H3514
+Taiwan, Thailand 76H3516
+Italy 76H3530
+Denmark 76H3520
+U.K., China (Hong Kong S.A.R.) 76H3524
+European countries 76H3518
+India, South Africa 76H3522
+Israel 76H3532
+Korea 76H3535
+China (P.R.C.) (other than Hong Kong) 02K0539
+Switzerland 76H3528
+Parts list
+148 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 155 ---
+Power cords (docking station)
+IBM power cords for a specific country are usually
+available only in that region:
+For 3-pin power cords:
+Region P/N
+Argentina 36L8868
+Australia, New Zealand 75H8988
+Canada, Thailand, United States of America 75H8989
+Denmark 75H8992
+European countries 75H8990
+India, South Africa 75H8993
+Israel 75H8999
+Italy 75H8998
+Japan 75H8996
+Korea 76H3536
+People’s Republic of China (other than Hong Kong) 02K0540
+Switzerland 75H8997
+United Kingdom 75H8994
+Parts list
+ThinkPad A20m/p, A21m/p and A22m/p 149
+
+--- Page 156 ---
+Notices
+References in this publication to IBM products, programs,
+or services do not imply that IBM intends to make these
+available in all countries in which IBM operates. Any
+reference to an IBM product, program, or service is not
+intended to state or imply that only that IBM product,
+program, or service may be used. Any functionally
+equivalent product, program, or service that does not
+infringe any of the intellectual property rights of IBM may
+be used instead of the IBM product, program, or service.
+The evaluation and verification of operation in conjunction
+with other products, except those expressly designated by
+IBM, are the responsibility of the user.
+IBM may have patents or pending patent applications
+covering subject matter in this document. The furnishing of
+this document does not give you any license to these
+patents. You can send license inquiries, in writing, to the
+IBM Director of Licensing, IBM Corporation, 500 Columbus
+Avenue, Thornwood, NY 10594, U.S.A.
+Trademarks
+The following terms are trademarks of the IBM Corporation
+in the United States or other countries or both:
+Asset ID
+IBM
+OS/2
+ThinkLight
+ThinkPad
+TrackPoint
+Ultrabay
+UltraPort
+Microsoft, Windows, Windows NT, and the Windows logo
+are trademarks of Microsoft Corporation in the United
+States and/or other countries.
+Pentium is trademark of Intel Corporation in the United
+States and/or other countries. (For a complete list of Intel
+trademarks, see the legal information on
+http://www.intel.com/)
+Other company, product, or service names may be the
+trademarks or service marks of others.
+Notices
+150 ThinkPad A20m/p, A21m/p, A22m/p
+
+--- Page 157 ---
+Notices
+ThinkPad A20m/p, A21m/p and A22m/p 151
+
+--- Page 158 ---
+
+Part Number: 23P0896
+(1P) P/N: 23P0896
+

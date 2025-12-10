@@ -1,0 +1,6153 @@
+Brand: ECS
+Model: V10Is1
+URL: https://www.manua.ls/ecs/v10is1/manual
+Total Pages: 76
+============================================================
+
+--- Page 2 ---
+i 
+Preface 
+
+Copyright 2010 
+All Rights Reserved.                                                                           
+The information in this document is subject to change without prior 
+notice in order to improve reliability, design and function and does 
+not represent a commitment on the part of the manufacturer. 
+In no event will the manufacturer be liable for direct, indirect, 
+special, incidental, or consequential damages arising out of the 
+use or inability to use the product or documentation, even if 
+advised of the possibility of such damages. 
+This document contains proprietary information protected by 
+copyright. All rights are reserved. No part of this manual may be 
+reproduced by any mechanical, electronic, or other means in any 
+form without prior written permission of the manufacturer. 
+Limitation of Liability 
+While reasonable efforts have been made to ensure the accuracy 
+of this manual, the manufacturer and distributor assume no liability 
+resulting from errors or omissions in this manual, or from the use of 
+the information contained herein. 
+Notices 
+Federal Communications Commission Radio Frequency 
+Interference Statement 
+This equipment has been tested and 
+found to comply with the limits for a Class B digital device, 
+pursuant to Part 15 of the FCC Rules. These limits are 
+designed to provide reasonable protection against harmful 
+interference in a residential installation. This equipment 
+generates, uses, and can radiate radio frequency energy and 
+if not installed and used in accordance with the instruction 
+manual may cause harmful interference to radio 
+communications. However, there is no guarantee that 
+interference will not occur in a particular installation. If this 
+equipment does cause harmful interference to radio or 
+television reception, which can be determined by turning the 
+equipment off and on, the user is encouraged to try to correct 
+the interference by one or more of the following measures:
+
+--- Page 3 ---
+ii 
+  Reorient or relocate the receiving antenna 
+  Increase the separation between the equipment and receiver 
+  Connect the equipment into an outlet on a circuit different 
+from that to which the receiver is connected 
+Consult the dealer or an experienced radio TV technician for help 
+This device and its antenna(s) must not be co-located or operating 
+in conjunction with any other antenna or transmitter. 
+Federal Communication Commission (FCC) Radiation 
+Exposure Statement 
+This EUT is compliance with SAR for general 
+population/uncontrolled exposure limits in ANSI/IEEE C95.1-1999 
+and had been tested in accordance with the measurement 
+methods and procedures specified in OET Bulletin 65 Supplement 
+C. 
+This device complies with Part 15 of the FCC Rules. Operation is 
+subject to the following two conditions: (1) This device may not 
+cause harmful interference, and (2) this device must accept any 
+interference received, including interference that may cause 
+undesired operation. 
+FCC Caution: Any changes or modifications not expressly 
+approved by the party responsible for compliance could void the 
+user's authority to operate this equipment. 
+Notice: 
+Changes or modifications not expressly approved by the party 
+responsible for compliance could void the user’s authority to 
+operate the equipment.  Shielded interface cables and a non-
+shielded AC power cord must be used in order to comply with 
+emission limits.   
+This equipment is to be used with power supply: 
+40W 
+There is no internal power supply.
+
+--- Page 4 ---
+iii 
+Table of Content 
+BEFORE YOU START ............................................................................... 2
+LET YOUR COMPUTER ACCLIMATE ITSELF .............................................. 8
+HEAT, COLD, HUMIDITY, AND GLARE .................................................... 9
+SUITABLE PLACE TO WORK ................................................................... 9
+INTRODUCTION...................................................................................... 11
+FRONT VIEW ..................................................................................... 12
+LEFT VIEWS ...................................................................................... 14
+RIGHT VIEW ...................................................................................... 15
+GETTING STARTED ............................................................................... 19
+CONNECTING THE AC ADAPTER ......................................................... 19
+TO INSTALL THE BATTERY PACK: ........................................................ 21
+TO REMOVE THE BATTERY PACK: ...................................................... 21
+USING THE NOTEBOOK  COMPUTER ....................................................... 24
+LCD CARE ........................................................................................  24
+EXTERNAL CRT DISPLAY ................................................................... 25
+FUNCTION KEYS (QUICK KEYS) .......................................................... 25
+TOUCHPAD PRECAUTIONS ................................................................. 27
+THE BATTERY POWER SYSTEM .......................................................... 28
+PREPARING THE BATTERY PACK FOR USE (BATTERY CALIBRATION) .... 28
+AUTOMATIC BATTERY PACK CHARGING FUNCTION .............................. 29
+BATTERY STATUS ..............................................................................  29
+BATTERY LOW WARNING ................................................................... 29
+SMALL BATTERY FOR THE REAL TIME CLOCK ...................................... 30
+ADJUSTING THE BRIGHTNESS .............................................................  31
+HELP WINDOWS ................................................................................ 31
+DESKTOP .......................................................................................... 32
+INTERNET CONNECTION ........................................................................ 37
+RUNNING BIOS SETUP ......................................................................... 41
+MAIN SETUP ..................................................................................... 42
+INFO SETUP ...................................................................................... 43
+ADVANCED SETUP ............................................................................. 43
+SECURITY ......................................................................................... 44
+BOOT SETUP .....................................................................................  45
+EXIT SETUP ...................................................................................... 45
+VGA UTILITIES ..................................................................................... 50
+3G CONNECTION .................................................................................. 56
+TROUBLESHOOTING .............................................................................. 61
+SPECIFICATION ..................................................................................... 69
+
+--- Page 7 ---
+2 
+B
+B
+e
+e
+f
+f
+o
+o
+r
+r
+e
+e
+ 
+ 
+y
+y
+o
+o
+u
+u
+ 
+ 
+S
+S
+t
+t
+a
+a
+r
+r
+t
+t
+ 
+ 
+C
+C
+o
+o
+n
+n
+v
+v
+e
+e
+n
+n
+t
+t
+i
+i
+o
+o
+n
+n
+s
+s
+ 
+ 
+o
+o
+f
+f
+ 
+ 
+T
+T
+h
+h
+i
+i
+s
+s
+ 
+ 
+M
+M
+a
+a
+n
+n
+u
+u
+a
+a
+l
+l
+ 
+ 
+Use this manual will help you get the most from your notebook 
+computer.   
+  If you are an experienced user of computers and/or 
+Microsoft’s Windows operating systems, you might find it 
+useful to read the Quick Start Guide that comes along with 
+your accessories. 
+  If you are a less experienced user, you should through the 
+manual carefully before using your system. 
+Whether or not you are an experienced user, you should consult 
+on the Troubleshooting Chapter if you encounter any problems 
+with your notebook.   
+S
+S
+a
+a
+f
+f
+e
+e
+t
+t
+y
+y
+ 
+ 
+P
+P
+r
+r
+e
+e
+c
+c
+a
+a
+u
+u
+t
+t
+i
+i
+o
+o
+n
+n
+s
+s
+ 
+ 
+This section is designed to assist you in identifying potentially 
+unsafe conditions while working with this product. Required safety 
+features have been installed in the computer to protect you from 
+injury. However, you should use good judgment to identify potential 
+safety hazards: 
+1.  Please read these safety instructions carefully. 
+2.  Please keep this User's Manual for later reference. 
+3.  Please disconnect this equipment from AC outlet before 
+cleaning.  Don't use liquid or sprayed detergent for cleaning. 
+Use moisture sheet or cloth for cleaning. 
+4.  For pluggable equipment, that the socket-outlet shall be 
+installed near the equipment and shall be easily accessible. 
+5.  Please keep this equipment from humidity. 
+6.  Lay this equipment on a reliable surface when installed. A 
+drop or fall could cause injury.
+
+--- Page 8 ---
+3 
+7.  Make sure to use the right voltage for the power source when 
+connecting the equipment to the power outlet. 
+8.  Place the power cord in such a way that people can not step 
+on it.  Do not place anything on top of the power cord. 
+9.  All cautions and warnings on the equipment should be noted. 
+10.  If the equipment is not use for a long time, disconnect the 
+equipment from the main power outlet to avoid being damaged 
+by transient overvoltage. 
+11.  Never pour any liquid into the opening, this could cause fire or 
+electrical shock. 
+12.  Never open the equipment. For safety reason, the equipment 
+should only be opened by a qualified service personnel. 
+13.  If on the following situations arises, get the equipment 
+checked by a service personnel: 
+a.  The Power cord or plug is damaged. 
+b.  Liquid has penetrated into the equipment. 
+c.  The equipment has been exposed to moisture. 
+d.  The equipment has not worked well or you cannot get it 
+work according to the user's manual. 
+e.  The equipment has dropped and damaged. 
+f.  If the equipment has obvious sign of breakage. 
+14.  Do not leave this equipment in an environment unconditioned, 
+storage temperature above 60C (140f), it may damage the 
+equipment. 
+15.  The unit can be operated at an ambient temperature of max. 
+35C. 
+16.  The sound pressure level at the operators position according 
+to IEC 704-1: 1982 is equal or less than 70 dB(A). 
+17.  Power Cord Requirements 
+The power cord set used with the AC adaptor must meet the 
+requirements of the country where you use the AC adaptor, 
+whether it is 100-240 Vac. The following information explains 
+the requirements for power cord set selection. 
+  The cord set must be approved for the country in 
+which it is used. 
+  The appliance coupler must have a configuration for 
+mating with a CEE7/EN60320/IEC 320/NEMA/ JIS C 
+8303  appliance inlet. 
+A.  For U.S. and Canada: 
+  The cord set must be UL Listed and CSA Certified.
+
+--- Page 9 ---
+4 
+  The minimum specifications for the flexible cord are 
+No. 18 AWG, (2) Type SPT-2, and (3) 2-conductor. 
+B.  For Japan: 
+  All components of the cord set must bear a “PSE” 
+mark and in accordance with the Japanese Dentori 
+Law. 
+  The minimum specifications for the flexible cord 
+are .75m ㎡ conductors, (2) VCTF or VCTFK, and  (3) 
+2-conductor. 
+  The cord set must have minimum rated current 
+capacity of 7 A. 
+  The attachment plug must be a two-pole, grounded 
+type with a Japanese Industrial Standard C8303 (15 
+A, 125 VAC) configuration. 
+C.  For Other Countries: 
+  The cord set fittings must bear the certification mark 
+of the agency responsible for evaluation in a specific 
+country. 
+  The flexible cord must be of a HAR (harmonized) 
+type H03VVH2-F. 
+  The cord set must have a current capacity of a least 
+2.5 Amperes and voltage rating of 125 or 250 Vac. 
+CAUTION: MODEL V10ISx(x=0~9) IS DESIGNED TO USE WITH 
+THE FLLOWING AC ADAPTER MODEL ONLY 
+Manufacturer: Li Shin International Enterprise Corp. 
+Model: 0225C2040 (40W) 
+Manufacturer: Delta Electronics, Inc.  
+Model: ADP-40MH AD (40W) 
+Manufacturer: Delta Electronics, Inc.  
+Model: ADP-40PH AB 
+Manufacturer: Lite-On 
+Model: PA-1400-11
+ 
+18.  When using your telephone equipment, basic safety 
+precautions should always be followed to reduce the risk of 
+fire, electric shock and injury to persons.  These precautions 
+includes the following: 
+  Do not use this product near water, for example, near a 
+bathtub, washbowl, kitchen sink or laundry tub, in a wet 
+basement or near a swimming pool.
+
+--- Page 10 ---
+5 
+  Avoid using a telephone (other than a cordless type) 
+during an electrical storm.  There may be a remote risk 
+of electric shock from lightning. 
+  Do not use the telephone to report a gas leak in the 
+vicinity of the leak. 
+  Use only the power cord and batteries indicated in this 
+manual. Do not dispose of batteries in a fire. They may 
+explode. Check with local codes for possible special 
+instructions. 
+19.  Do not use the AC adapter near open water or other liquids. 
+Never spill liquid into the AC adapter. 
+20.  Danger of explosion if battery is incorrectly replaced.  Replace 
+only with the same or equivalent type recommended by the 
+manufacturer. Dispose of used batteries according to the 
+manufacturer's instructions. Never remove the battery pack 
+while the power is on as this may result in data loss when the 
+system loses power. 
+21.  The input receptacle is used as the main disconnecting device. 
+This part is hot. Be careful. 
+Diese Flachewird sehr heiss. 
+When you see this symbol, be careful as this spot may be 
+very  hot.
+ 
+W
+W
+i
+i
+c
+c
+h
+h
+t
+t
+i
+i
+g
+g
+e
+e
+ 
+ 
+S
+S
+i
+i
+c
+c
+h
+h
+e
+e
+r
+r
+h
+h
+e
+e
+i
+i
+t
+t
+s
+s
+h
+h
+i
+i
+n
+n
+w
+w
+e
+e
+i
+i
+s
+s
+e
+e
+ 
+ 
+1.  Bitte lesen Sie diese Hinweis sorgfältig durch. 
+2.  Heben Sie dirse Anleitung für den späteren Gebrauch auf. 
+3.  Vor jedem Reinigen ist das Gerät vom Stromnetz zu trennen.  
+Versenden Sie Keine Flüssig- oder Aerosolreiniger.  Am 
+besten eignet sich ein angefeuchtetes Tuch zur Reinigung. 
+4.  Die Netzanschluβsteckdose soll nahe dem Gerät angebracht 
+und leicht zugänglich sein. 
+5.  Das Gerät ist vor Feuchtigkeit zu schützen. 
+6.  Bei der Aufstellung des Gerätes ist auf sicheren Stand zu 
+achten.  Ein Kippen oder Fallen könnte Beschädigungen 
+hervorrufen. 
+7.  Beachten Sie beim Anschluß an das Stromnet die 
+Anschlußwerte. 
+8.  Verlegen Sie die Netzanschlußleitung so, daß niemand 
+darüber fallen kann.  Es sollte auch nichts auf der Leitun
+
+--- Page 11 ---
+6 
+abgestellt werden. 
+9.  Alle Hinweise und Warnungen, die sich am Gerät  befinden, 
+sind zu beachten. 
+10.  Wird das Gerät üeinen längeren Zeitraum nicht benutzt, 
+sollten Sie es vom Stromnetz trennen.  Somit wird im Falle 
+einer Überspannung eine Beschädigung vermieden. 
+11.  Durch die Lüftungsöffnungen dürfen niemals Gegenstände 
+oder Flüssigkeien in das Gerät gelangen. Dies könne einen 
+Brand bzw.  Elektrischen Schlag auslösen. 
+12.  Öffnen Sie niemals das Gerät. Das Gerät darf aus Gründen 
+der elektrischen Sicherheit nur von authorisiertem 
+Servicepersonal  geöffnet werden. 
+13.  Wenn folgende Situationen auftreten ist das Gerät vom 
+Stromnetz zu trennen und von einer qualifizierten Servicestelle 
+zu Überprüfung.: 
+a.  Netzlabel oder Netzstecker sind beschädigt. 
+b.  Flüssigkeit ist in das Gerät eingedrungen. 
+c.  Das Gerät war Feuchtigkeit ausgesetzt. 
+d.  Wenn das Gerät nicht der Bedienungsanleitung entsprechend 
+funktioniert oder Sie mit Hilfe dieser Anleitung keine 
+Verbesserung erzielen. 
+e.  Das Gerät ist gefallen und/oder das Gehäuse ist beschädigt. 
+f.  Wenn das Gerät deutliche Anzeichen eines Defektes aufweist. 
+14.  VORSICHT: Explosiongsgetahr bei unsachgemäßen 
+Austausch der Batterie.  Ersatz nur durch denselben oder 
+einem vom Hersteller empfohlenem ähnlichen Typ.  
+Entsorgung gebrauchter Batterien nach Angaben des 
+Herstellers. 
+15.  Dieses Schaltnetzteil kann bis zu einer Außentemperatur von 
+maximal 35ºC. 
+16.  Die Ausgangswerte dürfen nicht die auf dem Label 
+angegebenen Werte überschreiten. 
+17.  Anforderungen an das Stromkabel 
+Das Kabel-Set, das an das Netzteil angeschlossen wird, muss 
+den Anforderungen des Landes, in dem Sie das Netzteil 
+einsetzen, genügen, je nachdem, ob die Netzspannung 100-
+120 oder 200-240V Wechselspannung beträgt. 
+  Das Kabel-Set muss für das Land, in dem es 
+eingesetzt wird, zugelassen sein.
+
+--- Page 12 ---
+7 
+  Der Gerätestecker des Kabels muss in eine 
+CEE7/EN60320/IEC 320/NEMA/ JIS C 8303 Buchse 
+passen. 
+A.  Für die USA und Kanada: 
+  Das Kabel-Set muss UL-gelistet und CSA zertifiziert 
+sein. 
+  Die Minimalanforderungen für das Kabel 
+entsprechen No. 18 AWG. (2) Type SPT-2, und (3) 
+2-conductor. 
+B.  Für Japan: 
+  Alle Teile des Kabel-Sets müssen entsprechend 
+dem japanischen Dentori Law mit einem „PSE“ 
+  Die Minimalanforderungen für das Kabel sind .75m 
+㎡ Leiter. (2) VCTF or VCTFK, und  (3) 2-conductor.  
+  Der Kabelsatz muss mindestens für eine 
+Stromstärke von 7A geeignet sein.  
+  Der Wandstecker muss ein zweipoliger geerdeter 
+Steckertyp gemäß dem Japanese Industrial 
+Standard C8303 (15A, 125 VAC) sein. 
+C.  Für andere Länder: 
+  Die Zubehörteile des Kabel-Sets müssen das 
+Prüfsiegel derjenigen Stelle, die in dem jeweiligen 
+Land für die Sicherheitsprüfung zuständig ist, tragen. 
+  Das Kabel muss vom HAR (harmonisierten) Typ 
+H03VVH2-F sein. 
+  Das Kabel-Set muss eine Stromkapazität von 
+mindestens 2,5 Ampere haben und Spannungen von 
+125 oder 250 V Wechselstrom gestatten. 
+ACHTUNG: Mit dem V10ISx(x=0~9) muss ein AC-Adapter 
+folgenden Modells verwendet werden 
+Hersteller: Li Shin International Enterprise Corp. 
+Modell: 0225C2040 (40W) 
+Hersteller: Delta Electronics, Inc.  
+Modell: ADP-40MH AD (40W) 
+Hersteller: Delta Electronics, Inc.  
+Modell: ADP-40PH AB 
+Hersteller: Lite-On 
+Modell: PA-1400-11 
+18.  Bei der Benutzung Ihres Telefongerätes sollten Sie immer die 
+grundlegenden Sicherheitsmaßnahmen beachten, um das
+
+--- Page 13 ---
+8 
+Risiko von Feuer, Stromschlägen und Verletzungen zu 
+minimieren. Zu beachten sind u.a. folgende Punkte:  
+  Benutzen Sie das Gerät nicht in der Nähe von Wasser, 
+wie zum Beispiel Badewanne, Waschbecken, 
+Spülbecken, Waschbottich, in feuchten Kellerräumen 
+oder in der Nähe von Schwimmbecken.  
+  Benutzen Sie kein Telefon (ausgenommen schnurlose 
+Modelle) während eines Gewitters. Es besteht das 
+geringe Restrisiko eines Blitzschlages.  
+  Benutzen Sie das Telefon nicht um ein Gasleck zu 
+melden, falls es sich in der Nähe des Lecks befindet. 
+  Verwenden Sie nur die in diesem Benutzerhandbuch 
+angegebenen Stromkabel und Batterien. Werfen Sie die 
+Batterien nicht ins Feuer, sie könnten explodieren. 
+Informieren Sie sich über die örtlichen Bestimmungen 
+bezüglich der Entsorgung. 
+19.  Benutzen Sie das Netzteil nicht in unmittelbarer Nähe zu 
+Wasser oder anderen Flüssigkeiten. Gießen Sie nie 
+Flüssigkeiten über das Netzteil. 
+20.  Es besteht Explosionsgefahr, wenn der Akku nicht 
+ordnungsgemäß ersetzt wird. Ersetzen Sie den Akku nur 
+durch einen Akku gleichen oder äquivalenten Typs, der vom 
+Hersteller empfohlen wird. Entsorgen Sie Akkus entsprechend 
+den Anweisungen des Herstellers. Entfernen Sie den Akku auf 
+keinen Fall bei eingeschaltetem notebook, da hierdurch Daten 
+verloren gehen könnten. 
+21.  Der Netzeingabeanschluss dient als Hauptschalter des Geräts. 
+T
+T
+h
+h
+i
+i
+n
+n
+g
+g
+s
+s
+ 
+ 
+y
+y
+o
+o
+u
+u
+ 
+ 
+m
+m
+u
+u
+s
+s
+t
+t
+ 
+ 
+r
+r
+e
+e
+m
+m
+e
+e
+m
+m
+b
+b
+e
+e
+r
+r
+ 
+ 
+b
+b
+e
+e
+f
+f
+o
+o
+r
+r
+e
+e
+ 
+ 
+w
+w
+o
+o
+r
+r
+k
+k
+i
+i
+n
+n
+g
+g
+ 
+ 
+o
+o
+n
+n
+ 
+ 
+y
+y
+o
+o
+u
+u
+r
+r
+ 
+ 
+c
+c
+o
+o
+m
+m
+p
+p
+u
+u
+t
+t
+e
+e
+r
+r
+ 
+ 
+Let your computer acclimate itself 
+Your notebook can easily stand temperature extremes but it 
+doesn’t like rapid changes in temperature, like going from the cold 
+outdoors to a warm office.
+
+--- Page 14 ---
+9 
+Rapid changes in temperature can cause water droplets to 
+condense inside your case, threatening to damage the electronic 
+parts inside.   
+After receiving your notebook when it’s hot or cold outside, try not 
+to power up the computer immediately, let the computer adjust to 
+the room temperature gradually at least for three to four hours. 
+If your system arrives in cold 
+weather, do not apply power to the computer or monitor until 
+they have been allowed to come to room temperature. 
+Heat, Cold, Humidity, and Glare 
+Find a suitable place for your computer that’s not too hot, too cold, 
+too dark, or too bright. Glare can make it hard to read the screen.   
+  Try to avoid the computer components from being destroyed 
+if it is over heated, so try to allow plenty of room for air to 
+circulate around the case.   
+  Do not block the ventilation opening.  
+  Do not place your computer in direct sunlight. 
+Suitable place to work 
+Your computer will run well wherever you’re comfortable but 
+extremes of temperature and humidity can be challenging to your 
+system’s parts.  
+There are some things you can tolerate that the computer can’t – 
+things like static electricity, dust, water, steam and oil. In case you 
+decide to pull over for roadside computing, try to choose a clean, 
+comfortable work area for your system. 
+A lithium-ion battery pack will be available when you are traveling. 
+If you are running your system for the first time on battery power, 
+remove the battery from the package, install it into the system and 
+recharge the battery to fully prepare for service.
+
+--- Page 16 ---
+11 
+I
+I
+n
+n
+t
+t
+r
+r
+o
+o
+d
+d
+u
+u
+c
+c
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+P
+P
+r
+r
+e
+e
+p
+p
+a
+a
+r
+r
+i
+i
+n
+n
+g
+g
+ 
+ 
+y
+y
+o
+o
+u
+u
+r
+r
+ 
+ 
+C
+C
+o
+o
+m
+m
+p
+p
+u
+u
+t
+t
+e
+e
+r
+r
+ 
+ 
+ 
+ Install the battery pack 
+ Connecting the AC adapter 
+ Turning on your computer
+
+--- Page 17 ---
+12 
+To avoid damage to the display 
+panel: 
+1. Try not to slam the display upon closing it. 
+2. Try not to place any object on top when it is closed or open. 
+3. Be sure the system is turned off or in suspend mode before 
+you close the display panel. 
+K
+K
+n
+n
+o
+o
+w
+w
+i
+i
+n
+n
+g
+g
+ 
+ 
+y
+y
+o
+o
+u
+u
+r
+r
+ 
+ 
+C
+C
+o
+o
+m
+m
+p
+p
+u
+u
+t
+t
+e
+e
+r
+r
+ 
+ 
+With the LCD screen open, you will see several features important 
+for operating your notebook computer. 
+Front View
+
+--- Page 18 ---
+13 
+ Camera 
+ LCD Display 
+This LCD panel can only support up to 
+a maximum opening of 115-120 degrees, please do not push it 
+forcibly. 
+ 
+ Built-in Microphone 
+ Keyboard 
+The keyboard differs for each territory 
+ Touchpad 
+ Touchpad Buttons 
+ LED Status Indicator 
+System & Power Status Indicators
+
+--- Page 19 ---
+14 
+LED Graphic 
+Symbol 
+Indication 
+ 
+Blue light indicates the system is ON. Blinking blue light 
+indicates the notebook is in suspend mode. 
+ 
+Blue light indicates the WLAN is active. 
+ 
+Battery status  
+Charging – Orange blinking 
+Full – Green 
+Low – Quick orange blinking
+ 
+ 
+Blue light indicates the hard drive and/or optical drive is 
+being accessed. 
+Left Views
+
+--- Page 20 ---
+15 
+    Kensington Lock 
+      Modem Port  
+Always disconnect all telephone lines 
+from the wall outlet before servicing or disassembling this 
+equipment. To reduce the risk of fire use only No. 26 AWG or 
+larger telecommunication line cord. 
+     USB 2.0 Port 
+       Microphone Jack 
+       Stereo Headphone Jack 
+Right View
+
+--- Page 21 ---
+16 
+        4-in-1 Card Reader (SD/MMC/MS/MS Pro Memory     
+                Card) 
+     Enhanced USB 2.0 Port 
+This strengthen USB power sourse for 
+the USB port, the function lets users when using any other 
+major big power consumption USB device in avoiding 
+creating any harm to the USB port. 
+When using any External USB 
+Device, only use the approve cable provided by the 
+manufacturer. Using other cable where it affect the current 
+flow will cause undetermined damage. 
+Not suitable to use any 3.5” or 5.25” USB ODD or HDD 
+    Ethernet / LAN Port 
+When using a LAN, please use an EMI 
+Shielding Cable to minimize an inteference when transmitting.  
+ 
+      CRT Port
+
+--- Page 22 ---
+17 
+       DC In 
+         Power/Suspend Button 
+  Press momentarily to turn on the system.  
+  Press and hold for at least 4 seconds to turn off the 
+system.  
+  Press the power/suspend button again to return from 
+the suspend mode.  
+B
+B
+o
+o
+t
+t
+t
+t
+o
+o
+m
+m
+ 
+ 
+V
+V
+i
+i
+e
+e
+w
+w
+ 
+ 
+ 
+ Battery Lock 
+ Battery Compartment 
+ Battery Release Latch
+
+--- Page 24 ---
+19 
+G
+G
+e
+e
+t
+t
+t
+t
+i
+i
+n
+n
+g
+g
+ 
+ 
+S
+S
+t
+t
+a
+a
+r
+r
+t
+t
+e
+e
+d
+d
+ 
+ 
+C
+C
+o
+o
+n
+n
+n
+n
+e
+e
+c
+c
+t
+t
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+o
+o
+ 
+ 
+a
+a
+ 
+ 
+P
+P
+o
+o
+w
+w
+e
+e
+r
+r
+ 
+ 
+S
+S
+o
+o
+u
+u
+r
+r
+c
+c
+e
+e
+ 
+ 
+Connecting the AC Adapter 
+A universal AC adapter is provided to supply your computer with 
+power and also charge the computer’s battery pack. The adapter’s 
+AC input voltage can range anywhere from 100 to 240 volts, 
+covering the standard voltages available in almost every country. 
+To connect the computer to an external power source: 
+ 
+Do not use inferior extension 
+cords as this may result in damage to your notebook. The 
+notebook comes with its own AC adapter. Do not use a 
+different adapter to power the computer and  other electrical 
+devices.
+
+--- Page 25 ---
+20 
+Whenever possible, keep the AC adapter plugged into the 
+notebook and an electrical outlet to recharge the battery.   
+Never turn off or reset your 
+notebook while the hard disk is in use status icon is lit; doing 
+so can result in loss or destruction of your data.  Always wait 
+at least 5 seconds after turning off your notebook before 
+turning it back on; turning the power on and off in rapid 
+succession can damage the notebook’s electrical circuitry. 
+T
+T
+u
+u
+r
+r
+n
+n
+i
+i
+n
+n
+g
+g
+ 
+ 
+O
+O
+n
+n
+ 
+ 
+Y
+Y
+o
+o
+u
+u
+r
+r
+ 
+ 
+N
+N
+o
+o
+t
+t
+e
+e
+b
+b
+o
+o
+o
+o
+k
+k
+ 
+ 
+C
+C
+o
+o
+m
+m
+p
+p
+u
+u
+t
+t
+e
+e
+r
+r
+ 
+ 
+Turn on your notebook by pressing the power button. Hold the 
+button down for a second or two and release. The Power-On Self 
+Test (POST) runs automatically.   
+After the POST is completed, the computer reads the operating 
+system from the hard disk drive into computer memory (this is 
+commonly referred to as “booting” a computer). If your OS 
+(Operating System such as Windows XP…. etc)  is installed, it 
+should start automatically. 
+To turn the notebook off, save your work and close all open 
+applications, click on Start, then Shu
+t Down and select Shut 
+down the computer and click "Yes" or press the power button for 
+4-6 seconds. 
+O
+O
+p
+p
+e
+e
+r
+r
+a
+a
+t
+t
+i
+i
+n
+n
+g
+g
+ 
+ 
+o
+o
+n
+n
+ 
+ 
+B
+B
+a
+a
+t
+t
+t
+t
+e
+e
+r
+r
+y
+y
+ 
+ 
+P
+P
+o
+o
+w
+w
+e
+e
+r
+r
+ 
+ 
+ 
+ 
+Your computer comes with a rechargeable battery pack that lets 
+you operate the computer without an external power source.  
+When the battery pack is fully charged, you can operate the 
+computer under the following conditions:  
+  The battery pack initially has a full charge. 
+  No peripheral devices are installed. 
+Only use batteries that are 
+approved by an authorized dealer.  All batteries are not the 
+same and therefore should not be treated as such.  Using the 
+wrong battery could cause serious damage to your computer 
+and yourself through toxic emissions.
+
+--- Page 26 ---
+21 
+Danger of explosion if battery is 
+incorrectly replaced. Replace only with same or equivalent 
+type recommended by the manufacturer. Discard used 
+batteries according to the manufacturer’s instructions or local 
+laws. 
+Explisionsgefahr bei unsachgernazen 
+Austausch der Batterie. Ersatz nur durch denselben oder 
+einem vom Hersteller empfohlenem ahnlichen Typ. 
+Entsorgung gebrauchter Batterien navh Angaben des 
+Herstellers. 
+I
+I
+n
+n
+s
+s
+t
+t
+a
+a
+l
+l
+l
+l
+i
+i
+n
+n
+g
+g
+ 
+ 
+a
+a
+n
+n
+d
+d
+ 
+ 
+R
+R
+e
+e
+m
+m
+o
+o
+v
+v
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+B
+B
+a
+a
+t
+t
+t
+t
+e
+e
+r
+r
+y
+y
+ 
+ 
+P
+P
+a
+a
+c
+c
+k
+k
+ 
+ 
+To Install the Battery Pack: 
+ 
+To Remove the Battery Pack:
+
+--- Page 27 ---
+22 
+C
+C
+h
+h
+a
+a
+r
+r
+g
+g
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+B
+B
+a
+a
+t
+t
+t
+t
+e
+e
+r
+r
+y
+y
+ 
+ 
+P
+P
+a
+a
+c
+c
+k
+k
+ 
+ 
+The installed battery pack charges automatically any time the 
+computer is connected to the AC adapter and an external power 
+source.  It is a good idea to occasionally discharge the battery 
+pack fully to preserve its operating performance.
+
+--- Page 29 ---
+24 
+U
+U
+s
+s
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+N
+N
+o
+o
+t
+t
+e
+e
+b
+b
+o
+o
+o
+o
+k
+k
+ 
+ 
+ 
+ 
+C
+C
+o
+o
+m
+m
+p
+p
+u
+u
+t
+t
+e
+e
+r
+r
+ 
+ 
+A
+A
+d
+d
+j
+j
+u
+u
+s
+s
+t
+t
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+L
+L
+C
+C
+D
+D
+ 
+ 
+S
+S
+c
+c
+r
+r
+e
+e
+e
+e
+n
+n
+ 
+ 
+D
+D
+i
+i
+s
+s
+p
+p
+l
+l
+a
+a
+y
+y
+ 
+ 
+The LCD screen display can be adjusted by the following key 
+combinations. 
+ 
+ +   - Changes Display Mode: LCD-only, 
+CRT-only 
+ 
+ +   - Increases the brightness level. 
+ 
+ +   - Decreases the brightness level. 
+LCD Care 
+LCD screens are delicate devices that need careful handling.  
+Please pay attention to the following precautions: 
+  When you are not using the computer, keep the LCD screen 
+closed to protect it from dust.   
+  If you need to clean your LCD screen, use a soft tissue to 
+gently wipe the LCD surface.   
+  Do not put your fingers or sharp objects directly on the 
+surface and never spray cleaner directly onto the display. 
+  Do not press on, or store any objects on the cover when it is 
+closed.  Doing so may cause the LCD to break.
+
+--- Page 30 ---
+25 
+External CRT Display 
+You can hook up an external monitor through the 15-pin CRT 
+connector.   
+  LCD only 
+  CRT only 
+You can switch between these display configurations by pressing 
+the key combination [Fn] + [F4].   
+T
+T
+h
+h
+e
+e
+ 
+ 
+N
+N
+o
+o
+t
+t
+e
+e
+b
+b
+o
+o
+o
+o
+k
+k
+’
+’
+s
+s
+ 
+ 
+H
+H
+o
+o
+t
+t
+ 
+ 
+K
+K
+e
+e
+y
+y
+ 
+ 
+C
+C
+o
+o
+n
+n
+t
+t
+r
+r
+o
+o
+l
+l
+s
+s
+ 
+ 
+ 
+Function Keys (Quick Keys) 
+   +   - Enters the Suspend Mode. 
+ 
+ +   - HSPA on/off 
+ 
+ +   - WLAN on/off 
+The WLAN and WWAN (2.5G or 
+3G)(optional), these two applications will not run at the same 
+time where a hot key is used to run and control these two 
+application. WLAN will be open while the WWAN will be close 
+or vise versa.
+ 
+   +   - Changes Display Mode: LCD-only, 
+CRT-only
+
+--- Page 31 ---
+26 
+   +   - Increases the speaker volume. 
+ 
+ +   - Decreases the speaker volume. 
+ 
+ +   - Increases the brightness level. 
+ 
+ +   - Decreases the brightness level. 
+ 
+ +   - Enable/Disable the Touchpad 
+ 
+ +   - Mute the system volume 
+ 
+ +   - Enters the silent mode 
+ 
+ +   - Enable/Disable the camera 
+application 
+ 
+ +   - Enable/Disable the Bluetooth 
+application 
+T
+T
+h
+h
+e
+e
+ 
+ 
+T
+T
+o
+o
+u
+u
+c
+c
+h
+h
+P
+P
+a
+a
+d
+d
+ 
+ 
+The touchpad is a rectangular electronic panel located just below 
+your keyboard. You can use the static-sensitive panel of the 
+touchpad and slit it to move the cursor. You can use the buttons 
+below the touchpad as left and right mouse buttons.
+
+--- Page 32 ---
+27 
+ 
+TouchPad Precautions 
+The TouchPad is a pressure sensitive device.  Please take note of 
+the following precautions. 
+  Make sure the TouchPad does not come into contact with 
+dirt, liquids or grease. 
+  Do not touch the TouchPad if your fingers are dirty. 
+  Do not rest heavy objects on the TouchPad or the TouchPad 
+buttons. 
+You can use the TouchPad with Microsoft Windows as well as non-
+Windows applications. 
+P
+P
+o
+o
+w
+w
+e
+e
+r
+r
+ 
+ 
+S
+S
+a
+a
+v
+v
+i
+i
+n
+n
+g
+g
+ 
+ 
+M
+M
+o
+o
+d
+d
+e
+e
+s
+s
+ 
+ 
+This section contains information on the notebook’s power system, 
+including the AC Adapter, the battery system, recharging the 
+battery, and tips for conserving battery power.   
+The power system is comprised of two parts, the AC Adapter and 
+the battery system. The AC Adapter converts AC power from a wall 
+outlet to the DC power required by the computer.
+
+--- Page 33 ---
+28 
+The Battery Power System 
+Before using the computer on battery power for the first time, 
+check the battery status icon on the Windows Toolbar to make 
+sure the battery is fully charged.   
+See Battery Status later in this section for a description and 
+explanation of the Windows Battery icon.  
+Charging the battery takes about 2.5 hours to charge when the 
+system is in off state.  If possible, always charge the battery 
+completely. 
+If you use the battery so frequently that it 
+exceed more than 20 times by fully discharging/charging in a 
+single month alone, we recommend you to perform the 
+“Battery Calibration” process every 3 months to maintain the 
+battery life.  
+ 
+Please refer to the topic on “Battery Calibration” describing 
+how to calibrate your system battery discussed on the latter 
+part of this chapter. 
+ 
+If you discover the battery life is getting shorter, please 
+perform the “Battery Calibration” process immediately. 
+R
+R
+e
+e
+m
+m
+o
+o
+v
+v
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+B
+B
+a
+a
+t
+t
+t
+t
+e
+e
+r
+r
+y
+y
+ 
+ 
+P
+P
+a
+a
+c
+c
+k
+k
+ 
+ 
+To remove the battery pack from its compartment, please refer to 
+Chapter 3, Inserting and Removing the Battery Pack. 
+Preparing the Battery Pack for Use (Battery 
+Calibration) 
+Before using the battery pack for the first time, the Smart Battery 
+IC within the battery pack should be calibrated in order to get 
+accurate reporting of remaining battery life status.   
+To calibrate the battery pack follows the instructions below: 
+  Insert the battery into the battery compartment and turn on 
+the notebook. If the battery is completely without power go to 
+the next step. Otherwise, let the battery run down until the 
+battery low-low warning beeps are heard. The system will 
+automatically enter Suspend mode.
+
+--- Page 34 ---
+29 
+  Turn the notebook off. Connect the AC adapter and let the 
+battery fully recharge. When the battery charge indicator 
+turns off, the battery is fully charged. 
+  Turn On the notebook, let the battery run down until the 
+battery is in low-low state and you hear a warning beeps.  
+The system will automatically enter the Suspend mode.  You 
+can now connect the AC adapter. 
+  The battery pack is now calibrated properly. 
+In general, using the battery until the low-low battery-warning 
+indicator appears and fully recharges the battery each time (full 
+discharge/charge  cycle) will ensure the accurate reporting of the 
+battery gauge status. 
+Automatic Battery Pack Charging Function  
+To charge the battery, while the battery pack is in the notebook, 
+plug the AC adapter into the notebook and an electrical outlet. 
+The charging time is approximately 2.5 hours when the notebook is 
+turned off and approximately 3.5 hours when the notebook is 
+turned on. When the battery is fully charged, the battery charge 
+indicator becomes off. 
+If system runs at heavy loading or in a 
+high temperature environment, the battery may not be fully 
+charged. You need to continue to charge it with the AC 
+adapter plugged in until the charging LED turns off.
+ 
+Battery Status 
+Windows XP has an applet in the Control Panel that will display an 
+icon in the Windows taskbar indicating when the notebook is 
+running on battery power or is attached to the AC adapter.   
+This applet also displays a meter that indicates how much charge 
+is remaining in the battery.  
+Battery Low Warning  
+When the pack initially reaches the “Battery Low” state 
+approximately 7 ~ 10 minutes of the usable battery life is left.   
+You will hear an audible beep signal every 15 seconds alerting you 
+to the “Battery Low” status. When the battery power reaches the 
+“Battery Low Low” status the beeping sound will accelerate.   
+Your battery now has 1 ~ 2 minutes of battery charge remaining.
+
+--- Page 35 ---
+30 
+You must save your data or connect AC power immediately; 
+otherwise, you may lose your data. 
+Sound  Meaning 
+Continuous 
+beeping every 5 
+seconds 
+Battery Low: Indicates that there is 7 to 10 minutes 
+charge remaining.   
+Beeping 
+accelerates 
+Battery Low Low:  Indicates that there is 1 to 2 
+minutes of battery charge remaining.  Save your 
+work and turn off the notebook, or connect the AC 
+adapter. 
+When there is only one minute of battery charge remaining, the 
+notebook will suspend to the HDD and power off.  You should 
+connect AC power and resume to save your work. 
+Small Battery for the Real Time Clock 
+There is a small built-in battery pack that supplies power to the 
+system in order to maintain certain system information while the 
+power is off.  If the notebook is left without a power source for long 
+period of time, this battery will be exhausted and system 
+information will be lost.   
+Danger of explosion if battery is 
+incorrectly replaced. Replace only with the same or equivalent 
+type recommended by the manufacturer.  
+Dispose of used batteries according to the manufacturer's 
+instructions.  Never remove the battery pack while the power 
+is on as this may result in data loss when the system loses 
+power. 
+R
+R
+e
+e
+s
+s
+e
+e
+t
+t
+t
+t
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+S
+S
+y
+y
+s
+s
+t
+t
+e
+e
+m
+m
+ 
+ 
+After installing a software application package, you may be 
+prompted to reset the system to load the changed operating 
+environment.  
+To reset the system, or “reboot,” press the [Ctrl]+[Alt]+[Delete] 
+keys simultaneously. This is known as “warm boot.” This key 
+combination acts as “software” reset switch when you encounter 
+hardware or software problems, which lock up the notebook.
+
+--- Page 36 ---
+31 
+If this key combination does not shut down the notebook, you can 
+reset the notebook by using the notebook’s power button. Should 
+the notebook lock up for some reason, pressing this button powers 
+the notebook off. 
+Adjusting the Brightness  
+To adjust the brightness on the LCD screen, press and hold down 
+the  [Fn] key in the lower left hand corner of the keyboard and 
+press the [F8] key to reduce the brightness or [F7] to increase the 
+brightness.  
+U
+U
+s
+s
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+W
+W
+i
+i
+n
+n
+d
+d
+o
+o
+w
+w
+s
+s
+ 
+ 
+Help Windows 
+For Windows 7 
+help, click Start 
+Help and 
+Support icon will 
+open the dialog 
+box.
+
+--- Page 37 ---
+32 
+Desktop 
+Desktop may vary differently on the software installed in your 
+notebook with different or additional shortcuts. 
+ 
+R
+R
+e
+e
+c
+c
+y
+y
+c
+c
+l
+l
+e
+e
+ 
+ 
+B
+B
+i
+i
+n
+n
+ 
+ 
+Used for storing deleted files in case you want to recover and save 
+it in your system. The files will only be deleted from the Recycle 
+Bin permanently only if you empty it by right clicking your mouse 
+and select the “Empty Recycle Bin”.  
+S
+S
+t
+t
+a
+a
+r
+r
+t
+t
+ 
+ 
+B
+B
+u
+u
+t
+t
+t
+t
+o
+o
+n
+n
+ 
+ 
+Allows easy access to all Windows programs.
+
+--- Page 38 ---
+33 
+ 
+The Start menu allows you to adapt and show the programs used 
+most frequently. If you wish to keep an item, right click the item and 
+click Pin to Start menu. 
+Log Off will enable the current user to log off and allows a new 
+user to log on. 
+Turn Off Computer allows you to shut down, restart, and Stand by 
+modes for power saving purposes. 
+T
+T
+a
+a
+s
+s
+k
+k
+b
+b
+a
+a
+r
+r
+ 
+ 
+When you open a program, its icon is displayed at the taskbar for 
+you to conveniently move between programs by clicking the 
+relevant button.  
+To add or remove toolbars from the taskbar: right click an empty 
+spot on the taskbar, select Toolbars  choose the toolbar you 
+want to add.
+
+--- Page 39 ---
+34 
+N
+N
+o
+o
+t
+t
+i
+i
+f
+f
+i
+i
+c
+c
+a
+a
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+The icons that appear here are for quick access to some programs 
+and computer functions that you frequently used. To prevent 
+Windows 7 from hiding icons: 
+From an empty spot on the Taskbar, right click your mouse and 
+select the Properties, remove the checked mark on the Auto-hide 
+the taskbar. 
+ 
+C
+C
+o
+o
+n
+n
+t
+t
+r
+r
+o
+o
+l
+l
+ 
+ 
+P
+P
+a
+a
+n
+n
+e
+e
+l
+l
+ 
+ 
+It is in this area that you can change how Windows looks and 
+works. Click Start    Control Panel dialog box. There are two 
+interfaces – Classic View.
+
+--- Page 42 ---
+37 
+I
+I
+n
+n
+t
+t
+e
+e
+r
+r
+n
+n
+e
+e
+t
+t
+ 
+ 
+C
+C
+o
+o
+n
+n
+n
+n
+e
+e
+c
+c
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+U
+U
+s
+s
+i
+i
+n
+n
+g
+g
+ 
+ 
+a
+a
+ 
+ 
+m
+m
+o
+o
+d
+d
+e
+e
+m
+m
+ 
+ 
+f
+f
+o
+o
+r
+r
+ 
+ 
+C
+C
+o
+o
+n
+n
+n
+n
+e
+e
+c
+c
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+t
+t
+o
+o
+ 
+ 
+I
+I
+n
+n
+t
+t
+e
+e
+r
+r
+n
+n
+e
+e
+t
+t
+
+--- Page 43 ---
+38 
+ 
+For more detail on the Network key, 
+please refer to your local ISP provider and follow the 
+procedures describe in the “ISP Installation Guide” to 
+proceed with the installation.
+
+--- Page 44 ---
+39 
+U
+U
+s
+s
+i
+i
+n
+n
+g
+g
+ 
+ 
+W
+W
+i
+i
+r
+r
+e
+e
+l
+l
+e
+e
+s
+s
+s
+s
+ 
+ 
+L
+L
+A
+A
+N
+N
+ 
+ 
+N
+N
+e
+e
+t
+t
+w
+w
+o
+o
+r
+r
+k
+k
+ 
+ 
+f
+f
+o
+o
+r
+r
+ 
+ 
+C
+C
+o
+o
+n
+n
+n
+n
+e
+e
+c
+c
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+t
+t
+o
+o
+ 
+ 
+I
+I
+n
+n
+t
+t
+e
+e
+r
+r
+n
+n
+e
+e
+t
+t
+
+--- Page 46 ---
+41 
+R
+R
+u
+u
+n
+n
+n
+n
+i
+i
+n
+n
+g
+g
+ 
+ 
+B
+B
+I
+I
+O
+O
+S
+S
+ 
+ 
+S
+S
+e
+e
+t
+t
+u
+u
+p
+p
+ 
+ 
+The Setup Utility is a hardware configuration program built into 
+your computer’s BIOS (Basic Input/Output System). It runs and 
+maintains a variety of hardware functions. It is menu-driven 
+software, which allows you to easily configure and change the 
+settings. 
+The BIOS allows you to set up passwords to limit access to users. 
+This is an important feature because a great deal of vital 
+information is carried within the computer nowadays. Unauthorized 
+access can be prevented. Later in this chapter, you will learn how 
+to use this security feature. 
+E
+E
+n
+n
+t
+t
+e
+e
+r
+r
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+B
+B
+I
+I
+O
+O
+S
+S
+ 
+ 
+S
+S
+e
+e
+t
+t
+u
+u
+p
+p
+ 
+ 
+S
+S
+c
+c
+r
+r
+e
+e
+e
+e
+n
+n
+ 
+ 
+First turn on the power. When the BIOS performs the POST 
+(Power-On Self Test), press F2 key quickly to activate the BIOS 
+Setup Utility. 
+You may need to press F2 key fairly 
+quickly. Once the system begins to load Windows, you may 
+have to retry by cycle-power on again 
+L
+L
+e
+e
+a
+a
+v
+v
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+B
+B
+I
+I
+O
+O
+S
+S
+ 
+ 
+S
+S
+e
+e
+t
+t
+u
+u
+p
+p
+ 
+ 
+S
+S
+c
+c
+r
+r
+e
+e
+e
+e
+n
+n
+ 
+ 
+When you have finished modifying the BIOS settings, exit the 
+BIOS. It takes a few seconds to record changes in the CMOS. 
+B
+B
+I
+I
+O
+O
+S
+S
+ 
+ 
+A
+A
+c
+c
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+K
+K
+e
+e
+y
+y
+s
+s
+ 
+ 
+Function Key  Command  Description 
+ESC Exit 
+Leaves a sub-menu to return to the 
+previous menu OR exits the BIOS setup 
+while saving changes. 
+Enter  Go to Sub Screen Shows the Sub Menu
+
+--- Page 47 ---
+42 
+F1  General Help  Shows the Help Screen  
+F9  Default  Set to default 
+F10  Save and Exit 
+Saves changes and reboots the 
+computer. 
+<Tab>  Select a field  Selects the next field. 
+    Select an item  Selects the next upper item. 
+    Select an item  Selects the next lower item. 
+    Select a menu  Selects the right item 
+    Select a menu  Selects the left item 
+-  Lower value  Selects the next value within a field. 
++  Higher value  Selects the next value within a field. 
+M
+M
+o
+o
+d
+d
+i
+i
+f
+f
+y
+y
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+B
+B
+I
+I
+O
+O
+S
+S
+ 
+ 
+S
+S
+e
+e
+t
+t
+t
+t
+i
+i
+n
+n
+g
+g
+s
+s
+ 
+ 
+The BIOS setup main menu is subdivided into sub-menus.  Each 
+menu item is described in this section. 
+Main Setup
+
+--- Page 48 ---
+43 
+Info Setup 
+ 
+ 
+Advanced Setup
+
+--- Page 51 ---
+46 
+S
+S
+y
+y
+s
+s
+t
+t
+e
+e
+m
+m
+ 
+ 
+R
+R
+e
+e
+c
+c
+o
+o
+v
+v
+e
+e
+r
+r
+y
+y
+ 
+ 
+This process enables you to restore your system whether your 
+system is damaged or for some other reason that you can not 
+operate your computer. 
+First turn on the power. When the BIOS performs the POST 
+(Power-On Self Test) 
+ 
+  Press F9 key quickly to activate the System Recovery 
+Program.  
+ 
+  Or click the “Quit” if you want to discontinue with the 
+application.
+
+--- Page 52 ---
+47 
+ 
+  Click the “Recover your computer” if you want to proceed. 
+ 
+  You will be asked whether you would like to proceed with the 
+recovery procedures. 
+  Click “OK” if you want to proceed or “Cancel” if you want to 
+discontinue with the recovery procedures. 
+This illustration will be shown twice after 
+you made the first decision in case you change your mind to 
+discontinue with the recovery procedures.
+
+--- Page 53 ---
+48 
+ 
+  The system will start with the recovery procedures. 
+ 
+  This illustration indicates the system has finished with the 
+recovery procedures.
+
+--- Page 55 ---
+50 
+V
+V
+G
+G
+A
+A
+ 
+ 
+U
+U
+t
+t
+i
+i
+l
+l
+i
+i
+t
+t
+i
+i
+e
+e
+s
+s
+ 
+ 
+You can click the touchpad or mouse right button and select the 
+“Properties” item. 
+ 
+ 
+Select the “Display Settings” option to enter its window display. 
+Click on the “Advanced Settings” tab to enter “Plug and Play 
+Monitor on Intel® PineView Mobile Express Chipset” window 
+display.
+
+--- Page 58 ---
+53 
+D
+D
+i
+i
+s
+s
+p
+p
+l
+l
+a
+a
+y
+y
+ 
+ 
+D
+D
+e
+e
+v
+v
+i
+i
+c
+c
+e
+e
+s
+s
+ 
+ 
+ 
+D
+D
+i
+i
+s
+s
+p
+p
+l
+l
+a
+a
+y
+y
+ 
+ 
+S
+S
+e
+e
+t
+t
+t
+t
+i
+i
+n
+n
+g
+g
+s
+s
+
+--- Page 59 ---
+54 
+C
+C
+o
+o
+l
+l
+o
+o
+r
+r
+ 
+ 
+C
+C
+o
+o
+r
+r
+r
+r
+e
+e
+c
+c
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+ 
+H
+H
+o
+o
+t
+t
+ 
+ 
+K
+K
+e
+e
+y
+y
+s
+s
+
+--- Page 61 ---
+56 
+3
+3
+G
+G
+ 
+ 
+C
+C
+o
+o
+n
+n
+n
+n
+e
+e
+c
+c
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+3G is the third generation of mobile phone standards and 
+technology. 3G enable users a wide range of more advanced 
+service while achieving greater network capacity through improved 
+spectral efficiency.
+
+--- Page 62 ---
+57 
+Press Fn + F2 to run the 3G application. Procedures in installing 
+the application 
+  Insert the SIM card into the SIM slot. 
+  Execute the application by pressing the Mobile Partner icon 
+ 
+  From the Mobile Partner display window, click on the “Tools” 
+item 
+ 
+  Select the “Options”.
+
+--- Page 63 ---
+58 
+ 
+  Double click on the “Profile Management” and click on the 
+“New” tab 
+ 
+  Click on the “OK” tab.
+
+--- Page 64 ---
+59 
+ 
+  On the next window, click on the “Connect” tab. 
+ 
+  The HSPA is successfully connected
+
+--- Page 66 ---
+61 
+T
+T
+r
+r
+o
+o
+u
+u
+b
+b
+l
+l
+e
+e
+s
+s
+h
+h
+o
+o
+o
+o
+t
+t
+i
+i
+n
+n
+g
+g
+ 
+ 
+Your computer has been fully tested and complies with the system 
+specifications before shipping. However, incorrect operations 
+and/or mishandling may cause problems. 
+This chapter provides a reference for identifying and correcting 
+common hardware and software problems that you may encounter. 
+When you encounter a problem, you should first try to go through 
+the recommendations in this chapter. Instead of returning the 
+computer and waiting for repair, you may easily solve the problems 
+by considering the following scenarios and possible solutions. If 
+the error continues, contact your reseller for service information. 
+Before taking further actions, consider the following suggestions: 
+  Check to see if the problem persists when all the external 
+devices are removed. 
+  Check to see that the green light indicator on the AC adapter 
+is lit. 
+  Check to see the power cord is properly plugged to the wall 
+outlet and to the computer. 
+  Check to see the power indicator of the computer is on. 
+  Check to see if your keyboard is operational by pressing and 
+holding any key. 
+  Check for any incorrect or loose cable connections. Make 
+sure the latches on the connectors latch securely on to the 
+receptor end. 
+  Be sure you have not performed an incorrect setting on the 
+hardware devices in the BIOS Setup utility. A faulty setting 
+may cause the system to misbehave. If you are not sure of 
+the changes you made, try to restore all the settings to 
+factory defaults. 
+  Be sure all the device drivers are installed properly. For 
+example, without the audio driver properly installed, the 
+speakers and microphone will not work.
+
+--- Page 67 ---
+62 
+  If external devices such as USB camera, scanner, printer do 
+not function correctly when connected to the system, it is 
+usually the device’s own problem. Consult the device’s 
+manufacturer first. 
+  Some software programs, which have not gone through 
+rigorous coding and testing, may cause problems during 
+your routine use. Consult the software vendor for problem 
+solving. 
+  Legacy peripheral are not plug-and-play capable. You need 
+to restart the system with these devices powered up and 
+connected first. 
+  Be sure to go to BIOS SETUP and load DEFAULT SETTING 
+after BIOS re-flash. 
+  Be sure the Quick Key Lockout Switch on the bottom of the 
+computer is not engaged; otherwise the quick keys will not 
+work. 
+A
+A
+u
+u
+d
+d
+i
+i
+o
+o
+ 
+ 
+P
+P
+r
+r
+o
+o
+b
+b
+l
+l
+e
+e
+m
+m
+s
+s
+ 
+ 
+N
+N
+o
+o
+ 
+ 
+s
+s
+p
+p
+e
+e
+a
+a
+k
+k
+e
+e
+r
+r
+ 
+ 
+o
+o
+u
+u
+t
+t
+p
+p
+u
+u
+t
+t
+ 
+ 
+  Software volume control is turned down in Microsoft Sound 
+System or is muted. Double-click the speaker icon on the 
+lower right corner of the taskbar to see if the speaker has 
+been muted or turned down all the way. 
+  Most audio problems are software-related. If your computer 
+worked before, chances are software may have been set 
+incorrectly. 
+  Go to [Start > Settings > Control Panel] and double-click the 
+Sounds and Audio Devices icon. In the Audio page, make 
+sure that the audio codec mentioned in the spec is the 
+default playback device. 
+S
+S
+o
+o
+u
+u
+n
+n
+d
+d
+ 
+ 
+c
+c
+a
+a
+n
+n
+n
+n
+o
+o
+t
+t
+ 
+ 
+b
+b
+e
+e
+ 
+ 
+r
+r
+e
+e
+c
+c
+o
+o
+r
+r
+d
+d
+e
+e
+d
+d
+ 
+ 
+  You will need to plug-in an external microphone to the 
+microphone connector to record sound. 
+  Double-click the speaker icon on the lower right corner of the 
+taskbar to see if the microphone has been muted. 
+  Click Options and select Properties. 
+  Select Recording and click the OK button. 
+  After Click OK button, the recording volume control 
+panel will appear. 
+  Go to [Start > Settings > Control Panel] and double-click the
+
+--- Page 68 ---
+63 
+Multimedia icon (or Sounds and Audio Devices icon). In the 
+Volume or Audio page, make sure that the audio codec 
+mentioned in the spec is the default recording device. 
+H
+H
+a
+a
+r
+r
+d
+d
+ 
+ 
+D
+D
+i
+i
+s
+s
+k
+k
+ 
+ 
+P
+P
+r
+r
+o
+o
+b
+b
+l
+l
+e
+e
+m
+m
+s
+s
+ 
+ 
+T
+T
+h
+h
+e
+e
+ 
+ 
+h
+h
+a
+a
+r
+r
+d
+d
+ 
+ 
+d
+d
+i
+i
+s
+s
+k
+k
+ 
+ 
+d
+d
+r
+r
+i
+i
+v
+v
+e
+e
+ 
+ 
+d
+d
+o
+o
+e
+e
+s
+s
+ 
+ 
+n
+n
+o
+o
+t
+t
+ 
+ 
+w
+w
+o
+o
+r
+r
+k
+k
+ 
+ 
+o
+o
+r
+r
+ 
+ 
+i
+i
+s
+s
+ 
+ 
+n
+n
+o
+o
+t
+t
+ 
+ 
+r
+r
+e
+e
+c
+c
+o
+o
+g
+g
+n
+n
+i
+i
+z
+z
+a
+a
+b
+b
+l
+l
+e
+e
+ 
+ 
+  If you had just performed a hard disk upgrade, make sure 
+the hard drive connector is not loose and the hard disk drive 
+is also correctly seated. Remove it and reinsert it firmly, and 
+restart your PC. 
+  The new HDD may need to be partitioned and reformatted. 
+O/S and drivers will need to be re-installed as well. 
+  Check the hard disk indicator LED. When you access a file, 
+the LED lamp should light up momentarily. 
+  The new HDD may be defective or is not compatible. 
+  If your computer has been subjected to static electricity or 
+physical shock, you may have damaged the disk drive. 
+T
+T
+h
+h
+e
+e
+ 
+ 
+h
+h
+a
+a
+r
+r
+d
+d
+ 
+ 
+d
+d
+r
+r
+i
+i
+v
+v
+e
+e
+ 
+ 
+i
+i
+s
+s
+ 
+ 
+m
+m
+a
+a
+k
+k
+i
+i
+n
+n
+g
+g
+ 
+ 
+a
+a
+b
+b
+n
+n
+o
+o
+r
+r
+m
+m
+a
+a
+l
+l
+ 
+ 
+w
+w
+h
+h
+i
+i
+n
+n
+i
+i
+n
+n
+g
+g
+ 
+ 
+n
+n
+o
+o
+i
+i
+s
+s
+e
+e
+s
+s
+ 
+ 
+  You should back up your files as soon as possible. 
+  Make sure the source of noise is indeed from the hard drive 
+and not other devices. 
+T
+T
+h
+h
+e
+e
+ 
+ 
+h
+h
+a
+a
+r
+r
+d
+d
+ 
+ 
+d
+d
+i
+i
+s
+s
+k
+k
+ 
+ 
+d
+d
+r
+r
+i
+i
+v
+v
+e
+e
+ 
+ 
+h
+h
+a
+a
+s
+s
+ 
+ 
+r
+r
+e
+e
+a
+a
+c
+c
+h
+h
+e
+e
+d
+d
+ 
+ 
+i
+i
+t
+t
+s
+s
+ 
+ 
+c
+c
+a
+a
+p
+p
+a
+a
+c
+c
+i
+i
+t
+t
+y
+y
+ 
+ 
+  Run Disk Cleanup utility in Windows. [Start > All Programs > 
+Accessories > System Tools > Disk Cleanup] The system 
+will prompt you for what to do. 
+  Archive files or programs that you had no longer used by 
+moving them to an alternative storage medium (floppy disk, 
+optical record-able disk, etc.) or uninstall programs that no 
+longer use. 
+  Many browsers store files in the hard drive as a cache to 
+speed up the performance. Check the program’s Online 
+Help for instructions on decreasing the cache size or on 
+removing temporary Internet files. 
+  Empty the Recycle Bin to create more disk space. When you 
+delete files, Windows saves them to the Recycle Bin. 
+T
+T
+h
+h
+e
+e
+ 
+ 
+h
+h
+a
+a
+r
+r
+d
+d
+ 
+ 
+d
+d
+i
+i
+s
+s
+k
+k
+ 
+ 
+t
+t
+a
+a
+k
+k
+e
+e
+s
+s
+ 
+ 
+l
+l
+o
+o
+n
+n
+g
+g
+e
+e
+r
+r
+ 
+ 
+t
+t
+o
+o
+ 
+ 
+r
+r
+e
+e
+a
+a
+d
+d
+ 
+ 
+a
+a
+ 
+ 
+f
+f
+i
+i
+l
+l
+e
+e
+ 
+ 
+  If you have been using the drive for a period, the files may 
+be fragmented. Go to [Start > Programs > Accessories > 
+System Tools > Disk Defragmenter] to perform a disk
+
+--- Page 69 ---
+64 
+defragmentation. This operation may take a while. 
+  Interrupt requests or problems with other hardware devices 
+may have occupied the CPU and therefore slows down the 
+system performance. 
+T
+T
+h
+h
+e
+e
+ 
+ 
+f
+f
+i
+i
+l
+l
+e
+e
+s
+s
+ 
+ 
+a
+a
+r
+r
+e
+e
+ 
+ 
+c
+c
+o
+o
+r
+r
+r
+r
+u
+u
+p
+p
+t
+t
+e
+e
+d
+d
+ 
+ 
+ 
+ 
+  Run the Error-checking utility in Windows to check the HDD. 
+Double-click My Computer. Right-click C: and select 
+Properties. Click Check Now in Error-checking in Tools. 
+D
+D
+i
+i
+s
+s
+p
+p
+l
+l
+a
+a
+y
+y
+ 
+ 
+P
+P
+r
+r
+o
+o
+b
+b
+l
+l
+e
+e
+m
+m
+s
+s
+ 
+ 
+T
+T
+h
+h
+e
+e
+ 
+ 
+d
+d
+i
+i
+s
+s
+p
+p
+l
+l
+a
+a
+y
+y
+ 
+ 
+p
+p
+a
+a
+n
+n
+e
+e
+l
+l
+ 
+ 
+i
+i
+s
+s
+ 
+ 
+b
+b
+l
+l
+a
+a
+n
+n
+k
+k
+ 
+ 
+w
+w
+h
+h
+e
+e
+n
+n
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+s
+s
+y
+y
+s
+s
+t
+t
+e
+e
+m
+m
+ 
+ 
+i
+i
+s
+s
+ 
+ 
+t
+t
+u
+u
+r
+r
+n
+n
+e
+e
+d
+d
+ 
+ 
+o
+o
+n
+n
+ 
+ 
+  Make sure the computer is not in the Standby or Hibernate 
+suspend modes. The display is turned off to conserve 
+energy in these modes. 
+T
+T
+h
+h
+e
+e
+ 
+ 
+s
+s
+c
+c
+r
+r
+e
+e
+e
+e
+n
+n
+ 
+ 
+i
+i
+s
+s
+ 
+ 
+d
+d
+i
+i
+f
+f
+f
+f
+i
+i
+c
+c
+u
+u
+l
+l
+t
+t
+ 
+ 
+t
+t
+o
+o
+ 
+ 
+r
+r
+e
+e
+a
+a
+d
+d
+ 
+ 
+  The display resolution should at least be set to at least 
+1024x600 for optimal viewing. 
+  Go to [Start > Settings > Control Panel] and double-click 
+the Display icon.  
+  Under the Settings page, set screen resolution to at 
+least 1024x600. 
+T
+T
+h
+h
+e
+e
+ 
+ 
+s
+s
+c
+c
+r
+r
+e
+e
+e
+e
+n
+n
+ 
+ 
+f
+f
+l
+l
+i
+i
+c
+c
+k
+k
+e
+e
+r
+r
+s
+s
+ 
+ 
+-
+-
+ 
+ 
+  It is normal if the display flickers a few times during shutting 
+down or powering up. 
+K
+K
+e
+e
+y
+y
+b
+b
+o
+o
+a
+a
+r
+r
+d
+d
+ 
+ 
+a
+a
+n
+n
+d
+d
+ 
+ 
+M
+M
+o
+o
+u
+u
+s
+s
+e
+e
+ 
+ 
+P
+P
+r
+r
+o
+o
+b
+b
+l
+l
+e
+e
+m
+m
+s
+s
+ 
+ 
+ 
+ 
+T
+T
+h
+h
+e
+e
+ 
+ 
+b
+b
+u
+u
+i
+i
+l
+l
+t
+t
+-
+-
+i
+i
+n
+n
+ 
+ 
+t
+t
+o
+o
+u
+u
+c
+c
+h
+h
+ 
+ 
+p
+p
+a
+a
+d
+d
+ 
+ 
+p
+p
+e
+e
+r
+r
+f
+f
+o
+o
+r
+r
+m
+m
+s
+s
+ 
+ 
+e
+e
+r
+r
+r
+r
+a
+a
+t
+t
+i
+i
+c
+c
+a
+a
+l
+l
+l
+l
+y
+y
+ 
+ 
+ 
+ 
+  Make sure there is no excess perspiration or humidity on 
+your hand when using the touch pad. Keep the surface of 
+the touch pad clean and dry. 
+  Do not rest your palm or wrist on the surface of the touch 
+pad while typing or using the touch pad. 
+T
+T
+h
+h
+e
+e
+ 
+ 
+b
+b
+u
+u
+i
+i
+l
+l
+t
+t
+-
+-
+i
+i
+n
+n
+ 
+ 
+k
+k
+e
+e
+y
+y
+b
+b
+o
+o
+a
+a
+r
+r
+d
+d
+ 
+ 
+a
+a
+c
+c
+c
+c
+e
+e
+p
+p
+t
+t
+s
+s
+ 
+ 
+n
+n
+o
+o
+ 
+ 
+i
+i
+n
+n
+p
+p
+u
+u
+t
+t
+ 
+ 
+  Please try to make sure the system doesn’t hang up and is 
+still working. 
+T
+T
+h
+h
+e
+e
+ 
+ 
+c
+c
+h
+h
+a
+a
+r
+r
+a
+a
+c
+c
+t
+t
+e
+e
+r
+r
+s
+s
+ 
+ 
+o
+o
+n
+n
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+s
+s
+c
+c
+r
+r
+e
+e
+e
+e
+n
+n
+ 
+ 
+r
+r
+e
+e
+p
+p
+e
+e
+a
+a
+t
+t
+ 
+ 
+w
+w
+h
+h
+i
+i
+l
+l
+e
+e
+ 
+ 
+I
+I
+ 
+ 
+t
+t
+y
+y
+p
+p
+e
+e
+ 
+ 
+  You may be holding the keys down too long while you’re
+
+--- Page 70 ---
+65 
+typing. 
+  Keep the keyboard clean. Dust and dirt under the keys could 
+cause them to stick. 
+  Configure the keyboard to wait longer before the auto repeat 
+feature starts. To adjust this feature, Go to [Start > Settings > 
+Control Panel], and double-click the Keyboard icon.  
+A dialogue box shows up with the adjustable settings for the 
+keyboard. 
+C
+C
+M
+M
+O
+O
+S
+S
+ 
+ 
+B
+B
+a
+a
+t
+t
+t
+t
+e
+e
+r
+r
+y
+y
+ 
+ 
+P
+P
+r
+r
+o
+o
+b
+b
+l
+l
+e
+e
+m
+m
+ 
+ 
+A
+A
+ 
+ 
+m
+m
+e
+e
+s
+s
+s
+s
+a
+a
+g
+g
+e
+e
+ 
+ 
+“
+“
+C
+C
+M
+M
+O
+O
+S
+S
+ 
+ 
+C
+C
+h
+h
+e
+e
+c
+c
+k
+k
+s
+s
+u
+u
+m
+m
+ 
+ 
+F
+F
+a
+a
+i
+i
+l
+l
+u
+u
+r
+r
+e
+e
+”
+”
+ 
+ 
+d
+d
+i
+i
+s
+s
+p
+p
+l
+l
+a
+a
+y
+y
+s
+s
+ 
+ 
+d
+d
+u
+u
+r
+r
+i
+i
+n
+n
+g
+g
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+b
+b
+o
+o
+o
+o
+t
+t
+i
+i
+n
+n
+g
+g
+ 
+ 
+p
+p
+r
+r
+o
+o
+c
+c
+e
+e
+s
+s
+s
+s
+ 
+ 
+o
+o
+r
+r
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+t
+t
+i
+i
+m
+m
+e
+e
+ 
+ 
+(
+(
+c
+c
+l
+l
+o
+o
+c
+c
+k
+k
+)
+)
+ 
+ 
+r
+r
+e
+e
+s
+s
+e
+e
+t
+t
+s
+s
+ 
+ 
+w
+w
+h
+h
+e
+e
+n
+n
+ 
+ 
+b
+b
+o
+o
+o
+o
+t
+t
+i
+i
+n
+n
+g
+g
+ 
+ 
+  Try to reboot the system. 
+  If the message “CMOS Checksum Failure” appears during 
+the booting procedure even after rebooting, it may indicate 
+failure of the CMOS battery. If so, you need to replace the 
+battery. This battery normally lasts two to five years. The 
+battery is of type CR2032 (3V). Send the battery to the 
+dealer for replacement.  
+M
+M
+e
+e
+m
+m
+o
+o
+r
+r
+y
+y
+ 
+ 
+P
+P
+r
+r
+o
+o
+b
+b
+l
+l
+e
+e
+m
+m
+s
+s
+ 
+ 
+T
+T
+h
+h
+e
+e
+ 
+ 
+P
+P
+O
+O
+S
+S
+T
+T
+ 
+ 
+d
+d
+o
+o
+e
+e
+s
+s
+ 
+ 
+n
+n
+o
+o
+t
+t
+ 
+ 
+s
+s
+h
+h
+o
+o
+w
+w
+ 
+ 
+a
+a
+n
+n
+ 
+ 
+i
+i
+n
+n
+c
+c
+r
+r
+e
+e
+a
+a
+s
+s
+e
+e
+d
+d
+ 
+ 
+m
+m
+e
+e
+m
+m
+o
+o
+r
+r
+y
+y
+ 
+ 
+c
+c
+a
+a
+p
+p
+a
+a
+c
+c
+i
+i
+t
+t
+y
+y
+ 
+ 
+w
+w
+h
+h
+e
+e
+n
+n
+ 
+ 
+y
+y
+o
+o
+u
+u
+ 
+ 
+h
+h
+a
+a
+v
+v
+e
+e
+ 
+ 
+a
+a
+l
+l
+r
+r
+e
+e
+a
+a
+d
+d
+y
+y
+ 
+ 
+i
+i
+n
+n
+s
+s
+t
+t
+a
+a
+l
+l
+l
+l
+e
+e
+d
+d
+ 
+ 
+a
+a
+d
+d
+d
+d
+i
+i
+t
+t
+i
+i
+o
+o
+n
+n
+a
+a
+l
+l
+ 
+ 
+m
+m
+e
+e
+m
+m
+o
+o
+r
+r
+y
+y
+ 
+ 
+  Certain brands of memory module may not be compatible 
+with your system. You should ask your vendor for a list of 
+compatible DIMM. 
+  The memory module may be defective. 
+T
+T
+h
+h
+e
+e
+ 
+ 
+O
+O
+/
+/
+S
+S
+ 
+ 
+i
+i
+s
+s
+s
+s
+u
+u
+e
+e
+s
+s
+ 
+ 
+a
+a
+n
+n
+ 
+ 
+i
+i
+n
+n
+s
+s
+u
+u
+f
+f
+f
+f
+i
+i
+c
+c
+i
+i
+e
+e
+n
+n
+t
+t
+ 
+ 
+m
+m
+e
+e
+m
+m
+o
+o
+r
+r
+y
+y
+ 
+ 
+e
+e
+r
+r
+r
+r
+o
+o
+r
+r
+ 
+ 
+m
+m
+e
+e
+s
+s
+s
+s
+a
+a
+g
+g
+e
+e
+ 
+ 
+d
+d
+u
+u
+r
+r
+i
+i
+n
+n
+g
+g
+ 
+ 
+o
+o
+p
+p
+e
+e
+r
+r
+a
+a
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+  This is often a software or Windows-related problem. A 
+program is draining the memory resources. 
+  Close the application programs you’re not using and restart 
+the system. 
+P
+P
+C
+C
+ 
+ 
+C
+C
+a
+a
+r
+r
+d
+d
+ 
+ 
+P
+P
+r
+r
+o
+o
+b
+b
+l
+l
+e
+e
+m
+m
+s
+s
+ 
+ 
+Some system may not have the PC Card 
+Slot option.
+
+--- Page 71 ---
+66 
+P
+P
+C
+C
+ 
+ 
+C
+C
+a
+a
+r
+r
+d
+d
+s
+s
+ 
+ 
+d
+d
+o
+o
+ 
+ 
+n
+n
+o
+o
+t
+t
+ 
+ 
+f
+f
+u
+u
+n
+n
+c
+c
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+  Make sure you have properly installed the driver for the card. 
+  Consult the card’s manual or contact the vendor for trouble-
+shooting. 
+T
+T
+h
+h
+e
+e
+ 
+ 
+P
+P
+C
+C
+ 
+ 
+c
+c
+a
+a
+r
+r
+d
+d
+ 
+ 
+c
+c
+a
+a
+n
+n
+n
+n
+o
+o
+t
+t
+ 
+ 
+b
+b
+e
+e
+ 
+ 
+r
+r
+e
+e
+c
+c
+o
+o
+g
+g
+n
+n
+i
+i
+z
+z
+e
+e
+d
+d
+ 
+ 
+  Make sure the card is fully inserted; the outer end of the card 
+should be even with the edge of the computer.  
+  Remove and insert the PC card again. 
+  Make sure there is no IRQ conflict with the card. See 
+Windows on-line help for solving IRQ conflicts. 
+  Reboot the computer and see if the problem persists. 
+  The card may be defective. Try the card on another system, 
+if possible. 
+W
+W
+i
+i
+n
+n
+d
+d
+o
+o
+w
+w
+s
+s
+ 
+ 
+c
+c
+r
+r
+a
+a
+s
+s
+h
+h
+e
+e
+s
+s
+ 
+ 
+o
+o
+r
+r
+ 
+ 
+f
+f
+r
+r
+e
+e
+e
+e
+z
+z
+e
+e
+s
+s
+ 
+ 
+w
+w
+h
+h
+e
+e
+n
+n
+ 
+ 
+y
+y
+o
+o
+u
+u
+ 
+ 
+r
+r
+e
+e
+m
+m
+o
+o
+v
+v
+e
+e
+ 
+ 
+t
+t
+h
+h
+e
+e
+ 
+ 
+P
+P
+C
+C
+ 
+ 
+c
+c
+a
+a
+r
+r
+d
+d
+ 
+ 
+  Make sure you have <Stop> the PC card before removing it. 
+Double-click the Safely Remove Hardware icon at the lower 
+right corner of the task bar and select the card you wish to 
+stop. When you click <Close>, in few seconds Windows will 
+prompt you to remove the card. 
+P
+P
+e
+e
+r
+r
+f
+f
+o
+o
+r
+r
+m
+m
+a
+a
+n
+n
+c
+c
+e
+e
+ 
+ 
+P
+P
+r
+r
+o
+o
+b
+b
+l
+l
+e
+e
+m
+m
+s
+s
+ 
+ 
+T
+T
+h
+h
+e
+e
+ 
+ 
+c
+c
+o
+o
+m
+m
+p
+p
+u
+u
+t
+t
+e
+e
+r
+r
+ 
+ 
+b
+b
+e
+e
+c
+c
+o
+o
+m
+m
+e
+e
+s
+s
+ 
+ 
+h
+h
+o
+o
+t
+t
+ 
+ 
+  In a 35
+o
+C environment, the certain areas of the computer’s 
+back case are expected to reach 50 degrees. 
+  Make sure the air vents are not blocked. 
+  Certain programs that are processor-intensive may increase 
+the computer temperature to a degree where the computer 
+automatically slows down its CPU clock to protect itself from 
+thermal damage. 
+T
+T
+h
+h
+e
+e
+ 
+ 
+p
+p
+r
+r
+o
+o
+g
+g
+r
+r
+a
+a
+m
+m
+ 
+ 
+a
+a
+p
+p
+p
+p
+e
+e
+a
+a
+r
+r
+s
+s
+ 
+ 
+s
+s
+t
+t
+o
+o
+p
+p
+p
+p
+e
+e
+d
+d
+ 
+ 
+o
+o
+r
+r
+ 
+ 
+r
+r
+u
+u
+n
+n
+s
+s
+ 
+ 
+v
+v
+e
+e
+r
+r
+y
+y
+ 
+ 
+s
+s
+l
+l
+o
+o
+w
+w
+l
+l
+y
+y
+ 
+ 
+  Press CTRL+ALT+DEL to see if an application is still 
+responding. 
+  Restart the computer. 
+  This may be normal for Windows when it is processing other 
+CPU-intensive programs in the background or when the 
+system is accessing slow-speed devices such the floppy 
+disk drive.
+
+--- Page 72 ---
+67 
+  You may be running too many applications. Try to close 
+some applications or increase system memory for higher 
+performance. 
+  The processor may have been overheated due to the 
+system’s inability to regulate its internal heat. Make sure the 
+computer’s ventilation grills are not blocked. 
+U
+U
+S
+S
+B
+B
+2
+2
+.
+.
+0
+0
+ 
+ 
+P
+P
+r
+r
+o
+o
+b
+b
+l
+l
+e
+e
+m
+m
+s
+s
+ 
+ 
+T
+T
+h
+h
+e
+e
+ 
+ 
+U
+U
+S
+S
+B
+B
+ 
+ 
+d
+d
+e
+e
+v
+v
+i
+i
+c
+c
+e
+e
+ 
+ 
+d
+d
+o
+o
+e
+e
+s
+s
+ 
+ 
+n
+n
+o
+o
+t
+t
+ 
+ 
+w
+w
+o
+o
+r
+r
+k
+k
+ 
+ 
+  Check the settings in the Windows Control Panel. 
+  Make sure you have installed the necessary device drivers. 
+  Contact the device vendor for additional support.
+
+--- Page 74 ---
+69 
+S
+S
+p
+p
+e
+e
+c
+c
+i
+i
+f
+f
+i
+i
+c
+c
+a
+a
+t
+t
+i
+i
+o
+o
+n
+n
+ 
+ 
+O
+O
+.
+.
+S
+S
+.
+.
+ 
+ 
+  Supports Win XP Home Edition with logo submission  
+ 
+Supports Windows 7 Home basic, Starter. 
+C
+C
+P
+P
+U
+U
+ 
+ 
+  Pineview-M CPU single core, 32nm, 
+  Intel® Atom™ processor N470 / N475 667Mz FSB, 1.83GHz 
+  Intel® Atom™ processor N450 / N455 667Mz FSB, 1.66GHz  
+M
+M
+e
+e
+m
+m
+o
+o
+r
+r
+y
+y
+ 
+ 
+  DDRII / DDRIII 667  
+  DDRII / DDRIII SDRAM socket x 1 
+ 
+DDRII / DDRIII Memory limited support to1GB for one 
+SO-DIMM
+ 
+C
+C
+o
+o
+r
+r
+e
+e
+ 
+ 
+L
+L
+o
+o
+g
+g
+i
+i
+c
+c
+ 
+ 
+  Intel Tiger Point / Intel NM10 
+V
+V
+G
+G
+A
+A
+ 
+ 
+  Intel Pineview-M CPU integrate, support DirectX9 
+A
+A
+u
+u
+d
+d
+i
+i
+o
+o
+ 
+ 
+C
+C
+o
+o
+d
+d
+e
+e
+c
+c
+ 
+ 
+  Realtek ALC269 
+C
+C
+a
+a
+r
+r
+d
+d
+ 
+ 
+r
+r
+e
+e
+a
+a
+d
+d
+e
+e
+r
+r
+ 
+ 
+(
+(
+5
+5
+ 
+ 
+i
+i
+n
+n
+ 
+ 
+1
+1
+)
+)
+ 
+ 
+  Support SDHC/SD/MMC/MS/MS Pro Memory Card 
+  USB2.0 interface 
+L
+L
+A
+A
+N
+N
+ 
+ 
+C
+C
+o
+o
+n
+n
+t
+t
+r
+r
+o
+o
+l
+l
+l
+l
+e
+e
+r
+r
+ 
+ 
+  Supports 10/100 Mb/Sec.
+
+--- Page 75 ---
+70 
+  PCI-E interface 
+W
+W
+i
+i
+r
+r
+e
+e
+l
+l
+e
+e
+s
+s
+s
+s
+ 
+ 
+L
+L
+A
+A
+N
+N
+ 
+ 
+ 
+ 
+  Mini Card w/ PCI-E interface 
+  IEEE 802.11 b/g 
+  Single Antenna support  
+C
+C
+a
+a
+m
+m
+e
+e
+r
+r
+a
+a
+ 
+ 
+C
+C
+C
+C
+D
+D
+ 
+ 
+  Support 1.3M Camera 
+K
+K
+e
+e
+y
+y
+b
+b
+o
+o
+a
+a
+r
+r
+d
+d
+ 
+ 
+  82 keys KB support 
+P
+P
+o
+o
+i
+i
+n
+n
+t
+t
+i
+i
+n
+n
+g
+g
+ 
+ 
+D
+D
+e
+e
+v
+v
+i
+i
+c
+c
+e
+e
+ 
+ 
+  PS2 Touch Pad with 2 buttons 
+L
+L
+C
+C
+D
+D
+ 
+ 
+ 
+ 
+  10.1 “HSD, WSVGA, resolution 1024x600, Antiglare Surface 
+H
+H
+D
+D
+D
+D
+ 
+ 
+  Support single SATA HDD for 9.5mm  
+  Support SATA 2.0 
+  160G 
+B
+B
+a
+a
+t
+t
+t
+t
+e
+e
+r
+r
+y
+y
+ 
+ 
+P
+P
+a
+a
+c
+c
+k
+k
+ 
+ 
+  3 cells, Samsung 10.8 V 2200mAH (3S1P) SMP 
+  3 cells, ATL 10.95V & Sanyo 10.8 V 2200mAH (3S1P) MTC 
+  6 cells, Samsung 10.8 V 4400mAH (3S2P) SMP 
+  6 cells, ATL 10.95V & Sanyo 10.8 V 4400mAH (3S2P) MTC 
+A
+A
+C
+C
+-
+-
+A
+A
+d
+d
+a
+a
+p
+p
+t
+t
+e
+e
+r
+r
+ 
+ 
+  Li Shin/Delta: Automatics Voltage adjustment between AC 
+100 & 240V, 19V, 40W Watts 
+  Li Shin/Delta: Automatics Voltage adjustment between AC 
+100 & 240V, 20V, 40W Watts 
+S
+S
+p
+p
+e
+e
+a
+a
+k
+k
+e
+e
+r
+r
+/
+/
+M
+M
+I
+I
+C
+C
+ 
+ 
+  Build-in 2 speakers   
+  Internal Microphone support 
+B
+B
+I
+I
+O
+O
+S
+S
+ 
+ 
+  Supports PnP, ACPI 3.0  
+  Support external USB flash memory card boot up. 
+  Phoenix BIOS support
+
+--- Page 76 ---
+71 
+P
+P
+o
+o
+w
+w
+e
+e
+r
+r
+ 
+ 
+M
+M
+a
+a
+n
+n
+a
+a
+g
+g
+e
+e
+m
+m
+e
+e
+n
+n
+t
+t
+ 
+ 
+(
+(
+S
+S
+i
+i
+l
+l
+e
+e
+n
+n
+t
+t
+ 
+ 
+m
+m
+o
+o
+d
+d
+e
+e
+)
+)
+ 
+ 
+  “Smart Power II” Power Management  
+P
+P
+h
+h
+y
+y
+s
+s
+i
+i
+c
+c
+a
+a
+l
+l
+ 
+ 
+O
+O
+u
+u
+t
+t
+l
+l
+i
+i
+n
+n
+e
+e
+ 
+ 
+  Dimension: 266 mm x 188 mm x 29.5 mm  
+  Weight - 1.2kg with 3 cell battery 
+E
+E
+M
+M
+I
+I
+ 
+ 
+  CE, FCC 
+R
+R
+F
+F
+ 
+ 
+  CE, R&TTE report/document, FCC 
+S
+S
+a
+a
+f
+f
+e
+e
+t
+t
+y
+y
+ 
+ 
+  CB report, CCC,  ETL
+

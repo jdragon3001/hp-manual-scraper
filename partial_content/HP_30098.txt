@@ -1,0 +1,1326 @@
+--- Page 1 ---
+Maintenance and Service Guide
+SUMMARY
+This guide provides information about spare parts, removal and replacement of parts, security, backing up, and 
+more.
+
+--- Page 2 ---
+Legal information
+© Copyright 2022 HP Development 
+Company, L.P.
+AMD is a trademark of Advanced Micro 
+Devices, Inc. Bluetooth is a trademark owned 
+by its proprietor and used by HP Inc. under 
+license. Chrome and Google are trademarks 
+of Google LLC. Intel, Core, Thunderbolt, and 
+vPro are trademarks of Intel Corporation 
+or its subsidiaries in the U.S. and/or other 
+countries. USB Type-C and USB-C are 
+registered trademarks of USB Implementers 
+Forum. DisplayPort™ and the DisplayPort™ 
+logo are trademarks owned by the Video 
+Electronics Standards Association (VESA®) 
+in the United States and other countries. 
+Wi-Fi is a registered trademark of the Wi-Fi 
+Alliance®.
+The information contained herein is subject 
+to change without notice. The only 
+warranties for HP products and services are 
+set forth in the express warranty statements 
+accompanying such products and services. 
+Nothing herein should be construed as 
+constituting an additional warranty. HP shall 
+not be liable for technical or editorial errors 
+or omissions contained herein.
+First Edition: May 2022
+Document Part Number: N09567-001
+Product notice
+This guide describes features that are 
+common to most models. Some features 
+may not be available on your computer.
+Not all features are available in all 
+editions or versions of Windows. Systems 
+may require upgraded and/or separately 
+purchased hardware, drivers, software 
+or BIOS update to take full advantage 
+of Windows functionality. Windows is 
+automatically updated, which is always 
+enabled. High-speed internet and Microsoft 
+account required. ISP fees may apply and 
+additional requirements may apply over time 
+for updates. See 
+http://www.microsoft.com. 
+If your product ships with Windows in S 
+Mode: Windows in S Mode works exclusively 
+with apps from the Microsoft Store within 
+Windows. Certain default settings, features, 
+and apps cannot be changed. Some 
+accessories and apps that are compatible 
+with Windows may not work (including some 
+antivirus, PDF writers, driver utilities, and 
+accessibility apps), and performance may 
+vary, even if you switch out of S Mode. If you 
+switch to Windows, you cannot switch back 
+to S Mode. Learn more at Windows.com/
+SmodeFAQ.
+To access the latest user guides, go to 
+http://www.hp.com/support, and follow the 
+instructions to find your product. Then select 
+Manuals.
+Software terms
+By installing, copying, downloading, or 
+otherwise using any software product 
+preinstalled on this computer, you agree 
+to be bound by the terms of the HP End 
+User License Agreement (EULA). If you 
+do not accept these license terms, your 
+sole remedy is to return the entire unused 
+product (hardware and software) within 14 
+days for a full refund subject to the refund 
+policy of your seller.
+For any further information or to request 
+a full refund of the price of the computer, 
+please contact your seller.
+
+--- Page 3 ---
+Table of contents
+1  Product description............................................................................................................................................................................................................................. 1
+2  Components...........................................................................................................................................................................................................................................6
+Locating hardware .......................................................................................................................................................................................................................6
+Locating software.........................................................................................................................................................................................................................6
+Right........................................................................................................................................................................................................................................................6
+Left............................................................................................................................................................................................................................................................7
+Display .................................................................................................................................................................................................................................................. 8
+Low blue light mode (select products only)..................................................................................................................................................... 8
+Keyboard area...............................................................................................................................................................................................................................10
+Touchpad ...............................................................................................................................................................................................................................10
+Touchpad settings ...............................................................................................................................................................................................10
+Adjusting touchpad settings.............................................................................................................................................................10
+Turning on the touchpad ......................................................................................................................................................................10
+Touchpad components ....................................................................................................................................................................................10
+Lights ......................................................................................................................................................................................................................................... 11
+Button and fingerprint reader ................................................................................................................................................................................ 12
+Special keys......................................................................................................................................................................................................................... 14
+Bottom ................................................................................................................................................................................................................................................15
+Rear ......................................................................................................................................................................................................................................................16
+Labels ..................................................................................................................................................................................................................................................16
+3  Illustrated parts catalog ..............................................................................................................................................................................................................18
+Computer major components...........................................................................................................................................................................................18
+Display assembly subcomponents.............................................................................................................................................................................. 26
+Mass storage devices............................................................................................................................................................................................................ 28
+Cables................................................................................................................................................................................................................................................ 29
+Miscellaneous parts................................................................................................................................................................................................................ 29
+4  Removal and replacement procedures preliminary requirements.............................................................................................................36
+Tools required ...............................................................................................................................................................................................................................36
+Service considerations.........................................................................................................................................................................................................36
+Plastic parts........................................................................................................................................................................................................................36
+Cables and connectors..............................................................................................................................................................................................36
+iii
+
+--- Page 4 ---
+Drive handling ...................................................................................................................................................................................................................36
+Electrostatic discharge information.............................................................................................................................................................................37
+Generating static electricity....................................................................................................................................................................................37
+Preventing electrostatic damage to equipment......................................................................................................................................38
+Personal grounding methods and equipment...........................................................................................................................................38
+Grounding the work area...........................................................................................................................................................................................39
+Recommended materials and equipment....................................................................................................................................................39
+Cleaning your computer.......................................................................................................................................................................................................40
+Enabling HP Easy Clean (select products only)........................................................................................................................................40
+Removing dirt and debris from your computer.........................................................................................................................................40
+Cleaning your computer with a disinfectant................................................................................................................................................41
+Caring for wood veneer (select products only) ........................................................................................................................................ 42
+Packaging and transporting guidelines..................................................................................................................................................................... 42
+Accessing support information ......................................................................................................................................................................................43
+5  Removal and replacement procedures for authorized service provider parts................................................................................. 45
+Component replacement procedures .......................................................................................................................................................................45
+Preparation for disassembly.................................................................................................................................................................................. 45
+Bottom cover ..................................................................................................................................................................................................................... 45
+Battery.....................................................................................................................................................................................................................................47
+WWAN module.................................................................................................................................................................................................................. 49
+WLAN module....................................................................................................................................................................................................................50
+Speakers............................................................................................................................................................................................................................... 52
+Memory modules............................................................................................................................................................................................................53
+Solid-state drive...............................................................................................................................................................................................................55
+Audio jack..............................................................................................................................................................................................................................57
+Connector board cable..............................................................................................................................................................................................58
+Connector board............................................................................................................................................................................................................. 59
+Fan.............................................................................................................................................................................................................................................60
+Display assembly.............................................................................................................................................................................................................61
+System board .....................................................................................................................................................................................................................73
+Heat sink ................................................................................................................................................................................................................................77
+Fingerprint reader...........................................................................................................................................................................................................78
+Fingerprint reader cable............................................................................................................................................................................................80
+RTC battery .........................................................................................................................................................................................................................80
+NFC module cable...........................................................................................................................................................................................................81
+NFC module ........................................................................................................................................................................................................................82
+Touchpad cable................................................................................................................................................................................................................83
+Touchpad ..............................................................................................................................................................................................................................84
+Card reader cable..........................................................................................................................................................................................................85
+Card reader.........................................................................................................................................................................................................................86
+Keyboard with top cover.............................................................................................................................................................................................87
+6  Using Setup Utility (BIOS)...........................................................................................................................................................................................................89
+Starting Setup Utility (BIOS)...............................................................................................................................................................................................89
+Updating Setup Utility (BIOS).............................................................................................................................................................................................89
+Determining the BIOS version...............................................................................................................................................................................89
+Preparing for a BIOS update ..................................................................................................................................................................................90
+iv
+
+--- Page 5 ---
+Downloading a BIOS update.......................................................................................................................................................................90
+Installing a BIOS update..................................................................................................................................................................................91
+7  Computer Setup (BIOS), TPM, and HP Sure Start..................................................................................................................................................... 92
+Using Computer Setup .......................................................................................................................................................................................................... 92
+Navigating and selecting in Computer Setup  .......................................................................................................................................... 92
+Restoring factory settings in Computer Setup.........................................................................................................................................93
+Updating the BIOS ......................................................................................................................................................................................................... 93
+Determining the BIOS version ...................................................................................................................................................................93
+Preparing for a BIOS update.......................................................................................................................................................................93
+Downloading a BIOS update............................................................................................................................................................94
+Installing a BIOS update......................................................................................................................................................................94
+Changing the boot order using the f9 prompt ..........................................................................................................................................94
+TPM BIOS settings (select products only) ..............................................................................................................................................................95
+Using HP Sure Start (select products only).............................................................................................................................................................95
+8  Backing up, restoring, and recovering..............................................................................................................................................................................96
+Backing up information and creating recovery media...................................................................................................................................96
+Using Windows tools for backing up.................................................................................................................................................................96
+Using the HP Cloud Recovery Download Tool to create recovery media (select products only).........................96
+Restoring and recovering your system.......................................................................................................................................................................97
+Creating a system restore  .......................................................................................................................................................................................97
+Restoring and recovery methods........................................................................................................................................................................97
+Recovering using HP Recovery media.............................................................................................................................................................97
+Changing the computer boot order ..................................................................................................................................................................98
+Using HP Sure Recover (select products only)..........................................................................................................................................98
+9  Using HP PC Hardware Diagnostics..................................................................................................................................................................................99
+Using HP PC Hardware Diagnostics Windows (select products only)................................................................................................99
+Using an HP PC Hardware Diagnostics Windows hardware failure ID code.......................................................................99
+Accessing HP PC Hardware Diagnostics Windows..............................................................................................................................99
+Accessing HP PC Hardware Diagnostics Windows from HP Help and Support (select products 
+only) .............................................................................................................................................................................................................................100
+Accessing HP PC Hardware Diagnostics Windows from Support Assistant.......................................................100
+Accessing HP PC Hardware Diagnostics Windows from the Start menu (select products only)..........100
+Downloading HP PC Hardware Diagnostics Windows......................................................................................................................100
+Downloading the latest HP PC Hardware Diagnostics Windows version from HP...........................................100
+Downloading the HP PC Hardware Diagnostics Windows from the Microsoft Store......................................101
+Downloading HP Hardware Diagnostics Windows by product name or number (select products 
+only) ..............................................................................................................................................................................................................................101
+Installing HP PC Hardware Diagnostics Windows.................................................................................................................................101
+Using HP PC Hardware Diagnostics UEFI ...............................................................................................................................................................101
+Using an HP PC Hardware Diagnostics UEFI hardware failure ID code................................................................................102
+Starting HP PC Hardware Diagnostics UEFI.............................................................................................................................................102
+Downloading HP PC Hardware Diagnostics UEFI to a USB flash drive.................................................................................102
+Downloading the latest HP PC Hardware Diagnostics UEFI version...........................................................................103
+Downloading HP PC Hardware Diagnostics UEFI by product name or number (select products 
+only) .............................................................................................................................................................................................................................103
+v
+
+--- Page 6 ---
+Using Remote HP PC Hardware Diagnostics UEFI settings (select products only).................................................................103
+Downloading Remote HP PC Hardware Diagnostics UEFI .............................................................................................................103
+Downloading the latest Remote HP PC Hardware Diagnostics UEFI version.......................................................103
+Downloading Remote HP PC Hardware Diagnostics UEFI by product name or number..............................103
+Customizing Remote HP PC Hardware Diagnostics UEFI settings..........................................................................................104
+10  Specifications................................................................................................................................................................................................................................105
+Computer specifications...................................................................................................................................................................................................105
+35.6 cm (14.0 in) display specifications....................................................................................................................................................................106
+Solid-state drive specifications ....................................................................................................................................................................................106
+Solid-state drive specifications (SATA-3)................................................................................................................................................................107
+11  Statement of memory volatility..........................................................................................................................................................................................108
+Current BIOS steps ................................................................................................................................................................................................................108
+Nonvolatile memory usage ...............................................................................................................................................................................................110
+Questions and answers....................................................................................................................................................................................................... 112
+Using HP Sure Start (select products only)............................................................................................................................................................114
+12  Power cord set requirements............................................................................................................................................................................................... 115
+Requirements for all countries .......................................................................................................................................................................................115
+Requirements for specific countries and regions............................................................................................................................................ 115
+13  Recycling.............................................................................................................................................................................................................................................118
+Index...............................................................................................................................................................................................................................................................119
+vi
+
+--- Page 7 ---
+Product description1
+This table provides detailed product information.
+Table 1-1
+Product components and their descriptions
+Category Description
+Product Name HP EliteBook 840 14 inch G9 Notebook PC
+Processors Intel™ Core® i7-1280P 1.8 GHz (turbo up to 4.8 GHz) processor (14 cores, 24 MB Intel Smart Cache, 28 W)
+Intel Core i7-1270P 1.6 GHz (turbo up to 4.8 GHz) processor (12 cores, 18 MB Intel Smart Cache, 28 W)
+Intel Core i7-1265U 1.8 GHz (turbo up to 4.8 GHz) processor (10 cores, 12 MB Intel Smart Cache, 15 W)
+Intel Core i7-1260U 2.2 GHz (turbo up to 4.7 GHz) processor (12 cores, 18 MB Intel Smart Cache, 28 W)
+Intel Core i7-1255U 1.7 GHz (turbo up to 4.7 GHz) processor (10 cores, 12 MB Intel Smart Cache, 15 W)
+Intel Core i5-1250P 1.7 GHz (turbo up to 4.4 GHz) processor (12 cores, 18 MB Intel Smart Cache, 28 W)
+Intel Core i5-1245U 1.6 GHz (turbo up to 4.4 GHz) processor (10 cores, 12 MB Intel Smart Cache, 15 W)
+Intel Core i5-1240P 1.7 GHz (turbo up to 4.4 GHz) processor (12 cores, 12 MB Intel Smart Cache, 28 W)
+Intel Core i5-1235U 1.3 GHz (turbo up to 4.4 GHz) processor (10 cores, 12 MB Intel Smart Cache, 15 W)
+Chipset Intel integrated solder-on-circuit (SoC)
+Display 35.6 cm (14.0 in), liquid crystal display (LCD) widescreen ultra extended graphics array (WUXGA, 1920 × 
+1200), antiglare, ultrawide viewing angle (UWVA), bent display panel
+White light-emitting diode + low blue light (WLED + LBL), 100% sRGB, embedded DisplayPort™ + panel 
+self refresh (eDP + PSR), LP, ambient light sensor + adaptive color sensor (ALS + ACS), SureView Reflect, 
+non-touch on panel (TOP) display panel with 5 MP infrared time-of-flight (ToF) camera; typical brightness: 
+1000 nits
+WLED + LBL, 100% sRGB, eDP 1.3 + PSR, NB2Y, non-TOP display panel with 5 MP infrared ToF camera and 
+generation 4+ privacy filter; typical brightness: 1000 nits
+WLED + LBL, 100% sRGB, eDP + PSR, LP, advanced light source + ACS (ALS + ACS), non-TOP display 
+panel with 5 MP infrared ToF camera; typical brightness: 400 nits
+Light-emitting diode (LED), 45% CG, eDP 1.2 with PSR, LP, NB2X, TOP display panel with 5 MP infrared ToF 
+camera; typical brightness: 250 nits
+LED, 45% CG, eDP 1.2 with PSR, LP, NB2X, non-TOP display panel with 5 MP infrared ToF camera; typical 
+brightness: 250 nits
+LED, 45% CG, eDP 1.2 with PSR, LP, NB2X, TOP display panel with 5 MP infrared ToF camera; typical 
+brightness: 250 nits
+LED, 45% CG, eDP 1.2 with PSR, LP, NB2X, non-TOP display panel with 5 MP infrared ToF camera; typical 
+brightness: 250 nits
+Product description 1
+
+--- Page 8 ---
+Table 1-1 Product components and their descriptions (continued)
+Category Description
+Memory Two customer-accessible memory module slots (small outline dual in-line memory modules (SODIMMs) 
+supporting up to 64 GB of RAM in the following configurations:
+● 64 GB (32 × 2)
+● 48 GB (32 + 16)
+● 32 GB (32 × 1)
+● 32 GB (16 × 2)
+● 24 GB (16 + 8)
+● 16 GB (16 × 1)
+● 16 GB (8 × 2)
+● 8 GB (8 × 1)
+Double data rate (DDR5)-4800, Non Error-Correcting Code (NECC) support
+eMMC On-board embedded MultiMedia Controller (eMMC v5.0) 32 GB
+Primary storage On-board embedded MultiMedia Controller (eMMC v5.0)
+Support for the following configurations:
+● 2 TB, 2280, Peripheral Component Interconnect Express (PCIe)-4×4, Non-Volatile Memory Express 
+(NVMe) solid-state drive with three-layer cell (TLC)
+● 1 TB, 2280, PCIe-4×4, NVMe solid-state drive with TLC
+● 512 GB, PCIe-4×4, NVMe solid-state drive with TLC
+● 512 GB, 2280, PCIe-4×4, NVMe, value solid-state drive
+● 512 GB, 2280, PCIe-4×4, NVMe, self-encrypted (SED), OPAL2 solid-state drive with TLC
+● 256 GB, PCIe-4×4, NVMe, Secure Seal (SS) solid-state drive with TLC
+● 256 GB, 2280, PCIe-4×4, NVMe, value solid-state drive
+● 256 GB, 2280, PCIe-4×4, NVMe, SED, OPAL2, solid-state drive with TLC
+720p by 30 frames per second
+Dual-array digital microphone with appropriate software: beam forming, echo cancellation, noise 
+suppression
+HP Wide Vision HD Camera: 5 MP, indicator LED, USB 2.0, HD, Time-of-Flight (ToF), near field-of-view 
+(NFOV), fixed, infrared (IR), integrated camera
+Audio and video Audio brand: BANG and OLUFSEN
+Support for dual speakers
+HP Wide Vision HD Camera: 5 MP, indicator LED, USB 2.0, HD, Time-of-Flight (ToF), near field-of-view 
+(NFOV), fixed, infrared (IR), integrated camera
+720p by 30 frames per second
+Dual-array digital microphone with appropriate software: beam forming, echo cancellation, noise 
+suppression
+2 Chapter 1  Product description
+
+--- Page 9 ---
+Table 1-1 Product components and their descriptions (continued)
+Category Description
+Wireless Wireless Local Area Network (WLAN) module
+Intel AX211 Wi-Fi® 6e + Bluetooth® 5.2 M.2 2230 160 MHz CNVi worldwide (WW) WLAN module
+Intel AX211 Wi-Fi 6E + Bluetooth 5.2 M.2 2230 vPro® 160 MHz CNVi WW WLAN module
+Near field communication (NFC) Mirage WNC XRAV-1
+Wireless Wide Area Network (WWAN) module
+Intel 5000 5G WWAN module
+Intel XMM 7560 R+ long-term evolution (LTE)-Advanced Pro (Cat 16) WWAN module
+WWAN module service providers: ATT and Verizon
+Ports Hot plug/unplug and autodetect for correct output to wide-aspect vs. standard aspect video
+● Audio-out (headphone)/Audio-in (microphone) combo jack
+● HDMI port
+● SIM card slot (select products only)
+● Smart card reader (select products only)
+● USB SuperSpeed 5 Gbps port
+● USB SuperSpeed 5 Gbps port with HP Sleep and Charge
+● USB Type-C® power connector and SuperSpeed port with HP Sleep and Charge and DisplayPort 
+output
+● USB Type-C power connector and Thunderbolt™ port with HP Sleep and Charge and DisplayPort 
+output (select products only)
+Keyboard/pointing 
+devices
+Keyboard: Backlit, spill-resistant, premium notebook PC keyboard with Clickpad and privacy features
+Touchpad
+Clickpad with image sensor
+Multitouch gestures enabled
+Precision touchpad support
+Support for Modern Trackpad Gestures
+Taps enabled as default
+Product description 3
+
+--- Page 10 ---
+Table 1-1 Product components and their descriptions (continued)
+Category Description
+Power requirements Battery
+3 cell, 38 Whr, polymer, HP Long Life
+HP Fast Charge Technology
+Smart AC adapter:
+65 W, non-Power Factor Correction (nPFC), standard USB Type-C® straight barrel, 1.8m (6.0 ft)
+65 W, nPFC, slim USB Type-C straight barrel, 1.8m (6.0 ft)
+45 W, nPFC, standard USB Type-C straight barrel, 1.8m (6.0 ft)
+Power cord:
+C5, 1.0 m (3.3 ft), conventional, high frequency (HF), with straight connector and sticker
+C5, 1.0 m (3.3 ft), conventional with sticker
+C5, 1.0 m (3.3 ft), premium with sticker
+Security Active SmartCard
+Integrated fingerprint reader
+Privacy camera shutter door
+Sensors Adaptive color sensor (ACS)
+Ambient light sensor (ALS)
+Hall sensor (integrated)
+HP Sure Platform
+Motion AI
+Thermal sensor
+Time of Flight (ToF)
+4 Chapter 1  Product description
+
+--- Page 11 ---
+Table 1-1 Product components and their descriptions (continued)
+Category Description
+Operating system Windows® 10 Enterprise 64
+Windows 10 Enterprise 64 LTSC 2109 (21H2)
+Windows 10 Pro 64 SAC 2009 (20H2)
+Windows 10 Pro 64 SAC 2104 (21H1)
+Windows 11 Home 64
+Windows 11 Home 64 Advanced
+Windows 11 Home 64 Advanced Single Language
+Windows 11 Home 64 Chinese Market CPPP
+Windows 11 Home 64 High-end Chinese Market CPPP
+Windows 11 Home 64 Plus
+Windows 11 Home 64 Plus Single Language
+Windows 11 Home 64 Plus Single Language Africa Market PPP
+Windows 11 Home 64 Plus Single Language APAC EM PPP
+Windows 11 Home 64 Plus Single Language India Market PPP
+Windows 11 Home 64 Plus Single Language Indonesia Market PPP
+Windows 11 Home 64 Single Language
+Windows 11 Home 64 Single Language Africa Market PPP
+Windows 11 Home 64 Single Language APAC EM PPP
+Windows 11 Home 64 Single Language India Market PPP
+Windows 11 Home 64 Single Language Indonesia Market PPP
+Windows 11 Pro 64
+Windows 11 Pro 64 Chinese Market
+Windows 11 Pro 64 Downgrade Windows 10 Pro 64
+Windows 11 Pro 64 Downgrade Windows 10 Pro 64 Chinese Market
+Windows 11 Pro 64 Downgrade Windows 10 Pro 64 StF MSNA Standard
+Windows 11 Pro 64 StF MSNA Standard
+FreeDOS
+Serviceability End user replaceable part: AC adapter
+Product description 5
+
+--- Page 12 ---
+Components2
+Your computer features top-rated components. This chapter provides details about your components, 
+where they are located, and how they work.
+Locating hardware
+Use these instructions to find out what hardware is installed on your computer.
+■
+Select the Search icon (select products only) in the taskbar, type device manager in the search 
+box, and then select the Device Manager app.
+A list displays all the devices installed on your computer.
+For information about system hardware components and the system BIOS version number, press 
+fn+esc (select products only).
+Locating software
+Use these instructions to find out what software is installed on your computer:
+■
+Right-click the Start button, and then select Apps and Features.
+Right
+Use the illustration and table to identify the components on the right side of the computer.
+Table 2-1
+Right-side components and their descriptions
+Component Description
+(1) SIM card slot (select products only) Supports a wireless subscriber identity module (SIM) card.
+6 Chapter 2  Components
+
+--- Page 13 ---
+Table 2-1 Right-side components and their descriptions (continued)
+Component Description
+(2) Security cable slot Attaches an optional security cable to the computer.
+NOTE: The security cable is designed to act as a deterrent, 
+but it might not prevent the computer from being mishandled 
+or stolen.
+(3) USB SuperSpeed 5 Gbps port Connects a USB device, provides high-speed data transfer, 
+and (for select products) charges small devices (such as a 
+smartphone) when the computer is on or in Sleep mode.
+NOTE: Use a standard USB Type-A charging cable or cable 
+adapter (purchased separately) when charging a small 
+external device.
+(4) Audio-out (headphone)/Audio-in 
+(microphone) combo jack
+Connects optional powered stereo speakers, headphones, 
+earbuds, a headset, or a television audio cable. Also 
+connects an optional headset microphone. This jack does 
+not support optional standalone microphones.
+WARNING! To reduce the risk of personal injury, adjust the 
+volume before putting on headphones, earbuds, or a 
+headset. For additional safety information, see the 
+Regulatory, Safety, and Environmental Notices
+.
+To access this guide:
+■
+Select the Search icon (select products only) in the 
+taskbar, type HP Documentation in the search box, 
+and then select HP Documentation.
+NOTE: When a device is connected to the jack, the 
+computer speakers are disabled.
+Left
+Use the illustration and table to identify the components on the left side of the computer.
+Table 2-2
+Left-side components and their descriptions
+Component Description
+(1) HDMI port Connects an optional video or audio device, such as a 
+high-definition television, any compatible digital or audio 
+component, or a high-speed High Definition Multimedia 
+Interface (HDMI) device.
+Left 7
+
+--- Page 14 ---
+Table 2-2 Left-side components and their descriptions (continued)
+Component Description
+(2) USB SuperSpeed 5 Gbps port with HP Sleep 
+and Charge
+Connects a USB device, provides high-speed data transfer, 
+and charges small devices (such as a smartphone), even 
+when the computer is off.
+NOTE: Use a standard USB Type-A charging cable or cable 
+adapter (purchased separately) when charging a small 
+external device.
+(3) USB Type-C® power connector and 
+Thunderbolt™ ports with HP Sleep and 
+Charge and DisplayPort™ output (2)
+Connect AC adapters that have a USB Type-C connector, 
+supplying power to the computer and, if needed, charging the 
+computer battery.
+– and –
+Connect USB devices, provide high-speed data transfer, and 
+charge small devices (such as a smartphone), even when the 
+computer is off.
+NOTE: Use a standard USB Type-C charging cable or cable 
+adapter (purchased separately) when charging a small 
+external device.
+– and –
+Connect display devices that have a USB Type-C connector, 
+providing DisplayPort output.
+NOTE: Your computer might also support a Thunderbolt 
+docking station.
+(4) Battery light When AC power is connected:
+● White: The battery charge is greater than 90 percent.
+● Amber: The battery charge is from 0 to 90 percent.
+● Off: The battery is not charging.
+When AC power is disconnected (battery not charging):
+● Blinking amber: The battery has reached a low battery 
+level. When the battery has reached a critical battery 
+level, the battery light begins blinking rapidly.
+● Off: The battery is not charging.
+(5) Smart card reader (select products only) Supports optional smart cards.
+Display
+Use the illustration and table to identify the display components.
+Low blue light mode (select products only)
+Your computer display is shipped from the factory in low blue light mode for improved eye comfort and 
+safety. Also, blue light mode automatically adjusts blue light emissions when you are using the computer 
+at night or for reading.
+8
+Chapter 2  Components
+
+--- Page 15 ---
+WARNING! To reduce the risk of serious injury, read the 
+Safety & Comfort Guide
+. It describes proper 
+workstation setup and proper posture, health, and work habits for computer users. The 
+Safety & 
+Comfort Guide
+ also provides important electrical and mechanical safety information. The 
+Safety & 
+Comfort Guide
+ is available on the web at http://www.hp.com/ergo.
+Table 2-3 Display components and their descriptions
+Component Description
+(1) WLAN antennas* Send and receive wireless signals to communicate with WLANs.
+(2) WWAN antennas* (select products only) Send and receive wireless signals to communicate with WWANs.
+(3) Ambient light and color sensors (2) Adjusts the brightness of the display, depending on the ambient 
+light, and manages and controls the color temperature. Color 
+temperature enables you to measure and adjust the warmth or 
+coolness of the light source.
+(4) Internal microphones (2) Record sound.
+(5) Camera light(s) (select products only) On: One or more cameras are in use.
+(6) Camera(s) (select products only) Allow(s) you to video chat, record video, and record still images. 
+Some cameras also allow a facial recognition logon to Windows, 
+instead of a password logon.
+NOTE: Camera functions vary depending on the camera 
+hardware and software installed on your product.
+(7) Camera privacy cover (select products only) By default, the camera lens is uncovered, but you can slide the 
+camera privacy cover to block the camera's view. To use the 
+camera, slide the camera privacy cover in the opposite direction 
+to reveal the lens.
+NOTE: If you have both front-facing and rear-facing cameras, 
+when one camera lens is revealed and ready to use, the other is 
+concealed.
+Low blue light mode (select products only) 9
+
+--- Page 16 ---
+Table 2-3 Display components and their descriptions (continued)
+Component Description
+*The antennas are not visible from the outside of the computer. For optimal transmission, keep the areas immediately around 
+the antennas free from obstructions.
+For wireless regulatory notices, see the section of the 
+Regulatory, Safety, and Environmental Notices
+ that applies to your 
+country or region.
+To access this guide:
+■
+Select the Search icon (select products only) in the taskbar, type HP Documentation in the search box, and then select 
+HP Documentation.
+Keyboard area
+Keyboards can vary by language.
+NOTE: The keyboard, including the function keys and power button (select products only), is disabled 
+in stand, tent, and tablet modes. To enable the keyboard, including the power button, change to the 
+clamshell mode.
+Touchpad
+The touchpad settings and components are described here.
+Touchpad settings
+You learn how to adjust the touchpad settings and components here.
+Adjusting touchpad settings
+Use these steps to adjust touchpad settings and gestures.
+1. Select the Search icon (select products only) in the taskbar, type touchpad settings in the 
+search box, and then press enter.
+2. Choose a setting.
+Turning on the touchpad
+Follow these steps to turn on the touchpad.
+1. Select the Search icon (select products only) in the taskbar, type touchpad settings in the 
+search box, and then press enter.
+2. Using an external mouse, click the Touchpad button.
+If you are not using an external mouse, press the Tab key repeatedly until the pointer rests on the 
+touchpad button. Then press the spacebar to select the button.
+Touchpad components
+Use the illustration and table to identify the touchpad components.
+10
+Chapter 2  Components
+
+--- Page 17 ---
+Table 2-4 Touchpad components and their descriptions
+Component Description
+(1) Touchpad zone Reads your finger gestures to move the pointer or activate 
+items on the screen.
+(2) Left touchpad button Functions like the left button on an external mouse.
+(3) Near Field Communications (NFC) tapping 
+area and antenna (select products only)*
+Allows you to wirelessly share information when you tap it 
+with an NFC-enabled device.
+(4) Right touchpad button Functions like the right button on an external mouse.
+*The antennas are not visible from the outside of the computer. For optimal transmission, keep the areas immediately around 
+the antennas free from obstructions.
+For wireless regulatory notices, see the section of the 
+Regulatory, Safety, and Environmental Notices
+ that applies to your 
+country or region.
+To access this guide:
+■
+Select the Search icon (select products only) in the taskbar, type HP Documentation in the search box, and then select 
+HP Documentation.
+Lights
+Use the illustration and table to identify the lights on the computer.
+NOTE: Refer to the illustration that most closely matches your computer.
+Lights
+11
+
+--- Page 18 ---
+Table 2-5 Lights and their descriptions
+Component Description
+(1) Privacy key light (select products only) On: Privacy screen is on, which helps prevent side-angle 
+viewing.
+(2) Mute light ● On: Computer sound is off.
+● Off: Computer sound is on.
+(3) Microphone mute light ● On: Microphone is off.
+● Off: Microphone is on.
+(4) Power light ● On: The computer is on.
+● Blinking (select products only): The computer is in 
+the Sleep state, a power-saving state. The computer 
+shuts off power to the display and other unnecessary 
+components.
+● Off: Depending on your computer model, the computer 
+is off, in Hibernation, or in Sleep. Hibernation is the 
+power-saving state that uses the least amount of power.
+(5) Caps lock light On: Caps lock is on, which switches the key input to all capital 
+letters.
+(6) Fn lock light On: The fn key is locked.
+(7) Num lk light On: Num lk is on.
+Button and fingerprint reader
+Fingerprint readers can be located on the touchpad, on a side panel of the computer, or on the top cover 
+below the keyboard.
+IMPORTANT: To verify that your computer supports fingerprint reader sign-in, select the Search icon 
+(select products only) in the taskbar, type Sign-in options in the search box, and then follow the 
+12
+Chapter 2  Components
+
+--- Page 19 ---
+on-screen instructions. If Fingerprint reader is not listed as an option, then your notebook does not 
+include a fingerprint reader.
+Table 2-6 Button and fingerprint reader and their descriptions
+Component Description
+(1) Power button ● When the computer is off, press the button briefly to turn 
+on the computer.
+● When the computer is on, press the button briefly to 
+initiate Sleep.
+● When the computer is in the Sleep state, press the 
+button briefly to exit Sleep (select products only).
+● When the computer is in Hibernation, press the button 
+briefly to exit Hibernation.
+IMPORTANT: Pressing and holding down the power button 
+results in the loss of unsaved information.
+If the computer has stopped responding and shutdown 
+procedures are ineffective, press and hold the power button 
+for at least 4 seconds to turn off the computer.
+To learn more about your power settings, use the Power icon.
+● Right-click the Power icon   and then, depending on 
+your product, select 
+Power and sleep settings or Power 
+Options.
+Button and fingerprint reader
+13
+
+--- Page 20 ---
+Table 2-6 Button and fingerprint reader and their descriptions (continued)
+Component Description
+(2) Fingerprint reader (select products only) Allows a fingerprint logon to Windows, instead of a password 
+logon.
+■
+Touch your finger to the fingerprint reader.
+IMPORTANT: To prevent fingerprint logon issues, make 
+sure when you register your fingerprint that all sides of 
+your finger are registered by the fingerprint reader.
+Special keys
+Use the illustration and table to identify the special keys.
+Table 2-7
+Special keys and their descriptions
+Component Description
+(1) Action keys Execute frequently used system functions.
+(2) esc key Displays system information when pressed in combination 
+with the fn key.
+(3) fn key Executes frequently used system functions when pressed in 
+combination with another key. Such key combinations are 
+called 
+hot keys
+.
+(4) Windows key Opens the Start menu.
+NOTE: Pressing the Windows key again will close the Start 
+menu.
+14 Chapter 2  Components
+
+--- Page 21 ---
+Table 2-7 Special keys and their descriptions (continued)
+Component Description
+(5) Power button ● When the computer is off, press the button briefly to 
+turn on the computer.
+● When the computer is on, press the button briefly to 
+initiate Sleep.
+● When the computer is in the Sleep state, press the 
+button briefly to exit Sleep (select products only).
+● When the computer is in Hibernation, press the button 
+briefly to exit Hibernation.
+IMPORTANT: Pressing and holding down the power button 
+results in the loss of unsaved information.
+If the computer has stopped responding and shutdown 
+procedures are ineffective, press and hold the power button 
+for at least 4 seconds to turn off the computer.
+To learn more about your power settings, use the Power icon.
+● Right-click the Power icon   and then, depending 
+on your product, select 
+Power and sleep settings or 
+Power Options.
+Bottom
+Use the illustration and table to identify the bottom components.
+Table 2-8
+Bottom components and their descriptions
+Component Description
+(1) Speakers (2) Produce sound.
+Bottom 15
+
+--- Page 22 ---
+Table 2-8 Bottom components and their descriptions (continued)
+Component Description
+(2) Vent Enables airflow to cool internal components.
+NOTE: The computer fan starts up automatically to 
+cool internal components and prevent overheating. It is 
+normal for the internal fan to cycle on and off during 
+routine operation.
+Rear
+Use the illustration and table to identify the rear component.
+Table 2-9
+Rear component and its description
+Component Description
+Vent (select products only) Enables airflow to cool internal components.
+NOTE: The computer fan starts up automatically to cool 
+internal components and prevent overheating. It is normal for 
+the internal fan to cycle on and off during routine operation.
+Labels
+The labels affixed to the computer provide information that you might need when you troubleshoot 
+system problems or travel internationally with the computer. Labels can be in paper form or imprinted on 
+the product.
+IMPORTANT: Check the following locations for the labels described in this section: the bottom of the 
+computer, inside the battery bay, under the service door, on the back of the display, or on the bottom of 
+a tablet kickstand.
+● Service label—Provides important information to identify your computer. When contacting support, 
+you may be asked for the serial number, the product number, or the model number. Locate this 
+information before you contact support.
+Your service label will resemble one of the following examples. Refer to the illustration that most 
+closely matches the service label on your computer.
+16
+Chapter 2  Components
+
+--- Page 23 ---
+Table 2-10 Service label components and their descriptions
+Component
+(1) Serial number
+(2) Product ID
+(3) HP product name
+Table 2-11 Service label components and their descriptions
+Component
+(1) HP product name
+(2) Product ID
+(3) Serial number
+(4) Warranty period
+Table 2-12 Service label components and their descriptions
+Component
+(1) HP product name
+(2) Warranty period
+(3) Product ID
+(4) Serial number
+● Regulatory labels—Provide regulatory information about the computer.
+● Wireless certification labels—Provide information about optional wireless devices and the approval 
+markings for the countries or regions in which the devices have been approved for use.
+Labels
+17
+
+--- Page 24 ---
+Illustrated parts catalog3
+Use this table to determine the spare parts that are available for the computer.
+Computer major components
+To identify the computer major components, use this illustration and table.
+NOTE: HP continually improves and changes product parts. For complete and current information 
+about supported parts for your computer, go to http://partsurfer.hp.com, select your country or region, 
+and then follow the on-screen instructions.
+NOTE: Details about your computer, including model, serial number, product key, and length of 
+warranty, are on the service tag at the bottom of your computer.
+18
+Chapter 3  Illustrated parts catalog
+
+--- Page 25 ---
+Table 3-1 Computer major component descriptions and part numbers
+Item Component Spare part number
+(1) Display assembly: Display spare parts are available as subcomponents, not as whole units. Display subcomponent 
+spare parts are available. For spare part information, see Display assembly subcomponents on page 26.
+(2) Top cover/keyboard backlit and spill-resistant with privacy filter (includes backlight cable and keyboard cable):
+For use in Belgium N09059-A41
+For use in Brazil N09059-201
+For use in Bulgaria N09059-261
+For use in the Czech Republic and Slovakia N09059-FL1
+For use in Denmark N09059-081
+For use in Denmark, Finland, and Norway N09059-DH1
+For use in France N09059-051
+For use in French Canada N09059-DB1
+Computer major components 19
+
+--- Page 26 ---
+Table 3-1 Computer major component descriptions and part numbers (continued)
+Item Component Spare part number
+For use in Germany N09059-041
+For use in Greece N09059-151
+For use in Hungary N09059-211
+For use in Iceland N09059-DD1
+For use in India N09059-D61
+For use in Israel N09059-BB1
+For use in Italy N09059-061
+For use in Japan N09059-291
+For use in Kazakhstan N09059-DF1
+For use in Latin America N09059-161
+For use in the Netherlands N09059-B31
+For use in North Africa N09059-FP1
+For use in Norway N09059-091
+For use in Portugal N09059-131
+For use in Romania N09059-261
+For use in Russia N09059-251
+For use in Saudi Arabia N09059-171
+For use in Slovenia N09059-BA1
+For use in South Korea N09059-AD1
+For use in Spain N09059-071
+For use in Sweden and Finland N09059-B71
+For use in Switzerland N09059-BG1
+For use in Taiwan N09059-AB1
+For use in Thailand N09059-281
+For use in Turkey N09059-141
+For use in Turkey-F N09059-541
+For use in Ukraine N09059-BD1
+For use in the United Kingdom N09059-031
+For use in the United States N09059-001
+(2) Top cover/keyboard backlit and spill-resistant without privacy filter (includes backlight cable and keyboard cable):
+For use in Belgium N09058-A41
+For use in Brazil N09058-201
+For use in Bulgaria N09058-261
+For use in the Czech Republic and Slovakia N09058-FL1
+20 Chapter 3  Illustrated parts catalog
+
+--- Page 27 ---
+Table 3-1 Computer major component descriptions and part numbers (continued)
+Item Component Spare part number
+For use in Denmark N09058-081
+For use in Denmark, Finland, and Norway N09058-DH1
+For use in France N09058-051
+For use in French Canada N09058-DB1
+For use in Germany N09058-041
+For use in Greece N09058-151
+For use in Hungary N09058-211
+For use in Iceland N09058-DD1
+For use in India N09058-D61
+For use in Israel N09058-BB1
+For use in Italy N09058-061
+For use in Japan N09058-291
+For use in Kazakhstan N09058-DF1
+For use in Latin America N09058-161
+For use in the Netherlands N09058-B31
+For use in North Africa N09058-FP1
+For use in Norway N09058-091
+For use in Portugal N09058-131
+For use in Romania N09058-261
+For use in Russia N09058-251
+For use in Saudi Arabia N09058-171
+For use in Slovenia N09058-BA1
+For use in South Korea N09058-AD1
+For use in Spain N09058-071
+For use in Sweden and Finland N09058-B71
+For use in Switzerland N09058-BG1
+For use in Taiwan N09058-AB1
+For use in Thailand N09058-281
+For use in Turkey N09058-141
+For use in Turkey-F N09058-541
+For use in Ukraine N09058-BD1
+For use in the United Kingdom N09058-031
+For use in the United States N09058-001
+(2) Top cover/keyboard spill-resistant without privacy filter (includes keyboard cable):
+Computer major components 21
+
+--- Page 28 ---
+Table 3-1 Computer major component descriptions and part numbers (continued)
+Item Component Spare part number
+For use in Belgium N09057-A41
+For use in Brazil N09057-201
+For use in Bulgaria N09057-261
+For use in the Czech Republic and Slovakia N09057-FL1
+For use in Denmark N09057-081
+For use in Denmark, Finland, and Norway N09057-DH1
+For use in France N09057-051
+For use in French Canada N09057-DB1
+For use in Germany N09057-041
+For use in Greece N09057-151
+For use in Hungary N09057-211
+For use in Iceland N09057-DD1
+For use in India N09057-D61
+For use in Israel N09057-BB1
+For use in Italy N09057-061
+For use in Japan N09057-291
+For use in Kazakhstan N09057-DF1
+For use in Latin America N09057-161
+For use in the Netherlands N09057-B31
+For use in North Africa N09057-FP1
+For use in Norway N09057-091
+For use in Portugal N09057-131
+For use in Romania N09057-261
+For use in Russia N09057-251
+For use in Saudi Arabia N09057-171
+For use in Slovenia N09057-BA1
+For use in South Korea N09057-AD1
+For use in Spain N09057-071
+For use in Sweden and Finland N09057-B71
+For use in Switzerland N09057-BG1
+For use in Taiwan N09057-AB1
+For use in Thailand N09057-281
+For use in Turkey N09057-141
+For use in Turkey-F N09057-541
+22 Chapter 3  Illustrated parts catalog
+
+--- Page 29 ---
+Table 3-1 Computer major component descriptions and part numbers (continued)
+Item Component Spare part number
+For use in Ukraine N09057-BD1
+For use in the United Kingdom N09057-031
+For use in the United States N09057-001
+(3a) Card reader
+NOTE: The card reader spare part kit does not include the card reader cable. The card reader 
+cable is included in the Cable Kit, spare part number N09040-001.
+N02323-001
+(3b) Card reader cable: Included in the Cable Kit, spare part number N09040-001.
+(4a) Touchpad:
+NOTE: The touchpad spare part kit does not include the touchpad cable. The touchpad cable is included in the Cable 
+Kit, spare part number N09040-001.
+Touchpad with NFC module antenna N15436-001
+Touchpad without NFC module antenna N09033-001
+(4b) Touchpad cable: Included in the Cable Kit, spare part number N09040-001.
+(5a) NFC module
+NOTE: The NFC module spare part kit does not include the NFC module cable. The NFC 
+module cable is included in the Cable Kit, spare part number N09040-001.
+M08706-001
+(5b) NFC module cable: Included in the Cable Kit, spare part number N09040-001.
+(6) RTC battery (includes cable and double-sided adhesive) TBD-001
+(7a) Fingerprint reader
+NOTE: The fingerprint reader spare part kit does not include the fingerprint reader bracket or 
+fingerprint reader cable. The fingerprint reader bracket is included in the Bracket Kit, spare 
+part number N09030-001. The fingerprint reader cable is included in the Cable Kit, spare part 
+number N09040-001.
+N02325-001
+(7b) Fingerprint reader bracket: Included in the Bracket Kit, spare part number N09030-001.
+(7c) Fingerprint reader cable: Included in the Cable Kit, spare part number N09040-001.
+(8) Speakers (includes cables, left and right speakers, and 4 rubber isolators) N09034-001
+(9a) System board (includes integrated processor, UMA graphics subsystem, and replacement thermal material):
+Equipped with an Intel Core i7-1280P 1.8 GHz (turbo up to 4.8 GHz) processor (14 cores, 24 MB 
+Intel Smart Cache, 28 W), OSR, and the Windows 11 operating system
+N09056-601
+Equipped with an Intel Core i7-1280P 1.8 GHz (turbo up to 4.8 GHz) processor (14 cores, 24 MB 
+Intel Smart Cache, 28 W), OSR, and a non-Windows operating system
+N09056-001
+Equipped with an Intel Core i7-1280P 1.8 GHz (turbo up to 4.8 GHz) processor (14 cores, 24 MB 
+Intel Smart Cache, 28 W), and the Windows 11 operating system
+N09055-601
+Equipped with an Intel Core i7-1280P 1.8 GHz (turbo up to 4.8 GHz) processor (14 cores, 24 MB 
+Intel Smart Cache, 28 W), and a non-Windows operating system
+N09055-001
+Equipped with an Intel Core i7-1270P 1.6 GHz (turbo up to 4.8 GHz) processor (12 cores, 18 MB 
+Intel Smart Cache, 28 W), OSR, and the Windows 11 operating system
+N09053-601
+Equipped with an Intel Core i7-1270P 1.6 GHz (turbo up to 4.8 GHz) processor (12 cores, 18 MB 
+Intel Smart Cache, 28 W), OSR, and a non-Windows operating system
+N09053-001
+Computer major components 23
+
+--- Page 30 ---
+Table 3-1 Computer major component descriptions and part numbers (continued)
+Item Component Spare part number
+Equipped with an Intel Core i7-1270P 1.6 GHz (turbo up to 4.8 GHz) processor (12 cores, 18 MB 
+Intel Smart Cache, 28 W), and the Windows 11 operating system
+N09052-601
+Equipped with an Intel Core i7-1270P 1.6 GHz (turbo up to 4.8 GHz) processor (12 cores, 18 MB 
+Intel Smart Cache, 28 W), and a non-Windows operating system
+N09052-001
+Equipped with an Intel Core i7-1265U 1.8 GHz (turbo up to 4.8 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), OSR, and the Windows 11 operating system
+N09054-601
+Equipped with an Intel Core i7-1265U 1.8 GHz (turbo up to 4.8 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), OSR, and a non-Windows operating system
+N09054-001
+Equipped with an Intel Core i7-1265U 1.8 GHz (turbo up to 4.8 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), and the Windows 11 operating system
+N09051-601
+Equipped with an Intel Core i7-1265U 1.8 GHz (turbo up to 4.8 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), and a non-Windows operating system
+N09051-001
+Equipped with an Intel Core i7-1260U 2.2 GHz (turbo up to 4.7 GHz) processor (12 cores, 18 MB 
+Intel Smart Cache, 28 W), and the Windows 11 operating system
+N09050-601
+Equipped with an Intel Core i7-1260U 2.2 GHz (turbo up to 4.7 GHz) processor (12 cores, 18 MB 
+Intel Smart Cache, 28 W), and a non-Windows operating system
+N09050-001
+Equipped with an Intel Core i7-1255U 1.7 GHz (turbo up to 4.7 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), and the Windows 11 operating system
+N09049-601
+Equipped with an Intel Core i5-1255U 1.7 GHz (turbo up to 4.7 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), and a non-Windows operating system
+N09049-001
+Equipped with an Intel Core i5-1250P 1.7 GHz (turbo up to 4.4 GHz) processor (12 cores, 18 MB 
+Intel Smart Cache, 28 W), OSR, and the Windows 11 operating system
+N09047-601
+Equipped with an Intel Core i5-1250P 1.7 GHz (turbo up to 4.4 GHz) processor (12 cores, 18 MB 
+Intel Smart Cache, 28 W), OSR, and a non-Windows operating system
+N09047-001
+Equipped with an Intel Core i5-1250P 1.7 GHz (turbo up to 4.4 GHz) processor (12 cores, 18 MB 
+Intel Smart Cache, 28 W), and the Windows 11 operating system
+N09046-601
+Equipped with an Intel Core i5-1250P 1.7 GHz (turbo up to 4.4 GHz) processor (12 cores, 18 MB 
+Intel Smart Cache, 28 W), and a non-Windows operating system
+N09046-001
+Equipped with an Intel Core i5-1245U 1.6 GHz (turbo up to 4.4 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), OSR, and the Windows 11 operating system
+N09048-601
+Equipped with an Intel Core i5-1245U 1.6 GHz (turbo up to 4.4 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), OSR, and a non-Windows operating system
+N09048-001
+Equipped with an Intel Core i5-1245U 1.6 GHz (turbo up to 4.4 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), and the Windows 11 operating system
+N09045-601
+Equipped with an Intel Core i5-1245U 1.6 GHz (turbo up to 4.4 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), and a non-Windows operating system
+N09045-001
+Equipped with an Intel Core i5-1240P 1.7 GHz (turbo up to 4.4 GHz) processor (12 cores, 12 MB 
+Intel Smart Cache, 28 W), OSR, and the Windows 11 operating system
+N09044-601
+Equipped with an Intel Core i5-1240P 1.7 GHz (turbo up to 4.4 GHz) processor (12 cores, 12 MB 
+Intel Smart Cache, 28 W), OSR, and a non-Windows operating system
+N09044-001
+Equipped with an Intel Core i5-1235U 1.3 GHz (turbo up to 4.4 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), and the Windows 11 operating system
+N09043-601
+Equipped with an Intel Core i5-1235U 1.3 GHz (turbo up to 4.4 GHz) processor (10 cores, 12 MB 
+Intel Smart Cache, 15 W), and a non-Windows operating system
+N09043-001
+24 Chapter 3  Illustrated parts catalog
+
+--- Page 31 ---
+Table 3-1 Computer major component descriptions and part numbers (continued)
+Item Component Spare part number
+(9b - 
+9d)
+I/O brackets: Included in the Bracket Kit, spare part number N09030-001.
+(10) Heat sink (includes replacement thermal material):
+For use with computer models equipped with a 28 W processor N07345-001
+For use with computer models equipped with a 15 W processor N07344-001
+(11) WLAN module:
+Intel AX211 Wi-Fi 6e + Bluetooth 5.2 M.2 2230 160 MHz CNVi WW WLAN module M53366-001
+Intel AX211 Wi-Fi 6e + Bluetooth 5.2 M.2 2230 vPro 160 MHz CNVi WW WLAN module M53363-001
+(12) Fan (includes cable and captive screws):
+For use on computer models equipped with a 28 W processor N09036-001
+For use on computer models equipped with a 15 W processor N09035-001
+(13) WWAN module:
+Intel 5000 5G WWAN module M46335-001
+Intel XMM 7560 R+ LTE-Advanced Pro (Cat 16) WWAN module M52040-001
+(14a) Memory module (SODIMM, DDR5-4800, 1.1v, NECC):
+32 GB N05331-001
+16 GB M97596-001
+8 GB M97595-001
+(14b) Memory module shield: Included in the Bracket Kit, spare part number N09030-001.
+(15a) Solid-state drive:
+2 TB, M.2 2280, PCIe-4×4, ZTurbo solid-state drive with TLC M52027-001
+1 TB, 2280, PCIe-4×4, NVMe solid-state drive with TLC M16560-001
+512 GB, 2280, PCIe-4×4, NVMe solid-state drive with TLC M17436-001
+512 GB, M.2 2280, PCIe, NVMe, value solid-state drive with TLC L85364-001
+512 GB, M.2 2280, PCIe-4×4, SED solid-state drive with TLC M52031-001
+256 GB, M.2 2280, PCIe-4×4, ZTurbo solid-state drive with TLC M52025-001
+256 GB, M.2 2280, PCIe-4×4, SED solid-state drive with TLC M52029-001
+256 GB, M.2 2280, PCIe, NVMe, value solid-state drive L85354-001
+(15b) Solid-state drive shield: Included in the Bracket Kit, spare part number N09030-001.
+(16a) Connector board (includes USB port and SIM card slot)
+NOTE: The connector board spare part kit does not include the I/O bracket or connector 
+board cable. The I/O bracket is included in the Bracket Kit, spare part number N09030-001. The 
+connector board cable is included in the Cable Kit, spare part number N09040-001.
+N09042-001
+(16b) Connector board cable: Included in the Cable Kit, spare part number N09040-001.
+(17) Audio jack (includes cable) N11993-001
+Computer major components 25
+
+--- Page 32 ---
+Table 3-1 Computer major component descriptions and part numbers (continued)
+Item Component Spare part number
+(18) Battery (includes cable):
+3 cell, 51 Whr, 4.68 Ahr, LI M73466-005
+3 cell, 38 Whr, 3.53 Ahr, LI M73468-005
+(19) Bottom cover:
+For use on computer models equipped with WWAN capability N09027-001
+For use on computer models not equipped with WWAN capability N09026-001
+Display assembly subcomponents
+To identify the display assembly subcomponents, use this illustration and table.
+26
+Chapter 3  Illustrated parts catalog
+
+--- Page 33 ---
+Table 3-2 Display component descriptions and part numbers
+Item Component Spare part number
+(1) Display bezel:
+For use on display assemblies equipped with infrared N09021-001
+For use on display assemblies equipped with infrared and ACS N09024-001
+For use on display assemblies equipped with a microphone N09023-001
+For use on display assemblies equipped with RGB N09022-001
+For use on display assemblies equipped with RGB and ACS N09025-001
+(2) Display panel:
+35.6 cm (14.0 in), LCD, WUXGA (1920 × 1200), antiglare, UWVA, LED, TOP bent display panel; 
+typical brightness: 250 nits
+N99947-005
+Display assembly subcomponents 27
+
+--- Page 34 ---
+Table 3-2 Display component descriptions and part numbers (continued)
+Item Component Spare part number
+35.6 cm (14.0 in), LCD, WUXGA (1920 × 1200), antiglare, UWVA, WLED + LBL, eDP 1.4 + PSR2, 
+non-TOP bent display panel; typical brightness: 400 nits
+N99948-005
+35.6 cm (14.0 in), LCD, WUXGA (1920 × 1200), antiglare, UWVA, WLED + LBL, sRGB 100, eDP 1.3 + 
+PSR, non-TOP bent display panel; typical brightness: 1000 nits
+N99949-005
+35.6 cm (14.0 in), LCD, WUXGA (1920 × 1200), antiglare, UWVA, WLED + LBL eDP, non-TOP bent 
+display panel; typical brightness: 400 nits
+N99946-005
+(3) Display hinge cover TBD-001
+(4a) Webcam module:
+Infrared N09061-001
+Non-infrared N09060-001
+(4b) Webcam module cable: Included in the Display Cable Kit, spare part number N09041-001.
+(5a) Microphone module N15440-001
+(5b) Microphone module cable: Included in the Display Cable Kit, spare part number N09041-001.
+(6a) Display transfer board:
+For use on computer models equipped with a display assembly with ACS N08540-001
+For use on computer models equipped with a display assembly with infrared N08541-001
+For use on computer models equipped with a display assembly with RGB N08542-001
+(6b) Transfer board cable: Included in the Display Cable Kit, spare part number N09041-001.
+(7) Display hinges (includes left and right hinges) N09028-001
+(8) Display panel cable: Included in the Display Cable Kit, spare part number N09041-001.
+(9) WWAN antenna: Included in display back cover spare part kit.
+(10) WLAN antenna: Included in display back cover spare part kit.
+(11) Display back cover: Includes left and right WLAN antenna cables and transceivers.
+For use on computer models equipped with WWAN capability and display panel brightness of 
+1000 or 400 nits (includes left and right WWAN antenna cables and transceivers)
+N09020-001
+For use on computer models equipped without WWAN capability and display panel brightness 
+of 1000 or 400 nits
+N09018-001
+For use on computer models equipped with WWAN capability and display panel brightness of 
+250 nits
+N09019-001
+For use on computer models equipped without WWAN capability and display panel brightness 
+of 250 nits
+N09017-001
+Mass storage devices
+To identify the mass storage devices, use this illustration and table.
+28
+Chapter 3  Illustrated parts catalog
+
+--- Page 35 ---
+Table 3-3 Mass storage device descriptions and part numbers
+Component Spare part number
+2 TB, M.2 2280, PCIe-4×4, ZTurbo solid-state drive with TLC M52027-001
+1 TB, 2280, PCIe-4×4, NVMe solid-state drive with TLC M16560-001
+512 GB, 2280, PCIe-4×4, NVMe solid-state drive with TLC M17436-001
+512 GB, M.2 2280, PCIe-3×4, NVMe, SS solid-state drive with TLC L89745-001
+512 GB, M.2 2280, PCIe-4×4, SED solid-state drive with TLC M52031-001
+256 GB, M.2 2280, PCIe-4×4, ZTurbo solid-state drive with TLC M52025-001
+256 GB, M.2 2280, PCIe-4×4, SED solid-state drive with TLC M52029-001
+256 GB, M.2 2280, PCIe, NVMe, value solid-state drive L85354-001
+Cables
+To identify the cables, use this illustration and table.
+Table 3-4
+Cable descriptions and part numbers
+Item Component Spare part number
+The cables listed below are included in the Cable Kit, spare part number N09040-001.
+(1) Card reader cable
+(2) Connector board cable
+(3) Fingerprint reader cable
+(4) NFC module cable
+(5) Touchpad cable
+Miscellaneous parts
+To identify the miscellaneous parts, use this table.
+Cables
+29
+
+--- Page 36 ---
+Table 3-5 Miscellaneous part descriptions and part numbers
+Component Spare part number
+AC adapter:
+280 W AC adapter (PFC, slim, 3P 7.4 mm) M52952-001
+120 W HP Smart Adapter (PFC, slim, 7.4 mm) L89695-001 and L57117-001
+120 W HP Smart Adapter (PFC, RC, 4.5 mm) M95377-001
+65 W AC adapter (nPFC, slim, USB Type-C, straight, 1.8 m [6.0 ft]) L04650-850
+65 W AC adapter (nPFC, USB Type-C, RC, 1.8 m [6.0 ft]) L32392-001
+65 W AC adapter (travel, nPFC, USB Type-C) L21847-001
+45 W AC adapter (nPFC, USB Type-C, 1.8 m [6.0 ft], 3 pin) L43407-001
+45 W AC adapter (nPFC, wall mount, USB Type-C, 1.8 m [6.0 ft]) L32390-001
+45 W AC adapter (nPFC, wall mount, USB Type-C, 1.8 m [6.0 ft], 3 pin) 860210-001
+AC adapter + power cord (C5, 1.0 m [3.3 ft], conventional with sticker) bundle for use in Thailand M85418-001
+AC adapter + power cord (C5, 1.0 m [3.3 ft], FDH) bundle for use in Thailand M85416-001
+AC adapter + power cord (C5, 1.0 m [3.3 ft], premium with sticker) bundle for use in Thailand M85421-001
+AC adapter + power cord (C5, 1.0 m [3.3 ft], premium with tag) bundle for use in Thailand M85419-001
+65 W AC adapter (USB Type-C) + power cord (C5, DH, black) bundle for use in South Korea L43181-001
+65 W AC adapter (USB Type-C) + power cord (FDH, 1.8 m [6.0 ft]) bundle:
+For use in Argentina L43180-001
+For use in Australia L43180-002
+For use in Brazil L43180-003
+For use in Denmark L43180-004
+For use in Europe L43180-005
+For use in India L43180-007
+For use in Israel L43180-006
+For use in Italy L43180-008
+For use in North America L43180-010
+For use in the People's Republic of China L43180-011
+For use in South Africa L43180-012
+For use in Switzerland L43180-013
+For use in Taiwan L43180-015
+For use in Thailand L43180-014
+For use in the United Kingdom L43180-016
+45 W AC adapter (USB Type-C) + power cord (C5, DH, black) bundle for use in South Korea L43183-001
+45 W AC adapter (USB Type-C) + power cord (FDH, 1.8 m [6.0 ft]) bundle:
+For use in Argentina L43182-001
+30 Chapter 3  Illustrated parts catalog
+
+--- Page 37 ---
+Table 3-5 Miscellaneous part descriptions and part numbers (continued)
+Component Spare part number
+For use in Australia L43182-002
+For use in Brazil L43182-003
+For use in Denmark L43182-004
+For use in Europe L43182-005
+For use in India L43182-007
+For use in Israel L43182-006
+For use in Italy L43182-008
+For use in North America L43182-010
+For use in the People's Republic of China L43182-011
+For use in South Africa L43182-012
+For use in Switzerland L43182-013
+For use in Taiwan L43182-015
+For use in Thailand L43182-014
+For use in the United Kingdom L43182-016
+Adapter:
+HP HDMI–to–VGA adapter 701943-001
+HP USB 3.0–to–Gigabit FD adapter 914031-001
+HP USB 3.0–to–Gigabit RJ-45 adapter M95984-001
+HP USB Type-C–to–DisplayPort adapter 831753-001
+HP USB Type-C–to–RJ-45 adapter M95985-001
+HP USB Type-C–to–RJ-45 FD adapter 918779-001
+HP USB Type-C–to–USB 3.0 adapter 814648-001
+HP USB Type-C–to–VGA adapter 831751-001
+HDMI–to–DVI-D adapter connector 691227-001
+USB Type-C–to–USB Type-A adapter connector L65254-001
+HP executive 15.6 inch backpack L59632-001
+HP executive 15.6 inch top load backpack L59631-001
+HP business 14.1 inch laptop bag M55007-001
+Bracket Kit (includes connector board I/O bracket, fingerprint reader bracket, memory module 
+shield, SIM bracket, and solid-state drive shield)
+N09030-001
+Cable:
+USB Type-C male–to–USB Type-C male cable (1.0 m [3.0 ft]) L65253-001
+HP Thunderbolt 4 120 W cable (0.8m [2.7 ft]) M88058-001
+HP Thunderbolt 4 280 W cable (0.8m [2.7 ft]) M88059-001
+HP USB Type-C–to–DisplayPort adapter 831753-001
+Miscellaneous parts 31
+
+--- Page 38 ---
+Table 3-5 Miscellaneous part descriptions and part numbers (continued)
+Component Spare part number
+HP USB Type-C–to–RJ-45 adapter M95985-001
+Dock:
+HP 280 W G4 Thunderbolt dock with combination cable M97106-001
+HP 120 W G4 Thunderbolt dock with cable M97105-001
+Cable Kit for HP 120 W G4 Thunderbolt dock L15812-002
+HP 120 W Thunderbolt dock with cable L15809-001
+HP USB Type-A/C universal dock with cable L64087-001
+HP USB Type-C dock with cable L64086-001
+HP dock audio module L15811-001
+HP USB External DV D+-RW Drive 747080-001
+Duck head adapter:
+Duck head adapter for us in Japan L33517-001
+Duck head only for use in South Korea (C5, premium) L50816-001
+Duck head only for use in North America (C5, premium with sticker, black) L50818-002
+Duck head only for use in South Korea (C5, premium with sticker, black) L50818-001
+HP USB Type-C–to–USB Type-A hub 916838-001
+HP USB Type-C travel hub L72056-001
+HP USB keyboard for use in the United States L95712-001
+Mouse:
+HP Bluetooth travel mouse L62043-001
+HP comfort grip wireless mouse 691922-001
+HP USB laser mouse 674318-001
+HP USB mouse L95713-001
+HP USB travel mouse 757770-001
+Plastics Kit (includes card reader space holder, fingerprint reader space holder, left and right I/O 
+space holders, and SIM space holder)
+N09031-001
+Power cord (C13, 1.0 m [3.3 ft], premium with tag):
+For use in Argentina L32029-001
+For use in Brazil L32030-001
+Power cord (C13, 1.0 m [3.3 ft], LW, premium with tag):
+For use in Australia 100661-021
+For use in Denmark 130627-014
+For use in Europe 100614-016
+For use in India 403440-008
+For use in Israel 398062-011
+32 Chapter 3  Illustrated parts catalog
+

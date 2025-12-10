@@ -1,0 +1,511 @@
+Brand: IGEL
+Model: Ud7
+URL: https://www.manua.ls/igel/ud7/manual
+Total Pages: 12
+============================================================
+
+--- Page 1 ---
+www.igel.com 
+IGEL UD7 
+HARDWARE MANUAL 
+VERSION 1.1 – October 2018
+
+--- Page 2 ---
+IGEL Technology GmbH    Hardware Manual IGEL UD7 
+ 
+2/12    Version 1.1 – October 2018 
+Information 
+Copyright 
+This publication is protected under international copyright laws. All rights reserved. With 
+the exception of documentation kept by the purchaser for backup purposes, no part of 
+this manual – including the products and software described in it – may be reproduced, 
+manipulated,  transmitted,  transcribed,  copied,  stored  in  a  data  retrieval  system  or 
+translated in any form or by any means without the express written permission of IGEL 
+Technology GmbH. 
+Copyright © 2018 IGEL Technology GmbH. All rights reserved. 
+Disclaimer 
+The specifications and information contained in this manual are intended for information 
+use only, are subject to change at any time without notice and should not be construed 
+as constituting a commitment or obligation on the part of IGEL Technology GmbH. IGEL 
+Technology  GmbH  assumes  no  responsibility  or  liability  for  any  errors  or  inaccuracies 
+that may appear in this manual, including any pertaining to the products and software 
+described  in  it.  IGEL  Technology  GmbH  makes  no  representations  or  warranties  with 
+respect  to  the  contents  thereof  and  specifically  disclaims  any  implied  warranties  of 
+merchantability or fitness for any particular purpose. 
+Warranty 
+After purchase, just register with us online, and all your IGEL thin clients UD2, UD3, UD6 
+and  UD7  will  be  upgraded  from  a  standard  2-year  to  a  5-year  hardware  warranty, 
+according to our end customer hardware warranty declaration, at no additional cost.   
+The UD Pocket, UD9, IZ2 and IZ3 series will be upgraded to a 3-year hardware warranty. 
+The warranty upgrade does not cover any additional hardware options. 
+ 
+Find further information on our website under www.igel.com/product-warranty 
+IGEL is a registered trademark of IGEL Technology GmbH. All hardlware and software 
+names are registered trademarks of the respective manufacturers. Errors and omissions 
+excepted. Subject to change without notice. 
+ 
+IGEL Technology GmbH 
+Hanna-Kunath-Str. 31 
+28199 Bremen, Germany 
+Tel.: +49 421 52094 0 
+Fax: +49 421 52094 1499 
+info@igel.com 
+Hardware Reference 
+IGEL UD7 (IGEL-H850C) 
+Document Version 1.1 – October 2018
+
+--- Page 3 ---
+IGEL Technology GmbH    Hardware Manual IGEL UD7 
+ 
+3/12    Version 1.1 – October 2018 
+Safety Instructions 
+ 
+Read these instructions carefully and save them for future reference. 
+ 
+•  Disconnect this equipment from mains supply before cleaning. Don’t use liquid or sprayed 
+detergent for cleaning. Use moisture sheet or cloth for cleaning. 
+•  Before opening the device, first switch it off and then disconnect the power plug. Observe 
+the specification in the user manual. 
+•  The warranty will be invalidated if the device is damaged during the installation or 
+replacement of system expansions. 
+•  Lay this equipment on a reliable surface when installed. A drop or fall could cause injury. 
+•  Make sure power adapter and power cord are placed in a way that people cannot step on 
+them. Do not place anything over the power adapter or power cord. 
+•  All cautions and warnings on the equipment should be noted. 
+•  If the equipment is not used for long time, disconnect the equipment from mains supply to 
+avoid being damaged by transient overvoltage. 
+•  Make sure that no objects or liquids get inside the device (danger of electric shock, fire, short 
+circuit). 
+•  If one of the following situations occurs, get the equipment checked by a service personnel: 
+o  The power adapter, power cord or plug is damaged. 
+o  Liquid has penetrated into the equipment. 
+o  The equipment has been exposed to moisture. 
+o  The equipment does not work well or you cannot get it work according to user manual. 
+o  The equipment has been dropped or damaged. 
+o  The equipment has obvious signs of breakage. 
+•  Do not leave this equipment in an unconditioned environment. Storage temperature below -
+20 °C (-4 °F) or above 60 °C (140 °F) may cause damage of the equipment. 
+•  Do not use this equipment in an unconditioned environment. Unless otherwise stated in the 
+technical specifications operational conditions may not exceed the following limits, it may 
+damage the equipment: 
+o  Vertical usage: 
+Temperature: 0 °C to 35 °C, 32 °F to 104 °F   
+Humidity: 10 % to 80 %, non-condensing 
+o  Horizontal usage (only with optional rubber feet, no VESA mount): 
+Temperature: 0 °C to 35 °C, 32 °C to 95 °F 
+Humidity: 10 % to 80 %, non-condensing 
+•  Note that even in closed rooms local temperatures may increase, for instance in case the 
+device is exposed to strong sun radiation. Protect the device from external heat sources. 
+•  Ensure that air is free to circulate through the product. Do not use in a poorly ventilated 
+place. Do not cover it with a cloth or place it on soft ground. Surrounding objects of the 
+device may block the air flow. Keep a minimum distance of 20 cm around the device for 
+sufficient ventilation. 
+•  Horizontal usage with optional rubber feet: Tilt the housing to the left so that the power 
+button is one the left-hand side:
+
+--- Page 4 ---
+IGEL Technology GmbH    Hardware Manual IGEL UD7 
+ 
+4/12    Version 1.1 – October 2018 
+ 
+•  Gloss warning for devices without display: This device is not intended for use in the direct 
+field of view at visual display workplaces. To avoid incommoding reflexions at visual display 
+workplaces this device must not be placed in direct field of view. 
+•  Lithium battery caution: 
+o  The Lithium battery (button cell) installed in the device may only be replaced by 
+authorised, specially trained personnel.   
+o  Contact your supplier or the manufacturer for servicing and repairs. 
+o  Danger of explosion if battery is incorrectly replaced. 
+o  Dispose of used batteries according to the manufacturer’s instructions. 
+•  Excessive sound pressure from ear-/headphones can cause hearing damage/hearing loss. 
+Adjustment of the volume control as well as the equalizer to other settings than the centre 
+position may increase the ear-/headphones output voltage and therefore the sound pressure 
+level. The use of factors influencing the ear-/headphones output other than those specified 
+by the manufacturer (e.g. operating system, equalizer software, firmware, driver) may 
+increase the ear-/headphones output voltage and therefore the sound pressure level. 
+•  UL 62368: This equipment must be grounded. The power cord for the equipment must only 
+be connected to socket-outlets providing earthing connection. 
+•  Visit www.igel.com for the latest product information and safety instructions updates. 
+•  Specific Safety Instructions for UD9: 
+o  To avoid damage or malfunction, do not use hard or abrasive objects for touching the 
+LCD module. 
+o  Do not exert pressure on the LCD module. 
+o  Use a soft dry cloth without chemicals for cleaning, because the surface of polarizer is 
+very soft and easily scratched. 
+o  It is dangerous that moisture come into or contacted the LCD module, because moisture 
+may damage LCD module when it is operating. 
+o  If the liquid crystal material leaks from the panel, it should be kept away from the eyes or 
+mouth. In case of contact with hands, skin or clothes, it has to be washed away 
+thoroughly with soap. 
+o  When fixed patterns are displayed for a long time, remnant image is likely to occur. 
+o  Do not leave the LCD module facing the sun. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Visit kb.igel.com/hardware for more information.
+
+--- Page 5 ---
+IGEL Technology GmbH    Hardware Manual IGEL UD7 
+ 
+5/12    Version 1.1 – October 2018 
+Connections 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Part List 
+•  Thin Client Unit 
+•  Foot 
+•  Power Supply with integrated DC Cable 
+•  AC Power Cord 
+•  DVI-VGA-Adapter 
+ 
+Power Connection Note 
+•  Connect all accessories e. g. mouse, keyboard, screen (not part of the equipment), and 
+Ethernet. 
+•  Connect the AC power cord with the receptacle of the Power Supply. 
+•  Connect the other end of the AC power cord with a suited mains socket. 
+•  Connect the DC cable with the DC In receptacle on the rear side of the Thin Client. 
+•  Switch on the Thin Client by use of the power button on the front side. 
+   
+Power Switch 
+Smartcard Reader Slot 
+(Smartcard Reader optional) 
+Cover 
+(3x USB 3.0) 
+Foot 
+PS/2 Keyboard 
+Ethernet RJ45 
+1x line-out 
+3x USB 2.0 
+3x DisplayPort 
+Security Lock 
+12 V DC In 
+2x Serial Port 
+Option 1: WLAN 
+Option 2: anti-theft USB-Port 
+1x mic-in 
+1x Serial Port
+
+--- Page 6 ---
+IGEL Technology GmbH    Hardware Manual IGEL UD7 
+ 
+6/12    Version 1.1 – October 2018 
+Technical Specifications 
+System
+ 
+Available Operating Systems 
+IGEL OS 10 (LX) or Microsoft Windows 10 IoT (W10) 
+Management 
+IGEL Universal Management Suite included 
+Processor 
+AMD RX-216GD 1.6 GHz (Dual-Core) up to 3.0 GHZ (Boost-
+Mode) 
+Chipset 
+AMD R-Series 
+ 
+ 
+Memory 
+RAM 
+4 GB 
+Storage 
+4 GB (LX) or 32 GB (W10) 
+ 
+ 
+Graphics
+ 
+Chipset 
+Radeon R5 Series 
+Video Memory 
+64-512 MB Shared Memory 
+Ports 
+3x  DisplayPort  1.2,  Multi-Stream-Transport  (so-called  Daisy 
+Chain) support depends on configuration,  official support is 
+not given. 
+Supported Resolutions 
+2x max. 3840x2160 @60Hz; 1x max. 2560x1600 @60Hz or 
+3840x2160 30Hz 
+ 
+ 
+Network 
+Ethernet 
+10/100/1000 Base-T 
+WLAN 
+Optional, via Connectivity Bar 
+ 
+ 
+Audio
+ 
+Chipset 
+Realtek High Definition Audio (ALC662) 
+Ports 
+1x line-out, 1x mic-in, 1x DisplayPort (Intel HD Audio) 
+Speakers 
+1x internal 
+ 
+ 
+Peripheral Interfaces
+ 
+PS/2 
+1x keyboard 
+Serial 
+1x 
+Parallel 
+1x optional, via Connectivity Bar or USB-to-Parallel adapter 
+USB 2.0 
+3x back, 1x optional: anti-theft USB, via Connectivity Bar 
+USB 3.0 
+2x front 
+Security Lock 
+1x back 
+ 
+ 
+Dimensions and Weight 
+Device (DxWxH), vertical 
+232 mm x 68 mm x 227 mm (without foot stand) 
+232 mm x 99 mm x 242 mm (with foot stand) 
+Packaging (DxWxH) 
+297 mm x 366 mm x 125 mm 
+Weight 
+1.60 kg (with foot stand and external power adapter)
+
+--- Page 7 ---
+IGEL Technology GmbH    Hardware Manual IGEL UD7 
+ 
+7/12    Version 1.1 – October 2018 
+ 
+Environmental Conditions 
+ 
+Strictly follow safety instructions and respect environmental conditions! 
+Cooling 
+fanless convection 
+Operating Temperature 
+0 °C   – 40 °C (vertical without VESA) 
+0 °C   – 35 °C (vertical with VESA) 
+0 °C   – 35 °C (horizontal with rubber feet) 
+Operating Humidity 
+20 % – 80 % non-condensing 
+ 
+ 
+Electrical Data 
+Power Supply 
+external 
+Power Supply AC Input 
+100 – 240 VAC / 50 – 60 Hz 
+Power Supply DC Output 
+12 V / 3 A External Power Adapter 
+(A140-1120300N & FSP036-RHAN2) 
+Power Consumption 
+5.7 W (idle) / 1,2 W (sleep) / < 0.8 W (off) 
+(@230 V, 50 Hz) 
+ 
+ 
+Typical Energy Consumption 
+(ENERGY STAR)
+ 
+E
+TEC
+ 
+23.1 kWh (per year) 
+E
+TEC,max
+ 
+33 kWh (per year) 
+ 
+ 
+Options for Device Mounting 
+ 
+For mounting options visit also kb.igel.com/hardware. 
+VESA Mount 
+for mounting on the back of a monitor (VESA75, VESA100) 
+Vertical mounting only! 
+Rubber feet 
+for horizontal placement of the device 
+ 
+ 
+Connectivity Bar 
+Option 1 
+1x serial port and anti-theft USB port 
+Option 2 
+1x serial port and 802.11a/b/g/n 2.4 GHz, 5 GHz WiFi 
+ 
+ 
+Optional Accessories 
+Additional Graphics Card 
+For the use of a fourth monitor via 1x DisplayPort 1.2 
+(max. 2560x1600) 
+Built-in Smartcard Reader 
+for secure smartcard-based authentication 
+USB-to-Serial Adapter 
+for connecting peripherals that require a serial port 
+USB-to-Parallel Adapter 
+for connecting printers that require a parallel port 
+DisplayPort to DVI Adapter 
+for connecting a monitor that requries a DVI port 
+Shared WorkPlace 
+it allows user-dependent configuration based on setting 
+profiles 
+Multimedia Codec Pack 
+(only IGEL OS UD) 
+required for multimedia redirection and full multimedia 
+functionality
+
+--- Page 8 ---
+IGEL Technology GmbH    Hardware Manual IGEL UD7 
+ 
+8/12    Version 1.1 – October 2018 
+ 
+Additional Graphics Card 
+ 
+With  this  optional  graphics  card  the  parallel  use  of  up  to 
+four digital monitors at 60Hz by DisplayPort, two in 4K and 
+two in 2K is possible. 
+ 
+Specifications: 
+AMD Embedded Radeon™ E9173 discrete GPU 
+Expands UD7 with a 4th DisplayPort (2560x1600) for 
+configurations with 4 monitors! 
+ 
+Please note: 
+The original graphics card AMD E9173 has 1x DisplayPort und 2x miniDP ports. 
+Our model has an adapted slot-bracket, where the 2x miniDP are covered. They are also turned 
+off electrical, so just one DisplayPort is usable. 
+ 
+ 
+ 
+ 
+General Information 
+ 
+•  Multi-Stream-Transport (Daisy Chain) depends on configuration and support is limited. 
+ 
+•  When using DisplayPort to DVI adapter, only active adapters are supported.
+
+--- Page 9 ---
+IGEL Technology GmbH    Hardware Manual IGEL UD7 
+ 
+9/12    Version 1.1 – October 2018 
+Regulatory Compliance Information 
+ 
+FCC Compliance Statement 
+This equipment has been tested and found to comply with the limits for a Class B digital device, 
+pursuant to Part 15 of the FCC rules. These limits are designed to provide reasonable protection 
+against harmful interference in a residential installation. This equipment generates, uses and can 
+radiated radio frequency energy and, if not installed and used in accordance with the instructions, 
+may  cause  harmful  interference  to  radio  communications. However,  there  is  no  guarantee  that 
+interference  will  not  occur  in  a  particular  installation.  If  this  equipment  does  cause  harmful 
+interference to radio or television reception, which can be determined by turning the equipment 
+off and on, the user is encouraged to try to correct the interference by one or more of the following 
+measures: 
+•  Reorient or relocate the receiving antenna. 
+•  Increase the separation between the equipment and receiver. 
+•  Connect the equipment into an outlet on a circuit different from that to which the receiver is 
+connected. 
+•  Consult the dealer or an experienced radio/TV technician for help. 
+Shielded interface cables must be used in order to comply with emission limits. 
+Changes or modifications not expressly approved by the party responsible for compliance could 
+void the user’s authority to operate the equipment. 
+ 
+ 
+ 
+ 
+TÜV-GS Statement 
+This device is not intended for use in the direct field of view at visual display workplaces. To avoid 
+incommoding reflexions at visual display workplaces this device must not be placed in the direct 
+field of view. 
+ 
+ENERGY STAR Information 
+IGEL  Thin  Clients  with  a  Microsoft  Windows®  or  Linux  operating  system  have  been  shipped 
+enabled for power management. The display Sleep mode will be activated after 6 minutes (IGEL 
+OS)  /  10  minutes  (Windows)  of  user  inactivity  (default  setting).  The  standby  settings  can  be 
+managed via the BIOS and local setup. The activation from the standby or Off mode can be done 
+locally  (by  moving  of  the  mouse  or  pressing  a  key  on  the  key  board)  and  via  the  Ethernet 
+connection (Wake-On-LAN).   
+Energy Star Program 
+Power managing your ENERGY STAR qualified computer can save up to 340 kWh annually or 25€ 
+($35) per year. These energy savings are equivalent to: 
+•  Preventing over 225 kg (500 lbs) of CO
+2
+ emissions per year 
+•  Planting over 185 m² (2,000 sq ft.) of forest 
+To  learn  how  to  power  manage  your  computers  at  your  office  all  at  once  through  network 
+solutions, please go to: www.energystar.gov. 
+ENERGY STAR is the government-backed program that helps us all save money and protect our 
+environment with energy-efficient products and practices 
+(www.energystar.gov/powermanagement).
+
+--- Page 10 ---
+IGEL Technology GmbH    Hardware Manual IGEL UD7 
+ 
+10/12    Version 1.1 – October 2018 
+WEEE and Battery Waste Note 
+In  accordance  with  EU  directive  2012/19/EU  on  Waste  Electrical  and  Electronic  Equipment 
+(WEEE)  and  Directive  2006/66/EC  for  waste  batteries,  customers  and  manufacturers  are 
+responsible  for  returning  and  recycling  their  old  equipment  and  batteries.  IGEL  now  offers  a 
+convenient return service. 
+As of August 15, 2005, all IGEL Thin Clients sold bear the WEEE and battery waste seal. All Thin 
+Clients  labelled  with  this  sticker  are  taken  back  and  disposed  of  immediately  at  no  charge 
+(including the battery). For IGEL customers, this means better service and greater convenience, 
+because  IGEL  Technology  handles  the  professional  recycling  of  all  Thin  Clients  (including  the 
+lithium battery). 
+Report disposal online: Under the heading, “Waste Management WEEE” on the IGEL Homepage 
+(www.igel.com) there is an online form that must be filled in for the old IGEL units to be picked 
+up.  Such  information  as  the  address,  series  number,  contact  person,  number  of  units  to  be 
+removed and the desired disposal date are urgently required for the smooth processing of waste. 
+Pickup: Immediately after sending in your data, you will receive from the IGEL Service Center a 
+notice of confirmation of receipt. Then an IGEL service employee will contact you to arrange a 
+date to pick up the unit. 
+IGEL WEEE Number: DE 79295479 / WEE/GE4266QU.   
+This  product  contains  no  postconsumer  recycled  plastic  (0  %)  and  no  renewable  /  biobased 
+plastic  materials  (0  %).  The  packaging  material  contains  the  following  recycling  content: 
+Corrugated cardboards between 33 % and 69 %, plastic bags 0 %. 
+RoHS and REACh Note 
+This product of IGEL Technology GmbH fulfils the requirements of the EU directive 2011/65/EU 
+on  the  Restriction  of  the  Use  of  certain  Hazardous  Substances  in  Electrical  and  Electronic 
+Equipment (RoHS). The product is marked accordingly. 
+The  EU  Regulation  1907/2006  for  Registration,  Evaluation,  Authorisation  and  restriction  of 
+Chemicals (REACh) shall improve the protection of human health and the environment from the 
+risks  that  can  be  posed  by  chemicals.  IGEL  fulfils  this  regulation  by  informing  customers  and 
+partners about materials on the Candidate List of Substances of Very High Concern (SVHC) in our 
+products in a concentration above 0.1 % weight by weight (w/w). 
+ 
+ 
+Find current information about SVHC materials on our website under   
+www.igel.com/terms-conditions
+
+--- Page 11 ---
+IGEL Technology GmbH    Hardware Manual IGEL UD7 
+ 
+11/12    Version 1.1 – October 2018 
+Ericom PowerTerm 
+Terminalemulation 
+Lern How to Activate the Ericom PowerTerm 
+Terminalemulation of Your IGEL Thin Client 
+To use your Ericom PowerTerm Terminalemulation you need a free license key from IGEL. To get 
+to  the  activation  form  please  register  yourself  at  our  support  and  ticket  system  here: 
+www.igel.com/powerterm. 
+After successful registration you have access to free technical support, and to the IGEL Service- 
+and Repair-Center as well as to the license activation form. 
+To  activate  your  PowerTerm  license  please  fill  out  the  license  activation  form.  Enter  the  total 
+number and MAC addresses of the devices to be activated. The following link provides a step-by-
+step description on how to use the UMS to extract a list of MAC addresses for a large number of 
+devices: www.igel.com/powerterm_mac 
+You will receive the required license keys via email from our IGEL service team. Using the Universal 
+Management  Suite  (UMS)  you  can  then  remotely  deploy  the  licenses  tothe  devices  in  your 
+network.
+
+--- Page 12 ---
+IGEL Technology GmbH    Hardware Manual IGEL UD7 
+ 
+12/12    Version 1.1 – October 2018
+

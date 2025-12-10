@@ -1,0 +1,1350 @@
+Brand: ADVANTECH
+Model: Ark 2232
+URL: https://www.manua.ls/advantech/ark-2232/manual
+Total Pages: 72
+============================================================
+
+--- Page 1 ---
+User Manual
+ARK-2232
+Fanless Embedded Box 
+Computer
+
+--- Page 2 ---
+ARK-2232 User Manual ii
+Attention!
+Please note:
+This package contains a hard-copy user manual in Chinese for China CCC certifica-
+tion purposes, and there is an English user manual included as a PDF file on the
+website. Please disregard the Chinese hard copy user manual if the product is not to
+be sold and/or installed in China.
+
+--- Page 3 ---
+iii ARK-2232 User Manual
+ 
+Copyright
+The documentation and the software included with this product are copyrighted 2018
+by Advantech Co., Ltd. All rights are reserved. Advantech Co., Ltd. reserves the right
+to make improvements in the products described in this manual at any time without
+notice. 
+No part of this manual may be reproduced, copied, translated or transmitted in any
+form or by any means without the prior written permission of Advantech Co., Ltd.
+Information provided in this manual is intended to be accurate and reliable. However,
+Advantech Co., Ltd. assumes no responsibility for its use, nor for any infringements
+of the rights of third parties, which may result from its use.
+Acknowledgements
+Award is a trademark of Award Software International, Inc.
+VIA is a trademark of VIA Technologies, Inc.
+IBM, PC/AT, PS/2 and VGA are trademarks of International Business Machines Cor-
+poration.
+Intel® and Pentium® are trademarks of Intel Corporation.
+Microsoft Windows® is a registered trademark of Microsoft Corp.
+RTL is a trademark of Realtek Semi-Conductor Co., Ltd.
+ESS is a trademark of ESS Technology, Inc.
+UMC is a trademark of United Microelectronics Corporation.
+SMI is a trademark of Silicon Motion, Inc.
+Creative is a trademark of Creative Technology LTD.
+CHRONTEL is a trademark of Chrontel Inc.
+All other product names or trademarks are properties of their respective owners.
+For more information about this and other Advantech products, please visit our web-
+site at:
+http://www.advantech.com/ 
+http://www.advantech.com/ePlatform/
+For technical support and service, please visit our support website at:
+http://support.advantech.com.tw/support/
+Part No. 2006223200 Edition 1
+Printed in China December 2018
+
+--- Page 4 ---
+ARK-2232 User Manual iv
+Product Warranty (2 years)
+Advantech warrants to you, the original purchaser, that each of its products will be
+free from defects in materials and workmanship for two years from the date of pur-
+chase. 
+This warranty does not apply to any products which have been repaired or altered by
+persons other than repair personnel authorized by Advantech, or which have been
+subject to misuse, abuse, accident or improper installation. Advantech assumes no
+liability under the terms of this warranty as a consequence of such events.
+Because of Advantech’s high quality-control standards and rigorous testing, most of
+our customers never need to use our repair service. If an Advantech product is defec-
+tive, it will be repaired or replaced at no charge during the warranty period. For out-
+of-warranty repairs, you will be billed according to the cost of replacement materials,
+service time and freight. Please consult your dealer for more details.
+If you think you have a defective product, follow these steps:
+1. Collect all the information about the problem encountered. (For example, CPU 
+speed, Advantech products used, other hardware and software used, etc.) Note 
+anything abnormal and list any onscreen messages you get when the problem 
+occurs.
+2. Call your dealer and describe the problem. Please have your manual, product, 
+and any helpful information readily available.
+3. If your product is diagnosed as defective, obtain an RMA (return merchandise 
+authorization) number from your dealer. This allows us to process your return 
+more quickly.
+4. Carefully pack the defective product, a fully-completed Repair and Replacement 
+Order Card and a photocopy proof of purchase date (such as your sales receipt) 
+in a shippable container. A product returned without proof of the purchase date 
+is not eligible for warranty service.
+5. Write the RMA number visibly on the outside of the package and ship it prepaid 
+to your dealer.
+Declaration of Conformity
+FCC Class B
+Note: This equipment has been tested and found to comply with the limits for a Class
+B digital device, pursuant to part 15 of the FCC Rules. These limits are designed to
+provide reasonable protection against harmful interference in a residential installa-
+tion. This equipment generates, uses and can radiate radio frequency energy and, if
+not installed and used in accordance with the instructions, may cause harmful inter-
+ference to radio communications. However, there is no guarantee that interference
+will not occur in a particular installation. If this equipment does cause harmful interfer-
+ence to radio or television reception, which can be determined by turning the equip-
+ment off and on, the user is encouraged to try to correct the interference by one or
+more of the following measures:
+ Reorient or relocate the receiving antenna.
+ Increase the separation between the equipment and receiver.
+ Connect the equipment into an outlet on a circuit different from that to which the
+ receiver is connected.
+ Consult the dealer or an experienced radio/TV technician for help.
+
+--- Page 5 ---
+v ARK-2232 User Manual
+ 
+Technical Support and Assistance
+1. Visit the Advantech web site at www.advantech.com/support where you can find 
+the latest information about the product.
+2. Contact your distributor, sales representative, or Advantech's customer service 
+center for technical support if you need additional assistance. Please have the 
+following information ready before you call:
+– Product name and serial number
+– Description of your peripheral attachments
+– Description of your software (operating system, version, application software, 
+etc.)
+– A complete description of the problem
+– The exact wording of any error messages
+Warnings, Cautions and Notes
+Packing List
+Before installation, please ensure the following items have been shipped:
+ 1 x ARK-2232 unit
+ 1 x Registration and 2 years Warranty card
+ 1 x China RoHS
+ 1 x Utility CD
+ 1 x Simplified Chinese manual
+Warning! Warnings indicate conditions, which if not observed, can cause personal 
+injury!
+Caution! Cautions are included to help you avoid damaging hardware or losing 
+data. 
+There is a danger of a new battery exploding if it is incorrectly installed. 
+Do not attempt to recharge, force open, or heat the battery. Replace the 
+battery only with the same or equivalent type recommended by the man-
+ufacturer. Discard used batteries according to the manufacturer's 
+instructions.
+Note! Notes provide optional additional information.
+
+--- Page 6 ---
+ARK-2232 User Manual vi
+Ordering Information
+ Optional Accessories
+For ARK-2232
+Model Number Description
+ARK-2232L-S6A1 ARK-2232L Intel Atom E3940 1.6 GHz system
+Part Number Description
+96PSA-A60W12W6 AC-to-DC Adapter, DC12V/5A 60W with lockable DC jack
+MOS-1120Y-0202E Isolated RS-232, 2-Ch, DB9, PCIe I/F
+MOS-1120Y-1402E Non-Isolated RS-232, DB37, 4-Ch, PCIe I/F
+MOS-1121Y-0202E Isolated RS-422/485, 2-Ch, DB9, PCIe I/F
+MOS-1121Y-1402E Non-Isolated RS-422/485, DB37, 4-Ch, PCIe I/F
+MOS-2120-Z1101E Giga LAN Ethernet module, 1-Ch, PCIe I/F
+MOS-2220-X1101E Parallel LPT module, 1-Ch, USB I/F
+MOS-1130Y-0201E Isolated CANBus, 2-Ch, DB9, PCIe I/F
+MOS-2230-Z1201E CANBus module, 2-Ch, USB I/F
+MOS-1110Y-0101E Isolated 16 DI/8 DO, 1-Ch, DB37, PCIe I/F
+MOS-2220-Z1101E High Speed COM USB module, 1-Ch, PCIe I/F
+MOS-2110Z-1201E USB module,2-Ch,PCIe I/F
+MOS-2230-Z1201E  CANBus module, 2-Ch, USB I/F
+MIOE-PWR2-00A1E 9~36V DC-in power module
+96PSA-A65W19P2-1 AC-to-DC Adapter, DC19V/3.42A 65W (for MIOe-PWR2)
+96PSA-A65W19P2-2 AC-to-DC Adapter, DC19V/3.42A 65W (for MIOe-PWR2)
+AMO-2201E 4x RS232/422/485+ removable 2.5" drive (2nd layer)
+AMO-2202E 4x 10/100/1000Base T(X) PoE
+AMO-2203E 2x isolated CAN-Bus (2nd layer)
+AMO-2204E      3x GbE + iDoor (2nd layer, this iDoor support USB I/F only)
+1700001524 Power cable 3-pin 183cm, USA type (for MIOe-PWR2)
+170203183C Power cable 3-pin 183cm, EU type (for MIOe-PWR2)
+170203180A Power cable 3-pin 183cm, UK type (for MIOe-PWR2)
+
+--- Page 7 ---
+vii ARK-2232 User Manual
+ 
+Safety Instructions
+1. Please read these safety instructions carefully.
+2. Please keep this User’s Manual for later reference.
+3. Please disconnect this equipment from AC outlet before cleaning. Use a damp 
+cloth. Don’t use liquid or sprayed detergent for cleaning. Use moisture sheet or 
+clothe for cleaning.
+4. For pluggable equipment, the socket-outlet shall near the equipment and shall 
+be easily accessible.
+5. Please keep this equipment from humidity.
+6. Lay this equipment on a reliable surface when install. A drop or fall could cause 
+injury.
+7. The openings on the enclosure are for air convection hence protecting the 
+equipment from overheating. DO NOT COVER THE OPENINGS.
+8. Make sure the voltage of the power source when connecting the equipment to 
+the power outlet.
+9. Place the power cord such a way that people cannot step on it. Do not place 
+anything over the power cord. 
+10. All cautions and warnings on the equipment should be noted.
+11. If the equipment is not used for long time, disconnect the equipment from mains 
+to avoid being damaged by transient over-voltage.
+12. Never pour any liquid into ventilation openings; this could cause fire or electrical 
+shock.
+13. Never open the equipment. For safety reasons, only qualified service personnel 
+should open the equipment.
+14. If one of the following situations arises, get the equipment checked by service 
+personnel:
+The power cord or plug is damaged.
+Liquid has penetrated into the equipment.
+The equipment has been exposed to moisture.
+The equipment does not work well, or you cannot get it to work according to 
+the user's manual.
+The equipment has been dropped and damaged.
+The equipment has obvious signs of breakage.
+15. Do not leave this equipment in an environment where the storage temperature 
+may go below -40° C (-40° F) or above 85° C (185° F). This could damage the 
+equipment. the equipment should be in a controlled environment.
+16. CAUTION: Any unverified component could cause unexpected damage. To 
+ensure the correct installation, please always use the components (ex. screws) 
+provided with the accessory box.
+ATTENTION: Tout composant non vérifiée pourrait causer des dommages inat-
+tendu. Pour garantir une installation correcte, s'il vous plaît utilisez toujours les 
+composants (vis ex.) fournies avec la boîte d'accessoires.
+17. CAUTION: The computer is provided with a battery-powered real-time clock cir-
+cuit. There is a danger of explosion if battery is incorrectly replaced. Replace 
+only with same or equivalent type recommended by the manufacture. Discard 
+used batteries according to the manufacturers instructions.
+ATTENTION: L'ordinateur est muni d'un circuit en temps réel de l'horloge ali-
+mentéepar batterie. Il ya un danger d'explosion si la pile est remplacée de façon 
+incorrecte.Remplacez uniquement par un type identique ou equivalent vii User 
+Manualrecommandé par le fabricant. Jetez les piles usagées selon les instruc-
+tions du fabricant.
+
+--- Page 8 ---
+ARK-2232 User Manual viii
+18. CAUTION: Always completely disconnect the power cord from your chassis 
+whenever you work with the hardware. Do not make connections while the 
+power is on. Sensitive electronic components can be damaged by sudden 
+power surges.
+ATTENTION: Toujours débrancher complètement le cordon d'alimentation de 
+votre châssis lorsque vous travaillez avec le matériel. Ne pas effectuer les rac-
+cordements lorsque l'appareil est sur. Composants électroniques sensibles peu-
+vent être endommagés par les surtensions soudaines.
+19. The sound pressure level at the operator's position according to IEC 704-1:1982 
+is no more than 70 dB (A).
+20. RESTRICTED ACCESS AREA: The equipment should only be installed in a 
+Restricted Access Area.
+21. DISCLAIMER: This set of instructions is given according to IEC 704-1. Advan-
+tech disclaims all responsibility for the accuracy of any statements contained 
+herein.
+22. The product is to be connected only to PoE networks without routing to the out-
+side plant.
+23. This product is intended to be supplied by an UL certified (1) power supply or (2) 
+DC source suitable for use at minimum Tma 40 degree C and output is rated (1) 
+12Vdc, 5A min. or (2) 9-36Vdc, 6.66-1.66A(Option), if need further assistance, 
+please contact Advantech for further information.
+
+--- Page 9 ---
+ix ARK-2232 User Manual
+ 
+Contents
+Chapter 1 General Introduction ...........................1
+1.1 Introduction ............................................................................................... 2
+1.2 Product Features....................................................................................... 3
+1.2.1 General ......................................................................................... 3
+1.2.2 Display .......................................................................................... 3
+1.2.3 Ethernet ........................................................................................ 3
+1.3 Chipset ...................................................................................................... 4
+1.3.1 Functional Specification ................................................................ 4
+1.3.2 WISE-PaaS................................................................................... 5
+1.4 Mechanical Specifications......................................................................... 5
+1.4.1 Dimensions ................................................................................... 5
+Figure 1.1 ARK-2232 Mechanical dimension drawing................. 5
+1.4.2 Weight........................................................................................... 5
+1.5 Power Requirements................................................................................. 5
+1.5.1 System Power............................................................................... 5
+1.5.2 RTC Battery .................................................................................. 5
+1.6 Environment Specification......................................................................... 6
+1.6.1 Operating Temperature................................................................. 6
+1.6.2 Relative Humidity .......................................................................... 6
+1.6.3 Storage Temperature.................................................................... 6
+1.6.4 Vibration during Operation ............................................................ 6
+1.6.5 Shock during Operation ................................................................ 6
+1.6.6 Safety............................................................................................ 6
+1.6.7 EMC .............................................................................................. 6
+Chapter 2 H/W Installation....................................7
+2.1 Introduction ............................................................................................... 8
+2.2 Jumpers .................................................................................................... 8
+2.2.1 Jumper Description ....................................................................... 8
+2.2.2 Jumper List ................................................................................... 9
+Table 2.1: Jumper List of Main Board.......................................... 9
+2.2.3 Jumper Location ........................................................................... 9
+Figure 2.1 Jumper Layout.......................................................... 10
+2.2.4 Jumper Setting............................................................................ 10
+2.3 Connectors.............................................................................................. 12
+2.3.1 ARK-2232 External I/O ............................................................... 12
+Figure 2.2 ARK-2232 Front I/O.................................................. 12
+Figure 2.3 ARK-2232 Rear I/O .................................................. 12
+Figure 2.4 Power Button ............................................................ 13
+Figure 2.5 LED Indicators .......................................................... 13
+Figure 2.6 HDMI Connector....................................................... 13
+Figure 2.7 VGA Connector ........................................................ 14
+Figure 2.8 USB 3.0 Connector................................................... 14
+Figure 2.9 USB 2.0 Connector................................................... 15
+Figure 2.10Ethernet Connector (LAN) ........................................ 15
+Figure 2.11Audio Connector....................................................... 16
+Figure 2.12COM Connector........................................................ 16
+Figure 2.13GPIO Connector ....................................................... 17
+Table 2.2: GPIO Connector ....................................................... 17
+2.4 Installation ............................................................................................... 17
+2.4.1 Memory Installation..................................................................... 17
+2.4.2 HDD/SSD Installation.................................................................. 18
+2.4.3 mSATA Installation ..................................................................... 20
+
+--- Page 10 ---
+ARK-2232 User Manual x
+2.4.4 Power Module (MIOe-PWR2) Installation (Option)..................... 21
+2.4.5 Wall mount Installation (Option).................................................. 25
+2.4.6 iDoor Module Installation (Option) .............................................. 25
+2.4.7 2nd Layer MIOe Module Installation (Option) ............................. 25
+Chapter 3 AMI BIOS Setup................................. 27
+3.1 Entering Setup ........................................................................................ 28
+3.1.1 Main Setup.................................................................................. 28
+3.1.2 Advanced BIOS Features Setup................................................. 29
+3.1.3 Chipset Configuration ................................................................. 45
+3.1.4 Security....................................................................................... 55
+3.1.5 Boot ............................................................................................ 56
+3.1.6 Save & Exit ................................................................................. 57
+Appendix A Watchdog Timer Sample Code ........ 59
+A.1 EC Watchdog Timer sample code .......................................................... 60
+
+--- Page 11 ---
+Chapter 1
+1 General Introduction
+This chapter gives background 
+information on ARK-2232 series.
+
+--- Page 12 ---
+ARK-2232 User Manual 2
+1.1 Introduction
+ARK-2232 is an intelligent, modular and fanless embedded system. A fully modular
+design, ARK-2232 supports easy I/O switching with optional iDoor modules, wide
+range power board and ARK Plus expansions. ARK-2232 is targeted at factory auto-
+mation, machine automation, kiosks, and self-service applications.
+Rugged & Multifunctional Design
+ARK-2232 embedded box PC is powered by Intel® Atom™ E3940 processor to offer
+high performance in low power consumption. The compact size system provides a
+selection of I/O ports: 2 x USB 3.0, 4 x USB 2.0, 2 x GbE, 4 x COM, 1 x mPCIe,1
+xM.2 E Key and 1 x 2.5" HDD. The default power input is 12V DC in, and it also sup-
+ports an optional wide range 9~36V power module with wide temperature operation
+of -20 to 60C. ARK-2232 passes worldwide certification including CE/FCC, CB, UL,
+CCC and BSMI.
+ 
+Multiple Display Support
+ARK-2232 supports dual independents displays: 1 x VGA + 1 x HDMI which HDMI
+support 4K resolution. The graphic engine is DirectX 11.3, OpenGL 4.4, and OpenCL
+2.1 Full AVC/VC1/MPEG2 HW Decode. 
+Built in Intelligent Management Tools - WISE-PaaS
+Advantech WISE-PaaS provides a valuable suite of programmable APIs such as
+multi-level watchdog, hardware monitor, system restore, and other user-friendly inter-
+face. iManager is an intelligent self-management cross platform tool that monitors
+system status for problems and takes action if anything is abnormal. It offers a boot
+up guarantee in critical, low temperature environments so systems can automatically
+recover when voltages dip. WISE-PaaS makes the whole system more reliable and
+more intelligent. ARK-2232L provides easy remote management so users can moni-
+tor, configure, and control a large number of terminals to make maintenance and sys-
+tem recovery simpler.
+
+--- Page 13 ---
+3 ARK-2232 User Manual
+Chapter 1 General Introduction
+1.2 Product Features
+1.2.1 General
+ CPU: 
+– Intel Atom™ E3940 QC SoC 1.6GHz boost up to 1.8GHz
+ BIOS: AMI UEFI 64Mbit
+ System Memory: 1x DDR3L 1866MHz up to 8 GB
+ Watchdog Timer: Single chip Watchdog 255-level interval timer, setup by soft-
+ware
+ I/O Interface: 2 x RS232, 2 x RS232/422/485
+ USB: 4 x USB 2.0, 2 x USB 3.0 compliant ports
+ Audio: High Definition Audio (HD), Line out, Mic-in
+ Storage: 1 x mSATA and 1 x high capacity 2.5” SATA HDD (up to 12.5mm 
+height)
+ Expansion Interface: 
+– Supports 1 x MiniPCIe with SIM holder
+– Supports 1 x M.2 NGFF 2230 E Key
+– Supports 1 x iDoor expansion (by 1st layer)
+– Support 1 x ARK Plus expansion (by 2nd layer)
+1.2.2 Display
+ Controller: Intel
+®
+ HD Graphics 500
+ Resolution:
+– VGA: Supports up to 1920 x 1200 @ 60Hz
+– HDMI: Supports up to 3840 x 2160 @ 30Hz
+ Dual Display: VGA+HDMI
+1.2.3 Ethernet
+ Chipset: 
+– LAN1 Intel i210-IT
+– LAN2 Intel i210-IT
+ Speed: 10/100/1000 Mbps
+ Interface: 2 x RJ45
+ Standard: Compliant with IEEE 802.3, IEEE 802.3u, IEEE 802.3x, IEEE 802.3y, 
+IEEE 802.ab.
+
+--- Page 14 ---
+ARK-2232 User Manual 4
+1.3 Chipset
+1.3.1 Functional Specification
+1.3.1.1 Processor
+1.3.1.2 Chipset
+1.3.1.3 Others
+Processor
+Intel Atom™ E3940 QC SoC 1.6GHz boost up to 1.8GHz
+Memory
+Supports DDR3L 1866MHz up to 8GB 
+1 x 204-pin SODIMM socket type
+Internal Graph-
+ics Features
+ DirectX 11.1/12, OpenGL 4.3
+ Display Ports VGA, HDMI (HDMI 1.4b)
+Video Accelera-
+tor
+  H/W accelerated video decode
+  Video decoder: HEVC/H.264/MVC/VC-1//MPEG2 HW Decode
+  Supports DVD, Blu-ray, and HD video
+SATA Interface
+ Supports several optional sections of Serial ATA II: Extensions to 
+Serial ATA 1.0 Specification, Revision 1.0
+ Supports SATA transfers to 300 Mbytes/sec.
+ Supports mSATA socket
+USB Interface
+ USB host interface with support for 2 USB 3.0 and 4 USB 2.0 ports
+ All ports are High-Speed, Full-Speed, and Low-Speed capable
+ Supports legacy keyboard/mouse software
+BIOS  UEFI 64Mbit
+Serial ports
+ COM1, COM2: Supports RS-232
+COM3 ~ COM4: Supports RS-232/422/485 and change mode under 
+BIOS setting
+** COM3 ~ COM4 RS-485 supports Auto flow control.
+COM connector: D-SUB CON. 9P
+Ethernet
+LAN1 Intel i210-IT, LAN2 Intel i210-IT
+ Compliant with IEEE 802.3, IEEE 802.3u, IEEE 802.3x, IEEE 802.3y, 
+IEEE 802.ab.
+ Support 10/100/1000 Mbps.
+LAN Connectors: Phone Jack RJ45 8P 90D(F)
+Audio
+Audio Codec: Realtek ALC888S:
+  Compliant with HD Audio specifications
+  Supports 16/20/24-bit DAC and 16/20/24-bit ADC resolution 
+  Supports: Line-out, Mic-in
+Audio Connectors: Ear Phone Jack * 2
+Battery backup  BATTERY 3V/210 mAh with WIRE x 1
+
+--- Page 15 ---
+5 ARK-2232 User Manual
+Chapter 1 General Introduction
+1.3.2 WISE-PaaS
+1.4 Mechanical Specifications
+1.4.1 Dimensions
+Standard: 260[10.24] x 44[1.73] x 140.2[5.52] Unit: mm [Inch]
+System with Optional Dual Layer: 260[10.24] x 78.6[3.09] x 140.2[5.52] Unit: mm
+[Inch]
+Figure 1.1 ARK-2232 Mechanical dimension drawing
+1.4.2 Weight
+2.9kg (6.39 lbs)
+1.5 Power Requirements
+1.5.1 System Power
+ Minimum power input: 
+– ARK-2232: DC 12V, 5A(Default); 9-36V DC, 6.66A-1.66A (Option by power 
+module)
+1.5.2 RTC Battery
+ Lithium 3 V/210 mAH
+Sequence control Supported
+Watchdog timer Multi Level WDT 
+Programmable 1-255 sec / min
+Hardware monitor CPU Temperature / input Current / input Voltage
+Power saving Deep sleep S5 mode 
+System information Running HR / Boot record
+
+--- Page 16 ---
+ARK-2232 User Manual 6
+1.6 Environment Specification
+1.6.1 Operating Temperature
+ With Industrial Grade SSD/mSATA: -20 ~ 60° C (-4~140° F), with air flow, 
+speed=0.7 m/sec
+ With 2.5-inch hard disk 0 to 40° C (32~104° F), with air flow, speed=0.7 m/sec
+1.6.2 Relative Humidity
+ 95% @ 40° C (non-condensing)
+1.6.3 Storage Temperature
+ -40 ~ 85° C (-40 ~ 185° F)
+1.6.4 Vibration during Operation
+ When the system is equipped with SSD/mSATA: 3Grms, IEC 60068-2-64, ran-
+dom, 5 ~ 500 Hz, 1hr/axis, x,y,z 3 axes.
+1.6.5 Shock during Operation
+ When the system is equipped with SSD/mSATA: 30G, IEC 60068-2-27, half 
+sine, 11 ms duration.
+1.6.6 Safety
+ UL, CB, CCC, BSMI
+1.6.7 EMC
+ CE, FCC, CCC, BSMI
+
+--- Page 17 ---
+Chapter 2
+2 H/W Installation
+This chapter introduces external 
+IO and the installation of ARK-
+2232 hardware.
+
+--- Page 18 ---
+ARK-2232 User Manual 8
+2.1 Introduction
+The following sections show the internal jumpers setting and the external connectors
+pin assignment for application.
+2.2 Jumpers 
+2.2.1 Jumper Description
+You may configure ARK-2232 to match the needs of your application by setting jump-
+ers. A jumper is a metal bridge used to close an electric circuit. It consists of two
+metal pins and a small metal clip (often protected by a plastic cover) that slides over
+the pins to connect them. To close a jumper, you connect the pins with the clip. To
+open a jumper, you remove the clip. Sometimes a jumper will have three pins,
+labeled 1, 2 and 3. In this case you would connect either pins 1 and 2, or 2 and 3.
+The jumper settings are schematically depicted in this manual as follows.
+A pair of needle-nose pliers may be helpful when working with jumpers. If you have
+any doubts about the best hardware configuration for your application, contact your
+local distributor or sales representative before you make any changes. Generally, you
+simply need a standard cable to make most connections. 
+closed 2-3closedopen
+12 12
+closed 2-3closedopen
+
+--- Page 19 ---
+9 ARK-2232 User Manual
+Chapter 2 H/W Installation
+2.2.2 Jumper List
+2.2.3 Jumper Location
+Table 2.1: Jumper List of Main Board
+J1 RTC Reset
+J2 AT Mode Jumper
+J5 RS-422/485 Terminal Resistor Jumper
+CN32 mSATA & Mini PCIe Switch
+CN48 M.2 SMBUS Voltage SEL
+
+--- Page 20 ---
+ARK-2232 User Manual 10
+Figure 2.1 Jumper Layout 
+2.2.4 Jumper Setting
+At Mother Board
+J1 RTC Reset
+Part Number 1653003101
+Footprint HD_3x1P_79_D
+Description PIN HEADER 3x1P 2.0mm 180D(M) DIP 2000-13 WS
+Setting Function
+(1-2)* Normal (default)
+(2-3)* RTC Reset
+
+--- Page 21 ---
+11 ARK-2232 User Manual
+Chapter 2 H/W Installation
+ 
+ 
+J2 AT Mode Jumper
+Part Number 1653002101-02
+Footprint HD_2x1P_79_D
+Description PIN HEADER 2x1P 2.0mm 180D(M) DIP 21N12050
+Setting Function
+NL ATX Mode (default)
+(1-2)* AT Mode
+J5 RS-422/485 Terminal Resistor Jumper
+Part Number 1653003260
+Footprint HD_3x2P_79
+Description PIN HEADER 3x2P 2.0mm 180D(M) SMD 21N22050
+Setting Function
+(1-3)* COM3 Enable
+(3-5)* COM3 Disable (default)
+(2-4)* COM4 Enable
+(4-6)* COM4 Disable (default)
+CN32 mSATA & Mini PCIe Switch
+Part Number 1653003101
+Footprint HD_3x1P_79_D
+Description PIN HEADER 3x1P 2.0mm 180D(M) DIP 2000-13 WS
+Setting Function
+NL BIOS control (default)
+(1-2)* Mini PCIe
+(2-3)* mSATA
+
+--- Page 22 ---
+ARK-2232 User Manual 12
+2.3 Connectors
+2.3.1 ARK-2232 External I/O
+Figure 2.2 ARK-2232 Front I/O
+Figure 2.3 ARK-2232 Rear I/O
+CN48 M.2 SMBUS Voltage SEL
+Part Number 1653003101
+Footprint HD_3x1P_79_D
+Description PIN HEADER 3x1P 2.0mm 180D(M) DIP 2000-13 WS
+Setting Function
+(1-2)* 3.3V(default)
+(2-3)* 1.8V
+
+--- Page 23 ---
+13 ARK-2232 User Manual
+Chapter 2 H/W Installation
+2.3.1.1 Power ON/OFF Button
+ARK-2232 has a Power On/Off button with LED indicators on the front side that show
+On status (Green LED) and Off/Suspend status (Orange LED). The Power button
+supports dual functions: Soft Power -On/Off (Instant off or Delay 4 Seconds then off)
+and Suspend.
+Figure 2.4 Power Button
+2.3.1.2 LED Indicators
+There are two LEDs on the front panel that indicate system status: The Power LED is
+for system power status; and HDD LED is for HDD and compact flash disk status.
+Figure 2.5 LED Indicators
+2.3.1.3 HDMI Connector
+An integrated 19-pin receptacle connector HDMI 1.4b interface is provided. The
+HDMI link supports resolutions up to 3840 x 2160 @ 30 Hz.
+Figure 2.6 HDMI Connector
+Pin Signal Name
+1HDMI_TX2+
+2GND
+3HDMI_TX2-
+4HDMI_TX1+
+5GND
+6HDMI_TX1-
+7HDMI_TX0+
+8GND
+9HDMI_TX0-
+10 HDMI_CLK+
+11 GND
+12 HDMI_CLK-
+13 NC
+14 NC
+15 HDMI_DCLK
+
+--- Page 24 ---
+ARK-2232 User Manual 14
+NC represents "No Connection".
+2.3.1.4 VGA Connector
+The ARK-2232 provides a high resolution VGA interface connected by a D-sub 15-
+pin connector to support a VGA CRT monitor. It supports display resolutions of up to
+1920 x 1200 @ 60Hz (No hotplug support)
+Figure 2.7 VGA Connector
+2.3.1.5 USB 3.0 Connector
+The USB port 1, 2, of ARK-2232 supports USB3.0 interface, which provide complete
+Plug & Play and hot swapping for up to 127 external devices. The USB interface
+complies with USB UHCI, Rev. 3.0. 
+Please refer to Table. 2.8 for its pin assignments. USB 3.0 connectors contain legacy
+pins to interface to USB 2.0 devices, and a new set of pins for USB 3.0 connectivity
+(both sets reside in the same connector).
+Figure 2.8 USB 3.0 Connector
+16 HDMI_DDAT
+17 GND
+18 +V5_HDMI-HPD
+19 DDP0_HPD
+Pin Signal Name Pin Signal Name
+1 VGA_z_R 2 VGA_z_G
+3 VGA_z_B 4 VGA_z_SPC
+5 GND 6 GND_RGB
+7 GND_RGB 8 GND_RGB
+9+V5 10GND
+11 VGA_z_SPD 12 VGA_z_DDAT
+13 VGA_z_HS 14 VGA_z_VS
+15 VGA_z_DCLK
+Pin Signal Name Pin Signal Name
+1 +5V 2 USB_data-
+3 USB_data+ 4 GND
+5 SSRX- 6 SSRX+
+7 GND 8 SSTX-
+9 SSTX+
+
+--- Page 25 ---
+15 ARK-2232 User Manual
+Chapter 2 H/W Installation
+2.3.1.6 USB 2.0 Connector
+ARK-2232 provides four USB 2.0 interface connectors. The USB 3, 4, 5, 6 connec-
+tors are used to connect any device that conforms to the USB interface. Most digital
+devices conform to this standard. The USB interface supports Plug and Play.
+Figure 2.9 USB 2.0 Connector
+2.3.1.7 Ethernet Connector (LAN)
+ARK-2232 is equipped with two Ethernet controllers that are fully compliant with IEEE
+802.3u 10/100/1000 Mbps CSMA/CD standards. LAN1, LAN2 are all equipped with
+Intel i210-IT Ethernet controller. The Ethernet port provides a standard RJ-45 jack
+connector with LED indicators on the front side to show its Active/Link status (Green
+LED) and Speed status (Yellow LED).
+Figure 2.10 Ethernet Connector (LAN)
+Pin Signal Name Pin Signal Name
+1 VCC 2 USB_data-
+3 USB_data+ 4 GND
+Pin Signal Name
+1TX+
+2TX-
+3RX+
+4MDI2+
+5MDI2-
+6RX-
+7MDI3+
+8MDI3-
+
+--- Page 26 ---
+ARK-2232 User Manual 16
+2.3.1.8 Audio Connector
+ARK-2232 offers stereo audio ports by two phone jack connectors of Line_Out,
+Mic_In. The audio chip is controlled by ALC888S, and it's compliant with Azalea stan-
+dard.
+Figure 2.11 Audio Connector
+2.3.1.9 COM Connector
+ARK-2232 provides four COM ports by four D-sub 9-pin connectors. Com1/Com2
+only support RS232. Com3/Com4 offers RS232/422/485 serial communication inter-
+face ports. COM3/Com4 default setting is RS-232, if you want to use RS-422/485,
+you can find the BIOS manual to change setting.
+Figure 2.12 COM Connector
+NC represents "No Connection".
+Pin Audio Signal Name
+1 Line out
+2Mic in
+RS-232 RS-422 RS-485
+Pin Signal Name Signal Name Signal Name
+1DCD Tx- DATA-
+2RxD Tx+ DATA+
+3 TxD Rx+ NC
+4DTR Rx- NC
+5 GND GND GND
+6DSR NC NC
+7RTS NC NC
+8CTS NC NC
+9RI NC NC
+
+--- Page 27 ---
+17 ARK-2232 User Manual
+Chapter 2 H/W Installation
+2.3.1.10 GPIO Connector
+ARK-2232 provides one 8 bit GPIO with D-sub 9-pin connector. The GPIO is pro-
+grammable and input/output define by customer. Below is pin define of GPIO connec-
+tor. 
+Figure 2.13 GPIO Connector
+2.4 Installation
+2.4.1 Memory Installation
+1. Unscrew the 4 screws on the top cover. (Please use the tool in the accessory 
+box.)
+Table 2.2: GPIO Connector
+Pin Signal Name
+1 DIO bit 0
+2 DIO bit 1
+3 DIO bit 2
+4 DIO bit 3
+5 DIO bit 4
+6 DIO bit 5
+7 DIO bit 6
+8 DIO bit 7
+9GND
+
+--- Page 28 ---
+ARK-2232 User Manual 18
+2. Remove the top cover and install the memory into the memory socket.
+3. Replace the top cover.
+2.4.2 HDD/SSD Installation
+1. Unscrew the 4 screws on the bottom cover, and the 4 screws on both sides of 
+ARK-2232.
+
+--- Page 29 ---
+19 ARK-2232 User Manual
+Chapter 2 H/W Installation
+2. Unscrew the 4 screws on the HDD bay.
+3. Install the HDD/SSD into the HDD bay, and fix the HDD onto the bracket.
+4. Fix the 4 screws back onto the HDD bay.
+
+--- Page 30 ---
+ARK-2232 User Manual 20
+5. Replace the bottom cover and fix the 8 screws back on the system.
+2.4.3 mSATA Installation
+1. Unscrew the 4 screws on the bottom cover, and the 4 screws on both sides of 
+ARK-2232.
+2. Put the mSATA module onto the mSATA slot (CN20), and fasten the 2 screws 
+back on the mSATA module.
+
+--- Page 31 ---
+21 ARK-2232 User Manual
+Chapter 2 H/W Installation
+3. Replace the bottom cover and fasten the 8 screws back onto the system.
+2.4.4 Power Module (MIOe-PWR2) Installation (Option)
+1. Remove the 4 screws on the top cover. (Please use the tool in the accessory 
+box.)
+
+--- Page 32 ---
+ARK-2232 User Manual 22
+2. Remove the 2 screws on the power bracket for the original DC jack on the front 
+panel.
+3. Unscrew the 4 screws on the bottom cover and on both sides of ARK-2232.
+
+--- Page 33 ---
+23 ARK-2232 User Manual
+Chapter 2 H/W Installation
+4. Remove the original internal power cable from M/B.
+5. Link the MIOe-PWR2 internal power cable from M/B to the power board.
+
+--- Page 34 ---
+ARK-2232 User Manual 24
+6. Turn to the top side, and fasten the 4 screws for the power board, and tape 3 
+thermal pads on the red marks.
+7. Screw the new power bracket for MIOe-PWR2 on the front panel.
+8. Replace the bottom cover and the 8 screws back onto the system.
+9. Replace the top cover and the 4 screws.
+
+--- Page 35 ---
+25 ARK-2232 User Manual
+Chapter 2 H/W Installation
+2.4.5 Wall mount Installation (Option)
+1. Unscrew the 4 screws on both sides of ARK-2232.
+2. Screw wall mount brackets on both sides of ARK-2232.
+2.4.6 iDoor Module Installation (Option)
+Please refer to the start up manual in the iDoor kit.
+2.4.7 2nd Layer MIOe Module Installation (Option)
+Please refer to the start up manual in the iDoor kit.
+Note! M3 type screws, length 5mm x 4 provided for fixing mounting kit and 
+unit. Use suitable mounting apparatus to avoid risk of injury.
+
+--- Page 38 ---
+ARK-2232 User Manual 28
+With the AMIBIOS Setup program, you can modify BIOS settings and control the var-
+ious system features. This chapter describes the basic navigation of ARK-2232 BIOS
+setup screens.
+AMI BIOS ROM has a built-in Setup program that allows users to modify the basic
+system configuration. This information is stored in battery-backed CMOS so it retains
+the Setup information when the power is turned off.
+3.1 Entering Setup
+Turn on the computer and check for the patch code. If there is a number assigned to
+the patch code, it means that the BIOS supports your CPU. If there is no number
+assigned to the patch code, please contact an Advantech application engineer to
+obtain an up-to-date patch code file. This will ensure that your CPU's system status is
+valid. After ensuring that you have a number assigned to the patch code, press
+<DEL> and you will immediately be allowed to enter Setup.
+3.1.1 Main Setup 
+When you first enter the BIOS Setup Utility, you will encounter the Main setup screen.
+You can always return to the Main setup screen by selecting the Main tab. There are
+two Main Setup options. They are described in this section. The Main BIOS Setup
+screen is shown below.
+
+--- Page 39 ---
+29 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+The Main BIOS setup screen has two main frames. The left frame displays all the
+options that can be configured. Grayed-out options cannot be configured; options in
+blue can. The right frame displays the key legend.
+Above the key legend is an area reserved for a text message. When an option is
+selected in the left frame, it is highlighted in white. Often a text message will accom-
+pany it.
+ System time / System date 
+Use this option to change the system time and date. Highlight System Time or
+        System Date using the <Arrow> keys. Enter new values through the keyboard.
+        Press the <Tab> key or the <Arrow> keys to move between fields. The date
+        must be entered in MM/DD/YY format. The time must be entered in HH:MM:SS
+        format.
+3.1.2 Advanced BIOS Features Setup 
+Select the Advanced tab from the ARK-2232 setup screen to enter the Advanced
+BIOS Setup screen. You can select any of the items in the left frame of the screen,
+such as CPU Configuration, to go to the sub menu for that item. You can display an
+Advanced BIOS Setup option by highlighting it using the <Arrow> keys. All Advanced
+BIOS Setup options are described in this section. The Advanced BIOS Setup
+screens is shown below. The sub menus are described on the following pages.
+
+--- Page 40 ---
+ARK-2232 User Manual 30
+ Setup Item Hidden 
+Enable or Disable setup item.
+3.1.2.1 Driver Health
+
+--- Page 41 ---
+31 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+Provide Health Status for the Drivers/Controllers.
+3.1.2.2 Trusted Computing
+ Security Device Support 
+Enable or disable BIOS support for security device.
+ SHA-1 PCR Bank 
+Enable or Disable SHA-1 PCR Bank.
+ SHA256 PCR Bank
+Enable or Disable SHA256 PCR Bank.
+ Pending operation
+Schedule an Operation for the Security Device.
+ Platform Hierarchy 
+Enable or Disable Platform Hierarchy.
+ Storage Hierarchy 
+Enable or Disable Storage Hierarchy.
+ Endorsement Hierarchy 
+Enable or Disable Endorsement Hierarchy.
+ TPM 2.0 UEFI Spec Version 
+Select the TCG2 Spec Version Support.
+ Physical Presence Spec Version 
+Select to Tell O.S. to support PPI Spec Version 1.2 or 1.3.
+ Device Select 
+TPM 1.2 will restrict support to TPM 1.2 devices, TPM 2.0 will restrict support to 
+TPM 2.0 devices.
+
+--- Page 42 ---
+ARK-2232 User Manual 32
+3.1.2.3 ACPI Settings
+ Enable ACPI Auto Configuration
+Enable or disable BIOS ACPI auto configuration.
+ Enable Hibernation
+Enables or Disables System ability to Hibernate (OS/S4 Sleep State). This
+        option may be not effective with some OS.
+ ACPI Sleep State
+Select the highest ACPI sleep state the system will enter when the SUSPEND
+        button is pressed.
+ Lock Legacy Resources
+Enables or Disables Lock of Legacy Resources
+
+--- Page 43 ---
+33 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+3.1.2.4 Embedded Controller Configuration
+ 
+Embedded controller configuration displays all information about system Tempera-
+ture/Voltage.
+ Backlight Enable Polarity
+Switch Backlight Enable Polarity for Native or Invert.
+ 1st LVDS Backlight Control
+Switch Backlight Control to PWM or DC mode.
+ Power Saving Mode
+This item allows users to set board's power saving mode when off.
+ Watch Dog Timer
+Watch Dog Timer Configuration Page.
+
+--- Page 44 ---
+ARK-2232 User Manual 34
+Watch Dog Timer Configuration
+ Watch Dog Timer
+        This page displays all information about Watch Dog Timer Configuration.
+3.1.2.5 S5 RTC Wake Settings 
+ 
+ Wake system from S5
+Enable or disable System wake on alarm event. Select FixedTime, system will
+        wake on the hr:min:sec specified.
+
+--- Page 45 ---
+35 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+3.1.2.6 Serial Port Console Redirection 
+ 
+ Console Redirection
+This item allows users to enable or disable console redirection for Microsoft
+        Windows Emergency Management Services (EMS).
+ Console Redirection
+This item allows users to configuration console redirection detail settings.
+
+--- Page 46 ---
+ARK-2232 User Manual 36
+3.1.2.7 CPU Configuration
+ CPU Information
+Socket specific CPU Information
+ Intel Virtualization Technology
+When enabled, a VMM can utilize the additional hardware capabilities provided
+        by Vanderpool Technology.
+ VT-d
+Enable/Disable CPU VT-d.
+ Monitor Mwait
+Enable/Disable Monitor Mwait.
+ P-STATE Coordination
+Change P-STATE Coordination type.
+
+--- Page 47 ---
+37 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+3.1.2.8 CPU Power Management
+ EIST
+Enable/Disable Intel SpeedStep.
+ Turbo mode
+Turbo Mode.
+ Boot performance mode
+Enable Max Performance mode
+ C-States
+Enable or Disable C States.
+ Power Limit 1 enable
+Enable or Disable Power Limit 1.
+
+--- Page 48 ---
+ARK-2232 User Manual 38
+3.1.2.9 PCI Subsystem Settings
+ Above 4G Decoding
+Enable or Disable Above 4G Decoding device.
+ Hot-Plug Support
+Enable or Disable Hot-plug support
+
+--- Page 49 ---
+39 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+3.1.2.10 Network Stack Configuration
+ Network Stack
+Enable/Disable UEFI Network Stack.
+
+--- Page 50 ---
+ARK-2232 User Manual 40
+3.1.2.11 CSM Configuration
+ 
+CSM Support for debug purpose
+ CSM Support
+Enable/Disable CSM Support.
+ GateA20 Active
+UPON REQUEST - GA20 can be disabled using BIOS services. ALWAYS - do
+     not allow disabling GA20; this option is useful when any RT code is executed
+     above 1MB.
+ INT19 Trap Response
+BIOS reaction on INT19 trapping by Option ROM: IMMEDIATE - execute the
+     trap right away; POSTPONED - execute the trap during legacy boot. 
+ Boot option filter
+This option controls Legacy/UEFI ROMs priority.
+ Network
+Controls the execution of UEFI and Legacy PXE OpROM.
+ Storage
+Controls the execution of UEFI and Legacy Storage OpROM.
+ Video
+Controls the execution of UEFI and Legacy Video OpROM.
+ Other PCI devices
+     Determines OpROM execution policy for devices other than Network, Storage,
+     or Video.
+
+--- Page 51 ---
+41 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+3.1.2.12 USB Configuration
+ Legacy USB Support
+    Enables Legacy USB support. AUTO option disables legacy support if no USB
+devices are connected. DISABLE option will keep USB devices available only
+for EFI applications.
+ XHCI Hand-off
+    This is a workaround for OSes without XHCI hand-off support. The XHCI owner
+ship change should be claimed by XHCI driver.
+ USB Mass Storage Driver Support
+     Enable/Disable USB Mass Storage Driver Support.
+ USB transfer time-out
+Time-out value for control, Bulk, and interrupt transfers.
+ Device reset time-out
+USB mass storage device start unit command time-out.
+ Device power-up delay
+     Maximum time the device will take before it properly reports itself to the Host
+     Controller. 'Auto' uses default value: for a Root port it is 100 ms, for a Hub port
+     the delay is taken from Hub descriptor.
+
+--- Page 52 ---
+ARK-2232 User Manual 42
+3.1.2.13 Security Configuration
+ TXE HMRFPO Disable
+This item allows you to enable or diable TXE HMRFPO function
+ TXE EOP Message
+Send EOP Message Before Enter OS
+
+--- Page 53 ---
+43 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+3.1.2.14 IT8768E Super IO Configuration
+Super IO Configuration (IT8768E)
+ Serial Port 1 Configuration
+Set Parameters of Serial Port 1 (COM1).
+ Serial Port 2 Configuration
+Set Parameters of Serial Port 2 (COM2).
+ Serial Port 3 Configuration
+Set Parameters of Serial Port 3 (COM3).
+ Serial Port 4 Configuration
+Set Parameters of Serial Port 4 (COM4).
+
+--- Page 54 ---
+ARK-2232 User Manual 44
+ Serial Port
+Enable or Disable Serial Port (COM).
+ Change Settings
+Select an optimal settings for Super IO Device.
+ COM Mode
+Select communication type as RS232/RS422/RS485. (Only selectable for
+COM3/COM4)
+
+--- Page 55 ---
+45 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+3.1.3 Chipset Configuration
+ North Bridge
+Details for North Bridge items.
+ South Bridge
+Details for South Bridge items.
+ Uncore Configuration
+Details for Uncore Configuration.
+ South Cluster Configuration
+Details for South Cluster Configuration.
+
+--- Page 56 ---
+ARK-2232 User Manual 46
+3.1.3.1 North Bridge
+ 
+ Max TOLUD
+Maximum Value of TOLUD.
+3.1.3.2 South Bridge
+
+--- Page 57 ---
+47 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+ Serial IRQ Mode
+Configure Serial IRQ Mode.
+ SMBus Support
+Enable/Disable SMBus Support.
+ OS Selection
+     Select the target OS.
+3.1.3.3 Uncore Configuration
+ 
+ LVDS Panel Type
+Select LCD Panel Type.
+ Integrated Graphics Device
+Enable: Enable Integrated Graphics Device (IGD) when selected as the Primary 
+Video Adaptor. Disable: Always disable IGD.
+ RC6 Render Standby
+Check to enable render standby support.
+ GTT Size 
+Select the GTT Size 
+ Aperture Size
+Select the Aperture Size.
+ DVMT Pre-Allocated
+Select DVMT 5.0 Pre-Allocated (Fixed) Graphics Memory size used by the
+Internal Graphics Device.
+ DVMT Total Gfx Mem
+Select DVMT 5.0 Total Graphic Memory size used by the Internal Graphics
+     Device.
+ Cd Clock Frequency
+Select the highest Cd Clock frequency supported by the platform.
+
+--- Page 58 ---
+ARK-2232 User Manual 48
+ GT PM Support
+Enable/Disable GT PM Support. 
+ PAVP Enable
+Enable/Disable PAVP.
+ Memory Scrambler
+Enable/Disable Memory Scrambler support.
+3.1.3.4 South Cluster Configuration
+ HD-Audio Configuration
+HD-Audio Configuration Settings.
+ PCI Express Configuration
+PCI Express Configuration Settings.
+ SATA Drives
+Press <Enter> to select the SATA Device Configuration Setup options.
+ USB Configuration
+USB Configuration Settings.
+ Miscellaneous Configuration
+Enable/Disable Misc. Features.
+ mSATA/Mini-PCIe/SATA1 Switch 
+Select Disk connector type
+
+--- Page 59 ---
+49 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+HD-Audio Configuration
+ 
+ HD-Audio Support
+Enable/Disable HD-Audio Support.
+
+--- Page 60 ---
+ARK-2232 User Manual 50
+PCI Express Configuration
+ Compliance Mode
+Compliance Mode Enable/Disable.
+ PCI Express Root Port 1 / 2
+Control the PCI Express Root Port.
+ M.2
+Control the M.2 port
+ Mini PCIE
+Control the Mini PCIE
+ Onboard LAN1/2 Controller
+Select to Enable or Disable Onboard LAN1/2 Controller.
+ LAN Option ROM
+Enabled / Disabled Onboard LAN's PXE option ROM.
+ M.2 PME Wake from S5
+Enable or disable M.2 PME to wake the system from S5.
+ PCIE Wake from S5
+Enable or disable PCIE to wake the system from S5.
+ WiFi Function Control 
+Enable or disable WiFi to wake the system from S5.
+
+--- Page 61 ---
+51 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+M.2
+– M.2 Control the M.2 port
+Enable: Enable M.2 port.
+Disable: Disable M.2 root port.
+– ASPM
+PCI Express Active State Power   Management settings.
+– PCIe Speed
+Configure PCIe Speed.
+
+--- Page 62 ---
+ARK-2232 User Manual 52
+Mini PCIe
+– Mini PCIe
+Control the Mini PCIe
+Enable: Enable Mini PCIe port.
+Disable: Disable Mini PCIe port.
+– ASPM
+PCI Express Active State Power Management settings.
+– PCIe Speed
+Configure PCIe Speed.
+
+--- Page 63 ---
+53 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+SATA Drives
+ Chipset SATA
+Enable or Disable the Chipset SATA Controller.
+USB Configuration
+
+--- Page 64 ---
+ARK-2232 User Manual 54
+ XHCI Pre-Boot Driver
+Enable/Disable XHCI Pre-Boot Driver Support.
+ USB Port Disable Override
+Selectively Enable/Disable corresponding USB port from reporting a Device 
+Connection to the controller.
+ XHCI Disable Compliance Mode
+Options to disable XHCI Link Compliance Mode.
+ USB HW MODE AFE Comparators
+Enable/Disable USB HW MODE AFE Comparators.
+Miscellaneous Configuration
+ 
+ Restore AC Power Loss
+Specify what state to go to when power is re-applied after a power failure (G3 
+state).
+ BIOS Lock
+Enable/Disable the BIOS Lock Enable feature.
+ RTC Lock
+Enable or disable bytes 38h-3Fh in the upper and lower 128-byte bank of RTC 
+RAM lockdown.
+ Flash Protection Range Registers
+Enable or Disable Flash Protection Range Registers.
+ TCO Lock
+Enable TCO and Lock Down TCO.
+
+--- Page 65 ---
+55 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+3.1.4 Security
+Select Security Setup from the ARK-2232 Setup main BIOS setup menu. All Security
+Setup options, such as password protection and virus protection are described in this
+section. To access the sub menu for the following items, select the item and press
+<Enter>:
+ Change Administrator / User Password
+Select this option and press <ENTER> to access the sub menu, and then type
+     in the password.
+
+--- Page 66 ---
+ARK-2232 User Manual 56
+3.1.5 Boot
+ Setup Prompt Timeout
+Number of seconds that the firmware will wait before initiating the original 
+default boot selection. A value of 0 indicates that the default boot selection is to 
+be initiated immediately on boot. A value of 65535(0xFFFF) indicates that firm-
+ware will wait for user input before booting. This means the default boot selec-
+tion is not automatically started by the firmware.
+ Bootup NumLock State
+Select the keyboard NumLock state.
+ Quiet Boot
+Enables or disables Quiet Boot option.
+ Boot Option #1/#2
+Sets the system boot order.
+ Fast Boot
+Enables or disables boot with initialization of a minimal set of devices required 
+to launch active boot option. Has no effect for BBS boot options.
+ New Boot Option Policy
+Controls the placement of newly detected UEFI boot options.
+
+--- Page 67 ---
+57 ARK-2232 User Manual
+Chapter 3 AMI BIOS Setup
+3.1.6 Save & Exit
+ Save Changes and Exit
+This item allows you to exit system setup after saving the changes.
+ Discard Changes and Exit
+This item allows you to exit system setup without saving any changes.
+ Save Changes and Reset
+This item allows you to reset the system after saving the changes.
+ Discard Changes and Reset
+This item allows you to rest system setup without saving any changes.
+ Save Changes
+This item allows you to save changes done so far to any of the options.
+ Discard Changes
+This item allows you to discard changes done so far to any of the options.
+ Restore Defaults
+This item allows you to restore/load default values for all the options.
+ Save as User Defaults
+This item allows you to save the changes done so far as user defaults.
+ Restore User Defaults
+This item allows you to restore the user defaults to all the options.
+ Boot Override
+Boot device select can override your boot priority.
+
+--- Page 69 ---
+Appendix A
+A Watchdog Timer 
+Sample Code
+
+--- Page 70 ---
+ARK-2232 User Manual 60
+A.1 EC Watchdog Timer sample code
+EC_Command_Port = 0x29Ah
+EC_Data_Port = 0x299h
+Write EC HW ram = 0x89
+Watch dog event flag = 0x57
+Watchdog reset delay time = 0x5E
+Reset event = 0x04 
+Start WDT function = 0x28 
+====================================================
+.model small
+.486p
+.stack 256
+.data
+.code
+org 100h
+.STARTup
+mov dx, EC_Command_Port
+mov al,89h             ; Write EC HW ram.
+out dx,al
+mov dx, EC_Command_Port
+mov al, 5Fh            ; Watchdog reset delay time low byte (5Eh is high byte) index.
+out dx,al
+mov dx, EC_Data_Port
+mov al, 30h            ;Set 3 seconds delay time.
+out dx,al
+mov dx, EC_Command_Port
+mov al,89h             ; Write EC HW ram.
+out dx,al
+mov dx, EC_Command_Port
+mov al, 57h            ; Watch dog event flag.
+out dx,al
+mov dx, EC_Data_Port
+mov al, 04h             ; Reset event.
+out dx,al
+mov dx, EC_Command_Port
+mov al,28h             ; start WDT function.
+out dx,al
+.exit
+END
+
+--- Page 71 ---
+61 ARK-2232 User Manual
+Appendix A Watchdog Timer Sample Code
+
+--- Page 72 ---
+www.advantech.com
+Please verify specifications before quoting. This guide is intended for reference
+purposes only.
+All product specifications are subject to change without notice.
+No part of this publication may be reproduced in any form or by any means,
+electronic, photocopying, recording or otherwise, without prior written permis-
+sion of the publisher.
+All brand and product names are trademarks or registered trademarks of their
+respective companies.
+© Advantech Co., Ltd. 2018
+

@@ -75,3 +75,55 @@ Some ASUS and other manuals use image rendering. Can detect which type before sc
 
 **Result**: Always get SOMETHING from every manual - either text or images.
 
+---
+
+### ACTIVE: Timeout and Empty Extraction Issues
+**Date**: December 9, 2025  
+**Problem**: Some manuals (e.g., ECS T30Ii - 103 pages) timeout at page 20 and return empty content.
+
+**Symptoms**:
+- Page loading times out after 6 seconds (original timeout)
+- After 3 consecutive timeouts, extraction fails
+- Manual marked as EMPTY and queued for retry
+- Retry attempts also fail with same issue
+
+**Possible Root Causes**:
+1. **Rate Limiting**: Website detecting automated browsing and slowing responses
+2. **Short Timeouts**: 6s timeout may be too aggressive for slower pages
+3. **Network Congestion**: Website or connection issues
+4. **Rendering Type**: Manual may use image-based rendering (see issue above)
+
+**Solutions Implemented**:
+1. ✅ Increased page load timeout from 6s to 15s
+2. ✅ Increased consecutive failure threshold from 3 to 5
+3. ✅ Added 2-second delay before retrying failed pages
+4. ✅ Increased delay between pages from 0.3-0.5s to 0.5-1.0s
+5. ✅ Increased delay between manuals from 2-5s to 3-7s
+6. ✅ Added fallback text extraction (try body.innerText if .viewer-page fails)
+7. ✅ Added diagnostic script (`diagnose_manual.py`) to test specific URLs
+8. ✅ Added empty page logging for better debugging
+
+**Testing**:
+```bash
+# Test specific manual that's failing
+python diagnose_manual.py https://www.manua.ls/ecs/t30ii/manual
+
+# Resume scraping with fixes
+conda activate manual-scraper
+python scrape_brand.py ECS
+```
+
+**Status**: ✅ RESOLVED - Added redirect detection
+
+**Resolution**: 
+The actual problem was that some manuals in the cache **no longer exist on the website**. When accessing them, the site redirects to the brand page instead of showing the manual. The scraper was waiting for manual content that would never appear.
+
+**Fix**: Added redirect detection:
+- Check if page.url changed after navigation
+- If redirected → Skip manual (mark as done, don't retry)
+- If not redirected → Extract normally
+
+**Testing confirmed**:
+- G320 manual: Exists, extracts successfully ✓
+- T30Ii manual: Redirects to brand page, now skipped automatically ✓
+

@@ -1,0 +1,1069 @@
+Brand: ADVANTECH
+Model: Ppc 3211Sw
+URL: https://www.manua.ls/advantech/ppc-3211sw/manual
+Total Pages: 60
+============================================================
+
+--- Page 1 ---
+User Manual
+PPC-3211SW/3181SW/
+3151SW
+Intel® Core™ i processor based 
+Panel PC with 21.5"/18.5"/15.6" Color 
+TFT LCD Display
+
+--- Page 2 ---
+PPC-3211SW/3181SW/3151SW User Manual            
+Copyright
+The documentation and the software included with this product are copyrighted 2019
+by Advantech Co., Ltd. All rights are reserved. Advantech Co., Ltd. reserves the right
+to make improvements to the products described in this manual at any time without
+notice. No part of this manual may be reproduced, copied, translated, or transmitted
+in any form or by any means without the prior written permission of Advantech Co.,
+Ltd. The information provided in this manual is intended to be accurate and reliable.
+However, Advantech Co., Ltd. assumes no responsibility for its use, nor for any
+infringements of the rights of third parties that may result from its use.
+Acknowledgements
+Intel and Celeron are trademarks of Intel Corporation.
+Microsoft Windows is registered trademark of Microsoft Corp.
+All other product names or trademarks are properties of their respective owners.
+Product Warranty (2 years)
+Advantech warrants the original purchaser that its products will be free from defects
+in materials and workmanship for two years from the date of purchase. 
+This warranty does not apply to any products that have been repaired or altered by
+persons other than repair personnel authorized by Advantech, or products that have
+been subject to misuse, abuse, accident, or improper installation. Advantech
+assumes no liability under the terms of this warranty as a consequence of such
+events.
+Because of Advantech’s high quality-control standards and rigorous testing, most
+customers never need to use our repair service. However, if an Advantech product is
+defective, it will be repaired or replaced free of charge during the warranty period. For
+out-of-warranty repairs, customers are billed according to the cost of replacement
+materials, service time, and freight. Please consult your dealer for more details.
+If you believe your product to be defective, follow the steps outlined below.
+1. Collect all the information about the problem encountered. (For example, CPU 
+speed, Advantech products used, other hardware and software used, etc.) Note 
+anything abnormal and list any onscreen messages displayed when the prob-
+lem occurs.
+2. Call your dealer and describe the problem. Please have your manual, product, 
+and any relevant information readily available.
+3. If your product is diagnosed as defective, obtain an return merchandize authori-
+zation (RMA) number from your dealer. This allows us to process your return 
+more quickly.
+4. Carefully pack the defective product, a completed Repair and Replacement 
+Order Card, and proof of purchase date (such as a photocopy of your sales 
+receipt) into a shippable container. Products returned without a proof of pur-
+chase date are not eligible for warranty service.
+5. Write the RMA number on the outside, and ship the package prepaid to your 
+dealer.
+Part No. 2003321140 Edition 1
+Printed in China August 2019
+
+--- Page 3 ---
+iii PPC-3211SW/3181SW/3151SW User Manual
+ 
+Declaration of Conformity
+CE
+This product has passed the CE test for environmental specifications. Test conditions
+for passing included the equipment being operated within an industrial enclosure. In
+order to protect the product from damage resulting from electrostatic discharge
+(ESD) or electromagnetic interference (EMI) leakage, we strongly recommend using
+CE-compliant industrial enclosure products.
+Technical Support and Assistance
+1. Visit the Advantech website at http://support.advantech.com to obtain the latest 
+product information.
+2. Contact your distributor, sales representative, or Advantech's customer service 
+center for technical support if you need additional assistance. Please have the 
+following information to hand before calling:
+– Product name and serial number
+– Description of your peripheral attachments
+– Description of your software (operating system, version, application software, 
+etc.)
+– A complete description of the problem
+– The exact wording of any error messages
+
+--- Page 4 ---
+PPC-3211SW/3181SW/3151SW User Manual            
+Safety Instructions
+1. Read these safety instructions carefully.
+2. Retain this user manual for future reference.
+3. Disconnect the equipment from all power outlets before cleaning. Use only a 
+damp cloth for cleaning. Do not use liquid or spray detergents.
+4. For pluggable equipment, the power outlet socket must be located near the 
+equipment and easily accessible.
+5. Protect the equipment from humidity.
+6. Place the equipment on a reliable surface during installation. Dropping or letting 
+the equipment fall may cause damage.
+7. The openings on the enclosure are for air convection. Protect the equipment 
+from overheating. Do not cover the openings.
+8. Ensure that the power source voltage is correct before connecting the equip-
+ment to a power outlet.
+9. Position the power cord away from high-traffic areas. Do not place anything over 
+the power cord.
+10. All cautions and warnings on the equipment should be noted.
+11. If the equipment is not used for a long time, disconnect it from the power source 
+to avoid damage from transient overvoltage.
+12. Never pour liquid into an opening. This may cause fire or electrical shock.
+13. Never open the equipment. For safety reasons, the equipment should be 
+opened only by qualified service personnel.
+14. If one of the following occurs, have the equipment checked by service person-
+nel:
+The power cord or plug is damaged.
+Liquid has penetrated into the equipment.
+The equipment has been exposed to moisture.
+The equipment is malfunctioning or does not operate according to the user 
+manual.
+The equipment has been dropped and damaged.
+The equipment has obvious signs of breakage.
+15. Do not store the equipment in an environment where the temperature fluctuates 
+below -20 °C (-4°F) or above 60 °C (140 °F) as this may cause damage. The 
+equipment should be stored in a controlled environment.
+16. Batteries are at risk of exploding if incorrectly installed. Replace only with the 
+same or equivalent type recommended by the manufacturer. Discard used bat-
+teries according to the manufacturer’s instructions.
+In compliance with IEC 704-1:1982 specifications, the sound pressure level at the
+operator’s position does not exceed 70 dB (A).
+DISCLAIMER: These instructions are provided according to IEC 704-1. Advantech
+disclaims all responsibility for the accuracy of any statements contained herein.
+
+--- Page 5 ---
+v PPC-3211SW/3181SW/3151SW User Manual
+ 
+Safety Precaution - Static Electricity
+Follow the simple precautions below to protect yourself from harm and the products
+from damage.
+ To avoid electrical shock, always disconnect the power from the PC chassis 
+before manual handling. Do not touch any components on the CPU card or 
+other cards while the equipment is powered on.
+ Disconnect the power before executing any configuration changes. A sudden 
+rush of power after connecting a jumper or installing a card may damage sensi-
+tive electronic components.
+Battery Information
+Batteries, battery packs, and accumulators should not be disposed of as unsorted
+household waste. Please use the public collection system to return, recycle, or treat
+them in compliance with local regulations.
+Manual Conventions
+Warning! Warnings indicate conditions that, if not observed, can cause personal 
+injury!
+Caution! Cautions are included to prevent hardware damage and data loss. 
+For example, “Batteries are at risk of exploding if replaced with an incor-
+rect type. Replace only with the same or equivalent type recommended 
+by the manufacturer. Dispose of used batteries according to the manu-
+facturer’s instructions.
+Par exemple, “Si la batterie est remplacée par un modèle inapproprié, il
+y a un risque d’explosion. Remplacer les produits identiques ou équiva-
+lents recommandés par le fabricant. Traitement des piles usagées selon
+les instructions du fabricant.”
+Note! Notes provide additional optional information.
+
+--- Page 6 ---
+PPC-3211SW/3181SW/3151SW User Manual            
+Revision
+Date Version Description/Change
+July 2018 1.0 Initial
+Jun 2019 2.0 PPC-3151SW
+
+--- Page 7 ---
+vii PPC-3211SW/3181SW/3151SW User Manual
+ 
+Contents
+Chapter 1 General Information ............................1
+1.1 Introduction ............................................................................................... 2
+1.2 Key Features............................................................................................. 2
+1.3 Front Panel................................................................................................ 2
+Figure 1.1 front panel................................................................... 2
+1.4 Rear Panel ................................................................................................ 3
+Figure 1.2 rear panel ................................................................... 3
+1.5 Panel Underside........................................................................................ 3
+Figure 1.3 Panel PC underside.................................................... 3
+1.6 Dimensions ............................................................................................... 4
+Figure 1.4 PPC-3211SW dimensions .......................................... 4
+Figure 1.5 PPC-3181SW dimensions .......................................... 4
+Figure 1.6 PPC-3151SW dimensions .......................................... 4
+1.7 Specifications ............................................................................................ 5
+1.8 Ordering Information ................................................................................. 6
+Chapter 2 System Installation and Setup ...........7
+2.1 Quick System Tour.................................................................................... 8
+Figure 2.1 Panel PC front view .................................................... 8
+Figure 2.2 Panel PC rear view..................................................... 8
+Figure 2.3 Panel PC underside with I/O ...................................... 9
+2.2 Installation Procedures.............................................................................. 9
+2.2.1 Memory Card Installation .............................................................. 9
+Figure 2.4 Retention screws on rear cover.................................. 9
+Figure 2.5 Memory card installation........................................... 10
+Figure 2.6 Thermal pad placed on the memory card................. 10
+2.2.2 HDD Installation .......................................................................... 11
+Figure 2.7 Retention screws on HDD bracket ........................... 11
+Figure 2.8 HDD module bracket ................................................ 11
+Figure 2.9 SATA cable connected to SATA HDD...................... 11
+Figure 2.10Secure SATA HDD with screws ............................... 12
+Figure 2.11SATA HDD connected to the mainboard.................. 12
+2.2.3 mSATA Installation ..................................................................... 12
+Figure 2.12mSATA module installation ...................................... 12
+2.2.4 Wireless LAN Card Installation ................................................... 13
+Figure 2.13Installing the wireless LAN card ............................... 13
+Figure 2.14Hexagonal screw location......................................... 13
+Figure 2.15Full-size mini PCIe LAN antenna cables .................. 14
+Figure 2.16Removing plugs for the antennae............................. 14
+Figure 2.17Location of external antennae .................................. 14
+2.3 Installing TPM ......................................................................................... 15
+Figure 2.18Fix TPM card with LVDS cable................................. 15
+Figure 2.19Assemble TPM Cable............................................... 15
+2.4 Mounting the System .............................................................................. 16
+2.4.1 Wall Mounting ............................................................................. 16
+Figure 2.20Wall mount plate....................................................... 16
+Figure 2.21Screw locations on the rear panel ............................ 17
+Figure 2.22Mounting the panel PC on a wall.............................. 17
+Figure 2.23Securing the panel PC.............................................. 18
+2.4.2 Panel Mounting ........................................................................... 18
+Figure 2.24Hook brackets for panel mounting............................ 18
+Figure 2.25Hook brackets location ............................................. 19
+Figure 2.26Fasten the hook bracket ........................................... 19
+
+--- Page 8 ---
+PPC-3211SW/3181SW/3151SW User Manual viii
+Figure 2.27Panel mount rear view.............................................. 19
+2.4.3 Arm Mounting ............................................................................. 20
+Figure 2.28Arm mount for panel PC........................................... 20
+2.4.4 Stand Mounting........................................................................... 21
+Figure 2.29VESA mount screw holes......................................... 21
+Figure 2.30Securing the VESA mount base............................... 22
+Figure 2.31Securing the VESA mount bracket........................... 22
+Figure 2.32Securing the stand mount hinge cover..................... 23
+Figure 2.33Completed stand mount ........................................... 23
+Chapter 3 Jumper Settings................................ 25
+3.1 Motherboard Layout................................................................................ 26
+Figure 3.1 Motherboard layout diagram .................................... 26
+3.2 Internal Jumpers and Connectors........................................................... 27
+3.2.1 Touch Power Select.................................................................... 27
+3.2.2 LVDS PWM Power Select Jumper ............................................. 27
+3.2.3 LVDS Enable Power Select Jumper ........................................... 28
+3.2.4 RTC Select ................................................................................. 28
+3.2.5 COM1 Pin 9 Power Select .......................................................... 28
+3.2.6 ATX/AT Select ............................................................................ 29
+3.2.7 SW1 Panel ID Select .................................................................. 29
+Table 3.1: SW1 Panel ID Select................................................ 29
+Figure 3.2 ................................................................................. 29
+3.3 External COM Ports and Pin Definitions ................................................. 29
+Figure 3.3 Location of COM1 and COM2 ports ......................... 29
+Chapter 4 Software Setup.................................. 31
+4.1 Driver Installation .................................................................................... 32
+4.2 BIOS Setup Program .............................................................................. 32
+4.2.1 Entering BIOS Setup .................................................................. 32
+4.2.2 Adjustment of LCD Brightness.................................................... 33
+4.2.3 COM2 Mode Selection (RS232/RS422/RS485) ......................... 36
+4.2.4 BIOS AT and ATX Setup ............................................................ 38
+4.2.5 Wake-on-LAN ............................................................................. 39
+4.2.6 SATA Mode Selection................................................................. 41
+4.2.7 Boot Options ............................................................................... 42
+4.2.8 TPM Setup.................................................................................. 43
+Appendix A BSMI RoHS ........................................ 45
+A.1 BSMI RoHS............................................................................................. 46
+Appendix B China RoHS ....................................... 47
+B.1 China RoHS ............................................................................................ 48
+Appendix C Watchdog Program Example ........... 49
+C.1 Watchdog Program Example .................................................................. 50
+
+--- Page 9 ---
+Chapter 1
+1 General Information
+This chapter provides general 
+information regarding PPC-
+3211SW/3181SW/3151SW.
+ Introduction
+ Specifications
+ Dimensions
+
+--- Page 10 ---
+PPC-3211SW/3181SW/3151SW User Manual 2
+1.1 Introduction
+Advantech's PPC-3211SW/3181SW/3151SW is an all-in-one light panel PC with a
+wide format 21.5"/18.5"/15.6" full HD LCD. Powered by an Intel® 6th Gen Core™ i
+processor, PPC-3211SW/3181SW/3151SW  provides good performance and optimal
+memory, graphics and peripheral I/O support in a compact, fanless, embedded sys-
+tem. With a high durability design, PPC-3211SW/3181SW/3151SW adopts a flat
+touch screen with IP65 front panel protection, die-cast AI alloy in an aesthetic enclo-
+sure. It’s ideal for easy and simple integration into various applications.
+1.2 Key Features
+ Robust IP65-rated true-flat color TFT LCD
+ Ultra-thin fanless design with solid aluminum alloy enclosure
+ Intel 6th Gen Core i CPU with fanless design
+ 1 x SO-DIMM, DDR4 1866/2133, Max 16GB (1.2V)
+ 1 x Full-size mini PCIe card slot
+ 2 x USB 3.0 port
+ Supports SATA 6Gb/s interface for 2.5” SATA storage
+ Optional mini PCIe 802.11b/g/n wireless module
+1.3 Front Panel
+The PPC-3211SW/3181SW/3151SW front panel is a true-flat color TFT LCD touch-
+screen with Projected Capacitive Multi-Touch. The front panel is IP65 rated for dust
+and water tolerance (Figure 1.1).
+Figure 1.1 front panel 
+Aluminium Frame
+Touch Screen
+LED Indicator
+for Power
+
+--- Page 11 ---
+3 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 1 General Information
+1.4 Rear Panel
+The PPC-3211SW/3181SW/3151SW rear panel features four VESA mount (100 x
+100 mm) holes located below figure 1.2.
+Figure 1.2 rear panel
+1.5 Panel Underside
+The system I/O located at the panel underside (Figures 1.3) are listed below. 
+ 1 x Power input connector
+ 1 x Power switch
+ 1 x RS-232 connector (COM1)
+ 1 x RS-232/422/485 connector (COM2)
+ 2 x RJ45 GbE
+ 2 x USB 3.0
+ 2 x USB 2.0
+ 1 x HDMI
+Figure 1.3 Panel PC underside
+
+--- Page 12 ---
+PPC-3211SW/3181SW/3151SW User Manual 4
+1.6 Dimensions
+Figure 1.4 PPC-3211SW dimensions
+Figure 1.5 PPC-3181SW dimensions
+Figure 1.6 PPC-3151SW dimensions
+558.40 100
+62.25
+30.75
+349.80
+100
+341.17
+549.77
+488
+309
+61.70
+30.20
+477.7
+100
+298.7
+100
+
+--- Page 13 ---
+5 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 1 General Information
+1.7 Specifications
+Product
+ PPC-3211SW-
+P65A
+ PPC-3181SW-
+P65A
+ PPC-3151SW-
+P65A
+LCD Display 21.5" 18.5" 15.6"
+Display Type
+21.5" TFT LCD  
+(LED backlight)  
+18.5" TFT LCD 
+(LED backlight)
+15.6" TFT LCD 
+(LED backlight)
+Resolution Max.  1920 x 1080   1366 x 768  1920 x 1080
+Brightness  300 cd/m2    450 cd/m2    450 cd/m2
+Active Area 476.6(H) x 268.1(V) 409.8(H) x 230.4(V) 344.2(H) x 193.5(V)
+Viewing Angle
+89 (Left), 89 (Right), 
+89 (Up), 89 (bottom)    
+85 (Left), 85 (Right), 
+80 (Up), 80 (bottom)    
+85 (Left), 85 (Right), 
+85 (Up), 85 (bottom) 
+Contrast 5000 1000 800
+Backlight Lifetime 50, 000 hr (Min.) 50, 000 hr (Min.) 50, 000 hr (Min.)
+Touchscreen type  Projected capacitive
+Light Transmis-
+sion
+90 % ± 3 % 90 % ± 3 % 90 % ± 2 %
+Controller USB interface
+CPU
+6th gen Intel® Core™ i5-6300U dual core (i7-6500U/i3-6100U 
+optional)
+Memory "1 x SODIMM, DDR4 1866/2133 MHz(max. 16 GB) (1.2V)
+Storage  "1 x 2.5"" SATA bay; 1 x M.2 bay 
+Network (LAN) 2 x 10/100/1000 Mbps Ethernet (Intel® I211-AT; Intel® I219LM)
+I/O Ports
+RS-232 x 1, RS-232/422/485 x 1 (adjustable through BIOS) USB 
+3.0 x 2, USB 2.0 x 2 HDMI x 1
+Expansion 1 x Full-size mini PCIe slot
+Watchdog Timer 255 timer levels, set up by software
+Speaker 2 x 1W
+OS Support Microsoft® Windows 7/8.1/10 (32/64-bit), WES7, Linux
+Power Supply 12 - 24 Vdc
+Power Consump-
+tion
+75W 65W 60W
+Operating Temper-
+ature
+0 ~ 50 °C (32 ~ 122 °F) with SSD; 0 ~ 45 °C (32 ~ 113 ° F) with 
+HDD (HDD test condition: the SPEC of HDD
+Storage Tempera-
+ture
+-20 ~ 60 °C (-4 ~ 140 °F)
+Relative Humidity 10 ~ 95% @ 40°C (non-condensing)
+Shock
+Operating 10 G Peak Acceleration (11 ms Duration), Follows IEC 
+60068-2-27
+
+--- Page 14 ---
+PPC-3211SW/3181SW/3151SW User Manual 6
+1.8 Ordering Information
+Vibration
+Operating random vibration test, 5 ~ 500Hz, 1Grms with 
+HDD;2Grms with SSD, following IEC 60068-2-64
+Safety and EMC
+Safety: CB, UL, CCC, BSMI 
+EMC: CE, FCC Class B, BSMI
+Dimensions
+558.40 x 349.80 x 
+62.20mm (21.98 x 
+13.77 x 2.45 in)
+488.00 x 309.00 x 
+61.70 mm (19.21 x 
+12.16 x 2.43 in)
+419.70 x 269.00 x 
+62.10mm (16.52 x 
+10.59 x 2.44 in)
+Weight 6.8 kg (14.9 lb) 5.7 kg (12.56 lb) 4.84kg (10.67 lb)
+Note! The test conditions for the power consumption values provided above 
+were as follows:
+Memory: 16G DDR4 2400 
+HDD: 64G SSD
+OS: Windows 7 (64bit) 
+Software: Burn In Test 8.1
+Part Number Description Image
+PPC-3211SW-P65A
+PPC-3181SW-P65A
+PPC-3151SW-P65A
+Panel PC with Intel® 6th Core i proces-
+sor
+96PSA-A90W19OT-3
+Power adapter 100 ~ 240 V
+DC, 90 W, 
+19V
+PPC-WLAN-C1E Wi-Fi module with antenna 
+PPC-ARM-A03 Arm mount VESA standard 
+PPC-174T-WL-MTE Wall mount kit
+PPC-Stand-A1E Stand kit
+
+--- Page 15 ---
+Chapter 2
+2 System Installation 
+and Setup
+ Quick System Tour 
+ Memory Card Installation 
+ HDD Installation
+ mSATA Installation
+ Wireless LAN Card Installation
+ TPM installation
+ Mounting the System
+
+--- Page 16 ---
+PPC-3211SW/3181SW/3151SW User Manual 8
+2.1 Quick System Tour
+Before setting up the panel PC, take a moment to identify the locations of the device-
+controls, drives, connectors, and ports (as shown in Figure 2.3). When placed
+upright, the PPC-3211SW/3181SW/3151SW front panel should appear as shown in
+Figure 2.1. Since PPC-3211SW/3181SW/3151SW are series models, the following
+photos in the manual are PPC-3211SW examples.
+Figure 2.1 Panel PC front view 
+1. Power status indicator, power-up:blue, stand by: orange
+Figure 2.2 Panel PC rear view
+1. Speaker
+1
+1
+1
+
+--- Page 17 ---
+9 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 2 System Installation and Setup
+Figure 2.3 Panel PC underside with I/O
+A. 2 x LAN
+B. 1 x HDMI
+C. 2 x USB 3.0
+D. 2 x USB 2.0
+E. COM2: RS-232/422/485
+F. COM1: RS-232
+G. DC-In
+H. Power Button
+2.2 Installation Procedures
+When installing system hardware, adhere to the following order: 
+1. Install the memory card
+2. Install SATA HDD or mSATA storage devices
+3. Install peripheral devices
+4. Mount the panel PC
+5. Configure the system 
+2.2.1 Memory Card Installation
+1. Remove four screws shown in red circle, then remove the six screws shown in 
+the green circle and finally remove the rear cover.
+Figure 2.4 Retention screws on rear cover
+
+--- Page 18 ---
+PPC-3211SW/3181SW/3151SW User Manual 10
+2. Insert the memory card into the corresponding slot on the main board (see the 
+area marked in red in Figure 2.5). Then place the memory thermal pad provided 
+in the accessory box on top of the memory card (Figure 2.6).
+Figure 2.5 Memory card installation
+Figure 2.6 Thermal pad placed on the memory card
+Warning! Ensure that the thermal pad (provided in the accessory box) is placed 
+on top of the CPU & memory card, as shown in Figure 2.6.
+Assurez-vous que le tampon thermique (fourni dans la boîte d'acces-
+soires) est placé sur la carte mémoire, comme illustré à la Figure 2.6.
+Note! The second disassembly and assembly needs to replace the CPU ther-
+mal pad.
+
+--- Page 19 ---
+11 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 2 System Installation and Setup
+2.2.2 HDD Installation
+1. Remove the four retention screws on the HDD bracket (Figures 2.7 and 2.8).
+Figure 2.7 Retention screws on HDD bracket
+Figure 2.8 HDD module bracket
+2. Connect the SATA cable provided in the accessory box to the SATA HDD mod-
+ule (Figure 2.9).
+Figure 2.9 SATA cable connected to SATA HDD
+
+--- Page 20 ---
+PPC-3211SW/3181SW/3151SW User Manual 12
+3. Using the four screws provided in the accessory box, affix the SATA HDD mod-
+ule to the HDD bracket (Figure 2.10).
+Figure 2.10 Secure SATA HDD with screws
+4. Affix the SATA HDD bracket to the main board. Tie the SATA power cable in 
+place and then plug the cable into the corresponding connector on the mother-
+board (Figure 2.11).
+Figure 2.11 SATA HDD connected to the mainboard
+2.2.3 mSATA Installation
+1. Insert the mSATA card into the socket. Secure the card in place using two 
+screws provided in the accessory box (Figure 2.12).
+Figure 2.12 mSATA module installation
+
+--- Page 21 ---
+13 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 2 System Installation and Setup
+2.2.4 Wireless LAN Card Installation
+1. Insert the full-size mini PCIe card into the socket. Secure the card in place using 
+two screws provided in the accessory box. Next, replace the original bracket 
+with the holed antenna bracket provided in the accessory box (Figure 2.13).
+Figure 2.13 Installing the wireless LAN card 
+2. Retrieve the hexagonal screw provided in the accessory box.
+Figure 2.14 Hexagonal screw location
+Note! If a half-size PCIe is used, then use the hexagonal screws provided in 
+the accessory box. Screws in red circles should be tightened, See Fig 
+2.13
+Note!
+Note! For wireless LAN card module, you can choose Advantech 
+Product:
+(Part No. PPC-WLAN-C1E).
+
+--- Page 22 ---
+PPC-3211SW/3181SW/3151SW User Manual 14
+3. Connect the antenna cables. Fix the cables on the brackets while noting the 
+cable routing.
+Figure 2.15 Full-size mini PCIe LAN antenna cables
+4. Remove the two plugs located at the top of the rear cover.
+Figure 2.16 Removing plugs for the antennae
+5. Install the external antennas.
+Figure 2.17 Location of external antennae
+
+--- Page 23 ---
+15 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 2 System Installation and Setup
+2.3 Installing TPM 
+1. Refer to Section 2.2.1. to remove the rear cover. Fetch the TPM card
+(96923260J0E) from the TPM module and attach it. 
+Figure 2.18 Fix TPM card with LVDS cable
+2. Insert the cable into the TPM interface. Note that the white point corresponds to
+the first pin of the TPM board. Add the TPM cable which needs cross under the SATA
+cable.
+Figure 2.19 Assemble TPM Cable
+Note! The current mechanism only supports 98R3P315100.
+Note! Use the grounding screw for the LVDS cable.
+
+--- Page 24 ---
+PPC-3211SW/3181SW/3151SW User Manual 16
+2.4 Mounting the System
+The panel PC supports various mounting options, as listed below.
+ Wall mounting
+ Panel mounting
+ Arm mounting
+ Stand mounting
+2.4.1 Wall Mounting   
+To mount the panel PC onto a wall, follow the instructions below (see Figure 2.20 for
+additional reference).
+1. Select the location on the wall for the wall mount plate.
+2. Mark the locations of the two plate screws holes on the wall.
+3. Drill two pilot holes at the marked locations on the wall.
+4. Align the wall mount plate screw holes with the pilot holes.
+5. Secure the mount plate to the wall by inserting screws into the two pilot holes 
+and tightening them.
+Figure 2.20 Wall mount plate 
+6. Insert four M4 screws into the holes on the panel PC and tighten them to secure 
+the bracket to the rear panel.
+Warning! When mounting the panel PC, more than one person should perform the 
+installation to prevent accidental damage to the panel or personal injury.
+Le comité constate qu’el-nasr “ mounting, Plus d’une personne installa-
+tion to prevent the cadre accidental damage to the personal injury.
+
+--- Page 25 ---
+17 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 2 System Installation and Setup
+Figure 2.21 Screw locations on the rear panel
+      
+7. To mount the panel PC on the wall, align the wall mount bracket attached to the 
+panel PC with the wall mount plate on the wall and slide the panel PC down-
+wards to hang the bracket on the mount plate.
+Figure 2.22 Mounting the panel PC on a wall
+8. Secure the panel PC in place by tightening screws in the wall mount bracket.
+Warning! Ensure that the thread depth of the screws on the rear panel does not 
+exceed 4 mm.
+Assurez-vous que la profondeur du filetage des vis sur le panneau arri-
+ère ne dépasse pas 4 mm.
+
+--- Page 26 ---
+PPC-3211SW/3181SW/3151SW User Manual 18
+Figure 2.23 Securing the panel PC
+2.4.2 Panel Mounting
+To mount the flat bezel panel PC into a panel, follow the steps below.
+1. Prepare a panel cutout according to the Panel PC dimensions. Panel cutout 
+dimensions:
+PPC-3211SW: 550.3 x 341.8 mm (21.66 x 13.45 in)
+PPC-3181SW: 479.3 x 300.3 mm (18.87 x 11.82 in)
+PPC-3151SW: 413 x 262 mm (16.25 x 10.31 in) 
+2. Install the panel PC in the cabinet and retrieve eight hook brackets from the 
+accessory box.
+Figure 2.24 Hook brackets for panel mounting
+3. Insert the hook brackets into the holes following the direction of the arrows 
+shown in Figure 2.25 and hang the panel PC.
+
+--- Page 27 ---
+19 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 2 System Installation and Setup
+Figure 2.25 Hook brackets location
+4. Tighten the screws to affix the panel PC in place (Figure 2.26).
+Figure 2.26 Fasten the hook bracket
+Figure 2.27 Panel mount rear view
+
+--- Page 28 ---
+PPC-3211SW/3181SW/3151SW User Manual 20
+2.4.3 Arm Mounting
+PPC-3211SW/3181SW/3151SW can be mounted on a VESA-compliant arm mount
+with a 100 mm interface pad. To affix the panel PC to an arm mount, follow the steps
+below.
+1. Refer to the installation instruction of the mounting arm to correctly mount the 
+arm onto the surface as a base.
+2. Align the retention screw holes on the mounting arm interface with VESA holes 
+in the panel PC, and secure the panel PC with the four M4 retention screws.
+Figure 2.28 Arm mount for panel PC
+Warning! Ensure that the thread depth of the screws on the rear panel does not 
+exceed 4 mm.
+Ensure that the thread depth of the screws on the rear panel does not 
+exceed 4 mm.
+
+--- Page 29 ---
+21 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 2 System Installation and Setup
+2.4.4 Stand Mounting
+Before stand mounting, check that the product was shipped with the following items: 
+To mount the panel PC onto the stand, follow the steps below
+1. Use four M4 x 8L screws to affix the VESA bracket to the panel PC. Users can 
+choose 100 x 100 mm VESA mount according to their requirements.
+Figure 2.29 VESA mount screw holes
+
+--- Page 30 ---
+PPC-3211SW/3181SW/3151SW User Manual 22
+2. Use the four M4 x 8L screws to secure the base plate to the mount stand.
+Figure 2.30 Securing the VESA mount base
+3. Use four M4 x 6L screws to secure the mount stand to the VESA mount bracket.
+Figure 2.31 Securing the VESA mount bracket
+
+--- Page 31 ---
+23 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 2 System Installation and Setup
+4. Use one M4 x 5L screw to secure the stand mount hinge cover.
+Figure 2.32 Securing the stand mount hinge cover
+Figure 2.33 Completed stand mount
+
+--- Page 32 ---
+PPC-3211SW/3181SW/3151SW User Manual 24
+
+--- Page 33 ---
+Chapter 3
+3 Jumper Settings
+ Motherboard Layout
+ Jumpers and Connectors
+ External COM Ports and Pin 
+Definitions
+
+--- Page 34 ---
+PPC-3211SW/3181SW/3151SW User Manual 26
+3.1 Motherboard Layout 
+A diagram of the motherboard layout showing the locations of the internal peripheral
+connectors is provided below (Figure 3.1). The internal peripheral connectors are
+accessible when the motherboard is outside of the chassis. 
+Figure 3.1 Motherboard layout diagram
+
+--- Page 35 ---
+27 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 3 Jumper Settings
+3.2 Internal Jumpers and Connectors
+The internal jumpers and connectors on the motherboard, and their pinouts, are
+listed in the table below. 
+3.2.1 Touch Power Select
+3.2.2 LVDS PWM Power Select Jumper
+Connectors Function  Type
+CN44 LVDS backlight connector  Wafer 8P 1.25 mm
+CN4  LVDS connector  Wafer 20 x 2P 1.25 mm
+CN3 SATA power connector  Wafer 5P 2.5 mm
+SATA SATA connector  SATA 7P connector
+CN7 Resistance Touchscreen connector   Wafer 5P 2.0 mm
+CN42 COM1 Pin 9 power select connector  Pin header 5P 2.0 mm
+CN16 Power button  Wafer 2P 2.0 mm
+CN39  LPC connector  Wafer 5 x 2P 2.0 mm
+JP7 Touch Power Select   Pin header 2P 2.0 mm
+JP3  CMOS Clear  Pin header 4P 2.0 mm
+JP4  ATX/AT select jumper Pin header 3P 2.0 mm
+JP5  LVDS PWM power select jumper  Pin header 3P 2.0 mm
+JP6  LVDS enable power select jumper  Pin header 3P 2.0 mm
+CN47 Internal USB 2.0 Wafer 2x5P 2.0mm
+CN45 Front LED Conn Wafer 4P 1.25mm
+AMP1 Amplifier Speak Wafer 4P 2.0mm
+SW1 Panel ID Select Switch 2x4P
+JP7 Icon Resistance Touch Power Select
+open P1 Touch Disable
+closed P2 Touch Enable Default*
+JP5 Icon LVDS PWM Power Select Jumper
+(1-2) P3 5V
+(2-3) P4 3.3V Default*
+
+--- Page 36 ---
+PPC-3211SW/3181SW/3151SW User Manual 28
+3.2.3 LVDS Enable Power Select Jumper
+3.2.4 RTC Select 
+3.2.5 COM1 Pin 9 Power Select 
+JP6 Icon LVDS Enable Power Select Jumper
+(1-2) P5 5V
+(2-3) P6 3.3V Default*
+JP3 Icon RTC Select
+(1-2) P7 Normal Default*
+(2-3) P8 Clear CMOS
+CN42 Icon COM1 Pin 9 Power Select
+(1-2) P9 COM1 RI Default*
+(2-3) P10 COM1 Pin 9 5V
+(4-5) P11 COM1 Pin 9 12V
+
+--- Page 37 ---
+29 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 3 Jumper Settings
+3.2.6 ATX/AT Select 
+3.2.7 SW1 Panel ID Select
+Figure 3.2 
+3.3 External COM Ports and Pin Definitions
+Figure 3.3 Location of COM1 and COM2 ports
+JP4 Icon ATX/AT Select
+(1-2) P12 AT
+(2-3) P13 ATX Default*
+Table 3.1: SW1 Panel ID Select
+SW1 Icon Panel ID Selection Model Number
+1110 P14 1920 x 1080 (48-bit) PPC-3211SW
+0111 P15 1366 x 768 (24-bit) PPC-3181SW
+1100 P16 1920 x 1080 (48-bit) PPC-3151SW
+
+--- Page 38 ---
+PPC-3211SW/3181SW/3151SW User Manual 30
+COM1: RS-232 
+COM1 Pin 9 is set as “RI” by default. This setting can be changed to 5 V or 12 V out-
+put using a jumper.
+COM2: RS-232/422/485 
+Note! COM2 does not support ring function.
+Pin
+COM1 COM2
+RS-232 RS-232 RS-422 RS-485
+1 DCD DCD TX- DATA-
+2 RXD RXD TX+ DATA+
+3 TXD TXD RX+ NC
+4DTR DTRRX- NC
+5GND GNDNC NC
+6DSR DSRNC NC
+7RTS RTSNC NC
+8CTS CTSNC NC
+9 Ring or 5V/12V output RING NC NC
+
+--- Page 39 ---
+Chapter 4
+4 Software Setup
+ Driver Installation 
+ BIOS Setup Program
+
+--- Page 40 ---
+PPC-3211SW/3181SW/3151SW User Manual 32
+4.1 Driver Installation
+Before installing software on the panel PC, install the corresponding drivers to ensure
+full functionality. 
+All drivers can be downloaded from the Advantech website
+http://www.advantech.com
+4.2 BIOS Setup Program
+4.2.1 Entering BIOS Setup
+After powering on the system, press the <Del> button to access the BIOS Setup
+screen.
+After adjusting the settings, press <F4> to save and exit; otherwise, the settings will
+not be saved in the BIOS.
+
+--- Page 41 ---
+33 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 4 Software Setup
+4.2.2 Adjustment of LCD Brightness
+1. Select System Agent (SA) Configuration option in the Chipset tab.
+2. Select Graphics Configuration option in the Chipset tab.
+
+--- Page 42 ---
+PPC-3211SW/3181SW/3151SW User Manual 34
+3. Select LCD Control option to choose between six brightness levels.
+4. Select Brightness Mode Control and select SIO.
+
+--- Page 43 ---
+35 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 4 Software Setup
+5. Select Brightness Control to choose between five brightness levels.
+6. Brightness is controlled through Power Options in Windows OS.
+
+--- Page 44 ---
+PPC-3211SW/3181SW/3151SW User Manual 36
+4.2.3 COM2 Mode Selection (RS232/RS422/RS485)
+1. Select NCT5523D Super IO Configuration in the Advanced tab.
+2. Select Serial Port 2 Configuration option.
+
+--- Page 45 ---
+37 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 4 Software Setup
+3. Select Serial Port 2 Mode option to set the COM2 operation mode as RS232, 
+RS422, or RS485.
+4. If COM2 mode is set as RS485, the RS485 Auto Flow control option can be 
+Enabled or Disabled.
+
+--- Page 46 ---
+PPC-3211SW/3181SW/3151SW User Manual 38
+5. If COM2 mode is set as RS485, the Serial Port2 Terminal option can be 
+Enabled or Disabled.
+4.2.4 BIOS AT and ATX Setup
+1. Select PCH-IO Configuration option in the Chipset tab.
+
+--- Page 47 ---
+39 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 4 Software Setup
+2. Select Restore AC Power Loss and set the Power On option to AT and the 
+Power Off option to ATX.
+4.2.5 Wake-on-LAN
+1. Select PCH-IO Configuration option in the Chipset tab.
+
+--- Page 48 ---
+PPC-3211SW/3181SW/3151SW User Manual 40
+2. Set the Wake On By PCIE Wake(I211/Ring) option to Enabled for LAN2 & 
+COM Ring.
+3. Set the Wake on By LAN1(219LM) option to Enabled.
+
+--- Page 49 ---
+41 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 4 Software Setup
+4.2.6 SATA Mode Selection
+1. Select SATA Configuration option in the Advanced tab.
+2. Select SATA Mode Selection to adjust the settings.
+
+--- Page 50 ---
+PPC-3211SW/3181SW/3151SW User Manual 42
+4.2.7 Boot Options
+1. Select CSM Configuration option in the Advanced tab.
+2. Select Boot Option Filter to adjust the settings.
+
+--- Page 51 ---
+43 PPC-3211SW/3181SW/3151SW User Manual 
+Chapter 4 Software Setup
+4.2.8 TPM Setup
+1. Select Trusted Computing option in the Advanced tab.
+2. Set the Security Device Support option to Enabled.
+3. Restart after saving.
+
+--- Page 52 ---
+PPC-3211SW/3181SW/3151SW User Manual 44
+
+--- Page 54 ---
+PPC-3211SW/3181SW/3151SW User Manual 46
+A.1 BSMI RoHS
+設備名稱：電腦      型號 （型式）：PPC-3211SW/3181SW/3151SW 
+Equipment name                         Type designation (Type)
+單元 Unit
+限用物質及其化學符號
+Restricted substances and its chemical symbols
+鉛 Lead
+(Pb)
+汞 Mercury
+(Hg)
+鎘
+Cadmium
+(Cd)
+六價鉻
+Hexavalent 
+chromium 
+(Cr
++6
+)
+多溴聯苯
+Polybromina
+ted 
+biphenyls
+(PBB)
+多溴二苯醚
+Polybrominate
+d diphenyl 
+ethers (PBDE)
+液晶面板 — ○ ○ ○ ○ ○
+電路板 — ○ ○ ○ ○ ○
+配件 ( 電源
+供應器 )
+—○○○○ ○
+其它固定組件 
+(螺絲)
+—○○○○ ○
+內外殼(外
+殼、按鍵、支
+架…等)
+—○○○○ ○
+備考 1.“ 超出 0.1 wt %” 及 “ 超出 0.01 wt %” 係指限用物質之百分比含量超出百分比含
+量基準值。
+Note 1. “Exceeding 0.1 wt %” and “exceeding 0.01 wt %” indicate that the percentage 
+content of the restricted substance exceeds the reference percentage value of presence 
+condition.
+備考 2.“ ○ ” 係指該項限用物質之百分比含量未超出百分比含量基準值。
+Note 2. “ ○ ”indicates that the percentage content of the restricted substance does not 
+exceed the percentage of reference value of presence.
+備考 3.“ － ” 係指該項限用物質為排除項目。
+Note 3. “-” indicates that the restricted substance corresponds to the exemption.
+
+--- Page 56 ---
+PPC-3211SW/3181SW/3151SW User Manual 48
+B.1 China RoHS
+Thank you for choosing an Advantech product. In compliance with the China RoHS
+standard SJ/T11364, “Marking for the Restriction of the Use of Hazardous Sub-
+stances in Electrical and Electronic Products”, all hazardous substances present in
+the product are disclosed below. 
+Please disregard this notice if the product is not to be sold or installed in China.
+O: Indicates that the concentration of this hazardous substance in all homogeneous
+materials of the product comply with the limit specified in the GB/T 26572 standard.
+X: Indicates that the concentration of this hazardous substance in at least one homo-
+geneous material of the product exceeds the limit specified in the GB/T 26572 stan-
+dard.
+Enterprise Statement: (For substances exceeding the maximum allowable limit)
+The Environmentally-Friendly Use Period (EFUP) for all enclosed products and their 
+parts is per the symbol shown, unless otherwise marked. The EFUP is valid only 
+when the product is operated under the conditions defined in the user manual.
+Products labeled with a pollution control symbol do not contain hazardous sub-
+stances, can be recycled, and should not be casually discarded.
+Model Name PPC-3211SW/3181SW/3151SW
+Substance Name and concentration of hazardous substances contained in product
+Lead (Pb)
+Mercury
+(Hg)
+Cadmium
+(Cd)
+Hexavalent 
+chrome
+(Cr(VI))
+Polybrominated 
+Biphenyls
+(PBB)
+Polybrominated 
+Diphenyl Ethers
+(PBDE)
+Battery X O O O O O
+Touchscreen X O O O O O
+Copper stub X O O O O O
+Electronic 
+parts and 
+components
+XO OO O O
+
+--- Page 57 ---
+Appendix C
+C Watchdog Program 
+Example
+
+--- Page 58 ---
+PPC-3211SW/3181SW/3151SW User Manual 50
+C.1 Watchdog Program Example
+The watchdog timer is provided to ensure that standalone systems can always
+recover from catastrophic CPU failures and crashes. Such events may have been
+caused by external EMI or a software bug. If the CPU is malfunctioning, the watch-
+dog timer performs a hardware reset to return the system to a previous state.
+The following watchdog timer example code is written in Intel 8086 assembly lan-
+guage for a DOS environment. The number of watchdog timer intervals can be set as
+0 ~ 255 via software.
+-----------------------------------------------------
+; Enter the Extended Function Mode
+;-----------------------------------------------------
+MOV DX, 2EH; dependency by HW strap to 2Eh
+MOV AL, 87H
+OUT DX, AL
+OUT DX, AL
+;-----------------------------------------------------------------------------
+; Configure logical device 8, configuration register CR30
+;-----------------------------------------------------------------------------
+MOV DX, 2EH
+MOV AL, 07H
+OUT DX, AL; point to logical device number reg.
+MOV DX, 2FH
+MOV AL, 08H
+OUT DX, AL; select logical device 8
+;-----------------------------------------------------------------------------
+;Set WDT logic device to active
+;-----------------------------------------------------------------------------
+MOV DX, 2EH
+MOV AL, 30H
+OUT DX, AL; select CR30
+MOV DX, 2FH
+MOV AL, 01H
+OUT DX, AL; set WDT active
+;-----------------------------------------------------------------------------
+;Initial WDT mode
+;-----------------------------------------------------------------------------
+MOV DX, 2EH
+MOV AL, F0H
+OUT DX, AL 
+MOV DX, 2FH
+MOV AL, 00H; bit 0: 0 = pulse mode, 1 = level mode; bit 3: 0 = second mode, 1 =
+minute mode 
+OUT DX, AL; set second mode, default value
+
+--- Page 59 ---
+51 PPC-3211SW/3181SW/3151SW User Manual 
+Appendix C Watchdog Program Example
+;-----------------------------------------------------------------------------
+;Set WDT timeout value
+;-----------------------------------------------------------------------------
+MOV DX, 2EH
+MOV AL, F1H
+OUT DX, AL 
+MOV DX, 2FH
+MOV AL, 05H
+OUT DX, AL; set timeout value as 5s; 00 = timeout disabled
+;-----------------------------------------------
+; Exit the Extended Function Mode
+;----------------------------------------------
+MOV DX, 2EH
+MOV AL, AAH
+OUT DX, AL
+
+--- Page 60 ---
+wwww.advantech.com
+Please verify specifications before quoting. This guide is intended for reference
+purposes only.
+All product specifications are subject to change without notice.
+No part of this publication may be reproduced in any form or by any means,
+such as electronically, by photocopying, recording, or otherwise, without prior
+written permission from the publisher.
+All brand and product names are trademarks or registered trademarks of their
+respective companies.
+© Advantech Co., Ltd. 2018
+

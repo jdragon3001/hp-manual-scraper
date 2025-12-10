@@ -1,0 +1,401 @@
+Brand: INTEL
+Model: Nuc 13 Pro Mini
+URL: https://www.manua.ls/intel/nuc-13-pro-mini/manual
+Total Pages: 19
+============================================================
+
+--- Page 1 ---
+1 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+ 
+ 
+ 
+ 
+ 
+Intel® NUC 13 Pro Mini PC NUC13ANHi7 
+Intel® NUC 13 Pro Mini PC NUC13ANHi5 
+Intel® NUC 13 Pro Mini PC NUC13ANHi3 
+ 
+User Guide 
+ 
+March 2023
+
+--- Page 2 ---
+2 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+ 
+You may not use or facilitate the use of this document in connection with any infringement or other legal analysis concerning Intel products 
+described herein. You agree to grant Intel a non-exclusive, royalty-free license to any patent claim thereafter drafted which includes subject 
+matter disclosed herein. 
+No license (express or implied, by estoppel or otherwise) to any intellectual property rights is granted by this document. 
+All information provided here is subject to change without notice. Contact your Intel representative to obtain the latest Intel product 
+specifications and roadmaps. 
+The products described may contain design defects or errors known as errata which may cause the product to deviate from published 
+specifications. Current characterized errata are available on request. 
+Copies of documents which have an order number and are referenced in this document may be obtained by calling 1-800-548-4725 or by 
+visiting:  http://www.intel.com/design/literature.htm.   
+Intel technologies' features and benefits depend on system configuration and may require enabled hardware, software or service activation. 
+Performance varies depending on system configuration. No computer system can be absolutely secure. 
+Intel and the Intel logo are trademarks of Intel Corporation or its subsidiaries in the U.S. and/or other countries. 
+*Other names and brands may be claimed as the property of others. 
+Copyright © 2023, Intel Corporation. All rights reserved.
+
+--- Page 3 ---
+3 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+Contents 
+1.0  Introduction ....................................................................................................................................................... 5 
+1.1  Before You Begin ........................................................................................................................................... 5 
+1.2  Installation Precautions ............................................................................................................................. 5 
+1.3  Observe Safety and Regulatory Requirements ......................................................................... 6 
+2.0  Open the Chassis ........................................................................................................................................... 7 
+3.0  Upgrade System Memory ........................................................................................................................ 8 
+3.1  Upgrade to Different Memory ............................................................................................................... 8 
+3.2  Install Additional Memory ........................................................................................................................ 9 
+4.0  Changing the M.2 SSD ............................................................................................................................ 10 
+5.0  Close the Chassis........................................................................................................................................ 12 
+6.0  Use the VESA Bracket (Optional) .................................................................................................... 13 
+7.0  Connect Power .............................................................................................................................................. 15 
+8.0  Set Up Microsoft® Windows 11........................................................................................................ 16 
+9.0  Install the Latest Device Drivers and Software ..................................................................... 17 
+10.0  Operating System Recovery ............................................................................................................... 18
+
+--- Page 4 ---
+4 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+Revision History 
+ 
+Date 
+Revision 
+Description 
+March 2023 
+1.0 
+Initial release.
+
+--- Page 5 ---
+5 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+1.0  Introduction 
+This User Guide provides step-by-step installation instructions for these products: 
+ 
+•  Intel® NUC 13 Pro Mini PC NUC13ANHi7 
+•  Intel® NUC 13 Pro Mini PC NUC13ANHi5 
+•  Intel® NUC 13 Pro Mini PC NUC13ANHi3 
+1.1  Before You Begin 
+  CAUTIONS 
+The steps in this guide assume you’re familiar with computer terminology and 
+with the safety practices and regulatory compliance required for using and 
+modifying computer equipment. 
+ 
+Disconnect the computer from its power source and from any network before 
+performing any of the steps described in this guide.   
+Failure to disconnect power, telecommunications links, or networks before you open 
+the computer or perform any procedures can result in personal injury or equipment 
+damage.  Some circuitry on the board can continue to operate even though the front 
+panel power button is off. 
+ 
+Follow these guidelines before you begin: 
+•  Always follow the steps in each procedure in the correct order. 
+•  Create a log to record information about your computer, such as model, 
+serial numbers, installed options, and configuration information. 
+•  Electrostatic discharge (ESD) can damage components.  Perform the 
+procedures described in this chapter only at an ESD workstation using an 
+antistatic wrist strap and a conductive foam pad. If such a station isn’t 
+available, you can provide some ESD protection by wearing an antistatic wrist 
+strap and attaching it to a metal part of the computer chassis. 
+1.2  Installation Precautions 
+When you install and test the Intel NUC, observe all warnings and cautions in the 
+installation instructions. 
+ 
+To avoid injury, be careful of:
+
+--- Page 6 ---
+6 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+•  Sharp pins on connectors 
+•  Sharp pins on circuit boards 
+•  Rough edges and sharp corners on the chassis 
+•  Hot components (such as SSDs, processors, voltage regulators, and heat sinks) 
+•  Damage to wires that could cause a short circuit 
+ 
+Observe all warnings and cautions that instruct you to refer computer servicing 
+to qualified technical personnel. 
+1.3  Observe Safety and Regulatory Requirements 
+If you don’t follow these instructions, you increase your safety risk and the possibility 
+of noncompliance with regional laws and regulations.
+
+--- Page 7 ---
+7 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+2.0  Open the Chassis 
+Unscrew the four corner screws on the bottom of the chassis and lift the cover.
+
+--- Page 8 ---
+8 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+3.0  Upgrade System Memory 
+The Intel® NUC 13 Pro Mini PC NUC13ANH has two 260-pin DDR4 SO-DIMM sockets.  
+Pre-installed memory  
+Intel® NUC 13 Pro Mini PC NUC13ANHi7 
+2x 4GB DDR4-3200 SODIMMs 
+Intel® NUC 13 Pro Mini PC NUC13ANHi5 
+2x 4GB DDR4-3200 SODIMMs 
+Intel® NUC 13 Pro Mini PC NUC13ANHi3 
+2x 8GB DDR4-3200 SODIMMs 
+To upgrade memory, be sure to select memory modules that meet these 
+requirements:  
+•  1.2V low voltage memory 
+•  2400/2666/3200 MHz SO-DIMMs  
+•  Non-ECC 
+•  Up to 64GB of system memory supported with 2 SO-DIMMs using 32GB 
+memory modules 
+Find compatible memory modules in the Intel Product Compatibility Tool: 
+•  Intel® NUC 13 Pro Mini PC NUC13ANHi7 
+•  Intel® NUC 13 Pro Mini PC NUC13ANHi5 
+•  Intel® NUC 13 Pro Mini PC NUC13ANHi3 
+ 
+NOTE 
+If you plan to install only one memory module, install it in the lower 
+memory socket. 
+ 
+3.1  Upgrade to Different Memory 
+ 
+1.  Observe the precautions in "Before You Begin" in Section 1.1. 
+2.  Turn off all peripheral devices connected to the computer.   
+3.  Turn off the computer and disconnect the power cord. 
+4.  Remove the computer’s bottom chassis cover. 
+5.  Remove the pre-installed memory module 
+a.  Gently spread the retaining clips at each end of the memory socket, which 
+causes the module to pop out of the socket (C). 
+b.  Holding the module by the edges, lift it away from the socket, and 
+store it in an anti-static package. 
+6.  Install the new memory module 
+a.  Align the small space at the bottom edge of the memory module 
+with the key in the socket. 
+b.  Insert the bottom edge of the module at a 45-degree angle into
+
+--- Page 9 ---
+9 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+the socket (A). 
+c.  When the module is inserted, push down on the outer edges of 
+the module until the retaining clips snap into place (B). Make sure 
+the clips are firmly in place (C). 
+ 
+ 
+ 
+3.2  Install Additional Memory 
+ 
+1.  Observe the precautions in "Before You Begin" in Section 1.1. 
+2.  Turn off all peripheral devices connected to the computer.   
+3.  Turn off the computer and disconnect the power cord. 
+4.  Remove the computer’s bottom chassis cover. 
+5.  Install the additional module: 
+a.  Align the small space at the bottom edge of the memory module with the 
+key on the socket. 
+b.  Insert the bottom edge of the module at a 45-degree angle into the 
+socket (A). 
+c.  When the module is inserted, push down on the outer edges of 
+the module until the retaining clips snap into place (B). Make 
+sure the clips are firmly in place (C). 
+6.  Reinstall and reconnect any parts you removed or disconnected to reach the 
+memory sockets. 
+7.  Replace the computer’s cover and reconnect the power cord.
+
+--- Page 10 ---
+10 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+4.0  Changing the M.2 SSD  
+The Intel® NUC 13 Pro Mini PC NUC13ANH contains 
+•  one 80mm connector supporting NVMe and  
+•  one 42mm connector supporting SATA SSD  
+ 
+Pre-installed M.2  
+Intel® NUC 13 Pro Mini PC NUC13ANHi7 
+512GB Gen 4 NVMe SSD 
+Intel® NUC 13 Pro Mini PC NUC13ANHi5 
+512GB Gen 4 NVMe SSD 
+Intel® NUC 13 Pro Mini PC NUC13ANHi3 
+512GB Gen 4 NVMe SSD 
+Find compatible M.2 SSDs in the Intel Product Compatibility Tool: 
+•  Intel® NUC 13 Pro Mini PC NUC13ANHi7 
+•  Intel® NUC 13 Pro Mini PC NUC13ANHi5 
+•  Intel® NUC 13 Pro Mini PC NUC13ANHi3 
+To install a different M.2 SSD: 
+ 
+1.  Remove the small silver screw from the 80mm or 42mm metal standoff on the 
+board (A). 
+ 
+2.  Remove the pre-installed SSD from the connector.  
+ 
+3.  Align the space at the bottom of the new M.2 SSD to the key on the connector. 
+ 
+4.  Insert the bottom edge of the M.2 SSD into the connector (B). 
+ 
+5.  Secure the card to the standoff with the small silver screw (C).
+
+--- Page 11 ---
+11 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023
+
+--- Page 12 ---
+12 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+5.0  Close the Chassis 
+After all components have been installed, close the Intel NUC chassis. Intel 
+recommends this be done by hand with a screwdriver to avoid over-tightening and 
+possibly damaging the screws.
+
+--- Page 13 ---
+13 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+6.0  Use the VESA Bracket (Optional) 
+Follow these instructions to attach and use the VESA mount bracket: 
+ 
+1.  Using the four small black screws that were included in the box, attach the 
+VESA bracket to the back of the monitor or TV. 
+ 
+ 
+ 
+2.  Attach the two slightly larger black screws to the bottom chassis cover of the 
+Intel NUC.
+
+--- Page 14 ---
+14 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+ 
+ 
+3.  Slide the Intel NUC onto the VESA mount bracket.
+
+--- Page 15 ---
+15 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+7.0  Connect Power 
+Each Intel NUC model includes a region-specific AC power cord. 
+ 
+Product codes 
+Power cord type 
+RNUC13ANHI70QA6 
+RNUC13ANHI50WA6 
+RNUC13ANHI30WA6 
+CN power cord included.
+
+--- Page 16 ---
+16 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+8.0  Set Up Microsoft® Windows 11 
+Microsoft Windows 11 is already installed on the Intel NUC. The first time you start the 
+computer, you are guided through the Windows 11 setup steps, including: 
+ 
+•  Selecting your region and language.  
+•  Accepting the Microsoft Windows license terms.  
+•  Personalizing Windows and assign a PC Name.  
+•  "Get Online" dialog to pick a wireless network (this step is optional).  
+•  Choosing Express Settings or Customize.  
+•  Assigning a Username and Password.  
+ 
+Reinstalling the Operating System 
+If you upgrade or replace the computer’s drive, you may need to install a new version 
+of the operating system. See these resources: 
+•  Supported Operating Systems 
+•  Windows Setup Guide
+
+--- Page 17 ---
+17 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+9.0  Install the Latest Device Drivers and Software 
+Here are the options for keeping device drivers current:  
+ 
+•  Allow the Intel® Driver & Support Assistant (Intel® DSA) to detect out-of-
+date drivers 
+•  Manually download drivers, BIOS, and software from Download Center: 
+ 
+o  Intel® NUC 13 Pro Mini PC NUC13ANHi7 
+o  Intel® NUC 13 Pro Mini PC NUC13ANHi5 
+o  Intel® NUC 13 Pro Mini PC NUC13ANHi3
+
+--- Page 18 ---
+18 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+10.0  Operating System Recovery 
+There’s a Windows recovery partition on the Intel NUC. You can use this partition to 
+Refresh, Reset, or Restore Windows. Here is what each of these actions do: 
+ 
+Refresh  
+ 
+If your PC isn't performing as well as it once did, and you don't 
+know why, you can refresh your PC. This action doesn’t delete any 
+of your personal files or change your settings. Refresh does the 
+following: 
+ 
+•  Files and personalization settings won’t change.  
+•  PC settings are changed back to their defaults.  
+•  Apps from the Windows Store are kept.  
+•  Apps installed from disks or websites are removed.  
+•  List of removed apps is saved on the desktop. 
+ 
+Reset  
+ 
+If you want to recycle your PC, give it away, or start over with it, you 
+can reset it completely. This process removes everything. Reset 
+does the following: 
+ 
+•  All personal files and apps are removed.  
+•  PC settings are changed back to their defaults.  
+•  Windows is reinstalled. 
+ 
+Restore 
+If a recently installed app or driver is causing problems with your 
+PC, you can restore Windows back to an earlier point in time, 
+called a restore point. System Restore doesn’t change your 
+personal files, but it can remove recently installed apps and 
+drivers. 
+ 
+ 
+Caution - Before performing a Refresh or Reset: 
+ 
+•  Make sure to back up all personal data to external storage.
+
+--- Page 19 ---
+19 
+Intel® NUC 13 Pro Mini PC NUC13ANH 
+User Guide – March 2023 
+  
+ To access the recovery media: 
+ 
+If Windows starts 
+ 
+From Windows Start, type Recovery and select 
+Recovery Options.  
+ 
+See Recovery options in Windows 10/11 for 
+complete details on how to use the recovery options. 
+ 
+If Windows doesn’t start 
+The recovery process should automatically start. If 
+Recovery doesn’t automatically start, you can try to 
+initiate it as follows: 
+ 
+1.  Press F8 during boot, when you see the 
+prompt “F8 to Activate Windows 8.1/10 
+Recovery Mode”.  
+2.  Follow the recovery steps.
+

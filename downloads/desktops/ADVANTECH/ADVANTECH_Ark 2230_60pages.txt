@@ -1,0 +1,1211 @@
+Brand: ADVANTECH
+Model: Ark 2230
+URL: https://www.manua.ls/advantech/ark-2230/manual
+Total Pages: 60
+============================================================
+
+--- Page 1 ---
+User Manual
+ARK-2230
+Fanless Embedded Box PC
+
+--- Page 2 ---
+ARK-2230 User Manual ii
+Attention!
+Please note:
+This package contains a hard-copy user manual in Chinese for China CCC certifica-
+tion purposes, and there is an English user manual included as a PDF file on the
+website. Please disregard the Chinese hard copy user manual if the product is not to
+be sold and/or installed in China.
+
+--- Page 3 ---
+iii ARK-2230 User Manual
+ 
+Copyright
+The documentation and the software included with this product are copyrighted 2016
+by Advantech Co., Ltd. All rights are reserved. Advantech Co., Ltd. reserves the right
+to make improvements in the products described in this manual at any time without
+notice. 
+No part of this manual may be reproduced, copied, translated or transmitted in any
+form  or by any means without the prior written  permission  of  Advantech Co., Ltd.
+Information provided in this manual is intended to be accurate and reliable. However,
+Advantech Co., Ltd. assumes no responsibility for its use, nor for any infringements
+of the rights of third parties, which may result from its use.
+Acknowledgements
+Award is a trademark of Award Software International, Inc.
+VIA is a trademark of VIA Technologies, Inc.
+IBM, PC/AT, PS/2 and VGA are trademarks of International Business Machines Cor-
+poration.
+Intel® and Pentium® are trademarks of Intel Corporation.
+Microsoft Windows® is a registered trademark of Microsoft Corp.
+RTL is a trademark of Realtek Semi-Conductor Co., Ltd.
+ESS is a trademark of ESS Technology, Inc.
+UMC is a trademark of United Microelectronics Corporation.
+SMI is a trademark of Silicon Motion, Inc.
+Creative is a trademark of Creative Technology LTD.
+CHRONTEL is a trademark of Chrontel Inc.
+All other product names or trademarks are properties of their respective owners.
+For more information about this and other Advantech products, please visit our web-
+site at:
+http://www.advantech.com/ 
+http://www.advantech.com/ePlatform/
+For technical support and service, please visit our support website at:
+http://support.advantech.com.tw/support/
+Part No. 2006K22301 Edition 2
+Printed in China March 2020
+
+--- Page 4 ---
+ARK-2230 User Manual iv
+Product Warranty (2 years)
+Advantech warrants to you, the original purchaser, that each of its products will be
+free from defects in materials and workmanship for two years from the date of pur-
+chase. 
+This warranty does not apply to any products which have been repaired or altered by
+persons other than repair personnel authorized by Advantech, or which have been
+subject to misuse, abuse, accident or improper installation. Advantech assumes no
+liability under the terms of this warranty as a consequence of such events.
+Because of Advantech’s high quality-control standards and rigorous testing, most of
+our customers never need to use our repair service. If an Advantech product is defec-
+tive, it will be repaired or replaced at no charge during the warranty period. For out-
+of-warranty repairs, you will be billed according to the cost of replacement materials,
+service time and freight. Please consult your dealer for more details.
+If you think you have a defective product, follow these steps:
+1. Collect all the information about the problem encountered. (For example, CPU 
+speed, Advantech products used, other hardware and software used, etc.) Note 
+anything abnormal and list any onscreen messages you get when the problem 
+occurs.
+2. Call your dealer and describe the problem. Please have your manual, product, 
+and any helpful information readily available.
+3. If your product is diagnosed as defective, obtain an RMA (return merchandise 
+authorization) number from your dealer. This allows us to process your return 
+more quickly.
+4. Carefully pack the defective product, a fully-completed Repair and Replacement 
+Order Card and a photocopy proof of purchase date (such as your sales receipt) 
+in a shippable container. A product returned without proof of the purchase date 
+is not eligible for warranty service.
+5. Write the RMA number visibly on the outside of the package and ship it prepaid 
+to your dealer.
+Declaration of Conformity
+FCC Class A
+Note: This equipment has been tested and found to comply with the limits for a Class
+A digital device, pursuant to part 15 of the FCC Rules. These limits are designed to
+provide reasonable  protection  against  harmful  interference  when  the equipment  is
+operated  in  a  commercial  environment. This  equipment  generates,  uses,  and  can
+radiate radio frequency energy and, if not installed and used in accordance with the
+instruction manual, may cause harmful interference to radio communications. Opera-
+tion of this equipment in a residential area is likely to cause harmful interference in
+which case the user will be required to correct the interference at his own expense.
+
+--- Page 5 ---
+v ARK-2230 User Manual
+ 
+Technical Support and Assistance
+1. Visit the Advantech web site at www.advantech.com/support where you can find 
+the latest information about the product.
+2. Contact your distributor, sales representative, or Advantech's customer service 
+center for technical support if you need additional assistance. Please have the 
+following information ready before you call:
+– Product name and serial number
+– Description of your peripheral attachments
+– Description of your software (operating system, version, application software, 
+etc.)
+– A complete description of the problem
+– The exact wording of any error messages
+Warnings, Cautions and Notes
+Warning! Warnings indicate conditions, which if not observed, can cause personal 
+injury!
+Caution! Cautions are included to help you avoid damaging hardware or losing 
+data. 
+There is a danger of a new battery exploding if it is incorrectly installed. 
+Do not attempt to recharge, force open, or heat the battery. Replace the 
+battery only with the same or equivalent type recommended by the man-
+ufacturer. Discard used batteries according to the manufacturer's 
+instructions.
+Note! Notes provide optional additional information.
+Warning! Les avertissements indiquent des conditions qui, si elles ne sont pas 
+respectées, peuvent provoquer des blessures!
+Caution! Des précautions sont incluses pour vous aider à éviter d'endommager le 
+matériel ou de perdre des données.
+Il y a un risque d'explosion d'une nouvelle batterie si elle n'est pas instal-
+lée correctement. N'essayez pas de recharger, d'ouvrir de force ou de 
+chauffer la batterie. Remplacez la batterie uniquement par un type iden-
+tique ou équivalent recommandé par le fabricant. Jetez les piles usa-
+gées conformément aux instructions du fabricant.
+
+--- Page 6 ---
+ARK-2230 User Manual vi
+Packing List
+Before installation, please ensure the following items have been shipped:
+ 1 x ARK-2230 unit
+ 1 x Registration and 2 years Warranty card
+ 1 x China RoHS
+ 1 x 2-Pole Phoenix to DC-Jack Power cable
+ 1 x SUSIAccess Utility CD
+ 1 x Simplified Chinese manual
+Note! Les notes fournissent des informations supplémentaires facultatives.
+
+--- Page 7 ---
+vii ARK-2230 User Manual
+ 
+Ordering Information
+ Optional Accessories
+For ARK-2230
+Model Number Description
+ARK-2230-U0A1E
+Celeron J1900 2.0GHz w/HDMI, VGA, dual GbE, 4COM, 5USB, 
+iDoor
+Part Number Description
+96PSA-A60W12W6 AC-to-DC Adapter, DC12V/5A 60W with lockable DC jack
+MOS-1120Y-0201E Isolated RS-232, 2-Ch, DB9
+MOS-1120Y-1401E Non-Isolated RS-232, DB37, 4-Ch
+MOS-1121Y-0201E Isolated RS-422/485, 2-Ch, DB9
+MOS-1121Y-1401E Non-Isolated RS-422/485, DB37, 4-Ch
+MOS-2120-Z1101E Giga LAN Ethernet module, 1-Ch
+MOS-2220-X1101E Parallel LPT module, 1-Ch, USB I/F
+MOS-1130Y-0201E Isolated CANBus, 2-Ch, DB9, PCIe I/F
+MOS-2230-Z1201E CANBus module, 2-Ch, USB I/F
+MOS-1110Y-0101E Isolated 16 DI/8 DO, 1-Ch, DB37, PCIe I/F
+
+--- Page 8 ---
+ARK-2230 User Manual viii
+Safety Instructions
+1. Please read these safety instructions carefully.
+2. Please keep this User’s Manual for later reference.
+3. Please disconnect this equipment from AC outlet before cleaning. Use a damp 
+cloth. Don’t use liquid or sprayed detergent for cleaning. Use moisture sheet or 
+clothe for cleaning.
+4. For pluggable equipment, the socket-outlet shall near the equipment and shall 
+be easily accessible.
+5. Please keep this equipment from humidity.
+6. Lay this equipment on a reliable surface when install. A drop or fall could cause 
+injury.
+7. The openings on the enclosure are for air convection hence protecting the 
+equipment from overheating. DO NOT COVER THE OPENINGS.
+8. Make sure the voltage of the power source when connecting the equipment to 
+the power outlet.
+9. Place the power cord such a way that people cannot step on it. Do not place 
+anything over the power cord. 
+10. All cautions and warnings on the equipment should be noted.
+11. If the equipment is not used for long time, disconnect the equipment from mains 
+to avoid being damaged by transient over-voltage.
+12. Never pour any liquid into ventilation openings; this could cause fire or electrical 
+shock.
+13. Never open the equipment. For safety reasons, only qualified service personnel 
+should open the equipment.
+14. If one of the following situations arises, get the equipment checked by service 
+personnel:
+The power cord or plug is damaged.
+Liquid has penetrated into the equipment.
+The equipment has been exposed to moisture.
+The equipment does not work well, or you cannot get it to work according to 
+the user's manual.
+The equipment has been dropped and damaged.
+The equipment has obvious signs of breakage.
+15. Do not leave this equipment in an environment where the storage temperature 
+may go below -40° C (-40° F) or above 85° C (185° F). This could damage the 
+equipment. the equipment should be in a controlled environment.
+16. Caution: Danger of explosion if battery is incorrectly replaced. Replace only with 
+the same or equivalent type recommended by the manufacturer, discard used 
+batteries according to the manufacturer's instructions.
+17. The sound pressure level at the operator's position according to IEC 704-1:1982 
+is no more than 70 dB (A).
+18. RESTRICTED ACCESS AREA: The equipment should only be installed in a 
+Restricted Access Area.
+19. DISCLAIMER: This set of instructions is given according to IEC 704-1. Advan-
+tech disclaims all responsibility for the accuracy of any statements contained 
+herein.
+
+--- Page 9 ---
+ix ARK-2230 User Manual
+ 
+20. The product is intended to be supplied by an UL certified power supply or dc 
+source suitable for use at Tma 60 degree C min. and output meets SELV or 
+ES1, rated 12Vdc,5A/12Vdc,10A/9-36Vdc,4.4-1.1A
+21. The wire of the protective bonding conductor shall be green-and-yellow, 
+20AWG/0.5(mm2) min.
+Safety Intstructions
+1. Veuillez lire attentivement ces consignes de sécurité.
+2. Veuillez conserver ce manuel d'utilisation pour référence ultérieure.
+3. Veuillez déconnecter cet équipement de la prise secteur avant de le nettoyer. 
+Utilisez un chiffon humide. N'utilisez pas de détergent liquide ou pulvérisé pour 
+le nettoyage. Utilisez une feuille d'humidité ou des vêtements pour le nettoyage.
+4. Pour les équipements enfichables, la prise de courant doit être proche de l'équi-
+pement et doit être facilement accessible.
+5. Veuillez garder cet équipement à l'abri de l'humidité.
+6. Posez cet équipement sur une surface fiable lors de l'installation. Une chute ou 
+une chute pourrait provoquer des blessures.
+7. Les ouvertures sur l'enceinte sont destinées à la convection d'air, protégeant 
+ainsi l'équipement de la surchauffe. NE COUVREZ PAS LES OUVERTURES.
+8. Assurez-vous de la tension de la source d'alimentation lorsque vous connectez 
+l'équipement à la prise de courant.
+9. Placez le cordon d'alimentation de manière à ce que personne ne puisse 
+marcher dessus. Ne placez rien sur le cordon d'alimentation.
+10. Toutes les précautions et avertissements sur l'équipement doivent être notés.
+11. Si l'équipement n'est pas utilisé pendant une longue période, débranchez-le du 
+secteur pour éviter d'être endommagé par une surtension transitoire.
+12. Ne versez jamais de liquide dans les ouvertures de ventilation; cela pourrait pro-
+voquer un incendie ou un choc électrique.
+13. N'ouvrez jamais l'équipement. Pour des raisons de sécurité, seul un technicien 
+qualifié doit ouvrir l'équipement.
+14. Si l'une des situations suivantes se présente, faites vérifier l'équipement par le 
+personnel de service:
+– Le cordon d'alimentation ou la fiche est endommagé.
+– Du liquide a pénétré dans l'équipement.
+– L'équipement a été exposé à l'humidité.
+– L'équipement ne fonctionne pas bien, ou vous ne pouvez pas le faire fonc-
+tionner selon le manuel de l'utilisateur.
+– L'équipement est tombé et a été endommagé.
+– L'équipement présente des signes évidents de rupture.
+15. Ne laissez pas cet équipement dans un environnement où la température de 
+stockage peut être inférieure à -40 ° C (-40 ° F) ou supérieure à 85 ° C (185 ° F). 
+Cela pourrait endommager l'équipement. l'équipement doit se trouver dans un 
+environnement contrôlé.
+16. Attention: risque d'explosion si la batterie n'est pas remplacée correctement. 
+Remplacez uniquement par un type identique ou équivalent recommandé par le 
+fabricant, jetez les piles usagées conformément aux instructions du fabricant.
+17. Le niveau de pression acoustique au poste de l'opérateur selon CEI 704-1: 
+1982 n'est pas supérieur à 70 dB (A).
+18. ZONE D'ACCÈS RESTREINT: l'équipement ne doit être installé que 
+dans une 
+zone d'accès restreint.
+
+--- Page 10 ---
+ARK-2230 User Manual x
+19. AVIS DE NON-RESPONSABILITÉ: Cet ensemble d'instructions est donné con-
+formément à la CEI 704-1. Advantech décline toute responsabilité quant à 
+l'exactitude des déclarations contenues dans le présent document.
+20. Le produit est destiné à être alimenté par une alimentation certifiée UL ou une 
+source cc pouvant être utilisée à Tma 60 degrés C min. et la sortie est conforme 
+SELV ou ES1, nominale 12Vdc, 5A / 12Vdc, 10A / 9-36Vdc, 4.4-1.1A
+21. Le fil du conducteur de liaison de protection doit être vert et jaune, 20AWG / 0,5 
+(mm2) min.
+
+--- Page 11 ---
+xi ARK-2230 User Manual
+ 
+Contents
+Chapter 1 General Introduction ...........................1
+1.1 Introduction ............................................................................................... 2
+1.2 Product Features....................................................................................... 3
+1.2.1 General ......................................................................................... 3
+1.2.2 Display .......................................................................................... 3
+1.2.3 Ethernet ........................................................................................ 3
+1.3 Chipset ...................................................................................................... 4
+1.3.1 Functional Specification ................................................................ 4
+1.3.2 iManager/SUSI 4.0........................................................................ 5
+1.4 Mechanical Specifications......................................................................... 5
+1.4.1 Dimensions ................................................................................... 5
+Figure 1.1 ARK-2230 Mechanical dimension drawing.................5
+1.4.2 Weight........................................................................................... 5
+1.5 Power Requirement .................................................................................. 5
+1.5.1 System Power............................................................................... 5
+1.5.2 RTC Battery .................................................................................. 5
+1.6 Environment Specification......................................................................... 6
+1.6.1 Operating Temperature................................................................. 6
+1.6.2 Relative Humidity .......................................................................... 6
+1.6.3 Storage Temperature.................................................................... 6
+1.6.4 Vibration during Operation ............................................................ 6
+1.6.5 Shock during Operation ................................................................ 6
+1.6.6 Safety............................................................................................ 6
+1.6.7 EMC.............................................................................................. 6
+Chapter 2 H/W Installation....................................7
+2.1 Introduction ............................................................................................... 8
+2.2 Jumpers .................................................................................................... 8
+2.2.1 Jumper Description ....................................................................... 8
+2.2.2 Jumper List ................................................................................... 9
+Table 2.1: Jumper List of Main Board.......................................... 9
+2.2.3 Jumper Location ........................................................................... 9
+Figure 2.1 Jumper Layout............................................................ 9
+2.2.4 Jumper Setting.............................................................................. 9
+2.3 Connectors.............................................................................................. 10
+2.3.1 ARK-2230L External I/O Connectors .......................................... 10
+Figure 2.2 COM connector ........................................................ 10
+Table 2.2: COM Connector Pin Assignments............................ 10
+Figure 2.3 Ethernet connector ................................................... 11
+Table 2.3: Ethernet Connector Pin Assignments....................... 11
+Figure 2.4 Audio connector........................................................ 11
+Table 2.4: Audio Connector Pin Assignments ........................... 11
+Figure 2.5 USB connector ......................................................... 12
+Table 2.5: USB Connector......................................................... 12
+Figure 2.6 VGA Connector ........................................................ 12
+Table 2.6: VGA Connector Pin Assignments............................. 12
+Figure 2.7 Power Button ............................................................ 13
+Figure 2.8 LED Indicators .......................................................... 13
+2.4 Installation ............................................................................................... 13
+2.4.1 Memory Installation..................................................................... 13
+2.4.2 HDD/SSD Installation.................................................................. 14
+2.4.3 mSATA Installation ..................................................................... 16
+2.4.4 Power Module (MIOe-PWR2) Installation (Option) ..................... 17
+
+--- Page 12 ---
+ARK-2230 User Manual xii
+2.4.5 iDoor Module Installation (Option) .............................................. 20
+2.4.6 2nd Layer MIOe Module Installation (Option)............................. 20
+Chapter 3 BIOS Settings .................................... 21
+3.1 BIOS Setup ............................................................................................. 22
+Figure 3.1 Setup program initial screen..................................... 22
+3.2 Entering Setup ........................................................................................ 22
+3.3 Main Setup.............................................................................................. 22
+Figure 3.2 Main setup screen .................................................... 23
+3.3.1 System date / System time ......................................................... 23
+3.4 Advanced BIOS Features Setup............................................................. 23
+Figure 3.3 Advanced BIOS features setup screen .................... 24
+3.4.1 ACPI Settings ............................................................................. 24
+Figure 3.4 ACPI Setting............................................................. 24
+3.4.2 Super I/O Configuration .............................................................. 25
+3.4.3 Embedded Controller Configuration ........................................... 26
+3.4.4 S5 RTC Wake Settings............................................................... 26
+3.4.5 Serial Port Console Redirection.................................................. 27
+3.4.6 CPU Configuration...................................................................... 28
+Figure 3.5 Intel Fast Flash Standby........................................... 28
+3.4.7 PPM Configuration...................................................................... 29
+3.4.8 IDE Configuration ....................................................................... 30
+3.4.9 CSM Configuration ..................................................................... 31
+3.4.10 Trusted Computing ..................................................................... 32
+3.4.11 USB Configuration...................................................................... 32
+3.5 Security Configuration............................................................................. 33
+3.5.1 Chipset Configuration ................................................................. 34
+3.5.2 North Bridge................................................................................ 35
+3.5.3 Intel IGD Configuration ............................................................... 36
+3.5.4 South Bridge............................................................................... 37
+3.5.5 Azalia HD Audio.......................................................................... 38
+3.5.6 USB Configuration ...................................................................... 39
+3.5.7 PCI Express Configuration ......................................................... 40
+3.6 Boot Settings........................................................................................... 41
+3.7 Security Setup......................................................................................... 42
+3.8 Save & Exit ............................................................................................. 43
+Appendix A Watchdog Timer Sample Code ........ 45
+A.1 EC Watchdog Timer sample code .......................................................... 46
+
+--- Page 13 ---
+Chapter 1
+1 General Introduction
+This chapter gives background 
+information on ARK-2230 series.
+
+--- Page 14 ---
+ARK-2230 User Manual 2
+1.1 Introduction
+ARK-2230 is an intelligent, modular, fanless embedded system powered by Intel Cel-
+eron J1900 Quad Core low power processor. With the modular I/O design, ARK-2230
+can easily  switch  I/O  no  matter  single  layer  to  bundle  with  iDoor  modules  or  dual
+layer to bundle with MIOe modules, and it can operate reliably in -20~60 °C environ-
+ments. AIK-2230 is targeted at factory automation, machine automation, kiosks, and
+self-service applications.
+Rugged & Multifunctional Design
+ARK-2230 is powered by Intel
+®
+ Celeron™ J1900 2.0GHz Quad core processors in
+an Advantech, rugged-design embedded box PC. All models are fanless, and high-
+light various quality features including default power input of 12V DC and optional
+wide-input  9-36V  DC,  wide  temperature  range  -20  ~  60  °C,  diverse  expandability
+options,  and  structural  strengthening.  ARK-2230  enlarges  the  surface  of  the  top
+cover and conductive cylinder to create maximum cooling effects for optimized cool-
+ing efficiency. It also provides rich I/O interface: up to 5 x USB, 2 x GbE, 4 x COM,
+and supports high capacity 2.5” HDD  up  to  1  TB.  The RS-232/422/485  COM  port
+mode can easily be changed via BIOS setting. 
+ 
+Multiple Display Support
+ARK-2230  supports two  display  types:  VGA,  HDMI display.  The graphic  engine  is
+DirectX 11.1, H/W format decode/Acceleration, MPEG2 (H/W acceleration), H.264/
+VC1/ WMV9 (H/W Decode/Acceleration). ARK-2230 supports dual independent dis-
+play.
+Built in Intelligent Management Tools - Advantech iManager & SUSIAccess
+Advantech iManager/SUSI 4.0 provides a valuable suite of programmable APIs such
+as multi-level watchdog, hardware monitor, system restore, and other user-friendly
+interface. iManager is an intelligent self-management cross platform tool that moni-
+tors system status for problems and takes action if anything is abnormal. iManager/
+SUSI 4.0 offers a boot up guarantee in critical, low temperature environments so sys-
+tems  can  automatically  recover  when  voltages  dip.  iManager/SUSI 4.0 makes the
+whole system more reliable and more intelligent. ARK-2230L also supports Advan-
+tech’s  own  SUSIAccess,  which  provides  easy  remote  management  so users can
+monitor, configure, and control a large number of terminals to make maintenance and
+system recovery simpler.
+
+--- Page 15 ---
+3 ARK-2230 User Manual
+Chapter 1 General Introduction
+1.2 Product Features
+1.2.1 General
+ CPU: Intel
+®
+ Celeron™
+ 
+Processor J1900 2.0GHz
+ System Chipset: Intel
+®
+ Celeron J1900 SOC
+ BIOS: AMI 16 Mbit Flash BIOS
+ System Memory: One DDR3L SODIMM. DDR3L 1333MHz up to 8 GB
+ Watchdog Timer: Single chip Watchdog 255-level interval timer, setup by soft-
+ware
+ I/O Interface: 2 x RS232, 2 x RS232/422/485
+ USB: 4 x USB 2.0, 1 x USB 3.0 compliant ports
+ Audio: High Definition Audio (HD), Line-in, Line out, Mic-in
+ Storage: 1 x mSATA and 1 x high capacity 2.5” SATA HDD (up to 12.5mm 
+height)
+ Expansion Interface: 
+– Supports1 x MiniPCIe with SIM holder
+– Supports 1 x iDoor expansion (by 1st layer)
+– Support 1 x ARK Plus expansion (by 2nd layer)
+ Software API: Advantech iManager/SUSI 4.0 and SUSIAccess - Remote 
+Device Management technology
+1.2.2 Display
+ Controller: Intel
+®
+ Celeron J1900
+ Resolution:
+– VGA: Supports up to 2048 x 1152
+– HDMI: Supports up to 1080P @ 60Hz,Supports HDMI 1.4a
+ Dual Display: VGA+HDMI
+1.2.3 Ethernet
+ Chipset: 
+– LAN1 Intel i210
+– LAN2 Intel i210
+ Speed: 1000 Mbps
+ Interface: 2 x RJ45
+ Standard: Compliant with IEEE 802.3, IEEE 802.3u, IEEE 802.3x, IEEE 802.3y, 
+IEEE 802.ab.
+
+--- Page 16 ---
+ARK-2230 User Manual 4
+1.3 Chipset
+1.3.1 Functional Specification
+1.3.1.1 Processor
+1.3.1.2 Chipset
+1.3.1.3 Others
+Processor
+Intel
+®
+ Celeron™ Processor J1900
+Intel
+®
+ Celeron™ J1900 at 2.0GHz, with 2MB L2 Cache Manufacturing 
+Technology 22nm
+Memory
+Supports DDR3L 1333MHz up to 8GB
+1 x 204-pin SODIMM socket type 
+Internal Graph-
+ics Features
+  DirectX 11.1 and OpenGL 3.0
+  Display Ports VGA + HDMI, HDMI 1.4a
+  Supports HDCP 1.3
+Video Accelera-
+tor
+  H/W accelerated video decode
+  Video decoder: Support MPEG4, VC1, WMV9, H.264
+  Supports DVD, Blu-ray, and HD video
+SATA Interface
+ Supports several optional sections of Serial ATA II: Extensions to 
+Serial ATA 1.0 Specification, Revision 1.0
+ Supports SATA transfers to 300 Mbytes/sec.
+ Supports mSATA socket
+USB Interface
+ USB host interface with support for 1 USB 3.0 and 4 USB 2.0 ports
+ All ports are High-Speed, Full-Speed, and Low-Speed capable
+ Supports legacy keyboard/mouse software
+BIOS  AMI 16Mb Flash BIOS via SPI
+Serial ports
+ COM1, COM2: Supports RS-232
+COM3 ~ COM4: Supports RS-232/422/485 and change mode under 
+BIOS setting
+** COM3 ~ COM4 RS-485 supports Auto flow control.
+COM connector: D-SUB CON. 9P
+Ethernet
+LAN1 Intel i210, LAN2 Intel i210
+ Compliant with IEEE 802.3, IEEE 802.3u, IEEE 802.3x, IEEE 802.3y, 
+IEEE 802.ab.
+ Support 10/100/1000 Mbps.
+LAN Connectors: Phone Jack RJ45 8P 90D(F)
+Audio
+Audio Codec: Realtek ALC888S:
+  Compliant with HD Audio specifications
+  Supports 16/20/24-bit DAC and 16/20/24-bit ADC resolution 
+  Supports: Line-out, Line-in, Mic-in
+Audio Connectors: Ear Phone Jack * 3
+Battery backup  BATTERY 3V/210 mAh with WIRE x 1
+
+--- Page 17 ---
+5 ARK-2230 User Manual
+Chapter 1 General Introduction
+1.3.2 iManager/SUSI 4.0
+1.4 Mechanical Specifications
+1.4.1 Dimensions
+260[10.24] x 44[1.73] x 140.2[5.52] Unit: mm [Inch]
+Figure 1.1 ARK-2230 Mechanical dimension drawing
+1.4.2 Weight
+2.3 kg (5.06 lb)
+1.5 Power Requirement
+1.5.1 System Power
+ Minimum power input: 
+– ARK-2230: DC 12V, 3A
+1.5.2 RTC Battery
+ Lithium 3 V/210 mAH
+Sequence control Supported
+Watchdog timer Multi Level WDT 
+Programmable 1-255 sec / min
+Hardware monitor CPU Temperature / input Current / input Voltage
+Power saving Deep sleep S5 mode 
+System information Running HR / Boot record
+
+--- Page 18 ---
+ARK-2230 User Manual 6
+1.6 Environment Specification
+1.6.1 Operating Temperature
+ With Industrial Grade SSD/mSATA: -20 ~ 60° C (-4~140° F), with air flow, 
+speed=0.7 m/sec
+ With 2.5-inch hard disk 0 to 45° C (32~113° F), with air flow, speed=0.7 m/sec
+1.6.2 Relative Humidity
+ 95% @ 40° C (non-condensing)
+1.6.3 Storage Temperature
+ -40 ~ 85° C (-40 ~ 185° F)
+1.6.4 Vibration during Operation
+ When the system is equipped with SSD/mSATA: 3Grms, IEC 60068-2-64, ran-
+dom, 5 ~ 500 Hz, 1hr/axis, x,y,z 3 axes.
+1.6.5 Shock during Operation
+ When the system is equipped with SSD/mSATA: 30G, IEC 60068-2-27, half 
+sine, 11 ms duration.
+1.6.6 Safety
+ UL, CB, CCC, BSMI
+1.6.7 EMC
+ CE, FCC, CCC, BSMI
+
+--- Page 19 ---
+Chapter 2
+2 H/W Installation
+This chapter introduces external 
+IO and the installation of ARK-
+2230 hardware.
+
+--- Page 20 ---
+ARK-2230 User Manual 8
+2.1 Introduction
+The following sections show the internal jumpers setting and the external connectors
+pin assignment for application.
+2.2 Jumpers 
+2.2.1 Jumper Description
+You may configure ARK-2230 to match the needs of your application by setting jump-
+ers. A jumper is a metal  bridge used to  close  an  electric circuit. It  consists of  two
+metal pins and a small metal clip (often protected by a plastic cover) that slides over
+the pins to connect them. To close a jumper, you connect the pins with the clip. To
+open  a  jumper,  you  remove  the  clip.  Sometimes  a  jumper  will  have  three  pins,
+labeled 1, 2 and 3. In this case you would connect either pins 1 and 2, or 2 and 3.
+The jumper settings are schematically depicted in this manual as follows.
+A pair of needle-nose pliers may be helpful when working with jumpers. If you have
+any doubts about the best hardware configuration for your application, contact your
+local distributor or sales representative before you make any changes. Generally, you
+simply need a standard cable to make most connections. 
+closed 2-3closedopen
+12 12
+closed 2-3closedopen
+
+--- Page 21 ---
+9 ARK-2230 User Manual
+Chapter 2 H/W Installation
+2.2.2 Jumper List
+2.2.3 Jumper Location
+Figure 2.1 Jumper Layout 
+2.2.4 Jumper Setting
+At Mother Board
+Table 2.1: Jumper List of Main Board
+J2
+Auto Power On Setting
+SW2
+Clear CMOS
+J2 Auto Power On Setting
+Part Number 1653002101
+Footprint HD_3x2P_79_D
+Description PIN HEADER 2*1P 180D(M)SQUARE 2.0mm DIP W/O Pb
+Setting Function
+NL Power On by power button
+(1-2)* Auto Power On (default)
+SW2 Clear CMOS
+Part Number 1600000071
+Footprint SW_3P_CJS-1201TA1
+Description CJS-1201TA1
+
+--- Page 22 ---
+ARK-2230 User Manual 10
+2.3 Connectors
+2.3.1 ARK-2230L External I/O Connectors
+2.3.1.1 COM Connector
+ARK-2230 provides four D-sub 9-pin connectors, which offers RS-232 or RS232/422/
+485 serial communication interface ports. Default setting is RS-232, if you want to
+use RS-422/485, you can find the BIOS setting in Chapter 3.4.2 for ARK-2230L. 
+The RS-422/485 mode of ARK-2230 COM3~COM4 can be supported via BIOS set-
+ting. The setting is under Advanced BIOS Features Setup -> Super IO Configuration.
+Figure 2.2 COM connector
+Setting Function
+1* NC (Default)
+2 RTC_TEST#
+3 GND (Clear CMOS)
+Table 2.2: COM Connector Pin Assignments
+RS-232 RS-422 RS-485
+Pin Signal Name Signal Name Signal Name
+1 DCD Tx- DATA-
+2RxD Tx+ DATA+
+3 TxD Rx+ NC
+4DTR Rx- NC
+5 GND GND GND
+6DSR NC NC
+7RTS NC NC
+8CTS NC NC
+9RI NC NC
+Note! NC represents “No Connection”.
+1   2  3  4  5
+6  7  8  9
+
+--- Page 23 ---
+11 ARK-2230 User Manual
+Chapter 2 H/W Installation
+2.3.1.2 Ethernet Connector (LAN)
+ARK-2230 is equipped with two Ethernet controllers that are fully compliant with IEEE
+802.3u 10/100/1000 Mbps CSMA/CD standards. LAN1, LAN2 are all equipped with
+Intel i210 Ethernet controller. The Ethernet port provides a standard RJ-45 jack con-
+nector  with  LED  indicators  on  the  front  side  to  show  its Active/Link status  (Green
+LED) and Speed status (Yellow LED).
+Figure 2.3 Ethernet connector
+2.3.1.3 Audio Connector
+ARK-2230  offers  stereo  audio  ports  by  three  phone  jack  connectors  of  Line_Out,
+Line_In, Mic_In. The audio chip  is  controlled by  ALC888S,  and  it’s compliant  with
+Azalea standard.
+Figure 2.4 Audio connector
+Table 2.3: Ethernet Connector Pin Assignments
+Pin 10/100/1000BaseT Signal Name
+1TX+
+2TX-
+3RX+
+4MDI2+
+5MDI2-
+6RX-
+7MDI3+
+8MDI3-
+18
+Table 2.4: Audio Connector Pin Assignments
+Pin Audio Signal Name
+1Mic_In
+2Line_In
+3Line_Out
+
+--- Page 24 ---
+ARK-2230 User Manual 12
+2.3.1.4 USB Connector
+ARK-2230 provides four USB interface connectors. The USB connectors are used to
+connect any device that conforms to the USB interface. Most digital devices conform
+to this standard. The USB interface supports Plug and Play.
+Figure 2.5 USB connector
+2.3.1.5 VGA Connector
+The ARK-2230 provides a high resolution VGA interface connected by a D-sub 15-
+pin connector to support a VGA CRT monitor. It supports display resolutions of up to
+2048 x 1152.
+Figure 2.6 VGA Connector
+Table 2.5: USB Connector
+Pin Signal name  Pin Signal name
+1 VCC 2 USB_data-
+3 USB_data+ 4 GND
+Table 2.6: VGA Connector Pin Assignments
+Pin Signal Name Pin Signal Name
+1 Red 2 Green
+3Blue 4 NC
+5 GND 6 GND
+7 GND 8 GND
+9NC 10GND
+11 NC 12 DDAT
+13 H-SYNC 14 V-SYNC
+15 DCLK
+
+--- Page 25 ---
+13 ARK-2230 User Manual
+Chapter 2 H/W Installation
+2.3.1.6 Power ON/OFF Button
+ARK-2230 comes with  a  Power  On/Off button that supports dual functions of Soft
+Power -On/Off (Instant off or Delay 4 Second), and Suspend.
+Figure 2.7 Power Button
+2.3.1.7 LED Indicators
+There are two LEDs on ARK-2230 front metal face plate for indicating system status:
+PWR LED is for power status; and HDD LED is for HDD & flash disk status.
+Figure 2.8 LED Indicators
+2.4 Installation
+2.4.1 Memory Installation
+1. Unscrew the 4 screws on the top cover. (Please use the tool in the accessory 
+box.)
+
+--- Page 26 ---
+ARK-2230 User Manual 14
+2. Remove the top cover and install the memory into the memory socket.
+3. Replace the top cover.
+2.4.2 HDD/SSD Installation
+1. Unscrew the 4 screws on the bottom cover, and the 4 screws on both sides of 
+ARK-2230.
+
+--- Page 27 ---
+15 ARK-2230 User Manual
+Chapter 2 H/W Installation
+2. Unscrew the 4 screws on the HDD bay.
+3. Install the HDD/SSD into the HDD bay, and fix the HDD onto the bracket.
+4. Fix the 4 screws back onto the HDD bay.
+5. Replace the bottom cover and fix the 8 screws back onto the system.
+
+--- Page 28 ---
+ARK-2230 User Manual 16
+2.4.3 mSATA Installation
+1. Unscrew the 4 screws on the bottom cover, and the 4 screws on both sides of 
+ARK-2230.
+2. Put the mSATA module onto the mSATA slot (CN16), and fasten the 2 screws 
+back on the mSATA module.
+ 
+3. Replace the bottom cover and fasten the 8 screws back onto the system.
+
+--- Page 29 ---
+17 ARK-2230 User Manual
+Chapter 2 H/W Installation
+2.4.4 Power Module (MIOe-PWR2) Installation (Option)
+1. Remove the 4 screws on the top cover. (Please use the tool in the accessory 
+box.)
+2. Remove the 2 screws on the power bracket for the original DC jack on the front 
+panel.
+
+--- Page 30 ---
+ARK-2230 User Manual 18
+3. Unscrew the 4 screws on the bottom cover and on both sides of ARK-2230.
+4. Remove the original internal power cable from M/B.
+
+--- Page 31 ---
+19 ARK-2230 User Manual
+Chapter 2 H/W Installation
+5. Link the MIOe-PWR2 internal power cable from M/B to the power board.
+6. Turn to the top side, and fasten the 4 screws for the power board, and tape 3 
+thermal pads on the red marks.
+
+--- Page 32 ---
+ARK-2230 User Manual 20
+7. Screw the new power bracket for MIOe-PWR2 on the front panel.
+8. Replace the bottom cover and the 8 screws back onto the system.
+9. Replace the top cover and the 4 screws.
+2.4.5 iDoor Module Installation (Option)
+Please refer to the start up manual in the iDoor kit.
+2.4.6 2nd Layer MIOe Module Installation (Option)
+Please refer to the start up manual in the iDoor kit.
+
+--- Page 34 ---
+ARK-2230 User Manual 22
+3.1 BIOS Setup
+With the AMIBIOS setup program, you can modify BIOS settings and control the var-
+ious system features. This chapter describes the basic navigation of the ARK-2230
+BIOS setup screens. 
+Figure 3.1 Setup program initial screen
+AMI's BIOS ROM has a built-in Setup program that allows users to modify the basic
+system configuration. This information is stored in flash ROM so it retains the Setup
+information when the power is turned off.
+3.2 Entering Setup 
+Turn on the computer and then press <F2> or <DEL> to enter Setup menu. 
+3.3 Main Setup 
+When users first enter the BIOS Setup Utility, users will enter the Main setup screen.
+Users can always return to the Main setup screen by selecting the Main tab. There
+are two Main Setup options. They are described in this section. The Main BIOS
+Setup screen is shown below.
+
+--- Page 35 ---
+23 ARK-2230 User Manual
+Chapter 3 BIOS Settings
+Figure 3.2 Main setup screen
+The Main BIOS setup screen has two main frames. The left frame displays all the
+options that can be configured. Grayed-out options cannot be configured; options in
+blue can. The right frame displays the key legend.
+Above the key legend is  an area reserved for  a text message. When an option is
+selected in the left frame, it is highlighted in white. Often a text message will accom-
+pany it. 
+3.3.1 System date / System time
+Use this option to change the system time and date. Highlight System Time or Sys-
+tem Date using the <Arrow> keys. Enter new values through the keyboard. Press the
+<Tab> key or the <Arrow> keys to move between fields. The date must be entered in
+MM/DD/YY format. The time must be entered in HH:MM:SS format. 
+3.4 Advanced BIOS Features Setup 
+Select  the  Advanced  tab from  the  ARK-2230  setup  screen  to  enter the  Advanced
+BIOS Setup screen. You can select any of the items in the left frame of the screen,
+such as CPU Configuration, to go to the sub menu for that item. You can display an
+Advanced BIOS Setup option by highlighting it using the <Arrow> keys. All Advanced
+BIOS  Setup  options  are  described  in  this  section.  The  Advanced  BIOS  Setup
+screens are shown below. The sub menus are described on the following pages.
+
+--- Page 36 ---
+ARK-2230 User Manual 24
+Figure 3.3 Advanced BIOS features setup screen
+3.4.1 ACPI Settings 
+Figure 3.4 ACPI Setting
+
+--- Page 37 ---
+25 ARK-2230 User Manual
+Chapter 3 BIOS Settings
+ Enable ACPI Auto Configuration
+This item allows users to enable or disable BIOS ACPI auto configuration.
+ Enable Hibernation
+This item allows users to enable or disable hibernation.
+ ACPI Sleep State
+This item allows users to set the ACPI sleep state.
+ Lock Legacy Resources
+This item allows users to lock legacy devices' resources.
+3.4.2 Super I/O Configuration
+ Serial Port 1 Configuration
+Set Parameters of Serial Port 1 (COMA).
+ Serial Port 2 Configuration
+Set Parameters of Serial Port 2 (COMB).
+ Serial Port 3 Configuration
+Set Parameters of Serial Port 3 (COMC).
+ Serial Port 4 Configuration
+Set Parameters of Serial Port 4 (COMD).
+
+--- Page 38 ---
+ARK-2230 User Manual 26
+3.4.3 Embedded Controller Configuration
+ EC Hardware Monitor
+This page display all information about system Temperature/Voltage/Current.
+ EC Power Saving Mode
+This item allows users to set board’s power saving mode when off.
+ EC Watch Dog Function
+This item allows users to select EC watchdog timer.
+3.4.4 S5 RTC Wake Settings
+
+--- Page 39 ---
+27 ARK-2230 User Manual
+Chapter 3 BIOS Settings
+ Wake system from S5
+Enable or disable System wake on alarm event. Select FixedTime, system will 
+wake on the hr:min:sec specified.
+3.4.5 Serial Port Console Redirection
+ Console Redirection
+This item allows users to enable or disable console redirection for Microsoft 
+Windows Emergency Management Services (EMS).
+ Console Redirection
+This item allows users to configuration console redirection detail settings.
+
+--- Page 40 ---
+ARK-2230 User Manual 28
+3.4.6 CPU Configuration
+Figure 3.5 Intel Fast Flash Standby
+ Limit CPUID Maximum
+Disabled for Windows XP.
+ Execute Disable Bit
+XD can prevent certain classes of malicious buffer overflow attacks when com-
+bined with a supporting OS (Windows Server 2003 SP1, Windows XP SP2, 
+SuSE Linux 9.2, RedHat Enterprise 3 Update 3.)
+ Hardware Prefetcher
+Enable the mid level cache(L2) streamer prefetcher.
+ Adjacent Cache Line Prefetch
+Enable the mid level cache(L2) prefetching of adjacent cache lines.
+ Intel Virtualization Technology
+When enabled, a VMM can utilize the additional hardware capabilities provided 
+by Vanderpool Technology.
+ Power Technology
+Enables power management features.
+
+--- Page 41 ---
+29 ARK-2230 User Manual
+Chapter 3 BIOS Settings
+3.4.7 PPM Configuration
+ CPU C state Report
+Enable/Disable CPU C state report to OS.
+ Max CPU C-state
+This option controls Max C state that the processor will support.
+
+--- Page 42 ---
+ARK-2230 User Manual 30
+3.4.8 IDE Configuration
+ Serial-ATA (SATA)
+Enable / Disable Serial ATA.
+ SATA Speed Support
+SATA Speed Support Gen1 or Gen2.
+ SATA Mode
+Select IDE / AHCI.
+ Serial-ATA Port 0 / Port1
+Enable / Disable Serial ATA Port0 / Port1.
+ SATA Port 0 / Port1 HotPlug
+Enable / Disable SATA Port0 / Port1 hotplug function.
+
+--- Page 43 ---
+31 ARK-2230 User Manual
+Chapter 3 BIOS Settings
+3.4.9 CSM Configuration
+ CSM Support
+ Enable/Disable CSM Support.
+ GateA20 Active
+ UPON REQUEST - GA20 can be disabled using BIOS services. We suggest 
+you do not disable GA20 as this option is useful when any RT code is executed 
+above 1MB.
+ Option ROM Messages
+Set display mode for Option ROM.
+ INT19 Trap Response
+BIOS reaction on INT19 trapping by Option ROM: IMMEDIATE - execute the 
+trap right away; POSTPONED - execute the trap during legacy boot.
+ Boot option filter
+This option controls Legacy/UEFI ROMs priority.
+ Network
+Controls the execution of UEFI and Legacy PXE OpROM.
+ Storage
+Controls the execution of UEFI and Legacy Storage OpROM.
+ Video
+Controls the execution of UEFI and Legacy Video OpROM.
+ Other PCI devices
+Determines OpROM execution policy for devices other than Network, Storage, 
+or Video.
+
+--- Page 44 ---
+ARK-2230 User Manual 32
+3.4.10 Trusted Computing
+ Trusted Computing
+Enables or Disables BIOS support for security device. OS will not show Security 
+Device. TCG EFI protocol and INT1A interface will not be available.
+3.4.11 USB Configuration
+
+--- Page 45 ---
+33 ARK-2230 User Manual
+Chapter 3 BIOS Settings
+ Legacy USB Support
+Enables Legacy USB support. AUTO option disables legacy support if no USB 
+devices are connected. DISABLE option will keep USB devices available only 
+for EFI applications.
+ XHCI Hand-off
+This is a workaround for OSes without XHCI hand-off support. The XHCI owner-
+ship change should be claimed by XHCI driver.
+ EHCI Hand-Off
+This is a workaround for OSes without EHCI hand-off support. The EHCI owner-
+ship change should claim by EHCI driver.
+ USB Mass Storage Driver Support
+Enable/Disable USB Mass Storage Driver Support.
+ USB transfer time-out
+Time-out value for control, Bulk, and interrupt transfers.
+ Device reset time-out
+USB mass storage device start unit command time-out.
+ Device power-up delay
+Maximum time the device will take before it properly reports itself to the Host 
+Controller. 'Auto' uses default value: for a Root port it is 100 ms, for a Hub port 
+the delay is taken from Hub descriptor.
+3.5 Security Configuration
+ TXE
+ TXE HMRFPO Disable
+ TXE Firmware Update
+ TXE EOP Message
+Send EOP Message Before Enter OS
+
+--- Page 46 ---
+ARK-2230 User Manual 34
+ TXE Unconfiguration Perform
+Revert TXE settings to factory defaults
+3.5.1 Chipset Configuration
+ North Bridge
+Details for North Bridge items.
+ South Bridge
+Details for South Bridge items.
+
+--- Page 47 ---
+35 ARK-2230 User Manual
+Chapter 3 BIOS Settings
+3.5.2 North Bridge 
+ Intel IGD Configuration
+Config Intel IGD Settings.
+ Max TOLUD
+Maximum Value of TOLUD.
+
+--- Page 48 ---
+ARK-2230 User Manual 36
+3.5.3 Intel IGD Configuration
+ Primary IGFX Boot Display
+Select the Video Device which will be activated during POST. This has no effect 
+if external graphics are present. Secondary boot display selection will appear 
+based on your selection. VGA modes will be supported only on primary display.
+ DVMT Pre-Allocated
+Select DVMT 5.0 Pre-Allocated (Fixed) Graphics Memory size used by the 
+Internal Graphics Device.
+ DVMT Total Gfx Mem
+Select DVMT 5.0 Total Graphic Memory size used by the Internal Graphics 
+Device.
+ Aperture Size
+Select the Aperture Size.
+ DOP CG
+Enable/Disable DOP clock gating.
+ GTT Size
+Select the GTT Size.
+ IGD Thermal
+Enable/Disable IGD Thermal.
+ Spread Spectrum clock
+Enable/Disable Spread Spectrum clock.
+
+--- Page 49 ---
+37 ARK-2230 User Manual
+Chapter 3 BIOS Settings
+3.5.4 South Bridge
+ Azalia HD Audio
+Azalia HD Audio Options.
+ USB Configuration
+USB Configuration Settings.
+ PCI Express Configuration
+PCI Express Configuration settings.
+ High Precision Timer
+Enables or disables the high precision timer.
+ LAN1 Controller
+Enable or Disable the LAN1.
+ LAN2 Controller
+Enable or Disable the LAN2.
+ PCIE Wake
+Enable or Disable PCIE to wake the system from S5.
+ Restore AC Power Loss
+Select AC power state when power is re-applied after a power failure.
+ Serial IRQ Mode
+Configure Serial IRQ Mode.
+ Global SMI Lock
+Enable or Disable SMI lock.
+ BIOS Read/Write Protection
+Enable or Disable BIOS SPI region read/write protect.
+
+--- Page 50 ---
+ARK-2230 User Manual 38
+3.5.5 Azalia HD Audio
+ Audio Controller
+Control Detection of the Azalia device. Disabled = Azalia will be unconditionally 
+disabled. Enabled = Azalia will be unconditionally Enabled. Auto = Azalia will be 
+enabled if present disabled otherwise.
+ Azalia HDMI Codec
+Enable/Disable internal HDMI codec for Azalia
+ HDMI Port B
+Enable/Disable HDMI Port B
+ HDMI Port C
+Enable/Disable HDMI Port C
+
+--- Page 51 ---
+39 ARK-2230 User Manual
+Chapter 3 BIOS Settings
+3.5.6 USB Configuration
+ OS Selection
+OS Selection to choose Windows 8.X / Windows 7.
+ XHCI Mode
+Mode of operation of xHCI controller.
+ USB 2.0(EHCI) Support
+Control the USB EHCI (USB 2.0) functions. One EHCI controller must always be 
+enabled.
+ USB Per Port Control
+Control each of the USB ports (1~4). Enable: Enable USB per port; Disable: Use 
+USB port X settings.
+
+--- Page 52 ---
+ARK-2230 User Manual 40
+3.5.7 PCI Express Configuration
+ PCI Express Port0 / Port2
+Enable or Disable the PCI Express Port0 / Port 2 in the Chipset.
+ Speed
+Configure PCIe Port Speed.
+
+--- Page 53 ---
+41 ARK-2230 User Manual
+Chapter 3 BIOS Settings
+3.6 Boot Settings
+ Setup Prompt Timeout
+Number of seconds that the firmware will wait before initiating the original 
+default boot selection. A value of 0 indicates that the default boot selection is to 
+be initiated immediately on boot. A value of 65535 (0xFFFF) indicates that firm-
+ware will wait for user input before booting. This means the default boot selec-
+tion is not automatically started by the firmware.
+ Bootup NumLock State
+Select the keyboard NumLock state.
+ Quiet Boot
+Enables or disables Quiet Boot option.
+ Boot Option #1
+Sets the system boot order.
+
+--- Page 54 ---
+ARK-2230 User Manual 42
+3.7 Security Setup
+Select Security Setup from the ARK-2230 Setup main BIOS setup menu. All Security
+Setup options, such as password protection is described in this section. To access
+the sub menu for the following items, select the item and press <Enter>:
+ Change Administrator / User Password
+Select this option and press <ENTER> to access the sub menu, and then type 
+in the password.
+
+--- Page 55 ---
+43 ARK-2230 User Manual
+Chapter 3 BIOS Settings
+3.8 Save & Exit 
+ Save Changes and Exit
+This item allows you to exit system setup after saving the changes.
+ Discard Changes and Exit
+This item allows you to exit system setup without saving any changes.
+ Save Changes and Reset
+This item allows you to reset the system after saving the changes.
+ Discard Changes and Reset
+This item allows you to rest system setup without saving any changes.
+ Save Changes
+This item allows you to save changes done so far to any of the options.
+ Discard Changes
+This item allows you to discard changes done so far to any of the options.
+ Restore Defaults
+This item allows you to restore/load default values for all the options.
+ Save as User Defaults
+This item allows you to save the changes done so far as user defaults.
+ Restore User Defaults
+This item allows you to restore the user defaults to all the options.
+ Boot Override
+Boot device select can override your boot priority.
+
+--- Page 57 ---
+Appendix A
+A Watchdog Timer 
+Sample Code
+
+--- Page 58 ---
+ARK-2230 User Manual 46
+A.1 EC Watchdog Timer sample code
+EC_Command_Port = 0x29Ah
+EC_Data_Port = 0x299h
+Write EC HW ram = 0x89
+Watch dog event flag = 0x57
+Watchdog reset delay time = 0x5E
+Reset event = 0x04 
+Start WDT function = 0x28 
+====================================================
+.model small
+.486p
+.stack 256
+.data
+.code
+org 100h
+.STARTup
+mov dx, EC_Command_Port
+mov al,89h             ; Write EC HW ram.
+out dx,al
+mov dx, EC_Command_Port
+mov al, 5Fh            ; Watchdog reset delay time low byte (5Eh is high byte) index.
+out dx,al
+mov dx, EC_Data_Port
+mov al, 30h            ;Set 3 seconds delay time.
+out dx,al
+mov dx, EC_Command_Port
+mov al,89h             ; Write EC HW ram.
+out dx,al
+mov dx, EC_Command_Port
+mov al, 57h            ; Watch dog event flag.
+out dx,al
+mov dx, EC_Data_Port
+mov al, 04h             ; Reset event.
+out dx,al
+mov dx, EC_Command_Port
+mov al,28h             ; start WDT function.
+out dx,al
+.exit
+END
+
+--- Page 59 ---
+47 ARK-2230 User Manual
+Appendix A Watchdog Timer Sample Code
+
+--- Page 60 ---
+www.advantech.com
+Please verify specifications before quoting. This guide is intended for reference
+purposes only.
+All product specifications are subject to change without notice.
+No  part  of  this  publication  may  be  reproduced  in  any  form  or  by  any  means,
+electronic, photocopying, recording or otherwise, without prior written permis-
+sion of the publisher.
+All brand and product names are trademarks or registered trademarks of their
+respective companies.
+© Advantech Co., Ltd. 2016
+

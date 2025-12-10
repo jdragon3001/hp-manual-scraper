@@ -1,0 +1,291 @@
+Brand: INTEL
+Model: Nuc5I7Ryhr
+URL: https://www.manua.ls/intel/nuc5i7ryhr/manual
+Total Pages: 9
+============================================================
+
+--- Page 1 ---
+Intel NUC Kit NUC5i7RYH User Guide 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Intel®
+ NUC Kit 
+NUC5i7RYH 
+User 
+Guide
+
+--- Page 2 ---
+Intel NUC Kit NUC5i7RYH User Guide 
+2 
+ 
+ 
+Before You Begin 
+ 
+  CAUTIONS 
+The procedures in this user guide assume familiarity with the general terminology associated with 
+personal computers and with the safety practices and regulatory compliance required for using 
+and modifying electronic equipment. 
+ 
+Disconnect the computer from its power source and from any telecommunications link or network before 
+performing any of the procedures described in this guide.  Failure to disconnect power, 
+telecommunications links, or networks before you open the computer or perform any procedures can 
+result in personal injury or equipment damage.  Some circuitry on the board can continue to operate 
+even though the front panel power button is off. 
+ 
+Follow these guidelines before you begin: 
+  Always follow the steps in each procedure in the correct order. 
+  Set up a log to record information about your computer, such as model, serial numbers, 
+installed options, and configuration information. 
+  Electrostatic discharge (ESD) can damage components.  Perform the procedures described in 
+this chapter only at an ESD workstation using an antistatic wrist strap and a conductive foam 
+pad.  If such a station is not available, you can provide some ESD protection by wearing an 
+antistatic wrist strap and attaching it to a metal part of the computer chassis. 
+ 
+Installation Precautions
+ 
+ 
+When you install and test the Intel NUC, observe all warnings and cautions in the installation 
+instructions. 
+ 
+To avoid injury, be careful of: 
+  Sharp pins on connectors 
+  Sharp pins on circuit boards 
+  Rough edges and sharp corners on the chassis 
+  Hot components (such as SSDs, processors, voltage regulators, and heat sinks) 
+  Damage to wires that could cause a short circuit 
+ 
+Observe all warnings and cautions that instruct you to refer computer servicing to qualified 
+technical personnel. 
+ 
+Observe Safety and Regulatory Requirements 
+If you do not follow these instructions, you increase your safety risk and the possibility of 
+noncompliance with regional laws and regulations.
+
+--- Page 3 ---
+Intel NUC Kit NUC5i7RYH User Guide 
+3 
+ 
+ 
+This guide tells you how to: 
+ 
+•
+ 
+Install and remove memory 
+•
+ 
+Install an M.2 SSD 
+•
+ 
+Install a 2.5” drive 
+•
+ 
+Install a VESA mount bracket 
+•
+ 
+Install an operating system 
+•
+ 
+Install the latest drivers 
+ 
+ 
+Open the Intel NUC Chassis 
+ 
+To open the Intel NUC chassis, follow these steps: 
+1.  Unscrew the four corner screws on the bottom cover of the chassis and lift the cover. 
+ 
+ 
+Installing and Removing Memory
+ 
+ 
+The Intel NUC Kit NUC5i7RYH has two 204-pin DDR3L SO-DIMM sockets. Memory requirements: 
+  1.35V low voltage memory 
+  1333 MHz or 1600 MHz SO-DIMMs  
+  Non-ECC 
+For a list of tested memory, go to the System Memory page on the Support site: 
+ 
+Install SO-DIMMs
+ 
+ 
+If you plan to install just one SO-DIMM, install it in the lower memory socket. 
+ 
+To install the SO-DIMMs, follow these steps: 
+1.  Observe the precautions in "Before You Begin" on page 2.
+
+--- Page 4 ---
+Intel NUC Kit NUC5i7RYH User Guide 
+4 
+ 
+ 
+2.  Turn off all peripheral devices connected to the computer.  Turn off the computer and 
+disconnect the AC power cord. 
+ 
+ 
+ 
+3.  Align the small notch at the bottom edge of the SO-DIMM with the key in the socket. 
+4.  Insert the bottom edge of the SO-DIMM into the socket. 
+5.  When the SO-DIMM is inserted, push down on the outer edge of the SO-DIMM until the 
+retaining clips snap into place.  Make sure the clips are firmly in place. 
+ 
+Removing SO-DIMMs 
+To remove a SO-DIMM, follow these steps: 
+1.  Observe the precautions in "Before You Begin" on page 2. 
+2.  Turn off all peripheral devices connected to the computer.  Turn off the computer. 
+3.  Remove the AC power cord from the computer. 
+4.  Remove the computer’s cover. 
+5.  Gently spread the retaining clips at each end of the SO-DIMM socket.  The SO-DIMM pops out of 
+the socket. 
+ 
+6.  Hold the SO-DIMM by the edges, lift it away from the socket, and store it in an anti-static 
+package. 
+7.  Reinstall and reconnect any parts you removed or disconnected to reach the SO-DIMM sockets. 
+8.  Replace the computer’s cover and reconnect the AC power cord. 
+ 
+Install an M.2 SSD
+ 
+ 
+The Intel NUC Kit NUC5i7RYH supports 80mm, 60mm, and 42mm M.2 SSDs. For a list of tested M.2 SSDs, 
+go to the Tested Peripherals page on the Support site. 
+ 
+  Observe the precautions in "Before You Begin" on page 2. 
+ 
+If you are installing an 80mm M.2 SSD: 
+ 
+1.  Remove the small silver screw from the 80mm metal standoff on the motherboard (A). 
+ 
+2.  Align the small notch at the bottom edge of the M.2 card with the key in the connector.
+
+--- Page 5 ---
+Intel NUC Kit NUC5i7RYH User Guide 
+5 
+ 
+ 
+3.  Insert the bottom edge of the M.2 card into the connector (B). 
+ 
+4.  Secure the card to the standoff with the small silver screw (C). 
+ 
+ 
+ 
+If you are installing a 60mm or 42mm M.2 SSD: 
+ 
+1.  Remove the small silver screw from the metal standoff on the motherboard (A). 
+ 
+2.  Move the standoff (B) from the 80mm position to either the 60mm or 42mm position (C). 
+ 
+3.  Align the small notch at the bottom edge of the M.2 card with the key in the connector. 
+ 
+4.  Insert the bottom edge of the M.2 card into the connector (D). 
+ 
+5.  Secure the card to the standoff with the small silver screw (E). 
+ 
+ 
+ 
+Install a 2.5” SSD or Hard Drive
+ 
+ 
+For a list of tested 2.5” hard drives, go to the Tested Peripherals page on the Support site. 
+ 
+Follow these instructions to install a 2.5” Solid State Drive (SSD) or Hard Disk Drive (HDD): 
+1.  Observe the precautions in "Before You Begin" on page 2.
+
+--- Page 6 ---
+Intel NUC Kit NUC5i7RYH User Guide 
+6 
+ 
+ 
+2.  Slide the 2.5” drive into the drive bay, ensuring the SATA connectors are fully seated into the 
+connectors of the SATA daughter card (A). 
+ 
+3.  Secure the drive into the drive bay with the two small silver screws that were included in the box (B). 
+ 
+ 
+4.  Set the drive bay bracket down inside the chassis (C), taking care not to pinch the SATA cables along 
+the edge (D).
+
+--- Page 7 ---
+Intel NUC Kit NUC5i7RYH User Guide 
+7 
+ 
+ 
+Close the Chassis
+ 
+ 
+After all components have been installed, close the Intel NUC chassis. 
+ 
+ 
+ 
+ 
+Attach and Use the VESA Bracket (Optional) 
+ 
+Follow these instructions to attach and use the VESA mount bracket: 
+ 
+1.  Using the four small black screws that were included in the box, attach the VESA bracket to the 
+back of the monitor or TV.
+
+--- Page 8 ---
+Intel NUC Kit NUC5i7RYH User Guide 
+8 
+ 
+ 
+2.  Attach the two slightly larger black screws to the bottom chassis cover of the Intel NUC. 
+ 
+ 
+3.  Slide the Intel NUC onto the VESA mount bracket. 
+ 
+ 
+Install an Operating System 
+ 
+Refer to Supported Operating Systems for a list of Intel-validated Windows* operating systems, as well 
+as versions of Linux that have been reported as compatible by Intel NUC owners. 
+ 
+Refer to Operating System Installation for system requirements and installation steps.
+
+--- Page 9 ---
+Intel NUC Kit NUC5i7RYH User Guide 
+9 
+ 
+ 
+Install Intel NUC Drivers 
+ 
+To download the latest Microsoft* Windows* drivers and BIOS updates, go to Download Center: 
+ 
+Drivers are available for the following features: 
+  Audio 
+  Bluetooth 
+  Chipset 
+  Consumer Infrared 
+  Graphics 
+  Intel® ME  
+  Intel® Rapid Storage Technology 
+  Intel® Ready Mode Technology 
+  LAN (wired and wireless) 
+  NFC 
+  USB 3.0
+

@@ -1,0 +1,1137 @@
+--- Page 3 ---
+Important Notice about Customer Self-Repair Parts
+CAUTION: Your computer includes Customer Self-Repair parts and parts that should only be accessed by an 
+authorized service provider. See Chapter 5, "Removal and replacement procedures for Customer Self-Repair 
+parts," for details. Accessing parts described in Chapter 6, "Removal and replacement procedures for 
+Authorized Service Provider only parts," can damage the computer or void your warranty.
+iii
+
+--- Page 4 ---
+iv   Important Notice about Customer Self-Repair Parts
+
+--- Page 5 ---
+Safety warning notice
+WARNING! To reduce the possibility of heat-related injuries or of overheating the device, do not place the 
+device directly on your lap or obstruct the device air vents. Use the device only on a hard, at surface. Do not 
+allow another hard surface, such as an adjoining optional printer, or a soft surface, such as pillows or rugs or 
+clothing, to block airow. Also, do not allow the AC adapter to contact the skin or a soft surface, such as 
+pillows or rugs or clothing, during operation. The device and the AC adapter comply with the user-accessible 
+surface temperature limits dened by the International Standard for Safety of Information Technology 
+Equipment (IEC 60950-1).
+v
+
+--- Page 7 ---
+Table of contents
+1  Product description .......................................................................................................................................  1
+2  External component identication .................................................................................................................. 5
+Right ....................................................................................................................................................................... 5
+Left .........................................................................................................................................................................  6
+Display .................................................................................................................................................................... 7
+Top .......................................................................................................................................................................... 8
+TouchPad .............................................................................................................................................  8
+Lights ...................................................................................................................................................  9
+Buttons, speakers, and ngerprint reader ........................................................................................ 10
+Keys ...................................................................................................................................................  11
+Using the hot keys ............................................................................................................................. 12
+Bottom .................................................................................................................................................................  13
+Front ..................................................................................................................................................................... 14
+Labels ................................................................................................................................................................... 15
+3  Illustrated parts catalog ..............................................................................................................................  16
+Computer major components .............................................................................................................................. 16
+Display assembly subcomponents ...................................................................................................................... 19
+Cable Kit ...............................................................................................................................................................  20
+Plastics Kit ...........................................................................................................................................................  21
+Mass storage devices ........................................................................................................................................... 22
+Miscellaneous parts ............................................................................................................................................. 23
+4  Removal and replacement procedures preliminary requirements ....................................................................  25
+Tools required ......................................................................................................................................................  25
+Service considerations ......................................................................................................................................... 25
+Plastic parts ....................................................................................................................................... 25
+Cables and connectors ......................................................................................................................  26
+Drive handling ...................................................................................................................................  26
+Grounding guidelines ........................................................................................................................................... 27
+Electrostatic discharge damage ........................................................................................................ 27
+Packaging and transporting guidelines .......................................................................... 28
+Workstation guidelines ................................................................................................... 28
+Equipment guidelines .....................................................................................................  29
+vii
+
+--- Page 8 ---
+5  Removal and replacement procedures for Customer Self-Repair parts ............................................................. 30
+Component replacement procedures .................................................................................................................. 30
+Bottom cover ..................................................................................................................................... 30
+Battery ............................................................................................................................................... 35
+Hard drive ..........................................................................................................................................  36
+Solid-state drive ................................................................................................................................ 38
+Memory modules ............................................................................................................................... 40
+WLAN/Bluetooth combo card ............................................................................................................ 42
+WWAN module ................................................................................................................................... 44
+Keyboard ...........................................................................................................................................  46
+6  Removal and replacement procedures for Authorized Service Provider parts ...................................................  49
+Component replacement procedures .................................................................................................................. 49
+Display assembly ............................................................................................................................... 50
+Heat sink/fan assembly ....................................................................................................................  56
+Smart card reader board ...................................................................................................................  58
+Touchpad board ................................................................................................................................. 59
+NFC module .......................................................................................................................................  60
+System board ....................................................................................................................................  61
+RTC battery ........................................................................................................................................ 65
+Fingerprint reader assembly ............................................................................................................. 66
+Speaker assembly .............................................................................................................................  67
+Top cover ...........................................................................................................................................  68
+7  Interpreting system validation diagnostic front panel LEDs and audible codes ................................................. 69
+8  Computer Setup (BIOS), TPM, and HP Sure Start .............................................................................................  71
+Using Computer Setup ......................................................................................................................................... 71
+Starting Computer Setup ..................................................................................................................  71
+Navigating and selecting in Computer Setup ...................................................................................  71
+Restoring factory settings in Computer Setup .................................................................................  71
+Updating the BIOS .............................................................................................................................  72
+Determining the BIOS version ......................................................................................... 72
+Downloading a BIOS update ...........................................................................................  73
+Changing the boot order using the f9 prompt .................................................................................. 73
+TPM BIOS settings (select products only) ...........................................................................................................  74
+Using HP Sure Start (select products only) .........................................................................................................  74
+9  Using HP PC Hardware Diagnostics (UEFI) ....................................................................................................... 75
+Downloading HP PC Hardware Diagnostics (UEFI) to a USB device ....................................................................  75
+viii
+
+--- Page 9 ---
+10  Backup and recovery .................................................................................................................................. 77
+Creating recovery media and backups ................................................................................................................  77
+Creating HP Recovery media (select products only) ......................................................................... 77
+Using Windows tools ...........................................................................................................................................  78
+Restore and recovery ........................................................................................................................................... 79
+Recovering using HP Recovery Manager ........................................................................................... 79
+What you need to know before you get started ............................................................. 79
+Using the HP Recovery partition (select products only) ................................................. 80
+Using HP Recovery media to recover .............................................................................. 80
+Changing the computer boot order ................................................................................  81
+Removing the HP Recovery partition (select products only) .........................................  82
+11  Specications ............................................................................................................................................ 83
+Input power .......................................................................................................................................................... 83
+Operating environment .......................................................................................................................................  83
+12  Power cord set requirements ......................................................................................................................  84
+Requirements for all countries ............................................................................................................................ 84
+Requirements for specic countries and regions ................................................................................................ 84
+13  Statement of memory volatility .................................................................................................................. 86
+Nonvolatile memory usage .................................................................................................................................  88
+Questions and answers .......................................................................................................................................  90
+Using HP Sure Start (select models only) ............................................................................................................ 91
+14  Recycling ..................................................................................................................................................  92
+Index .............................................................................................................................................................  93
+ix
+
+--- Page 11 ---
+1 Product description
+Category Description
+Product Name HP EliteBook 820 G4 Notebook PC
+HP EliteBook 828 G4 Notebook PC
+Processors
+7th-generation Intel
+®
+ Core™ processors:
+●
+Intel Core i7-7600U
+●
+Intel Core i7-7500U
+●
+Intel Core i5-7300U
+●
+Intel Core i5-7200U
+●
+Intel Core i3-7100U
+ 
+Chipset Integrated with processor
+ 
+Graphics UMA graphics with shared video memory
+Intel HD Graphics 620
+Up to three independent displays supported with the 2013 Ultraslim Docking Station
+Panel 12.5 in (31.75 cm), LED backlight
+High-denition (HD), Slim eDP (1366×768), SVA AG, typical brightness: 220 nits with and without webcam
+Full high-denition (FHD), UltraSlim eDP (1920x1080), UWVA AG, typical brightness: 300 nits with and 
+without webcam
+Full high-denition (FHD), UltraSlim eDP (1920x1080) UWVA, typical brightness: 300 nits with touch and 
+webcam; chemically strengthened Gorilla Glass, air gap bonded
+Memory Two SODIMM customer-accessible/upgradable memory module slots
+Supports up to 32 GB of system RAM
+DDR4 PC4-17000 (2133 MHz) dual channel support
+Supports the following congurations:
+●
+32768 MB (16384 MB×2)
+●
+16384 MB (16384 MB×1 or 8192 MB×2)
+●
+8192 MB (8192 MB×1 or 4096 MB×2)
+●
+4096 MB (4096 MB×1)
+Mass storage Supports one mass storage device (M.2 solid-state drive or 2.5-inch hard drive)
+Hard drives:
+Supports the following serial ATA 6.35 cm (2.5 in) hard drives in 7.0 mm (.28 in) thicknesses (all hard drives 
+use the same bracket):
+●
+1 TB, 5400 rpm
+●
+500 GB, 7200 rpm, self-encrypting (FIPS-140-2; Opal 2)
+●
+500 GB, 7200 rpm
+1
+
+--- Page 12 ---
+Category Description
+●
+500 GB, hybrid, 8 GB cache
+Solid-state drives:
+Supports the following M.2 (HGFF) 2280 solid-state drives:
+●
+512 GB, PCIe Gen3×4 NVMe SS TLC (Opal 2)
+●
+512 GB, PCIe Gen3×4 NVMe SS/DS MLC
+●
+512 GB, PCIe Gen3×4 NVMe TLC
+●
+512 GB, SATA-3 FIPS-140-2, TLC
+●
+360 GB, PCIe Gen3×4 SS TLC
+●
+256 GB, PCIe Gen3×4 NVMe TLC
+●
+256 GB, SATA-3 SS TLC (Opal 2)
+●
+128 GB SATA-3 SS value
+Audio and video HP Bang & Olufsen Audio
+Dual-array microphone
+Premium stereo speakers (2)
+Webcam, 720p (optional)
+Supports “no camera” option
+Ethernet Intel WGI219V 10/100/1000 Ethernet, for use with computer models with i7-7500U, i5-7200U, or i3-7100U 
+processors
+Intel WGI219LM 10/100/1000 Ethernet, for use with computer models with i7-7600U or i5-7300U processors
+S3/S4/S5 Wake-on-LAN
+Wireless WPAN:
+Integrated wireless personal area network (PAN) supported by Bluetooth
+®
+ 4.2 combo card
+WLAN:
+Integrated wireless local area network (WLAN) options by way of wireless module
+Two WLAN antennas built into display assembly
+Compatible with Miracast-certied devices
+Bluetooth Disabled IOPT
+Support for the following WLAN formats:
+●
+Intel Dual band wireless-AC 8265 802.11AC 2x2 WiFi + BT 4.2 Combo Adaptor (vPro)
+●
+Intel Dual band wireless-AC 8265 802.11AC 2x2 WiFi + BT 4.2 Combo Adaptor (non-vPro)
+●
+Intel Dual band wireless-AC 3168 802.11AC 1x1 WiFi + BT 4.2 Combo Adaptor (non-vPro)
+Supports no WLAN option
+NFC:
+Integrated NFC Galapagos NXP NPC100 I2C NCI 10 mm x 25 mm module
+NFC antenna
+Supports no NFC option
+WWAN:
+2 Chapter 1   Product description
+
+--- Page 13 ---
+Category Description
+Integrated wireless wide area network (WWAN) options by way of wireless module
+Two WWAN antennas built into display assembly
+Supports the following WWAN formats:
+●
+Foxconn HP It4120 LTE/EVDO/HSPA+ with GPS M.2
+●
+Huawei HP It4132, LTE/HSPA+ with GPS M.2
+●
+Fibocom HP hs3210 WW HSPA+ without GPS
+Supports “no WWAN” option
+External media cards Memory card reader (SD, SDHC, SDXC)
+Ports VGA (Dsub 15 pin) supporting 1920 x 1200 external resolution @ 60Hz, hot plug/unplug, and auto detect
+USB 3.1 Gen 1 charging port
+USB 3.1 Gen 1 port
+USB Type-C (basic)
+DisplayPort
+RJ-45/ethermet connector
+Docking connector
+Audio-out (headphone)/audio-in (microphone) combo jack
+AC port
+Keyboard/pointing 
+devices
+Keyboard:
+Dual point, spill resistant with drain
+Dual point, DuraKeys, backlit, spill resistant with drain
+TouchPad:
+Gestures enabled by default: two-nger scrolling, two-nger pinch-zoom
+Taps enabled by default
+On/o button
+Glass
+Power requirements Battery:
+3-cell HP Long Life Li-Ion battery, 49 WHr, 4.25 Ahr
+AC adapter:
+65 W HP Smart AC adapter (supports HP Fast Charging)
+45 W HP Smart AC adapter
+45 W, 2-prong AC adapter
+Power cord:
+2-wire plug, 1 m
+3-wire plug, 1.8 m
+3-wire plug, 1 m
+Security Security lock
+3
+
+--- Page 14 ---
+Category Description
+Fingerprint reader
+Supports “no ngerprint reader” option
+Supports Trusted Platform Module (TPM) 2.0 (Inneon, soldered down)
+Integrated Smart Card reader (active)
+Preboot authentication (password, smart card)
+Operating system Preinstalled:
+Windows 10 Home 64
+Windows 10 Professional 64
+NeoKylin Linux 64-bit
+FreeDOS 2.0
+Restore Media–DR/SR-DVD
+Windows 10
+NeoKylin Linux
+Certied:
+Microsoft WHQL
+Web-only support:
+Windows 10 Enterprise 64
+Windows 10 Enterprise 64 LTSB 1507
+Serviceability End user replaceable parts:
+AC adapter
+Battery
+Hard drive/SSD
+Memory module
+WLAN
+WWAN
+Keyboard
+4 Chapter 1   Product description
+
+--- Page 15 ---
+2 External component identication
+Right
+Component Description
+(1) USB Type-C basic port When the computer is on, connects and charges a USB device 
+that has a Type-C connector, such as a cell phone, camera, 
+activity tracker, or smartwatch, and provides data transfer.
+(2) Dual-Mode DisplayPort Connects an optional digital display device, such as a high-
+performance monitor or projector.
+(3) Audio-out (headphone)/Audio-in (microphone) 
+combo jack
+Connects optional powered stereo speakers, headphones, 
+earbuds, a headset, or a television audio cable. Also connects an 
+optional headset microphone. This jack does not support 
+optional microphone-only devices.
+WARNING! To reduce the risk of personal injury, adjust the 
+volume before putting on headphones, earbuds, or a headset. 
+For additional safety information, refer to the Regulatory, 
+Safety, and Environmental Notices.
+To access this guide:
+1. Type support in the taskbar search box, and then select 
+the HP Support Assistant app.
+‒ or –
+Click the question mark icon in the taskbar.
+2. Select My PC, select the Specications tab, and then 
+select User Guides.
+NOTE: When a device is connected to the jack, the computer 
+speakers are disabled.
+(4) Memory card reader Reads optional memory cards that enable you to store, manage, 
+share, or access information.
+To insert a card:
+1. Hold the card label-side up, with connectors facing the 
+computer.
+2. Insert the card into the memory card reader, and then 
+press in on the card until it is rmly seated.
+To remove a card:
+Right 5
+
+--- Page 16 ---
+Component Description
+▲ Press in on the card, and then remove it from the memory 
+card reader.
+(5) USB 3.x port Connects a USB device, such as a cell phone, camera, activity 
+tracker, or smartwatch, and provides data transfer.
+(6) RJ-45 (network) jack/status lights Connects a network cable.
+●
+Green (left): The network is connected.
+●
+Amber (right): Activity is occurring on the network.
+(7)   Docking connector Connects an optional docking device.
+(8) SIM card slot Supports a wireless subscriber identity module (SIM) card.
+(9) Power connector Connects an AC adapter.
+Left
+Component Description
+(1) Security cable slot Attaches an optional security cable to the computer.
+NOTE: The security cable is designed to act as a deterrent, but 
+it may not prevent the computer from being mishandled or 
+stolen.
+(2)   Vents (2) Enable airow to cool internal components.
+NOTE: The computer fan starts up automatically to cool 
+internal components and prevent overheating. It is normal for 
+the internal fan to cycle on and o during routine operation.
+(3) External monitor port Connects an external VGA monitor or projector.
+(4) USB 3.x charging port When the computer is on, connects and charges a USB device, 
+such as a cell phone, camera, activity tracker, or smartwatch, 
+and provides high-speed data transfer.
+(5) Smart card reader Supports optional smart cards.
+6 Chapter 2   External component identication
+
+--- Page 17 ---
+Display
+Component Description
+(1) WLAN antennas* (2) Send and receive wireless signals to communicate with wireless local 
+area networks (WLANs).
+(2) WWAN antennas* (2) Send and receive wireless signals to communicate with wireless wide 
+area networks (WWANs).
+(3) Internal microphones (2) Record sound.
+(4) Webcam light (select products only) On: The webcam is in use.
+(5) Webcam (select products only) Records video and captures photographs. Some models allow you to 
+video conference and chat online using streaming video.
+To use the webcam:
+▲ Type camera in the taskbar search box, and then select 
+Camera.
+*The antennas are not visible from the outside of the computer. For optimal transmission, keep the areas immediately around the 
+antennas free from obstructions.
+For wireless regulatory notices, see the section of the Regulatory, Safety, and Environmental Notices that applies to your country or 
+region.
+To access this guide:
+1. Type support in the taskbar search box, and then select the HP Support Assistant app.
+‒ or –
+Click the question mark icon in the taskbar.
+2. Select My PC, select the Specications tab, and then select User Guides.
+Display 7
+
+--- Page 18 ---
+Top
+TouchPad
+Component Description
+(1)   Pointing stick Moves the pointer on the screen.
+(2)   Left pointing stick button Functions like the left button on an external mouse.
+(3)   TouchPad on/o button/TouchPad light Turns the TouchPad on and o.
+●
+On: The TouchPad is o.
+●
+O: The TouchPad is on.
+(4)   TouchPad zone Reads your nger gestures to move the pointer or activate 
+items on the screen.
+(5)   Left TouchPad button Functions like the left button on an external mouse.
+(6)   Right pointing stick button Functions like the right button on an external mouse.
+(7)   Near Field Communications (NFC) tapping area 
+(select products only)
+Allows you to touch an NFC-compatible device to this area to 
+wirelessly connect and communicate with the computer and 
+transfer data back and forth.
+(8)   Right TouchPad button Functions like the right button on an external mouse.
+8 Chapter 2   External component identication
+
+--- Page 19 ---
+Lights
+Component Description
+(1)   Caps lock light On: Caps lock is on, which switches the key input to all capital 
+letters.
+(2) Power light 
+●
+On: The computer is on.
+●
+Blinking: The computer is in the Sleep state, a power-saving 
+state. The computer shuts o power to the display and 
+other unneeded components.
+●
+O: The computer is o or in Hibernation. Hibernation is a 
+power-saving state that uses the least amount of power.
+(3) Mute light
+●
+Amber: Computer sound is o.
+●
+O: Computer sound is on.
+(4) Microphone mute light
+●
+Amber: microphone sound is o.
+●
+O: microphone sound is on.
+(5) Wireless light  On: An integrated wireless device, such as a wireless local area 
+network (WLAN) device and/or a Bluetooth® device, is on.
+NOTE: On some models, the wireless light is amber when all 
+wireless devices are o.
+(6) Num lk light On: Num lock is on.
+(7)   TouchPad light 
+●
+On: The TouchPad is o.
+●
+O: The TouchPad is on.
+Top 9
+
+--- Page 20 ---
+Buttons, speakers, and ngerprint reader
+Component Description
+(1) Power button
+●
+When the computer is o, press the button to turn on the 
+computer.
+●
+When the computer is on, press the button briey to initiate 
+Sleep.
+●
+When the computer is in the Sleep state, press the button 
+briey to exit Sleep.
+●
+When the computer is in Hibernation, press the button 
+briey to exit Hibernation.
+CAUTION: Pressing and holding down the power button results 
+in the loss of unsaved information.
+If the computer has stopped responding and shutdown 
+procedures are ineective, press and hold the power button for at 
+least 5 seconds to turn o the computer.
+To learn more about your power settings, see your power 
+options.
+▲ Type power options in the taskbar search box, and then 
+select Power Options.
+‒ or –
+Right-click the Power meter icon, and then select Power 
+Options.
+(2)   Speakers (2) Produce sound.
+(3)   Fingerprint reader (select products only) Allows a ngerprint logon to Windows, instead of a password 
+logon.
+10 Chapter 2   External component identication
+
+--- Page 21 ---
+Keys
+Component Description
+(1)   esc key Displays system information when pressed in combination with 
+the fn key.
+(2)   fn key Executes frequently used system functions when pressed in 
+combination with a function key, the num lk key, the esc key, or 
+other key.
+See Using the hot keys on page 12
+(3) Windows key  Opens the Start menu.
+NOTE: Pressing the Windows key again will close the Start 
+menu.
+(4)   Function keys Executes frequently used system functions when pressed in 
+combination with the fn key.
+See Using the hot keys on page 12
+(5)   Embedded numeric keypad  A numeric keypad superimposed over the keyboard alphabet 
+keys that enables you to add, subtract, and perform other 
+numeric tasks. When num lk is on, the keypad can be used like 
+an external numeric keypad.
+NOTE: If the keypad function is active when the computer is 
+turned o, that function is reinstated when the computer is 
+turned back on. 
+(6) num lk key Turns the embedded numeric keypad on and o when pressed in 
+combination with the fn key.
+Top 11
+
+--- Page 22 ---
+Using the hot keys
+To use a hot key:
+▲
+Press the fn key, and then press one of the keys listed in the following table.
+Press fn+function key Description
+Initiates Sleep, which saves your information in system memory. The display and other system components 
+turn o and power is conserved.
+To exit Sleep, briey press the power button.
+CAUTION: To reduce the risk of information loss, save your work before initiating Sleep.
+Turns the backlight keyboard o or on.
+NOTE: To conserve battery power, turn o this feature.
+Switches the screen image among display devices connected to the system. For example, if a monitor is 
+connected to the computer, repeatedly pressing fn+f4 alternates the screen image from computer display to 
+monitor display to simultaneous display on both the computer and the monitor.
+Most external monitors receive video information on the computer using the external VGA video standard. 
+The fn+f4 hot key can also alternate images among other devices that are receiving video information on the 
+computer.
+Decreases the screen brightness incrementally as long as you hold down the key.
+Increases the screen brightness incrementally as long as you hold down the key.
+Mutes or restores speaker sound.
+Decreases speaker volume incrementally while you hold down the key.
+Increases speaker volume incrementally while you hold down the key.
+Mutes the microphone.
+Turns the wireless feature on or o.
+NOTE: A wireless network must be set up before a wireless connection is possible.
+R Pauses or breaks an operation. This replaces the break key.
+C Locks cell. This replaces the scroll lock key.
+S Sends a programming query. This replaces the sys rq key.
+12 Chapter 2   External component identication
+
+--- Page 23 ---
+Bottom
+Component Description
+(1)   Docking connectors (2) Connect an optional docking device.
+(2)   Vents (2) Enable airow to cool internal components.
+NOTE: The computer fan starts up automatically to cool 
+internal components and prevent overheating. It is normal 
+for the internal fan to cycle on and o during routine 
+operation.
+Bottom 13
+
+--- Page 24 ---
+Front
+Component Description
+(1) Wireless light  On: An integrated wireless device, such as a wireless local 
+area network (WLAN) device and/or a Bluetooth® device, is 
+on.
+NOTE: On some models, the wireless light is amber when 
+all wireless devices are o.
+(2) Power light 
+●
+On: The computer is on.
+●
+Blinking: The computer is in the Sleep state, a power-
+saving state. The computer shuts o power to the 
+display and other unneeded components.
+●
+O: The computer is o or in Hibernation. 
+Hibernation is a power-saving state that uses the 
+least amount of power.
+(3) Battery light When AC power is connected:
+●
+White: The battery charge is greater than 90 percent.
+●
+Amber: The battery charge is from 0 to 90 percent.
+●
+O: The battery is not charging.
+When AC power is disconnected (battery not charging):
+●
+Blinking amber: The battery has reached a low 
+battery level. When the battery has reached a critical 
+battery level, the battery light begins blinking 
+rapidly.
+●
+O: The battery is not charging.
+(4) Drive light
+●
+Blinking white: The hard drive is being accessed.
+●
+Amber: HP 3D DriveGuard has temporarily parked the 
+hard drive.
+14 Chapter 2   External component identication
+
+--- Page 25 ---
+Labels
+The labels laser etched on the computer provide information you may need when you troubleshoot system 
+problems or travel internationally with the computer.
+IMPORTANT: Check the following locations for the labels described in this section: the bottom of the 
+computer, inside the battery bay, under the service door, or on the back of the display.
+●
+Service label—Provides important information to identify your computer. When contacting support, you 
+will probably be asked for the serial number, and possibly for the product number or the model number. 
+Locate these numbers before you contact support.
+Component  
+(1) Model name (select products only)  
+(2) Product number  
+(3) Serial number  
+(4) Warranty period  
+●
+Regulatory label(s)—Provide(s) regulatory information about the computer.
+●
+Wireless certication label(s)—Provide(s) information about optional wireless devices and the approval 
+markings for the countries or regions in which the devices have been approved for use.
+Labels 15
+
+--- Page 26 ---
+3 Illustrated parts catalog
+Computer major components
+NOTE: HP continually improves and changes product parts. For complete and current information on 
+supported parts for your computer, go to http://partsurfer.hp.com, select your country or region, and then 
+follow the on-screen instructions.
+NOTE: Details about your computer, including model, serial number, product key, and length of warranty, 
+are on the service tag at the bottom of your computer. See Labels on page 15 for details.
+16 Chapter 3   Illustrated parts catalog
+
+--- Page 27 ---
+Item Component Spare part number
+(1) Display assembly, touch
+NOTE: Non-touch display assemblies are spared at the subcomponent level only. For 
+more non-touch display assembly spare part information, see Display assembly 
+subcomponents on page 19.
+NOTE: Touch display assemblies are only spared as whole units.
+920050-001
+(2) Keyboard
+NOTE: Pointing stick covers are included in the Rubber Kit, spare part number 828884-001.
+NOTE: For a detailed list of keyboard country codes, see Keyboard on page 46.
+  Backlit 826630-xx1
+  No backlight 826631-xx1
+(3) Top cover 821692-001
+(4) Battery  
+  3 cell, 49 KWh, 4.25 Ah 854109-850
+(5) Memory modules
+  4-GB (2400-MHz, DDR4) 862397-850
+  8-GB (2400-MHz, DDR4) 862398-850
+  16-GB (2400-MHz, DDR4) 862396-850
+(6) WLAN/Bluetooth combo card
+  Intel Dual band wireless-AC 8265 802.11AC 2x2 WiFi + BT 4.2 Combo Adaptor (vPro) 851592-001
+  Intel Dual band wireless-AC 8265 802.11AC 2x2 WiFi + BT 4.2 Combo Adaptor (non-vPro) 851594-001
+  Intel Dual band wireless-AC 3168 802.11AC 1x1 WiFi + BT 4.2 Combo Adaptor (non-vPro) 852511-001
+(7) WWAN module
+  HP lt4120 LTE/EVDO/HSPA+ SnapdragonT X5 LTE Mobile Broadband Module 800870-001
+  Huawei HP It4132, LTE/HSPA+ without GPS M.2 845710-001
+  Fibocom HP hs3210 WW HSPA+ without GPS 860726-001
+(8) M.2 Solid-state drive (SSD)
+  512 GB, PCIe Gen3×4 NVMe SS/DS MLC 915952-001
+  512 GB, PCIe Gen3×4 NVMe TLC 915954-001
+  512 GB, PCIe, Gen3x4, self-encrypting (SED), Opal 2, TLC 915953-001
+  512 GB, SATA-3, FIPS-140-2, TLC 915955-001
+  360 GB, PCIe Gen3×4 SS TLC 915951-001
+  256 GB, PCIe NVMe TLC 915950-001
+  256 GB, SATA-3 SS TLC (Opal 2) 915949-001
+  128 GB, SATA-3, SS value 915948-001
+(9) Smart card reader board (includes cable) 914963-001
+Computer major components 17
+
+--- Page 28 ---
+Item Component Spare part number
+(10) Touchpad
+  Touchpad board 821668-001
+  Touchpad board with NFC antenna 821667-001
+(11) NFC module (includes NFC cable and NFC antenna) 821666-001
+(12) Fingerprint reader board (includes cable)
+NOTE: The ngerprint reader bracket is included in the Plastics Kit, spare part number 
+821675-001.
+821693-001
+(13) Heat sink/fan assembly 821691-001
+(14) System board (includes processor and replacement thermal material, see System board on page 61)
+  Includes Intel i7-7600U processor 914274-xxx
+  Includes Intel i7-7500U processor 914273-xxx
+  Includes Intel i5-7300U processor 914272-xxx
+  Includes Intel i5-7200U processor 914271-xxx
+  Includes Intel i3-7100U processor 914270-xxx
+(15) RTC battery 702853-001
+(16) Speaker assembly (includes cable) 821684-001
+(17) Bottom cover 821662-001
+18 Chapter 3   Illustrated parts catalog
+
+--- Page 29 ---
+Display assembly subcomponents
+Item Component Spare part number
+(1) Bezel 821658-001
+(2) Webcam module (includes microphone and cable) 800575-020
+  Microphone module (not illustrated) 920579-001
+(3) Raw panel
+  HD 804085-004
+  FHD 832199-006
+(4) Display cable  (spared with the Cable Kit, spare part number 912091-001)
+(5) Hinge covers (spared with the Plastics Kit, spare part number 821675-001)
+(6) Hinges 821674-001
+(7) WWAN antenna (spared with display enclosure)
+(8) WLAN antenna (spared with display enclosure)
+(9) Display enclosure (includes antennas) 862350-001
+Display assembly subcomponents 19
+
+--- Page 30 ---
+Cable Kit
+Item Component Spare part number
+  Cable Kit 912091-001
+(1) NFC module cable
+(2) Pointing stick cable
+(3) Display cable
+20 Chapter 3   Illustrated parts catalog
+
+--- Page 31 ---
+Plastics Kit
+Item Component Spare part number
+  Plastics Kit 821675-001
+(1) Fingerprint reader blank
+(2) Fingerprint reader bracket
+(3) SD card blank
+(4) Hinge covers
+  Silicone rubber display bumpers (not shown)
+  Rubber screw covers (not shown)
+Plastics Kit 21
+
+--- Page 32 ---
+Mass storage devices
+Item Component Spare part number
+(1) Hard drive (7 mm)
+  1 TB, 5400 rpm, 7 mm 832077-001
+  500 GB, 7200 rpm, 7 mm, FIPS 820572-001
+  500 GB, 7200 rpm, 7 mm, Opal-2 820573-001
+  500 GB, 7200 rpm, 7 mm 703267-001
+  500 GB, 5400 rpm, 7 mm, hybrid, 8 GB cache 732000-001
+  Hard Drive Hardware Kit (includes cover and screws) 821665-001
+(2) Hard Drive Hardware Kit (includes cover and screws) 821665-001
+(3) M.2 solid-state drive
+  512 GB, PCIe Gen3×4 NVMe SS/DS MLC 915952-001
+  512 GB, PCIe NVMe TLC 915954-001
+  512 GB, PCIe, Gen3x4, self-encrypting (SED), Opal 2, TLC 915953-001
+  512 GB, SATA-3, FIPS-140–2, TLC 915955-001
+  360 GB, PCIe Gen3×4 SS TLC 915951-001
+  256 GB, PCIe NVMe TLC 915950-001
+  256 GB, SATA-3 SS TLC (Opal 2) 915949-001
+  128 GB, SATA-3, SS value 915948-001
+22 Chapter 3   Illustrated parts catalog
+
+--- Page 33 ---
+Miscellaneous parts
+Component Spare part number
+AC adapter:
+65 W Smart Adapter, non-PFC, EM 714635-850
+65 W Smart Adapter non-PFC 693711-001
+65 W Adapter non-PFC S-3P 710412-001
+65 W Smart Adapter non-PFC, for use in Argentina 710340-850
+65 W Smart Adapter, non-PFC, EM, RC/V 693710-001
+45 W Smart Adapter non-PFC nSlim 741727-001
+45 W Smart Adapter non-PFC 2-prong 742436-001
+HP Smart AC Adapter 4.5 mm to 7.4 mm adapter 734734-001
+HP DisplayPort to HDMI 1.4 Adapter 749288-001
+HP Essential Top Load Case 679921-001
+HP Business Top Load Case 718550-001
+HP Slim Ultrabook Top Load Case 747078-001
+HP Elite USB-C Docking Station 844550-001
+HP USB Travel Dock 844551-001
+Cable lock docking station 575921-001
+HP Ultraslim Keyed Cable Lock 703372-001
+HP USB Laser Mouse 674318-001
+HP Comfort Grip Wireless Mouse 691922-001
+HP USB Travel Mouse 757770-001
+HP Mobile Connect 714749-001
+Power cord (3-pin, black, 1.0 m):  
+Argentina 401300-001
+Australia 213356-001
+Brazil 438722-001
+Denmark 213353-001
+Europe (Austria, Belgium, Finland, France, Germany, the Netherlands, Norway and Sweden) 213350-001
+India 404827-001
+Israel 398063-001
+Italy 213352-001
+Japan 349756-001
+North America 213349-001
+People’s Republic of China 286497-001
+Miscellaneous parts 23
+
+--- Page 34 ---
+Component Spare part number
+South Africa 361240-001
+South Korea 267836-001
+Switzerland 213354-001
+Taiwan 393313-001
+Thailand 285096-001
+United Kingdom and Singapore 213351-001
+Power cord (3-pin, black, 1.83 m):  
+Argentina 401300-007
+Australia 213356-008
+Brazil 438722-004
+Denmark 213353-008
+Europe (Austria, Belgium, Finland, France, Germany, the Netherlands, Norway and Sweden) 213350-009
+India 404827-003
+Israel 398063-003
+Italy 213352-008
+Japan 349756-002
+North America 213349-009
+People’s Republic of China 286497-008
+South Africa 361240-002
+South Korea 267836-008
+Switzerland 213354-008
+Taiwan 393313-003
+Thailand 285096-006
+United Kingdom and Singapore 213351-008
+Power cord (2-pin, black, 1.0 m):  
+For use in Japan 190548-003
+Rubber Kit (includes pointing stick cover) 828884-001
+Screw kit 821664-001
+24 Chapter 3   Illustrated parts catalog
+
+--- Page 35 ---
+4 Removal and replacement procedures 
+preliminary requirements
+Tools required
+You will need the following tools to complete the removal and replacement procedures:
+●
+Flat-bladed screwdriver
+●
+Magnetic screwdriver
+●
+Phillips P0 and P1 screwdrivers
+Service considerations
+The following sections include some of the considerations that you must keep in mind during disassembly 
+and assembly procedures.
+NOTE: As you remove each subassembly from the computer, place the subassembly (and all accompanying 
+screws) away from the work area to prevent damage.
+Plastic parts
+CAUTION: Using excessive force during disassembly and reassembly can damage plastic parts. Use care 
+when handling the plastic
+Tools required 25
+
+--- Page 36 ---
+Cables and connectors
+CAUTION: When servicing the computer, be sure that cables are placed in their proper locations during the 
+reassembly process. Improper cable placement can damage the computer.
+Cables must be handled with extreme care to avoid damage. Apply only the tension required to unseat or seat 
+the cables during removal and insertion. Handle cables by the connector whenever possible. In all cases, avoid 
+bending, twisting, or tearing cables. Be sure that cables are routed in such a way that they cannot be caught 
+or snagged by parts being removed or replaced. Handle ex cables with extreme care; these cables tear 
+easily.
+Drive handling
+CAUTION: Drives are fragile components that must be handled with care. To prevent damage to the 
+computer, damage to a drive, or loss of information, observe these precautions:
+Before removing or inserting a hard drive, shut down the computer. If you are unsure whether the computer is 
+o or in Hibernation, turn the computer on, and then shut it down through the operating system.
+Before handling a drive, be sure that you are discharged of static electricity. While handling a drive, avoid 
+touching the connector.
+Before removing a diskette drive or optical drive, be sure that a diskette or disc is not in the drive and be sure 
+that the optical drive tray is closed.
+Handle drives on surfaces covered with at least one inch of shock-proof foam.
+Avoid dropping drives from any height onto any surface.
+Avoid exposing an internal hard drive to products that have magnetic elds, such as monitors or speakers.
+Avoid exposing an internal hard drive to products that have magnetic elds, such as monitors or speakers.
+Avoid exposing a drive to temperature extremes or liquids.
+If a drive must be mailed, place the drive in a bubble pack mailer or other suitable form of protective 
+packaging and label the package “FRAGILE.”
+26 Chapter 4   Removal and replacement procedures preliminary requirements
+
+--- Page 37 ---
+Grounding guidelines
+Electrostatic discharge damage
+Electronic components are sensitive to electrostatic discharge (ESD). Circuitry design and structure determine 
+the degree of sensitivity. Networks built into many integrated circuits provide some protection, but in many 
+cases, ESD contains enough power to alter device parameters or melt silicon junctions.
+A discharge of static electricity from a nger or other conductor can destroy static-sensitive devices or 
+microcircuitry. Even if the spark is neither felt nor heard, damage may have occurred.
+An electronic device exposed to ESD may not be aected at all and can work perfectly throughout a normal 
+cycle. Or the device may function normally for a while, then degrade in the internal layers, reducing its life 
+expectancy.
+CAUTION: To prevent damage to the computer when you are removing or installing internal components, 
+observe these precautions:
+Keep components in their electrostatic-safe containers until you are ready to install them.
+Before touching an electronic component, discharge static electricity by using the guidelines described in this 
+section.
+Avoid touching pins, leads, and circuitry. Handle electronic components as little as possible.
+If you remove a component, place it in an electrostatic-safe container.
+The following table shows how humidity aects the electrostatic voltage levels generated by dierent 
+activities.
+CAUTION: A product can be degraded by as little as 700 V.
+Typical electrostatic voltage levels
+  Relative humidity
+Event 10% 40% 55%
+Walking across carpet 35,000 V 15,000 V 7,500 V
+Walking across vinyl oor 12,000 V 5,000 V 3,000 V
+Motions of bench worker 6,000 V 800 V 400 V
+Removing DIPS from plastic tube 2,000 V 700 V 400 V
+Removing DIPS from vinyl tray 11,500 V 4,000 V 2,000 V
+Removing DIPS from Styrofoam 14,500 V 5,000 V 3,500 V
+Removing bubble pack from PCB 26,500 V 20,000 V 7,000 V
+Packing PCBs in foam-lined box 21,000 V 11,000 V 5,000 V
+Grounding guidelines 27
+
+--- Page 38 ---
+Packaging and transporting guidelines
+Follow these grounding guidelines when packaging and transporting equipment:
+●
+To avoid hand contact, transport products in static-safe tubes, bags, or boxes.
+●
+Protect ESD-sensitive parts and assemblies with conductive or approved containers or packaging.
+●
+Keep ESD-sensitive parts in their containers until the parts arrive at static-free workstations.
+●
+Place items on a grounded surface before removing items from their containers.
+●
+Always be properly grounded when touching a component or assembly.
+●
+Store reusable ESD-sensitive parts from assemblies in protective packaging or nonconductive foam.
+●
+Use transporters and conveyors made of antistatic belts and roller bushings. Be sure that mechanized 
+equipment used for moving materials is wired to ground and that proper materials are selected to avoid 
+static charging. When grounding is not possible, use an ionizer to dissipate electric charges.
+Workstation guidelines
+Follow these grounding workstation guidelines:
+●
+Cover the workstation with approved static-shielding material.
+●
+Use a wrist strap connected to a properly grounded work surface and use properly grounded tools and 
+equipment.
+●
+Use conductive eld service tools, such as cutters, screwdrivers, and vacuums.
+●
+When xtures must directly contact dissipative surfaces, use xtures made only of static safe materials.
+●
+Keep the work area free of nonconductive materials, such as ordinary plastic assembly aids and 
+Styrofoam.
+●
+Handle ESD-sensitive components, parts, and assemblies by the case or PCM laminate. Handle these 
+items only at static-free workstations.
+●
+Avoid contact with pins, leads, or circuitry.
+●
+Turn o power and input signals before inserting or removing connectors or test equipment.
+28 Chapter 4   Removal and replacement procedures preliminary requirements
+
+--- Page 39 ---
+Equipment guidelines
+Grounding equipment must include either a wrist strap or a foot strap at a grounded workstation.
+●
+When seated, wear a wrist strap connected to a grounded system. Wrist straps are exible straps with a 
+minimum of one megohm ±10% resistance in the ground cords. To provide proper ground, wear a strap 
+snugly against the skin at all times. On grounded mats with banana-plug connectors, use alligator clips 
+to connect a wrist strap.
+●
+When standing, use foot straps and a grounded oor mat. Foot straps (heel, toe, or boot straps) can be 
+used at standing workstations and are compatible with most types of shoes or boots. On conductive 
+oors or dissipative oor mats, use foot straps on both feet with a minimum of one megohm resistance 
+between the operator and ground. To be eective, the conductive must be worn in contact with the skin.
+The following grounding equipment is recommended to prevent electrostatic damage:
+●
+Antistatic tape
+●
+Antistatic smocks, aprons, and sleeve protectors
+●
+Conductive bins and other assembly or soldering aids
+●
+Nonconductive foam
+●
+Conductive tabletop workstations with ground cords of one megohm resistance
+●
+Static-dissipative tables or oor mats with hard ties to the ground
+●
+Field service kits
+●
+Static awareness labels
+●
+Material-handling packages
+●
+Nonconductive plastic bags, tubes, or boxes
+●
+Metal tote boxes
+●
+Electrostatic voltage levels and protective materials
+The following table lists the shielding protection provided by antistatic bags and oor mats.
+Material Use Voltage protection level
+Antistatic plastics Bags 1,500 V
+Carbon-loaded plastic Floor mats 7,500 V
+Metallized laminate Floor mats 5,000 V
+Grounding guidelines 29
+
+--- Page 40 ---
+5 Removal and replacement procedures for 
+Customer Self-Repair parts
+This chapter provides removal and replacement procedures for Customer Self-Repair parts.
+There are as many as 26 screws that must be removed, replaced, and/or loosened when servicing Customer 
+Self-Repair parts. Make special note of each screw size and location during removal and replacement.
+NOTE: The Customer Self-Repair program is not available in all locations. Installing a part not supported by 
+the Customer Self-Repair program may void your warranty. Check your warranty to determine if Customer 
+Self-Repair is supported in your location.
+Component replacement procedures
+NOTE: Details about your computer, including model, serial number, product key, and length of warranty, 
+are on the service tag at the bottom of your computer. See Labels on page 15 for details. 
+NOTE: HP continually improves and changes product parts. For complete and current information on 
+supported parts for your computer, go to http://partsurfer.hp.com, select your country or region, and then 
+follow the on-screen instructions.
+There are as many as xx screws that must be removed, replaced, and/or loosened when servicing Customer 
+Self-Repair parts. Make special note of each screw size and location during removal and replacement.
+Bottom cover
+Description Spare part number
+Bottom cover
+NOTE: Bottom rubber screw covers are available in the Plastics Kit, spare part number 821675-001.
+821662-001
+Before removing the bottom cover, follow these steps:
+1. Turn o the computer. If you are unsure whether the computer is o or in Hibernation, turn the 
+computer on, and then shut it down through the operating system.
+2. Disconnect the power from the computer by unplugging the power cord from the computer.
+3. Disconnect all external devices from the computer.
+Remove the bottom cover:
+1. Turn the computer upside down on a at surface.
+2. In necessary, remove the SD card blank or SD card from the card reader.
+30 Chapter 5   Removal and replacement procedures for Customer Self-Repair parts
+
+--- Page 41 ---
+3. Remove the 11 rubber screw covers from the bottom cover.
+4. In the order indicated in the following image, remove the 12 Phillips M2.5x5.0 screws from the bottom 
+cover.
+IMPORTANT: To make sure you can correctly reinstall the bottom cover, be sure to remove the screws 
+in the order shown in the following image..
+Component replacement procedures 31
+
+--- Page 42 ---
+5. Pry up on the top (near the display hinge) of the bottom cover to disengage it from the computer.
+Reverse the removal procedures to install the bottom cover.
+When replacing the bottom cover screws, be sure to install the screws in the order indicated in the following 
+image:
+IMPORTANT: Failure to install the screws in the correct order can result in uneven bottom cover placement.
+There are four dierent sizes of rubber screw covers. Be sure that you reinstall them over the correct screws. 
+The rubber-screw cover sizes are as shown in the following image:
+32 Chapter 5   Removal and replacement procedures for Customer Self-Repair parts
+
+--- Page 43 ---
+The rubber-screw cover locations are as shown in the following image:
+NOTE: If installing new rubber screw covers, carefully inspect for adhesive tape liner inside the cap and 
+remove if present.
+To properly insert the rubber covers, be sure to orient the covers in the correct direction:
+1. Place the lower edge into the recess (1), followed by the higher edge (2).
+Component replacement procedures 33
+
+--- Page 44 ---
+2. Use a small plastic rod or the soft part of your nger (not a ngernail) to ensure compaction into the 
+recess.
+3. Visually inspect all rubber caps to be sure that they installed in the correct locations. Run a nger over 
+the tops of the rubber caps to ensure they are properly seated.
+34 Chapter 5   Removal and replacement procedures for Customer Self-Repair parts
+
+--- Page 45 ---
+Battery
+Description Spare part number
+3-cell, 49 WHr, 4.25 Ah Li-ion battery 854109-850
+Before removing the battery, follow these steps:
+1. Turn o the computer. If you are unsure whether the computer is o or in Hibernation, turn 
+the computer on, and then shut it down through the operating system.
+2. Disconnect the power from the computer by unplugging the power cord from the computer.
+3. Disconnect all external devices from the computer.
+4. Remove the bottom cover (see Bottom cover on page 30).
+To remove the battery:
+WARNING! To reduce potential safety issues, use only the user-replaceable battery provided with the 
+computer, a replacement battery provided by HP, or a compatible battery purchased from HP.
+CAUTION: Removing a user-replaceable battery that is the sole power source for the computer can cause 
+loss of information. To prevent loss of information, save your work or shut down the computer through 
+Windows before removing the battery.
+▲
+Loosen the captive screw (1) and lift the tab (2) to remove the battery from the computer (3).
+To insert the battery, reverse the removal procedures.
+Component replacement procedures 35
+
+--- Page 46 ---
+Hard drive
+Description Spare part number
+1 TB, 5400 rpm, 7 mm 832077-001
+500 GB, 7200 rpm, 7 mm, FIPS 820572-001
+500 GB, 7200 rpm, 7 mm, Opal-2 820573-001
+500 GB, 7200 rpm, 7 mm 703267-001
+500 GB, 5400 rpm, 7 mm, hybrid, 8 GB cache 732000-001
+Hard Drive Hardware Kit (includes cover and screws) 821665-001
+NOTE: Only one mass storage device (hard drive or a solid-state drive) can be installed.
+Before removing the hard drive, follow these steps:
+1. Shut down the computer. If you are unsure whether the computer is o or in Hibernation, turn the 
+computer on, and then shut it down through the operating system.
+2. Disconnect all external devices connected to the computer.
+3. Disconnect the power from the computer by rst unplugging the power cord from the AC outlet, and 
+then unplugging the AC adapter from the computer.
+4. Remove the bottom cover (see Bottom cover on page 30).
+5. Remove the battery (see Battery on page 35).
+To remove a hard drive:
+1. Loosen the 4 captive screws (1) that secure the hard drive to the chassis.
+2. Slide the hard drive (2) away from the connector.
+36 Chapter 5   Removal and replacement procedures for Customer Self-Repair parts
+
+--- Page 47 ---
+3. Lift to remove the hard drive from the bay (3).
+4. To remove the hard drive cover from the hard drive, remove the 4 Phillips M3.0×3.0 screws (1) that 
+secure the bracket to the drive, and then lift the bracket up and o the hard drive (2).
+Reverse this procedure to install a hard drive.
+Component replacement procedures 37
+
+--- Page 48 ---
+Solid-state drive
+Description Spare part number
+512 GB, PCIe Gen3×4 NVMe SS/DS MLC 915952-001
+512 GB, PCIe NVMe TLC 915954-001
+512 GB, PCIe, Gen3x4, self-encrypting (SED), Opal 2, TLC 915953-001
+512 GB, SATA-3, FIPS-140-2, TLC 915955-001
+360 GB, PCIe Gen3×4 SS TLC 915951-001
+256 GB, PCIe NVMe TLC 915950-001
+256 GB, SATA-3 SS TLC (Opal 2) 915949-001
+128 GB, SATA-3, SS value 915948-001
+NOTE: Only one mass storage device (hard drive or a solid-state drive) can be installed.
+Before removing the solid-state drive, follow these steps:
+1. Turn o the computer. If you are unsure whether the computer is o or in Hibernation, turn the 
+computer on, and then shut it down through the operating system.
+2. Disconnect the power from the computer by unplugging the power cord from the computer.
+3. Disconnect all external devices from the computer.
+4. Remove the bottom cover (see Bottom cover on page 30).
+5. Disconnect the battery (see Battery on page 35).
+Remove the solid-state drive:
+1. Remove the Phillips M2.0×3.0 screw (1) that secures the drive to the system board.
+38 Chapter 5   Removal and replacement procedures for Customer Self-Repair parts
+

@@ -1,0 +1,933 @@
+Brand: SYSTEM76
+Model: Oryx Pro
+URL: https://www.manua.ls/system76/oryx-pro/manual
+Total Pages: 32
+============================================================
+
+--- Page 1 ---
+
+
+
+
+System76
+Oryx Pro (oryp5)
+Service manual
+ 
+
+
+--- Page 2 ---
+
+Revision history
+
+
+
+ 
+System76 Oryx Pro (oryp5) Service Manual
+1
+
+Author
+Date
+Version
+Remarks
+Aaron Honeycutt
+2019-03-01
+Initial
+
+Jacob Kauffmann
+2019-11-13
+
+Corrected maximum RAM
+Aaron Honeycutt
+2021-03-18
+
+Correct M.2 drive spec
+
+--- Page 3 ---
+Contents
+Revision history
+Hardware overview
+External overview
+Ports overview
+Bottom case screw sizes
+Front LED overview
+Hardware keyboard shortcuts
+External displays
+Internal component overview
+User-serviceable parts and repairs
+Replacing the keyboard
+Steps to replace the keyboard
+Photo guide for keyboard replacement
+Removing the bottom cover
+Steps to remove the cover
+Steps to replace the cover
+Photo guide for bottom cover removal/replacement
+Replacing the RAM
+Steps to replace the RAM
+Photo guide for replacing the RAM
+Replacing an M.2/NVMe SSD
+Steps to replace the M.2 drive
+Replacing the CPU fan
+Steps to replace the CPU fan
+Replacing the CMOS battery
+Steps to replace the CMOS battery
+Replacing the internal battery
+Steps to replace the internal battery
+Replacing the WiFi/Bluetooth module
+Steps to replace the WiFi/Bluetooth module
+BIOS utilities
+System76 Oryx Pro (oryp5) Service Manual
+2
+
+--- Page 4 ---
+
+Updating the BIOS
+BIOS overview
+Main menu
+Advanced
+Security
+Boot
+Specifications
+
+
+
+
+
+ 
+System76 Oryx Pro (oryp5) Service Manual
+3
+
+
+--- Page 5 ---
+
+Hardware overview
+External overview
+Ports overview
+The Oryx provides multiple connectivity options.
+
+
+Left side overview
+
+
+Right side overview
+System76 Oryx Pro (oryp5) Service Manual
+4
+
+
+--- Page 6 ---
+
+
+
+
+
+Bottom case screw sizes
+The Oryx has one size of screw for securing the bottom case.
+
+System76 Oryx Pro (oryp5) Service Manual
+5
+
+
+--- Page 7 ---
+
+Front LED overview
+
+
+ 
+System76 Oryx Pro (oryp5) Service Manual
+6
+
+Icon
+Color
+Description
+
+Orange
+DC power plugged in
+Green
+Computer is on
+Blinking green
+Computer is sleeping
+
+Orange
+Battery charging
+Green
+Battery fully charged
+Blinking orange
+Battery critically low
+
+Green
+Airplane mode is ON
+(WiFi/Bluetooth disabled)
+
+Green
+Hard disk activity
+
+--- Page 8 ---
+
+Hardware keyboard shortcuts
+Your Oryx has several actions available using the Fn and Function keys.
+
+System76 Oryx Pro (oryp5) Service Manual
+7
+
+Key
+Shortcut
+Action
+
+Fn+F1
+Toggle trackpad
+
+Fn+F2
+Toggle built-in LCD
+
+Fn+F3
+Mute
+
+Fn+*
+Toggle keyboard backlight
+
+Fn+F5
+Volume down
+
+Fn+F6
+Volume up
+
+Fn+F7
+Toggle displays
+
+Fn+F8
+Brightness down
+
+Fn+F9
+Brightness up
+
+Fn+F10
+Toggle webcam
+
+Fn+F11
+Toggle airplane mode
+
+Fn+F12
+Suspend
+
+Fn+`
+Play/Pause
+
+Fn+1
+Toggle fan between max/automatic
+
+Fn+/
+Cycle Keyboard Color
+
+Fn+-
+Decrease Keyboard Brightness
+
+Fn++
+Increase Keyboard Brightness
+
+--- Page 9 ---
+
+External displays
+Aside from the standard Mini DisplayPort (MiniDP) and HDMI, the Oryx also supports
+DisplayPort over USB-C Internal component overview
+Below is a color-coded diagram of the Oryx’s internal components.
+
+
+
+CPU fan is highlighted in cyan
+GPU fans are highlighted in light orange
+CMOS battery is highlighted in red
+RAM is highlighted in green
+M.2 SSD’s are highlighted in orange
+Wireless/Bluetooth module is highlighted in purple
+Battery is highlighted in white
+2.5” drive bay is highlighted in dark blue
+
+ 
+System76 Oryx Pro (oryp5) Service Manual
+8
+
+
+--- Page 10 ---
+
+User-serviceable parts and repairs
+Many components on your Oryx can be upgraded or replaced as necessary. Follow
+these step-by-step guides for instructions.
+Replacing the keyboard
+Keyboard replacement is simple and requires only a cross-head screwdriver.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 10 minutes
+Difficulty: Low
+Screws: 2 total
+- 2 large M2, black (Keyboard M2)
+Steps to replace the keyboard
+Photos are provided in order below these steps.
+1. Find a surface suitable for work. A desk or table works well.
+2. Place something soft on the table, like a towel or anti-static mat.
+3. Place the Oryx lid-side-down.
+4. Remove the 2 keyboard screws, indicated by the small keyboard icons.
+5. Open the Oryx and place it on its side.
+6. Push the screwdriver into the keyboard push point until the keyboard pops out.
+7. Set the Oryx down, then starting from the top side, pull the keyboard loose.
+8.  Flip the keyboard over onto the trackpad.
+9.  Pull the large ribbon cable out of the connector.
+10. The small ribbon cables have latches. Gently pull the latches from both sides
+and remove the ribbon cables.
+11. Remove the keyboard and replace it with the new one.
+12. Insert the large ribbon cable into the connector.
+13. Seat the small ribbon cables, then apply pressure equally to both sides of the
+connector to secure.
+14. Flip the keyboard over and press the bottom tabs of the keyboard into the case.
+15. Secure the keyboard by pressing down on the edges of the keyboard.
+16. Flip the Oryx over.
+17. Replace the 2 screws holding the keyboard in place.
+18. Boot your Oryx and confirm the keyboard is operational.
+System76 Oryx Pro (oryp5) Service Manual
+9
+
+
+--- Page 11 ---
+
+Photo guide for keyboard replacement
+1. Oryx lid-side-down. There are two keyboard screws and one has a red circle while the
+other one has a red and blue circle indicating the keyboard push point.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System76 Oryx Pro (oryp5) Service Manual
+10
+
+
+--- Page 12 ---
+
+2. Oryx on its side with screwdriver in keyboard push point.
+
+System76 Oryx Pro (oryp5) Service Manual
+11
+
+
+--- Page 13 ---
+
+
+
+
+3. Set the Oryx down and remove the keyboard starting along the top edge.
+
+System76 Oryx Pro (oryp5) Service Manual
+12
+
+
+--- Page 14 ---
+
+4. Flip the keyboard over and rest it on the trackpad. Pull the large ribbon cable out of
+the connector. The smaller ribbon cables have latches. Gently pull it forward to release
+the connector, then remove the ribbon cables.
+
+
+
+
+Removing the bottom cover
+Removing the cover is required to access the internal components. Prior to removing
+the cover, ensure the AC power is unplugged, and all peripherals (including SD cards
+and USB drives) are unplugged or removed from the system.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 10 minutes
+Difficulty: Medium
+Screws: 16 total:
+- 9 small M2 perimeter, black
+- 2 large M2 keyboard, black
+- 4 small/short M2 under keyboard, silver
+- 1 small/short M2 under keyboard, black
+Steps to remove the cover
+Photos are provided in order below these steps.
+System76 Oryx Pro (oryp5) Service Manual
+13
+
+
+--- Page 15 ---
+
+1. Find a surface suitable for work. A desk or table works well.
+2. Place something soft on the table, like a towel or anti-static mat.
+3. Place the Oryx lid-side-down.
+4. Remove the 9 perimeter screws.
+5. Remove the 2 keyboard screws, indicated by the small keyboard icons.
+6. Open the Oryx and place it on its side.
+7. Push the screwdriver into the keyboard push point until the keyboard pops out.
+8. Set the Oryx down.
+9. Starting from the top side, pull the keyboard loose.
+10. Flip the keyboard over onto the trackpad.
+11. Remove the 4 silver screws and 1 black screw holding the bottom case in place.
+12. Partially replace the keyboard, but don’t snap it into place.
+13. Close the lid and flip the Oryx lid-side-down again.
+14. The bottom cover will lift off, starting from the front corners working to the back
+near the hinges.
+Steps to replace the cover
+1. Align the bottom cover to the case towards the back and hinges.
+2. Set the bottom cover along the edges and confirm the bottom cover is seated.
+3. Replace the 9 perimeter screws.
+4. Flip the Oryx and replace the 4 silver screws and 1 black screw from under the
+keyboard.
+5. Replace the keyboard by inserting the tabs into the bottom edge near the
+trackpad and press around the edges of the keyboard to ensure it is fully
+snapped into place.
+6. Flip the Oryx and replace the 2 keyboard screws.
+System76 Oryx Pro (oryp5) Service Manual
+14
+
+
+--- Page 16 ---
+
+
+
+
+
+
+Photo guide for bottom cover removal/replacement
+1. Oryx lid-side-down. There are two keyboard screws and one has a red circle while the
+other one has a red and blue circle indicating the keyboard push point.
+
+
+
+
+System76 Oryx Pro (oryp5) Service Manual
+15
+
+
+--- Page 17 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System76 Oryx Pro (oryp5) Service Manual
+16
+
+
+--- Page 18 ---
+
+2. Oryx on its side with screwdriver in keyboard push point. Push until the keyboard has
+popped out. This requires a solid amount of force.
+
+
+System76 Oryx Pro (oryp5) Service Manual
+17
+
+
+--- Page 19 ---
+
+3. Once the corner of the keyboard has popped, pull along the top edge of the keyboard
+to unseat it entirely.
+
+
+
+System76 Oryx Pro (oryp5) Service Manual
+18
+
+
+--- Page 20 ---
+
+4. Flip over the keyboard and remove the 4 silver screws and 1 black screw. Their
+location is highlighted in red. (Note: In this photo, the screws have already been
+removed.)
+
+
+
+5. Set the keyboard mostly in place, close the lid, and flip the Oryx lid-side-down.
+
+6. Starting near the front corner, lift the bottom cover off the Oryx.
+
+Replacing the RAM
+RAM acts as temporary storage for your computer. More RAM generally provides better
+performance. If you’ve purchased new RAM, need to replace your RAM, or are reseating
+your RAM, follow these steps.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 15 minutes
+Difficulty: Medium
+Steps to replace the RAM
+1. Follow the steps above to remove the cover.
+2. Press the small tabs on both sides of the RAM simultaneously.
+System76 Oryx Pro (oryp5) Service Manual
+19
+
+
+--- Page 21 ---
+
+3. Remove the RAM from the slot.
+4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot
+and pressing down on the RAM until it clicks into place.
+Photo guide for replacing the RAM
+1. Press the tabs indicated in red to release the RAM from the slot.
+
+ 
+System76 Oryx Pro (oryp5) Service Manual
+20
+
+
+--- Page 22 ---
+
+Replacing an M.2/NVMe SSD
+M.2 SSDs offer, at minimum, SATA3 speeds and performance in a package about the
+size of a stick of gum. NVMe M.2 SSDs offer even higher performance. The Oryx
+supports two M.2 SSD’s, size 2280. One slot supports either M.2 SATA or NVMe M.2
+PCIe Generation 3, and the other slot supports only NVMe M.2 PCIe Generation 3.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the M.2 drive
+1. Follow the steps above to remove the cover.
+2. Locate the M.2 drive (or drive slot).
+3. Unscrew the retainer screw opposite the M.2 slot.
+4. Remove the existing M.2 drive by pulling it out of the slot.
+5. Insert the new M.2 drive into the slot and hold it in place.
+6. Replace the retainer screw.
+ 
+System76 Oryx Pro (oryp5) Service Manual
+21
+
+
+--- Page 23 ---
+
+Replacing the CPU fan or GPU fans
+If the CPU or GPU fans become noisy and cleaning it out doesn’t fix the issue, you may
+need a new CPU/GPU fan. Contact Support to start a warranty claim or parts purchase.
+
+Tools required: Cross-head (Phillips) screwdriver, paper towel and thermal compound
+Time estimate: 25 minutes
+Difficulty: High
+Steps to replace the CPU fan/GPU fans
+1. Follow the steps above to remove the cover.
+2. Locate the CPU fan and GPU fans.
+3. Remove the 2 screws holding the CPU fan in place.
+4. Remove the 3 screws holding the GPU fans in place.
+5. Disconnect the 2 cables for the GPU fan and the 1 cable for the CPU fan.
+6. Unscrew the CPU heatsink and GPU heatsink in order as labelled.
+7. Using a paper towel, remove the existing thermal compound. You may also use a
+small amount of rubbing alcohol to remove excess or difficult-to-remove paste.
+8. After cleaning the CPU, GPU and both heatsinks, apply a small line of thermal
+compound directly onto the top of the CPU, and the same on the top of the GPU.
+9. Plug the new CPU fan and new GPU fans into the motherboard.
+10.Carefully replace both heatsinks.
+11.Replace the 2 screws for the CPU fan and replace the 3 screws for the GPU fans.
+12.Replace the screws for the CPU heatsink, starting with #1, then #2, and lastly #3.
+Do not fully tighten screws #1 and #2 until all three are in place, then fully tighten
+all three screws in order.
+13.Replace the screws for the GPU heatsink, starting with #1, then #2, then #3 and
+lastly #4. Do not fully tighten screws #1, #2, and #3 until #4 is in place, then fully
+tighten all four screws.
+
+ 
+System76 Oryx Pro (oryp5) Service Manual
+22
+
+
+--- Page 24 ---
+
+Replacing the CMOS battery
+The CMOS battery supplies power to the Oryx’s CMOS chip. Changes you make to the
+BIOS and the computer’s hardware clock are stored on the CMOS. If your Oryx doesn’t
+boot, you can reset the CMOS to force a low-level hardware reset. If your clock is
+constantly resetting, it’s likely your CMOS battery needs replacing.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the CMOS battery
+1. Follow the steps above to remove the cover.
+2. Locate the CMOS battery. There is a red and black wire connecting the battery to
+a white connector.
+3. Unplug the white connector for 1 minute, then reseat the connector.
+4. Power up the Oryx. The system may power itself off and on after initial boot, this
+is normal.
+5. Press Enter at the CMOS/BIOS reset message prompts.
+6. If you are booted into the BIOS, press F4 to load defaults, then F10 to save and
+resume normal boot.
+
+ 
+System76 Oryx Pro (oryp5) Service Manual
+23
+
+
+--- Page 25 ---
+
+Replacing the internal battery
+The battery provides primary power whenever the system is unplugged.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the internal battery
+1. Follow the steps above to remove the cover.
+2. Unplug the white connector above the battery.
+3. Remove the 1 screw holding the battery in place.
+4. Remove and replace the battery.
+5. Replace the 1 screw and plug in the battery. 
+System76 Oryx Pro (oryp5) Service Manual
+24
+
+
+--- Page 26 ---
+
+Replacing the WiFi/Bluetooth module
+Your Oryx’s WiFi and Bluetooth are both handled with the same module. It is a standard
+M.2 2230 slot with PCIe & USB Interfaces (A Key).
+
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the WiFi/Bluetooth module
+1. Follow the steps above to remove the cover.
+2. Locate the wireless module.
+3. Gently remove the two antennas by pulling them up and away from the wireless
+module.
+4. Remove the retaining screw opposite the M.2 slot.
+5. Remove the wireless module from the slot.
+6. Insert the new wireless module.
+7. Replace the retaining screw.
+8. Attach the two antennas by aligning the circular fitting and pressing onto the
+wireless card. The connector will snap into place. Use caution when attaching
+the connectors, the pins can bend, break, or snap.
+ 
+System76 Oryx Pro (oryp5) Service Manual
+25
+
+
+--- Page 27 ---
+
+BIOS utilities
+When starting your Oryx, it takes a few seconds to conduct a quick check of the
+components. As it proceeds, it will notify you if anything is wrong. Any issues that
+prevent the system from booting will be displayed and you will be prompted to enter the
+Setup. If no problems are detected, your Oryx will load GRUB and then Ubuntu/Pop!_OS,.
+
+For Setup/BIOS, hold F2 while booting.
+For boot options, hold F7 while booting and choose your preferred boot device.
+Updating the BIOS
+BIOS updates and instructions are sent out as needed. System76 will notify you if a
+BIOS update is available for your Oryx.
+BIOS overview
+The Setup/BIOS utility allows you to make low-level changes to your Oryx. It’s not
+recommended to make changes unless the settings are provided by Support, or if you
+understand what you’re changing.
+Main menu
+System76 Oryx Pro (oryp5) Service Manual
+26
+
+Option
+Description
+SATA Port #
+Pressing Enter opens the sub-menu to show the
+configuration of a SATA device on the SATA ports.
+OffBoard SATA/NVMe
+Controller Configuration
+Pressing Enter opens the sub-menu to show the
+configuration of any devices on the offboard SATA/NVMe
+controller, if installed.
+System Date/Time
+Set the system date/time using the hardware clock.
+System/Extended
+Memory
+Information on the amount of RAM installed.
+ME FW/
+MB Series/
+BIOS Version/
+KB/EC Firmware Rev.
+Information on the BIOS version(s) and network adapter
+address.
+System Memory/
+
+
+--- Page 28 ---
+
+
+Advanced
+System76 Oryx Pro (oryp5) Service Manual
+27
+
+Extended Memory/
+MB Series/
+BIOS Version/
+KBC/EC/
+MAC Address
+Option
+Description
+Advanced Chipset
+Control
+Options for VT-d, FlexiCharger, SGX, Fast Boot, DDI Control
+> VT-d
+Enable/disable Intel Virtualization Technology for Directed
+I/O. Extends Intel Virtualization Technology (VT) by
+providing hardware assets for virtual hypervisors.
+> FlexiCharger
+The sub-menu here allows you to enable/disable the
+FlexiCharger. The FlexiCharger can be set to automatically
+start charging your battery when the battery reaches
+a certain capacity level (e.g. you could start the battery
+charge level at 40%).
+
+You can then set the level to stop charging (e.g. 100%), but
+the stop charge level must be higher than the start charge
+level. It is not recommended to enable FlexiCharger for
+extended periods of time.
+> SW Guard Extensions
+Enable or disable Intel SGX (Software Guard Extensions.)
+> GPU Performance
+Scaling
+Enabled or Disabled NV GPU Performance Scaling Support
+> Fast Boot
+Enables or disables boot with initialization of a minimal set
+of devices required to launch the active boot option. This
+has no effect for BBS boot options.
+> UEFI OS Fast Boot
+If enabled the system firmware does not initialize keyboard
+and check for the firmware menu key
+> ME State
+When Disabled ME will be put into ME Temporarily
+Disabled Mode.
+SATA Mode
+The SATA (Serial ATA) controller is designed to operate in
+AHCI (Advanced Host Controller Interface) mode only.
+
+--- Page 29 ---
+
+Security
+
+Administer Secure Boot
+
+
+Boot
+ 
+System76 Oryx Pro (oryp5) Service Manual
+28
+
+Power on boot beep
+Enable/disable a beep as the computer starts up.
+Battery low alarm beep
+Enable/disable a beep when the battery is critically low.
+Option
+Description
+Set Supervisor
+Password
+Sets a password for the Setup Utility. This does not affect
+access to the computer or Ubuntu/Pop!_OS,/Pop!_OS, only
+the BIOS.
+TPM Configuration
+Trusted Computing Settings
+> Security Device
+Support
+Enable or Disable BIOS support for TPM 2.0 security
+device.
+Option
+Description
+Secure Boot
+Enables support for Secure Boot. This is not recommended
+or required for Ubuntu/Pop!_OS.
+Option
+Description
+Network Stack
+Enable or disable support for Intel PXE network boot.
+> Ipv4 PXE Support
+Allow PXE booting using IPv4.
+> Ipv6 PXE Support
+Allow PXE booting using IPv6.
+
+--- Page 30 ---
+
+Boot Manager
+
+Specifications
+
+System76 Oryx Pro (oryp5) Service Manual
+29
+
+Option
+Description
+Boot Option Priorities
+Determine the boot order for system devices. Boot option
+#1 will be tried first. It’s recommended to set your boot
+drive as the 1st option and use the F7 key when
+temporarily booting from an external device or PXE booting
+Component
+Specification
+Processors
+Intel® CoreTM i7-8750H (4.1GHz)
+2.2 up to 4.1GHz - 9MB Cache – 6 Cores – 12 Threads
+Display
+16.1” or 17.3” Full HD 144 Hz Matte
+Memory
+Dual Channel DDR4
+
+Two 260 Pin SO-DIMM Sockets
+Supporting DDR4 2666 MHz Memory
+And DDR4 3000 MHz Memory
+Modules (real operational frequency
+depends on the FSB of the processor)
+
+Memory Expandable up to 64GB at 2666 MHz
+or 32GB at 3000 MHz
+Compatible with 8GB, 16GB, or 32GB modules
+Graphics
+NVIDIA GeForce RTX
+2060, 2070, and 2080
+Storage
+One M.2 SSD 2280, SATA/PCIe Gen 3x4
+Interface
+One 2.5” 7mm SATA Drive
+Audio
+High Definition audio interface
+S/PDIF Digital output
+Built-in Array Microphone
+2 Built-in Speakers
+SoundBlasterX® Pro-Gaming 360°
+
+--- Page 31 ---
+
+
+
+
+
+
+
+
+System76 Oryx Pro (oryp5) Service Manual
+30
+
+Component
+Specification
+Touchpad & Keyboard
+ClickPad with Multi-
+Gesture and Scrolling Functionality
+
+A4 Size Isolated Keyboard
+Webcam
+720p HD Video Camera Module with
+USB interface
+Interfaces
+One HDMI output Port (with HDCP)
+One Mini DisplayPort 1.3 output Port
+One DisplayPort 1.3 over USB 3.1 Gen 2 (Type C)
+One USB 3.1 Gen 2 Port (Type C)
+Two USB 3.0 Ports (1 x powered USB port, AC/DC)
+One 2-in-1 Audio Jack (Microphone / S/PDIF Optical output)
+One 2-in-1 Audio Jack (Headphone / Microphone)
+One RJ-45 LAN (10/100/1000Mbps)
+Card reader
+Embedded Multi-In-1 Card Reader
+- MMC/ RS MMC
+- SD/ Mini SD / SDHC/ SDXC up to UHS-II
+M.2 Slots
+Two M.2 Card Slots:
+
+Slot 1 for M.2 2230 WLAN Combo Module
+with PCIe & USB Interfaces (A Key)
+
+Slot 2 for SSD M.2 2280 Card with SATA
+/ PCIe Gen 3 x4 Interface (M Key)
+
+Slot 3 for SSD M.2 2280 Card with PCIe Gen 3 x4 Interface
+(M Key)
+Network
+Built-In 10/100/1000Mb Base-TX Ethernet LAN
+
+Intel® Dual Band Wireless-AC 9560
+(2*2 802.11 a/c) WLAN + Bluetooth M.2
+
+--- Page 32 ---
+
+
+
+
+
+
+
+
+System76 Oryx Pro (oryp5) Service Manual
+31
+
+2230 Combo Module (867Mbps)
+Component
+Specification
+Power and battery
+Full Range AC/DC Adapter
+AC input 100 - 240V, 50 - 60Hz,
+DC Output 19V, 9.23A (180 Watts)
+
+Embedded Smart Lithium Ion
+Battery Pack 62WH
+Security
+Security (Kensington® Type) Lock Slot
+Disabled ME
+BIOS Password
+Trusted Platform Module 2.0 (disabled by default)
+Operating System
+Ubuntu/Pop!_OS,/Pop!_OS
+Indicators
+LED Indicators - Power/Suspend, Battery, HDD, Airplane
+Mode, Camera
+Environmental
+Temperature
+Operating: 5°C - 35°C
+Non-operating: -20°C - 60°C
+
+Relative humidity
+Operating: 20% - 80%
+Non-operating: 10% - 90%
+Dimensions & Weight
+Height x Width x Depth
+16.1” : 0.78” x 14.96” x 9.92”
+16.1” : 4.6lbs, 2.09kg
+17.3” : 0.78” x 15.69” x 10.55”
+17.3” : 5.51lbs, 2.50kg
+base weight, varies with configuration.
+

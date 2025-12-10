@@ -1,0 +1,1693 @@
+--- Page 1 ---
+HP EliteBook 740 G1 Notebook PC
+HP EliteBook 840 G1 Notebook PC
+HP ZBook 14 Mobile Workstation
+HP EliteBook 750 G1 Notebook PC
+HP EliteBook 850 G1 Notebook PC
+Maintenance and Service Guide
+
+--- Page 2 ---
+© Copyright 2013, 2014 Hewlett-Packard
+Development Company, L.P.
+Bluetooth is a trademark owned by its
+proprietor and used by Hewlett-Packard
+Company under license. Intel and Core are U.S.
+registered trademarks of Intel Corporation.
+Microsoft, Windows, and Windows Vista are
+U.S. registered trademarks of Microsoft
+Corporation. SD Logo is a trademark of
+its proprietor.
+The information contained herein is subject to
+change without notice. The only warranties for
+HP products and services are set forth in the
+express warranty statements accompanying
+such products and services. Nothing herein
+should be construed as constituting an
+additional warranty. HP shall not be liable for
+technical or editorial errors or omissions
+contained herein.
+Second Edition: November 2014
+First Edition: September 2013
+Document Part Number: 734761-002
+
+--- Page 3 ---
+Important Notice about Customer Self-Repair Parts
+CAUTION: Your computer includes Customer Self-Repair parts and parts that should only be accessed by an
+authorized service provider. See Chapter 5, "Removal and replacement procedures for Customer Self-Repair
+parts," for details. Accessing parts described in Chapter 6, "Removal and replacement procedures for
+Authorized Service Provider only parts," can damage the computer or void your warranty.
+iii
+
+--- Page 4 ---
+iv   Important Notice about Customer Self-Repair Parts
+
+--- Page 5 ---
+Safety warning notice
+WARNING! To reduce the possibility of heat-related injuries or of overheating the device, do not place the
+device directly on your lap or obstruct the device air vents. Use the device only on a hard, flat surface. Do not
+allow another hard surface, such as an adjoining optional printer, or a soft surface, such as pillows or rugs or
+clothing, to block airflow. Also, do not allow the AC adapter to contact the skin or a soft surface, such as
+pillows or rugs or clothing, during operation. The device and the AC adapter comply with the user-accessible
+surface temperature limits defined by the International Standard for Safety of Information Technology
+Equipment (IEC 60950).
+v
+
+--- Page 7 ---
+Table of contents
+1  Product description ....................................................................................................................................... 1
+2  External component identification ................................................................................................................. 8
+Display ................................................................................................................................................................... 8
+Top ......................................................................................................................................................................... 9
+TouchPad ............................................................................................................................................. 9
+Lights ................................................................................................................................................. 10
+Buttons and fingerprint reader (select models only) ....................................................................... 11
+Keys ................................................................................................................................................... 12
+Front ..................................................................................................................................................................... 13
+Left ....................................................................................................................................................................... 14
+Right ..................................................................................................................................................................... 15
+Bottom ................................................................................................................................................................. 16
+Service tag ........................................................................................................................................................... 18
+3  Illustrated parts catalog .............................................................................................................................. 20
+Computer major components ............................................................................................................................. 20
+Display assembly subcomponents ..................................................................................................................... 27
+HP EliteBook 740/840/ZBook 14 models ......................................................................................... 27
+HP EliteBook 750/850 models .......................................................................................................... 29
+Mass storage devices .......................................................................................................................................... 30
+Plastics Kit ........................................................................................................................................................... 32
+Miscellaneous parts ............................................................................................................................................. 33
+Sequential part number listing ........................................................................................................................... 35
+4  Removal and replacement procedures preliminary requirements .................................................................... 47
+Tools required ...................................................................................................................................................... 47
+Service considerations ........................................................................................................................................ 47
+Plastic parts ....................................................................................................................................... 47
+Cables and connectors ...................................................................................................................... 47
+Drive handling ................................................................................................................................... 48
+Grounding guidelines ........................................................................................................................................... 48
+Electrostatic discharge damage ....................................................................................................... 48
+Packaging and transporting guidelines ......................................................................... 49
+Workstation guidelines ................................................................................ 49
+vii
+
+--- Page 8 ---
+5  Removal and replacement procedures for Customer Self-Repair parts ............................................................. 51
+Component replacement procedures ................................................................................................................. 51
+Service cover ..................................................................................................................................... 51
+Battery ............................................................................................................................................... 53
+Hard drive .......................................................................................................................................... 54
+Solid-state drive (SSD) ...................................................................................................................... 56
+RTC battery ........................................................................................................................................ 58
+Memory module ................................................................................................................................ 59
+WWAN module ................................................................................................................................... 61
+WLAN module .................................................................................................................................... 63
+Keyboard ........................................................................................................................................... 65
+6  Removal and replacement procedures for Authorized Service Provider parts ................................................... 69
+Component replacement procedures ................................................................................................................. 69
+Display panel (non-touch) ................................................................................................................ 69
+Base enclosure .................................................................................................................................. 73
+Base enclosure (HP EliteBook 840/HP ZBook14 models) ............................................. 73
+Base enclosure (HP EliteBook 850 models) ................................................................... 76
+Fan ..................................................................................................................................................... 79
+Card reader board ............................................................................................................................. 80
+VGA/USB board .................................................................................................................................. 81
+Heat sink ............................................................................................................................................ 82
+Power button board .......................................................................................................................... 86
+Fingerprint reader assembly ............................................................................................................. 88
+System board .................................................................................................................................... 90
+Speaker assembly ............................................................................................................................. 96
+Display assembly .............................................................................................................................. 98
+7  Computer Setup (BIOS), MultiBoot, and System Diagnostics in Windows 8 ...................................................... 105
+Using Computer Setup ....................................................................................................................................... 105
+Starting Computer Setup ................................................................................................................ 105
+Navigating and selecting in Computer Setup ................................................................................. 105
+Restoring factory settings in Computer Setup ............................................................................... 106
+Updating the BIOS ........................................................................................................................... 106
+Determining the BIOS version ...................................................................................... 106
+Downloading a BIOS update ......................................................................................... 107
+HP Sure Start ................................................................................................................................... 107
+Using MultiBoot ................................................................................................................................................. 108
+About the boot device order ........................................................................................................... 108
+Choosing MultiBoot preferences .................................................................................................... 108
+viii
+
+--- Page 9 ---
+Setting a new boot order in Computer Setup .............................................................. 108
+Dynamically choosing a boot device using the f9 prompt ........................................... 109
+Setting a MultiBoot Express prompt ............................................................................ 109
+Entering MultiBoot Express preferences ..................................................................... 109
+Using HP PC Hardware Diagnostics (UEFI) (select models only) ...................................................................... 110
+Downloading HP PC Hardware Diagnostics (UEFI) to a USB device ............................................... 110
+8  Computer Setup (BIOS) and HP PC Hardware Diagnostics (UEFI) in Windows 7 ................................................. 111
+Using Computer Setup ....................................................................................................................................... 111
+Starting Computer Setup ................................................................................................................ 111
+Navigating and selecting in Computer Setup ................................................................................. 111
+Restoring factory settings in Computer Setup ............................................................................... 112
+Updating the BIOS ........................................................................................................................... 112
+Determining the BIOS version ...................................................................................... 112
+Downloading a BIOS update ......................................................................................... 113
+HP Sure Start ................................................................................................................................... 113
+Using MultiBoot ................................................................................................................................................. 114
+About the boot device order ........................................................................................................... 114
+Choosing MultiBoot preferences .................................................................................................... 114
+Setting a new boot order in Computer Setup .............................................................. 114
+Dynamically choosing a boot device using the f9 prompt ........................................... 115
+Setting a MultiBoot Express prompt ............................................................................ 115
+Entering MultiBoot Express preferences ..................................................................... 115
+Using HP PC Hardware Diagnostics (UEFI) (select models only) ...................................................................... 116
+Downloading HP PC Hardware Diagnostics (UEFI) to a USB device ............................................... 116
+9  Computer Setup (BIOS) and Advanced System Diagnostics in SUSE Linux ........................................................ 117
+Starting Computer Setup .................................................................................................................................. 117
+Using Computer Setup ....................................................................................................................................... 117
+Navigating and selecting in Computer Setup ................................................................................. 117
+Restoring factory settings in Computer Setup ............................................................................... 119
+Updating the BIOS .............................................................................................................................................. 119
+Determining the BIOS version ......................................................................................................... 119
+Downloading a BIOS update ........................................................................................................... 120
+HP Sure Start ..................................................................................................................................................... 120
+Using MultiBoot ................................................................................................................................................. 121
+About the boot device order ........................................................................................................... 121
+Choosing MultiBoot preferences .................................................................................................... 121
+Dynamically choosing a boot device using the f9 prompt ........................................... 121
+Using HP PC Hardware Diagnostics (UEFI) (select models only) ...................................................................... 121
+Downloading HP PC Hardware Diagnostics (UEFI) to a USB device ............................................... 122
+ix
+
+--- Page 10 ---
+10  Backup and recovery in Windows 8 ............................................................................................................ 123
+Backing up your information ............................................................................................................................. 123
+Performing a system recovery .......................................................................................................................... 124
+Using the Windows recovery tools ................................................................................................. 124
+Using f11 recovery tools ................................................................................................................. 125
+Using Windows 8 operating system media (purchased separately) ............................................. 125
+Using Windows Refresh for quick and easy recovery .................................................................... 126
+Remove everything and reinstall Windows .................................................................................... 126
+Using HP Software Setup ................................................................................................................ 127
+11  Backup and recovery in Windows 7 ............................................................................................................ 128
+Creating recovery media and backups .............................................................................................................. 128
+Guidelines ........................................................................................................................................ 128
+Creating recovery media with HP Recovery Disc Creator ............................................................... 128
+Creating recovery media .............................................................................................. 129
+Backing up your information .......................................................................................................... 129
+Performing a system recovery .......................................................................................................................... 130
+Using the Windows recovery tools ................................................................................................. 130
+Using f11 recovery tools (select models only) ............................................................................... 132
+Using Windows 7 operating system media .................................................................................... 132
+12  Backup and Recovery in SUSE Linux ........................................................................................................... 134
+Creating backups ............................................................................................................................................... 134
+Backing up your information ............................................................................................................................. 134
+Performing a system recovery .......................................................................................................................... 135
+Remove everything and reinstall SLED ............................................................................................................. 135
+13  Specifications .......................................................................................................................................... 137
+Computer specifications–HP EliteBook 840/HP ZBook 14 models .................................................................. 137
+Computer specifications–HP EliteBook 850 models ........................................................................................ 138
+35.6-cm (14.0-in) HD SVA display specifications ............................................................................................. 138
+35.6-cm (14.0-in) HD+ SVA display specifications ........................................................................................... 139
+35.6-cm (14.0-in) HD+ SVA display specifications ........................................................................................... 140
+39.6-cm (15.6-in) HD SVA display specifications ............................................................................................. 140
+39.6-cm (15.6-in) FHD SVA display specifications ........................................................................................... 141
+Hard drive specifications ................................................................................................................................... 141
+Solid-state drive specifications ........................................................................................................................ 142
+x
+
+--- Page 11 ---
+14  Statement of Volatility ............................................................................................................................ 143
+HP Sure Start ..................................................................................................................................................... 144
+Non-volatile memory usage ............................................................................................................................. 145
+Questions and answers ..................................................................................................................................... 146
+15  Power cord set requirements .................................................................................................................... 148
+Requirements for all countries ......................................................................................................................... 148
+Requirements for specific countries and regions ............................................................................................. 148
+16  Recycling ................................................................................................................................................ 150
+Index ........................................................................................................................................................... 151
+xi
+
+--- Page 13 ---
+1 Product description
+Category Description HP
+EliteBook
+740/840
+HP ZBook
+14
+HP
+EliteBook
+750/850
+  HP EliteBook 740 G1 Notebook PC √   
+Product Name HP EliteBook 840 G1 Notebook PC √   
+  HP ZBook 14 Mobile Workstation   √  
+  HP EliteBook 750 G1 Notebook PC     √
+  HP EliteBook 850 G1 Notebook PC     √
+Processors Offers the following processors:
+●
+Intel® Dual Core® i7-4600U 2.10-GHz processor (SC turbo
+up to 3.30-GHz; 4.0-MB L3 cache, 15 W)
+●
+Intel Dual Core® i7-4510U 2.00-GHz processor (SC turbo
+up to 3.10-GHz; 4.0-MB L3 cache, 15 W)
+●
+Intel Dual Core® i7-4500U 1.80-GHz processor (SC turbo
+up to 3.00-GHz; 4.0-MB L3 cache, 15 W)
+●
+Intel Dual Core i5-4310U 2.00-GHz processor (SC turbo up
+to 3.00-GHz; 3.0-MB L3 cache, 15 W)
+●
+Intel Dual Core i5-4300U 1.90-GHz processor (SC turbo up
+to 2.90-GHz; 3.0-MB L3 cache, 15 W)
+●
+Intel Dual Core i5-4210U 1.70-GHz processor (SC turbo up
+to 2.70-GHz; 3.0-MB L3 cache, 15 W)
+●
+Intel Dual Core i5-4200U 1.60-GHz processor (SC turbo up
+to 2.60-GHz; 3.0-MB L3 cache, 15 W)
+√√√
+  Intel Dual Core i3-4030U 1.90-GHz processor; 3.0-MB L3 cache,
+15 W)
+Intel Dual Core i3-4010U 1.70-GHz processor; 3.0-MB L3 cache,
+15 W)
+√   √
+Chipset Mobile Intel QM87 chipset √√√
+Graphics Switchable discrete graphics: AMD Radeon™ HD 8750M, with
+support for up to 5 displays through the APR
+Internal graphics:
+●
+Universal memory architecture (UMA) with shared video
+memory with support for up to 3 displays through the APR
+●
+Intel HD Graphics 4400
+Support dual-display ports through the dock
+Supports hybrid (switchable) graphics
+√   √
+  Switchable discrete graphics: AMD FirePro M4100, with
+support for up to 5 displays through the APR
+Support dual-display ports through the dock
+  √  
+1
+
+--- Page 14 ---
+Category Description HP
+EliteBook
+740/840
+HP ZBook
+14
+HP
+EliteBook
+750/850
+Supports hybrid (switchable) graphics
+Panel All display assemblies include two or three wireless local area
+network (WLAN) antenna cables and two wireless wide area
+network (WWAN) antenna cables
+(35.6-cm) 14.0-in LED, HD, AntiGlare (AG), SVA (1366×768), 200
+nits display with and without webcam
+(35.6-cm) 14.0-in LED, HD+, AG, SVA (1920×1080), 250 nits
+display with and without webcam
+(35.6-cm) 14.0-in LED, HD+, AG, SVA (1920×1080) 250 nits
+capacitive touch display with webcam
+(35.6-cm) 14.0-in LED, FHD, AG, SVA (1920×1080) 300 nits
+display with and without webcam
+√√  
+ 
+●
+(39.6-cm) 15.6-in LED, FHD, AG, SVA (1920×1080) 200 nits
+display with and without webcam
+●
+(39.6-cm) 15.6-in LED, HD, AG, SVA (1368×768) 300 nits
+display with and without webcam
+  √
+Memory Two customer-accessible/upgradable memory module slots
+with the following specifications:
+DDR3L-1600-MHz dual channel support
+Supports 16384-MB of system RAM in the
+following configurations:
+●
+16384-MB (8192-MB×2)
+●
+12288-MB (8192-MB+4096-MB)
+●
+8192-MB (8192-MB×1 or 4096×2)
+●
+8192-MB (8192-MB×1 or 4096×2; not supported on
+computer models equipped with a 32-bit
+operating system)
+●
+6144-MB (4096-MB+2048-MB)
+●
+4096-MB (4096-MB×1 or 2048-MB×2)
+●
+2048-MB (2048×1)
+√   √
+ Two customer-accessible/upgradable memory module slots
+with the following specifications:
+DDR3L-1600-MHz dual channel support
+Supports 16384-MB of system RAM in the
+following configurations:
+●
+16384-MB (8192-MB×2)
+●
+8192-MB (8192-MB×1 or 4096×2)
+●
+8192-MB (8192-MB×1 or 4096×2; not supported on
+computer models equipped with a 32-bit
+operating system)
+●
+4096-MB (4096-MB×1 or 2048-MB×2)
+  √  
+2 Chapter 1   Product description
+
+--- Page 15 ---
+Category Description HP
+EliteBook
+740/840
+HP ZBook
+14
+HP
+EliteBook
+750/850
+Primary storage Supports 6.35-cm (2.5-in) hard drives in 9.5-mm (.37-in) and
+7.0-mm (.28-in) thicknesses (all hard drives use the
+same bracket)
+Customer-accessible
+√√√
+  Supports the following hard drives:
+●
+1-TB, 5400-rpm
+●
+500-GB, 7200-rpm, self-encrypting drive (SED)
+●
+500-GB, 7200-rpm
+●
+500-GB, 5400-rpm, self-encrypting drive (SED,
+FIPS-140-2)
+●
+500-GB, 5400-rpm
+●
+320-GB, 7200-rpm
+●
+320-GB, 5400-rpm
+Supports the following SSDs:
+●
+256-GB SATA III, SED
+●
+240-GB, SATA III
+●
+180-GB, SATA III
+●
+128-GB
+√   √
+  Supports the following hard drives:
+●
+1-TB, 5400-rpm
+●
+750-GB, 7200-rpm
+●
+500-GB, 7200-rpm, self-encrypting drive (SED)
+●
+500-GB, 7200-rpm
+●
+500-GB, 5400-rpm, self-encrypting drive (SED,
+FIPS-140-2)
+●
+320-GB, 7200-rpm
+Supports the following SSDs:
+●
+512-GB
+●
+256-GB SATA III, SED
+●
+240-GB, SATA III
+●
+180-GB, SATA III
+●
+128-GB
+  √  
+Flash cache M.2 (NGFF) module
+Intel SRT (Smart Response Technology)
+32 GB
+Supports "No Flash Cache" option
+Not available with SSD or SED HDD
+√
+√
+√
+√
+√
+√
+√
+√
+√
+√
+√
+√
+√
+√
+√
+3
+
+--- Page 16 ---
+Category Description HP
+EliteBook
+740/840
+HP ZBook
+14
+HP
+EliteBook
+750/850
+Mini-card SSD M.2 (NGFF) Solid State Drive
+120 GB
+Not available if 32-GB flash cache is selected
+  √
+√
+√
+ 
+Audio and video Two stereo speakers √√√
+  HD audio with DTS Sound Studio √√√
+  Integrated 720p HD webcam (supports no camera option) √√√
+  Integrated dual-array microphone √√√
+Ethernet Intel® I218LM Gigabit Network Connection
+S3/S4/S5 wake on LAN
+√√√
+Wireless Integrated wireless local area network (WLAN) options by way
+of minicard
+Two WLAN antennas built into display assembly
+Support for the following WLAN formats:
+●
+Atheros WB225 1×1 802.11b/g/n Bluetooth
+Combo Adapter
+●
+Broadcom 43228 802.11abgn 2×2 Wi-Fi Adapter
+●
+Intel Centrino Advanced-N 6205 WLAN module
+●
+Intel Centrino Ultimate-N 6300 WLAN module
+●
+Intel Centrino Wireless-N 2200 802.11b/g/n 2×2
+WiFi Adaptor
+Supports no WLAN option
+√√√
+  Integrated wireless wide area network (WWAN) options by way
+of wireless module
+Two world-wide/5-band WWAN antennas built into display
+assembly
+Secured by subscriber identity module (SIM, user-accessible
+behind battery)
+Support for the following WWAN formats:
+●
+HP lt4111 LTE/EV-DO/HSPA+ Mobile Broadband Module
+●
+HP lt4112 LTE/HSPA+ Mobile Broadband Module
+●
+HP hs3110 HSPA+ Mobile Broadband Module
+Supports no WWAN option
+Supports WWAN after market option
+√√√
+External media cards Media reader slot supporting the following digital card formats:
+●
+Secure Digital (SD) Memory Card
+●
+SDHC
+●
+SDXC
+√√√
+Ports Offers the following ports: √√√
+4 Chapter 1   Product description
+
+--- Page 17 ---
+Category Description HP
+EliteBook
+740/840
+HP ZBook
+14
+HP
+EliteBook
+750/850
+●
+Headphone/microphone combo
+●
+Battery connector
+●
+DisplayPort 1.2
+●
+Docking connector
+●
+USB 3.0 ports (3)
+●
+USB 3.0 charging port
+●
+HP Smart AC adapter
+●
+RJ-45 (Ethernet)
+●
+Secondary battery connector
+●
+VGA (Dsub 15 pin) supporting: 1920×1200 external
+resolution @ 75 Hz, hot plug and unplug and
+autodetection for correct output to wide-aspect vs.
+standard aspect video
+Keyboard/pointing
+devices
+Glass with chemical etched surface, dual-point, spill-resistant
+with drain, DuraKeys
+√√√
+  Gesture support: MultiTouch gestures enabled, two-finger
+scrolling, and pinch-zoom as default
+√√√
+  Taps enabled by default √√√
+  Supports two-way scroll √√√
+ On/off button √√√
+Power requirements Supports the following HP Smart AC adapters:  
+ 
+●
+65-W HP Smart AC adapter √√√
+ 
+●
+65-W HP Slim Smart AC adapter √√√
+ 
+●
+45-W HP Smart AC adapter √   √
+  Supports the following batteries:
+●
+3-cell, 50-Wh, 4.45-Ah long-life battery
+●
+3-cell, 24-Wh, 2.2-Ah long-life battery
+●
+Secondary 6-cell, 60-Wh, 2.7-Ah battery
+√√√
+ 
+●
+Secondary 6-cell, 60-Wh, 2.7-Ah battery √√  
+Security Supports security cable lock √√√
+  Supports fingerprint reader and no fingerprint reader option √√√
+  Supports Trusted Platform Module (TPM) 1.2 (Infineon, soldered
+down) and TPM Enhanced Drive Lock
+√√√
+  Integrated Smart Card reader (active) √√√
+  Full volume encryption √√√
+  Preboot authentication (password, Smart Card) √√√
+Operating system Windows 7, Service Pack 1 √√√
+5
+
+--- Page 18 ---
+Category Description HP
+EliteBook
+740/840
+HP ZBook
+14
+HP
+EliteBook
+750/850
+Windows 8 Multi-Language 64
+Windows 8 Professional 64
+Windows 8 License with Win 7 Downgrade
+√
+√
+√
+√
+√
+√
+√
+√
+√
+  Preinstalled:
+●
+Windows® 8 ML 64
+●
+Windows 8 CH
+●
+Windows 8 EM
+●
+Windows 8 Professional 64
+●
+Windows 8 Professional 64 DPK with Windows 7
+Professional 64 and 32
+●
+Windows 7 Home Premium 64 and 32 (not available with
+HP ZBook 14)
+●
+Windows 7 Professional 64 and 32
+●
+FreeDOS
+●
+SUSE Linux (SLED 11) SP2, 64-bit
+√√√
+  Preinstalled:
+●
+Windows 8 Professional 64 with MSNA
+●
+Windows 8 Professional 64 DPK with Windows 7
+Professional 64 and 32 with MSNA
+●
+Windows 7 Professional 64 and 32 with MSNA
+  √
+  Restore media—DR-DVD:
+●
+Windows 8 (available with any Windows 8 operating
+system and required with Windows 8 Professional
+downgrade operating system)
+●
+Windows 7 (available with any Windows 7 or Windows 8
+downgrade operating system)
+√√√
+  Restore media—OS-DVD:
+●
+Windows 8 Professional 64-bit (only available and
+required with Windows 8 Professional downgrade
+operating system)
+●
+Windows 8 64-bit
+●
+Windows 8 Country-Specific 64-bit
+●
+Windows 8 Emerging Market 64-bit
+●
+Windows 7 Home Premium 64- and 32-bit (available with
+any Windows 7 HP operating system except Asia-Pacific
+countries and regions and the People's Republic of China)
+●
+Windows 7 Professional 64- and 32-bit (available with any
+Windows 7 Professional or Windows 8 Professional
+downgrade except Asia-Pacific countries and regions and
+the People's Republic of China)
+√√√
+  Certified: √√√
+6 Chapter 1   Product description
+
+--- Page 19 ---
+Category Description HP
+EliteBook
+740/840
+HP ZBook
+14
+HP
+EliteBook
+750/850
+●
+Microsoft WHQL
+●
+SuSE Linux Enterprise (SLED) 64-bit Service Pack 2
+  Web-only support:
+●
+Windows 8.1 Professional 64
+●
+Windows 8.1 Enterprise 64
+●
+Windows 8.1 Multi-Language 64
+●
+Windows 8.1 Emerging Markets 64
+●
+Windows 8.1 Chinese Market 64
+●
+Windows 8 Enterprise 64
+●
+Windows 7 Enterprise 64 and 32
+●
+Windows 7 Ultimate 64 and 32
+√√√
+Serviceability End user replaceable parts:
+●
+AC adapter
+●
+Battery
+●
+Hard drive/Solid-state drive
+●
+Keyboard
+●
+Memory module
+●
+WLAN module
+●
+WWAN module
+●
+M.2 (NGFF) Flash cache / SSD
+√√√
+7
+
+--- Page 20 ---
+2 External component identification
+Display
+Component Description
+(1) WLAN antennas (2)* Send and receive wireless signals to communicate with wireless local
+area networks (WLAN).
+(2) WWAN antennas (2)* (select models only) Send and receive wireless signals to communicate with wireless wide
+area networks (WWAN).
+(3) Internal microphones (2) Record sound.
+(4) Webcam light (select models only) On: The webcam is in use.
+(5) Webcam (select models only) Records video and captures still photographs.
+For information on using the webcam, access HP Support Assistant.
+To access HP Support Assistant in Windows 8, on the Start screen,
+select the HP Support Assistant app. To access HP Support Assistant
+in Windows 7, select Start > Help and Support > User Guides.
+(6) Internal display switch Turns off the display or initiates Sleep (Windows)/Suspend (Linux) if
+the display is closed while the power is on.
+NOTE: The display switch is not visible on the outside of the
+computer.
+*The antennas are not visible on the outside of the computer. For optimal transmission, keep the areas immediately around the
+antennas free from obstructions. To see wireless regulatory notices, see the section of the Regulatory, Safety, and Environmental
+Notices that applies to your country or region. To access the user guides in Windows 8, select the HP Support Assistant app on the
+8 Chapter 2   External component identification
+
+--- Page 21 ---
+Component Description
+Start screen, select My computer, and then select User guides. TO access the user guides in Windows 7, select Start > Help and
+Support > User Guides.
+Top
+TouchPad
+Component Description
+(1)   Pointing stick (select models only) Moves the pointer and selects or activates items on the screen.
+(2)   Left pointing stick button Functions like the left button on an external mouse.
+(3)   TouchPad zone Moves the pointer and selects or activates items on the screen.
+(4)   Left TouchPad button Functions like the left button on an external mouse.
+(5)   Right pointing stick button Functions like the right button on an external mouse.
+(6)   Right TouchPad button Functions like the right button on an external mouse.
+Top 9
+
+--- Page 22 ---
+Lights
+Component Description
+(1)
+Power light 
+●
+On: The computer is on.
+●
+Blinking: The computer is in the Sleep state (Windows) or
+Suspend state (Linux).
+●
+Off: The computer is off (Windows) or in Hibernation
+(Linux).
+(2)   Caps lock light On: Caps lock is on.
+(3)  Microphone mute light
+●
+Amber: microphone sound is off.
+●
+Off: microphone sound is on.
+(4)   Num lock light On: Num lock is on.
+(5)
+Wireless light 
+●
+White: An integrated wireless device, such as a wireless
+local area network (WLAN) device and/or a Bluetooth®
+device, is on.
+●
+Amber: All wireless devices are off.
+(6)
+Mute light
+●
+Amber: Computer sound is off.
+●
+Off: Computer sound is on.
+10 Chapter 2   External component identification
+
+--- Page 23 ---
+Buttons and fingerprint reader (select models only)
+Component Description
+(1)
+Power button
+●
+When the computer is off, press the button to turn on the
+computer.
+●
+When the computer is on, press the button briefly to initiate
+Sleep.
+●
+When the computer is in the Sleep state, press the button
+briefly to exit Sleep.
+●
+When the computer is in Hibernation, press the button
+briefly to exit Hibernation.
+CAUTION: Pressing and holding down the power button will
+result in the loss of unsaved information.
+If the computer has stopped responding and operating system
+shutdown procedures are ineffective, press and hold the power
+button for at least 5 seconds to turn off the computer.
+To learn more about your power settings:
+Windows 8:
+▲
+From the Start screen, type power, select Settings, and
+then select Power Options.
+Windows 7:
+▲
+Select Start > Control Panel > System and Security >
+Power Options.
+Linux:
+1. Select Computer > Control Center.
+Top 11
+
+--- Page 24 ---
+Component Description
+2. In the left pane, click System, and then click Power
+Management in the right pane.
+(2)  Speakers (2) Produce sound.
+(3)
+Wireless button Turns the wireless feature on or off but does not establish a
+wireless connection.
+(4) Volume mute button Mutes and restores speaker sound.
+(5)   Fingerprint reader (select models only) Allows a fingerprint logon to Windows, instead of a password
+logon.
+Keys
+Component Description
+(1)   esc key (Windows only) Displays system information when pressed in
+combination with the fn key.
+(2)   fn key (Windows) Executes frequently used system functions when
+pressed in combination with a function key, the num lk key, or
+the esc key.
+(Linux) Executes frequently used system functions when
+pressed in combination with a function key.
+(3)
+Windows button  (Windows only) Returns you to the Start screen from an open
+app or the Windows desktop.
+NOTE: Pressing the Windows button again will return you to
+the previous screen.
+(4)   Function keys Execute frequently used system functions when pressed in
+combination with the fn key.
+(5)   Embedded numeric keypad  When the keypad is turned on, it can be used like an external
+numeric keypad.
+12 Chapter 2   External component identification
+
+--- Page 25 ---
+Component Description
+Each key on the keypad performs the function indicated by the
+icon in the upper-right corner of the key.
+(6)   num lk key Turns the embedded numeric keypad on and off when pressed
+in combination with the fn key.
+(Linux) Alternates between the navigational and numeric
+functions on the integrated numeric keypad.
+Front
+Component Description
+(1)
+Wireless light 
+●
+White: An integrated wireless device, such as a
+wireless local area network (WLAN) device and/or a
+Bluetooth® device, is on.
+●
+Amber: All wireless devices are off.
+(2)
+Power light 
+●
+On: The computer is on.
+●
+Blinking: The computer is in the Sleep state
+(Windows) or Suspend state (Linux).
+●
+Off: The computer is off or in Hibernation (Linux).
+(3)
+AC adapter/Battery light
+●
+White: The computer is connected to external power
+and the battery is charged from 90 to 99 percent.
+●
+Amber: The computer is connected to external power
+and the battery is charged from 0 to 90 percent.
+●
+Blinking amber: A battery that is the only available
+power source has reached a low battery level. When
+the battery reaches a critical battery level, the
+battery light begins blinking rapidly.
+●
+Off: The battery is fully charged.
+(4)
+Hard drive light
+●
+Blinking white: The hard drive is being accessed.
+●
+Amber: HP 3D DriveGuard has temporarily parked the
+hard drive.
+Front 13
+
+--- Page 26 ---
+Left
+Component Description
+(1)
+Security cable slot Attaches an optional security cable to the computer.
+NOTE: The security cable is designed to act as a deterrent, but
+it may not prevent the computer from being mishandled or
+stolen.
+(2)   Vent Enables airflow to cool internal components.
+NOTE: The computer fan starts up automatically to cool
+internal components and prevent overheating. It is normal for
+the internal fan to cycle on and off during routine operation.
+(3)
+External VGA monitor port Connects an external VGA monitor or projector.
+(4)
+USB 3.0 charging port Connects optional USB 3.0 devices and provides enhanced USB
+power performance. The USB charging port can also charge
+select models of cell phones and MP3 players, even when the
+computer is off.
+(5)
+USB 3.0 ports (2) Connect optional USB 3.0 devices and provide enhanced USB
+power performance.
+(6)   Smart card reader (select models only) Supports optional smart cards.
+14 Chapter 2   External component identification
+
+--- Page 27 ---
+Right
+Component Description
+(1)
+Audio-out (headphone) jack/Audio-in
+(microphone) jack
+Produces sound when connected to optional powered stereo
+speakers, headphones, earbuds, a headset, or television audio.
+Also connects an optional headset microphone.
+WARNING! To reduce the risk of personal injury, adjust the
+volume before putting on headphones, earbuds, or a headset.
+For additional safety information, see the Regulatory, Safety,
+and Environmental Notices.
+To access the user guides:
+Windows 8: Select the HP Support Assistant app on the Start
+screen, select My computer, and then select User guides.
+Windows 7: Select Start > Help and Support > User Guides.
+NOTE: When a device is connected to the jack, the computer
+speakers are disabled.
+NOTE: Be sure that the device cable has a 4-conductor
+connector that supports both audio-out (headphone) and
+audio-in (microphone).
+(2)
+DisplayPort Connects an optional digital display device, such as a high-
+performance monitor or projector.
+(3)   Memory card reader Reads data from and writes data to memory cards such as
+Secure Digital (SD).
+(4)
+USB 3.0 ports (2) Connect optional USB 3.0 devices and provide enhanced USB
+power performance.
+(5)
+RJ-45 (network) jack Connects a network cable.
+(6)   Docking connector Connects an optional docking device.
+(7)
+Power connector Connects an AC adapter.
+Right 15
+
+--- Page 28 ---
+Bottom
+NOTE: Your computer may look slightly different from the illustration in this section.
+Component Description
+(1)   Accessory battery connector Connects an optional accessory battery.
+(2)   Service cover Provides access to the hard drive bay, the wireless LAN
+(WLAN) module slot, the WWAN module slot, and the
+memory module slots.
+CAUTION: To prevent an unresponsive system, replace
+the wireless module only with a wireless module
+authorized for use in the computer by the governmental
+agency that regulates wireless devices in your country or
+region. If you replace the module and then receive a
+warning message, remove the module to restore
+computer functionality, and then contact support through
+HP Support Assistant. To access HP Support Assistant on
+the Start screen, select the HP Support Assistant app.
+(3)
+Service cover release latch  Releases the service cover on the computer.
+(4)
+Service cover release lock Locks service cover.
+(5)   Vents (2) Enable airflow to cool internal components.
+16 Chapter 2   External component identification
+
+--- Page 29 ---
+Component Description
+NOTE: The computer fan starts up automatically to cool
+internal components and prevent overheating. It is normal
+for the internal fan to cycle on and off during routine
+operation.
+(6)
+SIM slot (select models only) Supports a wireless subscriber identity module (SIM). The
+SIM slot is located inside the battery bay.
+Component Description
+(1)   Service cover Provides access to the hard drive bay, the
+wireless LAN (WLAN) module slot, the WWAN
+module slot, and the memory module slots.
+CAUTION: To prevent an unresponsive
+system, replace the wireless module only with
+a wireless module authorized for use in the
+computer by the governmental agency that
+regulates wireless devices in your country or
+region. If you replace the module and then
+receive a warning message, remove the
+module to restore computer functionality, and
+then contact support through HP Support
+Assistant. To access HP Support Assistant on
+the Start screen, select the HP Support
+Assistant app.
+Bottom 17
+
+--- Page 30 ---
+Component Description
+(2)
+Service cover release latch  Releases the service cover on the computer.
+(3)
+Service cover release lock Locks the service cover.
+(4)   Vents (3) Enable airflow to cool internal components.
+NOTE: The computer fan starts up
+automatically to cool internal components and
+prevent overheating. It is normal for the
+internal fan to cycle on and off during routine
+operation.
+(5)
+SIM slot (select models only) Supports a wireless subscriber identity module
+(SIM). The SIM slot is located inside the battery
+bay.
+Service tag
+When ordering parts or requesting information, provide the computer serial number and model number
+provided on the service tag. It is necessary to remove the battery to obtain these numbers. See 
+Battery
+on page 53 for battery removal instructions.
+18 Chapter 2   External component identification
+
+--- Page 31 ---
+Item Component Description
+(1) Product name This is the product name affixed to the front of
+the computer.
+(2) Serial number (s/n) This is an alphanumeric identifier that is unique to
+each product.
+(3) Part number/Product number (p/n) This number provides specific information about
+the product’s hardware components. The part number helps
+a service technician determine what components and parts
+are needed.
+(4) Warranty period This number describes the duration of the warranty period
+for the computer.
+(5) Model description This is the alphanumeric identifier used to locate
+documents, drivers, and support for the computer.
+Service tag 19
+
+--- Page 32 ---
+3 Illustrated parts catalog
+Computer major components
+20 Chapter 3   Illustrated parts catalog
+
+--- Page 33 ---
+Item Component Spare part
+number
+(1) Display assembly: Non-touch display assemblies are spared at the subcomponent level only. For more display assembly
+spare part information, see 
+Display assembly subcomponents on page 27.
+Touch screen display assemblies are only spared as whole units.
+  Display assembly, 14-inch, HD+, for use in HP EliteBook 740/840 models 737735-001
+  Display assembly, 14-inch, HD+, for use in HP ZBook 14 models 739848-001
+  Display assembly, 15-inch, HD, for use in HP EliteBook 750/850 models 766680-001
+(2) Keyboard (includes cables)
+NOTE: For a detailed list of available keyboards, see 
+Sequential part number listing on page 35.
+  Backlit, with pointing stick 730794-xx1
+  With pointing stick; no backlight 731179-xx1
+(3) Top cover (includes TouchPad):
+  For use on HP EliteBook 740/840 models 730964-001
+  For use on HP ZBook 14 730965-001
+  For use on HP EliteBook 750/850 models 730800-001
+  Touchpad (not illustrated)  
+  For use in EliteBook 740/840 models 797437-001
+  For use in ZBook 14 models 797438-001
+  For use in EliteBook 750/850 models 797431-001
+(4) Power button board  
+  For use on HP EliteBook 740/840/HP ZBook 14 models 730959-001
+  For use on HP EliteBook 750/850 models 730822-001
+(5) RTC battery 665733-001
+(6) Card reader board  
+  For use on HP EliteBook 740/840/HP ZBook 14 models 730955-001
+  For use on HP EliteBook 750/850 models 730821-001
+(7) Speaker assembly (includes cable) 730798-001
+(8) VGA/USB board  
+  For use in HP EliteBook 740/840/HP ZBook 14 models 730966-001
+  For use in HP EliteBook 750/850 models 730820-001
+(9) Fingerprint reader board (includes cable, bracket, and insulator)  
+  For use in HP EliteBook 740/840/HP ZBook 14 models 730956-001
+  For use in HP EliteBook 750/850 models 730817-001
+(10) Battery (Li ion):
+  6-cell, 60-Wh, 2.7-Ah (for use in EliteBook 740/840 and ZBook 14 models) 719796-001
+Computer major components 21
+
+--- Page 34 ---
+Item Component Spare part
+number
+ 3-cell, 50-Wh, 4.5-Ah 717376-001
+ 3-cell, 24-Wh, 2.4-Ah 717375-001
+(11) Fan (includes cable) 730792-001
+  Heat sink (includes replacement thermal material):
+(12) Hard drive (does not include hard drive bracket or screws):
+  1-TB, 7200-rpm (for use in EliteBook 740/840 and ZBook 14 models) 766644-001
+  1-TB, 5400-rpm, 2.5-inch 676521-001
+  1-TB, 5400-rpm hard drive, locked, for use in EliteBook 740/840 models (does not include hard drive
+bracket or screws)
+776476-001
+  1-TB, 5400-rpm, locked 763529-001
+  750-GB, 7200-rpm, 2.5-inch, for use in EliteBook 740/840 and ZBook 14 models 633252-001
+  500-GB, 7200-rpm, 7-mm, SED 703268-001
+  500-GB, 7200-rpm, 2.5-inch, SED 683801-001
+ 500-GB, 7200-rpm, 7-mm 703267-001
+  500-GB, 7200-rpm, 7-mm, locked (HGST), for use in EliteBook 740/840 and ZBook 14 models 782123-001
+ 500-GB, 5400-rpm, 7-mm 683802-001
+  500-GB, 5400-rpm, 7-mm, FIPS 730946-001
+  500-GB, 5400-rpm, 7-mm, locked (SGT), for use in EliteBook 740/840 and ZBook 14 models 773555-001
+  500-GB, 5400-rpm, 7-mm, locked (SGT), for use in EliteBook 740/840 and ZBook 14 models 776626-001
+ 320-GB, 7200-rpm, 7-mm 634862-001
+  320-GB, 5400-rpm, 7-mm, WD, locked, for use in EliteBook 740/840 and ZBook 14 models 789520-001
+  Hard Drive Hardware Kit (not illustrated, includes hard drive bracket and screws) 730793-001
+(13) For use only on HP EliteBook 740/840/HP ZBook 14  models with discrete graphics 730962-001
+(14) For use only on HP EliteBook 740/840/HP ZBook 14  models with UMA graphics 730963-001
+  For use only on HP EliteBook 750/850 models with discrete graphics 732626-001
+  For use only on HP EliteBook 750/850 models with UMA graphics 730815-001
+(15) Memory modules (PC3L, 12800, 1600-MHz):
+ 8-GB memory module 693374-001
+ 4-GB memory module 691740-001
+(16) System board (includes replacement thermal material):
+  System board for use in models with discrete graphics:  
+ 
+●
+Intel Core i7-4600U processor for use with the Windows 8 Professional operating system for use
+in EliteBook 750/850 models
+730810-601
+ 
+●
+Intel Core i7-4600U processor for use with the Windows 8 Standard operating system for use in
+EliteBook 750/850 models
+730810-501
+22 Chapter 3   Illustrated parts catalog
+
+--- Page 35 ---
+Item Component Spare part
+number
+ 
+●
+Intel Core i7-4600U processor for use with models without the Windows 8 operating system for
+use in EliteBook 750/850 models
+730810-001
+ 
+●
+Intel Core i7-4600U processor for use with the Windows 8 Professional operating system for use
+in ZBook 14 models
+747074-001
+ 
+●
+Intel Core i7-4600U processor for use with the Windows 8 Standard operating system for use in
+ZBook 14 models
+747074-501
+ 
+●
+Intel Core i7-4600U processor for use with models without the Windows 8 operating system for
+use in ZBook 14 models
+747074-601
+ 
+●
+Intel Core i7-4510U processor for use with the Windows 8 Professional operating system for use
+in EliteBook 740/840 and 750/850 models
+778967-001
+ 
+●
+Intel Core i7-4510U processor for use with the Windows 8 Standard operating system for use in
+EliteBook 740/840 and 750/850 models
+778967-501
+ 
+●
+Intel Core i7-4510U processor for use with models without the Windows 8 operating system for
+use in EliteBook 740/840 and 750/850 models
+778967-601
+ 
+●
+Intel Core i7-4510U processor for use with the Windows 8 Professional operating system for use
+in ZBook 14 models
+778959-001
+ 
+●
+Intel Core i7-4510U processor for use with the Windows 8 Standard operating system for use in
+ZBook 14 models
+778959-501
+ 
+●
+Intel Core i7-4510U processor for use with models without the Windows 8 operating system for
+use in ZBook 14 models
+778959-601
+ 
+●
+Intel Core i7-4500U processor for use with the Windows 8 Professional operating system for use
+in EliteBook 740/840 and 750/850 models
+756767-001
+ 
+●
+Intel Core i7-4500U processor for use with the Windows 8 Standard operating system for use in
+EliteBook 740/840 and 750/850 models
+756767-501
+ 
+●
+Intel Core i7-4500U processor for use with models without the Windows 8 operating system for
+use in EliteBook 740/840 and 750/850 models
+756767-601
+ 
+●
+Intel Core i7-4500U processor for use with the Windows 8 Professional operating system for use
+in ZBook 14 models
+756768-001
+ 
+●
+Intel Core i7-4500U processor for use with the Windows 8 Standard operating system for use in
+ZBook 14 models
+756768-501
+ 
+●
+Intel Core i7-4500U processor for use with models without the Windows 8 operating system for
+use in ZBook 14 models
+756768-601
+ 
+●
+Intel Core i5-4310U processor for use with the Windows 8 Professional operating system for use
+in EliteBook 740/840 and 750/850 models
+778965-001
+ 
+●
+Intel Core i5-4310U processor for use with the Windows 8 Standard operating system for use in
+EliteBook 740/840 and 750/850 models
+778965-501
+ 
+●
+Intel Core i5-4310U processor for use with models without the Windows 8 operating system for
+use in EliteBook 740/840 and 750/850 models
+778965-601
+ 
+●
+Intel Core i5-4310U processor for use with the Windows 8 Professional operating system for use
+in ZBook 14 models
+778958-001
+ 
+●
+Intel Core i5-4310U processor for use with the Windows 8 Standard operating system for use in
+ZBook 14 models
+778958-501
+ 
+●
+Intel Core i5-4310U processor for use with models without the Windows 8 operating system for
+use in ZBook 14 models
+778958-601
+Computer major components 23
+
+--- Page 36 ---
+Item Component Spare part
+number
+ 
+●
+Intel Core i5-4300U processor for use with the Windows 8 Professional operating system for use
+in EliteBook 740/840 and 750/850 models
+730804-601
+ 
+●
+Intel Core i5-4300U processor for use with the Windows 8 Standard operating system for use in
+EliteBook 740/840 andv 750/850 models
+730804-501
+ 
+●
+Intel Core i5-4300U processor for use with models without the Windows 8 operating system for
+use in EliteBook 740/840 and 750/850 models
+730804-001
+ 
+●
+Intel Core i5-4300U processor for use with the Windows 8 Professional operating system for use
+in ZBook 14 models
+747073-001
+ 
+●
+Intel Core i5-4300U processor for use with the Windows 8 Standard operating system for use in
+ZBook 14 models
+747073-501
+ 
+●
+Intel Core i5-4300U processor for use with models without the Windows 8 operating system for
+use in ZBook 14 models
+747073-601
+ 
+●
+Intel Core i5-4210U processor for use with the Windows 8 Professional operating system for use
+in EliteBook 740/840 and 750/850 models
+778963-001
+ 
+●
+Intel Core i5-4210U processor for use with the Windows 8 Standard operating system for use in
+EliteBook 740/840 and 750/850 models
+778963-501
+ 
+●
+Intel Core i5-4210U processor for use with models without the Windows 8 operating system for
+use in EliteBook 740/840 and 750/850 models
+778963-601
+ 
+●
+Intel Core i5-4210U processor for use with the Windows 8 Professional operating system for use
+in ZBook 14 models
+778957-001
+ 
+●
+Intel Core i5-4210U processor for use with the Windows 8 Standard operating system for use in
+ZBook 14 models
+778957-501
+ 
+●
+Intel Core i5-4210U processor for use with models without the Windows 8 operating system for
+use in ZBook 14 models
+778957-601
+ 
+●
+Intel Core i5-4210U processor for use with the Windows 8 Professional operating system for use
+in EliteBook 740/840 and 750/850 models
+730808-601
+ 
+●
+Intel Core i5-4200U processor for use with the Windows 8 Standard operating system for use in
+EliteBook 740/840 and 750/850 models
+730808-501
+ 
+●
+Intel Core i5-4200U processor for use with models without the Windows 8 operating system for
+use in EliteBook 740/840 and 750/850 models
+730808-001
+ 
+●
+Intel Core i5-4200U processor for use with the Windows 8 Professional operating system for use
+in ZBook 14 models
+747072-001
+ 
+●
+Intel Core i5-4200U processor for use with the Windows 8 Standard operating system for use in
+ZBook 14 models
+747072-501
+ 
+●
+Intel Core i5-4200U processor for use with models without the Windows 8 operating system for
+use in ZBook 14 models
+747072-601
+ 
+●
+Intel Core i3-4030U processor for use with the Windows 8 Professional operating system 778961-001
+ 
+●
+Intel Core i3-4030U processor for use with the Windows 8 Standard operating system 778961-501
+ 
+●
+Intel Core i3-4030U processor for use with models without the Windows 8 operating system 778961-601
+ 
+●
+Intel Core i3-4010U processor for use with the Windows 8 Professional operating system 730806-601
+ 
+●
+Intel Core i3-4010U processor for use with the Windows 8 Standard operating system 730806-501
+ 
+●
+Intel Core i3-4010U processor for use with models without the Windows 8 operating system 730806-001
+24 Chapter 3   Illustrated parts catalog
+
+--- Page 37 ---
+Item Component Spare part
+number
+  System board for use in models with UMA graphics:
+ 
+●
+Intel Core i7-4600U processor for use with the Windows 8 Professional operating system 730809-601
+ 
+●
+Intel Core i7-4600U processor for use with the Windows 8 Standard operating system 730809-501
+ 
+●
+Intel Core i7-4600U processor for use with models without the Windows 8 operating system 730809-001
+ 
+●
+Intel Core i7-4510U processor for use with the Windows 8 Professional operating system 778966-001
+ 
+●
+Intel Core i7-4510U processor for use with the Windows 8 Standard operating system 778966-501
+ 
+●
+Intel Core i7-4510U processor for use with models without the Windows 8 operating system 778966-601
+ 
+●
+Intel Core i7-4500U processor for use with the Windows 8 Professional operating system 756766-001
+ 
+●
+Intel Core i7-4500U processor for use with the Windows 8 Standard operating system 756766-501
+ 
+●
+Intel Core i7-4500U processor for use with models without the Windows 8 operating system 756766-601
+ 
+●
+Intel Core i5-4310U processor for use with the Windows 8 Professional operating system 778964-001
+ 
+●
+Intel Core i5-4310U processor for use with the Windows 8 Standard operating system 778964-501
+ 
+●
+Intel Core i5-4310U processor for use with models without the Windows 8 operating system 778964-601
+ 
+●
+Intel Core i5-4300U processor for use with the Windows 8 Professional operating system 730803-601
+ 
+●
+Intel Core i5-4300U processor for use with the Windows 8 Standard operating system 730803-501
+ 
+●
+Intel Core i5-4300U processor for use with models without the Windows 8 operating system 730803-001
+ 
+●
+Intel Core i5-4210U processor for use with the Windows 8 Professional operating system 778962-001
+ 
+●
+Intel Core i5-4210U processor for use with the Windows 8 Standard operating system 778962-501
+ 
+●
+Intel Core i5-4210U processor for use with models without the Windows 8 operating system 778962-601
+ 
+●
+Intel Core i5-4200U processor for use with the Windows 8 Professional operating system 730807-601
+ 
+●
+Intel Core i5-4200U processor for use with the Windows 8 Standard operating system 730807-501
+ 
+●
+Intel Core i5-4200U processor for use with models without the Windows 8 operating system 730807-001
+ 
+●
+Intel Core i3-4030U processor for use with the Windows 8 Professional operating system 778960-001
+ 
+●
+Intel Core i3-4030U processor for use with the Windows 8 Standard operating system 778960-501
+ 
+●
+Intel Core i3-4030U processor for use with models without the Windows 8 operating system 778960-601
+ 
+●
+Intel Core i3-4010U processor for use with the Windows 8 Professional operating system 730805-601
+ 
+●
+Intel Core i3-4010U processor for use with the Windows 8 Standard operating system 730805-501
+ 
+●
+Intel Core i3-4010U processor for use with models without the Windows 8 operating system 730805-001
+(17) WLAN module:
+  Intel Dual Band Wireless-AC 7260 802.11 ac 2x2 WiFi + BT 4.0 710661-001
+  Intel Dual Band Wireless-N 7260AN 802.11 a/b/g/n 2x2 WiFi + BT4.0 717381-001
+  Intel Dual Band Wireless-N 7260NB 802.11 a/b/g/n 2x2 WiFi + BT4.0 717382-001
+  Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi + BT 4.0 Combo Adapter 697316-001
+  Intel Wireless-N 7260BN 802.11 b/g/n 2×2 WiFi + BT 4.0 combo adapter 717384-001
+Computer major components 25
+
+--- Page 38 ---
+Item Component Spare part
+number
+  Intel Dual Band Wireless-N 7260AN 802.11 a/b/g/n 2x2 WiFi + BT4.0 (for use in Indonesia) 747832-001
+(18) WWAN module:
+  HP lt4111 LTE/EV-DO/HSPA+ Mobile Broadband Module 704030-001
+  HP lt4112 LTE/HSPA+ Gobi 4G Module 704031-001
+  HP hs3110 HSPA+ Mobile Broadband Module 723895-001
+(19) Base enclosure (includes RJ-45 door with spring)
+  For use only on HP EliteBook 740/840 models 765809-001
+  For use only on HP ZBook 14 models 765810-001
+  For use only on HP EliteBook 750/850 models 730813-001
+  For use only on HP EliteBook 750/850 models, ESD 765811-001
+  Rubber Kit (not illustrated; includes rubber screw covers): 730796-001
+(20) Solid-state drive (SSD) (includes hard drive bracket and screws)
+ 512-GB 752240-001
+  256-GB, Self-encrypting drive (SED) 731194-001
+  256-GB, Self-encrypting drive (SED), OPAL 766013-001
+ 256-GB 766643-001
+  256-GB, locked (for use only in HP EliteBook 740/840 and ZBook 14 models) 780090-001
+  256-GB, Self-encrypting drive (SED), locked 799300-001
+ 256-GB, locked, SMSG 800584-001
+ 240-GB 732680-001
+ 180-GB 732678-001
+  180-GB, Self-encrypting drive (SED) 786173-001
+  128-GB (for use only in HP EliteBook 750/850 models) 744483-001
+  128-GB, locked (for use only in HP EliteBook 740/840 and ZBook 14 models) 766678-001
+ 128-GB, locked, SanDisk 795941-001
+ 120-GB 732681-001
+  120-GB, M.2 (for use only in HP EliteBook 750/850) 786035-001
+ 32-GB 743008-001
+(21) Service cover  
+  For use only on HP EliteBook 840 models with a touch screen 766324-001
+  For use only on HP EliteBook 740 models with a touch screen 784452-001
+  For use only on HP EliteBook 840/HP ZBook 14 models; RCTO 745311-001
+  For use only on HP ZBook 14 models 730961-001
+  For use only on HP EliteBook 850 models with a touch screen 766327-001
+26 Chapter 3   Illustrated parts catalog
+
+--- Page 39 ---
+Item Component Spare part
+number
+  For use only on HP EliteBook 750 models with a touch screen 784479-001
+  For use only on HP EliteBook 850 models; for RCTO 745310-001
+Display assembly subcomponents
+HP EliteBook 740/840/ZBook 14 models
+Item Component Spare part number
+(1) Display bezel:
+  For use only on HP EliteBook 840 models 730952-001
+  For use in HP EliteBook 740 models 784451-001
+Display assembly subcomponents 27
+
+--- Page 40 ---
+Item Component Spare part number
+  For use on HP ZBook 14 models 730953-001
+(2) Webcam 730542-001
+  Microphone module (not illustrated) 730795-001
+(3) Antenna cables and transceivers (WLAN and WWAN) 730947-001
+(4) Display panel cable (includes webcam/microphone module cable) 730954-001
+(5) (35.6-cm) 14.0-in, LED, AntiGlare display panel:
+  HD, SVA (1366×768), 200 nits 737657-001
+  HD+, SVA (1920×1080), 250 nits 737658-001
+  FHD, SVA (1920×1080) 300 nits 737659-001
+(6) Display Hinge Kit (includes left and right hinges and hinge covers):
+  For use in HP EliteBook 740/840 models 730957-001
+  For use in HP ZBook 14 models 737660-001
+(7) Display enclosure (includes 4 transceivers with antennas)
+  For use in HP EliteBook 740/840 models 730949-001
+  For use in HP ZBook 14 models 730948-001
+28 Chapter 3   Illustrated parts catalog
+
+--- Page 41 ---
+HP EliteBook 750/850 models
+Item Component Spare part number
+(1) Display bezel  
+  For use in HP EliteBook 850 models 730814-001
+  For use in HP EliteBook 750 models 784478-001
+(2) Webcam 730542-001
+  Microphone module (not illustrated) 730795-001
+(3) (39.6-cm) 15.6-in, LED, AntiGlare display panel:  
+  FHD, SVA (1920×1080) 200 nits 733684-001
+  HD, SVA (1368×768) 300 nits 733685-001
+(4) Display panel cable (includes webcam/microphone module cable) 730801-001
+(5) Antenna cables and transceivers (WLAN and WWAN) 736678-001
+Display assembly subcomponents 29
+
+--- Page 42 ---
+Item Component Spare part number
+(6) Display Hinge Kit (includes left and right hinges and hinge covers): 730819-001
+(7) Display enclosure (includes 4 transceivers with antennas) 730811-001
+Mass storage devices
+Item Description Spare part number
+(1) Hard Drive Hardware Kit, includes bracket 730793-001
+(2) Hard drive (does not include hard drive bracket or screws):
+  1-TB, 7200-rpm (for use in EliteBook 740/840 and ZBook 14 models) 766644-001
+  1-TB, 5400-rpm, 2.5-inch 676521-001
+  1-TB, 5400-rpm, locked (for use in EliteBook 750/850 models) 776476-001
+  1-TB, 5400-rpm, locked 763529-001
+  750-GB, 7200-rpm, 2.5-inch (for use in EliteBook 740/840 and ZBook 14 models) 633252-001
+  500-GB, 7200-rpm, 7-mm, SED 703268-001
+  500-GB, 7200-rpm, 2.5-inch, SED 683801-001
+ 500-GB, 7200-rpm, 7-mm 703267-001
+30 Chapter 3   Illustrated parts catalog
+
+--- Page 43 ---
+Item Description Spare part number
+  500-GB, 7200-rpm, 7-mm, locked (HGST)(for use in EliteBook 740/840 and ZBook 14
+models)
+782123-001
+ 500-GB, 5400-rpm, 7-mm 683802-001
+  500-GB, 5400-rpm, 7-mm, FIPS 730946-001
+  500-GB, 5400-rpm, 7-mm, locked (SGT)(for use in EliteBook 740/840 and ZBook 14
+models)
+773555-001
+  500-GB, 5400-rpm, 7-mm, locked (SGT)(for use in EliteBook 740/840 and ZBook 14
+models)
+776626-001
+ 320-GB, 7200-rpm, 7-mm 634862-001
+  320-GB, 5400-rpm, 7-mm, WD, locked (for use in EliteBook 740/840 and ZBook 14 models) 789520-001
+(3) Solid-state drive (includes hard drive bracket and screws):  
+ 512-GB 752240-001
+  256-GB, Self-encrypting drive (SED) 731194-001
+  256-GB, Self-encrypting drive (SED), OPAL 766013-001
+ 256-GB 766643-001
+  256-GB, locked (for use only in HP EliteBook 740/840 and ZBook 14 models) 780090-001
+  256-GB, Self-encrypting drive (SED), locked 799300-001
+ 256-GB, locked, SMSG 800584-001
+ 240-GB 732680-001
+ 180-GB 732678-001
+  180-GB, Self-encrypting drive (SED) 786173-001
+  128-GB (for use only in HP EliteBook 15 models) 744483-001
+  128-GB, locked (for use only in HP EliteBook 740/840 and ZBook 14 models) 766678-001
+ 128-GB, locked, SanDisk 795941-001
+ 120-GB 732681-001
+  120-GB, M.2 (for use only in HP EliteBook 750/850) 786035-001
+ 32-GB 743008-001
+Mass storage devices 31
+
+--- Page 44 ---
+Plastics Kit
+Item Description Spare part number
+  Plastics Kit for use only on HP EliteBook 740/840 models 730958-001
+  Plastics Kit for use only on HP ZBook 14 models 739558-001
+  Plastics Kit for use only on HP EliteBook 750/850 models 730802-001
+(1) SD card insert, illustrated
+(2) Fingerprint reader insert
+(3) RJ-45 spring
+(4) RJ-45 door
+32 Chapter 3   Illustrated parts catalog
+
+--- Page 45 ---
+Miscellaneous parts
+Component Spare part number
+AC adapter:
+90-W HP Smart AC adapter (PFC) for use only in Elitebook 750/850 models 693712-001
+45-W HP Smart AC adapter (non-PFC, EM, 3-wire) 742437-001
+65-W HP Smart AC travel adapter (non-PFC) 693716-001
+65-W HP Smart AC adapter (non-PFC, 3-wire) 693711-001
+65-W HP Smart AC adapter (RC/V, EM, 3-wire) for use in India and the People’s Republic of China 693710-001
+Power cord (3-pin, black, 1.83-m):
+For use in Argentina 490371-D01
+For use in Australia 490371-011
+For use in Brazil 490371-202
+For use in Denmark 490371-081
+For use in Europe 490371-021
+For use in India 490371-D61
+For use in Israel 490371-BB1
+For use in Italy 490371-061
+For use in Japan 490371-291
+For use in North America 490371-001
+For use in the People's Republic of China 490371-AA1
+For use in South Africa 490371-AR1
+For use in South Korea 490371-AD1
+For use in Switzerland 490371-111
+For use in Taiwan 490371-AB1
+For use in Thailand 490371-201
+For use in the United Kingdom and Singapore 490371-031
+Power cord (3-pin, black, 1.83-m):
+For use in Argentina 755530-D01
+For use in Australia 755530-011
+For use in Brazil 755530-202
+For use in the People’s Republic of China 755530-AA1
+For use in Denmark 755530-081
+For use in Europe 755530-021
+For use in India 755530-D61
+For use in Israel 755530-BB1
+Miscellaneous parts 33
+
+--- Page 46 ---
+Component Spare part number
+For use in Italy 755530-061
+For use in Japan 755530-291
+For use in North America 755530-001
+For use in South Africa 755530-AR1
+For use in South Korea 755530-AD1
+For use in Switzerland 755530-111
+For use in Taiwan 755530-AB1
+For use in Thailand 755530-201
+For use in the United Kingdom and Singapore 755530-031
+Power cord, 1.8 m, 2-pin, for use in Japan 753361-001
+Power cord, 1.0 m, 2-pin, for use in Japan 762689-001
+Travel Smart DC cable, 3 W 630380-001
+Cable lock 575921-001
+Mouse  
+USB, optical, travel 434594-001
+USB, laser 674318-001
+Screw Kit 730797-001
+Cases  
+Professional top load case 705621-001
+Top load case 679921-001
+HP Business Slim Top Load Case 718549-001
+HP Business Top Load Case 718550-001
+Display Port to HDMI adapter 617450-001
+34 Chapter 3   Illustrated parts catalog
+

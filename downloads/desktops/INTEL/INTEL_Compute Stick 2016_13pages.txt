@@ -1,0 +1,370 @@
+Brand: INTEL
+Model: Compute Stick 2016
+URL: https://www.manua.ls/intel/compute-stick-2016/manual
+Total Pages: 13
+============================================================
+
+--- Page 1 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Intel®
+ Compute Stick STCK1A32WFC 
+User 
+Guide
+
+--- Page 2 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+2 
+ 
+ 
+Revision History 
+ 
+Revision 
+Revisions History 
+Date 
+01 
+First release of the Intel Compute Stick STCK1A32WFC User Guide 
+April 2015 
+ 
+ 
+ 
+ 
+ 
+ 
+Disclaimer 
+INFORMATION IN THIS DOCUMENT IS PROVIDED IN CONNECTION WITH INTEL® PRODUCTS. NO 
+LICENSE, EXPRESS OR IMPLIED, BY ESTOPPEL OR OTHERWISE, TO ANY INTELLECTUAL PROPERTY 
+RIGHTS IS GRANTED BY THIS DOCUMENT. EXCEPT AS PROVIDED 
+IN INTEL’S TERMS AND CONDITIONS OF SALE FOR SUCH PRODUCTS, INTEL ASSUMES NO LIABILITY 
+WHATSOEVER, AND INTEL DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTY, RELATING TO SALE 
+AND/OR USE OF INTEL PRODUCTS INCLUDING LIABILITY OR WARRANTIES RELATING TO FITNESS FOR A 
+PARTICULAR PURPOSE, MERCHANTABILITY, OR INFRINGEMENT OF ANY PATENT, COPYRIGHT OR 
+OTHER INTELLECTUAL PROPERTY RIGHT. 
+Intel products are not intended for use in medical, lifesaving, or life sustaining applications. Intel may 
+make changes to specifications and product descriptions at any time, without notice. 
+ 
+Intel products may contain design defects or errors known as errata which may cause the product to 
+deviate from published specifications. Current characterized errata are available on request. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Intel, the Intel logo, Intel Atom, and Intel Inside are trademarks of Intel Corporation in the United States 
+and/or other countries. 
+ 
+* Other names and brands may be claimed as the property of others.  
+Copyright © 2015, Intel Corporation. All rights reserved.
+
+--- Page 3 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+3 
+ 
+ 
+Contents 
+Product Description .......................................................................................................................................... 4 
+Connect Directly to a Display ............................................................................................................................ 4 
+Connect to a Display with the HDMI Extender Cable ....................................................................................... 5 
+Powering the Device ......................................................................................................................................... 6 
+Connect a Keyboard and Mouse ....................................................................................................................... 7 
+Use the USB 2.0 Port ......................................................................................................................................... 9 
+Connect a USB Hub to the USB 2.0 Port ......................................................................................................... 10 
+Use the MicroSD Card port ............................................................................................................................. 10 
+Secure the Intel Compute Stick ...................................................................................................................... 11 
+First Boot-Up ................................................................................................................................................... 11 
+Connect to a Wireless Network ...................................................................................................................... 12 
+Operating System Recovery ............................................................................................................................ 12 
+Keep BIOS and Drivers Current ....................................................................................................................... 13
+
+--- Page 4 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+4 
+ 
+ 
+Product Description  
+ 
+Symbol 
+Description 
+Security 
+Security cable opening 
+ 
+USB 2.0 port 
+ 
+Power connector 
+ 
+Power button 
+HDMI* 
+HDMI connector 
+Micro SD* 
+Micro SD memory card slot 
+Power LED 
+Power LED - blue 
+ 
+ 
+Connect Directly to a Display  
+Plug the Intel Compute Stick directly into a standard HDMI port on a television or monitor.  
+The Intel Compute Stick will extend about 4 inches (102mm) out from the HDMI port.
+
+--- Page 5 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+5 
+ 
+ 
+Connect to a Display with the HDMI Extender Cable 
+If there is limited space around the HDMI port of the television or monitor to allow you to plug 
+the Intel Compute Stick directly into the port, use the flexible HDMI extender cable that came 
+in the box. 
+ 
+1.  Plug the Intel Compute Stick into the female end of the extender cable (A). 
+2.  Plug the mail end of the extender cable into the HDMI port on the television or monitor (B). 
+ 
+ 
+ 
+For a list of tested televisions and monitors, go to the Tested Peripherals page on the Support 
+site.
+
+--- Page 6 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+6 
+ 
+ 
+Powering the Device 
+Connect the power adapter to the Intel Compute Stick as shown. 
+ 
+ 
+ 
+Note: The Intel Compute Stick will boot up automatically when power is applied. 
+ 
+Shut down the Intel Compute Stick using the normal shutdown process for Windows 8.1. 
+ 
+Subsequent power-ups are done just by pressing the power button on the side of the Intel 
+Compute Stick.
+
+--- Page 7 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+7 
+ 
+ 
+If the Intel Compute Stick is plugged into the HDMI port of a TV or display that also has a USB 
+port, there MAY be enough power on the USB port to power it. To do this, plug the micro-USB 
+end of the 3-foot USB cable into the Intel Compute Stick and the standard USB end of the 
+cable into the USB port on the TV (instead of using the AC power plug).  
+ 
+A USB 2.0 port normally only supplies 2.5W of power. The Intel Compute Stick is designed to 
+use up to 10W of power.  If the television’s USB port can supply enough power, the Intel 
+Compute Stick can be powered.  WARNING: Do not power the Intel Compute Stick with the 
+AC power adapter and via a USB port at the same time. 
+ 
+If the television USB port does not supply sufficient power, these are the likely symptoms 
+you’ll see with the Intel Compute Stick:  
+ 
+  Will not power on. 
+  Will power on, but will not complete the boot process. 
+  Will power on, but the operating system will not load. 
+  Will power on and the operating system will load, but will perform very slowly, reboot, or 
+lock up. 
+ 
+ 
+Connect a Keyboard and Mouse 
+Intel Compute Stick supports any of the following: 
+  USB wireless keyboard and mouse, using a USB dongle. 
+  USB wired keyboard and mouse, using a USB hub. 
+  Bluetooth* keyboard and mouse.  
+o  Follow the instructions that came with the keyboard and mouse to pair them to the 
+Intel Compute Stick’s onboard Bluetooth device.  
+o  Notes: You may need to temporarily connect a wired mouse/keyboard to the Intel 
+Compute Stick in order to pair Bluetooth devices. Bluetooth devices that pair 
+directly to the onboard Bluetooth do not work during POST or in BIOS.
+
+--- Page 8 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+8 
+ 
+ 
+Wireless keyboard and mouse connection example: 
+ 
+Bluetooth keyboard and mouse connection example: 
+ 
+ 
+Note: Keyboard and mouse are not included. 
+For a list of tested keyboards and mice, go to the Tested Peripherals page on the Support site.
+
+--- Page 9 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+9 
+ 
+ 
+Use the USB 2.0 Port 
+Use the USB 2.0 port to: 
+-  Install software from a CD or DVD in a USB optical drive. 
+-  Back up or access media files (such as music and photos) on an external USB drive. 
+ 
+ 
+ 
+Note: USB drive and USB cable are not included. 
+ 
+For a list of tested USB devices, go to the Tested Peripherals page on the Support site.
+
+--- Page 10 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+10 
+ 
+ 
+Connect a USB Hub to the USB 2.0 Port 
+Connecting a USB hub to the Intel Compute Stick provides additional USB ports. 
+ 
+Note: USB Hub and USB cable are not included. 
+ 
+For a list of tested USB hubs, go to the Tested Peripherals page on the Support site. 
+ 
+Use the MicroSD Card port 
+The Intel Compute Stick supports MicroSD card sizes from 8 GB to 128 GB. 
+ 
+ 
+ 
+Note: Micro SD card is not included. 
+ 
+For a list of tested MicroSD cards, go to the Tested Peripherals page on the Support site.
+
+--- Page 11 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+11 
+ 
+ 
+ 
+Secure the Intel Compute Stick 
+Install a security cable loop in the security opening on the edge of the Intel Compute Stick. The 
+security opening is 3mm x 3mm.  
+ 
+ 
+Note: Security cable loop is not included. You can build one – insert a length of quality wire 
+rope (<3mm) through the security opening and then crimp the ends together with a cable 
+sleeve. 
+ 
+ 
+ 
+ 
+First Boot-Up 
+The first time you boot up the device, Microsoft Windows* 8.1 will guide you through the 
+following steps:  
+ 
+1.  Select your region and language. 
+2.  Accept the Microsoft Windows license terms. 
+3.  Personalize Windows and assign a PC Name. 
+4.  “Get Online” dialog to pick a wireless network (this step is optional). 
+5.  Choose Express Settings or Customize. 
+6.  Assign a User Name and Password. 
+7.  Finished.
+
+--- Page 12 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+12 
+ 
+ 
+Connect to a Wireless Network 
+To connect to a wireless network: 
+ 
+1.  Click the wireless network icon in the notification area of the taskbar. 
+2.  Click your network, and then click Connect. 
+3.  Type in the security key or passphrase. 
+ 
+Operating System Recovery 
+There is a Windows recovery partition on the Intel Compute Stick. You can use this to Refresh, Reset, or 
+Restore Windows. Here is what each of these actions do: 
+Refresh 
+If your PC isn't performing as well as it once did, and you don't know why, you can refresh 
+your PC without deleting any of your personal files or changing your settings. This is what 
+happens with Refresh: 
+  Files and personalization settings won’t change 
+  PC settings will be changed back to their defaults 
+  Apps from the Windows Store will be kept 
+  Apps installed from disks or websites will be removed 
+  List of removed apps will be saved on the desktop 
+Reset 
+If you want to recycle your PC, give it away, or start over with it, you can reset it 
+completely. This process removed everything and reinstalls Windows. This is what 
+happens with Reset: 
+  All personal files and apps will be removed 
+  PC settings will be changed back to their defaults 
+Restore 
+If you think an app or driver that you recently installed caused problems with your PC, you 
+can restore Windows back to an earlier point in time, called a restore point. System 
+Restore doesn’t change your personal files, but it might remove recently installed apps 
+and drivers. 
+ 
+            Before performing this action, be sure to back up all personal data to external storage.  
+ 
+To access the recovery media: 
+ 
+  If Windows boots, from Windows Start, type in Recovery and select Recovery Options. See 
+http://windows.microsoft.com/en-us/windows-8/restore-refresh-reset-pc for complete details on how 
+to use the recovery options. 
+  If Windows fails to boot, the recovery process should automatically start.  
+  If Recovery does not automatically start, you can try to initiate it as follows: 
+1.  Press F8 during boot (when you see the prompt “F8 to Activate Windows 8.1 Recovery 
+Mode”). 
+2.  Follow the recovery steps.
+
+--- Page 13 ---
+Intel Compute Stick STCK1A32WFC User Guide 
+13 
+ 
+ 
+Keep BIOS and Drivers Current 
+ 
+BIOS 
+ 
+The latest BIOS updates are available on Download Center. Refer to BIOS Update Instructions 
+for information on updating the Intel Compute Stick’s BIOS. 
+ 
+Drivers 
+ 
+Graphics, wireless, and Bluetooth drivers are available on Download Center. HDMI audio drivers 
+are included in the graphics driver package. 
+ 
+Windows Updates may install driver updates automatically.
+

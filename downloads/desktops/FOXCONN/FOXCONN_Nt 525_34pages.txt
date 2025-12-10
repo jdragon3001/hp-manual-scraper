@@ -1,0 +1,886 @@
+Brand: FOXCONN
+Model: Nt 525
+URL: https://www.manua.ls/foxconn/nt-525/manual
+Total Pages: 34
+============================================================
+
+--- Page 2 ---
+Trademark:
+All trademarks are the property of their respective owners.
+Version:
+User’s Manual V1.0 for NETBOX.
+P/N: 3A2226300-000-G                  
+Symbol description:
+Caution : refers to important information that can help you to use NETBOX 
+better, and tells you how to avoid problems.
+Warning: indicating a potential risk of hardware damage or physical injury may 
+exist.
+              WEEE: 
+The use of this symbol indicates that this product may not be treated as household 
+waste. By ensuring this product is disposed of correctly, you will help prevent potential 
+negative consequences for the environment and human health, which could other-
+wise be caused by inappropriate waste handling of this product. For more detailed 
+information about recycling of this product, please contact your local city ofce, your 
+household waste disposal service or the shop where you purchased this product.
+C
+A
+U
+T
+I
+O
+N
+!
+© All rights reserved.
+All trade names are registered trademarks of respective manufacturers listed.
+All images are for reference only, please refer to the physical product for specic features.
+CAUTION
+RISK OF EXPLOSION IF BATTERY IS REPLACED
+BY AN INCORRECT TYPE
+DISPOSE OF USED BATTERIES ACCORDING
+TO THE INSTRUCTIONS
+ 
+ 
+W
+A
+R
+N
+I
+N
+G
+!
+
+--- Page 3 ---
+Before using this product, please read the below safety notice carefully, 
+this will help to extend the product’s lifecycle, and work normally.
+■  When NETBOX is working, please make sure its ventilation system is 
+working.
+■  The power adapter is dissipating heat during normal use, please be sure 
+not to cover it and keep it away from your body to prevent discomfort or 
+injury by heat exposure.
+■  Please use the power adapter that comes with the product’s package, 
+wrong power adapter may damage your device.
+■  Make sure all the peripherals are properly connected before using NET-
+BOX.
+■  This product should only be used in an environment with ambient tem-
+peratures between 0
+◦
+C and 40
+◦
+C.
+■  Always shut down the computer before installing or uninstalling the pe-
+ripheral which does not support hot plug.  
+■  Disconnect all peripherals before servicing or disassembling this equip-
+ment.
+■  Please do not disassemble this product by yourself, any disassembly not 
+approved by the original manufacturer may result in malfunction, and void 
+warranty.
+■  Risk of explosion if battery is replaced by an incorrect type, please dis-
+pose of used batteries according to the instructions.
+C
+A
+U
+T
+I
+O
+N
+!
+Safety Notice :
+
+--- Page 4 ---
+TABLE OF CONTENTS
+Chapter 1  Introduction of NETBOX
+  Product Overview .....................................................................................2
+  LED Indicator Introduction ........................................................................4
+Chapter 2  Placement and connection of NETBOX
+  Placement of NETBOX
+      On the Desk .........................................................................................6
+      On the Display Back .............................................................................6
+  Connection of NETBOX
+      Connect the Antenna ............................................................................8      
+      Connect the Monitor .............................................................................8
+      Connect the USB Devices ....................................................................8
+      Connect the Network Cable .................................................................9
+      Connect the Power Cord ......................................................................9
+      
+Chapter 3  Install Windows OS
+  Install Windows XP .................................................................................11
+  Install Windows 7 ...................................................................................15
+  Appendix - Display Features Notice .......................................................19
+Chapter 4  FoxMC Introduction
+  First Boot ................................................................................................22
+  Desktop Overview ..................................................................................24
+  Recovery of FoxMC ................................................................................26
+
+--- Page 5 ---
+The NETBOX is a compact and easy to use desktop. It features all 
+the desktop capabilities but with a slim body design which enables 
+your to browse the internet in a relaxable and comfortable way. 
+This chapter introduces the following information:
+■       Product Overview
+■  LED Indicator Introduction
+
+--- Page 6 ---
+1
+2
+NETBOX features all the desktop capabilities but with a slim body design which enables you to 
+browse the internet in a relaxable and comfortable way. 
+1-1 Product Overview
+1. Top View
+2. Front Side View
+No.  Name Description
+1 Headphone Port Connects to a headphone
+2
+Microphone In and S/PDIF In
+Port
+Connects to a microphone or playback devices with 
+optical connectors(3.5mm jack)
+3 Multi-Function Card Reader Supports SD/SDHC/MS/MS Pro/MMC memory cards
+4 USB Ports Connect to USB devices
+5 WLAN_LED Indicates Wireless connection states
+6 LLS_LED Indicates different system states
+7 HDD_LED Indicates hard disk states
+8 Suspend Button with 
+Integrated LED Indicator
+Enter suspend mode in operating system    
+Indicates suspend states
+9 Power Button with 
+Integrated LED Indicator
+Turning the power on/off
+Indicates system states
+0.95in
+(24mm)
+1
+2
+3
+6 9
+8
+4 7
+LLS_LED1 LLS_LED5
+5
+(190mm)
+7.5in
+ 5.3in
+(135mm)
+
+--- Page 7 ---
+1
+3
+3. Back Side View
+4. Bottom View
+No. Name Description
+1 Sheet Metal NETDVD(optional accessory) or Magnet-Metal-Feet can magnetize 
+them to seat rmly 
+There are four Magnet-Metal-Feet in the package. Just align them to the sheet metal 
+on the bottom, then they can magnetize the NETBOX easily. The feet can seat and 
+protect NETBOX when it is placed on the tabletop.
+ 
+C
+A
+U
+T
+I
+O
+N
+!
+No.  Name Description
+1 RF(Radio Frequency) Port Connects to antenna
+2 USB Ports Connect to USB devices
+3 Display Output Port(VGA) Connects to display device
+4 HDMI Port  Connects to HDMI audio and video
+5 Network Port Standard RJ-45 network port
+6
+Line Out and S/PDIF Out Port
+Connects to powered analog speakers or record-
+ing devices with optical connectors(3.5mm jack)
+7 Power Input Port Connects to the power adapter
+1
+1
+2
+3 5
+4
+76
+
+--- Page 8 ---
+1
+4
+1-2 LED Indicator Introduction
+The LLS_LEDs status in this table only show BIOS error message.
+ 
+C
+A
+U
+T
+I
+O
+N
+!
+Indication
+Suspend_
+LED
+Power_
+LED
+HDD_
+LED
+WLAN_
+LED
+LLS_
+LED1
+LLS_
+LED2
+LLS_
+LED3
+LLS_
+LED4
+LLS_
+LED5
+Boot - Green
+Red
+Blink
+- - - - - -
+S0(Working Mode) - Green - - Off Off Off Off Off
+S1(Power-Saving Mode) - Green Off - Off Off Off Off Off
+S3(Standby Mode)
+[Press Suspend Button]
+Red
+Blink
+- Off - Off Off Off Off Off
+S4(Hibernation Mode)& 
+S5(System Power Off Mode)
+- Off Off - Off Off Off Off Off
+CPU 
+Initialization Error
+- - - -
+Blue,
+Blink
+- - - -
+DRAM Error - - - - -
+Blue,
+Blink
+- - -
+BIOS Boot Block Fail - - - - - - -
+Blue,
+Blink
+-
+BIOS Checksum Error - - - - - - - -
+Blue,
+Blink
+CMOS Cleared     [Press 
+Suspend Button for 4Sec.]
+-
+Red, 
+Blink
+- - - - - - -
+HDD R/W Data - - Red - - - - - -
+Wireless
+Network
+Enable
+Link to AP - - - Blue - - - - -
+No Link to AP - - -
+Blink  
+(Once every 5Sec.)
+- - - - -
+Data
+Transmission
+- - -
+Blink
+(Indenite interval)
+- - - - -
+
+--- Page 9 ---
+In this chapter, the placement and the connection of some neces-
+sary peripherals will be introduced. 
+This chapter includes the following information:
+■       Placement of NETBOX
+■  Connection of NETBOX
+
+--- Page 10 ---
+2
+6
+2-1  Placement of NETBOX
+1.  On the Desk
+  You can install your NETBOX in the mount directly. 
+ 
+  If there is enough space on your desk, you can simply put your NETBOX with Magnet-Metal- 
+  Feet on the tabletop.
+2.  On the Display Back
+  This is the best space-saving way. 
+  2.1. Use four screws(M4X10mm) to fasten the bracket onto the display back.
+To install this bracket, your display must follow VESA75/VESA100 standard. The two 
+groups of holes on your display have different space between, and they help you 
+easily fasten the bracket onto your display. 
+ 
+C
+A
+U
+T
+I
+O
+N
+!
+
+--- Page 11 ---
+2
+7
+  2.2. Fit the NETBOX into the bracket with power button locating at the top for easy touch.
+  2.3. After that, you can connect the antenna to your NETBOX.
+Remove the antenna before lifting up the NETBOX straight to take it out.
+ 
+C
+A
+U
+T
+I
+O
+N
+!
+2
+1
+
+--- Page 12 ---
+2
+8
+2-2  Connection of NETBOX
+1.  Connect the Antenna
+  Connect the antenna to the RF port of the NETBOX. You can fold the antenna and rotate it in  
+  different angle as you want.
+2.  Connect the Monitor
+  Connect a monitor to the NETBOX through VGA connector or HDMI connector. 
+3.  Connect the USB Devices
+  Connect USB devices to the USB ports of the NETBOX, for example, mouse and keyboard.
+1
+2
+
+--- Page 13 ---
+2
+9
+  The power adapter is dissipating heat during normal use, please make sure not to 
+cover it and keep it away from your body to prevent discomfort or injury from heat 
+exposure.
+ 
+C
+A
+U
+T
+I
+O
+N
+!
+or
+Hub
+Switch
+Outlet
+2
+3
+1
+4.  Connect the Network Cable
+  Connect LAN cable to the RJ-45 port, with the other end connected to a hub or switch.
+5.  Connect the Power Cord
+  Connect the power adapter to the power input port of the NETBOX, and push the power  
+  button to start it.
+
+--- Page 14 ---
+This chapter introduces the following information:
+■        Install Windows XP
+■        Install Windows 7
+■        Appendix - Display Features Notice
+
+--- Page 15 ---
+3
+11
+Make sure you have these ready :
+1. NETDVD. (It is an optional accessory. If there is no NETDVD in this package, you need other 
+purchase an external USB DVD-ROM drive.)
+2. NETBOX driver CD. (In this package)
+3. Windows XP Install CD/Windows 7 Install CD. (Other purchase)
+Before we continue :
+■  Your NETBOX power is off.
+■   
+Connect the NETDVD or USB DVD-ROM drive.
+3-1 Install Windows XP
+1. Install Windows XP
+1.1.  Push power on button to turn on your computer, then press <Del> key to enter BIOS Setup.
+1.2.  Put the Windows XP Install CD into the NETDVD or USB DVD-ROM drive.
+1.3.  Select and go to the “Boot” menu, enter “Boot Device Priority”, set the “1st Boot Device” to  
+  “USB: Optical DVD RW”, press <F10> key to save change and exit BIOS.
+                           
+ 
+  Boot Device Priority                                         Specifies the boot                
+                                                                  sequence from the 
+                                                available devices.
+   1st Boot Device  
+[USB:Optical DVD RW]
+    
+  2nd Boot Device  
+[SATA:PM-WDC WD1600]
+  A device enclosed in 
+  3rd Boot Device 
+[USB:Generic- Multi]
+  parenthesis has been
+        disabled in the
+         corresponding type
+        menu.
+   
+        ←   Select Screen
+        ↑↓       Select Item
+        +/-      Change Option 
+       
+F1        General Help
+        F10    Save and Exit
+        ESC   Exit
+v02.67 (C) Copyright 1985-2009, American Megatrends, Inc.
+BIOS SETUP UTILITY
+Boot
+
+--- Page 16 ---
+3
+12
+1.4.  The computer will reboot, and it will start installing Windows XP Operating System.
+   
+1.5.  Press <Enter> key to continue the installation.
+1.6.  Press <F8> key to accept the Licensing Agreement and continue.
+1.7.  Windows will display the hard disk partitions of your system. If previously there were other  
+  systems (such as Linux) installed, you may need to press [D] key to delete them. When all  
+  partitions are clean, setup will display the biggest size of your hard drive as depicted in step  
+  1.8.
+ 
+ 
+Windows XP Professional Setup
+ 
+Welcome to Setup.
+This portion of the Setup program prepares Microsoft(R)
+Windows(R) XP to run on your computer.
+    ●  To set up Windows XP now, press ENTER.
+    ●  To repair a Windows XP installation using
+        Recovery Console, press R.
+    ●  To quit Setup without installing Windows XP, press F3.    
+      
+  ENTER=Continue     R=Repair     F3=Quit
+Windows XP Professional Setup
+ 
+The following list shows the existing partitions and
+unpartitioned space on this computer.
+Use the UP ad DOWN ARROW keys to select an item in the list.
+    ●  To set up     on the selected item, press ENTER.
+    ●  To create a partition in the unpartitioned space, press C.
+    ●  To delete the selected partitions, press D.    
+    152626 MB Disk 0 at Id 0 on bus 0 on atapi [MBR]
+      G:   Partition2 [Unknown]    1757 MB <1757 MB free>
+ 
+  Unknown Disk
+      <There is no disk in this drive.>
+  Unknown Disk
+      <There is no disk in this drive.>
+  ENTER=Install     C=Create Partition     F3=Quit
+F:   Partition1 [Unknown]  150868 MB < 150868 MB free>
+
+--- Page 17 ---
+3
+13
+1.8.  In this biggest hard disk size screen, you can press [C] to create partitions as you wish,  
+  assign them C:, D: or E: logical drive names.  
+1.9.  In this example, we are creating a 50GB partition C: for the system. Press <Enter> to install  
+  Windows. The Windows XP install processes will ask you to format your hard disk, then copy  
+  les...etc. Follow the installation steps until the whole process is completed.
+Windows XP Professional Setup
+ 
+The following list shows the existing partitions and
+unpartitioned space on this computer.
+Use the UP ad DOWN ARROW keys to select an item in the list.
+    ●  To set up Windows XP on the selected item, press ENTER.
+    ●  To create a partition in the unpartitioned space, press C.
+    ●  To delete the selected partitions, press D.    
+    152626 MB Disk 0 at id 0 on bus 0 on atapi [MBR]
+      D: Partition2     [Unknown]          64464 MB < 64463 MB free>
+           Unpartitioned space          38163 MB
+  Unknown Disk
+      <There is no disk in this drive.>
+  Unknown Disk
+      <There is no disk in this drive.>
+  ENTER=Install     C=Create Partition     F3=Quit
+C:Partition1      [NTFS]  49999 MB < 48568 MB free>
+Windows XP Professional Setup
+ 
+The following list shows the existing partitions and
+unpartitioned space on this computer.
+Use the UP ad DOWN ARROW keys to select an item in the list.
+    ●  To set up Windows XP on the selected item, press ENTER.
+    ●  To create a partition in the unpartitioned space, press C.
+    ●  To delete the selected partitions, press D.    
+    152626 MB Disk 0 at id 0 on bus 0 on atapi [MBR]
+     
+  Unknown Disk
+      <There is no disk in this drive.>
+  Unknown Disk
+      <There is no disk in this drive.>
+  ENTER=Install     C=Create Partition     F3=Quit
+Unpartitioned space  152626 MB
+
+--- Page 18 ---
+3
+14
+2. Install Drivers in Windows XP
+2.1.  When the Windows XP is completely installed, you have to install the necessary drivers before 
+  using  the  NETBOX.  Take  out  the  Windows  XP  Install  CD  from  the  DVD-ROM  drive,  and 
+  put the NETBOX driver CD inside.
+2.2.  Waiting for a few seconds, the main menu will be displayed, click “Driver” to enter the Driver 
+  menu shown as below: 
+2.3.  Use these options to install all the drivers for your system. You must click "Intel Chipset Driver" 
+  to install it rst. After that, you can click "One Click Setup" to install all the other drivers, or you 
+  can click on each individual driver to install it manually.
+2.4.  After all the drivers are installed, you need to restart your NETBOX, then you can start using  
+  it.
+
+--- Page 19 ---
+3
+15
+3-2 Install Windows 7
+1. Install Windows 7
+1.1.  Push power button to turn on your computer, then press <Del> key to enter BIOS Setup.
+1.2.  Put the Windows 7 Install CD into the NETDVD or USB DVD-ROM drive.
+1.3.  Select and go to the “Boot” menu, enter “Boot Device Priority”, set the “1st Boot Device” to  
+  “USB: Optical DVD RW”, press <F10> key to save change and exit BIOS.
+1.4. 
+The computer will reboot, and it will start loading les for installing Windows 7 Operating  
+  System.
+1.5.  After that, it will start Windows and come out a “Install Windows” dialog box to set the “Lan- 
+  guage to install”, “Time and current format” and “ Keyboard or input method”. Click “Next” to  
+  continue and click “Install now” button to start the setup.
+1.6.  When the license terms appear, select to accept and click “Next” to continue.
+1.7. 
+It then asks you to select the installation type. Click “Custom (advanced)” to install a new copy of  
+  Windows.
+                           
+ 
+  Boot Device Priority                                         Specifies the boot                
+                                                                  sequence from the 
+                                                available devices.
+   1st Boot Device  
+[USB:Optical DVD RW]
+    
+  2nd Boot Device  
+[SATA:PM-WDC WD1600]
+  A device enclosed in 
+  3rd Boot Device 
+[USB:Generic- Multi]
+  parenthesis has been
+        disabled in the
+         corresponding type
+        menu.
+   
+        ←   Select Screen
+        ↑↓       Select Item
+        +/-      Change Option 
+       
+F1        General Help
+        F10    Save and Exit
+        ESC   Exit
+v02.67 (C) Copyright 1985-2009, American Megatrends, Inc.
+BIOS SETUP UTILITY
+Boot
+
+--- Page 20 ---
+3
+16
+1.8.  Later the setup will display the hard disk partitions of your system. If there were other    
+  systems (such as Linux) installed previously, you need select them and click “Drive options  
+  (advanced)” to delete them. When all partitions are clean, setup will display the biggest size  
+  of your hard drive.
+1.9.  In this biggest hard disk size screen, you can click “New” button to create partitions as you  
+  need. In this example, we will create a 70GB partition to install Windows, and click “Apply”.
+
+--- Page 21 ---
+3
+17
+  To ensure that all Windows features work correctly, Windows might create an additional parti-
+tions for system les, so you will see a system reserved partition. Select the 70GB partition 
+and click “Next” to continue.   
+1.10. From this step we start to install windows 7 into your hard disk, including copying Windows    
+  les, expanding Windows les...etc. During the installation, your computer will restart several    
+  times.
+
+--- Page 22 ---
+3
+18
+1.11. When the installation is completed, setup will prepare your compute for the rst use. Then  
+  you can follow steps to select system settings, create an account, set a password...etc, until  
+  the whole process is completed and enter 
+Windows 7 operating system
+.
+2. Install Drivers in Windows 7
+2.1.  When the Windows 7 is completely installed, you have to install the necessary drivers before  
+  using the NETBOX. Take out the Windows 7 Install CD from the USB DVD-ROM drive, and  
+  put the driver CD inside.
+2.2.  Waiting for a few seconds, the main menu will be displayed, click “Driver” to enter the Driver 
+  menu shown as below: 
+2.3.  Use these options to install all the drivers for your system. You must click "Intel Chipset Driver" 
+  to install it rst. After that, you can click "One Click Setup" to install all the other drivers, or you 
+  can click on each individual driver to install it manually.
+2.4.  After all the drivers are installed, you need to restart your NETBOX, then you can start using  
+  it.
+
+--- Page 23 ---
+3
+19
+Appendix - Display Features Notice
+1. HDMI Resolution Setup in BIOS
+You can set the HDMI Resolution in BIOS as below, there are four options:
+  Auto: Default is 1280 x 720 pixels.   1280 x 720: Select 1280 x 720 pixels.
+  1360 x 768: Select 1360 x 768 pixels.  1024 x 768: Select 1024 x 768 pixels.
+2. Display Instruction in OS(Windows XP/Vista/7)
+2.1. In the Intel® Graphics Media Accelerator Driver, the VGA(D-sub) port is dened as “Monitor”,  
+  and the HDMI port is dened as “Notebook”.
+                           
+ 
+  Advance Settings                                                                                   
+   WARNING: Setting wrong values in below sections           
+                     
+may cause system to malfunction.  
+                
+    ACPI Standby State  
+[S3 (STR)]
+  
+         
+  Legacy USB Support 
+[Enabled]
+ 
+  Restore on AC Power Loss
+[Last State] 
+   HDMI Resolution Selection 
+[Auto]
+ 
+  Deep Sleep 
+[Enabled]
+ 
+  ► Onboard Device Configuration
+   
+        ←   Select Screen
+        ↑↓       Select Item
+        +/-      Change Option 
+       
+F1        General Help
+        F10    Save and Exit
+        ESC   Exit
+v02.67 (C) Copyright 1985-2009, American Megatrends, Inc.
+BIOS SETUP UTILITY
+Advanced
+Main Security Boot Exit
+  Auto
+  1360 x 768
+  1280 x 720
+  1024 x 768
+Options
+Select HDMI solution
+■  We strongly recommend that you set the resolution to 1360 x 768, 1280 x 720 or  
+  1024 x 768 to get the best display performance.
+■ 
+The available highest resolution of HDMI device in OS is depend on the BIOS setup. 
+■ 
+If the HDMI Resolution Selection is set to 1360 x 768 or 1024 x 768, when login OS,
+  
+  there may be a mosaic line on the top of screen for some HDMI display device.  
+■  For the HDMI user, according to the performance of your HDMI display device,   
+  the loading time of the boot logo during POST is different. 
+ 
+C
+A
+U
+TI
+O
+N
+!
+
+--- Page 24 ---
+3
+20
+2.2.  In Windows 7 system, the output sequence in the Intel® Graphics Media Accelerator Driver  
+  and the OS display properties are nonmatched, the “Primary Device” match for “2”, and the  
+  Secondary Device match for “1”.
+2.3. For the VGA user, after installing VGA Driver, and rebooting into system, the VGA default  
+  Operating Mode is "Intel(R) Dual Display Clone", and the "Screen resolution" is held to “1280  
+  x 720”. If you want to adjust the screen resolution, please follow the steps below to select the  
+  “Single Display” in "Operating Mode”. 
+  Step 1.  Double click the Intel® Graphics Media Accelerator Driver icon in the system tray.
+  Step 2.  In the “Display Devices” tab, select “Single Display” from the “Operation Mode”  
+  drop-down list. Then you can adjust the “Screen resolution” as you want.
+   Note: The highest resolution: VGA is 1920 x 1200, HDMI is 1360 x 768.
+3. HD Video Play Notice
+  If you want to play HD videos, the .WMV, .MOV and .VOB formats are recommended.
+
+--- Page 25 ---
+FoxMC is a newly developed Linux Operating System. If it was 
+purchased and pre-installed by factory, the rst time you start 
+your computer, it will automatically launch "First Boot". This 
+chapter will guide you through the setup and introduce the desk-
+top features and operation system recovery method.  
+This chapter includes the following information:
+■        First Boot
+■        Desktop Overview
+■        Recovery of FoxMC
+
+--- Page 26 ---
+4
+22
+4-1 First Boot
+For the rst time, when you start NETBOX with FoxMC, the computer will automatically launch "First 
+Boot". This section will guide you through the setup. Please follow the steps below to complete the 
+setup. 
+1. 
+Browse the [Welcome] page and click “Forward” to 
+continue. 
+2. 
+Select the language and click “Forward” to continue.
+
+--- Page 27 ---
+4
+23
+3. 
+ Select “Yes” and click “Forward”.
+ 
+4. Set the Date and Time, then click “Finish” to complete the setup. 
+5. According to the prompt click “Next” to login.
+
+--- Page 28 ---
+4
+24
+4-2 Desktop Overview
+FoxMC stands for Fox Media Center, it incorporates the functions of internet surng, entertainment, 
+ofce work, document management and various system settings on one desktop. With its dynamic 
+user interface, simple desktop style, wealth of application software, clear system management and 
+complete hardware support. FoxMC can easily meet the requirements of being the operation system 
+of your ofce computer, home entertainment center, gaming console, educational instrument and 
+mobile devices. 
+Desktop
+   
+ 
+ 
+In the FoxMC system, you can click left key to enter the menu, and click right key or press “ESC“ 
+key to exit the menu. FoxMC includes the following modules: 
+(Note: For detailed description, please refer to the online help le by clicking the “Help” button. )
+Videos:  It allows you to manage your videos through it. It supports most of the formats of  
+  videos, such as .rmvb, .mov, .rm, .mp4 etc.
+Music:   With this module, you can manage music according to your favorite. 
+Pictures:  It allows you to browse pictures through the menu. 
+Firefox:  Firefox is a web browser, click it to connect to internet and browse webs.
+Ebooks:  With it, you can read ebook. It supports the following format: .zip, .fb2, .tcr, .pdb, .epub, 
+  .mobi etc.
+Applications: It includes the following parts: internet, work, play, setting, my favorite. It basically  
+  covers most applications used in your daily life.
+Weather:  It allows you to select the location which you want to display the weather. It can congure 
+  up to three cities on the screen.  
+FileManager: It allows you to manage the les for the system.
+Settings:   In this module, you can congure the settings for the system according to your favorite,  
+Show the current 
+system date and time
+Shutdown
+The nine modules provide various 
+applications to meet the needs of 
+your work, life and entertainment.
+Favorites
+Help
+
+--- Page 29 ---
+4
+25
+  such as adjust the parameters for videos, music and pictures, change the skin of ap 
+  pearance, set the features of hardware and so on.
+Favorites:  When you add the videos, music and pictures to the favorites, you can open the les  
+  by this icon.
+Shutdown: Open the menu to choose the action to the system. When you click “Shutdown” icon in the  
+  desktop, the shutdown menu will appear as below:
+Help:   Click "Help" to open the online help le. It provides you with detailed and systemic  
+  introduction about FoxMC.  
+Panel:   The panel auto hides in the default status. When the mouse moves to the bottom of the  
+  desktop, the panel will appear as below.
+Show Desktop
+Network Status
+SCIM Input MethodVolume
+Hibernate Suspend Reboot
+Show system information
+Shutdown Open favorites
+Eject/load drive
+
+--- Page 30 ---
+4
+26
+4-3 Recovery of FoxMC  
+1. System Recovery from the DVD
+1.1. Power on the computer, insert the system Installation DVD into the DVD driver. When the prompt  
+  message appears on the screen, press “F11” to enter Boot Menu and 
+set DVD as the rst boot  
+  device. Computer will continue to boot up.
+ 
+1.2. When the following picture shows, 
+select "Install and make recovery partition", the system will  
+  be installed and a recovery partition will be made. Select "Install system only", the system 
+  will be installed without recovery partition, so recover system from hard disk is impossible.  
+ 
+Click "Next" to continue.
+1.3. A warning message will show as below. Click "Next" to continue. 
+Whatever you select "Install and make recovery partition" or "Install system only", 
+the whole disk will both be formatted; So if you do not want to format the disk, please 
+select "Reboot" to stop the process.
+W
+A
+R
+N
+I
+N
+G
+!
+
+--- Page 31 ---
+4
+27
+1.4. It starts to format hard disk and install system. 
+1.5.
+ When the installation is complete, click "Reboot" to restart the system.
+
+--- Page 32 ---
+4
+28
+2. System Recovery from the Hard Disk
+If FoxMC was purchased and pre-installed by factory, they should have created a recovery parti-
+tion in the hard disk. Now we can use the hard disk to recover the system.
+2.1. Start the system, during the screen prompt, press any key to enter Grub interface. The  
+  picture will show as below:
+2.2. Select "FoxMC recovery" item and press "Enter". A warning message will show as below:
+2.3. Click "Next". System warns the root partition(hd0, 0) will be formatted.
+
+--- Page 33 ---
+4
+29
+2.4. Click "Next" to format partition(hd0,0) and recover system from hard disk. The picture will  
+  show as below:
+2.5. When the installation is complete, click "Reboot" to restart the system.
+
+--- Page 34 ---
+Statement:
+This device complies with part 15 of the FCC Rules. Operation is subject to the following two 
+conditions: (1) This device may not cause harmful interference, and (2) this device must 
+accept any interference received, including interference that may cause undesired operation.
+Warning:
+FEDERAL COMMUNICATIONS COMMISSION INTERFERENCE STATEMENT
+This equipment has been tested and found to comply with the limits for a Class B digital 
+device, pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable 
+protection against harmful interference in a residential installation. This equipment generates, 
+uses and can radiate radio frequency energy and, if not installed and used in accordance with 
+the instructions, may cause harmful interference to radio communications. However, there is 
+no guarantee that interference will not occur in a particular installation. If this equipment does 
+cause harmful interference to radio or television reception, which can be determined by turning 
+the equipment off and on, the user is encouraged to try to correct the interference by one or 
+more of the following measures:
+▪ Reorient or relocate the receiving antenna.
+▪ Increase the separation between the equipment and receiver.
+▪ Connect the equipment into an outlet on a circuit different from that to which the receiver 
+  is connected.
+▪ Consult the dealer or an experienced radio/ TV technician for help.
+Caution:
+Any changes or modications not expressly approved by the grantee of this device could
+void the user’s authority to operate the equipment.
+RF exposure warning:
+This equipment must be installed and operated in accordance with provided instructions and 
+the antenna(s) used for this transmitter must be installed to provide a separation distance of at 
+least 20 cm from all persons and must  not be co-located or operating in conjunction with any 
+other antenna or transmitter. End-users and installers must be provide with antenna installation 
+instructions and transmitter operating conditions for satisfying RF exposure compliance.
+

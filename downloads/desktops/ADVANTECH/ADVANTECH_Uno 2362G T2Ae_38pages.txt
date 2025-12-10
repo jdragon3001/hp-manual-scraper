@@ -1,0 +1,857 @@
+Brand: ADVANTECH
+Model: Uno 2362G T2Ae
+URL: https://www.manua.ls/advantech/uno-2362g-t2ae/manual
+Total Pages: 38
+============================================================
+
+--- Page 1 ---
+User Manual
+UNO-2362G 
+嵌入式工業電腦
+Automation Computers with 
+AMD
+®
+ Dual Core T40E 
+Processors,1 x GbE, 1 x mPCIe, 
+HDMI/DP
+
+--- Page 2 ---
+UNO-2362G User Manual ii
+限用物質含有情況標示聲明書
+Declaration of the Presence Condition of the Restricted Substances Marking
+P/N: 2003236210 Edition 1
+Printed in Taiwan March 2017
+設備名稱 : 嵌入式工業電腦     型號 ( 型式 )：UNO-2362G ( 系列型號請參見次頁說明書 )
+Equipment name                     Type designation (Type)
+單元 Unit
+限用物質及其化學符號
+Restricted substances and its chemical symbols
+鉛
+Lead
+(Pb)
+汞
+Mercury
+(Hg)
+鎘
+Cadmium
+(Cd)
+六價鉻
+Hexavalent 
+chromium
+(Cr+6)
+多溴聯苯
+Polybrominated 
+biphenyls 
+(PBB)
+多溴二苯醚
+Polybrominated-
+diphenyl ethers 
+(PBDE)
+電路板 －
+○○ ○ ○ ○
+其它固定組件
+(螺絲)
+－
+○○ ○ ○ ○
+機殼(外殼、
+支架 …)
+○○ ○ ○ ○ ○
+記憶體 －
+○○ ○ ○ ○
+配件(線材)
+○○ ○ ○ ○ ○
+備考 1. 〝超出 0.1 wt % 〞及〝超出 0.01 wt % 〞係指限用物質之百分比含量超出百分比含
+量基準值
+Note 1: “Exceeding 0.1 wt %” and “exceeding 0.01 wt %” indicate that the percentage con-
+tent of the restricted substance exceeds the reference percentage value of presence condi-
+tion.
+備考 2. 〝○〞係指該項限用物質之百分比含量未超出百分比含量基準值。
+Note 2: “○” indicates that the percentage content of the restricted substance does not exceed 
+the percentage of reference value of presence.
+備考 3. 〝－〞係指該項限用物質為排除項目。
+Note 3: The “−” indicates that the restricted substance corresponds to the exemption.
+
+--- Page 3 ---
+iii UNO-2362G User Manual
+ 
+Copyright
+The documentation and the software included with this product are copyrighted 2017
+by Advantech Co., Ltd. All rights are reserved. Advantech Co., Ltd. reserves the right
+to make improvements in the products described in this manual at any time without
+notice. No part of this manual may be reproduced, copied, translated or transmitted
+in any form or by any means without the prior written permission of Advantech Co.,
+Ltd. Information provided in this manual is intended to be accurate and reliable. How-
+ever, Advantech Co., Ltd. assumes no responsibility for its use, nor for any infringe-
+ments of the rights of third parties, which may result from its use.
+Acknowledgements
+IBM, PC/AT, PS/2 and VGA are trademarks of International Business Machines Cor-
+poration.
+AMD
+®
+ are trademarks of Advanced Micro Devices, Inc.
+Microsoft Windows and MS-DOS are registered trademarks of Microsoft Corp.
+All other product names or trademarks are properties of their respective owners.
+Support
+For more information on this and other Advantech products, please visit our websites
+at: http://www.advantech.com
+For technical support and service, please visit our support website at:
+http://support.advantech.com/
+*UNO-2362G
+UNO-2362-T2AE             UNO-2362G-T2BE
+UNO-2362G-T2CE          UNO-2362G-T3AE
+UNO-2362G-T3BE          UNO-2362G-T3CE 
+UNO2362GT2A1401E-T UNO2362GT2A1402E-T
+UNO2362GT2A1403E-T UNO2362GT2A1404E-T
+UNO2362GT2A1405E-T UNO2362GT2A1501E-T
+UNO2362GT2A1502E-T UNO2362GT2A1503E-T
+UNO2362GT2A1504E-T UNO2362GT2A1505E-T
+UNO2362GT2A1601E-T UNO2362GT2A1602E-T
+UNO2362GT2A1603E-T UNO2362GT2A1604E-T
+UNO2362GT2A1605E-T UNO2362GT2A1701E-T
+UNO2362GT2A1702E-T UNO2362GT2A1703E-T
+UNO2362GT2A1704E-T UNO2362GT2A1705E-T
+UNO2362GT2A1801E-T UNO2362GT2A1802E-T
+UNO2362GT2A1803E-T UNO2362GT2A1804E-T
+UNO2362GT2A1805E-T UNO2362GT2A1901E-T
+UNO2362GT2A1902E-T UNO2362GT2A1903E-T
+UNO2362GT2A1904E-T UNO2362GT2A1905E-T
+C-UNO2362G-ACP
+
+--- Page 4 ---
+UNO-2362G User Manual iv
+Product Warranty (2 years)
+Advantech warrants to you, the original purchaser, that each of its products will be
+free from defects in materials and workmanship for two years from the date of pur-
+chase. 
+This warranty does not apply to any products which have been repaired or altered by
+persons other than repair personnel authorized by Advantech, or which have been
+subject to misuse, abuse, accident or improper installation. Advantech assumes no
+liability under the terms of this warranty as a consequence of such events.
+Because of Advantech’s high quality-control standards and rigorous testing, most of
+our customers never need to use our repair service. If an Advantech product is defec-
+tive, it will be repaired or replaced at no charge during the warranty period. For out-
+of-warranty repairs, you will be billed according to the cost of replacement materials,
+service time and freight. Please consult your dealer for more details.
+If you think you have a defective product, follow these steps:
+1. Collect all the information about the problem encountered. (For example, CPU 
+speed, Advantech products used, other hardware and software used, etc.) Note 
+anything abnormal and list any onscreen messages you get when the problem 
+occurs.
+2. Call your dealer and describe the problem. Please have your manual, product, 
+and any helpful information readily available.
+3. If your product is diagnosed as defective, obtain an RMA (return merchandize 
+authorization) number from your dealer. This allows us to process your return 
+more quickly.
+4. Carefully pack the defective product, a fully-completed Repair and Replacement 
+Order Card and a photocopy proof of purchase date (such as your sales receipt) 
+in a shippable container. A product returned without proof of the purchase date 
+is not eligible for warranty service.
+5. Write the RMA number visibly on the outside of the package and ship it prepaid 
+to your dealer.
+Declaration of Conformity
+CE
+This product has passed the CE test for environmental specifications when shielded
+cables are used for external wiring. We recommend the use of shielded cables. This
+kind of cable is available from Advantech. Please contact your local supplier for
+ordering information.
+FCC Class A
+Note: This equipment has been tested and found to comply with the limits for a Class
+A digital device, pursuant to part 15 of the FCC Rules. These limits are designed to
+provide reasonable protection against harmful interference when the equipment is
+operated in a commercial environment. This equipment generates, uses, and can
+radiate radio frequency energy and, if not installed and used in accordance with the
+instruction manual, may cause harmful interference to radio communications. Opera-
+tion of this equipment in a residential area is likely to cause harmful interference in
+which case the user will be required to correct the interference at his own expense.
+
+--- Page 5 ---
+v UNO-2362G User Manual
+ 
+Technical Support and Assistance
+1. Visit the Advantech web site at support.advantech.com/ where you can find the 
+latest information about the product.
+2. Contact your distributor, sales representative, or Advantech's customer service 
+center for technical support if you need additional assistance. Please have the 
+following information ready before you call:
+– Product name and serial number
+– Description of your peripheral attachments
+– Description of your software (operating system, version, application software, 
+etc.)
+– A complete description of the problem
+– The exact wording of any error messages
+Safety Precaution - Static Electricity
+Follow these simple precautions to protect yourself from harm and the products from
+damage.
+ To avoid electrical shock, always disconnect the power from your PC chassis 
+before you work on it. Don't touch any components on the CPU card or other 
+cards while the PC is on.
+ Disconnect power before making any configuration changes. The sudden rush 
+of power as you connect a jumper or install a card may damage sensitive elec-
+tronic components.
+警告使用者：
+這是甲類資訊產品，在居住的環境中使用時，可能會造成射頻干擾，在這種情況下，
+使用者會被要求採取某些適當對策。
+
+--- Page 6 ---
+UNO-2362G User Manual vi
+Safety Instructions
+1. Read these safety instructions carefully.
+2. Keep this User Manual for later reference.
+3. Disconnect this equipment from any AC outlet before cleaning. Use a damp 
+cloth. Do not use liquid or spray detergents for cleaning.
+4. For plug-in equipment, the power outlet socket must be located near the equip-
+ment and must be easily accessible.
+5. Keep this equipment away from humidity.
+6. Put this equipment on a reliable surface during installation. Dropping it or letting 
+it fall may cause damage.
+7. The openings on the enclosure are for air convection. Protect the equipment 
+from overheating. DO NOT COVER THE OPENINGS.
+8. Make sure the voltage of the power source is correct before connecting the 
+equipment to the power outlet.
+9. Position the power cord so that people cannot step on it. Do not place anything 
+over the power cord.
+10. All cautions and warnings on the equipment should be noted.
+11. If the equipment is not used for a long time, disconnect it from the power source 
+to avoid damage by transient overvoltage.
+12. Never pour any liquid into an opening. This may cause fire or electrical shock.
+13. Never open the equipment. For safety reasons, the equipment should be 
+opened only by qualified service personnel.
+14. If one of the following situations arises, get the equipment checked by service 
+personnel:
+15. The power cord or plug is damaged.
+16. Liquid has penetrated into the equipment.
+17. The equipment has been exposed to moisture.
+18. The equipment does not work well, or you cannot get it to work according to the 
+user's manual.
+19. The equipment has been dropped and damaged.
+20. The equipment has obvious signs of breakage.
+21. DO NOT LEAVE THIS EQUIPMENT IN AN ENVIRONMENT WHERE THE 
+STORAGE TEMPERATURE MAY GO BELOW -10°C (-14° F) OR ABOVE 60° 
+C (140° F). THIS COULD DAMAGE THE EQUIPMENT. THE EQUIPMENT 
+SHOULD BE IN A CONTROLLED ENVIRONMENT.
+22. CAUTION: DANGER OF EXPLOSION IF BATTERY IS INCORRECTLY 
+REPLACED. REPLACE ONLY WITH THE SAME OR EQUIVALENT TYPE 
+RECOMMENDED BY THE MANUFACTURER, DISCARD USED BATTERIES 
+ACCORDING TO THE MANUFACTURER'S INSTRUCTIONS.
+ATTENTION: Danger d'explosion si la batterie est mal REMPLACE. REM-
+PLACER UNIQUEMENT PAR LE MEME TYPE OU EQUIVALENT RECOM-
+MANDÉ PAR LE FABRICANT, jeter les piles usagées SELON LES 
+INSTRUCTIONS DU FABRICANT.
+23. The sound pressure level at the operator's position according to IEC 704-1:1982 
+is no more than 70 dB (A).
+DISCLAIMER: This set of instructions is given according to IEC 704-1. Advantech
+disclaims all responsibility for the accuracy of any statements contained herein.
+
+--- Page 7 ---
+vii UNO-2362G User Manual
+ 
+安全指示
+1. 請仔細閱讀此安全操作說明。
+2. 請妥善保存此用戶手冊供日後參考。
+3. 用濕抹布清洗設備前，請從插座拔下電源線。請不要使用液體或去汙噴霧劑清洗 
+設備。
+4. 對於使用電源線的設備，設備周圍必須有容易接觸到的電源插座。
+5. 請不要在潮濕環境中使用設備。
+6. 請在安裝前確保設備放置在可靠的平面上，意外跌落可能會導致設備損壞。
+7. 設備外殼的開口是用於空氣對流，從而防止設備過熱。請不要覆蓋這些開口。
+8. 當您連接設備到電源插座上前，請確認電源插座的電壓是否符合要求。
+9. 將電源線佈置在人們不易絆到的位置，並不要在電源線上覆蓋任何雜物。
+10. 請注意設備上的所有警告和注意標語。
+11. 如果長時間不使用設備，請將其同電源插座斷開，避免設備被超標的電壓波動損 
+壞。
+12. 請不要讓任何液體流入通風口，以免引起火災或者短路。
+13. 請不要自行打開設備。為了確保您的安全，請由經過認證的工程師來打開設備。
+14.  如遇下列情況，請由專業人員來維修：
+電源線或者插頭損壞；
+設備內部有液體流入；
+設備曾暴露在過於潮濕的環境中使用；
+設備無法正常工作，或您無法通過用戶手冊來使其正常工作；
+設備跌落或者損壞；
+設備有明顯的外觀破損。
+15. 請不要把設備放置在超出我們建議的溫度範圍的環境，即不要低於 -20°C
+（-4°F）或高於 60°C （140°F），否則可能會損壞設備。
+16. 注意：若電池更換不正確，將有爆炸危險。因此，只可以使用製造商推薦的同一
+種或者同等型號的電池進行替換。請按照製造商的指示處理舊電池。
+17. 根據 IEC 704‐1:1982 規定，操作員所在位置音量不可高於 70 分貝。
+18. 限制區域：請勿將設備安裝於限制區域使用。
+19. 免責聲明：請安全訓示符合 IEC 704‐1 要求。研華公司對其內容之準確性不承
+擔任何法律責任。
+
+--- Page 9 ---
+ix UNO-2362G User Manual
+ 
+Contents
+Chapter 1 Overview...............................................1
+1.1 Introduction ............................................................................................... 2
+1.2 Hardware Specifications ........................................................................... 2
+1.2.1 General ......................................................................................... 2
+1.3 System Hardware...................................................................................... 3
+1.3.1 I/O Interfaces ................................................................................ 3
+1.3.2 Environment.................................................................................. 3
+1.4 Safety Precautions .................................................................................... 4
+1.5 Chassis Dimensions.................................................................................. 4
+Figure 1.1 UNO-2362G Chassis Dimensions .............................. 4
+1.6 Accessories............................................................................................... 5
+Chapter 2 Hardware Functionality.......................7
+2.1 Introduction ............................................................................................... 8
+Figure 2.1 Front Panel of UNO-2362G ........................................ 8
+Figure 2.2 Rear Panel of UNO-2362G......................................... 8
+2.2 UNO-2362G Interface (COM1~COM2) ..................................................... 8
+2.2.1 RS-232 Interface (COM 1)............................................................ 8
+2.2.2 Automatic Data Flow Control Function for RS-485 ....................... 8
+2.3 LAN: Ethernet Connector .......................................................................... 9
+2.4 Power Connector ...................................................................................... 9
+2.5 USB Connector ......................................................................................... 9
+2.6 DisplayPort/HDMI Display Connector ....................................................... 9
+2.7 RTC Battery Specification ....................................................................... 10
+Figure 2.3 RTC Battery Location ............................................... 10
+2.8 Power Button/Power Management ......................................................... 10
+2.9 Reset Button ........................................................................................... 10
+2.10 PCI Express Mini Card Socket................................................................ 11
+Chapter 3 Initial Setup ........................................13
+3.1 Inserting a mSATA .................................................................................. 14
+3.2 Chassis Grounding.................................................................................. 14
+Figure 3.1 Chassis Grounding Connection................................ 14
+3.3 Connecting Power................................................................................... 14
+3.4 Installing a Hard Disk .............................................................................. 15
+3.5 Installing a Wireless LAN Card and Antenna .......................................... 16
+3.6 BIOS Setup ............................................................................................. 17
+3.7 Din Rail Kit Assembly.............................................................................. 18
+3.8 Daisy Chain for Ethernet ......................................................................... 18
+Appendix A System Settings and Pin Assignments
+.............................................................19
+A.1 System I/O Address and Interrupt Assignment ....................................... 20
+Table A.1: Interrupt Assignments............................................... 20
+A.2 Board Connectors and Jumpers ............................................................. 21
+Figure A.1 Connector & Jumper Locations (front)...................... 21
+Table A.2: Connectors and Jumpers ......................................... 21
+A.3 RS-232 Standard Serial Port................................................................... 22
+
+--- Page 10 ---
+UNO-2362G User Manual x
+Table A.3: RS-232 Serial Port Pin Assignments........................ 22
+A.4 RS-485 Serial Port (COM2) .................................................................... 22
+Table A.4: RS-485 Serial Port Pin Assignments........................ 22
+A.5 Power Connector (PWR) ........................................................................ 23
+Table A.5: Power connector pin assignments ........................... 23
+A.6 USB Connector ....................................................................................... 23
+Table A.6: USB 2.0 Connector Pin Assignments....................... 23
+A.7 HDMI Display Connector ........................................................................ 24
+Table A.7: HDMI Display Connector.......................................... 24
+A.8 DisplayPort Display Connector ............................................................... 25
+Table A.8: DisplayPort adaptor cable pin assignment............... 25
+A.9 Clear CMOS (JP2) .................................................................................. 26
+Table A.9: JP2 Clear CMOS...................................................... 26
+A.10 System Power AT or ATX Selection (JP1).............................................. 26
+Table A.10:AT/ATX Selection..................................................... 26
+
+--- Page 11 ---
+Chapter 1
+1 Overview 
+This chapter provides an overview 
+of UNO-2362G’s specifications. 
+Sections include:
+ Introduction 
+ Hardware specification 
+ Safety precautions 
+ Chassis dimensions
+
+--- Page 12 ---
+UNO-2362G User Manual 2
+1.1 Introduction 
+UNO-2362G is an embedded Application Ready Platform (ARP) that can shorten
+your development time and offers rich networking interfaces to fulfill extensive needs
+in different projects. UNO-2362G includes AMD's latest G-series technology and pro-
+vides multiple interfaces including up to 2 serial ports, 1 x GbE LAN, 4 x USB ports.
+UNO-2362G supports two display types, DisplayPort and HDMI for various high reso-
+lution requirements. 
+UNO-2362G can operate in wide temperatures (from -10 to 60°C). UNO-2362G uses
+an AMD G-series CPU with built-in memory up to 2G DDR3 RAM.  
+UNO-2362G provides great expansion including 2 x Mini PCIe and SIM card support.
+With these expansions and iDoor technology the UNO-2362G offers great expand-
+ability from Wi-Fi, 3G, I/O expansion and fieldbus card with iDoor technology. 
+With rich OS and driver support, such as Windows XP/7/8,WES7, and embedded
+Linux, users can integrate applications easily in an application ready platform that
+can provide versatile functions to fulfill diverse requirements. 
+1.2 Hardware Specifications 
+1.2.1 General
+ Certification: CE, UL, CCC, FCC, BSMI
+ Dimensions (W x D x H): 190 x 107 x 47 mm (7.5” x 4.2” x 1.8”)
+ Enclosure: Aluminum
+ Mounting: Stand, Wall, VESA (Optional)
+ Power Consumption: 14W(Typical)/24W(Max)
+ Power Requirements: 24V+-15% @1A, AT/ATX
+ Weight: 1.0 kg
+ OS Support: Windows XP/7/8, WES7, Linux Fedora
+ System Design Fanless 
+ Remote Management: Built-in Advantech DiagAnywhere agent on WES7
+
+--- Page 13 ---
+3 UNO-2362G User Manual
+Chapter 1 Overview
+1.3 System Hardware
+ CPU: AMD
+®
+ G-series T40E 1.0GHz dual core
+ Memory: 2 GB DDR3 SDRAM built-in
+ Indicators: LEDs for power, battery, LAN (Active, Status) and HDD 
+ Storage: 
+HDD:1 x drive bay for SATA 2.5" HDD (Compatible with 9.5mm height HDD)
+mSATA: 1 x Full Size Mini PCIe
+CFast drive by iDoor Technology (Optional)
+Note: iDoor technology is only compatible with mSATA storage.
+ Display: 1 x HDMI, 1 x DP (2 x independent displays)
+ Watchdog Timer: NCT6776F, programmable 256 levels timer interval, from 1 to 
+255 sec
+ Mini PCIe Expansion: 
+2 x Full size Mini PCIe slots with 1 x SIM card (First slot (CN5) set as mSATA 
+default)
+ iDoor Expansion Slot: Yes
+1.3.1 I/O Interfaces
+ Serial Ports 1 x RS-232, 1 x RS-485 with DB9 connectors; automatic RS-485 
+data flow control
+ Serial Port Speed: RS-232: 50 ~ 115.2 kbps
+                                RS-485: 50 ~ 115.2 kbps (Max.)
+ LAN: 2 x 10/100/1000Base-T RJ-45 ports
+Supports 1 x GbE Daisy-Chain for Ethernet with auto-bypass protection 
+enabled.
+ USB Ports: 4 x USB ports 
+1.3.2 Environment
+ Humidity: 95% @ 40°C (non-condensing)
+ Operating Temperature: -10 ~ 60°C (14 ~ 140°F) @ 5 ~ 85% RH. (with air 
+flow)
+ Safety Cert. Temperature: -10 ~ 50°C (14 ~ 122°F)
+ Shock Protection: IEC 60068-2-27
+mSATA: 50 G @ wall mount, half sine, 11 ms
+HDD: 20 G @ wall mount, half sine, 11 ms
+ Vibration Protection: IEC 60068-2-64 (Random 1 Oct./min, 1hr/axis.)
+mSATA: 2 Grms @ 5 ~ 500 Hz,
+HDD: 0.75 Grms @ 5 ~ 500 Hz
+
+--- Page 14 ---
+UNO-2362G User Manual 4
+1.4 Safety Precautions 
+The following sections describe how to make each connection. In most cases, you
+will simply need to connect a standard cable. 
+1.5 Chassis Dimensions 
+Figure 1.1 UNO-2362G Chassis Dimensions 
+Warning! Always disconnect the power cord from your chassis whenever you are 
+working on it. Do not connect while the power is on. A sudden rush of 
+power can damage sensitive electronic components. Only experienced 
+electronics personnel should open the chassis. 
+Warning! Toujours débrancher le cordon d'alimentation de votre boîtier lorsque 
+vous êtes travailler. Ne branchez pas lorsque l'appareil est allumé. Un 
+afflux soudain de puissance peut endommager les composants électro-
+niques sensibles. Seulement connu personnel de l'électronique 
+devraient ouvrir le châssis.
+Caution! Always ground yourself to remove any static electric charge before 
+touching UNO-2362G. Modern electronic devices are very sensitive to 
+static electric charges. Use a grounding wrist strap at all times. Place all 
+electronic components on a static-dissipative surface or in a static-
+shielded bag. 
+Caution! Toujours à la terre pour éliminer toute charge d'électricité statique avant 
+toucher UNO-2362G. Appareils électroniques modernes sont très sensi-
+bles à charges d'électricité statique. Utilisez un bracelet antistatique à 
+tout moment. Placez tous  composants électroniques sur une surface 
+antistatique ou dans un statique-sac blindé.
+95.4
+78.5
+106.5
+85
+72
+188.8
+176.8
+164.8
+10.5
+R2
+R2.7
+189.8
+44.8
+1.5
+47.3
+
+--- Page 15 ---
+5 UNO-2362G User Manual
+Chapter 1 Overview
+1.6 Accessories 
+Please refer below for the accessory list: 
+ 2-pin connector for power wiring (Advantech P/N: 1652002205) 
+ SATA cable (power and signal) (Advantech P/N: 1700022118-01) 
+ 1 PCS jumper (Advantech P/N: 1653302122) 
+ 4 PCS screws for HDD (Advantech P/N:1930000687)
+ 4 PCS screws for mPCIe slot (Advantech P/N:1935020300)
+ 4 PCS screws for UNO Mounting (Advantech P/N:1935040620)
+ Driver DVD 
+ Warranty card 
+If anything is missing or damaged, contact your distributor or sales representative
+immediately.
+
+--- Page 17 ---
+Chapter 2
+2 Hardware 
+Functionality
+This chapter shows how to setup 
+the UNO-2362G’s hardware func-
+tions, including connecting 
+peripherals, setting switches and 
+indicators. 
+Sections include: 
+ Introduction 
+ RS-232 Interface 
+ RS-485 Interface 
+ LAN / Ethernet Connector 
+ Power Connector 
+ USB Connector 
+ DP/HDMI Display Connector 
+ mPCIe Socket
+
+--- Page 18 ---
+UNO-2362G User Manual 8
+2.1 Introduction 
+The following figures show the connectors on UNO-2362G. The following sections
+give you information about each peripheral. 
+Figure 2.1 Front Panel of UNO-2362G
+Figure 2.2 Rear Panel of UNO-2362G
+2.2 UNO-2362G Interface (COM1~COM2) 
+UNO-2362G offers one standard RS-232 and one RS-485 (with cable) serial commu-
+nication interface ports: COM1 ~ COM2. 
+The IRQ and I/O address range of COM1 to COM2 are listed below: 
+COM1: 3F8h, IRQ4 
+COM2: 2F8h, IRQ3 
+2.2.1 RS-232 Interface (COM 1) 
+The UNO-2362G offers one RS-232 serial communication interface ports: COM1.
+Please refer to Appendix A.3 for their pin assignments. 
+2.2.2 Automatic Data Flow Control Function for RS-485 
+In RS-485 mode, UNO-2362G automatically detects the direction of incoming data
+and switches its transmission direction accordingly. So no handshaking signal (e.g.
+RTS signal) is necessary. This lets you conveniently build an RS-485 network with
+just two wires. More importantly, application software previously written for half
+duplex RS-232 environments can be maintained without modification.
+
+--- Page 19 ---
+9 UNO-2362G User Manual
+Chapter 2 Hardware Functionality
+2.3 LAN: Ethernet Connector 
+UNO-2362G is equipped with one Gigabit LAN controller. The controller chip used is
+the Realtek 8111E Ethernet controller with Marvell 88E6172 Giga ethernet switch
+with daisy chain technology that is fully compliant with IEEE 802.3u 10/100Base-T
+CSMA/CD standards and IEEE 802.3ab specification for 1000Mbps Ethernet. The
+Ethernet port provides two standard RJ-45 jacks on board, and LED indicators on the
+front side to show its Link (100Mbps orange LED, 1000Mbps green LED) and Active
+(flashing green LED) status. 
+2.4 Power Connector 
+The UNO-2362G comes with a Phoenix connector that carries 24V
+DC
+ external power
+input, and features reversed wiring protection. Therefore, it will not cause any dam-
+age to the system by reversed wiring of ground line and power line. Please refer to
+Appendix A.5 
+2.5 USB Connector 
+The USB interface supports Plug and Play, which enables you to connect or discon-
+nect a device whenever you want, without turning off the computer. UNO-2362G pro-
+vides four connectors of USB inter-faces, which gives complete Plug & Play and hot
+swapping for up to 127 external devices. Two of six connectors are compatible with
+USB3.0 device but only with USB2.0 speed. The USB interface complies with USB
+EHCI, Rev. 2.0. The USB interface can be disabled in the system BIOS setup. Please
+refer to Appendix A.6 for its pin assignments. 
+2.6 DisplayPort/HDMI Display Connector 
+The UNO-2362G provides a DisplayPort/HDMI controller for a high resolution inter-
+face. UNO-2362G supports up to full HD resolution for two independent displays.
+
+--- Page 20 ---
+UNO-2362G User Manual 10
+2.7 RTC Battery Specification 
+UNO-2362G has RTC Battery to ensure the setting in BIOS and system clock can be
+kept, even with power disconnected for a short time. 
+ Type: BR2032 (Using CR2032 is NOT recommended) 
+ Output Voltage: 3 V
+DC
+ 
+ Location: BH1, please refer to below figure 
+Figure 2.3 RTC Battery Location
+2.8 Power Button/Power Management 
+Press the "PWR" button to power on or power off UNO-2362G (ATX type). UNO-
+2362G supports the ACPI (Advanced Configuration and Power Interface). Besides
+power on/off, it supports multiple suspend modes, such as Power on Suspend (S1),
+Suspend to RAM (S3), Suspend to Disk (S4). 
+2.9 Reset Button 
+Press the "Reset" button to activate the hardware reset function.
+
+--- Page 21 ---
+11 UNO-2362G User Manual
+Chapter 2 Hardware Functionality
+2.10 PCI Express Mini Card Socket 
+The UNO-2362G supports two sockets for full size PCI Express mini cards. The first
+interface (CN5) is the default defined for mSATA storage.The second (CN33) inter-
+face supports iDoor technology/module for applications that require isolated COM
+port, Profibus, WLAN GPRS, 3G, mRAM and so on. Users can easily install the card
+via the optional kit, please refer to Chapter 3.5 for details. 
+An additional SIM card slot is used for 3G application. Please note you still require a
+3G Mini-PCIe module installed to be able to use 3G functions.
+
+--- Page 23 ---
+Chapter 3
+3 Initial Setup
+This chapter introduces how to 
+initialize the UNO-2362G. 
+Sections include: 
+ Inserting a mSATA 
+ Chassis Grounding 
+ Connecting Power 
+ Installing a Hard Disk 
+ Installing a wireless LAN card 
+and Antenna 
+ BIOS Setup
+
+--- Page 24 ---
+UNO-2362G User Manual 14
+3.1 Inserting a mSATA   
+1. Remove the power cord.
+2. Unscrew the six screws on the bottom cover.
+3. Plug a mSATA card with your OS and application program into the first mPCIe 
+slot(CN5). 
+4. Screw the two screws on board to fix the mSATA.
+5. Screw back the bottom cover.
+3.2 Chassis Grounding 
+UNO-2362G provides good EMI protection and a stable grounding base. There is an
+easy-to-connect chassis grounding point to use. 
+Figure 3.1 Chassis Grounding Connection
+Please also note that system ground and chassis ground are separated in UNO-
+2362G. 
+3.3 Connecting Power 
+Connect the UNO-2362G to a 24 V
+DC
+ power source. The power source can either be
+from a power adapter or an in-house power source.
+
+--- Page 25 ---
+15 UNO-2362G User Manual
+Chapter 3 Initial Setup
+3.4 Installing a Hard Disk 
+The procedure for installing a hard disk into the UNO-2362G is below. Please follow
+these steps carefully. Please note the system is not compatible with +12V HDD.
+Please use an HDD with a lower power input.
+1. Remove the power cord.
+2. Unscrew the four screws from the bottom cover.
+3. Screw the HDD onto the bottom cover.
+4. Connect the SATA signal cable to CN9 and SATA power cable to CN8. Then 
+connect the other side of the cable to the SATA hard disk.
+
+--- Page 26 ---
+UNO-2362G User Manual 16
+5. Screw back the bottom cover with four screws.
+3.5 Installing a Wireless LAN Card and Antenna 
+Please contact Advantech to inquire about the following optional kit: 
+Rear Panel for Antenna 
+ The internal cable: 1750006043 (15cm) 
+Wireless Module (PCI Express mini card) 
+ One of the suggested modules is EWM-W151H01E which is a verified Wireless 
+IEEE 802.11b/g/n module.
+
+--- Page 27 ---
+17 UNO-2362G User Manual
+Chapter 3 Initial Setup
+Antenna 
+ Please select the necessary specification according to your application. 
+ One of the suggested antenna is 1750002842. 
+Follow the below steps for installation: 
+1. Unscrew the bottom panel and open it. 
+2. Remove the hole(s) on the rear panel for antenna installation. 
+3. Install the internal cable 1750006043 (15cm) on the rear panel. 
+4. Plug the Wireless module with bracket kit (9656EWMG00E) onto the PCI 
+Express mini card socket (CN33 only) 
+5. Connect the internal cable with the module. 
+6. Screw back the bottom panel. 
+7. Assemble the antenna on the SMA connector. 
+3.6 BIOS Setup 
+Press “F2” in the boot-up screen to enter the BIOS setup utility. Please follow the
+instruction on the screen to do the necessary settings. 
+Please note that you can try to “Restore Defaults” from the BIOS Setup manual if the
+UNO-2362G does not work properly.
+
+--- Page 28 ---
+UNO-2362G User Manual 18
+3.7 Din Rail Kit Assembly 
+The UNO-2362G supports Din-Rail mounting. Order the additional Din rail kit 
+(Advantech P/N: UNO-DIN11-AE) and assemble using the instructions below. 
+3.8 Daisy Chain for Ethernet
+The UNO-2362G series provides an alternative to spending time and money needed
+to figure out the best way to hook up your Ethernet switches. Since each UNO-
+2362G unit has a built-in Ethernet switches, the solution is tailor-made for a daisy-
+chain type configuration.
+
+--- Page 29 ---
+Appendix A
+A System Settings and 
+Pin Assignments
+
+--- Page 30 ---
+UNO-2362G User Manual 20
+A.1 System I/O Address and Interrupt Assignment
+Table A.1: Interrupt Assignments
+Interrupt No.  Interrupt Source
+NMI  Parity Error Detected
+IRQ 0  Interval timer
+IRQ 1  Keyboard
+IRQ 2  Interrupt from controller 2 (cascade)
+IRQ 3  COM 2
+IRQ 4  COM 1
+IRQ 8  Real-time clock
+IRQ 9  Microsoft ACPI-Compliant System
+IRQ 16      LAN 
+IRQ 17      USB
+IRQ 18 USB and graphics
+IRQ 19      HD audio and SATA
+
+--- Page 31 ---
+21 UNO-2362G User Manual
+Appendix A System Settings and Pin Assignments
+A.2 Board Connectors and Jumpers 
+There are several connectors and jumpers on the UNO-2362G board. The following
+sections tell you how to configure the UNO-2362G hardware setting. Figure A.1
+shows the locations of UNO-2362G’s connectors and jumpers. 
+Figure A.1 Connector & Jumper Locations (front)
+Table A.2: Connectors and Jumpers
+Label Function
+CN5  mPCIe Slot (default mSATA)
+CN33  mPCIe slot (support iDoor technology).
+CN8 SATA power connector
+CN9 SATA signal connector
+BH1 Battery for RTC
+CN39  Connector for RS-232 and RS-485
+JP1  System power AT or ATX selection
+CN7       SIM Card
+JP2       Clear CMOS
+
+--- Page 32 ---
+UNO-2362G User Manual 22
+A.3 RS-232 Standard Serial Port
+A.4 RS-485 Serial Port (COM2)
+Table A.3: RS-232 Serial Port Pin Assignments
+Pin Pin Name
+1DCD
+2RxD
+3TxD
+4DTR
+5GND
+6DSR
+7RTS
+8CTS
+9              RI
+15
+9
+6
+324
+78
+Table A.4: RS-485 Serial Port Pin Assignments
+Pin RS-485
+1 Data-
+2 Data+
+3 NC
+4 NC
+5 GND
+6 NC
+7 NC
+8 NC
+9 NC
+
+--- Page 33 ---
+23 UNO-2362G User Manual
+Appendix A System Settings and Pin Assignments
+A.5 Power Connector (PWR)
+A.6 USB Connector
+Table A.5: Power connector pin assignments
+Pin
+1 V+ (24+-15%)
+2 V-
+Table A.6: USB 2.0 Connector Pin Assignments
+Pin  Signal Name  Cable Color
+1 VCC  Red
+2 DATA-  White
+3 DATA+  Green
+4 GND  Black
+
+--- Page 34 ---
+UNO-2362G User Manual 24
+A.7 HDMI Display Connector
+Table A.7: HDMI Display Connector
+Pin Signal Pin Signal
+1 TMDS Data2+ 2 TMDS Data2 Shield
+3 TMDS Data2- 4 TMDS Data1+
+5 TMDS Data1 Shield 6 TMDS Data1-
+7 TMDS Data0+ 8 TMDS Data0 Shield
+9 TMDS Data0- 10 TMDS Clock+
+11 TMDS Clock Shield 12 TMDS Clock-
+13 CEC 14 Reserved
+15 SCL 16 SDA
+17 DDC/CEC/HEC Ground 18 +5 V Power (max 50 mA)
+19 Hot Plug Detect
+
+--- Page 35 ---
+25 UNO-2362G User Manual
+Appendix A System Settings and Pin Assignments
+A.8 DisplayPort Display Connector
+Table A.8: DisplayPort adaptor cable pin assignment
+Pin Signal Name
+1  ML_Lane 0 (p)
+2 GND
+3  ML_Lane 0 (n)
+4  ML_Lane 1 (p)
+5 GND
+6  ML_Lane 1 (n)
+7  ML_Lane 2 (p)
+8 GND
+9  ML_Lane 2 (n)
+10  ML_Lane 3 (p)
+11 GND
+12  ML_Lane 3 (n)
+13 CONFIG1
+14 CONFIG2
+15  AUX CH (p)
+16 GND 
+17  AUX CH (n) 
+18 Hot Plug  
+19 Return 
+20 DP_PWR
+
+--- Page 36 ---
+UNO-2362G User Manual 26
+A.9 Clear CMOS (JP2)
+This jumper is used to erase CMOS data and reset system BIOS information.
+Follow the procedures below to clear the CMOS.
+1. Turn off the system.
+2. Close jumper JP2 (2-3) to clear CMOS 
+3. Wait for 5 seconds.
+4. Close jumper JP2 (1-2). 
+5. Turn on the system. The BIOS is reset to its default setting.
+A.10 System Power AT or ATX Selection (JP1)
+UNO-2362G can set AT or ATX power mode in the bios or hardware jumper setting.
+Table A.9: JP2 Clear CMOS
+Configuration Function
+Clear CMOS
+Normal ( Default)
+123
+123
+Table A.10: AT/ATX Selection
+Configuration Function
+AT mode
+ATX mode (default)
+123
+123
+
+--- Page 37 ---
+27 UNO-2362G User Manual
+Appendix A System Settings and Pin Assignments
+
+--- Page 38 ---
+www.advantech.com
+Please verify specifications before quoting. This guide is intended for reference
+purposes only.
+All product specifications are subject to change without notice.
+No part of this publication may be reproduced in any form or by any means,
+electronic, photocopying, recording or otherwise, without prior written permis-
+sion of the publisher.
+All brand and product names are trademarks or registered trademarks of their
+respective companies.
+© Advantech Co., Ltd. 2017
+

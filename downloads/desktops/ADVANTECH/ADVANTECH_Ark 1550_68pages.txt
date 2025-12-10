@@ -1,0 +1,1331 @@
+Brand: ADVANTECH
+Model: Ark 1550
+URL: https://www.manua.ls/advantech/ark-1550/manual
+Total Pages: 68
+============================================================
+
+--- Page 1 ---
+User Manual
+ARK-1550
+Embedded IPC
+
+--- Page 2 ---
+ARK-1550 User Manual ii
+Attention!
+This package contains a hard-copy user manual in Chinese for China CCC
+certification purposes, and there is an English user manual included as a PDF
+file on the CD. Please disregard the Chinese hard copy user manual if the
+product is not to be sold and/or installed in China.
+
+--- Page 3 ---
+iii ARK-1550 User Manual
+ 
+Copyright
+The documentation and the software included with this product are copyrighted 2017
+by Advantech Co., Ltd. All rights are reserved. Advantech Co., Ltd. reserves the right
+to make improvements in the products described in this manual at any time without
+notice. No part of this manual may be reproduced, copied, translated or transmitted
+in any form or by any means without the prior written permission of Advantech Co.,
+Ltd. Information provided in this manual is intended to be accurate and reliable. How-
+ever, Advantech Co., Ltd. assumes no responsibility for its use, nor for any infringe-
+ments of the rights of third parties, which may result from its use.
+Acknowledgements
+Award is a trademark of Award Software International, Inc.
+VIA is a trademark of VIA Technologies, Inc.
+IBM, PC/AT, PS/2 and VGA are trademarks of International Business Machines Cor-
+poration.
+Intel® and Pentium® are trademarks of Intel Corporation.
+Microsoft Windows® is a registered trademark of Microsoft Corp.
+RTL is a trademark of Realtek Semi-Conductor Co., Ltd.
+ESS is a trademark of ESS Technology, Inc.
+UMC is a trademark of United Microelectronics Corporation.
+SMI is a trademark of Silicon Motion, Inc.
+Creative is a trademark of Creative Technology LTD.
+CHRONTEL is a trademark of Chrontel Inc.
+All other product names or trademarks are properties of their respective owners.
+For more information about this and other Advantech products, please visit our web-
+site at:
+http://www.advantech.com/
+http://www.advantech.com/ePlatform/
+For technical support and service, please visit our support website at:
+http://support.advantech.com.tw/support/
+Part No. 2006K15502 Edition 3
+Printed in China May 2018
+
+--- Page 4 ---
+ARK-1550 User Manual iv
+Product Warranty (2 years)
+Advantech warrants to you, the original purchaser, that each of its products will be
+free from defects in materials and workmanship for two years from the date of pur-
+chase. 
+This warranty does not apply to any products which have been repaired or altered by
+persons other than repair personnel authorized by Advantech, or which have been
+subject to misuse, abuse, accident or improper installation. Advantech assumes no
+liability under the terms of this warranty as a consequence of such events.
+Because of Advantech’s high quality-control standards and rigorous testing, most of
+our customers never need to use our repair service. If an Advantech product is defec-
+tive, it will be repaired or replaced at no charge during the warranty period. For out-
+of-warranty repairs, you will be billed according to the cost of replacement materials,
+service time and freight. Please consult your dealer for more details.
+If you think you have a defective product, follow these steps:
+1. Collect all the information about the problem encountered. (For example, CPU 
+speed, Advantech products used, other hardware and software used, etc.) Note 
+anything abnormal and list any onscreen messages you get when the problem 
+occurs.
+2. Call your dealer and describe the problem. Please have your manual, product, 
+and any helpful information readily available.
+3. If your product is diagnosed as defective, obtain an RMA (return merchandise 
+authorization) number from your dealer. This allows us to process your return 
+more quickly.
+4. Carefully pack the defective product, a fully-completed Repair and Replacement 
+Order Card and a photocopy proof of purchase date (such as your sales receipt) 
+in a shippable container. A product returned without proof of the purchase date 
+is not eligible for warranty service.
+5. Write the RMA number visibly on the outside of the package and ship it prepaid 
+to your dealer.
+Declaration of Conformity
+FCC Class A
+Note: This equipment has been tested and found to comply with the limits for a Class
+A digital device, pursuant to part 15 of the FCC Rules. These limits are designed to
+provide reasonable protection against harmful interference when the equipment is
+operated in a commercial environment. This equipment generates, uses, and can
+radiate radio frequency energy and, if not installed and used in accordance with the
+instruction manual, may cause harmful interference to radio communications. Opera-
+tion of this equipment in a residential area is likely to cause harmful interference in
+which case the user will be required to correct the interference at his own expense.
+
+--- Page 5 ---
+v ARK-1550 User Manual
+ 
+Technical Support and Assistance
+1. Visit the Advantech web site at www.advantech.com/support where you can find 
+the latest information about the product.
+2. Contact your distributor, sales representative, or Advantech's customer service 
+center for technical support if you need additional assistance. Please have the 
+following information ready before you call:
+– Product name and serial number
+– Description of your peripheral attachments
+– Description of your software (operating system, version, application software, 
+etc.)
+– A complete description of the problem
+– The exact wording of any error messages
+Warnings, Cautions and Notes
+Warning! Warnings indicate conditions, which if not observed, can cause personal 
+injury!
+Caution! Cautions are included to help you avoid damaging hardware or losing 
+data. 
+Note! Notes provide optional additional information.
+
+--- Page 6 ---
+ARK-1550 User Manual vi
+Safety Instructions
+1. Read these safety instructions carefully.
+2. Keep this User Manual for later reference.
+3. Disconnect this equipment from any AC outlet before cleaning. Use a damp 
+cloth. Do not use liquid or spray detergents for cleaning.
+4. For plug-in equipment, the power outlet socket must be located near the equip-
+ment and must be easily accessible.
+5. Keep this equipment away from humidity.
+6. Put this equipment on a reliable surface during installation. Dropping it or letting 
+it fall may cause damage.
+7. The openings on the enclosure are for air convection. Protect the equipment 
+from overheating. DO NOT COVER THE OPENINGS.
+8. Make sure the voltage of the power source is correct before connecting the 
+equipment to the power outlet.
+9. Position the power cord so that people cannot step on it. Do not place anything 
+over the power cord.
+10. All cautions and warnings on the equipment should be noted.
+11. If the equipment is not used for a long time, disconnect it from the power source 
+to avoid damage by transient overvoltage.
+12. Never pour any liquid into an opening. This may cause fire or electrical shock.
+13. Never open the equipment. For safety reasons, the equipment should be 
+opened only by qualified service personnel.
+14. If one of the following situations arises, get the equipment checked by service 
+personnel:
+The power cord or plug is damaged.
+Liquid has penetrated into the equipment.
+The equipment has been exposed to moisture.
+The equipment does not work well, or you cannot get it to work according to 
+the user's manual.
+The equipment has been dropped and damaged.
+The equipment has obvious signs of breakage.
+15. DO NOT LEAVE THIS EQUIPMENT IN AN ENVIRONMENT WHERE THE 
+STORAGE TEMPERATURE MAY GO BELOW -20° C (-4° F) OR ABOVE 60° C 
+(140° F). THIS COULD DAMAGE THE EQUIPMENT. THE EQUIPMENT 
+SHOULD BE IN A CONTROLLED ENVIRONMENT.
+16. CAUTION: DANGER OF EXPLOSION IF BATTERY IS INCORRECTLY 
+REPLACED. REPLACE ONLY WITH THE SAME OR EQUIVALENT TYPE 
+RECOMMENDED BY THE MANUFACTURER, DISCARD USED BATTERIES 
+ACCORDING TO THE MANUFACTURER'S INSTRUCTIONS.
+ATTENTION: Danger d'explosion si PILES NON CONFORMES. REPLACE 
+uniquement avec le type équivalent recommandé par le fabricant, JETER les 
+batteries usagées SELON LES INSTRUCTIONS DU FABRICANT.
+17. CAUTION: Any unverified component could cause unexpected damage. To 
+ensure the correct installation, please always use the components (ex. screws) 
+provided with the accessory box.
+ATTENTION: Tout composant non vérifiée pourrait causer des dommages inat-
+tendu. Pour garantir une installation correcte, s'il vous pla
+ît utilisez toujours les 
+composants (vis ex.) fournies avec la bo
+îte d'accessoires.
+
+--- Page 7 ---
+vii ARK-1550 User Manual
+ 
+18. CAUTION: The computer is provided with a battery-powered real-time clock cir-
+cuit. There is a danger of explosion if battery is incorrectly replaced. Replace 
+only with same or equivalent type recommended by the manufacture. Discard 
+used batteries according to the manufacturers instructions.
+ATTENTION: L'ordinateur est muni d'un circuit en temps réel de l'horloge ali-
+mentée par batterie. Il ya un danger d'explosion si la pile est remplacée de 
+fa
+çon incorrecte. Remplacez uniquement par un type identique ou équivalent 
+recommandé par le fabricant. Jetez les piles usagées selon les instructions du 
+fabricant.
+19. CAUTION: Always completely disconnect the power cord from your chassis 
+whenever you work with the hardware. Do not make connections while the 
+power is on. Sensitive electronic components can be damaged by sudden 
+power surges.
+ATTENTION: L'ordinateur est muni d'un circuit en temps réel de l'horloge ali-
+mentée par batterie. Il ya un danger d'explosion si la pile est remplacée de 
+fa
+çon incorrecte. Remplacez uniquement par un type identique ou équivalent 
+recommandé par le fabricant. Jetez les piles usagées selon les instructions du 
+fabricant.
+The sound pressure level at the operator's position according to IEC 704-1:1982 is
+no more than 70 dB (A).
+DISCLAIMER: This set of instructions is given according to IEC 704-1. Advantech
+disclaims all responsibility for the accuracy of any statements contained herein.
+Packing List
+Before installation, please ensure the following items have been shipped:
+ 1 x ARK-1550 Unit
+ 1 x China RoHS
+ 1 x Chinese User Manual for CCC
+ 1 x Warranty Card
+ 1 x Power Bracket
+ 1 x CPU Thermal Pad
+Ordering Information
+Model Number Description
+ARK-1550-S6A1E Intel Celeron DC 2980U 1.6 GHz w/HDMI+LAN+GPIO
+ARK-1550-S9A1E Intel Core i5 DC 4300U 1.9 GHz w/HDMI+LAN+GPIO
+
+--- Page 8 ---
+ARK-1550 User Manual viii
+Optional Accessories
+96PSA-A60W12R1-1 
+ AC-to-DC Adapter, DC 12V/5A 60W, with DC Jack Plug, 0 ~ 40
+°C 
+for Home and Office Use  
+96PSA-A84W12V1 
+AC-to-DC Adapter, DC 12V/7A 84W, with DC Jack Plug, 0 ~ 70
+°C 
+for Wide Temperature Use  
+1702002600   Power cable 3-pin 183 cm, USA type
+1702002605   Power cable 3-pin 183 cm, Europe type
+1702031801   Power cable 3-pin 183 cm, UK type
+1700000237  Power cable 3-pin 183 cm, PSE type
+1960064584N000   Power bracket for 1757004522-01 
+AMK-V004E   VESA mounting kit   
+AMK-R002E   DIN-rail mounting kit
+
+--- Page 9 ---
+ix ARK-1550 User Manual
+ 
+Contents
+Chapter 1 General Introduction ...........................1
+1.1 Introduction ............................................................................................... 2
+1.2 Product Features....................................................................................... 2
+1.2.1 Key Features................................................................................. 2
+1.2.2 Graphics........................................................................................ 2
+1.2.3 Power Consumption...................................................................... 2
+1.3 Hardware Specification ............................................................................. 3
+1.4 Mechanical Specification........................................................................... 4
+1.4.1 Dimensions ................................................................................... 4
+Figure 1.1 ARK-1550 Mechanical dimension drawing................. 4
+1.4.2 Weight........................................................................................... 4
+1.5 Power Requirement .................................................................................. 4
+1.5.1 System Power............................................................................... 4
+1.5.2 RTC Battery .................................................................................. 4
+1.6 Environmental Specification...................................................................... 5
+1.6.1 Operating Temperature................................................................. 5
+1.6.2 Relative Humidity .......................................................................... 5
+1.6.3 Storage Temperature.................................................................... 5
+1.6.4 Vibration during Operation ............................................................ 5
+1.6.5 Shock during Operation ................................................................ 5
+1.6.6 Safety............................................................................................ 5
+1.6.7 EMC .............................................................................................. 5
+Chapter 2 Hardware installation ..........................7
+2.1 Introduction ............................................................................................... 8
+2.2 Jumpers .................................................................................................... 8
+2.2.1 Jumper List ................................................................................... 8
+2.2.2 Jumper Settings ............................................................................ 8
+2.2.3 Auto Power On Setting (J2) .......................................................... 9
+Table 2.1: Auto Power On Setting (J2)........................................ 9
+2.2.4 LCD Power (J3) ............................................................................ 9
+Table 2.2: LCD Power (J3) .......................................................... 9
+2.2.5 PCIe & mSATA Selection (SW2) .................................................. 9
+Table 2.3: mPCIe & mSATA Selection (SW2)............................. 9
+2.2.6 Clear CMOS (SW3) .................................................................... 10
+Table 2.4: Clear CMOS (SW3) .................................................. 10
+2.3 ARK-1550 I/O Indication ......................................................................... 10
+Figure 2.1 ARK-1550 Front View............................................... 10
+Figure 2.2 ARK-1550 Rear View ............................................... 10
+2.4 ARK-1550 External I/O Connectors ........................................................ 11
+2.4.1 Power ON/OFF Button................................................................ 11
+Figure 2.3 Power ON/OFF Button ............................................. 11
+2.4.2 Power Input Connector ............................................................... 11
+Figure 2.4 Power Input Connector............................................. 11
+2.4.3 Ethernet Connector (LAN) .......................................................... 11
+Figure 2.5 Ethernet Connector .................................................. 11
+Table 2.5: Ethernet Connector Pin Assignments....................... 11
+2.4.4 VGA Connector........................................................................... 12
+Figure 2.6 VGA Connector ........................................................ 12
+Table 2.6: VGA Connector Pin Assignments............................. 12
+2.4.5 USB Connectors ......................................................................... 12
+Figure 2.7  USB Connector [Upper (black): USB2.0 / Down (blue): 
+USB 3.0] ................................................................... 12
+
+--- Page 10 ---
+ARK-1550 User Manual x
+Table 2.7: USB Connector Pin Assignments............................. 12
+2.4.6 Audio Connector (ARK-1550F only) ........................................... 13
+Figure 2.8 Line-out Connector................................................... 13
+Table 2.8: Audio Connector Pin Assignments........................... 13
+2.4.7 COM Connector.......................................................................... 13
+Figure 2.9 COM Port Connector................................................ 13
+Table 2.9: COM Connector Pin Assignments............................ 13
+2.4.8 DIO Connector............................................................................ 14
+Figure 2.10DIO Connector ......................................................... 14
+Table 2.10:DIO Connector Pin Assignments.............................. 14
+2.4.9 HDMI Connector ......................................................................... 14
+Figure 2.11HDMI Connector....................................................... 14
+Table 2.11:HDMI / Display Port Connector Pin Assignments .... 14
+2.4.10 LED Indicator .............................................................................. 15
+Figure 2.12LED Indicator............................................................ 15
+2.4.11 LVDS Connector (Optional) ........................................................ 15
+Figure 2.13LVDS Connector ...................................................... 15
+Table 2.12:LVDS Connector Pin Assignment ............................ 15
+2.4.12 LCD Backlight On/Off Control Connector (Optional) .................. 16
+Figure 2.14LCD Backlight connector.......................................... 16
+Table 2.13:LCD Backlight Connector Pin Assignment ............... 16
+2.5 Optional Peripheral Installation ............................................................... 17
+2.5.1 RAM Installation.......................................................................... 17
+2.5.2 HDD Installation.......................................................................... 18
+2.5.3 mSATA Installation ..................................................................... 19
+2.5.4 WIFI / 3G Module Installation ..................................................... 19
+Chapter 3 BIOS settings .................................... 21
+3.1 Introduction ............................................................................................. 22
+Figure 3.1 Setup program initial screen..................................... 22
+3.2 Entering Setup ........................................................................................ 23
+3.2.1 Main Setup.................................................................................. 23
+Figure 3.2 Main setup screen .................................................... 23
+3.2.2 Advanced BIOS Features Setup................................................. 24
+Figure 3.3 Advanced BIOS features setup screen .................... 24
+Figure 3.4 PCI Subsystem Settings........................................... 25
+Figure 3.5 PCI Express Device Register Settings ..................... 26
+Figure 3.6 ACPI Setting............................................................. 27
+Figure 3.7 Trusted Computing Configuration ............................ 28
+Figure 3.8 S5 RTC Wake Settings ............................................ 29
+Figure 3.9 CPU Configuration Setting ....................................... 30
+Figure 3.10SATA Configuration.................................................. 31
+Figure 3.11Intel® Rapid Technology .......................................... 32
+Figure 3.12AMT Configuration ................................................... 33
+Figure 3.13PCH-FW Configuration............................................. 34
+Figure 3.14USB Configuration.................................................... 35
+Figure 3.15Embedded Controller Configuration ......................... 36
+Figure 3.16Super IO Configuration............................................. 37
+Figure 3.17Serial Port Console Redirection ............................... 38
+3.2.3 Chipset........................................................................................ 39
+Figure 3.18Chipset Setup........................................................... 39
+Figure 3.19System Agent (SA) Configuration ............................ 40
+Figure 3.20Intel IGFX Configuration........................................... 41
+Figure 3.21LCD Control.............................................................. 42
+Figure 3.22Memory Configuration .............................................. 43
+Figure 3.23PCH-IO Configuration .............................................. 44
+Figure 3.24PCI Express Configuration ....................................... 45
+Figure 3.25USB Configuration.................................................... 46
+
+--- Page 11 ---
+xi ARK-1550 User Manual
+ 
+Figure 3.26PCH Azalia Configuration......................................... 47
+3.2.4 Boot Settings............................................................................... 48
+Figure 3.27Boot Setup Utility ...................................................... 48
+3.2.5 Security Setup............................................................................. 49
+Figure 3.28Password Configuration ........................................... 49
+3.2.6 Save & Exit ................................................................................. 50
+Figure 3.29Save & Exit ............................................................... 50
+Appendix A WDT Sample Code.............................53
+A.1 Watchdog Timer Sample Code ............................................................... 54
+
+--- Page 13 ---
+Chapter 1
+1 General Introduction
+This chapter gives background 
+information on ARK-1550 series.
+
+--- Page 14 ---
+ARK-1550 User Manual 2
+1.1 Introduction
+ARK-1550 Fanless Embedded Box PC is an application ready system platform solu-
+tion. All electronics are protected in a compact sealed aluminum case for easy inte-
+gration in the customer's own housing, or as a stand-alone application, where space
+is limited and the environment harsh. ARK-1550 is a new single board design made
+very slim. The dimensions are only 223 x 46.6 x 133.0 mm. ARK-1550 can be easily
+integrated with panel/displays within limited spaces and can be installed anywhere
+due to its slim dimensions with optional DIN rail and VESA mounting solutions.
+ARK-1550 optimizes space and offers 2*USB 2.0, 2*USB 3.0, 1*VGA, 1*HDMI,
+1*LVDS(optional), 3*COM, 1*DIO, 2*GbE LANs and 1*hot swappable 2.5" drive bay.
+Also, ARK-1550 can provide 2*MiniPCIe slot for future extensions. The ARK-1550
+compact design can provide up to 5 Grms vibration and 50G shock protections and
+wide temperature support from -20-55 °C under harsh environment.
+ARK-1550 is powered by 12V DC input and adopts the latest Intel 4th generation
+core i5 4300U DC 1.9 GHz and Celeron 2980U DC 1.6 GHz CPUs which meet most
+requirements. ARK-1550 is the ideal choice for cost/performance value for custom-
+ers.
+1.2 Product Features
+1.2.1 Key Features
+ Intel Celeron 2980U DC 1.6 GHz / Core i5 4300U DC 1.9 GHz SoC
+ Optimized spaces by slim dimension : 223 x 46.6 x 133.0 mm   
+ One Hot Swappable 2.5" SATA HDD Bay and one mSATA slot 
+ Triple Independent Displays by VGA + HDMI + LVDS (optional) 
+ Optional VESA / DIN Rail Mounting kits with lockable DC jack design 
+ Built-in 1 x full size MiniPCIe (i.e.: 3G module) and 1 x half size MiniPCIe slot 
+(i.e.: WIFI module) 
+1.2.2 Graphics
+ Chipset: Intel HD Graphics (Celeron) / Intel HD Graphics 4400 (Core i5)
+ Graphic Engine: DirectX* 11.1, OpenGL* 4.0 support. Full AVC/VC1/MPEG2 
+HW Decode   
+ VGA: DB15, resolution up to 1920 x 1200.   
+ HDMI: Lockable HDMI connector, resolution up to 4096 x 2304   
+ LVDS (Option): Resolution up to 1920 x 1200   
+1.2.3 Power Consumption
+ Burn-in test (Full Loading): 15.12W (Celeron 2980U);  28.2W (i5-4300U)
+ OS Idle mode (Typical): 5.64W (Celeron 2980U);  10.56W (i5-4300U)
+
+--- Page 15 ---
+3 ARK-1550 User Manual
+Chapter 1 General Introduction
+1.3 Hardware Specification
+ CPU: Intel® 4th generation DC Core i5 4300U 1.91GHz / DC Celeron 2980U 
+1.66 GHz
+ System Chipset: Intel® HD Graphics 4400
+ BIOS: AMI EFI 128 Mbit
+ System Memory: 1 x 204-pin SO-DIMM DDR3L 1333/1600 MHz, support up to 
+8GB
+ Display:
+– VGA: Up to 1920 x 1200 at 60 Hz
+– HDMI: Up to 4096 x 2304 at 24 Hz
+– LVDS (optional by T-PN or CTOS): Up to 1920 x 1200 at 60 Hz
+ Storage: 
+– 1 x hot swappable 2.5" SATA HDD (maximum height: 9.5 mm)
+– 1 x Full size mSATA 
+ Watchdog Timer: 255-level timer interval, setup by software
+ I/O Interface: 
+– COM: 1 x RS-232, 2 x RS-232/422/485 (BIOS selectable)
+– USB: 2 x USB 2.0, 2 x USB 3.0
+– LAN1: Intel I218 GbE, support wake on LAN
+– LAN2: Intel I210 GbE, support wake on LAN
+– DIO: 8-bit DIO 
+– Audio: Realtek ALC888S, High Definition Audio. Line-out, Mic-in, Line-in
+ Expansion: 
+– 1 x Full-size Mini PCIe slot w/ SIM holder, with SATA, PCIe and USB signal. 
+Support mSATA storage, WWAN module, WLAN module.   
+– 1 x Half-size Mini PCIe slot, with PCIe signal. Support WLAN module or 
+devices with PCIe signal.
+
+--- Page 16 ---
+ARK-1550 User Manual 4
+1.4 Mechanical Specification
+1.4.1 Dimensions
+ 223 x 46.6 x 133.0 mm (8.69" x 1.81" x 5.18")
+Figure 1.1 ARK-1550 Mechanical dimension drawing
+1.4.2 Weight
+ 1.9 kg (4.18 lbs) 
+1.5 Power Requirement
+1.5.1 System Power
+ Minimum power input: DC 12 V/5 A 60 W
+1.5.2 RTC Battery
+ Typical Voltage: 3.0 V
+ Normal discharge capacity: 210 mAh
+
+--- Page 17 ---
+5 ARK-1550 User Manual
+Chapter 1 General Introduction
+1.6 Environmental Specification
+1.6.1 Operating Temperature
+ With extended temperature SSD/ mSATA /RAM :-20 ~ 55 °C with 0.7m/s air flow 
+ With standard temperature HDD/ SSD/ mSATA/ RAM : 0 ~ 40 °C with 0.7m/s air 
+flow   
+1.6.2 Relative Humidity
+ 95% @ 40 °C (non-condensing)
+1.6.3 Storage Temperature
+ -40 ~ 85 °C (-40 ~ 185 °F)
+1.6.4 Vibration during Operation
+ With mSATA/ SSD: 5 Grms, IEC 60068-2-64, random, 5 ~ 500 Hz, 1  hr/axis 
+1.6.5 Shock during Operation
+ With mSATA/SSD: 50 G, IEC 60068-2-27, half sine, 11 ms duration   
+1.6.6 Safety
+ UL, CCC, BSMI, CB   
+1.6.7 EMC
+ CE/FCC Class A, CCC, BSMI
+
+--- Page 19 ---
+Chapter 2
+2 Hardware installation
+This chapter introduces external 
+IO and the installation of 
+ARK-1550 Hardware.
+
+--- Page 20 ---
+ARK-1550 User Manual 8
+2.1 Introduction
+The following sections show the internal jumper settings and the external connectors
+and pins assignment for applications.
+2.2 Jumpers
+2.2.1 Jumper List
+The ARK-1550 has a number of jumpers that allow you to configure your system to
+suit your application. The table below lists the functions of the various jumpers.
+2.2.2 Jumper Settings
+Cards can be configured by setting jumpers. A jumper is a metal bridge used to close
+an electric circuit. It consists of two metal pins and a small metal clip (often protected
+by a plastic cover) that slides over the pins to connect them. To close a jumper, you
+connect the pins with the clip. To open a jumper, you remove the clip. Sometimes a
+jumper will have three pins, labeled 1, 2 and 3. In this case you would connect either
+pins 1 and 2, or 2 and 3.
+The jumper settings are schematically depicted in this manual as follows.
+A pair of needle-nose pliers may be helpful when working with jumpers. If you have
+any doubts about the best hardware configuration for your application, contact your
+local distributor or sales representative before you make any changes. Generally, you
+simply need a standard cable to make most connections.
+Jumpers & Switches
+J2 Auto Power On Setting
+J3 LCD Power
+SW2 mPCIe & mSATA selection
+SW3 Clear CMOS
+
+--- Page 21 ---
+9 ARK-1550 User Manual
+Chapter 2 Hardware installation
+2.2.3 Auto Power On Setting (J2) 
+2.2.4 LCD Power (J3)
+           (1-3)*                                         (3-5)                                           (3-4)
+2.2.5 PCIe & mSATA Selection (SW2)
+                  (1 & 2)*                                 (3 & 4)                               (2 & 4)
+1
+ Some of mSATA or mPCIe modules can't be recognized correctly through the Auto
+Detect setting. We suggest you use mSATA or mPCIe setting directly if you meet any
+compatibility problems.
+Table 2.1: Auto Power On Setting (J2)
+Setting Function
+NC Power Button for Power On
+(1-2)* Auto Power On (default)
+Table 2.2: LCD Power (J3)
+Setting Function
+(1-3)* +3.3V (default)
+(3-5) +5V
+(3-4) +12V
+Table 2.3: mPCIe & mSATA Selection (SW2)
+Setting Function
+(1 & 2) mSATA
+(3 & 4) mPCIe
+(2 & 4)
+Auto Detect
+1
+ (default)
+
+--- Page 22 ---
+ARK-1550 User Manual 10
+2.2.6 Clear CMOS (SW3)
+                           (1-2)*                                                      (2-3)
+2.3 ARK-1550 I/O Indication
+Figure 2.1 ARK-1550 Front View
+Figure 2.2 ARK-1550 Rear View
+Table 2.4: Clear CMOS (SW3)
+Setting Function
+(1-2)* Normal
+(2-3) Clear CMOS
+
+--- Page 23 ---
+11 ARK-1550 User Manual
+Chapter 2 Hardware installation
+2.4 ARK-1550 External I/O Connectors
+2.4.1 Power ON/OFF Button
+ARK-1550 comes with a Power On/Off button, that support dual function of Soft
+Power -On/Off (Instant off or Delay 4 Second), and Suspend.
+Figure 2.3 Power ON/OFF Button
+2.4.2 Power Input Connector
+ARK-1550 comes with a DC-Jack header that carries 12 V
+DC
+ external power input.
+The power connector can be fixed by a bracket which is in the accessory box. The
+bracket prevents the power connector falling off.
+Figure 2.4 Power Input Connector
+2.4.3 Ethernet Connector (LAN)
+ARK-1550 provides two RJ45 LAN interface connectors, which are fully compliant
+with IEEE 802.3u 10/100/1000 Base-T CSMA/CD standards. LAN1 is equipped with
+Intel I218 GbE and LAN2 is equipped with Intel I210 GbE. The Ethernet ports use
+standard RJ-45 jack connectors with LED indicators on the front side to show Active/
+Link status and Speed status.
+Figure 2.5 Ethernet Connector
+Table 2.5: Ethernet Connector Pin Assignments
+Pin Signal Name Pin Signal Name
+1 TX+(10/100),BI_DA+(GHz) 5 BI_DC-(GHz)
+2 TX-(10/100),BI_DA-(GHz) 6 RX-(10/100),BI_DB-(GHz)
+3 RX+(10/100),BI_DB+(GHz) 7 BI_DD+(GHz)
+4 BI_DC+(GHz) 8 BI_DD-(GHz)
+18
+
+--- Page 24 ---
+ARK-1550 User Manual 12
+2.4.4 VGA Connector
+The ARK-1550 provides a high resolution VGA interface connected by a D-sub 15-
+pin connector to support a VGA CRT monitor. It supports display resolution of up to
+1920 x 1200 with 60 Hz.
+Figure 2.6 VGA Connector 
+2.4.5 USB Connectors
+The ARK-1550 provides up to four USB interface connectors – 2 x USB 2.0 & 2 x
+USB 3.0, which give complete Plug & Play. The USB interface is compliant with USB
+UHCI, Rev. 2.0 & 3.0. The USB interface supports Plug and Play, which enables you
+to connect or disconnect a device whenever you want, without turning off the com-
+puter.
+Figure 2.7  USB Connector [Upper (black): USB2.0 / Down (blue): USB 3.0]
+Table 2.6: VGA Connector Pin Assignments
+Pin Signal Name Pin Signal Name
+1Red 2 Green
+3 Blue 4 NC
+5 GND 6 GND
+7 GND 8 GND
+9NC 10GND
+11 NC 12 DDC Date
+13 H-SYNC 14 V-SYNC
+15 DDC Clock
+1
+5
+6
+11
+10
+15
+Table 2.7: USB Connector Pin Assignments
+Pin Signal Name Pin Signal Name
+1+5V 2 D-
+3D+ 4 GND
+5 SSRX- 6 SSRX+
+7 GND 8 SSTX-
+9 SSTX+ 10 +5V
+
+--- Page 25 ---
+13 ARK-1550 User Manual
+Chapter 2 Hardware installation
+2.4.6 Audio Connector (ARK-1550F only)
+ARK-1550 offers stereo audio ports by a phone jack connector of Line-out, Mic-in &
+Line-in. The audio chip controller is by Realtek ALC888, High Definition Audio.
+Figure 2.8 Line-out Connector
+2.4.7 COM Connector
+ARK-1550 provides three D-sub 9-pin connectors, which offers 1 x RS-232 & 2 x RS-
+232/422/485 serial communication ports (BIOS selectable). 
+COM 1: RS-232 
+COM 2: RS-232/422/485 
+COM3: RS-232/422/485
+Figure 2.9 COM Port Connector
+11 D- 12 D+
+13 GND
+Table 2.8: Audio Connector Pin Assignments
+Pin Audio Signal Name
+1MIC
+2 Line-In
+3 Line-Out
+Table 2.9: COM Connector Pin Assignments
+RS-232 RS-422 RS-485
+Pin Signal Name Signal Name Signal Name
+1 DCD Tx- DATA-
+2 RxD Tx+ DATA+
+3 TxD  Rx+  NC
+4 DTR  Rx-  NC
+5 GND GND GND
+6 DSR  NC  NC
+7 RTS  NC  NC
+8 CTS  NC  NC
+9 RI NC  NC
+
+--- Page 26 ---
+ARK-1550 User Manual 14
+2.4.8 DIO Connector
+ARK-1550 offers an 8-bit DIO connector and one ground pin. Each bit of DIO can be
+set as digital input or output independently. The direction of each bit can be set via
+Advantech SUSI utility.
+Figure 2.10 DIO Connector
+2.4.9 HDMI Connector
+ARK-1550 provides 1 x lockable HDMI port which resolution can support up to 4096 x
+2304 at 24 Hz.
+Figure 2.11 HDMI Connector
+Table 2.10: DIO Connector Pin Assignments
+Pin Signal Name
+1 DIO bit0
+2 DIO bit1
+3 DIO bit2
+4 DIO bit3
+5 DIO bit4
+6 DIO bit5
+7 DIO bit6
+8 DIO bit7
+9GND
+Table 2.11: HDMI / Display Port Connector Pin Assignments
+Pin Signal Name Pin Signal Name
+1 TMDS_Data2+/ DP_Data0+ 2 GND
+3TMDS_Data2−/ DP_Data0- 4 TMDS_Data1+/ DP_Data1+
+5 GND 6 TMDS_Data1−/ DP_Data1-
+7 TMDS_Data0+/ DP_Data2+ 8 GND
+9 TMDS_Data0-/ DP_Data2- 10 TMDS_Clock+/ DP_Data3+
+11 GND 12 TMDS_Clock−/ DP_Data3-
+13 NC 14 NC
+15 SCL/ AUX_CH+ 16 SDA/ GND
+17 DDC GND/ AUX_CH- 18 +5V/ Hot plug detect
+19 Hot plug detect/ Return 20 DP_PWR
+
+--- Page 27 ---
+15 ARK-1550 User Manual
+Chapter 2 Hardware installation
+2.4.10 LED Indicator
+There are two LEDs on ARK-1550 front metal face plate for indicating system status:
+PWR LED is for power status; and HDD LED is for HDD flash disk status.
+Figure 2.12 LED Indicator
+2.4.11 LVDS Connector (Optional)
+The ARK-1550 comes with a D-Sub 26-pin connector that carries LVDS signal out-
+put, and can direct connect to LVDS LCD Display via external cable. The system also
+provides a jumper J3 on the internal motherboard for selecting the LCD signal power
+of 3.3V, 5V or 12V, please refer to the jumper table of J3 to adjust it. The default set-
+ting of J3 is 3.3V.
+Figure 2.13 LVDS Connector
+Table 2.12: LVDS Connector Pin Assignment
+Pin Signal Name Pin Signal name
+1 LVDS_CLKBP 14 LVDS_CLKBM
+2GND 15LVDS_YAM0
+3 LVDS_YAP0 16 LVDS_YAM1
+4 LVDS_YAP1 17 LVDS_YAM2
+5 LVDS_YAP2 18 LVDS_CLKAM
+6 LVDS_CLKAP 19 GND
+7 3.3V, 5V or 12V 20 3.3V, 5V or 12V
+8GND 21LVDS_YAM3
+9 LVDS_YAP3 22 LVDS_YBM0
+10 LVDS_YBP0 23 LVDS_YBM1
+11 LVDS_YBP1 24 LVDS_YBM2
+12 LVDS_YBP2 25 LVDS_YBM3
+13 LVDS_YBP3 26 GND
+
+--- Page 28 ---
+ARK-1550 User Manual 16
+2.4.12 LCD Backlight On/Off Control Connector (Optional)
+ARK-1550 comes with a D-Sub 9-pin connector which provides BKLTEN signal as
+well as +12 V, +5 V and Ground Pin signals that allow the user to connect these sig-
+nals to the LCD Inverter to implement the LCD On/Off control.
+ Provides BKLTEN signal that the inverter Module requires for inverter on/off 
+control
+ Provides 12 V, 5 V as the Inverter Power Source. The additional VBR signal pin  
+could be connected to LCD’s Inverter that allows the user to achieve brightness 
+adjustment through the customer’s software utility.
+Figure 2.14 LCD Backlight connector
+Table 2.13: LCD Backlight Connector Pin Assignment
+Pin Signal name
+1+12 V
+2GND
+3 BKLTEN
+4 VBR
+5+5 V
+6 LVDS_DCLK
+7 LVDS_DDAT
+8GND
+9 Reserved
+
+--- Page 29 ---
+17 ARK-1550 User Manual
+Chapter 2 Hardware installation
+2.5 Optional Peripheral Installation
+2.5.1 RAM Installation
+1. Remove top cover screws * 4pcs and right/left side screws * 4pcs.
+2. Remove top cover and locate memory socket.
+3. Install memory. (memory is optional, not in standard shipment)
+
+--- Page 30 ---
+ARK-1550 User Manual 18
+2.5.2 HDD Installation
+1. Loosen the screws marked in red and take out the hard drive tray. 
+ 
+2. Install the hard drive on the tray (screws are included in the accessory box).
+3. Secure the screws on the hard drive tray and push the tray back into the unit.
+
+--- Page 31 ---
+19 ARK-1550 User Manual
+Chapter 2 Hardware installation
+2.5.3 mSATA Installation
+1. Remove the bottom cover screws and then remove the bottom cover.
+2. mSATA storage can be installed in the full-size mini PCIe slot marked in red. 
+(screws are included in the accessory box)
+3. Replace bottom cover and secure the bottom cover screws.
+** mSATA storage and 3G module cannot be installed at the same time.
+ 
+2.5.4 WIFI / 3G Module Installation
+1. Remove the bottom cover screws and then remove the bottom cover.
+2. The 3G module can be installed in the full-size mini PCIe slot marked in red. 
+(screws are included in accessory box)
+3. The WIFI module can be installed in the half-size mini PCIe slot marked in yel-
+low. (screws are included in the accessory box)
+4. Replace the bottom cover and secure the bottom cover screws.
+
+--- Page 33 ---
+Chapter 3
+3 BIOS settings
+This chapter introduces how to 
+set BIOS configuration data.
+
+--- Page 34 ---
+ARK-1550 User Manual 22
+3.1 Introduction
+With the AMIBIOS Setup program, you can modify BIOS settings and control the var-
+ious system features. This chapter describes the basic navigation of the ARK-1550
+BIOS setup screens. 
+Figure 3.1 Setup program initial screen
+AMI's BIOS ROM has a built-in setup program that allows users to modify the basic
+system configuration. This information is stored in battery-backed CMOS so it retains
+the setup information when the power is turned off.
+
+--- Page 35 ---
+23 ARK-1550 User Manual
+Chapter 3 BIOS settings
+3.2 Entering Setup 
+Turn on the computer and then press <F2> or <DEL> to enter the Setup menu.
+3.2.1 Main Setup 
+When you first enter the BIOS Setup Utility, you will enter the Main setup screen. You
+can always return to the Main setup screen by selecting the Main tab. There are two
+Main Setup options. They are described in this section. The Main BIOS Setup screen
+is shown below. 
+Figure 3.2 Main setup screen 
+The Main BIOS setup screen has two main frames. The left frame displays all the
+options that can be configured. Grayed-out options cannot be configured; options in
+blue can. The right frame displays the key legend. 
+Above the key legend is an area reserved for a text message. When an option is
+selected in the left frame, it is highlighted in white. Often a text message will accom-
+pany it. 
+ System Time / System Date 
+Use this option to change the system time and date. Highlight System Time or
+System Date using the <Arrow> keys. Enter new values through the keyboard.
+Press the <Tab> key or the <Arrow> keys to move between fields. The date
+must be entered in MM/DD/YY format. The time must be entered in HH:MM:SS
+format.
+
+--- Page 36 ---
+ARK-1550 User Manual 24
+3.2.2 Advanced BIOS Features Setup 
+Select the Advanced tab from the ARK-1550 setup screen to enter the Advanced
+BIOS Setup screen. You can select any of the items in the left frame of the screen,
+such as CPU Configuration, to go to the sub menu for that item. You can display an
+Advanced BIOS Setup option by highlighting it using the <Arrow> keys. All Advanced
+BIOS Setup options are described in this section. The Advanced BIOS Setup
+screens are shown below. The sub menus are described on the following pages. 
+Figure 3.3 Advanced BIOS features setup screen
+
+--- Page 37 ---
+25 ARK-1550 User Manual
+Chapter 3 BIOS settings
+3.2.2.1 PCI Subsystem Settings
+Figure 3.4 PCI Subsystem Settings
+ PCI Latency Timer
+This item allows users to program the PCI Latency timer.
+ VGA Palette Snoop
+This item allows users to enable or disable VGA Palette Snoop.
+ PERR# Generation
+This item allows users to enable or disable PERR# Generation.
+ SERR# Generation
+This item allows users to enable or disable SERR# Generation
+
+--- Page 38 ---
+ARK-1550 User Manual 26
+3.2.2.2 PCI Express Device Register Settings
+Figure 3.5 PCI Express Device Register Settings
+ Relaxed Ordering
+Enable or disable Relaxed Ordering
+ Extended Tag
+Enable or disable Extended Tag
+ No Snoop
+Enable or disable No Snoop
+ Maximum Payload
+This item allows users to set the Maximum Payload
+ Maximum Read Request
+This item allows users to set the Maximum Read Request
+ ASPM Support
+Enable or disable ASPM Support
+ Extended Synch
+Enable or disable Extended Synch
+ Link Training Retry
+This item allows users to set the Link Training Retry
+ Link Training Timeout (uS)
+This item allows users to set the Link Training Timeout (uS)
+ Unpopulated Links
+This item allows users to set the Unpopulated Links
+ Restore PCIE Registers
+Enable or disable Restore PCIE Registers
+
+--- Page 39 ---
+27 ARK-1550 User Manual
+Chapter 3 BIOS settings
+3.2.2.3 ACPI Settings 
+Figure 3.6 ACPI Setting
+ Enable ACPI Auto Configuration
+This item allows users to enable or disable BIOS ACPI auto configuration.
+ Enable Hibernation
+This item allows users to enable or disable hibernation.
+ ACPI Sleep State
+This item allows users to set the ACPI sleep state.
+ Lock Legacy Resources
+This item allows users to lock legacy devices' resources.
+ S3 Video Repost
+This item allows users to enable or disable VBIOS run after S3 resume.
+ ACPI Low Power S0 Idle
+This item allows users to enable or disable system wake on alarm event by
+Items setting.
+
+--- Page 40 ---
+ARK-1550 User Manual 28
+3.2.2.4 Trusted Computing
+Figure 3.7 Trusted Computing Configuration
+ Security Device Support
+Enable or disable BIOS support for security device.
+
+--- Page 41 ---
+29 ARK-1550 User Manual
+Chapter 3 BIOS settings
+3.2.2.5 S5 RTC Wake Settings
+Figure 3.8 S5 RTC Wake Settings
+ Wake system with fixed time
+Enable or disable system wake on alarm event
+
+--- Page 42 ---
+ARK-1550 User Manual 30
+3.2.2.6 CPU Configuration
+Figure 3.9 CPU Configuration Setting
+ Hyper Threading Technology
+This item allows users to enable or disable Intel Hyper Threading technology.
+ Active Processor Cores
+This item allows users to set how many processor cores should be active.
+ Limit CPUID Maximum
+This item allows users to limit the maximum value of CPUID.
+ Execute Disable Bit
+This item allows users to enable or disable the No-Execution page protection
+technology.
+ Intel Virtualization Technology
+This item allows users to enable or disable intel’s virtualization technology.
+ Hardware Prefetcher
+This item allows users to enable or disable the hardware prefetcher feature.
+ Adjacent Cache Line Prefetch
+This item allows users to enable or disable the adjacent cache line prefetch fea-
+ture.
+
+--- Page 43 ---
+31 ARK-1550 User Manual
+Chapter 3 BIOS settings
+3.2.2.7 SATA Configuration
+Figure 3.10 SATA Configuration
+ SATA Controller(s)
+This item allows users to enable or disable the SATA controller(s).
+ SATA Mode Selection
+This item allows users to select mode of SATA controller(s).
+ SATA Controller(s)
+This item allows users to enable or disable the SATA controller(s).
+ SATA Mode Selection
+This item allows users to select mode of SATA controller(s).
+ Aggressive LPM Support
+This item allows users to enable or disable the Aggressive LPM Support.
+ SATA Controller Speed
+This item allows users to select mode of SATA Controller Speed.
+ Serial ATA Port 1/2/3
+This item allows users to enable or disable the SATA Port.
+ Hot Plug
+This item allows users to enable or disable the Hot Plug.
+ External SATA
+This item allows users to enable or disable the External SATA.
+ SATA Device type
+This item allows users to select mode of SATA Device type.
+
+--- Page 44 ---
+ARK-1550 User Manual 32
+3.2.2.8 Intel® Rapid Start Technology
+Figure 3.11 Intel® Rapid Technology
+ Intel® Rapid Start Technology
+This item allows users to enable or disable Rapid Start Technology, if supported.
+
+--- Page 45 ---
+33 ARK-1550 User Manual
+Chapter 3 BIOS settings
+3.2.2.9 AMT Configuration
+Figure 3.12 AMT Configuration
+ Intel AMT
+This item allows users to enable or disable Intel AMT BIOS extension.
+ BIOS Hotkey Pressed
+This item allows users to enable or disable BIOS hotkey press.
+ MEBx Selection Screen
+This item allows users to enable or disable MEBx selection screen.
+ Hide Un-Configuration ME Confirmation
+This item allows users to hide un-configured ME without password confirmation
+prompt.
+ MEBx Debug Message Output
+This item allows users to enable or disable MEBx debug message.
+ Un-Configure ME
+This item allows users to un-configure ME without password.
+ Amt Wait Timer
+Set timer to wait before sending ASF_GET_BOOT_OPTIONS.
+ Disable ME
+This item allows users to enable or disable Intel ME.
+ ASF
+This item allows users to enable or disable Alert Specification Format.
+ Activate Remote Assistance Process
+This item allows users to enable or disable trigger CIRA boot.
+ USB Configure
+This item allows users to enable or disable USB configure function.
+ PET Progress
+
+--- Page 46 ---
+ARK-1550 User Manual 34
+This item allows users to enable or disable PET events progress to receive PET
+events or not.
+ AMT CIRA Timeout
+OEM defined timeout for MPS connection to be established.
+ WatchDog
+This item allows users to enable or disable WatchDog Timer.
+ OS Timer
+Set OS watchdog timer.
+ BIOS Timer
+Set BIOS watchdog timer.
+3.2.2.10 PCH-FW Configuration
+Figure 3.13 PCH-FW Configuration
+ Firmware Update Configuration
+This item allows users to enable or disable ME FW image re-flash function.
+
+--- Page 47 ---
+35 ARK-1550 User Manual
+Chapter 3 BIOS settings
+3.2.2.11 USB Configuration
+Figure 3.14 USB Configuration
+ Legacy USB Support
+Enable support for legacy USB. Auto option disables legacy support if no USB
+devices are connected.
+ USB3.0 Support
+This item allows users to enable or disable USB 3.0 support.
+ XHCI Hand-Off
+This is a workaround for the OS without XHCI hand-off support. The XHCI own-
+ership change should claim by XHCI driver.
+ EHCI Hand-Off
+This is a workaround for the OS without EHCI hand-off support. The EHCI own-
+ership change should claim by EHCI driver.
+ USB transfer time-out
+Set the time-out value for Control, Bulk, and Interrupt transfers.
+ Device reset time-out
+Set USB mass storage device Start Unit command time-out value.
+ Device power-up delay
+Set the maximum time of the device will take before it properly reports itself to
+the Host Controller. 'Auto' uses default value: for a Root port it is 100 ms, for a
+Hub port the delay is taken from Hub descriptor.
+
+--- Page 48 ---
+ARK-1550 User Manual 36
+3.2.2.12 Embedded Controller Configuration
+Figure 3.15 Embedded Controller Configuration
+ EC iManager WatchDog IRQ
+This item allows users to set the IRQ number of EC watchdog.
+ EC Power Saving Mode
+This item allows users to set board's power saving mode when off.
+ Backlight Mode
+This item allows users to set backlight Function.
+ EC Watchdog Function
+This item allows users to select EC watchdog timer.
+
+--- Page 49 ---
+37 ARK-1550 User Manual
+Chapter 3 BIOS settings
+3.2.2.13 Super IO Configuration
+Figure 3.16 Super IO Configuration
+ Serial Port 1 Configuration
+This item allows users to configure serial port 1.
+ Serial Port 2 Configuration
+This item allows users to configure serial port 2.
+ Serial Port 3 Configuration
+This item allows users to configure serial port 3.
+
+--- Page 50 ---
+ARK-1550 User Manual 38
+3.2.2.14 Serial Port Console Redirection
+Figure 3.17 Serial Port Console Redirection
+ Console Redirection
+This item allows users to enable or disable console redirection for Microsoft Win-
+dows Emergency Management Services (EMS).
+ Console Redirection
+This item allows users to configuration console redirection detail settings
+
+--- Page 51 ---
+39 ARK-1550 User Manual
+Chapter 3 BIOS settings
+3.2.3 Chipset
+Select the Chipset tab from the ARK-1550 setup screen to enter the Chipset BIOS
+Setup screen. You can display a Chipset BIOS Setup option by highlighting it using
+the <Arrow> keys. All Plug and Play BIOS Setup options are described in this sec-
+tion. The Plug and Play BIOS Setup screen is shown below.
+Figure 3.18 Chipset Setup
+
+--- Page 52 ---
+ARK-1550 User Manual 40
+3.2.3.1 System Agent (SA) Configuration
+Figure 3.19 System Agent (SA) Configuration
+ VT-d
+This item allows users to enable or disable VT-d.
+
+--- Page 53 ---
+41 ARK-1550 User Manual
+Chapter 3 BIOS settings
+ Intel IGFX Configuration
+Figure 3.20 Intel IGFX Configuration
+– Graphics Turbo IMON Current
+This item allows users to select which Graphics Turbo IMON Current.
+– Primary Display
+This item allows users to select Primary Display.
+– Internal Graphics
+This item allows users to enable or disable IGD.
+– Aperture Size
+This item allows users to select aperture size.
+– DVMT Pre-Allocated
+This item allows users to select DVMT pre-allocated memory size.
+– DVMT Total Gfx Mem
+This item allows users to select DVMT total memory size.
+– Panel Power Enable
+This item allows users to enable or disable Panel Power. Graphics Perfor-
+mance.
+– Analyzers
+This item allows users to enable or disable Graphics Performance Analyzers.
+
+--- Page 54 ---
+ARK-1550 User Manual 42
+– LCD Control
+Figure 3.21 LCD Control
+Primary IGFX Boot Display
+Select boot display device at post stage.
+LVDS
+This item allows user to enable or disable LVDS
+LCD Panel Type
+This item allows users to select panel resolution.
+
+--- Page 55 ---
+43 ARK-1550 User Manual
+Chapter 3 BIOS settings
+ Memory Configuration
+Figure 3.22 Memory Configuration
+– Memory Information
+This item shows memory configuration parameters.
+
+--- Page 56 ---
+ARK-1550 User Manual 44
+3.2.3.2 PCH-IO Configuration
+Figure 3.23 PCH-IO Configuration
+ PCI Express Clock Gating
+This item allows users to enable or disable PCI Express Clock Gating for each
+root port.
+ PCI Express Configuration
+This item allows users to configuration PCIE1~PCIE8 root port detail settings.
+ USB Configuration
+This item allows users to configuration detail of USB functions.
+ PCH Azalia Configuration
+This item allows users to configuration detail of azalia functions.
+ LAN 1/2 controller
+Enables or disables the LAN 1/2 controller.
+ Wake on LAN
+Enables or disables LAN1 wake up from sleep state.
+ LAN 1/2 PXE Rom
+This item allows users to enable or disable PXE Rom for LAN 1/2.
+ PCIE Wake from S5
+Enables or disables PCIE device wake up from S5.
+ USB Wake From S4 Support
+Enable or disable USB to wake the system from S4.
+ SLP_S4 Assertion Width
+This item allows users to set a delay of sorts.
+ Restore AC Power Loss
+This item allows users to select off, on and last state.
+
+--- Page 57 ---
+45 ARK-1550 User Manual
+Chapter 3 BIOS settings
+ PCI Express Configuration
+Figure 3.24 PCI Express Configuration
+– PCI Express Clock Gating
+This item allows users to enable or disable PCI Express Clock Gating for
+each root port.
+– DMI Link ASPM Control
+This item allows users to enable or disable the DMI Link ASPM Control.
+– DMI Link Extended Synch Control
+This item allows users to configure Mini PCI Express setting.
+– PCIe-USB Glitch W/A
+This item allows users to enable or disable PCIe-USB Glitch W/A. PCIe-USB
+Glitch W/A for bad USB device(s) connected behind PCIE/PEG Port.
+– Subtractive Decode
+This item allows users to enable or disable Subtractive Decode.
+– PCI Express Root Port 1/2/3/6
+This item allows users to configure PCI Express Root port 1/2/3/6 setting.
+
+--- Page 58 ---
+ARK-1550 User Manual 46
+ USB Configuration
+Figure 3.25 USB Configuration
+– USB Precondition
+This item allows users to enable or disable USB Precondition. Precondition
+work on the USB host controller and root ports for faster enumeration.
+– XHCI Mode
+This item allows users to select mode of operation of XHCI mode.
+– XHCI Idle L1
+This item allows users to enable or disable XHCI Idle L1. XHCIIDLE L1 can
+be set to disable for LPT-LP Ax stepping to workaround USB3 hot plug will
+fail after 1 hot plug removal.
+– BTCG
+This item allows users to enable or disable trunk clock gating.
+– USB Ports Per-Port Disable Control
+This item allows users to enable or disable USB Ports Per-Port Disable Con-
+trol. Control each of the USB ports (0~13) disabling
+
+--- Page 59 ---
+47 ARK-1550 User Manual
+Chapter 3 BIOS settings
+ PCH Azalia Configuration
+Figure 3.26 PCH Azalia Configuration
+– Azalia
+This item allows users to change Azalia settings. 
+– Control detection of the Azalia device.
+Disable- Azalia will be unconditionally Disabled
+Enabled- Azalia will be unconditionally Enabled
+Auto- Azalia will be enabled if present, disabled otherwise.
+
+--- Page 60 ---
+ARK-1550 User Manual 48
+3.2.4 Boot Settings
+Figure 3.27 Boot Setup Utility
+ Setup Prompt Timeout
+This item allows users to select the number of seconds to wait for setup activa-
+tion key.
+ Bootup NumLock State
+Select the Power-on state for Numlock.
+ Quiet Boot
+If this option is set to Disabled, the BIOS displays normal POST messages. If
+Enabled, an OEM Logo is shown instead of POST messages.
+ Boot Option #1
+This item allows users to set the system boot order.
+ Hard Drive BBS Priorities
+This item allows users to set the order of the legacy devices in this group.
+ CSM Support
+This item allows users to enable or disable CSM support.
+
+--- Page 61 ---
+49 ARK-1550 User Manual
+Chapter 3 BIOS settings
+3.2.5 Security Setup
+Figure 3.28 Password Configuration
+Select Security Setup from the MIO-5271 Setup main BIOS setup menu. All Security
+Setup options, such as password protection and virus protection are described in this
+section. To access the sub menu for the following items, select the item and press
+<Enter>:
+Change Administrator / User Password: Select this option and press <ENTER> to
+access the sub menu, and then type in the password.
+
+--- Page 62 ---
+ARK-1550 User Manual 50
+3.2.6 Save & Exit
+Figure 3.29 Save & Exit
+ Save Changes and Exit
+When users have completed system configuration, select this option to save
+changes, exit BIOS setup menu and reboot the computer if necessary to take
+effect of all system configuration parameters.
+ Discard Changes and Exit
+Select this option to quit Setup without making any permanent changes to the
+system configuration.
+– Save Changes and Reset
+When users have completed system configuration, select this option to save
+changes, exit BIOS setup menu and reboot the computer to take effect all
+system configuration parameters.
+ Discard Changes and Reset
+Select this option to quit Setup without making any permanent changes to the
+system configuration and reboot the computer.
+ Save Changes
+When users have completed system configuration, select this option to save
+changes without exit BIOS setup menu.
+ Discard Changes
+Select this option to discard any current changes and load previous system con-
+figuration.
+ Restore Defaults
+The ARK-1550 automatically configures all setup items to optimal settings when
+users select this option. Optimal Defaults are designed for maximum system
+performance, but may not work best for all computer applications. In particular,
+do not use the Optimal Defaults if the user's computer is experiencing system
+configuration problems.
+
+--- Page 63 ---
+51 ARK-1550 User Manual
+Chapter 3 BIOS settings
+ Save as User Defaults
+When users have completed system configuration, select this option to save
+changes as user defaults without exit BIOS setup menu.
+ Restore User Defaults
+The users can select this option to restore user defaults.
+ Boot Override
+This item allows users to choose boot device.
+
+--- Page 66 ---
+ARK-1550 User Manual 54
+A.1 Watchdog Timer Sample Code
+EC_Command_Port = 0x29Ah
+EC_Data_Port = 0x299h
+Write EC HW ram = 0x89
+Watch dog event flag = 0x57
+Watchdog reset delay time = 0x5E
+Reset event = 0x04
+Start WDT function = 0x28
+====================================================
+.model small
+.486p
+.stack 256
+.data
+.code
+org 100h
+.STARTup
+mov dx, EC_Command_Port
+mov al,89h ; Write EC HW ram.
+out dx,al
+mov dx, EC_Data_Port
+mov al, 5Fh ; Watchdog reset delay time low byte (5Eh is high
+byte) index.
+out dx,al
+mov dx, EC_Data_Port
+mov al, 30h ;Set 3 seconds delay time.
+out dx,al
+mov dx, EC_Command_Port
+mov al,89h ; Write EC HW ram.
+out dx,al
+mov dx, EC_ EC_Data_Port
+mov al, 57h ; Watch dog event flag.
+out dx,al
+mov dx, EC_Data_Port
+mov al, 04h ; Reset event.
+out dx,al
+mov dx, EC_Command_Port
+mov al,28h ; start WDT function.
+out dx,al
+.exit
+
+--- Page 67 ---
+55 ARK-1550 User Manual
+Appendix A WDT Sample Code
+
+--- Page 68 ---
+www.advantech.com
+Please verify specifications before quoting. This guide is intended for reference
+purposes only.
+All product specifications are subject to change without notice.
+No part of this publication may be reproduced in any form or by any means,
+electronic, photocopying, recording or otherwise, without prior written permis-
+sion of the publisher.
+All brand and product names are trademarks or registered trademarks of their
+respective companies.
+© Advantech Co., Ltd. 2017
+

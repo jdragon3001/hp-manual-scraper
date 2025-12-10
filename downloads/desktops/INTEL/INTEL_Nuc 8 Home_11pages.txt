@@ -1,0 +1,445 @@
+Brand: INTEL
+Model: Nuc 8 Home
+URL: https://www.manua.ls/intel/nuc-8-home/manual
+Total Pages: 11
+============================================================
+
+--- Page 1 ---
+User Guide for NUC8i7BEHGA, NUC8i5BEHFA and NUC8i3BEHFA 
+1 
+ 
+    
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Intel® NUC8 Enthusiast, a Mini PC with Windows® 10 – NUC8i7BEHGA 
+Intel® NUC8 Home, a Mini PC with Windows® 10 – NUC8i5BEHFA 
+Intel® NUC8 Home, a Mini PC with Windows® 10 – NUC8i3BEHFA 
+ 
+User Guide
+
+--- Page 2 ---
+User Guide for NUC8i7BEHGA, NUC8i5BEHFA and NUC8i3BEHFA 
+2 
+ 
+Before You Begin 
+ 
+  CAUTIONS 
+The steps in this guide assume you’re familiar with computer terminology and with the 
+safety practices and regulatory compliance required for using and modifying computer 
+equipment. 
+ 
+Disconnect the computer from its power source and from any network before performing any of 
+the steps described in this guide.   
+ 
+Failure to disconnect power or networks before you open the computer or perform any procedures 
+can result in personal injury and/or equipment damage.  Some circuitry on the board can continue 
+to operate even though the front panel power button is off. 
+ 
+Follow these guidelines before you begin: 
+  Always follow the steps in each procedure in the correct order. 
+  Create a log to record information about your computer, such as model, serial 
+numbers, installed options, and configuration information. 
+  Electrostatic discharge (ESD) can damage components.  Perform the procedures 
+described in this chapter only at an ESD workstation using an antistatic wrist strap and a 
+conductive foam pad. If such a station isn’t available, you can provide some ESD 
+protection by wearing an antistatic wrist strap and attaching it to a metal part of the 
+computer chassis. 
+ 
+Installation Precautions
+ 
+ 
+When you install and test the Intel NUC, observe all warnings and cautions in the installation 
+instructions. 
+ 
+To avoid injury, be careful of: 
+  Sharp pins on connectors 
+  Sharp pins on circuit boards 
+  Rough edges and sharp corners on the chassis 
+  Hot components (such as SSDs, processors, voltage regulators, and heat sinks) 
+  Damage to wires that could cause a short circuit 
+ 
+ 
+Observe Safety and Regulatory Requirements 
+If you don’t follow these instructions, you increase your safety risk and the possibility of 
+noncompliance with regional laws and regulations.
+
+--- Page 3 ---
+User Guide for NUC8i7BEHGA, NUC8i5BEHFA and NUC8i3BEHFA 
+3 
+ 
+This guide tells you how to: 
+ 
+•
+ 
+Upgrade memory (RAM) 
+•
+ 
+Change/install an M.2 SSD 
+•
+ 
+Change/install a 2.5-inch drive 
+•
+ 
+Use a VESA mount bracket 
+•
+ 
+Connect power 
+•
+ 
+Set up Microsoft® Windows® 10 
+•
+ 
+Install the latest device drivers and software 
+•
+ 
+Recover the operating system 
+ 
+Open the Chassis 
+ 
+Unscrew the four corner screws on the bottom of the chassis and lift the cover. 
+ 
+ 
+Upgrade System Memory
+ 
+ 
+  The Intel NUC Mini PC NUC8i7BEHGA have two 260-pin DDR4 SO-DIMM sockets, pre-
+installed with one 8GB DDR4 2400 MHz SO-DIMM. 
+ 
+  The Intel NUC Mini PC NUC8i5BEHFA and NUC8i3BEHFA have two 260-pin DDR4 SO-
+DIMM sockets, pre-installed with one 4GB DDR4 2400 MHz SO-DIMM. 
+ 
+ 
+To upgrade memory, be sure to select memory modules that meet these requirements:  
+  1.2V low voltage memory 
+  2400 MHz SO-DIMMs  
+  Non-ECC
+
+--- Page 4 ---
+User Guide for NUC8i7BEHGA, NUC8i5BEHFA and NUC8i3BEHFA 
+4 
+ 
+ 
+Find compatible memory modules in the Intel® Product Compatibility Tool. 
+  NUC8i7BEHGA 
+  NUC8i5BEHFA 
+  NUC8i3BEHFA 
+NOTE 
+If you plan to install only one memory module, install it in the lower memory 
+socket. 
+ 
+To upgrade or add memory, follow these steps: 
+ 
+1.  Observe the precautions in "Before You Begin" on page 2. 
+2.  Turn off all peripheral devices connected to the computer.  Turn off the computer and 
+disconnect the power cord. 
+3.  Remove the computer’s bottom chassis cover. 
+ 
+Upgrade to different memory 
+a.  Remove the pre-installed memory module 
+i.  Gently spread the retaining clips at each end of the memory socket, which 
+causes the module to pop out of the socket (C). 
+ii.  Holding the module by the edges, lift it away from the socket, and 
+store it in an anti-static package. 
+b.  Install the new memory module 
+i.  Align the small space at the bottom edge of the memory module with 
+the key in the socket. 
+ii.  Insert the bottom edge of the module at a 45 degree angle into the 
+socket (A). 
+iii.  When the module is inserted, push down on the outer edges of the 
+module until the retaining clips snap into place (B). Make sure the 
+clips are firmly in place (C). 
+ 
+ 
+ 
+Install an additional memory module 
+a.  Align the small space at the bottom edge of the memory module with the key on the 
+socket. 
+b.  Insert the bottom edge of the module at a 45 degree angle into the socket (A). 
+c.  When the module is inserted, push down on the outer edges of the module 
+until the retaining clips snap into place (B). Make sure the clips are firmly in
+
+--- Page 5 ---
+User Guide for NUC8i7BEHGA, NUC8i5BEHFA and NUC8i3BEHFA 
+5 
+ 
+place (C). 
+ 
+4.  Reinstall and reconnect any parts you removed or disconnected to reach the memory 
+sockets. 
+5.   Replace the computer’s cover and reconnect the power cord. 
+ 
+ 
+Changing an M.2 SSD or Intel® Optane™ Memory Module
+ 
+ 
+  The Intel NUC Mini PC NUC8i7BEHGA support an 80mm or 42mm m.2 SSD, preinstalled 
+with one 32GB Intel Optane Memory. 
+ 
+  The Intel NUC Mini PC NUC8i5BEHFA and NUC8i3BEHFA support an 80mm or 42mm m.2, 
+preinstalled with one 16GB Intel Optane Memory. 
+ 
+ 
+Find compatible M.2 SSDs in the Intel® Product Compatibility Tool. 
+  NUC8i7BEHGA 
+  NUC8i5BEHFA 
+  NUC8i3BEHFA 
+ 
+ 
+NOTE 
+Before changing the Intel Optane memory module, it needs to be disabled. Follow 
+Removing Intel Optane Memory on this page first, before taking the module out. 
+ 
+To Change an M.2 SSD: 
+ 
+1.  Remove the small silver screw from the 80mm or 42mm metal standoff on the board (A). 
+ 
+2.  Remove the pre-installed SSD/Intel Optane Memory from the connector.  
+ 
+3.  Align the space at the bottom of the new M.2 SSD to the key on the connector. 
+ 
+4.  Insert the bottom edge of the M.2 SSD into the connector (B). 
+ 
+5.  Secure the card to the standoff with the small silver screw (C).
+
+--- Page 6 ---
+User Guide for NUC8i7BEHGA, NUC8i5BEHFA and NUC8i3BEHFA 
+6 
+ 
+ 
+ 
+ 
+Changing a 2.5” SSD or Hard Drive
+ 
+ 
+ 
+  The Intel NUC Mini PC NUC8i7BEHGA support an additional 2.5” Solid State Drive (SSD) or 
+Hard Disk Drive (HDD), pre-installed with one 2TB HDD. 
+ 
+  The Intel NUC Mini PC NUC8i5BEHFA and NUC8i3BEHFA support an additional 2.5” Solid 
+State Drive (SSD) or Hard Disk Drive (HDD), pre-installed with one 1TB HDD. 
+ 
+ 
+Find compatible 2.5” drives in the Intel Product Compatibility Tool. 
+  NUC8i7BEHGA 
+  NUC8i5BEHFA 
+  NUC8i3BEHFA 
+ 
+1.  Unscrew the four screws holding the current drive in the bay. 
+ 
+2.  Remove the pre-installed drive from the drive bay. 
+ 
+3.  Slide the new 2.5” drive into the drive bay, ensuring the SATA connectors are fully seated into 
+the connectors of the SATA daughter card (A).
+
+--- Page 7 ---
+User Guide for NUC8i7BEHGA, NUC8i5BEHFA and NUC8i3BEHFA 
+7 
+ 
+ 
+ 
+ 
+ 
+4.  Secure the drive into the drive bay with the four screws that were used in step 1. Set the drive 
+bay bracket down inside the chassis (C). 
+ 
+ 
+Close the Chassis
+ 
+ 
+After all components have been installed, close the Intel NUC chassis. Intel recommends this be 
+done by hand with a screwdriver to avoid over-tightening and possibly damaging the screws. 
+ 
+ 
+ 
+ 
+Attach and Use the VESA Bracket (Optional) 
+ 
+Follow these instructions to attach and use the VESA mount bracket:
+
+--- Page 8 ---
+User Guide for NUC8i7BEHGA, NUC8i5BEHFA and NUC8i3BEHFA 
+8 
+ 
+1.  Using the four small black screws that were included in the box, attach the VESA bracket to 
+the back of the monitor or TV. 
+ 
+ 
+ 
+2.  Attach the two slightly larger black screws to the bottom chassis cover of the Intel NUC. 
+ 
+ 
+ 
+3.  Slide the Intel NUC onto the VESA mount bracket.
+
+--- Page 9 ---
+User Guide for NUC8i7BEHGA, NUC8i5BEHFA and NUC8i3BEHFA 
+9 
+ 
+Connect Power 
+Each Intel NUC model includes either a region-specific AC power cord or no AC power cord (only the 
+power adapter).  
+  
+Product codes  
+Power cord type  
+BOXNUC8i7BEHGA 
+BOXNUC8i5BEHFA 
+BOXNUC8i3BEHFA 
+ 
+No power cord included. An AC power cord needs to be purchased 
+separately. Power cords are available at many Internet sites for use in 
+multiple countries. The connector on the power adapter is a C5 type 
+connector.  
+  
+BOXNUC8i7BEHGA1 
+BOXNUC8i5BEHFA1 
+BOXNUC8i3BEHFA1 
+US power cord included.  
+BOXNUC8i7BEHGA2 
+BOXNUC8i5BEHFA2 
+BOXNUC8i3BEHFA2 
+EU power cord included.  
+BOXNUC8i7BEHGA3 
+BOXNUC8i5BEHFA3 
+BOXNUC8i3BEHFA3 
+UK power cord included.  
+BOXNUC8i7BEHGA4 
+BOXNUC8i5BEHFA4 
+BOXNUC8i3BEHFA4 
+Australia/New Zealand power cord included.  
+  
+Connect AC power.
+
+--- Page 10 ---
+User Guide for NUC8i7BEHGA, NUC8i5BEHFA and NUC8i3BEHFA 
+10 
+ 
+Set Up Microsoft® Windows® 10 
+ 
+Microsoft Windows 10 is already installed on the Intel NUC. The first time you start the computer, 
+you are guided through the Windows 10 setup steps, including: 
+ 
+  Selecting your region and language.  
+  Accepting the Microsoft Windows license terms.  
+  Personalizing Windows and assign a PC Name.  
+  "Get Online" dialog to pick a wireless network (this step is optional).  
+  Choosing Express Settings or Customize.  
+  Assigning a User Name and Password.  
+ 
+Reinstalling the Operating System 
+If you upgrade or replace the computer’s drive, you may need to install a new version of the 
+operating system. See these resources: 
+  Supported Operating Systems 
+  Windows Setup Guide 
+ 
+Install the Latest Device Drivers and Software 
+ 
+Here are the options for keeping device drivers current:  
+  Allow the Intel® Driver & Support Assistant (Intel® DSA) to detect out-of-date drivers 
+  Manually download drivers, BIOS, and software from Download Center. 
+ 
+  NUC8i7BEHGA 
+  NUC8i5BEHFA 
+  NUC8i3BEHFA 
+ 
+ 
+The following device drivers and software are available. 
+  Bluetooth 
+  Chipset  
+  CIR (Infrared) 
+  Graphics  
+  Intel® ME  
+  Intel® Rapid Storage Technology  
+  Intel® Ready Mode Technology  
+  Intel® Software Guard Extensions (Intel® SGX) 
+  LAN (wired and wireless)  
+  Realtek Audio 
+  Realtek Card Reader  
+  Serial IO 
+  Thunderbolt 
+ 
+Operating System Recovery 
+ 
+There’s a Windows recovery partition on the Intel NUC. You can use this partition to Refresh, Reset, 
+or Restore Windows. Here is what each of these actions do:
+
+--- Page 11 ---
+User Guide for NUC8i7BEHGA, NUC8i5BEHFA and NUC8i3BEHFA 
+11 
+ 
+ 
+Refresh  
+ 
+If your PC isn't performing as well as it once did, and you don't know why, you 
+can refresh your PC. This action doesn’t delete any of your personal files or 
+change your settings. Refresh does the following: 
+ 
+  Files and personalization settings won’t change.  
+  PC settings are changed back to their defaults.  
+  Apps from the Windows Store are kept.  
+  Apps installed from disks or websites are removed.  
+  List of removed apps is saved on the desktop. 
+ 
+Reset  
+ 
+If you want to recycle your PC, give it away, or start over with it, you can reset 
+it completely. This process removes everything. Reset does the following: 
+ 
+  All personal files and apps are removed.  
+  PC settings are changed back to their defaults.  
+  Windows is reinstalled. 
+ 
+Restore 
+If a recently installed app or driver is causing problems with your PC, you can 
+restore Windows back to an earlier point in time, called a restore point. 
+System Restore doesn’t change your personal files, but it can remove recently 
+installed apps and drivers. 
+ 
+ 
+ 
+Caution - Before performing a Refresh or Reset: 
+ 
+  Make sure to back up all personal data to external storage.  
+  Remove SD card from the card slot, if one is inserted. 
+  
+ To access the recovery media: 
+ 
+If Windows starts 
+ 
+From Windows Start, type Recovery and select Recovery 
+Options.  
+ 
+See Recovery options in Windows 10 for complete details on 
+how to use the recovery options. 
+ 
+If Windows doesn’t start 
+The recovery process should automatically start. If Recovery 
+doesn’t automatically start, you can try to initiate it as follows: 
+ 
+1.  Press F8 during boot, when you see the prompt “F8 to 
+Activate Windows 8.1/10 Recovery Mode”.  
+2.  Follow the recovery steps.
+

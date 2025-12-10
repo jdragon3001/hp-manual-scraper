@@ -1,0 +1,657 @@
+Brand: ECS
+Model: Liva X
+URL: https://www.manua.ls/ecs/liva-x/manual
+Total Pages: 16
+============================================================
+
+--- Page 1 ---
+Copyright © Elitegroup Computer System. All Rights Reserved       LIVAX 
+ 
+ 
+ 
+ 
+ 
+LIVA  X 
+UBUNTU INSTALLATION GUIDE 
+Version 1.0 
+01/30/2016
+
+--- Page 2 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 2 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+REVISION HISTORY   
+VERSION 
+REVISION HISTORY 
+DATE 
+AUTHOR 
+1.0 
+First version to release 
+2016-01-30 
+Taylor Huang
+
+--- Page 3 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 3 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+  Content 
+REVISION HISTORY ............................................................................................................................. 2 
+1.  INTRODUCTION ......................................................................................................................... 4 
+1.1.  OVERALL INSTALLATION PROCEDURE ............................................................................................... 4 
+2.  DOWNLOAD AND INSTALL UBUNTU OS ..................................................................................... 5 
+2.1.  DOWNLOAD UBUNTU 14.04.3 LTS 64-BIT ...................................................................................... 5 
+2.2.  INSTALL UBUNTU OS .................................................................................................................... 5 
+2.3.  IGNORE INSTALLING WARNING ....................................................................................................... 5 
+3.  GFX DRIVER ............................................................................................................................... 7 
+3.1.  REQUIREMENTS ........................................................................................................................... 7 
+3.2.  BUILD AND INSTALL ...................................................................................................................... 7 
+a.  Libvdpau .................................................................................................................................. 8 
+b.  Libva ........................................................................................................................................ 8 
+c.  vaapi-intel-driver ..................................................................................................................... 9 
+d.  Cairo ........................................................................................................................................ 9 
+e.  Libdrm ................................................................................................................................... 10 
+f.  Mesa ..................................................................................................................................... 11 
+g.  Xorg-server ............................................................................................................................ 13 
+3.3.  REINSTALL GFX DRIVER ............................................................................................................... 14 
+3.4.  REVERT GFX DRIVER ................................................................................................................... 15 
+4.  WIFI/BT DRIVER ....................................................................................................................... 16 
+4.1.  INSTALL / UNINSTALL WIFI DRIVER ................................................................................................ 16 
+a.  Build & install ........................................................................................................................ 16 
+b.  Uninstall ................................................................................................................................ 16 
+4.2.  INSTALL /UNINSTALL BT DRIVER ................................................................................................... 16 
+a.  Build & install ........................................................................................................................ 16 
+b.  uninstall ................................................................................................................................. 16
+
+--- Page 4 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 4 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+1.  Introduction 
+This goal of document is to provide information and instructions to people who want 
+to install Ubuntu on LivaX. The information covered here mainly is relevant to 
+Ubuntu 14.04.3 LTS. 
+ 
+1.1.   Overall Installation Procedure 
+  Download and Install Ubuntu OS 
+  Install GFX Driver 
+  Install WIFI/BT Driver
+
+--- Page 5 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 5 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+2.  Download and Install Ubuntu OS 
+Ubuntu is a Debian-based Linux operating system and distribution for personal 
+computers, smartphones and network servers. You can free download and 
+install desktop distribution of Ubuntu on LivaX. Here are the installation 
+instructions of ubuntu 14.04.3 LTS. 
+ 
+2.1.   Download Ubuntu 14.04.3 LTS 64-bit 
+The ISO file can be downloaded from Ubuntu Official Website. 
+http://www.ubuntu.com/download/desktop   
+In the downloading page, find Ubuntu 14.04.3 LTS and choose "64bit – 
+recommended" to download. 
+ 
+2.2.   Install Ubuntu OS 
+Visit Ubuntu Official Website to get the Ubuntu installation guide: 
+https://help.ubuntu.com/   
+   
+There are two ways to burn the Ubuntu image into a USB disk : 
+A.  Recommended to burn the Ubuntu image into a USB disk with Universal 
+USB Installer. 
+B.  Use Linux command to burn Ubuntu image into a USB disk. 
+$  su 
+#    fdisk –l        (to make sure USB disk path) 
+#    dd if=/path/ubuntu-14.04.3-desktop-amd64.iso of=/dev/sdx 
+Note: The image must be written to the whole-disk device and not a partition, e.g. 
+/dev/sdb and not /dev/sdb1. Do not use tools like unetbootin which alter the image. 
+ 
+2.3.   Ignore Installing Warning 
+Once warning dialog appears like following picture during installation. You can 
+press “Ignore” buttons to continue installation. The problem is a bug on Ubuntu 
+14.04 when Ubuntu is installed on eMMC. During installation, Ubuntu will scan 
+all the available partitions. However, /dev/mmcblk0rpmb is special partitions
+
+--- Page 6 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 6 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+for secure data on eMMC and cannot be accessed via normal emmc command. 
+Thus, the popup warning will show up.   
+Ubuntu 15.10 already skip RPMB partition to fix the problem.
+
+--- Page 7 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 7 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+3.  GFX Driver 
+Intel has a long history of producing or commissioning open source drivers for 
+its graphics chips. There provide integration of required graphic driver on LivaX.   
+The version of driver that LivaX need to be installed as follows:   
+  Libvdpau -1.1-1 
+  Libva - 1.6.1 
+  vaapi-intel-driver - 1.6.1 
+  Cairo - 1.14.2 
+  Libdrm - 2.4.64 
+  Mesa - 11.0.2 
+  Xorg-server - 1.17.2 
+ 
+There provides two scripts "liva-graphic.sh" and "liva-graphic-e.sh" : 
+  "liva-graphic.sh" : Download the required version of driver. Then Build and 
+install GFX driver on ubuntu 14.04.3. It should be executed with 
+"mesa.diff" and "xorg-server.diff" diff files. 
+  "liva-graphic-e.sh" : Download and install GFX driver for reverting to 
+generated version. 
+The GFX script and diff file download website as following link:   
+http://www.ecs.com.tw/ECSWebSite/Product/Product_LIVA_DOWNLOAD.aspx
+?DetailID=1593&LanID=0 
+Enter LIVA X download page to download GFX script & diff files. 
+ 
+3.1. Requirements 
+To build GFX driver, do following commands first. 
+$ sudo apt-get update 
+$ sudo apt-get install gcc make binutils libncurses5-dev 
+ 
+3.2. Build and Install 
+Execute "liva-graphic.sh" for building and installing drivers. Before executing 
+script, make sure "mesa.diff","xorg-server.diff" and "liva-graphic.sh" in the
+
+--- Page 8 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 8 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+same folder. Entry to scripts download folder and Run the script via following 
+commands. 
+$ sudo chmod a+x liva-graphic.sh 
+$ ./liva-graphic.sh 
+ 
+If executing scripts that ECS provides successfully means already update GFX 
+driver. Otherwise show more details of GFX driver as following:   
+a.  Libvdpau 
+  Installation info of Libvdpau is in following figure, one of shown 
+version that needs to be installed. 
+ 
+Update version for Ubuntu 
+14.04.3 
+Generated version of Ubuntu 
+14.04.3 
+version 
+Libvdpau – 1.1-1 
+Libvdpau – 0.7-1 
+Install 
+libvdpau-dev_1.1-1ubuntu1_amd6
+4.deb 
+libvdpau1_1.1-1ubuntu1_amd64.d
+eb 
+libvdpau-doc_1.1-1ubuntu1_all.de
+b 
+libvdpau-dev_0.7-1ubuntu0.1_amd64.d
+eb 
+libvdpau1_0.7-1ubuntu0.1_amd64.deb 
+libvdpau-doc_0.7-1ubuntu0.1_all.deb 
+ 
+  If you download needed files, entry to download folder and run the 
+following commands :   
+$ sudo dpkg –i *.deb 
+$ sudo apt-get install -f 
+ 
+b.  Libva 
+  Installation info of Libva is in following figure, one of shown version 
+that needs to be installed. 
+ 
+Update version for Ubuntu 
+14.04.3 
+Generated version of Ubuntu 
+14.04.3 
+version 
+Libva –1.6.1-1 
+Libva –1.3.0-2 
+Install 
+libva-dev_1.6.1-1_amd64.deb 
+libva-drm1_1.6.1-1_amd64.deb 
+libva-dev_1.3.0-2_amd64.deb 
+libva-drm1_1.3.0-2_amd64.deb
+
+--- Page 9 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 9 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+libva-egl1_1.6.1-1_amd64.deb 
+libva-glx1_1.6.1-1_amd64.deb 
+libva-x11-1_1.6.1-1_amd64.deb 
+libva-tpi1_1.6.1-1_amd64.deb 
+libva1_1.6.1-1_amd64.deb 
+libva-wayland1_1.6.1-1_amd64.de
+b 
+va-driver-all_1.6.1-1_amd64.deb 
+vainfo_1.6.1-1_amd64.deb 
+vdpau-va-driver_0.7.4-4_amd64.de
+b 
+libva-egl1_1.3.0-2_amd64.deb 
+libva-glx1_1.3.0-2_amd64.deb 
+libva-x11-1_1.3.0-2_amd64.deb 
+llibva-tpi1_1.3.0-2_amd64.deb 
+libva1_1.3.0-2_amd64.deb 
+libva-wayland1_1.3.0-2_amd64.deb 
+vainfo_1.3.0-2_amd64.deb 
+vdpau-va-driver_0.7.3-2ubuntu1.2_am
+d64.deb 
+ 
+  If you download needed files, entry to download folder and run the 
+following commands :   
+$ sudo dpkg –i *.deb 
+$ sudo apt-get install -f 
+ 
+c.  vaapi-intel-driver 
+  Installation info of vaapi-intel-driver is in following figure, one of 
+shown version that needs to be installed. 
+ 
+Update version for Ubuntu 
+14.04.3 
+Generated version of Ubuntu 
+14.04.3 
+version 
+vaapi-intel-driver –1.6.1-1 
+vaapi-intel-driver –1.3.0-1 
+Install 
+i965-va-driver_1.6.1-1_amd64.deb 
+i965-va-driver_1.3.0-1ubuntu1_amd64.
+deb 
+ 
+  If you download needed files, entry to download folder and run the 
+following commands :   
+$ sudo dpkg –i *.deb 
+$ sudo apt-get install -f 
+ 
+d.  Cairo 
+  Installation info of Cairo is in following figure, one of shown version 
+that needs to be installed.
+
+--- Page 10 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 10 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+ 
+Update version for Ubuntu 
+14.04.3 
+Generated version of Ubuntu 
+14.04.3 
+version 
+Cairo –1.14.2-2 
+Cairo –1.13.0~20140204 
+Install 
+libcairo2-dev_1.14.2-2ubuntu2_am
+d64.deb 
+libcairo-gobject2_1.14.2-2ubuntu2
+_amd64.deb 
+libcairo2-doc_1.14.2-2ubuntu2_am
+d64.deb 
+libcairo2_1.14.2-2ubuntu2_amd64.
+deb 
+libcairo-script-interpreter2_1.14.2-
+2ubuntu2_amd64.deb 
+cairo-perf-utils_1.14.2-2ubuntu2_a
+md64.deb 
+libcairo2-dev_1.13.0~20140204-0ubunt
+u1.1_amd64.deb 
+libcairo-gobject2_1.13.0~20140204-0u
+buntu1.1_amd64.deb 
+libcairo2-doc_1.13.0~20140204-0ubunt
+u1.1_all.deb 
+libcairo2_1.13.0~20140204-0ubuntu1.1
+_amd64.deb 
+libcairo-script-interpreter2_1.13.0~201
+40204-0ubuntu1.1_amd64.deb 
+cairo-perf-utils_1.13.0~20140204-0ubu
+ntu1.1_amd64.deb 
+ 
+  If you download needed files, entry to download folder and run the 
+following commands:   
+$ sudo dpkg –i *.deb 
+$ sudo apt-get install -f 
+ 
+e.  Libdrm 
+To build Libdrm, do following commands first. 
+$ sudo apt-get build-dep libdrm 
+$ sudo apt-get install xutils-dev 
+ 
+  Update libdrm that must to rebuilt via following commands: 
+$ git clone https://anonscm.debian.org/git/pkg-xorg/lib/libdrm.git 
+$ cd libdrm && git checkout libdrm-2.4.64-1 -b libdrm-2.4.64-1 
+$ dpkg-buildpackage -uc -us -b -rfakeroot -j4 
+ 
+Removing unnecessary files and only remaining installation files 
+required via following commands. 
+$ rm *dbg* 
+$ rm *.changes
+
+--- Page 11 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 11 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+$ rm *.udeb 
+$ rm *.dsc 
+ 
+Entry to compiled .deb files folder and install them via following 
+commands. 
+$ sudo dpkg -i *.deb 
+$ sudo apt-get install -f 
+ 
+  Installation info of Libdrm is in following figure, one of shown version 
+that needs to be installed. 
+ 
+Update version for Ubuntu 
+14.04.3 
+Generated version of Ubuntu 
+14.04.3 
+version 
+Libdrm –2.4.64-1 
+Libdrm –2.4.60-2 
+Install 
+libdrm-intel1_2.4.64-1_amd64.deb 
+libdrm2_2.4.64-1_amd64.deb 
+libdrm-nouveau2_2.4.64-1_amd64.
+deb 
+libdrm-amdgpu1_2.4.64-1_amd64.
+deb 
+libdrm-radeon1_2.4.64-1_amd64.d
+eb 
+libdrm-dev_2.4.64-1_amd64.deb 
+libdrm-intel1_2.4.60-2~ubuntu14.04.1_
+amd64.deb 
+libdrm2_2.4.60-2~ubuntu14.04.1_amd
+64.deb 
+libdrm-nouveau2_2.4.60-2~ubuntu14.0
+4.1_amd64.deb 
+libdrm-radeon1_2.4.60-2~ubuntu14.04
+.1_amd64.deb 
+libdrm-dev_2.4.60-2~ubuntu14.04.1_a
+md64.deb 
+ 
+  Revert to generated version of Libdrm and download needed files, 
+entry to download folder and run the following commands:   
+$ sudo dpkg –i *.deb 
+$ sudo apt-get install -f 
+ 
+f.  Mesa 
+  Update Mesa that must to rebuilt via following commands with diff 
+file "mesa.diff": 
+$ git clone https://anonscm.debian.org/git/pkg-xorg/lib/mesa.git 
+$ cd mesa && git checkout 
+cd59ba3ade0e24c3b378402e56779db88aa8bf0e -b 11.0.2-1ubuntu1 
+$ patch -p1 < mesa.diff (make sure that mesa.diff is in the mesa folder)
+
+--- Page 12 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 12 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+$ dpkg-buildpackage -uc -us -b -rfakeroot -j4 
+ 
+Removing unnecessary files and only remaining installation files 
+required via following commands. 
+$ rm *dbg* 
+$ rm *.changes 
+$ rm *.udeb 
+$ rm *.dsc 
+ 
+ Entry to compiled .deb files folder and install them via following 
+commands. 
+$ sudo sudo dpkg -i *.deb 
+$ sudo apt-get install -f 
+ 
+  Installation info of Mesa is in following figure, one of shown version 
+that needs to be installed. 
+ 
+Update version for Ubuntu 
+14.04.3 
+Generated version of Ubuntu 
+14.04.3 
+version 
+Mesa –11.0.2-1 
+Mesa –10.5.9-2 
+Install 
+libegl1-mesa-dev-lts-vivid_11.0.2-1
+ubuntu1_amd64.deb 
+libegl1-mesa-lts-vivid_11.0.2-1ubu
+ntu1_amd64.deb 
+libgbm1-lts-vivid_11.0.2-1ubuntu1
+_amd64.deb 
+libgbm-dev-lts-vivid_11.0.2-1ubunt
+u1_amd64.deb 
+libgl1-mesa-dev-lts-vivid_11.0.2-1u
+buntu1_amd64.deb 
+libgl1-mesa-dri-lts-vivid_11.0.2-1ub
+untu1_amd64.deb 
+libgl1-mesa-glx-lts-vivid_11.0.2-1ub
+untu1_amd64.deb 
+libglapi-mesa-lts-vivid_11.0.2-1ubu
+ntu1_amd64.deb 
+libgles1-mesa-dev-lts-vivid_11.0.2-
+libegl1-mesa-lts-vivid_10.5.9-2ubuntu1
+~trusty2_amd64.deb 
+libegl1-mesa-dev-lts-vivid_10.5.9-2ubu
+ntu1~trusty2_amd64.deb 
+libgbm1-lts-vivid_10.5.9-2ubuntu1~trus
+ty2_amd64.deb 
+libgbm-dev-lts-vivid_10.5.9-2ubuntu1~t
+rusty2_amd64.deb 
+libgl1-mesa-dev-lts-vivid_10.5.9-2ubun
+tu1~trusty2_amd64.deb 
+libgl1-mesa-dri-lts-vivid_10.5.9-2ubunt
+u1~trusty2_amd64.deb 
+libgl1-mesa-glx-lts-vivid_10.5.9-2ubunt
+u1~trusty2_amd64.deb 
+libglapi-mesa-lts-vivid_10.5.9-2ubuntu1
+~trusty2_amd64.deb 
+libgles1-mesa-dev-lts-vivid_10.5.9-2ub
+
+--- Page 13 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 13 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+1ubuntu1_amd64.deb 
+libgles1-mesa-lts-vivid_11.0.2-1ubu
+ntu1_amd64.deb 
+libgles2-mesa-dev-lts-vivid_11.0.2-
+1ubuntu1_amd64.deb 
+libgles2-mesa-lts-vivid_11.0.2-1ubu
+ntu1_amd64.deb 
+libwayland-egl1-mesa-lts-vivid_11.
+0.2-1ubuntu1_amd64.deb 
+libxatracker2-lts-vivid_11.0.2-1ubu
+ntu1_amd64.deb 
+libxatracker-dev-lts-vivid_11.0.2-1u
+buntu1_amd64.deb 
+mesa-common-dev-lts-vivid_11.0.2
+-1ubuntu1_amd64.deb 
+mesa-vdpau-drivers-lts-vivid_11.0.
+2-1ubuntu1_amd64.deb 
+untu1~trusty2_amd64.deb 
+libgles1-mesa-lts-vivid_10.5.9-2ubuntu
+1~trusty2_amd64.deb 
+libgles2-mesa-dev-lts-vivid_10.5.9-2ub
+untu1~trusty2_amd64.deb 
+libgles2-mesa-lts-vivid_10.5.9-2ubuntu
+1~trusty2_amd64.deb 
+libwayland-egl1-mesa-lts-vivid_10.5.9-2
+ubuntu1~trusty2_amd64.deb 
+libxatracker2-lts-vivid_10.5.9-2ubuntu1
+~trusty2_amd64.deb 
+libxatracker-dev-lts-vivid_10.5.9-2ubun
+tu1~trusty2_amd64.deb 
+mesa-common-dev-lts-vivid_10.5.9-2u
+buntu1~trusty2_amd64.deb 
+mesa-vdpau-drivers-lts-vivid_10.5.9-2u
+buntu1~trusty2_amd64.deb 
+ 
+  Revert to generated version of Mesa and download needed files, 
+entry to download folder and run the following commands:   
+$ sudo dpkg –i *.deb 
+$ sudo apt-get install -f 
+ 
+g.  Xorg-server 
+  Update xorg-server that must to be rebuilt via following commands 
+with diff file "xorg-server.diff": 
+$ git clone 
+https://anonscm.debian.org/git/pkg-xorg/xserver/xorg-server.git 
+$ cd xorg-server 
+$ git checkout cbdf27a6dad9533e9811c17cd8722591d4bdb4a6 -b 
+1.17.2-1ubuntu7 
+$ patch -p1 < xorg-server.diff (make sure that mesa.diff is in the 
+xorg-server folder) 
+$ dpkg-buildpackage -uc -us -b -rfakeroot -j4 
+ 
+Removing unnecessary files and only remaining installation files 
+required via following commands.
+
+--- Page 14 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 14 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+$ rm *dbg* 
+$ rm *source* 
+$ rm *.changes 
+$ rm *.udeb 
+$ rm *.dsc 
+ 
+ Entry to compiled .deb files folder and install them via following 
+commands. 
+$ sudo dpkg -i *.deb 
+$ sudo apt-get install -f 
+ 
+  Installation info of xorg-server is in following figure, one of shown 
+version that needs to be installed. 
+ 
+Update version for Ubuntu 
+14.04.3 
+Generated version of Ubuntu 
+14.04.3 
+version 
+Cairo –1.14.2-2 
+Cairo –1.13.0~20140204 
+Install 
+libcairo2-dev_1.14.2-2ubuntu2_am
+d64.deb 
+libcairo-gobject2_1.14.2-2ubuntu2
+_amd64.deb 
+libcairo2-doc_1.14.2-2ubuntu2_am
+d64.deb 
+libcairo2_1.14.2-2ubuntu2_amd64.
+deb 
+libcairo-script-interpreter2_1.14.2-
+2ubuntu2_amd64.deb 
+cairo-perf-utils_1.14.2-2ubuntu2_a
+md64.deb 
+libcairo2-dev_1.13.0~20140204-0ubunt
+u1.1_amd64.deb 
+libcairo-gobject2_1.13.0~20140204-0u
+buntu1.1_amd64.deb 
+libcairo2-doc_1.13.0~20140204-0ubunt
+u1.1_all.deb 
+libcairo2_1.13.0~20140204-0ubuntu1.1
+_amd64.deb 
+libcairo-script-interpreter2_1.13.0~201
+40204-0ubuntu1.1_amd64.deb 
+cairo-perf-utils_1.13.0~20140204-0ubu
+ntu1.1_amd64.deb 
+ 
+  Revert to generated version of xorg-server and download needed files, 
+entry to download folder and run the following commands:   
+$ sudo dpkg –i *.deb 
+$ sudo apt-get install -f 
+ 
+3.3. Reinstall GFX driver
+
+--- Page 15 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 15 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+After executing "liva-graphic.sh", there are some "deb" files in the folder. You 
+can keep these files when reinstalling Ubuntu system at LivaX next time. The 
+commands as following: 
+$ sudo dpkg –i *.deb 
+$ sudo apt-get install -f 
+ 
+3.4. Revert GFX driver 
+There provide the way to revert generated GFX driver. Entry to downloaded 
+script folder and run the script via following commands: 
+$ sudo chmod a+x liva-graphic-e.sh 
+$ ./liva-graphic-e.sh
+
+--- Page 16 ---
+Ubuntu Installation Guide 
+ 
+ 
+Page 16 
+Copyright ©  Elitegroup Computer System. All Rights Reserved 
+LIVAX 
+4.  WiFi/BT driver 
+LivaX use Realtek RTL8723be Wireless and Bluetooth card. You need to install 
+WiFi & BT driver for function working normally on Ubuntu. 
+ 
+The WiFi/BT driver download website as following link :   
+http://www.ecs.com.tw/ECSWebSite/Product/Product_LIVA_DOWNLOAD.aspx
+?DetailID=1593&LanID=0 
+Enter LIVA X download page to download WiFi/BT driver. 
+ 
+4.1. Install / Uninstall WiFi driver 
+a.  Build & install 
+Entry to the WiFi driver directory, and run the following commands: 
+$ make 
+$ sudo make install -s 
+$ sudo modprobe 8723be 
+b.  Uninstall 
+Entry to the WiFi driver directory, and run the following commands: 
+$ sudo make uninstall -s 
+ 
+4.2. Install /Uninstall BT driver 
+a.  Build & install 
+Entry to the Bluetooth driver directory, and run the following commands: 
+$ sudo make install -s 
+$ sudo modprobe rtk_btusb 
+b.  uninstall 
+Entry to the Bluetooth driver directory, and run the following commands: 
+$ sudo make uninstall -s
+

@@ -1,0 +1,922 @@
+Brand: SYSTEM76
+Model: Galago Pro
+URL: https://www.manua.ls/system76/galago-pro/manual
+Total Pages: 30
+============================================================
+
+--- Page 1 ---
+
+
+
+
+
+System76
+Galago Pro (galp2)
+Service manual
+
+
+
+--- Page 2 ---
+
+Revision history
+  Fff d fff f
+
+Author
+Date
+Version
+Remarks
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+1
+
+
+--- Page 3 ---
+
+Contents
+
+Revision history
+Hardware overview
+External overview
+Ports overview
+Bottom case screw sizes
+Front LED overview
+Hardware keyboard shortcuts
+External displays
+Thunderbolt 3 and eGPU
+Internal component overview
+User-serviceable parts and repairs
+Replacing the keyboard
+Steps to replace the keyboard
+Photo guide for keyboard replacement
+Removing the bottom cover
+Steps to remove the cover
+Steps to replace the cover
+Photo guide for bottom cover removal/replacement
+Replacing the RAM
+Steps to replace the RAM
+Photo guide for replacing the RAM
+Replacing an M.2/NVMe SSD
+Steps to replace the M.2 drive
+Replacing a 2.5” SSD/HDD
+Steps to replace the 2.5” drive
+Replacing the CPU fan
+Steps to replace the CPU fan
+Replacing the CPU heatsink/thermal paste
+Steps to replace the CPU heatsink/thermal paste
+Replacing the CMOS battery
+Steps to replace the CMOS battery
+Replacing the internal battery
+Steps to replace the internal battery
+System76 Galago Pro 2 (galp2) Service Manual
+2
+
+
+--- Page 4 ---
+
+Replacing the WiFi/Bluetooth module
+Steps to replace the WiFi/Bluetooth module
+BIOS utilities
+Updating the BIOS
+BIOS overview
+Main menu
+Advanced
+Security
+Boot
+Specifications
+
+
+
+
+
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+3
+
+
+--- Page 5 ---
+
+Hardware overview
+External overview
+Ports overview
+The Galago provides multiple connectivity options.
+
+
+Left side overview
+
+
+Right side overview
+Bottom case screw sizes
+The Galago has 3 sizes of screws for securing the bottom case.
+
+System76 Galago Pro 2 (galp2) Service Manual
+4
+
+
+--- Page 6 ---
+
+Front LED overview
+
+
+Icon
+Color
+Description
+
+Orange
+DC power plugged in
+Green
+Computer is on
+Blinking green
+Computer is sleeping
+
+Orange
+Battery charging
+Green
+Battery fully charged
+Blinking orange
+Battery critically low
+
+Green
+Airplane mode is ON
+(WiFi/Bluetooth disabled)
+
+Green
+Hard disk activity
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+5
+
+
+--- Page 7 ---
+
+Hardware keyboard shortcuts
+Your Galago has several actions available using the Fn and Function keys.
+
+Key
+Shortcut
+Action
+
+Fn+F1
+Toggle trackpad
+
+Fn+F2
+Toggle built-in LCD
+
+Fn+F3
+Mute
+
+Fn+F4
+Toggle keyboard backlight
+
+Fn+F5
+Volume down
+
+Fn+F6
+Volume up
+
+Fn+F7
+Toggle displays
+
+Fn+F8
+Brightness down
+
+Fn+F9
+Brightness up
+
+Fn+F10
+Toggle webcam
+
+Fn+F11
+Toggle airplane mode
+
+Fn+F12
+Suspend
+
+Fn+`
+Play/Pause
+
+Fn+1
+Toggle fan between max/automatic
+
+Fn+Ins
+Num Lock
+
+Fn+Del
+Scroll Lock
+
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+6
+
+
+--- Page 8 ---
+
+External displays
+Aside from the standard Mini DisplayPort (MiniDP) and HDMI, the Galago also supports
+MiniDP over USB-C and external GPU (eGPU) support over Thunderbolt 3.
+
+You can switch between MiniDP or USB-C, but you cannot use both simultaneously.
+To switch between MiniDP and USB-C display modes:
+1. Reboot the Galago and hold the F2 key
+2. At the Setup Utility, select the Advanced tab
+3. Select Advanced Chipset Control
+4. Change the DDI setting according to the table below
+5. Press F4 to save changes and reboot
+
+Mode
+DDI Setting
+Max resolution
+MiniDP
+DDI to MiniDP
+UHD-1 (4K, 2160P)
+3840x2160 @60Hz
+HDMI
+None
+UHD-1 (4K, 2160P)
+3840x2160 @30Hz
+USB-C to DisplayPort
+DDI to TBT
+UHD-1 (4K, 2160P)
+3840x2160 @60Hz
+USB-C to HDMI
+DDI to TBT
+UHD-1 (4K, 2160P)
+3840x2160 @30Hz
+eGPU over Thunderbolt 3
+DDI to TBT
+(Dependent on GPU)
+Thunderbolt 3 and eGPU
+Intel Thunderbolt 3 provides a direct link to the processor over PCIe 3.0 x4 at 40Gbps,
+making it ideal for external GPU (eGPU) support. To use an eGPU, Thunderbolt Security
+Option must be set to Legacy Mode in the BIOS.
+
+When using an eGPU, the device must be connected prior to powering on and only
+disconnected after fully powering down. eGPU devices are currently NOT hot-plug
+capable. Unplugging the device will not damage the Galago or the eGPU, but the system
+will not work properly until a reboot.
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+7
+
+
+--- Page 9 ---
+
+Internal component overview
+Below is a color-coded diagram of the Galago’s internal components.
+
+
+
+CPU fan is highlighted in cyan
+CMOS battery is highlighted in red
+RAM is highlighted in green
+M.2 SSD is highlighted in orange
+Wireless/Bluetooth module is highlighted in purple
+2.5” SSD (not present) is highlighted in blue
+Battery is highlighted in white
+
+
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+8
+
+
+--- Page 10 ---
+
+User-serviceable parts and repairs
+Many components on your Galago can be upgraded or replaced as necessary. Follow
+these step-by-step guides for instructions.
+Replacing the keyboard
+Keyboard replacement is simple and requires only a cross-head screwdriver.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 10 minutes
+Difficulty: Low
+Screws: 2 total
+- 2 large M2, black (Keyboard M2)
+Steps to replace the keyboard
+Photos are provided in order below these steps.
+1. Find a surface suitable for work. A desk or table works well.
+2. Place something soft on the table, like a towel or anti-static mat.
+3. Place the Galago lid-side-down.
+4. Remove the 2 keyboard screws, indicated by the small keyboard icon.
+5. Open the Galago and place it on its side.
+6. Push the screwdriver into the keyboard push point until the keyboard pops out.
+7. Set the Galago down, then starting from the top side, pull the keyboard loose.
+8.  Flip the keyboard over onto the trackpad.
+9.  Pull the large ribbon cable out of the connector.
+10. The small ribbon cable has a latch. Gently pull the latch from both sides and
+remove the ribbon cable.
+11. Remove the keyboard and replace it with the new one.
+12. Insert the large ribbon cable into the connector.
+13. Seat the small ribbon cable, then apply pressure equally to both sides of the
+connector to secure.
+14. Flip the keyboard over and press the bottom tabs of the keyboard into the case.
+15. Secure the keyboard by pressing down on the edges of the keyboard.
+16. Flip the Galago over.
+17. Replace the 2 screws holding the keyboard in place.
+18. Boot your Galago and confirm the keyboard is operational.
+System76 Galago Pro 2 (galp2) Service Manual
+9
+
+
+--- Page 11 ---
+
+Photo guide for keyboard replacement
+1. Galago lid-side-down. The 2 keyboard screws are highlighted in red, with the blue
+highlight indicating the keyboard push point.
+
+2. Galago on its side with screwdriver in keyboard push point.
+
+
+
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+10
+
+
+--- Page 12 ---
+
+3. Set the Galago down and remove the keyboard starting along the top edge.
+
+4. Flip the keyboard over and rest it on the trackpad. Pull the large ribbon cable out of
+the connector. The smaller ribbon cable has a latch. Gently pull it forward to release the
+connector, then remove the ribbon cable.
+
+
+
+System76 Galago Pro 2 (galp2) Service Manual
+11
+
+
+--- Page 13 ---
+
+
+Removing the bottom cover
+Removing the cover is required to access the internal components. Prior to removing
+the cover, ensure the AC power is unplugged, and all peripherals (including SD cards
+and USB drives) are unplugged or removed from the system.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 10 minutes
+Difficulty: Medium
+Screws: 15 total:
+- 10 small M2 perimeter, black
+- 2 large M2 keyboard, black
+- 3 small/short M2 under keyboard, silver
+Steps to remove the cover
+Photos are provided in order below these steps.
+1. Find a surface suitable for work. A desk or table works well.
+2. Place something soft on the table, like a towel or anti-static mat.
+3. Place the Galago lid-side-down.
+4. Remove the 10 ‘perimeter’ screws.
+5. Remove the 2 keyboard screws, indicated by the small keyboard icon.
+6. Open the Galago and place it on its side.
+7. Push the screwdriver into the keyboard push point until the keyboard pops out.
+8. Set the Galago down.
+9. Starting from the top side, pull the keyboard loose.
+10. Flip the keyboard over onto the trackpad.
+11. Remove the 3 silver screws holding the bottom case in place.
+12. Partially replace the keyboard, but don’t snap it into place.
+13. Close the lid and flip the Galago lid-side-down again.
+14. The bottom cover will lift off, starting from the front corners working to the back
+near the hinges.
+Steps to replace the cover
+1. Align the bottom cover to the case towards the back and hinges.
+2. Set the bottom cover along the edges and confirm the bottom cover is seated.
+3. Replace the 10 perimeter screws.
+System76 Galago Pro 2 (galp2) Service Manual
+12
+
+
+--- Page 14 ---
+
+4. Flip the Galago and replace the 3 silver screws from under the keyboard.
+5. Replace the keyboard by inserting the tabs into the bottom edge near the
+trackpad and press around the edges of the keyboard to ensure it is fully
+snapped into place.
+6. Flip the Galago and replace the 2 keyboard screws.
+Photo guide for bottom cover removal/replacement
+1. Galago lid-side-down. The 10 perimeter screws are highlighted in green. The 2
+keyboard screws are highlighted in red, with the blue highlight indicating the keyboard
+push point.
+
+2. Galago on its side with screwdriver in keyboard push point. Push until the keyboard
+has popped out. This requires a solid amount of force.
+
+
+System76 Galago Pro 2 (galp2) Service Manual
+13
+
+
+--- Page 15 ---
+
+3. Once the corner of the keyboard has popped, pull along the top edge of the keyboard
+to unseat it entirely.
+
+4. Flip over the keyboard and remove the 3 silver screws. Their location is highlighted in
+blue. (Note: In this photo, the screws have already been removed.)
+
+
+
+System76 Galago Pro 2 (galp2) Service Manual
+14
+
+
+--- Page 16 ---
+
+5. Set the keyboard mostly in place, close the lid, and flip the Galago lid-side-down.
+
+6. Starting near the front corner, lift the bottom cover off the Galago.
+
+System76 Galago Pro 2 (galp2) Service Manual
+15
+
+
+--- Page 17 ---
+
+Replacing the RAM
+RAM acts as temporary storage for your computer. More RAM generally provides better
+performance. If you’ve purchased new RAM, need to replace your RAM, or are reseating
+your RAM, follow these steps.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 15 minutes
+Difficulty: Medium
+Steps to replace the RAM
+1. Follow the steps above to remove the cover.
+2. Press the small tabs on both sides of the RAM simultaneously.
+3. Remove the RAM from the slot.
+4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot
+and pressing down on the RAM until it clicks into place.
+Photo guide for replacing the RAM
+1. Press the tabs indicated in red to release the RAM from the slot.
+
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+16
+
+
+--- Page 18 ---
+
+Replacing an M.2/NVMe SSD
+M.2 SSDs offer, at minimum, SATA3 speeds and performance in a package about the
+size of a stick of gum. NVMe M.2 SSDs offer even higher performance. The Galago
+supports one M.2 SSD, size 2280, either SATA or PCIe Generation 3.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the M.2 drive
+1. Follow the steps above to remove the cover.
+2. Locate the M.2 drive (or drive slot).
+3. Unscrew the retainer screw opposite the M.2 slot.
+4. Remove the existing M.2 drive by pulling it out of the slot.
+5. Insert the new M.2 drive into the slot and hold it in place.
+6. Replace the retainer screw.
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+17
+
+
+--- Page 19 ---
+
+Replacing a 2.5” SSD/HDD
+2.5” drives are available as either SSD (Solid State Drive) or HDD (Hard Disk Drive.) SSDs
+provide much better performance and durability compared to standard HDDs since
+there are no moving parts. Standard HDDs are less expensive and are useful for storage,
+however they are much more fragile.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the 2.5” drive
+1. Follow the steps above to remove the cover.
+2. Locate the 2.5” SSD (or slot).
+3. Remove the existing drive by pulling it up and away from the connector.
+4. Insert the new 2.5” drive.
+5. Ensure the 2.5” drive is secured in the slot and does not move.
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+18
+
+
+--- Page 20 ---
+
+Replacing the CPU fan
+If the CPU fan becomes noisy and cleaning it out doesn’t fix the issue, you may need a
+new CPU fan. Contact Support to start a warranty claim or parts purchase.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the CPU fan
+1. Follow the steps above to remove the cover.
+2. Locate the CPU fan.
+3. Unplug the CPU fan from the motherboard.
+4. Remove the 2 screws holding the CPU fan in place.
+5. Remove the CPU fan.
+6. Insert the new CPU fan.
+7. Replace the 2 screws.
+8. Plug the new CPU fan into the motherboard.
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+19
+
+
+--- Page 21 ---
+
+Replacing the CPU heatsink/thermal paste
+In rare cases, or after several years, it may be necessary to apply new thermal paste
+between the CPU and the heatsink. Thermal paste helps facilitate effective heat transfer
+between the CPU and the cooling equipment. These instructions can also be used in the
+unlikely event your heatsink needs replacing.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: High
+Steps to replace the CPU heatsink/thermal paste
+1. Follow the steps above to remove the cover.
+2. Locate the CPU heatsink screws.
+3. Remove the screws, starting with #3, then #2, and lastly #1.
+4. Carefully remove the heatsink from the case.
+5. Using a paper towel, remove the existing thermal paste. You may also use a
+small amount of rubbing alcohol to remove excess or difficult-to-remove paste.
+6. After cleaning the CPU and heatsink, apply a small line of thermal paste directly
+onto the CPU core.
+7. Carefully replace the heatsink.
+8. Replace the screws, starting with #1, then #2, and lastly #3. Do not fully tighten
+#1 and #2 until #3 is in place, then fully tighten all screws.
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+20
+
+
+--- Page 22 ---
+
+Replacing the CMOS battery
+The CMOS battery supplies power to the Galago’s CMOS chip. Changes you make to the
+BIOS and the computer’s hardware clock are stored on the CMOS. If your Galago
+doesn’t boot, you can reset the CMOS to force a low-level hardware reset. If your clock
+is constantly resetting, it’s likely your CMOS battery needs replacing.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the CMOS battery
+1. Follow the steps above to remove the cover.
+2. Locate the CMOS battery. There is a red and black wire connecting the battery to
+a white connector.
+3. Unplug the white connector for 1 minute, then reseat the connector.
+4. Power up the Galago. The system may power itself off and on after initial boot,
+this is normal.
+5. Press Enter at the CMOS/BIOS reset message prompts.
+6. If you are booted into the BIOS, press F4 to load defaults, then F10 to save and
+resume normal boot.
+
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+21
+
+
+--- Page 23 ---
+
+Replacing the internal battery
+The battery provides primary power whenever the system is unplugged.
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the internal battery
+1. Follow the steps above to remove the cover.
+2. Unplug the white connector above the battery.
+3. Remove the 5 screws holding the battery in place.
+4. Remove and replace the battery.
+5. Replace the 5 screws and plug in the battery. 
+System76 Galago Pro 2 (galp2) Service Manual
+22
+
+
+--- Page 24 ---
+
+Replacing the WiFi/Bluetooth module
+Your Galago’s WiFi and Bluetooth are both handled with the same module. It is a
+standard M.2 2230 slot with PCIe & USB Interfaces (A Key).
+
+
+Tools required: Cross-head (Phillips) screwdriver
+Time estimate: 5 minutes
+Difficulty: Medium
+Steps to replace the WiFi/Bluetooth module
+1. Follow the steps above to remove the cover.
+2. Locate the wireless module.
+3. Gently remove the two antennas by pulling them up and away from the wireless
+module.
+4. Remove the retaining screw opposite the M.2 slot.
+5. Remove the wireless module from the slot.
+6. Insert the new wireless module.
+7. Replace the retaining screw.
+8. Attach the two antennas by aligning the circular fitting and pressing onto the
+wireless card. The connector will snap into place. Use caution when attaching
+the connectors, the pins can bend, break, or snap.
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+23
+
+
+--- Page 25 ---
+
+BIOS utilities
+When starting your Galago, it takes a few seconds to conduct a quick check of the
+components. As it proceeds, it will notify you if anything is wrong. Any issues that
+prevent the system from booting will be displayed and you will be prompted to enter the
+Setup. If no problems are detected, your Galago will load GRUB and then Ubuntu.
+
+For Setup/BIOS, hold F2 while booting.
+For boot options, hold F7 while booting and choose your preferred boot device.
+Updating the BIOS
+BIOS updates and instructions are sent out as needed. System76 will notify you if a
+BIOS update is available for your Galago.
+BIOS overview
+The Setup/BIOS utility allows you to make low-level changes to your Galago. It’s not
+recommended to make changes unless the settings are provided by Support, or if you
+understand what you’re changing.
+Main menu
+Option
+Description
+SATA Port #
+Pressing Enter opens the sub-menu to show the
+configuration of a SATA device on the SATA ports.
+OffBoard SATA/NVMe
+Controller Configuration
+Pressing Enter opens the sub-menu to show the
+configuration of any devices on the offboard SATA/NVMe
+controller, if installed.
+System Date/Time
+Set the system date/time using the hardware clock.
+System/Extended
+Memory
+Information on the amount of RAM installed.
+ME FW/
+MB Series/
+BIOS Version/
+KB/EC Firmware Rev.
+Information on the BIOS version(s) and network adapter
+address.
+
+System76 Galago Pro 2 (galp2) Service Manual
+24
+
+
+--- Page 26 ---
+
+Advanced
+Option
+Description
+Advanced Chipset
+Control
+Options for VT-d, FlexiCharger, SGX, Fast Boot, DDI Control
+> VT-d
+Enable/disable Intel Virtualization Technology for Directed
+I/O. Extends Intel Virtualization Technology (VT) by
+providing hardware assets for virtual hypervisors.
+> FlexiCharger
+The sub-menu here allows you to enable/disable the
+FlexiCharger. The FlexiCharger can be set to automatically
+start charging your battery when the battery reaches
+a certain capacity level (e.g. you could start the battery
+charge level at 40%).
+
+You can then set the level to stop charging (e.g. 100%), but
+the stop charge level must be higher than the start charge
+level. It is not recommended to enable FlexiCharger for
+extended periods of time.
+> SW Guard Extensions
+Enable or disable Intel SGX (Software Guard Extensions.)
+> Fast Boot
+Enables or disables boot with initialization of a minimal set
+of devices required to launch the active boot option. This
+has no effect for BBS boot options.
+> DDI Control
+Determines the Digital Display Interface (DDI) output mode.
+Can be set to MiniDP (mDP) or Thunderbolt (TBT).
+Intel(R) Thunderbolt
+Options for the Thunderbolt 3 bus.
+> Thunderbolt Support
+Enable or disable support for Thunderbolt 3.
+> Security Level
+Determines if the Thunderbolt port is allowed to send data
+or only video. Options are Legacy Mode (allow all data
+transfer), Unique ID or One Time Saved Key, and
+DisplayPort++ Only.
+SATA Mode
+The SATA (Serial ATA) controller is designed to operate in
+AHCI (Advanced Host Controller Interface) mode only.
+Power on boot beep
+Enable/disable a beep as the computer starts up.
+Battery low alarm beep
+Enable/disable a beep when the battery is critically low.
+System76 Galago Pro 2 (galp2) Service Manual
+25
+
+
+--- Page 27 ---
+
+Security
+Option
+Description
+Set Supervisor
+Password
+Sets a password for the Setup Utility. This does not affect
+access to the computer or Ubuntu, only the BIOS.
+Set User Password
+Sets a password for the Setup Utility. This does not affect
+access to the computer or Ubuntu, only the BIOS and boot
+menu.
+Password on Boot
+Specify whether or not a password should be entered to
+boot the computer. If “Enabled” is selected, only users who
+enter a correct password can boot the system. The
+password cannot be reset or cleared if forgotten.
+
+Secure Boot
+Enables support for Secure Boot. This is not recommended
+or required for Ubuntu.
+
+Boot
+Option
+Description
+Boot Option Priorities
+Determine the boot order for system devices. Boot option
+#1 will be tried first. It’s recommended to set your boot
+drive as the 1st option and use the F7 key when
+temporarily booting from an external device or PXE
+booting.
+UEFI Boot
+Set options for UEFI (Unified Extensible Firmware
+Interface) booting.
+> UEFI Boot
+Enable or disable UEFI booting. Disabling UEFI booting will
+switch the system to Legacy BIOS boot mode. Note that if
+an EFI-based OS is installed, it will no longer boot in BIOS
+mode. If a BIOS-based OS is installed, it will no longer boot
+in UEFI mode.
+> Network Stack
+Enable or disable support for Intel PXE network boot.
+> Ipv4 PXE Support
+Allow PXE booting using IPv4.
+> Ipv6 PXE Support
+Allow PXE booting using IPv6.
+ 
+System76 Galago Pro 2 (galp2) Service Manual
+26
+
+
+--- Page 28 ---
+
+Specifications
+
+Component
+Specification
+Processors
+Intel® CoreTM i7-7500U (2.7GHz)
+4MB Smart Cache, 14nm (14 Nanometer),
+DDR4-2133MHz, TDP 15W
+
+Intel® CoreTM i5-7200U (2.5GHz)
+4MB Smart Cache, 14nm (14 Nanometer),
+DDR4-2133MHz, TDP 15W
+Display
+13.3” HiDPI 3200 x 1800 Backlit display
+Memory
+Dual Channel DDR4
+
+Two 260 Pin SO-DIMM Sockets
+Supporting DDR4 2133 MHz Memory
+Modules (real operational frequency
+depends on the FSB of the processor)
+
+Memory Expandable up to 32GB
+Compatible with 4GB, 8GB or 16GB
+Modules
+Graphics
+Intel® HD Graphics 620
+Dynamic Frequency
+Intel Dynamic Video Memory Technology
+
+Storage
+One Changeable 2.5" / 7.0 mm (h) HDD/
+SSD with SATA (Serial) Interface
+
+One M.2 SSD 2280, SATA/PCIe Gen 3*4
+Interface
+Audio
+High Definition Audio Interface
+Built-In Stereo Microphone
+2 Stereo Built-In Speakers
+
+
+System76 Galago Pro 2 (galp2) Service Manual
+27
+
+
+--- Page 29 ---
+
+Component
+Specification
+Touchpad & Keyboard
+ClickPad with Multi-
+Gesture and Scrolling Functionality
+
+A4 Size Isolated Keyboard
+Webcam
+720p HD Video Camera Module with
+USB interface
+Interfaces
+Two USB 3.0 (USB 3.1 Gen 1) Port (Type-A)
+One USB 3.0 (USB 3.1 Gen 1/Thunderbolt 3) Port (Type-C)
+One HDMI-Out (High-Definition
+Multimedia Interface) Port (with HDCP)
+One Mini DisplayPort
+One Microphone-In Jack
+One RJ-45 LAN Jack
+One DC-In Jack
+One Headphone-Out Jack
+Card reader
+Embedded Multi-In-1 Card Reader
+- MMC/ RS MMC
+- SD/ Mini SD / SDHC/ SDXC
+M.2 Slots
+Two M.2 Card Slots:
+
+Slot 1 for M.2 2230 WLAN Combo Module
+with PCIe & USB Interfaces (A Key)
+
+Slot 2 for SSD M.2 2280 Card with SATA
+/ PCIe Gen 3*4 Interface (M Key)
+Network
+Built-In 10/100/1000Mb Base-TX Ethernet LAN
+
+Intel® Dual Band Wireless-AC 8265
+(2*2 802.11 a/c) WLAN + Bluetooth M.2
+2230 Combo Module (867Mbps)
+
+Intel® Dual Band Wireless-AC 3168
+(1*1 802.11 a/c) WLAN + Bluetooth M.2
+2230 Combo Module (433Mbps)
+
+
+
+System76 Galago Pro 2 (galp2) Service Manual
+28
+
+
+--- Page 30 ---
+
+Component
+Specification
+Power and battery
+Full Range AC/DC Adapter
+AC input 100 - 240V, 50 - 60Hz,
+DC Output 19V, 2.1A (40 Watts)
+
+Embedded 4 Cell Smart Lithium Ion
+Battery Pack 35.3WH
+Security
+Security (Kensington® Type) Lock Slot
+BIOS Password
+Trusted Platform Module 2.0 (disabled by default)
+Operating System
+Ubuntu Linux
+Indicators
+LED Indicators - Power/Suspend, Battery, HDD, Airplane
+Mode, Camera
+Environmental
+Temperature
+Operating: 5°C - 35°C
+Non-operating: -20°C - 60°C
+
+Relative humidity
+Operating: 20% - 80%
+Non-operating: 10% - 90%
+Dimensions & Weight
+12.98” x 8.86” x 0.56”
+32.96 x 22.50 x 1.42cm
+2.87lbs, 1.3kg base weight, varies with configuration.
+
+
+System76 Galago Pro 2 (galp2) Service Manual
+29
+
+
