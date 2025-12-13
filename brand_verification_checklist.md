@@ -125,7 +125,6 @@ These 17 brands exist in the cache but were not in your verification list:
 14. PANASONIC
 15. SAMSUNG
 16. SONY
-17. TOSHIBA
 
 ---
 

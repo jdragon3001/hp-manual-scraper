@@ -1,0 +1,71 @@
+# Manual scraper ignores
+
+# Downloaded manuals
+downloads/
+
+# Progress and cache files
+progress/
+partial_content/
+manual_urls_cache.json
+manual_urls_cache_backup.json
+savingsache.json
+playwright_progress.json
+progress.json
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Playwright
+.rate_limit_lock
+
+# Test files
+test_*.png
+test_*.pdf
+network_requests_log.json
+*.zip
+
+# OCR test outputs
+ocr_test_output*.txt
+
+# Analysis/evaluation outputs
+*_analysis.txt
+evaluation_results.txt
+
